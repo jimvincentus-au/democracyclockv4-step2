@@ -6,8 +6,8 @@ from __future__ import annotations
 from pathlib import Path
 
 # ── Project structure ────────────────────────────────────────────────────────────
-# Base project folder (Python modules live here; ALL artifacts go under /artifacts)
-BASE_DIR: Path = Path("/Users/jimvincent/Printify Project/Democracy Clock V4")
+# Base project folder (Step 2 project root; ALL artifacts go under /artifacts)
+BASE_DIR: Path = Path(__file__).resolve().parent
 
 # Root folder for generated files (JSON, event logs, etc.)
 ARTIFACTS_ROOT: Path = BASE_DIR / "artifacts"          # helper_v4.create_artifact_paths() writes under this
