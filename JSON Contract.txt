@@ -1,0 +1,98 @@
+Perfect. Below is the authoritative schema contract for all deterministic harvesters in The Democracy Clock Project – Phase 1 (Ballotpedia Orders, Ballotpedia Shadow, Congress, Federal Register, etc.).
+
+This schema guarantees cross-harvester compatibility for Step 2 → Step 3 ingestion and downstream LLM enrichment.
+
+⸻
+
+🧾 Deterministic Harvester Schema Contract (v4.1)
+
+🏛 Top-Level Object
+
+Each harvester writes a JSON file shaped as follows:
+
+{
+  "source": "ballotpedia_orders",
+  "entity_type": "index_list_item",
+  "window": {
+    "start": "2025-01-20",
+    "end": "2025-04-27"
+  },
+  "count": 72,
+  "window_stats": {
+    "total": 328,
+    "kept_after_filter": 72,
+    "kept_after_dedup": 72,
+    "outside": 256,
+    "nodate": 0,
+    "no_title": 0,
+    "no_url": 0
+  },
+  "entities": [ { …entity objects … } ]
+}
+
+Key	Type	Required	Description
+source	string	✅	Internal harvester ID (e.g., ballotpedia_orders)
+entity_type	string	✅	Fixed string "index_list_item"
+window.start	string (YYYY-MM-DD)	✅	Inclusive start date of harvest window
+window.end	string (YYYY-MM-DD)	✅	Inclusive end date of harvest window
+count	integer	✅	Count of entities after filter & dedupe
+window_stats	object	✅	Counts for diagnostic traceability
+entities	array of objects	✅	Core entity records (see below)
+
+
+⸻
+
+📚 Entity Object Schema
+
+Each record in entities[] represents one deterministic event.
+
+{
+  "source": "Ballotpedia",
+  "doc_type": "executive_order",
+  "title": "Executive Order 101 – Reinstating Federal Ethics Standards",
+  "url": "https://ballotpedia.org/Executive_Order_101",
+  "canonical_url": "https://ballotpedia.org/Executive_Order_101",
+  "summary_url": "",
+  "summary": "",
+  "summary_origin": "",
+  "summary_timestamp": "",
+  "post_date": "2025-02-03",
+  "raw_line": "Executive Order 101 (Reinstating Federal Ethics Standards) – February 3, 2025"
+}
+
+Field	Type	Required	Example	Description
+source	string	✅	"Ballotpedia"	Human-readable source label
+doc_type	string	✅	"executive_order" / "proclamation" / "shadow_docket"	Category of document
+title	string	✅	"Executive Order 101 – Reinstating Federal Ethics Standards"	Item title or case name
+url	string (URL)	✅	"https://ballotpedia.org/Executive_Order_101"	Primary reference link
+canonical_url	string (URL)	✅	"https://ballotpedia.org/Executive_Order_101"	Stable canonical reference
+summary_url	string (URL or “”)	✅	"https://ballotpedia.org/...#Case_Anchor" or ""	Link to on-page summary (if any)
+summary	string	✅	"" or populated during enrichment	Text summary of the event
+summary_origin	string	✅	"llm" / "ballotpedia_anchor" / ""	Provenance of summary
+summary_timestamp	string (ISO datetime or “”)	✅	"2025-10-21T06:15:00Z"	When summary was generated
+post_date	string (YYYY-MM-DD)	✅	"2025-02-03"	Event/publication date
+raw_line	string	✅	"Executive Order 101 (Reinstating Federal Ethics Standards) – February 3, 2025"	Source text for audit/debug
+
+
+⸻
+
+🧩 Uniform Behavior Requirements
+
+Rule	Description
+Date Handling	All dates must be ISO YYYY-MM-DD.
+String Normalization	Collapse whitespace; max 500 chars for raw_line.
+Deduplication	By canonical_url preserving first appearance order.
+Summary Placeholders	Always include summary* fields – even if empty.
+Encoding	UTF-8 without BOM.
+Top-level Consistency	The same keys and order across all harvesters.
+
+
+⸻
+
+📘 Notes
+	•	Non-deterministic harvesters (Zeteo, Meidas, HCR) will use the same envelope but entities[] represent articles (entities) rather than discrete events.
+	•	Future projects (Attacks, Elections) can extend each record under an enrich namespace without breaking compatibility.
+
+⸻
+
+Would you like me to generate a machine-readable .jsonschema file (for validation and test harnesses) from this contract?

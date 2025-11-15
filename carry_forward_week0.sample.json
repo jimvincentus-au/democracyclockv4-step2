@@ -1,0 +1,73 @@
+{
+  "version": "4.0",
+  "period": {
+    "label": "Biden I (2021-01-20 \u2013 2025-01-19)",
+    "start": "2021-01-20",
+    "end": "2025-01-19"
+  },
+  "week": {
+    "number": 0,
+    "start": "2025-01-13",
+    "end": "2025-01-19",
+    "baseline_of": "Biden I"
+  },
+  "policy": {
+    "presence_bounds": {
+      "min": 0,
+      "max": 12
+    },
+    "difficulty_rule": "max",
+    "notes": "Carry-forward is the locked absolute state (P,D) used as the baseline for Step 3 deltas next week."
+  },
+  "categories": [
+    {
+      "name": "Power and Authority",
+      "index": 1
+    },
+    {
+      "name": "Institutions and Governance",
+      "index": 2
+    },
+    {
+      "name": "Economic Structure",
+      "index": 3
+    },
+    {
+      "name": "Civil Rights and Dissent",
+      "index": 4
+    },
+    {
+      "name": "Information, Memory, and Manipulation",
+      "index": 5
+    }
+  ],
+  "traits": [
+    {
+      "trait_id": "exec_no_oversight",
+      "trait_number": 1,
+      "trait_name": "Executive power operates without effective oversight",
+      "category": "Power and Authority",
+      "category_index": 1,
+      "presence": 9.4,
+      "difficulty": 1.6,
+      "clamped": {
+        "presence": false,
+        "difficulty": false
+      },
+      "notes": "Baseline example; replace with validated value."
+    }
+  ],
+  "totals": {
+    "presence_sum": 0.0,
+    "difficulty_sum": 0.0,
+    "minutes_past_noon": 0.0,
+    "grand_total_max": 720
+  },
+  "provenance": {
+    "generated_at": "2025-11-04T22:28:30.414152Z",
+    "generator": "step4_v4.py",
+    "source_traits_file": "traits_v4.json",
+    "source_movement_file": "eventjson/traits_movement_week00.json",
+    "hash": "sha1:placeholder"
+  }
+}

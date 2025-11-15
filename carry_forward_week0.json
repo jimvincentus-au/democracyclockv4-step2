@@ -1,0 +1,899 @@
+{
+  "version": "4.0",
+  "period": {
+    "label": "Biden I (2021-01-20 \u2013 2025-01-19)",
+    "start": "2021-01-20",
+    "end": "2025-01-19"
+  },
+  "week": {
+    "number": 0,
+    "start": "2025-01-13",
+    "end": "2025-01-19",
+    "baseline_of": "Biden I"
+  },
+  "policy": {
+    "presence_bounds": {
+      "min": 0,
+      "max": 10
+    },
+    "difficulty_rule": "max",
+    "notes": "Week 0 baseline calibrated for four years of runway."
+  },
+  "categories": [
+    {
+      "name": "Power and Authority",
+      "index": 1
+    },
+    {
+      "name": "Institutions and Governance",
+      "index": 2
+    },
+    {
+      "name": "Economic Structure",
+      "index": 3
+    },
+    {
+      "name": "Civil Rights and Dissent",
+      "index": 4
+    },
+    {
+      "name": "Information, Memory, and Manipulation",
+      "index": 5
+    }
+  ],
+  "traits": [
+    {
+      "trait_id": "executive_power_operates_without_effective_oversight",
+      "trait_number": 1,
+      "trait_name": "Executive power operates without effective oversight",
+      "category": "Power and Authority",
+      "category_index": 1,
+      "presence": 7.2,
+      "difficulty": 1.3,
+      "clamped": {
+        "presence": false,
+        "difficulty": false
+      },
+      "notes": ""
+    },
+    {
+      "trait_id": "emergency_powers_are_normalized_and_permanent",
+      "trait_number": 2,
+      "trait_name": "Emergency powers are normalized and permanent",
+      "category": "Power and Authority",
+      "category_index": 1,
+      "presence": 6.8,
+      "difficulty": 1.4,
+      "clamped": {
+        "presence": false,
+        "difficulty": false
+      },
+      "notes": ""
+    },
+    {
+      "trait_id": "government_bypasses_ordinary_legal_processes",
+      "trait_number": 3,
+      "trait_name": "Government bypasses ordinary legal processes",
+      "category": "Power and Authority",
+      "category_index": 1,
+      "presence": 6.5,
+      "difficulty": 1.3,
+      "clamped": {
+        "presence": false,
+        "difficulty": false
+      },
+      "notes": ""
+    },
+    {
+      "trait_id": "rule_by_decree_executive_orders_substitute_for_statute",
+      "trait_number": 4,
+      "trait_name": "Rule by decree / executive orders substitute for statute",
+      "category": "Power and Authority",
+      "category_index": 1,
+      "presence": 5.8,
+      "difficulty": 1.4,
+      "clamped": {
+        "presence": false,
+        "difficulty": false
+      },
+      "notes": ""
+    },
+    {
+      "trait_id": "elections_manipulated_or_suppressed",
+      "trait_number": 5,
+      "trait_name": "Elections manipulated or suppressed",
+      "category": "Power and Authority",
+      "category_index": 1,
+      "presence": 7.0,
+      "difficulty": 1.5,
+      "clamped": {
+        "presence": false,
+        "difficulty": false
+      },
+      "notes": ""
+    },
+    {
+      "trait_id": "militarization_of_domestic_policing",
+      "trait_number": 6,
+      "trait_name": "Militarization of domestic policing",
+      "category": "Power and Authority",
+      "category_index": 1,
+      "presence": 8.0,
+      "difficulty": 1.8,
+      "clamped": {
+        "presence": false,
+        "difficulty": false
+      },
+      "notes": ""
+    },
+    {
+      "trait_id": "government_bypasses_the_legislature",
+      "trait_number": 7,
+      "trait_name": "Government bypasses the legislature",
+      "category": "Power and Authority",
+      "category_index": 1,
+      "presence": 6.2,
+      "difficulty": 1.4,
+      "clamped": {
+        "presence": false,
+        "difficulty": false
+      },
+      "notes": ""
+    },
+    {
+      "trait_id": "persecution_of_political_opponents",
+      "trait_number": 8,
+      "trait_name": "Persecution of political opponents",
+      "category": "Power and Authority",
+      "category_index": 1,
+      "presence": 5.1,
+      "difficulty": 1.4,
+      "clamped": {
+        "presence": false,
+        "difficulty": false
+      },
+      "notes": ""
+    },
+    {
+      "trait_id": "centralized_loyalty_screening",
+      "trait_number": 9,
+      "trait_name": "Centralized loyalty screening",
+      "category": "Power and Authority",
+      "category_index": 1,
+      "presence": 5.0,
+      "difficulty": 1.2,
+      "clamped": {
+        "presence": false,
+        "difficulty": false
+      },
+      "notes": ""
+    },
+    {
+      "trait_id": "centralized_white_house_direction_over_agencies",
+      "trait_number": 10,
+      "trait_name": "Centralized White House direction over agencies",
+      "category": "Power and Authority",
+      "category_index": 1,
+      "presence": 6.0,
+      "difficulty": 1.3,
+      "clamped": {
+        "presence": false,
+        "difficulty": false
+      },
+      "notes": ""
+    },
+    {
+      "trait_id": "policy_volatility_via_acting_officials",
+      "trait_number": 11,
+      "trait_name": "Policy volatility via acting officials",
+      "category": "Power and Authority",
+      "category_index": 1,
+      "presence": 4.3,
+      "difficulty": 1.4,
+      "clamped": {
+        "presence": false,
+        "difficulty": false
+      },
+      "notes": ""
+    },
+    {
+      "trait_id": "personalized_command_culture",
+      "trait_number": 12,
+      "trait_name": "Personalized command culture",
+      "category": "Power and Authority",
+      "category_index": 1,
+      "presence": 5.5,
+      "difficulty": 1.2,
+      "clamped": {
+        "presence": false,
+        "difficulty": false
+      },
+      "notes": ""
+    },
+    {
+      "trait_id": "courts_aligned_with_regime_or_donor_preference",
+      "trait_number": 13,
+      "trait_name": "Courts aligned with regime or donor preference",
+      "category": "Institutions and Governance",
+      "category_index": 2,
+      "presence": 8.8,
+      "difficulty": 1.9,
+      "clamped": {
+        "presence": false,
+        "difficulty": false
+      },
+      "notes": ""
+    },
+    {
+      "trait_id": "entrenchment_of_minority_rule",
+      "trait_number": 14,
+      "trait_name": "Entrenchment of minority rule",
+      "category": "Institutions and Governance",
+      "category_index": 2,
+      "presence": 8.2,
+      "difficulty": 1.9,
+      "clamped": {
+        "presence": false,
+        "difficulty": false
+      },
+      "notes": ""
+    },
+    {
+      "trait_id": "legitimate_transitions_treated_as_illegitimate",
+      "trait_number": 15,
+      "trait_name": "Legitimate transitions treated as illegitimate",
+      "category": "Institutions and Governance",
+      "category_index": 2,
+      "presence": 4.8,
+      "difficulty": 0.9,
+      "clamped": {
+        "presence": false,
+        "difficulty": false
+      },
+      "notes": ""
+    },
+    {
+      "trait_id": "checks_and_oversight_undermined",
+      "trait_number": 16,
+      "trait_name": "Checks and oversight undermined",
+      "category": "Institutions and Governance",
+      "category_index": 2,
+      "presence": 5.2,
+      "difficulty": 1.5,
+      "clamped": {
+        "presence": false,
+        "difficulty": false
+      },
+      "notes": ""
+    },
+    {
+      "trait_id": "anti_democratic_ideology_in_practice",
+      "trait_number": 17,
+      "trait_name": "Anti\u2011democratic ideology in practice",
+      "category": "Institutions and Governance",
+      "category_index": 2,
+      "presence": 5.6,
+      "difficulty": 1.3,
+      "clamped": {
+        "presence": false,
+        "difficulty": false
+      },
+      "notes": ""
+    },
+    {
+      "trait_id": "institutions_paralyzed_by_dysfunction",
+      "trait_number": 18,
+      "trait_name": "Institutions paralyzed by dysfunction",
+      "category": "Institutions and Governance",
+      "category_index": 2,
+      "presence": 4.2,
+      "difficulty": 1.0,
+      "clamped": {
+        "presence": false,
+        "difficulty": false
+      },
+      "notes": ""
+    },
+    {
+      "trait_id": "watchdogs_politicized_or_removed",
+      "trait_number": 19,
+      "trait_name": "Watchdogs politicized or removed",
+      "category": "Institutions and Governance",
+      "category_index": 2,
+      "presence": 3.2,
+      "difficulty": 1.4,
+      "clamped": {
+        "presence": false,
+        "difficulty": false
+      },
+      "notes": ""
+    },
+    {
+      "trait_id": "secrecy_and_opacity",
+      "trait_number": 20,
+      "trait_name": "Secrecy and opacity",
+      "category": "Institutions and Governance",
+      "category_index": 2,
+      "presence": 4.9,
+      "difficulty": 1.4,
+      "clamped": {
+        "presence": false,
+        "difficulty": false
+      },
+      "notes": ""
+    },
+    {
+      "trait_id": "stratified_legal_status",
+      "trait_number": 21,
+      "trait_name": "Stratified legal status",
+      "category": "Institutions and Governance",
+      "category_index": 2,
+      "presence": 6.2,
+      "difficulty": 1.4,
+      "clamped": {
+        "presence": false,
+        "difficulty": false
+      },
+      "notes": ""
+    },
+    {
+      "trait_id": "rights_contingent_on_loyalty_or_viewpoint",
+      "trait_number": 22,
+      "trait_name": "Rights contingent on loyalty or viewpoint",
+      "category": "Institutions and Governance",
+      "category_index": 2,
+      "presence": 6.4,
+      "difficulty": 1.5,
+      "clamped": {
+        "presence": false,
+        "difficulty": false
+      },
+      "notes": ""
+    },
+    {
+      "trait_id": "constitutional_rights_ignored_systemically",
+      "trait_number": 23,
+      "trait_name": "Constitutional rights ignored systemically",
+      "category": "Institutions and Governance",
+      "category_index": 2,
+      "presence": 7.6,
+      "difficulty": 1.7,
+      "clamped": {
+        "presence": false,
+        "difficulty": false
+      },
+      "notes": ""
+    },
+    {
+      "trait_id": "dissent_criminalized_with_vague_statutes",
+      "trait_number": 24,
+      "trait_name": "Dissent criminalized with vague statutes",
+      "category": "Institutions and Governance",
+      "category_index": 2,
+      "presence": 5.6,
+      "difficulty": 1.5,
+      "clamped": {
+        "presence": false,
+        "difficulty": false
+      },
+      "notes": ""
+    },
+    {
+      "trait_id": "state_power_is_outsourced_to_unaccountable_private_contractors",
+      "trait_number": 25,
+      "trait_name": "State power is outsourced to unaccountable private contractors",
+      "category": "Institutions and Governance",
+      "category_index": 2,
+      "presence": 6.6,
+      "difficulty": 1.6,
+      "clamped": {
+        "presence": false,
+        "difficulty": false
+      },
+      "notes": ""
+    },
+    {
+      "trait_id": "policy_outcomes_driven_by_elite_lobbying_and_money",
+      "trait_number": 26,
+      "trait_name": "Policy outcomes driven by elite lobbying and money",
+      "category": "Economic Structure",
+      "category_index": 3,
+      "presence": 7.6,
+      "difficulty": 1.6,
+      "clamped": {
+        "presence": false,
+        "difficulty": false
+      },
+      "notes": ""
+    },
+    {
+      "trait_id": "access_to_lawmakers_is_bought",
+      "trait_number": 27,
+      "trait_name": "Access to lawmakers is bought",
+      "category": "Economic Structure",
+      "category_index": 3,
+      "presence": 7.4,
+      "difficulty": 1.6,
+      "clamped": {
+        "presence": false,
+        "difficulty": false
+      },
+      "notes": ""
+    },
+    {
+      "trait_id": "regulators_drawn_from_the_industries_they_police",
+      "trait_number": 28,
+      "trait_name": "Regulators drawn from the industries they police",
+      "category": "Economic Structure",
+      "category_index": 3,
+      "presence": 7.0,
+      "difficulty": 1.5,
+      "clamped": {
+        "presence": false,
+        "difficulty": false
+      },
+      "notes": ""
+    },
+    {
+      "trait_id": "wealth_buys_not_only_speech_but_law",
+      "trait_number": 29,
+      "trait_name": "Wealth buys not only speech, but law",
+      "category": "Economic Structure",
+      "category_index": 3,
+      "presence": 7.2,
+      "difficulty": 1.6,
+      "clamped": {
+        "presence": false,
+        "difficulty": false
+      },
+      "notes": ""
+    },
+    {
+      "trait_id": "entire_industries_shielded_from_accountability",
+      "trait_number": 30,
+      "trait_name": "Entire industries shielded from accountability",
+      "category": "Economic Structure",
+      "category_index": 3,
+      "presence": 6.8,
+      "difficulty": 1.5,
+      "clamped": {
+        "presence": false,
+        "difficulty": false
+      },
+      "notes": ""
+    },
+    {
+      "trait_id": "public_goods_privatized_for_profit",
+      "trait_number": 31,
+      "trait_name": "Public goods privatized for profit",
+      "category": "Economic Structure",
+      "category_index": 3,
+      "presence": 5.8,
+      "difficulty": 1.3,
+      "clamped": {
+        "presence": false,
+        "difficulty": false
+      },
+      "notes": ""
+    },
+    {
+      "trait_id": "tax_codes_engineered_to_favor_capital_over_labor",
+      "trait_number": 32,
+      "trait_name": "Tax codes engineered to favor capital over labor",
+      "category": "Economic Structure",
+      "category_index": 3,
+      "presence": 7.1,
+      "difficulty": 1.6,
+      "clamped": {
+        "presence": false,
+        "difficulty": false
+      },
+      "notes": ""
+    },
+    {
+      "trait_id": "financial_crimes_by_elites_go_unpunished",
+      "trait_number": 33,
+      "trait_name": "Financial crimes by elites go unpunished",
+      "category": "Economic Structure",
+      "category_index": 3,
+      "presence": 6.9,
+      "difficulty": 1.6,
+      "clamped": {
+        "presence": false,
+        "difficulty": false
+      },
+      "notes": ""
+    },
+    {
+      "trait_id": "economic_monopolies_tolerated_or_encouraged",
+      "trait_number": 34,
+      "trait_name": "Economic monopolies tolerated or encouraged",
+      "category": "Economic Structure",
+      "category_index": 3,
+      "presence": 6.8,
+      "difficulty": 1.5,
+      "clamped": {
+        "presence": false,
+        "difficulty": false
+      },
+      "notes": ""
+    },
+    {
+      "trait_id": "labor_protections_eroded",
+      "trait_number": 35,
+      "trait_name": "Labor protections eroded",
+      "category": "Economic Structure",
+      "category_index": 3,
+      "presence": 6.5,
+      "difficulty": 1.4,
+      "clamped": {
+        "presence": false,
+        "difficulty": false
+      },
+      "notes": ""
+    },
+    {
+      "trait_id": "inequality_treated_as_functional",
+      "trait_number": 36,
+      "trait_name": "Inequality treated as functional",
+      "category": "Economic Structure",
+      "category_index": 3,
+      "presence": 7.6,
+      "difficulty": 1.6,
+      "clamped": {
+        "presence": false,
+        "difficulty": false
+      },
+      "notes": ""
+    },
+    {
+      "trait_id": "public_bears_risk_elites_keep_reward",
+      "trait_number": 37,
+      "trait_name": "Public bears risk; elites keep reward",
+      "category": "Economic Structure",
+      "category_index": 3,
+      "presence": 7.2,
+      "difficulty": 1.6,
+      "clamped": {
+        "presence": false,
+        "difficulty": false
+      },
+      "notes": ""
+    },
+    {
+      "trait_id": "crony_capitalism_indistinguishable_from_governance",
+      "trait_number": 38,
+      "trait_name": "Crony capitalism indistinguishable from governance",
+      "category": "Economic Structure",
+      "category_index": 3,
+      "presence": 7.4,
+      "difficulty": 1.7,
+      "clamped": {
+        "presence": false,
+        "difficulty": false
+      },
+      "notes": ""
+    },
+    {
+      "trait_id": "economic_data_massaged_or_ignored",
+      "trait_number": 39,
+      "trait_name": "Economic data massaged or ignored",
+      "category": "Economic Structure",
+      "category_index": 3,
+      "presence": 5.4,
+      "difficulty": 1.2,
+      "clamped": {
+        "presence": false,
+        "difficulty": false
+      },
+      "notes": ""
+    },
+    {
+      "trait_id": "crisis_becomes_profit_opportunity_for_insiders",
+      "trait_number": 40,
+      "trait_name": "Crisis becomes profit opportunity for insiders",
+      "category": "Economic Structure",
+      "category_index": 3,
+      "presence": 6.2,
+      "difficulty": 1.5,
+      "clamped": {
+        "presence": false,
+        "difficulty": false
+      },
+      "notes": ""
+    },
+    {
+      "trait_id": "protest_rights_abridged_via_zoning_and_permits",
+      "trait_number": 41,
+      "trait_name": "Protest rights abridged via zoning and permits",
+      "category": "Civil Rights and Dissent",
+      "category_index": 4,
+      "presence": 5.4,
+      "difficulty": 1.3,
+      "clamped": {
+        "presence": false,
+        "difficulty": false
+      },
+      "notes": ""
+    },
+    {
+      "trait_id": "journalists_investigating_elites_are_surveilled_or_smeared",
+      "trait_number": 42,
+      "trait_name": "Journalists investigating elites are surveilled or smeared",
+      "category": "Civil Rights and Dissent",
+      "category_index": 4,
+      "presence": 5.6,
+      "difficulty": 1.4,
+      "clamped": {
+        "presence": false,
+        "difficulty": false
+      },
+      "notes": ""
+    },
+    {
+      "trait_id": "independent_media_starved_state_aligned_outlets_thrive",
+      "trait_number": 43,
+      "trait_name": "Independent media starved; state\u2011aligned outlets thrive",
+      "category": "Civil Rights and Dissent",
+      "category_index": 4,
+      "presence": 6.0,
+      "difficulty": 1.5,
+      "clamped": {
+        "presence": false,
+        "difficulty": false
+      },
+      "notes": ""
+    },
+    {
+      "trait_id": "universities_pressured_to_suppress_dissent",
+      "trait_number": 44,
+      "trait_name": "Universities pressured to suppress dissent",
+      "category": "Civil Rights and Dissent",
+      "category_index": 4,
+      "presence": 4.8,
+      "difficulty": 1.2,
+      "clamped": {
+        "presence": false,
+        "difficulty": false
+      },
+      "notes": ""
+    },
+    {
+      "trait_id": "voter_suppression_rationalized_as_integrity",
+      "trait_number": 45,
+      "trait_name": "Voter suppression rationalized as integrity",
+      "category": "Civil Rights and Dissent",
+      "category_index": 4,
+      "presence": 6.8,
+      "difficulty": 1.6,
+      "clamped": {
+        "presence": false,
+        "difficulty": false
+      },
+      "notes": ""
+    },
+    {
+      "trait_id": "mass_surveillance_of_citizens_elite_crimes_opaque",
+      "trait_number": 46,
+      "trait_name": "Mass surveillance of citizens; elite crimes opaque",
+      "category": "Civil Rights and Dissent",
+      "category_index": 4,
+      "presence": 7.8,
+      "difficulty": 1.8,
+      "clamped": {
+        "presence": false,
+        "difficulty": false
+      },
+      "notes": ""
+    },
+    {
+      "trait_id": "citizenship_stratified_by_wealth_ideology_heritage",
+      "trait_number": 47,
+      "trait_name": "Citizenship stratified by wealth, ideology, heritage",
+      "category": "Civil Rights and Dissent",
+      "category_index": 4,
+      "presence": 6.2,
+      "difficulty": 1.5,
+      "clamped": {
+        "presence": false,
+        "difficulty": false
+      },
+      "notes": ""
+    },
+    {
+      "trait_id": "religion_co_opted_as_tool_of_legitimacy",
+      "trait_number": 48,
+      "trait_name": "Religion co\u2011opted as tool of legitimacy",
+      "category": "Civil Rights and Dissent",
+      "category_index": 4,
+      "presence": 5.2,
+      "difficulty": 1.3,
+      "clamped": {
+        "presence": false,
+        "difficulty": false
+      },
+      "notes": ""
+    },
+    {
+      "trait_id": "dissenters_labeled_unpatriotic_or_corrupt",
+      "trait_number": 49,
+      "trait_name": "Dissenters labeled unpatriotic or corrupt",
+      "category": "Civil Rights and Dissent",
+      "category_index": 4,
+      "presence": 5.6,
+      "difficulty": 1.4,
+      "clamped": {
+        "presence": false,
+        "difficulty": false
+      },
+      "notes": ""
+    },
+    {
+      "trait_id": "paramilitary_violence_tolerated_for_regime_ends",
+      "trait_number": 50,
+      "trait_name": "Paramilitary violence tolerated for regime ends",
+      "category": "Civil Rights and Dissent",
+      "category_index": 4,
+      "presence": 5.8,
+      "difficulty": 1.6,
+      "clamped": {
+        "presence": false,
+        "difficulty": false
+      },
+      "notes": ""
+    },
+    {
+      "trait_id": "crimes_by_elite_donors_or_allies_concealed",
+      "trait_number": 51,
+      "trait_name": "Crimes by elite donors or allies concealed",
+      "category": "Civil Rights and Dissent",
+      "category_index": 4,
+      "presence": 6.9,
+      "difficulty": 1.7,
+      "clamped": {
+        "presence": false,
+        "difficulty": false
+      },
+      "notes": ""
+    },
+    {
+      "trait_id": "elections_flooded_with_disinformation_by_elite_actors",
+      "trait_number": 52,
+      "trait_name": "Elections flooded with disinformation by elite actors",
+      "category": "Information, Memory, and Manipulation",
+      "category_index": 5,
+      "presence": 7.2,
+      "difficulty": 1.6,
+      "clamped": {
+        "presence": false,
+        "difficulty": false
+      },
+      "notes": ""
+    },
+    {
+      "trait_id": "chaos_used_strategically_to_disable_accountability",
+      "trait_number": 53,
+      "trait_name": "Chaos used strategically to disable accountability",
+      "category": "Information, Memory, and Manipulation",
+      "category_index": 5,
+      "presence": 6.4,
+      "difficulty": 1.5,
+      "clamped": {
+        "presence": false,
+        "difficulty": false
+      },
+      "notes": ""
+    },
+    {
+      "trait_id": "data_and_algorithms_used_to_manipulate_the_public",
+      "trait_number": 54,
+      "trait_name": "Data and algorithms used to manipulate the public",
+      "category": "Information, Memory, and Manipulation",
+      "category_index": 5,
+      "presence": 6.6,
+      "difficulty": 1.6,
+      "clamped": {
+        "presence": false,
+        "difficulty": false
+      },
+      "notes": ""
+    },
+    {
+      "trait_id": "civic_education_hollowed_out_and_marketized",
+      "trait_number": 55,
+      "trait_name": "Civic education hollowed out and marketized",
+      "category": "Information, Memory, and Manipulation",
+      "category_index": 5,
+      "presence": 5.6,
+      "difficulty": 1.3,
+      "clamped": {
+        "presence": false,
+        "difficulty": false
+      },
+      "notes": ""
+    },
+    {
+      "trait_id": "national_history_rewritten_to_glorify_conquest",
+      "trait_number": 56,
+      "trait_name": "National history rewritten to glorify conquest",
+      "category": "Information, Memory, and Manipulation",
+      "category_index": 5,
+      "presence": 5.4,
+      "difficulty": 1.3,
+      "clamped": {
+        "presence": false,
+        "difficulty": false
+      },
+      "notes": ""
+    },
+    {
+      "trait_id": "textbooks_and_museums_altered_to_erase_dissent",
+      "trait_number": 57,
+      "trait_name": "Textbooks and museums altered to erase dissent",
+      "category": "Information, Memory, and Manipulation",
+      "category_index": 5,
+      "presence": 5.1,
+      "difficulty": 1.3,
+      "clamped": {
+        "presence": false,
+        "difficulty": false
+      },
+      "notes": ""
+    },
+    {
+      "trait_id": "government_archives_sealed_sanitized_or_destroyed",
+      "trait_number": 58,
+      "trait_name": "Government archives sealed, sanitized, or destroyed",
+      "category": "Information, Memory, and Manipulation",
+      "category_index": 5,
+      "presence": 5.2,
+      "difficulty": 1.4,
+      "clamped": {
+        "presence": false,
+        "difficulty": false
+      },
+      "notes": ""
+    },
+    {
+      "trait_id": "records_and_memorials_of_disfavored_leaders_removed_without_process",
+      "trait_number": 59,
+      "trait_name": "Records and memorials of disfavored leaders removed without process",
+      "category": "Information, Memory, and Manipulation",
+      "category_index": 5,
+      "presence": 5.0,
+      "difficulty": 1.3,
+      "clamped": {
+        "presence": false,
+        "difficulty": false
+      },
+      "notes": ""
+    },
+    {
+      "trait_id": "power_curates_memory_what_it_cannot_control_is_erased",
+      "trait_number": 60,
+      "trait_name": "Power curates memory; what it cannot control is erased",
+      "category": "Information, Memory, and Manipulation",
+      "category_index": 5,
+      "presence": 6.0,
+      "difficulty": 1.5,
+      "clamped": {
+        "presence": false,
+        "difficulty": false
+      },
+      "notes": ""
+    }
+  ],
+  "totals": {
+    "presence_sum": 372.2,
+    "difficulty_sum": 87.5,
+    "minutes_past_noon": 459.7,
+    "grand_total_max": 720
+  },
+  "provenance": {
+    "generated_at": "2025-11-04T22:57:42.136424Z",
+    "generator": "carry_forward_week0_builder.py",
+    "source_traits_file": "traits_v4.json",
+    "source_movement_file": "eventjson/traits_movement_week00.json",
+    "hash": "sha1:placeholder"
+  }
+}

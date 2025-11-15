@@ -1,0 +1,115 @@
+{
+  "version": "4.0",
+  "week": {
+    "number": 40,
+    "start": "2025-10-18",
+    "end": "2025-10-24"
+  },
+  "inputs": {
+    "carry_forward_baseline_week": 39,
+    "weekly_events_file": "eventjson/master_index_week40_2025-10-18_2025-10-24.json"
+  },
+  "policy": {
+    "difficulty_rule": "max",
+    "include_zero_deltas": false,
+    "clamp": {
+      "presence_min": 0,
+      "presence_max": 12
+    }
+  },
+  "categories": [
+    {
+      "name": "Power and Authority",
+      "index": 1,
+      "traits": [
+        {
+          "trait_id": "exec_no_oversight",
+          "trait_number": 1,
+          "trait_name": "Executive power operates without effective oversight",
+          "delta_presence": 0.4,
+          "difficulty_abs": 1.9,
+          "clamped": {
+            "presence": false,
+            "difficulty": false
+          },
+          "justification": {
+            "events_summary": "Prolonged shutdown entered ninth week; Senate inaction ceded control to White House via selective agency reopenings and funding discretion.",
+            "impact_statement": "Executive impoundment authority effectively unchallenged."
+          },
+          "links": {
+            "event_ids": [
+              "sha1:abc",
+              "sha1:def"
+            ],
+            "sources": [
+              "Guardian US news",
+              "Federal Register"
+            ]
+          },
+          "mapping": {
+            "method": "rule",
+            "confidence": 0.86
+          }
+        },
+        {
+          "trait_id": "law_as_weapon",
+          "trait_number": 4,
+          "trait_name": "Law is a weapon of the state, not a limit on its power",
+          "delta_presence": 0.2,
+          "difficulty_abs": 1.8,
+          "clamped": {
+            "presence": false,
+            "difficulty": false
+          },
+          "justification": {
+            "events_summary": "ICE and DHS expanded arrest operations amid shutdown; enforcement framed as 'order maintenance'.",
+            "impact_statement": "Use of law as coercive instrument strengthened."
+          },
+          "links": {
+            "event_ids": [
+              "sha1:ghi"
+            ],
+            "sources": [
+              "DHS releases",
+              "Meidas bulletin"
+            ]
+          },
+          "mapping": {
+            "method": "hybrid",
+            "confidence": 0.78
+          }
+        }
+      ]
+    }
+  ],
+  "rollups": {
+    "totals": {
+      "delta_presence_sum": 5.0,
+      "difficulty_abs_sum": 22.0
+    },
+    "by_category": [
+      {
+        "category": "Power and Authority",
+        "delta_presence_sum": 1.3,
+        "traits_moved": 5
+      }
+    ]
+  },
+  "sanity_checks": {
+    "event_density_ok": true,
+    "category_coverage_ok": true,
+    "suspicious_absences": [],
+    "difficulty_calibration_note": "Incremental D rises confined to structural entrenchments.",
+    "event_coverage_note": "Every Week 40 event mapped to \u22651 trait.",
+    "arithmetic_check": {
+      "delta_presence_sum": 5.0,
+      "difficulty_abs_sum": 22.0
+    },
+    "cross_week_consistency_note": "Advances Week 39 trends; no reversals detected."
+  },
+  "provenance": {
+    "generated_at": "2025-11-04T22:23:13.605794Z",
+    "generator": "step3_v4.py",
+    "hash": "sha1:placeholder"
+  }
+}
