@@ -346,21 +346,59 @@ def fetch_article_text(url: str, timeout: int = 30) -> Tuple[str, int]:
 # OpenAI call
 # -----------------------------------------------------------------------------
 
-def call_openai(messages: List[Dict], *, model: str, temperature: float, max_tokens: int) -> Tuple[str, Optional[str]]:
+def call_openai(
+    messages: List[Dict],
+    *,
+    model: str,
+    temperature: float,
+    max_tokens: int
+) -> Tuple[str, Optional[str]]:
+    """
+    Unified OpenAI call that works for both legacy chat models (max_tokens)
+    and newer reasoning/5.x models (max_completion_tokens).
+    """
     api_key = os.getenv("OPENAI_API_KEY")
     if not api_key:
         raise RuntimeError("OPENAI_API_KEY is not set.")
+
     client = OpenAI(api_key=api_key)
-    resp = client.chat.completions.create(
-        model=model,
-        temperature=temperature,
-        max_tokens=max_tokens,
-        messages=messages,
-    )
+
+    # Decide which token-length parameter to use
+    def _needs_max_completion_tokens(m: str) -> bool:
+        """
+        Heuristic: gpt-5.* and modern reasoning models use `max_completion_tokens`
+        instead of `max_tokens` on the Chat Completions endpoint.
+        Extend this if you start using other reasoning models (o3, o4, o1, etc).
+        """
+        m = (m or "").lower()
+        return (
+            m.startswith("gpt-5")   # e.g. gpt-5.1, gpt-5.1-mini
+            or m.startswith("o3")
+            or m.startswith("o4")
+            or m.startswith("o1")
+        )
+
+    params: Dict[str, Any] = {
+        "model": model,
+        "temperature": temperature,
+        "messages": messages,
+    }
+
+    if max_tokens is not None:
+        if _needs_max_completion_tokens(model):
+            # Newer / reasoning models
+            params["max_completion_tokens"] = max_tokens
+        else:
+            # Legacy / non-reasoning chat models
+            params["max_tokens"] = max_tokens
+
+    resp = client.chat.completions.create(**params)
+
     choice = resp.choices[0]
     text = (choice.message.content or "").strip()
     # Some SDKs expose finish_reason directly; keep defensive fallback
     finish_reason = getattr(choice, "finish_reason", None)
+
     return text, finish_reason
 
 
@@ -465,7 +503,7 @@ def extract_events_from_url(
     4) Write artifacts based on policy (defaults to failures-only)
     5) Return raw LLM text (unaltered)
     """
-    model = model or os.getenv("OPENAI_MODEL_EVENTS", "gpt-4o-mini")
+    model = model or os.getenv("OPENAI_MODEL_EVENTS", "gpt-4o")
     temperature = 0.0 if temperature is None else temperature
     max_tokens = max_tokens or 6000
 
@@ -655,7 +693,7 @@ def extract_events_from_text(
     if not (text or "").strip():
         return "(no text to extract)"
 
-    model = model or os.getenv("OPENAI_MODEL_EVENTS", "gpt-4o-mini")
+    model = model or os.getenv("OPENAI_MODEL_EVENTS", "gpt-4o")
     temperature = 0.0 if temperature is None else temperature
     max_tokens = max_tokens or 6000
 
