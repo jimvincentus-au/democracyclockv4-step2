@@ -424,20 +424,36 @@ def _extract_table_html_and_links(html: str, logger) -> Tuple[pd.DataFrame, List
                              i, (rec['Case Name'] or "")[:80], url, rec["Last Update"])
 
         if kept:
-            logger.info("DOM Strategy parsed %d kept rows with link & last-update (total tr seen=%d).",
-                        kept, len(trs))
-        if kept >= 200:
-            # Good enough; return now.
-            df = _pd.DataFrame.from_records(records, columns=[
-                "Case Name", "Filings", "Date Case Filed", "Case Status",
-                "Last Update", "Case Summary", "Case Updates"
-            ])
+            logger.info(
+                "DOM Strategy parsed %d kept rows with link & last-update (total tr seen=%d).",
+                kept,
+                len(trs),
+            )
+            if kept < 200:
+                logger.warning(
+                    "DOM Strategy kept only %d rows (<200). Proceeding with DOM results; "
+                    "skipping pandas fallback (tracker may be smaller in current era).",
+                    kept,
+                )
+
+            df = _pd.DataFrame.from_records(
+                records,
+                columns=[
+                    "Case Name",
+                    "Filings",
+                    "Date Case Filed",
+                    "Case Status",
+                    "Last Update",
+                    "Case Summary",
+                    "Case Updates",
+                ],
+            )
             if kept < 350:
-                logger.warning("Parsed fewer than expected rows (kept=%d; expected ≈≥ 400).", kept)
+                logger.warning(
+                    "Parsed fewer than expected rows (kept=%d; expected ≈≥ 400).",
+                    kept,
+                )
             return df, urls
-        else:
-            logger.warning("DOM Strategy kept only %d rows (<200) — likely server-side pagination. "
-                           "Falling back to pandas strategy.", kept)
 
     # -------------------------
     # Strategy B: pandas.read_html + link alignment

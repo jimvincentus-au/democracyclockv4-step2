@@ -295,6 +295,72 @@ def _entity_from_item(item: Dict[str, Any]) -> Dict[str, Any]:
     }
 
 
+def _looks_trivial(item: Dict[str, Any]) -> bool:
+    """
+    Heuristic filter for clearly non-democracy-relevant soft news that can still
+    slip through the us-news + governance-title gates. We aggressively drop:
+      - international / general weather stories
+      - sports results / game previews
+      - celebrity / entertainment pieces
+      - pure business/markets announcements
+      - lightweight congressional chatter with no action
+      - administrative filings with no substantive effect
+    This is intentionally conservative and keyed mainly on title/section signals.
+    """
+    title = (item.get("webTitle") or "").strip().lower()
+    sec_name = (item.get("sectionName") or "").strip().lower()
+    trail = (item.get("fields", {}) or {}).get("trailText") or ""
+    trail = trail.strip().lower()
+
+    # 1. Weather / natural events that are not tied to policy or government action
+    weather_needles = [
+        "heatwave", "heat wave", "cold snap", "snowstorm", "snow storm",
+        "blizzard", "hailstorm", "hail storm", "wildfire", "bushfire",
+        "bush fire", "hurricane", "cyclone", "tropical storm", "typhoon",
+        "rainfall", "rain storm", "thunderstorm", "floods", "flooding",
+        "record temperatures", "record heat", "record cold",
+    ]
+
+    # 2. Sports results / coverage (guarded to avoid obvious political uses)
+    sports_needles = [
+        "super bowl", "world series", "nba finals", "stanley cup",
+        "playoffs", "quarterfinal", "semi-final", "semifinal", "final match",
+        "championship game", "bowl game",
+        "nfl ", "nba ", "mlb ", "nhl ", "ncaa ", "march madness",
+    ]
+
+    # 3. Celebrity / entertainment signals
+    celeb_needles = [
+        "actor", "actress", "singer", "comedian", "musician", "rapper",
+        "celebrity", "hollywood", "oscars", "academy awards", "emmys",
+        "grammys", "golden globes", "film festival",
+    ]
+
+    # 4. Pure business / markets / earnings
+    business_needles = [
+        "quarterly earnings", "q1 earnings", "q2 earnings", "q3 earnings", "q4 earnings",
+        "earnings report", "results beat expectations", "results miss expectations",
+        "ipo", "initial public offering", "stock surges", "stock falls",
+        "shares rise", "shares fall", "share price", "market value",
+        "market cap", "dividend", "buyback", "buy-back", "merger talks",
+    ]
+
+    haystack = f"{title} {trail}"
+    # Section-level hints: if Guardian ever routes business/sports into us-news
+    if any(tok in sec_name for tok in ("sport", "business", "culture")):
+        return True
+
+    if any(word in haystack for word in weather_needles):
+        return True
+    if any(word in haystack for word in sports_needles):
+        return True
+    if any(word in haystack for word in celeb_needles):
+        return True
+    if any(word in haystack for word in business_needles):
+        return True
+
+    return False
+
 def _filter_window_keep(item: Dict[str, Any], start: str, end: str) -> bool:
     """
     Even though the API is windowed, keep a defensive check on date bounds,
@@ -314,6 +380,8 @@ def _filter_window_keep(item: Dict[str, Any], start: str, end: str) -> bool:
     if not _is_us_news(item):
         return False
     if "/us-news/" not in ((item.get("webUrl") or "").lower()):
+        return False
+    if _looks_trivial(item):
         return False
     d = _iso_date(item.get("webPublicationDate") or "")
     if (d < start) or (d > end):

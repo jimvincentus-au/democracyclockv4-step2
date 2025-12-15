@@ -11,7 +11,7 @@ from collections import Counter, defaultdict
 from dataclasses import dataclass
 from datetime import date, timedelta, datetime
 from pathlib import Path
-from typing import Dict, List, Optional, Tuple
+from typing import Any, Dict, List, Optional, Tuple, Set
 
 from config_v4 import ARTIFACTS_ROOT
 from step2_helper_v4 import setup_logger, resolve_date_window
@@ -249,7 +249,7 @@ class EventRow:
     origin_file: str
     origin_index: int
 
-def _norm_event(e: Dict[str, any], source_key: str, origin_file: str, idx: int, strict: bool, logger) -> Optional[EventRow]:
+def _norm_event(e: Dict[str, Any], source_key: str, origin_file: str, idx: int, strict: bool, logger) -> Optional[EventRow]:
     """
     Accepts a single event dict from Step-2 JSON and returns a normalized EventRow or None.
     Required fields for writer: date (can be ""), title, summary, category, why, url (can be "").
@@ -515,8 +515,11 @@ def main() -> int:
     out_idx.write_text(json.dumps(idx_payload, ensure_ascii=False, indent=2), encoding="utf-8")
     logger.info("Wrote Master Index JSON: %s", out_idx)
 
-    # Also emit per-week event JSON files for Democracy Clock Step 3 (if window spans multiple weeks)
-    # Group normalized rows by DC week number
+    # Also emit per-week event JSON files for Democracy Clock Step 3.
+    # Group normalized rows by DC week number, but only write files for the
+    # DC week(s) actually covered by the requested date window. This prevents
+    # a run for Week N from overwriting prior Week (N-1) files when some
+    # sources reference earlier events.
     week_groups: Dict[int, List[EventRow]] = {}
     week_bounds: Dict[int, Tuple[date, date]] = {}
     for ev in all_rows:
@@ -529,9 +532,27 @@ def main() -> int:
         week_groups.setdefault(wnum, []).append(ev)
         week_bounds[wnum] = (wstart, wend)
 
-    if len(week_groups) > 1:
-        # Only split when there is more than one week represented
+    # Determine which DC weeks are actually inside the window [start_d, end_d]
+    window_week_nums: Set[int] = set()
+    cur = start_d
+    while cur <= end_d:
+        wk = dc_week_for(cur)
+        if wk:
+            window_week_nums.add(wk[0])
+        cur += timedelta(days=1)
+
+    if week_groups:
         for wnum in sorted(week_groups.keys()):
+            # Only emit weekly JSON for weeks that intersect the requested date window
+            if wnum not in window_week_nums:
+                logger.info(
+                    "Skipping weekly index for week %02d (outside window %s → %s).",
+                    wnum,
+                    start_iso,
+                    end_iso,
+                )
+                continue
+
             rows = week_groups[wnum]
             wstart, wend = week_bounds[wnum]
             wstart_iso, wend_iso = wstart.isoformat(), wend.isoformat()
