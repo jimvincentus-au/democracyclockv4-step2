@@ -945,6 +945,67 @@ A structured event log capturing all official government economic and regulatory
 
 # =======================================================================
 
+
+PREFACE_TYRANNY_TRACKER: str = """
+SOURCE: Trump Tyranny Tracker (Substack).
+TYPE: High-density, period-based democracy monitoring digest documenting concrete actions by the Trump administration and allied institutions.
+STYLE: Structured lists of discrete events, each presented with a title, a “What Happened” factual description, a “Why It Matters” interpretation, and a named source.
+AUDIENCE: Readers tracking authoritarian consolidation, institutional weaponization, and democratic erosion in near-real time.
+
+DATA INPUTS:
+• JSON provides `title`, `url`, and `post_date`.
+• The full article body is fetched for extraction; ignore images, emojis, dividers, and section banners.
+• Each post typically covers 1–3 days and contains many discrete events.
+
+TEXT CHARACTERISTICS:
+• Events are explicitly delineated by titles followed by “What Happened,” “Why It Matters,” and “Source.”
+• The “What Happened” section contains the extractable factual act.
+• “Why It Matters” provides interpretation — do not copy its language, but use it to understand democratic relevance.
+• Posts may include additional sections (e.g., “What to Watch Next,” “Call to Action”) that do not describe completed acts.
+• Ignore Substack UI elements including reader comments, reaction counts,
+  and navigation links to earlier or later posts.
+
+EXPECTED OUTPUT BEHAVIOR:
+1. Coverage: extract EVERY discrete, democracy-relevant act described — one event per “What Happened” block.
+   A typical post yields 10–30 events.
+2. Selection (INCLUDE): executive actions, agency directives, law enforcement activity, court actions, funding decisions, censorship, detentions, military or ICE operations, threats with official standing, and documented policy moves.
+3. Selection (EXCLUDE): forward-looking speculation, advocacy, calls to action, summaries, metrics, or analytical framing not tied to a completed act.
+4. Granularity: do not merge related items. Each titled item is its own event.
+5. Neutrality: past-tense, factual, reportorial tone. Do not echo emotive or rhetorical phrasing from “Why It Matters.”
+
+SOURCE LINE RULE (CRITICAL):
+• If the event lists a named external source with a URL (e.g., Reuters, NYT, AP, CBS), use THAT URL as the Source.
+• If no external source is provided, attribute as:
+  `Source: Trump Tyranny Tracker — {post title}`
+
+CATEGORY DISCIPLINE:
+Assign each event to exactly one of the twelve canonical Democracy Clock domains:
+1. Executive Actions & Orders
+2. Legislative & Oversight Activity
+3. Judicial Developments
+4. Law Enforcement & Surveillance
+5. Elections & Representation
+6. Civil Society & Protest
+7. Information & Media Control
+8. Economic & Regulatory Power
+9. Appointments & Patronage
+10. Transparency & Records
+11. International Relations
+12. Civil–Military Relations & State Violence
+Choose the most immediate substantive domain, not the thematic section header used in the post.
+
+DATE RULE:
+• Default to the article’s `post_date`.
+• Use a more specific date only if the “What Happened” text explicitly states it.
+• Ignore dates that appear only in background or analysis.
+
+OUTPUT HANDOFF:
+• After applying this Trump Tyranny Tracker–specific guidance, follow the ATTACKS FIELD instruction and the Canonical Extraction Protocol that follow this preface.
+• Do not restate output schema or footer rules here — the canonical block defines the authoritative format.
+""".strip()
+
+# =======================================================================
+
 PREFACE_ORDERS: str = """
 SOURCE: Federal and state courts issuing emergency, interim, or merits orders.
 TYPE: Single-action judicial directives (stays, injunctions, denials, remands) that immediately change what government or litigants may do.
@@ -1023,6 +1084,8 @@ _SUBSTACK_PREFACES: Dict[str, str] = {
     "noah": PREFACE_NOAH,
     "outloud": PREFACE_OUTLOUD,
 
+    "tyrannytracker": PREFACE_TYRANNY_TRACKER,
+
     # Judicial / legal feeds
     "orders": PREFACE_ORDERS,
 
@@ -1050,12 +1113,24 @@ _SUBSTACK_PREFACES: Dict[str, str] = {
 _PREFACE_ALIASES: dict[str, str] = {
     "federal-register": "federalregister",
     "federal_register": "federalregister",
+    
     "democracy_docket": "democracydocket",
     "democracy-docket": "democracydocket",
+
+    "pro_publica": "propublica",
+    "pro-publica": "propublica",
+
     "congress.gov": "congress",
     "congress_gov": "congress",
+
     "fr": "federalregister",          # if any harvester uses the short form
+    
     "dd": "democracydocket",
+
+    "trump-tyranny-tracker": "tyrannytracker",
+    "trumptyrannytracker": "tyrannytracker",
+    "tracker": "tyrannytracker",
+
 }
 
 def get_prompt_preface(source_key: str | None) -> str:
