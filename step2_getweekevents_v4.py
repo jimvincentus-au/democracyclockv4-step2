@@ -20,7 +20,7 @@ HARVESTER_SPECS: Dict[str, Tuple[str, str]] = {
     "orders": ("step2_getballotpedia_order_v4", "run_harvester"),
     "shadow": ("step2_getballotpedia_shadow_v4", "run_harvester"),
     "congress": ("step2_getcongress_v4", "run_harvester"),
-#    "democracydocket": ("step2_getdemocracydocket_v4", "run_harvester"),
+    "democracydocket": ("step2_getdemocracydocket_v5", "run_harvester"),
     "federalregister": ("step2_getfederalregister_v4", "run_harvester"),
     "meidas": ("step2_getmeidas_v4", "run_harvester"),
     "hcr": ("step2_gethcr_v4", "run_harvester"),
@@ -31,7 +31,7 @@ HARVESTER_SPECS: Dict[str, Tuple[str, str]] = {
 #    "econ": ("step2_getecon_v4", "run_harvester"),
     "50501": ("step2_get50501_v4", "run_harvester"),
     "outloud": ("step2_getoutloud_v4", "run_harvester"),
-    "noah": ("step2_getnoah_v4", "run_harvester"),
+    "noah": ("step2_getnoah_v4", "run_harvester")
 }
 
 DEFAULT_HARVESTERS = list(HARVESTER_SPECS.keys())

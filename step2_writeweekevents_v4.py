@@ -134,8 +134,8 @@ def _compute_window(start_str: str, weeks: Optional[int], end_str: Optional[str]
 
 def _parse_args() -> argparse.Namespace:
     ap = argparse.ArgumentParser(description="Democracy Clock V4 — write Master Event Log (TXT) from event JSONs")
-    ap.add_argument("--start", required=True, help="Start date YYYY-MM-DD")
-    grp = ap.add_mutually_exclusive_group(required=True)
+    ap.add_argument("--start", required=False, help="Start date YYYY-MM-DD (ignored with --rebuild-all)")
+    grp = ap.add_mutually_exclusive_group(required=False)
     grp.add_argument("--weeks", type=int, help="Number of weeks (end = start + 7*weeks - 1)")
     grp.add_argument("--end", help="End date YYYY-MM-DD")
     ap.add_argument("--level", default="INFO", help="Logging level (DEBUG, INFO, ...)")
@@ -151,6 +151,11 @@ def _parse_args() -> argparse.Namespace:
     ap.add_argument("--no-header", action="store_true", help="Omit header block in the TXT.")
     ap.add_argument("--no-footer", action="store_true", help="Omit footer rollups in the TXT.")
     ap.add_argument("--week", type=int, help="Week number where week 1 = 2025-01-20..2025-01-24; others Sat–Fri")
+    ap.add_argument(
+        "--rebuild-all",
+        action="store_true",
+        help="Rebuild master and weekly indexes from all existing event JSON files, ignoring date window arguments."
+    )
     return ap.parse_args()
 
 def _want_source(source: str, only: Optional[List[str]], skip: Optional[List[str]]) -> bool:
@@ -170,6 +175,13 @@ def _discover_eventjson_files(root: Path, start: str, end: str) -> List[Path]:
         if pattern.match(p.name):
             files.append(p)
     return sorted(files)
+
+# Helper for rebuild-all mode: discover all *_events_*.json files
+def _discover_all_eventjson_files(root: Path) -> List[Path]:
+    ej = root / "eventjson"
+    if not ej.exists():
+        return []
+    return sorted(p for p in ej.glob("*_events_*.json"))
 
 def _source_from_filename(name: str) -> str:
     # <source>_events_<start>_<end>.json  →  <source>
@@ -405,23 +417,36 @@ def main() -> int:
 
     logger = setup_logger("dc.writer", args.level)
 
-    try:
-        start_d, end_d = resolve_date_window(
-            start=args.start,
-            end=getattr(args, "end", None),
-            weeks=args.weeks,
-            week=getattr(args, "week", None),
-        )
-    except ValueError as ve:
-        logger.error("Invalid date window: %s", ve)
-        return 1
+    if args.rebuild_all:
+        # rebuild-all ignores window args entirely
+        start_d = end_d = None
+    else:
+        if not args.start:
+            logger.error("--start is required unless --rebuild-all is set.")
+            return 1
+        try:
+            start_d, end_d = resolve_date_window(
+                start=args.start,
+                end=getattr(args, "end", None),
+                weeks=args.weeks,
+                week=getattr(args, "week", None),
+            )
+        except ValueError as ve:
+            logger.error("Invalid date window: %s", ve)
+            return 1
 
-    start_iso, end_iso = start_d.isoformat(), end_d.isoformat()
-    logger.info("Write window %s → %s", start_iso, end_iso)
+    if start_d and end_d:
+        start_iso, end_iso = start_d.isoformat(), end_d.isoformat()
+        logger.info("Write window %s → %s", start_iso, end_iso)
+    else:
+        start_iso = end_iso = ""
     logger.info("Artifacts: %s", artifacts)
 
     # Discover candidate eventjson files and filter by only/skip
-    files = _discover_eventjson_files(artifacts, start_iso, end_iso)
+    if args.rebuild_all:
+        files = _discover_all_eventjson_files(artifacts)
+    else:
+        files = _discover_eventjson_files(artifacts, start_iso, end_iso)
     if not files:
         logger.warning("No event JSON files found for window. Expected under %s/eventjson/", artifacts)
     selected_files: List[Tuple[str, Path]] = []  # (source_key, path)
@@ -454,6 +479,17 @@ def main() -> int:
         out_txt.write_text("", encoding="utf-8")
         out_idx.write_text(json.dumps({"window": {"start": start_iso, "end": end_iso}, "events": []}, indent=2), encoding="utf-8")
         return 0
+
+    # If rebuild-all, derive window from all events loaded
+    if args.rebuild_all:
+        dates = [ev.date_obj for ev in all_rows if ev.date_obj]
+        if dates:
+            start_d = min(dates)
+            end_d = max(dates)
+        else:
+            start_d = end_d = date.today()
+        start_iso, end_iso = start_d.isoformat(), end_d.isoformat()
+        logger.info("Derived rebuild window %s → %s", start_iso, end_iso)
 
     # PASS B: Sort
     # Primary: date asc (None → at end)

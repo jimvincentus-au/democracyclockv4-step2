@@ -31,7 +31,7 @@ BUILDER_SPECS: Dict[str, Tuple[str, str]] = {
     "federalregister": ("step2_buildfederalregister_v4", "run_builder"),
     "guardian": ("step2_buildguardian_v4", "run_builder"),
     "econ":     ("step2_buildecon_v4", "run_builder"),
-    "democracydocket": ("builddemocracydocket_v4", "run_builder"),
+    "democracydocket": ("step2_builddemocracydocket_v4", "run_builder"),
     # Non-Substack examples (uncomment when implemented)
     "justsecurity": ("build_justsecurity_events_v4", "run_builder"),
 }

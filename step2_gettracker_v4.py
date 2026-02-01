@@ -1,5 +1,3 @@
-
-
 from __future__ import annotations
 
 import re
@@ -20,7 +18,7 @@ from step2_helper_v4 import (
     write_json,
 )
 
-HARVESTER_ID = "tyrannytracker"
+HARVESTER_ID = "tracker"
 API_URL = "https://trumptyrannytracker.substack.com/api/v1/archive"
 
 BROWSER_HEADERS = {
@@ -264,7 +262,7 @@ def _to_entity_v4(p: Dict[str, Any]) -> Dict[str, Any]:
     post_date = iso if isinstance(iso, str) else (iso.isoformat() if iso else "")
 
     return {
-        "source": "Trump Tyranny Tracker",
+        "source": "tracker",
         "doc_type": "news_article",
         "title": title,
         "url": url,
@@ -274,7 +272,7 @@ def _to_entity_v4(p: Dict[str, Any]) -> Dict[str, Any]:
         "summary_origin": "",
         "summary_timestamp": "",
         "post_date": post_date or "",
-        "raw_line": f"[tyrannytracker] {title} ({post_date or ''})",
+        "raw_line": f"[tracker] {title} ({post_date or ''})",
     }
 
 # ---------------------------------------------------------------------------
@@ -324,7 +322,7 @@ def run_harvester(
                 "title": _title_of(it),
                 "post_date": (it.get("_matched_date") or it.get("post_date") or it.get("published_at") or "")[:10],
                 "doc_type": "news_article",
-                "raw_line": f"[tyrannytracker_raw] {_title_of(it)}",
+                "raw_line": f"[tracker_raw] {_title_of(it)}",
             }
             for it in all_seen
         ],

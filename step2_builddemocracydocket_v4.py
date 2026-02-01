@@ -259,7 +259,7 @@ def run_builder(
 
 def _parse_args() -> argparse.Namespace:
     ap = argparse.ArgumentParser(description="Democracy Clock V4 — Democracy Docket builder (COPY MODE)")
-    ap.add_argument("--source", required=True, help="Use 'democracydocket'")
+    ap.add_argument("--source",default="democracydocket",help="Source name (default: democracydocket)")
     ap.add_argument("--start", required=True)
     ap.add_argument("--end", required=True)
     ap.add_argument("--level", default="INFO")

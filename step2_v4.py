@@ -163,6 +163,9 @@ def main() -> int:
 
     # getweekevents passthroughs
     get_cmd = [sys.executable, args.get_cmd, "--start", start_iso, "--end", end_iso, *common]
+    # Remove "tracker" from --only before passing to get_cmd
+    if args.only:
+        args.only = [x for x in args.only if x != "tracker"]
     if args.only:
         get_cmd += ["--only", *args.only]
     if args.skip:
@@ -170,6 +173,9 @@ def main() -> int:
 
     # buildweekevents passthroughs
     build_cmd = [sys.executable, args.build_cmd, "--start", start_iso, "--end", end_iso, *common]
+    # Remove "tracker" from --only before passing to build_cmd
+    if args.only:
+        args.only = [x for x in args.only if x != "tracker"]
     if args.only:
         build_cmd += ["--only", *args.only]
     if args.skip:
