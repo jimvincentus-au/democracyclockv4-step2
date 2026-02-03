@@ -1,3 +1,8 @@
+SOURCE_DISPLAY_NAMES = {
+    "democracydocket": "Democracy Docket",
+    "zeteo": "Zeteo",
+    "justsecurity": "Just Security",
+}
 #!/usr/bin/env python3
 # writeweekevents_v4.py — Step-3 writer: merge Step-2 event JSONs → Master Event Log (TXT)
 
@@ -279,7 +284,11 @@ def _norm_event(e: Dict[str, Any], source_key: str, origin_file: str, idx: int, 
     category = str(e.get("category") or "").strip()
     why = str(e.get("why_relevant") or e.get("why") or "").strip()
     url = str(e.get("url") or e.get("canonical_url") or "").strip()
-    source_label = str(e.get("publication") or e.get("source") or source_key).strip()
+    source_label = str(
+        e.get("publication")
+        or e.get("source")
+        or SOURCE_DISPLAY_NAMES.get(source_key, source_key)
+    ).strip()
 
     # attacks is optional, but we always normalize to a list
     raw_attacks = e.get("attacks") or []

@@ -1,45 +1,47 @@
 """
 Democracy Docket Step 2 Scraper v5
+
+V5 strategy:
+- Discover article URLs via Democracy Docket sitemap index
+- Restrict to allowed sections (news, analysis, opinion)
+- Use <lastmod> as post_date (YYYY-MM-DD)
+- Filter to requested date window and de-dupe by canonical_url
+- Write raw + filtered artifacts using the V4 contract
+
+Note: Per project decision, we do NOT fetch HTML to extract titles.
+We derive a “good enough” title from the URL slug.
 """
 
-import os
-import sys
+from __future__ import annotations
+
 import logging
 import requests
-from datetime import datetime
-from xml.etree import ElementTree as ET
-from bs4 import BeautifulSoup
-
-# --- V4 infrastructure imports ---
 from pathlib import Path
 from typing import Any, Dict, List, Optional
+from xml.etree import ElementTree as ET
 
+# --- V4 infrastructure imports ---
 from config_v4 import ARTIFACTS_ROOT
 from step2_helper_v4 import (
     setup_logger,
     build_session,
     create_artifact_paths,
     write_json,
-    normalize_ws,
-    canonicalize_url,
     within_window,
 )
 
-# VERSION constant
 VERSION = "v5"
-
 HARVESTER_ID = "democracydocket"
 __all__ = ["run_harvester"]
 
-
 # SITEMAP discovery constants
 DD_SITEMAP_INDEX = "https://www.democracydocket.com/sitemap_index.xml"
-# We harvest the three green-check sitemap families.
-# Note: Democracy Docket includes /analysis/ URLs inside news/opinion sitemaps.
+
+# Allowed sitemap families (NOTE: DD may place /analysis/ URLs inside other sitemaps)
 DD_ALLOWED_SITEMAP_PREFIXES = {
     "news-sitemap": "news",
     "opinion-sitemap": "opinion",
-    "alerts-sitemap": "alerts",
+    "analysis-sitemap": "analysis",
 }
 
 # Headers for requests to avoid 403 errors (browser-identifying)
@@ -52,7 +54,9 @@ DD_HEADERS = {
     "Accept": "application/xml,text/xml;q=0.9,*/*;q=0.8",
 }
 
+
 def title_from_slug(url: str) -> str:
+    """Derive a readable title from the URL slug."""
     if not url:
         return ""
     slug = url.rstrip("/").split("/")[-1]
@@ -61,7 +65,7 @@ def title_from_slug(url: str) -> str:
     return slug.capitalize()
 
 
-def _discover_via_sitemaps(logger) -> List[Dict[str, Any]]:
+def _discover_via_sitemaps(logger: logging.Logger) -> List[Dict[str, Any]]:
     """Discover Democracy Docket URLs via sitemap index + allowed sitemap families."""
     logger.info("Democracy Docket v5: starting sitemap discovery")
 
@@ -79,7 +83,6 @@ def _discover_via_sitemaps(logger) -> List[Dict[str, Any]]:
         logger.error("Could not parse sitemap index XML: %s", ex)
         return []
 
-    # Extract sitemap URLs from index
     sitemap_urls: List[str] = []
     for sitemap in root.findall(".//{*}sitemap"):
         loc_elem = sitemap.find("{*}loc")
@@ -87,7 +90,6 @@ def _discover_via_sitemaps(logger) -> List[Dict[str, Any]]:
         if loc_text:
             sitemap_urls.append(loc_text)
 
-    # Select only the allowed sitemap families (three green-check groups)
     selected_sitemaps: List[tuple[str, str]] = []
     for url in sitemap_urls:
         name = url.rstrip("/").split("/")[-1]
@@ -101,8 +103,9 @@ def _discover_via_sitemaps(logger) -> List[Dict[str, Any]]:
         return []
 
     all_snapshots: List[Dict[str, Any]] = []
-    for sitemap_url, section_name in selected_sitemaps:
-        logger.info("Fetching sitemap for section '%s': %s", section_name, sitemap_url)
+
+    for sitemap_url, sitemap_family in selected_sitemaps:
+        logger.info("Fetching sitemap family '%s': %s", sitemap_family, sitemap_url)
         try:
             resp = requests.get(sitemap_url, headers=DD_HEADERS, timeout=30)
             resp.raise_for_status()
@@ -134,34 +137,32 @@ def _discover_via_sitemaps(logger) -> List[Dict[str, Any]]:
                 logger.debug("Skipping URL due to section filtering: %s", canonical_url)
                 continue
 
-            # Normalize lastmod to YYYY-MM-DD if present
             post_date = lastmod_text[:10] if lastmod_text else ""
 
-            # Derive an "effective section" from the URL path (DD mixes /analysis/ into news/opinion sitemaps)
-            effective_section = section_name
+            # Derive effective section from URL path.
             if "/analysis/" in canonical_url:
                 effective_section = "analysis"
-            elif "/news/" in canonical_url:
-                effective_section = "news"
             elif "/opinion/" in canonical_url:
                 effective_section = "opinion"
-            elif "/alerts/" in canonical_url:
-                effective_section = "alerts"
+            else:
+                effective_section = "news"
 
             title = title_from_slug(canonical_url)
 
             snapshot: Dict[str, Any] = {
+                # Stable source key and display name
+                "source_key": HARVESTER_ID,
                 "source": "Democracy Docket",
                 "doc_type": "news_article",
-                "title": title,  # slug-derived title
+                "title": title,
                 "url": canonical_url,
                 "canonical_url": canonical_url,
                 "summary_url": "",
                 "summary": "",
                 "summary_origin": "",
                 "summary_timestamp": "",
-                "post_date": post_date,  # YYYY-MM-DD
-                "raw_line": f"[sitemap:{section_name}] {canonical_url}",
+                "post_date": post_date,
+                "raw_line": f"[sitemap:{sitemap_family}] {canonical_url}",
                 "section": effective_section,
             }
             all_snapshots.append(snapshot)
@@ -174,8 +175,13 @@ def _discover_via_sitemaps(logger) -> List[Dict[str, Any]]:
     return all_snapshots
 
 
-# ---- Window filter and dedupe (V4 logic) ----
-def _filter_window_and_dedupe(snapshot_items: List[Dict[str, Any]], start_iso: str, end_iso: str, logger):
+def _filter_window_and_dedupe(
+    snapshot_items: List[Dict[str, Any]],
+    start_iso: str,
+    end_iso: str,
+    logger: logging.Logger,
+):
+    """Window filter + stable dedupe by canonical_url."""
     kept_pre_dedupe: List[Dict[str, Any]] = []
     stats = {"inside": 0, "outside": 0, "nodate": 0, "no_url": 0}
 
@@ -214,13 +220,19 @@ def _filter_window_and_dedupe(snapshot_items: List[Dict[str, Any]], start_iso: s
 
     logger.info(
         "Window %s → %s | total=%d kept_after_filter=%d kept_after_dedup=%d | outside=%d nodate=%d no_url=%d dupes=%d",
-        start_iso, end_iso, len(snapshot_items), len(kept_pre_dedupe), len(deduped),
-        stats["outside"], stats["nodate"], stats["no_url"], dups
+        start_iso,
+        end_iso,
+        len(snapshot_items),
+        len(kept_pre_dedupe),
+        len(deduped),
+        stats["outside"],
+        stats["nodate"],
+        stats["no_url"],
+        dups,
     )
     return deduped, stats
 
 
-# ---- Harvester entrypoint (V4 contract) ----
 def run_harvester(
     start: str,
     end: str,
@@ -235,23 +247,26 @@ def run_harvester(
     artifacts = Path(artifacts_root)
     raw_path, filtered_path = create_artifact_paths(artifacts, HARVESTER_ID, start, end)
 
+    _ = session or build_session()
+
     logger.info("Session ready. Harvesting %s → %s", start, end)
     logger.info("Discovering Democracy Docket (V5 sitemap mode)")
 
     snapshot_items = _discover_via_sitemaps(logger)
 
-    # Track and log date-window counts before HTML fetch
     total_discovered = len(snapshot_items)
     total_in_window = sum(
-        1 for it in snapshot_items if it.get("post_date") and within_window(it["post_date"], start, end)
+        1
+        for it in snapshot_items
+        if it.get("post_date") and within_window(str(it["post_date"]), start, end)
     )
     logger.info(
         "Discovered %d URLs total; %d within window %s → %s",
-        total_discovered, total_in_window, start, end
+        total_discovered,
+        total_in_window,
+        start,
+        end,
     )
-
-    # No HTML fetch for title extraction (removed per instructions)
-    # If body-text extraction is present it would go here, but currently none.
 
     filtered_items, win_stats = _filter_window_and_dedupe(snapshot_items, start, end, logger)
 
@@ -290,64 +305,18 @@ def run_harvester(
     }
 
 
-# CLI: V4-compatible contract
 if __name__ == "__main__":
     import argparse
-    import json
-    from collections import Counter
 
     p = argparse.ArgumentParser(description="Democracy Clock V5 — Democracy Docket harvester (SITEMAP)")
     p.add_argument("--start", help="start date (YYYY-MM-DD)")
     p.add_argument("--end", help="end date (YYYY-MM-DD)")
     p.add_argument("--level", default="INFO", help="log level")
     p.add_argument("--artifacts", default=str(ARTIFACTS_ROOT), help="artifacts root")
-    p.add_argument("--discovery-only", action="store_true", help="discover sitemap URLs and print summary JSON; do not write artifacts")
     args = p.parse_args()
 
-    logger = setup_logger(f"dc.{HARVESTER_ID}", args.level)
-
-    if args.discovery_only:
-        logger.info("=== Discovery-only mode: Starting sitemap discovery ===")
-        snapshot_items = _discover_via_sitemaps(logger)
-        total = len(snapshot_items)
-
-        by_section = Counter()
-        post_dates: List[str] = []
-        items: List[Dict[str, Any]] = []
-
-        for item in snapshot_items:
-            section = (item.get("section") or "")
-            by_section[section] += 1
-            post_date = (item.get("post_date") or "")
-            if post_date:
-                post_dates.append(post_date)
-            items.append({
-                "url": item.get("url"),
-                "section": section,
-                "post_date": post_date,
-            })
-
-        earliest = min(post_dates) if post_dates else None
-        latest = max(post_dates) if post_dates else None
-
-        logger.info("Discovery-only: total URLs discovered: %d", total)
-        logger.info("Discovery-only: count per section: %r", dict(by_section))
-        logger.info("Discovery-only: earliest post_date: %r latest post_date: %r", earliest, latest)
-
-        artifact = {
-            "schema": "democracydocket.discovery.v5",
-            "total": total,
-            "by_section": dict(by_section),
-            "date_range": {"earliest": earliest, "latest": latest},
-            "items": items,
-        }
-        print(json.dumps(artifact, indent=2, sort_keys=True))
-        logger.info("=== Discovery-only mode: Completed. Exiting. ===")
-        raise SystemExit(0)
-
-    # Normal mode: require start/end like V4
     if not args.start or not args.end:
-        p.error("--start and --end are required unless --discovery-only is used")
+        p.error("--start and --end are required")
 
     meta = run_harvester(
         start=args.start,
