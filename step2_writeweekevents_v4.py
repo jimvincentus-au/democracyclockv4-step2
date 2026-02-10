@@ -1,8 +1,4 @@
-SOURCE_DISPLAY_NAMES = {
-    "democracydocket": "Democracy Docket",
-    "zeteo": "Zeteo",
-    "justsecurity": "Just Security",
-}
+
 #!/usr/bin/env python3
 # writeweekevents_v4.py — Step-3 writer: merge Step-2 event JSONs → Master Event Log (TXT)
 
@@ -42,6 +38,12 @@ CATEGORY_ORDER = [
 # Render targets
 MASTER_TXT_NAME = "master_events_{start}_{end}.txt"
 MASTER_IDX_NAME = "master_index_{start}_{end}.json"
+
+SOURCE_DISPLAY_NAMES = {
+    "democracydocket": "Democracy Docket",
+    "zeteo": "Zeteo",
+    "justsecurity": "Just Security",
+}
 
 HUMANIZED_ATTACKS = {
     # PART I – The People He Harmed
