@@ -806,6 +806,98 @@ OUTPUT HANDOFF:
 
 # =======================================================================
 
+PREFACE_JUSTSECURITY: str = """
+SOURCE: Just Security — Litigation Tracker: Legal Challenges to Trump Administration Actions.
+TYPE: Structured litigation-tracker records describing concrete case developments — filings, injunctions, stays, appeals, remands, consolidations, dismissals, merits rulings, and similar procedural or substantive court actions.
+STYLE: Case-based, procedural, and fact-dense. Each tracker entry contains a parent case context plus one specific dated litigation development that is usually the operative event for this record.
+AUDIENCE: Researchers building a chronological democratic narrative from litigation developments affecting executive power, rights enforcement, administrative action, and accountability.
+
+DATA INPUTS:
+• Input provides `title`, `url`, `post_date`, and synthetic source text built from the Just Security tracker row.
+• That synthetic text may include fields such as Event Kind, Court, Jurisdiction, Docket, Case Summary, and Update Summary.
+• Each input record should normally yield exactly ONE operative litigation event.
+
+CORE PRINCIPLE:
+This source is being used to build a narrative event log, not a docket archive and not a legal memo. Your job is to identify the operative dated litigation development and state it clearly. Do not retell the whole case unless a tiny amount of background is required to make the update understandable.
+
+TEXT CHARACTERISTICS:
+• These records are not opinion essays; they are structured legal updates.
+• Most records concern a single procedural act: complaint filed, TRO granted or denied, injunction entered, appeal noticed, case consolidated, case dismissed, stay issued, remand ordered, cert granted, summary judgment entered, or similar litigation movement.
+• The update summary is usually the operative event. The case summary is usually background only.
+• Case captions, party names, agency names, court names, and filing posture must be treated conservatively and reproduced as given. Do not rename parties, modernize agency names, or convert a caption into looser prose if the source text is sparse.
+• Do not treat the whole case history as one event if the record clearly centers on one dated update.
+
+EXPECTED OUTPUT BEHAVIOR:
+1. Coverage: extract exactly one democracy-relevant event per record unless the synthetic text unmistakably contains more than one distinct operative act.
+2. Selection: identify the single operative litigation development described in the dated update. Prefer the update summary over the case summary.
+3. Priority rule: for `case_update` records, default to the update summary alone. Use background only when the update would otherwise be unclear to an informed general reader.
+4. Granularity: do not merge separate litigation acts. If the text names both a filing and a ruling as distinct acts, they may become separate events only if both are clearly operative in the current record.
+5. Neutrality: use factual, procedural language only. Do not infer motives, legal merits, strategic intent, or broader implications beyond what the text states.
+6. Conservatism: when the source is sparse, stay close to the caption and explicit filing/ruling language. Prefer minimal, source-faithful wording over polished paraphrase.
+7. Completeness: identify who acted, what changed procedurally or substantively, and the immediate practical consequence for the litigation or underlying government action.
+
+NARRATIVE TARGET:
+The ideal output should read like a clean building block for a later chronological narrative.
+• It should say what happened now.
+• It should say what changed.
+• It may include only the minimum background needed to orient the reader.
+• It should stop before turning into a full case recap.
+
+TITLE RULES:
+• Titles must be source-faithful and procedurally precise.
+• Do not rewrite a case caption into a new descriptive title unless the source text itself does so.
+• For filing events, a title like “Complaint filed — {case caption}” is preferred when that is the operative act.
+• For update events, title the dated procedural act itself: e.g. appeal filed, stay denied, cert granted, injunction narrowed, summary judgment granted in part, case consolidated.
+• Do not invent a more specific agency action, legal theory, or substantive dispute than the source text explicitly states.
+• Preserve institutional names exactly as provided in the source text; never substitute alternative or historical names.
+
+SUMMARY RULES:
+• For `case_update` records, the summary should default to the dated update text itself, rewritten only as needed for clarity and fluency.
+• For `case_update` records, do not pad the summary with broad case history when the update text already states the operative act clearly.
+• For `case_update` records, background is allowed only if the update would otherwise be unintelligible; even then, include no more than one short sentence of background.
+• For `case_filed` records, you may use the case summary more freely, because a filing often needs brief context to be intelligible.
+• If the case summary is missing, thin, or says “Coming soon.”, do not fill the gap with inference.
+• Do not convert one tracker record into a mini case history.
+• In practice, most `case_update` summaries should be 1–2 sentences, with the first sentence devoted to the operative update itself.
+
+CATEGORY DISCIPLINE:
+Assign each event to exactly one of the twelve canonical Democracy Clock domains:
+1. Executive Actions & Orders
+2. Legislative & Oversight Activity
+3. Judicial Developments
+4. Law Enforcement & Surveillance
+5. Elections & Representation
+6. Civil Society & Protest
+7. Information & Media Control
+8. Economic & Regulatory Power
+9. Appointments & Patronage
+10. Transparency & Records
+11. International Relations
+12. Civil–Military Relations & State Violence
+Most Just Security tracker items will fall under “Judicial Developments,” but if the litigation act directly changes election administration, protest rights, transparency access, immigration policy, military deployment, or another substantive domain, use that substantive domain instead.
+
+DATE RULE:
+• Prefer the specific litigation event date given in the synthetic text or update summary.
+• If no clearer action date is stated, use the record’s `post_date`.
+• Do not substitute older background dates from the case history when a current update is plainly described.
+
+SOURCE LINE:
+• Use the case-specific URL supplied with the record, typically the CourtListener or primary litigation link.
+• If no better direct link exists, use the Just Security tracker-linked case URL already provided in the input.
+
+FAILURE CONDITIONS:
+• Retelling broad case history when the operative update is already clear.
+• Rewriting a case caption into a looser or more dramatic title than the source supports.
+• Adding legal theories, agency motives, or substantive policy stakes not explicitly stated in the record.
+• Producing a docket note so thin that a reader cannot tell what changed.
+
+OUTPUT HANDOFF:
+• After applying this Just Security–specific guidance, follow the ATTACKS FIELD instruction and the Canonical Extraction Protocol that follow this preface.
+• Do not restate format or footer rules here — those are fully defined in the canonical block.
+""".strip()
+
+# =======================================================================
+
 PREFACE_DEMOCRACY_DOCKET: str = """
 SOURCE: Democracy Docket (election-law and voting-rights litigation tracker).
 TYPE: Case-based reporting on concrete developments in voting, redistricting, election administration, and related democracy litigation.
@@ -1098,6 +1190,9 @@ _SUBSTACK_PREFACES: Dict[str, str] = {
     # Federal Register
     "federalregister": PREFACE_FEDERAL_REGISTER,
 
+    # Just Security (litigation tracker)
+    "justsecurity": PREFACE_JUSTSECURITY,
+
     # Democracy Docket (litigation tracker)
     "democracydocket": PREFACE_DEMOCRACY_DOCKET,
 
@@ -1124,6 +1219,10 @@ _PREFACE_ALIASES: dict[str, str] = {
     "congress_gov": "congress",
 
     "fr": "federalregister",          # if any harvester uses the short form
+
+    "just_security": "justsecurity",
+    "just-security": "justsecurity",
+    "js": "justsecurity",
     
     "dd": "democracydocket",
 

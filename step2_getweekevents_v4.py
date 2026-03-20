@@ -26,7 +26,7 @@ HARVESTER_SPECS: Dict[str, Tuple[str, str]] = {
     "hcr": ("step2_gethcr_v4", "run_harvester"),
     "zeteo": ("step2_getzeteo_v4", "run_harvester"),
     "popinfo": ("step2_getpopinfo_v4", "run_harvester"),
-    "justsecurity": ("step2_getjustsecurity_v4", "run_harvester"),
+    "justsecurity": ("step2_getjustsecurity_v5", "run_harvester"),
     "guardian": ("step2_getguardian_v4", "run_harvester"),
 #    "econ": ("step2_getecon_v4", "run_harvester"),
     "50501": ("step2_get50501_v4", "run_harvester"),
