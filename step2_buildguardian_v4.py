@@ -152,6 +152,29 @@ def _coerce_iso_date(v: Any) -> Optional[str]:
     return None
 
 
+def _coerce_text(v: Any) -> str:
+    if v is None:
+        return ""
+    return str(v).strip()
+
+
+def _guardian_fallback_summary(ent: Dict[str, Any]) -> str:
+    """Return the best available non-empty summary-like field from a filtered Guardian entity."""
+    candidates = [
+        ent.get("summary"),
+        ent.get("trailText"),
+        ent.get("trail_text"),
+        ent.get("standfirst"),
+        ent.get("description"),
+        ent.get("excerpt"),
+    ]
+    for candidate in candidates:
+        text = _coerce_text(candidate)
+        if text:
+            return text
+    return ""
+
+
 def _load_filtered_items(artifacts: Path, source: str, start: str, end: str) -> List[Dict[str, Any]]:
     """
     Guardian filtered JSON is usually {"window":..., "entities":[...]} but
@@ -215,6 +238,7 @@ def run_builder(
 
     for i, idx in enumerate(idxs, 1):
         ent = items[idx]
+        fallback_summary = _guardian_fallback_summary(ent)
         title = ent.get("title") or ent.get("headline") or ""
         url = ent.get("canonical_url") or ent.get("url") or ""
         post_date = ent.get("post_date") or ent.get("published_at") or ent.get("date") or ""
@@ -232,7 +256,7 @@ def run_builder(
                     article_title=title,
                     article_date=post_date,
                     source_hint=source,
-                    artifacts_root=artifacts_root,
+                    artifacts_root=str(artifacts_root),
                     idx=idx,
                 )
             except Exception as e:
@@ -243,8 +267,15 @@ def run_builder(
             with open(artifacts / "log" / f"{source}_llm_out_idx{idx}_{start}_{end}.txt", "w", encoding="utf-8") as f:
                 f.write(text)
 
-        bundle.append({"idx": idx, "url": url, "chars": len(text)})
-        results.append({"_idx": idx, "url": url, "events_text": text})
+        bundle.append({"idx": idx, "url": url, "chars": len(text), "fallback_summary": fallback_summary})
+        results.append(
+            {
+                "_idx": idx,
+                "url": url,
+                "events_text": text,
+                "fallback_summary": fallback_summary,
+            }
+        )
 
     if (level or "").upper() == "DEBUG":
         with open(artifacts / "log" / f"{source}_llm_bundle_{start}_{end}.json", "w", encoding="utf-8") as f:
@@ -256,6 +287,7 @@ def run_builder(
 
     for rec in results:
         raw = (rec.get("events_text") or "").strip()
+        fallback_summary = _coerce_text(rec.get("fallback_summary"))
         if not raw or raw.startswith("(Extraction error:"):
             noncompliant.append({"idx": rec["_idx"], "url": rec.get("url") or "", "reason": "no_blocks"})
             continue
@@ -265,6 +297,9 @@ def run_builder(
             noncompliant.append({"idx": rec["_idx"], "url": rec.get("url") or "", "reason": "no_blocks"})
 
         for ev in evs:
+            if not _coerce_text(ev.get("summary")) and fallback_summary:
+                ev["summary"] = fallback_summary
+                logger.info("Filled missing Guardian summary from filtered entity for idx=%s url=%s", rec.get("_idx"), rec.get("url") or "")
             ev.setdefault("source", source)
             ev.setdefault("tags", [source, "news"])
             ev.setdefault("attacks", [])
