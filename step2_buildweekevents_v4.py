@@ -41,7 +41,13 @@ BUILDER_SPECS: Dict[str, Tuple[str, str]] = {
     "bulwark":     ("step2_buildbulwark_v4", "run_builder"),
 }
 
-DEFAULT_SOURCES = list(BUILDER_SPECS.keys())
+# Sources kept in the registry (still runnable via --only) but EXCLUDED from
+# the default run. dailysignal/examiner are firehose-volume; freebeacon/bulwark
+# are held pending a later call on whether they're worth the cost. This keeps a
+# plain default re-run cheap without needing --skip. (decision 2026-05-14)
+OPTIONAL_SOURCES = {"dailysignal", "examiner", "freebeacon", "bulwark"}
+
+DEFAULT_SOURCES = [k for k in BUILDER_SPECS if k not in OPTIONAL_SOURCES]
 
 
 # -------------------------------------------------------------------
