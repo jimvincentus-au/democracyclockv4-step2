@@ -9,6 +9,126 @@ import os
 from pathlib import Path
 from typing import Any, Dict, List, Tuple, Optional
 
+# ---------- canonical LLM-output parser ----------
+
+_HDR_RE = re.compile(r"^(\d{4}-\d{2}-\d{2})\s+—\s+(.*)$")
+_SUM_RE = re.compile(r"^Summary:\s*(.+)$", re.IGNORECASE)
+_SRC_RE = re.compile(r"^Source:\s*(.+)$", re.IGNORECASE)
+_CAT_RE = re.compile(r"^Category:\s*(.+)$", re.IGNORECASE)
+_WHY_RE = re.compile(r"^Why Relevant:\s*(.+)$", re.IGNORECASE)
+_URL_EX = re.compile(r"https?://\S+")
+_ATK_RE = re.compile(r'^"?attacks"?\s*:\s*(.+)$', re.IGNORECASE)
+
+
+def parse_llm_events_canonical(text: str, *, article_url: str, logger=None) -> List[Dict[str, Any]]:
+    """Parse canonical LLM builder output into event dicts.
+
+    Shared by all Step-2 builders (dailysignal / examiner / freebeacon /
+    substack and its delegates). Previously copy-pasted into each builder;
+    consolidated here so the logic stays single-sourced.
+
+    Tolerant of one common LLM deviation: if a block has no "Summary:" line,
+    the summary is recovered from the unlabeled text between the date header
+    and the first labeled field.
+    """
+    lines = [ln.rstrip() for ln in (text or "").splitlines()]
+    blocks: List[List[str]] = []
+    cur: List[str] = []
+    for ln in lines:
+        if _HDR_RE.match(ln):
+            if cur:
+                blocks.append(cur)
+            cur = [ln]
+        elif cur:
+            cur.append(ln)
+    if cur:
+        blocks.append(cur)
+
+    events: List[Dict[str, Any]] = []
+    for bidx, block in enumerate(blocks, 1):
+        date_s = title = summary = src_line = cat = why = ""
+        attacks_line = ""
+        url = ""
+
+        m = _HDR_RE.match(block[0])
+        if m:
+            date_s = m.group(1).strip()
+            title = m.group(2).strip()
+
+        for ln in block[1:]:
+            if not ln.strip():
+                continue
+            if _SUM_RE.match(ln):
+                summary = _SUM_RE.match(ln).group(1).strip()
+                continue
+            if _SRC_RE.match(ln):
+                src_line = _SRC_RE.match(ln).group(1).strip()
+                u = _URL_EX.search(src_line)
+                url = u.group(0) if u else ""
+                continue
+            if _CAT_RE.match(ln):
+                cat = _CAT_RE.match(ln).group(1).strip()
+                continue
+            if _WHY_RE.match(ln):
+                why = _WHY_RE.match(ln).group(1).strip()
+                continue
+            if _ATK_RE.match(ln):
+                attacks_line = _ATK_RE.match(ln).group(1).strip()
+                continue
+
+        # Fallback: the LLM sometimes emits the summary as an unlabeled
+        # paragraph right after the date header instead of a "Summary:" line.
+        # Recover it from the text preceding the first labeled field.
+        if not summary:
+            recovered: List[str] = []
+            for ln in block[1:]:
+                if (_SUM_RE.match(ln) or _SRC_RE.match(ln) or _CAT_RE.match(ln)
+                        or _WHY_RE.match(ln) or _ATK_RE.match(ln)):
+                    break
+                s = ln.strip()
+                if s:
+                    recovered.append(s)
+            if recovered:
+                summary = " ".join(recovered)
+
+        if not url:
+            url = article_url or ""
+        sources = [url] if url else []
+        if article_url and article_url not in sources:
+            sources.append(article_url)
+
+        if logger:
+            if not summary:
+                logger.warning("Block %d missing Summary", bidx)
+            if not cat:
+                logger.warning("Block %d missing Category", bidx)
+            if not why:
+                logger.warning("Block %d missing Why Relevant", bidx)
+
+        attacks_list: List[str] = []
+        if attacks_line:
+            cleaned = attacks_line.strip()
+            if cleaned.startswith("[") and cleaned.endswith("]"):
+                cleaned = cleaned[1:-1].strip()
+            for part in re.split(r"[;,]", cleaned):
+                h = part.strip().strip('"').strip("'")
+                if h:
+                    attacks_list.append(h.lower().replace(" ", "_"))
+
+        events.append({
+            "source_date": date_s,
+            "title": title,
+            "url": url,
+            "summary": summary,
+            "why_relevant": why,
+            "category": cat,
+            "sources": sources,
+            "tags": [],
+            "attacks": attacks_list,
+        })
+    return events
+
+
 # ---------- paths / IO ----------
 
 def paths_for_window(

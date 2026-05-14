@@ -1,10 +1,9 @@
 #!/usr/bin/env python3
-# build_substack_events_v4.py  — Non-HCR Substack builder (Meidas, Zeteo, PopInfo, etc.)
+# buildfreebeacon_v4.py — Washington Free Beacon builder (COPY MODE from buildsubstack_v4.py)
 from __future__ import annotations
 
 import argparse
 import json
-import os
 import re
 from pathlib import Path
 from typing import Any, Dict, List, Optional
@@ -14,61 +13,28 @@ from step2_helper_v4 import setup_logger
 from step2_prompts_v4 import compose_system_prompt
 from step2_extractor_v4 import extract_events_from_url
 
-import hashlib
 from datetime import datetime, date, timedelta
 
-
-# ------------------------------------------------------------
-# Helpers
-# ------------------------------------------------------------
+SOURCE_DEFAULT = "freebeacon"
+TZ_DEFAULT = "Australia/Brisbane"
 
 # Canonical block parser — shared across all builders
 # (single-sourced in step2_builder_helper_v4)
 from step2_builder_helper_v4 import parse_llm_events_canonical as _parse_llm_events_canonical
 
 
-# ---------- Utilities ----------
-
-TZ_DEFAULT = "Australia/Brisbane"
-
-def make_event_id(source: str, title: str, url: Optional[str], source_date: str) -> str:
-    base = f"{source}|{title.strip()}|{(url or '').strip()}|{source_date}"
-    return "sha1:" + hashlib.sha1(base.encode("utf-8")).hexdigest()
-
-def compute_post_date_str(source_date_str: str) -> str:
-    d = datetime.strptime(source_date_str, "%Y-%m-%d").date()
-    return (d + timedelta(days=1)).isoformat()
-
-def _coerce_iso_date(v: Any) -> Optional[str]:
-    if isinstance(v, (datetime, date)):
-        return v.isoformat() if isinstance(v, date) else v.date().isoformat()
-    s = str(v or "").strip().replace("/", "-")
-    for fmt in ("%Y-%m-%d", "%d-%m-%Y", "%m-%d-%Y"):
-        try:
-            return datetime.strptime(s, fmt).date().isoformat()
-        except ValueError:
-            continue
-    return None
-
-
-# ------------------------------------------------------------
-# Runner
-# ------------------------------------------------------------
-
 def run_builder(
     *,
-    source: str,
+    source: str = SOURCE_DEFAULT,
     start: str,
     end: str,
     artifacts_root: str | Path = ARTIFACTS_ROOT,
     level: str = "INFO",
-    log_path: Optional[str] = None,   # <-- add this
+    log_path: Optional[str] = None,
     limit: Optional[int] = None,
     ids: Optional[List[int]] = None,
     skip_existing: bool = False,
-    aim_per_post: Optional[int] = None,
 ) -> Dict[str, Any]:
-    """Standard Substack builder for Meidas, Zeteo, PopInfo, etc."""
 
     artifacts = Path(artifacts_root)
     (artifacts / "eventjson").mkdir(parents=True, exist_ok=True)
@@ -84,7 +50,7 @@ def run_builder(
     with open(p, "r", encoding="utf-8") as f:
         payload = json.load(f)
     items = payload["entities"] if isinstance(payload, dict) and "entities" in payload else payload
-    logger.info("Loaded %d entities", len(items))
+    logger.info("Loaded %d entities from %s", len(items), p)
 
     idxs = list(range(len(items))) if not ids else [i - 1 for i in ids if 1 <= i <= len(items)]
     if limit:
@@ -118,7 +84,7 @@ def run_builder(
         except Exception as e:
             logger.exception("Extractor failed on %s", url)
             text = f"(Extraction error: {e})"
-        
+
         with open(artifacts / "log" / f"{source}_llm_out_idx{idx}_{start}_{end}.txt", "w", encoding="utf-8") as f:
             f.write(text)
         bundle.append({"idx": idx, "url": url, "chars": len(text)})
@@ -138,10 +104,8 @@ def run_builder(
             noncompliant.append({"idx": rec["_idx"], "reason": "no_blocks"})
         for ev in evs:
             ev.setdefault("source", source)
-            # ensure tags are present; overwrite only if missing/empty
             if not ev.get("tags"):
-                ev["tags"] = [source, "bulletin"]
-            # ensure attacks exists but never overwrite populated lists
+                ev["tags"] = [source, "news_article"]
             if "attacks" not in ev or ev["attacks"] is None:
                 ev["attacks"] = []
             all_events.append(ev)
@@ -153,18 +117,15 @@ def run_builder(
              "window": {"start": start, "end": end, "tz": TZ_DEFAULT},
              "events": all_events,
              "noncompliant": noncompliant},
-            f, ensure_ascii=False, indent=2)
+            f, ensure_ascii=False, indent=2,
+        )
     logger.info("Wrote %s (events=%d)", out_json, len(all_events))
     return {"source": source, "events": len(all_events), "path": str(out_json)}
 
 
-# ------------------------------------------------------------
-# CLI
-# ------------------------------------------------------------
-
 def _parse_args() -> argparse.Namespace:
-    ap = argparse.ArgumentParser(description="Democracy Clock V4 — Non-HCR Substack builder")
-    ap.add_argument("--source", required=True, help="Substack source key (meidas, zeteo, popinfo)")
+    ap = argparse.ArgumentParser(description="Democracy Clock V4 — Washington Free Beacon builder")
+    ap.add_argument("--source", default=SOURCE_DEFAULT, help="Source key (default: freebeacon)")
     ap.add_argument("--start", required=True)
     ap.add_argument("--end", required=True)
     ap.add_argument("--level", default="INFO")

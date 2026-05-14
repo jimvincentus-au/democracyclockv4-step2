@@ -28,7 +28,7 @@ from openai import OpenAI
 
 import random
 
-LOGGER = setup_logger("dc.extractor", level="DEBUG")
+LOGGER = setup_logger("dc.extractor")  # level governed by --level / DC_LOG_LEVEL
 
 # Single place where we define the fallback LLM for ALL builders
 _DEFAULT_EXTRACT_MODEL = "builder_default"
@@ -45,8 +45,8 @@ def _ensure_console_logger(logger: logging.Logger) -> None:
         h = logging.StreamHandler()
         h.setFormatter(logging.Formatter("%(asctime)s %(levelname)-7s %(name)s %(message)s"))
         logger.addHandler(h)
-    # extractor is always loud
-    logger.setLevel(logging.DEBUG)
+    # Level is governed by setup_logger (the `level` arg / DC_LOG_LEVEL env);
+    # this helper only ensures a console handler exists.
 
 _ensure_console_logger(LOGGER)
 
