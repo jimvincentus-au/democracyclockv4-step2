@@ -57,19 +57,27 @@ WE_SITEMAP_INDEX = WE_SITEMAP_PRIMARY  # backward-compat alias
 # Examiner does not appear to be WordPress; accept every chunk listed.
 WE_KEEP_SITEMAP_PATTERNS = ()  # empty = accept all chunks
 
-# Section path fragments preferred (kept).
+# Section path fragments preferred (kept). Only federal-governance news +
+# policy. Opinion / restoring-america / gossip verticals are excluded so we
+# don't spend LLM tokens building "events" from commentary. (Filter scoped
+# from a weeks 68+69 harvest analysis, 2026-05-14.)
 WE_PREFERRED_SECTIONS = (
     "/news/",
     "/policy/",
-    "/restoring-america/",
-    "/opinion/",      # Examiner opinion frequently reports on events
-    "/washington-secrets/",
 )
 
-# Path fragments that mark non-article URLs to skip.
+# Path fragments that mark non-article OR out-of-scope URLs to skip.
+# Checked BEFORE the preferred-section allowlist. The /news/<subsection>/
+# entries drop peripheral news verticals that aren't federal-governance
+# events: campaigns (election horse-race), world, crime, business, the
+# washington-secrets gossip column, entertainment, and partisan-scandal
+# investigations. Bare /news/<id>/ articles are intentionally still kept.
 WE_SKIP_PATH_FRAGMENTS = (
     "/tag/", "/author/", "/category/", "/feed/", "/page/",
     "/about", "/contact", "/privacy", "/subscribe", "/newsletters",
+    "/news/campaigns/", "/news/world/", "/news/crime/",
+    "/news/business/", "/news/washington-secrets/",
+    "/news/entertainment/", "/news/investigations/",
 )
 
 WE_HEADERS = {
