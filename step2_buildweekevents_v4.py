@@ -34,6 +34,11 @@ BUILDER_SPECS: Dict[str, Tuple[str, str]] = {
     "democracydocket": ("step2_builddemocracydocket_v4", "run_builder"),
     # Non-Substack examples (uncomment when implemented)
     "justsecurity": ("step2_buildjustsecurity_v5", "run_builder"),
+    # Right-wing / contrarian sources added 2026-05
+    "dailysignal": ("step2_builddailysignal_v4", "run_builder"),
+    "examiner":    ("step2_buildexaminer_v4", "run_builder"),
+    "freebeacon":  ("step2_buildfreebeacon_v4", "run_builder"),
+    "bulwark":     ("step2_buildbulwark_v4", "run_builder"),
 }
 
 DEFAULT_SOURCES = list(BUILDER_SPECS.keys())

@@ -43,6 +43,10 @@ SOURCE_DISPLAY_NAMES = {
     "democracydocket": "Democracy Docket",
     "zeteo": "Zeteo",
     "justsecurity": "Just Security",
+    "dailysignal": "The Daily Signal",
+    "examiner": "Washington Examiner",
+    "freebeacon": "Washington Free Beacon",
+    "bulwark": "The Bulwark",
 }
 
 HUMANIZED_ATTACKS = {
