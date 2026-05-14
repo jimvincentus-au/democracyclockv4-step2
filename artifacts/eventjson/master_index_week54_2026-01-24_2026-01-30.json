@@ -1,0 +1,2437 @@
+{
+  "window": {
+    "start": "2026-01-24",
+    "end": "2026-01-30"
+  },
+  "week_number": 54,
+  "sources": [
+    "50501",
+    "popinfo",
+    "zeteo",
+    "hcr",
+    "federalregister",
+    "noah",
+    "guardian",
+    "meidas",
+    "orders",
+    "democracydocket"
+  ],
+  "counts": {
+    "total": 166,
+    "by_date": {
+      "2026-01-24": 2,
+      "2026-01-25": 1,
+      "2026-01-26": 1,
+      "2026-01-27": 1,
+      "2026-01-28": 58,
+      "2026-01-29": 63,
+      "2026-01-30": 40
+    },
+    "by_source": {
+      "zeteo": 8,
+      "guardian": 76,
+      "hcr": 22,
+      "meidas": 19,
+      "50501": 6,
+      "federalregister": 22,
+      "popinfo": 6,
+      "orders": 3,
+      "noah": 2,
+      "democracydocket": 2
+    },
+    "by_category": {
+      "Judicial Developments": 17,
+      "Civil–Military Relations & State Violence": 5,
+      "Elections & Representation": 6,
+      "Law Enforcement & Surveillance": 50,
+      "Civil Society & Protest": 9,
+      "Executive Actions & Orders": 11,
+      "Legislative & Oversight Activity": 14,
+      "Economic & Regulatory Power": 25,
+      "Appointments & Patronage": 8,
+      "International Relations": 7,
+      "Information & Media Control": 14
+    }
+  },
+  "events": [
+    {
+      "source_key": "zeteo",
+      "date": "2026-01-24",
+      "category": "Judicial Developments",
+      "title": "Federal Judge Orders Preservation of Evidence in Pretti Case",
+      "url": "https://zeteo.com/p/this-week-in-democracy-week-54-trump",
+      "summary": "A Trump-appointed federal judge issued an order on January 24, 2026, instructing the administration not to destroy or alter evidence related to the killing of Alex Pretti by Border Patrol agents. This order came hours after the incident, reflecting judicial intervention to ensure evidence preservation in a controversial case.",
+      "why_relevant": "The judicial order underscores the role of the judiciary in maintaining oversight and accountability in cases involving potential state misconduct.",
+      "attacks": [],
+      "_origin_file": "zeteo_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 1
+    },
+    {
+      "source_key": "zeteo",
+      "date": "2026-01-24",
+      "category": "Civil–Military Relations & State Violence",
+      "title": "Border Patrol Agents Kill US Citizen in Minneapolis",
+      "url": "https://zeteo.com/p/this-week-in-democracy-week-54-trump",
+      "summary": "On January 24, 2026, Border Patrol agents shot and killed Alex Pretti, a 37-year-old ICU nurse, in Minneapolis. Pretti was recording the agents with his phone when they pepper-sprayed and tackled him before firing at least 10 shots. Homeland Security Secretary Kristi Noem and White House deputy chief of staff Stephen Miller falsely labeled Pretti a \"domestic terrorist,\" claiming he was armed and attempting to assassinate law enforcement.",
+      "why_relevant": "This event highlights the use of lethal force by federal agents against a US citizen, raising concerns about state violence and accountability.",
+      "attacks": [
+        "rule_of_law",
+        "minorities"
+      ],
+      "_origin_file": "zeteo_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 0
+    },
+    {
+      "source_key": "zeteo",
+      "date": "2026-01-25",
+      "category": "Elections & Representation",
+      "title": "Minnesota Governor Rejects Federal Request for Voter Data",
+      "url": "https://zeteo.com/p/this-week-in-democracy-week-54-trump",
+      "summary": "On January 25, 2026, Minnesota Governor Tim Walz rejected a request from the Trump administration to turn over voter data and repeal sanctuary policies. The request, made by Attorney General Pam Bondi, was criticized as \"extortion\" and \"blackmail\" by Minnesota Democrats, including Secretary of State Steve Simon, who argued it violated state and federal law.",
+      "why_relevant": "The rejection of the federal request protects voter privacy and state autonomy, highlighting tensions between state and federal authorities over election integrity.",
+      "attacks": [
+        "separation_of_powers",
+        "rule_of_law"
+      ],
+      "_origin_file": "zeteo_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 2
+    },
+    {
+      "source_key": "zeteo",
+      "date": "2026-01-26",
+      "category": "Law Enforcement & Surveillance",
+      "title": "FBI Investigates Signal Group Chats Used by Protesters",
+      "url": "https://zeteo.com/p/this-week-in-democracy-week-54-trump",
+      "summary": "FBI Director Kash Patel announced an investigation into Signal group chats used by protesters in Minnesota to share information about federal immigration agents. This action raises concerns about First Amendment rights, as it targets individuals sharing legally obtained information and recording law enforcement activities.",
+      "why_relevant": "The investigation into protester communications represents a potential infringement on free speech and privacy rights.",
+      "attacks": [
+        "press",
+        "information"
+      ],
+      "_origin_file": "zeteo_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 3
+    },
+    {
+      "source_key": "zeteo",
+      "date": "2026-01-27",
+      "category": "Civil Society & Protest",
+      "title": "Rep. Ilhan Omar Attacked at Town Hall",
+      "url": "https://zeteo.com/p/this-week-in-democracy-week-54-trump",
+      "summary": "On January 27, 2026, Rep. Ilhan Omar was attacked at a Minneapolis town hall by a man who sprayed her with an unknown substance. President Trump subsequently accused Omar of staging the attack, despite his administration's history of spreading hateful rhetoric against her.",
+      "why_relevant": "The attack on a sitting congresswoman and the subsequent baseless accusations by the President highlight the dangers of political violence and rhetoric.",
+      "attacks": [
+        "minorities",
+        "decency"
+      ],
+      "_origin_file": "zeteo_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 4
+    },
+    {
+      "source_key": "guardian",
+      "date": "2026-01-28",
+      "category": "Executive Actions & Orders",
+      "title": "EPA Alters Cost-Benefit Analysis for Air Pollution Regulations",
+      "url": "https://www.theguardian.com/us-news/2026/jan/28/trump-epa-environmental-rollbacks",
+      "summary": "The EPA announced it would no longer consider the cost to human health from two common air pollutants when setting regulations, focusing instead on the cost to industry for compliance. This change obscures the economic and health benefits of reducing pollution, potentially leading to increased emissions. Critics argue this prioritizes industry costs over public health, reversing previous EPA calculations that showed significant benefits from reducing emissions.",
+      "why_relevant": "This shift in regulatory approach could lead to increased air pollution, affecting public health and environmental standards.",
+      "attacks": [
+        "environment",
+        "public_health",
+        "science"
+      ],
+      "_origin_file": "guardian_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 140
+    },
+    {
+      "source_key": "guardian",
+      "date": "2026-01-28",
+      "category": "Executive Actions & Orders",
+      "title": "EPA Reduces Workforce and Enforcement Actions",
+      "url": "https://www.theguardian.com/us-news/2026/jan/28/trump-epa-environmental-rollbacks",
+      "summary": "The EPA has reduced its workforce by a quarter through firings and early retirements, with entire divisions, such as the scientific arm, slated for closure. Enforcement actions against polluters have significantly decreased. This downsizing and reduction in enforcement are part of a broader strategy to weaken the agency's regulatory capabilities, aligning with the administration's pro-business agenda.",
+      "why_relevant": "The reduction in workforce and enforcement undermines the EPA's ability to protect the environment and public health.",
+      "attacks": [
+        "environment",
+        "public_health",
+        "civil_service"
+      ],
+      "_origin_file": "guardian_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 141
+    },
+    {
+      "source_key": "guardian",
+      "date": "2026-01-28",
+      "category": "Executive Actions & Orders",
+      "title": "EPA Rescinds Endangerment Finding on Greenhouse Gases",
+      "url": "https://www.theguardian.com/us-news/2026/jan/28/trump-epa-environmental-rollbacks",
+      "summary": "The Environmental Protection Agency (EPA) under the Trump administration announced the rescission of the \"endangerment finding,\" a 2009 determination that greenhouse gases such as carbon dioxide harm human health. This move effectively dismantles all climate-related regulations issued by the federal government, a decision supported by pro-fossil fuel companies and Republican-led states. The action is part of a broader agenda to remove restraints on global heating and promote fossil fuel interests.",
+      "why_relevant": "This decision undermines federal climate regulations, impacting environmental protection and public health.",
+      "attacks": [
+        "environment",
+        "public_health",
+        "climate_cooperation"
+      ],
+      "_origin_file": "guardian_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 139
+    },
+    {
+      "source_key": "hcr",
+      "date": "2026-01-28",
+      "category": "Executive Actions & Orders",
+      "title": "Biden calls for investigations into deaths of Pretti and Good",
+      "url": "https://twitter.com/joebiden/status/2016177515845283911?s=12",
+      "summary": "Former President Joe Biden called for full, fair, and transparent investigations into the deaths of Alex Pretti and Renee Good, emphasizing the need for accountability and adherence to constitutional rights.",
+      "why_relevant": "Biden's call for investigations underscores the importance of accountability in law enforcement and the protection of civil rights.",
+      "attacks": [],
+      "_origin_file": "hcr_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 35
+    },
+    {
+      "source_key": "hcr",
+      "date": "2026-01-28",
+      "category": "Executive Actions & Orders",
+      "title": "Trump continues attacks on immigrants and Minnesota Democrats",
+      "url": "https://www.nytimes.com/2026/01/27/us/politics/trump-iowa-speech-minnesota-ice.html?smid=url-share",
+      "summary": "In a speech in Iowa, President Trump continued his attacks on immigrants and Minnesota Democrats, labeling those arrested by federal agents as \"hardened, vicious, horrible criminals.\" His remarks reflect ongoing tensions surrounding immigration policy and law enforcement practices.",
+      "why_relevant": "Trump's rhetoric reinforces divisive narratives around immigration and law enforcement, impacting public discourse and policy.",
+      "attacks": [
+        "immigrants_refugees"
+      ],
+      "_origin_file": "hcr_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 34
+    },
+    {
+      "source_key": "guardian",
+      "date": "2026-01-28",
+      "category": "Legislative & Oversight Activity",
+      "title": "Increase in ICE Budget and Personnel",
+      "url": "https://www.theguardian.com/us-news/2026/jan/19/donald-trump-immigration-crackdown",
+      "summary": "The One Big Beautiful Bill Act, passed last year, significantly increased the budget for Immigration and Customs Enforcement (ICE) to $28.7 billion for 2025-2026, nearly tripling it. This funding boost has allowed ICE to more than double its personnel from approximately 10,000 to 22,000 agents. The expansion supports the Trump administration's intensified immigration enforcement efforts, focusing on deportations from within the U.S. rather than at the border.",
+      "why_relevant": "The substantial increase in ICE's budget and personnel reflects a legislative endorsement of aggressive immigration enforcement policies.",
+      "attacks": [
+        "immigrants_refugees",
+        "public_service"
+      ],
+      "_origin_file": "guardian_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 124
+    },
+    {
+      "source_key": "guardian",
+      "date": "2026-01-28",
+      "category": "Legislative & Oversight Activity",
+      "title": "Legislation Introduced to Extend Moratorium on Hemp Ban",
+      "url": "https://www.theguardian.com/us-news/2026/jan/28/chicago-united-center-cannabis-drinks",
+      "summary": "",
+      "why_relevant": "This legislative action is significant as it impacts the legal status of hemp-derived THC products, affecting both consumer access and the regulatory environment.",
+      "attacks": [],
+      "_origin_file": "guardian_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 130
+    },
+    {
+      "source_key": "guardian",
+      "date": "2026-01-28",
+      "category": "Legislative & Oversight Activity",
+      "title": "Senate Democrats demand DHS funding bill include reforms to ‘rein in ICE’",
+      "url": "https://www.theguardian.com/us-news/2026/jan/28/democrats-dhs-funding-bill-reform-ice",
+      "summary": "On Wednesday, Senate minority leader Chuck Schumer demanded that the Department of Homeland Security (DHS) funding bill include reforms to limit the actions of Immigration and Customs Enforcement (ICE). The proposed reforms include a ban on mask-wearing by federal agents, mandatory body cameras, and independent investigations into violations. This demand sets up a potential clash with Republicans, which could lead to a partial government shutdown. The Senate's Republican leaders plan to hold a procedural vote on the DHS funding measure and other spending bills, but Schumer's demands may require the DHS bill to be rewritten and voted on separately.",
+      "why_relevant": "The demand for reforms to ICE within the DHS funding bill highlights ongoing tensions over immigration enforcement and could impact government operations if a shutdown occurs.",
+      "attacks": [
+        "immigrants_refugees",
+        "congress"
+      ],
+      "_origin_file": "guardian_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 116
+    },
+    {
+      "source_key": "hcr",
+      "date": "2026-01-28",
+      "category": "Legislative & Oversight Activity",
+      "title": "House Democrats plan investigation into Kristi Noem",
+      "url": "https://www.cnbc.com/2026/01/27/house-democrats-kristi-noem-impeachment-trump.html",
+      "summary": "House Democrats announced plans to investigate South Dakota Governor Kristi Noem as part of a broader effort to hold the administration accountable for its policies and actions related to federal law enforcement.",
+      "why_relevant": "The investigation signifies a legislative effort to check executive power and ensure accountability for actions taken by state and federal officials.",
+      "attacks": [],
+      "_origin_file": "hcr_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 33
+    },
+    {
+      "source_key": "hcr",
+      "date": "2026-01-28",
+      "category": "Legislative & Oversight Activity",
+      "title": "Representative Suozzi apologizes for supporting DHS funding",
+      "url": "https://www.washingtonpost.com/technology/2026/01/27/alex-pretti-death-trump-backlash/",
+      "summary": "Representative Tom Suozzi publicly apologized for his vote in favor of the appropriations bill that included funding for DHS, acknowledging that he failed to recognize the implications of his vote in light of the recent killing of Alex Pretti. He called for the removal of federal agents from Minneapolis.",
+      "why_relevant": "Suozzi's apology reflects the accountability of elected officials to their constituents and the impact of public sentiment on legislative decisions.",
+      "attacks": [],
+      "_origin_file": "hcr_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 27
+    },
+    {
+      "source_key": "hcr",
+      "date": "2026-01-28",
+      "category": "Legislative & Oversight Activity",
+      "title": "Senate Democrats oppose DHS funding in appropriations bill",
+      "url": "https://thehill.com/homenews/senate/5709361-republicans-dhs-funding-bill/",
+      "summary": "Following the killing of Alex Pretti, Senate minority leader Chuck Schumer announced that Senate Democrats would not provide votes to proceed with an appropriations bill that includes funding for the Department of Homeland Security (DHS). This decision reflects a significant shift in political dynamics in response to public outrage over federal law enforcement actions.",
+      "why_relevant": "The refusal to support DHS funding indicates a growing legislative pushback against federal law enforcement practices, highlighting the role of Congress in overseeing executive actions.",
+      "attacks": [],
+      "_origin_file": "hcr_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 26
+    },
+    {
+      "source_key": "meidas",
+      "date": "2026-01-28",
+      "category": "Legislative & Oversight Activity",
+      "title": "Senate and White House Near Deal to Avert Shutdown",
+      "url": "https://www.meidasplus.com/p/today-in-politics-bulletin-296-12926",
+      "summary": "The White House and Senate leaders are close to reaching a deal to avert a government shutdown, involving the approval of five bills for the fiscal year and a short continuing resolution (CR) for DHS funding. The deal would allow for further negotiations on new ICE policies. However, the agreement faces potential opposition in the House, where some Republicans threaten to block it.",
+      "why_relevant": "The potential government shutdown and negotiations over ICE policies highlight the ongoing political struggle over immigration enforcement and budget priorities.",
+      "attacks": [
+        "congress",
+        "separation_of_powers"
+      ],
+      "_origin_file": "meidas_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 40
+    },
+    {
+      "source_key": "meidas",
+      "date": "2026-01-28",
+      "category": "Judicial Developments",
+      "title": "Judge Schiltz Issues Order on ICE Violations",
+      "url": "https://www.meidasplus.com/p/today-in-politics-bulletin-296-12926",
+      "summary": "Minnesota's Chief Federal Judge Schiltz issued a scathing order highlighting 96 court orders that ICE has violated in 74 cases. The order includes an appendix listing these violations, emphasizing the agency's disregard for the rule of law. This judicial action underscores the legal challenges and accountability issues facing ICE under the current administration.",
+      "why_relevant": "The order reveals systemic legal violations by ICE, raising concerns about the agency's adherence to judicial authority and the rule of law.",
+      "attacks": [
+        "rule_of_law",
+        "justice_dept"
+      ],
+      "_origin_file": "meidas_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 37
+    },
+    {
+      "source_key": "50501",
+      "date": "2026-01-28",
+      "category": "Law Enforcement & Surveillance",
+      "title": "ICE vehicles increasingly use unmarked civilian-style cars",
+      "url": "https://www.the50501movement.org/p/ice-vehicles-dont-look-like-ice-vehicles",
+      "summary": "ICE (Immigration and Customs Enforcement) has been reported to increasingly use unmarked vehicles that blend into civilian traffic, making it difficult to identify them during enforcement operations. These vehicles often appear as standard SUVs or sedans without obvious law enforcement markings, and ICE agents may present themselves as police in plainclothes. This tactic aims to create ambiguity and confusion during raids. Immigrant defense organizations emphasize the importance of community reporting and verification through ICE-watch networks to ensure safety and legal compliance during such operations.",
+      "why_relevant": "The use of unmarked vehicles by ICE affects community safety and transparency in law enforcement operations, raising concerns about civil rights and the potential for abuse.",
+      "attacks": [
+        "immigrants_refugees",
+        "transparency"
+      ],
+      "_origin_file": "50501_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 16
+    },
+    {
+      "source_key": "guardian",
+      "date": "2026-01-28",
+      "category": "Law Enforcement & Surveillance",
+      "title": "Border Patrol's Expanded Role in Urban Immigration Enforcement",
+      "url": "https://www.theguardian.com/us-news/2026/jan/19/donald-trump-immigration-crackdown",
+      "summary": "The Trump administration has expanded the role of Border Patrol officers to include participation in urban immigration enforcement operations, a departure from their traditional focus on border security. These officers have been involved in aggressive tactics during operations in cities, despite having less enforcement authority away from the border.",
+      "why_relevant": "The expanded role of Border Patrol in urban areas raises concerns about the militarization of immigration enforcement and its impact on civil liberties.",
+      "attacks": [
+        "immigrants_refugees",
+        "civil_service"
+      ],
+      "_origin_file": "guardian_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 126
+    },
+    {
+      "source_key": "guardian",
+      "date": "2026-01-28",
+      "category": "Law Enforcement & Surveillance",
+      "title": "Death of Alex Pretti by Federal Agents",
+      "url": "https://www.theguardian.com/us-news/2026/jan/28/deaths-ice-2026-",
+      "summary": "Alex Pretti, a 37-year-old ICU nurse, was fatally shot by federal agents during an anti-ICE protest in Minneapolis on January 24, 2026. He was reportedly trying to help a woman when he was tackled, beaten, and shot. Video evidence showed he was unarmed at the time. The incident has sparked outrage and calls for accountability.",
+      "why_relevant": "The shooting raises serious concerns about the use of force by federal agents and the protection of protest rights.",
+      "attacks": [
+        "immigrants_refugees",
+        "rule_of_law",
+        "civil_service"
+      ],
+      "_origin_file": "guardian_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 138
+    },
+    {
+      "source_key": "guardian",
+      "date": "2026-01-28",
+      "category": "Law Enforcement & Surveillance",
+      "title": "Death of Geraldo Lunas Campos in ICE Custody",
+      "url": "https://www.theguardian.com/us-news/2026/jan/28/deaths-ice-2026-",
+      "summary": "Geraldo Lunas Campos, a 55-year-old Cuban immigrant, died on January 3, 2026, at the ICE facility Camp East Montana in El Paso, Texas. Initially reported as a suicide, an autopsy revealed his death was a homicide, with signs of physical trauma. Witnesses claim he was handcuffed and put into a chokehold. ICE stated he became disruptive and was placed in segregation, but the circumstances of his death remain controversial.",
+      "why_relevant": "The incident highlights potential abuses and lack of accountability in ICE detention facilities.",
+      "attacks": [
+        "immigrants_refugees",
+        "rule_of_law"
+      ],
+      "_origin_file": "guardian_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 132
+    },
+    {
+      "source_key": "guardian",
+      "date": "2026-01-28",
+      "category": "Law Enforcement & Surveillance",
+      "title": "Death of Heber Sánchez Domínguez in ICE Custody",
+      "url": "https://www.theguardian.com/us-news/2026/jan/28/deaths-ice-2026-",
+      "summary": "Heber Sánchez Domínguez, a 34-year-old Mexican immigrant, died on January 14, 2026, at the Robert A Deyton Detention Center in Lovejoy, Georgia. He was found hanging by his neck and was pronounced dead at a medical center. His death is under investigation, and the Mexican consulate has requested clarification of the circumstances.",
+      "why_relevant": "The incident raises concerns about detainee safety and the transparency of investigations into deaths in ICE custody.",
+      "attacks": [
+        "immigrants_refugees",
+        "information"
+      ],
+      "_origin_file": "guardian_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 137
+    },
+    {
+      "source_key": "guardian",
+      "date": "2026-01-28",
+      "category": "Law Enforcement & Surveillance",
+      "title": "Death of Luis Beltrán Yáñez–Cruz in ICE Custody",
+      "url": "https://www.theguardian.com/us-news/2026/jan/28/deaths-ice-2026-",
+      "summary": "Luis Beltrán Yáñez–Cruz, a 68-year-old Honduran immigrant, died on January 6, 2026, at John F Kennedy Memorial Hospital in Indio, California, from heart-related issues. He was detained by ICE in November 2025 and transferred to the hospital for chest pain. His family claims his health deteriorated after detention, raising concerns about the conditions and medical care in ICE facilities.",
+      "why_relevant": "The case highlights the potential health risks and inadequate medical care for detainees in ICE custody.",
+      "attacks": [
+        "immigrants_refugees",
+        "public_health"
+      ],
+      "_origin_file": "guardian_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 136
+    },
+    {
+      "source_key": "guardian",
+      "date": "2026-01-28",
+      "category": "Law Enforcement & Surveillance",
+      "title": "Death of Luis Gustavo Núñez Cáceres in ICE Custody",
+      "url": "https://www.theguardian.com/us-news/2026/jan/28/deaths-ice-2026-",
+      "summary": "On January 5, 2026, Luis Gustavo Núñez Cáceres, a 42-year-old immigrant from Honduras, died in ICE custody at HCA Houston Healthcare in Conroe, Texas. He had been admitted for a heart-related condition after being arrested by ICE agents in Houston on November 17, 2025. Despite being moved to the intensive care unit due to multiple life-threatening medical emergencies, he passed away. His family claims inadequate medical care contributed to his death, despite ICE's assertion of providing high standards of care.",
+      "why_relevant": "The death raises concerns about the treatment and medical care of immigrants in ICE custody.",
+      "attacks": [
+        "immigrants_refugees",
+        "public_health"
+      ],
+      "_origin_file": "guardian_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 131
+    },
+    {
+      "source_key": "guardian",
+      "date": "2026-01-28",
+      "category": "Law Enforcement & Surveillance",
+      "title": "Death of Parady La in ICE Custody",
+      "url": "https://www.theguardian.com/us-news/2026/jan/28/deaths-ice-2026-",
+      "summary": "Parady La, a 46-year-old Cambodian immigrant, died on January 9, 2026, at Thomas Jefferson University Hospital in Philadelphia, Pennsylvania. He was found unresponsive in a federal detention center while receiving treatment for drug withdrawal. Despite being given Narcan and hospitalized, he succumbed to organ failure. His family was not informed of his whereabouts until shortly before his death.",
+      "why_relevant": "The incident raises questions about the adequacy of medical care and communication with families in ICE detention.",
+      "attacks": [
+        "immigrants_refugees",
+        "public_health"
+      ],
+      "_origin_file": "guardian_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 134
+    },
+    {
+      "source_key": "guardian",
+      "date": "2026-01-28",
+      "category": "Law Enforcement & Surveillance",
+      "title": "Death of Renee Nicole Good by Federal Agent",
+      "url": "https://www.theguardian.com/us-news/2026/jan/28/deaths-ice-2026-",
+      "summary": "On January 7, 2026, Renee Nicole Good, a 37-year-old Minneapolis resident, was fatally shot by a federal agent in her car. The DHS secretary described the incident as a response to an \"act of domestic terrorism.\" Good was a poet and writer, and her death has sparked public outcry and demands for accountability.",
+      "why_relevant": "The shooting raises concerns about the use of lethal force by federal agents and the justification of such actions.",
+      "attacks": [
+        "immigrants_refugees",
+        "rule_of_law"
+      ],
+      "_origin_file": "guardian_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 135
+    },
+    {
+      "source_key": "guardian",
+      "date": "2026-01-28",
+      "category": "Law Enforcement & Surveillance",
+      "title": "Death of Víctor Manuel Díaz in ICE Custody",
+      "url": "https://www.theguardian.com/us-news/2026/jan/28/deaths-ice-2026-",
+      "summary": "Víctor Manuel Díaz, a 36-year-old Nicaraguan immigrant, died on January 14, 2026, at Camp East Montana in El Paso, Texas. ICE reported his death as a presumed suicide, but it remains under investigation. His family disputes the suicide claim, asserting he was not a criminal and was seeking a better life in the U.S.",
+      "why_relevant": "The case underscores ongoing issues with detainee safety and the transparency of investigations into deaths in custody.",
+      "attacks": [
+        "immigrants_refugees",
+        "information"
+      ],
+      "_origin_file": "guardian_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 133
+    },
+    {
+      "source_key": "guardian",
+      "date": "2026-01-28",
+      "category": "Law Enforcement & Surveillance",
+      "title": "Deployment of Federal Officers in Democratic-led Cities",
+      "url": "https://www.theguardian.com/us-news/2026/jan/19/donald-trump-immigration-crackdown",
+      "summary": "Since January 2025, the Trump administration has deployed a large number of federal officers to Democratic-led cities across the United States as part of an immigration crackdown. This operation, declared by the Department of Homeland Security as the largest in its history, involves multiple federal agencies, including Immigration and Customs Enforcement (ICE) and Border Patrol, conducting raids in public places, businesses, and even schools and hospitals. The operation has been met with resistance from local leaders and has led to increased fear and family separations.",
+      "why_relevant": "The deployment of federal officers in cities against local leaders' wishes raises concerns about federal overreach and the impact on civil liberties.",
+      "attacks": [
+        "immigrants_refugees",
+        "civil_service",
+        "public_service"
+      ],
+      "_origin_file": "guardian_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 123
+    },
+    {
+      "source_key": "guardian",
+      "date": "2026-01-28",
+      "category": "Law Enforcement & Surveillance",
+      "title": "FBI executes search warrant at Fulton County election office",
+      "url": "https://www.theguardian.com/us-news/2026/jan/29/tulsi-gabbard-georgia-fbi-elections-raid",
+      "summary": "On January 28, 2026, the FBI executed a search warrant at the Fulton County election hub and operation center in Union City, Georgia. The warrant sought records related to the 2020 election, including all ballots, tabulator tapes, ballot images, and voter rolls. The presence of Tulsi Gabbard, the director of national intelligence, at the scene raised concerns among Democratic lawmakers, who questioned her involvement in the operation. The search and Gabbard's presence have sparked calls for an investigation into the reasons behind the raid and her role in it.",
+      "why_relevant": "The execution of a search warrant at an election office and the involvement of a high-ranking intelligence official raise significant concerns about election integrity and the potential misuse of intelligence resources.",
+      "attacks": [
+        "elections",
+        "rule_of_law",
+        "justice_dept"
+      ],
+      "_origin_file": "guardian_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 86
+    },
+    {
+      "source_key": "guardian",
+      "date": "2026-01-28",
+      "category": "Law Enforcement & Surveillance",
+      "title": "ICE detains five-year-old boy in Minneapolis",
+      "url": "https://www.theguardian.com/us-news/2026/jan/28/womanosphere-influencers-ice-minnesota",
+      "summary": "ICE agents detained a five-year-old boy named Liam Ramos in Minneapolis, sparking widespread outrage. The boy was taken from his driveway, and images of him in snowpants and a blue hat with bunny ears being held by a federal agent circulated widely. The Department of Homeland Security claimed the boy had been abandoned by his father, but eyewitnesses and the boy's school district reported that the father had been detained by ICE, which allegedly used the child as bait to lure other family members out of their home.",
+      "why_relevant": "This event highlights the controversial tactics used by ICE, raising concerns about the treatment of immigrant families and the use of children in enforcement actions.",
+      "attacks": [
+        "immigrants_refugees",
+        "decency",
+        "public_memory"
+      ],
+      "_origin_file": "guardian_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 127
+    },
+    {
+      "source_key": "guardian",
+      "date": "2026-01-28",
+      "category": "Law Enforcement & Surveillance",
+      "title": "ICE transfers detainees out of Maine",
+      "url": "https://www.theguardian.com/us-news/2026/jan/28/maine-ice-detainees-transfer",
+      "summary": "Immigration and Customs Enforcement (ICE) has been rapidly transferring over 200 detainees out of Maine, following a federal immigration crackdown. This action has made it difficult for families and attorneys to locate and assist the detainees, as they are moved to facilities in other states like Louisiana. The transfers come after a federal board ruling in September that removed bond eligibility for those who crossed the US border unlawfully. Legal advocates are struggling to file habeas petitions due to the swift relocations, which complicate legal challenges to the detentions.",
+      "why_relevant": "The rapid transfer of detainees out of state undermines their legal rights and access to due process, affecting the fairness of immigration enforcement.",
+      "attacks": [
+        "immigrants_refugees",
+        "rule_of_law"
+      ],
+      "_origin_file": "guardian_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 129
+    },
+    {
+      "source_key": "guardian",
+      "date": "2026-01-28",
+      "category": "Law Enforcement & Surveillance",
+      "title": "Man arrested for assaulting Congresswoman Ilhan Omar with unknown substance",
+      "url": "https://www.theguardian.com/us-news/2026/jan/28/ilhan-omar-sprayed-unknown-substance-minneapolis",
+      "summary": "During a town hall meeting in Minneapolis, Congresswoman Ilhan Omar was sprayed with an unidentified liquid by a man using a syringe. The man, identified as Anthony James Kazmierczak, was arrested and booked for third-degree assault. The incident occurred as Omar was speaking about abolishing ICE and calling for the resignation of DHS Secretary Kristi Noem. Despite the attack, Omar continued the event, emphasizing resilience against threats. The Minneapolis mayor condemned the attack, and the US Capitol Police stated they are working to ensure serious charges are pursued.",
+      "why_relevant": "The assault on a sitting Congresswoman highlights ongoing threats to elected officials and the potential impact of political rhetoric on public safety.",
+      "attacks": [
+        "rule_of_law",
+        "public_service"
+      ],
+      "_origin_file": "guardian_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 121
+    },
+    {
+      "source_key": "guardian",
+      "date": "2026-01-28",
+      "category": "Law Enforcement & Surveillance",
+      "title": "Reassignment of HSI Agents to Deportation Operations",
+      "url": "https://www.theguardian.com/us-news/2026/jan/19/donald-trump-immigration-crackdown",
+      "summary": "Under the Trump administration, Homeland Security Investigations (HSI) agents, traditionally focused on complex criminal cases, have been increasingly reassigned to support deportation operations conducted by Enforcement and Removal Operations (ERO). This shift in focus has led to HSI agents participating in raids and street operations, marking a departure from their usual investigative roles.",
+      "why_relevant": "The reassignment of HSI agents to deportation operations indicates a prioritization of immigration enforcement over other criminal investigations.",
+      "attacks": [
+        "immigrants_refugees",
+        "civil_service"
+      ],
+      "_origin_file": "guardian_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 125
+    },
+    {
+      "source_key": "guardian",
+      "date": "2026-01-28",
+      "category": "Law Enforcement & Surveillance",
+      "title": "Shooting by Border Agent in Arizona",
+      "url": "https://www.theguardian.com/us-news/2026/jan/27/us-mexico-border-agent-shooting-arizona",
+      "summary": "A border patrol agent in Arizona shot and critically injured Patrick Gary Schlegel, an accused smuggler, after Schlegel fired shots at an occupied helicopter. The incident occurred following a traffic stop where Schlegel fled on foot. Schlegel, previously convicted of smuggling unauthorized migrants and possessing firearms as a felon, had escaped from a facility in 2024. He is currently held on a warrant and faces potential federal charges for assault on a federal officer, alien smuggling, and felon in possession of a firearm. The shooting is under investigation by multiple agencies, including Customs and Border Protection, the FBI, and the Pima County Sheriff's Office.",
+      "why_relevant": "The event highlights ongoing concerns about the use of force by federal immigration agents and the broader implications for law enforcement practices at the US-Mexico border.",
+      "attacks": [
+        "immigrants_refugees",
+        "rule_of_law"
+      ],
+      "_origin_file": "guardian_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 143
+    },
+    {
+      "source_key": "guardian",
+      "date": "2026-01-28",
+      "category": "Law Enforcement & Surveillance",
+      "title": "Two agents who shot Alex Pretti put on leave",
+      "url": "https://www.theguardian.com/us-news/2026/jan/28/trump-minnesota-immigration-enforcement-raids",
+      "summary": "The Department of Homeland Security (DHS) placed two agents on administrative leave following their involvement in the fatal shooting of Alex Pretti in Minneapolis. This action is part of standard protocol for fatal shootings. The incident has sparked backlash against the Trump administration's immigration enforcement tactics, with ongoing raids in Minnesota. Despite the controversy, President Trump has not provided details on any changes to enforcement tactics. The situation has led to criticism from various groups, including the National Rifle Association, and has prompted plans for large-scale protests.",
+      "why_relevant": "The event highlights the ongoing tension and controversy surrounding federal immigration enforcement tactics and their impact on civil rights and public safety.",
+      "attacks": [
+        "immigrants_refugees",
+        "rule_of_law",
+        "public_service"
+      ],
+      "_origin_file": "guardian_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 117
+    },
+    {
+      "source_key": "guardian",
+      "date": "2026-01-28",
+      "category": "Law Enforcement & Surveillance",
+      "title": "US attorney general Pam Bondi announces new arrests",
+      "url": "https://www.theguardian.com/us-news/2026/jan/28/trump-minnesota-immigration-enforcement-raids",
+      "summary": "US Attorney General Pam Bondi announced new arrests related to individuals she described as \"rioters\" who were \"assaulting federal law enforcement\" during immigration operations in Minnesota. This announcement comes amid heightened tensions and public scrutiny of federal immigration enforcement tactics following the fatal shooting of Alex Pretti. The arrests are part of the administration's efforts to maintain control and address disruptions during ongoing immigration raids.",
+      "why_relevant": "The arrests highlight the administration's continued aggressive stance on immigration enforcement and its impact on civil liberties and public dissent.",
+      "attacks": [
+        "immigrants_refugees",
+        "civil_service"
+      ],
+      "_origin_file": "guardian_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 119
+    },
+    {
+      "source_key": "hcr",
+      "date": "2026-01-28",
+      "category": "Law Enforcement & Surveillance",
+      "title": "FBI investigates Signal chats of Minneapolis protesters",
+      "url": "https://www.theguardian.com/us-news/2026/jan/27/minneapolis-fbi-signal-investigation-kash-patel",
+      "summary": "The FBI announced it will investigate Signal chats used by individuals in Minneapolis to organize protests against federal agents, following suggestions that these chats represent a coordinated effort to obstruct law enforcement.",
+      "why_relevant": "The investigation into protesters' communications raises concerns about government surveillance and the potential criminalization of dissent.",
+      "attacks": [
+        "civil_society_protest"
+      ],
+      "_origin_file": "hcr_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 32
+    },
+    {
+      "source_key": "hcr",
+      "date": "2026-01-28",
+      "category": "Law Enforcement & Surveillance",
+      "title": "ICE agents deport five-year-old U.S. citizen to Honduras",
+      "url": "https://www.people.com/ice-detains-5-year-old-boy-father-used-as-bait-11890257",
+      "summary": "Federal agents deported a five-year-old U.S. citizen to Honduras without allowing her or her mother access to legal representation or a hearing before a judge. This incident has raised concerns about the treatment of individuals by ICE and the legality of such actions.",
+      "why_relevant": "The deportation of a U.S. citizen without due process highlights serious violations of legal rights and raises questions about the practices of federal immigration enforcement.",
+      "attacks": [
+        "immigrants_refugees"
+      ],
+      "_origin_file": "hcr_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 28
+    },
+    {
+      "source_key": "hcr",
+      "date": "2026-01-28",
+      "category": "Law Enforcement & Surveillance",
+      "title": "ICE collects personal information of protesters in Minneapolis",
+      "url": "https://www.cnn.com/2026/01/27/us/alex-pretti-protesters-minneapolis-invs",
+      "summary": "Reports emerged that ICE agents in Minneapolis have been instructed to collect personal information on protesters, including images, license plates, and identifications. This practice raises concerns about surveillance and the targeting of individuals exercising their right to protest.",
+      "why_relevant": "The collection of personal information on protesters poses a threat to civil liberties and the right to free expression, undermining democratic norms.",
+      "attacks": [
+        "civil_society_protest"
+      ],
+      "_origin_file": "hcr_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 29
+    },
+    {
+      "source_key": "meidas",
+      "date": "2026-01-28",
+      "category": "Law Enforcement & Surveillance",
+      "title": "Coalition Formed to Prosecute Federal Law Enforcement",
+      "url": "https://www.meidasplus.com/p/today-in-politics-bulletin-296-12926",
+      "summary": "Nine prosecutors from various cities, including Philadelphia's Larry Krasner, have formed a coalition called the Project for the Fight Against Federal Overreach (F.A.F.O.) to prosecute federal law enforcement officers who violate state laws. The coalition aims to address concerns about warrantless entries, unlawful detentions, and coercive enforcement tactics by federal agents.",
+      "why_relevant": "The coalition represents a significant pushback against federal overreach and aims to hold federal agents accountable for violations of state laws.",
+      "attacks": [
+        "justice_dept",
+        "rule_of_law"
+      ],
+      "_origin_file": "meidas_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 38
+    },
+    {
+      "source_key": "meidas",
+      "date": "2026-01-28",
+      "category": "Law Enforcement & Surveillance",
+      "title": "DHS Expands Surveillance Capabilities",
+      "url": "https://www.meidasplus.com/p/today-in-politics-bulletin-296-12926",
+      "summary": "The Department of Homeland Security has expanded its use of surveillance technologies, including facial recognition and AI, as part of ICE's enhanced enforcement capabilities. This expansion follows a bill passed last summer, making ICE the most highly funded law enforcement agency. The increased surveillance powers have raised privacy and free speech concerns among civil rights groups and Democratic lawmakers.",
+      "why_relevant": "The expansion of surveillance technologies by ICE raises significant concerns about privacy rights and the potential for abuse in monitoring both immigrants and U.S. citizens.",
+      "attacks": [
+        "privacy",
+        "information",
+        "civil_service"
+      ],
+      "_origin_file": "meidas_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 39
+    },
+    {
+      "source_key": "meidas",
+      "date": "2026-01-28",
+      "category": "Law Enforcement & Surveillance",
+      "title": "Tom Homan Holds Press Conference on ICE Operations",
+      "url": "https://www.meidasplus.com/p/today-in-politics-bulletin-296-12926",
+      "summary": "Tom Homan, the new head of ICE, held a press conference in Minnesota, discussing plans to reduce the number of ICE and Border Patrol agents in the state. He emphasized targeted operations focusing on criminal aliens, public safety threats, and national security threats. Homan criticized his predecessor and highlighted the challenges faced by agents in the field. The press conference reflects ongoing tensions and public scrutiny over immigration enforcement practices.",
+      "why_relevant": "The event highlights the federal government's approach to immigration enforcement and its impact on civil liberties and public perception.",
+      "attacks": [
+        "immigrants_refugees",
+        "civil_service"
+      ],
+      "_origin_file": "meidas_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 36
+    },
+    {
+      "source_key": "meidas",
+      "date": "2026-01-28",
+      "category": "Elections & Representation",
+      "title": "FBI Executes Search Warrant at Fulton County Elections Office",
+      "url": "https://www.meidasplus.com/p/today-in-politics-bulletin-296-12926",
+      "summary": "The FBI executed a search warrant at the Fulton County elections office, seizing ballots and files related to the 2020 election. Director of National Intelligence Tulsi Gabbard was present, raising questions about the federal government's involvement in election security. The raid has sparked concerns about its implications for the upcoming midterm elections.",
+      "why_relevant": "The FBI raid on an election office, with the DNI present, raises significant concerns about election integrity and federal overreach in state election matters.",
+      "attacks": [
+        "elections",
+        "rule_of_law",
+        "separation_of_powers"
+      ],
+      "_origin_file": "meidas_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 41
+    },
+    {
+      "source_key": "zeteo",
+      "date": "2026-01-28",
+      "category": "Elections & Representation",
+      "title": "FBI Raids Fulton County Election Office",
+      "url": "https://zeteo.com/p/this-week-in-democracy-week-54-trump",
+      "summary": "On January 28, 2026, the FBI raided an election center in Fulton County, Georgia, seizing physical ballots and voter rolls from the 2020 election. Director of National Intelligence Tulsi Gabbard was present, reportedly investigating Trump's debunked election fraud claims.",
+      "why_relevant": "The raid on an election office raises concerns about the misuse of federal power to pursue unfounded election fraud claims.",
+      "attacks": [
+        "elections",
+        "rule_of_law"
+      ],
+      "_origin_file": "zeteo_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 5
+    },
+    {
+      "source_key": "guardian",
+      "date": "2026-01-28",
+      "category": "Civil Society & Protest",
+      "title": "Attack on Ilhan Omar at Minneapolis Town Hall",
+      "url": "https://www.theguardian.com/us-news/2026/jan/28/ilhan-omar-attack-condemned",
+      "summary": "During a town hall event in Minneapolis, Congresswoman Ilhan Omar was sprayed with an unidentified liquid by an assailant. The attack has been widely condemned by lawmakers from both parties. House Minority Leader Hakeem Jeffries criticized former President Donald Trump for suggesting that Omar staged the attack, calling his comments \"disgusting\" and accusing him of spreading lies and misinformation. The incident has been linked to Trump's recent xenophobic rhetoric against Omar and the Somali community in Minnesota. Lawmakers have called for an end to political violence and for the attacker to face legal consequences.",
+      "why_relevant": "The attack on a sitting member of Congress highlights the increasing political violence and the impact of inflammatory rhetoric on democratic processes.",
+      "attacks": [
+        "minorities",
+        "truth",
+        "public_service"
+      ],
+      "_origin_file": "guardian_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 128
+    },
+    {
+      "source_key": "guardian",
+      "date": "2026-01-28",
+      "category": "Civil Society & Protest",
+      "title": "EPA Suspends 140 Staffers Following Protest",
+      "url": "https://www.theguardian.com/us-news/2026/jan/28/trump-epa-environmental-rollbacks",
+      "summary": "Following an open letter signed by hundreds of EPA staff accusing the administration of undermining the agency's mission, 140 staffers were suspended. The protest highlighted concerns over the administration's approach to environmental regulation and the promotion of a \"culture of fear\" within the agency. This action reflects internal dissent and the administration's response to criticism.",
+      "why_relevant": "The suspension of staff for protesting highlights issues of internal dissent and the administration's handling of agency criticism.",
+      "attacks": [
+        "civil_service",
+        "public_service",
+        "whistleblowers"
+      ],
+      "_origin_file": "guardian_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 142
+    },
+    {
+      "source_key": "federalregister",
+      "date": "2026-01-28",
+      "category": "Economic & Regulatory Power",
+      "title": "Civilian Board of Contract Appeals Implements New Rules",
+      "url": "https://www.federalregister.gov/documents/2026/01/28/2026-01710/civilian-board-of-contract-appeals-rules-of-procedure-of-the-civilian-board-of-contract-appeals",
+      "summary": "The General Services Administration's Civilian Board of Contract Appeals issued new procedural rules under the Administrative False Claims Act, effective February 27, 2026. These rules govern the Board's process for handling claims of false statements made to U.S. executive agencies, as expanded by the National Defense Authorization Act for Fiscal Year 2025. The rules detail procedures for hearings, evidence submission, and case management, aiming to streamline administrative resolutions of false claims.",
+      "why_relevant": "This rule enhances the administrative framework for addressing false claims, impacting regulatory enforcement and accountability in government contracts.",
+      "attacks": [],
+      "_origin_file": "federalregister_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 9
+    },
+    {
+      "source_key": "federalregister",
+      "date": "2026-01-28",
+      "category": "Economic & Regulatory Power",
+      "title": "Civilian Board of Contract Appeals Updates Rules of Procedure",
+      "url": "https://www.federalregister.gov/documents/2026/01/28/2026-01709/civilian-board-of-contract-appeals-rules-of-procedure-of-the-civilian-board-of-contract-appeals",
+      "summary": "The General Services Administration issued a final rule updating the Civilian Board of Contract Appeals' rules of procedure. Changes include integrating electronic filing systems, updating definitions, and removing obsolete language. These amendments aim to enhance procedural efficiency and accommodate technological advancements. The rule becomes effective on February 27, 2026.",
+      "why_relevant": "This update modernizes the procedural framework for contract disputes, reflecting technological advancements and improving administrative efficiency.",
+      "attacks": [],
+      "_origin_file": "federalregister_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 10
+    },
+    {
+      "source_key": "federalregister",
+      "date": "2026-01-28",
+      "category": "Economic & Regulatory Power",
+      "title": "EPA Receives Applications for New Pesticide Ingredients",
+      "url": "https://www.federalregister.gov/documents/2026/01/28/2026-01653/pesticide-product-registration-receipt-of-applications-for-new-active-ingredients-november-2025",
+      "summary": "The Environmental Protection Agency (EPA) announced the receipt of applications to register pesticide products containing new active ingredients not currently registered. The notice invites public comments by February 27, 2026, as part of the evaluation process under the Federal Insecticide, Fungicide, and Rodenticide Act (FIFRA). The applications include various herbicides proposed for use on crops such as soybeans, corn, and citrus. This process is part of EPA's regulatory oversight to ensure safety and efficacy of new pesticide products.",
+      "why_relevant": "This action reflects the EPA's role in regulating pesticide use, impacting agricultural practices and environmental safety.",
+      "attacks": [],
+      "_origin_file": "federalregister_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 38
+    },
+    {
+      "source_key": "federalregister",
+      "date": "2026-01-28",
+      "category": "Economic & Regulatory Power",
+      "title": "EPA Receives Applications for New Pesticide Uses",
+      "url": "https://www.federalregister.gov/documents/2026/01/28/2026-01652/pesticide-product-registration-receipt-of-applications-for-new-uses-november-2025",
+      "summary": "The Environmental Protection Agency (EPA) announced the receipt of applications to register new pesticide products with changes in use patterns. The notice invites public comments on these applications, which involve active ingredients like Inpyrfluxam and Fluxapyroxad. The applications are currently under evaluation, and comments are due by February 27, 2026. This process is part of the EPA's regulatory framework under the Federal Insecticide, Fungicide, and Rodenticide Act (FIFRA).",
+      "why_relevant": "This action affects regulatory oversight of pesticide use, impacting agricultural practices and environmental safety.",
+      "attacks": [],
+      "_origin_file": "federalregister_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 39
+    },
+    {
+      "source_key": "federalregister",
+      "date": "2026-01-28",
+      "category": "Economic & Regulatory Power",
+      "title": "EPA Releases Fluoride Preliminary Assessment Plan for Public Comment",
+      "url": "https://www.federalregister.gov/documents/2026/01/28/2026-01657/review-of-science-on-fluoride-in-drinking-water-preliminary-assessment-plan-and-literature-survey",
+      "summary": "The Environmental Protection Agency (EPA) has released the Fluoride Preliminary Assessment Plan and Literature Survey for public comment. This document outlines the EPA's approach to developing a human health toxicity assessment for fluoride in drinking water. The assessment aims to determine safe exposure levels and inform potential revisions to the existing fluoride drinking water standard under the Safe Drinking Water Act. Public comments are invited until February 27, 2026, to ensure transparency and gather feedback.",
+      "why_relevant": "This action is significant as it addresses public health concerns related to fluoride in drinking water and may lead to regulatory changes affecting water safety standards.",
+      "attacks": [],
+      "_origin_file": "federalregister_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 37
+    },
+    {
+      "source_key": "federalregister",
+      "date": "2026-01-28",
+      "category": "Economic & Regulatory Power",
+      "title": "FCC Submits Information Collection for OMB Review",
+      "url": "https://www.federalregister.gov/documents/2026/01/28/2026-01694/information-collection-being-submitted-for-review-and-approval-to-office-of-management-and-budget",
+      "summary": "The Federal Communications Commission (FCC) has submitted an information collection request to the Office of Management and Budget (OMB) for review. This action is part of the FCC's ongoing efforts to reduce paperwork burdens under the Paperwork Reduction Act of 1995. The FCC seeks public comments on the necessity and utility of the proposed collection, particularly its impact on small businesses. Comments are due by February 27, 2026.",
+      "why_relevant": "This action reflects regulatory processes aimed at reducing administrative burdens, impacting businesses and regulatory compliance.",
+      "attacks": [],
+      "_origin_file": "federalregister_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 18
+    },
+    {
+      "source_key": "federalregister",
+      "date": "2026-01-28",
+      "category": "Economic & Regulatory Power",
+      "title": "General Services Administration Notice on SAM Registration Requirements",
+      "url": "https://www.federalregister.gov/documents/2026/01/28/2026-01676/information-collection-system-for-award-management-registration-requirements-for-financial",
+      "summary": "The General Services Administration (GSA) issued a notice requesting public comments on revisions to the System for Award Management (SAM) registration requirements for financial assistance recipients. The revisions align with updated executive branch guidance and require all prime financial assistance awardees to register and maintain their registration in SAM.gov. This facilitates compliance with the Federal Funding Accountability and Transparency Act. Comments are due by March 30, 2026.",
+      "why_relevant": "This notice affects the regulatory framework for financial assistance recipients, ensuring transparency and compliance with federal funding requirements.",
+      "attacks": [],
+      "_origin_file": "federalregister_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 11
+    },
+    {
+      "source_key": "popinfo",
+      "date": "2026-01-28",
+      "category": "Economic & Regulatory Power",
+      "title": "Trump Administration Continues Immigration Crackdown in Minnesota",
+      "url": "https://popular.info/p/how-legacy-media-fell-for-trumps",
+      "summary": "Despite media reports suggesting a policy shift, the Trump administration's immigration crackdown in Minnesota remains unchanged. President Trump has not announced any suspension or end to the operation, and key figures overseeing the crackdown, including Department of Homeland Security Secretary Kristi Noem and White House Deputy Chief of Staff Stephen Miller, remain in their positions. Noem and Miller have made false claims about the circumstances surrounding the fatal shooting of ICU nurse Alex Pretti by federal officers. Trump has replaced a Border Patrol commander with Tom Homan, a hardliner on immigration policy, indicating no substantive policy change.",
+      "why_relevant": "The continuation of aggressive immigration enforcement policies affects civil liberties and the treatment of immigrants, impacting democratic principles of justice and accountability.",
+      "attacks": [
+        "immigrants_refugees",
+        "rule_of_law"
+      ],
+      "_origin_file": "popinfo_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 11
+    },
+    {
+      "source_key": "guardian",
+      "date": "2026-01-28",
+      "category": "Appointments & Patronage",
+      "title": "Trump removes border patrol commander Gregory Bovino",
+      "url": "https://www.theguardian.com/us-news/2026/jan/28/trump-minnesota-immigration-enforcement-raids",
+      "summary": "President Trump removed Gregory Bovino, the border patrol commander, amid ongoing immigration raids in Minnesota. This decision follows the backlash from the fatal shooting of Alex Pretti and is part of an effort to address the controversy surrounding the administration's immigration enforcement tactics. Tom Homan, Trump's \"border czar,\" has been appointed as Bovino's replacement. The move is seen as an attempt to manage the fallout and adjust the administration's approach to immigration enforcement.",
+      "why_relevant": "The replacement of a key official in immigration enforcement reflects the administration's response to public and political pressure, impacting the direction of federal immigration policy.",
+      "attacks": [
+        "immigrants_refugees",
+        "public_service"
+      ],
+      "_origin_file": "guardian_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 118
+    },
+    {
+      "source_key": "popinfo",
+      "date": "2026-01-28",
+      "category": "Appointments & Patronage",
+      "title": "Kristi Noem Retains Position Despite False Claims",
+      "url": "https://popular.info/p/how-legacy-media-fell-for-trumps",
+      "summary": "Kristi Noem, Secretary of the Department of Homeland Security, retains her position despite making false claims about ICU nurse Alex Pretti, who was fatally shot by federal officers. Noem falsely accused Pretti of brandishing a weapon, claims contradicted by video evidence. Her retention suggests a lack of accountability for misinformation and the perpetuation of aggressive immigration policies. This decision aligns with the Trump administration's continued hardline stance on immigration enforcement in Minnesota.",
+      "why_relevant": "Retaining officials who disseminate false information undermines accountability and transparency in government, affecting public trust and democratic governance.",
+      "attacks": [
+        "truth",
+        "immigrants_refugees"
+      ],
+      "_origin_file": "popinfo_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 12
+    },
+    {
+      "source_key": "popinfo",
+      "date": "2026-01-28",
+      "category": "Appointments & Patronage",
+      "title": "Tom Homan Appointed to Oversee Minneapolis Immigration Operations",
+      "url": "https://popular.info/p/how-legacy-media-fell-for-trumps",
+      "summary": "Tom Homan, known for his hardline immigration stance, has been appointed to oversee immigration operations in Minneapolis, replacing Greg Bovino. Homan has publicly supported the Trump administration's aggressive immigration policies, including workplace raids and the use of military support for deportation operations. His appointment signals a continuation of stringent immigration enforcement, contradicting media reports of a policy shift. Homan's history includes advocating for the deportation of U.S. citizen children and the use of the Alien Enemies Act.",
+      "why_relevant": "Homan's appointment reinforces the administration's commitment to aggressive immigration policies, impacting civil liberties and the treatment of immigrants, which are critical to democratic values.",
+      "attacks": [
+        "immigrants_refugees",
+        "rule_of_law"
+      ],
+      "_origin_file": "popinfo_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 13
+    },
+    {
+      "source_key": "guardian",
+      "date": "2026-01-28",
+      "category": "International Relations",
+      "title": "ICE Agent Attempted Entry into Ecuador's Consulate in Minneapolis",
+      "url": "https://www.theguardian.com/us-news/2026/jan/28/ice-ecuador-consulate-minneapolis",
+      "summary": "An ICE agent attempted to enter the Ecuadorian consulate in Minneapolis but was stopped by a consulate employee. The incident prompted Ecuador's foreign ministry to file an official complaint with the US embassy in Quito, emphasizing the protection of Ecuadorians at the consulate. The event occurred amid a broader federal campaign in Minneapolis, which has faced criticism. Gregory Meeks, a senior Democrat, condemned the act as a breach of diplomatic protocols and a disregard for the rule of law by the Trump administration.",
+      "why_relevant": "The incident highlights tensions between US federal agencies and foreign diplomatic missions, raising concerns about diplomatic protocol violations.",
+      "attacks": [
+        "diplomacy",
+        "rule_of_law"
+      ],
+      "_origin_file": "guardian_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 120
+    },
+    {
+      "source_key": "hcr",
+      "date": "2026-01-28",
+      "category": "International Relations",
+      "title": "Federal agent attempts to enter Ecuadorian consulate",
+      "url": "https://www.nytimes.com/live/2026/01/27/us/minneapolis-shooting-ice-minnesota/9cd2afe0-7d2c-5059-92b9-85c358ff7851",
+      "summary": "A federal agent attempted to force entry into the Ecuadorian consulate in Minneapolis, violating international law that protects consular premises. The incident prompted a protest from Ecuador's foreign minister to the U.S. embassy.",
+      "why_relevant": "The attempt to breach a consulate reflects a disregard for international law and diplomatic norms, potentially straining U.S. relations with other countries.",
+      "attacks": [],
+      "_origin_file": "hcr_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 30
+    },
+    {
+      "source_key": "hcr",
+      "date": "2026-01-28",
+      "category": "International Relations",
+      "title": "ICE agents to join federal operations at Olympic Games in Milan",
+      "url": "https://www.npr.org/2026/01/27/nx-s1-5690100/winter-olympics-ice-agents-milan-italy",
+      "summary": "ICE agents from the Homeland Security Investigations Unit are set to join federal operations at the Olympic Games in Milan, Italy, despite local objections to their presence. This decision has raised concerns about the international perception of U.S. law enforcement.",
+      "why_relevant": "The deployment of U.S. federal agents abroad amid controversy over their domestic actions could impact international relations and perceptions of U.S. law enforcement practices.",
+      "attacks": [],
+      "_origin_file": "hcr_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 31
+    },
+    {
+      "source_key": "guardian",
+      "date": "2026-01-28",
+      "category": "Civil–Military Relations & State Violence",
+      "title": "Rubio Testifies on US Military Action in Venezuela",
+      "url": "https://www.theguardian.com/us-news/2026/jan/28/marco-rubio-force-venezuela-us-goals",
+      "summary": "On January 28, 2026, US Secretary of State Marco Rubio testified before the Senate Foreign Relations Committee, where he did not rule out future US military action in Venezuela. Rubio defended the Trump administration's removal of Nicolás Maduro and the subsequent control of Venezuela by interim president Delcy Rodríguez. He stated that while the administration does not intend to use military force, the option remains open for self-defense. Rubio also addressed the US's seizure and sale of Venezuelan oil and the issuance of no-bid licenses to US oil companies as a temporary measure.",
+      "why_relevant": "The testimony highlights the potential for US military involvement in Venezuela, impacting international relations and the use of executive power.",
+      "attacks": [
+        "global_democracy",
+        "separation_of_powers",
+        "peace"
+      ],
+      "_origin_file": "guardian_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 122
+    },
+    {
+      "source_key": "hcr",
+      "date": "2026-01-28",
+      "category": "Civil–Military Relations & State Violence",
+      "title": "Federal agents kill Alex Pretti in Minneapolis",
+      "url": "https://www.washingtonpost.com/technology/2026/01/27/alex-pretti-death-trump-backlash/",
+      "summary": "Federal agents shot and killed Alex Pretti, an ICU nurse, in Minneapolis, prompting widespread public outrage and calls for accountability. The incident has led to significant political repercussions, including a shift in support for a funding package that includes the Department of Homeland Security (DHS). Senate Democrats have indicated they will not support the appropriations bill if it includes DHS funding, reflecting the growing discontent with federal law enforcement actions.",
+      "why_relevant": "The killing of a civilian by federal agents raises serious concerns about the use of force and accountability in law enforcement, impacting public trust in government institutions.",
+      "attacks": [],
+      "_origin_file": "hcr_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 25
+    },
+    {
+      "source_key": "hcr",
+      "date": "2026-01-29",
+      "category": "Executive Actions & Orders",
+      "title": "Bondi ties access to voter rolls to federal law enforcement actions",
+      "url": "https://www.motherjones.com/politics/2026/01/pam-bondi-letter-to-minnesota-voter-roll-data-alex-pretti-ice-midterms-trump/",
+      "summary": "Attorney General Pam Bondi wrote to Minnesota Governor Tim Walz, suggesting that to end violence in Minnesota, the state must grant the Department of Justice access to voter rolls to ensure compliance with federal law. This request ties aggressive immigration enforcement to voter registration practices, raising concerns about the misuse of federal power.",
+      "why_relevant": "The request raises alarms about the potential for federal overreach into state election processes and the implications for voter rights.",
+      "attacks": [
+        "separation_of_powers"
+      ],
+      "_origin_file": "hcr_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 21
+    },
+    {
+      "source_key": "hcr",
+      "date": "2026-01-29",
+      "category": "Executive Actions & Orders",
+      "title": "Trump attempts to influence Georgia election officials",
+      "url": "https://www.theguardian.com/us-news/2021/jan/03/trump-georgia-raffensperger-call-biden-washington-post",
+      "summary": "In a call on January 2, 2021, President Trump pressured Georgia Secretary of State Brad Raffensperger to \"find\" votes to overturn the 2020 election results. This incident has resurfaced as Trump continues to assert that the election was rigged, despite no evidence supporting these claims.",
+      "why_relevant": "Trump's actions exemplify attempts to undermine the electoral process and exert pressure on state officials to alter election outcomes.",
+      "attacks": [
+        "peaceful_transfer"
+      ],
+      "_origin_file": "hcr_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 23
+    },
+    {
+      "source_key": "orders",
+      "date": "2026-01-29",
+      "category": "Executive Actions & Orders",
+      "title": "Executive Order: Addressing Addiction Through the Great American Recovery Initiative",
+      "url": "https://ballotpedia.org/Executive_Order:_Addressing_Addiction_Through_the_Great_American_Recovery_Initiative_(Donald_Trump,_2026)",
+      "summary": "On January 29, 2026, President Donald Trump issued an executive order establishing the Great American Recovery Initiative to address addiction in the United States. The initiative is co-chaired by the Secretary of Health and Human Services and the Senior Advisor for Addiction Recovery, with an Executive Director overseeing daily operations. The order aims to coordinate federal efforts to combat addiction, increase public awareness, and integrate addiction treatment into various public systems. It involves multiple federal departments and agencies, and seeks collaboration with state, local, and private entities to enhance treatment and recovery efforts.",
+      "why_relevant": "This executive order represents a significant federal initiative to address the widespread issue of addiction, impacting public health policy and inter-agency coordination.",
+      "attacks": [],
+      "_origin_file": "orders_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 3
+    },
+    {
+      "source_key": "orders",
+      "date": "2026-01-29",
+      "category": "Executive Actions & Orders",
+      "title": "Executive Order: Addressing Threats to the United States by the Government of Cuba",
+      "url": "https://ballotpedia.org/Executive_Order:_Addressing_Threats_to_the_United_States_by_the_Government_of_Cuba_(Donald_Trump,_2026)",
+      "summary": "On January 29, 2026, President Donald Trump issued an executive order declaring a national emergency in response to perceived threats from the Government of Cuba. The order cites Cuba's alignment with hostile countries and transnational terrorist groups as a threat to U.S. national security and foreign policy. It authorizes the imposition of additional tariffs on goods from countries that provide oil to Cuba. The order empowers the Secretary of Commerce and the Secretary of State to implement and enforce these tariffs, with the possibility of modifying the order based on changing circumstances or retaliatory actions.",
+      "why_relevant": "This executive order impacts U.S. foreign policy and trade relations, potentially affecting international economic dynamics and diplomatic relations.",
+      "attacks": [
+        "global_democracy",
+        "diplomacy",
+        "trade"
+      ],
+      "_origin_file": "orders_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 2
+    },
+    {
+      "source_key": "guardian",
+      "date": "2026-01-29",
+      "category": "Legislative & Oversight Activity",
+      "title": "Trump-appointed board renames Kennedy Center",
+      "url": "https://www.theguardian.com/us-news/2026/jan/29/trump-kennedy-center-kevin-couch-resigns",
+      "summary": "The new board of trustees at the Kennedy Center, appointed by Donald Trump, voted to rename the institution the \"Trump-Kennedy Center.\" This decision is controversial as the center is legally designated as the John F Kennedy Center for the Performing Arts, a living memorial to the former president. The renaming has sparked protests and cancellations from artists, and it is noted that any official name change would require congressional approval.",
+      "why_relevant": "The renaming effort reflects attempts to alter public memory and the identity of a national cultural institution.",
+      "attacks": [
+        "public_memory",
+        "culture_art"
+      ],
+      "_origin_file": "guardian_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 99
+    },
+    {
+      "source_key": "meidas",
+      "date": "2026-01-29",
+      "category": "Legislative & Oversight Activity",
+      "title": "Lindsey Graham Blocks Senate Vote to Avoid Government Shutdown",
+      "url": "https://www.meidasplus.com/p/today-in-politics-bulletin-297-13026",
+      "summary": "Senator Lindsey Graham blocked a late-night Senate vote intended to prevent a government shutdown. Graham's objection was related to a House provision that repealed a law allowing senators to sue the DOJ over subpoenaed phone records. His actions have caused tension within the Senate, with some Republicans expressing concern about the potential for a government shutdown.",
+      "why_relevant": "Graham's actions could lead to a government shutdown, affecting government operations and services.",
+      "attacks": [
+        "congress"
+      ],
+      "_origin_file": "meidas_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 33
+    },
+    {
+      "source_key": "meidas",
+      "date": "2026-01-29",
+      "category": "Legislative & Oversight Activity",
+      "title": "Senate Blocks Funding Bill Over ICE Concerns",
+      "url": "https://www.meidasplus.com/p/thursday-news-updates-as-trump-kicks",
+      "summary": "The U.S. Senate failed to advance a funding bill intended to avert a government shutdown, with Democrats and seven Republicans voting against it due to concerns over ICE's lawlessness. The bill's failure highlights the contentious debate over immigration enforcement and government funding.",
+      "why_relevant": "The blocked funding bill underscores the legislative challenges in addressing immigration enforcement and government operations.",
+      "attacks": [
+        "congress",
+        "immigrants_refugees"
+      ],
+      "_origin_file": "meidas_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 47
+    },
+    {
+      "source_key": "guardian",
+      "date": "2026-01-29",
+      "category": "Judicial Developments",
+      "title": "Class-action lawsuit filed against DHS for detention practices",
+      "url": "https://www.theguardian.com/us-news/2026/jan/29/minneapolis-ice-observers",
+      "summary": "On January 27, 2026, the Advocates for Human Rights and a detained individual filed a class-action lawsuit against the Department of Homeland Security (DHS). The lawsuit challenges the detention practices at Minnesota facilities, including the BH Whipple federal building, alleging a pattern of denying lawyers confidential communication with their clients. The DHS has denied these allegations, stating that detainees have access to attorneys. The lawsuit highlights ongoing concerns about the treatment of detainees and the transparency of federal immigration enforcement practices.",
+      "why_relevant": "This lawsuit addresses potential violations of detainees' rights to legal representation, which is a fundamental aspect of due process and the rule of law.",
+      "attacks": [
+        "justice_dept",
+        "rule_of_law"
+      ],
+      "_origin_file": "guardian_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 97
+    },
+    {
+      "source_key": "guardian",
+      "date": "2026-01-29",
+      "category": "Judicial Developments",
+      "title": "Federal judge temporarily blocks deportation of father and son",
+      "url": "https://www.theguardian.com/us-news/2026/jan/29/liam-ramos-father-joaquin-castro-ice-visit",
+      "summary": "A federal judge has temporarily blocked the deportation of Adrian Conejo Arias and his son, Liam Conejo Ramos, while litigation challenging their detention continues. The father and son were detained by ICE agents in Minnesota and transferred to a detention facility in Texas. The Department of Homeland Security claimed the father was in the country illegally, but an attorney for the family stated they have an active asylum case and entered the US legally. The judge's decision halts their deportation as the legal process unfolds.",
+      "why_relevant": "This judicial intervention highlights the ongoing legal battles surrounding immigration enforcement and the protection of asylum seekers' rights.",
+      "attacks": [
+        "immigrants_refugees",
+        "rule_of_law"
+      ],
+      "_origin_file": "guardian_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 96
+    },
+    {
+      "source_key": "guardian",
+      "date": "2026-01-29",
+      "category": "Judicial Developments",
+      "title": "Judge blocks Trump officials from detaining refugees in Minnesota",
+      "url": "https://www.theguardian.com/us-news/2026/jan/28/judge-trump-minnesota-refugees",
+      "summary": "A federal judge, John R. Tunheim, has issued a ruling blocking the Trump administration from detaining refugees in Minnesota. This decision follows the arrest of over 100 lawfully resettled refugees under the Department of Homeland Security's \"Operation Parris,\" which involved re-vetting refugees through new background checks. The judge ordered the immediate release of detained refugees in Minnesota and those taken to Texas within five days. The ruling came in response to a class-action lawsuit challenging the administration's policy, which has been criticized as an assault on human rights.",
+      "why_relevant": "This ruling is significant as it addresses the legality and human rights implications of detaining lawfully resettled refugees, impacting immigration policy and refugee rights.",
+      "attacks": [
+        "immigrants_refugees",
+        "rule_of_law",
+        "truth"
+      ],
+      "_origin_file": "guardian_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 114
+    },
+    {
+      "source_key": "hcr",
+      "date": "2026-01-29",
+      "category": "Judicial Developments",
+      "title": "Judge orders ICE director to explain noncompliance with court orders",
+      "url": "https://www.wbur.org/news/2026/01/27/federal-judge-todd-lyons-court-summons-immigration-minneapolis",
+      "summary": "Judge Patrick J. Schiltz of the U.S. District Court for the District of Minnesota ordered Todd Lyons, the acting director of ICE, to appear in court after ICE allegedly ignored his order to allow a detainee a bond hearing. The judge later identified 96 court orders that ICE had violated in 74 cases, warning that he would hold officials accountable for continued noncompliance.",
+      "why_relevant": "The judge's actions highlight the judiciary's role in enforcing compliance with the law and protecting individual rights against federal overreach.",
+      "attacks": [
+        "justice_dept"
+      ],
+      "_origin_file": "hcr_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 18
+    },
+    {
+      "source_key": "meidas",
+      "date": "2026-01-29",
+      "category": "Judicial Developments",
+      "title": "DOJ Releases Epstein Files with Allegations Against Trump",
+      "url": "https://www.meidasplus.com/p/today-in-politics-bulletin-297-13026",
+      "summary": "The Department of Justice released a large collection of documents related to Jeffrey Epstein, including allegations involving former President Donald Trump. Initially, a section containing specific criminal allegations against Trump was posted and then temporarily removed before being restored. The DOJ stated that only half of the over 6 million documents were released, citing irrelevance or statutory exceptions for withholding the rest. The release has sparked significant public and media interest, particularly regarding the allegations against Trump.",
+      "why_relevant": "The release of these documents and the allegations they contain could have significant legal and political implications for former President Trump.",
+      "attacks": [],
+      "_origin_file": "meidas_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 31
+    },
+    {
+      "source_key": "meidas",
+      "date": "2026-01-29",
+      "category": "Judicial Developments",
+      "title": "Trump Sues IRS and Treasury for $10 Billion",
+      "url": "https://www.meidasplus.com/p/today-in-politics-bulletin-297-13026",
+      "summary": "Donald Trump, along with his two eldest sons and his family business, filed a lawsuit against the IRS and the Treasury Department, seeking at least $10 billion in damages. The lawsuit alleges that the IRS and Treasury failed to prevent the leak of Trump's confidential tax information by a former IRS employee. The lawsuit is part of Trump's ongoing legal battles with the government.",
+      "why_relevant": "This lawsuit highlights ongoing tensions between Trump and federal agencies, with potential implications for privacy and government accountability.",
+      "attacks": [],
+      "_origin_file": "meidas_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 34
+    },
+    {
+      "source_key": "50501",
+      "date": "2026-01-29",
+      "category": "Law Enforcement & Surveillance",
+      "title": "Parents Detained Near School Bus Stops in Ypsilanti",
+      "url": "https://www.the50501movement.org/p/will-my-family-still-be-here-when",
+      "summary": "Local reports from Ypsilanti on January 29, 2026, described incidents of parents being detained near school bus stops during drop-off times. These detentions have raised concerns about the safety and well-being of students from immigrant families, as well as the broader impact on school attendance and community trust in law enforcement.",
+      "why_relevant": "Detentions near school bus stops can create a hostile environment for students and families, leading to increased fear and absenteeism.",
+      "attacks": [
+        "immigrants_refugees",
+        "education"
+      ],
+      "_origin_file": "50501_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 3
+    },
+    {
+      "source_key": "guardian",
+      "date": "2026-01-29",
+      "category": "Law Enforcement & Surveillance",
+      "title": "FBI executes search warrant at Fulton County election office",
+      "url": "https://www.theguardian.com/us-news/2026/jan/28/fbi-search-warrant-fulton-county-georgia",
+      "summary": "The FBI executed a search warrant at the election office in Fulton County, Georgia, seeking records related to the 2020 election. The warrant targeted ballots, tabulator tapes, ballot images, and voter rolls. Initially, the warrant was legally challenged by county officials, but a corrected version was obtained. Concerns were raised about the chain of custody of the seized materials. The investigation is ongoing, with the Justice Department's civil rights division having previously filed a lawsuit against the county to obtain these records.",
+      "why_relevant": "This event highlights ongoing tensions and legal battles over the integrity and handling of election materials, which are crucial for maintaining public trust in democratic processes.",
+      "attacks": [
+        "elections",
+        "rule_of_law",
+        "justice_dept"
+      ],
+      "_origin_file": "guardian_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 115
+    },
+    {
+      "source_key": "guardian",
+      "date": "2026-01-29",
+      "category": "Law Enforcement & Surveillance",
+      "title": "Federal agents fatally shoot Alex Pretti in Minneapolis",
+      "url": "https://www.theguardian.com/us-news/2026/jan/29/who-is-alex-pretti-ice-minneapolis-shooting",
+      "summary": "Alex Pretti, a 37-year-old intensive care nurse, was fatally shot by federal immigration agents in Minneapolis. Pretti was filming the agents amid increased federal immigration enforcement operations in the city. The Trump administration claimed Pretti brandished a gun, but bystander videos showed he was holding a phone and had been disarmed before being shot. Pretti was remembered by friends and family as kind and generous, and the administration's characterization of him as an agitator was strongly denounced.",
+      "why_relevant": "The event highlights concerns about federal enforcement actions and the potential for misuse of power against civilians.",
+      "attacks": [
+        "law_enforcement",
+        "truth",
+        "immigrants_refugees"
+      ],
+      "_origin_file": "guardian_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 102
+    },
+    {
+      "source_key": "guardian",
+      "date": "2026-01-29",
+      "category": "Law Enforcement & Surveillance",
+      "title": "Federal deployment of immigration agents in Minneapolis",
+      "url": "https://www.theguardian.com/us-news/2026/jan/29/ice-mayor-jacob-frey-minneapolis",
+      "summary": "The Trump administration deployed between 3,000 and 4,000 federal immigration agents to Minneapolis as part of \"Operation Metro Surge.\" This deployment has been described by Minneapolis Mayor Jacob Frey as an \"invasion\" and has led to increased tensions and incidents, including the fatal shootings of two residents, Alex Pretti and Renee Nicole Good, by immigration agents. The operation has also resulted in the detention of several individuals, including a five-year-old boy, and has been criticized for targeting individuals based on their ethnic appearance.",
+      "why_relevant": "The deployment of federal agents in Minneapolis raises significant concerns about the use of federal power in local jurisdictions and its impact on civil liberties and community safety.",
+      "attacks": [
+        "immigrants_refugees",
+        "rule_of_law",
+        "civil_service"
+      ],
+      "_origin_file": "guardian_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 87
+    },
+    {
+      "source_key": "guardian",
+      "date": "2026-01-29",
+      "category": "Law Enforcement & Surveillance",
+      "title": "ICE ends immigration enforcement surge in Maine",
+      "url": "https://www.theguardian.com/us-news/2026/jan/29/ice-ends-surge-maine-minnesota-continues",
+      "summary": "Federal authorities have concluded their immigration enforcement surge in Maine, known as \"Operation Catch of the Day,\" which targeted communities in Portland and Lewiston and resulted in the detention of over 200 people. The operation's end was confirmed by Susan Collins, a Republican senator, following a conversation with DHS Secretary Kristi Noem. Despite the operation's conclusion, concerns remain about the potential for future surges and the impact on local communities.",
+      "why_relevant": "The cessation of the operation affects immigration enforcement practices and community relations in Maine.",
+      "attacks": [
+        "immigrants_refugees"
+      ],
+      "_origin_file": "guardian_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 89
+    },
+    {
+      "source_key": "guardian",
+      "date": "2026-01-29",
+      "category": "Law Enforcement & Surveillance",
+      "title": "ICE operation continues in Minnesota under Tom Homan",
+      "url": "https://www.theguardian.com/us-news/2026/jan/29/ice-ends-surge-maine-minnesota-continues",
+      "summary": "Tom Homan, the Trump administration's \"border czar,\" announced that the immigration enforcement operation in Minnesota will continue. Despite public criticism and protests, Homan pledged to remain in Minnesota until the perceived issues are resolved. He suggested a potential reduction in federal agents if local officials cooperate, including granting ICE access to jails. The operation has faced backlash due to reports of federal agents' presence near schools and churches and the deaths of two American citizens by federal agents.",
+      "why_relevant": "The continuation of the operation in Minnesota impacts local communities and raises concerns about federal enforcement practices.",
+      "attacks": [
+        "immigrants_refugees",
+        "state_violence"
+      ],
+      "_origin_file": "guardian_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 90
+    },
+    {
+      "source_key": "guardian",
+      "date": "2026-01-29",
+      "category": "Law Enforcement & Surveillance",
+      "title": "Justice Department charges Anthony Kazmierczak with federal assault",
+      "url": "https://www.theguardian.com/us-news/2026/jan/29/ilhan-omar-attacker-anthony-kazmierczak",
+      "summary": "The Department of Justice has filed federal charges against Anthony James Kazmierczak for allegedly attacking Congresswoman Ilhan Omar during a town hall event in Minneapolis. Kazmierczak is accused of spraying Omar with a liquid from a syringe, which was later identified as a mixture of water and apple cider vinegar. The charges include forcibly assaulting, opposing, impeding, intimidating, and interfering with Omar, which could result in up to a year in prison. The incident occurred after Omar called for the abolition of ICE and the resignation of DHS Secretary Kristi Noem.",
+      "why_relevant": "This event highlights the use of violence and intimidation against a public official, raising concerns about the safety of elected representatives and the impact of political rhetoric on public discourse.",
+      "attacks": [
+        "lgbtq",
+        "minorities",
+        "truth",
+        "public_service"
+      ],
+      "_origin_file": "guardian_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 92
+    },
+    {
+      "source_key": "guardian",
+      "date": "2026-01-29",
+      "category": "Law Enforcement & Surveillance",
+      "title": "Videos show altercation between Alex Pretti and federal officers 11 days before his killing",
+      "url": "https://www.theguardian.com/us-news/2026/jan/29/alex-pretti-shooting-11-days-before-federal-officers-clash",
+      "summary": "Newly discovered videos have surfaced showing an altercation between Alex Pretti, an ICU nurse, and federal officers in Minneapolis on January 13, 2026. The footage reveals Pretti being tackled by federal agents during community protests against federal crackdowns. Despite being armed with a concealed handgun permit, Pretti did not reach for his weapon during the incident. The videos also show agents using teargas and pepper balls on the crowd. The Department of Homeland Security is reviewing the footage, and the incident has sparked significant public and political reaction.",
+      "why_relevant": "The event highlights the ongoing tensions and potential misuse of force by federal agents during immigration enforcement operations, raising concerns about civil rights and law enforcement accountability.",
+      "attacks": [
+        "immigrants_refugees",
+        "rule_of_law",
+        "public_service"
+      ],
+      "_origin_file": "guardian_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 113
+    },
+    {
+      "source_key": "hcr",
+      "date": "2026-01-29",
+      "category": "Law Enforcement & Surveillance",
+      "title": "FBI executes search warrant at Fulton County elections warehouse",
+      "url": "https://www.nytimes.com/2026/01/28/us/politics/fbi-search-election-center-georgia.html",
+      "summary": "The FBI executed a search warrant at the elections warehouse in Fulton County, Georgia, to seize ballots from the 2020 presidential election. This action is part of ongoing efforts by Trump and his allies to promote unfounded claims of voter fraud despite a lack of evidence.",
+      "why_relevant": "The seizure of ballots raises significant concerns about the integrity of the electoral process and the potential for undermining public trust in elections.",
+      "attacks": [
+        "truth",
+        "rule_of_law"
+      ],
+      "_origin_file": "hcr_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 22
+    },
+    {
+      "source_key": "hcr",
+      "date": "2026-01-29",
+      "category": "Law Enforcement & Surveillance",
+      "title": "Federal agents arrest 16 individuals in Minneapolis",
+      "url": "https://www.cbsnews.com/minnesota/news/ag-pam-bondi-announces-16-arrested-for-alleged-attacks-on-federal-agents/",
+      "summary": "Attorney General Pam Bondi announced the arrest of 16 individuals in Minnesota for allegedly assaulting federal law enforcement agents during protests. Bondi stated that more arrests are expected and emphasized the administration's commitment to enforcing the law. The judge overseeing the case expressed concern over Bondi's social media posts suggesting guilt before trial.",
+      "why_relevant": "The arrests and the manner in which they were publicized raise questions about the presumption of innocence and the treatment of individuals involved in protests against federal actions.",
+      "attacks": [],
+      "_origin_file": "hcr_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 19
+    },
+    {
+      "source_key": "hcr",
+      "date": "2026-01-29",
+      "category": "Law Enforcement & Surveillance",
+      "title": "Federal agents kill two American citizens in Minneapolis",
+      "url": "https://www.jayapal.house.gov/2026/01/27/judiciary-committee-democrats-demand-doj-answer-for-its-refusal-to-investigate-homicides-of-american-citizens-in-minneapolis-by-law-enforcement/",
+      "summary": "Federal agents killed two American citizens, Renée Good and Alex Pretti, in Minneapolis, prompting a letter from four Democratic representatives to Attorney General Pam Bondi demanding an investigation. The representatives criticized the Department of Justice for obstructing investigations into the killings and covering up civil rights violations. They requested all documents related to the cases by February 2.",
+      "why_relevant": "The killings raise serious concerns about the accountability of federal law enforcement and the protection of civil rights in the U.S.",
+      "attacks": [
+        "minorities",
+        "justice_dept"
+      ],
+      "_origin_file": "hcr_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 17
+    },
+    {
+      "source_key": "hcr",
+      "date": "2026-01-29",
+      "category": "Law Enforcement & Surveillance",
+      "title": "Trump’s administration seizes election-related materials",
+      "url": "https://www.politico.com/news/2026/01/21/trump-2020-election-prosecutions-00738778",
+      "summary": "Trump's administration seized physical ballots, tabulator tapes, and voter rolls from Fulton County, Georgia, which has raised alarms about the integrity of the electoral process. Senator Jon Ossoff described the event as a \"seismic event\" that threatens the right of Americans to choose their elected officials.",
+      "why_relevant": "The seizure of election materials poses a direct threat to the democratic process and raises concerns about the potential for manipulation of future elections.",
+      "attacks": [
+        "peaceful_transfer",
+        "rule_of_law"
+      ],
+      "_origin_file": "hcr_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 24
+    },
+    {
+      "source_key": "meidas",
+      "date": "2026-01-29",
+      "category": "Law Enforcement & Surveillance",
+      "title": "DOJ Official Photographed with Election Conspiracy Theorist",
+      "url": "https://www.meidasplus.com/p/thursday-news-updates-as-trump-kicks",
+      "summary": "A senior Department of Justice official, Ed Martin, was photographed socializing with Sidney Powell, a prominent conspiracy theorist known for spreading false claims about the 2020 election. This association raises concerns about the impartiality and integrity of the DOJ under Trump's influence.",
+      "why_relevant": "The association between DOJ officials and conspiracy theorists undermines public trust in law enforcement and the justice system.",
+      "attacks": [
+        "justice_dept",
+        "truth"
+      ],
+      "_origin_file": "meidas_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 44
+    },
+    {
+      "source_key": "meidas",
+      "date": "2026-01-29",
+      "category": "Law Enforcement & Surveillance",
+      "title": "Don Lemon Arrested on Federal Civil Rights Charges",
+      "url": "https://www.meidasplus.com/p/today-in-politics-bulletin-297-13026",
+      "summary": "Former CNN anchor Don Lemon was arrested by federal authorities and charged with federal civil rights crimes related to a protest at a Minnesota church service. The Department of Homeland Security stated that Lemon was charged with conspiracy and interfering with the First Amendment rights of worshipers. Lemon's attorney criticized the charges as an attack on press freedom, and the arrest has been condemned by press freedom advocates as a warning to journalists.",
+      "why_relevant": "The arrest of a journalist on civil rights charges raises concerns about press freedom and the potential misuse of law enforcement powers.",
+      "attacks": [
+        "press",
+        "information"
+      ],
+      "_origin_file": "meidas_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 32
+    },
+    {
+      "source_key": "meidas",
+      "date": "2026-01-29",
+      "category": "Law Enforcement & Surveillance",
+      "title": "FBI Leads Investigation into Alex Pretti Shooting",
+      "url": "https://www.meidasplus.com/p/today-in-politics-bulletin-297-13026",
+      "summary": "The FBI has taken over the investigation into the fatal shooting of Alex Pretti in Minneapolis, with ICE's HSI branch providing support. The initial decision to have HSI lead the investigation was unusual, given its typical focus on international or immigration-related crimes. The change in leadership aims to address concerns about the investigation's scope and capabilities.",
+      "why_relevant": "The investigation into the shooting involves federal law enforcement practices and raises questions about jurisdiction and investigative procedures.",
+      "attacks": [],
+      "_origin_file": "meidas_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 35
+    },
+    {
+      "source_key": "guardian",
+      "date": "2026-01-29",
+      "category": "Elections & Representation",
+      "title": "Matt Mahan announces run for governor of California",
+      "url": "https://www.theguardian.com/us-news/2026/jan/29/matt-mahan-san-jose-governor-california",
+      "summary": "Matt Mahan, the mayor of San Jose and a centrist Democrat, announced his candidacy for governor of California. Mahan, a former tech entrepreneur, aims to succeed Gavin Newsom, who is term-limited. Known for his pragmatic approach, Mahan has been critical of Newsom's policies on homelessness and crime. His entry into the race adds to a crowded field of Democratic candidates, including former congresswoman Katie Porter and billionaire climate activist Tom Steyer. Mahan's campaign focuses on state issues like homelessness and the cost of living, rather than national politics.",
+      "why_relevant": "This announcement marks a significant development in the California gubernatorial race, potentially influencing the political landscape and policy focus in the state.",
+      "attacks": [],
+      "_origin_file": "guardian_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 88
+    },
+    {
+      "source_key": "meidas",
+      "date": "2026-01-29",
+      "category": "Elections & Representation",
+      "title": "FBI Raids Georgia Election Offices",
+      "url": "https://www.meidasplus.com/p/thursday-news-updates-as-trump-kicks",
+      "summary": "Federal agents conducted raids on election offices and ballot storage facilities in Fulton County, Georgia, seizing ballots from the 2020 election. Local officials have expressed concerns about the compromised chain of custody and the integrity of the seized materials, highlighting potential abuses of power by the Trump administration.",
+      "why_relevant": "The seizure of election materials by federal agents raises serious concerns about election integrity and potential voter suppression.",
+      "attacks": [
+        "elections",
+        "rule_of_law"
+      ],
+      "_origin_file": "meidas_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 45
+    },
+    {
+      "source_key": "guardian",
+      "date": "2026-01-29",
+      "category": "Civil Society & Protest",
+      "title": "National strike and protests against ICE planned across the US",
+      "url": "https://www.theguardian.com/us-news/2026/jan/29/ice-out-strike-protests-explained",
+      "summary": "A national strike and hundreds of protests are scheduled for January 30 and 31, 2026, across the United States, organized by grassroots groups against Immigration and Customs Enforcement (ICE). The protests are in response to recent deaths linked to ICE, including high-profile cases in Minneapolis. Organizers are calling for a \"national shutdown\" to halt economic activities and are demanding the dismantling of ICE and Customs and Border Protection (CBP). The protests will include walkouts, demonstrations at ICE facilities, and pressure campaigns against businesses supporting ICE operations.",
+      "why_relevant": "The protests highlight significant public opposition to federal immigration enforcement practices and call for systemic changes in immigration policy.",
+      "attacks": [
+        "immigrants_refugees",
+        "public_service"
+      ],
+      "_origin_file": "guardian_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 94
+    },
+    {
+      "source_key": "hcr",
+      "date": "2026-01-29",
+      "category": "Civil Society & Protest",
+      "title": "Public backlash against federal agents' actions leads to declining support for Trump",
+      "url": "https://www.newrepublic.com/post/205831/prosecutors-fafo-team-federal-agents-breaking-law",
+      "summary": "Following the killings of Good and Pretti, public approval of President Trump's presidency has dropped to 39.2%, with support for his immigration policies collapsing by 18 points. A significant portion of Americans now support abolishing ICE, indicating a shift in public sentiment against aggressive immigration enforcement.",
+      "why_relevant": "The backlash against federal actions reflects a growing public discontent with the administration's policies and their impact on civil rights.",
+      "attacks": [
+        "minorities"
+      ],
+      "_origin_file": "hcr_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 20
+    },
+    {
+      "source_key": "guardian",
+      "date": "2026-01-29",
+      "category": "Information & Media Control",
+      "title": "White House Posts AI Image of Trump as Jedi",
+      "url": "https://www.theguardian.com/us-news/2026/jan/29/the-slopaganda-era-10-ai-images-posted-by-the-white-house-and-what-they-teach-us",
+      "summary": "On May 4, 2025, the White House released an AI-generated image of Donald Trump as a Jedi to coincide with Star Wars Day. The image depicted Trump with a lightsaber, surrounded by flags and eagles, and was part of a broader trend of using AI to create flattering fan art of the president. This use of AI-generated content reflects the administration's engagement with popular culture and its efforts to shape public perception through fantasy imagery.",
+      "why_relevant": "The administration's use of AI-generated fantasy imagery to engage with popular culture highlights the potential for such content to influence public perception and political narratives.",
+      "attacks": [
+        "truth",
+        "information"
+      ],
+      "_origin_file": "guardian_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 106
+    },
+    {
+      "source_key": "guardian",
+      "date": "2026-01-29",
+      "category": "Information & Media Control",
+      "title": "White House Posts AI Image of Trump as King",
+      "url": "https://www.theguardian.com/us-news/2026/jan/29/the-slopaganda-era-10-ai-images-posted-by-the-white-house-and-what-they-teach-us",
+      "summary": "On February 19, 2025, the White House posted an AI-generated image of Donald Trump as a king on a fake Time magazine cover. This image was released alongside an announcement of the repeal of New York City's congestion pricing. The image was used by New York Governor Kathy Hochul in a press conference to criticize the portrayal and assert the continuation of the congestion charge, despite the administration's attempts to block it. The image marked a shift in the administration's use of AI-generated content for political messaging.",
+      "why_relevant": "The use of AI-generated images by the White House for political messaging represents a significant shift in how government communication can influence public perception and policy debates.",
+      "attacks": [
+        "truth",
+        "information"
+      ],
+      "_origin_file": "guardian_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 103
+    },
+    {
+      "source_key": "guardian",
+      "date": "2026-01-29",
+      "category": "Information & Media Control",
+      "title": "White House Posts AI Image of Trump as Pope",
+      "url": "https://www.theguardian.com/us-news/2026/jan/29/the-slopaganda-era-10-ai-images-posted-by-the-white-house-and-what-they-teach-us",
+      "summary": "On May 3, 2025, the White House posted an AI-generated image of Donald Trump as the Pope, which went viral and sparked outrage from Catholic groups and politicians. The image was criticized for being offensive, especially following the recent death of Pope Francis. The administration defended the image as satire, highlighting its use of provocative content to engage with the public and media.",
+      "why_relevant": "The use of AI-generated images to provoke religious groups and manipulate public discourse demonstrates the administration's strategy of using controversial content to maintain media attention.",
+      "attacks": [
+        "faith",
+        "truth",
+        "information"
+      ],
+      "_origin_file": "guardian_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 105
+    },
+    {
+      "source_key": "guardian",
+      "date": "2026-01-29",
+      "category": "Information & Media Control",
+      "title": "White House Posts AI Image of Trump with Penguin",
+      "url": "https://www.theguardian.com/us-news/2026/jan/29/the-slopaganda-era-10-ai-images-posted-by-the-white-house-and-what-they-teach-us",
+      "summary": "On January 23, 2026, the White House posted an AI-generated image of Trump walking with a penguin towards a Greenland flag. The image, a riff on the \"nihilist penguin\" meme, was used to engage with popular culture and provoke reactions. This type of content reflects the administration's strategy of using AI to create emotional hooks and maintain media attention.",
+      "why_relevant": "The use of AI-generated content to engage with popular culture and provoke reactions highlights the potential for such technology to influence public perception and political narratives.",
+      "attacks": [
+        "truth",
+        "information"
+      ],
+      "_origin_file": "guardian_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 112
+    },
+    {
+      "source_key": "guardian",
+      "date": "2026-01-29",
+      "category": "Information & Media Control",
+      "title": "White House Posts AI Image with Neo-Nazi References",
+      "url": "https://www.theguardian.com/us-news/2026/jan/29/the-slopaganda-era-10-ai-images-posted-by-the-white-house-and-what-they-teach-us",
+      "summary": "On January 14, 2026, the White House posted an AI-generated image referencing a neo-Nazi text, \"Which Way, Western Man?\" The image, part of a meme trend, was criticized for its racist and white supremacist undertones. The administration's use of such imagery reflects its engagement with extremist content and its potential impact on public discourse and minority communities.",
+      "why_relevant": "The use of AI-generated content with extremist references by the White House raises significant concerns about the administration's communication strategy and its impact on public discourse and minority communities.",
+      "attacks": [
+        "minorities",
+        "truth",
+        "information"
+      ],
+      "_origin_file": "guardian_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 109
+    },
+    {
+      "source_key": "guardian",
+      "date": "2026-01-29",
+      "category": "Information & Media Control",
+      "title": "White House Posts AI Video of \"Golden Age\"",
+      "url": "https://www.theguardian.com/us-news/2026/jan/29/the-slopaganda-era-10-ai-images-posted-by-the-white-house-and-what-they-teach-us",
+      "summary": "On January 1, 2026, the White House posted an AI-generated video depicting a golden White House facade with gold coins, claiming the U.S. is in a \"golden age.\" The video, backed by Bruno Mars' track 24K Magic, represents the administration's use of AI-generated content to project an idealized image of the country, despite widespread skepticism about the claim. This type of content is part of a broader strategy of using AI to influence public perception.",
+      "why_relevant": "The use of AI-generated content to project a false narrative of national prosperity highlights the potential for such technology to be used in political propaganda.",
+      "attacks": [
+        "truth",
+        "information"
+      ],
+      "_origin_file": "guardian_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 108
+    },
+    {
+      "source_key": "guardian",
+      "date": "2026-01-29",
+      "category": "Information & Media Control",
+      "title": "White House Posts AI-Generated Deepfake of Activist",
+      "url": "https://www.theguardian.com/us-news/2026/jan/29/the-slopaganda-era-10-ai-images-posted-by-the-white-house-and-what-they-teach-us",
+      "summary": "On January 22, 2026, the White House posted an AI-generated deepfake image of Minneapolis civil rights lawyer Nekima Levy Armstrong, exaggerating her distress during an arrest. The image was used to portray her as a \"far-left agitator,\" despite her release without charge. This marks a shift in the administration's use of AI-generated content from outlandish to more realistic deepfakes, raising concerns about the potential for misinformation and manipulation.",
+      "why_relevant": "The use of AI-generated deepfakes by the White House to manipulate public perception of activists raises significant concerns about the ethical implications and potential for misinformation in government communications.",
+      "attacks": [
+        "truth",
+        "information",
+        "minorities"
+      ],
+      "_origin_file": "guardian_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 111
+    },
+    {
+      "source_key": "guardian",
+      "date": "2026-01-29",
+      "category": "Information & Media Control",
+      "title": "White House Posts AI-Generated Propaganda Poster",
+      "url": "https://www.theguardian.com/us-news/2026/jan/29/the-slopaganda-era-10-ai-images-posted-by-the-white-house-and-what-they-teach-us",
+      "summary": "On January 15, 2026, the White House posted an AI-generated propaganda poster supporting ICE's militarized policing. The image used nostalgic graphic styles to convey extremist messages, reflecting the administration's strategy of using AI to create provocative content that evokes a \"better\" past. This approach aligns with the Make America Great Again movement's emphasis on traditionalism and nostalgia.",
+      "why_relevant": "The use of AI-generated propaganda to support controversial policies highlights the potential for such content to influence public perception and policy debates.",
+      "attacks": [
+        "truth",
+        "information"
+      ],
+      "_origin_file": "guardian_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 110
+    },
+    {
+      "source_key": "guardian",
+      "date": "2026-01-29",
+      "category": "Information & Media Control",
+      "title": "White House Posts Offensive AI Image of Hakeem Jeffries",
+      "url": "https://www.theguardian.com/us-news/2026/jan/29/the-slopaganda-era-10-ai-images-posted-by-the-white-house-and-what-they-teach-us",
+      "summary": "On October 29, 2025, the White House posted an AI-generated image of Democratic House Leader Hakeem Jeffries and Senate Leader Chuck Schumer in sombreros, holding plates of tacos. The image was part of a series of offensive and racist content targeting Jeffries, following a deepfake video posted by Trump. The administration's use of such imagery reflects its strategy of using provocative content to dominate media attention and provoke reactions.",
+      "why_relevant": "The use of AI-generated racist imagery by the White House raises significant concerns about the administration's communication strategy and its impact on public discourse and minority communities.",
+      "attacks": [
+        "minorities",
+        "truth",
+        "information"
+      ],
+      "_origin_file": "guardian_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 107
+    },
+    {
+      "source_key": "guardian",
+      "date": "2026-01-29",
+      "category": "Information & Media Control",
+      "title": "White House Uses AI to Depict Deportation",
+      "url": "https://www.theguardian.com/us-news/2026/jan/29/the-slopaganda-era-10-ai-images-posted-by-the-white-house-and-what-they-teach-us",
+      "summary": "On March 27, 2025, the White House posted an AI-generated image using a Studio Ghibli-inspired meme generator to depict a woman in tears as she was arrested by ICE agents. The image included the woman's name and alleged crimes, demonstrating the administration's engagement with current online trends and its use of AI to create provocative content. This act reflects the administration's approach to immigration enforcement and its communication strategy.",
+      "why_relevant": "The use of AI-generated images to depict sensitive immigration enforcement actions raises concerns about the ethical implications and potential for misinformation in government communications.",
+      "attacks": [
+        "immigrants_refugees",
+        "truth",
+        "information"
+      ],
+      "_origin_file": "guardian_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 104
+    },
+    {
+      "source_key": "meidas",
+      "date": "2026-01-29",
+      "category": "Information & Media Control",
+      "title": "Trump Expels Press from Cabinet Meeting",
+      "url": "https://www.meidasplus.com/p/thursday-news-updates-as-trump-kicks",
+      "summary": "During a scheduled open cabinet meeting, former President Donald Trump unexpectedly ordered the press to leave without explanation. The meeting, which was supposed to include a Q&A session with reporters, was abruptly shut down. This incident highlights ongoing tensions between Trump and the media, as well as his administration's approach to transparency and press access.",
+      "why_relevant": "The expulsion of the press from a government meeting undermines transparency and the public's right to information.",
+      "attacks": [
+        "press",
+        "information"
+      ],
+      "_origin_file": "meidas_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 42
+    },
+    {
+      "source_key": "popinfo",
+      "date": "2026-01-29",
+      "category": "Information & Media Control",
+      "title": "Meta removes ICE-related group and blocks website links",
+      "url": "https://popular.info/p/social-media-as-state-media",
+      "summary": "Meta removed a Facebook group, \"ICE Sightings-Chicagoland,\" used to share information about ICE operations, following a request from the Department of Justice. The group had over 80,000 members. Meta also began blocking links to ICE List, a website documenting DHS employees for accountability purposes. Meta claimed the actions were due to policy violations on sharing personally identifiable information. However, much of the information on ICE List was publicly available. These actions align with a broader pattern of censoring ICE-related content.",
+      "why_relevant": "Meta's actions demonstrate the potential for social media platforms to suppress information critical of government agencies, impacting transparency and accountability.",
+      "attacks": [
+        "information",
+        "press",
+        "rule_of_law"
+      ],
+      "_origin_file": "popinfo_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 10
+    },
+    {
+      "source_key": "popinfo",
+      "date": "2026-01-29",
+      "category": "Information & Media Control",
+      "title": "TikTok suppresses anti-ICE content",
+      "url": "https://popular.info/p/social-media-as-state-media",
+      "summary": "TikTok users reported being unable to upload videos critical of U.S. Immigration and Customs Enforcement (ICE) following a violent immigration crackdown in Minneapolis. Notable figures, including law professor Stephen Vladeck and California State Sen. Scott Wiener, experienced delays or suppression of their content. This issue arose shortly after TikTok's U.S. operations were acquired by a consortium led by Oracle, co-founded by Trump ally Larry Ellison. TikTok attributed the problem to a data center outage, but concerns remain about potential censorship. California Governor Gavin Newsom announced an investigation into TikTok's explanation.",
+      "why_relevant": "This event highlights potential censorship on social media platforms, affecting freedom of expression and the ability to criticize government actions.",
+      "attacks": [
+        "information",
+        "press"
+      ],
+      "_origin_file": "popinfo_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 8
+    },
+    {
+      "source_key": "zeteo",
+      "date": "2026-01-29",
+      "category": "Information & Media Control",
+      "title": "Federal Agents Arrest Journalists Covering Protest",
+      "url": "https://zeteo.com/p/this-week-in-democracy-week-54-trump",
+      "summary": "On January 29, 2026, federal agents arrested journalist Don Lemon and three others for their coverage of an anti-ICE protest in St. Paul, Minnesota. The arrests, following a judge's rejection of initial charges, are seen as an attack on press freedom and the First Amendment.",
+      "why_relevant": "The arrest of journalists for covering protests represents a significant threat to press freedom and democratic accountability.",
+      "attacks": [
+        "press",
+        "information"
+      ],
+      "_origin_file": "zeteo_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 6
+    },
+    {
+      "source_key": "federalregister",
+      "date": "2026-01-29",
+      "category": "Economic & Regulatory Power",
+      "title": "EPA Approves Lane County Permitting Rule Revisions",
+      "url": "https://www.federalregister.gov/documents/2026/01/29/2026-01735/air-plan-approval-or-lane-county-permitting-rule-revisions",
+      "summary": "The Environmental Protection Agency (EPA) has approved revisions to the Oregon State Implementation Plan (SIP) for Lane County, Oregon. These revisions align local stationary source permitting rules with state rules, eliminating generic plant site emission limits in favor of source-specific limits, updating construction notification requirements, and streamlining the permit application process. The changes are effective March 2, 2026, and are intended to meet Clean Air Act requirements.",
+      "why_relevant": "This action ensures that local air quality regulations in Lane County comply with federal standards, promoting environmental protection and regulatory consistency.",
+      "attacks": [],
+      "_origin_file": "federalregister_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 35
+    },
+    {
+      "source_key": "federalregister",
+      "date": "2026-01-29",
+      "category": "Economic & Regulatory Power",
+      "title": "EPA Approves Pennsylvania's Motor Vehicle Inspection Program",
+      "url": "https://www.federalregister.gov/documents/2026/01/29/2026-01762/air-plan-approval-pennsylvania-motor-vehicle-inspection-and-maintenance-program-certification-for",
+      "summary": "The Environmental Protection Agency (EPA) has approved a state implementation plan (SIP) revision submitted by Pennsylvania, certifying that its existing vehicle emissions inspection and maintenance program meets the Clean Air Act requirements for a Basic I/M program. This approval applies to the Pennsylvania portion of the Philadelphia-Wilmington-Atlantic City nonattainment area for the 2015 ozone national ambient air quality standards. The rule is effective March 2, 2026, and ensures compliance with federal air quality standards.",
+      "why_relevant": "This action enforces air quality standards, impacting environmental regulation and public health.",
+      "attacks": [],
+      "_origin_file": "federalregister_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 33
+    },
+    {
+      "source_key": "federalregister",
+      "date": "2026-01-29",
+      "category": "Economic & Regulatory Power",
+      "title": "EPA Denies Redesignation of Kentucky Portion of Louisville Ozone Area",
+      "url": "https://www.federalregister.gov/documents/2026/01/29/2026-01772/air-plan-approval-and-air-quality-designation-ky-redesignation-of-the-kentucky-portion-of-the",
+      "summary": "The Environmental Protection Agency (EPA) denied the request to redesignate the Kentucky portion of the Louisville, KY-IN 2015 8-hour ozone nonattainment area to attainment status. The decision was based on the area's failure to meet the National Ambient Air Quality Standards (NAAQS) for ozone, with recent data showing ozone levels exceeding the standard. The EPA's action does not address Kentucky's maintenance plan, which was submitted alongside the redesignation request.",
+      "why_relevant": "This decision impacts air quality management and regulatory compliance in Kentucky, affecting public health and environmental standards.",
+      "attacks": [],
+      "_origin_file": "federalregister_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 31
+    },
+    {
+      "source_key": "federalregister",
+      "date": "2026-01-29",
+      "category": "Economic & Regulatory Power",
+      "title": "EPA Finalizes Attainment Determination for San Joaquin Valley PM2.5 Standards",
+      "url": "https://www.federalregister.gov/documents/2026/01/29/2026-01766/determination-of-attainment-by-the-attainment-date-and-clean-data-determination-california-san",
+      "summary": "The Environmental Protection Agency (EPA) has finalized a rule determining that the San Joaquin Valley, California, has met the 1997 annual PM2.5 national ambient air quality standards by the December 31, 2024, attainment date. This determination is based on air quality data from 2022 to 2024. The EPA also issued a Clean Data Determination, suspending certain State Implementation Plan (SIP) requirements as long as the area continues to meet the standards. This rule is effective March 2, 2026.",
+      "why_relevant": "This action reflects regulatory compliance and progress in air quality management, impacting public health and environmental policy.",
+      "attacks": [],
+      "_origin_file": "federalregister_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 32
+    },
+    {
+      "source_key": "federalregister",
+      "date": "2026-01-29",
+      "category": "Economic & Regulatory Power",
+      "title": "EPA Submits Information Collection Request for Tier 3 Emission Standards",
+      "url": "https://www.federalregister.gov/documents/2026/01/29/2026-01732/agency-information-collection-activities-submission-to-the-office-of-management-and-budget-for",
+      "summary": "The Environmental Protection Agency (EPA) has submitted a renewal request for the information collection related to Tier 3 Motor Vehicle Emission Standards to the Office of Management and Budget (OMB) for approval. This request, under the Paperwork Reduction Act, extends the current approval through January 31, 2026, and allows for an additional 30-day public comment period. The Tier 3 standards aim to reduce emissions from various vehicle types, aligning with California's LEVIII standards.",
+      "why_relevant": "This action supports the enforcement of stricter vehicle emission standards, impacting air quality and public health.",
+      "attacks": [],
+      "_origin_file": "federalregister_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 36
+    },
+    {
+      "source_key": "federalregister",
+      "date": "2026-01-29",
+      "category": "Economic & Regulatory Power",
+      "title": "EPA Submits NESHAP for Mercury Information Collection Request to OMB",
+      "url": "https://www.federalregister.gov/documents/2026/01/29/2026-01736/agency-information-collection-activities-submission-to-the-office-of-management-and-budget-for",
+      "summary": "The Environmental Protection Agency (EPA) has submitted an information collection request (ICR) for the National Emission Standards for Hazardous Air Pollutants (NESHAP) for Mercury to the Office of Management and Budget (OMB) for review. This request seeks to extend the current ICR, which is valid through January 31, 2026. The ICR pertains to mercury ore processing facilities, sludge incineration plants, and sludge drying plants, requiring them to submit notifications, performance tests, and periodic reports to ensure compliance with 40 CFR part 61, subpart E.",
+      "why_relevant": "This action ensures continued regulatory oversight of mercury emissions, impacting environmental compliance and public health.",
+      "attacks": [],
+      "_origin_file": "federalregister_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 34
+    },
+    {
+      "source_key": "meidas",
+      "date": "2026-01-29",
+      "category": "Economic & Regulatory Power",
+      "title": "Trump Administration Approves Controversial Venezuelan Oil Deals",
+      "url": "https://www.meidasplus.com/p/thursday-news-updates-as-trump-kicks",
+      "summary": "The Trump administration approved $500 million in Venezuelan oil deals involving trading houses with histories of bribery and corruption. These deals, linked to significant campaign donations, raise concerns about conflicts of interest and corruption within the administration.",
+      "why_relevant": "The approval of corrupt oil deals highlights potential conflicts of interest and the influence of money in politics.",
+      "attacks": [
+        "economy",
+        "public_service"
+      ],
+      "_origin_file": "meidas_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 48
+    },
+    {
+      "source_key": "noah",
+      "date": "2026-01-29",
+      "category": "Economic & Regulatory Power",
+      "title": "OpenAI Plans IPO Later This Year",
+      "url": "https://www.noahpinion.blog/p/what-if-ai-succeeds-but-openai-fails",
+      "summary": "OpenAI is planning an initial public offering (IPO) later this year, as reported by the Wall Street Journal. This move is expected to raise billions of dollars from regular investors, adding to the significant investments already being made by major companies such as Nvidia, Microsoft, Amazon, and SoftBank. The IPO is part of OpenAI's strategy to secure additional funding to maintain its competitive edge in the rapidly evolving AI industry.",
+      "why_relevant": "The IPO will significantly impact the financial landscape of the AI industry and influence the distribution of economic power within the sector.",
+      "attacks": [],
+      "_origin_file": "noah_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 11
+    },
+    {
+      "source_key": "popinfo",
+      "date": "2026-01-29",
+      "category": "Economic & Regulatory Power",
+      "title": "Apple and Google remove ICE-related apps",
+      "url": "https://popular.info/p/social-media-as-state-media",
+      "summary": "Under pressure from the Department of Justice, Apple and Google removed apps from their stores that tracked sightings of ICE agents. The apps, including ICEBlock, Red Dot, and Eyes Up, were designed to notify users of ICE activity and document law enforcement abuses. Attorney General Pam Bondi claimed these apps endangered ICE agents. Apple cited safety risks and app store guidelines as reasons for removal. Developer Joshua Aaron sued Trump administration officials, alleging First Amendment violations. Google followed Apple's lead, removing similar apps from its store.",
+      "why_relevant": "The removal of these apps raises concerns about government influence over tech companies and the suppression of tools used for public accountability.",
+      "attacks": [
+        "information",
+        "press",
+        "rule_of_law"
+      ],
+      "_origin_file": "popinfo_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 9
+    },
+    {
+      "source_key": "guardian",
+      "date": "2026-01-29",
+      "category": "Appointments & Patronage",
+      "title": "Kevin Couch resigns from Kennedy Center",
+      "url": "https://www.theguardian.com/us-news/2026/jan/29/trump-kennedy-center-kevin-couch-resigns",
+      "summary": "Kevin Couch, the newly appointed senior vice-president of artistic programming at the Kennedy Center, resigned less than two weeks after his hiring was announced. His resignation follows a leadership overhaul at the center initiated by Donald Trump, who installed a new board of trustees and was elected as the new chair. The changes have led to a wave of artists canceling performances in protest, including composer Philip Glass and the Washington National Opera. The center's board, appointed by Trump, also voted to rename the institution the \"Trump-Kennedy Center,\" though such a change would require congressional approval.",
+      "why_relevant": "The resignation highlights the impact of political influence on cultural institutions and the resulting backlash from the artistic community.",
+      "attacks": [
+        "culture_art",
+        "public_memory"
+      ],
+      "_origin_file": "guardian_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 98
+    },
+    {
+      "source_key": "guardian",
+      "date": "2026-01-29",
+      "category": "Appointments & Patronage",
+      "title": "Removal of border patrol commander in Minneapolis",
+      "url": "https://www.theguardian.com/us-news/2026/jan/29/ice-ends-surge-maine-minnesota-continues",
+      "summary": "The Trump administration removed Gregory Bovino, the border patrol commander in Minneapolis, in response to public criticism of federal immigration enforcement activities. This move is seen as an attempt to address the backlash against the ongoing ICE operation in Minnesota. Despite Bovino's removal, reports indicate that immigration enforcement activities have not significantly changed in the area.",
+      "why_relevant": "The removal of a key official reflects the administration's response to public and political pressure regarding immigration enforcement.",
+      "attacks": [],
+      "_origin_file": "guardian_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 91
+    },
+    {
+      "source_key": "meidas",
+      "date": "2026-01-29",
+      "category": "Appointments & Patronage",
+      "title": "Trump Reshuffles Immigration Leadership Amid Controversy",
+      "url": "https://www.meidasplus.com/p/thursday-news-updates-as-trump-kicks",
+      "summary": "Following public outrage over violence in Minnesota, Trump replaced Greg Bovino, the former head of Border Patrol operations, with Tom Homan. Homan's initial remarks blamed critics of ICE for the deaths caused by immigration enforcement, further escalating tensions and criticism of Trump's immigration policies.",
+      "why_relevant": "Leadership changes in immigration enforcement reflect ongoing controversies and the administration's handling of immigration issues.",
+      "attacks": [
+        "immigrants_refugees",
+        "public_service"
+      ],
+      "_origin_file": "meidas_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 46
+    },
+    {
+      "source_key": "guardian",
+      "date": "2026-01-29",
+      "category": "International Relations",
+      "title": "White House Displays Framed Photo of Trump with Putin",
+      "url": "https://www.theguardian.com/us-news/2026/jan/29/trump-putin-white-house-photo",
+      "summary": "",
+      "why_relevant": "The display of this photo in the White House has implications for U.S. foreign policy and its stance on the Russia-Ukraine conflict.",
+      "attacks": [
+        "global_democracy",
+        "idea_of_america"
+      ],
+      "_origin_file": "guardian_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 93
+    },
+    {
+      "source_key": "meidas",
+      "date": "2026-01-29",
+      "category": "International Relations",
+      "title": "Iran Conducts Military Exercises Near Strait of Hormuz",
+      "url": "https://www.meidasplus.com/p/thursday-news-updates-as-trump-kicks",
+      "summary": "Iran announced live fire military exercises near the Strait of Hormuz, prompting the U.S. to dispatch the USS Abraham Lincoln carrier group to the region. This development increases tensions and the risk of military conflict in a critical global shipping area.",
+      "why_relevant": "Military exercises near a vital shipping route heighten the risk of conflict and impact global stability.",
+      "attacks": [
+        "peace",
+        "global_democracy"
+      ],
+      "_origin_file": "meidas_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 49
+    },
+    {
+      "source_key": "meidas",
+      "date": "2026-01-29",
+      "category": "International Relations",
+      "title": "Trump Officials Meet with Canadian Separatists",
+      "url": "https://www.meidasplus.com/p/thursday-news-updates-as-trump-kicks",
+      "summary": "Reports have surfaced that Trump administration officials held secret meetings with separatist groups in Alberta, Canada, encouraging them to consider secession and alignment with the United States. This move is part of Trump's broader strategy to destabilize international relations and exert influence over foreign territories.",
+      "why_relevant": "Secret meetings with foreign separatists threaten international stability and diplomatic relations.",
+      "attacks": [
+        "diplomacy",
+        "global_democracy"
+      ],
+      "_origin_file": "meidas_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 43
+    },
+    {
+      "source_key": "50501",
+      "date": "2026-01-29",
+      "category": "Civil–Military Relations & State Violence",
+      "title": "Federal agents kill Alex Pretti during protest in Minneapolis",
+      "url": "https://www.the50501movement.org/p/50501-friday-briefing-january-30",
+      "summary": "Federal agents shot and killed Alex Pretti, a 37-year-old ICU nurse, during a protest in Minneapolis. Pretti was recording the event with his phone when he was pepper-sprayed and pulled into the street by officers. According to a doctor's affidavit, he suffered at least three gunshot wounds in his back. The incident occurred amid a large-scale protest involving 50,000 participants and resulted in significant public outcry and fundraising efforts for Pretti's family.",
+      "why_relevant": "The killing of a protester by federal agents raises significant concerns about the use of force and the protection of civil liberties during demonstrations.",
+      "attacks": [
+        "civil_military_relations",
+        "state_violence"
+      ],
+      "_origin_file": "50501_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 13
+    },
+    {
+      "source_key": "noah",
+      "date": "2026-01-29",
+      "category": "Civil–Military Relations & State Violence",
+      "title": "Xi Jinping purges top generals Zhang Youxia and Liu Zhenli",
+      "url": "https://www.noahpinion.blog/p/no-china-doesnt-plan-1000-years-ahead",
+      "summary": "Chinese President Xi Jinping has purged his top general, Zhang Youxia, along with another senior military figure, Liu Zhenli. The reasons for their removal are not publicly known, but speculation includes potential coup plots, failure to prepare the military for a Taiwan invasion, or resistance to Xi's orders. This move highlights Xi's consolidation of power and the internal strife within China's leadership, which may impact China's strategic focus and governance stability.",
+      "why_relevant": "The purge of high-ranking military officials by Xi Jinping underscores the internal power dynamics and potential instability within China's leadership, affecting both domestic governance and international relations.",
+      "attacks": [
+        "military",
+        "civil_service"
+      ],
+      "_origin_file": "noah_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 12
+    },
+    {
+      "source_key": "federalregister",
+      "date": "2026-01-30",
+      "category": "Executive Actions & Orders",
+      "title": "FCC Announces Consumer Protection and Accessibility Advisory Committee Meeting",
+      "url": "https://www.federalregister.gov/documents/2026/01/30/2026-01898/consumer-protection-and-accessibility-advisory-committee-announcement-of-meeting",
+      "summary": "The Federal Communications Commission (FCC) announced the second meeting of its Consumer Protection and Accessibility Advisory Committee (CPAAC) for February 24, 2026. The meeting will be held at FCC Headquarters in Washington, DC, and will be open to the public, with accommodations for individuals with disabilities. The agenda includes working group reports, potential votes on recommendations, and public comment opportunities.",
+      "why_relevant": "This meeting facilitates public engagement and oversight in consumer protection and accessibility issues, enhancing transparency and accountability in FCC operations.",
+      "attacks": [],
+      "_origin_file": "federalregister_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 14
+    },
+    {
+      "source_key": "orders",
+      "date": "2026-01-30",
+      "category": "Executive Actions & Orders",
+      "title": "Executive Order: Celebrating American Greatness With American Motor Racing",
+      "url": "https://ballotpedia.org/Executive_Order:_Celebrating_American_Greatness_With_American_Motor_Racing_(Donald_Trump,_2026)",
+      "summary": "On January 30, 2026, President Donald Trump issued an executive order to establish the Freedom 250 Grand Prix, an INDYCAR street race in Washington, D.C., as part of the celebrations for America's 250th birthday. The order directs the Secretary of the Interior and the Secretary of Transportation to designate a suitable race route through the capital and expedite necessary permits and approvals. The race aims to showcase the city's iconic monuments and enhance public enjoyment through aerial photography, while ensuring the maintenance of roads and infrastructure used for the event.",
+      "why_relevant": "This executive order highlights the use of national celebrations to promote cultural and sporting events, reflecting on national pride and the administration's focus on American heritage.",
+      "attacks": [],
+      "_origin_file": "orders_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 1
+    },
+    {
+      "source_key": "guardian",
+      "date": "2026-01-30",
+      "category": "Legislative & Oversight Activity",
+      "title": "California Passes No Secret Police Act and No Vigilantes Act",
+      "url": "https://www.theguardian.com/us-news/2026/jan/30/antifa-unmasking-ice",
+      "summary": "In September, Democratic lawmakers in California passed the No Secret Police Act, which prohibits ICE and border patrol agents from wearing masks, and the No Vigilantes Act, which requires them to wear a form of identification. These legislative measures aim to increase transparency and accountability among immigration enforcement agents. However, the White House has sued over the legislation, and legal observers are pessimistic about the bills' chances of surviving in court.",
+      "why_relevant": "These acts represent an effort to increase transparency and accountability in immigration enforcement, impacting democratic oversight.",
+      "attacks": [
+        "immigrants_refugees",
+        "rule_of_law"
+      ],
+      "_origin_file": "guardian_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 78
+    },
+    {
+      "source_key": "guardian",
+      "date": "2026-01-30",
+      "category": "Legislative & Oversight Activity",
+      "title": "Congressional criticism of DOJ's handling of Epstein files",
+      "url": "https://www.theguardian.com/us-news/2026/feb/03/new-epstein-files-advocates-claim-documents-withheld",
+      "summary": "",
+      "why_relevant": "Congressional oversight is crucial for ensuring government transparency and accountability.",
+      "attacks": [
+        "congress",
+        "transparency",
+        "justice_dept"
+      ],
+      "_origin_file": "guardian_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 24
+    },
+    {
+      "source_key": "guardian",
+      "date": "2026-01-30",
+      "category": "Legislative & Oversight Activity",
+      "title": "Senate Democrats reach deal to avert partial government shutdown",
+      "url": "https://www.theguardian.com/us-news/2026/jan/29/senate-democrats-deal-dhs-funding-bill",
+      "summary": "Senate Democrats, led by Chuck Schumer, reached a deal to advance a major package of spending bills to avert a partial government shutdown. The agreement involves splitting a funding bill for the Department of Homeland Security (DHS) from other funding bills, allowing DHS to be funded for two weeks at current levels. This move aims to prevent a shutdown that would affect many government functions. The House of Representatives, currently out of session, must approve the revised package. The deal comes amid Democratic demands for reforms to immigration enforcement, particularly concerning ICE.",
+      "why_relevant": "The deal is significant as it prevents a government shutdown and addresses ongoing debates over immigration enforcement reforms.",
+      "attacks": [],
+      "_origin_file": "guardian_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 85
+    },
+    {
+      "source_key": "hcr",
+      "date": "2026-01-30",
+      "category": "Legislative & Oversight Activity",
+      "title": "Senate Democrats Force Separate Funding for DHS",
+      "url": "https://www.pbs.org/newshour/show/whats-in-the-bipartisan-senate-deal-to-avoid-a-shutdown-temporarily-fund-dhs",
+      "summary": "Senate Democrats successfully separated funding for the Department of Homeland Security (DHS) from five other spending bills, allowing for a two-week negotiation period regarding the conditions of DHS funding. This decision was influenced by public outrage over recent violence by federal agents from Immigration and Customs Enforcement (ICE) and the U.S. Border Patrol. Democrats demanded accountability measures, including the use of body cameras and independent investigations into ICE operations. The Senate did not vote on the measure, and the House is currently out of session, leaving the fate of the funding uncertain.",
+      "why_relevant": "This event highlights the ongoing tensions between Democrats and Republicans regarding immigration enforcement and accountability, reflecting broader issues of governance and public safety.",
+      "attacks": [],
+      "_origin_file": "hcr_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 14
+    },
+    {
+      "source_key": "guardian",
+      "date": "2026-01-30",
+      "category": "Judicial Developments",
+      "title": "11th Circuit Court ruling on Georgia election law",
+      "url": "https://www.theguardian.com/us-news/2026/jan/30/trump-fulton-county-raid-election",
+      "summary": "A three-judge panel of the 11th Circuit federal appeals court ruled that a Georgia law, passed after the 2020 election, allowing the state board of elections to take over local election offices, is constitutional. This decision could enable the state board to exert greater control over local election administration, raising concerns about the potential for partisan influence in future elections.",
+      "why_relevant": "The court ruling affirms the legality of a controversial law that could centralize election control, affecting the integrity of local election processes.",
+      "attacks": [
+        "elections",
+        "rule_of_law"
+      ],
+      "_origin_file": "guardian_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 84
+    },
+    {
+      "source_key": "guardian",
+      "date": "2026-01-30",
+      "category": "Judicial Developments",
+      "title": "DOJ releases 3 million Epstein files, misses deadline",
+      "url": "https://www.theguardian.com/us-news/2026/feb/03/new-epstein-files-advocates-claim-documents-withheld",
+      "summary": "",
+      "why_relevant": "The delayed and incomplete release of files raises significant concerns about transparency and accountability in the justice system.",
+      "attacks": [
+        "justice_dept",
+        "transparency"
+      ],
+      "_origin_file": "guardian_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 22
+    },
+    {
+      "source_key": "guardian",
+      "date": "2026-01-30",
+      "category": "Judicial Developments",
+      "title": "DOJ Releases Documents on Epstein's Potential Cooperation",
+      "url": "https://www.theguardian.com/us-news/2026/jan/31/epstein-lawyers-discussed-cooperation",
+      "summary": "On January 30, 2026, the US Department of Justice released documents revealing that Jeffrey Epstein's lawyers had met with Manhattan federal prosecutors on July 29, 2019, to discuss the possibility of Epstein's cooperation in his case. The documents, including an FBI memo titled \"Epstein Investigation Summary & Timeline,\" indicated that while no specific proposal was made, there was a suggestion for Epstein's defense counsel to contact the Southern District of New York if Epstein was prepared to accept responsibility or propose a resolution. Epstein was facing charges of sex trafficking minors and conspiracy at the time.",
+      "why_relevant": "The release of these documents sheds light on potential legal strategies and negotiations in high-profile criminal cases, impacting public trust in the justice system.",
+      "attacks": [],
+      "_origin_file": "guardian_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 56
+    },
+    {
+      "source_key": "guardian",
+      "date": "2026-01-30",
+      "category": "Judicial Developments",
+      "title": "DOJ releases Epstein-related files involving Howard Lutnick",
+      "url": "https://www.theguardian.com/us-news/2026/jan/30/new-epstein-files-howard-lutnick-island",
+      "summary": "The Department of Justice released documents revealing that Howard Lutnick, the current US Secretary of Commerce, arranged to visit Jeffrey Epstein's island in 2012. The documents include emails between Lutnick and Epstein's assistant discussing plans for a visit during the holiday season. The files suggest a meeting took place, as Epstein later emailed his assistant to forward a message to Lutnick. Additionally, the documents indicate that Lutnick invited Epstein to a Hillary Clinton fundraiser in 2015. Lutnick has not commented on the island visit, stating he has not seen the documents.",
+      "why_relevant": "The release of these documents highlights potential ethical concerns and conflicts of interest involving a high-ranking government official.",
+      "attacks": [
+        "public_service",
+        "decency"
+      ],
+      "_origin_file": "guardian_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 72
+    },
+    {
+      "source_key": "guardian",
+      "date": "2026-01-30",
+      "category": "Judicial Developments",
+      "title": "Judge dismisses death penalty charges against Luigi Mangione",
+      "url": "https://www.theguardian.com/us-news/2026/jan/30/luigi-mangione-death-penalty-dismissed",
+      "summary": "On January 30, 2026, a federal judge in New York, Margaret Garnett, dismissed charges against Luigi Mangione that were eligible for the death penalty. Mangione was accused of killing UnitedHealthcare CEO Brian Thompson. The dismissed charges included murder through the use of a firearm and a weapons charge. The judge cited US Supreme Court precedents, stating the charges were legally incompatible with the stalking charges Mangione still faces. The trial will proceed on the stalking charges, with a potential maximum punishment of life in prison without parole.",
+      "why_relevant": "This decision impacts the legal proceedings and potential sentencing in a high-profile federal case, reflecting on the application of capital punishment laws.",
+      "attacks": [],
+      "_origin_file": "guardian_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 77
+    },
+    {
+      "source_key": "guardian",
+      "date": "2026-01-30",
+      "category": "Judicial Developments",
+      "title": "Radar Online lawsuit challenges DOJ's Epstein file disclosure",
+      "url": "https://www.theguardian.com/us-news/2026/feb/03/new-epstein-files-advocates-claim-documents-withheld",
+      "summary": "",
+      "why_relevant": "The lawsuit highlights ongoing legal battles over government transparency and public access to information.",
+      "attacks": [
+        "transparency",
+        "justice_dept"
+      ],
+      "_origin_file": "guardian_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 23
+    },
+    {
+      "source_key": "guardian",
+      "date": "2026-01-30",
+      "category": "Judicial Developments",
+      "title": "State board of elections subpoena for 2020 election records",
+      "url": "https://www.theguardian.com/us-news/2026/jan/30/trump-fulton-county-raid-election",
+      "summary": "The Trump-aligned Georgia state board of elections issued a subpoena for 2020 election records from Fulton County, which the county contested in court. In December, a Fulton County superior court judge ruled in favor of the state board, ordering the county to turn over the records. This legal battle is part of ongoing efforts by Trump and his allies to challenge the 2020 election results in Georgia, despite previous confirmations of the election's integrity.",
+      "why_relevant": "The subpoena and subsequent court ruling highlight ongoing legal challenges to the 2020 election results, impacting the administration of future elections.",
+      "attacks": [
+        "elections",
+        "rule_of_law"
+      ],
+      "_origin_file": "guardian_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 82
+    },
+    {
+      "source_key": "guardian",
+      "date": "2026-01-30",
+      "category": "Judicial Developments",
+      "title": "US Justice Department releases over 3 million pages of Epstein files",
+      "url": "https://www.theguardian.com/us-news/2026/jan/30/epstein-files-3-million-new-pages",
+      "summary": "The US Justice Department, led by Deputy Attorney General Todd Blanche, announced the release of more than 3 million pages of documents related to the investigation of Jeffrey Epstein. This release includes over 2,000 videos and 180,000 images, with extensive redactions. The documents reveal previously unknown financial and social connections between Epstein and prominent figures, including Elon Musk and Howard Lutnick. The release follows the signing of the Epstein Files Transparency Act by former President Trump, under pressure from both political parties. The Justice Department has also filed court motions to release additional materials currently under protective orders.",
+      "why_relevant": "The release of these documents is significant for transparency and accountability in the investigation of Jeffrey Epstein and his connections to influential figures.",
+      "attacks": [
+        "justice_dept",
+        "truth",
+        "information"
+      ],
+      "_origin_file": "guardian_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 74
+    },
+    {
+      "source_key": "hcr",
+      "date": "2026-01-30",
+      "category": "Judicial Developments",
+      "title": "Trump Sues IRS Over Leaked Tax Documents",
+      "url": "https://www.politico.com/news/2026/01/29/trump-sues-irs-leaked-tax-returns-00756718",
+      "summary": "President Donald Trump, along with his sons and the Trump Organization, filed a lawsuit against the Internal Revenue Service (IRS) for $10 billion, claiming that the agency was responsible for the leak of his tax documents to the press. The lawsuit alleges reputational and financial harm due to the disclosure of information showing that Trump paid no income tax for fifteen years. This legal action highlights ongoing controversies surrounding Trump's financial dealings and transparency.",
+      "why_relevant": "This lawsuit raises questions about accountability and transparency in government, particularly regarding the financial practices of public officials.",
+      "attacks": [
+        "truth",
+        "rule_of_law"
+      ],
+      "_origin_file": "hcr_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 16
+    },
+    {
+      "source_key": "50501",
+      "date": "2026-01-30",
+      "category": "Law Enforcement & Surveillance",
+      "title": "100 clergy arrested at Minneapolis airport protest",
+      "url": "https://www.the50501movement.org/p/50501-friday-briefing-january-30",
+      "summary": "During a protest at the Minneapolis airport, 100 clergy members were arrested while demonstrating against federal actions and the killing of Alex Pretti. The clergy stood in solidarity with the larger protest movement, which included a significant economic blackout and widespread public demonstrations. Their arrest underscores the tensions between protestors and law enforcement in the ongoing struggle for civil rights and justice.",
+      "why_relevant": "The arrest of clergy members during a protest raises questions about the right to peaceful assembly and the treatment of religious figures in civil demonstrations.",
+      "attacks": [
+        "law_enforcement"
+      ],
+      "_origin_file": "50501_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 15
+    },
+    {
+      "source_key": "guardian",
+      "date": "2026-01-30",
+      "category": "Law Enforcement & Surveillance",
+      "title": "Arrests in Los Angeles for Alleged Doxing of ICE Agent",
+      "url": "https://www.theguardian.com/us-news/2026/jan/30/antifa-unmasking-ice",
+      "summary": "Federal law enforcement arrested three women in Los Angeles for allegedly livestreaming their pursuit of an ICE agent to his home and posting his address online. The women were charged with publicly disclosing the personal information of a federal agent. Prosecutors must prove the women intended to threaten, intimidate, or incite violence against the agent. The women have pleaded not guilty, arguing they were identifying taxpayer-funded employees.",
+      "why_relevant": "These arrests highlight the tension between government transparency and privacy, impacting democratic accountability.",
+      "attacks": [
+        "information",
+        "rule_of_law"
+      ],
+      "_origin_file": "guardian_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 80
+    },
+    {
+      "source_key": "guardian",
+      "date": "2026-01-30",
+      "category": "Law Enforcement & Surveillance",
+      "title": "Atlanta FBI boss reportedly ousted after questioning DoJ’s renewed interest in 2020 election",
+      "url": "https://www.theguardian.com/us-news/2026/jan/30/atlanta-fbi-boss-reportedly-ousted-fulton-county",
+      "summary": "Paul W Brown, the special agent in charge of the FBI’s Atlanta field office, was reportedly removed from his position after expressing concerns about the Department of Justice's renewed interest in investigating alleged voter fraud in Fulton County, Georgia, related to the 2020 election. Brown had refused to conduct searches and seizures of records connected to the election. His removal occurred shortly before the Justice Department executed a search warrant and seized 700 boxes of records from the Fulton County elections office. The personnel change was not publicly announced by the FBI.",
+      "why_relevant": "The removal of an FBI official for questioning the legitimacy of election-related investigations raises concerns about the politicization of law enforcement.",
+      "attacks": [
+        "justice_dept",
+        "elections",
+        "rule_of_law"
+      ],
+      "_origin_file": "guardian_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 71
+    },
+    {
+      "source_key": "guardian",
+      "date": "2026-01-30",
+      "category": "Law Enforcement & Surveillance",
+      "title": "DOJ's pursuit of 2020 election records from Fulton County",
+      "url": "https://www.theguardian.com/us-news/2026/jan/30/trump-fulton-county-raid-election",
+      "summary": "The US Department of Justice, reconfigured by the Trump administration, began seeking 2020 election records from Fulton County, citing the county's refusal to comply with a state board subpoena. This move is part of a broader strategy to challenge voting rights norms and could lead to federal charges against public officials. The DOJ's actions have raised concerns about the potential weaponization of election data.",
+      "why_relevant": "The DOJ's involvement in seeking election records underscores the federal government's role in election-related disputes and its potential impact on voting rights.",
+      "attacks": [
+        "elections",
+        "rule_of_law",
+        "justice_dept"
+      ],
+      "_origin_file": "guardian_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 83
+    },
+    {
+      "source_key": "guardian",
+      "date": "2026-01-30",
+      "category": "Law Enforcement & Surveillance",
+      "title": "FBI raid on Fulton County election office",
+      "url": "https://www.theguardian.com/us-news/2026/jan/30/trump-fulton-county-raid-election",
+      "summary": "On Wednesday, FBI agents executed a search warrant at the Fulton County election office in Georgia, seizing all ballots from the 2020 election, tabulator tapes, ballot images, and voter rolls. This action is part of the Trump administration's broader effort to investigate alleged voter fraud nationwide, despite two recounts confirming Joe Biden's victory in Georgia and state investigators debunking claims of fraud. The raid has been criticized for lacking legal basis and is seen as an attempt to undermine trust in election results ahead of the 2026 midterms.",
+      "why_relevant": "The raid represents a significant use of federal power that could erode public confidence in the electoral process.",
+      "attacks": [
+        "elections",
+        "rule_of_law",
+        "truth"
+      ],
+      "_origin_file": "guardian_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 81
+    },
+    {
+      "source_key": "guardian",
+      "date": "2026-01-30",
+      "category": "Law Enforcement & Surveillance",
+      "title": "ICE detains two more students from Liam Ramos’s school",
+      "url": "https://www.theguardian.com/us-news/2026/jan/30/ice-detains-kids-minnesota-liam-ramos-school",
+      "summary": "U.S. Immigration and Customs Enforcement (ICE) detained two brothers, students at a Minnesota elementary school, along with their mother, who has a pending asylum case. The family was transported to a detention facility in Texas. The mother was initially taken into custody during a court appointment, and school officials were asked to bring the children to her. The detention of these children has sparked outrage, as it follows the detention of another student, Liam Ramos, and his father, who are also held in Texas.",
+      "why_relevant": "The detention of children in immigration cases raises significant concerns about the treatment of vulnerable populations and the impact on their rights and well-being.",
+      "attacks": [
+        "immigrants_refugees",
+        "children",
+        "rule_of_law"
+      ],
+      "_origin_file": "guardian_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 73
+    },
+    {
+      "source_key": "guardian",
+      "date": "2026-01-30",
+      "category": "Law Enforcement & Surveillance",
+      "title": "Justice Department Memo Targets Antifa Doxing Activities",
+      "url": "https://www.theguardian.com/us-news/2026/jan/30/antifa-unmasking-ice",
+      "summary": "In December, the Justice Department issued a memo to federal prosecutors to create a strategy for targeting individuals aligned with \"antifa\" who are \"doxing\" and \"impeding\" immigration law enforcement. This move follows President Trump's claim to designate antifa as a \"domestic terrorist organization,\" despite the lack of a federal law to make such a designation. The memo is part of a broader effort to curb antifa's activities against ICE agents.",
+      "why_relevant": "This memo represents an attempt to suppress activities that expose immigration enforcement agents, affecting transparency and accountability.",
+      "attacks": [
+        "information",
+        "rule_of_law"
+      ],
+      "_origin_file": "guardian_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 79
+    },
+    {
+      "source_key": "guardian",
+      "date": "2026-01-30",
+      "category": "Law Enforcement & Surveillance",
+      "title": "Removal of Gregory Bovino from ICE operations in Minneapolis",
+      "url": "https://www.theguardian.com/us-news/2026/feb/01/minnesota-twin-cities-ice-protests",
+      "summary": "Following widespread protests and outrage over the killings of observers by federal agents, Gregory Bovino, the border patrol agent leading ICE operations in Minneapolis, was removed from his post on January 30, 2026. He was replaced by Tom Homan, the president's \"border czar.\" This change in leadership comes amid a civil rights investigation by the Justice Department into the actions of federal agents in the city.",
+      "why_relevant": "The removal of a key ICE official and the initiation of a civil rights investigation indicate governmental response to public pressure and potential misconduct by federal agents.",
+      "attacks": [
+        "immigrants_refugees",
+        "justice_dept"
+      ],
+      "_origin_file": "guardian_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 50
+    },
+    {
+      "source_key": "guardian",
+      "date": "2026-01-30",
+      "category": "Law Enforcement & Surveillance",
+      "title": "US DoJ opens federal civil rights investigation into killing of Alex Pretti",
+      "url": "https://www.theguardian.com/us-news/2026/jan/30/alex-pretti-doj-civil-rights-investigation",
+      "summary": "The US Department of Justice announced a federal civil rights investigation into the fatal shooting of Alex Pretti, a nurse and activist, by immigration officers in Minneapolis. The investigation, led by the FBI, comes amid ongoing protests against aggressive immigration enforcement tactics. Pretti was shot while protesting against immigration raids, becoming the second person to die in the recent surge of federal enforcement in the area. The investigation marks a significant shift from the Trump administration's initial narrower examination by the Department of Homeland Security.",
+      "why_relevant": "This investigation addresses potential civil rights violations and highlights tensions between federal enforcement actions and community protests.",
+      "attacks": [
+        "immigrants_refugees",
+        "justice_dept",
+        "rule_of_law"
+      ],
+      "_origin_file": "guardian_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 75
+    },
+    {
+      "source_key": "democracydocket",
+      "date": "2026-01-30",
+      "category": "Elections & Representation",
+      "title": "Standing up to DOJ's voter roll power grab",
+      "url": "https://www.democracydocket.com/opinion/standing-up-to-dojs-voter-roll-power-grab/",
+      "summary": "The article discusses the Department of Justice's (DOJ) actions regarding voter roll maintenance and the potential implications for voting rights. It highlights concerns about the DOJ's approach, which some view as a power grab that could affect the integrity and accessibility of voter rolls. The piece emphasizes the importance of monitoring and challenging such actions to protect democratic processes and ensure fair access to voting.",
+      "why_relevant": "The DOJ's actions on voter roll maintenance can significantly impact voting access and election integrity, making it crucial to track and address these developments.",
+      "attacks": [
+        "rule_of_law",
+        "elections"
+      ],
+      "_origin_file": "democracydocket_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 1
+    },
+    {
+      "source_key": "50501",
+      "date": "2026-01-30",
+      "category": "Civil Society & Protest",
+      "title": "Minnesota businesses close in protest against federal actions",
+      "url": "https://www.the50501movement.org/p/50501-friday-briefing-january-30",
+      "summary": "In response to federal actions and the killing of Alex Pretti, numerous businesses across Minnesota participated in an economic blackout by closing their doors. This act of nonviolent resistance was part of a larger protest movement involving 50,000 people who opposed what they perceived as illegitimate force by federal authorities. The protest aimed to demonstrate solidarity and disrupt normal economic activities to draw attention to their cause.",
+      "why_relevant": "The coordinated closure of businesses as a form of protest highlights the role of economic actions in civil resistance and the broader movement against perceived government overreach.",
+      "attacks": [],
+      "_origin_file": "50501_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 14
+    },
+    {
+      "source_key": "50501",
+      "date": "2026-01-30",
+      "category": "Civil Society & Protest",
+      "title": "Nationwide \"ICE Out of Everywhere\" Shutdown Actions",
+      "url": "https://www.the50501movement.org/p/when-we-move-things-move",
+      "summary": "On January 30, a nationwide call for a \"shutdown\" led to work stoppages, walkouts, and economic pressure actions across multiple cities and states. These actions were part of the \"ICE Out of Everywhere\" demonstrations, which continued with marches, vigils, and coordinated actions into the following day. The movement aimed to apply pressure on institutions and demonstrate civic power through collective action, even if participation varied across different locations.",
+      "why_relevant": "The coordinated nationwide actions highlight the power of collective protest in influencing public discourse and policy regarding immigration enforcement.",
+      "attacks": [
+        "dissent_protest"
+      ],
+      "_origin_file": "50501_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 9
+    },
+    {
+      "source_key": "guardian",
+      "date": "2026-01-30",
+      "category": "Civil Society & Protest",
+      "title": "Protest against ICE in Minneapolis",
+      "url": "https://www.theguardian.com/us-news/2026/feb/01/minnesota-twin-cities-ice-protests",
+      "summary": "On January 30, 2026, protesters gathered in Minneapolis to oppose the actions of Immigration and Customs Enforcement (ICE) under the Trump administration's mass deportation policy. The protest was part of a broader resistance movement in Minnesota, where residents have been actively documenting ICE activities, providing support to affected families, and organizing community defense efforts. The movement has been fueled by outrage over the killings of observers by federal agents and aims to protect immigrant communities from deportation and detention.",
+      "why_relevant": "The protest highlights the significant civic engagement and community organizing efforts in response to federal immigration enforcement, reflecting broader tensions between local communities and federal policies.",
+      "attacks": [
+        "immigrants_refugees",
+        "public_service",
+        "rule_of_law"
+      ],
+      "_origin_file": "guardian_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 48
+    },
+    {
+      "source_key": "hcr",
+      "date": "2026-01-30",
+      "category": "Civil Society & Protest",
+      "title": "Trump Administration Faces Criticism Over ICE Violence",
+      "url": "https://www.nytimes.com/live/2026/01/29/us/trump-news/8f1d0626-a82b-5db3-949a-47756d429e58?smid=url-share",
+      "summary": "Following the shooting of a nurse by federal agents, former presidents Bill Clinton, Barack Obama, and Joe Biden publicly condemned the violence of federal agents and the administration's response. They emphasized that the nation's core values are under threat and called for a change in course from Trump officials. This criticism from prominent Democratic figures underscores the political ramifications of federal law enforcement actions and their impact on public perception.",
+      "why_relevant": "The event illustrates the significant backlash against federal law enforcement practices and the role of former presidents in shaping public discourse on accountability and governance.",
+      "attacks": [
+        "workers"
+      ],
+      "_origin_file": "hcr_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 15
+    },
+    {
+      "source_key": "federalregister",
+      "date": "2026-01-30",
+      "category": "Economic & Regulatory Power",
+      "title": "Environmental Impact Statements Notice by EPA",
+      "url": "https://www.federalregister.gov/documents/2026/01/30/2026-01874/environmental-impact-statements-notice-of-availability",
+      "summary": "The Environmental Protection Agency (EPA) published a notice of availability for several Environmental Impact Statements (EISs) filed between January 16 and January 26, 2026. This includes final and draft EISs for projects in Alaska, Hawaii, Texas, Nebraska, Wyoming, Alabama, and Maryland. The notice also includes amendments to previous notices, extending comment periods and correcting agency information. The EPA's comments on these EISs are available online.",
+      "why_relevant": "This notice facilitates public participation and transparency in environmental decision-making processes, impacting regulatory oversight and environmental policy.",
+      "attacks": [],
+      "_origin_file": "federalregister_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 30
+    },
+    {
+      "source_key": "federalregister",
+      "date": "2026-01-30",
+      "category": "Economic & Regulatory Power",
+      "title": "EPA Corrects Compliance Deadlines for Steam Electric Power Guidelines",
+      "url": "https://www.federalregister.gov/documents/2026/01/30/2026-01913/effluent-limitations-guidelines-and-standards-for-the-steam-electric-power-generating-point-source",
+      "summary": "The Environmental Protection Agency (EPA) issued a correction to the compliance deadlines in the final rule for effluent limitations guidelines and standards for the steam electric power generating point source category. The correction addresses typographical errors in the published regulatory text concerning compliance deadlines for pretreatment standards and related reporting requirements. The corrected rule ensures that compliance deadlines match those in the version signed by the EPA Administrator. The effective date for these corrections is March 2, 2026.",
+      "why_relevant": "This correction ensures accurate regulatory compliance deadlines, impacting environmental standards and industry operations.",
+      "attacks": [],
+      "_origin_file": "federalregister_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 27
+    },
+    {
+      "source_key": "federalregister",
+      "date": "2026-01-30",
+      "category": "Economic & Regulatory Power",
+      "title": "EPA Exempts Chlorate from Pesticide Tolerance Requirement",
+      "url": "https://www.federalregister.gov/documents/2026/01/30/2026-01902/chlorate-exemption-from-the-requirement-of-a-pesticide-tolerance",
+      "summary": "The Environmental Protection Agency (EPA) has issued a final rule exempting chlorate residues from the requirement of a pesticide tolerance in various food commodities. This exemption applies to residues resulting from the use of gaseous chlorine dioxide as a fungicide, bactericide, or antimicrobial pesticide. The rule is effective immediately, and objections or requests for hearings must be submitted by March 31, 2026.",
+      "why_relevant": "This action affects agricultural producers and food manufacturers by altering regulatory requirements for pesticide residues, impacting food safety standards and compliance.",
+      "attacks": [],
+      "_origin_file": "federalregister_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 28
+    },
+    {
+      "source_key": "federalregister",
+      "date": "2026-01-30",
+      "category": "Economic & Regulatory Power",
+      "title": "EPA Exempts PDHP 68949 from Tolerance Requirement",
+      "url": "https://www.federalregister.gov/documents/2026/01/30/2026-01901/pdhp-68949-exemption-from-the-requirement-of-a-tolerance",
+      "summary": "The Environmental Protection Agency (EPA) issued a final rule exempting PDHP 68949 from the requirement of a tolerance for residues in or on all food commodities. This decision, effective January 30, 2026, follows a petition by Plant Health Care, Inc. and is based on the determination that the exemption is safe, with no harm expected from aggregate exposure. The rule eliminates the need to establish a maximum permissible level for PDHP 68949 residues under the Federal Food, Drug, and Cosmetic Act (FFDCA).",
+      "why_relevant": "This exemption impacts agricultural and food safety regulations, affecting producers and consumers by altering pesticide residue standards.",
+      "attacks": [],
+      "_origin_file": "federalregister_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 29
+    },
+    {
+      "source_key": "federalregister",
+      "date": "2026-01-30",
+      "category": "Economic & Regulatory Power",
+      "title": "FCC Seeks Comments on Information Collection",
+      "url": "https://www.federalregister.gov/documents/2026/01/30/2026-01830/information-collection-being-reviewed-by-the-federal-communications-commission",
+      "summary": "The Federal Communications Commission (FCC) has issued a notice inviting public comments on a proposed information collection under the Paperwork Reduction Act. The collection pertains to the Connect America Fund Phase II and Rural Digital Opportunity Fund Auction Support. Comments are requested on the necessity, utility, and burden of the information collection. The comment period ends on March 31, 2026.",
+      "why_relevant": "This action affects regulatory processes and public participation in shaping telecommunications policy, impacting broadband access and infrastructure development.",
+      "attacks": [],
+      "_origin_file": "federalregister_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 17
+    },
+    {
+      "source_key": "federalregister",
+      "date": "2026-01-30",
+      "category": "Economic & Regulatory Power",
+      "title": "FCC Terminates Dormant Proceedings",
+      "url": "https://www.federalregister.gov/documents/2026/01/30/2026-01831/termination-of-dormant-proceedings",
+      "summary": "The Federal Communications Commission (FCC) has announced the termination of certain dormant docketed proceedings as of January 30, 2026. This action, detailed in the Ninth Dormant Proceedings Termination Order (DA 25-1002), aims to close over 2,000 inactive proceedings. The full text and associated documents are available on the FCC's website. This termination is part of the FCC's ongoing efforts to streamline its docket management and ensure active proceedings are prioritized.",
+      "why_relevant": "This action reflects the FCC's commitment to efficient regulatory processes by eliminating inactive dockets, thereby enhancing focus on current and active regulatory matters.",
+      "attacks": [],
+      "_origin_file": "federalregister_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 16
+    },
+    {
+      "source_key": "federalregister",
+      "date": "2026-01-30",
+      "category": "Economic & Regulatory Power",
+      "title": "FCC Withdraws Certain Rule Repeals",
+      "url": "https://www.federalregister.gov/documents/2026/01/30/2026-01884/delete-delete-delete-withdrawal",
+      "summary": "The Federal Communications Commission (FCC) has partially withdrawn certain rule repeals initially published on December 12, 2025. The withdrawal affects rules that received significant adverse public comments or require further notice and comment procedures. The repealed rules, which were deemed outdated or unnecessary, will remain in effect pending further review. This action is effective February 10, 2026, and involves specific sections of 47 CFR Parts 80 and 88.",
+      "why_relevant": "This withdrawal reflects the FCC's responsiveness to public feedback and ensures that regulatory changes undergo appropriate scrutiny, maintaining transparency and accountability in rulemaking.",
+      "attacks": [],
+      "_origin_file": "federalregister_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 15
+    },
+    {
+      "source_key": "federalregister",
+      "date": "2026-01-30",
+      "category": "Economic & Regulatory Power",
+      "title": "FDA Requests Comments on Rare Disease Innovation Hub Programming",
+      "url": "https://www.federalregister.gov/documents/2026/01/30/2026-01903/fda-rare-disease-innovation-hub-future-programming-request-for-comments",
+      "summary": "The Food and Drug Administration (FDA) has issued a request for public comments on future programming for the Rare Disease Innovation Hub. The FDA seeks input on topics for the RISE Workshop series, which focuses on challenges common to multiple rare diseases and innovative scientific solutions. Comments are due by December 31, 2026, with specific deadlines for summer and fall workshops. The workshops aim to foster interaction among stakeholders, including drug developers, patient organizations, and FDA regulators.",
+      "why_relevant": "This initiative supports the advancement of regulatory science and the development of therapies for rare diseases, impacting public health and innovation.",
+      "attacks": [],
+      "_origin_file": "federalregister_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 42
+    },
+    {
+      "source_key": "democracydocket",
+      "date": "2026-01-30",
+      "category": "Appointments & Patronage",
+      "title": "Leading election denier appointed to DHS position",
+      "url": "https://www.democracydocket.com/analysis/leading-election-denier-claimed-dhs-wants-to-partner-with-us-on-voter-roll-checks-now-hes-a-top-official-there/",
+      "summary": "A prominent election denier, who previously claimed that the Department of Homeland Security (DHS) wanted to collaborate on voter roll checks, has been appointed to a top official position within DHS. This development raises concerns about the potential influence on election security and the integrity of voter roll management, given the individual's history of promoting unfounded claims about election fraud.",
+      "why_relevant": "The appointment of an election denier to a significant role in DHS could impact the agency's approach to election security and voter roll management, potentially undermining public trust in the electoral process.",
+      "attacks": [
+        "truth",
+        "elections",
+        "public_service"
+      ],
+      "_origin_file": "democracydocket_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 0
+    },
+    {
+      "source_key": "zeteo",
+      "date": "2026-01-30",
+      "category": "Appointments & Patronage",
+      "title": "Trump Nominates Kevin Warsh as Federal Reserve Chair",
+      "url": "https://zeteo.com/p/this-week-in-democracy-week-54-trump",
+      "summary": "President Trump nominated Kevin Warsh as the new Federal Reserve chair on January 30, 2026, following a year of attacks on current chair Jerome Powell. Warsh's nomination faces opposition due to an ongoing Justice Department investigation into Powell.",
+      "why_relevant": "The nomination of a new Fed chair amid political pressure and investigations raises concerns about the independence of the Federal Reserve.",
+      "attacks": [
+        "economy",
+        "rule_of_law"
+      ],
+      "_origin_file": "zeteo_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 7
+    },
+    {
+      "source_key": "guardian",
+      "date": "2026-01-30",
+      "category": "International Relations",
+      "title": "Human rights group warns New York officials against investing in Israeli bonds",
+      "url": "https://www.theguardian.com/us-news/2026/jan/30/new-york-zohran-hochul-divest-israel-dawn-human-rights",
+      "summary": "The human rights group Dawn issued a warning to New York state and local officials, including Governor Kathy Hochul and New York City Mayor Zohran Mamdani, advising them against investing public funds in Israeli bonds. Dawn argues that such investments violate international law and fiduciary duties, potentially exposing officials to legal and financial risks. The group sent a 26-page memo urging the cessation of new purchases and divestment from current holdings, citing the bonds' use in funding Israeli military operations. The warning comes amid growing calls for divestment from Israel in the US.",
+      "why_relevant": "This event highlights the intersection of international law, human rights, and financial ethics in public investment decisions.",
+      "attacks": [
+        "global_democracy",
+        "peace"
+      ],
+      "_origin_file": "guardian_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 76
+    }
+  ]
+}

@@ -1,0 +1,2050 @@
+{
+  "window": {
+    "start": "2025-12-20",
+    "end": "2025-12-26"
+  },
+  "week_number": 49,
+  "sources": [
+    "noah",
+    "guardian",
+    "shadow",
+    "50501",
+    "meidas",
+    "federalregister",
+    "hcr",
+    "zeteo"
+  ],
+  "counts": {
+    "total": 143,
+    "by_date": {
+      "2025-12-20": 28,
+      "2025-12-21": 16,
+      "2025-12-22": 44,
+      "2025-12-23": 23,
+      "2025-12-24": 17,
+      "2025-12-25": 7,
+      "2025-12-26": 8
+    },
+    "by_source": {
+      "guardian": 37,
+      "hcr": 24,
+      "zeteo": 20,
+      "50501": 12,
+      "federalregister": 18,
+      "meidas": 20,
+      "noah": 11,
+      "shadow": 1
+    },
+    "by_category": {
+      "Executive Actions & Orders": 12,
+      "Legislative & Oversight Activity": 12,
+      "Judicial Developments": 26,
+      "Civil Society & Protest": 9,
+      "Information & Media Control": 13,
+      "Economic & Regulatory Power": 27,
+      "Transparency & Records": 14,
+      "International Relations": 14,
+      "Civil–Military Relations & State Violence": 6,
+      "Law Enforcement & Surveillance": 9,
+      "Elections & Representation": 1
+    }
+  },
+  "events": [
+    {
+      "source_key": "guardian",
+      "date": "2025-12-20",
+      "category": "Executive Actions & Orders",
+      "title": "Cancellation of Offshore Wind Development Funding",
+      "url": "https://www.theguardian.com/us-news/2025/dec/20/california-renewable-energy",
+      "summary": "The Trump administration canceled $679 million in funding for offshore wind developments across the US, with California expected to lose about $427 million for a project to build the first offshore wind terminal on the west coast. This cancellation is part of a broader federal agenda to expand fossil fuels and reduce support for renewable energy projects.",
+      "why_relevant": "This cancellation hinders the development of renewable energy infrastructure and California's efforts to transition away from fossil fuels.",
+      "attacks": [
+        "climate_cooperation",
+        "economy"
+      ],
+      "_origin_file": "guardian_events_2025-12-20_2025-12-26.json",
+      "_origin_index": 31
+    },
+    {
+      "source_key": "guardian",
+      "date": "2025-12-20",
+      "category": "Executive Actions & Orders",
+      "title": "Termination of Solar Energy Program for Low-Income Communities",
+      "url": "https://www.theguardian.com/us-news/2025/dec/20/california-renewable-energy",
+      "summary": "The Trump administration's EPA terminated a $7 billion program aimed at bringing solar energy to low-income communities. This decision is part of a series of federal actions to roll back climate initiatives and support fossil fuel expansion. The termination of this program affects efforts to make renewable energy accessible to disadvantaged groups and hinders progress toward equitable energy solutions.",
+      "why_relevant": "This termination limits access to renewable energy for low-income communities, exacerbating inequality and hindering climate action.",
+      "attacks": [
+        "poor",
+        "climate_cooperation"
+      ],
+      "_origin_file": "guardian_events_2025-12-20_2025-12-26.json",
+      "_origin_index": 30
+    },
+    {
+      "source_key": "guardian",
+      "date": "2025-12-20",
+      "category": "Executive Actions & Orders",
+      "title": "Trump Administration's Block on California's Gas-Powered Car Ban",
+      "url": "https://www.theguardian.com/us-news/2025/dec/20/california-renewable-energy",
+      "summary": "The Trump administration blocked California's rule banning the sale of new gas-powered cars by 2030. This federal intervention is part of a broader strategy to expand fossil fuel use and hinder state-level efforts to reduce emissions. The block represents a significant challenge to California's clean energy goals and its attempts to lead in climate change mitigation.",
+      "why_relevant": "This action undermines state autonomy in setting environmental standards and impedes progress toward reducing carbon emissions.",
+      "attacks": [
+        "climate_cooperation",
+        "separation_of_powers"
+      ],
+      "_origin_file": "guardian_events_2025-12-20_2025-12-26.json",
+      "_origin_index": 29
+    },
+    {
+      "source_key": "hcr",
+      "date": "2025-12-20",
+      "category": "Executive Actions & Orders",
+      "title": "Administration's directive on Venezuelan boats",
+      "url": "https://heathercoxrichardson.substack.com/p/december-19-2025",
+      "summary": "Reports indicated that the Trump administration's directive to attack small boats from Venezuela was influenced by a desire to strike cartels in Mexico. This directive authorized lethal force against foreign criminal groups labeled as \"designated terrorist organizations.\"",
+      "why_relevant": "The directive raises concerns about the use of military force and the legal justifications for targeting foreign entities in the context of immigration and drug trafficking.",
+      "attacks": [
+        "rule_of_law"
+      ],
+      "_origin_file": "hcr_events_2025-12-20_2025-12-26.json",
+      "_origin_index": 18
+    },
+    {
+      "source_key": "guardian",
+      "date": "2025-12-20",
+      "category": "Legislative & Oversight Activity",
+      "title": "California's Renewable Energy Legislation",
+      "url": "https://www.theguardian.com/us-news/2025/dec/20/california-renewable-energy",
+      "summary": "In 2018, California passed a bill requiring the state to generate 60% of its electricity from renewable and zero-carbon sources by 2030 and 100% by 2045. This legislative move has been a significant driver in California's transformation into a clean energy powerhouse, with the state achieving 67% clean energy in retail electricity sales by 2023. The legislation is part of California's broader strategy to counter federal rollbacks on climate initiatives and position itself as a leader in renewable energy.",
+      "why_relevant": "This legislation is crucial for California's leadership in renewable energy and its efforts to combat climate change independently of federal policies.",
+      "attacks": [],
+      "_origin_file": "guardian_events_2025-12-20_2025-12-26.json",
+      "_origin_index": 28
+    },
+    {
+      "source_key": "hcr",
+      "date": "2025-12-20",
+      "category": "Legislative & Oversight Activity",
+      "title": "House Republicans force vote on healthcare tax credits",
+      "url": "https://heathercoxrichardson.substack.com/p/december-19-2025",
+      "summary": "Four Republicans in the House of Representatives joined Democrats to compel Speaker Mike Johnson to hold a vote on extending premium tax credits for purchasing healthcare insurance under the Affordable Care Act. This action indicates a shift in Republican lawmakers' responsiveness to public concerns about healthcare.",
+      "why_relevant": "The vote reflects ongoing debates about healthcare access and the political dynamics within the Republican Party.",
+      "attacks": [],
+      "_origin_file": "hcr_events_2025-12-20_2025-12-26.json",
+      "_origin_index": 15
+    },
+    {
+      "source_key": "hcr",
+      "date": "2025-12-20",
+      "category": "Legislative & Oversight Activity",
+      "title": "House speaker Johnson sends representatives home",
+      "url": "https://heathercoxrichardson.substack.com/p/december-19-2025",
+      "summary": "House Speaker Mike Johnson sent congressional representatives home for the holidays, likely to avoid further conflict over extending premium tax credits and the release of the Epstein files, which were required by law.",
+      "why_relevant": "This action reflects the political maneuvering within Congress and the challenges of addressing pressing legislative issues.",
+      "attacks": [],
+      "_origin_file": "hcr_events_2025-12-20_2025-12-26.json",
+      "_origin_index": 20
+    },
+    {
+      "source_key": "guardian",
+      "date": "2025-12-20",
+      "category": "Judicial Developments",
+      "title": "Justice Department Releases Epstein Files Including Photos of Bill Clinton",
+      "url": "https://www.theguardian.com/us-news/2025/dec/20/bill-clinton-white-house-epstein-files",
+      "summary": "The Justice Department released a set of files, including photographs of former President Bill Clinton with Jeffrey Epstein and Ghislaine Maxwell, as part of a congressionally ordered release. The photos, which include images of Clinton in a swimming pool and at a dinner with public figures, have sparked controversy. Clinton's spokesperson accused the White House of using the release to scapegoat Clinton, asserting that Clinton had cut ties with Epstein in 2005. The release comes ahead of scheduled depositions for Bill and Hillary Clinton with the House oversight committee regarding their ties to Epstein.",
+      "why_relevant": "The release of these files and the subsequent political implications highlight ongoing scrutiny and potential legal and ethical issues involving high-profile figures.",
+      "attacks": [
+        "justice_dept",
+        "congress"
+      ],
+      "_origin_file": "guardian_events_2025-12-20_2025-12-26.json",
+      "_origin_index": 23
+    },
+    {
+      "source_key": "guardian",
+      "date": "2025-12-20",
+      "category": "Judicial Developments",
+      "title": "Justice Department's Partial Release of Epstein Files",
+      "url": "https://www.theguardian.com/us-news/2025/dec/20/epstein-files-release-strategy-trump",
+      "summary": "On December 20, 2025, the Justice Department released a partial set of files related to Jeffrey Epstein, missing a legally mandated deadline to release all documents. Deputy Attorney General Todd Blanche announced on Fox News that the department would continue releasing documents over the coming weeks, citing the need to protect victims. The release, which included heavily redacted documents and some images, did not mention Donald Trump, despite previous reports of his name being in the files. The release strategy has been criticized as an attempt to obfuscate Trump's connections to Epstein.",
+      "why_relevant": "The partial release and redaction of the Epstein files raise concerns about transparency and potential political motivations in handling sensitive information.",
+      "attacks": [
+        "truth",
+        "justice_dept",
+        "information"
+      ],
+      "_origin_file": "guardian_events_2025-12-20_2025-12-26.json",
+      "_origin_index": 35
+    },
+    {
+      "source_key": "guardian",
+      "date": "2025-12-20",
+      "category": "Judicial Developments",
+      "title": "Limited Release of Epstein Files by Trump Justice Department",
+      "url": "https://www.theguardian.com/us-news/2025/dec/20/trump-justice-department-legal-threats-epstein-files-release",
+      "summary": "The Trump justice department released a limited and heavily redacted set of Jeffrey Epstein files, which has led to significant backlash and legal threats. The release did not comply with the Epstein Files Transparency Act, which mandated full disclosure by December 19. Lawmakers, including Ro Khanna and Thomas Massie, criticized the release and are considering legal actions, including possible impeachment of justice department officials. The release included some new files but also saw the removal of over a dozen files from the government website without explanation, fueling speculation and calls for transparency.",
+      "why_relevant": "The event highlights potential violations of transparency laws and raises concerns about accountability and compliance within the justice department.",
+      "attacks": [
+        "justice_dept",
+        "transparency",
+        "rule_of_law"
+      ],
+      "_origin_file": "guardian_events_2025-12-20_2025-12-26.json",
+      "_origin_index": 32
+    },
+    {
+      "source_key": "guardian",
+      "date": "2025-12-20",
+      "category": "Judicial Developments",
+      "title": "Partial release of Epstein files by the Department of Justice",
+      "url": "https://www.theguardian.com/us-news/2025/dec/19/epstein-victims-condemn-doj-files-release",
+      "summary": "",
+      "why_relevant": "The partial release of documents under a transparency act raises concerns about accountability and compliance with legal mandates, impacting public trust in the justice system.",
+      "attacks": [
+        "justice_dept",
+        "truth",
+        "rule_of_law"
+      ],
+      "_origin_file": "guardian_events_2025-12-20_2025-12-26.json",
+      "_origin_index": 37
+    },
+    {
+      "source_key": "guardian",
+      "date": "2025-12-20",
+      "category": "Judicial Developments",
+      "title": "Partial release of Jeffrey Epstein documents with heavy redactions",
+      "url": "https://www.theguardian.com/us-news/2025/dec/20/conservative-response-epstein-release",
+      "summary": "The Department of Justice, under Attorney General Pam Bondi, released partially redacted documents related to the Jeffrey Epstein case. The release has sparked mixed reactions among conservatives, with some criticizing the redactions for obscuring information about politically exposed individuals, including Donald Trump and other Republicans. Representative Thomas Massie suggested that the redactions violate the law and hinted at potential impeachment proceedings against Bondi. The release includes images of high-profile figures like Bill Clinton, which some rightwing commentators have used to attack Democrats.",
+      "why_relevant": "The release and redaction of these documents raise significant questions about transparency and the potential political motivations behind the redactions, impacting public trust in the justice system.",
+      "attacks": [
+        "justice_dept",
+        "transparency",
+        "truth"
+      ],
+      "_origin_file": "guardian_events_2025-12-20_2025-12-26.json",
+      "_origin_index": 25
+    },
+    {
+      "source_key": "guardian",
+      "date": "2025-12-20",
+      "category": "Judicial Developments",
+      "title": "US Justice Department Releases Redacted Epstein Files",
+      "url": "https://www.theguardian.com/us-news/2025/dec/19/jeffrey-epstein-files-us-justice-department",
+      "summary": "On Friday, the US Department of Justice released a heavily redacted set of documents related to its investigations into Jeffrey Epstein, a convicted sex offender. This release is part of the requirements under the Epstein Files Transparency Act, which mandates the release of unclassified materials related to Epstein's cases. The documents include images of Epstein with various prominent figures and evidence gathered during investigations. Congressional Democrats have criticized the Trump administration for not fully complying with the law, citing unexplained redactions and incomplete document releases.",
+      "why_relevant": "The release of these documents is significant for transparency and accountability in the investigation of high-profile criminal cases involving powerful individuals.",
+      "attacks": [
+        "justice_dept",
+        "transparency"
+      ],
+      "_origin_file": "guardian_events_2025-12-20_2025-12-26.json",
+      "_origin_index": 36
+    },
+    {
+      "source_key": "hcr",
+      "date": "2025-12-20",
+      "category": "Judicial Developments",
+      "title": "Jack Smith requests public release of testimony",
+      "url": "https://heathercoxrichardson.substack.com/p/december-19-2025",
+      "summary": "Former special counsel Jack Smith requested that the House Judiciary Committee release his testimony regarding Trump's involvement in the attempt to overturn the 2020 presidential election to the public, asserting that the American people should be informed of the facts.",
+      "why_relevant": "Smith's request emphasizes the importance of transparency and accountability in the ongoing investigations into Trump's actions.",
+      "attacks": [],
+      "_origin_file": "hcr_events_2025-12-20_2025-12-26.json",
+      "_origin_index": 21
+    },
+    {
+      "source_key": "hcr",
+      "date": "2025-12-20",
+      "category": "Judicial Developments",
+      "title": "Jack Smith testifies before House Judiciary Committee",
+      "url": "https://heathercoxrichardson.substack.com/p/december-19-2025",
+      "summary": "Former special counsel Jack Smith testified before the House Judiciary Committee, stating that he and his team found \"proof beyond a reasonable doubt\" that Trump engaged in a criminal scheme to overturn the 2020 presidential election. His request for public testimony was denied by the committee chair.",
+      "why_relevant": "Smith's testimony highlights ongoing investigations into Trump's actions surrounding the 2020 election and the implications for accountability in governance.",
+      "attacks": [
+        "rule_of_law"
+      ],
+      "_origin_file": "hcr_events_2025-12-20_2025-12-26.json",
+      "_origin_index": 16
+    },
+    {
+      "source_key": "guardian",
+      "date": "2025-12-20",
+      "category": "Civil Society & Protest",
+      "title": "Public art project protests ICE raids in Los Angeles",
+      "url": "https://www.theguardian.com/us-news/2025/dec/20/los-angeles-public-art-trump-ice-raids",
+      "summary": "A public art project titled \"Am I Next?\" has been launched in Los Angeles, featuring billboard-sized portraits projected onto buildings to protest federal immigration raids. The project, initiated by the California Community Foundation, LA Plaza Cultura y Artes, and the Japanese American National Museum, aims to highlight the fear and trauma experienced by residents due to the Trump administration's immigration enforcement tactics. The art includes images of Angelenos and stories of individuals detained by federal agents, raising awareness about the impact on civil liberties and constitutional rights.",
+      "why_relevant": "This project underscores the ongoing debate over immigration enforcement and its implications for civil liberties and constitutional rights in the United States.",
+      "attacks": [
+        "immigrants_refugees",
+        "constitution",
+        "rule_of_law"
+      ],
+      "_origin_file": "guardian_events_2025-12-20_2025-12-26.json",
+      "_origin_index": 26
+    },
+    {
+      "source_key": "hcr",
+      "date": "2025-12-20",
+      "category": "Civil Society & Protest",
+      "title": "Mass shooting at Bondi Beach",
+      "url": "https://heathercoxrichardson.substack.com/p/december-19-2025",
+      "summary": "A mass shooting took place at Bondi Beach in Sydney, Australia, during a Hanukkah celebration, leading to the deaths of 15 people and injuring 40 others. This tragic event further emphasizes the global issue of gun violence and its impact on communities.",
+      "why_relevant": "The incident reflects the international dimensions of gun violence and the challenges faced by societies in ensuring public safety during communal celebrations.",
+      "attacks": [],
+      "_origin_file": "hcr_events_2025-12-20_2025-12-26.json",
+      "_origin_index": 13
+    },
+    {
+      "source_key": "hcr",
+      "date": "2025-12-20",
+      "category": "Civil Society & Protest",
+      "title": "Mass shooting at Brown University",
+      "url": "https://heathercoxrichardson.substack.com/p/december-19-2025",
+      "summary": "A mass shooting occurred at Brown University in Providence, Rhode Island, resulting in the deaths of two individuals and injuries to nine others. This incident drew significant media attention and highlighted ongoing issues of gun violence in the United States.",
+      "why_relevant": "The event underscores the persistent problem of gun violence in America and its implications for public safety and civil society.",
+      "attacks": [],
+      "_origin_file": "hcr_events_2025-12-20_2025-12-26.json",
+      "_origin_index": 12
+    },
+    {
+      "source_key": "hcr",
+      "date": "2025-12-20",
+      "category": "Information & Media Control",
+      "title": "Trump comments on Rob Reiner's death",
+      "url": "https://heathercoxrichardson.substack.com/p/december-19-2025",
+      "summary": "President Donald Trump made a social media post suggesting that the deaths of filmmaker Rob Reiner and his wife were a result of Reiner's political opposition to him. This statement drew immediate backlash from both sides of the political aisle.",
+      "why_relevant": "Trump's comments illustrate the politicization of personal tragedies and the impact of political rhetoric on public discourse.",
+      "attacks": [
+        "truth"
+      ],
+      "_origin_file": "hcr_events_2025-12-20_2025-12-26.json",
+      "_origin_index": 14
+    },
+    {
+      "source_key": "hcr",
+      "date": "2025-12-20",
+      "category": "Information & Media Control",
+      "title": "Trump delivers speech on the economy",
+      "url": "https://heathercoxrichardson.substack.com/p/december-19-2025",
+      "summary": "President Trump delivered a speech addressing the economy, which was criticized for containing numerous false claims. Analysts noted the speech reflected Trump's panic over declining public approval ratings and his attempts to shift blame for economic issues.",
+      "why_relevant": "The speech exemplifies the challenges of political communication in the face of public dissatisfaction and the role of misinformation in shaping perceptions of governance.",
+      "attacks": [
+        "truth"
+      ],
+      "_origin_file": "hcr_events_2025-12-20_2025-12-26.json",
+      "_origin_index": 17
+    },
+    {
+      "source_key": "guardian",
+      "date": "2025-12-20",
+      "category": "Economic & Regulatory Power",
+      "title": "Dollar General agrees to $15m settlement over price-gouging claims",
+      "url": "https://www.theguardian.com/us-news/2025/dec/20/dollar-general-settlement-price-gouging",
+      "summary": "Dollar General has agreed to pay at least $15 million to settle lawsuits alleging that it overcharged customers by not honoring shelf prices at its stores across the United States. The settlement, which resolves claims in multiple states, allows customers nationwide to claim repayments if they can document overcharges. The company has denied wrongdoing but agreed to the settlement to avoid further litigation. Additionally, Dollar General will hire employees to monitor pricing and conduct external price audits to prevent future discrepancies.",
+      "why_relevant": "This settlement addresses corporate accountability and consumer protection, ensuring fair pricing practices in retail.",
+      "attacks": [
+        "poor"
+      ],
+      "_origin_file": "guardian_events_2025-12-20_2025-12-26.json",
+      "_origin_index": 27
+    },
+    {
+      "source_key": "hcr",
+      "date": "2025-12-20",
+      "category": "Transparency & Records",
+      "title": "DOJ fails to comply with Epstein Files Transparency Act",
+      "url": "https://heathercoxrichardson.substack.com/p/december-19-2025",
+      "summary": "The Department of Justice announced it would only release some of the files required by the Epstein Files Transparency Act, and the released documents were heavily redacted, undermining the law's intent. Reports indicated that the redactions favored highlighting Democrats over Trump.",
+      "why_relevant": "The DOJ's actions raise significant concerns about compliance with transparency laws and the integrity of information released to the public.",
+      "attacks": [
+        "truth"
+      ],
+      "_origin_file": "hcr_events_2025-12-20_2025-12-26.json",
+      "_origin_index": 22
+    },
+    {
+      "source_key": "hcr",
+      "date": "2025-12-20",
+      "category": "Transparency & Records",
+      "title": "Kennedy Center renamed to Trump-Kennedy Center",
+      "url": "https://heathercoxrichardson.substack.com/p/december-19-2025",
+      "summary": "The board of the Kennedy Center, largely appointed by Trump, voted to rename the center to the \"Trump-Kennedy Center.\" However, Representative Joyce Beatty claimed the vote was not unanimous, as she was muted and unable to participate, and the name change is considered illegal without Congressional approval.",
+      "why_relevant": "The controversy surrounding the name change highlights issues of governance, accountability, and the legality of actions taken by appointed boards.",
+      "attacks": [
+        "rule_of_law"
+      ],
+      "_origin_file": "hcr_events_2025-12-20_2025-12-26.json",
+      "_origin_index": 19
+    },
+    {
+      "source_key": "zeteo",
+      "date": "2025-12-20",
+      "category": "Transparency & Records",
+      "title": "DOJ Removes Epstein-Related Files",
+      "url": "https://zeteo.com/p/this-week-in-democracy-week-49-the",
+      "summary": "The Justice Department removed at least 16 Epstein-related files from its website, including a photo of Trump with Epstein and Maxwell. The DOJ later reposted the image after a review. This action raises concerns about transparency and the handling of sensitive information related to high-profile individuals.",
+      "why_relevant": "The removal and subsequent reposting of files highlight issues of transparency and potential censorship in handling politically sensitive information.",
+      "attacks": [
+        "information",
+        "press"
+      ],
+      "_origin_file": "zeteo_events_2025-12-20_2025-12-26.json",
+      "_origin_index": 1
+    },
+    {
+      "source_key": "guardian",
+      "date": "2025-12-20",
+      "category": "International Relations",
+      "title": "Trump signs law repealing economic sanctions on Syria",
+      "url": "https://www.theguardian.com/us-news/2025/dec/19/us-military-syria-airstrikes-trump",
+      "summary": "On Thursday, President Trump signed a law repealing the last set of economic sanctions on Syria, which were initially imposed to penalize the Assad regime for human rights abuses during the civil war. The sanctions were lifted following the ousting of Bashar al-Assad in December 2024. The repeal is part of a broader effort to support Syria's new government, which includes former rebels and members of Syria's former Al-Qaida branch, in their fight against Islamic State.",
+      "why_relevant": "The repeal of sanctions marks a significant shift in US foreign policy towards Syria, potentially affecting diplomatic relations and regional dynamics.",
+      "attacks": [],
+      "_origin_file": "guardian_events_2025-12-20_2025-12-26.json",
+      "_origin_index": 34
+    },
+    {
+      "source_key": "zeteo",
+      "date": "2025-12-20",
+      "category": "International Relations",
+      "title": "US Coast Guard Seizes Venezuelan Oil Tanker",
+      "url": "https://zeteo.com/p/this-week-in-democracy-week-49-the",
+      "summary": "Homeland Security Secretary Kristi Noem shared footage of the US Coast Guard and Defense Department seizing an oil tanker last docked in Venezuela. The US claims the tanker was involved in the illicit movement of sanctioned oil funding narco-terrorism. Venezuela condemned the action as theft and hijacking, accusing the US of forcibly disappearing the crew. This incident highlights ongoing tensions between the US and Venezuela over sanctions and maritime enforcement.",
+      "why_relevant": "The seizure of the tanker escalates US-Venezuela tensions and raises questions about international maritime law and sovereignty.",
+      "attacks": [
+        "global_democracy",
+        "trade"
+      ],
+      "_origin_file": "zeteo_events_2025-12-20_2025-12-26.json",
+      "_origin_index": 0
+    },
+    {
+      "source_key": "guardian",
+      "date": "2025-12-20",
+      "category": "Civil–Military Relations & State Violence",
+      "title": "US launches airstrikes against Islamic State targets in Syria",
+      "url": "https://www.theguardian.com/us-news/2025/dec/19/us-military-syria-airstrikes-trump",
+      "summary": "On Friday, the US military conducted airstrikes against over 70 Islamic State targets in Syria, following an attack that killed two US soldiers and an interpreter. The operation, supported by Jordanian fighter jets, was described as a large-scale response coordinated with the Syrian government. The strikes targeted ISIS fighters, infrastructure, and weapons sites as part of \"OPERATION HAWKEYE STRIKE.\" The US defense secretary indicated that further attacks against IS could continue, emphasizing the US's commitment to defending its personnel and interests in the region.",
+      "why_relevant": "This military action demonstrates the US's ongoing involvement in Middle Eastern conflicts and its impact on international relations and regional stability.",
+      "attacks": [
+        "peace"
+      ],
+      "_origin_file": "guardian_events_2025-12-20_2025-12-26.json",
+      "_origin_index": 33
+    },
+    {
+      "source_key": "hcr",
+      "date": "2025-12-20",
+      "category": "Civil–Military Relations & State Violence",
+      "title": "U.S. launches attack on Islamic State targets in Syria",
+      "url": "https://heathercoxrichardson.substack.com/p/december-19-2025",
+      "summary": "The U.S. military launched a significant attack on over 70 suspected Islamic State targets in central Syria, described by Defense Secretary Hegseth as a \"declaration of vengeance\" following the deaths of two U.S. Army soldiers and an interpreter.",
+      "why_relevant": "The military action underscores the ongoing conflict with ISIS and the implications for U.S. foreign policy and military engagement in the region.",
+      "attacks": [],
+      "_origin_file": "hcr_events_2025-12-20_2025-12-26.json",
+      "_origin_index": 23
+    },
+    {
+      "source_key": "50501",
+      "date": "2025-12-21",
+      "category": "Executive Actions & Orders",
+      "title": "Department of the Interior suspends offshore wind projects",
+      "url": "https://www.doi.gov/press-release",
+      "summary": "The Department of the Interior announced the suspension of five offshore wind projects, citing national security concerns. The decision affects billions in investments and thousands of jobs, with the projects intended to provide electricity to millions of households. The justification referenced the \"Department of War,\" a defunct entity, raising questions about the validity of the reasoning. A federal judge had previously ruled a related suspension effort as \"arbitrary and capricious.\"",
+      "why_relevant": "The suspension impacts renewable energy development and raises concerns about the use of outdated justifications for policy decisions.",
+      "attacks": [
+        "environment",
+        "economy",
+        "truth"
+      ],
+      "_origin_file": "50501_events_2025-12-20_2025-12-26.json",
+      "_origin_index": 6
+    },
+    {
+      "source_key": "hcr",
+      "date": "2025-12-21",
+      "category": "Executive Actions & Orders",
+      "title": "Department of Justice began releasing Epstein-related materials",
+      "url": "https://apnews.com/article/release-epstein-files-justice-department-trump-9290fcaad1cb6fcb1cbc1befabc01994",
+      "summary": "On December 19, 2025, the Department of Justice began releasing materials required by the Epstein Files Transparency Act. However, the department only released a fraction of the required documents, omitting key materials such as FBI interviews with survivors and internal memos regarding charging decisions.",
+      "why_relevant": "The incomplete release of documents raises concerns about compliance with the law and transparency in government operations.",
+      "attacks": [
+        "truth",
+        "justice_dept"
+      ],
+      "_origin_file": "hcr_events_2025-12-20_2025-12-26.json",
+      "_origin_index": 7
+    },
+    {
+      "source_key": "guardian",
+      "date": "2025-12-21",
+      "category": "Legislative & Oversight Activity",
+      "title": "DOJ Fails to Comply with Epstein Files Law",
+      "url": "https://www.theguardian.com/us-news/2025/dec/21/epstein-files-doj-congress",
+      "summary": "The Department of Justice, under Attorney General Pam Bondi, failed to release all documents related to Jeffrey Epstein as required by law. This non-compliance has led to threats of legal action from Congress members, including potential contempt charges and impeachment proceedings against Bondi and her deputy, Todd Blanche. The DOJ's partial release of documents was justified by Blanche as necessary to protect victims' identities. The controversy has sparked bipartisan criticism, with some lawmakers exploring options for holding DOJ officials accountable.",
+      "why_relevant": "This event highlights a significant challenge to congressional oversight and the enforcement of transparency laws, raising questions about accountability within the Department of Justice.",
+      "attacks": [
+        "justice_dept",
+        "transparency",
+        "congress"
+      ],
+      "_origin_file": "guardian_events_2025-12-20_2025-12-26.json",
+      "_origin_index": 20
+    },
+    {
+      "source_key": "hcr",
+      "date": "2025-12-21",
+      "category": "Legislative & Oversight Activity",
+      "title": "Congress passed the Epstein Files Transparency Act",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/4405/text",
+      "summary": "On November 19, 2025, Congress passed H.R. 4405, the Epstein Files Transparency Act, which mandates the Department of Justice to release all documents related to Jeffrey Epstein within 30 days. President Donald Trump signed the bill into law on the same day. The law requires the release of various records, including communications and investigative materials, while allowing limited withholding of classified information or personal data. The deadline for the release of these materials was December 19, 2025.",
+      "why_relevant": "This act aims to enhance transparency regarding the investigations into Jeffrey Epstein's activities, which is significant for accountability in governance.",
+      "attacks": [],
+      "_origin_file": "hcr_events_2025-12-20_2025-12-26.json",
+      "_origin_index": 6
+    },
+    {
+      "source_key": "hcr",
+      "date": "2025-12-21",
+      "category": "Legislative & Oversight Activity",
+      "title": "Congressional Democrats criticize DOJ for non-compliance",
+      "url": "https://oversightdemocrats.house.gov/news/press-releases/joint-statement-ranking-members-robert-garcia-and-jamie-raskin-trump",
+      "summary": "Democratic lawmakers, including Representatives Robert Garcia and Jamie Raskin, issued a statement condemning the Department of Justice for failing to meet the deadline for releasing the Epstein files as required by law. They accused the DOJ of violating federal law and covering up evidence related to Epstein's activities.",
+      "why_relevant": "This criticism highlights the ongoing tensions between Congress and the executive branch regarding compliance with legal mandates and accountability.",
+      "attacks": [
+        "justice_dept",
+        "congress"
+      ],
+      "_origin_file": "hcr_events_2025-12-20_2025-12-26.json",
+      "_origin_index": 11
+    },
+    {
+      "source_key": "guardian",
+      "date": "2025-12-21",
+      "category": "Law Enforcement & Surveillance",
+      "title": "FBI failed to investigate Epstein report in 1996",
+      "url": "https://www.theguardian.com/us-news/2025/dec/21/epstein-fbi-maria-farmer-annie-farmer",
+      "summary": "In 1996, Maria Farmer reported to the FBI that Jeffrey Epstein had stolen nude images of her siblings and threatened her, but the FBI did not investigate the report. This inaction allowed Epstein to continue abusing girls for years. The report, which was only recently disclosed, highlights the failure of authorities to act on Farmer's allegations, which could have prevented further abuse of over 1,000 victims. The FBI has not commented on the matter, and the release of the report has prompted calls for more transparency regarding Epstein's connections with the government.",
+      "why_relevant": "The failure to investigate credible allegations against Epstein reflects systemic issues within law enforcement that allowed continued abuse and raises questions about accountability and transparency.",
+      "attacks": [
+        "justice_dept",
+        "truth",
+        "information"
+      ],
+      "_origin_file": "guardian_events_2025-12-20_2025-12-26.json",
+      "_origin_index": 22
+    },
+    {
+      "source_key": "guardian",
+      "date": "2025-12-21",
+      "category": "Law Enforcement & Surveillance",
+      "title": "ICE Detains Louisiana Nursing Graduate",
+      "url": "https://www.theguardian.com/us-news/2025/dec/21/louisiana-nursing-student-ice-detention",
+      "summary": "Vilma Palacios, a 22-year-old recent graduate from Louisiana State University's nursing school, has been detained by ICE at a processing center in Basile, Louisiana, for six months. She was arrested on June 26, 2025, while attempting to obtain a vehicle inspection sticker. Palacios, who has no criminal record, had applied for asylum as a child and was awaiting a decision on her immigration case. Her detention is part of a broader immigration crackdown under the Trump administration. Palacios has reported poor conditions at the facility, including lack of access to basic hygiene items.",
+      "why_relevant": "This event highlights the impact of immigration enforcement policies on individuals seeking legal residency and the conditions within detention facilities.",
+      "attacks": [
+        "immigrants_refugees",
+        "public_health"
+      ],
+      "_origin_file": "guardian_events_2025-12-20_2025-12-26.json",
+      "_origin_index": 17
+    },
+    {
+      "source_key": "guardian",
+      "date": "2025-12-21",
+      "category": "Civil Society & Protest",
+      "title": "Power Outage Disrupts San Francisco and Waymo Services",
+      "url": "https://www.theguardian.com/us-news/2025/dec/21/power-outages-san-francisco-traffic-waymo-taxis-traffic",
+      "summary": "On December 20, 2025, a significant power outage affected approximately 130,000 Pacific Gas & Electric Company customers in San Francisco, California. The blackout led to traffic signal failures, causing disruptions in citywide traffic and halting Waymo's autonomous taxi services. Waymo confirmed the suspension of its driverless ride-hailing service due to the outage, which left their vehicles immobilized in streets and intersections. Mayor Daniel Lurie advised residents to stay off the roads, and police were dispatched to manage traffic at major intersections.",
+      "why_relevant": "The event highlights the vulnerability of urban infrastructure and autonomous vehicle operations to power grid failures, impacting public safety and mobility.",
+      "attacks": [],
+      "_origin_file": "guardian_events_2025-12-20_2025-12-26.json",
+      "_origin_index": 21
+    },
+    {
+      "source_key": "guardian",
+      "date": "2025-12-21",
+      "category": "Civil Society & Protest",
+      "title": "Vice-President JD Vance closes out AmericaFest at Turning Point USA summit",
+      "url": "https://www.theguardian.com/us-news/2025/dec/21/maga-stars-turning-point-conference",
+      "summary": "Vice-President JD Vance delivered the closing speech at AmericaFest, the first Turning Point USA summit since the assassination of its leader, Charlie Kirk. The event, held in Phoenix, Arizona, was marked by infighting among prominent conservative figures, including Tucker Carlson and Ben Shapiro, over the direction of the movement. Vance spoke against \"purity tests\" within the conservative movement and emphasized the importance of open discussion over exclusion. The summit highlighted divisions within the right, particularly regarding figures like Nick Fuentes and issues such as the war in Israel.",
+      "why_relevant": "The event underscores the internal conflicts and ideological divisions within the conservative movement, which could impact its cohesion and influence in U.S. politics.",
+      "attacks": [],
+      "_origin_file": "guardian_events_2025-12-20_2025-12-26.json",
+      "_origin_index": 19
+    },
+    {
+      "source_key": "zeteo",
+      "date": "2025-12-21",
+      "category": "Information & Media Control",
+      "title": "CBS News Pulls Segment on Immigrant Transfers",
+      "url": "https://zeteo.com/p/this-week-in-democracy-week-49-the",
+      "summary": "CBS News editor-in-chief Bari Weiss pulled a '60 Minutes' segment on the Trump administration's transfer of immigrants to El Salvador's megaprison, CECOT. The segment was pulled despite reports of inhumane conditions and violations of court orders. This decision raises concerns about media control and censorship.",
+      "why_relevant": "The removal of the segment suggests potential media censorship and control over reporting on human rights abuses.",
+      "attacks": [
+        "press",
+        "information"
+      ],
+      "_origin_file": "zeteo_events_2025-12-20_2025-12-26.json",
+      "_origin_index": 2
+    },
+    {
+      "source_key": "guardian",
+      "date": "2025-12-21",
+      "category": "Transparency & Records",
+      "title": "US Justice Department Restores Photo Featuring Trump from Epstein Files",
+      "url": "https://www.theguardian.com/us-news/2025/dec/21/epstein-files-photos-removed",
+      "summary": "The US Justice Department restored a photo featuring Donald Trump from the public release of investigative files related to Jeffrey Epstein. The image was initially removed due to concerns it might expose victims of Epstein, but after review, it was determined that no victims were depicted. The removal and subsequent restoration of the photo sparked accusations of political interference, with Democrats criticizing the handling of the document release and calling for transparency. The Justice Department stated that the review process was to ensure victim protection, and further redactions may occur as needed.",
+      "why_relevant": "The event highlights issues of transparency and potential political interference in the handling of sensitive investigative files, impacting public trust in government processes.",
+      "attacks": [
+        "transparency",
+        "truth"
+      ],
+      "_origin_file": "guardian_events_2025-12-20_2025-12-26.json",
+      "_origin_index": 18
+    },
+    {
+      "source_key": "hcr",
+      "date": "2025-12-21",
+      "category": "Transparency & Records",
+      "title": "Missing files from Epstein release noted",
+      "url": "https://www.democracydocket.com/news-alerts/doj-remove-trump-photo-epstein-files-release/",
+      "summary": "Reports indicated that at least 16 files initially posted on the Justice Department's public website had disappeared without explanation, including one that contained photographs of Trump with Epstein.",
+      "why_relevant": "The disappearance of these files further complicates the transparency efforts mandated by the Epstein Files Transparency Act and raises concerns about accountability.",
+      "attacks": [
+        "truth",
+        "justice_dept"
+      ],
+      "_origin_file": "hcr_events_2025-12-20_2025-12-26.json",
+      "_origin_index": 10
+    },
+    {
+      "source_key": "hcr",
+      "date": "2025-12-21",
+      "category": "Transparency & Records",
+      "title": "Redactions in released Epstein files criticized",
+      "url": "https://www.wired.com/story/epstein-files-whats-in-doj-release-december-19/",
+      "summary": "Following the release of Epstein-related materials by the Department of Justice, significant portions of the documents were heavily redacted. CNN's Jake Tapper highlighted the lack of transparency by displaying a fully blacked-out document.",
+      "why_relevant": "The extensive redactions undermine the intent of the Epstein Files Transparency Act, which seeks to provide public access to critical information.",
+      "attacks": [
+        "truth"
+      ],
+      "_origin_file": "hcr_events_2025-12-20_2025-12-26.json",
+      "_origin_index": 8
+    },
+    {
+      "source_key": "hcr",
+      "date": "2025-12-21",
+      "category": "Transparency & Records",
+      "title": "Unrelated materials inserted into Epstein files release",
+      "url": "https://www.democracydocket.com/news-alerts/doj-remove-trump-photo-epstein-files-release/",
+      "summary": "Observers noted that the Department of Justice included unrelated materials in the released Epstein files, such as a photo of Bill Clinton with children, which was misrepresented as being associated with Epstein. The image was identified as publicly available from a 2003 fundraiser, not related to Epstein's activities.",
+      "why_relevant": "The inclusion of unrelated materials raises questions about the integrity of the document release process and the Department of Justice's commitment to transparency.",
+      "attacks": [
+        "truth"
+      ],
+      "_origin_file": "hcr_events_2025-12-20_2025-12-26.json",
+      "_origin_index": 9
+    },
+    {
+      "source_key": "zeteo",
+      "date": "2025-12-21",
+      "category": "International Relations",
+      "title": "Trump Appoints Special Envoy to Greenland",
+      "url": "https://zeteo.com/p/this-week-in-democracy-week-49-the",
+      "summary": "Trump appointed Louisiana Governor Jeff Landry as the first-ever US special envoy to Greenland, citing national security interests. Denmark and Greenland responded, stating that the US cannot annex other countries. This appointment raises concerns about US intentions and international diplomacy.",
+      "why_relevant": "The appointment of a special envoy to Greenland raises diplomatic tensions and questions about US territorial ambitions.",
+      "attacks": [
+        "global_democracy",
+        "diplomacy"
+      ],
+      "_origin_file": "zeteo_events_2025-12-20_2025-12-26.json",
+      "_origin_index": 4
+    },
+    {
+      "source_key": "zeteo",
+      "date": "2025-12-21",
+      "category": "International Relations",
+      "title": "US Coast Guard Pursues Another Venezuelan Oil Tanker",
+      "url": "https://zeteo.com/p/this-week-in-democracy-week-49-the",
+      "summary": "The US Coast Guard pursued another oil tanker in the Caribbean, described as part of Venezuela's illegal sanctions evasion. This pursuit is part of ongoing US efforts to enforce sanctions against Venezuela, raising questions about international maritime enforcement and sovereignty.",
+      "why_relevant": "The pursuit of the tanker underscores ongoing US enforcement of sanctions and its impact on international relations.",
+      "attacks": [
+        "global_democracy",
+        "trade"
+      ],
+      "_origin_file": "zeteo_events_2025-12-20_2025-12-26.json",
+      "_origin_index": 3
+    },
+    {
+      "source_key": "50501",
+      "date": "2025-12-22",
+      "category": "Executive Actions & Orders",
+      "title": "Expansion of Immigration Enforcement Infrastructure",
+      "url": "https://www.the50501movement.org/p/we-didnt-pause-we-positioned",
+      "summary": "The administration announced a $170 billion expansion of immigration enforcement infrastructure set to begin in January. This expansion includes the construction of detention facilities, increased capacity for workplace raids, and enhanced deportation processing, marking a significant escalation in immigration enforcement efforts.",
+      "why_relevant": "This expansion represents a major shift in immigration policy, with potential implications for civil liberties and human rights.",
+      "attacks": [
+        "immigrants_refugees"
+      ],
+      "_origin_file": "50501_events_2025-12-20_2025-12-26.json",
+      "_origin_index": 2
+    },
+    {
+      "source_key": "federalregister",
+      "date": "2025-12-22",
+      "category": "Executive Actions & Orders",
+      "title": "Renewal of World Radiocommunication Conference Advisory Committee Charter",
+      "url": "https://www.federalregister.gov/documents/2025/12/22/2025-23557/federal-advisory-committee-world-radiocommunication-conference-advisory-committee",
+      "summary": "The Federal Communications Commission (FCC) announced the renewal of the charter for the World Radiocommunication Conference Advisory Committee. The renewal, effective January 31, 2026, extends the committee's advisory role for two years under the Federal Advisory Committee Act. The committee will provide recommendations for the International Telecommunication Union's World Radiocommunication Conferences, ensuring open and transparent operations.",
+      "why_relevant": "This renewal supports international telecommunications policy development, impacting global communication standards and practices.",
+      "attacks": [],
+      "_origin_file": "federalregister_events_2025-12-20_2025-12-26.json",
+      "_origin_index": 13
+    },
+    {
+      "source_key": "meidas",
+      "date": "2025-12-22",
+      "category": "Executive Actions & Orders",
+      "title": "Transportation Secretary Threatens States Over Driver's Licenses for Non-Citizens",
+      "url": "https://www.meidasplus.com/p/today-in-politics-bulletin-277-122325",
+      "summary": "Transportation Secretary Sean Duffy threatened to withhold federal funding from states issuing driver's licenses to non-citizens. Duffy claimed he could leverage federal funds to influence state policies, despite legal challenges to such actions. This stance has been contested in court, with previous cases ruling against similar federal overreach.",
+      "why_relevant": "The threat to withhold federal funds raises concerns about federal overreach and the use of financial leverage to influence state policies.",
+      "attacks": [
+        "separation_of_powers",
+        "immigrants_refugees"
+      ],
+      "_origin_file": "meidas_events_2025-12-20_2025-12-26.json",
+      "_origin_index": 19
+    },
+    {
+      "source_key": "zeteo",
+      "date": "2025-12-22",
+      "category": "Executive Actions & Orders",
+      "title": "VA Ends Abortion Services",
+      "url": "https://zeteo.com/p/this-week-in-democracy-week-49-the",
+      "summary": "The Department of Veterans Affairs issued a memo ending abortion and abortion counseling services, allowing employees to opt out of providing care based on moral or religious beliefs. This policy change affects veterans' access to reproductive health services.",
+      "why_relevant": "The policy change impacts veterans' access to reproductive health services and reflects broader debates on healthcare rights.",
+      "attacks": [
+        "women",
+        "veterans"
+      ],
+      "_origin_file": "zeteo_events_2025-12-20_2025-12-26.json",
+      "_origin_index": 14
+    },
+    {
+      "source_key": "guardian",
+      "date": "2025-12-22",
+      "category": "Legislative & Oversight Activity",
+      "title": "Schumer to Introduce Senate Resolution for Legal Action Over Epstein Files",
+      "url": "https://www.theguardian.com/us-news/2025/dec/22/schumer-doj-epstein-senate-legal-action",
+      "summary": "Senate Democratic leader Chuck Schumer announced plans to introduce a resolution directing the Senate to initiate legal action against the Department of Justice (DoJ) for not fully releasing files related to Jeffrey Epstein, as required by the Epstein Files Transparency Act. The act, signed into law by President Trump, mandated the release of all documents by December 19, but the DoJ only partially complied. If passed, the resolution would authorize the Senate to file a lawsuit to compel the DoJ to release the complete set of documents.",
+      "why_relevant": "This action underscores the Senate's role in enforcing transparency and accountability within the executive branch, highlighting the checks and balances essential to democratic governance.",
+      "attacks": [
+        "justice_dept",
+        "transparency",
+        "rule_of_law"
+      ],
+      "_origin_file": "guardian_events_2025-12-20_2025-12-26.json",
+      "_origin_index": 14
+    },
+    {
+      "source_key": "zeteo",
+      "date": "2025-12-22",
+      "category": "Legislative & Oversight Activity",
+      "title": "Lawmakers Demand Investigation into Caribbean Strike",
+      "url": "https://zeteo.com/p/this-week-in-democracy-week-49-the",
+      "summary": "Reps. Jamie Raskin and Ted Lieu sent a letter to the DOJ demanding an investigation into a double-tap strike in the Caribbean, arguing it constituted a war crime or premeditated murder. The letter emphasizes the need for accountability in military operations.",
+      "why_relevant": "The demand for investigation underscores the importance of oversight and accountability in military actions.",
+      "attacks": [
+        "congress",
+        "military"
+      ],
+      "_origin_file": "zeteo_events_2025-12-20_2025-12-26.json",
+      "_origin_index": 13
+    },
+    {
+      "source_key": "meidas",
+      "date": "2025-12-22",
+      "category": "Judicial Developments",
+      "title": "Supreme Court Blocks Trump's National Guard Deployment",
+      "url": "https://www.meidasplus.com/p/today-in-politics-bulletin-277-122325",
+      "summary": "The Supreme Court ruled against former President Trump's deployment of the National Guard to assist with immigration enforcement in Illinois. The Court found that the law limits the use of the National Guard to situations where regular military forces are insufficient, which was not the case here. The decision was a setback for Trump's administration, which had sought to use the Guard for immigration control, and was seen as a check on executive overreach.",
+      "why_relevant": "This ruling reinforces the limits of executive power and upholds the legal framework governing military deployment.",
+      "attacks": [
+        "separation_of_powers",
+        "rule_of_law"
+      ],
+      "_origin_file": "meidas_events_2025-12-20_2025-12-26.json",
+      "_origin_index": 17
+    },
+    {
+      "source_key": "noah",
+      "date": "2025-12-22",
+      "category": "Judicial Developments",
+      "title": "Call for Public Enforcement of Anti-Discrimination Laws",
+      "url": "https://www.noahpinion.blog/p/america-has-to-feel-fair",
+      "summary": "There is a call for aggressive and public enforcement of anti-discrimination laws to restore trust in the fairness of American institutions. High-profile legal victories are seen as a way to signal the system's disapproval of unfairness and to prevent racial bloc politics from taking hold in the U.S.",
+      "why_relevant": "Public enforcement of anti-discrimination laws is crucial for maintaining trust in democratic institutions and preventing societal division based on racial group interests.",
+      "attacks": [],
+      "_origin_file": "noah_events_2025-12-20_2025-12-26.json",
+      "_origin_index": 10
+    },
+    {
+      "source_key": "noah",
+      "date": "2025-12-22",
+      "category": "Judicial Developments",
+      "title": "Enforcement Challenges of Anti-Discrimination Laws",
+      "url": "https://www.noahpinion.blog/p/america-has-to-feel-fair",
+      "summary": "Despite the existence of anti-discrimination laws, enforcement remains challenging due to high burdens of proof and the risk of personal stigmatization for plaintiffs. This difficulty in enforcement means that many institutions may escape penalties for discriminatory practices, highlighting a gap between legal standards and practical outcomes.",
+      "why_relevant": "The challenges in enforcing anti-discrimination laws underscore the need for effective legal mechanisms to ensure compliance and protect individuals from discrimination.",
+      "attacks": [],
+      "_origin_file": "noah_events_2025-12-20_2025-12-26.json",
+      "_origin_index": 9
+    },
+    {
+      "source_key": "noah",
+      "date": "2025-12-22",
+      "category": "Judicial Developments",
+      "title": "Supreme Court Ruling on Diversity in University Admissions",
+      "url": "https://www.noahpinion.blog/p/america-has-to-feel-fair",
+      "summary": "The Supreme Court recently ruled that diversity is not an acceptable reason for racial preferences in university admissions. This decision impacts how universities can consider race in their admissions processes, potentially affecting the demographic composition of student bodies and the legal framework for affirmative action policies.",
+      "why_relevant": "The ruling alters the legal landscape for affirmative action, influencing how universities implement diversity initiatives and comply with anti-discrimination laws.",
+      "attacks": [],
+      "_origin_file": "noah_events_2025-12-20_2025-12-26.json",
+      "_origin_index": 7
+    },
+    {
+      "source_key": "noah",
+      "date": "2025-12-22",
+      "category": "Judicial Developments",
+      "title": "U.S. Government Prosecutes Anti-White Discrimination Cases",
+      "url": "https://www.noahpinion.blog/p/america-has-to-feel-fair",
+      "summary": "The U.S. government has been actively prosecuting cases of discrimination against non-Hispanic White individuals under the Civil Rights Act of 1964. These cases are pursued annually, even under Democratic administrations, and the government often wins these cases. This enforcement highlights the legal protection against racial discrimination, including against White men, although such cases are challenging to win and require significant resources.",
+      "why_relevant": "This demonstrates the government's commitment to enforcing anti-discrimination laws, ensuring that all racial groups, including White men, are protected under civil rights legislation.",
+      "attacks": [],
+      "_origin_file": "noah_events_2025-12-20_2025-12-26.json",
+      "_origin_index": 6
+    },
+    {
+      "source_key": "zeteo",
+      "date": "2025-12-22",
+      "category": "Judicial Developments",
+      "title": "Brennan's Lawyer Accuses DOJ of Leaking Information",
+      "url": "https://zeteo.com/p/this-week-in-democracy-week-49-the",
+      "summary": "Former CIA Director John Brennan's lawyer accused the DOJ of leaking grand jury information and judge shopping to ensure favorable rulings for Trump. This accusation raises concerns about the integrity of legal proceedings and potential political interference.",
+      "why_relevant": "The accusation highlights concerns about the integrity of legal proceedings and potential political interference.",
+      "attacks": [
+        "justice_dept",
+        "courts"
+      ],
+      "_origin_file": "zeteo_events_2025-12-20_2025-12-26.json",
+      "_origin_index": 15
+    },
+    {
+      "source_key": "zeteo",
+      "date": "2025-12-22",
+      "category": "Judicial Developments",
+      "title": "DOJ Sues DC Over Gun Laws",
+      "url": "https://zeteo.com/p/this-week-in-democracy-week-49-the",
+      "summary": "The Justice Department sued DC and its Metropolitan Police Department, arguing that its gun laws banning AR-15 style weapons are unconstitutional and violate the Second Amendment. This lawsuit challenges local gun control measures and raises questions about federal versus local authority.",
+      "why_relevant": "The lawsuit challenges local gun control laws, highlighting tensions between federal and local governance on Second Amendment rights.",
+      "attacks": [
+        "constitution",
+        "rule_of_law"
+      ],
+      "_origin_file": "zeteo_events_2025-12-20_2025-12-26.json",
+      "_origin_index": 5
+    },
+    {
+      "source_key": "zeteo",
+      "date": "2025-12-22",
+      "category": "Judicial Developments",
+      "title": "Federal Judge Blocks ICE from Re-Detaining Immigrant",
+      "url": "https://zeteo.com/p/this-week-in-democracy-week-49-the",
+      "summary": "A federal judge ruled that ICE cannot re-detain Kilmar Abrego Garcia through the Christmas holiday, questioning the Trump administration's compliance with court orders. This ruling highlights ongoing legal battles over immigration enforcement and due process rights.",
+      "why_relevant": "The ruling underscores judicial checks on immigration enforcement and the protection of due process rights.",
+      "attacks": [],
+      "_origin_file": "zeteo_events_2025-12-20_2025-12-26.json",
+      "_origin_index": 6
+    },
+    {
+      "source_key": "zeteo",
+      "date": "2025-12-22",
+      "category": "Judicial Developments",
+      "title": "Judge Orders Return of Deported Venezuelans",
+      "url": "https://zeteo.com/p/this-week-in-democracy-week-49-the",
+      "summary": "Judge James Boasberg ordered the Trump administration to facilitate the return of 137 Venezuelan men deported to El Salvador's megaprison or allow them to challenge their removals in US courts. The deportations were deemed illegal and violated due process rights.",
+      "why_relevant": "The order highlights judicial intervention in immigration enforcement and the protection of due process rights.",
+      "attacks": [
+        "immigrants_refugees",
+        "rule_of_law"
+      ],
+      "_origin_file": "zeteo_events_2025-12-20_2025-12-26.json",
+      "_origin_index": 7
+    },
+    {
+      "source_key": "zeteo",
+      "date": "2025-12-22",
+      "category": "Judicial Developments",
+      "title": "Rep. Beatty Sues Over Kennedy Center Name Change",
+      "url": "https://zeteo.com/p/this-week-in-democracy-week-49-the",
+      "summary": "Rep. Joyce Beatty sued the Trump administration to block the Kennedy Center's name change, calling it a violation of the rule of law. The lawsuit challenges the administration's authority to alter the institution's name without proper legal process.",
+      "why_relevant": "The lawsuit challenges executive overreach and underscores the importance of legal processes in institutional changes.",
+      "attacks": [
+        "rule_of_law"
+      ],
+      "_origin_file": "zeteo_events_2025-12-20_2025-12-26.json",
+      "_origin_index": 10
+    },
+    {
+      "source_key": "50501",
+      "date": "2025-12-22",
+      "category": "Law Enforcement & Surveillance",
+      "title": "Trump Administration Announces $170 Billion Immigration Enforcement Expansion",
+      "url": "https://www.reuters.com/article/us-usa-immigration-enforcement-idUSKBN2JX0A2",
+      "summary": "The Trump administration announced a $170 billion plan to expand immigration enforcement starting in January 2026. The plan includes workplace raids, expanded detention facilities, and deportation processing infrastructure. This move has faced opposition from business groups, faith organizations, and civil rights advocates, who argue it represents a long-term shift in immigration policy.",
+      "why_relevant": "The expansion of immigration enforcement infrastructure represents a significant policy shift with potential long-term impacts on civil liberties and immigrant communities.",
+      "attacks": [
+        "immigrants_refugees",
+        "law_enforcement"
+      ],
+      "_origin_file": "50501_events_2025-12-20_2025-12-26.json",
+      "_origin_index": 15
+    },
+    {
+      "source_key": "guardian",
+      "date": "2025-12-22",
+      "category": "Law Enforcement & Surveillance",
+      "title": "FBI Reroutes Resources Away from Far-Right Extremism Investigations",
+      "url": "https://www.theguardian.com/us-news/2025/dec/22/neo-nazi-terror-the-base",
+      "summary": "The FBI, under the leadership of Kash Patel, has reportedly redirected its resources away from investigating far-right extremist groups, including the neo-Nazi group known as the Base. This shift in focus has occurred despite the Base's continued activities and expansion efforts in the United States and Europe. The group, led by Rinaldo Nazzaro, has been linked to acts of terrorism and has openly called for armed insurgency against the US government. The FBI's decision has raised concerns about the potential for increased domestic terrorism threats.",
+      "why_relevant": "The FBI's decision to deprioritize investigations into far-right extremism could undermine efforts to address domestic terrorism threats, impacting national security and public safety.",
+      "attacks": [
+        "law_enforcement",
+        "rule_of_law",
+        "public_service"
+      ],
+      "_origin_file": "guardian_events_2025-12-20_2025-12-26.json",
+      "_origin_index": 16
+    },
+    {
+      "source_key": "guardian",
+      "date": "2025-12-22",
+      "category": "Law Enforcement & Surveillance",
+      "title": "ICE Detention Numbers Reach Record High",
+      "url": "https://www.theguardian.com/us-news/2025/dec/22/ice-detentions-record-immigration",
+      "summary": "As of December 14, 2025, U.S. Immigration and Customs Enforcement (ICE) reported holding over 68,400 individuals in detention, marking a new record high. This surpasses the previous record set earlier in December. The data, published bi-weekly by ICE, highlights a significant increase in the number of people detained, arrested, and deported since January 2025, with over 328,000 arrests and nearly 327,000 deportations. Notably, a large portion of those detained are immigrants without criminal records, despite the administration's stated focus on targeting serious criminals.",
+      "why_relevant": "The record number of detentions reflects significant shifts in immigration enforcement policies, impacting civil liberties and the treatment of non-criminal immigrants.",
+      "attacks": [
+        "immigrants_refugees",
+        "rule_of_law"
+      ],
+      "_origin_file": "guardian_events_2025-12-20_2025-12-26.json",
+      "_origin_index": 15
+    },
+    {
+      "source_key": "50501",
+      "date": "2025-12-22",
+      "category": "Civil Society & Protest",
+      "title": "Nationwide Free America Walkout Announced",
+      "url": "https://www.the50501movement.org/p/announcement-free-america-walkout-jan-20-2026",
+      "summary": "The 50501 Movement, in partnership with the Women's March, has announced a nationwide coordinated action called the Free America Walkout, scheduled for January 20, 2026, at 2 PM local time. Participants are encouraged to walk out from workplaces, schools, and homes to gather for rallies, marches, and town halls. The action aims to protest authoritarianism and promote collective visibility and refusal. Organizers are seeking local hosts to coordinate events in their communities.",
+      "why_relevant": "This event represents a significant organized protest effort aimed at challenging perceived authoritarian practices and promoting democratic values.",
+      "attacks": [],
+      "_origin_file": "50501_events_2025-12-20_2025-12-26.json",
+      "_origin_index": 13
+    },
+    {
+      "source_key": "hcr",
+      "date": "2025-12-22",
+      "category": "Information & Media Control",
+      "title": "Vice President J.D. Vance speaks at Turning Point USA conference",
+      "url": "https://heathercoxrichardson.substack.com/p/december-21-2025",
+      "summary": "At the Turning Point USA annual \"AmericaFest\" conference, Vice President J.D. Vance stated that the United States is a Christian nation, a claim that contradicts the First Amendment of the Constitution which prohibits the establishment of religion. His remarks received significant applause from the audience. This statement reflects ongoing debates about the role of religion in American governance and the interpretation of the Constitution.",
+      "why_relevant": "Vance's comments highlight a contemporary challenge to the separation of church and state, raising concerns about the influence of religious ideology on democratic principles.",
+      "attacks": [
+        "truth",
+        "separation_of_powers"
+      ],
+      "_origin_file": "hcr_events_2025-12-20_2025-12-26.json",
+      "_origin_index": 5
+    },
+    {
+      "source_key": "zeteo",
+      "date": "2025-12-22",
+      "category": "Information & Media Control",
+      "title": "Trump Calls NYT a National Security Threat",
+      "url": "https://zeteo.com/p/this-week-in-democracy-week-49-the",
+      "summary": "In a Truth Social post, Trump called the New York Times a \"serious threat to the National Security of our Nation,\" criticizing its reporting as fake and radical. This statement raises concerns about press freedom and the administration's stance on media criticism.",
+      "why_relevant": "The statement reflects ongoing tensions between the administration and the press, impacting media freedom.",
+      "attacks": [
+        "press",
+        "information"
+      ],
+      "_origin_file": "zeteo_events_2025-12-20_2025-12-26.json",
+      "_origin_index": 16
+    },
+    {
+      "source_key": "federalregister",
+      "date": "2025-12-22",
+      "category": "Economic & Regulatory Power",
+      "title": "CDC Submits GAIN Study for OMB Review",
+      "url": "https://www.federalregister.gov/documents/2025/12/22/2025-23602/agency-forms-undergoing-paperwork-reduction-act-review",
+      "summary": "The Centers for Disease Control and Prevention (CDC) has submitted the GAIN Study for review under the Paperwork Reduction Act. The study aims to evaluate the use of HIV Point-of-Care Nucleic Acid Tests (NATs) to improve HIV diagnosis and care. The CDC seeks public comments on the necessity, accuracy, and burden of the information collection. The study will involve 181 participants over three years, focusing on the feasibility and acceptability of POC NATs in clinical and community settings.",
+      "why_relevant": "This action reflects regulatory oversight and public health efforts to enhance HIV testing and care, impacting public health policy and resource allocation.",
+      "attacks": [],
+      "_origin_file": "federalregister_events_2025-12-20_2025-12-26.json",
+      "_origin_index": 15
+    },
+    {
+      "source_key": "federalregister",
+      "date": "2025-12-22",
+      "category": "Economic & Regulatory Power",
+      "title": "DEA Notice on IsoSciences, LLC Application",
+      "url": "https://www.federalregister.gov/documents/2025/12/22/2025-23621/bulk-manufacturer-of-controlled-substances-application-isosciences-llc",
+      "summary": "The Drug Enforcement Administration (DEA) has published a notice regarding IsoSciences, LLC's application to register as a bulk manufacturer of various controlled substances, including Schedule I and II drugs. The application includes substances such as Cathinone, Methcathinone, and Fentanyl. The company intends to manufacture these substances for analytical testing purposes. Comments or objections to the application must be submitted by February 20, 2026.",
+      "why_relevant": "This notice is significant as it involves the regulation and control of substances that have implications for public health and safety.",
+      "attacks": [],
+      "_origin_file": "federalregister_events_2025-12-20_2025-12-26.json",
+      "_origin_index": 1
+    },
+    {
+      "source_key": "federalregister",
+      "date": "2025-12-22",
+      "category": "Economic & Regulatory Power",
+      "title": "FCC Seeks Comments on Information Collection",
+      "url": "https://www.federalregister.gov/documents/2025/12/22/2025-23591/information-collection-being-reviewed-by-the-federal-communications-commission-under-delegated",
+      "summary": "The Federal Communications Commission (FCC) has issued a notice inviting public comments on an information collection under the Paperwork Reduction Act. The collection concerns accounting for judgments and litigation costs. Comments are due by February 20, 2026. The FCC aims to assess the necessity, utility, and burden of the information collection, particularly for small businesses. The collection is required to obtain or retain benefits under the Communications Act of 1934.",
+      "why_relevant": "This action affects regulatory compliance and administrative burdens for businesses, impacting economic and regulatory processes.",
+      "attacks": [],
+      "_origin_file": "federalregister_events_2025-12-20_2025-12-26.json",
+      "_origin_index": 8
+    },
+    {
+      "source_key": "federalregister",
+      "date": "2025-12-22",
+      "category": "Economic & Regulatory Power",
+      "title": "FCC Seeks Comments on Information Collection",
+      "url": "https://www.federalregister.gov/documents/2025/12/22/2025-23589/information-collection-being-reviewed-by-the-federal-communications-commission",
+      "summary": "The Federal Communications Commission (FCC) has issued a notice inviting public comments on the information collection under Part 68, which pertains to the connection of terminal equipment to the telephone network. This effort aims to reduce paperwork burdens and ensure compliance with network protection criteria. Comments are due by February 20, 2026, and should address the necessity, utility, and burden of the information collection process.",
+      "why_relevant": "This action affects regulatory compliance and the protection of telecommunications infrastructure, impacting businesses and consumers.",
+      "attacks": [],
+      "_origin_file": "federalregister_events_2025-12-20_2025-12-26.json",
+      "_origin_index": 10
+    },
+    {
+      "source_key": "federalregister",
+      "date": "2025-12-22",
+      "category": "Economic & Regulatory Power",
+      "title": "FCC Seeks Comments on Information Collection",
+      "url": "https://www.federalregister.gov/documents/2025/12/22/2025-23586/information-collections-being-reviewed-by-the-federal-communications-commission",
+      "summary": "The Federal Communications Commission (FCC) has issued a notice inviting public comments on two information collections under the Paperwork Reduction Act. The collections involve payphone reclassification and pole attachment access and dispute resolution requirements. The FCC seeks input on the necessity, utility, and burden of these collections, with comments due by February 20, 2026.",
+      "why_relevant": "This action affects regulatory processes and compliance burdens for businesses, impacting economic and infrastructure development.",
+      "attacks": [],
+      "_origin_file": "federalregister_events_2025-12-20_2025-12-26.json",
+      "_origin_index": 11
+    },
+    {
+      "source_key": "federalregister",
+      "date": "2025-12-22",
+      "category": "Economic & Regulatory Power",
+      "title": "FCC Seeks Comments on Information Collection Under Delegated Authority",
+      "url": "https://www.federalregister.gov/documents/2025/12/22/2025-23590/information-collection-being-reviewed-by-the-federal-communications-commission-under-delegated",
+      "summary": "The Federal Communications Commission (FCC) has issued a notice inviting public comments on its information collection efforts under the Paperwork Reduction Act. The FCC seeks input on the necessity, utility, and burden of the proposed information collection related to franchising authority decisions on rates for basic service tiers and associated equipment. Comments are due by February 20, 2026. This initiative aims to enhance the quality and clarity of collected information while minimizing the burden on respondents.",
+      "why_relevant": "This action reflects the FCC's ongoing efforts to streamline regulatory processes and ensure effective oversight of communications services, impacting businesses and local governments.",
+      "attacks": [],
+      "_origin_file": "federalregister_events_2025-12-20_2025-12-26.json",
+      "_origin_index": 9
+    },
+    {
+      "source_key": "federalregister",
+      "date": "2025-12-22",
+      "category": "Economic & Regulatory Power",
+      "title": "Myonex LLC Applies for Controlled Substances Importer Registration",
+      "url": "https://www.federalregister.gov/documents/2025/12/22/2025-23619/importer-of-controlled-substances-application-myonex-llc",
+      "summary": "Myonex LLC has applied to the Drug Enforcement Administration (DEA) for registration as an importer of several controlled substances, including amphetamine and fentanyl, for clinical trials, research, and analytical purposes. The application, filed on December 4, 2025, specifies that the importation will be limited to dosage forms for non-commercial use. Comments or objections to the application must be submitted by January 21, 2026. The DEA will approve permits only if the business activities align with authorized purposes under 21 U.S.C. 952(a)(2).",
+      "why_relevant": "This application affects regulatory oversight of controlled substances, impacting research and clinical trial capabilities.",
+      "attacks": [],
+      "_origin_file": "federalregister_events_2025-12-20_2025-12-26.json",
+      "_origin_index": 3
+    },
+    {
+      "source_key": "federalregister",
+      "date": "2025-12-22",
+      "category": "Economic & Regulatory Power",
+      "title": "National Center for Natural Products Research Applies for Controlled Substances Importer Registration",
+      "url": "https://www.federalregister.gov/documents/2025/12/22/2025-23503/importer-of-controlled-substances-application-national-center-for-natural-products-research",
+      "summary": "The Drug Enforcement Administration (DEA) announced that the National Center for Natural Products Research has applied to register as an importer of controlled substances, specifically marihuana and tetrahydrocannabinols, for research and manufacturing purposes. The application, filed on September 8, 2025, is open for public comment until January 21, 2026. The registration will not authorize the import of FDA-approved or non-approved finished dosage forms for commercial sale.",
+      "why_relevant": "This application affects regulatory control over the importation of controlled substances, impacting research and manufacturing in the pharmaceutical sector.",
+      "attacks": [],
+      "_origin_file": "federalregister_events_2025-12-20_2025-12-26.json",
+      "_origin_index": 4
+    },
+    {
+      "source_key": "federalregister",
+      "date": "2025-12-22",
+      "category": "Economic & Regulatory Power",
+      "title": "Navinta LLC Applies for Bulk Manufacturer Registration",
+      "url": "https://www.federalregister.gov/documents/2025/12/22/2025-23620/bulk-manufacturer-of-controlled-substances-application-navinta-llc",
+      "summary": "Navinta LLC has applied to the Drug Enforcement Administration (DEA) to be registered as a bulk manufacturer of the controlled substance Remifentanil, classified under Schedule II. The application was submitted on October 16, 2025, and is open for public comment until February 20, 2026. Interested parties may submit comments or request a hearing on the application through the Federal eRulemaking Portal.",
+      "why_relevant": "This application affects regulatory oversight of controlled substances, impacting public health and safety.",
+      "attacks": [],
+      "_origin_file": "federalregister_events_2025-12-20_2025-12-26.json",
+      "_origin_index": 2
+    },
+    {
+      "source_key": "federalregister",
+      "date": "2025-12-22",
+      "category": "Economic & Regulatory Power",
+      "title": "OSHA Addendum to MOU with DOE for Oak Ridge, Tennessee",
+      "url": "https://www.federalregister.gov/documents/2025/12/22/2025-23554/addendum-to-the-memorandum-of-understanding-with-the-department-of-energy-august-28-1992-oak-ridge",
+      "summary": "The Occupational Safety and Health Administration (OSHA) issued an addendum to the 1992 Memorandum of Understanding with the Department of Energy (DOE), transferring occupational safety and health regulatory authority for four parcels of land at the East Tennessee Technology Park in Oak Ridge, Tennessee, to the Tennessee Occupational Safety and Health Administration (TOSHA). This transfer ensures that TOSHA will oversee safety and health regulations for private sector and state and local government employees at these sites, with assurances that radiation exposure will not exceed 25 millirems per year.",
+      "why_relevant": "This action clarifies and transfers regulatory authority, ensuring continued occupational safety and health oversight at privatized DOE sites.",
+      "attacks": [],
+      "_origin_file": "federalregister_events_2025-12-20_2025-12-26.json",
+      "_origin_index": 14
+    },
+    {
+      "source_key": "meidas",
+      "date": "2025-12-22",
+      "category": "Economic & Regulatory Power",
+      "title": "Trump Administration to Garnish Wages of Defaulted Student Loan Borrowers",
+      "url": "https://www.meidasplus.com/p/today-in-politics-bulletin-277-122325",
+      "summary": "The Trump administration announced plans to begin garnishing wages of student loan borrowers in default starting in early January. The Education Department expects to notify around 1,000 borrowers initially, with the number increasing over time. The government can seize up to 15% of a borrower's after-tax income to repay federal debts, a move that could affect millions of borrowers amid a challenging economic environment.",
+      "why_relevant": "This policy impacts economic stability and the financial well-being of millions of Americans, highlighting the administration's approach to debt collection.",
+      "attacks": [
+        "poor"
+      ],
+      "_origin_file": "meidas_events_2025-12-20_2025-12-26.json",
+      "_origin_index": 18
+    },
+    {
+      "source_key": "noah",
+      "date": "2025-12-22",
+      "category": "Economic & Regulatory Power",
+      "title": "Media and Universities Implement Diversity Hiring Practices",
+      "url": "https://www.noahpinion.blog/p/america-has-to-feel-fair",
+      "summary": "Various media companies and universities have implemented hiring practices aimed at increasing diversity, resulting in a significant decrease in the hiring of White men. For example, new hires at Condé Nast in 2021 were 25% male and 49% white, while at NPR, 78% of new hires were people of color. These practices have sparked discussions about potential discrimination against White men in hiring.",
+      "why_relevant": "These hiring practices raise questions about compliance with anti-discrimination laws and the balance between diversity initiatives and individual fairness in employment.",
+      "attacks": [
+        "workers"
+      ],
+      "_origin_file": "noah_events_2025-12-20_2025-12-26.json",
+      "_origin_index": 8
+    },
+    {
+      "source_key": "zeteo",
+      "date": "2025-12-22",
+      "category": "Economic & Regulatory Power",
+      "title": "DOJ Ends Crypto Investigations Amid Conflict of Interest",
+      "url": "https://zeteo.com/p/this-week-in-democracy-week-49-the",
+      "summary": "ProPublica reported that Deputy Attorney General Todd Blanche held significant crypto investments when he ended investigations into crypto companies. This decision raises concerns about conflicts of interest and the integrity of DOJ actions.",
+      "why_relevant": "The report highlights potential conflicts of interest within the DOJ and the impact on regulatory actions.",
+      "attacks": [
+        "justice_dept",
+        "economy"
+      ],
+      "_origin_file": "zeteo_events_2025-12-20_2025-12-26.json",
+      "_origin_index": 11
+    },
+    {
+      "source_key": "zeteo",
+      "date": "2025-12-22",
+      "category": "Economic & Regulatory Power",
+      "title": "Trump Administration to Garnish Wages for Student Loan Defaults",
+      "url": "https://zeteo.com/p/this-week-in-democracy-week-49-the",
+      "summary": "The Trump administration announced it will start garnishing wages of people in default on their student loans early next year, marking the first time since the COVID-19 pandemic. This policy change affects borrowers' financial stability and raises questions about economic policy.",
+      "why_relevant": "The policy impacts borrowers' financial stability and reflects broader economic policy decisions.",
+      "attacks": [
+        "economy",
+        "poor"
+      ],
+      "_origin_file": "zeteo_events_2025-12-20_2025-12-26.json",
+      "_origin_index": 9
+    },
+    {
+      "source_key": "50501",
+      "date": "2025-12-22",
+      "category": "Transparency & Records",
+      "title": "DOJ restores removed photo in Epstein files",
+      "url": "https://www.reuters.com/video/epstein-files-photo",
+      "summary": "The Department of Justice restored a photograph featuring the President with Jeffrey Epstein and Ghislaine Maxwell after it was removed from a government website. The removal had sparked public outcry, and the DOJ cited \"an abundance of caution\" as the reason for the initial removal. Lawmakers have threatened contempt proceedings over the handling of these documents, highlighting issues of transparency and accountability.",
+      "why_relevant": "The incident underscores challenges in maintaining transparency and public trust in government document handling.",
+      "attacks": [
+        "transparency",
+        "truth"
+      ],
+      "_origin_file": "50501_events_2025-12-20_2025-12-26.json",
+      "_origin_index": 8
+    },
+    {
+      "source_key": "50501",
+      "date": "2025-12-22",
+      "category": "Transparency & Records",
+      "title": "Removal and Restoration of Trump Photo from Public Database",
+      "url": "https://www.the50501movement.org/p/we-didnt-pause-we-positioned",
+      "summary": "Officials removed a photograph showing Donald Trump with Jeffrey Epstein and Ghislaine Maxwell from a public database, citing victim protection as the reason, despite no victims being present in the photo. Following public outcry, the photograph was quietly restored. This incident highlights issues of transparency and potential censorship in handling sensitive information related to public figures.",
+      "why_relevant": "The removal and subsequent restoration of the photograph raise concerns about transparency and potential censorship in government handling of public records.",
+      "attacks": [
+        "transparency"
+      ],
+      "_origin_file": "50501_events_2025-12-20_2025-12-26.json",
+      "_origin_index": 1
+    },
+    {
+      "source_key": "meidas",
+      "date": "2025-12-22",
+      "category": "Transparency & Records",
+      "title": "DOJ Releases Epstein Files with Trump Mentions",
+      "url": "https://www.meidasplus.com/p/today-in-politics-bulletin-277-122325",
+      "summary": "The Department of Justice released a second batch of Epstein-related documents, which included references to former President Trump. The documents revealed a subpoena sent to Mar-a-Lago in 2021 for records related to Ghislaine Maxwell's case and noted Trump's flights on Epstein's plane. The DOJ issued a disclaimer about the documents containing unverified claims against Trump, emphasizing their commitment to transparency. The release has sparked controversy and debate over the DOJ's handling of the information.",
+      "why_relevant": "The release of these documents is significant for transparency and accountability regarding high-profile figures' connections to Epstein.",
+      "attacks": [],
+      "_origin_file": "meidas_events_2025-12-20_2025-12-26.json",
+      "_origin_index": 16
+    },
+    {
+      "source_key": "50501",
+      "date": "2025-12-22",
+      "category": "International Relations",
+      "title": "Nearly 30 Career Diplomats Recalled by Trump Administration",
+      "url": "https://apnews.com/article/us-diplomats-recalled-idUSKBN2JX0A3",
+      "summary": "The Trump administration has recalled nearly 30 career Foreign Service officers serving as ambassadors worldwide, citing standard transition practices. However, the timing and number of recalls have raised concerns about the loss of institutional knowledge and continuity in diplomatic relations with allied nations.",
+      "why_relevant": "The recall of career diplomats may affect U.S. diplomatic relations and reflects potential prioritization of political loyalty over professional expertise.",
+      "attacks": [
+        "diplomacy",
+        "civil_service"
+      ],
+      "_origin_file": "50501_events_2025-12-20_2025-12-26.json",
+      "_origin_index": 16
+    },
+    {
+      "source_key": "50501",
+      "date": "2025-12-22",
+      "category": "International Relations",
+      "title": "Recall of Foreign Service Officers",
+      "url": "https://www.the50501movement.org/p/we-didnt-pause-we-positioned",
+      "summary": "The State Department recalled nearly 30 career Foreign Service officers from ambassadorial posts, describing it as standard transition practice. However, former diplomats noted that the scale and timing of the recalls were unusual, raising questions about the motivations behind these actions.",
+      "why_relevant": "The recall of Foreign Service officers could impact diplomatic relations and the functioning of U.S. embassies abroad.",
+      "attacks": [
+        "diplomacy"
+      ],
+      "_origin_file": "50501_events_2025-12-20_2025-12-26.json",
+      "_origin_index": 3
+    },
+    {
+      "source_key": "federalregister",
+      "date": "2025-12-22",
+      "category": "International Relations",
+      "title": "FCC Schedules Meetings for WRC-27 Advisory Committee Working Groups",
+      "url": "https://www.federalregister.gov/documents/2025/12/22/2025-23558/informal-working-group-1-iwg-1-informal-working-group-2-iwg-2-informal-working-group-3-iwg-3-and",
+      "summary": "The Federal Communications Commission (FCC) announced the meeting schedule for Informal Working Groups 1-4 of the 2027 World Radiocommunication Conference Advisory Committee. These meetings, which will be held virtually, are open to the public and will occur between January 21 and February 12, 2026. The groups will discuss various radiocommunication services, including maritime, aeronautical, mobile, and satellite services, to prepare U.S. proposals for the 2027 conference.",
+      "why_relevant": "These meetings are crucial for shaping U.S. positions and proposals for international radiocommunication policies, impacting global communication standards and cooperation.",
+      "attacks": [],
+      "_origin_file": "federalregister_events_2025-12-20_2025-12-26.json",
+      "_origin_index": 12
+    },
+    {
+      "source_key": "zeteo",
+      "date": "2025-12-22",
+      "category": "Civil–Military Relations & State Violence",
+      "title": "Trump Announces New Battleships Named After Himself",
+      "url": "https://zeteo.com/p/this-week-in-democracy-week-49-the",
+      "summary": "At Mar-a-Lago, Trump announced a new class of US battleships named after himself, expected to have nuclear capabilities. This announcement raises concerns about the militarization of US foreign policy and the personalization of military assets.",
+      "why_relevant": "The announcement reflects the personalization of military assets and potential shifts in US military policy.",
+      "attacks": [
+        "military",
+        "presidency"
+      ],
+      "_origin_file": "zeteo_events_2025-12-20_2025-12-26.json",
+      "_origin_index": 8
+    },
+    {
+      "source_key": "zeteo",
+      "date": "2025-12-22",
+      "category": "Civil–Military Relations & State Violence",
+      "title": "US Military Conducts Strike in Eastern Pacific",
+      "url": "https://zeteo.com/p/this-week-in-democracy-week-49-the",
+      "summary": "The US Southern Command announced a military strike on a boat in the Eastern Pacific, killing one person, at the direction of Defense Secretary Pete Hegseth. This action raises questions about the use of military force and adherence to international law.",
+      "why_relevant": "The strike highlights issues of military force use and compliance with international law.",
+      "attacks": [
+        "military",
+        "peace"
+      ],
+      "_origin_file": "zeteo_events_2025-12-20_2025-12-26.json",
+      "_origin_index": 12
+    },
+    {
+      "source_key": "guardian",
+      "date": "2025-12-23",
+      "category": "Executive Actions & Orders",
+      "title": "Trump administration bans US veterans agency from providing abortions",
+      "url": "https://www.theguardian.com/us-news/2025/dec/23/trump-administration-abortion-veterans-affairs",
+      "summary": "The Trump administration has implemented a ban on the Department of Veterans Affairs (VA) from providing abortions, including in cases of rape or incest. This decision follows a Department of Justice memo declaring the practice legally unsound. The ban reverses a Biden-era policy that allowed the VA to offer abortion services under certain conditions. The VA's network of healthcare facilities, which serves nearly 10 million veterans annually, is affected by this change. The ban is part of a broader effort to roll back abortion access following the Supreme Court's 2022 decision to overturn Roe v. Wade.",
+      "why_relevant": "This action significantly impacts veterans' access to healthcare and reproductive rights, reflecting broader national debates on abortion access.",
+      "attacks": [
+        "women",
+        "veterans",
+        "public_health"
+      ],
+      "_origin_file": "guardian_events_2025-12-20_2025-12-26.json",
+      "_origin_index": 10
+    },
+    {
+      "source_key": "guardian",
+      "date": "2025-12-23",
+      "category": "Legislative & Oversight Activity",
+      "title": "Justice Department releases first batch of Epstein files",
+      "url": "https://www.theguardian.com/us-news/2025/dec/23/trump-complains-epstein-files-are-damaging-people-who-innocently-met-him",
+      "summary": "The Justice Department began releasing materials related to Jeffrey Epstein, following the mandate of the Epstein Files Transparency Act (EFTA), which was passed by Congress and signed into law by President Trump. The act required the complete release of Epstein files by the previous Friday. However, only one batch of documents has been released so far, leading to criticism from survivors and members of Congress who demand full transparency. The partial release has sparked controversy and calls for the release of all remaining materials.",
+      "why_relevant": "The release of the Epstein files is significant for transparency and accountability, as it involves high-profile figures and potential implications for justice and public trust.",
+      "attacks": [
+        "transparency",
+        "justice_dept"
+      ],
+      "_origin_file": "guardian_events_2025-12-20_2025-12-26.json",
+      "_origin_index": 13
+    },
+    {
+      "source_key": "guardian",
+      "date": "2025-12-23",
+      "category": "Judicial Developments",
+      "title": "US Supreme Court Blocks Trump Bid to Deploy National Guard to Chicago",
+      "url": "https://www.theguardian.com/us-news/2025/dec/23/supreme-court-blocks-trump-national-guard-chicago",
+      "summary": "The US Supreme Court, in a 6-3 decision, blocked former President Donald Trump's attempt to deploy National Guard troops to Chicago. This decision upheld a lower court's ruling that had previously prevented the deployment, which was part of Trump's efforts to use military forces for domestic purposes, particularly in Democratic-led areas. The court found that the Trump administration failed to demonstrate the necessity of military intervention to enforce immigration laws. This ruling is not final but may influence other legal challenges against similar military deployments in other cities.",
+      "why_relevant": "This decision is significant as it limits the executive branch's power to use military forces domestically, reinforcing the separation of powers and protecting civil liberties.",
+      "attacks": [
+        "separation_of_powers",
+        "rule_of_law",
+        "civil_service"
+      ],
+      "_origin_file": "guardian_events_2025-12-20_2025-12-26.json",
+      "_origin_index": 8
+    },
+    {
+      "source_key": "shadow",
+      "date": "2025-12-23",
+      "category": "Judicial Developments",
+      "title": "Supreme Court Denies Stay in Trump v. Illinois",
+      "url": "https://ballotpedia.org/Supreme_Court_emergency_orders_related_to_the_Trump_administration,_2025",
+      "summary": "On December 23, 2025, the Supreme Court denied the federal government's request for a stay in the case of Trump v. Illinois. This decision means that the lower court's ruling will remain in effect while the case continues through the judicial process. The denial was issued despite dissent from Justices Alito, Thomas, and Gorsuch. The case involves significant legal questions related to the Trump administration's policies, but the specifics of the lower court's ruling and the implications of the stay denial were not detailed in the provided text.",
+      "why_relevant": "The Supreme Court's decision to deny a stay affects the implementation of federal policies and highlights the ongoing judicial scrutiny of the Trump administration's actions.",
+      "attacks": [],
+      "_origin_file": "shadow_events_2025-12-20_2025-12-26.json",
+      "_origin_index": 0
+    },
+    {
+      "source_key": "zeteo",
+      "date": "2025-12-23",
+      "category": "Judicial Developments",
+      "title": "Supreme Court Blocks National Guard Deployment in Illinois",
+      "url": "https://zeteo.com/p/this-week-in-democracy-week-49-the",
+      "summary": "The Supreme Court blocked the Trump administration from deploying National Guard troops in Illinois for immigration enforcement, ruling the government lacked authority. This decision represents a significant check on executive power and upholds state sovereignty.",
+      "why_relevant": "The ruling limits executive power and reinforces state sovereignty in immigration enforcement.",
+      "attacks": [
+        "separation_of_powers",
+        "rule_of_law"
+      ],
+      "_origin_file": "zeteo_events_2025-12-20_2025-12-26.json",
+      "_origin_index": 19
+    },
+    {
+      "source_key": "hcr",
+      "date": "2025-12-23",
+      "category": "Elections & Representation",
+      "title": "Poll reveals declining support for Trump among Republicans",
+      "url": "https://heathercoxrichardson.substack.com/p/december-22-2025",
+      "summary": "A new YouGov poll conducted for The Economist shows that fewer than half of Republicans strongly approve of Trump, with only a third approving of his handling of inflation and prices. This decline in support reflects growing discontent within the party base regarding Trump's leadership and policies.",
+      "why_relevant": "The declining approval ratings among Republicans may affect Trump's influence and the overall dynamics of the Republican Party moving forward.",
+      "attacks": [],
+      "_origin_file": "hcr_events_2025-12-20_2025-12-26.json",
+      "_origin_index": 4
+    },
+    {
+      "source_key": "guardian",
+      "date": "2025-12-23",
+      "category": "Civil Society & Protest",
+      "title": "Surge in Violence Against Journalists Reported",
+      "url": "https://www.theguardian.com/us-news/2025/dec/23/violence-against-journalists-increase-trump",
+      "summary": "The Freedom of the Press Foundation reported a significant increase in violence against journalists in the United States since Donald Trump resumed office. The report highlights that most attacks occurred during protests against the Trump administration's immigration policies. The foundation documented 170 assaults on journalists in 2025, nearly matching the total from the previous three years combined. The report attributes the rise in violence to both the increased coverage of civil unrest and anti-media rhetoric from Trump and other leaders, which has fostered hostility towards journalists.",
+      "why_relevant": "The increase in violence against journalists poses a threat to press freedom and the democratic principle of free and independent media.",
+      "attacks": [
+        "press",
+        "information",
+        "truth"
+      ],
+      "_origin_file": "guardian_events_2025-12-20_2025-12-26.json",
+      "_origin_index": 12
+    },
+    {
+      "source_key": "hcr",
+      "date": "2025-12-23",
+      "category": "Civil Society & Protest",
+      "title": "MAGA movement experiences internal conflict",
+      "url": "https://heathercoxrichardson.substack.com/p/december-22-2025",
+      "summary": "At the Turning Point USA AmericaFest, infighting within the MAGA movement was evident as various leaders expressed differing views on the future direction of the movement. Erika Kirk endorsed Vice President J.D. Vance for the 2028 presidential run, while Trump continued to promote his own candidacy. This division highlights the fragmentation within the movement as it grapples with its identity and leadership.",
+      "why_relevant": "The internal conflict within the MAGA movement indicates a potential weakening of its political power and cohesion, which could impact future elections.",
+      "attacks": [],
+      "_origin_file": "hcr_events_2025-12-20_2025-12-26.json",
+      "_origin_index": 3
+    },
+    {
+      "source_key": "50501",
+      "date": "2025-12-23",
+      "category": "Information & Media Control",
+      "title": "CBS Pulls 60 Minutes Investigation",
+      "url": "https://www.the50501movement.org/p/we-didnt-pause-we-positioned",
+      "summary": "CBS pulled a completed 60 Minutes investigation hours before its scheduled broadcast. The segment, which examined Trump-era deportations of Venezuelan migrants to El Salvador’s CECOT mega-prison, had cleared legal and editorial reviews. Correspondent Sharyn Alfonsi claimed the decision was political. The segment later aired through a Canadian broadcaster and circulated online.",
+      "why_relevant": "The pulling of the investigation raises concerns about media censorship and the influence of political considerations on journalistic integrity.",
+      "attacks": [
+        "press"
+      ],
+      "_origin_file": "50501_events_2025-12-20_2025-12-26.json",
+      "_origin_index": 4
+    },
+    {
+      "source_key": "50501",
+      "date": "2025-12-23",
+      "category": "Information & Media Control",
+      "title": "CBS Pulls 60 Minutes Segment on Trump-Era Deportations",
+      "url": "https://www.the50501movement.org/p/60-minutes-pulled-the-trump-segment",
+      "summary": "CBS postponed a scheduled 60 Minutes segment investigating the Trump administration's deportation of Venezuelan migrants to El Salvador's CECOT mega-prison, citing the need for \"additional reporting.\" The segment, which included allegations of abuse and interviews with former detainees and human rights experts, was reportedly pulled for political reasons, according to correspondent Sharyn Alfonsi. Despite the postponement, the segment aired in Canada and circulated online. The delay has been criticized as a form of \"soft censorship,\" potentially diminishing the segment's impact on public accountability.",
+      "why_relevant": "The postponement of the segment raises concerns about media censorship and the influence of political considerations on journalistic accountability.",
+      "attacks": [
+        "information"
+      ],
+      "_origin_file": "50501_events_2025-12-20_2025-12-26.json",
+      "_origin_index": 11
+    },
+    {
+      "source_key": "guardian",
+      "date": "2025-12-23",
+      "category": "Information & Media Control",
+      "title": "DoJ Confirms Epstein Letter to Nassar is Fake",
+      "url": "https://www.theguardian.com/us-news/2025/dec/23/epstein-files-larry-nassar-letter",
+      "summary": "The Department of Justice announced that a letter purportedly from Jeffrey Epstein to Larry Nassar, which referenced Donald Trump, is a fake. The FBI confirmed the letter's inauthenticity, detailing reasons for its dismissal as genuine. The letter, dated 2019, was released as part of the Epstein files and contained disturbing content about \"young ladies.\" The DoJ emphasized that the release of documents does not validate their contents and reiterated its commitment to transparency and legal obligations.",
+      "why_relevant": "This event highlights the importance of verifying the authenticity of documents released by government agencies to prevent misinformation.",
+      "attacks": [
+        "truth",
+        "information"
+      ],
+      "_origin_file": "guardian_events_2025-12-20_2025-12-26.json",
+      "_origin_index": 9
+    },
+    {
+      "source_key": "hcr",
+      "date": "2025-12-23",
+      "category": "Information & Media Control",
+      "title": "CBS News editor pulls critical story on Trump administration",
+      "url": "https://heathercoxrichardson.substack.com/p/december-22-2025",
+      "summary": "Bari Weiss, the new editor-in-chief of CBS News, pulled a scheduled segment of 60 Minutes that reported on the Trump administration's renditions of migrants to a prison in El Salvador, citing the need to include the administration's justification. The segment had already passed through multiple vetting processes and was deemed factually correct by the correspondent.",
+      "why_relevant": "The decision to pull the story raises concerns about censorship and the influence of political considerations on journalistic integrity.",
+      "attacks": [
+        "press"
+      ],
+      "_origin_file": "hcr_events_2025-12-20_2025-12-26.json",
+      "_origin_index": 2
+    },
+    {
+      "source_key": "federalregister",
+      "date": "2025-12-23",
+      "category": "Economic & Regulatory Power",
+      "title": "DEA Schedules N-Desethyl Isotonitazene and N-Piperidinyl Etonitazene as Schedule I",
+      "url": "https://www.federalregister.gov/documents/2025/12/23/2025-23717/schedules-of-controlled-substances-placement-of-n-desethyl-isotonitazene-and-n-piperidinyl",
+      "summary": "The Drug Enforcement Administration (DEA) has issued a final order to permanently place N-Desethyl Isotonitazene and N-Piperidinyl Etonitazene in Schedule I of the Controlled Substances Act. This action follows international obligations under the Single Convention on Narcotic Drugs and imposes regulatory controls and sanctions on these substances, which have no accepted medical use in the U.S. and pose a public safety hazard. The effective date for this scheduling is January 22, 2026.",
+      "why_relevant": "This action reflects the U.S. commitment to international drug control agreements and addresses public health concerns related to synthetic opioids.",
+      "attacks": [],
+      "_origin_file": "federalregister_events_2025-12-20_2025-12-26.json",
+      "_origin_index": 0
+    },
+    {
+      "source_key": "federalregister",
+      "date": "2025-12-23",
+      "category": "Economic & Regulatory Power",
+      "title": "FCC Amends FM Allotments Table",
+      "url": "https://www.federalregister.gov/documents/2025/12/23/2025-23750/radio-broadcasting-services-various-locations",
+      "summary": "The Federal Communications Commission (FCC) has amended the Table of FM Allotments in its rules, reinstating certain channels as vacant FM allotments in various communities across the United States. This action follows the cancellation of associated FM authorizations or the dismissal of long-form auction FM applications. The FCC confirmed compliance with minimum distance separation and community coverage requirements. The window for filing applications for these vacant allotments will be addressed in a future order.",
+      "why_relevant": "This action affects the allocation and availability of radio broadcasting frequencies, impacting media access and local broadcasting services.",
+      "attacks": [],
+      "_origin_file": "federalregister_events_2025-12-20_2025-12-26.json",
+      "_origin_index": 7
+    },
+    {
+      "source_key": "federalregister",
+      "date": "2025-12-23",
+      "category": "Economic & Regulatory Power",
+      "title": "FCC Finalizes Procedures for Auction 113 of AWS-3 Licenses",
+      "url": "https://www.federalregister.gov/documents/2025/12/23/2025-23785/auction-of-advanced-wireless-services-aws-3-licenses-filing-requirements-minimum-opening-bids",
+      "summary": "The Federal Communications Commission (FCC) has finalized the procedures for Auction 113, which will auction 200 Advanced Wireless Services (AWS-3) licenses. The auction will use an ascending clock auction format and is scheduled to begin on June 2, 2026. The licenses cover spectrum in the 1695-1710 MHz, 1755-1780 MHz, and 2155-2180 MHz bands. The auction aims to bring unused 5G-ready spectrum to market, with proceeds supporting the FCC's efforts to secure American networks from foreign threats.",
+      "why_relevant": "This auction is significant for expanding 5G infrastructure and ensuring secure communications networks, impacting economic growth and national security.",
+      "attacks": [],
+      "_origin_file": "federalregister_events_2025-12-20_2025-12-26.json",
+      "_origin_index": 6
+    },
+    {
+      "source_key": "federalregister",
+      "date": "2025-12-23",
+      "category": "Economic & Regulatory Power",
+      "title": "FDA Issues Final Guidance on Dispute Resolution for Drug Orders",
+      "url": "https://www.federalregister.gov/documents/2025/12/23/2025-23707/formal-dispute-resolution-and-administrative-hearings-of-final-administrative-orders-under-section",
+      "summary": "The Food and Drug Administration (FDA) has released final guidance for industry on formal dispute resolution and administrative hearings for final administrative orders under Section 505G of the Federal Food, Drug, and Cosmetic Act. This guidance provides procedures for resolving scientific and medical disputes between the Center for Drug Evaluation and Research and drug sponsors. It finalizes a draft issued in June 2023 and outlines the process for formal dispute resolution and administrative hearings related to final orders.",
+      "why_relevant": "This guidance affects the regulatory process for drug approval and dispute resolution, impacting industry compliance and drug market entry.",
+      "attacks": [],
+      "_origin_file": "federalregister_events_2025-12-20_2025-12-26.json",
+      "_origin_index": 16
+    },
+    {
+      "source_key": "federalregister",
+      "date": "2025-12-23",
+      "category": "Economic & Regulatory Power",
+      "title": "FDA Submits Information Collection Request for Postmarket Surveillance of Medical Devices",
+      "url": "https://www.federalregister.gov/documents/2025/12/23/2025-23630/agency-information-collection-activities-submission-for-office-of-management-and-budget-review",
+      "summary": "The Food and Drug Administration (FDA) has submitted a proposed information collection request to the Office of Management and Budget (OMB) for review, concerning postmarket surveillance of medical devices. This request, under the Paperwork Reduction Act, involves collecting data from manufacturers on postmarket surveillance plans and reports as per 21 CFR Part 822. The comment period for this request is open until January 21, 2026.",
+      "why_relevant": "This action affects regulatory oversight and compliance requirements for medical device manufacturers, impacting public health and safety.",
+      "attacks": [],
+      "_origin_file": "federalregister_events_2025-12-20_2025-12-26.json",
+      "_origin_index": 17
+    },
+    {
+      "source_key": "federalregister",
+      "date": "2025-12-23",
+      "category": "Economic & Regulatory Power",
+      "title": "General Services Administration Seeks Comments on Ombudsman Inquiry/Request Instrument",
+      "url": "https://www.federalregister.gov/documents/2025/12/23/2025-23718/information-collection-ombudsman-inquiryrequest-instrument",
+      "summary": "The General Services Administration (GSA) has issued a notice requesting public comments on the reinstatement of an information collection requirement under OMB Control No. 3090-0315. This collection involves the Ombudsman Inquiry/Request Instrument, which gathers inquiries from vendors doing or interested in doing business with the GSA. The data collected is used to identify issues with GSA acquisition programs and improve processes. Comments are due by February 23, 2026.",
+      "why_relevant": "This action affects the regulatory framework for vendor interactions with the GSA, impacting transparency and efficiency in government procurement processes.",
+      "attacks": [],
+      "_origin_file": "federalregister_events_2025-12-20_2025-12-26.json",
+      "_origin_index": 5
+    },
+    {
+      "source_key": "hcr",
+      "date": "2025-12-23",
+      "category": "Transparency & Records",
+      "title": "Justice Department criticized for lack of transparency",
+      "url": "https://heathercoxrichardson.substack.com/p/december-22-2025",
+      "summary": "The Justice Department has been criticized for failing to release all documents required by the Epstein Files Transparency Act, having only released about 10,000 heavily redacted documents out of what are believed to be hundreds of thousands. Former President Bill Clinton publicly demanded the full release of the records, suggesting that the department is protecting someone or something.",
+      "why_relevant": "The lack of transparency in the release of documents undermines public trust in government accountability and the rule of law.",
+      "attacks": [
+        "truth"
+      ],
+      "_origin_file": "hcr_events_2025-12-20_2025-12-26.json",
+      "_origin_index": 1
+    },
+    {
+      "source_key": "zeteo",
+      "date": "2025-12-23",
+      "category": "Transparency & Records",
+      "title": "DOJ Releases Third Batch of Epstein Files",
+      "url": "https://zeteo.com/p/this-week-in-democracy-week-49-the",
+      "summary": "The DOJ released its third batch of Epstein files, including claims about Trump's flights on Epstein's plane. The DOJ stated some claims were unfounded and false, emphasizing the need for careful scrutiny of released documents. This release continues to draw attention to the Epstein case and its political implications.",
+      "why_relevant": "The release of files highlights ongoing scrutiny of the Epstein case and its political ramifications.",
+      "attacks": [
+        "information",
+        "press"
+      ],
+      "_origin_file": "zeteo_events_2025-12-20_2025-12-26.json",
+      "_origin_index": 17
+    },
+    {
+      "source_key": "guardian",
+      "date": "2025-12-23",
+      "category": "International Relations",
+      "title": "US Signs Security Deals Across Latin America",
+      "url": "https://www.theguardian.com/us-news/2025/dec/23/us-trump-administration-signs-security-deals-across-latin-america",
+      "summary": "The Trump administration has signed new security agreements with several Latin American countries, including Paraguay, Ecuador, Peru, and Trinidad and Tobago. These deals involve the deployment of US troops and access to local airports under the guise of a \"war on drugs.\" However, the agreements are seen as part of a broader strategy to increase US military presence in the region, potentially targeting Venezuela. The deals have sparked regional tensions, with Venezuela's Nicolás Maduro warning of destabilization and accusing neighboring countries of complicity.",
+      "why_relevant": "These agreements represent a significant escalation of US military involvement in Latin America, affecting regional stability and international relations.",
+      "attacks": [
+        "global_democracy",
+        "peace",
+        "diplomacy"
+      ],
+      "_origin_file": "guardian_events_2025-12-20_2025-12-26.json",
+      "_origin_index": 11
+    },
+    {
+      "source_key": "zeteo",
+      "date": "2025-12-23",
+      "category": "International Relations",
+      "title": "State Department Imposes Visa Restrictions",
+      "url": "https://zeteo.com/p/this-week-in-democracy-week-49-the",
+      "summary": "Secretary of State Marco Rubio announced visa restrictions on figures of the \"global censorship-industrial complex,\" with potential removal proceedings for those already in the US. This action targets individuals involved in censorship, reflecting US policy on freedom of expression.",
+      "why_relevant": "The visa restrictions reflect US policy on freedom of expression and international relations.",
+      "attacks": [
+        "global_democracy",
+        "diplomacy"
+      ],
+      "_origin_file": "zeteo_events_2025-12-20_2025-12-26.json",
+      "_origin_index": 18
+    },
+    {
+      "source_key": "hcr",
+      "date": "2025-12-23",
+      "category": "Civil–Military Relations & State Violence",
+      "title": "President Trump announces construction of new battleships",
+      "url": "https://heathercoxrichardson.substack.com/p/december-22-2025",
+      "summary": "President Donald J. Trump announced that the U.S. Navy will build two new \"Trump-class\" battleships, which he has been involved in designing. The announcement was made during a news conference at Mar-a-Lago, where Trump expressed concerns about ongoing discussions regarding the Epstein files and criticized the Justice Department for not releasing all documents as required by the Epstein Files Transparency Act. The proposed battleships are intended to enhance Trump's legacy amidst challenges within the MAGA movement.",
+      "why_relevant": "This event reflects the intertwining of military decisions with personal political branding, raising concerns about the use of military resources for personal legacy projects.",
+      "attacks": [],
+      "_origin_file": "hcr_events_2025-12-20_2025-12-26.json",
+      "_origin_index": 0
+    },
+    {
+      "source_key": "meidas",
+      "date": "2025-12-24",
+      "category": "Legislative & Oversight Activity",
+      "title": "Former Special Counsel Jack Smith Requests Release of Deposition Video",
+      "url": "https://www.meidasplus.com/p/important-christmas-eve-news-updates",
+      "summary": "Former Special Counsel Jack Smith has requested the House Judiciary Committee to release the full videotape of his deposition with a Republican-led panel. Republicans have rejected calls for transparency, leading to concerns about the withholding of information from the public.",
+      "why_relevant": "The refusal to release the deposition video raises issues of transparency and accountability in congressional oversight.",
+      "attacks": [
+        "transparency"
+      ],
+      "_origin_file": "meidas_events_2025-12-20_2025-12-26.json",
+      "_origin_index": 15
+    },
+    {
+      "source_key": "meidas",
+      "date": "2025-12-24",
+      "category": "Legislative & Oversight Activity",
+      "title": "Representative Massie Accuses DOJ of Violating Transparency Act",
+      "url": "https://www.meidasplus.com/p/important-christmas-eve-news-updates",
+      "summary": "Representative Thomas Massie (R-KY) accused the Department of Justice of violating the Epstein Files Transparency Act by making illegal redactions and missing deadlines. He criticized the DOJ's handling of the Epstein documents and questioned the control of the DOJ's social media accounts. This accusation adds to the scrutiny of the DOJ's transparency and accountability under the Trump administration.",
+      "why_relevant": "Allegations of legal violations by the DOJ undermine public trust and highlight issues of transparency and accountability in government.",
+      "attacks": [
+        "justice_dept",
+        "transparency"
+      ],
+      "_origin_file": "meidas_events_2025-12-20_2025-12-26.json",
+      "_origin_index": 12
+    },
+    {
+      "source_key": "guardian",
+      "date": "2025-12-24",
+      "category": "Judicial Developments",
+      "title": "Democratic lawmaker sues Trump over Kennedy Center’s name change",
+      "url": "https://www.theguardian.com/us-news/2025/dec/24/democratic-lawmaker-sues-trump-over-kennedy-center-name",
+      "summary": "On December 20, 2025, Democratic US Representative Joyce Beatty filed a lawsuit against Donald Trump to remove his name from the John F Kennedy Center for the Performing Arts in Washington DC. Beatty, an ex-officio trustee on the board, claims the renaming to the \"Trump-Kennedy Center\" violates the law, as congressional approval is required for such changes. The lawsuit also alleges that Beatty was muted during the board's vote on the renaming, preventing her from voicing her opposition. The Kennedy Center board had voted unanimously to rename the center, and the name change is already being implemented.",
+      "why_relevant": "This lawsuit challenges the legality of renaming a federally designated memorial, raising questions about executive overreach and adherence to congressional authority.",
+      "attacks": [
+        "separation_of_powers",
+        "rule_of_law"
+      ],
+      "_origin_file": "guardian_events_2025-12-20_2025-12-26.json",
+      "_origin_index": 4
+    },
+    {
+      "source_key": "guardian",
+      "date": "2025-12-24",
+      "category": "Judicial Developments",
+      "title": "Federal judge blocks White House’s reductions of homeland security funding to states",
+      "url": "https://www.theguardian.com/us-news/2025/dec/24/federal-judge-white-house-state-homeland-security-funding",
+      "summary": "A federal judge, Mary McElroy, has blocked the Trump administration's attempt to reduce over $230 million in federal homeland security funding for states that do not comply with its immigration enforcement policies. The cuts affected Connecticut, Delaware, Minnesota, Massachusetts, New York, Rhode Island, Vermont, and the District of Columbia. The judge criticized the administration for tying state assistance to its immigration crackdown, calling it an abuse of federal grant administration. The Department of Homeland Security plans to appeal the decision.",
+      "why_relevant": "This ruling is significant as it addresses the balance of federal power and state compliance with federal immigration policies, impacting state funding and law enforcement capabilities.",
+      "attacks": [
+        "immigrants_refugees",
+        "rule_of_law",
+        "separation_of_powers"
+      ],
+      "_origin_file": "guardian_events_2025-12-20_2025-12-26.json",
+      "_origin_index": 5
+    },
+    {
+      "source_key": "guardian",
+      "date": "2025-12-24",
+      "category": "Judicial Developments",
+      "title": "US Justice Department Delays Release of Epstein Documents",
+      "url": "https://www.theguardian.com/us-news/2025/dec/24/justice-department-epstein-files-due-to-be-released",
+      "summary": "The US Justice Department announced that it requires additional time to process over one million newly uncovered documents related to the Jeffrey Epstein case. This delay comes after missing the 19 December deadline mandated by the Epstein Files Transparency Act. The documents were received from the US attorney for the Southern District of New York and the FBI. The department is working to redact sensitive information to protect victims before releasing the documents. Lawmakers have threatened contempt hearings against the Attorney General for failing to meet the deadline.",
+      "why_relevant": "The delay in releasing the Epstein documents raises concerns about transparency and accountability in handling high-profile legal cases.",
+      "attacks": [
+        "justice_dept",
+        "transparency"
+      ],
+      "_origin_file": "guardian_events_2025-12-20_2025-12-26.json",
+      "_origin_index": 3
+    },
+    {
+      "source_key": "meidas",
+      "date": "2025-12-24",
+      "category": "Judicial Developments",
+      "title": "DOJ Uncovers Additional Million Documents in Epstein Case",
+      "url": "https://www.meidasplus.com/p/important-christmas-eve-news-updates",
+      "summary": "The Department of Justice announced the discovery of an additional million documents related to the Epstein case, stating that reviewing them will take weeks. This announcement follows reports of missing documents and raises questions about the DOJ's handling of the case and its commitment to transparency.",
+      "why_relevant": "The discovery of additional documents in a high-profile case underscores the need for transparency and thorough investigation in the justice system.",
+      "attacks": [
+        "transparency"
+      ],
+      "_origin_file": "meidas_events_2025-12-20_2025-12-26.json",
+      "_origin_index": 14
+    },
+    {
+      "source_key": "guardian",
+      "date": "2025-12-24",
+      "category": "Law Enforcement & Surveillance",
+      "title": "Deportation of Lucía Pedro Juan from ICE Detention",
+      "url": "https://www.theguardian.com/us-news/2025/dec/24/man-dies-ice-custody-wife-deported",
+      "summary": "Lucía Pedro Juan, the wife of Francisco Gaspar-Andrés, was deported to Guatemala from the ICE detention facility at Fort Bliss, Texas, on November 28, 2025. This occurred while her husband was hospitalized and later died in El Paso, Texas. The deportation prevented her from seeing her husband before his death. The couple had been detained during a traffic stop in Florida and were held separately at the Fort Bliss facility. Pedro Juan agreed to deportation due to fears of the harsh conditions at the camp.",
+      "why_relevant": "The deportation highlights issues of family separation and the treatment of detainees within the U.S. immigration system.",
+      "attacks": [
+        "immigrants_refugees",
+        "decency"
+      ],
+      "_origin_file": "guardian_events_2025-12-20_2025-12-26.json",
+      "_origin_index": 6
+    },
+    {
+      "source_key": "guardian",
+      "date": "2025-12-24",
+      "category": "Law Enforcement & Surveillance",
+      "title": "TikToker Arrested for Fatal Livestreaming Incident",
+      "url": "https://www.theguardian.com/us-news/2025/dec/24/tiktok-tea-tyme-hit-pedestrian-chicago",
+      "summary": "Tynesha McCarty-Wroten, known online as Tea Tyme, was arrested for the death of Darren Lucas, who was struck and killed while she was allegedly livestreaming and driving in Zion, Illinois. McCarty-Wroten faces felony charges of reckless homicide and aggravated use of a communications device resulting in death. Surveillance footage and a forensic analysis of her phone confirmed she ran a red light while livestreaming on TikTok, leading to the fatal incident. The arrest followed after she initially refused to surrender her phone, which was later handed over through her attorney.",
+      "why_relevant": "The arrest highlights the legal and safety implications of using mobile devices while driving, particularly in the context of social media.",
+      "attacks": [],
+      "_origin_file": "guardian_events_2025-12-20_2025-12-26.json",
+      "_origin_index": 7
+    },
+    {
+      "source_key": "meidas",
+      "date": "2025-12-24",
+      "category": "Law Enforcement & Surveillance",
+      "title": "ICE Plans to Detain 80,000 Immigrants in Warehouse Facilities",
+      "url": "https://www.meidasplus.com/p/important-christmas-eve-news-updates",
+      "summary": "Newly reported documents from ICE reveal plans to detain up to 80,000 immigrants in warehouse-like facilities. The acting director of ICE compared the system to Amazon Prime, but with human beings, drawing criticism for the inhumane treatment of detainees. This plan is part of the administration's aggressive immigration enforcement strategy.",
+      "why_relevant": "The large-scale detention of immigrants in substandard conditions raises significant human rights concerns and reflects the administration's harsh immigration policies.",
+      "attacks": [
+        "immigrants_refugees",
+        "decency"
+      ],
+      "_origin_file": "meidas_events_2025-12-20_2025-12-26.json",
+      "_origin_index": 13
+    },
+    {
+      "source_key": "meidas",
+      "date": "2025-12-24",
+      "category": "Information & Media Control",
+      "title": "DOJ Social Media Accounts Controlled by Trump White House",
+      "url": "https://www.meidasplus.com/p/important-christmas-eve-news-updates",
+      "summary": "The Trump White House has assumed control over the Department of Justice's social media accounts, leading to unprofessional exchanges and insults directed at reporters. This control has raised concerns about the independence of the DOJ and its role as a tool for the administration's public relations efforts. The situation highlights the erosion of norms that traditionally kept the DOJ independent from political influence.",
+      "why_relevant": "The politicization of the DOJ's communication channels threatens the integrity and independence of the justice system.",
+      "attacks": [
+        "justice_dept",
+        "information"
+      ],
+      "_origin_file": "meidas_events_2025-12-20_2025-12-26.json",
+      "_origin_index": 11
+    },
+    {
+      "source_key": "meidas",
+      "date": "2025-12-24",
+      "category": "Information & Media Control",
+      "title": "White House Urges Migrants to \"Self-Deport\" on Christmas Eve",
+      "url": "https://www.meidasplus.com/p/important-christmas-eve-news-updates",
+      "summary": "On Christmas Eve, the official White House social media account posted a meme urging migrants to \"self-deport before Christmas,\" which was amplified by ICE. This action has been criticized for mocking human suffering and reflects the administration's harsh stance on immigration. The messaging has sparked outrage and is seen as part of a broader pattern of cruelty in immigration policy under the Trump administration.",
+      "why_relevant": "The use of official government channels to promote such messages undermines the dignity and rights of migrants and reflects a broader trend of dehumanizing rhetoric.",
+      "attacks": [
+        "immigrants_refugees",
+        "decency"
+      ],
+      "_origin_file": "meidas_events_2025-12-20_2025-12-26.json",
+      "_origin_index": 10
+    },
+    {
+      "source_key": "50501",
+      "date": "2025-12-24",
+      "category": "Economic & Regulatory Power",
+      "title": "Suspension of Offshore Wind Projects",
+      "url": "https://www.the50501movement.org/p/we-didnt-pause-we-positioned",
+      "summary": "The Interior Department suspended five offshore wind projects on national security grounds, citing concerns from the \"Department of War,\" an agency that has not existed since 1947. A federal judge had recently declared a similar suspension \"arbitrary and capricious,\" raising questions about the legitimacy of the national security claims.",
+      "why_relevant": "The suspension of these projects under questionable national security claims could hinder renewable energy development and raise concerns about regulatory overreach.",
+      "attacks": [
+        "environment"
+      ],
+      "_origin_file": "50501_events_2025-12-20_2025-12-26.json",
+      "_origin_index": 5
+    },
+    {
+      "source_key": "noah",
+      "date": "2025-12-24",
+      "category": "Economic & Regulatory Power",
+      "title": "EU Considers Export Subsidies for European Manufacturers",
+      "url": "https://www.noahpinion.blog/p/why-europe-should-resist-the-second",
+      "summary": "In response to the competitive pressure from Chinese exports, the European Union is contemplating the introduction of export subsidies for European manufacturers. This measure is intended to enhance the competitiveness of European products in global markets and prevent the loss of foreign markets to Chinese companies. By supporting domestic manufacturers, the EU seeks to maintain its industrial base and ensure economic resilience against the backdrop of China's aggressive export strategy.",
+      "why_relevant": "Export subsidies could help European industries compete globally, preserving jobs and economic stability.",
+      "attacks": [],
+      "_origin_file": "noah_events_2025-12-20_2025-12-26.json",
+      "_origin_index": 3
+    },
+    {
+      "source_key": "noah",
+      "date": "2025-12-24",
+      "category": "Economic & Regulatory Power",
+      "title": "EU Considers Protectionist Measures Against Chinese Imports",
+      "url": "https://www.noahpinion.blog/p/why-europe-should-resist-the-second",
+      "summary": "The European Union is contemplating the implementation of protectionist measures, including tariffs and non-tariff barriers, specifically targeting Chinese imports. This move is in response to the \"Second China Shock,\" characterized by a surge in Chinese high-tech exports to Europe, which has led to a significant trade imbalance. The EU aims to protect its industries from being overwhelmed by China's aggressive industrial policy and undervalued currency, which have made Chinese goods extraordinarily cheap. The proposed measures are intended to safeguard European manufacturing and innovation capacity.",
+      "why_relevant": "This action reflects a significant shift in trade policy that could impact global economic relations and the balance of trade.",
+      "attacks": [
+        "trade"
+      ],
+      "_origin_file": "noah_events_2025-12-20_2025-12-26.json",
+      "_origin_index": 1
+    },
+    {
+      "source_key": "noah",
+      "date": "2025-12-24",
+      "category": "Economic & Regulatory Power",
+      "title": "EU to Encourage Joint Ventures with Chinese Companies",
+      "url": "https://www.noahpinion.blog/p/why-europe-should-resist-the-second",
+      "summary": "The European Union is considering encouraging or even mandating joint ventures between Chinese and European companies as a strategy to counter the effects of the Second China Shock. This approach would require Chinese companies to partner with European firms to sell their products within the EU market. The goal is to facilitate technology transfer and bolster European manufacturing capabilities by having Chinese companies establish production facilities in Europe, thereby enhancing local expertise and innovation.",
+      "why_relevant": "This strategy aims to strengthen European industrial capacity and mitigate the impact of Chinese economic dominance.",
+      "attacks": [],
+      "_origin_file": "noah_events_2025-12-20_2025-12-26.json",
+      "_origin_index": 2
+    },
+    {
+      "source_key": "noah",
+      "date": "2025-12-24",
+      "category": "Economic & Regulatory Power",
+      "title": "EU to Implement \"Buy European\" Rules",
+      "url": "https://www.noahpinion.blog/p/why-europe-should-resist-the-second",
+      "summary": "The European Union is considering implementing \"Buy European\" rules to encourage the purchase of domestically produced goods over imports, particularly from China. This policy aims to support local industries and reduce dependency on Chinese imports by fostering a preference for European-made products. The initiative is part of a broader effort to resist the economic pressures of the Second China Shock and strengthen the EU's industrial base.",
+      "why_relevant": "Promoting domestic production can enhance economic sovereignty and resilience.",
+      "attacks": [
+        "trade"
+      ],
+      "_origin_file": "noah_events_2025-12-20_2025-12-26.json",
+      "_origin_index": 5
+    },
+    {
+      "source_key": "noah",
+      "date": "2025-12-24",
+      "category": "International Relations",
+      "title": "EU to Address China's Undervalued Currency",
+      "url": "https://www.noahpinion.blog/p/why-europe-should-resist-the-second",
+      "summary": "The European Union is considering taking action against China's undervalued currency, which has contributed to the trade imbalance by making Chinese goods cheaper in global markets. The EU may pressure China to allow the yuan to appreciate, which would help rebalance trade relations and reduce economic tensions. This move is part of a broader strategy to counter the economic impact of the Second China Shock and protect European industries from unfair competition.",
+      "why_relevant": "Addressing currency manipulation is crucial for fair trade practices and economic stability.",
+      "attacks": [
+        "trade"
+      ],
+      "_origin_file": "noah_events_2025-12-20_2025-12-26.json",
+      "_origin_index": 4
+    },
+    {
+      "source_key": "guardian",
+      "date": "2025-12-25",
+      "category": "Legislative & Oversight Activity",
+      "title": "House of Representatives passes bill to restore collective bargaining rights",
+      "url": "https://www.theguardian.com/us-news/2025/dec/25/trump-labor-unions-afl-cio",
+      "summary": "On December 11, 2025, the House of Representatives passed a bill aimed at restoring collective bargaining rights for federal workers. This legislative move was in response to executive orders from President Trump that had previously stripped these rights from over 1 million federal government employees. The bill's passage marks a significant step in countering what has been described as the largest attack on unions in U.S. history. The AFL-CIO is preparing to push for the bill's passage in the Senate in January 2026.",
+      "why_relevant": "This legislative action is crucial for protecting workers' rights and countering executive overreach that undermines union power.",
+      "attacks": [
+        "workers",
+        "separation_of_powers"
+      ],
+      "_origin_file": "guardian_events_2025-12-20_2025-12-26.json",
+      "_origin_index": 2
+    },
+    {
+      "source_key": "meidas",
+      "date": "2025-12-25",
+      "category": "Law Enforcement & Surveillance",
+      "title": "Trump Amplifies ICE Celebrations of Deportations",
+      "url": "https://www.meidasplus.com/p/important-christmas-day-news-updates",
+      "summary": "President Trump amplified social media posts from ICE accounts celebrating deportations on Christmas Day. The posts boasted about the agency's activities, with officials openly celebrating \"Christmas deportations.\" This action reflects the administration's hardline stance on immigration enforcement, even during the holiday season.",
+      "why_relevant": "Celebrating deportations on a major holiday highlights the administration's aggressive immigration policies, impacting immigrants and refugees.",
+      "attacks": [
+        "immigrants_refugees"
+      ],
+      "_origin_file": "meidas_events_2025-12-20_2025-12-26.json",
+      "_origin_index": 5
+    },
+    {
+      "source_key": "meidas",
+      "date": "2025-12-25",
+      "category": "Information & Media Control",
+      "title": "Trump Calls for Prosecution of Former President Obama",
+      "url": "https://www.meidasplus.com/p/important-christmas-day-news-updates",
+      "summary": "On Christmas Day, President Donald Trump called for the prosecution of former President Barack Obama. This statement was part of a series of social media posts made by Trump, which included various unfounded claims and attacks on political opponents. The call for prosecution is part of Trump's ongoing narrative against previous administrations and political figures.",
+      "why_relevant": "The call for prosecution of a former president without evidence undermines the rule of law and can erode public trust in democratic institutions.",
+      "attacks": [
+        "rule_of_law"
+      ],
+      "_origin_file": "meidas_events_2025-12-20_2025-12-26.json",
+      "_origin_index": 4
+    },
+    {
+      "source_key": "meidas",
+      "date": "2025-12-25",
+      "category": "Information & Media Control",
+      "title": "Trump Promotes Conspiracy Video on COVID-19 and 2020 Election",
+      "url": "https://www.meidasplus.com/p/important-christmas-day-news-updates",
+      "summary": "President Trump promoted a conspiracy-laden video from Roseanne Barr, claiming that COVID-19 was deliberately unleashed to enable Democrats to steal the 2020 election through mail-in voting. This video, shared by Trump on Christmas Day, aligns with QAnon-style disinformation narratives.",
+      "why_relevant": "Promoting conspiracy theories undermines public trust in democratic processes and public health measures.",
+      "attacks": [
+        "truth",
+        "public_health"
+      ],
+      "_origin_file": "meidas_events_2025-12-20_2025-12-26.json",
+      "_origin_index": 6
+    },
+    {
+      "source_key": "meidas",
+      "date": "2025-12-25",
+      "category": "Transparency & Records",
+      "title": "Justice Department Acknowledges 1.2 Million Epstein-Related Documents",
+      "url": "https://www.meidasplus.com/p/important-christmas-day-news-updates",
+      "summary": "The Justice Department acknowledged the existence of approximately 1.2 million additional Epstein-related documents that it claims have never been reviewed. This acknowledgment came after media reports highlighted the existence of these documents, which were referenced in emails years ago.",
+      "why_relevant": "The revelation of unreviewed documents related to a high-profile case raises questions about transparency and accountability within the Justice Department.",
+      "attacks": [],
+      "_origin_file": "meidas_events_2025-12-20_2025-12-26.json",
+      "_origin_index": 7
+    },
+    {
+      "source_key": "meidas",
+      "date": "2025-12-25",
+      "category": "International Relations",
+      "title": "Putin Continues Attacks on Ukraine Despite Christmas Truce",
+      "url": "https://www.meidasplus.com/p/important-christmas-day-news-updates",
+      "summary": "On Christmas Day, Russian President Vladimir Putin continued military attacks across Ukraine, despite Ukraine's agreement to a Christmas truce. The attacks targeted multiple cities, including Kyiv and Kharkiv, and were condemned by a bipartisan group of U.S. senators.",
+      "why_relevant": "The continuation of attacks during a proposed truce highlights the ongoing conflict and challenges to international peace efforts.",
+      "attacks": [
+        "peace"
+      ],
+      "_origin_file": "meidas_events_2025-12-20_2025-12-26.json",
+      "_origin_index": 8
+    },
+    {
+      "source_key": "meidas",
+      "date": "2025-12-25",
+      "category": "International Relations",
+      "title": "Trump Administration Sanctions European Officials",
+      "url": "https://www.meidasplus.com/p/important-christmas-day-news-updates",
+      "summary": "The Trump administration moved to sanction European officials for enforcing consumer protection and anti-disinformation laws, while simultaneously loosening pressure on Russian figures. This action reflects a shift in U.S. foreign policy priorities under the Trump administration.",
+      "why_relevant": "Sanctioning allies for enforcing laws while easing pressure on adversaries undermines international alliances and democratic solidarity.",
+      "attacks": [
+        "allies",
+        "global_democracy"
+      ],
+      "_origin_file": "meidas_events_2025-12-20_2025-12-26.json",
+      "_origin_index": 9
+    },
+    {
+      "source_key": "guardian",
+      "date": "2025-12-26",
+      "category": "Executive Actions & Orders",
+      "title": "Trump Administration Moves to Dismantle Environmental Rules",
+      "url": "https://www.theguardian.com/us-news/2025/dec/26/us-voters-link-climate-crisis-affordability",
+      "summary": "The Trump administration has taken significant steps to dismantle key environmental regulations, including firing federal scientists, removing public information on the climate crisis, and backing the fossil fuel industry over renewable energy sources. The administration has also attempted to ban certain solar and wind farms, despite widespread public opposition. These actions are part of a broader agenda that has been criticized for undermining climate research and restricting access to climate information, with nearly 80% of registered voters opposing these measures according to recent polling.",
+      "why_relevant": "These actions represent a significant shift in U.S. environmental policy, affecting climate research, energy production, and public access to information, with potential long-term impacts on both domestic and global climate efforts.",
+      "attacks": [
+        "science",
+        "information",
+        "environment",
+        "climate_cooperation"
+      ],
+      "_origin_file": "guardian_events_2025-12-20_2025-12-26.json",
+      "_origin_index": 0
+    },
+    {
+      "source_key": "meidas",
+      "date": "2025-12-26",
+      "category": "Judicial Developments",
+      "title": "Federal Judge Rules Against DOJ in Comey Case",
+      "url": "https://www.meidasplus.com/p/friday-afternoon-news-updates-122625",
+      "summary": "A federal judge has ruled that the Department of Justice unlawfully seized attorney-client communications in the failed prosecution of James Comey. The judge ordered the return of the materials, but the DOJ missed the deadline and filed an emergency motion for more time, citing staffing shortages. The case highlights issues of competence and legality within the DOJ under the Trump administration.",
+      "why_relevant": "The ruling against the DOJ underscores concerns about legal competence and adherence to lawful procedures.",
+      "attacks": [
+        "justice_dept",
+        "rule_of_law"
+      ],
+      "_origin_file": "meidas_events_2025-12-20_2025-12-26.json",
+      "_origin_index": 2
+    },
+    {
+      "source_key": "50501",
+      "date": "2025-12-26",
+      "category": "Civil Society & Protest",
+      "title": "Announcement of the Free America Walk Out",
+      "url": "https://www.the50501movement.org/p/we-didnt-pause-we-positioned",
+      "summary": "The 50501 Movement, in partnership with the Women’s March, announced the Free America Walk Out scheduled for January 20, 2026, at 2 PM local time. This nationwide event encourages participants to walk out from work, school, or home to visibly and collectively refuse acceptance of current authoritarian practices. The movement seeks local organizers to help coordinate the event, aiming to disrupt authoritarian power by making resistance impossible to ignore.",
+      "why_relevant": "This planned mass protest is a significant act of civil disobedience aimed at challenging authoritarian governance and mobilizing public resistance.",
+      "attacks": [],
+      "_origin_file": "50501_events_2025-12-20_2025-12-26.json",
+      "_origin_index": 0
+    },
+    {
+      "source_key": "meidas",
+      "date": "2025-12-26",
+      "category": "Economic & Regulatory Power",
+      "title": "Trump Administration Reduces Federal Employment",
+      "url": "https://www.meidasplus.com/p/friday-afternoon-news-updates-122625",
+      "summary": "President Trump has celebrated the reduction of federal employment, boasting that hundreds of thousands of civil service jobs have been eliminated. These positions supported critical functions such as emergency management, data collection, and public health. The reduction has led to increased unemployment and a rise in national debt, raising concerns about the administration's management of public resources and services.",
+      "why_relevant": "The reduction of federal employment impacts the government's ability to provide essential services and manage public resources effectively.",
+      "attacks": [
+        "public_service",
+        "economy"
+      ],
+      "_origin_file": "meidas_events_2025-12-20_2025-12-26.json",
+      "_origin_index": 3
+    },
+    {
+      "source_key": "meidas",
+      "date": "2025-12-26",
+      "category": "Transparency & Records",
+      "title": "Trump Administration Fails to Disclose Epstein Files",
+      "url": "https://www.meidasplus.com/p/friday-afternoon-news-updates-122625",
+      "summary": "The Trump administration has failed to comply with the Epstein Files Transparency Act, which required the release of all Epstein-related documents by December 19. Despite the legal mandate, the administration claims to have \"found\" millions of additional documents that were not disclosed. This failure to release the documents as required by law raises concerns about transparency and accountability in handling sensitive information related to the Epstein case.",
+      "why_relevant": "The failure to disclose legally mandated documents undermines transparency and accountability in government.",
+      "attacks": [
+        "transparency",
+        "rule_of_law"
+      ],
+      "_origin_file": "meidas_events_2025-12-20_2025-12-26.json",
+      "_origin_index": 0
+    },
+    {
+      "source_key": "meidas",
+      "date": "2025-12-26",
+      "category": "International Relations",
+      "title": "Trump Administration Sanctions European Officials",
+      "url": "https://www.meidasplus.com/p/friday-afternoon-news-updates-122625",
+      "summary": "The Trump administration has imposed sanctions on European officials for enforcing digital consumer protection laws aimed at limiting fraud, bots, and disinformation. These sanctions come as the administration eases pressure on Russia, aligning with Russian interests while targeting European efforts to protect democratic discourse. This move has raised concerns about the administration's foreign policy priorities and its impact on international relations.",
+      "why_relevant": "Sanctioning European officials for enforcing democratic protections undermines international alliances and democratic norms.",
+      "attacks": [
+        "diplomacy",
+        "global_democracy"
+      ],
+      "_origin_file": "meidas_events_2025-12-20_2025-12-26.json",
+      "_origin_index": 1
+    },
+    {
+      "source_key": "noah",
+      "date": "2025-12-26",
+      "category": "International Relations",
+      "title": "Japanese Government Encourages Tourism",
+      "url": "https://www.noahpinion.blog/p/why-everyone-loves-japan",
+      "summary": "The Japanese government has been actively encouraging tourism since the early 2000s, resulting in a significant increase in the number of tourists visiting the country. By 2019, the number of tourists had almost quadrupled from 2007 levels, and the trend is continuing to rise post-pandemic. This surge in tourism has led to overcrowding and strained local infrastructure, prompting discussions on managing overtourism. The tourism boom has also familiarized the world with Japan, enhancing its cultural cachet and dispelling stereotypes of Japan as a closed-off country.",
+      "why_relevant": "The government's efforts to boost tourism have increased Japan's global cultural influence and economic engagement.",
+      "attacks": [],
+      "_origin_file": "noah_events_2025-12-20_2025-12-26.json",
+      "_origin_index": 0
+    },
+    {
+      "source_key": "guardian",
+      "date": "2025-12-26",
+      "category": "Civil–Military Relations & State Violence",
+      "title": "Trump deploys national guard troops to US cities for immigration enforcement",
+      "url": "https://www.theguardian.com/us-news/2025/dec/26/janessa-goldbeck-vet-voice-foundation-trump",
+      "summary": "Since returning to the White House, Donald Trump has deployed thousands of national guard troops to cities like Chicago, Los Angeles, Memphis, New Orleans, and Washington DC for immigration enforcement. This move has sparked protests from local officials and residents. The deployments have been restricted by courts to guarding federal property, but the presence of troops has raised concerns about the politicization of the military and its use against Democratic-led states and cities.",
+      "why_relevant": "The deployment of national guard troops for immigration enforcement represents a significant use of military power in domestic affairs, raising concerns about the politicization of the military and its impact on civil-military relations.",
+      "attacks": [
+        "immigrants_refugees",
+        "civil_service",
+        "separation_of_powers"
+      ],
+      "_origin_file": "guardian_events_2025-12-20_2025-12-26.json",
+      "_origin_index": 1
+    }
+  ]
+}

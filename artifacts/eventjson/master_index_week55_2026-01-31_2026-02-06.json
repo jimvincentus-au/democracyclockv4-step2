@@ -1,0 +1,2403 @@
+{
+  "window": {
+    "start": "2026-01-31",
+    "end": "2026-02-06"
+  },
+  "week_number": 55,
+  "sources": [
+    "50501",
+    "popinfo",
+    "hcr",
+    "federalregister",
+    "noah",
+    "guardian",
+    "meidas",
+    "outloud"
+  ],
+  "counts": {
+    "total": 164,
+    "by_date": {
+      "2026-01-31": 49,
+      "2026-02-01": 12,
+      "2026-02-02": 37,
+      "2026-02-03": 42,
+      "2026-02-04": 24
+    },
+    "by_source": {
+      "guardian": 64,
+      "hcr": 14,
+      "50501": 9,
+      "meidas": 31,
+      "outloud": 6,
+      "noah": 11,
+      "federalregister": 21,
+      "popinfo": 8
+    },
+    "by_category": {
+      "Executive Actions & Orders": 9,
+      "Legislative & Oversight Activity": 21,
+      "Judicial Developments": 27,
+      "Law Enforcement & Surveillance": 27,
+      "Elections & Representation": 16,
+      "Civil Society & Protest": 6,
+      "Information & Media Control": 10,
+      "Economic & Regulatory Power": 27,
+      "Appointments & Patronage": 2,
+      "Transparency & Records": 5,
+      "International Relations": 7,
+      "Civil–Military Relations & State Violence": 7
+    }
+  },
+  "events": [
+    {
+      "source_key": "guardian",
+      "date": "2026-01-31",
+      "category": "Executive Actions & Orders",
+      "title": "Chicago mayor orders police to investigate alleged illegal ICE activity",
+      "url": "https://www.theguardian.com/us-news/2026/jan/31/chicago-ice-brandon-johnson",
+      "summary": "Chicago Mayor Brandon Johnson has issued an executive order directing the city's police to investigate and document any alleged illegal activities by federal immigration (ICE) agents within the city. The order, titled \"ICE on Notice,\" provides a clear procedure for police to follow if they witness or receive reports of illegal activity by ICE agents, including preserving body-camera footage and identifying federal supervisory officers on the scene. The order aims to hold ICE and CBP agents accountable for any crimes against the community, asserting local power to investigate and prosecute federal law enforcement actions.",
+      "why_relevant": "This executive order challenges federal authority and seeks to increase local oversight and accountability of federal immigration enforcement actions.",
+      "attacks": [
+        "immigrants_refugees",
+        "separation_of_powers",
+        "rule_of_law"
+      ],
+      "_origin_file": "guardian_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 53
+    },
+    {
+      "source_key": "guardian",
+      "date": "2026-01-31",
+      "category": "Executive Actions & Orders",
+      "title": "Trump Administration Distances Itself from ICE Narrative on Alex Pretti's Death",
+      "url": "https://www.theguardian.com/us-news/2026/jan/31/trump-facts-ice-lies-alex-pretti-killing",
+      "summary": "Following the shooting of Alex Pretti by federal agents in Minneapolis, the Trump administration initially labeled him a \"domestic terrorist.\" However, video evidence contradicted this narrative, showing Pretti was unarmed when shot. Facing backlash from the public, Democrats, and some Republicans, President Trump distanced himself from the narrative pushed by aides like Stephen Miller and Kristi Noem. This incident marks a rare retreat from the administration's typical approach of manipulating facts, as public and political pressure forced a shift in stance.",
+      "why_relevant": "The event highlights a significant moment where public and political pressure forced the Trump administration to retreat from its usual narrative control tactics.",
+      "attacks": [
+        "truth",
+        "justice_dept",
+        "information"
+      ],
+      "_origin_file": "guardian_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 63
+    },
+    {
+      "source_key": "hcr",
+      "date": "2026-01-31",
+      "category": "Executive Actions & Orders",
+      "title": "Trump Announces Freedom 250 Grand Prix",
+      "url": "https://www.whitehouse.gov/presidential-actions/2026/01/celebrating-american-greatness-with-american-motor-racing/",
+      "summary": "President Trump announced plans for a massive automobile race, the \"Freedom 250 Grand Prix of Washington, D.C.,\" scheduled for August as part of the celebration of the 250th anniversary of the Declaration of Independence. The event is framed as a tribute to INDYCAR racing and aims to showcase the nation's capital.",
+      "why_relevant": "The announcement of the race reflects the administration's efforts to promote national pride and divert attention from ongoing controversies.",
+      "attacks": [],
+      "_origin_file": "hcr_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 13
+    },
+    {
+      "source_key": "guardian",
+      "date": "2026-01-31",
+      "category": "Legislative & Oversight Activity",
+      "title": "Congressional Demand for Unredacted Epstein Files",
+      "url": "https://www.theguardian.com/us-news/2026/feb/01/jeffrey-epstein-files-sex-trafficking-survivors",
+      "summary": "Bipartisan sponsors of the Epstein Files Transparency Act, Representatives Ro Khanna and Thomas Massie, sent a formal letter to Deputy Attorney General Todd Blanche demanding access to the unredacted files. They argue that Congress needs to view the complete records to fulfill its oversight duties and assess the Justice Department's handling of the Epstein and Maxwell cases. The demand follows accusations that the Justice Department has not complied with the legal requirement to release all files.",
+      "why_relevant": "This action underscores the role of congressional oversight in ensuring government transparency and accountability, particularly in high-profile legal matters.",
+      "attacks": [
+        "congress",
+        "justice_dept"
+      ],
+      "_origin_file": "guardian_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 52
+    },
+    {
+      "source_key": "guardian",
+      "date": "2026-01-31",
+      "category": "Legislative & Oversight Activity",
+      "title": "Democratic senators advance government spending bills",
+      "url": "https://www.theguardian.com/us-news/2026/jan/31/anti-ice-protests-weekend",
+      "summary": "On Thursday, Democratic senators agreed to advance several government spending bills to avert a partial shutdown. However, they are still calling for reforms to the Immigration and Customs Enforcement (ICE) as part of a separate stalled bill to fund the Department of Homeland Security, which oversees ICE. The senators are advocating for a code of conduct for ICE and independent investigations into its operations.",
+      "why_relevant": "This legislative action is significant as it reflects ongoing efforts to reform ICE and address concerns about its operations, which have been a focal point of public protests and political debate.",
+      "attacks": [],
+      "_origin_file": "guardian_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 64
+    },
+    {
+      "source_key": "guardian",
+      "date": "2026-01-31",
+      "category": "Legislative & Oversight Activity",
+      "title": "US Government Partially Shuts Down Over DHS Funding Standoff",
+      "url": "https://www.theguardian.com/us-news/2026/jan/31/us-government-shutdown-dhs-funding",
+      "summary": "The US government entered a partial shutdown due to a standoff in Congress over the Department of Homeland Security (DHS) funding. Democratic senators refused to vote for a bill authorizing continued DHS spending, demanding new restrictions on federal agents following the killings of two US citizens by immigration agents in Minneapolis. The Senate passed a package of measures to fund other departments and a temporary DHS funding bill, but these require approval from the House of Representatives. The shutdown affects several departments, including defense, education, and health, with negotiations expected to continue.",
+      "why_relevant": "The shutdown highlights the impact of legislative gridlock on government operations and the ongoing debate over immigration enforcement practices.",
+      "attacks": [
+        "immigrants_refugees",
+        "congress",
+        "rule_of_law"
+      ],
+      "_origin_file": "guardian_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 66
+    },
+    {
+      "source_key": "guardian",
+      "date": "2026-01-31",
+      "category": "Legislative & Oversight Activity",
+      "title": "US Senate Approves Government Funding Deal",
+      "url": "https://www.theguardian.com/us-news/2026/jan/30/senate-funding-deal-partial-shutdown-looms",
+      "summary": "On January 30, 2026, the US Senate approved a government funding package with a 71-29 vote. This deal, struck between President Trump and Senate Democrats, aims to fund the government and address restrictions on Immigration and Customs Enforcement (ICE) operations. The package requires approval from the House of Representatives, which is not in session until Monday, leading to an expected partial government shutdown over the weekend. The deal includes a stopgap measure for the Department of Homeland Security (DHS) funding, allowing time for negotiations on ICE reforms.",
+      "why_relevant": "The Senate's approval of the funding package is significant as it addresses government operations and potential reforms to ICE, impacting immigration enforcement and federal agency oversight.",
+      "attacks": [
+        "immigrants_refugees",
+        "rule_of_law"
+      ],
+      "_origin_file": "guardian_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 69
+    },
+    {
+      "source_key": "hcr",
+      "date": "2026-01-31",
+      "category": "Legislative & Oversight Activity",
+      "title": "Senate Votes on ICE Funding Amendment",
+      "url": "https://www.sanders.senate.gov/press-releases/news-sanders-secures-vote-on-his-amendment-to-cut-75-billion-in-ice-funding-and-redirect-those-funds-to-medicaid/",
+      "summary": "The Senate voted on an amendment proposed by Senator Bernie Sanders to repeal a $75 billion funding increase for ICE, which was included in a previous appropriations bill. The amendment failed by a vote of 49 to 51, but garnered significant support, indicating growing pressure on senators regarding ICE's actions.",
+      "why_relevant": "The vote reflects increasing scrutiny and concern over ICE's funding and operations, highlighting a potential shift in legislative priorities.",
+      "attacks": [
+        "ice",
+        "rule_of_law"
+      ],
+      "_origin_file": "hcr_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 11
+    },
+    {
+      "source_key": "50501",
+      "date": "2026-01-31",
+      "category": "Judicial Developments",
+      "title": "Release of Liam Conejo Ramos from Detention",
+      "url": "https://www.the50501movement.org/p/when-we-move-things-move",
+      "summary": "A judge ordered the release of 5-year-old Liam Conejo Ramos and his father from a family detention facility in Dilley, Texas. They have since returned to Minnesota. The release followed public pressure and advocacy efforts, demonstrating the impact of civic engagement on immigration detention practices.",
+      "why_relevant": "The judicial decision to release Liam and his father underscores the role of public pressure in influencing legal outcomes related to immigration detention.",
+      "attacks": [
+        "immigrants_refugees"
+      ],
+      "_origin_file": "50501_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 10
+    },
+    {
+      "source_key": "guardian",
+      "date": "2026-01-31",
+      "category": "Judicial Developments",
+      "title": "Judge denies Minnesota’s request to end ICE surge in Minneapolis",
+      "url": "https://www.theguardian.com/us-news/2026/jan/31/judge-denies-minnesota-request-ice-surge",
+      "summary": "A federal judge, Kate Menendez, denied Minnesota's request to end the federal immigration operation, Operation Metro Surge, in Minneapolis. The operation, involving 3,000 ICE agents, has led to the deaths of two individuals, Renee Good and Alex Pretti, and sparked protests. The state and cities argued that the operation violated the 10th Amendment, but the judge ruled that they failed to demonstrate this. The operation has been criticized for racial profiling and excessive force, but the ruling allows it to continue.",
+      "why_relevant": "The ruling impacts state autonomy and federal intervention, highlighting tensions between local and federal authorities over immigration enforcement.",
+      "attacks": [
+        "immigrants_refugees",
+        "rule_of_law",
+        "separation_of_powers"
+      ],
+      "_origin_file": "guardian_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 57
+    },
+    {
+      "source_key": "guardian",
+      "date": "2026-01-31",
+      "category": "Judicial Developments",
+      "title": "Judge orders release of five-year-old Liam Conejo Ramos and father from ICE detention",
+      "url": "https://www.theguardian.com/us-news/2026/jan/31/liam-conejo-ramos-release-ice",
+      "summary": "A U.S. district judge, Fred Biery, ordered the release of five-year-old Liam Conejo Ramos and his father from a Texas detention center. They were detained by ICE agents in Minneapolis on January 20, 2026, after returning from school. The judge criticized the government's deportation practices, highlighting the trauma caused to children. The ruling follows a previous order preventing their removal from the U.S. The case has drawn significant public attention, with allegations that the child was used as bait during the arrest, which the Department of Homeland Security disputes.",
+      "why_relevant": "This ruling addresses the treatment of immigrants and the use of children in enforcement actions, impacting immigration policy and human rights.",
+      "attacks": [
+        "immigrants_refugees",
+        "children",
+        "justice_dept"
+      ],
+      "_origin_file": "guardian_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 54
+    },
+    {
+      "source_key": "guardian",
+      "date": "2026-01-31",
+      "category": "Judicial Developments",
+      "title": "Justice Department releases 3 million pages of Epstein files",
+      "url": "https://www.theguardian.com/us-news/2026/jan/31/democrats-justice-department-epstein-files",
+      "summary": "",
+      "why_relevant": "The event highlights issues of transparency and accountability in the handling of sensitive legal documents, impacting public trust in justice institutions.",
+      "attacks": [
+        "justice_dept",
+        "truth",
+        "rule_of_law"
+      ],
+      "_origin_file": "guardian_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 55
+    },
+    {
+      "source_key": "guardian",
+      "date": "2026-01-31",
+      "category": "Judicial Developments",
+      "title": "Release of Epstein Files by the US Justice Department",
+      "url": "https://www.theguardian.com/us-news/2026/feb/01/jeffrey-epstein-files-sex-trafficking-survivors",
+      "summary": "The US Justice Department released approximately 3 million files related to Jeffrey Epstein, the late financier and convicted sex offender. The release included references to prominent individuals but was criticized for errors that exposed the identities of victims. Attorneys for the victims expressed outrage over the handling of the files, citing \"ham-fisted redactions\" and the exposure of survivors' identities. The release missed a congressionally set deadline, and there are calls for further accountability and transparency regarding the files and the individuals implicated.",
+      "why_relevant": "The release and handling of these files have significant implications for transparency, accountability, and the protection of victims' rights in high-profile legal cases.",
+      "attacks": [
+        "justice_dept",
+        "truth",
+        "public_service"
+      ],
+      "_origin_file": "guardian_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 51
+    },
+    {
+      "source_key": "meidas",
+      "date": "2026-01-31",
+      "category": "Judicial Developments",
+      "title": "Trump Administration's Settlement with Trump Over Tax Returns",
+      "url": "https://www.meidasplus.com/p/this-weekend-in-politics-bulletin-801",
+      "summary": "President Trump is pursuing a $10 billion lawsuit against the IRS for leaking his tax returns. The administration is reportedly close to settling multiple cases with Trump's lawyers, potentially paying him taxpayer money. Trump claims he will donate any settlement to charity, raising questions about the use of public funds for personal legal battles.",
+      "why_relevant": "The lawsuit and potential settlement highlight issues of transparency and the use of public resources for personal gain.",
+      "attacks": [
+        "emoluments",
+        "rule_of_law"
+      ],
+      "_origin_file": "meidas_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 21
+    },
+    {
+      "source_key": "50501",
+      "date": "2026-01-31",
+      "category": "Law Enforcement & Surveillance",
+      "title": "Enforcement Surge in Columbia Heights School District",
+      "url": "https://www.the50501movement.org/p/will-my-family-still-be-here-when",
+      "summary": "On January 31, 2026, The New Yorker reported an enforcement surge affecting the Columbia Heights school district near Minneapolis. The report described students being taken into federal custody and educators developing protocols to address parent detentions and student fears. This situation highlights the direct impact of immigration enforcement on school communities and the need for schools to adapt to protect their students.",
+      "why_relevant": "The enforcement surge in school districts underscores the challenges schools face in maintaining a safe and supportive environment for all students, particularly those from immigrant families.",
+      "attacks": [
+        "immigrants_refugees",
+        "education"
+      ],
+      "_origin_file": "50501_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 2
+    },
+    {
+      "source_key": "guardian",
+      "date": "2026-01-31",
+      "category": "Law Enforcement & Surveillance",
+      "title": "CBP Employee Charged with Drunken Driving in Minnesota",
+      "url": "https://www.theguardian.com/us-news/2026/jan/31/cbp-border-agent-charged-drunk-driving",
+      "summary": "Alfredo Mancillas Jr, a US Customs and Border Protection (CBP) employee, was arrested in St Paul, Minnesota, after being found unconscious and \"covered in vomit\" in a car parked in a no-parking zone. State troopers reported that Mancillas smelled of alcohol and had watery, bloodshot eyes. He failed a field sobriety test and refused a breath test, leading to charges of third- and fourth-degree driving while intoxicated (DWI). Mancillas was released on his own recognizance and is scheduled for a court date on 24 March. The Department of Homeland Security's professional responsibility office is reviewing the arrest.",
+      "why_relevant": "The arrest of a CBP employee for DWI raises concerns about the conduct and integrity of law enforcement personnel.",
+      "attacks": [],
+      "_origin_file": "guardian_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 61
+    },
+    {
+      "source_key": "guardian",
+      "date": "2026-01-31",
+      "category": "Law Enforcement & Surveillance",
+      "title": "Don Lemon Arrested and Charged with Civil Rights Crimes",
+      "url": "https://www.theguardian.com/us-news/2026/jan/30/don-lemon-minnesota-protest-charges",
+      "summary": "Former CNN anchor Don Lemon was arrested and charged by the Department of Justice with civil rights crimes for allegedly interfering with religious freedom during a protest at a church in Minnesota. The charges include violations of the Freedom of Access to Clinic Entrances (Face) Act. Lemon, who was taken into custody in Los Angeles, was released after his arrest. The White House celebrated the arrest on social media, while Lemon and his lawyer criticized the charges as an attack on press freedom and the First Amendment. The arrest has sparked outrage among journalists and First Amendment advocates.",
+      "why_relevant": "The arrest of a journalist on charges related to their reporting activities raises significant concerns about press freedom and the protection of First Amendment rights in the United States.",
+      "attacks": [
+        "press",
+        "information",
+        "rule_of_law"
+      ],
+      "_origin_file": "guardian_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 70
+    },
+    {
+      "source_key": "guardian",
+      "date": "2026-01-31",
+      "category": "Law Enforcement & Surveillance",
+      "title": "Federal agents arrest minors and bystanders in Minneapolis",
+      "url": "https://www.theguardian.com/us-news/2026/jan/31/a-week-on-the-block-where-alex-pretti-was-killed",
+      "summary": "Federal agents in Minneapolis arrested 15- and 16-year-old siblings outside a Whittier clinic, along with two bystanders, as part of a broader operation in the area. The arrests have contributed to a climate of fear among residents, particularly immigrants and refugees, who are concerned about profiling and detention. The community has been actively supporting those affected by providing legal aid and advocating for an eviction moratorium for those unable to work due to the federal presence.",
+      "why_relevant": "The arrest of minors and bystanders by federal agents highlights issues of civil rights violations and the impact of aggressive immigration enforcement on community trust and safety.",
+      "attacks": [
+        "immigrants_refugees",
+        "state_violence",
+        "rule_of_law"
+      ],
+      "_origin_file": "guardian_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 59
+    },
+    {
+      "source_key": "guardian",
+      "date": "2026-01-31",
+      "category": "Law Enforcement & Surveillance",
+      "title": "Trump Administration Demotes Border Patrol Commander in Minnesota",
+      "url": "https://www.theguardian.com/us-news/2026/jan/31/cbp-border-agent-charged-drunk-driving",
+      "summary": "Following public backlash over the fatal shootings of two US citizens by federal immigration agents in Minneapolis, the Trump administration demoted Gregory Bovino, the border patrol's commander at large, and reassigned him out of Minneapolis. Tom Homan, the administration's border chief, took charge of the Minnesota operation, acknowledging the need for improvements without providing specifics. The shootings occurred during Operation Metro Surge, a mass deportation campaign that involved over 3,000 federal immigration agents in St Paul and Minneapolis.",
+      "why_relevant": "The demotion and reassignment of a border patrol commander highlight accountability measures following controversial law enforcement actions.",
+      "attacks": [
+        "immigrants_refugees",
+        "rule_of_law",
+        "public_service"
+      ],
+      "_origin_file": "guardian_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 62
+    },
+    {
+      "source_key": "hcr",
+      "date": "2026-01-31",
+      "category": "Law Enforcement & Surveillance",
+      "title": "Don Lemon Arrested for Violating FACE Act",
+      "url": "https://www.pbs.org/newshour/politics/trump-administration-charges-don-lemon-with-federal-civil-rights-crimes-related-to-anti-ice-church-protest",
+      "summary": "Federal agents arrested independent journalist Don Lemon in Minneapolis, charging him with violating the Freedom of Access to Clinic Entrances (FACE) Act and conspiring to hurt the exercise of rights. The charges stem from Lemon's filming of a protest at a church service. Previous attempts by federal prosecutors to charge him were blocked by a magistrate judge and a federal judge. The administration's actions are seen as an attempt to intimidate independent journalists and suppress coverage of federal authority.",
+      "why_relevant": "The arrest of Lemon represents a significant threat to press freedom and the First Amendment rights of journalists.",
+      "attacks": [
+        "press",
+        "truth",
+        "constitution"
+      ],
+      "_origin_file": "hcr_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 9
+    },
+    {
+      "source_key": "meidas",
+      "date": "2026-01-31",
+      "category": "Law Enforcement & Surveillance",
+      "title": "Trump Accuses Minnesota of Fraud Amid DOJ Resignations",
+      "url": "https://www.meidasplus.com/p/saturday-afternoon-news-updates-13126",
+      "summary": "Donald Trump accused Minnesota of massive fraud involving a fabricated $19 billion figure. This accusation comes as federal prosecutors, previously pursuing fraud cases under the Biden administration, have resigned en masse. The resignations follow Trump's alleged weaponization of the Department of Justice and his issuance of pardons to political allies and criminals.",
+      "why_relevant": "The event highlights potential misuse of the DOJ and the impact of political interference on legal processes.",
+      "attacks": [
+        "justice_dept",
+        "rule_of_law"
+      ],
+      "_origin_file": "meidas_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 27
+    },
+    {
+      "source_key": "meidas",
+      "date": "2026-01-31",
+      "category": "Law Enforcement & Surveillance",
+      "title": "Trump Administration's Influence on DOJ Hiring",
+      "url": "https://www.meidasplus.com/p/this-weekend-in-politics-bulletin-801",
+      "summary": "Chad Mizelle, former DOJ Chief of Staff, posted a message seeking lawyers who support President Trump to join the DOJ as AUSAs. The post raises concerns about the politicization of federal law enforcement and the potential impact on the impartiality of justice.",
+      "why_relevant": "The call for politically aligned hires threatens the nonpartisan nature of the Department of Justice.",
+      "attacks": [
+        "justice_dept",
+        "civil_service"
+      ],
+      "_origin_file": "meidas_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 25
+    },
+    {
+      "source_key": "meidas",
+      "date": "2026-01-31",
+      "category": "Elections & Representation",
+      "title": "Democrats Flip Texas Senate Seat in Special Election",
+      "url": "https://www.meidasplus.com/p/this-weekend-in-politics-bulletin-801",
+      "summary": "Democrat Taylor Rehmet won a special election for the Texas Senate's 9th District, a seat previously held by Republicans. Rehmet's victory, with a 14.4-point margin, marks a significant swing from Trump's 2024 performance in the district. This win is part of a broader trend of Democratic gains in state legislative seats during Trump's second term.",
+      "why_relevant": "The election result indicates a potential shift in voter sentiment and could impact the political landscape ahead of the midterms.",
+      "attacks": [],
+      "_origin_file": "meidas_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 18
+    },
+    {
+      "source_key": "outloud",
+      "date": "2026-01-31",
+      "category": "Elections & Representation",
+      "title": "Seizure of 2020 Ballots in Georgia",
+      "url": "https://kziegler.substack.com/p/democracy-out-loud-470-inspiration",
+      "summary": "Ballots from the 2020 election in Georgia were seized, raising concerns about election integrity and the potential for undermining public trust in electoral processes. The seizure has been linked to ongoing disputes and investigations related to the 2020 election results. This action has prompted criticism from civil rights groups and calls for transparency in the handling of election materials.",
+      "why_relevant": "The seizure of election ballots poses a threat to the integrity and transparency of the electoral process.",
+      "attacks": [
+        "elections",
+        "transparency"
+      ],
+      "_origin_file": "outloud_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 4
+    },
+    {
+      "source_key": "guardian",
+      "date": "2026-01-31",
+      "category": "Civil Society & Protest",
+      "title": "Nationwide anti-ICE protests and strikes occur across the US",
+      "url": "https://www.theguardian.com/us-news/2026/jan/30/ice-protests-friday-strike",
+      "summary": "On Friday, thousands of protesters across the United States participated in a nationwide day of action against the Trump administration's immigration policies. The protests, which included strikes and walkouts, were sparked by recent incidents involving ICE agents, including the killings of Renee Good and Alex Pretti. Demonstrations took place in cities such as Los Angeles, New York, and Minneapolis, with participants demanding the withdrawal of federal immigration agents and calling for accountability and reform. The protests coincided with a potential government shutdown, as Senate Democrats and some Republicans negotiated a funding package that excludes Homeland Security.",
+      "why_relevant": "The protests highlight significant public dissent against federal immigration enforcement and reflect broader tensions regarding immigration policy and civil rights.",
+      "attacks": [
+        "immigrants_refugees",
+        "public_service",
+        "rule_of_law"
+      ],
+      "_origin_file": "guardian_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 67
+    },
+    {
+      "source_key": "guardian",
+      "date": "2026-01-31",
+      "category": "Civil Society & Protest",
+      "title": "Nationwide anti-ICE protests held in response to Trump administration's immigration policies",
+      "url": "https://www.theguardian.com/us-news/2026/jan/30/new-york-city-ice-trump-protest",
+      "summary": "On Friday, thousands of people, including students, participated in a nationwide day of action against the Trump administration's immigration policies, specifically targeting Immigration and Customs Enforcement (ICE). The protests, which took place in cities like New York and Minneapolis, were organized in response to recent incidents involving ICE, including the shooting deaths of Renee Nicole Good and Alex Pretti by federal agents. Demonstrators called for the abolition of ICE and used economic pressure tactics such as work stoppages and consumer boycotts to demand accountability and reform.",
+      "why_relevant": "The protests highlight significant public opposition to federal immigration enforcement practices and the use of economic pressure as a tool for demanding policy change.",
+      "attacks": [
+        "immigrants_refugees",
+        "public_service",
+        "justice_dept"
+      ],
+      "_origin_file": "guardian_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 68
+    },
+    {
+      "source_key": "hcr",
+      "date": "2026-01-31",
+      "category": "Civil Society & Protest",
+      "title": "Nationwide Protests Against Federal Actions",
+      "url": "https://www.startribune.com/minnesota-law-professors-call-arrests-of-journalists-for-documenting-church-protest-an-attack-on-free-press/60157425",
+      "summary": "Tens of thousands of people participated in nationwide protests, particularly in Minneapolis, against the actions of federal agents and the Trump administration. The protests were marked by significant turnout despite harsh weather conditions, demonstrating widespread public dissent against federal policies.",
+      "why_relevant": "The protests signify a strong public response to perceived government overreach and a demand for accountability from federal authorities.",
+      "attacks": [],
+      "_origin_file": "hcr_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 12
+    },
+    {
+      "source_key": "meidas",
+      "date": "2026-01-31",
+      "category": "Civil Society & Protest",
+      "title": "ICE Operations in Minnesota Spark Protests",
+      "url": "https://www.meidasplus.com/p/this-weekend-in-politics-bulletin-801",
+      "summary": "ICE operations in Minnesota, including the shooting of Renée Good and Alex Pretti, have led to widespread protests and the formation of resistance movements. Over 34,000 Minnesotans have signed up to be trained as ICE observers, aiming to document and challenge federal actions. The situation highlights tensions between federal enforcement and local communities.",
+      "why_relevant": "The protests and community response reflect significant public opposition to federal immigration enforcement practices.",
+      "attacks": [
+        "state_violence",
+        "rule_of_law"
+      ],
+      "_origin_file": "meidas_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 20
+    },
+    {
+      "source_key": "meidas",
+      "date": "2026-01-31",
+      "category": "Information & Media Control",
+      "title": "DHS Encourages Reporting of Undocumented Immigrants",
+      "url": "https://www.meidasplus.com/p/this-weekend-in-politics-bulletin-801",
+      "summary": "The Department of Homeland Security posted a message encouraging the public to report undocumented immigrants, suggesting that doing so could lead to affordable housing opportunities. The message included the ICE hotline number, drawing comparisons to historical instances of targeting minority groups.",
+      "why_relevant": "The DHS message raises ethical concerns about the use of public reporting to target immigrant communities.",
+      "attacks": [
+        "immigrants_refugees",
+        "decency"
+      ],
+      "_origin_file": "meidas_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 19
+    },
+    {
+      "source_key": "meidas",
+      "date": "2026-01-31",
+      "category": "Information & Media Control",
+      "title": "Trump Administration Promotes Misleading Op-Ed on Economy",
+      "url": "https://www.meidasplus.com/p/saturday-afternoon-news-updates-13126",
+      "summary": "The Trump administration promoted an op-ed in the Wall Street Journal, authored by Donald Trump, claiming economic success under his leadership. The op-ed falsely attributed the burden of tariffs to foreign producers and misrepresented the state of inflation and economic growth. The administration's promotion of this piece as an editorial endorsement misleads the public about the economic realities.",
+      "why_relevant": "This act involves the dissemination of misleading information by the government, affecting public perception of economic conditions.",
+      "attacks": [
+        "truth",
+        "information"
+      ],
+      "_origin_file": "meidas_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 26
+    },
+    {
+      "source_key": "outloud",
+      "date": "2026-01-31",
+      "category": "Information & Media Control",
+      "title": "Arrest of Four Black Journalists in Minneapolis",
+      "url": "https://kziegler.substack.com/p/democracy-out-loud-470-inspiration",
+      "summary": "Four Black journalists were arrested while covering protests in Minneapolis. The protests were in response to the killing of eight people by ICE in January. The arrests have raised concerns about press freedom and the treatment of journalists, particularly those from minority communities, during public demonstrations. The incident has sparked further protests and calls for accountability from law enforcement agencies involved in the arrests.",
+      "why_relevant": "The arrest of journalists covering protests is a significant issue for press freedom and the public's right to information.",
+      "attacks": [
+        "press",
+        "minorities"
+      ],
+      "_origin_file": "outloud_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 3
+    },
+    {
+      "source_key": "meidas",
+      "date": "2026-01-31",
+      "category": "Economic & Regulatory Power",
+      "title": "Trump Family's Cryptocurrency Deal with Abu Dhabi Royal",
+      "url": "https://www.meidasplus.com/p/this-weekend-in-politics-bulletin-801",
+      "summary": "The Trump family signed a deal with an Abu Dhabi royal to sell a 49% stake in their cryptocurrency venture for $500 million. The deal, signed by Eric Trump, involved a $187 million upfront payment to Trump family entities. The investment was backed by Sheikh Tahnoon bin Zayed Al Nahyan, who has been seeking access to AI chips from the US. The deal raises concerns about foreign influence in US politics.",
+      "why_relevant": "The transaction underscores potential conflicts of interest and foreign influence in the US political landscape.",
+      "attacks": [
+        "emoluments",
+        "global_democracy"
+      ],
+      "_origin_file": "meidas_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 17
+    },
+    {
+      "source_key": "meidas",
+      "date": "2026-01-31",
+      "category": "Economic & Regulatory Power",
+      "title": "Trump Proposes Vanity Projects in Washington, D.C.",
+      "url": "https://www.meidasplus.com/p/saturday-afternoon-news-updates-13126",
+      "summary": "The Trump administration has proposed several grandiose projects in Washington, D.C., including a 250-foot \"Golden Arch\" and a Grand Prix racetrack around the Capitol. These projects are criticized for their scale and potential impact on the city's landscape, diverting attention from pressing public needs like healthcare and education.",
+      "why_relevant": "These proposals reflect a prioritization of vanity projects over essential public services, affecting resource allocation.",
+      "attacks": [
+        "public_service",
+        "economy"
+      ],
+      "_origin_file": "meidas_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 28
+    },
+    {
+      "source_key": "noah",
+      "date": "2026-01-31",
+      "category": "Economic & Regulatory Power",
+      "title": "China Stockpiles Gold Amid Global Financial Uncertainty",
+      "url": "https://www.noahpinion.blog/p/international-financial-anarchy",
+      "summary": "China has been significantly increasing its gold reserves, acquiring large amounts of gold in recent months. This stockpiling is seen as a strategic move to prepare for potential shifts in the global financial system, possibly positioning the yuan as a future reserve currency backed by gold.",
+      "why_relevant": "China's gold accumulation could signal a strategic shift in global financial systems, challenging the current dollar-dominated structure and impacting international economic stability.",
+      "attacks": [
+        "economy",
+        "global_democracy"
+      ],
+      "_origin_file": "noah_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 9
+    },
+    {
+      "source_key": "noah",
+      "date": "2026-01-31",
+      "category": "Economic & Regulatory Power",
+      "title": "Trump Administration's Financial Policies Prompt Global Gold Buying",
+      "url": "https://www.noahpinion.blog/p/international-financial-anarchy",
+      "summary": "The Trump administration's unpredictable financial policies, including high tariffs and threats to the Federal Reserve's independence, have led to increased global demand for gold. This surge in gold buying is seen as a response to fears of financial instability and a potential shift away from the U.S. dollar as the world's reserve currency. Central banks, particularly in Asia, have been significant purchasers of gold, reflecting concerns over geopolitical turmoil and the stability of sovereign bonds and currencies.",
+      "why_relevant": "This shift in global financial behavior indicates a potential move away from the U.S. dollar, affecting international economic stability and U.S. economic influence.",
+      "attacks": [
+        "economy",
+        "global_democracy"
+      ],
+      "_origin_file": "noah_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 6
+    },
+    {
+      "source_key": "guardian",
+      "date": "2026-01-31",
+      "category": "Appointments & Patronage",
+      "title": "Demotion of border patrol commander Gregory Bovino",
+      "url": "https://www.theguardian.com/us-news/2026/jan/31/a-week-on-the-block-where-alex-pretti-was-killed",
+      "summary": "Following the killing of Alex Pretti and the subsequent federal operation in Minneapolis, the Trump administration demoted Gregory Bovino, the border patrol commander who had been the public face of the operation. This move is seen as a response to public outcry and pressure from the community, which has been actively protesting the federal presence and its impact on local residents.",
+      "why_relevant": "The demotion of a high-ranking official in response to public pressure reflects the power of community activism and its influence on government accountability.",
+      "attacks": [],
+      "_origin_file": "guardian_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 60
+    },
+    {
+      "source_key": "noah",
+      "date": "2026-01-31",
+      "category": "Appointments & Patronage",
+      "title": "Trump's Nomination of Kevin Warsh to Lead the Federal Reserve",
+      "url": "https://www.noahpinion.blog/p/international-financial-anarchy",
+      "summary": "President Trump has reportedly nominated Kevin Warsh, known for his hard-money stance, to lead the Federal Reserve. This nomination comes amid concerns about the dollar's stability and potential debasement, influencing investor behavior and contributing to recent fluctuations in gold prices.",
+      "why_relevant": "The leadership of the Federal Reserve plays a crucial role in U.S. monetary policy, affecting both domestic and international economic conditions.",
+      "attacks": [
+        "economy",
+        "separation_of_powers"
+      ],
+      "_origin_file": "noah_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 10
+    },
+    {
+      "source_key": "hcr",
+      "date": "2026-01-31",
+      "category": "Transparency & Records",
+      "title": "DOJ Releases Epstein Files Amid Controversy",
+      "url": "https://www.abcnews.go.com/US/doj-releasing-additional-material-epstein-files/story?id=129680518",
+      "summary": "The Department of Justice announced the release of additional files related to Jeffrey Epstein, claiming it marks the end of a comprehensive document review process. However, the release has been criticized for exposing the identities of survivors, which advocates argue is a betrayal of their rights. The DOJ continues to withhold millions of pages of documents, raising questions about transparency and accountability.",
+      "why_relevant": "The release of the Epstein files highlights ongoing concerns about the protection of victims' rights and the transparency of government actions.",
+      "attacks": [
+        "truth"
+      ],
+      "_origin_file": "hcr_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 10
+    },
+    {
+      "source_key": "meidas",
+      "date": "2026-01-31",
+      "category": "Transparency & Records",
+      "title": "Concerns Over Withheld Epstein Documents",
+      "url": "https://www.meidasplus.com/p/saturday-afternoon-news-updates-13126",
+      "summary": "Millions of documents related to Jeffrey Epstein remain unreleased, with allegations involving high-profile individuals, including Donald Trump. The limited release of documents raises concerns about transparency and accountability, as victims' allegations remain unaddressed.",
+      "why_relevant": "The withholding of documents impedes transparency and accountability in addressing serious allegations.",
+      "attacks": [
+        "transparency",
+        "justice_dept"
+      ],
+      "_origin_file": "meidas_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 30
+    },
+    {
+      "source_key": "meidas",
+      "date": "2026-01-31",
+      "category": "Transparency & Records",
+      "title": "Trump Administration's Response to Epstein Files",
+      "url": "https://www.meidasplus.com/p/this-weekend-in-politics-bulletin-801",
+      "summary": "The release of Epstein files, which mention President Trump over 1,800 times, has sparked controversy. The files have led to calls for accountability and transparency, with some alleging a cover-up by the DOJ. The situation underscores ongoing concerns about the administration's handling of sensitive information.",
+      "why_relevant": "The handling of the Epstein files raises questions about government transparency and accountability.",
+      "attacks": [
+        "truth",
+        "information"
+      ],
+      "_origin_file": "meidas_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 23
+    },
+    {
+      "source_key": "guardian",
+      "date": "2026-01-31",
+      "category": "International Relations",
+      "title": "French MPs demand explanation over Capgemini's contract with ICE",
+      "url": "https://www.theguardian.com/us-news/2026/jan/31/french-mps-demand-explanation-over-tech-firm-capgemini-contract-ice",
+      "summary": "French lawmakers have demanded an explanation from Capgemini, a major French tech company, after it was revealed that its US subsidiary, Capgemini Group Solutions, signed a $4.8 million contract with the US Immigration and Customs Enforcement (ICE) in December. The contract involves providing \"skip tracing\" services to locate and expel migrants, with potential bonuses up to $365 million. This revelation has sparked outrage in France, with calls for transparency and concerns over potential human rights violations. The contract is currently not being executed due to an appeal.",
+      "why_relevant": "The contract raises significant concerns about human rights and the ethical implications of international corporate collaborations with immigration enforcement agencies.",
+      "attacks": [
+        "immigrants_refugees",
+        "human_rights"
+      ],
+      "_origin_file": "guardian_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 65
+    },
+    {
+      "source_key": "meidas",
+      "date": "2026-01-31",
+      "category": "International Relations",
+      "title": "Trump Administration's AI Chip Deal with UAE",
+      "url": "https://www.meidasplus.com/p/this-weekend-in-politics-bulletin-801",
+      "summary": "The Trump administration agreed to provide the UAE with access to advanced AI chips, following meetings between Sheikh Tahnoon bin Zayed Al Nahyan and US officials. The deal, which allows the UAE to build a significant AI data center, raises concerns about the transfer of sensitive technology to foreign governments.",
+      "why_relevant": "The agreement poses potential risks to national security and highlights the complexities of international technology transfers.",
+      "attacks": [
+        "global_democracy",
+        "trade"
+      ],
+      "_origin_file": "meidas_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 22
+    },
+    {
+      "source_key": "noah",
+      "date": "2026-01-31",
+      "category": "International Relations",
+      "title": "China Develops Yuan-Based Payment Systems",
+      "url": "https://www.noahpinion.blog/p/international-financial-anarchy",
+      "summary": "In response to the vulnerability exposed by U.S. financial sanctions on Russia, China has accelerated the development of yuan-based payment systems. This move is part of a broader effort to reduce reliance on the dollar-based financial system and increase the use of the yuan in international transactions, potentially challenging the dollar's dominance as the global reserve currency.",
+      "why_relevant": "China's efforts to establish alternative payment systems could shift global financial power dynamics and reduce U.S. influence in international finance.",
+      "attacks": [
+        "global_democracy",
+        "trade"
+      ],
+      "_origin_file": "noah_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 8
+    },
+    {
+      "source_key": "noah",
+      "date": "2026-01-31",
+      "category": "International Relations",
+      "title": "U.S. and Europe Impose Financial Sanctions on Russia",
+      "url": "https://www.noahpinion.blog/p/international-financial-anarchy",
+      "summary": "In response to the Ukraine War, the U.S. and Europe have imposed significant financial sanctions on Russia, including cutting Russian banks and companies out of the international financial system and the SWIFT payment system. These sanctions aim to pressure Russia by making it difficult to pay for imports, thereby impacting its economy and potentially influencing its actions in the conflict.",
+      "why_relevant": "The sanctions demonstrate the use of financial systems as a tool of international diplomacy and conflict resolution, affecting global economic and political dynamics.",
+      "attacks": [
+        "global_democracy",
+        "peace"
+      ],
+      "_origin_file": "noah_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 7
+    },
+    {
+      "source_key": "guardian",
+      "date": "2026-01-31",
+      "category": "Civil–Military Relations & State Violence",
+      "title": "Federal agents deploy teargas and projectiles in Minneapolis",
+      "url": "https://www.theguardian.com/us-news/2026/jan/31/a-week-on-the-block-where-alex-pretti-was-killed",
+      "summary": "In Minneapolis, Minnesota, federal agents deployed teargas and projectiles against demonstrators and neighbors who gathered following the killing of Alex Pretti by federal agents. The incident occurred on Nicollet Avenue, where the community has been mourning Pretti's death. The use of force by federal agents has been described as excessive, with reports of chemical irritants affecting residents, including children, and leading to injuries among demonstrators. The community has responded by transforming local businesses into refuges and makeshift medical centers to support those affected.",
+      "why_relevant": "The deployment of teargas and projectiles by federal agents against civilians raises concerns about the use of excessive force and the impact on community safety and civil liberties.",
+      "attacks": [
+        "state_violence",
+        "immigrants_refugees",
+        "public_health"
+      ],
+      "_origin_file": "guardian_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 58
+    },
+    {
+      "source_key": "meidas",
+      "date": "2026-01-31",
+      "category": "Civil–Military Relations & State Violence",
+      "title": "Buttigieg Criticizes State Violence and Immigration Enforcement",
+      "url": "https://www.meidasplus.com/p/saturday-afternoon-news-updates-13126",
+      "summary": "Former Transportation Secretary Pete Buttigieg criticized the Trump administration's state violence and militarized immigration enforcement. He highlighted the killing of Alex Pretti by federal agents and the aggressive tactics used against families and children. Buttigieg called for accountability and adherence to the rule of law.",
+      "why_relevant": "The event underscores concerns about state violence and the erosion of legal protections in immigration enforcement.",
+      "attacks": [
+        "civil_service",
+        "rule_of_law",
+        "immigrants_refugees"
+      ],
+      "_origin_file": "meidas_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 29
+    },
+    {
+      "source_key": "meidas",
+      "date": "2026-01-31",
+      "category": "Civil–Military Relations & State Violence",
+      "title": "Federal Agents Identified in Minneapolis Shooting",
+      "url": "https://www.meidasplus.com/p/this-weekend-in-politics-bulletin-801",
+      "summary": "ProPublica identified two federal immigration agents, Jesus Ochoa and Raymundo Gutierrez, as the shooters in the deadly encounter with Minneapolis protester Alex Pretti. The incident has sparked massive protests and calls for criminal investigations. Ochoa is a Border Patrol agent, and Gutierrez is a CBP officer assigned to a special response team. Both agents are from South Texas and have been with CBP since 2018 and 2014, respectively.",
+      "why_relevant": "The identification of federal agents in a fatal shooting highlights ongoing tensions and accountability issues in law enforcement actions.",
+      "attacks": [
+        "state_violence",
+        "rule_of_law"
+      ],
+      "_origin_file": "meidas_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 16
+    },
+    {
+      "source_key": "meidas",
+      "date": "2026-01-31",
+      "category": "Civil–Military Relations & State Violence",
+      "title": "ICE Detention Conditions in Minnesota",
+      "url": "https://www.meidasplus.com/p/this-weekend-in-politics-bulletin-801",
+      "summary": "Reports of inhumane conditions at the Whipple ICE detention center in Minnesota have emerged, with detainees allegedly sleeping on cold concrete floors without blankets. The situation has prompted calls for improved treatment and respect for human dignity within detention facilities.",
+      "why_relevant": "The reports highlight ongoing human rights concerns within the US immigration detention system.",
+      "attacks": [
+        "state_violence",
+        "immigrants_refugees"
+      ],
+      "_origin_file": "meidas_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 24
+    },
+    {
+      "source_key": "outloud",
+      "date": "2026-01-31",
+      "category": "Civil–Military Relations & State Violence",
+      "title": "Brutalization of Imprisoned Individuals",
+      "url": "https://kziegler.substack.com/p/democracy-out-loud-470-inspiration",
+      "summary": "Reports have emerged of the brutalization of individuals imprisoned in connection with protests and immigration enforcement actions. These reports highlight concerns about the treatment of detainees and the use of excessive force by authorities. Human rights organizations have called for investigations into these allegations and for measures to ensure the humane treatment of all prisoners.",
+      "why_relevant": "The brutalization of prisoners raises serious human rights concerns and questions about the use of state power.",
+      "attacks": [
+        "state_violence",
+        "justice_dept"
+      ],
+      "_origin_file": "outloud_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 5
+    },
+    {
+      "source_key": "guardian",
+      "date": "2026-02-01",
+      "category": "Executive Actions & Orders",
+      "title": "US committee reconsiders all vaccine recommendations",
+      "url": "https://www.theguardian.com/us-news/2026/feb/01/vaccine-recommendations-acip",
+      "summary": "The Advisory Committee on Immunization Practices (ACIP), under the leadership of Kirk Milhoan, is reevaluating all vaccine recommendations, marking a significant shift in the US's approach to vaccination. This move, influenced by Robert F Kennedy Jr., Secretary of the US Department of Health and Human Services, reflects a growing skepticism towards routine vaccines. The committee is considering changes to the childhood immunization schedule, with discussions focusing on the risks and benefits of vaccines like polio and measles. This reevaluation could lead to significant changes in public health policy and vaccine mandates.",
+      "why_relevant": "This reevaluation of vaccine recommendations could impact public health policy and vaccination rates, affecting disease prevention and public safety.",
+      "attacks": [
+        "public_health",
+        "science",
+        "truth"
+      ],
+      "_origin_file": "guardian_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 47
+    },
+    {
+      "source_key": "guardian",
+      "date": "2026-02-01",
+      "category": "Legislative & Oversight Activity",
+      "title": "Florida Republicans advance bill to weaken vaccine protections for children",
+      "url": "https://www.theguardian.com/us-news/2026/feb/01/florida-bill-advances-weaken-vaccine-protections-children",
+      "summary": "Florida Republicans have advanced a bill in the state legislature to weaken vaccine protections for children. The bill, introduced by state senator Clay Yarborough, passed the health policy committee with a 6-4 vote. It aims to expand exemptions for parents who do not want their school-age children vaccinated, adding \"conscience\" as a reason for opting out, alongside existing religious exemptions. The bill maintains mandates for vaccines against measles, mumps, rubella, diphtheria, tetanus, pertussis, and polio. Critics argue that the bill could lead to increased health risks for children and vulnerable populations.",
+      "why_relevant": "This legislative move could significantly impact public health and vaccine compliance, affecting children's health and community immunity.",
+      "attacks": [
+        "children",
+        "public_health",
+        "science"
+      ],
+      "_origin_file": "guardian_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 46
+    },
+    {
+      "source_key": "meidas",
+      "date": "2026-02-01",
+      "category": "Legislative & Oversight Activity",
+      "title": "House GOP Leadership Faces Internal Revolt Over Funding Bills",
+      "url": "https://www.meidasplus.com/p/today-in-politics-bulletin-299-2226",
+      "summary": "House GOP leadership, led by Mike Johnson, is attempting to pass five full-year funding bills and a two-week DHS stopgap without Democratic support. Internal Republican dissent threatens the passage, with some members demanding the inclusion of the SAVE Act, which is unlikely to pass the Senate. Trump has urged Republicans to support the current funding deal to avoid a government shutdown.",
+      "why_relevant": "The internal GOP conflict and potential government shutdown highlight challenges in legislative governance and party unity.",
+      "attacks": [
+        "congress"
+      ],
+      "_origin_file": "meidas_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 15
+    },
+    {
+      "source_key": "50501",
+      "date": "2026-02-01",
+      "category": "Judicial Developments",
+      "title": "Dismissal of Judicial Misconduct Complaint Against Judge Boasberg",
+      "url": "https://www.the50501movement.org/p/when-we-move-things-move",
+      "summary": "A federal appellate chief judge dismissed a judicial misconduct complaint against Judge James E. Boasberg. The complaint, lodged by U.S. Department of Justice officials, was related to Boasberg's handling of litigation concerning the deportation of Venezuelan migrants. The dismissal was issued by Jeffrey Sutton, chief judge of the U.S. Court of Appeals for the Sixth Circuit.",
+      "why_relevant": "The dismissal of the complaint against Judge Boasberg highlights the judiciary's independence and the challenges of political influence on judicial proceedings.",
+      "attacks": [],
+      "_origin_file": "50501_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 11
+    },
+    {
+      "source_key": "hcr",
+      "date": "2026-02-01",
+      "category": "Judicial Developments",
+      "title": "U.S. District Judge orders release of detained asylum seeker and child",
+      "url": "https://storage.courtlistener.com/recap/gov.uscourts.txwd.1172886492/gov.uscourts.txwd.1172886492.9.0.pdf",
+      "summary": "U.S. District Judge Fred Biery ordered the release of five-year-old Liam Conejo Ramos and his father, Adrian Conejo Arias, from detention, criticizing U.S. officials for ignoring constitutional principles in their treatment of undocumented immigrants. The judge emphasized the need for humane treatment and adherence to the rule of law.",
+      "why_relevant": "This ruling underscores the judiciary's role in upholding constitutional rights and protecting vulnerable populations against government overreach.",
+      "attacks": [],
+      "_origin_file": "hcr_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 7
+    },
+    {
+      "source_key": "meidas",
+      "date": "2026-02-01",
+      "category": "Judicial Developments",
+      "title": "Whistleblower Complaint Against DNI Tulsi Gabbard",
+      "url": "https://www.meidasplus.com/p/today-in-politics-bulletin-299-2226",
+      "summary": "A whistleblower complaint has been filed against Director of National Intelligence Tulsi Gabbard, alleging wrongdoing. The complaint is highly classified, leading to a struggle over its disclosure to Congress. The whistleblower's lawyer accuses Gabbard of obstructing the complaint's dissemination. Despite being filed last May, Congress has not yet received the complaint, which is unprecedented according to experts. Gabbard's office has dismissed the complaint as baseless and politically motivated.",
+      "why_relevant": "The handling of the complaint raises concerns about transparency and accountability within the intelligence community.",
+      "attacks": [
+        "intelligence",
+        "transparency"
+      ],
+      "_origin_file": "meidas_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 12
+    },
+    {
+      "source_key": "guardian",
+      "date": "2026-02-01",
+      "category": "Law Enforcement & Surveillance",
+      "title": "Justice Department opens investigation into the fatal shooting of Alex Pretti",
+      "url": "https://www.theguardian.com/us-news/2026/feb/01/border-patrol-agents-identified-alex-pretti-minneapolis",
+      "summary": "The Justice Department's civil rights division has opened an investigation into the fatal shooting of Alex Pretti by two federal agents, Jesus Ochoa and Raymundo Gutierrez, in Minneapolis. The agents, who are part of Customs and Border Protection, were involved in Operation Metro Surge, an immigration enforcement initiative. The incident has sparked widespread protests and calls for transparency, as the agents' identities were initially withheld. The Department of Homeland Security has placed the agents on leave, and the lack of transparency has drawn criticism amid ongoing debates over immigration policies.",
+      "why_relevant": "The investigation addresses concerns about the use of force and transparency in federal immigration enforcement.",
+      "attacks": [
+        "immigrants_refugees",
+        "justice_dept",
+        "information"
+      ],
+      "_origin_file": "guardian_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 45
+    },
+    {
+      "source_key": "50501",
+      "date": "2026-02-01",
+      "category": "Elections & Representation",
+      "title": "Democrat Taylor Rehmet Wins Texas State Senate Seat",
+      "url": "https://www.the50501movement.org/p/when-we-move-things-move",
+      "summary": "Democrat Taylor Rehmet won a Texas state senate seat previously held by Republicans, in a district that former President Trump had carried by a wide margin in 2024. This electoral upset demonstrates the shifting political landscape and the potential for organizing and voter turnout to challenge \"safe seat\" assumptions.",
+      "why_relevant": "The election result signifies a potential shift in political power dynamics and the effectiveness of grassroots organizing in influencing electoral outcomes.",
+      "attacks": [],
+      "_origin_file": "50501_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 12
+    },
+    {
+      "source_key": "hcr",
+      "date": "2026-02-01",
+      "category": "Elections & Representation",
+      "title": "Texas Senate seat flips from Republican to Democratic",
+      "url": "https://thehill.com/homenews/campaign/5716988-democrats-score-upset-texas/",
+      "summary": "In a special election, Democrat Taylor Rehmet defeated Republican Leigh Wambsganss for a Texas Senate seat that had been held by Republicans since the early 1990s. Rehmet's victory came despite significant financial disadvantages, indicating a substantial shift in voter sentiment in a district previously won by Trump.",
+      "why_relevant": "This election result reflects changing political dynamics and voter engagement, which are crucial for the health of democracy.",
+      "attacks": [],
+      "_origin_file": "hcr_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 8
+    },
+    {
+      "source_key": "hcr",
+      "date": "2026-02-01",
+      "category": "Information & Media Control",
+      "title": "Stephen Miller rejects citizenship for Haitians in Ohio",
+      "url": "https://heathercoxrichardson.substack.com/p/january-31-2026",
+      "summary": "White House deputy chief of staff Stephen Miller posted on social media rejecting the idea that Haitians living and working legally in Ohio should be considered part of the community, calling for a \"labor class\" that would be excluded from citizenship and political rights. This statement reflects a broader narrative of exclusion and white nationalism.",
+      "why_relevant": "Miller's comments highlight ongoing debates about immigration and citizenship rights, which are central to democratic principles of inclusion and representation.",
+      "attacks": [
+        "immigrants_refugees"
+      ],
+      "_origin_file": "hcr_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 6
+    },
+    {
+      "source_key": "meidas",
+      "date": "2026-02-01",
+      "category": "Information & Media Control",
+      "title": "Trump Threatens to Sue Grammy Host Trevor Noah",
+      "url": "https://www.meidasplus.com/p/today-in-politics-bulletin-299-2226",
+      "summary": "Former President Donald Trump has threatened to sue Grammy host Trevor Noah over comments made during the awards show. Noah joked about Trump and Bill Clinton spending time on Epstein Island, which Trump denies. Trump criticized Noah and threatened legal action, claiming the statements were incorrect and defamatory.",
+      "why_relevant": "The threat of legal action against a media figure for critical commentary raises concerns about press freedom and intimidation.",
+      "attacks": [
+        "press"
+      ],
+      "_origin_file": "meidas_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 13
+    },
+    {
+      "source_key": "meidas",
+      "date": "2026-02-01",
+      "category": "Economic & Regulatory Power",
+      "title": "UAE Investment in Trump's Crypto Company",
+      "url": "https://www.meidasplus.com/p/today-in-politics-bulletin-299-2226",
+      "summary": "The UAE has invested $500 million in a crypto company associated with Donald Trump, coinciding with Trump's agreement to sell advanced AI chips to the UAE. Trump claims ignorance of the investment details, stating that his family handles such matters. The timing of the investment raises questions about potential conflicts of interest and foreign influence.",
+      "why_relevant": "The investment highlights potential conflicts of interest and the influence of foreign investments on U.S. political figures.",
+      "attacks": [
+        "emoluments",
+        "diplomacy"
+      ],
+      "_origin_file": "meidas_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 14
+    },
+    {
+      "source_key": "hcr",
+      "date": "2026-02-02",
+      "category": "Executive Actions & Orders",
+      "title": "Removal of Exhibit on Enslavement from Independence National Historical Park",
+      "url": "https://www.nytimes.com/2026/01/22/us/politics/park-service-philadelphia-slavery-exhibit.html",
+      "summary": "On February 1, 2026, officials in the Trump administration removed an exhibit from Independence National Historical Park in Philadelphia that acknowledged the nine enslaved individuals at the President’s House Site during George Washington's residency. The exhibit aimed to explore the contradiction between slavery and freedom in the nation's founding but was deemed inconsistent with Trump's directive to focus on American achievements and progress. This action reflects a broader effort to reshape historical narratives in line with a specific ideological agenda.",
+      "why_relevant": "The removal of the exhibit undermines historical transparency and the acknowledgment of slavery's role in American history, impacting public understanding of civil rights and social justice.",
+      "attacks": [
+        "truth",
+        "public_memory",
+        "transparency"
+      ],
+      "_origin_file": "hcr_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 4
+    },
+    {
+      "source_key": "guardian",
+      "date": "2026-02-02",
+      "category": "Legislative & Oversight Activity",
+      "title": "Mississippi lawmakers introduce state-level Voting Rights Act legislation",
+      "url": "https://www.theguardian.com/us-news/2026/feb/02/supreme-court-voting-rights-act-mississippi",
+      "summary": "On Martin Luther King Jr Day, Mississippi lawmakers, including House Representative Zakiya Summers and State Senator Johnny DuPree, introduced legislation to create a state-level version of the Voting Rights Act of 1965. This move aims to protect minority voters in Mississippi by establishing a voting rights commission that would require certain jurisdictions to obtain pre-clearance for changes to election policies. The legislation also includes protections for individuals with limited English proficiency. This initiative comes in response to the weakening of federal voting rights protections by the Supreme Court.",
+      "why_relevant": "This legislation seeks to safeguard voting rights at the state level amid diminishing federal protections, highlighting the importance of state action in preserving democratic participation.",
+      "attacks": [],
+      "_origin_file": "guardian_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 38
+    },
+    {
+      "source_key": "meidas",
+      "date": "2026-02-02",
+      "category": "Legislative & Oversight Activity",
+      "title": "Clintons Agree to Testify in Epstein Investigation",
+      "url": "https://www.meidasplus.com/p/today-in-politics-bulletin-300-2326",
+      "summary": "Bill and Hillary Clinton have agreed to testify before the House Oversight Committee in its investigation into Jeffrey Epstein. This decision comes after months of resisting subpoenas from Chair James Comer, which they deemed invalid. The Clintons' testimony is set for February 26-27 and will be filmed, marking a rare instance of a former president testifying before Congress.",
+      "why_relevant": "The Clintons' testimony could provide significant insights into the Epstein investigation and its political implications.",
+      "attacks": [],
+      "_origin_file": "meidas_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 8
+    },
+    {
+      "source_key": "outloud",
+      "date": "2026-02-02",
+      "category": "Legislative & Oversight Activity",
+      "title": "North Carolina General Assembly Budget Stalemate",
+      "url": "https://kziegler.substack.com/p/democracy-out-loud-4701-raleigh-tomorrow",
+      "summary": "The North Carolina General Assembly has not passed a budget for 2026, resulting in teachers not receiving promised pay raises and essential programs in public schools, Head Start, and day care lacking funding. The budget delay is attributed to Senate President Berger's re-election campaign, as he anticipates the budget will be unpopular with MAGA supporters. The lack of a budget, combined with federal cuts, threatens the closure of rural hospitals and the loss of Medicaid and SNAP benefits for over 300,000 residents, primarily affecting children.",
+      "why_relevant": "The budget impasse affects public services and welfare, impacting democratic accountability and governance.",
+      "attacks": [
+        "poor",
+        "children",
+        "education",
+        "public_health"
+      ],
+      "_origin_file": "outloud_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 0
+    },
+    {
+      "source_key": "guardian",
+      "date": "2026-02-02",
+      "category": "Judicial Developments",
+      "title": "Defendant Appeals to Georgia Supreme Court on Domestic Terrorism Charges",
+      "url": "https://www.theguardian.com/us-news/2026/feb/02/cop-city-atlanta-police-case-appeal",
+      "summary": "",
+      "why_relevant": "The appeal challenges the constitutionality of domestic terrorism laws, which could affect future legal standards and prosecutions.",
+      "attacks": [
+        "justice_dept",
+        "rule_of_law"
+      ],
+      "_origin_file": "guardian_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 43
+    },
+    {
+      "source_key": "guardian",
+      "date": "2026-02-02",
+      "category": "Judicial Developments",
+      "title": "Florida couple files lawsuit against fertility clinic for embryo mix-up",
+      "url": "https://www.theguardian.com/us-news/2026/feb/02/florida-fertility-clinic-embryo-lawsuit",
+      "summary": "Tiffany Score and Steven Mills have filed a lawsuit against IVF Life Inc, operating as the Fertility Center of Orlando, and its lead physician, Dr. Milton McNichol, after discovering that they were implanted with the wrong embryo. The couple, who are both Caucasian, noticed their daughter Shea appeared to be of a different race shortly after her birth. Genetic testing confirmed no genetic relationship between the child and the plaintiffs. The lawsuit, filed in Palm Beach county circuit court, seeks a monetary remedy, though the amount is unspecified. The couple is also attempting to locate their child's biological parents.",
+      "why_relevant": "This lawsuit highlights significant issues in the fertility industry regarding embryo handling and the potential legal and ethical implications of such errors.",
+      "attacks": [],
+      "_origin_file": "guardian_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 32
+    },
+    {
+      "source_key": "guardian",
+      "date": "2026-02-02",
+      "category": "Judicial Developments",
+      "title": "Fulton County to Challenge FBI Seizure of Election Documents",
+      "url": "https://www.theguardian.com/us-news/2026/feb/02/georgia-fulton-county-fbi-election-raid",
+      "summary": "Fulton County officials plan to file a motion in federal court to challenge the FBI's seizure of 2020 election documents. The FBI, acting on a criminal warrant, seized approximately 700 boxes of documents, including ballots, from the county's election offices. The county argues that the seizure violated a previous court ruling that only allowed the FBI to access copies of the documents. The motion seeks the return of the original documents, which the county claims were unlawfully taken. The FBI's actions have raised concerns about election integrity and the potential impact on upcoming elections.",
+      "why_relevant": "This legal challenge highlights tensions between federal and local authorities over election document handling, impacting election integrity and public trust.",
+      "attacks": [
+        "elections",
+        "rule_of_law",
+        "information"
+      ],
+      "_origin_file": "guardian_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 36
+    },
+    {
+      "source_key": "guardian",
+      "date": "2026-02-02",
+      "category": "Judicial Developments",
+      "title": "Georgia Appeals Dismissal of Rico Charges in Cop City Case",
+      "url": "https://www.theguardian.com/us-news/2026/feb/02/cop-city-atlanta-police-case-appeal",
+      "summary": "",
+      "why_relevant": "The appeal could set a precedent for the use of racketeering laws against protest movements, affecting future legal actions and legislative decisions.",
+      "attacks": [
+        "justice_dept",
+        "civil_service",
+        "rule_of_law"
+      ],
+      "_origin_file": "guardian_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 42
+    },
+    {
+      "source_key": "guardian",
+      "date": "2026-02-02",
+      "category": "Judicial Developments",
+      "title": "Lawsuit Filed Against State Department and Marco Rubio Over Visa Suspension",
+      "url": "https://www.theguardian.com/us-news/2026/feb/02/marco-rubio-state-department-lawsuit-visa-ban",
+      "summary": "A coalition of immigration groups, lawyers, and US citizens has filed a lawsuit in a US district court in New York against the State Department and Secretary of State Marco Rubio. The lawsuit seeks to overturn an order that suspended immigrant visa approvals for citizens of 75 countries. The plaintiffs argue that the suspension is discriminatory and based on false claims that these nationals are likely to seek welfare payments. The order, announced via a social media post, affects countries including Somalia, Haiti, Iran, and Eritrea, and is said to bar nearly half of all immigrant visa applications.",
+      "why_relevant": "This lawsuit challenges a significant immigration policy that could impact the rights and lives of many individuals seeking to immigrate to the United States.",
+      "attacks": [
+        "immigrants_refugees",
+        "rule_of_law",
+        "constitution"
+      ],
+      "_origin_file": "guardian_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 35
+    },
+    {
+      "source_key": "guardian",
+      "date": "2026-02-02",
+      "category": "Judicial Developments",
+      "title": "US judge considers temporary restrictions on federal agents' use of force in Portland",
+      "url": "https://www.theguardian.com/us-news/2026/feb/02/judge-federal-agents-use-of-force-portland-ice-protests",
+      "summary": "A US district judge, Michael H Simon, is deliberating on whether to issue a temporary restraining order to limit federal officers' use of force during protests in Portland, Oregon. This consideration follows a weekend protest where federal agents used teargas, pepper balls, and rubber bullets on demonstrators, including children, outside an ICE facility. The protest was part of a broader response to the Trump administration's immigration policies and recent incidents involving federal agents. The ACLU of Oregon has filed a class-action lawsuit against the administration, citing retaliatory violence by federal officers.",
+      "why_relevant": "The judge's decision could impact the balance between federal authority and citizens' rights to protest, setting a precedent for the use of force by federal agents.",
+      "attacks": [
+        "civil_service",
+        "justice_dept",
+        "rule_of_law"
+      ],
+      "_origin_file": "guardian_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 34
+    },
+    {
+      "source_key": "meidas",
+      "date": "2026-02-02",
+      "category": "Judicial Developments",
+      "title": "DOJ Attorney Requests Contempt in Court",
+      "url": "https://www.meidasplus.com/p/today-in-politics-bulletin-300-2326",
+      "summary": "A Department of Justice attorney, Julie Le, expressed frustration in a federal court, stating \"The system sucks, this job sucks,\" when questioned by Judge Jerry Blackwell about the Trump administration's non-compliance with court orders. Le requested to be held in contempt to get 24 hours of sleep, highlighting the stress and challenges faced by DOJ attorneys in defending the administration's actions. This incident underscores the ongoing legal and ethical challenges within the DOJ under the Trump administration.",
+      "why_relevant": "The event highlights internal DOJ struggles and potential ethical issues in defending the administration's actions.",
+      "attacks": [
+        "justice_dept"
+      ],
+      "_origin_file": "meidas_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 5
+    },
+    {
+      "source_key": "guardian",
+      "date": "2026-02-02",
+      "category": "Law Enforcement & Surveillance",
+      "title": "Brazilian Influencer Júnior Pena Arrested by ICE",
+      "url": "https://www.theguardian.com/us-news/2026/feb/02/rightwing-brazilian-influencer-junior-pena-arrested-by-ice",
+      "summary": "Júnior Pena, a Brazilian influencer known for supporting Donald Trump's immigration policies, was arrested by ICE agents in New Jersey. Pena, who has lived in the US since 2009, was detained at the Delaney Hall detention facility after reportedly missing a court hearing. His lawyer is working to prevent his transfer to another state. Pena's arrest comes amid heightened deportations of Brazilians under Trump's administration, with a record number of deportations last year. The Brazilian community in the US faces increased fear and scrutiny due to the immigration crackdown.",
+      "why_relevant": "This event highlights the ongoing impact of US immigration enforcement policies on migrant communities and the legal challenges faced by individuals under these policies.",
+      "attacks": [
+        "immigrants_refugees"
+      ],
+      "_origin_file": "guardian_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 40
+    },
+    {
+      "source_key": "guardian",
+      "date": "2026-02-02",
+      "category": "Law Enforcement & Surveillance",
+      "title": "Federal agents to begin wearing body cameras",
+      "url": "https://www.theguardian.com/us-news/2026/feb/02/ice-agents-body-cameras-senator-ron-johnson",
+      "summary": "",
+      "why_relevant": "The implementation of body cameras for federal agents is a significant step towards increasing transparency and accountability in law enforcement.",
+      "attacks": [],
+      "_origin_file": "guardian_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 33
+    },
+    {
+      "source_key": "guardian",
+      "date": "2026-02-02",
+      "category": "Law Enforcement & Surveillance",
+      "title": "ICE Detains Caregiver, Denies Funeral Attendance",
+      "url": "https://www.theguardian.com/us-news/2026/feb/02/caregiver-detained-ice-dallas-maher-tarabishi-wael",
+      "summary": "Maher Tarabishi, a Jordan-born man and primary caregiver for his son Wael, who had Pompe disease, was detained by ICE in Dallas after a routine visit. Despite being allowed to remain in the US under supervised release due to his caregiving role, Maher was detained, leading to a rapid deterioration in Wael's health. Wael died on January 23, and ICE denied Maher the chance to attend his son's funeral. The family and their attorney had requested Maher's temporary release to attend the funeral, but ICE claimed no official request was made, despite evidence to the contrary.",
+      "why_relevant": "This event highlights the impact of immigration enforcement on family unity and the potential for bureaucratic decisions to have severe personal consequences.",
+      "attacks": [
+        "immigrants_refugees",
+        "decency",
+        "public_health"
+      ],
+      "_origin_file": "guardian_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 41
+    },
+    {
+      "source_key": "guardian",
+      "date": "2026-02-02",
+      "category": "Law Enforcement & Surveillance",
+      "title": "Release of FBI documents on Epstein and Copperfield",
+      "url": "https://www.theguardian.com/us-news/2026/feb/02/epstein-files-david-copperfield",
+      "summary": "The Department of Justice released documents revealing a 2007 FBI investigation into a connection between Jeffrey Epstein and magician David Copperfield. The investigation sought to determine if they shared a predilection for minors and referred victims to each other. The FBI's investigation into Copperfield, which began after a rape allegation by Lacey Carroll, was dropped in 2010 without charges. The documents also detail discussions between law enforcement officials investigating both Copperfield and Epstein, and mention a 13-year gap in Copperfield's records seized by federal agents.",
+      "why_relevant": "The release of these documents highlights the complexities and challenges in investigating high-profile individuals and the potential connections between them, impacting public trust in law enforcement and justice.",
+      "attacks": [
+        "justice_dept",
+        "truth"
+      ],
+      "_origin_file": "guardian_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 37
+    },
+    {
+      "source_key": "meidas",
+      "date": "2026-02-02",
+      "category": "Law Enforcement & Surveillance",
+      "title": "French Police Raid Elon Musk's X Offices",
+      "url": "https://www.meidasplus.com/p/today-in-politics-bulletin-300-2326",
+      "summary": "French police raided the offices of Elon Musk's social media network X as part of an investigation into suspected abuse of algorithms and fraudulent data extraction. The Paris prosecutor's office announced that Musk and former CEO Linda Yaccarino are summoned for questioning in April. The investigation also includes allegations of complicity in the distribution of child-pornographic images and sexually explicit deepfakes, raising significant legal and ethical concerns about the platform's operations.",
+      "why_relevant": "The raid and investigation into X highlight significant concerns about data privacy and the ethical use of technology.",
+      "attacks": [
+        "information",
+        "truth"
+      ],
+      "_origin_file": "meidas_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 6
+    },
+    {
+      "source_key": "outloud",
+      "date": "2026-02-02",
+      "category": "Law Enforcement & Surveillance",
+      "title": "ICE Endorsement by North Carolina House Speaker",
+      "url": "https://kziegler.substack.com/p/democracy-out-loud-4701-raleigh-tomorrow",
+      "summary": "North Carolina House Speaker Destin Hall has publicly endorsed ICE operations in the state, inviting the agency back to North Carolina. This endorsement aligns with the MAGA leadership's immigration enforcement policies, which have been criticized for their harsh impact on immigrant communities. The support for ICE is part of a broader agenda perceived as aligning with white nationalist and fascist policies.",
+      "why_relevant": "The endorsement of ICE reflects state-level support for aggressive immigration enforcement, affecting immigrant rights and community relations.",
+      "attacks": [
+        "immigrants_refugees"
+      ],
+      "_origin_file": "outloud_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 2
+    },
+    {
+      "source_key": "federalregister",
+      "date": "2026-02-02",
+      "category": "Elections & Representation",
+      "title": "Election Assistance Commission Sunshine Act Meeting Notice",
+      "url": "https://www.federalregister.gov/documents/2026/02/02/2026-01967/sunshine-act-meetings",
+      "summary": "The U.S. Election Assistance Commission (EAC) announced a public meeting on February 18, 2026, to discuss election audit standards. The meeting will be held in Washington, DC, and livestreamed. It aims to enhance public trust in elections by discussing audit principles and best practices with election officials and audit professionals.",
+      "why_relevant": "This meeting is significant for promoting transparency and trust in the electoral process through the discussion of audit standards.",
+      "attacks": [],
+      "_origin_file": "federalregister_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 6
+    },
+    {
+      "source_key": "meidas",
+      "date": "2026-02-02",
+      "category": "Elections & Representation",
+      "title": "Trump Advocates for Nationalizing Elections",
+      "url": "https://www.meidasplus.com/p/today-in-politics-bulletin-300-2326",
+      "summary": "Former President Donald Trump suggested on Dan Bongino's podcast that Republicans should nationalize voting in at least 15 places, claiming illegal voting by immigrants. He argued that states act as agents for the federal government in elections, questioning why the federal government doesn't manage them directly. This statement has sparked concerns about federal overreach and the integrity of state-managed elections.",
+      "why_relevant": "Trump's comments raise concerns about potential federal overreach and the undermining of state-managed election processes.",
+      "attacks": [
+        "separation_of_powers",
+        "elections"
+      ],
+      "_origin_file": "meidas_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 7
+    },
+    {
+      "source_key": "popinfo",
+      "date": "2026-02-02",
+      "category": "Elections & Representation",
+      "title": "DraftKings and FanDuel Increase Political Spending for 2026 Midterms",
+      "url": "https://popular.info/p/draftkings-and-fanduel-spending-millions",
+      "summary": "DraftKings and FanDuel, two major online sports gambling companies, have significantly increased their political spending for the 2026 midterm elections, as revealed by recent FEC filings. DraftKings donated $500,000 to the Senate Leadership Fund and $2 million to a new PAC, Win For America, which subsequently funded other political groups. FanDuel contributed $500,000 each to both Republican and Democratic Super PACs. This marks a shift from their previous focus on state politics, reflecting their intent to influence federal legislation that could impact their business operations, such as advertising restrictions and gambling addiction measures.",
+      "why_relevant": "The increased political spending by these companies could shape federal policies affecting online gambling regulation and advertising.",
+      "attacks": [
+        "economy",
+        "elections"
+      ],
+      "_origin_file": "popinfo_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 5
+    },
+    {
+      "source_key": "hcr",
+      "date": "2026-02-02",
+      "category": "Civil Society & Protest",
+      "title": "Protests Against Federal Agents in Minneapolis",
+      "url": "https://www.nytimes.com/2026/01/22/us/politics/park-service-philadelphia-slavery-exhibit.html",
+      "summary": "On February 1, 2026, protesters in Minneapolis entered a Target store to demonstrate against the retail chain's cooperation with federal agents from Immigration and Customs Enforcement and Border Patrol. The protesters sang a modified version of the \"Battle Hymn of the Republic,\" expressing solidarity against the actions of federal agents targeting immigrants and those opposing their violence. This protest highlights ongoing tensions regarding immigration enforcement and civil rights.",
+      "why_relevant": "The protest signifies active resistance against federal actions perceived as oppressive, reflecting the ongoing struggle for civil rights and the protection of marginalized communities.",
+      "attacks": [
+        "immigrants_refugees"
+      ],
+      "_origin_file": "hcr_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 5
+    },
+    {
+      "source_key": "guardian",
+      "date": "2026-02-02",
+      "category": "Information & Media Control",
+      "title": "US Department of Justice releases documents linking Steve Bannon to Clive Palmer's 2019 election strategy",
+      "url": "https://www.theguardian.com/us-news/2026/feb/02/clive-palmer-denies-steve-bannons-claim-he-was-behind-billionaires-controversial-2019-australian-election-ad-strategy",
+      "summary": "The US Department of Justice released a tranche of documents, including text messages purportedly between Steve Bannon and an unidentified person linked to Jeffrey Epstein. In these messages, Bannon claimed he orchestrated Clive Palmer's $60 million advertising strategy during the 2019 Australian federal election, focusing on anti-China and climate change ads. Palmer's spokesperson dismissed these claims as false. The documents have sparked controversy, with implications for the integrity of the 2019 election and the role of misinformation in political campaigns.",
+      "why_relevant": "The release of these documents highlights concerns about misinformation and foreign influence in democratic elections.",
+      "attacks": [
+        "truth",
+        "information",
+        "global_democracy"
+      ],
+      "_origin_file": "guardian_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 44
+    },
+    {
+      "source_key": "federalregister",
+      "date": "2026-02-02",
+      "category": "Economic & Regulatory Power",
+      "title": "EPA Receives Applications for New Pesticide Active Ingredients",
+      "url": "https://www.federalregister.gov/documents/2026/02/02/2026-01964/pesticide-product-registration-receipt-of-applications-for-new-active-ingredients-december-2025",
+      "summary": "The Environmental Protection Agency (EPA) announced the receipt of applications to register pesticide products containing new active ingredients not currently registered. This notice, issued under the Federal Insecticide, Fungicide, and Rodenticide Act (FIFRA), invites public comments on these applications. The applications include microbial fungicides and nematicides for commercial use, submitted by FMC Corporation and GreenLight Biosciences, Inc. Comments are due by March 4, 2026.",
+      "why_relevant": "This action affects regulatory oversight of pesticide products, impacting agricultural practices and environmental safety.",
+      "attacks": [],
+      "_origin_file": "federalregister_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 26
+    },
+    {
+      "source_key": "federalregister",
+      "date": "2026-02-02",
+      "category": "Economic & Regulatory Power",
+      "title": "EPA Receives Applications for New Pesticide Uses",
+      "url": "https://www.federalregister.gov/documents/2026/02/02/2026-01965/pesticide-product-registration-receipt-of-applications-for-new-uses-december-2025",
+      "summary": "The Environmental Protection Agency (EPA) announced the receipt of applications to register new uses for pesticide products containing currently registered active ingredients. These applications involve changes in use patterns for products such as Clomazone, Trifluralin, and Fluazifop-p-butyl. The EPA is soliciting public comments on these applications, which are being evaluated under the Federal Insecticide, Fungicide, and Rodenticide Act (FIFRA). Comments are due by March 4, 2026.",
+      "why_relevant": "This action affects regulatory oversight of pesticide use, impacting agricultural practices and environmental safety.",
+      "attacks": [],
+      "_origin_file": "federalregister_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 25
+    },
+    {
+      "source_key": "federalregister",
+      "date": "2026-02-02",
+      "category": "Economic & Regulatory Power",
+      "title": "Medi-Physics Inc. Applies for Controlled Substances Importer Registration",
+      "url": "https://www.federalregister.gov/documents/2026/02/02/2026-01946/importer-of-controlled-substances-application-medi-physics-inc-dba-ge-healthcare",
+      "summary": "Medi-Physics Inc., operating as GE Healthcare, has applied to the Drug Enforcement Administration (DEA) for registration as an importer of cocaine, a Schedule II controlled substance. The company intends to import derivatives for manufacturing diagnostic products and reference standards. The application is open for public comment and objections until March 4, 2026. Approval will be contingent on compliance with 21 U.S.C. 952(a)(2), and does not permit importation of finished dosage forms for commercial sale.",
+      "why_relevant": "This application affects regulatory oversight of controlled substances, impacting public health and safety through the legal importation of cocaine derivatives for medical use.",
+      "attacks": [],
+      "_origin_file": "federalregister_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 3
+    },
+    {
+      "source_key": "federalregister",
+      "date": "2026-02-02",
+      "category": "Economic & Regulatory Power",
+      "title": "Mylan Inc. Applies for Controlled Substances Importer Registration",
+      "url": "https://www.federalregister.gov/documents/2026/02/02/2026-01947/importer-of-controlled-substances-application-mylan-inc",
+      "summary": "Mylan Inc. has applied to the Drug Enforcement Administration (DEA) to be registered as an importer of several controlled substances, including amphetamine and fentanyl, for internal testing and clinical trials. The application, filed on December 19, 2025, is open for public comment until March 4, 2026. The registration will not authorize the import of finished dosage forms for commercial sale, only for testing and clinical trial purposes.",
+      "why_relevant": "This application affects the regulation and control of controlled substances, impacting pharmaceutical testing and clinical trials.",
+      "attacks": [],
+      "_origin_file": "federalregister_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 2
+    },
+    {
+      "source_key": "federalregister",
+      "date": "2026-02-02",
+      "category": "Economic & Regulatory Power",
+      "title": "NIOSH Seeks Public Input on Firefighter Safety and Health",
+      "url": "https://www.federalregister.gov/documents/2026/02/02/2026-01935/national-institute-for-occupational-safety-and-health-niosh-center-for-firefighter-safety-health-and",
+      "summary": "The Centers for Disease Control and Prevention's National Institute for Occupational Safety and Health (NIOSH) has issued a request for public input on priority topics related to firefighter safety and health. This initiative aims to refine NIOSH's research and engagement priorities to better address emerging hazards in the fire service. The request is for information-gathering purposes and does not propose new regulations. Comments are due by April 3, 2026.",
+      "why_relevant": "This request for information is significant as it seeks to enhance the safety and health of firefighters, a critical workforce in public safety, by identifying and addressing emerging hazards.",
+      "attacks": [],
+      "_origin_file": "federalregister_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 41
+    },
+    {
+      "source_key": "federalregister",
+      "date": "2026-02-02",
+      "category": "Economic & Regulatory Power",
+      "title": "Promega Corporation Applies for Bulk Manufacturing Registration",
+      "url": "https://www.federalregister.gov/documents/2026/02/02/2026-01940/bulk-manufacturer-of-controlled-substances-application-promega-corporation",
+      "summary": "The Drug Enforcement Administration (DEA) announced that Promega Corporation has applied to be registered as a bulk manufacturer of controlled substances, specifically Psilocybin and Psilocyn, for use as Active Pharmaceutical Ingredients. The application is open for public comment until April 3, 2026, and interested parties may submit objections or request a hearing by the same date.",
+      "why_relevant": "This application affects the regulation and manufacturing of controlled substances, impacting pharmaceutical supply and regulatory oversight.",
+      "attacks": [],
+      "_origin_file": "federalregister_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 5
+    },
+    {
+      "source_key": "federalregister",
+      "date": "2026-02-02",
+      "category": "Economic & Regulatory Power",
+      "title": "Sharp Clinical Services, LLC Applies for Controlled Substances Importation",
+      "url": "https://www.federalregister.gov/documents/2026/02/02/2026-01944/importer-of-controlled-substances-application-sharp-clinical-services-llc",
+      "summary": "Sharp Clinical Services, LLC has applied to the Drug Enforcement Administration (DEA) to be registered as an importer of certain Schedule I controlled substances, including Gamma Hydroxybutyric Acid and Psilocybin, for distribution and clinical trials. The application is open for public comment until March 4, 2026. The DEA will approve the application only if the business activities align with authorized uses under 21 U.S.C. 952(a)(2).",
+      "why_relevant": "This application impacts regulatory oversight of controlled substances, affecting research and clinical trial capabilities.",
+      "attacks": [],
+      "_origin_file": "federalregister_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 4
+    },
+    {
+      "source_key": "outloud",
+      "date": "2026-02-02",
+      "category": "Economic & Regulatory Power",
+      "title": "Proposed Corporate Tax Rate Reduction in North Carolina",
+      "url": "https://kziegler.substack.com/p/democracy-out-loud-4701-raleigh-tomorrow",
+      "summary": "The North Carolina General Assembly plans to reduce the corporate tax rate to zero. This proposal is part of broader fiscal policies under the MAGA leadership, which critics argue prioritize corporate interests over public welfare. The reduction is controversial as it coincides with budgetary constraints affecting public services and social programs, raising concerns about the state's fiscal priorities and their impact on economic inequality.",
+      "why_relevant": "The tax policy shift could exacerbate economic inequality and affect state revenue for public services.",
+      "attacks": [
+        "economy",
+        "poor"
+      ],
+      "_origin_file": "outloud_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 1
+    },
+    {
+      "source_key": "popinfo",
+      "date": "2026-02-02",
+      "category": "Economic & Regulatory Power",
+      "title": "DraftKings and FanDuel Expand into Prediction Markets",
+      "url": "https://popular.info/p/draftkings-and-fanduel-spending-millions",
+      "summary": "DraftKings and FanDuel have expanded their operations into prediction markets, allowing bets on non-sports topics such as politics and economics. This expansion is regulated by the Commodity Futures Trading Commission (CFTC), which is expected to introduce new rules for prediction markets. The companies' move into this area, previously in a legal gray zone, suggests a strategic effort to diversify their offerings and influence federal regulatory policies. This expansion has also led them to leave the American Gaming Association, indicating a shift in their lobbying strategy.",
+      "why_relevant": "The expansion into prediction markets could affect regulatory oversight and the companies' influence on federal policy.",
+      "attacks": [
+        "economy",
+        "information"
+      ],
+      "_origin_file": "popinfo_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 7
+    },
+    {
+      "source_key": "popinfo",
+      "date": "2026-02-02",
+      "category": "Economic & Regulatory Power",
+      "title": "DraftKings and FanDuel Oppose Federal Gambling Legislation",
+      "url": "https://popular.info/p/draftkings-and-fanduel-spending-millions",
+      "summary": "DraftKings and FanDuel are opposing federal legislation aimed at regulating online sports gambling, including the SAFE Bet Act and the GRIT Act. The SAFE Bet Act proposes to ban online sports gambling advertising during live events and restrict certain betting incentives, while the GRIT Act seeks to allocate federal tax revenue for gambling addiction treatment. Both companies are instead supporting the Discriminatory Gaming Tax Repeal Act, which would eliminate the federal excise tax on sports betting. This opposition highlights their efforts to prevent regulatory measures that could limit their market expansion.",
+      "why_relevant": "The companies' opposition to these bills could hinder efforts to address gambling addiction and regulate the industry.",
+      "attacks": [
+        "economy",
+        "public_health"
+      ],
+      "_origin_file": "popinfo_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 6
+    },
+    {
+      "source_key": "federalregister",
+      "date": "2026-02-02",
+      "category": "Transparency & Records",
+      "title": "National Archives and Records Administration Requests Comments on Records Schedules",
+      "url": "https://www.federalregister.gov/documents/2026/02/02/2026-02081/records-schedules-availability-and-request-for-comments",
+      "summary": "The National Archives and Records Administration (NARA) has published a notice inviting public comments on proposed records schedules. These schedules outline the disposition of records that federal agencies no longer need for business purposes. The public can submit comments until March 19, 2026, via regulations.gov. The schedules include records from various agencies, such as the Department of Justice and the Centers for Disease Control and Prevention. After considering public feedback, the Archivist of the United States will approve the final schedules.",
+      "why_relevant": "This action ensures public participation in the management of federal records, promoting transparency and accountability in government operations.",
+      "attacks": [],
+      "_origin_file": "federalregister_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 8
+    },
+    {
+      "source_key": "meidas",
+      "date": "2026-02-02",
+      "category": "Transparency & Records",
+      "title": "DOJ Fails to Redact Epstein Victims' Names",
+      "url": "https://www.meidasplus.com/p/today-in-politics-bulletin-300-2326",
+      "summary": "The Department of Justice released files related to Jeffrey Epstein that exposed the names of dozens of victims, including minors. Despite efforts to redact names, many were left unredacted, leading to public exposure and online harassment. Victims' attorneys expressed alarm at the oversight, which has re-traumatized survivors and raised questions about the DOJ's handling of sensitive information.",
+      "why_relevant": "The failure to protect victims' identities highlights significant lapses in the DOJ's handling of sensitive information.",
+      "attacks": [
+        "justice_dept",
+        "public_service"
+      ],
+      "_origin_file": "meidas_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 9
+    },
+    {
+      "source_key": "guardian",
+      "date": "2026-02-02",
+      "category": "International Relations",
+      "title": "Trump announces tariff reduction on Indian exports",
+      "url": "https://www.theguardian.com/us-news/2026/feb/02/trump-tariffs-deal-india-modi-russian-oil",
+      "summary": "U.S. President Donald Trump announced plans to reduce tariffs on Indian exports from 25% to 18% following a call with Indian Prime Minister Narendra Modi. This decision comes after India agreed to stop purchasing Russian oil, a move Trump claims will help end the war in Ukraine. The agreement also includes India's commitment to buy more oil from the United States and potentially Venezuela. Additionally, an extra 25% tariff imposed last summer on India is expected to be removed. Modi expressed support for Trump's leadership in global peace efforts.",
+      "why_relevant": "The tariff reduction and trade agreement between the U.S. and India could impact global trade dynamics and influence geopolitical relations, particularly concerning the ongoing conflict in Ukraine.",
+      "attacks": [
+        "trade",
+        "global_democracy"
+      ],
+      "_origin_file": "guardian_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 39
+    },
+    {
+      "source_key": "meidas",
+      "date": "2026-02-02",
+      "category": "International Relations",
+      "title": "Trump Claims Ceasefire Agreement with Putin",
+      "url": "https://www.meidasplus.com/p/today-in-politics-bulletin-300-2326",
+      "summary": "Former President Donald Trump claimed to have secured a ceasefire agreement with Russian President Vladimir Putin to halt attacks on Ukraine during a cold wave. However, shortly after Trump's announcement, Russia launched a massive attack on Kyiv and other cities, contradicting the alleged agreement. This incident raises questions about Trump's influence and the reliability of his statements regarding international diplomacy.",
+      "why_relevant": "The incident highlights the complexities and potential misinformation in international diplomacy involving Trump and Putin.",
+      "attacks": [
+        "diplomacy",
+        "truth"
+      ],
+      "_origin_file": "meidas_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 11
+    },
+    {
+      "source_key": "meidas",
+      "date": "2026-02-02",
+      "category": "Civil–Military Relations & State Violence",
+      "title": "ICE Accused of Excessive Force in House Hearing",
+      "url": "https://www.meidasplus.com/p/today-in-politics-bulletin-300-2326",
+      "summary": "During a House hearing, testimony was given about an incident involving ICE agents using excessive force against Aliya Rahman, a disabled individual. Rahman described being physically assaulted and threatened by ICE agents, leading to significant injuries. The hearing also revealed text messages from ICE agents joking about a shooting incident, raising serious concerns about ICE's conduct and accountability.",
+      "why_relevant": "The testimony and evidence of ICE's conduct raise serious concerns about the agency's use of force and accountability.",
+      "attacks": [
+        "civil_service",
+        "rule_of_law"
+      ],
+      "_origin_file": "meidas_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 10
+    },
+    {
+      "source_key": "guardian",
+      "date": "2026-02-03",
+      "category": "Executive Actions & Orders",
+      "title": "Trump administration seeks $1bn in damages from Harvard University",
+      "url": "https://www.theguardian.com/us-news/2026/feb/03/trump-harvard-dispute-seeking-1bn-damages-settlement",
+      "summary": "Donald Trump announced that his administration is seeking $1bn in damages from Harvard University, accusing the institution of antisemitism and mishandling civil rights violations. This move is part of an ongoing conflict between Trump and higher education institutions, particularly Harvard, which he claims is dominated by \"radical left\" ideologies. The announcement follows a report that Trump had previously dropped a $200m settlement demand. The administration has also threatened to withhold federal research funding and demanded changes to Harvard's diversity programs.",
+      "why_relevant": "This action represents a significant use of executive power to influence and potentially coerce an academic institution, raising concerns about academic freedom and the independence of educational entities.",
+      "attacks": [
+        "education",
+        "public_service",
+        "truth"
+      ],
+      "_origin_file": "guardian_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 29
+    },
+    {
+      "source_key": "noah",
+      "date": "2026-02-03",
+      "category": "Executive Actions & Orders",
+      "title": "Trump demotes head of Border Patrol",
+      "url": "https://www.noahpinion.blog/p/what-a-liberal-immigration-enforcement",
+      "summary": "President Donald Trump has demoted the head of the Border Patrol as part of a series of moves aimed at de-escalating tensions related to immigration enforcement. This action comes amid criticism of the administration's heavy-handed tactics and is seen as an attempt to address public discontent with the current immigration policies. The demotion is part of a broader strategy to adjust the administration's approach to immigration enforcement in response to political pressures and upcoming elections.",
+      "why_relevant": "This action reflects a shift in executive policy regarding immigration enforcement, which has significant implications for governance and public perception.",
+      "attacks": [],
+      "_origin_file": "noah_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 0
+    },
+    {
+      "source_key": "popinfo",
+      "date": "2026-02-03",
+      "category": "Executive Actions & Orders",
+      "title": "Executive order on proof of citizenship for voter registration",
+      "url": "https://popular.info/p/the-plot-to-undermine-the-2026-elections",
+      "summary": "On March 25, 2025, President Trump signed an executive order requiring proof of citizenship for federal voter registration, impacting military and overseas voters. The order mandates passports or government-issued IDs indicating citizenship, potentially disenfranchising millions of eligible voters. A federal judge has blocked parts of the order, ruling it unconstitutional. The order also threatens states with loss of federal funding if they do not comply with its provisions, including restrictions on mail-in ballots.",
+      "why_relevant": "The order represents an attempt to centralize control over election procedures, challenging constitutional limits on presidential power.",
+      "attacks": [
+        "elections",
+        "rule_of_law"
+      ],
+      "_origin_file": "popinfo_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 2
+    },
+    {
+      "source_key": "guardian",
+      "date": "2026-02-03",
+      "category": "Legislative & Oversight Activity",
+      "title": "Bill and Hillary Clinton agree to testify in House Epstein investigation",
+      "url": "https://www.theguardian.com/us-news/2026/feb/02/bill-clinton-interview-rejected-epstein",
+      "summary": "Bill and Hillary Clinton have agreed to testify in a House investigation into Jeffrey Epstein, following a period of resistance and negotiation with the Republican-led House oversight committee. The decision comes just days before the House was expected to vote on holding the Clintons in contempt of Congress for their previous refusal to comply with subpoenas. The Clintons had argued that the subpoenas were legally invalid and part of a political campaign against them. The agreement to testify averts potential criminal contempt charges that could have resulted in fines or incarceration.",
+      "why_relevant": "This event is significant as it involves high-profile political figures complying with congressional oversight, highlighting the tension between legislative power and political influence.",
+      "attacks": [
+        "congress",
+        "separation_of_powers"
+      ],
+      "_origin_file": "guardian_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 31
+    },
+    {
+      "source_key": "guardian",
+      "date": "2026-02-03",
+      "category": "Legislative & Oversight Activity",
+      "title": "Gordon Brown requests investigation into Mandelson's alleged leaks",
+      "url": "https://www.theguardian.com/us-news/2026/feb/02/mandelson-could-face-police-inquiry-over-alleged-leak-to-epstein",
+      "summary": "",
+      "why_relevant": "The request for an investigation highlights the need for transparency and accountability in government operations.",
+      "attacks": [
+        "public_service",
+        "truth"
+      ],
+      "_origin_file": "guardian_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 28
+    },
+    {
+      "source_key": "guardian",
+      "date": "2026-02-03",
+      "category": "Legislative & Oversight Activity",
+      "title": "Keir Starmer orders investigation into Mandelson's alleged leaks",
+      "url": "https://www.theguardian.com/us-news/2026/feb/02/mandelson-could-face-police-inquiry-over-alleged-leak-to-epstein",
+      "summary": "",
+      "why_relevant": "The investigation underscores the importance of oversight and accountability in government to maintain public trust.",
+      "attacks": [
+        "public_service",
+        "truth"
+      ],
+      "_origin_file": "guardian_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 26
+    },
+    {
+      "source_key": "guardian",
+      "date": "2026-02-03",
+      "category": "Legislative & Oversight Activity",
+      "title": "Trump signs $1.2tn funding bill, ending partial government shutdown",
+      "url": "https://www.theguardian.com/us-news/2026/feb/03/house-passes-funds-ending-government-shutdown",
+      "summary": "On February 3, 2026, President Donald Trump signed a $1.2 trillion appropriations bill, ending a partial government shutdown that began the previous Friday. The shutdown was triggered by a standoff over funding for the Department of Homeland Security (DHS), following the killings of US citizens by federal agents. The bill was narrowly passed by the House of Representatives with a 217-214 vote. The agreement funds DHS until February 13, while other departments are funded through the end of the fiscal year. Democrats have demanded changes to immigration enforcement practices as part of future funding negotiations.",
+      "why_relevant": "This event is significant as it highlights the ongoing political struggle over immigration enforcement and the use of government shutdowns as a negotiating tool.",
+      "attacks": [
+        "immigrants_refugees",
+        "congress",
+        "rule_of_law"
+      ],
+      "_origin_file": "guardian_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 16
+    },
+    {
+      "source_key": "hcr",
+      "date": "2026-02-03",
+      "category": "Legislative & Oversight Activity",
+      "title": "House Passes Budget Without DHS Funding",
+      "url": "https://www.pbs.org/newshour/politics/house-passes-budget-bill-to-end-partial-government-shutdown",
+      "summary": "The House of Representatives passed a budget to fund the government, excluding the Department of Homeland Security (DHS) for an additional two weeks. This decision was made to allow Congress time to negotiate terms for DHS funding that would be acceptable to Democrats. Senate Majority Leader John Thune had to agree to separate DHS funding to avoid a long-term government shutdown, leading to the passage of the measure.",
+      "why_relevant": "This action reflects the ongoing negotiations and tensions in Congress regarding immigration policy and funding for federal agencies.",
+      "attacks": [],
+      "_origin_file": "hcr_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 1
+    },
+    {
+      "source_key": "noah",
+      "date": "2026-02-03",
+      "category": "Legislative & Oversight Activity",
+      "title": "Call to change asylum laws for illegal border crossers",
+      "url": "https://www.noahpinion.blog/p/what-a-liberal-immigration-enforcement",
+      "summary": "There is a call to change U.S. asylum laws to prevent individuals who cross the border illegally from being entitled to asylum hearings. The proposal suggests that crossing the border illegally should not be rewarded with the opportunity to stay in the country while awaiting an asylum hearing. This change aims to align immigration policy with the democratic will and address public concerns about illegal immigration.",
+      "why_relevant": "Changing asylum laws would significantly alter the legal framework for immigration, affecting the rights of asylum seekers and the enforcement of immigration policy.",
+      "attacks": [],
+      "_origin_file": "noah_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 4
+    },
+    {
+      "source_key": "50501",
+      "date": "2026-02-03",
+      "category": "Judicial Developments",
+      "title": "Federal judge halts termination of Haitian TPS",
+      "url": "https://www.the50501movement.org/p/keep-talking-about-the-files",
+      "summary": "A federal judge in Washington, D.C. temporarily blocked the termination of Temporary Protected Status (TPS) for Haitian nationals, which was set to expire on February 3. This decision prevents the immediate risk of deportation for those covered under TPS, providing a temporary reprieve while further legal proceedings continue. The ruling underscores the judiciary's role in providing temporary relief in immigration matters.",
+      "why_relevant": "The decision temporarily protects Haitian nationals from deportation, highlighting the judiciary's role in immigration policy.",
+      "attacks": [],
+      "_origin_file": "50501_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 6
+    },
+    {
+      "source_key": "guardian",
+      "date": "2026-02-03",
+      "category": "Judicial Developments",
+      "title": "Judge blocks Trump administration from ending TPS for Haitians",
+      "url": "https://www.theguardian.com/us-news/2026/feb/03/ohio-ice-raids-haitian-community",
+      "summary": "A U.S. district judge in Washington, D.C., ruled to block the Trump administration's attempt to terminate Temporary Protected Status (TPS) for Haitian immigrants. This decision temporarily halts the administration's efforts to end the program, which protects thousands of Haitians from deportation. The ruling allows for a pause while a lawsuit challenging the termination proceeds. Despite this, concerns remain about potential ICE operations targeting Haitian communities, particularly in Springfield, Ohio, where many Haitians reside under TPS or asylum status.",
+      "why_relevant": "This ruling impacts the legal status and security of thousands of Haitian immigrants in the U.S., affecting their ability to remain in the country without fear of deportation.",
+      "attacks": [
+        "immigrants_refugees",
+        "rule_of_law"
+      ],
+      "_origin_file": "guardian_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 21
+    },
+    {
+      "source_key": "guardian",
+      "date": "2026-02-03",
+      "category": "Judicial Developments",
+      "title": "Judge blocks Trump administration’s stripping of Haitians’ protected status",
+      "url": "https://www.theguardian.com/us-news/2026/feb/02/trump-administration-blocked-tps-haitians",
+      "summary": "A federal judge, Ana Reyes, has issued a temporary stay preventing the Trump administration from revoking Temporary Protected Status (TPS) for up to 350,000 Haitians. This decision blocks Homeland Security Secretary Kristi Noem's plan to terminate TPS, which would have made these individuals eligible for deportation. The judge's ruling highlights that the plaintiffs, five Haitian TPS holders, are likely to succeed in their case, suggesting that Noem's decision was influenced by hostility towards nonwhite immigrants. The stay ensures that the TPS holders can continue to live and work in the U.S. without fear of detention or deportation.",
+      "why_relevant": "This ruling protects the rights of Haitian immigrants and challenges the administration's broader deportation efforts, impacting immigration policy and the legal status of thousands.",
+      "attacks": [
+        "immigrants_refugees",
+        "rule_of_law",
+        "minorities"
+      ],
+      "_origin_file": "guardian_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 30
+    },
+    {
+      "source_key": "hcr",
+      "date": "2026-02-03",
+      "category": "Judicial Developments",
+      "title": "U.S. District Court Judge Stops Termination of Haiti’s TPS",
+      "url": "https://www.nytimes.com/interactive/2026/02/02/us/haitians-tps-ruling.html",
+      "summary": "U.S. District Court Judge Ana C. Reyes issued a ruling to halt the termination of Temporary Protected Status (TPS) for approximately 353,000 Haitians living in the United States, pending a court case. The judge found that Secretary of Homeland Security Kristi Noem ignored legal procedures and criteria in her decision, which was influenced by her ideology rather than facts or law. This ruling protects the legal status of TPS holders, who contribute significantly to the U.S. economy and workforce.",
+      "why_relevant": "The ruling upholds the rule of law and protects the rights of immigrants against politically motivated actions.",
+      "attacks": [
+        "immigrants_refugees"
+      ],
+      "_origin_file": "hcr_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 0
+    },
+    {
+      "source_key": "popinfo",
+      "date": "2026-02-03",
+      "category": "Judicial Developments",
+      "title": "DOJ lawsuits against states refusing voter roll requests",
+      "url": "https://popular.info/p/the-plot-to-undermine-the-2026-elections",
+      "summary": "The Department of Justice has filed lawsuits against 24 states and Washington D.C. for refusing to provide voter rolls as requested. These lawsuits, which contain errors such as addressing the wrong officials and citing non-existent laws, are part of the Trump administration's effort to create a national voter roll. The lawsuits aim to compel states to comply with federal demands for sensitive voter information, despite legal and constitutional challenges.",
+      "why_relevant": "The lawsuits represent a federal overreach into state-controlled election processes and could lead to voter disenfranchisement.",
+      "attacks": [
+        "elections",
+        "rule_of_law"
+      ],
+      "_origin_file": "popinfo_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 3
+    },
+    {
+      "source_key": "50501",
+      "date": "2026-02-03",
+      "category": "Law Enforcement & Surveillance",
+      "title": "Immigration Enforcement Activity Near Schools Reported",
+      "url": "https://www.the50501movement.org/p/will-my-family-still-be-here-when",
+      "summary": "On February 3, 2026, Chalkbeat reported that immigration enforcement activities have been occurring closer to schools, including detentions near high schools around dismissal time and near bus stops. This proximity to educational environments has led to increased fear among students and parents, contributing to absenteeism and disruptions in school attendance. School districts are considering temporary remote learning as a response to these enforcement activities.",
+      "why_relevant": "The presence of immigration enforcement near schools can create a climate of fear, impacting student attendance and the overall educational environment.",
+      "attacks": [
+        "immigrants_refugees",
+        "education"
+      ],
+      "_origin_file": "50501_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 1
+    },
+    {
+      "source_key": "guardian",
+      "date": "2026-02-03",
+      "category": "Law Enforcement & Surveillance",
+      "title": "DHS's account of Venezuelans shot by border patrol contradicted in court",
+      "url": "https://www.theguardian.com/us-news/2026/feb/02/portland-venezuelans-shot-border-patrol-court",
+      "summary": "",
+      "why_relevant": "This event highlights issues of transparency and accountability in law enforcement, particularly concerning the treatment of immigrants and the accuracy of official narratives.",
+      "attacks": [
+        "immigrants_refugees",
+        "truth",
+        "justice_dept"
+      ],
+      "_origin_file": "guardian_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 17
+    },
+    {
+      "source_key": "guardian",
+      "date": "2026-02-03",
+      "category": "Law Enforcement & Surveillance",
+      "title": "Metropolitan Police assess reports of alleged misconduct by Peter Mandelson",
+      "url": "https://www.theguardian.com/us-news/2026/feb/02/mandelson-could-face-police-inquiry-over-alleged-leak-to-epstein",
+      "summary": "",
+      "why_relevant": "The potential police investigation into a former government official for leaking sensitive information highlights issues of accountability and integrity in public office.",
+      "attacks": [
+        "public_service",
+        "truth"
+      ],
+      "_origin_file": "guardian_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 25
+    },
+    {
+      "source_key": "guardian",
+      "date": "2026-02-03",
+      "category": "Law Enforcement & Surveillance",
+      "title": "SNP and Reform UK report Mandelson to police for misconduct",
+      "url": "https://www.theguardian.com/us-news/2026/feb/02/mandelson-could-face-police-inquiry-over-alleged-leak-to-epstein",
+      "summary": "",
+      "why_relevant": "Reporting a high-profile figure for misconduct highlights the role of political parties in upholding ethical standards in public office.",
+      "attacks": [
+        "public_service",
+        "truth"
+      ],
+      "_origin_file": "guardian_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 27
+    },
+    {
+      "source_key": "guardian",
+      "date": "2026-02-03",
+      "category": "Law Enforcement & Surveillance",
+      "title": "Tulsi Gabbard conducts separate 2020 election inquiry",
+      "url": "https://www.theguardian.com/us-news/2026/feb/03/tulsi-gabbard-2020-election-investigation-ed",
+      "summary": "Tulsi Gabbard, the director of national intelligence, is conducting her own review of the 2020 election with Donald Trump's approval, separate from the ongoing Justice Department investigation. Gabbard's review focuses on potential vulnerabilities in voting machines and foreign interference. She was present at an FBI raid in Georgia, which was part of a criminal investigation into possible violations of federal election laws. The raid, overseen by the FBI, involved seizing voter data from Fulton County. Georgia Democrats have called for an inquiry into Gabbard's involvement in the raid.",
+      "why_relevant": "This event highlights the ongoing scrutiny and investigation into the integrity of the 2020 election, raising questions about the separation of intelligence and law enforcement roles.",
+      "attacks": [
+        "separation_of_powers",
+        "rule_of_law"
+      ],
+      "_origin_file": "guardian_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 20
+    },
+    {
+      "source_key": "guardian",
+      "date": "2026-02-03",
+      "category": "Law Enforcement & Surveillance",
+      "title": "William Stevenson charged with murder of his wife",
+      "url": "https://www.theguardian.com/us-news/2026/feb/03/linda-bill-stevenson-jill-biden-ex-husband",
+      "summary": "",
+      "why_relevant": "This event highlights the legal proceedings and law enforcement actions in a high-profile murder case involving a former spouse of a public figure.",
+      "attacks": [],
+      "_origin_file": "guardian_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 19
+    },
+    {
+      "source_key": "hcr",
+      "date": "2026-02-03",
+      "category": "Law Enforcement & Surveillance",
+      "title": "FBI Raids Election Office in Fulton County, Georgia",
+      "url": "https://www.theguardian.com/us-news/2026/jan/28/fbi-search-warrant-fulton-county-georgia",
+      "summary": "FBI agents executed a raid on an election office in Fulton County, Georgia, seizing 700 boxes of ballots and other election-related materials from the 2020 election. The warrant for the raid was issued by U.S. Attorney Thomas Albus, who was appointed by Trump and given special authority to operate across the nation. The involvement of the Director of National Intelligence, Tulsi Gabbard, during the raid raised concerns about the politicization of law enforcement.",
+      "why_relevant": "The raid raises significant concerns about the integrity of the electoral process and the use of federal resources for political purposes.",
+      "attacks": [
+        "rule_of_law"
+      ],
+      "_origin_file": "hcr_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 2
+    },
+    {
+      "source_key": "popinfo",
+      "date": "2026-02-03",
+      "category": "Law Enforcement & Surveillance",
+      "title": "FBI raid on Fulton County election office",
+      "url": "https://popular.info/p/the-plot-to-undermine-the-2026-elections",
+      "summary": "On January 28, 2026, FBI agents raided the Fulton County, Georgia, election office, executing a warrant to seize records related to the 2020 election. The warrant authorized the seizure of physical ballots, voting machine tabulator tapes, voter rolls, and electronic data. This action is part of the Trump administration's efforts to challenge the 2020 election results, despite a lack of evidence supporting claims of fraud. Tulsi Gabbard, Director of National Intelligence, was present during the raid, although the DNI typically does not engage in domestic law enforcement activities.",
+      "why_relevant": "The raid exemplifies the use of federal power to interfere with state election administration.",
+      "attacks": [
+        "rule_of_law",
+        "elections"
+      ],
+      "_origin_file": "popinfo_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 0
+    },
+    {
+      "source_key": "50501",
+      "date": "2026-02-03",
+      "category": "Elections & Representation",
+      "title": "Trump advocates for nationalizing voting in select areas",
+      "url": "https://www.the50501movement.org/p/keep-talking-about-the-files",
+      "summary": "Former President Donald Trump suggested that Republicans should \"take over the voting\" from states and \"nationalize the voting\" in \"at least many, 15 places\" during an appearance on Dan Bongino's podcast. This statement reflects ongoing debates about federal versus state control of election processes and raises concerns about potential shifts in electoral power dynamics.",
+      "why_relevant": "The proposal to nationalize voting in select areas could significantly alter the balance of electoral power and state autonomy in managing elections.",
+      "attacks": [
+        "elections",
+        "rule_of_law"
+      ],
+      "_origin_file": "50501_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 7
+    },
+    {
+      "source_key": "federalregister",
+      "date": "2026-02-03",
+      "category": "Elections & Representation",
+      "title": "Census Bureau Seeks Comments on 2026 Operational Test for 2030 Census",
+      "url": "https://www.federalregister.gov/documents/2026/02/03/2026-02206/agency-information-collection-activities-submission-to-the-office-of-management-and-budget-omb-for",
+      "summary": "The U.S. Census Bureau has announced a request for public comments on the 2026 Operational Test, which supports the 2030 Census. This test will evaluate new systems and methods in Spartanburg, SC, and Huntsville, AL, including the use of USPS staff for in-field enumeration. The test aims to improve data collection processes and efficiency. Comments are due by March 5, 2026, and will inform the final information collection request submitted to the Office of Management and Budget.",
+      "why_relevant": "This operational test is crucial for refining the methods and systems used in the 2030 Census, which impacts representation and resource allocation.",
+      "attacks": [],
+      "_origin_file": "federalregister_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 7
+    },
+    {
+      "source_key": "hcr",
+      "date": "2026-02-03",
+      "category": "Elections & Representation",
+      "title": "Trump Calls for Nationalization of Elections",
+      "url": "https://www.wsj.com/politics/policy/trump-doubles-down-on-calls-for-republicans-to-nationalize-elections-f0ae3f92b",
+      "summary": "During a bill signing in the Oval Office, Trump reiterated his call for Republicans to \"nationalize\" elections, claiming that undocumented immigrants are brought into the country to vote illegally. This statement contradicts the Constitution, which grants states control over elections, and reflects ongoing efforts to undermine electoral integrity.",
+      "why_relevant": "This call for nationalization of elections poses a threat to the established electoral framework and undermines state authority over election processes.",
+      "attacks": [
+        "constitution",
+        "separation_of_powers"
+      ],
+      "_origin_file": "hcr_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 3
+    },
+    {
+      "source_key": "noah",
+      "date": "2026-02-03",
+      "category": "Elections & Representation",
+      "title": "Polls show Republican advantage on immigration issues",
+      "url": "https://www.noahpinion.blog/p/what-a-liberal-immigration-enforcement",
+      "summary": "Recent polls, including one from Fox News, indicate that the Republican Party is favored over the Democratic Party on immigration issues, particularly border security. Despite disapproval of Trump's overall immigration approach, the public perceives Republicans as better equipped to handle these matters. This polling data suggests that immigration remains a contentious issue with significant political implications for both parties.",
+      "why_relevant": "Public opinion on immigration policy influences electoral outcomes and party strategies, impacting democratic representation.",
+      "attacks": [],
+      "_origin_file": "noah_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 2
+    },
+    {
+      "source_key": "popinfo",
+      "date": "2026-02-03",
+      "category": "Elections & Representation",
+      "title": "DOJ requests for state voter rolls",
+      "url": "https://popular.info/p/the-plot-to-undermine-the-2026-elections",
+      "summary": "Beginning in May 2025, the Department of Justice sent letters to state officials requesting complete, unredacted voter rolls, including sensitive information such as driver's license and social security numbers. The Trump administration claims authority under the National Voter Registration Act, but the act does not require states to disclose such sensitive data. The administration's goal is to create a national voter roll to purge alleged noncitizen voters, potentially disenfranchising eligible voters. As of January 2026, 44 states and Washington D.C. received requests, with 11 states agreeing to comply.",
+      "why_relevant": "This action could lead to widespread voter disenfranchisement and undermines state control over voter registration.",
+      "attacks": [
+        "elections",
+        "immigrants_refugees"
+      ],
+      "_origin_file": "popinfo_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 1
+    },
+    {
+      "source_key": "popinfo",
+      "date": "2026-02-03",
+      "category": "Elections & Representation",
+      "title": "Trump administration's use of CBP killing to pressure Minnesota",
+      "url": "https://popular.info/p/the-plot-to-undermine-the-2026-elections",
+      "summary": "On the same day a U.S. Customs and Border Protection officer killed Alex Pretti in Minneapolis, Attorney General Pam Bondi sent a letter to Minnesota's governor, suggesting cooperation with federal voter roll requests could \"end chaos\" in the state. This move appears to leverage a tragic incident to pressure state officials into compliance with federal demands for voter data, furthering the Trump administration's election-related agenda.",
+      "why_relevant": "This action illustrates the use of federal power to coerce state compliance with controversial election policies.",
+      "attacks": [
+        "elections",
+        "rule_of_law"
+      ],
+      "_origin_file": "popinfo_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 4
+    },
+    {
+      "source_key": "noah",
+      "date": "2026-02-03",
+      "category": "Civil Society & Protest",
+      "title": "Illegal checkpoints set up by protesters in Minneapolis",
+      "url": "https://www.noahpinion.blog/p/what-a-liberal-immigration-enforcement",
+      "summary": "In Minneapolis, some protesters have established illegal checkpoints to stop vehicles and screen them for Immigration and Customs Enforcement (ICE) involvement. This action is part of ongoing protests against ICE's enforcement tactics and reflects a growing tension between activists and federal immigration authorities. The establishment of these checkpoints is a controversial tactic that has drawn criticism and highlights the challenges in balancing protest activities with legal boundaries.",
+      "why_relevant": "The establishment of illegal checkpoints by protesters raises questions about the limits of protest actions and the enforcement of law and order.",
+      "attacks": [],
+      "_origin_file": "noah_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 1
+    },
+    {
+      "source_key": "50501",
+      "date": "2026-02-03",
+      "category": "Information & Media Control",
+      "title": "DOJ pulls down Epstein files after redaction failures",
+      "url": "https://www.the50501movement.org/p/keep-talking-about-the-files",
+      "summary": "The Department of Justice removed thousands of files from its Epstein Files Transparency Act release after redaction failures exposed victim-identifying information. This action followed public outcry and demands from survivors and advocates for stronger safeguards to prevent further harm. The DOJ's initial release was intended to comply with transparency requirements, but the exposure of sensitive information has led to calls for improved redaction standards and accountability measures to protect survivors.",
+      "why_relevant": "The incident highlights the tension between transparency and privacy, especially concerning sensitive information that could retraumatize survivors.",
+      "attacks": [
+        "information",
+        "truth"
+      ],
+      "_origin_file": "50501_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 5
+    },
+    {
+      "source_key": "federalregister",
+      "date": "2026-02-03",
+      "category": "Information & Media Control",
+      "title": "FCC Seeks Comments on Information Collection for National Security",
+      "url": "https://www.federalregister.gov/documents/2026/02/03/2026-02099/information-collection-being-reviewed-by-the-federal-communications-commission",
+      "summary": "The Federal Communications Commission (FCC) has issued a notice inviting public comments on its information collection related to national security. This collection is part of the FCC's efforts to protect communications networks from national security threats, specifically targeting equipment from companies like Huawei and ZTE. The notice seeks input on the necessity, utility, and burden of the information collection, which supports the Secure and Trusted Communications Networks Reimbursement Program. Comments are due by April 6, 2026.",
+      "why_relevant": "This action is significant for ensuring the security of U.S. communications infrastructure against foreign threats, impacting national security and regulatory compliance.",
+      "attacks": [
+        "global_democracy",
+        "information"
+      ],
+      "_origin_file": "federalregister_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 13
+    },
+    {
+      "source_key": "50501",
+      "date": "2026-02-03",
+      "category": "Economic & Regulatory Power",
+      "title": "Partial government shutdown begins amid funding disputes",
+      "url": "https://www.the50501movement.org/p/keep-talking-about-the-files",
+      "summary": "A partial government shutdown has commenced, affecting federal employees as Congress remains deadlocked over funding and immigration enforcement restrictions. The shutdown is causing workforce disruptions and highlights the impact of political brinkmanship on government operations and public services.",
+      "why_relevant": "The shutdown affects government operations and services, demonstrating the consequences of legislative gridlock on public administration.",
+      "attacks": [
+        "public_service"
+      ],
+      "_origin_file": "50501_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 8
+    },
+    {
+      "source_key": "federalregister",
+      "date": "2026-02-03",
+      "category": "Economic & Regulatory Power",
+      "title": "CDC Submits Information Collection Request for Fellowship Programs",
+      "url": "https://www.federalregister.gov/documents/2026/02/03/2026-02182/agency-forms-undergoing-paperwork-reduction-act-review",
+      "summary": "The Centers for Disease Control and Prevention (CDC) submitted an information collection request titled \"CDC Fellowship Programs Assessment\" to the Office of Management and Budget (OMB) for review under the Paperwork Reduction Act. This request aims to evaluate and improve CDC fellowship programs by collecting data from applicants, fellows, mentors, and alumni. The CDC seeks public comments on the necessity, accuracy, and burden of the proposed data collection. The revised request reduces the estimated annual responses and burden hours due to lower than anticipated usage and organizational changes.",
+      "why_relevant": "This action affects the regulatory process for evaluating and improving public health workforce development programs, impacting the efficiency and effectiveness of CDC fellowship initiatives.",
+      "attacks": [],
+      "_origin_file": "federalregister_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 40
+    },
+    {
+      "source_key": "federalregister",
+      "date": "2026-02-03",
+      "category": "Economic & Regulatory Power",
+      "title": "DEKRA Certification Inc. Applies for NRTL Recognition Expansion",
+      "url": "https://www.federalregister.gov/documents/2026/02/03/2026-02156/dekra-certification-inc-application-for-expansion-of-recognition-and-proposed-modification-to-the",
+      "summary": "The Occupational Safety and Health Administration (OSHA) announced DEKRA Certification Inc.'s application for expanding its recognition as a Nationally Recognized Testing Laboratory (NRTL). The application includes adding nine test standards to DEKRA's scope of recognition. OSHA has preliminarily determined to grant the application and proposes adding a new test standard to the NRTL Program's list. Public comments are invited until February 18, 2026, before a final decision is made.",
+      "why_relevant": "This expansion affects regulatory compliance and safety standards for products, impacting manufacturers and consumers.",
+      "attacks": [],
+      "_origin_file": "federalregister_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 21
+    },
+    {
+      "source_key": "federalregister",
+      "date": "2026-02-03",
+      "category": "Economic & Regulatory Power",
+      "title": "FCC Submits Information Collection for OMB Review",
+      "url": "https://www.federalregister.gov/documents/2026/02/03/2026-02100/information-collection-being-submitted-for-review-and-approval-to-office-of-management-and-budget",
+      "summary": "The Federal Communications Commission (FCC) has submitted an information collection request to the Office of Management and Budget (OMB) for review, as part of efforts to reduce paperwork burdens under the Paperwork Reduction Act. The FCC seeks public comments on the necessity and burden of the proposed collection, particularly for small businesses. Comments are due by March 5, 2026.",
+      "why_relevant": "This action affects regulatory processes and compliance burdens, particularly impacting small businesses and their interaction with federal requirements.",
+      "attacks": [],
+      "_origin_file": "federalregister_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 12
+    },
+    {
+      "source_key": "federalregister",
+      "date": "2026-02-03",
+      "category": "Economic & Regulatory Power",
+      "title": "OSHA Announces Application for Expansion of Recognition for Bay Area Compliance Laboratories",
+      "url": "https://www.federalregister.gov/documents/2026/02/03/2026-02158/bay-area-compliance-laboratories-application-for-expansion-of-recognition",
+      "summary": "The Occupational Safety and Health Administration (OSHA) announced the application of Bay Area Compliance Laboratories (BACL) for an expansion of its recognition as a Nationally Recognized Testing Laboratory (NRTL). BACL seeks to add three test standards to its scope of recognition, which would allow it to perform safety testing and certification for additional types of electrical equipment. OSHA has made a preliminary finding to grant this application and is seeking public comments by February 18, 2026, before making a final decision.",
+      "why_relevant": "This expansion of recognition could impact the safety standards and certification processes for electrical equipment, affecting regulatory compliance and market access.",
+      "attacks": [],
+      "_origin_file": "federalregister_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 19
+    },
+    {
+      "source_key": "federalregister",
+      "date": "2026-02-03",
+      "category": "Economic & Regulatory Power",
+      "title": "OSHA Expands Recognition of CSA Group Testing & Certification Inc.",
+      "url": "https://www.federalregister.gov/documents/2026/02/03/2026-02157/csa-group-testing-and-certification-inc-grant-of-expansion-of-recognition",
+      "summary": "The Occupational Safety and Health Administration (OSHA) has expanded the scope of recognition for CSA Group Testing & Certification Inc. as a Nationally Recognized Testing Laboratory (NRTL). This expansion includes the addition of eight test standards to CSA's scope, allowing it to perform safety testing and certification for specific products. The decision, effective February 3, 2026, follows a detailed review of CSA's application and relevant information. The expansion is subject to conditions, including compliance with OSHA policies and notification of any significant changes in CSA's operations.",
+      "why_relevant": "This expansion enhances CSA's ability to certify products, impacting safety standards and regulatory compliance in industries relying on certified equipment.",
+      "attacks": [],
+      "_origin_file": "federalregister_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 20
+    },
+    {
+      "source_key": "federalregister",
+      "date": "2026-02-03",
+      "category": "Economic & Regulatory Power",
+      "title": "OSHA Expands Recognition of Element Materials Technology Portland-Evergreen Inc.",
+      "url": "https://www.federalregister.gov/documents/2026/02/03/2026-02154/element-materials-technology-portland-evergreen-inc-grant-of-expansion-of-recognition",
+      "summary": "The Occupational Safety and Health Administration (OSHA) has expanded the scope of recognition for Element Materials Technology Portland-Evergreen Inc. as a Nationally Recognized Testing Laboratory (NRTL). This expansion includes the addition of ten testing standards and one testing site in Skelmersdale, United Kingdom. The recognition allows the organization to perform independent safety testing and certification of specific products, ensuring compliance with OSHA standards. The expansion is effective as of February 3, 2026, and is subject to conditions outlined by OSHA.",
+      "why_relevant": "This expansion enhances the capacity for safety testing and certification, impacting regulatory compliance and workplace safety standards.",
+      "attacks": [],
+      "_origin_file": "federalregister_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 22
+    },
+    {
+      "source_key": "federalregister",
+      "date": "2026-02-03",
+      "category": "Economic & Regulatory Power",
+      "title": "OSHA Modifies NRTL Program Test Standards",
+      "url": "https://www.federalregister.gov/documents/2026/02/03/2026-02153/modification-to-the-list-of-appropriate-nrtl-program-test-standards-and-the-scope-of-recognition-of",
+      "summary": "The Occupational Safety and Health Administration (OSHA) announced the final decision to delete several withdrawn test standards from the Nationally Recognized Testing Laboratories (NRTL) Program's list of appropriate test standards and modify the scope of recognition for several NRTLs. This action, effective February 3, 2026, involves removing outdated standards and incorporating replacement standards where applicable, ensuring the NRTL Program remains current and effective in product safety testing and certification.",
+      "why_relevant": "This modification ensures that the NRTL Program maintains up-to-date safety standards, which is crucial for the protection of workers and consumers, and supports regulatory compliance and industry safety.",
+      "attacks": [],
+      "_origin_file": "federalregister_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 23
+    },
+    {
+      "source_key": "noah",
+      "date": "2026-02-03",
+      "category": "Economic & Regulatory Power",
+      "title": "Proposal to enforce laws against hiring undocumented workers",
+      "url": "https://www.noahpinion.blog/p/what-a-liberal-immigration-enforcement",
+      "summary": "A proposal has been put forward to enforce laws against companies hiring undocumented workers as a means to reduce illegal immigration. This approach suggests investigating and fining companies that employ undocumented labor, thereby reducing demand for such workers. The proposal aims to address illegal immigration through economic incentives rather than forceful deportation measures.",
+      "why_relevant": "Enforcing employment laws to curb illegal immigration reflects a regulatory approach to addressing immigration issues, impacting labor markets and immigration policy.",
+      "attacks": [],
+      "_origin_file": "noah_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 3
+    },
+    {
+      "source_key": "guardian",
+      "date": "2026-02-03",
+      "category": "International Relations",
+      "title": "Trump Administration Sends Troops into Venezuela",
+      "url": "https://www.theguardian.com/us-news/2026/feb/03/mexico-leaders-react-trump-invasion",
+      "summary": "The Trump administration has escalated its military involvement in Latin America by deploying troops to Venezuela to capture its president, Nicolás Maduro. This move is part of a broader strategy that the administration claims is guided by historical victories, such as the 19th-century US invasion of Mexico. The action has drawn criticism and concern from international observers and neighboring countries, who view it as a return to aggressive US foreign policy in the region.",
+      "why_relevant": "This military action represents a significant shift in US foreign policy, potentially destabilizing the region and affecting international relations.",
+      "attacks": [
+        "global_democracy",
+        "peace"
+      ],
+      "_origin_file": "guardian_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 18
+    },
+    {
+      "source_key": "noah",
+      "date": "2026-02-03",
+      "category": "Civil–Military Relations & State Violence",
+      "title": "Criticism of sanctuary cities and call for cooperation with ICE",
+      "url": "https://www.noahpinion.blog/p/what-a-liberal-immigration-enforcement",
+      "summary": "There is criticism of sanctuary cities for obstructing federal immigration enforcement efforts and a call for cooperation with ICE to deport criminal illegal immigrants. The argument suggests that local obstructionism undermines national immigration policy and that cooperation is necessary to effectively enforce immigration laws. This stance highlights the tension between local and federal authorities on immigration enforcement.",
+      "why_relevant": "The debate over sanctuary cities and cooperation with ICE affects the enforcement of immigration laws and the relationship between local and federal governments.",
+      "attacks": [],
+      "_origin_file": "noah_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 5
+    },
+    {
+      "source_key": "guardian",
+      "date": "2026-02-04",
+      "category": "Executive Actions & Orders",
+      "title": "Trump Administration Accused of Enriching Itself",
+      "url": "https://www.theguardian.com/us-news/2026/feb/04/ken-griffin-citadel-republican-donor-donald-trump-critic-white-house",
+      "summary": "",
+      "why_relevant": "This event highlights potential conflicts of interest and favoritism within the Trump administration, raising concerns about the integrity of executive decision-making.",
+      "attacks": [
+        "emoluments",
+        "presidency",
+        "economy"
+      ],
+      "_origin_file": "guardian_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 11
+    },
+    {
+      "source_key": "guardian",
+      "date": "2026-02-04",
+      "category": "Legislative & Oversight Activity",
+      "title": "Congressional Hearing on Violent Encounters with Federal Agents",
+      "url": "https://www.theguardian.com/us-news/2026/feb/03/us-congress-democrats-immigration-hearing",
+      "summary": "On February 3, 2026, a congressional hearing was held on Capitol Hill where Democrats listened to testimonies from U.S. citizens who experienced violent encounters with federal agents during immigration crackdowns. The hearing featured emotional accounts from individuals, including the brothers of Renee Good, who was shot by an ICE officer, and Marimar Martinez, who was shot by a border patrol agent. The hearing aimed to address the accountability of federal agents and the absence of Republican participation was noted. Calls for justice and accountability were made by Democratic representatives.",
+      "why_relevant": "The hearing highlights the role of Congress in overseeing federal law enforcement actions and ensuring accountability, which is crucial for maintaining democratic norms and protecting citizens' rights.",
+      "attacks": [
+        "immigrants_refugees",
+        "justice_dept",
+        "rule_of_law"
+      ],
+      "_origin_file": "guardian_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 14
+    },
+    {
+      "source_key": "guardian",
+      "date": "2026-02-04",
+      "category": "Legislative & Oversight Activity",
+      "title": "Florida House Committee Advances Bill to Ban 'West Bank' Term",
+      "url": "https://www.theguardian.com/us-news/2026/feb/04/florida-ban-west-bank-schools-state-agencies-bill",
+      "summary": "On January 27, 2026, the Florida House State Affairs Committee advanced HB 31, a bill that seeks to ban the use of the term \"West Bank\" in K-12 public schools and state agencies, including public colleges and universities. The bill mandates the use of the term \"Judea and Samaria\" instead. This legislative move is part of a broader trend seen in other states, such as Arkansas, and aligns with efforts to emphasize historical and religious claims to the land. The bill awaits debate on the house floor, while a parallel senate bill, SB 1106, is pending committee review.",
+      "why_relevant": "The bill's advancement highlights ongoing legislative efforts to influence educational content and terminology, impacting how historical and geopolitical narratives are presented in public institutions.",
+      "attacks": [
+        "education",
+        "public_memory",
+        "minorities"
+      ],
+      "_origin_file": "guardian_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 2
+    },
+    {
+      "source_key": "guardian",
+      "date": "2026-02-04",
+      "category": "Legislative & Oversight Activity",
+      "title": "House Oversight Committee Subpoena for Bill Gates",
+      "url": "https://www.theguardian.com/us-news/2026/feb/04/bill-gates-epstein-relationship-melinda",
+      "summary": "Republican South Carolina congresswoman Nancy Mace announced her support for Melinda French Gates's position that Bill Gates has questions to answer regarding his relationship with Jeffrey Epstein. Mace stated that she had written to James Comer, chair of the House Oversight Committee, requesting a subpoena for Bill Gates to testify. This request comes amid ongoing investigations into Epstein's activities and connections with various high-profile individuals.",
+      "why_relevant": "The subpoena request is part of a broader investigation into the activities and connections of Jeffrey Epstein, which has implications for accountability and transparency regarding influential figures.",
+      "attacks": [
+        "congress",
+        "transparency"
+      ],
+      "_origin_file": "guardian_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 9
+    },
+    {
+      "source_key": "meidas",
+      "date": "2026-02-04",
+      "category": "Legislative & Oversight Activity",
+      "title": "Congressional Inquiry into Treasury Secretary's Market Manipulation",
+      "url": "https://www.meidasplus.com/p/wednesday-afternoon-news-updates-b94",
+      "summary": "During a congressional hearing, Treasury Secretary Scott Bessent was questioned about potential market manipulation and conflicts of interest related to President Trump's social media activity. Bessent dismissed concerns about Trump's promotion of his own stock, which has led to significant market fluctuations. His refusal to support an investigation into these issues raises questions about financial oversight and ethical governance.",
+      "why_relevant": "The lack of oversight on potential market manipulation poses risks to economic integrity and governance.",
+      "attacks": [
+        "congress",
+        "economy"
+      ],
+      "_origin_file": "meidas_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 4
+    },
+    {
+      "source_key": "meidas",
+      "date": "2026-02-04",
+      "category": "Legislative & Oversight Activity",
+      "title": "Treasury Secretary Caught Lying to Congress",
+      "url": "https://www.meidasplus.com/p/wednesday-afternoon-news-updates-b94",
+      "summary": "Treasury Secretary Scott Bessent was found to have lied during congressional testimony about his previous statements on tariffs. Bessent denied telling investors that tariffs are inflationary, contradicting a letter he signed in 2024 stating the opposite. This discrepancy raises concerns about transparency and accountability within the administration, as Bessent's false testimony could have significant implications for economic policy and public trust.",
+      "why_relevant": "The incident highlights issues of transparency and accountability in government testimony.",
+      "attacks": [
+        "truth",
+        "congress"
+      ],
+      "_origin_file": "meidas_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 1
+    },
+    {
+      "source_key": "guardian",
+      "date": "2026-02-04",
+      "category": "Judicial Developments",
+      "title": "DOJ's demand for state voter rolls",
+      "url": "https://www.theguardian.com/us-news/2026/feb/04/steve-bannon-ice-immigration-agents-polling-sites-midterm-elections",
+      "summary": "The Department of Justice, under the Trump administration, has requested access to voter rolls in several states and is suing to obtain them. This move has been met with resistance from election officials who cite privacy and security concerns. In Minnesota, the US attorney general, Pam Bondi, issued demands to the state to reduce the number of federal agents, including turning over voter rolls to the federal government. The legal battle over access to voter rolls highlights tensions between state and federal authorities over election management.",
+      "why_relevant": "The demand for voter rolls by the federal government raises concerns about voter privacy and the potential for federal overreach in state-managed elections.",
+      "attacks": [
+        "separation_of_powers",
+        "rule_of_law",
+        "privacy"
+      ],
+      "_origin_file": "guardian_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 5
+    },
+    {
+      "source_key": "guardian",
+      "date": "2026-02-04",
+      "category": "Judicial Developments",
+      "title": "Judge temporarily bans ICE from using teargas and projectiles on protesters in Portland",
+      "url": "https://www.theguardian.com/us-news/2026/feb/03/portland-judge-ice-teargas-projectiles",
+      "summary": "A federal judge, Michael Simon, has issued a temporary restraining order preventing Immigration and Customs Enforcement (ICE) officers from using teargas and projectile munitions against protesters outside the ICE building in Portland, Oregon. This decision follows a lawsuit filed by the American Civil Liberties Union of Oregon, which argued that the use of such force was retaliatory and infringed on First Amendment rights. The order restricts the use of chemical or projectile munitions unless there is an imminent threat of physical harm and limits targeting to non-lethal areas unless deadly force is justified.",
+      "why_relevant": "This ruling addresses the balance between law enforcement practices and the protection of constitutional rights during protests.",
+      "attacks": [
+        "rule_of_law",
+        "civil_service",
+        "public_service"
+      ],
+      "_origin_file": "guardian_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 15
+    },
+    {
+      "source_key": "guardian",
+      "date": "2026-02-04",
+      "category": "Judicial Developments",
+      "title": "Justice Department releases files related to Jeffrey Epstein",
+      "url": "https://www.theguardian.com/us-news/2026/feb/04/casey-wasserman-olympics-ghislaine-maxwell",
+      "summary": "The Justice Department released over 3 million files related to Jeffrey Epstein, which included emails between Casey Wasserman, the chair of the LA28 Olympics committee, and convicted sex trafficker Ghislaine Maxwell. These emails, dating back to 2003, have led several Los Angeles officials to call for Wasserman's resignation. The emails contain flirtatious exchanges and references to massages. Wasserman has expressed regret over the correspondence and denied any personal or business relationship with Epstein.",
+      "why_relevant": "The release of these files and the subsequent calls for resignation highlight the ongoing impact of the Epstein case on public figures and institutions.",
+      "attacks": [
+        "truth",
+        "public_memory"
+      ],
+      "_origin_file": "guardian_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 3
+    },
+    {
+      "source_key": "guardian",
+      "date": "2026-02-04",
+      "category": "Judicial Developments",
+      "title": "Supreme Court Allows California to Use New Congressional Map",
+      "url": "https://www.theguardian.com/us-news/2026/feb/04/california-new-voting-maps-supreme-court",
+      "summary": "The U.S. Supreme Court ruled that California can use a new congressional map approved by voters in November. This decision is a significant win for Democrats, as the map could potentially give them up to five additional seats, countering the five GOP seats added by Texas. The court's brief, unsigned order denied an emergency request by California Republicans, who argued that the map was racially gerrymandered. The ruling follows a December decision allowing Texas to use its redrawn map, which was also challenged for racial gerrymandering.",
+      "why_relevant": "This ruling impacts the balance of power in the U.S. House of Representatives, influencing the upcoming midterm elections.",
+      "attacks": [
+        "courts",
+        "minorities"
+      ],
+      "_origin_file": "guardian_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 0
+    },
+    {
+      "source_key": "guardian",
+      "date": "2026-02-04",
+      "category": "Judicial Developments",
+      "title": "Texas man sues California doctor under new abortion law",
+      "url": "https://www.theguardian.com/us-news/2026/feb/04/texas-california-abortion-pills-lawsuit",
+      "summary": "Jerry Rodriguez, a Texas resident, has filed a lawsuit against Dr. Remy Coeytaux, a California-based physician, under a new Texas law that allows private individuals to sue those who mail abortion medication into the state. The lawsuit, updated to cite House Bill 7, seeks $100,000 in damages and aims to prohibit Coeytaux from prescribing or providing abortion-inducing drugs in Texas. House Bill 7, effective since December, empowers citizens to sue anyone involved in the distribution of abortion pills in Texas, intensifying the conflict over abortion rights between states.",
+      "why_relevant": "This lawsuit highlights the ongoing legal battles over abortion rights and the impact of state laws on cross-state medical practices.",
+      "attacks": [
+        "women",
+        "rule_of_law"
+      ],
+      "_origin_file": "guardian_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 6
+    },
+    {
+      "source_key": "meidas",
+      "date": "2026-02-04",
+      "category": "Judicial Developments",
+      "title": "Supreme Court Allows California Congressional Map",
+      "url": "https://www.meidasplus.com/p/wednesday-afternoon-news-updates-b94",
+      "summary": "The U.S. Supreme Court unanimously ruled to allow California's new congressional map to stand, rejecting a Republican challenge. This decision is expected to benefit Democrats by potentially adding up to five additional House seats in the upcoming midterm elections. The ruling is seen as a significant victory for California Governor Gavin Newsom and the Democratic Party, especially in the context of ongoing debates over gerrymandering and fair representation.",
+      "why_relevant": "The decision impacts democratic representation and the balance of power in Congress.",
+      "attacks": [],
+      "_origin_file": "meidas_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 0
+    },
+    {
+      "source_key": "guardian",
+      "date": "2026-02-04",
+      "category": "Law Enforcement & Surveillance",
+      "title": "FBI raid on Fulton County elections office",
+      "url": "https://www.theguardian.com/us-news/2026/feb/04/fulton-county-georgia-fbi-election-warns-office-raid",
+      "summary": "On January 28, 2026, the FBI executed a criminal warrant to seize approximately 700 boxes of 2020 election documents from Fulton County's elections office in Georgia. The warrant was obtained by US attorney Thomas Albus, focusing on election integrity cases. The Fulton County commission chair, Robb Pitts, revealed he was warned of potential arrests before the raid. Pitts announced that the county filed a motion for the return of the seized materials and to unseal the affidavit used to obtain the warrant. The presence of Tulsi Gabbard, the director of national intelligence, at the raid has raised concerns about political interference.",
+      "why_relevant": "The FBI's seizure of election documents and the involvement of high-level officials highlight significant concerns about election integrity and potential political interference.",
+      "attacks": [
+        "elections",
+        "rule_of_law",
+        "separation_of_powers"
+      ],
+      "_origin_file": "guardian_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 10
+    },
+    {
+      "source_key": "guardian",
+      "date": "2026-02-04",
+      "category": "Law Enforcement & Surveillance",
+      "title": "ICE attorney removed from detail after court statement",
+      "url": "https://www.theguardian.com/us-news/2026/feb/04/ice-attorney-minnesota-removed-after-court-statement",
+      "summary": "",
+      "why_relevant": "This event underscores issues of compliance and accountability within ICE and the broader implications for immigration enforcement and legal processes.",
+      "attacks": [
+        "immigrants_refugees",
+        "rule_of_law"
+      ],
+      "_origin_file": "guardian_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 8
+    },
+    {
+      "source_key": "guardian",
+      "date": "2026-02-04",
+      "category": "Law Enforcement & Surveillance",
+      "title": "Minnesota girl released from ICE custody after a month in detention",
+      "url": "https://www.theguardian.com/us-news/2026/feb/04/minnesota-ice-immigration-elizabeth-caisaguano",
+      "summary": "Elizabeth Zuna Caisaguano, a 10-year-old girl from Minnesota, was released from US Immigration and Customs Enforcement (ICE) custody after being detained for a month in Dilley, Texas. She and her mother were detained on January 6, 2026, as part of the Trump administration's immigration crackdown. The family, originally from Ecuador, has an active asylum case. Their release followed a court order by Judge Fred Biery, who blocked their removal and demanded a response from the federal government. The case has drawn attention to the impact of family detention on children.",
+      "why_relevant": "The event highlights the ongoing issues with immigration enforcement and the detention of children, raising concerns about human rights and the treatment of asylum seekers.",
+      "attacks": [
+        "immigrants_refugees",
+        "children",
+        "rule_of_law"
+      ],
+      "_origin_file": "guardian_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 1
+    },
+    {
+      "source_key": "guardian",
+      "date": "2026-02-04",
+      "category": "Law Enforcement & Surveillance",
+      "title": "Reduction of Federal Agents in Minnesota",
+      "url": "https://www.theguardian.com/us-news/2026/feb/04/700-federal-agents-leave-minnesota",
+      "summary": "Tom Homan, the White House border czar, announced that approximately 700 federal agents will be withdrawn from Minnesota, reducing the number of agents on the ground but still leaving about 2,000 agents in the state. This decision comes amid negotiations between county jails and federal officials regarding increased coordination with immigration enforcement. The reduction is seen as insufficient by local officials, who call for a more significant drawdown and investigations into recent incidents involving federal agents. The move is part of a broader strategy to manage immigration enforcement more effectively.",
+      "why_relevant": "The reduction of federal agents in Minnesota impacts the balance between immigration enforcement and community relations, highlighting ongoing tensions and the need for oversight.",
+      "attacks": [
+        "immigrants_refugees",
+        "state_violence",
+        "rule_of_law"
+      ],
+      "_origin_file": "guardian_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 7
+    },
+    {
+      "source_key": "guardian",
+      "date": "2026-02-04",
+      "category": "Elections & Representation",
+      "title": "DNC Launches Local Listeners Initiative",
+      "url": "https://www.theguardian.com/us-news/2026/feb/04/democrats-local-listeners-initiative-elections",
+      "summary": "On February 4, 2026, the Democratic National Committee (DNC) announced the launch of the Local Listeners initiative, aiming to engage over one million \"infrequent\" voters in key battleground districts ahead of the 2026 midterm elections. This initiative represents the DNC's most ambitious early voter outreach effort for a midterm cycle, with over 2,000 volunteers participating. The program includes a seven-week training for volunteers on engaging voters, with a goal of conducting 250,000 phone conversations and hosting over 50 grassroots events by the end of March.",
+      "why_relevant": "This initiative is significant as it represents a strategic effort by the Democratic Party to increase voter engagement and participation, potentially influencing the outcome of the 2026 midterm elections.",
+      "attacks": [],
+      "_origin_file": "guardian_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 13
+    },
+    {
+      "source_key": "guardian",
+      "date": "2026-02-04",
+      "category": "Elections & Representation",
+      "title": "Trump administration's attempt to federalize elections",
+      "url": "https://www.theguardian.com/us-news/2026/feb/04/steve-bannon-ice-immigration-agents-polling-sites-midterm-elections",
+      "summary": "The Trump administration has suggested that the federal government should take over the voting process, which is currently managed by local and state jurisdictions. This proposal is part of ongoing false claims by Donald Trump that Democrats have stolen elections. The suggestion has raised concerns among election officials about potential interference in the upcoming midterm elections. The administration's efforts to federalize elections have been met with legal challenges, and courts have blocked much of an executive order that would have required proof of citizenship to vote.",
+      "why_relevant": "Federalizing elections would undermine the decentralized electoral system and could lead to increased federal control over voting processes.",
+      "attacks": [
+        "separation_of_powers",
+        "rule_of_law"
+      ],
+      "_origin_file": "guardian_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 4
+    },
+    {
+      "source_key": "meidas",
+      "date": "2026-02-04",
+      "category": "Elections & Representation",
+      "title": "Steve Bannon Advocates for ICE Presence at Polling Places",
+      "url": "https://www.meidasplus.com/p/wednesday-afternoon-news-updates-b94",
+      "summary": "Steve Bannon, on his podcast, suggested that ICE should be deployed to polling places in November to prevent what he falsely claims is election fraud. This statement is seen as a direct threat to free and fair elections, potentially intimidating voters and undermining democratic processes. Bannon's comments have sparked concern about voter suppression and the integrity of the electoral system.",
+      "why_relevant": "The proposal threatens voter intimidation and the integrity of the electoral process.",
+      "attacks": [
+        "elections",
+        "rule_of_law"
+      ],
+      "_origin_file": "meidas_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 3
+    },
+    {
+      "source_key": "guardian",
+      "date": "2026-02-04",
+      "category": "Information & Media Control",
+      "title": "Release of documents showing communications between Jeffrey Epstein and William J. Burns",
+      "url": "https://www.theguardian.com/us-news/2026/feb/04/jeffrey-epstein-bill-burns-cia-messages",
+      "summary": "Newly released documents reveal communications between Jeffrey Epstein, a convicted sex offender, and William J. Burns, who later became the CIA director under President Joe Biden. The documents detail meetings and correspondence between Epstein and Burns, which occurred after Epstein's 2008 conviction for prostitution-related charges. Burns's spokesperson stated that Burns regrets meeting Epstein and cut ties after learning of his conviction. The documents show Epstein's attempts to arrange meetings with Burns and mention him in various communications, although Burns has not been accused of any wrongdoing related to Epstein's crimes.",
+      "why_relevant": "The release of these documents highlights the importance of transparency and accountability in public service, especially concerning associations with individuals involved in criminal activities.",
+      "attacks": [
+        "public_service"
+      ],
+      "_origin_file": "guardian_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 12
+    },
+    {
+      "source_key": "meidas",
+      "date": "2026-02-04",
+      "category": "Information & Media Control",
+      "title": "Washington Post Announces Major Staff Cuts",
+      "url": "https://www.meidasplus.com/p/wednesday-afternoon-news-updates-b94",
+      "summary": "The Washington Post announced plans to cut approximately one-third of its staff, significantly reducing its capacity for investigative journalism. This decision, attributed to owner Jeff Bezos, comes amid concerns about the weakening of media institutions and their role in holding power accountable. The cuts are part of broader trends affecting media organizations, which face financial pressures and political challenges.",
+      "why_relevant": "The reduction in journalistic capacity undermines media's role in democratic accountability.",
+      "attacks": [
+        "press"
+      ],
+      "_origin_file": "meidas_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 2
+    },
+    {
+      "source_key": "federalregister",
+      "date": "2026-02-04",
+      "category": "Economic & Regulatory Power",
+      "title": "EPA Reinstates Gasoline Volatility Waiver for Ohio",
+      "url": "https://www.federalregister.gov/documents/2026/02/04/2026-02229/notice-of-reinstatement-of-the-gasoline-volatility-waiver-for-ohio",
+      "summary": "The Environmental Protection Agency (EPA) has approved Ohio's request to reinstate the 1-psi volatility waiver for gasoline-ethanol blends containing 10% ethanol (E10). This waiver allows E10 to have a higher Reid Vapor Pressure (RVP) during summer months, aligning Ohio's regulations with surrounding states and reducing the need for different gasoline blendstocks. The reinstatement becomes effective on April 28, 2026, following the EPA's notification to Ohio on January 28, 2026.",
+      "why_relevant": "This action affects fuel regulations and market operations in Ohio, impacting economic and environmental policy.",
+      "attacks": [],
+      "_origin_file": "federalregister_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 24
+    },
+    {
+      "source_key": "federalregister",
+      "date": "2026-02-04",
+      "category": "Economic & Regulatory Power",
+      "title": "S & B Pharma LLC Applies for Bulk Manufacturer Registration",
+      "url": "https://www.federalregister.gov/documents/2026/02/04/2026-02232/bulk-manufacturer-of-controlled-substances-application-s-and-b-pharma-llc-dba-norac-pharma",
+      "summary": "S & B Pharma LLC, operating as Norac Pharma, has applied to the Drug Enforcement Administration (DEA) to be registered as a bulk manufacturer of several controlled substances, including Gamma Hydroxybutyric Acid, Marihuana, and Fentanyl. The application, filed on January 13, 2026, is for manufacturing these substances for internal research and development purposes, aiming for FDA approval before distribution. Public comments or objections to the application are open until April 6, 2026.",
+      "why_relevant": "This application impacts regulatory control over the manufacturing of controlled substances, affecting public health and safety.",
+      "attacks": [],
+      "_origin_file": "federalregister_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 0
+    },
+    {
+      "source_key": "federalregister",
+      "date": "2026-02-04",
+      "category": "Economic & Regulatory Power",
+      "title": "Sterling Pharma USA LLC Applies for Bulk Manufacturing Registration",
+      "url": "https://www.federalregister.gov/documents/2026/02/04/2026-02230/bulk-manufacturer-of-controlled-substances-application-sterling-pharma-usa-llc",
+      "summary": "The Drug Enforcement Administration (DEA) announced that Sterling Pharma USA LLC has applied to register as a bulk manufacturer of several Schedule I controlled substances, including Tetrahydrocannabinols and Psilocybin. The application, filed on January 9, 2026, is open for public comment until April 6, 2026. The company intends to manufacture these substances for internal research and pre-clinical trial studies. No other activities are authorized under this registration.",
+      "why_relevant": "This application affects regulatory control over the manufacturing of controlled substances, impacting research and development in pharmaceuticals.",
+      "attacks": [],
+      "_origin_file": "federalregister_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 1
+    }
+  ]
+}

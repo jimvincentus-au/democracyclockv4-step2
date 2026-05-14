@@ -1,0 +1,36 @@
+{
+  "window": {
+    "start": "2026-03-28",
+    "end": "2026-04-03"
+  },
+  "week_number": 63,
+  "sources": [
+    "50501"
+  ],
+  "counts": {
+    "total": 1,
+    "by_date": {
+      "2026-03-28": 1
+    },
+    "by_source": {
+      "50501": 1
+    },
+    "by_category": {
+      "Civil Society & Protest": 1
+    }
+  },
+  "events": [
+    {
+      "source_key": "50501",
+      "date": "2026-03-28",
+      "category": "Civil Society & Protest",
+      "title": "NO KINGS Mass Mobilization Scheduled",
+      "url": "https://www.the50501movement.org/p/announcement-the-next-no-kings-mobilization",
+      "summary": "The 50501 Movement has announced a mass mobilization event called \"NO KINGS\" set for March 28, 2026. This nationwide action will involve thousands of participants across numerous communities, aiming to defend democracy and promote civic engagement. The event requires extensive planning, including securing permits, ensuring accessibility, and training volunteers for safety and de-escalation. The movement encourages widespread participation and local organizing efforts.",
+      "why_relevant": "This large-scale mobilization reflects a significant effort to engage citizens in democratic activism and collective action.",
+      "attacks": [],
+      "_origin_file": "50501_events_2026-01-24_2026-01-30.json",
+      "_origin_index": 7
+    }
+  ]
+}

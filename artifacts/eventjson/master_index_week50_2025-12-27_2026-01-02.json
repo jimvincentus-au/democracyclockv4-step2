@@ -1,0 +1,1884 @@
+{
+  "window": {
+    "start": "2025-12-27",
+    "end": "2026-01-02"
+  },
+  "week_number": 50,
+  "sources": [
+    "outloud",
+    "noah",
+    "guardian",
+    "50501",
+    "meidas",
+    "federalregister"
+  ],
+  "counts": {
+    "total": 136,
+    "by_date": {
+      "2025-12-27": 14,
+      "2025-12-28": 2,
+      "2025-12-29": 22,
+      "2025-12-30": 40,
+      "2025-12-31": 20,
+      "2026-01-01": 13,
+      "2026-01-02": 25
+    },
+    "by_source": {
+      "guardian": 33,
+      "outloud": 9,
+      "noah": 16,
+      "federalregister": 47,
+      "50501": 5,
+      "meidas": 26
+    },
+    "by_category": {
+      "Legislative & Oversight Activity": 9,
+      "Law Enforcement & Surveillance": 11,
+      "Civil Society & Protest": 5,
+      "Information & Media Control": 7,
+      "Economic & Regulatory Power": 65,
+      "Transparency & Records": 3,
+      "Civil–Military Relations & State Violence": 5,
+      "Public Health": 1,
+      "Executive Actions & Orders": 9,
+      "Judicial Developments": 8,
+      "Appointments & Patronage": 2,
+      "International Relations": 10,
+      "Elections & Representation": 1
+    }
+  },
+  "events": [
+    {
+      "source_key": "guardian",
+      "date": "2025-12-27",
+      "category": "Legislative & Oversight Activity",
+      "title": "House passes censure resolution against Al Green",
+      "url": "https://www.theguardian.com/us-news/2025/dec/28/congress-us-house-censure",
+      "summary": "In March 2025, the U.S. House of Representatives passed a censure resolution against Democrat Al Green after he interrupted President Donald Trump during a joint session of Congress, shouting \"he has no mandate.\" The resolution, introduced by Republican Dan Newhouse, was supported by all Republicans and 10 Democrats. This censure required Green to stand before the House dais as the Speaker informed him of the punishment, although it did not affect his seat or voting rights.",
+      "why_relevant": "This event highlights the use of censure as a disciplinary tool in Congress, reflecting tensions and partisan dynamics.",
+      "attacks": [
+        "congress"
+      ],
+      "_origin_file": "guardian_events_2025-12-27_2026-01-02.json",
+      "_origin_index": 34
+    },
+    {
+      "source_key": "guardian",
+      "date": "2025-12-27",
+      "category": "Legislative & Oversight Activity",
+      "title": "House passes resolution against Chuy Garcia's alleged election manipulation",
+      "url": "https://www.theguardian.com/us-news/2025/dec/28/congress-us-house-censure",
+      "summary": "In November 2025, the House passed a resolution disapproving Democrat Chuy Garcia's alleged manipulation of his retirement to ensure his chief of staff's election as his successor. The resolution, which was not technically a censure, accused Garcia of \"undermining the process of a free and fair election.\" It passed with support from most Republicans and 23 Democrats, sparking outrage within Garcia's party.",
+      "why_relevant": "This resolution addresses concerns about election integrity and the ethical conduct of lawmakers.",
+      "attacks": [
+        "elections"
+      ],
+      "_origin_file": "guardian_events_2025-12-27_2026-01-02.json",
+      "_origin_index": 35
+    },
+    {
+      "source_key": "guardian",
+      "date": "2025-12-27",
+      "category": "Legislative & Oversight Activity",
+      "title": "Trump urges Republicans to eliminate the filibuster in the Senate",
+      "url": "https://www.theguardian.com/us-news/2025/dec/27/trump-republicans-filibuster-rule-senate",
+      "summary": "Former President Donald Trump has called on Republican senators to eliminate the filibuster, a procedural rule that allows a minority of senators to block legislation. Trump argues that removing the filibuster would prevent government shutdowns and enable the Republican Party to advance its legislative agenda more effectively. Despite Trump's urging, Republicans have been reluctant to scrap the rule, as it could disadvantage them if they lose the majority in the future. The filibuster has been a contentious issue, with centrists in both parties typically opposing its removal to prevent partisan excesses.",
+      "why_relevant": "The call to eliminate the filibuster could significantly alter the legislative process in the Senate, impacting the balance of power and the ability to pass laws.",
+      "attacks": [
+        "separation_of_powers",
+        "rule_of_law"
+      ],
+      "_origin_file": "guardian_events_2025-12-27_2026-01-02.json",
+      "_origin_index": 29
+    },
+    {
+      "source_key": "outloud",
+      "date": "2025-12-27",
+      "category": "Legislative & Oversight Activity",
+      "title": "Senate Urged to Block Unauthorized Attacks on Venezuela",
+      "url": "https://kziegler.substack.com/p/democracy-out-loud-425-rest",
+      "summary": "Indivisible has called for public action to demand that the Senate block unauthorized military actions against Venezuela. The regime has not provided legal justification for recent aggressive actions, including the murder of individuals in small boats and the seizure of oil tankers. This call to action emphasizes the need for legislative oversight and accountability in foreign military engagements, highlighting concerns over executive overreach and the potential for conflict escalation without proper authorization.",
+      "why_relevant": "This event highlights the importance of legislative oversight in preventing unauthorized military actions, which is crucial for maintaining checks and balances in government.",
+      "attacks": [
+        "separation_of_powers",
+        "peace"
+      ],
+      "_origin_file": "outloud_events_2025-12-27_2026-01-02.json",
+      "_origin_index": 6
+    },
+    {
+      "source_key": "guardian",
+      "date": "2025-12-27",
+      "category": "Law Enforcement & Surveillance",
+      "title": "Deportation of Oregon Vineyard Manager Moises Sotelo",
+      "url": "https://www.theguardian.com/us-news/2025/dec/27/oregon-wine-vineyard-manager-ice-deportation",
+      "summary": "Moises Sotelo, a vineyard manager in Oregon, was detained by Immigration and Customs Enforcement (ICE) in June and subsequently deported to Mexico in July. His arrest and deportation, part of a broader immigration crackdown, caused significant disruption in the local community and his family. Sotelo's daughter, Alondra Sotelo Garcia, has taken over the management of his vineyard business amidst these challenges. The deportation has had a ripple effect on the local economy and community, highlighting the impact of immigration enforcement actions on families and businesses.",
+      "why_relevant": "This event underscores the impact of immigration enforcement on local communities and businesses, as well as the personal and economic challenges faced by families affected by deportation.",
+      "attacks": [
+        "immigrants_refugees",
+        "economy",
+        "public_service"
+      ],
+      "_origin_file": "guardian_events_2025-12-27_2026-01-02.json",
+      "_origin_index": 28
+    },
+    {
+      "source_key": "guardian",
+      "date": "2025-12-27",
+      "category": "Law Enforcement & Surveillance",
+      "title": "FBI to Move Out of J Edgar Hoover Building",
+      "url": "https://www.theguardian.com/us-news/2025/dec/27/fbi-j-edgar-hoover-building",
+      "summary": "FBI Director Kash Patel announced that the FBI will permanently close the J Edgar Hoover building in Washington, DC, and relocate to existing offices, including the Ronald Reagan Building and International Trade Center. This decision follows over 20 years of failed attempts to move the headquarters. The move aims to provide a safer and more modern facility for the FBI workforce, enhancing their ability to defend the homeland and protect national security. The decision comes after a lawsuit from Maryland leaders against the Trump administration for scrapping plans to relocate the headquarters to Maryland, despite Congress having appropriated funds for the move.",
+      "why_relevant": "The relocation of the FBI headquarters impacts the agency's operational efficiency and resource allocation, which are crucial for national security and law enforcement.",
+      "attacks": [],
+      "_origin_file": "guardian_events_2025-12-27_2026-01-02.json",
+      "_origin_index": 30
+    },
+    {
+      "source_key": "guardian",
+      "date": "2025-12-27",
+      "category": "Law Enforcement & Surveillance",
+      "title": "Immigrants dragged from cars and courthouse hallways",
+      "url": "https://www.theguardian.com/us-news/2025/dec/27/inflatable-frogs-ad-campaign-trump-protest-methods",
+      "summary": "Reports have emerged of immigrants being forcibly removed from cars and courthouse hallways by immigration enforcement officers. These actions are part of the Trump administration's intensified immigration crackdown, which has been met with significant backlash from immigrant rights groups and civil liberties organizations.",
+      "why_relevant": "The aggressive tactics used in immigration enforcement raise concerns about human rights violations and the erosion of due process protections for immigrants.",
+      "attacks": [
+        "immigrants_refugees",
+        "rule_of_law"
+      ],
+      "_origin_file": "guardian_events_2025-12-27_2026-01-02.json",
+      "_origin_index": 33
+    },
+    {
+      "source_key": "noah",
+      "date": "2025-12-27",
+      "category": "Law Enforcement & Surveillance",
+      "title": "U.S. Murder Rates Decline",
+      "url": "https://www.noahpinion.blog/p/ten-things-that-are-going-right-in",
+      "summary": "U.S. murder rates have been declining since late 2021 or 2022, continuing through 2025. This trend marks a reversal from the rising rates of the late 2010s and the spike during the pandemic. The decline in murder rates is accompanied by reductions in other forms of violence, including gun crime and property crime, contributing to a safer environment in American cities.",
+      "why_relevant": "The reduction in violence enhances public safety and contributes to societal well-being.",
+      "attacks": [],
+      "_origin_file": "noah_events_2025-12-27_2026-01-02.json",
+      "_origin_index": 17
+    },
+    {
+      "source_key": "outloud",
+      "date": "2025-12-27",
+      "category": "Civil Society & Protest",
+      "title": "Public Comment on Administration's Attacks on Trans Youth",
+      "url": "https://kziegler.substack.com/p/democracy-out-loud-425-rest",
+      "summary": "Indivisible is encouraging the public to submit comments opposing the Administration's new policies targeting trans youth. These policies are seen as part of a broader effort to undermine the rights of transgender individuals, with connections to influential figures like Elon Musk. The call for public engagement highlights the ongoing battle for LGBTQ+ rights and the importance of civic participation in shaping policy.",
+      "why_relevant": "This event highlights the ongoing struggle for LGBTQ+ rights and the role of public engagement in resisting discriminatory policies.",
+      "attacks": [
+        "lgbtq",
+        "civil_service"
+      ],
+      "_origin_file": "outloud_events_2025-12-27_2026-01-02.json",
+      "_origin_index": 8
+    },
+    {
+      "source_key": "outloud",
+      "date": "2025-12-27",
+      "category": "Information & Media Control",
+      "title": "Censorship of CICOT Investigative Report",
+      "url": "https://kziegler.substack.com/p/democracy-out-loud-425-rest",
+      "summary": "An investigative report on CICOT, initially aired on 60 Minutes, was censored by CBS, leading to its removal from official channels. Despite this, bootleg copies of the report have gone viral, counteracting the intended suppression. The report's widespread distribution highlights the challenges of controlling information in the digital age and the potential for censorship efforts to backfire. The report is now accessible through unofficial means, drawing attention to the issues it covers and the attempts to suppress it.",
+      "why_relevant": "This event underscores the ongoing struggle between media control and the public's right to access information, a critical component of democratic transparency.",
+      "attacks": [
+        "press",
+        "information"
+      ],
+      "_origin_file": "outloud_events_2025-12-27_2026-01-02.json",
+      "_origin_index": 5
+    },
+    {
+      "source_key": "guardian",
+      "date": "2025-12-27",
+      "category": "Economic & Regulatory Power",
+      "title": "Huge cuts to healthcare, science, and anti-hunger programs",
+      "url": "https://www.theguardian.com/us-news/2025/dec/27/inflatable-frogs-ad-campaign-trump-protest-methods",
+      "summary": "The Trump administration has implemented significant budget cuts to healthcare, scientific research, and the United States' largest anti-hunger program. These cuts have sparked widespread criticism and protests, as they are seen as detrimental to public welfare and scientific progress. The reductions in funding are part of broader efforts to reduce government spending in these areas.",
+      "why_relevant": "The cuts to essential services and programs threaten public health, scientific advancement, and food security, impacting vulnerable populations and undermining societal well-being.",
+      "attacks": [
+        "poor",
+        "science",
+        "sick_vulnerable"
+      ],
+      "_origin_file": "guardian_events_2025-12-27_2026-01-02.json",
+      "_origin_index": 32
+    },
+    {
+      "source_key": "outloud",
+      "date": "2025-12-27",
+      "category": "Transparency & Records",
+      "title": "DOJ Accused of Limiting Release of Epstein Files",
+      "url": "https://kziegler.substack.com/p/democracy-out-loud-425-rest",
+      "summary": "Indivisible has accused the Department of Justice (DOJ) of breaking the law by redacting and limiting the release of files related to Jeffrey Epstein. The organization is urging continued pressure on Republicans to ensure full transparency and accountability for those involved. This situation raises concerns about the DOJ's commitment to transparency and the potential shielding of powerful individuals from accountability.",
+      "why_relevant": "The event underscores the critical role of transparency in holding powerful individuals accountable and ensuring justice is served.",
+      "attacks": [
+        "justice_dept",
+        "transparency"
+      ],
+      "_origin_file": "outloud_events_2025-12-27_2026-01-02.json",
+      "_origin_index": 7
+    },
+    {
+      "source_key": "guardian",
+      "date": "2025-12-27",
+      "category": "Civil–Military Relations & State Violence",
+      "title": "Federal agents in military fatigues deployed in major cities",
+      "url": "https://www.theguardian.com/us-news/2025/dec/27/inflatable-frogs-ad-campaign-trump-protest-methods",
+      "summary": "Federal agents in military fatigues, carrying assault rifles, have been deployed in major cities across the United States. This deployment is part of the Trump administration's response to growing protests and dissent against its policies. The presence of these agents has been a point of contention, with critics arguing that it represents an escalation of authoritarian tactics and a threat to civil liberties.",
+      "why_relevant": "The deployment of federal agents in military gear in civilian areas raises concerns about the militarization of law enforcement and the potential suppression of civil liberties.",
+      "attacks": [
+        "civil_service",
+        "public_service",
+        "rule_of_law"
+      ],
+      "_origin_file": "guardian_events_2025-12-27_2026-01-02.json",
+      "_origin_index": 31
+    },
+    {
+      "source_key": "noah",
+      "date": "2025-12-27",
+      "category": "Public Health",
+      "title": "U.S. Life Expectancy Increases",
+      "url": "https://www.noahpinion.blog/p/ten-things-that-are-going-right-in",
+      "summary": "U.S. life expectancy has improved significantly, reversing the negative trend of the 2010s and bouncing back from the pandemic's impact. The increase is attributed to a decline in unsafe behaviors such as overdoses, suicides, murders, and traffic accidents. Although the gap with other rich countries remains, the U.S. is no longer falling further behind in life expectancy metrics.",
+      "why_relevant": "Improvements in life expectancy reflect positive public health trends and societal stability.",
+      "attacks": [],
+      "_origin_file": "noah_events_2025-12-27_2026-01-02.json",
+      "_origin_index": 16
+    },
+    {
+      "source_key": "guardian",
+      "date": "2025-12-28",
+      "category": "Law Enforcement & Surveillance",
+      "title": "Oklahoma man charged with manslaughter in fatal shooting",
+      "url": "https://www.theguardian.com/us-news/2025/dec/28/oklahoma-man-target-practice-fatal-shooting-neighbor",
+      "summary": "Cody Wayne Adams, a 33-year-old man from Oklahoma, was charged with first-degree manslaughter after allegedly shooting and killing his neighbor, Sandra Phelps, while conducting target practice in his backyard. The incident occurred when Adams was firing at a drink can, and a stray bullet traveled several blocks, striking Phelps as she sat on her porch. Authorities determined that Adams's backyard lacked a proper backstop to prevent bullets from leaving the property. Adams was arrested and later released on a $100,000 bond.",
+      "why_relevant": "The event highlights issues related to gun safety and the legal consequences of negligent firearm use.",
+      "attacks": [],
+      "_origin_file": "guardian_events_2025-12-27_2026-01-02.json",
+      "_origin_index": 27
+    },
+    {
+      "source_key": "guardian",
+      "date": "2025-12-28",
+      "category": "Civil–Military Relations & State Violence",
+      "title": "US Military Strikes in Nigeria and Syria",
+      "url": "https://www.theguardian.com/us-news/2025/dec/28/military-strikes-nigeria-syria-trump-islamic-state",
+      "summary": "The US military conducted strikes in Nigeria and Syria targeting militants linked to the Islamic State group. These actions were described by Mike Turner, a senior Republican on the House Armed Services Committee, as consistent with the US policy to combat Islamic extremism. The strikes, which included a cruise missile attack on terrorist camps in north-western Nigeria, were characterized by President Trump as a \"Christmas present\" for IS militants. The US Defense Secretary, Pete Hegseth, emphasized the administration's stance against the persecution of Christians in Nigeria and elsewhere.",
+      "why_relevant": "This event highlights the ongoing US military engagement in foreign conflicts and its implications for international relations and domestic policy.",
+      "attacks": [
+        "peace",
+        "global_democracy"
+      ],
+      "_origin_file": "guardian_events_2025-12-27_2026-01-02.json",
+      "_origin_index": 26
+    },
+    {
+      "source_key": "federalregister",
+      "date": "2025-12-29",
+      "category": "Executive Actions & Orders",
+      "title": "Advisory Board on Radiation and Worker Health Meeting Announced",
+      "url": "https://www.federalregister.gov/documents/2025/12/29/2025-23802/meeting-of-the-advisory-board-on-radiation-and-worker-health-subcommittee-for-procedure-reviews",
+      "summary": "The Centers for Disease Control and Prevention (CDC) announced a meeting of the Advisory Board on Radiation and Worker Health's Subcommittee for Procedure Reviews. Scheduled for January 28, 2026, the meeting will discuss administrative items, professional judgment assessments, and NIOSH responses to board questions. The public can listen via audio conference and submit written comments by January 21, 2026.",
+      "why_relevant": "This meeting is significant for its role in advising on radiation exposure compensation, impacting worker health policy and safety standards.",
+      "attacks": [],
+      "_origin_file": "federalregister_events_2025-12-27_2026-01-02.json",
+      "_origin_index": 32
+    },
+    {
+      "source_key": "50501",
+      "date": "2025-12-29",
+      "category": "Judicial Developments",
+      "title": "Temporary restraining order granted to Imran Ahmed",
+      "url": "https://www.reuters.com",
+      "summary": "Imran Ahmed, of the Center for Countering Digital Hate, has sued the government, claiming that its actions violated his constitutional rights. A federal judge has granted a temporary restraining order preventing the government from detaining him while the case proceeds. This legal action highlights the tension between government actions and the rights of individuals working in oversight roles.",
+      "why_relevant": "The court's intervention underscores the importance of judicial oversight in protecting individual rights against government overreach.",
+      "attacks": [
+        "justice_dept",
+        "information"
+      ],
+      "_origin_file": "50501_events_2025-12-27_2026-01-02.json",
+      "_origin_index": 12
+    },
+    {
+      "source_key": "guardian",
+      "date": "2025-12-29",
+      "category": "Judicial Developments",
+      "title": "Federal judge dismisses indictment against TikTok streamer",
+      "url": "https://www.theguardian.com/us-news/2025/dec/29/tiktoker-shot-ice-case-dismissed-los-angeles",
+      "summary": "A federal judge dismissed the indictment against Carlitos Ricardo Parias, a TikTok streamer, who was accused of assaulting federal agents during an immigration enforcement operation in Los Angeles. The judge cited constitutional violations, including the government's decision to detain Parias at an ICE processing center after he was released on bond, which hindered his access to legal counsel. The government also failed to meet discovery deadlines, including releasing body-worn camera footage. The dismissal was with prejudice, preventing the re-filing of the same charges against Parias.",
+      "why_relevant": "The dismissal highlights issues of constitutional rights and due process in immigration enforcement and legal proceedings.",
+      "attacks": [
+        "immigrants_refugees",
+        "rule_of_law"
+      ],
+      "_origin_file": "guardian_events_2025-12-27_2026-01-02.json",
+      "_origin_index": 24
+    },
+    {
+      "source_key": "50501",
+      "date": "2025-12-29",
+      "category": "Law Enforcement & Surveillance",
+      "title": "ICE plans to expand detention using warehouse-style facilities",
+      "url": "https://www.washingtonpost.com",
+      "summary": "The Washington Post reported that ICE is planning to expand its detention capabilities by utilizing warehouse-style facilities near major logistics hubs. These large-scale holding centers are designed to expedite deportations, reflecting an industrial approach to immigration enforcement. This expansion is part of a broader immigration enforcement strategy, supported by a GOP-backed spending package that allocates $170 billion in additional funding for ICE and Border Patrol through September 2029.",
+      "why_relevant": "This expansion represents a significant increase in government capacity for immigration enforcement, raising concerns about due process and the treatment of detainees.",
+      "attacks": [
+        "immigrants_refugees",
+        "law_enforcement"
+      ],
+      "_origin_file": "50501_events_2025-12-27_2026-01-02.json",
+      "_origin_index": 10
+    },
+    {
+      "source_key": "guardian",
+      "date": "2025-12-29",
+      "category": "Law Enforcement & Surveillance",
+      "title": "FBI deploys additional resources to Minnesota",
+      "url": "https://www.theguardian.com/us-news/2025/dec/28/fbi-minnesota-fraud-schemes-somalia",
+      "summary": "The FBI has increased its personnel and investigative resources in Minnesota to address large-scale fraud schemes exploiting federal programs. This move follows the dismantling of a $250 million fraud scheme involving federal food aid during the Covid pandemic, which led to 78 indictments and 57 convictions. FBI Director Kash Patel indicated that this is part of a broader effort to tackle fraud linked to the state's Somali population, with some individuals being referred for potential denaturalization and deportation. The FBI's actions come amid the Trump administration's criticism of Minnesota and its Somali community.",
+      "why_relevant": "The deployment of additional FBI resources highlights federal efforts to combat fraud and the potential targeting of immigrant communities, raising concerns about the balance between law enforcement and civil rights.",
+      "attacks": [
+        "immigrants_refugees",
+        "justice_dept"
+      ],
+      "_origin_file": "guardian_events_2025-12-27_2026-01-02.json",
+      "_origin_index": 25
+    },
+    {
+      "source_key": "50501",
+      "date": "2025-12-29",
+      "category": "Information & Media Control",
+      "title": "Visa bans imposed on European anti-disinformation figures",
+      "url": "https://www.reuters.com",
+      "summary": "Reuters reported that the administration has imposed visa bans on several European figures involved in anti-disinformation efforts, labeling their work as \"censorship.\" This move has been condemned by European officials, who argue that enforcing platform rules should not be equated with censorship. The action is part of a broader strategy to portray oversight and accountability efforts as threats.",
+      "why_relevant": "The visa bans represent an attempt to intimidate and discredit those working to combat disinformation, undermining efforts to hold power accountable.",
+      "attacks": [
+        "information",
+        "press"
+      ],
+      "_origin_file": "50501_events_2025-12-27_2026-01-02.json",
+      "_origin_index": 11
+    },
+    {
+      "source_key": "federalregister",
+      "date": "2025-12-29",
+      "category": "Economic & Regulatory Power",
+      "title": "Civil Monetary Penalty Adjustments for Inflation",
+      "url": "https://www.federalregister.gov/documents/2025/12/29/2025-23808/civil-monetary-penalty-adjustments-for-inflation",
+      "summary": "The Department of Homeland Security (DHS) issued a final rule adjusting civil monetary penalties for inflation, effective December 29, 2025. This technical amendment corrects clerical errors in the Coast Guard's and Transportation Security Administration's penalty tables, ensuring they reflect the correct 2025 inflation-adjusted amounts. The adjustments align with the Federal Civil Penalties Inflation Adjustment Act Improvements Act of 2015 and recent statutory changes, maintaining the penalties' deterrent effect.",
+      "why_relevant": "This adjustment ensures that civil monetary penalties remain effective as deterrents by accounting for inflation, thereby upholding regulatory compliance and enforcement.",
+      "attacks": [],
+      "_origin_file": "federalregister_events_2025-12-27_2026-01-02.json",
+      "_origin_index": 2
+    },
+    {
+      "source_key": "federalregister",
+      "date": "2025-12-29",
+      "category": "Economic & Regulatory Power",
+      "title": "FCC Seeks Comments on Information Collection",
+      "url": "https://www.federalregister.gov/documents/2025/12/29/2025-23871/information-collection-being-reviewed-by-the-federal-communications-commission-under-delegated",
+      "summary": "The Federal Communications Commission (FCC) has issued a notice inviting public comments on an information collection under the Paperwork Reduction Act. The collection concerns workplace discrimination complaints, with a focus on reducing paperwork burdens and enhancing data quality. Comments are due by February 27, 2026. The FCC aims to assess the necessity and utility of the information collected and explore ways to minimize the burden on respondents, particularly small businesses.",
+      "why_relevant": "This action reflects the FCC's ongoing efforts to streamline regulatory processes and ensure effective data collection, impacting how workplace discrimination complaints are managed.",
+      "attacks": [],
+      "_origin_file": "federalregister_events_2025-12-27_2026-01-02.json",
+      "_origin_index": 7
+    },
+    {
+      "source_key": "federalregister",
+      "date": "2025-12-29",
+      "category": "Economic & Regulatory Power",
+      "title": "FDA Announces OTC Monograph Order Request Fee Rates for FY 2026",
+      "url": "https://www.federalregister.gov/documents/2025/12/29/2025-23852/over-the-counter-monograph-drug-user-fee-amendments-otc-monograph-order-request-fee-rates-for-fiscal",
+      "summary": "The Food and Drug Administration (FDA) announced the Over-the-Counter (OTC) Monograph Order Request (OMOR) fee rates for fiscal year 2026. Effective from October 1, 2025, through September 30, 2026, the Tier 1 OMOR fee is set at $587,529, and the Tier 2 OMOR fee is $117,505. These fees, adjusted for inflation, are applicable to submitters of qualifying OMORs, excluding those requesting certain safety-related changes. The fees support FDA's regulatory activities for OTC monograph drugs.",
+      "why_relevant": "This announcement impacts the financial obligations of OTC drug manufacturers and supports FDA's regulatory oversight, affecting public health and industry compliance.",
+      "attacks": [],
+      "_origin_file": "federalregister_events_2025-12-27_2026-01-02.json",
+      "_origin_index": 45
+    },
+    {
+      "source_key": "federalregister",
+      "date": "2025-12-29",
+      "category": "Economic & Regulatory Power",
+      "title": "FDA Announces Roundtable on Premarket Tobacco Applications for ENDS",
+      "url": "https://www.federalregister.gov/documents/2025/12/29/2025-23851/roundtable-on-premarket-tobacco-application-submissions-for-electronic-nicotine-delivery-systems",
+      "summary": "The Food and Drug Administration (FDA) announced a roundtable discussion scheduled for February 10, 2026, to gather input from small tobacco product manufacturers on premarket tobacco product application (PMTA) submissions for electronic nicotine delivery systems (ENDS). The roundtable will cover topics such as product characterization, manufacturing controls, and toxicological profiles. A public docket has been established for comments, which can be submitted electronically or in writing until March 12, 2026.",
+      "why_relevant": "This roundtable facilitates regulatory dialogue and feedback on tobacco product applications, impacting public health and industry compliance.",
+      "attacks": [],
+      "_origin_file": "federalregister_events_2025-12-27_2026-01-02.json",
+      "_origin_index": 46
+    },
+    {
+      "source_key": "federalregister",
+      "date": "2025-12-29",
+      "category": "Economic & Regulatory Power",
+      "title": "FDA Authorizes Emergency Use of Animal Drugs for New World Screwworm",
+      "url": "https://www.federalregister.gov/documents/2025/12/29/2025-23914/authorization-of-emergency-use-for-two-animal-drugs-for-the-treatment-of-new-world-screwworm",
+      "summary": "The Food and Drug Administration (FDA) has issued two Emergency Use Authorizations (EUAs) for animal drug products to treat New World screwworm infestations in dogs, puppies, cats, and kittens. The authorizations, requested by Elanco US Inc., were issued on October 24, 2025, and November 21, 2025, following a public health emergency declaration by the Secretary of Health and Human Services. These authorizations allow the use of unapproved drugs under specific conditions to address the emergency.",
+      "why_relevant": "This action demonstrates the FDA's role in responding to public health emergencies by authorizing the use of unapproved drugs to protect animal health and, by extension, public health.",
+      "attacks": [],
+      "_origin_file": "federalregister_events_2025-12-27_2026-01-02.json",
+      "_origin_index": 35
+    },
+    {
+      "source_key": "federalregister",
+      "date": "2025-12-29",
+      "category": "Economic & Regulatory Power",
+      "title": "FDA Determines Regulatory Review Period for ADZYNMA",
+      "url": "https://www.federalregister.gov/documents/2025/12/29/2025-23864/determination-of-regulatory-review-period-for-purposes-of-patent-extension-adzynma",
+      "summary": "The Food and Drug Administration (FDA) has determined the regulatory review period for the human biologic product ADZYNMA, which is used for enzyme replacement therapy in patients with congenital thrombotic thrombocytopenic purpura. The review period totals 4,059 days, with 3,821 days in the testing phase and 238 days in the approval phase. This determination is part of the process for patent term extension applications submitted to the U.S. Patent and Trademark Office by the Regents of the University of Michigan and Takeda Pharmaceutical Company Limited.",
+      "why_relevant": "This determination affects the patent extension process, impacting the duration of market exclusivity for ADZYNMA, which has implications for competition and drug pricing.",
+      "attacks": [],
+      "_origin_file": "federalregister_events_2025-12-27_2026-01-02.json",
+      "_origin_index": 41
+    },
+    {
+      "source_key": "federalregister",
+      "date": "2025-12-29",
+      "category": "Economic & Regulatory Power",
+      "title": "FDA Determines Regulatory Review Period for ALHEMO",
+      "url": "https://www.federalregister.gov/documents/2025/12/29/2025-23863/determination-of-regulatory-review-period-for-purposes-of-patent-extension-alhemo",
+      "summary": "The Food and Drug Administration (FDA) has determined the regulatory review period for the human biologic product ALHEMO, which is used for prophylaxis in patients with hemophilia. The review period totals 3,475 days, with 2,625 days in the testing phase and 850 days in the approval phase. This determination is part of the process for patent term extension, requested by Novo Nordisk A/S, and will inform the U.S. Patent and Trademark Office's decision on the patent extension for ALHEMO.",
+      "why_relevant": "This determination affects the duration of patent protection for a significant medical product, impacting market exclusivity and economic interests in the pharmaceutical industry.",
+      "attacks": [],
+      "_origin_file": "federalregister_events_2025-12-27_2026-01-02.json",
+      "_origin_index": 42
+    },
+    {
+      "source_key": "federalregister",
+      "date": "2025-12-29",
+      "category": "Economic & Regulatory Power",
+      "title": "FDA Determines Regulatory Review Period for LEQEMBI",
+      "url": "https://www.federalregister.gov/documents/2025/12/29/2025-23865/determination-of-regulatory-review-period-for-purposes-of-patent-extension-leqembi",
+      "summary": "The Food and Drug Administration (FDA) has determined the regulatory review period for the human biologic product LEQEMBI, used for treating Alzheimer's disease, to be 4,546 days. This determination is part of the process for patent term extension, requested by BioArctic AB for U.S. Patent No. 8,025,878. The review period includes 4,300 days for testing and 246 days for approval. This notice allows for public comments and petitions regarding the accuracy of the review period dates and the applicant's due diligence.",
+      "why_relevant": "This determination affects the patent extension process, impacting the economic interests of the patent holder and the availability of the drug.",
+      "attacks": [],
+      "_origin_file": "federalregister_events_2025-12-27_2026-01-02.json",
+      "_origin_index": 40
+    },
+    {
+      "source_key": "federalregister",
+      "date": "2025-12-29",
+      "category": "Economic & Regulatory Power",
+      "title": "FDA Determines Regulatory Review Period for OJEMDA",
+      "url": "https://www.federalregister.gov/documents/2025/12/29/2025-23867/determination-of-regulatory-review-period-for-purposes-of-patent-extension-ojemda",
+      "summary": "The Food and Drug Administration (FDA) has determined the regulatory review period for the drug OJEMDA, which is used to treat pediatric low-grade glioma. The review period totals 4,942 days, with 4,705 days in the testing phase and 237 days in the approval phase. This determination is part of the process for patent term extension, requested by Day One Biopharmaceuticals, Inc. and Viracta Therapeutics, Inc. The public can comment on this determination until February 27, 2026.",
+      "why_relevant": "This determination affects the patent extension process, impacting the economic interests of pharmaceutical companies and the availability of new drugs.",
+      "attacks": [],
+      "_origin_file": "federalregister_events_2025-12-27_2026-01-02.json",
+      "_origin_index": 39
+    },
+    {
+      "source_key": "federalregister",
+      "date": "2025-12-29",
+      "category": "Economic & Regulatory Power",
+      "title": "FDA Determines Regulatory Review Period for ROMVIMZA",
+      "url": "https://www.federalregister.gov/documents/2025/12/29/2025-23862/determination-of-regulatory-review-period-for-purposes-of-patent-extension-romvimza",
+      "summary": "The Food and Drug Administration (FDA) has determined the regulatory review period for the drug ROMVIMZA, which is used to treat tenosynovial giant cell tumor. The review period totals 3,020 days, with 2,777 days in the testing phase and 243 days in the approval phase. This determination is part of the process for patent term extension, requested by Deciphera Pharmaceuticals, LLC, for U.S. Patent No. 9,181,223. The public can submit comments or petitions regarding this determination until February 27, 2026.",
+      "why_relevant": "This determination affects the patent extension process, impacting the economic interests of the pharmaceutical company and the availability of the drug.",
+      "attacks": [],
+      "_origin_file": "federalregister_events_2025-12-27_2026-01-02.json",
+      "_origin_index": 43
+    },
+    {
+      "source_key": "federalregister",
+      "date": "2025-12-29",
+      "category": "Economic & Regulatory Power",
+      "title": "FDA Determines Regulatory Review Period for ZELSUVMI",
+      "url": "https://www.federalregister.gov/documents/2025/12/29/2025-23868/determination-of-regulatory-review-period-for-purposes-of-patent-extension-zelsuvmi",
+      "summary": "The Food and Drug Administration (FDA) has determined the regulatory review period for the drug ZELSUVMI (berdazimer sodium) to be 4,144 days, with 3,778 days in the testing phase and 366 days in the approval phase. This determination is part of the process for patent term extension, as requested by the U.S. Patent and Trademark Office (USPTO) for U.S. Patent No. 9,855,211. The FDA's determination establishes the maximum potential length for a patent extension, subject to statutory limitations applied by the USPTO.",
+      "why_relevant": "This determination affects the patent extension process, impacting the economic interests of the patent holder and the availability of the drug in the market.",
+      "attacks": [],
+      "_origin_file": "federalregister_events_2025-12-27_2026-01-02.json",
+      "_origin_index": 38
+    },
+    {
+      "source_key": "federalregister",
+      "date": "2025-12-29",
+      "category": "Economic & Regulatory Power",
+      "title": "FDA Proposes Exemption for Certain Radiology Devices from Premarket Notification",
+      "url": "https://www.federalregister.gov/documents/2025/12/29/2025-23901/medical-devices-exemption-from-premarket-notification-radiology-computer-aided-detection-andor",
+      "summary": "The Food and Drug Administration (FDA) announced a proposal to partially exempt certain radiology computer-aided detection and diagnosis devices from premarket notification requirements. The exemption applies to devices with prior 510(k) clearance and requires manufacturers to maintain post-market plans and quality systems. Public comments are invited until February 27, 2026.",
+      "why_relevant": "This exemption could streamline regulatory processes for medical device manufacturers, potentially accelerating the availability of advanced diagnostic tools.",
+      "attacks": [],
+      "_origin_file": "federalregister_events_2025-12-27_2026-01-02.json",
+      "_origin_index": 36
+    },
+    {
+      "source_key": "federalregister",
+      "date": "2025-12-29",
+      "category": "Economic & Regulatory Power",
+      "title": "FDA Proposes Withdrawal of Three Drug Approvals",
+      "url": "https://www.federalregister.gov/documents/2025/12/29/2025-23870/egis-pharmaceuticals-limited-etal-proposal-to-withdraw-approval-of-three-abbreviated-new-drug",
+      "summary": "The Food and Drug Administration (FDA) has proposed withdrawing approval for three abbreviated new drug applications (ANDAs) due to the holders' failure to submit required annual reports. The affected drugs include bacitracin-neomycin sulfate-polymyxin B sulfate ointment, captopril tablets, and piroxicam capsules. The ANDA holders have until January 28, 2026, to request a hearing to contest the withdrawal. If no hearing is requested, the approvals will be withdrawn, and the drugs cannot be legally marketed.",
+      "why_relevant": "This action impacts the regulatory compliance and market availability of specific pharmaceutical products, affecting public health and industry standards.",
+      "attacks": [],
+      "_origin_file": "federalregister_events_2025-12-27_2026-01-02.json",
+      "_origin_index": 37
+    },
+    {
+      "source_key": "federalregister",
+      "date": "2025-12-29",
+      "category": "Economic & Regulatory Power",
+      "title": "FDA Submits Information Collection for PET Drug Manufacturing Practices",
+      "url": "https://www.federalregister.gov/documents/2025/12/29/2025-23859/agency-information-collection-activities-submission-for-office-of-management-and-budget-review",
+      "summary": "The Food and Drug Administration (FDA) has submitted a proposed information collection to the Office of Management and Budget (OMB) for review. This collection pertains to the Current Good Manufacturing Practices (CGMP) for Positron Emission Tomography (PET) drugs, as outlined in 21 CFR Part 212. The submission aims to ensure compliance with safety, identity, strength, quality, and purity standards for PET drugs. The comment period for this submission ends on January 28, 2026.",
+      "why_relevant": "This action affects regulatory compliance and quality standards in the pharmaceutical industry, impacting public health and safety.",
+      "attacks": [],
+      "_origin_file": "federalregister_events_2025-12-27_2026-01-02.json",
+      "_origin_index": 44
+    },
+    {
+      "source_key": "federalregister",
+      "date": "2025-12-29",
+      "category": "Economic & Regulatory Power",
+      "title": "OSHA Grants Permanent Variance for Potomac River Tunnel Project",
+      "url": "https://www.federalregister.gov/documents/2025/12/29/2025-23805/cbnahalmar-joint-venture-potomac-river-tunnel-project-grant-of-permanent-variance",
+      "summary": "The Occupational Safety and Health Administration (OSHA) granted a permanent variance to the CBNA/Halmar Joint Venture for the Potomac River Tunnel Project. This variance allows deviations from certain OSHA standards related to work in compressed air environments, specifically concerning decompression procedures and equipment. The variance is effective immediately and will remain until the project's completion or until modified or revoked by OSHA.",
+      "why_relevant": "This variance affects worker safety regulations and demonstrates OSHA's flexibility in adapting standards to accommodate technological advancements in construction.",
+      "attacks": [],
+      "_origin_file": "federalregister_events_2025-12-27_2026-01-02.json",
+      "_origin_index": 13
+    },
+    {
+      "source_key": "federalregister",
+      "date": "2025-12-29",
+      "category": "Economic & Regulatory Power",
+      "title": "OSHA Grants Permanent Variance to McNally Tunneling Corp./ASI Marine",
+      "url": "https://www.federalregister.gov/documents/2025/12/29/2025-23804/mcnally-tunneling-corpasi-marine-southerly-tunnel-and-consolidation-project-grant-of-permanent",
+      "summary": "The Occupational Safety and Health Administration (OSHA) granted a permanent variance to McNally Tunneling Corp./ASI Marine for the Southerly Tunnel and Consolidation Project in Cleveland, Ohio. This variance allows deviations from certain OSHA standards regarding work in compressed-air environments, specifically concerning pressure limits, decompression tables, and the use of decompression chambers. The variance is effective immediately and will remain until the project's completion or until modified or revoked by OSHA.",
+      "why_relevant": "This variance affects worker safety regulations, demonstrating OSHA's flexibility in adapting standards to accommodate advanced construction techniques while ensuring safety.",
+      "attacks": [],
+      "_origin_file": "federalregister_events_2025-12-27_2026-01-02.json",
+      "_origin_index": 14
+    },
+    {
+      "source_key": "guardian",
+      "date": "2025-12-30",
+      "category": "Executive Actions & Orders",
+      "title": "USCIS Guidance on Denaturalization Cases",
+      "url": "https://www.theguardian.com/us-news/2025/dec/30/us-citizenship-immigration-trump",
+      "summary": "New guidance issued to USCIS field offices instructs them to supply the Office of Immigration Litigation with 100-200 denaturalization cases per month during the 2026 fiscal year. This marks a significant increase compared to the 120 cases filed from 2017 to 2025. The guidance follows a justice department memo prioritizing denaturalization cases, potentially expanding the criteria beyond those who committed fraud during their application process. This move is seen as part of a broader strategy to target legal residents and naturalized citizens.",
+      "why_relevant": "The escalation of denaturalization cases threatens the citizenship status of naturalized Americans, undermining their legal rights and security.",
+      "attacks": [
+        "immigrants_refugees",
+        "rule_of_law",
+        "truth"
+      ],
+      "_origin_file": "guardian_events_2025-12-27_2026-01-02.json",
+      "_origin_index": 22
+    },
+    {
+      "source_key": "guardian",
+      "date": "2025-12-30",
+      "category": "Executive Actions & Orders",
+      "title": "USCIS Memo Pauses Immigration Proceedings for Nationals of 19 Countries",
+      "url": "https://www.theguardian.com/us-news/2025/dec/30/us-citizenship-immigration-trump",
+      "summary": "The US Citizenship and Immigration Service (USCIS) issued a memorandum on December 5, 2025, pausing immigration proceedings for nationals from 19 countries included in a travel ban list announced by Donald Trump. This policy change, justified on \"security\" grounds, has led to the cancellation of naturalization ceremonies and green-card interviews across multiple US cities. The memo followed a shooting incident involving an Afghan national, which was cited as a reason for the review of immigrants from high-risk countries. The policy has affected many individuals who were on the verge of obtaining US citizenship or permanent residency.",
+      "why_relevant": "This action affects the rights and legal status of immigrants, impacting their path to citizenship and residency.",
+      "attacks": [
+        "immigrants_refugees",
+        "rule_of_law",
+        "truth"
+      ],
+      "_origin_file": "guardian_events_2025-12-27_2026-01-02.json",
+      "_origin_index": 21
+    },
+    {
+      "source_key": "guardian",
+      "date": "2025-12-30",
+      "category": "Judicial Developments",
+      "title": "Detention Hearing for Suspected DC Pipe Bomber",
+      "url": "https://www.theguardian.com/us-news/2025/dec/30/dc-pipe-bombing-suspect-confession-hearing",
+      "summary": "Brian Cole Jr., accused of planting pipe bombs near the RNC and DNC headquarters in Washington DC on January 5, 2021, appeared at a federal detention hearing. Cole's lawyers argued for his release pending trial, citing his autism spectrum diagnosis and lack of criminal history. Federal prosecutors opposed, citing the severity of charges, including transporting explosives across state lines. Cole allegedly confessed to the crimes after arrest, with bomb-making materials found at his home. Judge Martin J Sharbaugh has yet to decide on Cole's release, promising a swift ruling.",
+      "why_relevant": "The case involves significant legal proceedings related to the January 6 insurrection, highlighting ongoing judicial processes and public safety concerns.",
+      "attacks": [
+        "rule_of_law",
+        "justice_dept"
+      ],
+      "_origin_file": "guardian_events_2025-12-27_2026-01-02.json",
+      "_origin_index": 19
+    },
+    {
+      "source_key": "guardian",
+      "date": "2025-12-30",
+      "category": "Judicial Developments",
+      "title": "Federal judge orders Trump administration to continue funding CFPB",
+      "url": "https://www.theguardian.com/us-news/2025/dec/30/consumer-financial-protection-bureau-funding",
+      "summary": "A federal judge, Amy Berman Jackson, has ordered the Trump administration to continue funding the Consumer Financial Protection Bureau (CFPB), countering the administration's efforts to dismantle the agency. The administration, led by acting director Russell Vought, argued that the Federal Reserve's financial losses prevented it from funding the CFPB. However, Judge Jackson ruled that this justification was invalid and that the administration's actions were an attempt to bypass the court's previous injunction. The US Court of Appeals for the DC Circuit is set to hear the case in February 2026.",
+      "why_relevant": "This ruling reinforces judicial oversight over executive actions, ensuring the continuation of a consumer protection agency established by Congress.",
+      "attacks": [
+        "rule_of_law",
+        "congress",
+        "public_service"
+      ],
+      "_origin_file": "guardian_events_2025-12-27_2026-01-02.json",
+      "_origin_index": 20
+    },
+    {
+      "source_key": "guardian",
+      "date": "2025-12-30",
+      "category": "Law Enforcement & Surveillance",
+      "title": "Bodyguard of Vivek Ramaswamy charged with drug trafficking",
+      "url": "https://www.theguardian.com/us-news/2026/jan/09/vivek-ramaswamy-bodyguard-drug-trafficking",
+      "summary": "Justin Salsburey, a bodyguard employed by a private security firm contracted by Vivek Ramaswamy's family, was charged on December 30, 2025, with conspiracy and possession with intent to distribute narcotics. The charges were filed after authorities discovered a large quantity of illicit drugs at his home in western Ohio. Salsburey and his wife, Ruthann Rankin, allegedly received 261 parcels containing counterfeit OxyContin pills, fentanyl, methamphetamine, MDMA, and steroids since August 2024. Both individuals have been removed from their respective positions pending further investigation.",
+      "why_relevant": "The arrest and charges against a bodyguard of a political candidate highlight issues of security and integrity within political campaigns.",
+      "attacks": [],
+      "_origin_file": "guardian_events_2026-01-03_2026-01-09.json",
+      "_origin_index": 3
+    },
+    {
+      "source_key": "noah",
+      "date": "2025-12-30",
+      "category": "Law Enforcement & Surveillance",
+      "title": "Biden administration uncovers significant welfare fraud",
+      "url": "https://www.noahpinion.blog/p/at-least-five-interesting-things-304",
+      "summary": "The Biden administration has uncovered a significant case of welfare fraud in Minnesota, where Somali communities defrauded the Medicaid system of at least $250 million. This case is part of a broader issue of government fraud, which includes Medicare fraud and fake community college applications. The administration's efforts highlight the need for increased oversight to prevent such fraud.",
+      "why_relevant": "Addressing government fraud is crucial for maintaining public trust and ensuring the effective use of public funds.",
+      "attacks": [],
+      "_origin_file": "noah_events_2025-12-27_2026-01-02.json",
+      "_origin_index": 5
+    },
+    {
+      "source_key": "meidas",
+      "date": "2025-12-30",
+      "category": "Civil Society & Protest",
+      "title": "Artists Cancel Performances at Trump-Kennedy Center",
+      "url": "https://www.meidasplus.com/p/tuesday-afternoon-news-updates-123025",
+      "summary": "Artists are canceling performances at the Kennedy Center after Trump unlawfully renamed it the \"Trump Kennedy Center.\" Cancellations include New Year’s Eve performances by a jazz ensemble and a New York dance company. The cancellations are a protest against the unlawful renaming and the center's association with Trump.",
+      "why_relevant": "The cancellations represent a cultural protest against the politicization and unlawful actions associated with the Trump administration.",
+      "attacks": [
+        "culture_art"
+      ],
+      "_origin_file": "meidas_events_2025-12-27_2026-01-02.json",
+      "_origin_index": 22
+    },
+    {
+      "source_key": "meidas",
+      "date": "2025-12-30",
+      "category": "Information & Media Control",
+      "title": "Trump Administration's Fraudulent Fundraising Tactics",
+      "url": "https://www.meidasplus.com/p/tuesday-afternoon-news-updates-123025",
+      "summary": "Trump allies, including Mike Johnson, are running deceptive email \"surveys\" that promise no fundraising but demand donations once clicked. Trump also sent emails threatening supporters that Democrats would steal their \"tariff rebate checks\" unless they donated immediately. These tactics reflect the administration's reliance on fraudulent fundraising practices.",
+      "why_relevant": "The use of deceptive fundraising tactics undermines trust in political processes and reflects broader issues of misinformation and manipulation.",
+      "attacks": [
+        "truth",
+        "information"
+      ],
+      "_origin_file": "meidas_events_2025-12-27_2026-01-02.json",
+      "_origin_index": 20
+    },
+    {
+      "source_key": "50501",
+      "date": "2025-12-30",
+      "category": "Economic & Regulatory Power",
+      "title": "Corporate bankruptcies and household stress increase",
+      "url": "https://www.the50501movement.org/p/why-the-2025-economy-felt-worse-than",
+      "summary": "",
+      "why_relevant": "Rising bankruptcies and household financial stress signal economic instability and the potential for broader economic challenges.",
+      "attacks": [
+        "economy"
+      ],
+      "_origin_file": "50501_events_2025-12-27_2026-01-02.json",
+      "_origin_index": 9
+    },
+    {
+      "source_key": "federalregister",
+      "date": "2025-12-30",
+      "category": "Economic & Regulatory Power",
+      "title": "Census Bureau Submits Information Collection Request to OMB",
+      "url": "https://www.federalregister.gov/documents/2025/12/30/2025-23979/agency-information-collection-activities-submission-to-the-office-of-management-and-budget-omb-for",
+      "summary": "The U.S. Census Bureau submitted a request to the Office of Management and Budget (OMB) for review and clearance of a generic clearance for questionnaire pretesting research. This request, under the Paperwork Reduction Act, seeks an extension without change of a currently approved collection. The request involves 5,500 respondents annually, with an average response time of one hour, totaling 5,500 burden hours per year. Public comments are invited within 30 days of the notice's publication.",
+      "why_relevant": "This action affects the regulatory process by seeking public input on data collection methods, impacting the quality and efficiency of future Census Bureau surveys.",
+      "attacks": [],
+      "_origin_file": "federalregister_events_2025-12-27_2026-01-02.json",
+      "_origin_index": 3
+    },
+    {
+      "source_key": "federalregister",
+      "date": "2025-12-30",
+      "category": "Economic & Regulatory Power",
+      "title": "EPA Approves South Carolina Regional Haze Plan",
+      "url": "https://www.federalregister.gov/documents/2025/12/30/C1-2025-22565/air-plan-approval-south-carolina-second-planning-period-regional-haze-plan",
+      "summary": "The Environmental Protection Agency (EPA) has approved South Carolina's Second Planning Period Regional Haze Plan. This rule, published on December 30, 2025, corrects a previous document and finalizes the state's strategy to address regional haze, which affects visibility in national parks and wilderness areas. The plan outlines measures to reduce emissions from various sources to improve air quality and visibility by 2028.",
+      "why_relevant": "This approval is significant for environmental regulation, as it enforces state-level commitments to reduce air pollution and protect natural visibility in protected areas.",
+      "attacks": [],
+      "_origin_file": "federalregister_events_2025-12-27_2026-01-02.json",
+      "_origin_index": 23
+    },
+    {
+      "source_key": "federalregister",
+      "date": "2025-12-30",
+      "category": "Economic & Regulatory Power",
+      "title": "EPA Grants No-Migration Variance for Clean Harbors Lone Mountain",
+      "url": "https://www.federalregister.gov/documents/2025/12/30/C1-2025-22553/no-migration-variance-from-land-disposal-restrictions-for-clean-harbors-lone-mountain-oklahoma",
+      "summary": "The Environmental Protection Agency (EPA) issued a notice granting a no-migration variance from land disposal restrictions for Clean Harbors Lone Mountain, Oklahoma. This variance allows the facility to manage certain hazardous wastes without adhering to standard land disposal prohibitions, provided that the waste does not migrate from the disposal unit. This decision corrects a previous misclassification of the action as a proposed rule.",
+      "why_relevant": "This action affects environmental regulatory compliance and waste management practices, impacting local environmental safety and regulatory enforcement.",
+      "attacks": [],
+      "_origin_file": "federalregister_events_2025-12-27_2026-01-02.json",
+      "_origin_index": 24
+    },
+    {
+      "source_key": "federalregister",
+      "date": "2025-12-30",
+      "category": "Economic & Regulatory Power",
+      "title": "EPA Submits Airbag Rule Information Collection Request to OMB",
+      "url": "https://www.federalregister.gov/documents/2025/12/30/2025-23973/agency-information-collection-activities-submission-to-omb-for-review-and-approval-comment-request",
+      "summary": "The Environmental Protection Agency (EPA) has submitted a renewal request for the Safe Management of Recalled Airbags Rule to the Office of Management and Budget (OMB) for review. This request, under the Paperwork Reduction Act, extends the information collection requirements for managing hazardous airbag waste. The rule aims to ensure safe disposal and prevent defective airbags from being reused. Public comments are open until January 29, 2026.",
+      "why_relevant": "This action ensures continued regulatory oversight of hazardous airbag waste, protecting public safety and environmental health.",
+      "attacks": [],
+      "_origin_file": "federalregister_events_2025-12-27_2026-01-02.json",
+      "_origin_index": 25
+    },
+    {
+      "source_key": "federalregister",
+      "date": "2025-12-30",
+      "category": "Economic & Regulatory Power",
+      "title": "EPA Submits Information Collection Request for Grain Elevators to OMB",
+      "url": "https://www.federalregister.gov/documents/2025/12/30/2025-23921/agency-information-collection-activities-submission-to-the-office-of-management-and-budget-for",
+      "summary": "The Environmental Protection Agency (EPA) has submitted a request to the Office of Management and Budget (OMB) for the renewal of the New Source Performance Standards (NSPS) for grain elevators. This request, under the Paperwork Reduction Act, seeks to extend the information collection requirements for facilities involved in grain handling operations. The public is invited to comment on this proposal until January 29, 2026. The renewal aims to ensure compliance with existing regulations, requiring facilities to submit notifications, performance tests, and periodic reports.",
+      "why_relevant": "This action affects regulatory compliance and operational transparency for grain elevators, impacting economic and environmental standards.",
+      "attacks": [],
+      "_origin_file": "federalregister_events_2025-12-27_2026-01-02.json",
+      "_origin_index": 30
+    },
+    {
+      "source_key": "federalregister",
+      "date": "2025-12-30",
+      "category": "Economic & Regulatory Power",
+      "title": "EPA Submits Information Collection Request for Kraft Pulp Mills",
+      "url": "https://www.federalregister.gov/documents/2025/12/30/2025-23966/agency-information-collection-activities-submission-to-the-office-of-management-and-budget-for",
+      "summary": "The Environmental Protection Agency (EPA) has submitted an information collection request (ICR) for Kraft Pulp Mills to the Office of Management and Budget (OMB) for review and approval. This request, under the New Source Performance Standards (NSPS), is a proposed extension of the current ICR, which is valid through December 31, 2025. The ICR requires initial notifications, performance tests, and periodic reports from affected facilities to ensure compliance with 40 CFR part 60, subpart BB. Public comments are invited until January 29, 2026.",
+      "why_relevant": "This action ensures continued regulatory oversight and compliance in the kraft pulp mill industry, impacting environmental standards and operational practices.",
+      "attacks": [],
+      "_origin_file": "federalregister_events_2025-12-27_2026-01-02.json",
+      "_origin_index": 28
+    },
+    {
+      "source_key": "federalregister",
+      "date": "2025-12-30",
+      "category": "Economic & Regulatory Power",
+      "title": "EPA Submits Information Collection Request for Nonroad Engines to OMB",
+      "url": "https://www.federalregister.gov/documents/2025/12/30/2025-23922/agency-information-collection-activities-submission-to-the-office-of-management-and-budget-for",
+      "summary": "The Environmental Protection Agency (EPA) has submitted a renewal request for the information collection on certification and compliance requirements for nonroad spark-ignition engines to the Office of Management and Budget (OMB). This request, under the Paperwork Reduction Act, extends the current approval through December 31, 2025, and allows for an additional 30-day public comment period ending January 28, 2026. The collection supports EPA's issuance of certificates of conformity for engines meeting emission standards, necessary for legal commerce introduction.",
+      "why_relevant": "This action ensures continued regulatory oversight and compliance with emission standards for nonroad engines, impacting environmental policy and industry operations.",
+      "attacks": [],
+      "_origin_file": "federalregister_events_2025-12-27_2026-01-02.json",
+      "_origin_index": 29
+    },
+    {
+      "source_key": "federalregister",
+      "date": "2025-12-30",
+      "category": "Economic & Regulatory Power",
+      "title": "EPA Submits Information Collection Request for TSCA Section 5 Review",
+      "url": "https://www.federalregister.gov/documents/2025/12/30/2025-23972/agency-information-collection-activities-submission-to-the-office-of-management-and-budget-for",
+      "summary": "The Environmental Protection Agency (EPA) has submitted an information collection request to the Office of Management and Budget for review and approval. This request pertains to the TSCA Section 5 Premanufacture Review of New Chemical Substances and Significant New Use Rules. The extension of this request allows for an additional 30 days for public comments, ending on January 29, 2026. The request involves mandatory reporting and recordkeeping requirements for manufacturers and processors of new and existing chemical substances.",
+      "why_relevant": "This action affects regulatory oversight of chemical substances, impacting environmental safety and industry compliance.",
+      "attacks": [],
+      "_origin_file": "federalregister_events_2025-12-27_2026-01-02.json",
+      "_origin_index": 26
+    },
+    {
+      "source_key": "federalregister",
+      "date": "2025-12-30",
+      "category": "Economic & Regulatory Power",
+      "title": "EPA Submits Pesticide Data Call-In ICR for OMB Review",
+      "url": "https://www.federalregister.gov/documents/2025/12/30/2025-23967/agency-information-collection-activities-submission-to-the-office-of-management-and-budget-for",
+      "summary": "The Environmental Protection Agency (EPA) has submitted an Information Collection Request (ICR) for Pesticide Data Call-Ins to the Office of Management and Budget (OMB) for review and approval. This request, under the Paperwork Reduction Act, seeks to extend the current ICR, which is valid through December 31, 2025. The ICR involves collecting data from pesticide registrants to ensure compliance with federal safety standards. Public comments are invited until January 29, 2026.",
+      "why_relevant": "This action ensures continued regulatory oversight of pesticides, protecting public health and the environment.",
+      "attacks": [],
+      "_origin_file": "federalregister_events_2025-12-27_2026-01-02.json",
+      "_origin_index": 27
+    },
+    {
+      "source_key": "federalregister",
+      "date": "2025-12-30",
+      "category": "Economic & Regulatory Power",
+      "title": "Evaluation of Petition for Special Exposure Cohort Designation",
+      "url": "https://www.federalregister.gov/documents/2025/12/30/2025-24005/decision-to-evaluate-a-petition-to-designate-a-class-of-employees-from-united-nuclear-corporation-in",
+      "summary": "The National Institute for Occupational Safety and Health (NIOSH) announced the decision to evaluate a petition to designate a class of employees from United Nuclear Corporation in Hematite, Missouri, for inclusion in the Special Exposure Cohort under the Energy Employees Occupational Illness Compensation Program Act of 2000. This evaluation pertains to employees who worked at the site from January 1, 1958, through June 30, 1965. The evaluation will determine if these employees meet the criteria for compensation due to occupational exposure.",
+      "why_relevant": "This evaluation could lead to compensation for workers exposed to hazardous conditions, reflecting government accountability for occupational safety.",
+      "attacks": [],
+      "_origin_file": "federalregister_events_2025-12-27_2026-01-02.json",
+      "_origin_index": 31
+    },
+    {
+      "source_key": "federalregister",
+      "date": "2025-12-30",
+      "category": "Economic & Regulatory Power",
+      "title": "FCC Seeks Comments on Information Collection",
+      "url": "https://www.federalregister.gov/documents/2025/12/30/2025-23919/information-collection-being-reviewed-by-the-federal-communications-commission",
+      "summary": "The Federal Communications Commission (FCC) has issued a notice inviting public comments on its information collection practices under the Paperwork Reduction Act. The FCC seeks input on the necessity, utility, and burden of its data collection, particularly concerning the Tariff Review Plans (TRPs) used by incumbent local exchange carriers. Comments are due by March 2, 2026, and aim to improve the efficiency and effectiveness of the FCC's data collection processes.",
+      "why_relevant": "This action affects regulatory oversight and transparency in telecommunications, impacting how data is collected and used to set rates and ensure compliance.",
+      "attacks": [],
+      "_origin_file": "federalregister_events_2025-12-27_2026-01-02.json",
+      "_origin_index": 6
+    },
+    {
+      "source_key": "meidas",
+      "date": "2025-12-30",
+      "category": "Economic & Regulatory Power",
+      "title": "Social Security Administration Backlogs",
+      "url": "https://www.meidasplus.com/p/tuesday-afternoon-news-updates-123025",
+      "summary": "Caseload backlogs at the Social Security Administration have swelled to over 6 million, with applicants facing obstacles in obtaining basic information. Cuts to the agency under the Trump administration have reduced its efficiency and left it in turmoil, impacting service delivery.",
+      "why_relevant": "The inefficiency and turmoil within the Social Security Administration affect millions of Americans relying on its services, highlighting the consequences of administrative mismanagement.",
+      "attacks": [
+        "public_service"
+      ],
+      "_origin_file": "meidas_events_2025-12-27_2026-01-02.json",
+      "_origin_index": 24
+    },
+    {
+      "source_key": "noah",
+      "date": "2025-12-30",
+      "category": "Economic & Regulatory Power",
+      "title": "Japan Attracts Foreign Direct Investment in AI Sector",
+      "url": "https://www.noahpinion.blog/p/the-weeb-economy",
+      "summary": "Japan is attracting significant foreign direct investment in its AI sector, with companies like Sakana AI receiving funding from international venture capital firms. This investment is part of a broader trend of increasing foreign interest in Japan's technology sector, driven by the country's skilled workforce, quality of life, and government support for innovation.",
+      "why_relevant": "Foreign investment in AI is crucial for Japan to remain competitive in the rapidly evolving global technology landscape.",
+      "attacks": [],
+      "_origin_file": "noah_events_2025-12-27_2026-01-02.json",
+      "_origin_index": 12
+    },
+    {
+      "source_key": "noah",
+      "date": "2025-12-30",
+      "category": "Economic & Regulatory Power",
+      "title": "Japan Encourages Mid-Career Hiring to Modernize Workforce",
+      "url": "https://www.noahpinion.blog/p/the-weeb-economy",
+      "summary": "Japanese companies are increasingly hiring mid-career professionals, with 37.6% of job openings filled by such hires in the current fiscal year. This shift away from the traditional lifetime employment model is part of broader efforts to modernize Japan's workforce and increase productivity. Surveys indicate that over half of job-switchers are satisfied with the outcome, suggesting a positive reception to this change.",
+      "why_relevant": "Modernizing employment practices is crucial for enhancing workforce flexibility and productivity in Japan's economy.",
+      "attacks": [],
+      "_origin_file": "noah_events_2025-12-27_2026-01-02.json",
+      "_origin_index": 10
+    },
+    {
+      "source_key": "noah",
+      "date": "2025-12-30",
+      "category": "Economic & Regulatory Power",
+      "title": "Japan's Corporate Governance Reforms Boost Profits",
+      "url": "https://www.noahpinion.blog/p/the-weeb-economy",
+      "summary": "Japan has implemented corporate governance reforms, including the Corporate Governance Code and Stewardship Code, which have contributed to a revival in corporate profits. These reforms, along with financial innovations like the JPX-Nikkei 400 stock index, have helped Japanese companies streamline operations and carve out profitable export niches. This has led to increased foreign demand for Japanese stocks and a rise in the Nikkei 225 stock index.",
+      "why_relevant": "These reforms are significant for improving corporate efficiency and attracting foreign investment, which are vital for Japan's economic growth.",
+      "attacks": [],
+      "_origin_file": "noah_events_2025-12-27_2026-01-02.json",
+      "_origin_index": 9
+    },
+    {
+      "source_key": "noah",
+      "date": "2025-12-30",
+      "category": "Economic & Regulatory Power",
+      "title": "Japan's Government Plans to Let More Underperforming Companies Fail",
+      "url": "https://www.noahpinion.blog/p/the-weeb-economy",
+      "summary": "The Japanese government has indicated a willingness to allow more underperforming companies to fail, aiming to redirect workers and investment to more productive firms. This policy shift is intended to boost wages and productivity in a tight labor market. The move reflects an urgent need to replace stagnant businesses with those capable of delivering growth.",
+      "why_relevant": "Allowing market forces to eliminate inefficient companies can lead to a more dynamic and competitive economy.",
+      "attacks": [],
+      "_origin_file": "noah_events_2025-12-27_2026-01-02.json",
+      "_origin_index": 11
+    },
+    {
+      "source_key": "noah",
+      "date": "2025-12-30",
+      "category": "Economic & Regulatory Power",
+      "title": "Japan's Government Promotes Greenfield FDI",
+      "url": "https://www.noahpinion.blog/p/the-weeb-economy",
+      "summary": "The Japanese government is promoting greenfield foreign direct investment, where foreign companies build new facilities in Japan. This strategy is aimed at boosting economic growth by increasing exports and facilitating technology transfer. Greenfield FDI is seen as a way to directly add to the economy and create jobs for Japanese workers.",
+      "why_relevant": "Encouraging greenfield FDI is crucial for economic expansion and technological advancement in Japan.",
+      "attacks": [],
+      "_origin_file": "noah_events_2025-12-27_2026-01-02.json",
+      "_origin_index": 15
+    },
+    {
+      "source_key": "noah",
+      "date": "2025-12-30",
+      "category": "Economic & Regulatory Power",
+      "title": "Japan's Government Sets Ambitious FDI Target",
+      "url": "https://www.noahpinion.blog/p/the-weeb-economy",
+      "summary": "The Japanese government has set a target of attracting 100 trillion yen in foreign direct investment by 2030. This goal is part of a broader strategy to boost economic growth and technological innovation by encouraging foreign companies to establish operations in Japan. The government is implementing various measures to make Japan an attractive destination for FDI.",
+      "why_relevant": "Setting ambitious FDI targets is a strategic move to enhance Japan's economic growth and global competitiveness.",
+      "attacks": [],
+      "_origin_file": "noah_events_2025-12-27_2026-01-02.json",
+      "_origin_index": 13
+    },
+    {
+      "source_key": "noah",
+      "date": "2025-12-30",
+      "category": "Economic & Regulatory Power",
+      "title": "Japan's Government Supports Foreign Semiconductor Investments",
+      "url": "https://www.noahpinion.blog/p/the-weeb-economy",
+      "summary": "The Japanese government has been actively supporting foreign semiconductor investments, including TSMC's plant in Kumamoto and Micron's fab in Hiroshima. These projects are part of a broader strategy to revitalize Japan's semiconductor industry, with the government providing significant subsidies and facilitating cooperation with Japanese companies and universities. This approach aims to boost Japan's technological edge and increase its export capabilities.",
+      "why_relevant": "Government support for foreign investments in key industries like semiconductors is crucial for enhancing Japan's economic competitiveness and technological innovation.",
+      "attacks": [],
+      "_origin_file": "noah_events_2025-12-27_2026-01-02.json",
+      "_origin_index": 8
+    },
+    {
+      "source_key": "noah",
+      "date": "2025-12-30",
+      "category": "Economic & Regulatory Power",
+      "title": "Japan's Immigration Laws Eased to Attract Skilled Professionals",
+      "url": "https://www.noahpinion.blog/p/the-weeb-economy",
+      "summary": "Japan has eased its immigration laws to attract skilled professionals, making it easier for them to obtain permanent residency. This policy change is part of efforts to address Japan's shrinking talent pool due to low birth rates and to enhance the country's competitiveness in the global economy.",
+      "why_relevant": "Attracting skilled immigrants is essential for sustaining economic growth and innovation in Japan.",
+      "attacks": [],
+      "_origin_file": "noah_events_2025-12-27_2026-01-02.json",
+      "_origin_index": 14
+    },
+    {
+      "source_key": "noah",
+      "date": "2025-12-30",
+      "category": "Economic & Regulatory Power",
+      "title": "Local politicians embrace regulatory cost reduction",
+      "url": "https://www.noahpinion.blog/p/at-least-five-interesting-things-304",
+      "summary": "Local politicians, including Zohran Mamadani and Daniel Lurie, have embraced the idea of reducing regulatory costs in their cities to support small businesses. This initiative is part of a broader movement to make it easier for small businesses to compete by lowering the barriers to entry, such as expensive permits and labor regulations. The aim is to revitalize local economies and support small business owners in urban areas.",
+      "why_relevant": "Reducing regulatory costs can enhance economic opportunities for small businesses, which are vital for local economies and democratic engagement.",
+      "attacks": [],
+      "_origin_file": "noah_events_2025-12-27_2026-01-02.json",
+      "_origin_index": 2
+    },
+    {
+      "source_key": "noah",
+      "date": "2025-12-30",
+      "category": "Economic & Regulatory Power",
+      "title": "TSMC Opens Semiconductor Plant in Kumamoto, Japan",
+      "url": "https://www.noahpinion.blog/p/the-weeb-economy",
+      "summary": "Taiwan Semiconductor Manufacturing Company (TSMC) has opened its first semiconductor fabrication plant in Kumamoto, Japan, as part of its Japanese subsidiary, Japan Advanced Semiconductor Manufacturing (JASM). The plant, completed with the assistance of Sony, Denso, and the Japanese government, received billions of dollars in subsidies and logistical support. This development is part of Japan's strategy to revive its semiconductor industry and is expected to be followed by a second plant in 2025 and a potential third plant by 2030.",
+      "why_relevant": "This investment marks a significant step in Japan's efforts to strengthen its semiconductor industry and enhance its technological capabilities.",
+      "attacks": [],
+      "_origin_file": "noah_events_2025-12-27_2026-01-02.json",
+      "_origin_index": 7
+    },
+    {
+      "source_key": "noah",
+      "date": "2025-12-30",
+      "category": "Economic & Regulatory Power",
+      "title": "U.S. cities experience rent drops due to increased housing",
+      "url": "https://www.noahpinion.blog/p/at-least-five-interesting-things-304",
+      "summary": "A report by Emily Flitter and Nadja Popovich highlights that several major U.S. cities have experienced significant drops in rent due to increased housing construction. The housing being built is primarily market-rate, often labeled as \"luxury\" housing, which helps prevent high-income individuals from driving up rents in older housing stock. This development supports the theory that increasing housing supply can lower rents.",
+      "why_relevant": "Increasing housing supply can make living costs more affordable, impacting economic stability and quality of life in urban areas.",
+      "attacks": [],
+      "_origin_file": "noah_events_2025-12-27_2026-01-02.json",
+      "_origin_index": 3
+    },
+    {
+      "source_key": "meidas",
+      "date": "2025-12-30",
+      "category": "Appointments & Patronage",
+      "title": "Border Czar Tom Homan's Background Check Issues",
+      "url": "https://www.meidasplus.com/p/tuesday-afternoon-news-updates-123025",
+      "summary": "Border czar Tom Homan did not receive a normal background check while under investigation for bribery. Justice officials stated he would not have obtained a security clearance due to the evidence gathered. This raises concerns about the vetting process for high-level appointments.",
+      "why_relevant": "The lack of proper vetting for a high-level official undermines the integrity of government appointments and raises questions about accountability.",
+      "attacks": [
+        "justice_dept",
+        "civil_service"
+      ],
+      "_origin_file": "meidas_events_2025-12-27_2026-01-02.json",
+      "_origin_index": 25
+    },
+    {
+      "source_key": "guardian",
+      "date": "2025-12-30",
+      "category": "International Relations",
+      "title": "Trump Claims Israel’s President Told Him a Pardon for Netanyahu Was ‘On Its Way’",
+      "url": "https://www.theguardian.com/us-news/2025/dec/29/trump-netanyahu-meeting-takeaways",
+      "summary": "During a meeting with Israeli Prime Minister Benjamin Netanyahu, Donald Trump claimed that Israel’s President Isaac Herzog informed him that a pardon for Netanyahu was forthcoming. Herzog’s office quickly disputed this claim, stating that no such conversation had occurred. Netanyahu, who is facing charges of bribery, fraud, and breach of trust, denies the allegations. The claim of a pardon is significant given Netanyahu's legal troubles and the political implications of such a move.",
+      "why_relevant": "The claim of a pardon for a sitting prime minister facing criminal charges has significant implications for international diplomacy and the rule of law.",
+      "attacks": [
+        "rule_of_law"
+      ],
+      "_origin_file": "guardian_events_2025-12-27_2026-01-02.json",
+      "_origin_index": 23
+    },
+    {
+      "source_key": "meidas",
+      "date": "2025-12-30",
+      "category": "International Relations",
+      "title": "Coalition of the Willing to Meet in Ukraine",
+      "url": "https://www.meidasplus.com/p/tuesday-afternoon-news-updates-123025",
+      "summary": "National security advisers from the Coalition of the Willing, led by the U.K. and France, have agreed to meet in Ukraine on January 3, followed by a meeting among state leaders on January 6 in France. These meetings aim to address the geopolitical landscape and support Ukraine amidst Russian aggression, highlighting the isolation of the United States under Trump's foreign policy.",
+      "why_relevant": "The meetings underscore the international community's efforts to support Ukraine and defend liberal democracy, contrasting with the U.S.'s current isolationist stance.",
+      "attacks": [],
+      "_origin_file": "meidas_events_2025-12-27_2026-01-02.json",
+      "_origin_index": 19
+    },
+    {
+      "source_key": "meidas",
+      "date": "2025-12-30",
+      "category": "International Relations",
+      "title": "Saudi-UAE Conflict Escalation",
+      "url": "https://www.meidasplus.com/p/tuesday-afternoon-news-updates-123025",
+      "summary": "A Saudi-led coalition carried out a targeted strike at Yemen’s Mukalla port, alleging UAE-backed vessels were delivering weapons to separatists. Both Yemen and the UAE deny these claims. This escalation between Saudi Arabia and the UAE, two countries with which Trump has personal business ties, marks a significant deterioration in Gulf relations.",
+      "why_relevant": "The conflict highlights the destabilizing effects of transactional foreign policy and the potential for personal business interests to influence international relations.",
+      "attacks": [
+        "diplomacy",
+        "global_democracy"
+      ],
+      "_origin_file": "meidas_events_2025-12-27_2026-01-02.json",
+      "_origin_index": 21
+    },
+    {
+      "source_key": "meidas",
+      "date": "2025-12-30",
+      "category": "International Relations",
+      "title": "Trump Amplifies Kremlin Talking Points",
+      "url": "https://www.meidasplus.com/p/tuesday-afternoon-news-updates-123025",
+      "summary": "Former President Trump publicly amplified Kremlin talking points by falsely alleging that Ukrainian President Volodymyr Zelenskyy attempted an attack on Russian President Vladimir Putin’s residence. French intelligence confirmed that Putin's claims were fabricated, yet Trump used these falsehoods to attack Ukraine. This incident highlights Trump's alignment with Russian narratives, contributing to global instability and undermining U.S. foreign policy credibility.",
+      "why_relevant": "This event demonstrates the potential influence of misinformation on international relations and the erosion of U.S. credibility in global affairs.",
+      "attacks": [
+        "global_democracy",
+        "diplomacy"
+      ],
+      "_origin_file": "meidas_events_2025-12-27_2026-01-02.json",
+      "_origin_index": 18
+    },
+    {
+      "source_key": "noah",
+      "date": "2025-12-30",
+      "category": "International Relations",
+      "title": "China advances in electric and autonomous technology",
+      "url": "https://www.noahpinion.blog/p/at-least-five-interesting-things-304",
+      "summary": "China is advancing rapidly in electric and autonomous technology, with significant developments in autonomous delivery trucks, flying cars, and driverless taxis. The country's regulatory climate and strategic investment in electric technology have facilitated these advancements, positioning China as a leader in this field. This progress contrasts with the more cautious approach of the U.S. and Europe.",
+      "why_relevant": "China's technological advancements in electric and autonomous vehicles have implications for global economic and technological leadership.",
+      "attacks": [],
+      "_origin_file": "noah_events_2025-12-27_2026-01-02.json",
+      "_origin_index": 6
+    },
+    {
+      "source_key": "noah",
+      "date": "2025-12-30",
+      "category": "International Relations",
+      "title": "Trump administration's tariff carve-outs reduce economic impact",
+      "url": "https://www.noahpinion.blog/p/at-least-five-interesting-things-304",
+      "summary": "The Trump administration has implemented numerous carve-outs and exceptions to its announced tariff rates, significantly reducing the economic impact of these tariffs. For example, semiconductors have an actual tariff rate of only 9% despite a statutory rate of 24%. These exemptions have helped mitigate the negative effects on the U.S. economy, which remains resilient despite the tariffs.",
+      "why_relevant": "The strategic use of tariff exemptions can influence international trade dynamics and economic resilience.",
+      "attacks": [],
+      "_origin_file": "noah_events_2025-12-27_2026-01-02.json",
+      "_origin_index": 4
+    },
+    {
+      "source_key": "meidas",
+      "date": "2025-12-30",
+      "category": "Civil–Military Relations & State Violence",
+      "title": "CIA Drone Strike in Venezuela",
+      "url": "https://www.meidasplus.com/p/tuesday-afternoon-news-updates-123025",
+      "summary": "The CIA reportedly conducted a drone strike on a Venezuelan port facility, marking the first reported attack on land in Venezuela. The dock was empty, and no casualties were reported. This action is part of the Trump administration's efforts at regime change in Venezuela.",
+      "why_relevant": "The drone strike signifies an escalation in U.S. intervention in Venezuela, raising concerns about the use of military force in foreign policy.",
+      "attacks": [
+        "peace",
+        "diplomacy"
+      ],
+      "_origin_file": "meidas_events_2025-12-27_2026-01-02.json",
+      "_origin_index": 23
+    },
+    {
+      "source_key": "guardian",
+      "date": "2025-12-31",
+      "category": "Executive Actions & Orders",
+      "title": "ICE plans $100m media blitz for recruitment",
+      "url": "https://www.theguardian.com/us-news/2025/dec/31/ice-recruitment-media-campaign",
+      "summary": "The US Immigration and Customs Enforcement (ICE) has announced a $100 million, yearlong media campaign aimed at recruiting new agents. This \"wartime recruitment\" effort targets rightwing ideologues and is part of the Trump administration's plan to meet its deportation goals for 2026. The campaign includes geofencing ads near military bases and events, and partnerships with online influencers. The initiative follows the signing of HR 1, which allocated $45 billion for immigration detention and $32 billion for enforcement activities. ICE is offering significant financial incentives to attract applicants.",
+      "why_relevant": "This recruitment drive reflects a significant expansion of immigration enforcement efforts, impacting civil liberties and immigration policy.",
+      "attacks": [
+        "immigrants_refugees",
+        "civil_service",
+        "public_service"
+      ],
+      "_origin_file": "guardian_events_2025-12-27_2026-01-02.json",
+      "_origin_index": 14
+    },
+    {
+      "source_key": "guardian",
+      "date": "2025-12-31",
+      "category": "Executive Actions & Orders",
+      "title": "Kennedy Center changes bylaws to limit voting to Trump-appointed trustees",
+      "url": "https://www.theguardian.com/us-news/2025/dec/31/trump-kennedy-center",
+      "summary": "The Kennedy Center revised its bylaws in May to restrict voting rights to trustees appointed by Donald Trump, excluding ex-officio members appointed by Congress. This change, which may breach the institution's charter, was in effect when the board voted on December 18 to rename the center to include Trump's name. The decision has sparked protests, artist cancellations, and a lawsuit by Congresswoman Joyce Beatty, who argues that the name change requires congressional approval. The move is seen as part of a broader effort by Trump, who became chair of the board in February, to consolidate control over the center.",
+      "why_relevant": "This action highlights the use of executive power to alter institutional governance, potentially undermining democratic oversight and norms.",
+      "attacks": [
+        "separation_of_powers",
+        "congress",
+        "public_service"
+      ],
+      "_origin_file": "guardian_events_2025-12-27_2026-01-02.json",
+      "_origin_index": 17
+    },
+    {
+      "source_key": "guardian",
+      "date": "2025-12-31",
+      "category": "Legislative & Oversight Activity",
+      "title": "Jack Smith testifies before House Judiciary Committee",
+      "url": "https://www.theguardian.com/us-news/2025/dec/31/jack-smith-house-testimony",
+      "summary": "On December 17, 2025, former special counsel Jack Smith testified before the House Judiciary Committee, asserting he had \"proof beyond reasonable doubt\" in the federal cases against Donald Trump. Smith defended his actions in the cases concerning Trump's alleged possession of classified documents and attempts to overturn the 2020 election. He emphasized that he operated without interference from President Biden or Attorney General Merrick Garland. Smith's testimony also addressed the legal challenges that led to the dropping of charges after Trump returned to office in 2024.",
+      "why_relevant": "This testimony highlights the ongoing scrutiny and legal challenges surrounding the prosecution of a former president, impacting the rule of law and democratic accountability.",
+      "attacks": [
+        "rule_of_law",
+        "congress"
+      ],
+      "_origin_file": "guardian_events_2025-12-27_2026-01-02.json",
+      "_origin_index": 12
+    },
+    {
+      "source_key": "meidas",
+      "date": "2025-12-31",
+      "category": "Legislative & Oversight Activity",
+      "title": "House Judiciary Releases Jack Smith Deposition",
+      "url": "https://www.meidasplus.com/p/nye-news-updates-5-million-new-epstein",
+      "summary": "The House Judiciary Committee released a 255-page transcript of former Special Counsel Jack Smith's deposition regarding the prosecution of Donald Trump. Smith defended his decisions as evidence-driven and not politically motivated, detailing Trump's alleged criminal schemes to overturn the 2020 election and obstruct justice.",
+      "why_relevant": "The deposition provides transparency and insight into the legal rationale behind prosecuting a former president, reinforcing the rule of law.",
+      "attacks": [],
+      "_origin_file": "meidas_events_2025-12-27_2026-01-02.json",
+      "_origin_index": 17
+    },
+    {
+      "source_key": "meidas",
+      "date": "2025-12-31",
+      "category": "Legislative & Oversight Activity",
+      "title": "Trump Vetoes Bipartisan Clean Water Bill",
+      "url": "https://www.meidasplus.com/p/nye-news-updates-5-million-new-epstein",
+      "summary": "President Trump vetoed a bipartisan clean water bill that aimed to provide safe drinking water to 50,000 people in Colorado. The veto is seen as retaliation against Colorado's governor and a Republican district attorney for not releasing Tina Peters, a convicted election fraudster. The bill was co-sponsored by Rep. Lauren Boebert, who had pushed for the release of Epstein files.",
+      "why_relevant": "The veto undermines bipartisan efforts to address public health needs and suggests the use of presidential power for personal vendettas.",
+      "attacks": [
+        "public_health",
+        "rule_of_law"
+      ],
+      "_origin_file": "meidas_events_2025-12-27_2026-01-02.json",
+      "_origin_index": 15
+    },
+    {
+      "source_key": "guardian",
+      "date": "2025-12-31",
+      "category": "Judicial Developments",
+      "title": "Appeals court allows defunding of Planned Parenthood in 22 states",
+      "url": "https://www.theguardian.com/us-news/2025/dec/31/planned-parenthood-medicaid-funding-ends",
+      "summary": "A US appeals court has allowed the Trump administration to end Medicaid funding for Planned Parenthood in 22 states and Washington DC. This decision reverses an injunction by US district judge Indira Talwani, which had blocked the enforcement of a provision in a tax-and-spending bill that prevents Planned Parenthood from receiving Medicaid reimbursements. The provision, part of the Republicans' One Big Beautiful Bill Act, targets tax-exempt organizations that perform abortions and received significant Medicaid funds. The ruling could lead to the closure of numerous Planned Parenthood centers, affecting access to reproductive health services.",
+      "why_relevant": "This decision impacts access to reproductive health services and highlights ongoing legal battles over abortion rights and funding.",
+      "attacks": [
+        "women",
+        "poor",
+        "courts"
+      ],
+      "_origin_file": "guardian_events_2025-12-27_2026-01-02.json",
+      "_origin_index": 16
+    },
+    {
+      "source_key": "guardian",
+      "date": "2025-12-31",
+      "category": "Judicial Developments",
+      "title": "US Justice Department Reviews Epstein Files",
+      "url": "https://www.theguardian.com/us-news/2025/dec/31/epstein-files-trump-doj",
+      "summary": "The US Justice Department is reviewing over 5 million pages of documents related to Jeffrey Epstein, significantly more than earlier estimates. This effort is drawing resources from existing cases, with about 400 lawyers enlisted to assist. The review, which includes documents from the FBI and US attorneys' offices in New York and Florida, is expected to extend beyond the congressionally mandated release deadline. The department aims to ensure transparency and protect victims, despite accusations from Democrats of withholding information.",
+      "why_relevant": "The extensive review and delayed release of documents have implications for transparency and accountability in the justice system.",
+      "attacks": [
+        "justice_dept",
+        "transparency"
+      ],
+      "_origin_file": "guardian_events_2025-12-27_2026-01-02.json",
+      "_origin_index": 15
+    },
+    {
+      "source_key": "meidas",
+      "date": "2025-12-31",
+      "category": "Judicial Developments",
+      "title": "DOJ Reviews 5.2 Million Epstein Documents",
+      "url": "https://www.meidasplus.com/p/nye-news-updates-5-million-new-epstein",
+      "summary": "The Department of Justice is reviewing approximately 5.2 million pages of documents related to the Jeffrey Epstein investigation. This significant increase from the previously reported one million pages has prompted the enlistment of around 400 lawyers to process the material. The review is expected to continue into late January, raising questions about the initial underreporting of the document volume and the implications for ongoing investigations into Epstein's activities and connections.",
+      "why_relevant": "The discovery and review of these documents could provide new insights into Epstein's criminal network and any potential cover-ups.",
+      "attacks": [],
+      "_origin_file": "meidas_events_2025-12-27_2026-01-02.json",
+      "_origin_index": 13
+    },
+    {
+      "source_key": "meidas",
+      "date": "2025-12-31",
+      "category": "Civil Society & Protest",
+      "title": "Mar-a-Lago Trafficking Allegations",
+      "url": "https://www.meidasplus.com/p/nye-news-updates-5-million-new-epstein",
+      "summary": "New reports indicate that Jeffrey Epstein was a frequent visitor at Mar-a-Lago, where young female spa workers were allegedly sent to his mansion for \"house calls.\" Former employees described these visits as involving sexual exploitation, facilitated by the club. The allegations include warnings from employees and Trump's second wife, Marla Maples, about Epstein's behavior, which were reportedly ignored.",
+      "why_relevant": "These allegations highlight potential complicity in trafficking and exploitation, raising serious ethical and legal questions about the operations at Mar-a-Lago.",
+      "attacks": [
+        "women",
+        "minors"
+      ],
+      "_origin_file": "meidas_events_2025-12-27_2026-01-02.json",
+      "_origin_index": 14
+    },
+    {
+      "source_key": "guardian",
+      "date": "2025-12-31",
+      "category": "Information & Media Control",
+      "title": "Trump Misrepresents Image of Bird Death",
+      "url": "https://www.theguardian.com/us-news/2025/dec/30/trump-wind-turbine-bald-eagle-falcon",
+      "summary": "On December 30, 2025, President Donald Trump posted an image on social media claiming that wind turbines in the U.S. were responsible for the death of a bald eagle. The image was later revealed to be of a falcon killed in Israel eight years ago, not a bald eagle in the United States. The post was amplified by an official White House account, misleading the public about the source and context of the image. This incident highlights a failure to verify information before dissemination, potentially impacting public perception of wind energy.",
+      "why_relevant": "The event demonstrates the potential for misinformation to spread from high-level government sources, affecting public understanding and policy debates.",
+      "attacks": [
+        "truth",
+        "information"
+      ],
+      "_origin_file": "guardian_events_2025-12-27_2026-01-02.json",
+      "_origin_index": 18
+    },
+    {
+      "source_key": "federalregister",
+      "date": "2025-12-31",
+      "category": "Economic & Regulatory Power",
+      "title": "DEKRA Certification Inc. Recognition Expansion by OSHA",
+      "url": "https://www.federalregister.gov/documents/2025/12/31/2025-24078/dekra-certification-inc-grant-of-expansion-of-recognition-and-modification-to-the-nrtl-programs-list",
+      "summary": "The Occupational Safety and Health Administration (OSHA) has expanded the scope of recognition for DEKRA Certification Inc. as a Nationally Recognized Testing Laboratory (NRTL). This expansion includes the addition of thirty-two test standards and a new test site in Dresden, Germany. Additionally, OSHA has added two new standards to the NRTL Program's List of Appropriate Test Standards. This decision allows DEKRA to perform safety testing and certification for specific products, ensuring compliance with OSHA standards.",
+      "why_relevant": "This expansion enhances DEKRA's capacity to certify products for safety, impacting regulatory compliance and workplace safety standards.",
+      "attacks": [],
+      "_origin_file": "federalregister_events_2025-12-27_2026-01-02.json",
+      "_origin_index": 9
+    },
+    {
+      "source_key": "federalregister",
+      "date": "2025-12-31",
+      "category": "Economic & Regulatory Power",
+      "title": "EPA Corrects Editorial Error in Fuel Regulations",
+      "url": "https://www.federalregister.gov/documents/2025/12/31/2025-24084/regulation-of-fuels-fuel-additives-and-regulated-blendstocks",
+      "summary": "The Environmental Protection Agency (EPA) issued a rule correcting an editorial error in Title 40 of the Code of Federal Regulations, Part 1090. The correction involves removing duplicate paragraphs (c)(10) and (c)(20) in section 1090.95. This action ensures the accuracy and clarity of the regulatory text concerning fuels, fuel additives, and regulated blendstocks.",
+      "why_relevant": "This correction maintains the integrity and precision of federal environmental regulations, which is crucial for compliance and enforcement.",
+      "attacks": [],
+      "_origin_file": "federalregister_events_2025-12-27_2026-01-02.json",
+      "_origin_index": 22
+    },
+    {
+      "source_key": "federalregister",
+      "date": "2025-12-31",
+      "category": "Economic & Regulatory Power",
+      "title": "EPA Extends Compliance Deadlines for Steam Electric Power Plants",
+      "url": "https://www.federalregister.gov/documents/2025/12/31/2025-24102/effluent-limitations-guidelines-and-standards-for-the-steam-electric-power-generating-point-source",
+      "summary": "",
+      "why_relevant": "This rule impacts the regulatory framework for power plants, affecting environmental compliance and energy reliability.",
+      "attacks": [],
+      "_origin_file": "federalregister_events_2025-12-27_2026-01-02.json",
+      "_origin_index": 21
+    },
+    {
+      "source_key": "federalregister",
+      "date": "2025-12-31",
+      "category": "Economic & Regulatory Power",
+      "title": "Fourth Temporary Extension of COVID-19 Telemedicine Flexibilities",
+      "url": "https://www.federalregister.gov/documents/2025/12/31/2025-24123/fourth-temporary-extension-of-covid-19-telemedicine-flexibilities-for-prescription-of-controlled",
+      "summary": "The Drug Enforcement Administration (DEA) and the Department of Health and Human Services (HHS) issued a fourth temporary extension of telemedicine flexibilities for prescribing controlled medications. This rule extends the COVID-19 telemedicine flexibilities through December 31, 2026, allowing DEA-registered practitioners to prescribe Schedule II-V controlled substances via telemedicine without an in-person evaluation. The extension aims to prevent disruption in patient care and provide time for the development of permanent regulations.",
+      "why_relevant": "This extension maintains access to telemedicine services for controlled substances, crucial for patient care continuity and regulatory adaptation.",
+      "attacks": [],
+      "_origin_file": "federalregister_events_2025-12-27_2026-01-02.json",
+      "_origin_index": 0
+    },
+    {
+      "source_key": "federalregister",
+      "date": "2025-12-31",
+      "category": "Economic & Regulatory Power",
+      "title": "OSHA Announces Nemko North America's Application for NRTL Expansion",
+      "url": "https://www.federalregister.gov/documents/2025/12/31/2025-24077/nemko-north-america-inc-application-for-expansion-of-recognition",
+      "summary": "The Occupational Safety and Health Administration (OSHA) announced Nemko North America, Inc.'s application for expanding its recognition as a Nationally Recognized Testing Laboratory (NRTL). The expansion includes three additional test standards: UL 1310, UL 1778, and UL 60730-1. OSHA's preliminary findings support granting the application, and public comments are invited until January 15, 2026. The final decision will be published in the Federal Register after reviewing public input.",
+      "why_relevant": "This expansion affects the regulatory framework for product safety testing and certification, impacting compliance and safety standards.",
+      "attacks": [],
+      "_origin_file": "federalregister_events_2025-12-27_2026-01-02.json",
+      "_origin_index": 10
+    },
+    {
+      "source_key": "federalregister",
+      "date": "2025-12-31",
+      "category": "Economic & Regulatory Power",
+      "title": "OSHA Expands UL LLC's Recognition as a Nationally Recognized Testing Laboratory",
+      "url": "https://www.federalregister.gov/documents/2025/12/31/2025-24076/ul-llc-grant-of-expansion-of-recognition-and-modification-to-the-nrtl-programs-list-of-appropriate",
+      "summary": "The Occupational Safety and Health Administration (OSHA) has expanded the scope of recognition for UL LLC as a Nationally Recognized Testing Laboratory (NRTL). This expansion includes the addition of one new test standard, UL 3300, for Service, Communication, Information, Education, and Entertainment Robots. The decision, effective December 31, 2025, allows UL LLC to perform safety testing and certification for this standard, enhancing its capabilities within the NRTL program.",
+      "why_relevant": "This expansion strengthens UL LLC's role in ensuring product safety compliance, impacting workplace safety and regulatory standards.",
+      "attacks": [],
+      "_origin_file": "federalregister_events_2025-12-27_2026-01-02.json",
+      "_origin_index": 11
+    },
+    {
+      "source_key": "federalregister",
+      "date": "2025-12-31",
+      "category": "Economic & Regulatory Power",
+      "title": "OSHA Extends OMB Approval for Rigging Equipment Information Collection",
+      "url": "https://www.federalregister.gov/documents/2025/12/31/2025-24079/standard-on-rigging-equipment-for-material-handling-extension-of-the-office-of-management-and",
+      "summary": "The Occupational Safety and Health Administration (OSHA) has announced the extension of the Office of Management and Budget's (OMB) approval for information collection requirements related to the Standard on Rigging Equipment for Material Handling. This extension aims to maintain the current burden of 49,160 hours for businesses and government entities to comply with the standard's requirements, such as affixing identification tags and conducting inspections. Public comments on this extension are invited until March 2, 2026.",
+      "why_relevant": "This action affects regulatory compliance and operational procedures for businesses using rigging equipment, impacting workplace safety and administrative burdens.",
+      "attacks": [],
+      "_origin_file": "federalregister_events_2025-12-27_2026-01-02.json",
+      "_origin_index": 8
+    },
+    {
+      "source_key": "federalregister",
+      "date": "2025-12-31",
+      "category": "Economic & Regulatory Power",
+      "title": "OSHA Extends OMB Approval for Susan Harwood Training Grant Program",
+      "url": "https://www.federalregister.gov/documents/2025/12/31/2025-24075/susan-harwood-training-grant-program-extension-of-the-office-of-management-and-budgets-omb-approval",
+      "summary": "The Occupational Safety and Health Administration (OSHA) has announced the extension of the Office of Management and Budget's (OMB) approval for the information collection requirements of the Susan Harwood Training Grant Program. This extension allows OSHA to continue collecting necessary data from grant recipients to monitor performance and ensure compliance with grant conditions. The public is invited to comment on this extension until March 2, 2026.",
+      "why_relevant": "This action ensures continued oversight and accountability in the use of federal training grants, impacting workplace safety and regulatory compliance.",
+      "attacks": [],
+      "_origin_file": "federalregister_events_2025-12-27_2026-01-02.json",
+      "_origin_index": 12
+    },
+    {
+      "source_key": "meidas",
+      "date": "2025-12-31",
+      "category": "Economic & Regulatory Power",
+      "title": "China Imposes Tariffs on U.S. Beef",
+      "url": "https://www.meidasplus.com/p/nye-news-updates-5-million-new-epstein",
+      "summary": "China has imposed a 55 percent tariff on imported American beef and reduced purchases of U.S. soybeans, further squeezing American farmers. This move follows a trend of decreased agricultural trade with the U.S. under Trump's presidency, as China turns to other suppliers like Australia, Brazil, and Argentina.",
+      "why_relevant": "The tariffs exacerbate economic tensions and impact U.S. farmers, highlighting the consequences of current trade policies.",
+      "attacks": [
+        "economy"
+      ],
+      "_origin_file": "meidas_events_2025-12-27_2026-01-02.json",
+      "_origin_index": 16
+    },
+    {
+      "source_key": "guardian",
+      "date": "2025-12-31",
+      "category": "Civil–Military Relations & State Violence",
+      "title": "Trump Ends Attempted National Guard Deployments in Democratic Cities",
+      "url": "https://www.theguardian.com/us-news/2025/dec/31/trump-national-guard-deployment-stopped",
+      "summary": "Former President Donald Trump announced the cessation of efforts to deploy National Guard troops in Los Angeles, Chicago, and Portland. This decision followed the Department of Justice's withdrawal from contesting a California court ruling that returned control of the National Guard to the state's governor, Gavin Newsom. The U.S. Supreme Court also blocked the administration's attempt to deploy troops in Illinois. Trump framed the decision as temporary, suggesting potential future redeployments. The deployments were initially ordered in response to protests against ICE raids and faced legal challenges for exceeding presidential authority.",
+      "why_relevant": "The event highlights the tension between federal authority and state rights, impacting the balance of power and civil-military relations in the U.S.",
+      "attacks": [
+        "separation_of_powers",
+        "rule_of_law"
+      ],
+      "_origin_file": "guardian_events_2025-12-27_2026-01-02.json",
+      "_origin_index": 13
+    },
+    {
+      "source_key": "guardian",
+      "date": "2026-01-01",
+      "category": "Executive Actions & Orders",
+      "title": "Trump vetoes bill for Everglades project in Florida",
+      "url": "https://www.theguardian.com/us-news/2025/dec/31/lauren-boebert-trump-colorado",
+      "summary": "President Donald Trump vetoed a bill intended to allocate $14 million for a project in Florida's Everglades National Park, which would have protected an area inhabited by the Miccosukee Tribe. Trump argued that the tribe was not authorized to inhabit the area and that his administration would not support projects for special interests unaligned with his immigration policies. This veto follows a federal judge's order to shut down a detention center opposed by the tribe.",
+      "why_relevant": "The veto affects indigenous rights and environmental protection, highlighting potential misuse of executive power against perceived political adversaries.",
+      "attacks": [
+        "minorities",
+        "environment",
+        "rule_of_law"
+      ],
+      "_origin_file": "guardian_events_2025-12-27_2026-01-02.json",
+      "_origin_index": 11
+    },
+    {
+      "source_key": "guardian",
+      "date": "2026-01-01",
+      "category": "Executive Actions & Orders",
+      "title": "Trump vetoes safe drinking water bill for Colorado",
+      "url": "https://www.theguardian.com/us-news/2025/dec/31/lauren-boebert-trump-colorado",
+      "summary": "President Donald Trump vetoed a bill that would have funded a drinking water project in Colorado's eastern plains, affecting 39 communities. The bill had passed unanimously in both the House and Senate. Trump justified the veto by stating the need to prevent taxpayer money from funding expensive and unreliable policies. The veto is seen by some, including Representative Lauren Boebert, as potential political retaliation, as it followed her push for the release of government files on Jeffrey Epstein and her criticism of Trump's administration.",
+      "why_relevant": "The veto impacts access to safe drinking water for thousands and raises concerns about the use of executive power for political retaliation.",
+      "attacks": [
+        "poor",
+        "environment",
+        "rule_of_law"
+      ],
+      "_origin_file": "guardian_events_2025-12-27_2026-01-02.json",
+      "_origin_index": 10
+    },
+    {
+      "source_key": "guardian",
+      "date": "2026-01-01",
+      "category": "Legislative & Oversight Activity",
+      "title": "New York and Vermont Pass Climate Superfund Laws",
+      "url": "https://www.theguardian.com/us-news/2026/jan/01/affordability-climate-utility-bills-rent",
+      "summary": "Vermont and New York have enacted \"climate superfund\" laws that require polluters to contribute financially to efforts aimed at reducing emissions and enhancing climate resilience. These laws are designed to hold companies accountable for their environmental impact by making them pay for the damage they cause. The measures have gained popularity among voters, who see them as a way to address the rising costs associated with climate change. Other states are considering similar legislation, despite opposition from the Trump administration.",
+      "why_relevant": "These laws represent a significant step in holding polluters accountable and addressing the financial burdens of climate change on the public.",
+      "attacks": [
+        "environment",
+        "climate_cooperation"
+      ],
+      "_origin_file": "guardian_events_2025-12-27_2026-01-02.json",
+      "_origin_index": 9
+    },
+    {
+      "source_key": "meidas",
+      "date": "2026-01-01",
+      "category": "Elections & Representation",
+      "title": "Zohran Mamdani Sworn in as NYC Mayor",
+      "url": "https://www.meidasplus.com/p/thursday-afternoon-news-updates-on",
+      "summary": "Zohran Mamdani has been officially sworn in as the Mayor of New York City. The inauguration ceremony was attended by notable figures, including New York Attorney General Letitia James. The event marks a new chapter in New York City's leadership and governance.",
+      "why_relevant": "The swearing-in of a new mayor represents a significant change in local governance and political leadership.",
+      "attacks": [],
+      "_origin_file": "meidas_events_2025-12-27_2026-01-02.json",
+      "_origin_index": 12
+    },
+    {
+      "source_key": "50501",
+      "date": "2026-01-01",
+      "category": "Civil Society & Protest",
+      "title": "Off-duty ICE agent kills Keith Porter Jr.",
+      "url": "https://www.the50501movement.org/p/ice-is-expanding-people-are-dying",
+      "summary": "On New Year's Eve, Keith Porter Jr. was killed by an off-duty ICE agent, an event that has become central to protests and public outrage in 2026. This incident, along with other deaths in ICE custody, has intensified scrutiny of ICE's practices and the federal government's handling of such cases.",
+      "why_relevant": "The incident has fueled protests and highlighted issues of accountability and use of force by ICE agents.",
+      "attacks": [
+        "law_enforcement",
+        "immigrants_refugees",
+        "civil_service"
+      ],
+      "_origin_file": "50501_events_2026-01-10_2026-01-16.json",
+      "_origin_index": 12
+    },
+    {
+      "source_key": "meidas",
+      "date": "2026-01-01",
+      "category": "Economic & Regulatory Power",
+      "title": "Expiration of ACA Tax Credits Increases Health Costs",
+      "url": "https://www.meidasplus.com/p/today-in-politics-bulletin-278-1226",
+      "summary": "Enhanced tax credits under the Affordable Care Act expired, leading to higher health insurance costs for millions of Americans. The expiration followed a 43-day government shutdown over the issue, with Democrats and moderate Republicans unable to reach a solution. A House vote in January may offer another chance to address the issue, but success is uncertain.",
+      "why_relevant": "The expiration of ACA tax credits significantly impacts healthcare affordability and access for millions of Americans.",
+      "attacks": [
+        "poor",
+        "sick_vulnerable"
+      ],
+      "_origin_file": "meidas_events_2025-12-27_2026-01-02.json",
+      "_origin_index": 2
+    },
+    {
+      "source_key": "meidas",
+      "date": "2026-01-01",
+      "category": "Economic & Regulatory Power",
+      "title": "Termination of National Links Trust Lease",
+      "url": "https://www.meidasplus.com/p/thursday-afternoon-news-updates-on",
+      "summary": "The Trump administration terminated the lease held by the National Links Trust to manage public golf courses in Washington, D.C. The decision was made without a clear plan for future management, leaving renovations halted and workers uncertain about their employment. The move suggests a disregard for contractual obligations and raises concerns about potential self-enrichment motives.",
+      "why_relevant": "The termination of the lease without a clear plan undermines contractual stability and raises questions about the administration's motives.",
+      "attacks": [
+        "emoluments",
+        "public_service"
+      ],
+      "_origin_file": "meidas_events_2025-12-27_2026-01-02.json",
+      "_origin_index": 10
+    },
+    {
+      "source_key": "meidas",
+      "date": "2026-01-01",
+      "category": "Economic & Regulatory Power",
+      "title": "Trump Administration Delays Tariff Increases on Furniture and Cabinets",
+      "url": "https://www.meidasplus.com/p/today-in-politics-bulletin-278-1226",
+      "summary": "President Trump signed a proclamation delaying tariff increases on upholstered furniture, kitchen cabinets, and vanities until 2027. The tariffs, initially set to rise in 2026, were part of a broader trade policy imposing new duties on these items. The delay was announced hours before the end of 2025, postponing the planned increases to 50% and 30% for kitchen cabinets and furniture, respectively.",
+      "why_relevant": "The delay in tariff increases affects international trade relations and domestic economic conditions.",
+      "attacks": [
+        "trade"
+      ],
+      "_origin_file": "meidas_events_2025-12-27_2026-01-02.json",
+      "_origin_index": 1
+    },
+    {
+      "source_key": "meidas",
+      "date": "2026-01-01",
+      "category": "Economic & Regulatory Power",
+      "title": "Trump Administration Reduces Tariffs on Italian Pasta",
+      "url": "https://www.meidasplus.com/p/today-in-politics-bulletin-278-1226",
+      "summary": "The U.S. Commerce Department reduced planned antidumping duties on Italian pasta makers, averting a potential trade conflict. Initially set at 92%, the tariffs were lowered to 2.3% for La Molisana, 13.9% for Garofalo, and 9.1% for 11 other companies. The decision followed lobbying by Italy's government and pasta companies.",
+      "why_relevant": "The reduction in tariffs on Italian pasta affects international trade dynamics and consumer prices in the U.S.",
+      "attacks": [
+        "trade"
+      ],
+      "_origin_file": "meidas_events_2025-12-27_2026-01-02.json",
+      "_origin_index": 3
+    },
+    {
+      "source_key": "meidas",
+      "date": "2026-01-01",
+      "category": "Transparency & Records",
+      "title": "DOJ Acknowledges Additional Epstein Documents",
+      "url": "https://www.meidasplus.com/p/thursday-afternoon-news-updates-on",
+      "summary": "The Department of Justice has confirmed the existence of approximately five million additional documents related to Jeffrey Epstein, beyond what has already been disclosed. This revelation has prompted House Oversight Democrats to accuse the DOJ of violating federal law by withholding information. The disclosure raises questions about transparency and the potential concealment of critical information regarding Epstein's activities.",
+      "why_relevant": "The acknowledgment of undisclosed documents highlights issues of transparency and accountability within the Department of Justice.",
+      "attacks": [
+        "transparency",
+        "justice_dept"
+      ],
+      "_origin_file": "meidas_events_2025-12-27_2026-01-02.json",
+      "_origin_index": 9
+    },
+    {
+      "source_key": "meidas",
+      "date": "2026-01-01",
+      "category": "International Relations",
+      "title": "Failed U.S. Military Attempt to Seize Oil Tanker",
+      "url": "https://www.meidasplus.com/p/thursday-afternoon-news-updates-on",
+      "summary": "The U.S. military's attempt to seize the oil tanker Bella 1 in the Caribbean Sea has failed. The tanker, which was en route to Venezuela, evaded capture and is now under Russian protection, with a Russian flag painted on its side. Russia has demanded that the U.S. cease its attempts to seize the vessel, escalating the situation into an international crisis.",
+      "why_relevant": "The failed seizure and subsequent international tensions highlight challenges in U.S. foreign policy and military strategy.",
+      "attacks": [
+        "diplomacy",
+        "peace"
+      ],
+      "_origin_file": "meidas_events_2025-12-27_2026-01-02.json",
+      "_origin_index": 11
+    },
+    {
+      "source_key": "meidas",
+      "date": "2026-01-01",
+      "category": "International Relations",
+      "title": "Trump and Iranian Officials Exchange Threats Amid Protests",
+      "url": "https://www.meidasplus.com/p/today-in-politics-bulletin-278-1226",
+      "summary": "President Trump and Iranian officials exchanged threats as economic protests spread across Iran. Trump warned on Truth Social that the U.S. would intervene if Iran violently suppressed protesters. Iranian officials accused the U.S. and Israel of inciting the protests and warned against U.S. intervention. The tensions follow U.S. bombing of Iranian nuclear sites in June, with at least seven people killed in the protests so far.",
+      "why_relevant": "The exchange of threats between the U.S. and Iran heightens international tensions and could impact global stability.",
+      "attacks": [
+        "peace",
+        "diplomacy"
+      ],
+      "_origin_file": "meidas_events_2025-12-27_2026-01-02.json",
+      "_origin_index": 0
+    },
+    {
+      "source_key": "meidas",
+      "date": "2026-01-01",
+      "category": "Civil–Military Relations & State Violence",
+      "title": "Trump Withdraws National Guard Deployments",
+      "url": "https://www.meidasplus.com/p/thursday-afternoon-news-updates-on",
+      "summary": "Former President Donald Trump announced the withdrawal of National Guard deployments from cities such as Chicago, Los Angeles, and Portland. This decision follows a recent Supreme Court ruling that invalidated Trump's justification for deploying the National Guard to Chicago. Despite the withdrawal, Trump threatened to redeploy the Guard in a \"much different and stronger form\" if crime rates increase. The withdrawal marks a significant shift in federal intervention in local law enforcement.",
+      "why_relevant": "The withdrawal of National Guard forces impacts the balance of federal and local authority in law enforcement.",
+      "attacks": [
+        "separation_of_powers",
+        "rule_of_law"
+      ],
+      "_origin_file": "meidas_events_2025-12-27_2026-01-02.json",
+      "_origin_index": 8
+    },
+    {
+      "source_key": "federalregister",
+      "date": "2026-01-02",
+      "category": "Executive Actions & Orders",
+      "title": "EPA Renews LGAC Charter and Seeks Member Nominations",
+      "url": "https://www.federalregister.gov/documents/2026/01/02/2025-24168/local-government-advisory-committee-lgac-notice-of-charter-renewal-and-request-for-member",
+      "summary": "The Environmental Protection Agency (EPA) has renewed the charter of the Local Government Advisory Committee (LGAC) for two years under the Federal Advisory Committee Act. The LGAC provides policy advice to the EPA Administrator on environmental issues affecting local governments. The EPA is also seeking nominations for the Small Communities Advisory Subcommittee (SCAS), which advises on issues concerning smaller communities. Nominations are open until January 15, 2026, and must be submitted electronically. The SCAS will focus on initiatives like clean air and water, energy dominance, and AI leadership.",
+      "why_relevant": "This renewal and call for nominations ensure continued local government input into federal environmental policy, enhancing democratic engagement and representation.",
+      "attacks": [],
+      "_origin_file": "federalregister_events_2025-12-27_2026-01-02.json",
+      "_origin_index": 18
+    },
+    {
+      "source_key": "outloud",
+      "date": "2026-01-02",
+      "category": "Executive Actions & Orders",
+      "title": "White House Immigration and Law Enforcement Actions",
+      "url": "https://kziegler.substack.com/p/democracy-out-loud-426-forward",
+      "summary": "The White House has been accused of overstepping its authority by asserting personal control over immigration policy, criminal law, and forcible renditions. This has raised concerns about the erosion of constitutional checks and balances, with the president allegedly acting as judge, jury, and executioner in these matters.",
+      "why_relevant": "These actions challenge the separation of powers and the rule of law, fundamental principles of democratic governance.",
+      "attacks": [
+        "constitution",
+        "separation_of_powers",
+        "rule_of_law"
+      ],
+      "_origin_file": "outloud_events_2025-12-27_2026-01-02.json",
+      "_origin_index": 4
+    },
+    {
+      "source_key": "guardian",
+      "date": "2026-01-02",
+      "category": "Legislative & Oversight Activity",
+      "title": "Tennessee State Democrats Expelled for Gun Policy Protest",
+      "url": "https://www.theguardian.com/us-news/2026/jan/02/gun-safety-law-us-legislation",
+      "summary": "Tennessee state representatives Justin Pearson and Justin Jones were expelled from the state legislature after leading a protest on the house floor calling for stronger gun policy. The protest followed a deadly shooting at the Covenant Catholic school in Nashville, which was the deadliest in Tennessee history. Despite their expulsion, both representatives eventually reclaimed their seats. The protest and subsequent expulsion brought national attention to their cause and highlighted the ongoing debate over gun control legislation in the state.",
+      "why_relevant": "This event underscores the contentious nature of gun control debates and the political risks faced by lawmakers advocating for stricter gun policies.",
+      "attacks": [
+        "congress",
+        "rule_of_law"
+      ],
+      "_origin_file": "guardian_events_2025-12-27_2026-01-02.json",
+      "_origin_index": 4
+    },
+    {
+      "source_key": "guardian",
+      "date": "2026-01-02",
+      "category": "Judicial Developments",
+      "title": "DC pipe bomb suspect must remain in jail before trial, judge rules",
+      "url": "https://www.theguardian.com/us-news/2026/jan/02/dc-pipe-bomb-suspect-custody",
+      "summary": "A federal magistrate judge has ruled that Brian Cole Jr., accused of planting pipe bombs outside the Democratic and Republican headquarters on January 5, 2021, must remain in custody while awaiting trial. The court found that Cole poses an \"intolerable risk of danger to the community\" and granted the government's motion for pretrial detention. Cole faces federal charges for transporting explosive devices across state lines and malicious attempted destruction using explosives. The charges carry significant penalties, including a potential 20-year prison sentence for the latter.",
+      "why_relevant": "The ruling underscores the judiciary's role in assessing public safety risks and ensuring accountability for actions related to the January 6 Capitol attack.",
+      "attacks": [
+        "rule_of_law",
+        "justice_dept"
+      ],
+      "_origin_file": "guardian_events_2025-12-27_2026-01-02.json",
+      "_origin_index": 1
+    },
+    {
+      "source_key": "guardian",
+      "date": "2026-01-02",
+      "category": "Law Enforcement & Surveillance",
+      "title": "FBI Thwarts Planned New Year’s Eve Terrorist Attack in North Carolina",
+      "url": "https://www.theguardian.com/us-news/2026/jan/02/north-carolina-terror-attack-planned-nye-fbi",
+      "summary": "The FBI announced it had thwarted a planned New Year’s Eve terrorist attack in North Carolina, arresting 18-year-old Christian Sturdivant of Mint Hill. Sturdivant was charged with attempting to provide material support to a foreign terrorist organization. Authorities discovered knives, hammers, and detailed notes on the planned attack targeting Jews, Christians, and LGBTQ+ individuals. Sturdivant, radicalized online by Islamic State (IS) propaganda, communicated his plans to an undercover NYPD agent posing as an IS affiliate. He remains in federal custody and faces up to 20 years in prison if convicted.",
+      "why_relevant": "This event highlights the ongoing threat of domestic terrorism and the role of law enforcement in preventing attacks inspired by foreign terrorist organizations.",
+      "attacks": [
+        "lgbtq",
+        "minorities",
+        "truth"
+      ],
+      "_origin_file": "guardian_events_2025-12-27_2026-01-02.json",
+      "_origin_index": 3
+    },
+    {
+      "source_key": "guardian",
+      "date": "2026-01-02",
+      "category": "Law Enforcement & Surveillance",
+      "title": "Kentucky woman charged with fetal homicide",
+      "url": "https://www.theguardian.com/us-news/2026/jan/02/kentucky-woman-arrest-abortion",
+      "summary": "Melinda S Spencer, a 35-year-old woman from Kentucky, was arrested by state police on charges of fetal homicide in the first degree, abuse of a corpse, and tampering with physical evidence. Spencer allegedly induced her own abortion using medication ordered online and buried the remains in her backyard. Despite Kentucky's ban on doctors performing abortions after conception, the state does not prohibit individuals from self-managing their abortions. Spencer was booked into a jail in Beattyville, Kentucky, and remains in custody.",
+      "why_relevant": "This case highlights the legal and criminal implications of self-managed abortions in states with restrictive abortion laws.",
+      "attacks": [
+        "women",
+        "rule_of_law"
+      ],
+      "_origin_file": "guardian_events_2025-12-27_2026-01-02.json",
+      "_origin_index": 0
+    },
+    {
+      "source_key": "outloud",
+      "date": "2026-01-02",
+      "category": "Civil Society & Protest",
+      "title": "Long March Against Gerrymandering",
+      "url": "https://kziegler.substack.com/p/democracy-out-loud-426-forward",
+      "summary": "A Long March is planned from February 11-14, 2026, to protest against the disenfranchisement of Black voters in North Carolina due to recent gerrymandering. The march will culminate in a large demonstration in Raleigh, aiming to draw attention to the racial injustices perpetuated by the state's electoral map.",
+      "why_relevant": "This protest highlights ongoing issues of racial disenfranchisement and the fight for fair representation in electoral processes.",
+      "attacks": [
+        "minorities",
+        "elections"
+      ],
+      "_origin_file": "outloud_events_2025-12-27_2026-01-02.json",
+      "_origin_index": 1
+    },
+    {
+      "source_key": "guardian",
+      "date": "2026-01-02",
+      "category": "Information & Media Control",
+      "title": "DHS condemned for unauthorized use of Japanese artist's work",
+      "url": "https://www.theguardian.com/us-news/2026/jan/03/homeland-security-japanese-artist-permission",
+      "summary": "The US Department of Homeland Security (DHS) has been criticized for using artwork by Japanese artist Hiroshi Nagai without permission to promote its deportation agenda. The image, featuring a beach scene, was posted on social media with a caption suggesting a peaceful America post-deportations. Nagai publicly objected to the unauthorized use of his work. This incident is part of a pattern where DHS has used artists' works without consent, including a previous case involving American artist Thomas Kinkade. The department has also faced backlash from musicians for using their songs in similar contexts.",
+      "why_relevant": "The unauthorized use of artwork by a government agency raises concerns about intellectual property rights and the ethical use of media in public campaigns.",
+      "attacks": [
+        "information",
+        "culture_art"
+      ],
+      "_origin_file": "guardian_events_2025-12-27_2026-01-02.json",
+      "_origin_index": 2
+    },
+    {
+      "source_key": "meidas",
+      "date": "2026-01-02",
+      "category": "Information & Media Control",
+      "title": "Trump Spreads Misinformation About Wind Turbines",
+      "url": "https://www.meidasplus.com/p/friday-afternoon-news-updates-1226",
+      "summary": "Donald Trump shared images on social media claiming that wind turbines in the United States were killing bald eagles. However, the images were found to be misleading, with one taken in Spain in 2010 and another from Taiwan in 2006. The misinformation was part of a broader narrative questioning the environmental impact of renewable energy sources.",
+      "why_relevant": "Spreading misinformation undermines public understanding of environmental issues and can influence policy debates on renewable energy.",
+      "attacks": [
+        "truth",
+        "environment"
+      ],
+      "_origin_file": "meidas_events_2025-12-27_2026-01-02.json",
+      "_origin_index": 6
+    },
+    {
+      "source_key": "outloud",
+      "date": "2026-01-02",
+      "category": "Information & Media Control",
+      "title": "Attack on Chapel Hill School District",
+      "url": "https://kziegler.substack.com/p/democracy-out-loud-426-forward",
+      "summary": "The Chapel Hill School District faced a significant attack from the Republican leaders of the NC Select Committee on Oversight and Reform. This attack is part of a broader effort to undermine public education in North Carolina. Public School Strong, an organization defending public schools, is organizing efforts to counteract these attacks.",
+      "why_relevant": "This event underscores the ongoing challenges to public education and the need for organized resistance to protect educational institutions.",
+      "attacks": [
+        "education"
+      ],
+      "_origin_file": "outloud_events_2025-12-27_2026-01-02.json",
+      "_origin_index": 2
+    },
+    {
+      "source_key": "federalregister",
+      "date": "2026-01-02",
+      "category": "Economic & Regulatory Power",
+      "title": "EPA Approves Revisions to Colorado Air Plan",
+      "url": "https://www.federalregister.gov/documents/2026/01/02/2025-24141/air-plan-approval-colorado-revisions-to-colorado-procedural-rules-and-common-provisions-regulation",
+      "summary": "The Environmental Protection Agency (EPA) approved revisions to the Colorado State Implementation Plan (SIP) submitted by the Colorado Department of Public Health and Environment. These revisions involve minor administrative updates to the Procedural Rules and Common Provisions Regulation, aimed at improving readability and compliance with the Clean Air Act. The changes include grammatical adjustments and updates to references, effective March 3, 2026, unless adverse comments are received by February 2, 2026.",
+      "why_relevant": "This action reflects the EPA's role in ensuring state air quality regulations align with federal standards, impacting environmental governance and regulatory compliance.",
+      "attacks": [],
+      "_origin_file": "federalregister_events_2025-12-27_2026-01-02.json",
+      "_origin_index": 20
+    },
+    {
+      "source_key": "federalregister",
+      "date": "2026-01-02",
+      "category": "Economic & Regulatory Power",
+      "title": "EPA Delegates NESHAP Authority to Oklahoma",
+      "url": "https://www.federalregister.gov/documents/2026/01/02/2025-24149/national-emission-standards-for-hazardous-air-pollutants-delegation-of-authority-to-oklahoma",
+      "summary": "The Environmental Protection Agency (EPA) has finalized a rule delegating authority to the Oklahoma Department of Environmental Quality (ODEQ) to implement and enforce certain National Emission Standards for Hazardous Air Pollutants (NESHAP) as they existed through June 30, 2023. This delegation includes areas of Indian country in Oklahoma, except for specific excluded lands. The rule becomes effective on February 2, 2026, allowing ODEQ to manage these standards statewide, enhancing local control over air quality regulations.",
+      "why_relevant": "This delegation enhances state-level regulatory control over air quality standards, impacting environmental governance and local autonomy.",
+      "attacks": [],
+      "_origin_file": "federalregister_events_2025-12-27_2026-01-02.json",
+      "_origin_index": 19
+    },
+    {
+      "source_key": "federalregister",
+      "date": "2026-01-02",
+      "category": "Economic & Regulatory Power",
+      "title": "EPA Finalizes Revisions to Taconite Federal Implementation Plan",
+      "url": "https://www.federalregister.gov/documents/2026/01/02/2025-24207/air-plan-approval-michigan-and-minnesota-revision-to-taconite-federal-implementation-plan",
+      "summary": "The Environmental Protection Agency (EPA) finalized revisions to the Taconite Federal Implementation Plan, setting new nitrogen oxide (NOx) and sulfur dioxide (SO2) emission limits for five taconite facilities in Michigan and Minnesota. The rule modifies the Upper Predictive Limit equations and mandates electronic submission of reports. These changes, effective February 2, 2026, aim to ensure compliance with the Clean Air Act's best available retrofit technology requirements.",
+      "why_relevant": "This action enforces stricter air quality standards, impacting industrial emissions and environmental health in the region.",
+      "attacks": [],
+      "_origin_file": "federalregister_events_2025-12-27_2026-01-02.json",
+      "_origin_index": 15
+    },
+    {
+      "source_key": "federalregister",
+      "date": "2026-01-02",
+      "category": "Economic & Regulatory Power",
+      "title": "EPA Revokes 2024 Rule on Reclassification of Major Sources",
+      "url": "https://www.federalregister.gov/documents/2026/01/02/2025-24202/congressional-review-act-revocation-of-2024-review-of-final-rule-reclassification-of-major-sources",
+      "summary": "The Environmental Protection Agency (EPA) has revoked the 2024 rule that amended the reclassification of major sources as area sources under Section 112 of the Clean Air Act. This action follows a Congressional Review Act joint resolution disapproving the 2024 rule, signed into law by President Trump. The revocation restores the provisions of the 2020 rule, allowing certain hazardous air pollutant sources to reclassify without adhering to major source standards. The final rule is effective immediately, ensuring regulatory certainty for affected entities.",
+      "why_relevant": "This action impacts environmental regulatory standards and compliance requirements for hazardous air pollutant sources, affecting public health and industry operations.",
+      "attacks": [],
+      "_origin_file": "federalregister_events_2025-12-27_2026-01-02.json",
+      "_origin_index": 16
+    },
+    {
+      "source_key": "federalregister",
+      "date": "2026-01-02",
+      "category": "Economic & Regulatory Power",
+      "title": "FDA Revokes Emergency Use Authorizations for Two COVID-19 Tests",
+      "url": "https://www.federalregister.gov/documents/2026/01/02/2025-24155/revocation-of-two-authorizations-of-emergency-use-of-in-vitro-diagnostic-devices-for-detection-andor",
+      "summary": "The Food and Drug Administration (FDA) has revoked the Emergency Use Authorizations (EUAs) for Pfizer Inc.'s Lucira by Pfizer COVID-19 & Flu Test and Lucira by Pfizer COVID-19 & Flu Home Test. The revocations, effective October 22, 2025, were requested by Pfizer due to the absence of viable test reagents in the United States. The FDA determined that revoking these authorizations was necessary to protect public health and safety under the Federal Food, Drug, and Cosmetic Act.",
+      "why_relevant": "This action affects the availability and regulatory status of COVID-19 diagnostic tools, impacting public health measures and market dynamics.",
+      "attacks": [],
+      "_origin_file": "federalregister_events_2025-12-27_2026-01-02.json",
+      "_origin_index": 34
+    },
+    {
+      "source_key": "federalregister",
+      "date": "2026-01-02",
+      "category": "Economic & Regulatory Power",
+      "title": "FDA Withdraws MYSOLINE Suspension for Safety Reasons",
+      "url": "https://www.federalregister.gov/documents/2026/01/02/2025-24196/determination-that-mysoline-primidone-suspension-250-milligrams5-milliliters-was-withdrawn-from-sale",
+      "summary": "The Food and Drug Administration (FDA) has determined that MYSOLINE (primidone) suspension, 250 mg/5 mL, was withdrawn from sale due to safety concerns, specifically potential microbial contamination. Consequently, the FDA will not accept or approve abbreviated new drug applications (ANDAs) for this product. The drug will be removed from the Orange Book's list of approved drug products. This decision follows a citizen petition and a review of agency records and literature.",
+      "why_relevant": "This action underscores the FDA's role in ensuring drug safety and effectiveness, impacting pharmaceutical regulation and public health.",
+      "attacks": [],
+      "_origin_file": "federalregister_events_2025-12-27_2026-01-02.json",
+      "_origin_index": 33
+    },
+    {
+      "source_key": "federalregister",
+      "date": "2026-01-02",
+      "category": "Economic & Regulatory Power",
+      "title": "General Services Administration Updates Mileage Reimbursement Rates",
+      "url": "https://www.federalregister.gov/documents/2026/01/02/2025-24148/calendar-year-cy-2026-privately-owned-vehicle-pov-mileage-reimbursement-rates-cy-2026-standard",
+      "summary": "The General Services Administration (GSA) has updated the mileage reimbursement rates for privately owned vehicles (POV) for calendar year 2026. This update, required by statute, aligns the rates with the Internal Revenue Service's standard mileage rate for medical or moving purposes. The new rates apply to travel and relocation performed from January 1, 2026, to December 31, 2026, and are detailed in FTR Bulletin 26-02 available on the GSA website.",
+      "why_relevant": "This update affects federal employees' travel and relocation expenses, impacting government operational costs and employee reimbursements.",
+      "attacks": [],
+      "_origin_file": "federalregister_events_2025-12-27_2026-01-02.json",
+      "_origin_index": 4
+    },
+    {
+      "source_key": "federalregister",
+      "date": "2026-01-02",
+      "category": "Economic & Regulatory Power",
+      "title": "Revision to Foreign Gifts and Decorations Minimal Value",
+      "url": "https://www.federalregister.gov/documents/2026/01/02/2025-24147/revision-to-foreign-gifts-and-decorations-minimal-value",
+      "summary": "The General Services Administration (GSA) has redefined the minimal value of foreign gifts and decorations to $525.00, effective January 1, 2026, reflecting an 8.99% increase in the Consumer Price Index over the past three years. This adjustment, made in consultation with the U.S. Department of State, updates the previous value of $480.00 set in 2023. The new value applies to gifts received on or after January 1, 2026, and is published in FMR Bulletin B-2025-01.",
+      "why_relevant": "This adjustment ensures compliance with legal requirements for handling foreign gifts, reflecting inflation and maintaining transparency in government operations.",
+      "attacks": [],
+      "_origin_file": "federalregister_events_2025-12-27_2026-01-02.json",
+      "_origin_index": 5
+    },
+    {
+      "source_key": "federalregister",
+      "date": "2026-01-02",
+      "category": "Economic & Regulatory Power",
+      "title": "TSA Revises Pipeline Security Information Collection",
+      "url": "https://www.federalregister.gov/documents/2026/01/02/2025-24198/revision-of-agency-information-collection-activity-under-omb-review-pipeline-corporate-security",
+      "summary": "The Transportation Security Administration (TSA) announced a revision of its information collection activity related to pipeline security. This revision involves the Pipeline Corporate Security Reviews and the TSA Security Directive Pipeline-2021-02 series. The update aims to assess current security practices in the pipeline industry and ensure compliance with mandatory cybersecurity requirements. The TSA is seeking public comments on this revision, which affects the hazardous liquids and natural gas pipeline industry, and estimates an annual burden of 80,231 hours for 100 respondents.",
+      "why_relevant": "This revision impacts the security and regulatory compliance of critical infrastructure in the pipeline industry, affecting national security and industry operations.",
+      "attacks": [],
+      "_origin_file": "federalregister_events_2025-12-27_2026-01-02.json",
+      "_origin_index": 1
+    },
+    {
+      "source_key": "meidas",
+      "date": "2026-01-02",
+      "category": "Economic & Regulatory Power",
+      "title": "Trump Delays Tariffs on Various Goods",
+      "url": "https://www.meidasplus.com/p/friday-afternoon-news-updates-1226",
+      "summary": "The Trump administration announced delays on higher tariffs for items such as upholstered furniture, kitchen cabinets, and vanities. This decision follows warnings from exporters about potential market withdrawal. Additionally, proposed tariffs on Italian pasta were also backed off. Despite these delays, Trump claimed tariffs have been a significant success for the United States, highlighting a contradiction in policy and rhetoric.",
+      "why_relevant": "The imposition and subsequent delay of tariffs affect international trade relations and domestic economic conditions, impacting businesses and consumers.",
+      "attacks": [
+        "trade"
+      ],
+      "_origin_file": "meidas_events_2025-12-27_2026-01-02.json",
+      "_origin_index": 5
+    },
+    {
+      "source_key": "outloud",
+      "date": "2026-01-02",
+      "category": "Economic & Regulatory Power",
+      "title": "NC General Assembly Plans Tax Cuts",
+      "url": "https://kziegler.substack.com/p/democracy-out-loud-426-forward",
+      "summary": "The Republican-led North Carolina General Assembly is planning to implement another round of tax cuts for wealthy individuals and profitable corporations. This decision is expected to delay the creation of a comprehensive state budget, which could lead to significant negative impacts on public services. Child-care centers are at risk of closure, healthcare premiums are rising, and providers remain unpaid due to the budgetary constraints imposed by these tax cuts.",
+      "why_relevant": "This action affects the economic stability and public service provision in North Carolina, impacting the welfare of its residents.",
+      "attacks": [
+        "poor",
+        "public_health"
+      ],
+      "_origin_file": "outloud_events_2025-12-27_2026-01-02.json",
+      "_origin_index": 0
+    },
+    {
+      "source_key": "meidas",
+      "date": "2026-01-02",
+      "category": "Appointments & Patronage",
+      "title": "Trump Shops for Luxury Stone for White House",
+      "url": "https://www.meidasplus.com/p/friday-afternoon-news-updates-1226",
+      "summary": "While in South Florida, Donald Trump stopped at a shopping center to purchase marble and onyx for the White House ballroom at his own expense. This personal shopping trip occurred amidst his online activities and public statements, drawing attention to his priorities.",
+      "why_relevant": "The personal use of presidential time and resources for luxury purchases raises questions about priorities and the use of public office for personal benefit.",
+      "attacks": [
+        "presidency"
+      ],
+      "_origin_file": "meidas_events_2025-12-27_2026-01-02.json",
+      "_origin_index": 7
+    },
+    {
+      "source_key": "federalregister",
+      "date": "2026-01-02",
+      "category": "Transparency & Records",
+      "title": "EPA Notice of Availability of Environmental Impact Statements",
+      "url": "https://www.federalregister.gov/documents/2026/01/02/2025-24190/environmental-impact-statements-notice-of-availability",
+      "summary": "The Environmental Protection Agency (EPA) has published a notice of availability for Environmental Impact Statements (EIS) received from December 19, 2025, to December 26, 2025. This notice, required under Section 309(a) of the Clean Air Act, includes the final EIS for the Spring Valley II Solar Project in Alabama. The review period for this EIS ends on January 30, 2026. The notice ensures public access to EPA's comments on EISs issued by other federal agencies, promoting transparency and public involvement in environmental decision-making.",
+      "why_relevant": "This notice enhances public access to environmental decision-making processes, supporting transparency and informed public participation.",
+      "attacks": [],
+      "_origin_file": "federalregister_events_2025-12-27_2026-01-02.json",
+      "_origin_index": 17
+    },
+    {
+      "source_key": "meidas",
+      "date": "2026-01-02",
+      "category": "International Relations",
+      "title": "Trump Threatens Military Action Against Iran",
+      "url": "https://www.meidasplus.com/p/friday-afternoon-news-updates-1226",
+      "summary": "Former President Donald Trump posted a message threatening military action against Iran, stating that the United States would \"come to their rescue\" if Iran \"shoots and violently kills peaceful protesters.\" This statement was made amidst ongoing protests in Iran, which have been fueled by economic collapse and inflation. Iran's leadership responded with warnings against foreign threats to their national security, indicating potential retaliation. The situation remains tense as protests continue across Iran.",
+      "why_relevant": "The threat of military action by a former U.S. president against a foreign nation can escalate international tensions and impact global diplomatic relations.",
+      "attacks": [
+        "peace",
+        "diplomacy"
+      ],
+      "_origin_file": "meidas_events_2025-12-27_2026-01-02.json",
+      "_origin_index": 4
+    },
+    {
+      "source_key": "outloud",
+      "date": "2026-01-02",
+      "category": "International Relations",
+      "title": "Block The Bombs Act Advocacy",
+      "url": "https://kziegler.substack.com/p/democracy-out-loud-426-forward",
+      "summary": "Activists are urging the public to contact their representatives to support the Block The Bombs Act, which aims to end U.S. financial support for military actions in Israel. This advocacy is part of a broader campaign to address the humanitarian crisis in Palestine, where over 70,000 Palestinians have reportedly been killed.",
+      "why_relevant": "This advocacy effort seeks to influence U.S. foreign policy and address international human rights concerns.",
+      "attacks": [
+        "global_democracy",
+        "peace"
+      ],
+      "_origin_file": "outloud_events_2025-12-27_2026-01-02.json",
+      "_origin_index": 3
+    }
+  ]
+}

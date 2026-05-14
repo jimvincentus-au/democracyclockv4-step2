@@ -9,9 +9,20 @@ __pycache__/
 /tmp/
 *.tmp
 
-# Master Event Log artifacts (if large)
-artifacts/
-eventjson/
+# Generated artifacts — ignored by default. Almost everything under
+# artifacts/ is expendable: regenerable for free (json/ harvester output,
+# cache/ sitemap caches), bulky debug output (log/), or superseded
+# per-source extractions (eventjson/*_events_*.json, events/).
+#
+# The ONE exception versioned in git: artifacts/eventjson/master_index_week*.json
+# — the per-week master index files. These are expensive LLM-derived output
+# and effectively immutable once a week is collected. Committing them is a
+# cheap recovery path (git pull instead of re-spending hundreds of dollars
+# rebuilding weeks of events).
+artifacts/*
+!artifacts/eventjson/
+artifacts/eventjson/*
+!artifacts/eventjson/master_index_week*
 test-output/
 
 # macOS metadata
