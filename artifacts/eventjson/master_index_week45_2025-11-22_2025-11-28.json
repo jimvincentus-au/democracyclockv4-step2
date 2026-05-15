@@ -5,55 +5,55 @@
   },
   "week_number": 45,
   "sources": [
-    "outloud",
-    "noah",
-    "guardian",
-    "democracydocket",
-    "meidas",
     "50501",
+    "noah",
+    "zeteo",
+    "guardian",
     "popinfo",
-    "federalregister",
-    "orders",
+    "meidas",
+    "outloud",
     "hcr",
-    "zeteo"
+    "orders",
+    "democracydocket",
+    "federalregister"
   ],
   "counts": {
-    "total": 294,
+    "total": 221,
     "by_date": {
       "2025-11-22": 14,
       "2025-11-23": 12,
-      "2025-11-24": 45,
-      "2025-11-25": 59,
-      "2025-11-26": 116,
+      "2025-11-24": 40,
+      "2025-11-25": 37,
+      "2025-11-26": 70,
       "2025-11-27": 18,
       "2025-11-28": 30
     },
     "by_source": {
-      "guardian": 73,
+      "guardian": 54,
       "zeteo": 18,
       "outloud": 5,
-      "hcr": 29,
-      "meidas": 44,
-      "noah": 15,
+      "hcr": 25,
+      "meidas": 34,
+      "noah": 10,
       "orders": 2,
-      "federalregister": 90,
-      "50501": 11,
-      "popinfo": 4,
+      "federalregister": 58,
+      "50501": 9,
+      "popinfo": 3,
       "democracydocket": 3
     },
     "by_category": {
-      "Legislative & Oversight Activity": 13,
-      "Judicial Developments": 36,
-      "Law Enforcement & Surveillance": 33,
-      "Elections & Representation": 12,
-      "International Relations": 20,
-      "Executive Actions & Orders": 31,
-      "Civil Society & Protest": 16,
-      "Information & Media Control": 9,
-      "Economic & Regulatory Power": 97,
-      "Civil–Military Relations & State Violence": 19,
-      "Appointments & Patronage": 3,
-      "Transparency & Records": 4,
+      "Legislative & Oversight Activity": 7,
+      "Judicial Developments": 28,
+      "Law Enforcement & Surveillance": 27,
+      "Elections & Representation": 11,
+      "International Relations": 17,
+      "Executive Actions & Orders": 27,
+      "Civil Society & Protest": 13,
+      "Information & Media Control": 7,
+      "Economic & Regulatory Power": 63,
+      "Civil–Military Relations & State Violence": 15,
+      "Appointments & Patronage": 2,
+      "Transparency & Records": 3,
       "Health & Public Welfare": 1
     }
   },
@@ -475,23 +475,23 @@
       "summary": "On November 24, 2025, President Donald Trump issued an executive order designating certain chapters of the Muslim Brotherhood as Foreign Terrorist Organizations and Specially Designated Global Terrorists. This order targets chapters in Lebanon, Jordan, and Egypt, citing their involvement in violence and destabilization efforts that threaten U.S. interests and regional stability. The order mandates the Secretary of State and the Secretary of the Treasury to report on these designations and take appropriate actions within specified timeframes. The order aims to deprive these chapters of resources and mitigate threats to U.S. nationals and national security.",
       "why_relevant": "This executive order impacts U.S. foreign policy and national security by targeting organizations deemed threats to American interests and regional stability.",
       "attacks": [
-        "immigrants_refugees",
-        "minorities"
+        "global_democracy",
+        "international_relations"
       ],
-      "_origin_file": "orders_events_2025-11-22_2025-11-28.json",
-      "_origin_index": 1
+      "_origin_file": "orders_events_2025-01-20_2026-02-01.json",
+      "_origin_index": 19
     },
     {
       "source_key": "orders",
       "date": "2025-11-24",
       "category": "Executive Actions & Orders",
-      "title": "Executive Order: Launching the Genesis Mission",
+      "title": "Launching the Genesis Mission",
       "url": "https://ballotpedia.org/Executive_Order:_Launching_the_Genesis_Mission_(Donald_Trump,_2025)",
-      "summary": "On November 24, 2025, President Donald Trump issued an executive order establishing the \"Genesis Mission,\" a national initiative aimed at accelerating artificial intelligence (AI) development for scientific discovery. The mission seeks to leverage federal scientific datasets and AI technologies to address national challenges, enhance national security, and boost economic growth. The Department of Energy is tasked with implementing the mission, which includes creating an integrated AI platform to support research and development across various scientific domains. The initiative is designed to strengthen America's technological leadership and strategic global position.",
-      "why_relevant": "This executive order represents a significant federal commitment to advancing AI technology, which has implications for national security, economic competitiveness, and scientific innovation.",
+      "summary": "On November 24, 2025, President Donald Trump issued an executive order establishing the \"Genesis Mission,\" a national initiative aimed at accelerating artificial intelligence (AI) development for scientific discovery. The mission seeks to create an integrated AI platform using federal scientific datasets to enhance research and development across various domains, including biotechnology, nuclear energy, and semiconductors. The Department of Energy is tasked with implementing the mission, which involves collaboration with national laboratories, universities, and private sector partners to advance AI-driven innovation and strengthen national security.",
+      "why_relevant": "This executive order represents a significant federal commitment to advancing AI technology, which has implications for national security, economic growth, and scientific innovation.",
       "attacks": [],
-      "_origin_file": "orders_events_2025-11-22_2025-11-28.json",
-      "_origin_index": 0
+      "_origin_file": "orders_events_2025-01-20_2026-02-01.json",
+      "_origin_index": 18
     },
     {
       "source_key": "zeteo",
@@ -691,21 +691,6 @@
       "source_key": "meidas",
       "date": "2025-11-24",
       "category": "Law Enforcement & Surveillance",
-      "title": "Alleged FBI Intimidation of Congress Members",
-      "url": "https://www.meidasplus.com/p/today-in-politics-bulletin-258-112525",
-      "summary": "Several Democratic members of Congress, including Reps. Jason Crow and Chrissy Houlahan, claim they are under FBI investigation after releasing a video urging military troops not to follow illegal orders. They accuse President Trump of using the FBI to intimidate and harass them. The FBI has reportedly contacted the House and Senate Sergeants at Arms for interviews, raising concerns about the use of federal law enforcement for political purposes.",
-      "why_relevant": "The alleged use of the FBI to target political opponents raises concerns about the misuse of law enforcement for political gain.",
-      "attacks": [
-        "justice_dept",
-        "congress"
-      ],
-      "_origin_file": "meidas_events_2025-11-25_2025-11-27.json",
-      "_origin_index": 1
-    },
-    {
-      "source_key": "meidas",
-      "date": "2025-11-24",
-      "category": "Law Enforcement & Surveillance",
       "title": "Democrats Claim FBI Intimidation",
       "url": "https://www.meidasplus.com/p/today-in-politics-bulletin-258-112525",
       "summary": "Several Democratic lawmakers, including Reps. Jason Crow and Maggie Goodlander, have accused President Trump of using the FBI to intimidate them after they filmed a video urging military troops not to follow illegal orders. The FBI has reportedly contacted the House and Senate Sergeants at Arms for interviews, which the lawmakers view as harassment. This incident highlights concerns about the politicization of federal law enforcement under the Trump administration.",
@@ -731,18 +716,6 @@
       ],
       "_origin_file": "zeteo_events_2025-11-22_2025-11-28.json",
       "_origin_index": 6
-    },
-    {
-      "source_key": "meidas",
-      "date": "2025-11-24",
-      "category": "Elections & Representation",
-      "title": "Concerns Over 2026 Midterm Elections for Republicans",
-      "url": "https://www.meidasplus.com/p/today-in-politics-bulletin-258-112525",
-      "summary": "Republican lawmakers express concern over potential losses in the 2026 midterm elections, following poor performance in recent off-year elections. Rising health insurance premiums and economic issues are seen as major challenges. President Trump's approval rating has dropped, and Democrats lead on the generic congressional ballot. These factors suggest a difficult electoral environment for Republicans, potentially affecting their control of Congress.",
-      "why_relevant": "The potential shift in congressional control could significantly impact legislative priorities and governance.",
-      "attacks": [],
-      "_origin_file": "meidas_events_2025-11-25_2025-11-27.json",
-      "_origin_index": 3
     },
     {
       "source_key": "meidas",
@@ -894,21 +867,6 @@
       "source_key": "meidas",
       "date": "2025-11-24",
       "category": "Economic & Regulatory Power",
-      "title": "Rising Electricity Prices and Power Shutoffs",
-      "url": "https://www.meidasplus.com/p/today-in-politics-bulletin-258-112525",
-      "summary": "Electricity prices have surged across the United States, leading to increased power shutoffs. Data from utilities in 11 states show a rise in disconnections, with significant increases in areas like New York City. The average electricity bill has risen by 11% since January, outpacing overall inflation. This trend is causing financial strain on households and contributing to economic instability, as businesses announce layoffs and consumer spending declines.",
-      "why_relevant": "Rising utility costs and power shutoffs highlight economic challenges and the impact of regulatory decisions on everyday Americans.",
-      "attacks": [
-        "economy",
-        "poor"
-      ],
-      "_origin_file": "meidas_events_2025-11-25_2025-11-27.json",
-      "_origin_index": 2
-    },
-    {
-      "source_key": "meidas",
-      "date": "2025-11-24",
-      "category": "Economic & Regulatory Power",
       "title": "Rising Electricity Prices Lead to Power Shutoffs",
       "url": "https://www.meidasplus.com/p/today-in-politics-bulletin-258-112525",
       "summary": "Rising electricity prices have led to a significant increase in power shutoffs across the United States, with data showing disconnections have risen in at least eight states. In Pennsylvania, power shutoffs have increased by 21% this year, affecting over 270,000 households. The average electricity bill has risen by 13% as utilities upgrade grids for new data centers. This surge in prices is contributing to economic strain, with many Americans struggling to afford basic utilities.",
@@ -932,20 +890,6 @@
       ],
       "_origin_file": "meidas_events_2025-11-22_2025-11-28.json",
       "_origin_index": 17
-    },
-    {
-      "source_key": "meidas",
-      "date": "2025-11-24",
-      "category": "Appointments & Patronage",
-      "title": "FBI Director Replacement Consideration",
-      "url": "https://www.meidasplus.com/p/today-in-politics-bulletin-258-112525",
-      "summary": "President Trump is reportedly considering replacing FBI Director Kash Patel due to dissatisfaction with Patel's management and recent controversies. Trump is eyeing Andrew Bailey, a top FBI official, as a potential replacement. Under federal law, Bailey could be appointed as acting director without Senate confirmation after serving 90 days in his current role, which he will reach on December 15th. This move reflects ongoing tensions within the administration regarding the leadership of the FBI.",
-      "why_relevant": "The potential replacement of the FBI Director could impact the agency's independence and its role in law enforcement.",
-      "attacks": [
-        "justice_dept"
-      ],
-      "_origin_file": "meidas_events_2025-11-25_2025-11-27.json",
-      "_origin_index": 0
     },
     {
       "source_key": "zeteo",
@@ -1002,21 +946,6 @@
       ],
       "_origin_file": "meidas_events_2025-11-22_2025-11-28.json",
       "_origin_index": 21
-    },
-    {
-      "source_key": "meidas",
-      "date": "2025-11-24",
-      "category": "International Relations",
-      "title": "Ukraine Peace Deal Announcement",
-      "url": "https://www.meidasplus.com/p/today-in-politics-bulletin-258-112525",
-      "summary": "The Trump administration announced that Ukraine has agreed to a peace deal to end Russia's assault, though details remain unresolved. The deal, brokered by the U.S., is pending further negotiations with Russia. President Trump has appointed Steve Witkoff as a special envoy to facilitate discussions. The announcement has been met with skepticism, as critics question the deal's viability and the choice of negotiators.",
-      "why_relevant": "The peace deal could have significant implications for regional stability and U.S. foreign policy.",
-      "attacks": [
-        "global_democracy",
-        "diplomacy"
-      ],
-      "_origin_file": "meidas_events_2025-11-25_2025-11-27.json",
-      "_origin_index": 4
     },
     {
       "source_key": "guardian",
@@ -1097,22 +1026,6 @@
       "source_key": "guardian",
       "date": "2025-11-25",
       "category": "Executive Actions & Orders",
-      "title": "State Department Proposes Exclusion of Universities from Diplomacy Lab Over DEI Policies",
-      "url": "https://www.theguardian.com/us-news/2025/nov/25/us-universities-cuts-dei-state-department",
-      "summary": "The U.S. State Department has proposed to exclude 38 universities, including Harvard, Yale, and Stanford, from the Diplomacy Lab program due to their diversity, equity, and inclusion (DEI) hiring practices. This decision, revealed in an internal memo, aims to align with the administration's stance against DEI policies. The suspensions, set to take effect on January 1, would reshape the academic partnership network by removing these institutions and approving 10 new schools. The State Department's move reflects a broader review to ensure programs align with the president's agenda.",
-      "why_relevant": "This action represents a significant shift in federal support for academic institutions based on their adherence to DEI policies, impacting educational partnerships and research opportunities.",
-      "attacks": [
-        "education",
-        "public_service",
-        "truth"
-      ],
-      "_origin_file": "guardian_events_2025-11-25_2025-11-27.json",
-      "_origin_index": 20
-    },
-    {
-      "source_key": "guardian",
-      "date": "2025-11-25",
-      "category": "Executive Actions & Orders",
       "title": "Trump issues broad pardon potentially covering 2020 voter fraud",
       "url": "https://www.theguardian.com/us-news/2025/nov/25/trump-voter-fraud-pardon",
       "summary": "On November 7, 2025, Donald Trump issued a pardon that may inadvertently cover any U.S. citizen involved in voter fraud during the 2020 presidential election. The pardon, initially intended for Rudy Giuliani and others involved in a fake elector scheme, contains broad language that could apply to individuals like Matthew Alan Laiss, who is accused of voting in two states. Legal experts suggest the pardon could extend to any conduct related to the 2020 election, potentially affecting numerous cases. The Justice Department has not yet responded to motions to dismiss charges based on this pardon.",
@@ -1123,37 +1036,6 @@
       ],
       "_origin_file": "guardian_events_2025-11-22_2025-11-28.json",
       "_origin_index": 28
-    },
-    {
-      "source_key": "guardian",
-      "date": "2025-11-25",
-      "category": "Executive Actions & Orders",
-      "title": "Trump issues broad pardon potentially covering 2020 voter fraud",
-      "url": "https://www.theguardian.com/us-news/2025/nov/25/trump-voter-fraud-pardon",
-      "summary": "On November 7, 2025, Donald Trump issued a pardon that may inadvertently cover any U.S. citizen involved in voter fraud during the 2020 presidential election. The pardon, initially intended for Rudy Giuliani and others involved in a fake elector scheme, contains broad language that could apply to individuals like Matthew Alan Laiss, who is accused of voting in two states. Legal experts suggest the pardon could shield many from federal prosecution, though state-level charges may still apply. The Justice Department has not yet responded to motions to dismiss charges based on this pardon.",
-      "why_relevant": "This pardon could undermine accountability for election-related crimes, affecting the integrity of democratic processes.",
-      "attacks": [
-        "rule_of_law",
-        "elections"
-      ],
-      "_origin_file": "guardian_events_2025-11-25_2025-11-27.json",
-      "_origin_index": 14
-    },
-    {
-      "source_key": "guardian",
-      "date": "2025-11-25",
-      "category": "Executive Actions & Orders",
-      "title": "US Justice Department memo diverges from Trump's narrative on boat strikes",
-      "url": "https://www.theguardian.com/us-news/2025/nov/25/trump-caribbean-boat-strikes-memo",
-      "summary": "A classified memo from the US Justice Department's Office of Legal Counsel (OLC) reveals a legal justification for the Trump administration's boat strikes against drug cartels in the Caribbean. The memo frames the strikes as a collective self-defense effort on behalf of US allies, claiming the cartels are waging armed violence financed by cocaine shipments. This legal rationale contrasts with Trump's public narrative that the strikes aim to stop overdose deaths. The memo argues that the strikes are part of an armed conflict, allowing the use of lethal force without congressional approval, based on national interest and limited scope.",
-      "why_relevant": "The memo's legal justification for military action without congressional approval raises significant questions about executive power and the use of force.",
-      "attacks": [
-        "separation_of_powers",
-        "rule_of_law",
-        "constitution"
-      ],
-      "_origin_file": "guardian_events_2025-11-25_2025-11-27.json",
-      "_origin_index": 12
     },
     {
       "source_key": "meidas",
@@ -1216,20 +1098,6 @@
       "source_key": "guardian",
       "date": "2025-11-25",
       "category": "Judicial Developments",
-      "title": "Jim Justice agrees to pay $5 million in back taxes following lawsuit",
-      "url": "https://www.theguardian.com/us-news/2025/nov/25/jim-justice-west-virginia-back-taxes",
-      "summary": "Republican US Senator Jim Justice and his wife have agreed to pay over $5 million in back taxes after being sued by the federal government. The lawsuit, filed in federal court in West Virginia, claimed the Justices had been notified of the debt since 2009 but failed to pay. A settlement was reached with the US Justice Department, pending judicial approval, requiring the couple to pay the full amount plus interest. This legal action follows the IRS filing over $8 million in liens against the Justices for unpaid taxes.",
-      "why_relevant": "This event highlights the enforcement of tax laws and accountability for public officials, impacting public trust and governance.",
-      "attacks": [
-        "rule_of_law"
-      ],
-      "_origin_file": "guardian_events_2025-11-25_2025-11-27.json",
-      "_origin_index": 18
-    },
-    {
-      "source_key": "guardian",
-      "date": "2025-11-25",
-      "category": "Judicial Developments",
       "title": "Lawsuit Filed Against Campbell's Soup for Retaliatory Dismissal",
       "url": "https://www.theguardian.com/us-news/2025/nov/25/campbell-soup-executive-comments",
       "summary": "A lawsuit was filed in Wayne County Circuit Court, Michigan, by Robert Garza, a former security analyst at Campbell's Soup Company. The lawsuit alleges that Garza was wrongfully terminated after reporting racist and derogatory comments made by Martin Bally, Campbell's vice-president of information technology. The comments, which were allegedly recorded, included disparaging remarks about Campbell's products and employees of Indian heritage. Garza claims his dismissal was retaliatory and that the company maintained a racially hostile work environment. Campbell's has placed Bally on leave and is investigating the allegations.",
@@ -1255,21 +1123,6 @@
       ],
       "_origin_file": "hcr_events_2025-11-22_2025-11-28.json",
       "_origin_index": 7
-    },
-    {
-      "source_key": "hcr",
-      "date": "2025-11-25",
-      "category": "Judicial Developments",
-      "title": "Judge Dismisses Indictments Against Comey and James",
-      "url": "https://www.politico.com/news/2025/11/24/halligan-dismissed-james-comey-cases-00667735",
-      "summary": "U.S. District Judge Cameron McGowan Currie dismissed the indictments against former FBI director James Comey and New York Attorney General Letitia James, ruling that President Donald Trump's appointment of Lindsey Halligan as interim U.S. attorney was invalid. The judge found that Halligan's appointment violated the law and the U.S. Constitution, rendering her actions, including the indictments, invalid. Attorney General Pam Bondi announced plans for an immediate appeal following the ruling.",
-      "why_relevant": "This ruling underscores the importance of lawful appointments and the separation of powers, reinforcing the principle that the executive cannot use the justice system to target political opponents.",
-      "attacks": [
-        "courts",
-        "rule_of_law"
-      ],
-      "_origin_file": "hcr_events_2025-11-25_2025-11-27.json",
-      "_origin_index": 4
     },
     {
       "source_key": "zeteo",
@@ -1305,18 +1158,6 @@
       "source_key": "federalregister",
       "date": "2025-11-25",
       "category": "Law Enforcement & Surveillance",
-      "title": "FDA Debars Nicole Shelby Randall for 5 Years",
-      "url": "https://www.federalregister.gov/documents/2025/11/25/2025-21075/nicole-shelby-randall-final-debarment-order",
-      "summary": "The Food and Drug Administration (FDA) has issued a final debarment order against Nicole Shelby Randall, prohibiting her from importing or offering for import any drug into the United States for five years. This action follows her felony conviction for introducing an adulterated drug into interstate commerce. Randall was involved in a scheme to import and distribute an unapproved drug, GS-441524, disguised as other products. She failed to request a hearing after being notified of the proposed debarment, resulting in the waiver of her right to contest the action.",
-      "why_relevant": "This debarment underscores the enforcement of regulations against the illegal importation and distribution of unapproved drugs, protecting public health and maintaining regulatory compliance.",
-      "attacks": [],
-      "_origin_file": "federalregister_events_2025-11-25_2025-11-27.json",
-      "_origin_index": 31
-    },
-    {
-      "source_key": "federalregister",
-      "date": "2025-11-25",
-      "category": "Law Enforcement & Surveillance",
       "title": "Nicole Shelby Randall Debarred by FDA",
       "url": "https://www.federalregister.gov/documents/2025/11/25/2025-21075/nicole-shelby-randall-final-debarment-order",
       "summary": "The Food and Drug Administration (FDA) has issued a final order debarring Nicole Shelby Randall for five years from importing or offering for import any drug into the United States. This action follows her felony conviction for introducing an adulterated drug into interstate commerce. Randall was involved in a scheme to import and distribute an unapproved drug, GS-441524, disguised as other products. She failed to respond to the debarment notice, waiving her right to a hearing.",
@@ -1324,33 +1165,6 @@
       "attacks": [],
       "_origin_file": "federalregister_events_2025-11-22_2025-11-28.json",
       "_origin_index": 47
-    },
-    {
-      "source_key": "guardian",
-      "date": "2025-11-25",
-      "category": "Law Enforcement & Surveillance",
-      "title": "Campbell’s Soup executive put on leave after lawsuit allegations",
-      "url": "https://www.theguardian.com/us-news/2025/nov/25/campbell-soup-executive-comments",
-      "summary": "Martin Bally, a vice-president at Campbell’s Soup Company, has been placed on temporary leave following allegations made in a lawsuit by former employee Robert Garza. The lawsuit, filed in Wayne County Circuit Court, Michigan, claims Bally made derogatory remarks about Campbell’s products and employees, including racist comments about Indian employees and disparaging the company's products as \"food for poor people.\" Garza, who was fired after reporting these comments, alleges retaliatory dismissal and a racially hostile work environment. Campbell’s is investigating the allegations, and Bally has not publicly commented.",
-      "why_relevant": "The lawsuit highlights issues of workplace discrimination and retaliation, which are significant for maintaining fair labor practices and corporate accountability.",
-      "attacks": [
-        "workers",
-        "minorities"
-      ],
-      "_origin_file": "guardian_events_2025-11-25_2025-11-27.json",
-      "_origin_index": 15
-    },
-    {
-      "source_key": "guardian",
-      "date": "2025-11-25",
-      "category": "Law Enforcement & Surveillance",
-      "title": "Food influencer arrested for dine-and-dash incidents in Brooklyn",
-      "url": "https://www.theguardian.com/us-news/2025/nov/25/food-influencer-dine-dash-diva-arrested",
-      "summary": "Pei Chung, a food influencer known as the \"dine-and-dash diva,\" was arrested in Brooklyn, New York, after multiple incidents of dining at high-end restaurants and skipping out on the bill. Chung, who has been banned from at least seven restaurants, was arraigned on a theft of services charge and jailed on Rikers Island with a $4,500 cash bail. Her arrest follows repeated offenses, including failing to appear in court for previous dine-and-dash warrants. The arrest highlights the challenges restaurants face with influencers who exploit their services without payment.",
-      "why_relevant": "This arrest underscores the legal and ethical challenges posed by social media influencers who exploit businesses, affecting the integrity of commercial transactions.",
-      "attacks": [],
-      "_origin_file": "guardian_events_2025-11-25_2025-11-27.json",
-      "_origin_index": 17
     },
     {
       "source_key": "guardian",
@@ -1375,18 +1189,6 @@
       "attacks": [],
       "_origin_file": "guardian_events_2025-11-22_2025-11-28.json",
       "_origin_index": 33
-    },
-    {
-      "source_key": "guardian",
-      "date": "2025-11-25",
-      "category": "Law Enforcement & Surveillance",
-      "title": "Meth worth $10.3m hidden in lettuce shipment seized at US-Mexico border",
-      "url": "https://www.theguardian.com/us-news/2025/nov/25/hidden-meth-lettuce-shipment",
-      "summary": "On Friday, US Customs and Border Protection (CBP) officials seized approximately $10.3 million worth of methamphetamine hidden in a lettuce shipment at the Pharr International Bridge, Texas, as it attempted to enter from Mexico. The 500 packages of meth weighed about 1,153 pounds. This seizure is part of ongoing efforts to disrupt the flow of illegal drugs into the US, amid a campaign of military strikes by the Trump administration on alleged drug-trafficking boats in the Caribbean and Pacific.",
-      "why_relevant": "This event highlights the ongoing efforts and challenges in combating drug trafficking at the US-Mexico border, impacting national security and public safety.",
-      "attacks": [],
-      "_origin_file": "guardian_events_2025-11-25_2025-11-27.json",
-      "_origin_index": 19
     },
     {
       "source_key": "zeteo",
@@ -1476,20 +1278,6 @@
       "_origin_index": 2
     },
     {
-      "source_key": "50501",
-      "date": "2025-11-25",
-      "category": "Civil Society & Protest",
-      "title": "Protest at Home Depot in Monrovia, CA",
-      "url": "https://www.the50501movement.org/p/black-friday-boycott-2025-ice-companies-comprehensive",
-      "summary": "Nearly 100 people participated in a protest at a Home Depot in Monrovia, California, by purchasing and returning 17-cent ice scrapers to disrupt store operations. The action was organized by the National Day Laborer Organizing Network (NDLON) in response to the death of Carlos Roberto Montoya Valdez, a Guatemalan day laborer who died fleeing an immigration sweep. The protest aimed to highlight Home Depot's perceived complicity in immigration enforcement actions and to pressure the company to take a stand against ICE operations on its premises.",
-      "why_relevant": "This protest exemplifies grassroots organizing against corporate complicity in immigration enforcement, highlighting the intersection of consumer action and social justice.",
-      "attacks": [
-        "dissent_protest"
-      ],
-      "_origin_file": "50501_events_2025-11-25_2025-11-27.json",
-      "_origin_index": 3
-    },
-    {
       "source_key": "hcr",
       "date": "2025-11-25",
       "category": "Civil Society & Protest",
@@ -1518,22 +1306,6 @@
       "_origin_index": 23
     },
     {
-      "source_key": "meidas",
-      "date": "2025-11-25",
-      "category": "Information & Media Control",
-      "title": "Trump administration claims false Ukraine peace deal",
-      "url": "https://www.meidasplus.com/p/tuesday-afternoon-news-updates-112525",
-      "summary": "The Trump administration reportedly leaked false claims to media outlets about a peace deal with Ukraine, which Ukrainian President Zelenskyy and Russian Foreign Minister Lavrov have both denied. The administration's actions appear to be an attempt to manipulate public perception and media narratives regarding the conflict.",
-      "why_relevant": "This incident highlights the use of disinformation by the U.S. administration to influence public opinion and undermine factual reporting.",
-      "attacks": [
-        "truth",
-        "information",
-        "global_democracy"
-      ],
-      "_origin_file": "meidas_events_2025-11-25_2025-11-27.json",
-      "_origin_index": 6
-    },
-    {
       "source_key": "popinfo",
       "date": "2025-11-25",
       "category": "Information & Media Control",
@@ -1548,34 +1320,6 @@
       ],
       "_origin_file": "popinfo_events_2025-11-22_2025-11-28.json",
       "_origin_index": 2
-    },
-    {
-      "source_key": "popinfo",
-      "date": "2025-11-25",
-      "category": "Information & Media Control",
-      "title": "Tennessee Secretary of State orders libraries to remove LGBTQ-themed books",
-      "url": "https://popular.info/p/tennessee-public-libraries-close",
-      "summary": "Tennessee Secretary of State Tre Hargett ordered 181 public libraries in the Tennessee Regional Library System to remove books with LGBTQ themes or characters, suggesting that such books violate federal and state law. Hargett's directive, communicated through letters dated September 8 and October 27, 2025, demands a review of children's collections within 60 days. This action has led to the temporary closure of some libraries to comply with the order. The directive is based on a state law and a Trump executive order, neither of which explicitly apply to library books. Legal experts argue that this action may violate First Amendment protections against content-based censorship.",
-      "why_relevant": "This action represents a significant instance of government-imposed censorship, potentially infringing on First Amendment rights and affecting public access to diverse ideas.",
-      "attacks": [
-        "lgbtq",
-        "information",
-        "truth"
-      ],
-      "_origin_file": "popinfo_events_2025-11-25_2025-11-27.json",
-      "_origin_index": 0
-    },
-    {
-      "source_key": "federalregister",
-      "date": "2025-11-25",
-      "category": "Economic & Regulatory Power",
-      "title": "EPA Grants Access to Confidential Business Information",
-      "url": "https://www.federalregister.gov/documents/2025/11/25/2025-20934/access-to-confidential-business-information-by-general-dynamics-information-technology-and-its",
-      "summary": "The Environmental Protection Agency (EPA) has authorized General Dynamics Information Technology and its subcontractors, Comptech Computer Technology and Gridiron IT Solutions, to access confidential business information under the Toxic Substances Control Act. This access is necessary for integrating scientific applications and data to enhance decision-making capabilities. The contractors will have access to the entire IT system housing this information, with access continuing until February 27, 2027, unless the contract is extended.",
-      "why_relevant": "This action affects the handling and protection of sensitive business information, impacting regulatory processes and business confidentiality.",
-      "attacks": [],
-      "_origin_file": "federalregister_events_2025-11-25_2025-11-27.json",
-      "_origin_index": 26
     },
     {
       "source_key": "federalregister",
@@ -1611,21 +1355,6 @@
       "source_key": "federalregister",
       "date": "2025-11-25",
       "category": "Economic & Regulatory Power",
-      "title": "FCC Prohibits Authorization of Certain Communications Equipment",
-      "url": "https://www.federalregister.gov/documents/2025/11/25/2025-21001/protecting-against-national-security-threats-to-the-communications-supply-chain-through-the",
-      "summary": "The Federal Communications Commission (FCC) issued a final rule prohibiting the authorization of communications equipment identified on the Covered List, including modular transmitters. This rule aims to protect national security by preventing the importation and marketing of equipment that poses security risks. The rule also establishes procedures to limit previously granted authorizations of such equipment. The effective date is December 26, 2025.",
-      "why_relevant": "This action strengthens national security by restricting potentially harmful communications equipment from entering the U.S. market.",
-      "attacks": [
-        "global_democracy",
-        "trade"
-      ],
-      "_origin_file": "federalregister_events_2025-11-25_2025-11-27.json",
-      "_origin_index": 19
-    },
-    {
-      "source_key": "federalregister",
-      "date": "2025-11-25",
-      "category": "Economic & Regulatory Power",
       "title": "FCC Seeks Comments on Information Collection",
       "url": "https://www.federalregister.gov/documents/2025/11/25/2025-20936/information-collection-being-reviewed-by-the-federal-communications-commission-under-delegated",
       "summary": "The Federal Communications Commission (FCC) has issued a notice inviting public comments on an information collection under the Paperwork Reduction Act. The collection involves an RF interference complaint intake form for commercial and public safety spectrum licensees. The FCC aims to enhance its ability to manage RF interference complaints through a single online portal. Comments are due by January 26, 2026.",
@@ -1645,45 +1374,6 @@
       "attacks": [],
       "_origin_file": "federalregister_events_2025-11-22_2025-11-28.json",
       "_origin_index": 28
-    },
-    {
-      "source_key": "federalregister",
-      "date": "2025-11-25",
-      "category": "Economic & Regulatory Power",
-      "title": "FCC Seeks Comments on Information Collection",
-      "url": "https://www.federalregister.gov/documents/2025/11/25/2025-20936/information-collection-being-reviewed-by-the-federal-communications-commission-under-delegated",
-      "summary": "The Federal Communications Commission (FCC) has issued a notice inviting public comments on an information collection under the Paperwork Reduction Act. The collection involves an RF interference complaint intake form for commercial and public safety spectrum licensees. Comments are due by January 26, 2026, and aim to assess the necessity, utility, and burden of the collection.",
-      "why_relevant": "This action affects regulatory processes and public participation in FCC's handling of RF interference complaints.",
-      "attacks": [],
-      "_origin_file": "federalregister_events_2025-11-25_2025-11-27.json",
-      "_origin_index": 20
-    },
-    {
-      "source_key": "federalregister",
-      "date": "2025-11-25",
-      "category": "Economic & Regulatory Power",
-      "title": "FCC Seeks Comments on Information Collection",
-      "url": "https://www.federalregister.gov/documents/2025/11/25/2025-20905/information-collection-being-reviewed-by-the-federal-communications-commission",
-      "summary": "The Federal Communications Commission (FCC) has issued a notice inviting public comments on its information collection efforts under the Paperwork Reduction Act. The focus is on the necessity, utility, and burden of the data collection related to unauthorized changes in consumer telecommunications service providers. Comments are due by January 26, 2026.",
-      "why_relevant": "This action affects regulatory oversight and consumer protection in telecommunications, impacting how service provider changes are managed and verified.",
-      "attacks": [],
-      "_origin_file": "federalregister_events_2025-11-25_2025-11-27.json",
-      "_origin_index": 21
-    },
-    {
-      "source_key": "meidas",
-      "date": "2025-11-25",
-      "category": "Economic & Regulatory Power",
-      "title": "Economic challenges under Trump administration",
-      "url": "https://www.meidasplus.com/p/tuesday-afternoon-news-updates-112525",
-      "summary": "The U.S. is experiencing a severe affordability crisis, with consumer confidence at historic lows and prices rising nearly 10% year-over-year. Reports indicate widespread economic hardship, with many Americans struggling to afford basic necessities like housing and transportation.",
-      "why_relevant": "The economic challenges facing Americans highlight the administration's failure to address critical domestic issues, affecting the quality of life and economic stability.",
-      "attacks": [
-        "economy",
-        "public_health"
-      ],
-      "_origin_file": "meidas_events_2025-11-25_2025-11-27.json",
-      "_origin_index": 9
     },
     {
       "source_key": "meidas",
@@ -1719,21 +1409,6 @@
       "source_key": "meidas",
       "date": "2025-11-25",
       "category": "International Relations",
-      "title": "Russia launches major attack on Kyiv",
-      "url": "https://www.meidasplus.com/p/tuesday-afternoon-news-updates-112525",
-      "summary": "Russia conducted a significant military assault on Kyiv, deploying 22 missiles and 460 drones, resulting in substantial destruction, including a supermarket and an apartment complex. The attack led to the deaths of at least nine civilians. This escalation in hostilities highlights the ongoing conflict and the severe impact on civilian life in Ukraine.",
-      "why_relevant": "The attack underscores the ongoing threat to Ukraine's sovereignty and the broader implications for international peace and security.",
-      "attacks": [
-        "global_democracy",
-        "peace"
-      ],
-      "_origin_file": "meidas_events_2025-11-25_2025-11-27.json",
-      "_origin_index": 5
-    },
-    {
-      "source_key": "meidas",
-      "date": "2025-11-25",
-      "category": "International Relations",
       "title": "Trump Administration's Approach to China and Taiwan",
       "url": "https://www.meidasplus.com/p/tuesday-afternoon-news-updates-112525",
       "summary": "In a recent call with Chinese President Xi Jinping, Trump reportedly did not challenge China's assertions over Taiwan, which Chinese state media described as a diplomatic victory. This approach contrasts with previous U.S. positions on Taiwan and raises concerns about the administration's stance on Chinese territorial claims.",
@@ -1761,21 +1436,6 @@
       "_origin_index": 24
     },
     {
-      "source_key": "meidas",
-      "date": "2025-11-25",
-      "category": "International Relations",
-      "title": "Trump administration's stance on Taiwan questioned",
-      "url": "https://www.meidasplus.com/p/tuesday-afternoon-news-updates-112525",
-      "summary": "In a recent call with Chinese President Xi Jinping, Trump reportedly did not challenge China's assertion of control over Taiwan. This lack of response raises concerns about the U.S. administration's commitment to supporting Taiwan's autonomy and resisting Chinese influence.",
-      "why_relevant": "The U.S. administration's stance on Taiwan is critical to maintaining regional stability and supporting democratic governance in Taiwan.",
-      "attacks": [
-        "global_democracy",
-        "allies"
-      ],
-      "_origin_file": "meidas_events_2025-11-25_2025-11-27.json",
-      "_origin_index": 7
-    },
-    {
       "source_key": "guardian",
       "date": "2025-11-25",
       "category": "Civil–Military Relations & State Violence",
@@ -1795,22 +1455,6 @@
       "source_key": "guardian",
       "date": "2025-11-25",
       "category": "Civil–Military Relations & State Violence",
-      "title": "Pentagon Launches Investigation into Senator Mark Kelly",
-      "url": "https://www.theguardian.com/us-news/2025/nov/25/mark-kelly-troops-disobey-illegal-orders-comments",
-      "summary": "The Pentagon announced an investigation into Senator Mark Kelly and five other Democratic lawmakers after they released a video advising military personnel to disobey illegal orders. The video, which warned of threats to the Constitution from within the country, prompted former President Trump to accuse the lawmakers of seditious behavior. The Pentagon cited a federal law prohibiting military retirees from interfering with military discipline and suggested that Kelly could be recalled to active duty for a court-martial. The investigation has sparked a debate over the legality and implications of the lawmakers' statements.",
-      "why_relevant": "This investigation raises significant questions about the balance between military obedience and constitutional duty, and the potential misuse of military law to suppress political dissent.",
-      "attacks": [
-        "civil_service",
-        "military",
-        "constitution"
-      ],
-      "_origin_file": "guardian_events_2025-11-25_2025-11-27.json",
-      "_origin_index": 16
-    },
-    {
-      "source_key": "guardian",
-      "date": "2025-11-25",
-      "category": "Civil–Military Relations & State Violence",
       "title": "Pete Hegseth orders US Navy to investigate Mark Kelly’s comments",
       "url": "https://www.theguardian.com/us-news/2025/nov/25/democrats-trump-fbi-intimidation-campaign",
       "summary": "On Tuesday, US Defense Secretary Pete Hegseth ordered the Secretary of the US Navy to investigate comments made by Arizona Senator Mark Kelly and other Democrats in a social media video. The video encouraged military personnel to refuse unlawful orders. Hegseth's directive, issued via a memorandum, requests a review of the comments for potential breaches of military law, with a report due by December 10. This action is part of a broader conflict between the Trump administration and certain Democratic lawmakers, who have accused President Trump of using the FBI to intimidate them.",
@@ -1822,22 +1466,6 @@
       ],
       "_origin_file": "guardian_events_2025-11-22_2025-11-28.json",
       "_origin_index": 27
-    },
-    {
-      "source_key": "guardian",
-      "date": "2025-11-25",
-      "category": "Civil–Military Relations & State Violence",
-      "title": "Pete Hegseth orders US Navy to investigate Mark Kelly’s comments",
-      "url": "https://www.theguardian.com/us-news/2025/nov/25/democrats-trump-fbi-intimidation-campaign",
-      "summary": "On Tuesday, US Defense Secretary Pete Hegseth ordered the Secretary of the Navy to investigate comments made by Arizona Senator Mark Kelly and other Democrats in a social media video. The video encouraged military personnel to refuse unlawful orders. Hegseth's directive, issued via a memorandum, requests a review of the comments for potential breaches of military law, with a report due by December 10. This action follows accusations by President Trump of \"seditious behavior\" by Kelly, who claims the FBI is being used to intimidate Congress members.",
-      "why_relevant": "This investigation highlights tensions between the executive branch and Congress, raising concerns about the use of military and federal resources to target political opponents.",
-      "attacks": [
-        "military",
-        "congress",
-        "rule_of_law"
-      ],
-      "_origin_file": "guardian_events_2025-11-25_2025-11-27.json",
-      "_origin_index": 13
     },
     {
       "source_key": "hcr",
@@ -1898,33 +1526,6 @@
       ],
       "_origin_file": "meidas_events_2025-11-22_2025-11-28.json",
       "_origin_index": 26
-    },
-    {
-      "source_key": "meidas",
-      "date": "2025-11-25",
-      "category": "Civil–Military Relations & State Violence",
-      "title": "U.S. military posture near Venezuela",
-      "url": "https://www.meidasplus.com/p/tuesday-afternoon-news-updates-112525",
-      "summary": "The Trump administration has shifted the U.S. military into a war posture off the coast of Venezuela, with allies suggesting the move is motivated by a desire to control Venezuelan oil resources. This military positioning raises questions about the administration's intentions and the potential for conflict.",
-      "why_relevant": "The military posture near Venezuela could escalate tensions and lead to conflict, impacting regional stability and U.S. foreign policy.",
-      "attacks": [
-        "peace",
-        "diplomacy"
-      ],
-      "_origin_file": "meidas_events_2025-11-25_2025-11-27.json",
-      "_origin_index": 8
-    },
-    {
-      "source_key": "federalregister",
-      "date": "2025-11-26",
-      "category": "Executive Actions & Orders",
-      "title": "Advisory Board on Radiation and Worker Health Meeting Announced",
-      "url": "https://www.federalregister.gov/documents/2025/11/26/2025-21212/meeting-of-the-advisory-board-on-radiation-and-worker-health-national-institute-for-occupational",
-      "summary": "The Centers for Disease Control and Prevention (CDC) announced a meeting of the Advisory Board on Radiation and Worker Health, scheduled for December 18, 2025. The meeting will discuss updates on processes, workgroup reports, and the status of Special Exposure Cohort petitions. Public comments are accepted in advance, but not during the meeting. The Advisory Board advises on radiation exposure compensation guidelines and dose reconstruction efforts under the Energy Employees Occupational Illness Compensation Program Act.",
-      "why_relevant": "This meeting impacts the management and implementation of compensation programs for workers exposed to radiation, affecting public health policy and worker safety.",
-      "attacks": [],
-      "_origin_file": "federalregister_events_2025-11-25_2025-11-27.json",
-      "_origin_index": 27
     },
     {
       "source_key": "federalregister",
@@ -2022,38 +1623,6 @@
       "source_key": "guardian",
       "date": "2025-11-26",
       "category": "Legislative & Oversight Activity",
-      "title": "Congressional Hearing on ICE Raids in Los Angeles",
-      "url": "https://www.theguardian.com/us-news/2025/nov/25/los-angeles-congressional-hearing-ice-raids",
-      "summary": "A congressional oversight hearing was held in Los Angeles to address the impacts of ICE raids under the Trump administration, focusing on alleged civil rights abuses and the unlawful detention of U.S. citizens. The hearing, organized by Democrats, featured testimonies from residents and community leaders about the negative effects of the immigration crackdown in Southern California. The hearing highlighted issues such as racial profiling and violations of due process. Congressman Robert Garcia announced the creation of an oversight dashboard to document incidents of misconduct during federal immigration enforcement operations.",
-      "why_relevant": "The hearing addresses significant concerns about civil rights violations and the accountability of federal immigration enforcement, impacting democratic principles of due process and equal protection.",
-      "attacks": [
-        "immigrants_refugees",
-        "rule_of_law",
-        "minorities"
-      ],
-      "_origin_file": "guardian_events_2025-11-25_2025-11-27.json",
-      "_origin_index": 0
-    },
-    {
-      "source_key": "guardian",
-      "date": "2025-11-26",
-      "category": "Legislative & Oversight Activity",
-      "title": "Indiana Senate Faces Pressure from Trump on Redistricting",
-      "url": "https://www.theguardian.com/us-news/2025/nov/26/us-politics-redistricting-trump-maps",
-      "summary": "Donald Trump has targeted the Indiana Senate, urging it to take up redistricting to create more Republican-friendly districts. He has promised support for those who back the effort and threatened to support primary challenges against those who do not. This pressure is part of a larger strategy to maintain Republican control of the House by redrawing congressional maps. Some Indiana lawmakers have resisted, citing concerns about the impact on democratic processes and the potential for legal challenges.",
-      "why_relevant": "The pressure campaign highlights the tension between political strategy and democratic principles in redistricting efforts.",
-      "attacks": [
-        "elections_representation",
-        "rule_of_law",
-        "congress"
-      ],
-      "_origin_file": "guardian_events_2025-11-25_2025-11-27.json",
-      "_origin_index": 9
-    },
-    {
-      "source_key": "guardian",
-      "date": "2025-11-26",
-      "category": "Legislative & Oversight Activity",
       "title": "Trump Pressures Indiana Senate on Redistricting",
       "url": "https://www.theguardian.com/us-news/2025/nov/26/us-politics-redistricting-trump-maps",
       "summary": "Donald Trump has targeted the Indiana Senate, urging them to take up redistricting in two weeks. He has promised political support for those who back the redistricting efforts and threatened to support primary challenges against those who do not. This pressure is part of a broader campaign to redraw congressional maps to favor Republicans.",
@@ -2069,48 +1638,6 @@
       "source_key": "noah",
       "date": "2025-11-26",
       "category": "Legislative & Oversight Activity",
-      "title": "Oregon Reports High Rates of Chronic Absenteeism",
-      "url": "https://www.noahpinion.blog/p/bad-education-is-a-terrible-way-to",
-      "summary": "In Oregon, approximately one-third of all schoolchildren are reported to be chronically absent from school. This high rate of absenteeism is part of a broader trend of declining educational engagement and standards across the United States. The absenteeism issue is exacerbated by lax educational policies and the impact of the COVID-19 pandemic, contributing to the deterioration of student performance and preparedness.",
-      "why_relevant": "Chronic absenteeism undermines educational attainment and equity, affecting students' future opportunities and societal outcomes.",
-      "attacks": [
-        "education"
-      ],
-      "_origin_file": "noah_events_2025-11-25_2025-11-27.json",
-      "_origin_index": 3
-    },
-    {
-      "source_key": "noah",
-      "date": "2025-11-26",
-      "category": "Legislative & Oversight Activity",
-      "title": "Progressive Activists Influence UC System Policy Changes",
-      "url": "https://www.noahpinion.blog/p/bad-education-is-a-terrible-way-to",
-      "summary": "Progressive activists have been influential in pressuring the University of California system to drop standardized test requirements, a move that has been linked to declining educational standards. This influence is part of a broader pattern of progressive governance impacting various sectors, including education, housing, and infrastructure. The activists' push for policy changes aims to address equity but has led to unintended consequences in educational quality.",
-      "why_relevant": "The influence of activist-driven policy changes on educational standards highlights the complex interplay between governance, equity, and educational outcomes.",
-      "attacks": [
-        "education"
-      ],
-      "_origin_file": "noah_events_2025-11-25_2025-11-27.json",
-      "_origin_index": 4
-    },
-    {
-      "source_key": "noah",
-      "date": "2025-11-26",
-      "category": "Legislative & Oversight Activity",
-      "title": "UC System Eliminates Standardized Test Requirements",
-      "url": "https://www.noahpinion.blog/p/bad-education-is-a-terrible-way-to",
-      "summary": "In 2020, the University of California (UC) system eliminated standardized test requirements for admissions. This policy change has been linked to a significant increase in the number of students entering the University of California, San Diego (UCSD) lacking basic reading and math skills. The report from UCSD highlights that the percentage of students needing remedial classes has surged, with many students unable to perform basic math despite having high grades in advanced courses. This decision is part of a broader trend of falling educational standards across the United States.",
-      "why_relevant": "The elimination of standardized test requirements impacts educational standards and equity, affecting the quality of higher education and the preparedness of students.",
-      "attacks": [
-        "education"
-      ],
-      "_origin_file": "noah_events_2025-11-25_2025-11-27.json",
-      "_origin_index": 0
-    },
-    {
-      "source_key": "noah",
-      "date": "2025-11-26",
-      "category": "Legislative & Oversight Activity",
       "title": "University of California San Diego Eliminates Standardized Test Requirements",
       "url": "https://www.noahpinion.blog/p/bad-education-is-a-terrible-way-to",
       "summary": "In 2020, the University of California system, including UC San Diego, eliminated standardized test requirements for admissions. This policy change has been linked to a significant increase in the number of students lacking basic reading and math skills, as reported by a recent study from UCSD. The report highlights that the percentage of students needing remedial classes in basic math has surged, with many students entering university without meeting basic writing requirements. The elimination of standardized tests is seen as a contributing factor to the decline in educational standards.",
@@ -2120,20 +1647,6 @@
       ],
       "_origin_file": "noah_events_2025-11-22_2025-11-28.json",
       "_origin_index": 5
-    },
-    {
-      "source_key": "noah",
-      "date": "2025-11-26",
-      "category": "Legislative & Oversight Activity",
-      "title": "Washington State Public Schools Adopt \"No Zeros\" Policy",
-      "url": "https://www.noahpinion.blog/p/bad-education-is-a-terrible-way-to",
-      "summary": "Public schools across Washington State have adopted a \"no zeros\" policy, which prevents teachers from giving failing grades to students who do not demonstrate command of the material. This policy has led to an increase in the number of students receiving higher grades despite a lack of understanding, contributing to the overall decline in educational standards. The policy aims to promote equity but has resulted in inflated grades and unprepared students.",
-      "why_relevant": "The \"no zeros\" policy affects educational integrity and the accurate assessment of student capabilities, impacting long-term educational outcomes.",
-      "attacks": [
-        "education"
-      ],
-      "_origin_file": "noah_events_2025-11-25_2025-11-27.json",
-      "_origin_index": 2
     },
     {
       "source_key": "guardian",
@@ -2171,22 +1684,6 @@
       "source_key": "guardian",
       "date": "2025-11-26",
       "category": "Judicial Developments",
-      "title": "Florida Supreme Court Rules Against Automatic Anonymity for Officers Under Marsy’s Law",
-      "url": "https://www.theguardian.com/us-news/2025/nov/26/policing-marsys-law",
-      "summary": "",
-      "why_relevant": "The decision impacts the application of victim protection laws in policing, affecting transparency and public trust.",
-      "attacks": [
-        "justice_dept",
-        "rule_of_law",
-        "transparency"
-      ],
-      "_origin_file": "guardian_events_2025-11-25_2025-11-27.json",
-      "_origin_index": 5
-    },
-    {
-      "source_key": "guardian",
-      "date": "2025-11-26",
-      "category": "Judicial Developments",
       "title": "Georgia prosecutor dismisses final criminal case against Trump",
       "url": "https://www.theguardian.com/us-news/2025/nov/26/trump-georgia-2020-racketeering-case-dropped",
       "summary": "On November 26, 2025, Georgia state prosecutor Pete Skandalakis filed for the dismissal of the 2020 racketeering case against Donald Trump and his co-defendants. This decision was confirmed by a one-page order from superior court judge Scott McAfee. The case, which accused Trump and others of attempting to overturn the 2020 election results in Georgia, was the last standing criminal prosecution against Trump. The dismissal followed the disqualification of Fulton County District Attorney Fani Willis by the Georgia Supreme Court due to a conflict of interest.",
@@ -2202,20 +1699,6 @@
       "source_key": "guardian",
       "date": "2025-11-26",
       "category": "Judicial Developments",
-      "title": "Georgia prosecutor dismisses final criminal case against Trump",
-      "url": "https://www.theguardian.com/us-news/2025/nov/26/trump-georgia-2020-racketeering-case-dropped",
-      "summary": "On November 25, 2025, Georgia state prosecutor Pete Skandalakis filed for the dismissal of the 2020 racketeering case against Donald Trump and his co-defendants. This decision was confirmed by a one-page order from superior court judge Scott McAfee. The case, which accused Trump and others of attempting to overturn the 2020 election results in Georgia, was the last standing criminal prosecution against Trump. The dismissal followed the disqualification of former district attorney Fani Willis due to a conflict of interest, and Skandalakis's subsequent appointment as prosecutor.",
-      "why_relevant": "The dismissal of this case marks the end of legal proceedings against Trump related to the 2020 election interference in Georgia, impacting accountability and the rule of law.",
-      "attacks": [
-        "rule_of_law"
-      ],
-      "_origin_file": "guardian_events_2025-11-25_2025-11-27.json",
-      "_origin_index": 1
-    },
-    {
-      "source_key": "guardian",
-      "date": "2025-11-26",
-      "category": "Judicial Developments",
       "title": "Justice Department Filing on Deportation Flights to El Salvador",
       "url": "https://www.theguardian.com/us-news/2025/nov/26/kristi-noem-deportation-flights-el-salvador",
       "summary": "The Department of Justice filed a statement asserting that Kristi Noem, Secretary of the Department of Homeland Security, decided to continue deportation flights of Venezuelan immigrants to El Salvador in March. This decision was made despite a federal judge's directive to return the flights to the United States. The filing, submitted on Tuesday, claims that the decision was lawful and consistent with a reasonable interpretation of the court's order. The filing is part of an ongoing inquiry by US District Judge James Boasberg into whether the Trump administration violated his orders to halt the deportation flights.",
@@ -2226,37 +1709,6 @@
       ],
       "_origin_file": "guardian_events_2025-11-22_2025-11-28.json",
       "_origin_index": 15
-    },
-    {
-      "source_key": "guardian",
-      "date": "2025-11-26",
-      "category": "Judicial Developments",
-      "title": "Justice Department Filing on Deportation Flights to El Salvador",
-      "url": "https://www.theguardian.com/us-news/2025/nov/26/kristi-noem-deportation-flights-el-salvador",
-      "summary": "The Department of Justice filed a statement asserting that Kristi Noem, Secretary of the Department of Homeland Security, decided to continue deportation flights of Venezuelan immigrants to El Salvador in March. This decision was made despite a federal judge's directive to return the flights to the United States. The filing, submitted on Tuesday, claims that the decision was lawful and consistent with a reasonable interpretation of the court's order. The filing is part of an ongoing inquiry by US District Judge James Boasberg into whether the Trump administration violated his orders to halt the deportation flights.",
-      "why_relevant": "This filing is significant as it addresses potential violations of judicial orders, impacting the rule of law and the treatment of immigrants.",
-      "attacks": [
-        "immigrants_refugees",
-        "rule_of_law"
-      ],
-      "_origin_file": "guardian_events_2025-11-25_2025-11-27.json",
-      "_origin_index": 2
-    },
-    {
-      "source_key": "guardian",
-      "date": "2025-11-26",
-      "category": "Judicial Developments",
-      "title": "Ohio Court Order Limits Marsy’s Law in Police Subpoena Case",
-      "url": "https://www.theguardian.com/us-news/2025/nov/26/policing-marsys-law",
-      "summary": "",
-      "why_relevant": "The ruling reinforces legal accountability and transparency in law enforcement, addressing concerns over the misuse of victim protection laws.",
-      "attacks": [
-        "justice_dept",
-        "rule_of_law",
-        "transparency"
-      ],
-      "_origin_file": "guardian_events_2025-11-25_2025-11-27.json",
-      "_origin_index": 6
     },
     {
       "source_key": "guardian",
@@ -2294,22 +1746,6 @@
       "source_key": "guardian",
       "date": "2025-11-26",
       "category": "Judicial Developments",
-      "title": "Ohio Supreme Court Strikes Down Officer's Anonymity Claim Under Marsy’s Law",
-      "url": "https://www.theguardian.com/us-news/2025/nov/26/policing-marsys-law",
-      "summary": "",
-      "why_relevant": "The ruling addresses the controversial use of Marsy’s Law by law enforcement to conceal identities, impacting transparency and accountability in policing.",
-      "attacks": [
-        "justice_dept",
-        "rule_of_law",
-        "transparency"
-      ],
-      "_origin_file": "guardian_events_2025-11-25_2025-11-27.json",
-      "_origin_index": 4
-    },
-    {
-      "source_key": "guardian",
-      "date": "2025-11-26",
-      "category": "Judicial Developments",
       "title": "Texas Congressional Redistricting Blocked by Federal Court",
       "url": "https://www.theguardian.com/us-news/2025/nov/26/us-politics-redistricting-trump-maps",
       "summary": "A federal court has blocked the new congressional maps drawn by Texas, which were intended to create five additional Republican-friendly districts. This decision is part of a broader push by Donald Trump to redraw congressional maps mid-decade to maintain Republican control of the House. The US Supreme Court is set to review the federal court's decision, which could have significant implications for the redistricting efforts across the country.",
@@ -2320,22 +1756,6 @@
       ],
       "_origin_file": "guardian_events_2025-11-22_2025-11-28.json",
       "_origin_index": 21
-    },
-    {
-      "source_key": "guardian",
-      "date": "2025-11-26",
-      "category": "Judicial Developments",
-      "title": "Texas Congressional Redistricting Blocked by Federal Court",
-      "url": "https://www.theguardian.com/us-news/2025/nov/26/us-politics-redistricting-trump-maps",
-      "summary": "A federal court has blocked the new congressional maps drawn by Texas, which were intended to create five additional Republican-friendly districts. This decision is part of a broader push by Donald Trump to redraw congressional maps mid-decade to maintain Republican control of the House. The case is set to be reviewed by the US Supreme Court, which could have significant implications for similar redistricting efforts across the country. The move has faced resistance from both parties, with concerns about undermining democratic processes and potential legal challenges.",
-      "why_relevant": "The court's decision impacts the balance of political power and addresses concerns about partisan gerrymandering.",
-      "attacks": [
-        "courts",
-        "elections_representation",
-        "rule_of_law"
-      ],
-      "_origin_file": "guardian_events_2025-11-25_2025-11-27.json",
-      "_origin_index": 8
     },
     {
       "source_key": "meidas",
@@ -2428,21 +1848,6 @@
       "source_key": "guardian",
       "date": "2025-11-26",
       "category": "Law Enforcement & Surveillance",
-      "title": "Detention of Bruna Ferreira by ICE",
-      "url": "https://www.theguardian.com/us-news/2025/nov/26/karoline-leavitt-nephew-mother-detained-ice",
-      "summary": "Bruna Ferreira, the mother of Karoline Leavitt's nephew, was detained by U.S. Immigration and Customs Enforcement (ICE) agents in Revere, Massachusetts. Ferreira, who migrated from Brazil as a child, is currently held at an ICE facility in Louisiana. The Department of Homeland Security stated that Ferreira, who has a previous arrest for battery, is in removal proceedings for overstaying her B2 tourist visa. Despite her Deferred Action for Childhood Arrivals (DACA) status, which offers temporary protection from deportation, she is subject to deportation under the Trump administration's immigration policies.",
-      "why_relevant": "This event highlights the ongoing impact of immigration enforcement policies on individuals with DACA status and their families.",
-      "attacks": [
-        "immigrants_refugees",
-        "rule_of_law"
-      ],
-      "_origin_file": "guardian_events_2025-11-25_2025-11-27.json",
-      "_origin_index": 3
-    },
-    {
-      "source_key": "guardian",
-      "date": "2025-11-26",
-      "category": "Law Enforcement & Surveillance",
       "title": "Detention of Bruna Ferreira by ICE Agents",
       "url": "https://www.theguardian.com/us-news/2025/nov/26/karoline-leavitt-nephew-mother-detained-ice",
       "summary": "Bruna Ferreira, the mother of Karoline Leavitt's nephew, was detained by U.S. Immigration and Customs Enforcement (ICE) agents in Revere, Massachusetts. Ferreira, a Brazilian national who entered the U.S. on a B2 tourist visa, was arrested for overstaying her visa and is currently held at a Louisiana ICE facility. The Department of Homeland Security confirmed her detention, citing a previous arrest for battery. Ferreira's detention is part of the Trump administration's broader immigration crackdown, which targets individuals unlawfully present in the U.S.",
@@ -2511,21 +1916,6 @@
       "_origin_index": 16
     },
     {
-      "source_key": "guardian",
-      "date": "2025-11-26",
-      "category": "Civil Society & Protest",
-      "title": "Missouri Voters Push for Referendum to Stop Gerrymandering",
-      "url": "https://www.theguardian.com/us-news/2025/nov/26/us-politics-redistricting-trump-maps",
-      "summary": "In Missouri, voters are attempting to stop a proposed gerrymander through a referendum. This effort is part of a broader resistance to mid-decade redistricting efforts led by Donald Trump to create more Republican-friendly districts. The pushback from voters reflects widespread disapproval of gerrymandering and concerns about its impact on fair representation and democratic processes.",
-      "why_relevant": "The referendum effort underscores the role of public engagement in challenging partisan redistricting and protecting democratic integrity.",
-      "attacks": [
-        "elections_representation",
-        "rule_of_law"
-      ],
-      "_origin_file": "guardian_events_2025-11-25_2025-11-27.json",
-      "_origin_index": 10
-    },
-    {
       "source_key": "hcr",
       "date": "2025-11-26",
       "category": "Civil Society & Protest",
@@ -2536,18 +1926,6 @@
       "attacks": [],
       "_origin_file": "hcr_events_2025-11-22_2025-11-28.json",
       "_origin_index": 6
-    },
-    {
-      "source_key": "hcr",
-      "date": "2025-11-26",
-      "category": "Civil Society & Protest",
-      "title": "Campaign launched to leverage consumer power against Trump administration",
-      "url": "https://weaintbuyingit.com/",
-      "summary": "A campaign called \"We Ain't Buying It\" was launched to encourage consumers to use their purchasing power to oppose the policies of the Trump administration. The campaign emphasizes community building and demands respect for diversity, equity, and inclusion from businesses.",
-      "why_relevant": "This campaign represents a modern iteration of consumer activism, aiming to influence corporate behavior and political policies through collective consumer action.",
-      "attacks": [],
-      "_origin_file": "hcr_events_2025-11-25_2025-11-27.json",
-      "_origin_index": 3
     },
     {
       "source_key": "hcr",
@@ -2633,18 +2011,6 @@
       "source_key": "federalregister",
       "date": "2025-11-26",
       "category": "Economic & Regulatory Power",
-      "title": "Benuvia Operations, LLC Applies for Controlled Substances Importer Registration",
-      "url": "https://www.federalregister.gov/documents/2025/11/26/2025-21173/importer-of-controlled-substances-application-benuvia-operations-llc",
-      "summary": "Benuvia Operations, LLC has applied to the Drug Enforcement Administration (DEA) for registration as an importer of several Schedule I and II controlled substances, including Ibogaine and Tetrahydrocannabinols. The application, filed on October 2, 2025, is open for public comment until December 26, 2025. The company intends to import these substances for product development and customer support, not for commercial sale. The DEA will approve the application only if it aligns with authorized business activities under U.S. law.",
-      "why_relevant": "This application affects regulatory oversight of controlled substances, impacting public health and safety.",
-      "attacks": [],
-      "_origin_file": "federalregister_events_2025-11-25_2025-11-27.json",
-      "_origin_index": 16
-    },
-    {
-      "source_key": "federalregister",
-      "date": "2025-11-26",
-      "category": "Economic & Regulatory Power",
       "title": "Caligor Coghlan Pharma Services Applies for Controlled Substances Importer Registration",
       "url": "https://www.federalregister.gov/documents/2025/11/26/2025-21179/importer-of-controlled-substances-application-caligor-coghlan-pharma-services",
       "summary": "The Drug Enforcement Administration (DEA) has announced that Caligor Coghlan Pharma Services has applied to register as an importer of certain Schedule I controlled substances, including lysergic acid diethylamide and psilocyn, for use in clinical trials. The application is open for public comment until December 26, 2025. The registration will not authorize the import of FDA-approved or non-approved finished dosage forms for commercial sale.",
@@ -2652,18 +2018,6 @@
       "attacks": [],
       "_origin_file": "federalregister_events_2025-11-22_2025-11-28.json",
       "_origin_index": 13
-    },
-    {
-      "source_key": "federalregister",
-      "date": "2025-11-26",
-      "category": "Economic & Regulatory Power",
-      "title": "Caligor Coghlan Pharma Services Applies for Importer Registration",
-      "url": "https://www.federalregister.gov/documents/2025/11/26/2025-21179/importer-of-controlled-substances-application-caligor-coghlan-pharma-services",
-      "summary": "The Drug Enforcement Administration (DEA) announced that Caligor Coghlan Pharma Services has applied to register as an importer of certain controlled substances, including lysergic acid diethylamide and psilocyn, for use in clinical trials. The application is open for public comment until December 26, 2025. The registration will not authorize the import of FDA-approved or non-approved finished dosage forms for commercial sale.",
-      "why_relevant": "This application affects regulatory oversight of controlled substances and their use in clinical research.",
-      "attacks": [],
-      "_origin_file": "federalregister_events_2025-11-25_2025-11-27.json",
-      "_origin_index": 11
     },
     {
       "source_key": "federalregister",
@@ -2681,18 +2035,6 @@
       "source_key": "federalregister",
       "date": "2025-11-26",
       "category": "Economic & Regulatory Power",
-      "title": "Cayman Chemical Company Application for Controlled Substances Manufacturing",
-      "url": "https://www.federalregister.gov/documents/2025/11/26/2025-21183/bulk-manufacturer-of-controlled-substances-application-cayman-chemical-company",
-      "summary": "The Drug Enforcement Administration (DEA) has announced that Cayman Chemical Company has applied to register as a bulk manufacturer of various controlled substances, including synthetic marihuana and tetrahydrocannabinols, for forensic and research purposes. The application is open for public comment until January 26, 2026, allowing stakeholders to submit objections or request a hearing.",
-      "why_relevant": "This application affects regulatory oversight of controlled substances, impacting research and pharmaceutical development.",
-      "attacks": [],
-      "_origin_file": "federalregister_events_2025-11-25_2025-11-27.json",
-      "_origin_index": 8
-    },
-    {
-      "source_key": "federalregister",
-      "date": "2025-11-26",
-      "category": "Economic & Regulatory Power",
       "title": "DEA Notice on Controlled Substances Manufacturing Application",
       "url": "https://www.federalregister.gov/documents/2025/11/26/2025-21190/bulk-manufacturer-of-controlled-substances-application-national-center-for-natural-products-research",
       "summary": "The Drug Enforcement Administration (DEA) announced that the National Center for Natural Products Research has applied to register as a bulk manufacturer of certain controlled substances, including Marihuana Extract, Marihuana, and Tetrahydrocannabinols. The application is for product development and reference standards. Comments or objections to the registration must be submitted by January 26, 2026.",
@@ -2700,18 +2042,6 @@
       "attacks": [],
       "_origin_file": "federalregister_events_2025-11-22_2025-11-28.json",
       "_origin_index": 3
-    },
-    {
-      "source_key": "federalregister",
-      "date": "2025-11-26",
-      "category": "Economic & Regulatory Power",
-      "title": "DEA Notice on Controlled Substances Manufacturing Application",
-      "url": "https://www.federalregister.gov/documents/2025/11/26/2025-21190/bulk-manufacturer-of-controlled-substances-application-national-center-for-natural-products-research",
-      "summary": "The Drug Enforcement Administration (DEA) announced that the National Center for Natural Products Research has applied to register as a bulk manufacturer of controlled substances, including Marihuana Extract, Marihuana, and Tetrahydrocannabinols. The application is open for public comment until January 26, 2026. The center plans to manufacture these substances for product development and reference standards.",
-      "why_relevant": "This application affects regulatory control over the production of controlled substances, impacting research and development in pharmaceuticals.",
-      "attacks": [],
-      "_origin_file": "federalregister_events_2025-11-25_2025-11-27.json",
-      "_origin_index": 2
     },
     {
       "source_key": "federalregister",
@@ -2741,18 +2071,6 @@
       "source_key": "federalregister",
       "date": "2025-11-26",
       "category": "Economic & Regulatory Power",
-      "title": "Eli-Elsohly Laboratories Applies for Bulk Manufacturer Registration",
-      "url": "https://www.federalregister.gov/documents/2025/11/26/2025-21184/bulk-manufacturer-of-controlled-substances-application-eli-elsohly-laboratories",
-      "summary": "Eli-Elsohly Laboratories has applied to the Drug Enforcement Administration (DEA) to be registered as a bulk manufacturer of several controlled substances, including marihuana extract, tetrahydrocannabinols, and various Schedule I and II drugs. The application, filed on August 13, 2025, is open for public comment until January 26, 2026. The company plans to manufacture these substances for product development reference standards, with specific plans to isolate certain substances from procured marihuana extract. No cultivation activities are authorized under this registration.",
-      "why_relevant": "This application affects regulatory oversight and the legal framework governing controlled substances, impacting public health and safety.",
-      "attacks": [],
-      "_origin_file": "federalregister_events_2025-11-25_2025-11-27.json",
-      "_origin_index": 7
-    },
-    {
-      "source_key": "federalregister",
-      "date": "2025-11-26",
-      "category": "Economic & Regulatory Power",
       "title": "EPA Approves Amendments to Ohio's Air Quality Standards",
       "url": "https://www.federalregister.gov/documents/2025/11/26/2025-21322/air-plan-approval-ohio-emergency-episodes-and-ambient-air-quality-standards",
       "summary": "The Environmental Protection Agency (EPA) has approved amendments to Ohio Administrative Code Chapter 3745-25, which pertains to Emergency Episodes and Ambient Air Quality Standards. These amendments, incorporated into Ohio's State Implementation Plan (SIP), involve minor style changes, correction of typographical errors, and updates to publication references. The rule will be effective on January 26, 2026, unless adverse comments are received by December 26, 2025, which would prompt a withdrawal of the rule.",
@@ -2760,18 +2078,6 @@
       "attacks": [],
       "_origin_file": "federalregister_events_2025-11-22_2025-11-28.json",
       "_origin_index": 36
-    },
-    {
-      "source_key": "federalregister",
-      "date": "2025-11-26",
-      "category": "Economic & Regulatory Power",
-      "title": "EPA Approves Amendments to Ohio's Air Quality Standards",
-      "url": "https://www.federalregister.gov/documents/2025/11/26/2025-21322/air-plan-approval-ohio-emergency-episodes-and-ambient-air-quality-standards",
-      "summary": "The Environmental Protection Agency (EPA) has approved amendments to Ohio Administrative Code Chapter 3745-25, which pertains to emergency episodes and ambient air quality standards. These amendments, incorporated into Ohio's State Implementation Plan (SIP), include minor style changes, correction of typographical errors, and updates to publication references. The rule will be effective on January 26, 2026, unless adverse comments are received by December 26, 2025, which would prompt a withdrawal of the rule.",
-      "why_relevant": "This action ensures Ohio's air quality standards are up-to-date and compliant with federal requirements, impacting environmental regulation and public health.",
-      "attacks": [],
-      "_origin_file": "federalregister_events_2025-11-25_2025-11-27.json",
-      "_origin_index": 22
     },
     {
       "source_key": "federalregister",
@@ -2789,18 +2095,6 @@
       "source_key": "federalregister",
       "date": "2025-11-26",
       "category": "Economic & Regulatory Power",
-      "title": "EPA Delegates Authority to North Carolina and Forsyth County for Landfill Plan",
-      "url": "https://www.federalregister.gov/documents/2025/11/26/2025-21306/delegation-of-authority-to-north-carolina-and-forsyth-county-of-the-federal-plan-for-existing",
-      "summary": "The Environmental Protection Agency (EPA) has delegated authority to the North Carolina Department of Environmental Quality (NCDEQ) and the Forsyth County Office of Environmental Assistance and Protection (FCOEAP) to implement and enforce the Federal Plan for existing municipal solid waste landfills. This delegation, effective December 26, 2025, transfers primary enforcement responsibilities from the EPA to these local agencies, allowing them to manage emission guidelines for landfills that commenced construction on or before July 17, 2014. The delegation is formalized through Memoranda of Agreement signed in 2024.",
-      "why_relevant": "This delegation enhances local regulatory control over environmental standards, potentially improving compliance and enforcement efficiency for landfill emissions.",
-      "attacks": [],
-      "_origin_file": "federalregister_events_2025-11-25_2025-11-27.json",
-      "_origin_index": 23
-    },
-    {
-      "source_key": "federalregister",
-      "date": "2025-11-26",
-      "category": "Economic & Regulatory Power",
       "title": "EPA Extends Propyzamide Tolerance for Emergency Exemption",
       "url": "https://www.federalregister.gov/documents/2025/11/26/2025-21200/propyzamide-extension-of-tolerance-for-emergency-exemption",
       "summary": "The Environmental Protection Agency (EPA) has extended the time-limited tolerance for residues of the herbicide propyzamide in or on cranberries for an additional three years, expiring on December 31, 2028. This extension follows an emergency exemption under the Federal Insecticide, Fungicide, and Rodenticide Act (FIFRA) to control dodder infestations in Massachusetts. The regulation is effective immediately, with objections and hearing requests due by January 26, 2026.",
@@ -2808,18 +2102,6 @@
       "attacks": [],
       "_origin_file": "federalregister_events_2025-11-22_2025-11-28.json",
       "_origin_index": 38
-    },
-    {
-      "source_key": "federalregister",
-      "date": "2025-11-26",
-      "category": "Economic & Regulatory Power",
-      "title": "EPA Extends Propyzamide Tolerance for Emergency Exemption",
-      "url": "https://www.federalregister.gov/documents/2025/11/26/2025-21200/propyzamide-extension-of-tolerance-for-emergency-exemption",
-      "summary": "The Environmental Protection Agency (EPA) has extended the time-limited tolerance for residues of the herbicide propyzamide in or on cranberries until December 31, 2028. This extension follows an emergency exemption under the Federal Insecticide, Fungicide, and Rodenticide Act (FIFRA) to control dodder infestations in Massachusetts. The regulation is effective immediately, and objections or hearing requests must be submitted by January 26, 2026.",
-      "why_relevant": "This action affects agricultural practices and pesticide regulation, impacting food safety and environmental protection.",
-      "attacks": [],
-      "_origin_file": "federalregister_events_2025-11-25_2025-11-27.json",
-      "_origin_index": 24
     },
     {
       "source_key": "federalregister",
@@ -2837,18 +2119,6 @@
       "source_key": "federalregister",
       "date": "2025-11-26",
       "category": "Economic & Regulatory Power",
-      "title": "EPA Seeks Comments on Lead-Based Paint Disclosure Requirements",
-      "url": "https://www.federalregister.gov/documents/2025/11/26/2025-21199/agency-information-collection-activities-proposed-renewal-collection-and-request-for-comment",
-      "summary": "The Environmental Protection Agency (EPA) has announced a proposed renewal of the Information Collection Request (ICR) for Residential Lead-Based Paint Hazards Disclosure Requirements. The EPA is soliciting public comments on the necessity, burden, and utility of the information collection, which affects real estate lessors and agents. The comment period ends on January 26, 2026. This renewal aims to ensure compliance with the Paperwork Reduction Act and improve the quality and efficiency of the information collected.",
-      "why_relevant": "This action impacts regulatory compliance and public health by addressing lead-based paint hazards in residential properties.",
-      "attacks": [],
-      "_origin_file": "federalregister_events_2025-11-25_2025-11-27.json",
-      "_origin_index": 25
-    },
-    {
-      "source_key": "federalregister",
-      "date": "2025-11-26",
-      "category": "Economic & Regulatory Power",
       "title": "FDA Classifies Anchored Esophageal Sheath as Class II Device",
       "url": "https://www.federalregister.gov/documents/2025/11/26/2025-21217/medical-devices-gastroenterology-urology-devices-classification-of-the-anchored-esophageal-sheath",
       "summary": "The Food and Drug Administration (FDA) has classified the anchored esophageal sheath as a class II medical device with special controls. This classification aims to ensure the device's safety and effectiveness while facilitating patient access to innovative medical devices by reducing regulatory burdens. The classification is effective as of November 26, 2025, and includes specific performance and labeling requirements to mitigate identified health risks.",
@@ -2856,18 +2126,6 @@
       "attacks": [],
       "_origin_file": "federalregister_events_2025-11-22_2025-11-28.json",
       "_origin_index": 46
-    },
-    {
-      "source_key": "federalregister",
-      "date": "2025-11-26",
-      "category": "Economic & Regulatory Power",
-      "title": "FDA Classifies Anchored Esophageal Sheath as Class II Device",
-      "url": "https://www.federalregister.gov/documents/2025/11/26/2025-21217/medical-devices-gastroenterology-urology-devices-classification-of-the-anchored-esophageal-sheath",
-      "summary": "The Food and Drug Administration (FDA) has classified the anchored esophageal sheath as a class II medical device with special controls. This classification aims to ensure the device's safety and effectiveness while facilitating patient access to innovative medical devices by reducing regulatory burdens. The classification is effective immediately and includes specific requirements for biocompatibility, performance testing, and labeling to mitigate identified health risks.",
-      "why_relevant": "This classification impacts regulatory processes for medical devices, affecting innovation and patient access to new technologies.",
-      "attacks": [],
-      "_origin_file": "federalregister_events_2025-11-25_2025-11-27.json",
-      "_origin_index": 30
     },
     {
       "source_key": "federalregister",
@@ -2885,18 +2143,6 @@
       "source_key": "federalregister",
       "date": "2025-11-26",
       "category": "Economic & Regulatory Power",
-      "title": "FDA Classifies Field Generator Positioning Device",
-      "url": "https://www.federalregister.gov/documents/2025/11/26/2025-21218/medical-devices-neurological-devices-classification-of-field-generator-positioning-device",
-      "summary": "The Food and Drug Administration (FDA) has classified the field generator positioning device into class I (general controls), effective November 26, 2025. This classification is intended to ensure the device's safety and effectiveness while reducing regulatory burdens, thereby enhancing patient access to innovative medical devices. The device is exempt from premarket notification requirements, subject to certain limitations. This action is part of the FDA's efforts to streamline device classification processes under the Federal Food, Drug, and Cosmetic Act.",
-      "why_relevant": "This classification reduces regulatory barriers, potentially accelerating the availability of medical devices, which can impact public health and innovation.",
-      "attacks": [],
-      "_origin_file": "federalregister_events_2025-11-25_2025-11-27.json",
-      "_origin_index": 29
-    },
-    {
-      "source_key": "federalregister",
-      "date": "2025-11-26",
-      "category": "Economic & Regulatory Power",
       "title": "FDA Draft Guidance on Cross-Center Master Files",
       "url": "https://www.federalregister.gov/documents/2025/11/26/2025-21224/cross-center-master-files-where-to-submit-draft-guidance-for-industry-availability",
       "summary": "The Food and Drug Administration (FDA) announced the availability of draft guidance for industry titled \"Cross-Center Master Files: Where to Submit.\" This guidance provides recommendations for master file holders on submitting files to the appropriate FDA center when the files support multiple regulatory submissions. The guidance applies to submissions to the Center for Biologics Evaluation and Research, Center for Drug Evaluation and Research, Center for Devices and Radiological Health, and certain submissions to the Center for Veterinary Medicine. Comments on the draft guidance are open until February 24, 2026.",
@@ -2904,30 +2150,6 @@
       "attacks": [],
       "_origin_file": "federalregister_events_2025-11-22_2025-11-28.json",
       "_origin_index": 44
-    },
-    {
-      "source_key": "federalregister",
-      "date": "2025-11-26",
-      "category": "Economic & Regulatory Power",
-      "title": "FDA Draft Guidance on Cross-Center Master Files",
-      "url": "https://www.federalregister.gov/documents/2025/11/26/2025-21224/cross-center-master-files-where-to-submit-draft-guidance-for-industry-availability",
-      "summary": "The Food and Drug Administration (FDA) announced the availability of draft guidance for industry on submitting cross-center master files. This guidance advises master file holders on where to submit files that support multiple regulatory submissions across different FDA centers. The draft is open for public comment until February 24, 2026, and aims to streamline the submission process for master files used in the evaluation of biological products, drugs, devices, and combination products.",
-      "why_relevant": "This guidance affects how industries submit critical regulatory documents, impacting the efficiency and coordination of FDA reviews.",
-      "attacks": [],
-      "_origin_file": "federalregister_events_2025-11-25_2025-11-27.json",
-      "_origin_index": 28
-    },
-    {
-      "source_key": "federalregister",
-      "date": "2025-11-26",
-      "category": "Economic & Regulatory Power",
-      "title": "Fisher Clinical Services, Inc. Application to Import Controlled Substances",
-      "url": "https://www.federalregister.gov/documents/2025/11/26/2025-21189/importer-of-controlled-substances-application-fisher-clinical-services-inc",
-      "summary": "The Drug Enforcement Administration (DEA) has announced that Fisher Clinical Services, Inc. has applied to register as an importer of several controlled substances, including Marihuana Extract, Tetrahydrocannabinols, and Psilocybin, for use in clinical trials. The application is open for public comment until December 26, 2025. The registration will not authorize the import of FDA-approved or non-approved finished dosage forms for commercial sale.",
-      "why_relevant": "This application affects regulatory oversight of controlled substances and their use in clinical research, impacting public health and safety.",
-      "attacks": [],
-      "_origin_file": "federalregister_events_2025-11-25_2025-11-27.json",
-      "_origin_index": 3
     },
     {
       "source_key": "federalregister",
@@ -2969,18 +2191,6 @@
       "source_key": "federalregister",
       "date": "2025-11-26",
       "category": "Economic & Regulatory Power",
-      "title": "Halo Pharmaceutical Inc. Applies for Controlled Substance Import Registration",
-      "url": "https://www.federalregister.gov/documents/2025/11/26/2025-21177/importer-of-controlled-substances-application-halo-pharmaceutical-inc",
-      "summary": "Halo Pharmaceutical Inc. has applied to the Drug Enforcement Administration (DEA) to be registered as an importer of the controlled substance psilocybin. The application, filed on September 29, 2025, seeks authorization to import psilocybin for formulation development and clinical trials. The DEA has opened a comment period until December 26, 2025, for registered bulk manufacturers and applicants to submit comments or objections. The registration will not permit the import of FDA-approved or non-approved finished dosage forms for commercial sale.",
-      "why_relevant": "This application affects regulatory oversight of controlled substances and impacts pharmaceutical research and development.",
-      "attacks": [],
-      "_origin_file": "federalregister_events_2025-11-25_2025-11-27.json",
-      "_origin_index": 13
-    },
-    {
-      "source_key": "federalregister",
-      "date": "2025-11-26",
-      "category": "Economic & Regulatory Power",
       "title": "Irvine Labs Inc. Applies for Bulk Manufacturing of Controlled Substances",
       "url": "https://www.federalregister.gov/documents/2025/11/26/2025-21187/bulk-manufacturer-of-controlled-substances-application-irvine-labs-inc",
       "summary": "Irvine Labs Inc. has applied to the Drug Enforcement Administration to be registered as a bulk manufacturer of several Schedule I controlled substances, including Ibogaine and LSD, for research and development purposes. The application is open for public comment until January 26, 2026. This registration would allow Irvine Labs to manufacture these substances for internal research and distribution to research customers.",
@@ -2993,18 +2203,6 @@
       "source_key": "federalregister",
       "date": "2025-11-26",
       "category": "Economic & Regulatory Power",
-      "title": "Irvine Labs Inc. Applies for Bulk Manufacturing Registration",
-      "url": "https://www.federalregister.gov/documents/2025/11/26/2025-21187/bulk-manufacturer-of-controlled-substances-application-irvine-labs-inc",
-      "summary": "Irvine Labs Inc. has applied to the Drug Enforcement Administration to be registered as a bulk manufacturer of several Schedule I controlled substances, including Ibogaine and Psilocybin, for research and development purposes. The application was submitted on October 29, 2025, and comments or objections can be submitted until January 26, 2026. The registration is intended for internal research and distribution to research customers.",
-      "why_relevant": "This application affects regulatory control over the manufacturing of controlled substances, impacting research and development in the pharmaceutical sector.",
-      "attacks": [],
-      "_origin_file": "federalregister_events_2025-11-25_2025-11-27.json",
-      "_origin_index": 4
-    },
-    {
-      "source_key": "federalregister",
-      "date": "2025-11-26",
-      "category": "Economic & Regulatory Power",
       "title": "Irvine Labs, Inc. Application for Bulk Manufacturing of Controlled Substances",
       "url": "https://www.federalregister.gov/documents/2025/11/26/2025-21174/bulk-manufacturer-of-controlled-substances-application-irvine-labs-inc",
       "summary": "The Drug Enforcement Administration (DEA) has announced that Irvine Labs, Inc. has applied to be registered as a bulk manufacturer of certain controlled substances, including Marihuana Extract, Marihuana, and Tetrahydrocannabinols. The application is for the production of bulk Active Pharmaceutical Ingredients for distribution to DEA-registered researchers. Comments or objections to the application can be submitted until January 26, 2026.",
@@ -3012,18 +2210,6 @@
       "attacks": [],
       "_origin_file": "federalregister_events_2025-11-22_2025-11-28.json",
       "_origin_index": 18
-    },
-    {
-      "source_key": "federalregister",
-      "date": "2025-11-26",
-      "category": "Economic & Regulatory Power",
-      "title": "Irvine Labs, Inc. Application for Bulk Manufacturing of Controlled Substances",
-      "url": "https://www.federalregister.gov/documents/2025/11/26/2025-21174/bulk-manufacturer-of-controlled-substances-application-irvine-labs-inc",
-      "summary": "The Drug Enforcement Administration (DEA) has announced that Irvine Labs, Inc. has applied to be registered as a bulk manufacturer of certain controlled substances, including Marihuana Extract, Marihuana, and Tetrahydrocannabinols. The application is for the production of bulk Active Pharmaceutical Ingredients for distribution to DEA-registered researchers. Comments or objections to the application can be submitted until January 26, 2026.",
-      "why_relevant": "This application affects the regulation and production of controlled substances, impacting research and pharmaceutical development.",
-      "attacks": [],
-      "_origin_file": "federalregister_events_2025-11-25_2025-11-27.json",
-      "_origin_index": 15
     },
     {
       "source_key": "federalregister",
@@ -3053,18 +2239,6 @@
       "source_key": "federalregister",
       "date": "2025-11-26",
       "category": "Economic & Regulatory Power",
-      "title": "Noramco Applies for Bulk Manufacturer Registration of Controlled Substances",
-      "url": "https://www.federalregister.gov/documents/2025/11/26/2025-21192/bulk-manufacturer-of-controlled-substances-application-noramco",
-      "summary": "The Drug Enforcement Administration (DEA) announced that Noramco has applied to be registered as a bulk manufacturer of various controlled substances, including Gamma Hydroxybutyric Acid, Marihuana, and Amphetamine. The application allows for public comments or objections until January 26, 2026. Noramco plans to manufacture these substances as Active Pharmaceutical Ingredients for its customers, with specific plans to produce synthetic versions of Marihuana and Tetrahydrocannabinols.",
-      "why_relevant": "This application impacts the regulation and production of controlled substances, affecting pharmaceutical supply chains and regulatory oversight.",
-      "attacks": [],
-      "_origin_file": "federalregister_events_2025-11-25_2025-11-27.json",
-      "_origin_index": 0
-    },
-    {
-      "source_key": "federalregister",
-      "date": "2025-11-26",
-      "category": "Economic & Regulatory Power",
       "title": "Noramco Applies for Controlled Substances Import Registration",
       "url": "https://www.federalregister.gov/documents/2025/11/26/2025-21191/importer-of-controlled-substances-application-noramco",
       "summary": "The Drug Enforcement Administration (DEA) announced that Noramco has applied to register as an importer of various controlled substances, including Gamma Hydroxybutyric Acid and Opium derivatives. The application allows for public comments and requests for hearings until December 26, 2025. Noramco plans to import substances for bulk manufacturing and distribution, adhering to regulations under 21 U.S.C. 952(a)(2).",
@@ -3072,30 +2246,6 @@
       "attacks": [],
       "_origin_file": "federalregister_events_2025-11-22_2025-11-28.json",
       "_origin_index": 2
-    },
-    {
-      "source_key": "federalregister",
-      "date": "2025-11-26",
-      "category": "Economic & Regulatory Power",
-      "title": "Noramco Applies for Controlled Substances Importer Registration",
-      "url": "https://www.federalregister.gov/documents/2025/11/26/2025-21191/importer-of-controlled-substances-application-noramco",
-      "summary": "The Drug Enforcement Administration (DEA) announced that Noramco has applied to be registered as an importer of various controlled substances, including Gamma Hydroxybutyric Acid and Opium derivatives. The application allows for public comments and requests for hearings until December 26, 2025. Noramco plans to import these substances for bulk manufacturing and distribution to its customers, adhering to regulations under 21 U.S.C. 952(a)(2).",
-      "why_relevant": "This application impacts regulatory oversight and control over the importation and distribution of controlled substances, affecting public health and safety.",
-      "attacks": [],
-      "_origin_file": "federalregister_events_2025-11-25_2025-11-27.json",
-      "_origin_index": 1
-    },
-    {
-      "source_key": "federalregister",
-      "date": "2025-11-26",
-      "category": "Economic & Regulatory Power",
-      "title": "NSI Lab Solutions, LLC. Applies for Controlled Substances Importation",
-      "url": "https://www.federalregister.gov/documents/2025/11/26/2025-21180/importer-of-controlled-substances-application-nsi-lab-solutions-llc",
-      "summary": "NSI Lab Solutions, LLC. has applied to the Drug Enforcement Administration to be registered as an importer of various controlled substances, including synthetic cannabinoids and other Schedule I and II drugs. The application is open for public comment until December 26, 2025. The company intends to import these substances for research and analysis purposes, not for commercial sale. Approval will be contingent on compliance with 21 U.S.C. 952(a)(2).",
-      "why_relevant": "This application affects regulatory oversight of controlled substances, impacting research and compliance with federal drug laws.",
-      "attacks": [],
-      "_origin_file": "federalregister_events_2025-11-25_2025-11-27.json",
-      "_origin_index": 10
     },
     {
       "source_key": "federalregister",
@@ -3113,18 +2263,6 @@
       "source_key": "federalregister",
       "date": "2025-11-26",
       "category": "Economic & Regulatory Power",
-      "title": "Organic Standards Solutions International, LLC Applies for Importer Registration",
-      "url": "https://www.federalregister.gov/documents/2025/11/26/2025-21176/importer-of-controlled-substances-application-organic-standards-solutions-international-llc",
-      "summary": "Organic Standards Solutions International, LLC has applied to the Drug Enforcement Administration to register as an importer of several controlled substances, including Marihuana Extract, Marihuana, Tetrahydrocannabinols, 3,4-Methylenedioxy-methamphetamine, Psilocybin, and Psilocyn. The company intends to import these substances to produce analytical reference standards for sale and distribution. Comments or objections to the application are due by December 26, 2025.",
-      "why_relevant": "This application affects regulatory control over the importation and use of controlled substances, impacting legal and economic frameworks.",
-      "attacks": [],
-      "_origin_file": "federalregister_events_2025-11-25_2025-11-27.json",
-      "_origin_index": 14
-    },
-    {
-      "source_key": "federalregister",
-      "date": "2025-11-26",
-      "category": "Economic & Regulatory Power",
       "title": "Organix Chemistry Solutions, LLC Applies for Bulk Manufacturing Registration",
       "url": "https://www.federalregister.gov/documents/2025/11/26/2025-21186/bulk-manufacturer-of-controlled-substances-application-organix-chemistry-solutions-llc",
       "summary": "Organix Chemistry Solutions, LLC has applied to the Drug Enforcement Administration (DEA) to be registered as a bulk manufacturer of several controlled substances, including Gamma Hydroxybutyric Acid, Lysergic acid diethylamide, and others. The application, filed on October 20, 2025, includes plans to synthesize these substances for distribution. Comments or objections to the registration must be submitted by January 26, 2026.",
@@ -3132,18 +2270,6 @@
       "attacks": [],
       "_origin_file": "federalregister_events_2025-11-22_2025-11-28.json",
       "_origin_index": 6
-    },
-    {
-      "source_key": "federalregister",
-      "date": "2025-11-26",
-      "category": "Economic & Regulatory Power",
-      "title": "Organix Chemistry Solutions, LLC Applies for Bulk Manufacturing Registration",
-      "url": "https://www.federalregister.gov/documents/2025/11/26/2025-21186/bulk-manufacturer-of-controlled-substances-application-organix-chemistry-solutions-llc",
-      "summary": "Organix Chemistry Solutions, LLC has applied to the Drug Enforcement Administration (DEA) for registration as a bulk manufacturer of several controlled substances, including Gamma Hydroxybutyric Acid, Lysergic acid diethylamide, and others. The application, filed on October 20, 2025, is open for public comment until January 26, 2026. The company plans to synthesize these substances for distribution, with specific plans to manufacture synthetic Marihuana and Tetrahydrocannabinols.",
-      "why_relevant": "This application affects regulatory oversight of controlled substances, impacting public health and safety, and the legal framework for drug manufacturing.",
-      "attacks": [],
-      "_origin_file": "federalregister_events_2025-11-25_2025-11-27.json",
-      "_origin_index": 5
     },
     {
       "source_key": "federalregister",
@@ -3161,18 +2287,6 @@
       "source_key": "federalregister",
       "date": "2025-11-26",
       "category": "Economic & Regulatory Power",
-      "title": "Siegfried Grafton, Inc. Applies for Bulk Manufacturing Registration",
-      "url": "https://www.federalregister.gov/documents/2025/11/26/2025-21185/bulk-manufacturer-of-controlled-substances-application-siegfried-grafton-inc",
-      "summary": "The Drug Enforcement Administration (DEA) announced that Siegfried Grafton, Inc. has applied to register as a bulk manufacturer of various controlled substances, including Schedule I and II drugs, for analytical reference standards and customer sales. The application is open for public comment until January 26, 2026. This registration would allow the company to manufacture substances such as lysergic acid diethylamide, marihuana extract, and fentanyl, among others, for specific purposes.",
-      "why_relevant": "This application impacts regulatory control over the manufacturing of controlled substances, affecting public health and safety.",
-      "attacks": [],
-      "_origin_file": "federalregister_events_2025-11-25_2025-11-27.json",
-      "_origin_index": 6
-    },
-    {
-      "source_key": "federalregister",
-      "date": "2025-11-26",
-      "category": "Economic & Regulatory Power",
       "title": "Siegfried Grafton, Inc. Applies for Controlled Substances Importer Registration",
       "url": "https://www.federalregister.gov/documents/2025/11/26/2025-21178/importer-of-controlled-substances-application-siegfried-grafton-inc",
       "summary": "The Drug Enforcement Administration (DEA) announced that Siegfried Grafton, Inc. has applied to register as an importer of several controlled substances, including Gamma Hydroxybutyric Acid and Marihuana Extract. The application is open for public comment until December 26, 2025. The company intends to import these substances for analytical testing or distribution, not for commercial sale. Approval will be contingent on compliance with 21 U.S.C. 952(a)(2).",
@@ -3180,18 +2294,6 @@
       "attacks": [],
       "_origin_file": "federalregister_events_2025-11-22_2025-11-28.json",
       "_origin_index": 14
-    },
-    {
-      "source_key": "federalregister",
-      "date": "2025-11-26",
-      "category": "Economic & Regulatory Power",
-      "title": "Siegfried Grafton, Inc. Applies for Controlled Substances Importer Registration",
-      "url": "https://www.federalregister.gov/documents/2025/11/26/2025-21178/importer-of-controlled-substances-application-siegfried-grafton-inc",
-      "summary": "The Drug Enforcement Administration (DEA) announced that Siegfried Grafton, Inc. has applied to register as an importer of several controlled substances, including Gamma Hydroxybutyric Acid and Marihuana Extract. The application is open for public comment until December 26, 2025. The company intends to import these substances for analytical testing or distribution, not for commercial sale. Approval will be contingent on compliance with 21 U.S.C. 952(a)(2).",
-      "why_relevant": "This application affects regulatory oversight of controlled substances, impacting public health and safety.",
-      "attacks": [],
-      "_origin_file": "federalregister_events_2025-11-25_2025-11-27.json",
-      "_origin_index": 12
     },
     {
       "source_key": "federalregister",
@@ -3209,18 +2311,6 @@
       "source_key": "federalregister",
       "date": "2025-11-26",
       "category": "Economic & Regulatory Power",
-      "title": "TSA Extends Information Collection for Airspace Waiver Program",
-      "url": "https://www.federalregister.gov/documents/2025/11/26/2025-21115/extension-of-agency-information-collection-activity-under-omb-review-tsa-airspace-waiver-program",
-      "summary": "The Transportation Security Administration (TSA) has extended the information collection requirement for the Airspace Waiver Program under OMB control number 1652-0033. This extension allows TSA to continue conducting security threat assessments for individuals operating manned and unmanned aircraft systems in restricted airspace. The program requires aircraft operators to provide necessary information for vetting pilots, crewmembers, and passengers. The extension aims to ensure proper security measures are maintained for flights in U.S.-restricted airspace.",
-      "why_relevant": "This extension impacts the regulatory framework for aviation security, affecting how aircraft operations are conducted in restricted airspace.",
-      "attacks": [],
-      "_origin_file": "federalregister_events_2025-11-25_2025-11-27.json",
-      "_origin_index": 17
-    },
-    {
-      "source_key": "federalregister",
-      "date": "2025-11-26",
-      "category": "Economic & Regulatory Power",
       "title": "TSA Revises DHS Traveler Redress Inquiry Program Information Collection",
       "url": "https://www.federalregister.gov/documents/2025/11/26/2025-21111/revision-of-agency-information-collection-activity-under-omb-review-department-of-homeland-security",
       "summary": "The Transportation Security Administration (TSA) announced a revision to the Department of Homeland Security Traveler Redress Inquiry Program (DHS TRIP) information collection. The revision, submitted to the Office of Management and Budget (OMB) for approval, includes updates to customer satisfaction surveys to incorporate feedback opportunities, as recommended by the Government Accountability Office. The changes aim to improve the application and redress processes for travelers experiencing screening difficulties. The estimated annual burden includes 26,000 respondents and 13,303 hours.",
@@ -3228,30 +2318,6 @@
       "attacks": [],
       "_origin_file": "federalregister_events_2025-11-22_2025-11-28.json",
       "_origin_index": 21
-    },
-    {
-      "source_key": "federalregister",
-      "date": "2025-11-26",
-      "category": "Economic & Regulatory Power",
-      "title": "TSA Revises Information Collection for DHS Traveler Redress Program",
-      "url": "https://www.federalregister.gov/documents/2025/11/26/2025-21111/revision-of-agency-information-collection-activity-under-omb-review-department-of-homeland-security",
-      "summary": "The Transportation Security Administration (TSA) announced a revision to the information collection process for the Department of Homeland Security Traveler Redress Inquiry Program (DHS TRIP). This revision, submitted to the Office of Management and Budget (OMB) for approval, includes updates to customer satisfaction surveys and the Traveler Inquiry Form. The changes aim to enhance feedback opportunities and correct minor errors. The program serves as a contact point for travelers facing screening issues. Public comments are invited until December 26, 2025.",
-      "why_relevant": "This revision impacts how travelers can seek redress and provide feedback on security screening experiences, affecting transparency and accountability in travel security processes.",
-      "attacks": [],
-      "_origin_file": "federalregister_events_2025-11-25_2025-11-27.json",
-      "_origin_index": 18
-    },
-    {
-      "source_key": "federalregister",
-      "date": "2025-11-26",
-      "category": "Economic & Regulatory Power",
-      "title": "VHG Labs DBA LGC Standards Applies for Controlled Substances Importation",
-      "url": "https://www.federalregister.gov/documents/2025/11/26/2025-21181/importer-of-controlled-substances-application-vhg-labs-dba-lgc-standards",
-      "summary": "The Drug Enforcement Administration (DEA) announced that VHG Labs DBA LGC Standards has applied to register as an importer of various Schedule I controlled substances for analytical testing purposes. The application is open for public comment until December 26, 2025. The DEA will approve permits only if the business activities align with authorized uses under 21 U.S.C. 952(a)(2), excluding commercial sale of finished dosage forms.",
-      "why_relevant": "This application affects regulatory oversight of controlled substances, impacting public safety and compliance with federal drug laws.",
-      "attacks": [],
-      "_origin_file": "federalregister_events_2025-11-25_2025-11-27.json",
-      "_origin_index": 9
     },
     {
       "source_key": "federalregister",
@@ -3276,30 +2342,6 @@
       "attacks": [],
       "_origin_file": "hcr_events_2025-11-22_2025-11-28.json",
       "_origin_index": 5
-    },
-    {
-      "source_key": "hcr",
-      "date": "2025-11-26",
-      "category": "Economic & Regulatory Power",
-      "title": "Disney faces backlash over suspension of Jimmy Kimmel's show",
-      "url": "https://www.theguardian.com/us-news/2025/sep/18/jimmy-kimmel-protest-disney-abc-burbank",
-      "summary": "Following the suspension of Jimmy Kimmel's late-night talk show due to pressure from FCC chair Brendan Carr, approximately three million subscribers canceled their Disney+ subscriptions, and Hulu lost 4.1 million subscribers. This backlash reflects consumer discontent with corporate decisions influenced by political pressures.",
-      "why_relevant": "The significant subscriber losses for Disney highlight the impact of consumer activism on corporate policies, particularly in response to perceived political censorship.",
-      "attacks": [],
-      "_origin_file": "hcr_events_2025-11-25_2025-11-27.json",
-      "_origin_index": 2
-    },
-    {
-      "source_key": "hcr",
-      "date": "2025-11-26",
-      "category": "Economic & Regulatory Power",
-      "title": "Poll finds 52% of Americans would avoid buying a Tesla for political reasons",
-      "url": "https://www.msn.com/en-xl/africa/kenya/study-finds-41-of-ev-drivers-would-avoid-tesla-over-politics/ar-AA1QFM05",
-      "summary": "A poll conducted for the Global EV Alliance revealed that 52% of Americans would refrain from purchasing a Tesla due to political reasons, reflecting consumer sentiment against the company's CEO Elon Musk's political contributions and affiliations. This finding indicates a significant impact of political views on consumer behavior in the electric vehicle market.",
-      "why_relevant": "This event highlights the intersection of consumer choices and political affiliations, demonstrating how political actions can influence market dynamics and consumer behavior.",
-      "attacks": [],
-      "_origin_file": "hcr_events_2025-11-25_2025-11-27.json",
-      "_origin_index": 0
     },
     {
       "source_key": "hcr",
@@ -3358,20 +2400,6 @@
       "_origin_index": 7
     },
     {
-      "source_key": "noah",
-      "date": "2025-11-26",
-      "category": "Transparency & Records",
-      "title": "Federal Government Releases Reading and Math Test Results",
-      "url": "https://www.noahpinion.blog/p/bad-education-is-a-terrible-way-to",
-      "summary": "The federal government released results from its semi-annual reading and math tests for fourth- and eighth-graders, revealing that a significant portion of students are performing below basic levels. The data shows that 40% of fourth-graders and one-third of eighth-graders scored below the basic threshold in reading, while many students struggled with basic math problems. This report underscores the ongoing decline in educational standards and the challenges facing the U.S. education system.",
-      "why_relevant": "The release of these test results highlights the declining educational performance in the U.S., which has implications for future workforce readiness and economic competitiveness.",
-      "attacks": [
-        "education"
-      ],
-      "_origin_file": "noah_events_2025-11-25_2025-11-27.json",
-      "_origin_index": 1
-    },
-    {
       "source_key": "zeteo",
       "date": "2025-11-26",
       "category": "Transparency & Records",
@@ -3425,21 +2453,6 @@
         "civil_service"
       ],
       "_origin_file": "50501_events_2025-11-25_2025-11-27.json",
-      "_origin_index": 1
-    },
-    {
-      "source_key": "50501",
-      "date": "2025-11-26",
-      "category": "Civil–Military Relations & State Violence",
-      "title": "Pentagon Considers Court-Martial for Senator Mark Kelly",
-      "url": "https://www.the50501movement.org/p/trump-six-veterans-illegal-orders-video",
-      "summary": "The Pentagon announced it is investigating Senator Mark Kelly, a retired Navy captain, for his involvement in a video advising troops to refuse illegal orders. The investigation could lead to Kelly being recalled to active duty for a possible court-martial. This action follows a video released by six lawmakers reminding service members of their legal obligations under military law, which Donald Trump condemned as \"seditious.\"",
-      "why_relevant": "The potential court-martial of a sitting senator for restating military law highlights tensions between civilian oversight and military discipline.",
-      "attacks": [
-        "civil_service",
-        "military"
-      ],
-      "_origin_file": "50501_events_2025-11-22_2025-11-28.json",
       "_origin_index": 1
     },
     {

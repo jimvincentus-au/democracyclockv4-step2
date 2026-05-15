@@ -5,62 +5,60 @@
   },
   "week_number": 52,
   "sources": [
-    "democracydocket",
+    "50501",
     "noah",
     "guardian",
-    "outloud",
-    "tracker",
-    "meidas",
-    "50501",
     "popinfo",
-    "federalregister",
-    "orders",
+    "justsecurity",
+    "meidas",
+    "congress",
+    "outloud",
     "hcr",
-    "congress"
+    "orders",
+    "democracydocket",
+    "federalregister"
   ],
   "counts": {
-    "total": 303,
+    "total": 296,
     "by_date": {
       "2026-01-10": 25,
-      "2026-01-11": 12,
-      "2026-01-12": 51,
-      "2026-01-13": 69,
-      "2026-01-14": 58,
-      "2026-01-15": 40,
-      "2026-01-16": 48
+      "2026-01-11": 13,
+      "2026-01-12": 58,
+      "2026-01-13": 40,
+      "2026-01-14": 61,
+      "2026-01-15": 42,
+      "2026-01-16": 57
     },
     "by_source": {
       "hcr": 45,
-      "democracydocket": 3,
-      "guardian": 98,
+      "democracydocket": 2,
+      "guardian": 99,
       "50501": 16,
+      "justsecurity": 26,
       "meidas": 51,
       "popinfo": 11,
       "federalregister": 36,
-      "tracker": 33,
       "noah": 6,
       "orders": 1,
       "congress": 1,
       "outloud": 2
     },
     "by_category": {
-      "Executive Actions & Orders": 23,
+      "Executive Actions & Orders": 22,
       "Legislative & Oversight Activity": 30,
-      "Judicial Developments": 44,
-      "Law Enforcement & Surveillance": 55,
-      "Civil Society & Protest": 20,
-      "Information & Media Control": 15,
-      "Economic & Regulatory Power": 45,
+      "Judicial Developments": 64,
+      "Law Enforcement & Surveillance": 51,
+      "Civil Society & Protest": 19,
+      "Information & Media Control": 13,
+      "Economic & Regulatory Power": 39,
       "Appointments & Patronage": 7,
-      "Transparency & Records": 6,
-      "International Relations": 26,
-      "Civil–Military Relations & State Violence": 14,
-      "Elections & Representation": 9,
+      "Transparency & Records": 5,
+      "International Relations": 20,
+      "Civil–Military Relations & State Violence": 12,
+      "Elections & Representation": 7,
       "Voting rights / Courts / Democracy protection": 1,
       "Public Health & Welfare": 4,
       "Health & Public Welfare": 1,
-      "Public Health": 1,
-      "Public Memory": 1,
       "Immigration & Representation": 1
     }
   },
@@ -445,6 +443,18 @@
       ],
       "_origin_file": "50501_events_2026-01-10_2026-01-16.json",
       "_origin_index": 20
+    },
+    {
+      "source_key": "justsecurity",
+      "date": "2026-01-11",
+      "category": "Judicial Developments",
+      "title": "American Academy of Pediatrics v. Department of Health and Human Services (D.D.C.) 1:25-cv-04505 — Judge Howell granted Plaintiff's motion for a preliminary injunction , finding that HHS likely terminated seven pediatric health grants in retaliation for AAP's…",
+      "url": "https://www.courtlistener.com/docket/72079033/american-academy-of-pediatrics-v-department-of-health-and-human-services",
+      "summary": "Judge Howell granted Plaintiff's motion for a preliminary injunction , finding that HHS likely terminated seven pediatric health grants in retaliation for AAP's public advocacy on vaccines and gender-affirming care in violation of the First Amendment. Judge Howell ordered HHS to halt the terminations and resume disbursing the grants to AAP.",
+      "why_relevant": "This tracker update marks a concrete litigation development in an ongoing legal challenge. Court: D.D.C.. Docket: 1:25-cv-04505.",
+      "attacks": [],
+      "_origin_file": "justsecurity_events_2026-01-01_2026-03-20.json",
+      "_origin_index": 162
     },
     {
       "source_key": "guardian",
@@ -897,6 +907,102 @@
       "_origin_index": 24
     },
     {
+      "source_key": "justsecurity",
+      "date": "2026-01-12",
+      "category": "Judicial Developments",
+      "title": "Fell v. Trump (D.D.C.) 1:25-cv-04206 — Plaintiffs filed an amended complaint, adding four plaintiffs and substituting the newly confirmed CFTC chair for the acting one.",
+      "url": "https://www.courtlistener.com/docket/71986673/fell-v-trump",
+      "summary": "Plaintiffs filed an amended complaint, adding four plaintiffs and substituting the newly confirmed CFTC chair for the acting one.",
+      "why_relevant": "This tracker update marks a concrete litigation development in an ongoing legal challenge. Court: D.D.C.. Docket: 1:25-cv-04206.",
+      "attacks": [],
+      "_origin_file": "justsecurity_events_2026-01-01_2026-03-20.json",
+      "_origin_index": 66
+    },
+    {
+      "source_key": "justsecurity",
+      "date": "2026-01-12",
+      "category": "Judicial Developments",
+      "title": "Housing Authority of the County of San Diego v. Turner (N.D. Cal.) 4:25-cv-08859 — Defendants appealed the Nov. 14 preliminary injunction order to the Ninth Circuit.",
+      "url": "https://www.courtlistener.com/docket/71661089/housing-authority-of-the-city-and-county-of-san-francisco-v-turner",
+      "summary": "Defendants appealed the Nov. 14 preliminary injunction order to the Ninth Circuit.",
+      "why_relevant": "This tracker update marks a concrete litigation development in an ongoing legal challenge. Court: N.D. Cal.. Docket: 4:25-cv-08859.",
+      "attacks": [],
+      "_origin_file": "justsecurity_events_2026-01-01_2026-03-20.json",
+      "_origin_index": 148
+    },
+    {
+      "source_key": "justsecurity",
+      "date": "2026-01-12",
+      "category": "Judicial Developments",
+      "title": "Kelly v. Hegseth (D.D.C.) 1:26-cv-00081 — Plaintiff moved for a temporary restraining order and preliminary injunction.",
+      "url": "https://www.courtlistener.com/docket/72131361/kelly-v-hegseth",
+      "summary": "Plaintiff moved for a temporary restraining order and preliminary injunction.",
+      "why_relevant": "This tracker update marks a concrete litigation development in an ongoing legal challenge. Court: D.D.C.. Docket: 1:26-cv-00081.",
+      "attacks": [],
+      "_origin_file": "justsecurity_events_2026-01-01_2026-03-20.json",
+      "_origin_index": 37
+    },
+    {
+      "source_key": "justsecurity",
+      "date": "2026-01-12",
+      "category": "Judicial Developments",
+      "title": "National Immigration Litigation Alliance v. U.S. Department of State (D. Mass.) 1:25-cv-11692 — The parties submitted a joint status report which notes that Defendants have made four productions of records in the case thus far and is still in the process o…",
+      "url": "https://www.courtlistener.com/docket/70500395/national-immigration-litigation-alliance-v-us-department-of-state",
+      "summary": "The parties submitted a joint status report which notes that Defendants have made four productions of records in the case thus far and is still in the process of reviewing potentially responsive records.",
+      "why_relevant": "This tracker update marks a concrete litigation development in an ongoing legal challenge. Court: D. Mass.. Docket: 1:25-cv-11692.",
+      "attacks": [],
+      "_origin_file": "justsecurity_events_2026-01-01_2026-03-20.json",
+      "_origin_index": 381
+    },
+    {
+      "source_key": "justsecurity",
+      "date": "2026-01-12",
+      "category": "Judicial Developments",
+      "title": "Revolution Wind, LLC v. Burgum (D.D.C.) 1:25-cv-02999 — The court granted the Revolution Wind 's motion for a preliminary injunction, pausing the implementation of the government's Stop Work Orders.",
+      "url": "https://www.courtlistener.com/docket/71266768/revolution-wind-llc-v-burgum",
+      "summary": "The court granted the Revolution Wind 's motion for a preliminary injunction, pausing the implementation of the government's Stop Work Orders.",
+      "why_relevant": "This tracker update marks a concrete litigation development in an ongoing legal challenge. Court: D.D.C.. Docket: 1:25-cv-02999.",
+      "attacks": [],
+      "_origin_file": "justsecurity_events_2026-01-01_2026-03-20.json",
+      "_origin_index": 87
+    },
+    {
+      "source_key": "justsecurity",
+      "date": "2026-01-12",
+      "category": "Judicial Developments",
+      "title": "State of Illinois v. Department of Homeland Security (N.D. Ill.) 1:26-cv-00321 — Case filed",
+      "url": "https://www.courtlistener.com/docket/72131845/state-of-illinois-v-department-of-homeland-security",
+      "summary": "Case filed Beginning in September 2025, the Department of Homeland Security (DHS) deployed personnel from Border Patrol to Illinois to conduct immigration enforcement as part of “Operation Midway Blitz”. On Jan. 12, 2026, the State of Illinois and the city of Chicago filed suit against DHS, alleging that the Border Patrol deployment to Chicago was an unlawful and coercive campaign that culminated in a militarized Border Patrol using “violent tactics” with “deadly results.” The complaint states that \"uniformed, military-trained personnel, carrying semi-automatic firearms and military-grade weaponry, have rampaged for months through Chicago and the surrounding areas, lawlessly stopping, interrogating and arresting residents, and attacking them with chemical weapons.\" Plaintiffs contend that these actions are in retaliation for the failure of Illinois and Chicago to accept the administration’s immigration policies, in particular the TRUST act, which prohibits Chicago state and local employees from participating in civil immigration enforcement operations. Plaintiffs argue that the defendants’ conduct violates the Tenth Amendment since it impedes Illinois and Chicago from carrying out core sovereign functions, including providing public safety and enforcing state statutes. The complaint also asserts that the policies of the Border Patrol, including policies which allow roving patrols, biometric scanning, warrantless arrests, deployment of tear gas, enforcement at sensitive locations, concealing license plates and private trespass, violate the Administrative Procedure Act (APA) as they exceed defendants’ statutory authority and are arbitrary and capricious as well as ultra vires. The plaintiffs seek declaratory and injunctive relief vacating the policies and declaring the government’s actions unconstitutional and enjoining defendants from engaging in conduct under the policies asserted to be illegal.",
+      "why_relevant": "A new legal challenge was filed against a Trump administration action. Court: N.D. Ill.. Docket: 1:26-cv-00321.",
+      "attacks": [],
+      "_origin_file": "justsecurity_events_2026-01-01_2026-03-20.json",
+      "_origin_index": 13
+    },
+    {
+      "source_key": "justsecurity",
+      "date": "2026-01-12",
+      "category": "Judicial Developments",
+      "title": "State of Rhode Island v. United States Department of the Interior (D.D.C.) 1:25-cv-04328 — The court granted the State Plaintiffs ' motion for a preliminary injunction, pausing the implementation of the government's Stop Work Orders.",
+      "url": "https://www.courtlistener.com/docket/72031164/state-of-rhode-island-v-united-states-department-of-the-interior",
+      "summary": "The court granted the State Plaintiffs ' motion for a preliminary injunction, pausing the implementation of the government's Stop Work Orders.",
+      "why_relevant": "This tracker update marks a concrete litigation development in an ongoing legal challenge. Court: D.D.C.. Docket: 1:25-cv-04328.",
+      "attacks": [],
+      "_origin_file": "justsecurity_events_2026-01-01_2026-03-20.json",
+      "_origin_index": 88
+    },
+    {
+      "source_key": "justsecurity",
+      "date": "2026-01-12",
+      "category": "Judicial Developments",
+      "title": "Victim Rights Law Center v. United States Department of Education (D. Mass.) 1:25-cv-11042 — Judge Joun dissolved the preliminary injunction.",
+      "url": "https://www.courtlistener.com/docket/69921190/victim-rights-law-center-v-united-states-department-of-education",
+      "summary": "Judge Joun dissolved the preliminary injunction.",
+      "why_relevant": "This tracker update marks a concrete litigation development in an ongoing legal challenge. Court: D. Mass.. Docket: 1:25-cv-11042.",
+      "attacks": [],
+      "_origin_file": "justsecurity_events_2026-01-01_2026-03-20.json",
+      "_origin_index": 316
+    },
+    {
       "source_key": "meidas",
       "date": "2026-01-12",
       "category": "Judicial Developments",
@@ -1107,21 +1213,6 @@
       ],
       "_origin_file": "popinfo_events_2026-01-10_2026-01-16.json",
       "_origin_index": 6
-    },
-    {
-      "source_key": "democracydocket",
-      "date": "2026-01-12",
-      "category": "Elections & Representation",
-      "title": "DOJ's Voter Roll Maintenance Efforts Criticized",
-      "url": "https://www.democracydocket.com/analysis/the-dojs-sloppy-voter-roll-crusade/",
-      "summary": "The Department of Justice (DOJ) has been criticized for its approach to maintaining voter rolls, which some argue could lead to voter suppression. The DOJ's efforts have been described as sloppy, potentially resulting in eligible voters being removed from the rolls. This has raised concerns about the impact on voting rights and the integrity of the electoral process. The criticism highlights the ongoing debate over how to balance voter roll maintenance with the protection of voting rights.",
-      "why_relevant": "The DOJ's actions regarding voter roll maintenance could affect voter access and the fairness of elections, impacting democratic participation.",
-      "attacks": [
-        "minorities",
-        "rule_of_law"
-      ],
-      "_origin_file": "democracydocket_events_2025-01-25_2026-01-30.json",
-      "_origin_index": 53
     },
     {
       "source_key": "federalregister",
@@ -1391,21 +1482,6 @@
       "_origin_index": 20
     },
     {
-      "source_key": "tracker",
-      "date": "2026-01-13",
-      "category": "Executive Actions & Orders",
-      "title": "Trump Tipped Off Oil Companies on Venezuela",
-      "url": "https://thehill.com",
-      "summary": "President Trump admitted to informing U.S. oil companies about the military operation to capture Maduro, framing the intervention as an opportunity for economic gain. He emphasized that oil revenues would offset U.S. costs, highlighting the administration's focus on resource extraction.",
-      "why_relevant": "This admission blurs the line between military action and corporate profit, raising ethical concerns about the use of military force for economic purposes without congressional authorization.",
-      "attacks": [
-        "economy",
-        "separation_of_powers"
-      ],
-      "_origin_file": "tracker_events_2026-01-10_2026-01-16.json",
-      "_origin_index": 18
-    },
-    {
       "source_key": "guardian",
       "date": "2026-01-13",
       "category": "Legislative & Oversight Activity",
@@ -1568,6 +1644,42 @@
       "_origin_index": 22
     },
     {
+      "source_key": "justsecurity",
+      "date": "2026-01-13",
+      "category": "Judicial Developments",
+      "title": "American Association of University Professors v. Trump (N.D. Cal.) 3:25-cv-07864 — Defendants appealed the Nov. 14 preliminary injunction order to the Ninth Circuit.",
+      "url": "https://www.courtlistener.com/docket/71360200/american-association-of-university-professors-v-trump",
+      "summary": "Defendants appealed the Nov. 14 preliminary injunction order to the Ninth Circuit.",
+      "why_relevant": "This tracker update marks a concrete litigation development in an ongoing legal challenge. Court: N.D. Cal.. Docket: 3:25-cv-07864.",
+      "attacks": [],
+      "_origin_file": "justsecurity_events_2026-01-01_2026-03-20.json",
+      "_origin_index": 123
+    },
+    {
+      "source_key": "justsecurity",
+      "date": "2026-01-13",
+      "category": "Judicial Developments",
+      "title": "State of California v. United States Department of Transportation (D.R.I.) 1:25-cv-00208 — Defendants voluntarily moved to dismiss their First Circuit appeal.",
+      "url": "https://www.courtlistener.com/docket/70251998/state-of-california-v-united-states-department-of-transportation",
+      "summary": "Defendants voluntarily moved to dismiss their First Circuit appeal.",
+      "why_relevant": "This tracker update marks a concrete litigation development in an ongoing legal challenge. Court: D.R.I.. Docket: 1:25-cv-00208.",
+      "attacks": [],
+      "_origin_file": "justsecurity_events_2026-01-01_2026-03-20.json",
+      "_origin_index": 121
+    },
+    {
+      "source_key": "justsecurity",
+      "date": "2026-01-13",
+      "category": "Judicial Developments",
+      "title": "State of New York et al v. U.S. Department of Health and Human Services (D.R.I) 1:26-cv-00022 — Case filed",
+      "url": "https://www.courtlistener.com/docket/72136009/state-of-new-york-v-us-department-of-health-and-human-services",
+      "summary": "Case filed On Jan. 20, 2025, President Trump issued Executive Order (EO) 14,168 titled “Defending Women from Gender Ideology Extremism and Restoring Biological Truth to the Federal Government” which declares that “[i]t is the policy of the United States to recognize two sexes, male and female. These sexes are not changeable and are grounded in fundamental and incontrovertible reality.” The EO directs federal agencies to “assess grant conditions and grantee preferences and ensure grant funds do not promote gender ideology,” as defined in the EO, and orders agencies to “take all necessary steps, as permitted by law, to end the Federal funding of gender ideology.” Pursuant to the EO, starting in May, 2025 the Department of Health and Human Services (HHS) and its sub-agencies informed States receiving federal funds for federal health, education, and research grants that as part of the Title IX certification process they were required to certify they are in compliance with the EO (the “Gender Conditions”). On Jan. 13, 2026, 12 states filed suit , alleging that the new guidance is vague, scientifically inaccurate and uncertain, potentially in conflict with Plaintiff States’ own civil rights laws, and violates the Administrative Procedures Act (APA) as action that is arbitrary and capricious as without observance of procedure, contrary to law, and in excess of the agency’s authority. They further allege violations of the Spending Clause and Separation of Powers by usurping Congress’s spending authority. They seek a declaration that the imposition of the Gender Conditions is unlawful and unconstitutional, and injunctive relief to vacate the new requirements and enjoin their implementation.",
+      "why_relevant": "A new legal challenge was filed against a Trump administration action. Court: D.R.I.. Docket: 1:26-cv-00022.",
+      "attacks": [],
+      "_origin_file": "justsecurity_events_2026-01-01_2026-03-20.json",
+      "_origin_index": 168
+    },
+    {
       "source_key": "meidas",
       "date": "2026-01-13",
       "category": "Judicial Developments",
@@ -1583,96 +1695,6 @@
       "_origin_index": 41
     },
     {
-      "source_key": "tracker",
-      "date": "2026-01-13",
-      "category": "Judicial Developments",
-      "title": "Appeals Court Blocks Trump’s NIH Funding Cuts",
-      "url": "https://www.nytimes.com",
-      "summary": "A federal appeals court upheld a ruling preventing President Trump from capping reimbursement for indirect research costs at the National Institutes of Health. The court found that Trump's actions violated congressional safeguards for federal research funding.",
-      "why_relevant": "The court's decision protects scientific research funding from executive overreach, ensuring that negotiated grant terms are upheld and research integrity is maintained.",
-      "attacks": [
-        "science",
-        "separation_of_powers"
-      ],
-      "_origin_file": "tracker_events_2026-01-10_2026-01-16.json",
-      "_origin_index": 31
-    },
-    {
-      "source_key": "tracker",
-      "date": "2026-01-13",
-      "category": "Judicial Developments",
-      "title": "Judge Orders Trump Loyalist to Justify U.S. Attorney Title",
-      "url": "https://www.nytimes.com",
-      "summary": "A federal judge has ordered Lindsey Halligan, an unlawfully appointed U.S. attorney, to explain her continued use of the title despite a ruling invalidating her appointment. The judge warned of potential disciplinary action for false statements.",
-      "why_relevant": "The persistence of unlawfully appointed officials in their roles challenges the legitimacy of the judicial system and the enforcement of constitutional rules.",
-      "attacks": [
-        "courts",
-        "justice_dept"
-      ],
-      "_origin_file": "tracker_events_2026-01-10_2026-01-16.json",
-      "_origin_index": 22
-    },
-    {
-      "source_key": "tracker",
-      "date": "2026-01-13",
-      "category": "Judicial Developments",
-      "title": "Lindsey Halligan ordered to explain U.S. attorney title use",
-      "url": "https://www.usatoday.com",
-      "summary": "A federal judge ordered Lindsey Halligan, a former personal lawyer to Trump, to justify her continued use of the U.S. attorney title after her appointment to lead the Eastern District of Virginia was ruled unlawful. Halligan had initiated criminal cases against James Comey and Letitia James, which were dismissed due to her invalid appointment.",
-      "why_relevant": "The case highlights the importance of lawful appointments and the enforcement of judicial authority.",
-      "attacks": [
-        "justice_dept",
-        "rule_of_law"
-      ],
-      "_origin_file": "tracker_events_2026-01-10_2026-01-16.json",
-      "_origin_index": 5
-    },
-    {
-      "source_key": "tracker",
-      "date": "2026-01-13",
-      "category": "Judicial Developments",
-      "title": "Republican senators push for judge impeachments",
-      "url": "https://www.nbcnews.com",
-      "summary": "Republican senators, led by Sen. Ted Cruz, intensified calls to impeach U.S. District Judges James Boasberg and Deborah Boardman over rulings unfavorable to Trump allies. The GOP frames these judicial decisions as partisan misconduct, urging the House to advance impeachment articles.",
-      "why_relevant": "The push for impeachment over judicial rulings threatens judicial independence and the separation of powers.",
-      "attacks": [
-        "courts",
-        "separation_of_powers"
-      ],
-      "_origin_file": "tracker_events_2026-01-10_2026-01-16.json",
-      "_origin_index": 9
-    },
-    {
-      "source_key": "tracker",
-      "date": "2026-01-13",
-      "category": "Judicial Developments",
-      "title": "Trump Pardon May Cover Jan. 6 Pipe Bomber",
-      "url": "https://www.politico.com",
-      "summary": "Legal experts warn that Trump's blanket pardon for Jan. 6-related offenses might inadvertently cover Brian Cole Jr., charged with planting pipe bombs near the Capitol. The broad scope of the pardon could lead courts to include his actions, despite DOJ efforts to separate his crimes from the insurrection.",
-      "why_relevant": "The potential for mass clemency to shield individuals involved in violent acts undermines accountability and the rule of law, posing a systemic threat to justice.",
-      "attacks": [
-        "rule_of_law",
-        "justice_dept"
-      ],
-      "_origin_file": "tracker_events_2026-01-10_2026-01-16.json",
-      "_origin_index": 19
-    },
-    {
-      "source_key": "tracker",
-      "date": "2026-01-13",
-      "category": "Judicial Developments",
-      "title": "Trump seeks legal fees from Fani Willis' office",
-      "url": "https://www.nbcnews.com",
-      "summary": "Trump filed a motion to recover over $6.2 million in legal fees from the Fulton County District Attorney’s Office after the dismissal of the Georgia election interference case against him. The request is based on a Georgia law allowing defendants to seek reimbursement when a prosecutor is disqualified for improper conduct.",
-      "why_relevant": "The motion represents a financial deterrent against prosecutorial accountability, impacting future investigations.",
-      "attacks": [
-        "justice_dept",
-        "rule_of_law"
-      ],
-      "_origin_file": "tracker_events_2026-01-10_2026-01-16.json",
-      "_origin_index": 6
-    },
-    {
       "source_key": "50501",
       "date": "2026-01-13",
       "category": "Law Enforcement & Surveillance",
@@ -1686,6 +1708,22 @@
       ],
       "_origin_file": "50501_events_2026-01-10_2026-01-16.json",
       "_origin_index": 10
+    },
+    {
+      "source_key": "guardian",
+      "date": "2026-01-13",
+      "category": "Law Enforcement & Surveillance",
+      "title": "Deportation of Mohan Karki to Bhutan by ICE",
+      "url": "https://www.theguardian.com/us-news/2026/feb/15/bhutanese-nepali-refugee-ice-trump-immigration",
+      "summary": "Mohan Karki, a stateless individual with Bhutanese parents, was deported by U.S. Immigration and Customs Enforcement (ICE) to Bhutan on January 13, 2026, after spending over nine months in detention. Despite legal efforts by his wife and attorneys to prevent his removal, Karki was sent to a country he has never lived in, exposing him to potential persecution and statelessness. Bhutan has not recognized him as a citizen, and he was given the choice of imprisonment or being sent to the Indian border upon arrival.",
+      "why_relevant": "This deportation highlights the risks and challenges faced by stateless individuals under U.S. immigration policies, raising concerns about human rights and the treatment of refugees.",
+      "attacks": [
+        "immigrants_refugees",
+        "rule_of_law",
+        "truth"
+      ],
+      "_origin_file": "guardian_events_2026-02-14_2026-02-20.json",
+      "_origin_index": 61
     },
     {
       "source_key": "guardian",
@@ -1764,86 +1802,6 @@
       "_origin_index": 39
     },
     {
-      "source_key": "tracker",
-      "date": "2026-01-13",
-      "category": "Law Enforcement & Surveillance",
-      "title": "DOJ sends prosecutors to Minnesota for fraud probes",
-      "url": "https://www.nbcnews.com",
-      "summary": "The Justice Department is sending additional federal prosecutors to Minnesota to assist in investigations into alleged misuse of federal welfare and child care funds. This move follows right-wing claims of fraud in Somali-run child care centers, which state investigators largely refuted, and coincides with the freezing of federal child care payments to the state.",
-      "why_relevant": "The deployment of prosecutorial power based on disinformation undermines evidence-based governance and targets immigrant communities.",
-      "attacks": [
-        "separation_of_powers",
-        "rule_of_law",
-        "minorities"
-      ],
-      "_origin_file": "tracker_events_2026-01-10_2026-01-16.json",
-      "_origin_index": 8
-    },
-    {
-      "source_key": "tracker",
-      "date": "2026-01-13",
-      "category": "Law Enforcement & Surveillance",
-      "title": "Palantir Secures Major Federal Contracts",
-      "url": "https://thehill.com",
-      "summary": "Palantir has obtained nearly $1 billion in federal contracts during Trump's second term, including a significant deal with ICE to develop \"ImmigrationOS,\" a system for tracking immigrants and managing deportations. This expansion reflects the administration's focus on integrating private contractors into federal data systems, particularly in immigration enforcement.",
-      "why_relevant": "The growth of surveillance infrastructure under the guise of immigration enforcement poses significant risks to civil liberties and privacy, as state power becomes increasingly centralized and privatized.",
-      "attacks": [
-        "immigrants_refugees",
-        "civil_service",
-        "public_service"
-      ],
-      "_origin_file": "tracker_events_2026-01-10_2026-01-16.json",
-      "_origin_index": 17
-    },
-    {
-      "source_key": "tracker",
-      "date": "2026-01-13",
-      "category": "Law Enforcement & Surveillance",
-      "title": "Trump Escalates Immigration Crackdown in Minnesota",
-      "url": "https://www.theguardian.com",
-      "summary": "Homeland Security and ICE deployed 2,000 federal agents in the Minneapolis–St. Paul area, targeting Somali immigrants in a large-scale operation. The deployment follows Trump's inflammatory rhetoric against Somalis and involves door-to-door enforcement.",
-      "why_relevant": "The operation exemplifies the use of federal power for ethnic scapegoating and intimidation, eroding due process and civil rights in targeted communities.",
-      "attacks": [
-        "immigrants_refugees",
-        "minorities",
-        "civil_service"
-      ],
-      "_origin_file": "tracker_events_2026-01-10_2026-01-16.json",
-      "_origin_index": 24
-    },
-    {
-      "source_key": "tracker",
-      "date": "2026-01-13",
-      "category": "Law Enforcement & Surveillance",
-      "title": "Trump officials plan nationwide fraud crackdown",
-      "url": "https://www.nytimes.com",
-      "summary": "Trump officials announced plans to expand a federal fraud crackdown from Minnesota to other Democratic-led states, including California, New York, and Illinois. The operation involves deploying thousands of agents, freezing social program funding, and conducting audits, despite a lack of evidence for widespread fraud outside Minnesota.",
-      "why_relevant": "The expansion of enforcement operations as political warfare threatens state autonomy and democratic principles.",
-      "attacks": [
-        "separation_of_powers",
-        "rule_of_law",
-        "congress"
-      ],
-      "_origin_file": "tracker_events_2026-01-10_2026-01-16.json",
-      "_origin_index": 7
-    },
-    {
-      "source_key": "tracker",
-      "date": "2026-01-13",
-      "category": "Law Enforcement & Surveillance",
-      "title": "Trump targets Minnesota with enforcement surge",
-      "url": "https://www.nytimes.com",
-      "summary": "President Trump initiated a multi-agency enforcement operation in Minnesota, focusing on alleged fraud in social programs. The operation involves the Department of Homeland Security, Department of Justice, and federal auditors. The White House described Minnesota as a test case, with potential expansion to other Democratic-led states. This move is seen as a political strategy to intimidate blue states.",
-      "why_relevant": "The use of federal enforcement as a political tool undermines state autonomy and democratic governance.",
-      "attacks": [
-        "separation_of_powers",
-        "rule_of_law",
-        "congress"
-      ],
-      "_origin_file": "tracker_events_2026-01-10_2026-01-16.json",
-      "_origin_index": 2
-    },
-    {
       "source_key": "meidas",
       "date": "2026-01-13",
       "category": "Elections & Representation",
@@ -1854,69 +1812,6 @@
       "attacks": [],
       "_origin_file": "meidas_events_2026-01-10_2026-01-16.json",
       "_origin_index": 40
-    },
-    {
-      "source_key": "tracker",
-      "date": "2026-01-13",
-      "category": "Elections & Representation",
-      "title": "Florida to undertake congressional redistricting",
-      "url": "https://www.reuters.com",
-      "summary": "Florida Governor Ron DeSantis announced that the Republican-led legislature will proceed with congressional redistricting in April. This effort could potentially secure up to five additional House seats for Republicans. The move aligns with Trump's encouragement for GOP-controlled states to redraw maps to mitigate expected midterm losses.",
-      "why_relevant": "Mid-cycle redistricting is used to manipulate electoral outcomes, undermining fair representation.",
-      "attacks": [
-        "elections",
-        "rule_of_law"
-      ],
-      "_origin_file": "tracker_events_2026-01-10_2026-01-16.json",
-      "_origin_index": 4
-    },
-    {
-      "source_key": "tracker",
-      "date": "2026-01-13",
-      "category": "Civil Society & Protest",
-      "title": "Teachers' Union Sues Texas Over Social Media Probes",
-      "url": "https://www.reuters.com",
-      "summary": "The Texas branch of the American Federation of Teachers filed a lawsuit against the state to block investigations into educators' social media posts related to the murder of Charlie Kirk. The union argues that the probes lack clear definitions and due process protections, leading to disciplinary actions.",
-      "why_relevant": "The lawsuit challenges the state's infringement on free speech and due process, highlighting the tension between government oversight and individual rights.",
-      "attacks": [
-        "press",
-        "education",
-        "rule_of_law"
-      ],
-      "_origin_file": "tracker_events_2026-01-10_2026-01-16.json",
-      "_origin_index": 32
-    },
-    {
-      "source_key": "tracker",
-      "date": "2026-01-13",
-      "category": "Information & Media Control",
-      "title": "Musk AI chatbot generates sexualized images",
-      "url": "https://thehill.com",
-      "summary": "Elon Musk's AI chatbot, Grok, produced sexualized images of women and children in response to user prompts, leading to scrutiny from regulators in the EU, U.K., India, Malaysia, and France. These officials warned that the content might violate platform safety laws and demanded urgent explanations from Musk's companies, X and xAI. The incident highlights concerns over the lack of safeguards in AI systems and the potential for abuse and illegal exploitation.",
-      "why_relevant": "The incident underscores the risks of unregulated AI technology in spreading harmful content, challenging regulatory frameworks.",
-      "attacks": [
-        "truth",
-        "information",
-        "decency"
-      ],
-      "_origin_file": "tracker_events_2026-01-10_2026-01-16.json",
-      "_origin_index": 0
-    },
-    {
-      "source_key": "tracker",
-      "date": "2026-01-13",
-      "category": "Information & Media Control",
-      "title": "White House Rewrites Jan. 6 History",
-      "url": "https://abcnews.go.com",
-      "summary": "The Trump White House launched a webpage on the fifth anniversary of Jan. 6, portraying the Capitol assault as a peaceful protest and blaming Capitol Police for escalating violence. The narrative downplays Trump's role and shifts blame onto law enforcement and Democrats.",
-      "why_relevant": "Rewriting the history of the January 6 insurrection undermines accountability and normalizes political violence, threatening democratic norms and public trust.",
-      "attacks": [
-        "truth",
-        "public_memory",
-        "press"
-      ],
-      "_origin_file": "tracker_events_2026-01-10_2026-01-16.json",
-      "_origin_index": 23
     },
     {
       "source_key": "federalregister",
@@ -1990,97 +1885,6 @@
       "_origin_index": 4
     },
     {
-      "source_key": "tracker",
-      "date": "2026-01-13",
-      "category": "Economic & Regulatory Power",
-      "title": "Chevron Controls Venezuelan Oil Exports",
-      "url": "https://www.bloomberg.com",
-      "summary": "Chevron has arranged for 11 tankers to export Venezuelan oil, becoming the dominant exporter after the U.S. military ousted Maduro and enforced a naval blockade. The company now controls about a quarter of Venezuela's oil production under a Treasury Department license, with shipments directed to U.S. refineries. This development follows the removal of competitors through sanctions enforcement.",
-      "why_relevant": "The concentration of oil export control in the hands of a single U.S. company demonstrates the manipulation of sanctions for corporate gain, undermining fair market competition and accountability.",
-      "attacks": [
-        "economy",
-        "global_democracy"
-      ],
-      "_origin_file": "tracker_events_2026-01-10_2026-01-16.json",
-      "_origin_index": 15
-    },
-    {
-      "source_key": "tracker",
-      "date": "2026-01-13",
-      "category": "Economic & Regulatory Power",
-      "title": "Chevron Positioned to Expand in Venezuela",
-      "url": "https://www.nytimes.com",
-      "summary": "Chevron is set to expand its operations in Venezuela following the U.S. military's capture of Maduro and the reversal of sanctions by the Trump administration. Chevron's long-term presence and lobbying efforts have positioned it as the primary U.S. oil company in the region, with significant advantages over competitors that previously exited the market. This move aligns with Trump's strategy of using military force and sanctions policy to favor specific corporate interests.",
-      "why_relevant": "This event highlights the use of military and economic policy to benefit specific corporations, raising concerns about the prioritization of corporate interests over democratic principles and human rights.",
-      "attacks": [
-        "economy",
-        "global_democracy"
-      ],
-      "_origin_file": "tracker_events_2026-01-10_2026-01-16.json",
-      "_origin_index": 14
-    },
-    {
-      "source_key": "tracker",
-      "date": "2026-01-13",
-      "category": "Economic & Regulatory Power",
-      "title": "Health Dept. Freezes $10 Billion to Democratic States",
-      "url": "https://www.nytimes.com",
-      "summary": "The Trump administration is withholding $10 billion in child care and family assistance funds from five Democratic states, citing unsubstantiated fraud concerns. States must provide additional documentation to access these funds, affecting programs for low-income families.",
-      "why_relevant": "The use of federal funding as a political weapon against states controlled by the opposition party represents governance by coercion, threatening the equitable distribution of resources.",
-      "attacks": [
-        "poor",
-        "economy",
-        "union"
-      ],
-      "_origin_file": "tracker_events_2026-01-10_2026-01-16.json",
-      "_origin_index": 21
-    },
-    {
-      "source_key": "tracker",
-      "date": "2026-01-13",
-      "category": "Economic & Regulatory Power",
-      "title": "Oil Executives to Meet Trump on Venezuela",
-      "url": "https://www.cbsnews.com",
-      "summary": "Executives from Chevron, ExxonMobil, and ConocoPhillips are scheduled to meet with President Trump to discuss U.S. oil investments in Venezuela following the military capture of Maduro. This meeting underscores the administration's focus on leveraging military actions for economic opportunities in the oil sector.",
-      "why_relevant": "The coordination between military actions and corporate interests raises concerns about the use of state power for private gain, challenging the separation between national security and economic exploitation.",
-      "attacks": [
-        "economy",
-        "global_democracy"
-      ],
-      "_origin_file": "tracker_events_2026-01-10_2026-01-16.json",
-      "_origin_index": 16
-    },
-    {
-      "source_key": "tracker",
-      "date": "2026-01-13",
-      "category": "Economic & Regulatory Power",
-      "title": "Trump seeks control over Federal Reserve",
-      "url": "https://www.nytimes.com",
-      "summary": "President Trump is attempting to exert control over the Federal Reserve by planning to appoint a loyal chair when Jerome Powell's term ends and pursuing the removal of Fed Governor Lisa Cook. The Supreme Court is set to hear arguments on whether Trump can remove Cook, a decision that could impact the Fed's independence.",
-      "why_relevant": "Politicizing the Federal Reserve threatens economic stability and the independence of monetary policy.",
-      "attacks": [
-        "economy",
-        "separation_of_powers"
-      ],
-      "_origin_file": "tracker_events_2026-01-10_2026-01-16.json",
-      "_origin_index": 3
-    },
-    {
-      "source_key": "tracker",
-      "date": "2026-01-13",
-      "category": "Economic & Regulatory Power",
-      "title": "U.S. proposes easing airline penalties",
-      "url": "https://www.reuters.com",
-      "summary": "The Trump administration's Transportation Department proposed new guidance that reduces civil fines for airline consumer protection violations, favoring warning letters and voluntary compliance instead. This follows recent decisions to waive millions in penalties previously imposed on American and Southwest Airlines. The proposal signals a shift away from strict enforcement of passenger protections.",
-      "why_relevant": "The rollback of enforcement measures weakens consumer protections and accountability for corporate misconduct.",
-      "attacks": [
-        "public_service",
-        "economy"
-      ],
-      "_origin_file": "tracker_events_2026-01-10_2026-01-16.json",
-      "_origin_index": 1
-    },
-    {
       "source_key": "popinfo",
       "date": "2026-01-13",
       "category": "Appointments & Patronage",
@@ -2094,21 +1898,6 @@
       ],
       "_origin_file": "popinfo_events_2026-01-10_2026-01-16.json",
       "_origin_index": 5
-    },
-    {
-      "source_key": "tracker",
-      "date": "2026-01-13",
-      "category": "Transparency & Records",
-      "title": "DOJ Releases Less Than 1% of Epstein Files",
-      "url": "https://www.theguardian.com",
-      "summary": "A court filing revealed that the Justice Department has released less than 1% of the Epstein files, despite a federal law mandating public disclosure by December 19. The DOJ cites redactions and review delays, with over two million records still unreleased.",
-      "why_relevant": "The slow release of Epstein files suggests a cover-up to protect individuals connected to the case, undermining transparency and accountability in government.",
-      "attacks": [
-        "transparency",
-        "justice_dept"
-      ],
-      "_origin_file": "tracker_events_2026-01-10_2026-01-16.json",
-      "_origin_index": 20
     },
     {
       "source_key": "meidas",
@@ -2125,99 +1914,6 @@
       "_origin_index": 44
     },
     {
-      "source_key": "tracker",
-      "date": "2026-01-13",
-      "category": "International Relations",
-      "title": "Iran Protests and U.S. Intervention Threats",
-      "url": "https://www.nbcnews.com",
-      "summary": "Protests in Iran over economic issues have led to clashes with security forces, prompting President Trump to threaten U.S. intervention if violence against protesters continues. Iranian officials accuse the U.S. of inciting unrest and warn of potential retaliation.",
-      "why_relevant": "The threat of U.S. intervention in Iran's internal affairs risks escalating tensions and undermines diplomatic efforts, potentially destabilizing the region further.",
-      "attacks": [
-        "peace",
-        "diplomacy"
-      ],
-      "_origin_file": "tracker_events_2026-01-10_2026-01-16.json",
-      "_origin_index": 28
-    },
-    {
-      "source_key": "tracker",
-      "date": "2026-01-13",
-      "category": "International Relations",
-      "title": "Rubio Confirms Trump's Greenland Ambitions",
-      "url": "https://www.nytimes.com",
-      "summary": "Marco Rubio informed lawmakers that President Trump is considering purchasing Greenland and has not ruled out military action. European leaders have rejected U.S. claims, reaffirming Greenland's sovereignty, while the White House maintains that force is an option.",
-      "why_relevant": "The pursuit of territorial acquisition by force undermines international law and could lead to the dissolution of NATO, aligning U.S. policy with aggressive expansionism.",
-      "attacks": [
-        "global_democracy",
-        "allies",
-        "peace"
-      ],
-      "_origin_file": "tracker_events_2026-01-10_2026-01-16.json",
-      "_origin_index": 29
-    },
-    {
-      "source_key": "tracker",
-      "date": "2026-01-13",
-      "category": "International Relations",
-      "title": "Russia Escorts Tanker Near Venezuela",
-      "url": "https://www.reuters.com",
-      "summary": "Russia deployed a submarine to escort an oil tanker near Venezuela, which the U.S. Coast Guard attempted to seize as part of its crackdown on sanctioned vessels. The tanker reflagged as Russian, complicating legal seizure efforts and raising the risk of U.S.–Russia confrontation.",
-      "why_relevant": "The incident highlights the geopolitical tensions surrounding U.S. enforcement actions and Russia's reliance on illicit oil networks, increasing the potential for conflict.",
-      "attacks": [
-        "peace",
-        "global_democracy"
-      ],
-      "_origin_file": "tracker_events_2026-01-10_2026-01-16.json",
-      "_origin_index": 30
-    },
-    {
-      "source_key": "tracker",
-      "date": "2026-01-13",
-      "category": "International Relations",
-      "title": "Stephen Miller Claims U.S. Right to Greenland",
-      "url": "https://www.nytimes.com",
-      "summary": "Stephen Miller stated in a CNN interview that the U.S. has the right to take Greenland by force, dismissing military resistance and threatening a NATO ally. He also claimed U.S. dominance over Venezuela through military and economic control.",
-      "why_relevant": "Miller's statements reflect an imperialist doctrine that disregards international law and alliance commitments, threatening global stability and the integrity of NATO.",
-      "attacks": [
-        "global_democracy",
-        "allies",
-        "peace"
-      ],
-      "_origin_file": "tracker_events_2026-01-10_2026-01-16.json",
-      "_origin_index": 27
-    },
-    {
-      "source_key": "tracker",
-      "date": "2026-01-13",
-      "category": "International Relations",
-      "title": "U.S. seizes Russian-flagged oil tanker",
-      "url": "https://www.npr.org",
-      "summary": "U.S. forces seized a Russian-flagged oil tanker in the North Atlantic, alleging it was bound for Venezuela and attempting to evade U.S. enforcement. The vessel was intercepted amid the administration's campaign to control sanctioned oil flows linked to Venezuela and Russia.",
-      "why_relevant": "The seizure demonstrates U.S. enforcement against illicit oil networks, impacting international trade and geopolitical tensions.",
-      "attacks": [
-        "trade",
-        "global_democracy"
-      ],
-      "_origin_file": "tracker_events_2026-01-10_2026-01-16.json",
-      "_origin_index": 13
-    },
-    {
-      "source_key": "tracker",
-      "date": "2026-01-13",
-      "category": "International Relations",
-      "title": "U.S. to control Venezuelan oil sales",
-      "url": "https://www.wsj.com",
-      "summary": "Trump announced that the U.S. will indefinitely control Venezuelan oil sales, directing the energy secretary to seize blockaded crude and sell it on global markets. The operation follows U.S. military action and Maduro's removal, using oil access as leverage over Venezuela's interim authorities.",
-      "why_relevant": "The seizure of another country's resources without international mandate challenges postwar norms and models imperial resource extraction.",
-      "attacks": [
-        "global_democracy",
-        "trade",
-        "peace"
-      ],
-      "_origin_file": "tracker_events_2026-01-10_2026-01-16.json",
-      "_origin_index": 12
-    },
-    {
       "source_key": "meidas",
       "date": "2026-01-13",
       "category": "Civil–Military Relations & State Violence",
@@ -2231,37 +1927,6 @@
       ],
       "_origin_file": "meidas_events_2026-01-10_2026-01-16.json",
       "_origin_index": 43
-    },
-    {
-      "source_key": "tracker",
-      "date": "2026-01-13",
-      "category": "Civil–Military Relations & State Violence",
-      "title": "FEMA Prepares for Dismissal of 1,000 Workers",
-      "url": "https://www.nytimes.com",
-      "summary": "FEMA supervisors are warning staff of the potential dismissal of 1,000 disaster workers as part of workforce changes pushed by Kristi Noem. Internal documents suggest a broader purge of over 11,500 jobs, affecting disaster response capabilities.",
-      "why_relevant": "The reduction of FEMA's workforce amid ongoing recovery efforts from natural disasters threatens the agency's ability to respond effectively, increasing the risk of prolonged suffering and inadequate aid.",
-      "attacks": [
-        "public_service",
-        "environment"
-      ],
-      "_origin_file": "tracker_events_2026-01-10_2026-01-16.json",
-      "_origin_index": 26
-    },
-    {
-      "source_key": "tracker",
-      "date": "2026-01-13",
-      "category": "Civil–Military Relations & State Violence",
-      "title": "Woman fatally shot by ICE agent in Minnesota",
-      "url": "https://www.theguardian.com",
-      "summary": "A U.S. citizen, Renee Nicole Macklin Good, was fatally shot by an ICE agent during an immigration operation in Minneapolis. Video evidence and eyewitness accounts contradict DHS claims of self-defense, showing her vehicle backing away as an agent fired. Minneapolis Mayor Jacob Frey demanded ICE leave the city.",
-      "why_relevant": "The incident highlights the dangers of federal immigration raids and the use of lethal force without accountability.",
-      "attacks": [
-        "rule_of_law",
-        "minorities",
-        "immigrants_refugees"
-      ],
-      "_origin_file": "tracker_events_2026-01-10_2026-01-16.json",
-      "_origin_index": 10
     },
     {
       "source_key": "democracydocket",
@@ -2334,38 +1999,6 @@
       "attacks": [],
       "_origin_file": "federalregister_events_2026-01-10_2026-01-16.json",
       "_origin_index": 27
-    },
-    {
-      "source_key": "tracker",
-      "date": "2026-01-13",
-      "category": "Public Health",
-      "title": "Trump Misleads on Childhood Vaccinations",
-      "url": "https://apnews.com",
-      "summary": "President Trump falsely claimed that the U.S. requires \"72 jabs\" for children, promoting confusion about vaccine requirements. This follows the administration's rollback of childhood vaccine recommendations, despite no new scientific justification.",
-      "why_relevant": "Disinformation from the administration undermines public trust in health guidance, increasing the risk of disease outbreaks and endangering children's health.",
-      "attacks": [
-        "public_health",
-        "science",
-        "truth"
-      ],
-      "_origin_file": "tracker_events_2026-01-10_2026-01-16.json",
-      "_origin_index": 25
-    },
-    {
-      "source_key": "tracker",
-      "date": "2026-01-13",
-      "category": "Public Memory",
-      "title": "Trump rewrites January 6 history",
-      "url": "https://www.theguardian.com",
-      "summary": "Five years after the January 6 insurrection, Trump and his allies are reshaping its narrative by pardoning insurrectionists, settling a wrongful death suit, dropping cases against participants, and purging DOJ officials involved in prosecutions. Republicans have also blocked a Capitol plaque honoring officers.",
-      "why_relevant": "The erasure of historical accountability for political violence undermines democratic norms and signals tolerance for future insurrections.",
-      "attacks": [
-        "public_memory",
-        "rule_of_law",
-        "constitution"
-      ],
-      "_origin_file": "tracker_events_2026-01-10_2026-01-16.json",
-      "_origin_index": 11
     },
     {
       "source_key": "guardian",
@@ -2442,11 +2075,11 @@
       "category": "Executive Actions & Orders",
       "title": "Establishment of a Second Emergency Board for Long Island Rail Road Disputes",
       "url": "https://ballotpedia.org/Executive_Order:_Establishing_a_Second_Emergency_Board_to_Investigate_Disputes_Between_the_Long_Island_Rail_Road_Company_and_Certain_of_its_Employees_Represented_by_Certain_Labor_Organizations_(Donald_Trump,_2026)",
-      "summary": "On January 14, 2026, President Donald Trump issued an executive order to establish a Second Emergency Board to investigate ongoing disputes between the Long Island Rail Road Company and its employees, represented by various labor organizations. This action follows the termination of a previous board that failed to resolve the disputes. The new board, effective January 16, 2026, will consist of three members appointed by the President and is tasked with investigating and reporting on the disputes within 30 days of receiving final settlement offers from the parties involved.",
-      "why_relevant": "This executive order demonstrates the federal government's intervention in labor disputes, highlighting the role of executive power in managing industrial relations and ensuring continuity in essential services.",
+      "summary": "On January 14, 2026, President Donald Trump issued an executive order to establish a Second Emergency Board to investigate ongoing labor disputes between the Long Island Rail Road Company and its employees, represented by various labor organizations. This action follows the termination of a previous board that failed to resolve the disputes. The new board, effective January 16, 2026, will consist of a chair and two members appointed by the President. It is tasked with investigating the disputes and reporting its findings to the President within 60 days, during which no changes to the disputed conditions are allowed without mutual agreement.",
+      "why_relevant": "This executive order demonstrates the federal government's intervention in labor disputes, highlighting the role of executive power in mediating industrial relations.",
       "attacks": [],
-      "_origin_file": "orders_events_2026-01-10_2026-01-16.json",
-      "_origin_index": 0
+      "_origin_file": "orders_events_2025-01-20_2026-02-01.json",
+      "_origin_index": 6
     },
     {
       "source_key": "congress",
@@ -2652,6 +2285,42 @@
       ],
       "_origin_file": "hcr_events_2026-01-10_2026-01-16.json",
       "_origin_index": 14
+    },
+    {
+      "source_key": "justsecurity",
+      "date": "2026-01-14",
+      "category": "Judicial Developments",
+      "title": "Carolina Migrant Network v. Immigration Customs Enforcement (W.D.N.C.) 3:26-cv-00028 — Case filed",
+      "url": "https://www.courtlistener.com/docket/72141457/carolina-migrant-network-v-immigration-customs-enforcement",
+      "summary": "Case filed Coming soon. On Jan. 14, 2026, two immigrant rights non-profits filed a complaint against ICE alleging FOIA violations arising from ICE’s failure to publish its current Alternatives to Detention (ATD) program guidance or instructions, including an alleged June 9, 2025 memorandum, in the Federal Register.",
+      "why_relevant": "A new legal challenge was filed against a Trump administration action. Court: W.D.N.C.. Docket: 3:26-cv-00028.",
+      "attacks": [],
+      "_origin_file": "justsecurity_events_2026-01-01_2026-03-20.json",
+      "_origin_index": 291
+    },
+    {
+      "source_key": "justsecurity",
+      "date": "2026-01-14",
+      "category": "Judicial Developments",
+      "title": "State of Minnesota v. Noem (D. Minn.) 0:26-cv-00190 — Judge Menendez declined to grant an ex parte TRO without giving the Defendants an opportunity to respond to the motion for injunctive relief and will treat the…",
+      "url": "https://www.courtlistener.com/docket/72132615/state-of-minnesota-v-noem",
+      "summary": "Judge Menendez declined to grant an ex parte TRO without giving the Defendants an opportunity to respond to the motion for injunctive relief and will treat the Plaintiffs' Motion for a Temporary Restraining Order as a Motion for Preliminary Injunction.",
+      "why_relevant": "This tracker update marks a concrete litigation development in an ongoing legal challenge. Court: D. Minn.. Docket: 0:26-cv-00190.",
+      "attacks": [],
+      "_origin_file": "justsecurity_events_2026-01-01_2026-03-20.json",
+      "_origin_index": 14
+    },
+    {
+      "source_key": "justsecurity",
+      "date": "2026-01-14",
+      "category": "Judicial Developments",
+      "title": "State of Washington v. United States Department of Education (W.D. Wash.) 2:25-cv-01228 — The Ninth Circuit granted the Defendants' motion to voluntarily dismiss their appeal.",
+      "url": "https://www.courtlistener.com/docket/70679500/state-of-washington-v-united-states-department-of-education",
+      "summary": "The Ninth Circuit granted the Defendants' motion to voluntarily dismiss their appeal.",
+      "why_relevant": "This tracker update marks a concrete litigation development in an ongoing legal challenge. Court: W.D. Wash.. Docket: 2:25-cv-01228.",
+      "attacks": [],
+      "_origin_file": "justsecurity_events_2026-01-01_2026-03-20.json",
+      "_origin_index": 137
     },
     {
       "source_key": "50501",
@@ -3310,6 +2979,30 @@
       ],
       "_origin_file": "guardian_events_2026-01-10_2026-01-16.json",
       "_origin_index": 23
+    },
+    {
+      "source_key": "justsecurity",
+      "date": "2026-01-15",
+      "category": "Judicial Developments",
+      "title": "Empire Leaseholder LLC v. Burgum (D.D.C.) 1:26-cv-00004 — Judge Nichols granted Plaintiffs' motion for a preliminary injunction and stay.",
+      "url": "https://www.courtlistener.com/docket/72099689/empire-leaseholder-llc-v-burgum",
+      "summary": "Judge Nichols granted Plaintiffs' motion for a preliminary injunction and stay.",
+      "why_relevant": "This tracker update marks a concrete litigation development in an ongoing legal challenge. Court: D.D.C.. Docket: 1:26-cv-00004.",
+      "attacks": [],
+      "_origin_file": "justsecurity_events_2026-01-01_2026-03-20.json",
+      "_origin_index": 89
+    },
+    {
+      "source_key": "justsecurity",
+      "date": "2026-01-15",
+      "category": "Judicial Developments",
+      "title": "Victim Rights Law Center v. United States Department of Education (D. Mass.) 1:25-cv-11042 — The First Circuit dismissed the appeal.",
+      "url": "https://www.courtlistener.com/docket/69921190/victim-rights-law-center-v-united-states-department-of-education",
+      "summary": "The First Circuit dismissed the appeal.",
+      "why_relevant": "This tracker update marks a concrete litigation development in an ongoing legal challenge. Court: D. Mass.. Docket: 1:25-cv-11042.",
+      "attacks": [],
+      "_origin_file": "justsecurity_events_2026-01-01_2026-03-20.json",
+      "_origin_index": 317
     },
     {
       "source_key": "meidas",
@@ -4041,6 +3734,114 @@
       ],
       "_origin_file": "guardian_events_2026-01-10_2026-01-16.json",
       "_origin_index": 3
+    },
+    {
+      "source_key": "justsecurity",
+      "date": "2026-01-16",
+      "category": "Judicial Developments",
+      "title": "City of Fresno v. Turner (N.D. Cal.) 3:25-cv-07070 — After Defendants appealed the court's grant of the Plaintiffs' preliminary injunction, the Ninth Circuit filed an order granting Defendants' unopposed motion to…",
+      "url": "https://www.courtlistener.com/docket/71160717/city-of-fresno-v-turner",
+      "summary": "After Defendants appealed the court's grant of the Plaintiffs' preliminary injunction, the Ninth Circuit filed an order granting Defendants' unopposed motion to hold the case in abeyance pending the Ninth Circuit's resolution of the appeal in County of King v. Turner , No. 25-3664 (9th Cir.).",
+      "why_relevant": "This tracker update marks a concrete litigation development in an ongoing legal challenge. Court: N.D. Cal.. Docket: 3:25-cv-07070.",
+      "attacks": [],
+      "_origin_file": "justsecurity_events_2026-01-01_2026-03-20.json",
+      "_origin_index": 177
+    },
+    {
+      "source_key": "justsecurity",
+      "date": "2026-01-16",
+      "category": "Judicial Developments",
+      "title": "Comans v. Department of Homeland Security (D.D.C.) 1:25-cv-00624 — The parties filed a joint status report in which they disclosed that Defendants have produced Plaintiff's personnel file and intend to move to dismiss on the gr…",
+      "url": "https://www.courtlistener.com/docket/69702272/comans-v-department-of-homeland-security",
+      "summary": "The parties filed a joint status report in which they disclosed that Defendants have produced Plaintiff's personnel file and intend to move to dismiss on the ground that the only disclosed information-her termination-does not violate the Privacy Act. Plaintiff disputes the need for a motion to dismiss and instead seeks limited, targeted discovery into the origin of the allegedly unlawful disclosures, including potential statements by FEMA/DHS public affairs officials, and requested a status conference to discuss a discovery schedule.",
+      "why_relevant": "This tracker update marks a concrete litigation development in an ongoing legal challenge. Court: D.D.C.. Docket: 1:25-cv-00624.",
+      "attacks": [],
+      "_origin_file": "justsecurity_events_2026-01-01_2026-03-20.json",
+      "_origin_index": 329
+    },
+    {
+      "source_key": "justsecurity",
+      "date": "2026-01-16",
+      "category": "Judicial Developments",
+      "title": "Council for Opportunity in Education v. U.S. Department of Education (D.D.C.) 1:25-cv-03491 — Judge Chutkan granted preliminary injunctions blocking the Department of Education from denying and discontinuing certain grants based on alleged anti-DEI and c…",
+      "url": "https://www.courtlistener.com/docket/71495173/council-for-opportunity-in-education-v-us-department-of-education",
+      "summary": "Judge Chutkan granted preliminary injunctions blocking the Department of Education from denying and discontinuing certain grants based on alleged anti-DEI and civil rights conflicts, finding the actions likely arbitrary and capricious and contrary to law under the APA and ordering reconsideration.",
+      "why_relevant": "This tracker update marks a concrete litigation development in an ongoing legal challenge. Court: D.D.C.. Docket: 1:25-cv-03491.",
+      "attacks": [],
+      "_origin_file": "justsecurity_events_2026-01-01_2026-03-20.json",
+      "_origin_index": 149
+    },
+    {
+      "source_key": "justsecurity",
+      "date": "2026-01-16",
+      "category": "Judicial Developments",
+      "title": "Council for Opportunity in Education v. U.S. Department of Education (D.D.C.) 1:25-cv-03514 — Judge Chutkan granted preliminary injunctions blocking the Department of Education from denying and discontinuing certain grants based on alleged anti-DEI and c…",
+      "url": "https://www.courtlistener.com/docket/71506962/council-for-opportunity-in-education-v-us-department-of-education",
+      "summary": "Judge Chutkan granted preliminary injunctions blocking the Department of Education from denying and discontinuing certain grants based on alleged anti-DEI and civil rights conflicts, finding the actions likely arbitrary and capricious and contrary to law under the APA and ordering reconsideration.",
+      "why_relevant": "This tracker update marks a concrete litigation development in an ongoing legal challenge. Court: D.D.C.. Docket: 1:25-cv-03514.",
+      "attacks": [],
+      "_origin_file": "justsecurity_events_2026-01-01_2026-03-20.json",
+      "_origin_index": 150
+    },
+    {
+      "source_key": "justsecurity",
+      "date": "2026-01-16",
+      "category": "Judicial Developments",
+      "title": "Fairfax County School Board v. McMahon (E.D. Va.) 1:25-cv-01432 — The Fourth Circuit denied a motion to intervene in consolidated appeals brought by the Arlington and Fairfax County School Boards against the U.S. Department of…",
+      "url": "https://www.courtlistener.com/docket/71230470/fairfax-county-school-board-v-mcmahon-in-her-official-capacity-as-us",
+      "summary": "The Fourth Circuit denied a motion to intervene in consolidated appeals brought by the Arlington and Fairfax County School Boards against the U.S. Department of Education.",
+      "why_relevant": "This tracker update marks a concrete litigation development in an ongoing legal challenge. Court: E.D. Va.. Docket: 1:25-cv-01432.",
+      "attacks": [],
+      "_origin_file": "justsecurity_events_2026-01-01_2026-03-20.json",
+      "_origin_index": 144
+    },
+    {
+      "source_key": "justsecurity",
+      "date": "2026-01-16",
+      "category": "Judicial Developments",
+      "title": "Freedom of the Press Foundation v. U.S. Department of Homeland Security (D.D.C.) 1:25-cv-03387 — The court granted Defendants' motion to stay the case.",
+      "url": "https://www.courtlistener.com/docket/71444462/freedom-of-the-press-foundation-v-united-states-department-of-homeland",
+      "summary": "The court granted Defendants' motion to stay the case.",
+      "why_relevant": "This tracker update marks a concrete litigation development in an ongoing legal challenge. Court: D.D.C.. Docket: 1:25-cv-03387.",
+      "attacks": [],
+      "_origin_file": "justsecurity_events_2026-01-01_2026-03-20.json",
+      "_origin_index": 390
+    },
+    {
+      "source_key": "justsecurity",
+      "date": "2026-01-16",
+      "category": "Judicial Developments",
+      "title": "Stanford Daily Publishing Corporation v. Rubio (N.D. Cal.) 5:25-cv-06618 — The court denied the government's motion to dismiss, holding that the plaintiffs plausibly alleged standing based on credible threats of visa revocation and dep…",
+      "url": "https://www.courtlistener.com/docket/71038037/stanford-daily-publishing-corporation-v-rubio/?order_by=desc",
+      "summary": "The court denied the government's motion to dismiss, holding that the plaintiffs plausibly alleged standing based on credible threats of visa revocation and deportation that chilled their pro-Palestinian speech in violation of the First and Fifth amendments.",
+      "why_relevant": "This tracker update marks a concrete litigation development in an ongoing legal challenge. Court: N.D. Cal.. Docket: 5:25-cv-06618.",
+      "attacks": [],
+      "_origin_file": "justsecurity_events_2026-01-01_2026-03-20.json",
+      "_origin_index": 281
+    },
+    {
+      "source_key": "justsecurity",
+      "date": "2026-01-16",
+      "category": "Judicial Developments",
+      "title": "State of Minnesota v. Noem (D. Minn.) 0:26-cv-00190 — Minnesota Attorney General moved to convert Plaintiffs' motion for a TRO to a motion for a preliminary injunction, citing extraordinary circumstances, including…",
+      "url": "https://www.courtlistener.com/docket/72132615/state-of-minnesota-v-noem",
+      "summary": "Minnesota Attorney General moved to convert Plaintiffs' motion for a TRO to a motion for a preliminary injunction, citing extraordinary circumstances, including the president's public threat on X to invoke the Insurrection Act and a Jan. 14, 2026 incident in which DHS agents allegedly shot a man in the leg during a traffic stop.",
+      "why_relevant": "This tracker update marks a concrete litigation development in an ongoing legal challenge. Court: D. Minn.. Docket: 0:26-cv-00190.",
+      "attacks": [],
+      "_origin_file": "justsecurity_events_2026-01-01_2026-03-20.json",
+      "_origin_index": 15
+    },
+    {
+      "source_key": "justsecurity",
+      "date": "2026-01-16",
+      "category": "Judicial Developments",
+      "title": "Tincher v. Noem (D. Minn.) 0:25-cv-04669 — Judge Menendez granted Plaintiffs' motion in part, prohibiting federal agents from arresting, threatening, or using force against individuals solely for observi…",
+      "url": "https://www.courtlistener.com/docket/72047643/tincher-v-noem",
+      "summary": "Judge Menendez granted Plaintiffs' motion in part, prohibiting federal agents from arresting, threatening, or using force against individuals solely for observing, recording, or verbally criticizing immigration enforcement activity, absent probable cause or a lawful order to disperse. The court also restricted the use of chemical irritants and other force against non-violent observers and imposed limits on vehicle stops.",
+      "why_relevant": "This tracker update marks a concrete litigation development in an ongoing legal challenge. Court: D. Minn.. Docket: 0:25-cv-04669.",
+      "attacks": [],
+      "_origin_file": "justsecurity_events_2026-01-01_2026-03-20.json",
+      "_origin_index": 28
     },
     {
       "source_key": "50501",

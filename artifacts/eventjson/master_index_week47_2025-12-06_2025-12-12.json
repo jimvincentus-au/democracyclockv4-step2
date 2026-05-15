@@ -5,27 +5,27 @@
   },
   "week_number": 47,
   "sources": [
-    "democracydocket",
+    "50501",
     "noah",
     "guardian",
-    "outloud",
-    "meidas",
-    "50501",
     "popinfo",
-    "federalregister",
-    "orders",
+    "meidas",
+    "outloud",
+    "congress",
     "hcr",
-    "congress"
+    "orders",
+    "democracydocket",
+    "federalregister"
   ],
   "counts": {
-    "total": 232,
+    "total": 233,
     "by_date": {
       "2025-12-06": 15,
       "2025-12-07": 16,
       "2025-12-08": 46,
       "2025-12-09": 35,
       "2025-12-10": 29,
-      "2025-12-11": 59,
+      "2025-12-11": 60,
       "2025-12-12": 32
     },
     "by_source": {
@@ -35,7 +35,7 @@
       "noah": 15,
       "democracydocket": 1,
       "meidas": 23,
-      "50501": 12,
+      "50501": 13,
       "outloud": 7,
       "popinfo": 13,
       "federalregister": 52,
@@ -50,7 +50,7 @@
       "Civil–Military Relations & State Violence": 8,
       "Elections & Representation": 13,
       "Economic & Regulatory Power": 73,
-      "Civil Society & Protest": 9,
+      "Civil Society & Protest": 10,
       "Information & Media Control": 10,
       "Transparency & Records": 4,
       "Appointments & Patronage": 2,
@@ -141,11 +141,11 @@
       "category": "Executive Actions & Orders",
       "title": "Executive Order on Food Supply Chain Security",
       "url": "https://ballotpedia.org/Executive_Order:_Addressing_Security_Risks_From_Price_Fixing_and_Anti-Competitive_Behavior_in_the_Food_Supply_Chain_(Donald_Trump,_2025)",
-      "summary": "On December 6, 2025, President Donald Trump issued an executive order to address security risks from price fixing and anti-competitive behavior in the food supply chain. The order mandates the creation of Food Supply Chain Security Task Forces within the Department of Justice and the Federal Trade Commission. These task forces are tasked with investigating anti-competitive practices in food-related industries, particularly those involving foreign-controlled companies, and taking necessary actions to remedy such behavior. The order aims to protect the affordability and security of the U.S. food supply by addressing potential national security threats.",
+      "summary": "On December 6, 2025, President Donald Trump issued an executive order to address security risks from price fixing and anti-competitive behavior in the food supply chain. The order mandates the creation of Food Supply Chain Security Task Forces within the Department of Justice and the Federal Trade Commission. These task forces are tasked with investigating anti-competitive practices in food-related industries, particularly those involving foreign-controlled companies, and taking necessary actions to remedy such behavior. The order aims to protect competition and ensure the affordability and security of the U.S. food supply.",
       "why_relevant": "This executive order is significant as it seeks to safeguard the U.S. food supply chain from anti-competitive practices, which could impact national and economic security.",
       "attacks": [],
-      "_origin_file": "orders_events_2025-12-06_2025-12-12.json",
-      "_origin_index": 2
+      "_origin_file": "orders_events_2025-01-20_2026-02-01.json",
+      "_origin_index": 17
     },
     {
       "source_key": "guardian",
@@ -2120,14 +2120,14 @@
       "category": "Executive Actions & Orders",
       "title": "Executive Order on National AI Policy Framework",
       "url": "https://ballotpedia.org/Executive_Order:_Ensuring_a_National_Policy_Framework_for_Artificial_Intelligence_(Donald_Trump,_2025)",
-      "summary": "On December 11, 2025, President Donald Trump issued an executive order to establish a national policy framework for artificial intelligence (AI). The order aims to enhance U.S. global AI dominance by creating a minimally burdensome national standard, preempting conflicting state laws. It mandates the creation of an AI Litigation Task Force to challenge state AI laws that hinder innovation and interstate commerce. The order also calls for evaluations of state AI laws and conditions state funding on compliance with the national policy. The goal is to prevent a fragmented regulatory landscape and ensure U.S. leadership in AI technology.",
-      "why_relevant": "This executive order centralizes AI regulation at the federal level, impacting state autonomy and shaping the future of AI innovation and governance in the U.S.",
+      "summary": "On December 11, 2025, President Donald Trump issued an executive order to establish a national policy framework for artificial intelligence (AI). The order aims to enhance U.S. global AI dominance by creating a minimally burdensome national standard, preempting conflicting state laws. It mandates the creation of an AI Litigation Task Force to challenge state AI laws that are inconsistent with federal policy. The order also calls for an evaluation of state AI laws and sets conditions for state eligibility for federal funding based on compliance with the national framework. The order seeks to prevent state regulations that could hinder AI innovation and interstate commerce.",
+      "why_relevant": "This executive order centralizes AI policy, potentially overriding state laws, impacting innovation, and shaping the regulatory landscape for AI development in the U.S.",
       "attacks": [
         "separation_of_powers",
         "rule_of_law"
       ],
-      "_origin_file": "orders_events_2025-12-06_2025-12-12.json",
-      "_origin_index": 1
+      "_origin_file": "orders_events_2025-01-20_2026-02-01.json",
+      "_origin_index": 16
     },
     {
       "source_key": "orders",
@@ -2136,14 +2136,13 @@
       "title": "Executive Order on Proxy Advisors",
       "url": "https://ballotpedia.org/Executive_Order:_Protecting_American_Investors_From_Foreign-Owned_and_Politically-Motivated_Proxy_Advisors_(Donald_Trump,_2025)",
       "summary": "On December 11, 2025, President Donald Trump issued an executive order aimed at increasing oversight of foreign-owned proxy advisors, Institutional Shareholder Services Inc. and Glass, Lewis & Co., LLC. The order directs the Securities and Exchange Commission (SEC) to review and potentially revise regulations related to proxy advisors, particularly those involving \"diversity, equity, and inclusion\" and \"environmental, social, and governance\" policies. It also mandates the Federal Trade Commission (FTC) to investigate potential antitrust violations by these firms. The order seeks to protect American investors by promoting transparency and accountability in the proxy advisor industry.",
-      "why_relevant": "This executive order impacts corporate governance and investor protection by addressing the influence of foreign-owned proxy advisors on U.S. companies.",
+      "why_relevant": "This executive order impacts corporate governance and investor protection by addressing the influence of foreign-owned proxy advisors on U.S. companies, potentially affecting shareholder voting and investment strategies.",
       "attacks": [
         "economy",
-        "transparency",
-        "rule_of_law"
+        "information"
       ],
-      "_origin_file": "orders_events_2025-12-06_2025-12-12.json",
-      "_origin_index": 0
+      "_origin_file": "orders_events_2025-01-20_2026-02-01.json",
+      "_origin_index": 15
     },
     {
       "source_key": "popinfo",
@@ -2406,6 +2405,21 @@
       ],
       "_origin_file": "popinfo_events_2025-12-06_2025-12-12.json",
       "_origin_index": 0
+    },
+    {
+      "source_key": "50501",
+      "date": "2025-12-11",
+      "category": "Civil Society & Protest",
+      "title": "New analysis reveals local jails' role in ICE arrests",
+      "url": "https://www.prisonpolicy.org/blog/2025/12/11/ice-jails-update/",
+      "summary": "A new analysis by the Prison Policy Initiative, based on data from the Deportation Data Project, reveals that 48% of ICE arrests in 2025 occurred through local jail cooperation. This means individuals were handed over to ICE by local law enforcement after being arrested for unrelated charges, rather than being directly apprehended by federal agents. The data highlights the significant role local policies play in immigration enforcement, with states mandating cooperation with ICE showing higher arrest rates compared to those restricting ICE access. This underscores the impact of local and state policy decisions on the deportation system.",
+      "why_relevant": "The findings demonstrate how local and state policies can significantly influence federal immigration enforcement, affecting due process and individual liberties.",
+      "attacks": [
+        "immigrants_refugees",
+        "rule_of_law"
+      ],
+      "_origin_file": "50501_events_2026-02-07_2026-02-13.json",
+      "_origin_index": 8
     },
     {
       "source_key": "outloud",

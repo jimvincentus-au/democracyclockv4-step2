@@ -5,23 +5,23 @@
   },
   "week_number": 46,
   "sources": [
-    "democracydocket",
+    "50501",
     "noah",
     "guardian",
-    "outloud",
-    "meidas",
-    "50501",
     "popinfo",
-    "federalregister",
+    "meidas",
+    "outloud",
+    "congress",
     "hcr",
-    "congress"
+    "democracydocket",
+    "federalregister"
   ],
   "counts": {
-    "total": 236,
+    "total": 235,
     "by_date": {
       "2025-11-29": 10,
       "2025-11-30": 23,
-      "2025-12-01": 41,
+      "2025-12-01": 40,
       "2025-12-02": 30,
       "2025-12-03": 45,
       "2025-12-04": 44,
@@ -29,7 +29,7 @@
     },
     "by_source": {
       "hcr": 33,
-      "guardian": 84,
+      "guardian": 83,
       "meidas": 38,
       "democracydocket": 1,
       "noah": 11,
@@ -48,7 +48,7 @@
       "International Relations": 14,
       "Civil–Military Relations & State Violence": 20,
       "Judicial Developments": 20,
-      "Elections & Representation": 9,
+      "Elections & Representation": 8,
       "Economic & Regulatory Power": 65,
       "Transparency & Records": 9,
       "Appointments & Patronage": 1,
@@ -690,18 +690,6 @@
       ],
       "_origin_file": "outloud_events_2025-11-29_2025-12-05.json",
       "_origin_index": 0
-    },
-    {
-      "source_key": "guardian",
-      "date": "2025-12-01",
-      "category": "Elections & Representation",
-      "title": "Over 95 Candidates Submit Paperwork for California Governor's Race",
-      "url": "https://www.theguardian.com/us-news/2025/dec/01/california-governor-candidates-democrats-republicans",
-      "summary": "",
-      "why_relevant": "The large number of candidates and the open field highlight the dynamic nature of electoral competition in California, impacting democratic representation.",
-      "attacks": [],
-      "_origin_file": "guardian_events_2025-11-29_2025-12-05.json",
-      "_origin_index": 69
     },
     {
       "source_key": "guardian",

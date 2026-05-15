@@ -5,18 +5,19 @@
   },
   "week_number": 48,
   "sources": [
-    "democracydocket",
-    "noah",
-    "guardian",
-    "outloud",
     "50501",
-    "meidas",
-    "popinfo",
-    "federalregister",
-    "orders",
-    "hcr",
+    "noah",
     "zeteo",
-    "congress"
+    "guardian",
+    "popinfo",
+    "shadow",
+    "meidas",
+    "congress",
+    "outloud",
+    "hcr",
+    "orders",
+    "democracydocket",
+    "federalregister"
   ],
   "counts": {
     "total": 338,
@@ -31,7 +32,7 @@
     },
     "by_source": {
       "guardian": 71,
-      "democracydocket": 2,
+      "democracydocket": 1,
       "hcr": 20,
       "50501": 18,
       "zeteo": 49,
@@ -41,6 +42,7 @@
       "popinfo": 11,
       "federalregister": 67,
       "congress": 41,
+      "shadow": 1,
       "outloud": 5
     },
     "by_category": {
@@ -480,13 +482,10 @@
       "title": "Executive Order Designating Fentanyl as a Weapon of Mass Destruction",
       "url": "https://ballotpedia.org/Executive_Order:_Designating_Fentanyl_as_a_Weapon_of_Mass_Destruction_(Donald_Trump,_2025)",
       "summary": "On December 15, 2025, President Donald Trump issued an executive order designating illicit fentanyl and its core precursor chemicals as Weapons of Mass Destruction (WMD). The order mandates various federal departments, including the Department of Justice and the Department of Homeland Security, to take actions against the manufacture, distribution, and sale of fentanyl. This includes pursuing criminal charges, financial sanctions, and updating military directives to address the threat posed by fentanyl. The order aims to combat the national security threat and lawlessness associated with fentanyl trafficking.",
-      "why_relevant": "This executive order significantly expands the federal government's approach to combating fentanyl, treating it as a national security threat akin to chemical weapons, which could have broad implications for law enforcement and international relations.",
-      "attacks": [
-        "public_health",
-        "rule_of_law"
-      ],
-      "_origin_file": "orders_events_2025-12-13_2025-12-19.json",
-      "_origin_index": 4
+      "why_relevant": "This executive order represents a significant policy shift by categorizing fentanyl as a WMD, which could lead to increased federal enforcement and international cooperation to combat its trafficking and associated criminal activities.",
+      "attacks": [],
+      "_origin_file": "orders_events_2025-01-20_2026-02-01.json",
+      "_origin_index": 14
     },
     {
       "source_key": "zeteo",
@@ -2794,11 +2793,11 @@
       "category": "Executive Actions & Orders",
       "title": "Executive Order Closing Federal Government on December 24 and 26, 2025",
       "url": "https://ballotpedia.org/Executive_Order:_Providing_for_the_Closing_of_Executive_Departments_and_Agencies_of_the_Federal_Government_on_December_24,_2025,_and_December_26,_2025_(Donald_Trump,_2025)",
-      "summary": "On December 18, 2025, President Donald Trump issued an executive order closing all executive departments and agencies of the federal government on December 24 and December 26, 2025. This order allows for certain offices to remain open if necessary for national security, defense, or other public needs. The order also aligns these dates with existing statutes regarding federal employee pay and leave. The Director of the Office of Personnel Management is tasked with implementing the order, ensuring it is consistent with applicable laws and budgetary constraints.",
-      "why_relevant": "This executive order affects federal government operations and employee schedules, impacting public access to government services during the holiday period.",
+      "summary": "On December 18, 2025, President Donald Trump issued an executive order mandating the closure of all executive departments and agencies of the federal government on December 24 and December 26, 2025. This order allows for certain offices to remain open if necessary for national security, defense, or other public needs. The order also aligns these dates with existing statutes regarding federal employee pay and leave. The Director of the Office of Personnel Management is tasked with implementing the order.",
+      "why_relevant": "This executive order affects federal operations and employee schedules, impacting government service availability during the holiday period.",
       "attacks": [],
-      "_origin_file": "orders_events_2025-12-13_2025-12-19.json",
-      "_origin_index": 2
+      "_origin_file": "orders_events_2025-01-20_2026-02-01.json",
+      "_origin_index": 12
     },
     {
       "source_key": "orders",
@@ -2806,23 +2805,23 @@
       "category": "Executive Actions & Orders",
       "title": "Executive Order on Adjustments of Certain Rates of Pay",
       "url": "https://ballotpedia.org/Executive_Order:_Adjustments_of_Certain_Rates_of_Pay_(Donald_Trump,_2025)",
-      "summary": "On December 18, 2025, President Donald Trump issued an executive order titled \"Adjustments of Certain Rates of Pay.\" This order modifies the rates of basic pay for various federal pay systems, including the General Schedule, Foreign Service Schedule, and Veterans Health Administration, among others. It also addresses pay rates for senior executives, certain executive, legislative, and judicial positions, and members of the uniformed services. The order includes provisions for locality-based comparability payments and sets effective dates for these adjustments, with most changes taking effect on or after January 1, 2026. The order supersedes a previous executive order from December 23, 2024.",
-      "why_relevant": "This executive order impacts the compensation structure for federal employees, affecting government operations and budget allocations.",
+      "summary": "On December 18, 2025, President Donald Trump issued an executive order adjusting the rates of pay for various federal pay systems. The order affects the General Schedule, Foreign Service Schedule, Veterans Health Administration, Senior Executive Service, and other executive, legislative, and judicial salaries. It also includes adjustments for uniformed services and locality-based comparability payments. The order supersedes a previous order from December 23, 2024, and sets new pay rates effective January 1, 2026, or the first applicable pay period thereafter.",
+      "why_relevant": "This executive order directly impacts the compensation structure for federal employees, affecting government operations and budget allocations.",
       "attacks": [],
-      "_origin_file": "orders_events_2025-12-13_2025-12-19.json",
-      "_origin_index": 0
+      "_origin_file": "orders_events_2025-01-20_2026-02-01.json",
+      "_origin_index": 10
     },
     {
       "source_key": "orders",
       "date": "2025-12-18",
       "category": "Executive Actions & Orders",
-      "title": "Executive Order on Medical Marijuana and Cannabidiol Research",
+      "title": "Executive Order to Increase Medical Marijuana and Cannabidiol Research",
       "url": "https://ballotpedia.org/Executive_Order:_Increasing_Medical_Marijuana_and_Cannabidiol_Research_(Donald_Trump,_2025)",
-      "summary": "On December 18, 2025, President Donald Trump issued an executive order to increase research on medical marijuana and cannabidiol (CBD). The order directs the Attorney General to expedite the rescheduling of marijuana from Schedule I to Schedule III under the Controlled Substances Act, facilitating research and access. It also mandates collaboration with Congress to update regulations on hemp-derived cannabinoid products, ensuring safe access to full-spectrum CBD. The order aims to bridge the gap between current medical use and scientific understanding, particularly for chronic pain management and other medical conditions.",
-      "why_relevant": "This executive order represents a significant shift in federal drug policy, potentially expanding medical research and access to cannabis-based treatments.",
+      "summary": "On December 18, 2025, President Donald Trump issued an executive order to enhance research on medical marijuana and cannabidiol (CBD). The order directs the Attorney General to expedite the rescheduling of marijuana to Schedule III of the Controlled Substances Act, facilitating research and access. It also mandates collaboration with Congress to update regulations on hemp-derived cannabinoid products, ensuring safe access to full-spectrum CBD. The order aims to bridge the gap between current medical use and scientific understanding, particularly for chronic pain management and other medical conditions.",
+      "why_relevant": "This executive order represents a significant shift in federal drug policy, potentially expanding medical research and access to marijuana and CBD, impacting healthcare and regulatory frameworks.",
       "attacks": [],
-      "_origin_file": "orders_events_2025-12-13_2025-12-19.json",
-      "_origin_index": 3
+      "_origin_file": "orders_events_2025-01-20_2026-02-01.json",
+      "_origin_index": 13
     },
     {
       "source_key": "orders",
@@ -2833,8 +2832,8 @@
       "summary": "On December 18, 2025, President Donald Trump issued an executive order titled \"Ensuring American Space Superiority.\" The order outlines a comprehensive space policy aimed at extending U.S. leadership in space exploration, securing national and economic security interests, and fostering a vibrant commercial space economy. Key initiatives include returning Americans to the Moon by 2028, establishing a permanent lunar outpost by 2030, and developing next-generation missile defense technologies. The order also emphasizes the importance of international cooperation and commercial partnerships to achieve these goals.",
       "why_relevant": "This executive order sets a strategic direction for U.S. space policy, impacting national security, economic growth, and international collaboration in space exploration.",
       "attacks": [],
-      "_origin_file": "orders_events_2025-12-13_2025-12-19.json",
-      "_origin_index": 1
+      "_origin_file": "orders_events_2025-01-20_2026-02-01.json",
+      "_origin_index": 11
     },
     {
       "source_key": "50501",
@@ -4131,18 +4130,6 @@
       "_origin_index": 2
     },
     {
-      "source_key": "democracydocket",
-      "date": "2025-12-19",
-      "category": "Judicial Developments",
-      "title": "DOJ files lawsuit against multiple states over voter roll maintenance",
-      "url": "https://www.democracydocket.com/analysis/as-doj-sues-more-states-for-voter-rolls-federal-power-grab-comes-into-focus/",
-      "summary": "The Department of Justice (DOJ) has filed a lawsuit against several states, alleging that they have failed to properly maintain their voter rolls in compliance with federal law. The lawsuit claims that these states have not removed ineligible voters from their rolls, which could lead to inaccuracies in voter registration lists. The DOJ's action is part of a broader effort to ensure that states adhere to federal voting laws and maintain accurate voter registration records. The outcome of this lawsuit could have significant implications for how states manage their voter rolls in the future.",
-      "why_relevant": "This lawsuit by the DOJ is significant as it addresses the enforcement of federal voting laws and the accuracy of voter registration lists, which are crucial for fair and transparent elections.",
-      "attacks": [],
-      "_origin_file": "democracydocket_events_2025-01-25_2026-01-30.json",
-      "_origin_index": 50
-    },
-    {
       "source_key": "guardian",
       "date": "2025-12-19",
       "category": "Judicial Developments",
@@ -4189,6 +4176,21 @@
       ],
       "_origin_file": "guardian_events_2025-12-13_2025-12-19.json",
       "_origin_index": 5
+    },
+    {
+      "source_key": "shadow",
+      "date": "2025-12-19",
+      "category": "Judicial Developments",
+      "title": "Supreme Court Denies Stay in Margolin v. National Association of Immigration Judges",
+      "url": "https://ballotpedia.org/Supreme_Court_emergency_orders_related_to_the_Trump_administration,_2025#Margolin_v._National_Association_of_Immigration_Judges",
+      "summary": "On December 19, 2025, the Supreme Court denied the federal government's request for a stay in the case of Margolin v. National Association of Immigration Judges. The case involved a challenge by the National Association of Immigration Judges against a rule that barred immigration judges from speaking in their personal capacities about immigration and their employing agency. The Fourth Circuit had remanded the case back to the trial court, citing concerns about the functioning of the Civil Service Reform Act's adjudicatory scheme. The Supreme Court's denial means the appeals court's order remains in effect, allowing the case to proceed in the lower court.",
+      "why_relevant": "This decision affects the ability of immigration judges to speak publicly, impacting transparency and the independence of the judiciary.",
+      "attacks": [
+        "courts",
+        "information"
+      ],
+      "_origin_file": "shadow_events_2025-01-20_2026-02-01.json",
+      "_origin_index": 1
     },
     {
       "source_key": "guardian",

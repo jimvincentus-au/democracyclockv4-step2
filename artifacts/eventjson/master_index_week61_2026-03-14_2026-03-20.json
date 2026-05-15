@@ -5,57 +5,56 @@
   },
   "week_number": 61,
   "sources": [
-    "hcr",
-    "outloud",
-    "popinfo",
-    "justsecurity",
-    "democracydocket",
-    "orders",
     "noah",
-    "guardian",
-    "meidas",
     "zeteo",
+    "guardian",
+    "popinfo",
+    "democracydocket",
+    "outloud",
+    "meidas",
+    "hcr",
+    "orders",
+    "justsecurity",
     "federalregister"
   ],
   "counts": {
-    "total": 279,
+    "total": 273,
     "by_date": {
       "2026-03-14": 44,
-      "2026-03-15": 17,
-      "2026-03-16": 47,
-      "2026-03-17": 39,
-      "2026-03-18": 54,
-      "2026-03-19": 52,
-      "2026-03-20": 26
+      "2026-03-15": 18,
+      "2026-03-16": 48,
+      "2026-03-17": 34,
+      "2026-03-18": 57,
+      "2026-03-19": 49,
+      "2026-03-20": 23
     },
     "by_source": {
-      "hcr": 41,
-      "guardian": 80,
-      "justsecurity": 36,
-      "democracydocket": 12,
+      "hcr": 44,
+      "guardian": 85,
+      "justsecurity": 17,
+      "democracydocket": 10,
       "outloud": 5,
-      "meidas": 53,
+      "meidas": 58,
       "zeteo": 7,
       "orders": 1,
+      "federalregister": 30,
       "popinfo": 10,
-      "noah": 6,
-      "federalregister": 28
+      "noah": 6
     },
     "by_category": {
-      "Legislative & Oversight Activity": 31,
-      "Judicial Developments": 59,
-      "Law Enforcement & Surveillance": 23,
-      "Elections & Representation": 14,
-      "Civil Society & Protest": 9,
+      "Legislative & Oversight Activity": 32,
+      "Judicial Developments": 42,
+      "Law Enforcement & Surveillance": 24,
+      "Elections & Representation": 13,
+      "Civil Society & Protest": 12,
       "Information & Media Control": 19,
-      "Economic & Regulatory Power": 35,
-      "Transparency & Records": 9,
-      "International Relations": 39,
-      "Civil–Military Relations & State Violence": 16,
+      "Economic & Regulatory Power": 38,
+      "Transparency & Records": 8,
+      "International Relations": 45,
+      "Civil–Military Relations & State Violence": 17,
       "Executive Actions & Orders": 9,
       "Appointments & Patronage": 10,
-      "Separation of Powers": 1,
-      "Voting rights / Courts / Democracy protection": 3,
+      "Voting rights / Courts / Democracy protection": 2,
       "Public Health & Welfare": 2
     }
   },
@@ -103,22 +102,6 @@
       ],
       "_origin_file": "guardian_events_2026-03-14_2026-03-20.json",
       "_origin_index": 73
-    },
-    {
-      "source_key": "justsecurity",
-      "date": "2026-03-14",
-      "category": "Judicial Developments",
-      "title": "Complaint filed — Doe v. Noem",
-      "url": "https://www.courtlistener.com/docket/72493533/doe-v-noem/",
-      "summary": "On March 14, 2026, Yemeni nationals with Temporary Protected Status (TPS) or pending applications filed a class action lawsuit against the Department of Homeland Security (DHS) and Immigration and Customs Enforcement (ICE) in the Southern District of New York. The complaint challenges the termination of TPS for Yemen, alleging violations of the Administrative Procedure Act and discrimination based on race, ethnicity, religion, and national origin, in violation of the Fifth Amendment. The plaintiffs seek declaratory and injunctive relief to prevent the termination set for May 4, 2026.",
-      "why_relevant": "Litigation over Trump administration actions affects judicial review, executive power, rights enforcement, and the rule of law.",
-      "attacks": [
-        "immigrants_refugees",
-        "minorities",
-        "rule_of_law"
-      ],
-      "_origin_file": "justsecurity_events_2026-03-14_2026-03-20.json",
-      "_origin_index": 23
     },
     {
       "source_key": "justsecurity",
@@ -296,6 +279,20 @@
       ],
       "_origin_file": "hcr_events_2026-03-14_2026-03-20.json",
       "_origin_index": 36
+    },
+    {
+      "source_key": "hcr",
+      "date": "2026-03-14",
+      "category": "Information & Media Control",
+      "title": "Trump denied Ukraine's assistance with drone defense",
+      "url": "https://www.nytimes.com/2026/03/09/world/middleeast/ukraine-shahed-drone-middle-east.html",
+      "summary": "President Donald J. Trump publicly denied that Ukraine was providing assistance to the U.S. with drone defense during a phone call on Fox Radio. He claimed that the U.S. has superior knowledge and capabilities regarding drones.",
+      "why_relevant": "Trump's denial of Ukraine's support may impact public perception and understanding of U.S. military collaborations, potentially undermining the narrative of international cooperation.",
+      "attacks": [
+        "truth"
+      ],
+      "_origin_file": "hcr_events_2026-03-01_2026-03-20.json",
+      "_origin_index": 24
     },
     {
       "source_key": "hcr",
@@ -778,14 +775,14 @@
       "category": "Law Enforcement & Surveillance",
       "title": "FBI Leadership Changes and Counterterrorism Concerns",
       "url": "https://www.meidasplus.com/p/today-in-politics-bulletin-329-31626",
-      "summary": "Jacqueline Maguire, a former FBI agent, revealed that she and seven other senior executives were pushed out of their positions, raising concerns about the current leadership under Kash Patel. Maguire criticized Patel for focusing on politically motivated revenge and conspiracy theories, which she claims distracts the FBI from its core mission of counterterrorism. The firings of experienced personnel, particularly those involved in counterintelligence work against Iranian threats, are seen as detrimental to national security.",
-      "why_relevant": "The removal of experienced FBI personnel could weaken the agency's ability to effectively counter terrorism and protect national security.",
+      "summary": "Jacqueline Maguire, a former FBI agent, revealed that she and seven other senior executives were pushed out of their positions, raising concerns about the current leadership's focus on politically motivated actions rather than counterterrorism. The dismissals of experienced personnel, particularly those involved in counterintelligence work against Iranian threats, have been criticized as detrimental to national security. The FBI's ability to protect against terrorism and cyberattacks is reportedly compromised due to these leadership changes.",
+      "why_relevant": "The removal of experienced FBI personnel could weaken the agency's counterterrorism capabilities, impacting national security.",
       "attacks": [
         "justice_dept",
         "intelligence"
       ],
-      "_origin_file": "meidas_events_2026-03-14_2026-03-20.json",
-      "_origin_index": 33
+      "_origin_file": "meidas_events_2026-03-01_2026-03-20.json",
+      "_origin_index": 17
     },
     {
       "source_key": "meidas",
@@ -793,14 +790,14 @@
       "category": "Law Enforcement & Surveillance",
       "title": "Shooting Incident at Old Dominion University",
       "url": "https://www.meidasplus.com/p/today-in-politics-bulletin-329-31626",
-      "summary": "Mohamed Bailor Jalloh, a naturalized US citizen previously jailed for an Islamic State terror plot, opened fire in an ROTC classroom at Old Dominion University, killing the instructor before being shot by students. The incident raises questions about the oversight of individuals on supervised release and the FBI's awareness of potential threats. Former FBI agents have called for an investigation into the agency's prior knowledge and actions regarding Jalloh.",
-      "why_relevant": "The shooting highlights potential gaps in the monitoring of individuals with a history of terrorism-related offenses, posing a threat to public safety.",
+      "summary": "Mohamed Bailor Jalloh, a naturalized US citizen previously jailed for an Islamic State terror plot, opened fire in an ROTC classroom at Old Dominion University, killing the instructor before being shot by students. The incident raises questions about the oversight of individuals on supervised release and the FBI's awareness of potential threats. Former FBI agents have criticized the agency's current focus and questioned its preparedness in handling such threats.",
+      "why_relevant": "The shooting highlights potential gaps in the monitoring of individuals with a history of terrorism-related offenses, posing a risk to public safety.",
       "attacks": [
         "justice_dept",
         "intelligence"
       ],
-      "_origin_file": "meidas_events_2026-03-14_2026-03-20.json",
-      "_origin_index": 34
+      "_origin_file": "meidas_events_2026-03-01_2026-03-20.json",
+      "_origin_index": 18
     },
     {
       "source_key": "hcr",
@@ -891,14 +888,29 @@
       "category": "Economic & Regulatory Power",
       "title": "Impact of Iran Conflict on Global Oil Supply",
       "url": "https://www.meidasplus.com/p/today-in-politics-bulletin-329-31626",
-      "summary": "The ongoing conflict with Iran has led to significant reductions in oil production from the UAE and Kuwait, contributing to a spike in global oil prices. The closure of the Strait of Hormuz has disrupted the supply chain, affecting energy markets worldwide. This situation highlights the broader economic implications of the conflict.",
-      "why_relevant": "The disruption of oil supplies due to geopolitical conflicts can have widespread economic consequences, affecting global markets and consumer prices.",
+      "summary": "The ongoing conflict with Iran has led to significant disruptions in global oil supply, with UAE and Kuwait reducing their production. The closure of the Strait of Hormuz has exacerbated these issues, leading to increased oil prices and concerns about energy security. The situation underscores the broader economic implications of the conflict and the interconnectedness of global energy markets.",
+      "why_relevant": "The conflict's impact on oil supply and prices affects global economies and highlights the vulnerabilities in energy security.",
       "attacks": [
         "economy",
         "trade"
       ],
-      "_origin_file": "meidas_events_2026-03-14_2026-03-20.json",
-      "_origin_index": 37
+      "_origin_file": "meidas_events_2026-03-01_2026-03-20.json",
+      "_origin_index": 21
+    },
+    {
+      "source_key": "meidas",
+      "date": "2026-03-15",
+      "category": "Economic & Regulatory Power",
+      "title": "US Treasury's Response to Russian Oil Sanctions",
+      "url": "https://www.meidasplus.com/p/today-in-politics-bulletin-329-31626",
+      "summary": "Treasury Secretary Scott Bessent announced a 30-day waiver for Russian oil already in transit, despite ongoing sanctions. This decision has been criticized for potentially enriching Russia and aiding its military efforts. The move reflects the complexities of balancing economic sanctions with global energy needs and the geopolitical implications of such decisions.",
+      "why_relevant": "The waiver on Russian oil sanctions raises concerns about the effectiveness of economic measures and their geopolitical consequences.",
+      "attacks": [
+        "economy",
+        "trade"
+      ],
+      "_origin_file": "meidas_events_2026-03-01_2026-03-20.json",
+      "_origin_index": 22
     },
     {
       "source_key": "meidas",
@@ -906,14 +918,14 @@
       "category": "International Relations",
       "title": "NATO Allies' Response to US Requests for Support",
       "url": "https://www.meidasplus.com/p/today-in-politics-bulletin-329-31626",
-      "summary": "President Trump expressed frustration with NATO allies for not providing military support in the Strait of Hormuz, despite the US's past assistance to them. Danish PM Mette Frederiksen and German Chancellor Merz indicated that Europe and other allies are not inclined to support the US in this conflict, citing a lack of strategic clarity and a desire to avoid involvement in the war with Iran.",
-      "why_relevant": "The reluctance of NATO allies to support US military actions could strain international alliances and affect global diplomatic relations.",
+      "summary": "President Trump has called on NATO allies to assist in safeguarding the Strait of Hormuz amid tensions with Iran. However, leaders from Denmark and Germany have expressed reluctance to involve their countries in military actions, citing a lack of strategic clarity and their desire to avoid becoming part of the conflict. This response underscores a shift in international alliances and the challenges the US faces in garnering support for its foreign policy initiatives.",
+      "why_relevant": "The reluctance of NATO allies to support US military actions reflects changing international dynamics and challenges in maintaining alliances.",
       "attacks": [
         "diplomacy",
         "allies"
       ],
-      "_origin_file": "meidas_events_2026-03-14_2026-03-20.json",
-      "_origin_index": 35
+      "_origin_file": "meidas_events_2026-03-01_2026-03-20.json",
+      "_origin_index": 19
     },
     {
       "source_key": "meidas",
@@ -921,14 +933,14 @@
       "category": "International Relations",
       "title": "US-Iran Communications and Diplomatic Tensions",
       "url": "https://www.meidasplus.com/p/today-in-politics-bulletin-329-31626",
-      "summary": "Reports emerged of a reactivated communication channel between Iranian Foreign Minister Abbas Araghchi and US envoy Steve Witkoff, though Araghchi denied any recent contact. The Iranian government accused the Trump administration of spreading false stories to manipulate oil and financial markets. This situation underscores the ongoing diplomatic tensions and misinformation between the US and Iran.",
-      "why_relevant": "Miscommunication and misinformation between the US and Iran could exacerbate tensions and hinder diplomatic resolutions.",
+      "summary": "Reports have emerged of a reactivated communication channel between US envoy Steve Witkoff and Iranian Foreign Minister Abbas Araghchi, though Iran denies any recent contact. The conflicting narratives suggest attempts by the Trump administration to manipulate perceptions and markets amid ongoing military tensions. Iranian officials accuse the US of spreading false information to influence oil and financial markets.",
+      "why_relevant": "The conflicting reports on US-Iran communications highlight the complexities and potential misinformation in diplomatic relations during a conflict.",
       "attacks": [
         "diplomacy",
-        "truth"
+        "information"
       ],
-      "_origin_file": "meidas_events_2026-03-14_2026-03-20.json",
-      "_origin_index": 36
+      "_origin_file": "meidas_events_2026-03-01_2026-03-20.json",
+      "_origin_index": 20
     },
     {
       "source_key": "guardian",
@@ -993,11 +1005,11 @@
       "category": "Legislative & Oversight Activity",
       "title": "Trump Signs Epstein Files Transparency Act into Law",
       "url": "https://www.theguardian.com/us-news/2026/mar/16/epstein-files-trump-iran-war",
-      "summary": "President Donald Trump signed the Epstein Files Transparency Act into law, mandating the Department of Justice (DoJ) to publicly disclose all investigative files related to Jeffrey Epstein, with limited exceptions. The DoJ was given a 30-day deadline to release the documents, but failed to meet it, releasing only a portion of the files initially and continuing to release documents in subsequent weeks. This act was passed by Congress in a rare display of bipartisanship, reflecting widespread demand for transparency regarding Epstein's crimes and potential connections to influential figures.",
-      "why_relevant": "The act represents a significant legislative effort to ensure transparency and accountability in the investigation of Jeffrey Epstein's crimes and potential cover-ups.",
+      "summary": "President Donald Trump signed the Epstein Files Transparency Act into law, mandating the Department of Justice (DoJ) to publicly disclose all investigative files related to Jeffrey Epstein, with limited exceptions. The DoJ was given a 30-day deadline to release the documents, but failed to meet it, releasing documents in stages instead. This act was passed by Congress in a rare display of bipartisanship, reflecting widespread demand for transparency regarding Epstein's crimes and potential cover-ups. The act aims to provide accountability and rebuild public trust.",
+      "why_relevant": "The act represents a significant legislative effort to ensure transparency and accountability in the investigation of high-profile crimes.",
       "attacks": [],
-      "_origin_file": "guardian_events_2026-03-14_2026-03-20.json",
-      "_origin_index": 60
+      "_origin_file": "guardian_events_2026-03-01_2026-03-20.json",
+      "_origin_index": 43
     },
     {
       "source_key": "meidas",
@@ -1005,14 +1017,14 @@
       "category": "Legislative & Oversight Activity",
       "title": "Congressional Oversight Lacking on Iran War",
       "url": "https://www.meidasplus.com/p/today-in-politics-bulletin-330-31726",
-      "summary": "Congress has not conducted public hearings with cabinet officials regarding the costs and implications of the Iran war. This lack of oversight has been criticized as neglecting the legislative branch's responsibility to scrutinize executive military actions.",
-      "why_relevant": "The absence of congressional oversight undermines democratic accountability and transparency in military engagements.",
+      "summary": "Congress has not conducted public hearings with cabinet officials regarding the costs and implications of the Iran war. This lack of oversight has raised concerns about transparency and accountability in the administration's military actions, as well as the potential impact on American taxpayers and service members.",
+      "why_relevant": "The absence of congressional oversight on military actions undermines democratic accountability and informed public discourse.",
       "attacks": [
         "congress",
-        "separation_of_powers"
+        "transparency"
       ],
-      "_origin_file": "meidas_events_2026-03-14_2026-03-20.json",
-      "_origin_index": 32
+      "_origin_file": "meidas_events_2026-03-01_2026-03-20.json",
+      "_origin_index": 12
     },
     {
       "source_key": "democracydocket",
@@ -1032,14 +1044,29 @@
       "category": "Judicial Developments",
       "title": "Class-action lawsuit filed against the Justice Department",
       "url": "https://www.theguardian.com/us-news/2026/mar/16/stop-asian-hate-movement-atlanta-shootings-trump",
-      "summary": "Five years after the deadly Atlanta spa shootings sparked protests and policy changes, Stop Asian Hate is at a crossroads in Trump’s second term",
+      "summary": "",
       "why_relevant": "This lawsuit represents a significant legal challenge to federal funding decisions impacting public safety and community support.",
       "attacks": [
         "justice_dept",
         "minorities"
       ],
-      "_origin_file": "guardian_events_2026-03-14_2026-03-20.json",
-      "_origin_index": 57
+      "_origin_file": "guardian_events_2026-03-01_2026-03-20.json",
+      "_origin_index": 39
+    },
+    {
+      "source_key": "guardian",
+      "date": "2026-03-16",
+      "category": "Judicial Developments",
+      "title": "Department of Justice Misses Deadline for Epstein Files Disclosure",
+      "url": "https://www.theguardian.com/us-news/2026/mar/16/epstein-files-trump-iran-war",
+      "summary": "The Department of Justice (DoJ) missed the 30-day deadline set by the Epstein Files Transparency Act to disclose all files related to Jeffrey Epstein. Although the DoJ released a tranche of documents at the deadline, further disclosures were delayed, leading to criticism from both supporters and opponents of President Trump. The delayed release has fueled suspicions of a cover-up and has united bipartisan efforts to demand full transparency and accountability.",
+      "why_relevant": "The DoJ's failure to meet the disclosure deadline raises concerns about transparency and accountability in handling sensitive investigations.",
+      "attacks": [
+        "justice_dept",
+        "transparency"
+      ],
+      "_origin_file": "guardian_events_2026-03-01_2026-03-20.json",
+      "_origin_index": 44
     },
     {
       "source_key": "guardian",
@@ -1102,13 +1129,13 @@
       "source_key": "justsecurity",
       "date": "2026-03-16",
       "category": "Judicial Developments",
-      "title": "Appeal filed — Reach Community Development v. U.S. Department of Homeland Security (D. Or.) 3:25-cv-02257",
-      "url": "https://www.courtlistener.com/docket/72000469/reach-community-development-v-us-department-of-homeland-security/",
-      "summary": "Defendants appealed the court's March 6 opinion and order to the Ninth Circuit (Case No. 26-1575 ).",
-      "why_relevant": "This litigation update changes the posture of an active legal challenge to Trump administration action.",
+      "title": "American Academy of Pediatrics v. Robert F. Kennedy Jr. (D. Mass.) 1:25-cv-11916 — Judge Murphy granted a motion for preliminary injunction, staying the January 2026 revision of the CDC's childhood immunization schedule, the appointments of th…",
+      "url": "https://www.courtlistener.com/docket/70722326/american-academy-of-pediatrics-v-kennedy",
+      "summary": "Judge Murphy granted a motion for preliminary injunction, staying the January 2026 revision of the CDC's childhood immunization schedule, the appointments of the thirteen newly appointed Advisory Committee on Immunization Practices (ACIP) members, and all votes taken by the new committee. Judge Murphy ruled that the reconstitution of the committee members and changes to the childhood immunization schedule likely violated the APA, that Plaintiffs were likely to succeed in showing that the CDC Director lacked authority to revise the immunization schedule without ACIP's involvement, and that the reconstituted ACIP likely violated the Federal Advisory Committee Act's “fairly balanced” membership requirement.",
+      "why_relevant": "This tracker update marks a concrete litigation development in an ongoing legal challenge. Court: D. Mass.. Docket: 1:25-cv-11916.",
       "attacks": [],
-      "_origin_file": "justsecurity_events_2026-03-14_2026-03-20.json",
-      "_origin_index": 17
+      "_origin_file": "justsecurity_events_2026-01-01_2026-03-20.json",
+      "_origin_index": 130
     },
     {
       "source_key": "justsecurity",
@@ -1138,25 +1165,13 @@
       "source_key": "justsecurity",
       "date": "2026-03-16",
       "category": "Judicial Developments",
-      "title": "Certiorari petition filed — Doe v. Noem (S.D.N.Y.) 1:25-cv-08686",
-      "url": "https://www.courtlistener.com/docket/71705917/doe-v-noem/",
-      "summary": "The Supreme Court granted the petition for a writ of certiorari, consolidating two cases: Doe v. Noem , 1:25-cv-08686 and Lesly Miot v. Trump , 1:25-cv-02471. The cases will be heard during the second week of the April 2026 argument session.",
-      "why_relevant": "This litigation update changes the posture of an active legal challenge to Trump administration action.",
+      "title": "Colorado v. Trump (D. Colo.) 1:25-cv-03428 — Judge R",
+      "url": "https://www.courtlistener.com/docket/71795245/state-of-colorado-v-trump",
+      "summary": "Judge R. Brooke Jackson granted Plaintiff State's motion for preliminary injunction , enjoining the USDA from compelling the State's participation in a mandatory SNAP recertification “pilot project” or taking any adverse action against Colorado for noncompliance with the order. The court held that Colorado was likely to succeed on all four APA claims and that the order likely violated the Spending Clause. Per Judge Jackson, “the pilot project seems to be about punishment and nothing more.”",
+      "why_relevant": "This tracker update marks a concrete litigation development in an ongoing legal challenge. Court: D. Colo.. Docket: 1:25-cv-03428.",
       "attacks": [],
-      "_origin_file": "justsecurity_events_2026-03-14_2026-03-20.json",
-      "_origin_index": 21
-    },
-    {
-      "source_key": "justsecurity",
-      "date": "2026-03-16",
-      "category": "Judicial Developments",
-      "title": "Certiorari petition filed — Lesly Miot v. Trump (D.D.C.) 1:25-cv-02471",
-      "url": "https://www.courtlistener.com/docket/70965949/lesly-miot-v-trump/",
-      "summary": "The Supreme Court granted the petition for a writ of certiorari, consolidating two cases: Doe v. Noem , 1:25-cv-08686 and Lesly Miot v. Trump , 1:25-cv-02471. The cases will be heard during the second week of the April 2026 argument session.",
-      "why_relevant": "This litigation update changes the posture of an active legal challenge to Trump administration action.",
-      "attacks": [],
-      "_origin_file": "justsecurity_events_2026-03-14_2026-03-20.json",
-      "_origin_index": 22
+      "_origin_file": "justsecurity_events_2026-01-01_2026-03-20.json",
+      "_origin_index": 348
     },
     {
       "source_key": "justsecurity",
@@ -1195,73 +1210,13 @@
       "source_key": "justsecurity",
       "date": "2026-03-16",
       "category": "Judicial Developments",
-      "title": "Motion granted — Susman Godfrey LLP v. Executive Office of the President (D.D.C.) 1:25-cv-01107",
-      "url": "https://www.courtlistener.com/docket/69881953/susman-godfrey-llp-v-executive-office-of-the-president/",
-      "summary": "The D.C. Circuit granted Defendants' request to withdraw their motion to voluntarily dismiss the appeals.",
-      "why_relevant": "This litigation update changes the posture of an active legal challenge to Trump administration action.",
+      "title": "Lesly Miot v. Trump (D.D.C.) 1:25-cv-02471 — The Supreme Court granted the petition for a writ of certiorari, consolidating two cases",
+      "url": "https://www.courtlistener.com/docket/70965949/lesly-miot-v-trump",
+      "summary": "The Supreme Court granted the petition for a writ of certiorari, consolidating two cases: Doe v. Noem , 1:25-cv-08686 and Lesly Miot v. Trump , 1:25-cv-02471. The cases will be heard during the second week of the April 2026 argument session.",
+      "why_relevant": "This tracker update marks a concrete litigation development in an ongoing legal challenge. Court: D.D.C.. Docket: 1:25-cv-02471.",
       "attacks": [],
-      "_origin_file": "justsecurity_events_2026-03-14_2026-03-20.json",
-      "_origin_index": 0
-    },
-    {
-      "source_key": "justsecurity",
-      "date": "2026-03-16",
-      "category": "Judicial Developments",
-      "title": "Preliminary injunction ruling — American Academy of Pediatrics v. Robert F. Kennedy Jr. (D. Mass.) 1:25-cv-11916",
-      "url": "https://www.courtlistener.com/docket/70722326/american-academy-of-pediatrics-v-kennedy/",
-      "summary": "Judge Murphy granted a motion for preliminary injunction, staying the January 2026 revision of the CDC's childhood immunization schedule, the appointments of the thirteen newly appointed Advisory Committee on Immunization Practices (ACIP) members, and all votes taken by the new committee. Judge Murphy ruled that the reconstitution of the committee members and changes to the childhood immunization schedule likely violated the APA, that Plaintiffs were likely to succeed in showing that the CDC Director lacked authority to revise the immunization schedule without ACIP's involvement, and that the reconstituted ACIP likely violated the Federal Advisory Committee Act's “fairly balanced” membership requirement.",
-      "why_relevant": "This litigation update changes the posture of an active legal challenge to Trump administration action.",
-      "attacks": [],
-      "_origin_file": "justsecurity_events_2026-03-14_2026-03-20.json",
-      "_origin_index": 11
-    },
-    {
-      "source_key": "justsecurity",
-      "date": "2026-03-16",
-      "category": "Judicial Developments",
-      "title": "Preliminary injunction ruling — American Oversight v. U.S. Department of Justice (D.D.C.) 1:25-cv-03200",
-      "url": "https://www.courtlistener.com/docket/71349288/american-oversight-v-us-department-of-justice/",
-      "summary": "Plaintiff filed a motion for a preliminary injunction , requesting that the court order Defendants to produce documents responsive to its FOIA requests by March 31, 2026, or at least ten days ahead of Attorney General Pam Bondi's upcoming deposition by the United States House Committee on Oversight and Government Reform.",
-      "why_relevant": "This litigation update changes the posture of an active legal challenge to Trump administration action.",
-      "attacks": [],
-      "_origin_file": "justsecurity_events_2026-03-14_2026-03-20.json",
-      "_origin_index": 31
-    },
-    {
-      "source_key": "justsecurity",
-      "date": "2026-03-16",
-      "category": "Judicial Developments",
-      "title": "Preliminary injunction ruling — Colorado v. Trump (D. Colo.) 1:25-cv-03428",
-      "url": "https://www.courtlistener.com/docket/71795245/state-of-colorado-v-trump/",
-      "summary": "Judge R. Brooke Jackson granted Plaintiff State's motion for preliminary injunction , enjoining the USDA from compelling the State's participation in a mandatory SNAP recertification “pilot project” or taking any adverse action against Colorado for noncompliance with the order. The court held that Colorado was likely to succeed on all four APA claims and that the order likely violated the Spending Clause. Per Judge Jackson, “the pilot project seems to be about punishment and nothing more.”",
-      "why_relevant": "This litigation update changes the posture of an active legal challenge to Trump administration action.",
-      "attacks": [],
-      "_origin_file": "justsecurity_events_2026-03-14_2026-03-20.json",
-      "_origin_index": 27
-    },
-    {
-      "source_key": "justsecurity",
-      "date": "2026-03-16",
-      "category": "Judicial Developments",
-      "title": "Stay motion decided — Nicolas Talbott, et al. v. Donald Trump, et al. (D.D.C.) 1:25-cv-00240",
-      "url": "https://www.courtlistener.com/docket/69583866/talbott-v-trump/",
-      "summary": "Judge Reyes denied Defendant's motion to stay the proceedings pending appeal of the March 18, 2025 preliminary injunction .",
-      "why_relevant": "This litigation update changes the posture of an active legal challenge to Trump administration action.",
-      "attacks": [],
-      "_origin_file": "justsecurity_events_2026-03-14_2026-03-20.json",
-      "_origin_index": 1
-    },
-    {
-      "source_key": "justsecurity",
-      "date": "2026-03-16",
-      "category": "Judicial Developments",
-      "title": "Stay pending appeal decided — D.V.D. v. U.S. Department of Homeland Security (D. Mass.) 1:25-cv-10676",
-      "url": "https://www.courtlistener.com/docket/69775896/dvd-v-us-department-of-homeland-security/",
-      "summary": "The First Circuit granted Defendants' motion for stay pending appeal.",
-      "why_relevant": "This litigation update changes the posture of an active legal challenge to Trump administration action.",
-      "attacks": [],
-      "_origin_file": "justsecurity_events_2026-03-14_2026-03-20.json",
-      "_origin_index": 16
+      "_origin_file": "justsecurity_events_2026-01-01_2026-03-20.json",
+      "_origin_index": 260
     },
     {
       "source_key": "guardian",
@@ -1289,6 +1244,21 @@
       "attacks": [],
       "_origin_file": "guardian_events_2026-03-14_2026-03-20.json",
       "_origin_index": 59
+    },
+    {
+      "source_key": "guardian",
+      "date": "2026-03-16",
+      "category": "Law Enforcement & Surveillance",
+      "title": "ICE raid at Hyundai plant in Georgia",
+      "url": "https://www.theguardian.com/us-news/2026/mar/16/stop-asian-hate-movement-atlanta-shootings-trump",
+      "summary": "",
+      "why_relevant": "The raid highlights the aggressive immigration enforcement tactics and their impact on immigrant communities.",
+      "attacks": [
+        "immigrants_refugees",
+        "minorities"
+      ],
+      "_origin_file": "guardian_events_2026-03-01_2026-03-20.json",
+      "_origin_index": 40
     },
     {
       "source_key": "democracydocket",
@@ -1441,19 +1411,46 @@
       "_origin_index": 2
     },
     {
+      "source_key": "federalregister",
+      "date": "2026-03-16",
+      "category": "Economic & Regulatory Power",
+      "title": "Temporary Placement of Bromazolam in Schedule I",
+      "url": "https://www.federalregister.gov/documents/2026/03/16/2026-05064/schedules-of-controlled-substances-temporary-placement-of-bromazolam-in-schedule-i",
+      "summary": "The Drug Enforcement Administration (DEA) has issued a temporary order to place bromazolam, including its salts, isomers, and salts of isomers, in Schedule I of the Controlled Substances Act. This action is based on findings that bromazolam poses an imminent hazard to public safety due to its high potential for abuse, lack of accepted medical use, and associated health risks. The temporary scheduling is effective from March 16, 2026, to March 16, 2028, and imposes regulatory controls and sanctions applicable to Schedule I substances.",
+      "why_relevant": "This action reflects the government's regulatory power to control substances posing public health risks, impacting drug enforcement and public safety.",
+      "attacks": [],
+      "_origin_file": "federalregister_events_2026-03-01_2026-03-20.json",
+      "_origin_index": 0
+    },
+    {
       "source_key": "meidas",
       "date": "2026-03-16",
       "category": "Economic & Regulatory Power",
       "title": "Economic Advisor Downplays Consumer Impact of Iran War",
       "url": "https://www.meidasplus.com/p/today-in-politics-bulletin-330-31726",
-      "summary": "White House Economic Advisor Kevin Hassett stated that the ongoing war in Iran would not significantly disrupt the U.S. economy, despite potential harm to consumers. His comments have drawn criticism for appearing dismissive of the economic impact on American families.",
-      "why_relevant": "The statement reflects the administration's priorities and could influence public perception of the war's economic consequences.",
+      "summary": "White House Economic Advisor Kevin Hassett stated that the ongoing war in Iran would not significantly disrupt the U.S. economy, despite potential harm to consumers. His comments have drawn criticism for appearing dismissive of the economic hardships faced by American families due to rising costs associated with the conflict.",
+      "why_relevant": "The statement reflects a lack of concern for the economic well-being of citizens, highlighting potential misalignment between government priorities and public needs.",
       "attacks": [
         "economy",
-        "public_health"
+        "poor"
       ],
-      "_origin_file": "meidas_events_2026-03-14_2026-03-20.json",
-      "_origin_index": 31
+      "_origin_file": "meidas_events_2026-03-01_2026-03-20.json",
+      "_origin_index": 11
+    },
+    {
+      "source_key": "meidas",
+      "date": "2026-03-16",
+      "category": "Economic & Regulatory Power",
+      "title": "Trump Administration Lacks Oil and Gas Expertise Amid Iran Conflict",
+      "url": "https://www.meidasplus.com/p/today-in-politics-bulletin-330-31726",
+      "summary": "The Trump administration's reduction-in-force initiative led to the dismissal of oil and gas experts, leaving the U.S. government without crucial resources to manage the closure of the Strait of Hormuz during the Iran conflict. This lack of expertise complicates efforts to address the economic and strategic challenges posed by the war.",
+      "why_relevant": "The absence of specialized knowledge hinders effective crisis management and exacerbates the economic impact of the conflict.",
+      "attacks": [
+        "economy",
+        "public_service"
+      ],
+      "_origin_file": "meidas_events_2026-03-01_2026-03-20.json",
+      "_origin_index": 15
     },
     {
       "source_key": "popinfo",
@@ -1488,34 +1485,34 @@
       "_origin_index": 9
     },
     {
-      "source_key": "guardian",
-      "date": "2026-03-16",
-      "category": "Transparency & Records",
-      "title": "Department of Justice Misses Deadline for Epstein Files Disclosure",
-      "url": "https://www.theguardian.com/us-news/2026/mar/16/epstein-files-trump-iran-war",
-      "summary": "The Department of Justice (DoJ) failed to meet the 30-day deadline set by the Epstein Files Transparency Act for the public disclosure of all Epstein-related files. Although the DoJ released a tranche of documents at the deadline, additional files were released in the following days and weeks, including a significant 3 million document disclosure on January 30. This delay has fueled criticism from both opponents and supporters of President Trump, who suspect that more files remain undisclosed.",
-      "why_relevant": "The DoJ's failure to meet the disclosure deadline raises concerns about transparency and accountability in handling sensitive information related to high-profile investigations.",
-      "attacks": [
-        "justice_dept",
-        "transparency"
-      ],
-      "_origin_file": "guardian_events_2026-03-14_2026-03-20.json",
-      "_origin_index": 61
-    },
-    {
       "source_key": "meidas",
       "date": "2026-03-16",
       "category": "Transparency & Records",
-      "title": "DOJ Allegedly Removed Trump Interviews from Epstein Files",
+      "title": "DOJ Allegedly Removes Trump Interviews from Epstein Files",
       "url": "https://www.meidasplus.com/p/today-in-politics-bulletin-330-31726",
-      "summary": "A report revealed that the Department of Justice removed over 50 pages of interviews related to President Trump from the Epstein files, including allegations of past abuse. This action has fueled speculation that the Iran war was initiated to distract from these revelations.",
-      "why_relevant": "The removal of sensitive information from official records raises concerns about transparency and accountability within the justice system.",
+      "summary": "A report revealed that the Department of Justice removed over 50 pages of interviews related to President Trump from the Epstein files. This action has sparked speculation that the Iran conflict was initiated to distract from these revelations. The removal of documents raises questions about transparency and accountability within the DOJ.",
+      "why_relevant": "The alleged document removal suggests potential manipulation of legal records to protect political figures, undermining public trust in the justice system.",
       "attacks": [
         "justice_dept",
         "transparency"
       ],
-      "_origin_file": "meidas_events_2026-03-14_2026-03-20.json",
-      "_origin_index": 30
+      "_origin_file": "meidas_events_2026-03-01_2026-03-20.json",
+      "_origin_index": 10
+    },
+    {
+      "source_key": "guardian",
+      "date": "2026-03-16",
+      "category": "International Relations",
+      "title": "US-Israel Attack on Iran",
+      "url": "https://www.theguardian.com/us-news/2026/mar/16/epstein-files-trump-iran-war",
+      "summary": "The United States, in coordination with Israel, launched an attack on Iran, leading to significant economic and diplomatic repercussions. The attack has dominated US headlines and sparked criticism from various political figures, including those within President Trump's base. The military action has been perceived by some as a distraction from domestic issues, such as the ongoing controversy surrounding the Epstein files.",
+      "why_relevant": "The attack on Iran has significant implications for international relations and domestic political dynamics, affecting public perception and policy priorities.",
+      "attacks": [
+        "peace",
+        "global_democracy"
+      ],
+      "_origin_file": "guardian_events_2026-03-01_2026-03-20.json",
+      "_origin_index": 45
     },
     {
       "source_key": "hcr",
@@ -1545,16 +1542,61 @@
       "source_key": "meidas",
       "date": "2026-03-16",
       "category": "International Relations",
+      "title": "Trump Claims Authority to Withdraw from NATO",
+      "url": "https://www.meidasplus.com/p/today-in-politics-bulletin-330-31726",
+      "summary": "President Trump suggested he could unilaterally withdraw the United States from NATO without congressional approval. This claim contradicts the National Defense Authorization Act, which requires congressional consent for such a decision. The assertion raises concerns about executive overreach and the stability of international alliances.",
+      "why_relevant": "The potential withdrawal from NATO could destabilize global security arrangements and weaken collective defense mechanisms.",
+      "attacks": [
+        "separation_of_powers",
+        "allies"
+      ],
+      "_origin_file": "meidas_events_2026-03-01_2026-03-20.json",
+      "_origin_index": 9
+    },
+    {
+      "source_key": "meidas",
+      "date": "2026-03-16",
+      "category": "International Relations",
       "title": "Trump Criticizes NATO Allies Over Iran War",
       "url": "https://www.meidasplus.com/p/today-in-politics-bulletin-330-31726",
-      "summary": "President Trump expressed disappointment with NATO allies for their lack of support in the military operation against Iran. He suggested that the U.S. does not need NATO's assistance, despite previously seeking their help. Trump's comments reflect ongoing tensions with NATO and his administration's unilateral approach to foreign policy.",
-      "why_relevant": "The strained relationship with NATO could impact international alliances and the U.S.'s strategic position globally.",
+      "summary": "President Trump expressed disappointment with NATO allies for their lack of support in the military operation against Iran. He criticized NATO as a \"one way street\" and suggested that the U.S. does not need their assistance. Trump's comments reflect ongoing tensions with international allies and his administration's unilateral approach to foreign policy.",
+      "why_relevant": "The statement underscores strained relations with NATO, potentially impacting international alliances and cooperation.",
       "attacks": [
         "allies",
-        "diplomacy"
+        "global_democracy"
       ],
-      "_origin_file": "meidas_events_2026-03-14_2026-03-20.json",
-      "_origin_index": 28
+      "_origin_file": "meidas_events_2026-03-01_2026-03-20.json",
+      "_origin_index": 8
+    },
+    {
+      "source_key": "meidas",
+      "date": "2026-03-16",
+      "category": "International Relations",
+      "title": "UK Criticizes US Decision to Attack Iran",
+      "url": "https://www.meidasplus.com/p/today-in-politics-bulletin-330-31726",
+      "summary": "The UK government criticized the U.S. decision to attack Iran, viewing it as premature and lacking compelling evidence of an imminent threat. British officials believed diplomatic solutions were still viable and regarded the military action as unlawful. This criticism highlights international disapproval of the U.S. approach to the Iran conflict.",
+      "why_relevant": "The UK's stance reflects broader international concerns about the legality and justification of the U.S. military intervention in Iran.",
+      "attacks": [
+        "global_democracy",
+        "peace"
+      ],
+      "_origin_file": "meidas_events_2026-03-01_2026-03-20.json",
+      "_origin_index": 13
+    },
+    {
+      "source_key": "meidas",
+      "date": "2026-03-16",
+      "category": "Civil–Military Relations & State Violence",
+      "title": "AI Use in Military Targeting Raises Ethical Concerns",
+      "url": "https://www.meidasplus.com/p/today-in-politics-bulletin-330-31726",
+      "summary": "House Democratic Caucus Chair Pete Aguilar expressed alarm over the potential use of AI in military targeting decisions without human oversight. This revelation has sparked ethical concerns about the administration's approach to warfare and the implications for civilian casualties and accountability.",
+      "why_relevant": "The use of AI in military operations without human intervention raises significant ethical and accountability issues in warfare.",
+      "attacks": [
+        "military",
+        "public_service"
+      ],
+      "_origin_file": "meidas_events_2026-03-01_2026-03-20.json",
+      "_origin_index": 16
     },
     {
       "source_key": "meidas",
@@ -1565,26 +1607,26 @@
       "summary": "Joe Kent, Director of the National Counterterrorism Center, resigned in protest against President Trump's decision to engage in a war with Iran. In his resignation letter, Kent criticized the war as unnecessary and influenced by external pressures, particularly from Israel and its American lobby. He expressed his inability to support a conflict that he believes does not benefit the American people. Kent's resignation marks a significant dissent within the administration regarding the Iran conflict.",
       "why_relevant": "The resignation highlights internal opposition to the administration's military actions, raising questions about the legitimacy and motivations behind the war.",
       "attacks": [
-        "peace",
-        "global_democracy"
+        "global_democracy",
+        "peace"
       ],
-      "_origin_file": "meidas_events_2026-03-14_2026-03-20.json",
-      "_origin_index": 27
+      "_origin_file": "meidas_events_2026-03-01_2026-03-20.json",
+      "_origin_index": 7
     },
     {
       "source_key": "meidas",
       "date": "2026-03-16",
-      "category": "Separation of Powers",
-      "title": "Trump Claims Authority to Withdraw from NATO",
+      "category": "Civil–Military Relations & State Violence",
+      "title": "Trump Fires Iran Policy Analyst Over Deep State Allegations",
       "url": "https://www.meidasplus.com/p/today-in-politics-bulletin-330-31726",
-      "summary": "President Trump stated that he could unilaterally decide to withdraw the United States from NATO, despite legal requirements for congressional approval. This assertion challenges established protocols and raises concerns about executive overreach.",
-      "why_relevant": "The claim of unilateral withdrawal from NATO tests constitutional limits on presidential power and could destabilize international security arrangements.",
+      "summary": "President Trump dismissed Nate Swanson, a top White House analyst for Iran, after allegations from Laura Loomer that Swanson was part of the \"Deep State.\" Swanson had previously warned about potential escalation following U.S. strikes on Iran. His firing raises concerns about the influence of conspiracy theories on national security decisions.",
+      "why_relevant": "The removal of a key analyst based on unsubstantiated claims undermines informed decision-making in national security matters.",
       "attacks": [
-        "separation_of_powers",
-        "constitution"
+        "intelligence",
+        "truth"
       ],
-      "_origin_file": "meidas_events_2026-03-14_2026-03-20.json",
-      "_origin_index": 29
+      "_origin_file": "meidas_events_2026-03-01_2026-03-20.json",
+      "_origin_index": 14
     },
     {
       "source_key": "guardian",
@@ -1792,56 +1834,6 @@
       ],
       "_origin_file": "justsecurity_events_2026-03-14_2026-03-20.json",
       "_origin_index": 35
-    },
-    {
-      "source_key": "justsecurity",
-      "date": "2026-03-17",
-      "category": "Judicial Developments",
-      "title": "Complaint filed — Metropolitan Transportation Authority v. United States",
-      "url": "https://www.courtlistener.com/docket/72503935/metropolitan-transportation-authority-v-united-states/",
-      "summary": "On March 17, 2026, the New York City Metropolitan Transportation Authority (MTA) filed a complaint in the U.S. Court of Federal Claims against the U.S. Department of Transportation (DOT). The MTA alleges that DOT breached their contractual agreement by withholding $58,643,339 in reimbursement requests without providing the required 90-day written notice of breach and opportunity to cure. The complaint also claims a breach of the implied duty of good faith and fair dealing, seeks money damages, and requests expedited partial summary judgment on the withheld reimbursements.",
-      "why_relevant": "Litigation over Trump administration actions affects judicial review, executive power, rights enforcement, and the rule of law.",
-      "attacks": [
-        "rule_of_law"
-      ],
-      "_origin_file": "justsecurity_events_2026-03-14_2026-03-20.json",
-      "_origin_index": 13
-    },
-    {
-      "source_key": "justsecurity",
-      "date": "2026-03-17",
-      "category": "Judicial Developments",
-      "title": "Preliminary injunction ruling — State of New York v. Trump (D.R.I.) 1:25-cv-00039",
-      "url": "https://www.courtlistener.com/docket/69585994/state-of-new-york-v-trump/",
-      "summary": "In consolidated appeals, the First Circuit in a memorandum opinion and accompanying judgment affirmed in part and vacated in part the district court's March 6, 2025 preliminary injunction and affirmed the district court's April 4 and April 14, 2025 orders enforcing the injunction against FEMA. The court upheld the prohibition on the Agency Defendants from implementing or giving effect to the OMB Directive and related agency-wide categorical funding freezes, but vacated the portion ordering disbursements to the Plaintiffs on awarded grants and executed contracts, which the court held likely exceeded the district court's jurisdiction under the APA.",
-      "why_relevant": "This litigation update changes the posture of an active legal challenge to Trump administration action.",
-      "attacks": [],
-      "_origin_file": "justsecurity_events_2026-03-14_2026-03-20.json",
-      "_origin_index": 8
-    },
-    {
-      "source_key": "justsecurity",
-      "date": "2026-03-17",
-      "category": "Judicial Developments",
-      "title": "Summary judgment ruling — Abramowitz v. Lake (D.D.C.) 1:25-cv-00887",
-      "url": "https://www.courtlistener.com/docket/69791808/abramowitz-v-lake/",
-      "summary": "In a memorandum opinion and judgment , Judge Lamberth granted in part Plaintiffs' motion for summary judgment, holding that Defendants violated the APA when they issued a March 2025 internal memorandum drastically reducing USAGM's operations, placed employees on administrative leave, terminated contractors, and stopped broadcasting. The court vacated those actions as arbitrary and capricious and as unlawfully withheld agency action, but held that contractor Plaintiffs seeking reinstatement must bring their claims in the Court of Federal Claims.",
-      "why_relevant": "This litigation update changes the posture of an active legal challenge to Trump administration action.",
-      "attacks": [],
-      "_origin_file": "justsecurity_events_2026-03-14_2026-03-20.json",
-      "_origin_index": 15
-    },
-    {
-      "source_key": "justsecurity",
-      "date": "2026-03-17",
-      "category": "Judicial Developments",
-      "title": "Summary judgment ruling — Widakuswara v. Kari Lake (D.D.C.) 1:25-cv-01015",
-      "url": "https://www.courtlistener.com/docket/69846584/widakuswara-v-lake/",
-      "summary": "In a memorandum opinion and judgment , Judge Lamberth granted in part Plaintiffs' motion for summary judgment, holding that Defendants violated the APA when they issued a March 2025 internal memorandum drastically reducing USAGM's operations, placed employees on administrative leave, terminated contractors, and stopped broadcasting. The court vacated those actions as arbitrary and capricious and as unlawfully withheld agency action, but held that contractor Plaintiffs seeking reinstatement must bring their claims in the Court of Federal Claims.",
-      "why_relevant": "This litigation update changes the posture of an active legal challenge to Trump administration action.",
-      "attacks": [],
-      "_origin_file": "justsecurity_events_2026-03-14_2026-03-20.json",
-      "_origin_index": 14
     },
     {
       "source_key": "guardian",
@@ -2073,18 +2065,6 @@
       "source_key": "democracydocket",
       "date": "2026-03-17",
       "category": "Voting rights / Courts / Democracy protection",
-      "title": "Analysis",
-      "url": "https://www.democracydocket.com/analysis/",
-      "summary": "",
-      "why_relevant": "Democracy Docket tracks litigation and actions that directly shape election rules and democratic access.",
-      "attacks": [],
-      "_origin_file": "democracydocket_events_2026-03-14_2026-03-20.json",
-      "_origin_index": 0
-    },
-    {
-      "source_key": "democracydocket",
-      "date": "2026-03-17",
-      "category": "Voting rights / Courts / Democracy protection",
       "title": "The save act started as a political stunt now its a real threat",
       "url": "https://www.democracydocket.com/opinion/the-save-act-started-as-a-political-stunt-now-its-a-real-threat/",
       "summary": "",
@@ -2118,56 +2098,56 @@
       "_origin_index": 19
     },
     {
-      "source_key": "hcr",
+      "source_key": "federalregister",
       "date": "2026-03-18",
       "category": "Executive Actions & Orders",
-      "title": "Trump administration cuts State Department energy staff",
-      "url": "https://heathercoxrichardson.substack.com/p/march-17-2026",
-      "summary": "The Trump administration cut all staff from the State Department's Bureau of Energy Resources responsible for maintaining diplomatic contacts with foreign energy sectors, including the only expert on tracking sanctioned oil tankers.",
-      "why_relevant": "The cuts hinder U.S. diplomatic efforts and preparedness in managing global energy crises, impacting international relations and economic stability.",
+      "title": "FDA Renews Obstetrics, Reproductive and Urologic Drugs Advisory Committee",
+      "url": "https://www.federalregister.gov/documents/2026/03/18/2026-05313/advisory-committee-obstetrics-reproductive-and-urologic-drugs-advisory-committee-renewal",
+      "summary": "The Food and Drug Administration (FDA) has renewed the Obstetrics, Reproductive and Urologic Drugs Advisory Committee for an additional two years, extending its charter until March 23, 2028. This committee provides expert advice on the safety and effectiveness of drugs related to obstetrics, gynecology, and urology. The renewal is deemed in the public interest due to the committee's essential role in advising on complex scientific and regulatory matters.",
+      "why_relevant": "The renewal ensures continued expert oversight and advice on critical drug safety and effectiveness issues, impacting public health and regulatory processes.",
       "attacks": [],
-      "_origin_file": "hcr_events_2026-03-14_2026-03-20.json",
-      "_origin_index": 12
+      "_origin_file": "federalregister_events_2026-03-01_2026-03-20.json",
+      "_origin_index": 88
     },
     {
       "source_key": "hcr",
       "date": "2026-03-18",
       "category": "Executive Actions & Orders",
-      "title": "Trump administration decommissions minesweeper ships",
+      "title": "Decommissioning of minesweeper ships raises concerns",
       "url": "https://heathercoxrichardson.substack.com/p/march-17-2026",
-      "summary": "The Trump administration decommissioned the last of its four minesweeper ships, which were essential for ensuring safe passage through the Strait of Hormuz, without reliable replacements in place.",
-      "why_relevant": "This decision reflects poor military planning and raises concerns about the safety of maritime operations in a conflict zone.",
-      "attacks": [],
-      "_origin_file": "hcr_events_2026-03-14_2026-03-20.json",
-      "_origin_index": 13
-    },
-    {
-      "source_key": "hcr",
-      "date": "2026-03-18",
-      "category": "Executive Actions & Orders",
-      "title": "Trump blames Obama for Iran conflict",
-      "url": "https://heathercoxrichardson.substack.com/p/march-17-2026",
-      "summary": "President Trump claimed that if he had not terminated former President Obama's nuclear deal with Iran, the U.S. would have faced a nuclear war, attempting to shift blame for the current conflict.",
-      "why_relevant": "This statement illustrates the use of historical narratives to justify current policies and actions, impacting public perception and accountability.",
+      "summary": "The Trump administration decommissioned the last of its four minesweeper ships in September, which were essential for protecting shipping traffic in the Strait of Hormuz. The planned replacement systems using unmanned vehicles have proven unreliable and have not been deployed.",
+      "why_relevant": "The lack of operational minesweeper ships raises concerns about the safety of maritime traffic and reflects poor military planning in the context of ongoing conflicts.",
       "attacks": [
-        "truth"
+        "21"
       ],
-      "_origin_file": "hcr_events_2026-03-14_2026-03-20.json",
-      "_origin_index": 16
+      "_origin_file": "hcr_events_2026-03-01_2026-03-20.json",
+      "_origin_index": 7
+    },
+    {
+      "source_key": "hcr",
+      "date": "2026-03-18",
+      "category": "Executive Actions & Orders",
+      "title": "Trump administration cuts State Department energy resources staff",
+      "url": "https://heathercoxrichardson.substack.com/p/march-17-2026",
+      "summary": "The Trump administration cut all staff from the State Department's Bureau of Energy Resources responsible for maintaining diplomatic contacts with foreign energy bureaus and oil companies. This included the only expert in tracking sanctioned oil tankers, leading to a lack of coordination in addressing the global oil crisis.",
+      "why_relevant": "The cuts hinder U.S. diplomatic efforts and preparedness for energy crises, impacting international relations and economic stability.",
+      "attacks": [
+        "21"
+      ],
+      "_origin_file": "hcr_events_2026-03-01_2026-03-20.json",
+      "_origin_index": 6
     },
     {
       "source_key": "guardian",
       "date": "2026-03-18",
       "category": "Legislative & Oversight Activity",
-      "title": "Arizona Cancels Cesar Chavez Day as State Holiday",
+      "title": "Arizona cancels César Chávez Day as a state holiday",
       "url": "https://www.theguardian.com/us-news/2026/mar/18/cesar-chavez-sexual-abuse-allegations",
-      "summary": "In response to allegations of sexual abuse against the late labor organizer Cesar Chavez, the state of Arizona announced it will no longer observe Cesar Chavez Day on March 31 as a state holiday. This decision follows a New York Times investigation revealing allegations of grooming and sexual abuse by Chavez. The move reflects a broader reevaluation of Chavez's legacy in light of these allegations, with other states and organizations also reconsidering their commemorations.",
-      "why_relevant": "The cancellation of a state holiday signifies a significant shift in public recognition and accountability for historical figures accused of misconduct.",
-      "attacks": [
-        "public_memory"
-      ],
-      "_origin_file": "guardian_events_2026-03-14_2026-03-20.json",
-      "_origin_index": 26
+      "summary": "",
+      "why_relevant": "This decision impacts the recognition of historical figures and reflects a shift in how states respond to allegations of misconduct.",
+      "attacks": [],
+      "_origin_file": "guardian_events_2026-03-01_2026-03-20.json",
+      "_origin_index": 5
     },
     {
       "source_key": "guardian",
@@ -2189,28 +2169,31 @@
       "source_key": "hcr",
       "date": "2026-03-18",
       "category": "Legislative & Oversight Activity",
-      "title": "Representative Eric Swalwell criticizes Trump's war plans",
+      "title": "Senate votes to take up the SAVE America Act",
       "url": "https://heathercoxrichardson.substack.com/p/march-17-2026",
-      "summary": "Representative Eric Swalwell criticized President Trump's focus on building a ballroom rather than addressing the ongoing conflict in the Middle East, highlighting concerns about the administration's priorities.",
-      "why_relevant": "This statement underscores the disconnect between the administration's actions and the pressing issues facing the nation, questioning the effectiveness of leadership.",
-      "attacks": [],
-      "_origin_file": "hcr_events_2026-03-14_2026-03-20.json",
-      "_origin_index": 14
+      "summary": "The Senate voted to take up the SAVE America Act, which aims to implement stricter voting requirements. This move indicates a significant push by Republicans to advance voter suppression measures.",
+      "why_relevant": "The Senate's action on this bill reflects ongoing efforts to restrict voting rights, which could undermine democratic processes and access to the ballot.",
+      "attacks": [
+        "7",
+        "21"
+      ],
+      "_origin_file": "hcr_events_2026-03-01_2026-03-20.json",
+      "_origin_index": 13
     },
     {
       "source_key": "hcr",
       "date": "2026-03-18",
       "category": "Legislative & Oversight Activity",
-      "title": "Senate votes to take up the SAVE America Act",
+      "title": "Trump pushes for the SAVE America Act",
       "url": "https://heathercoxrichardson.substack.com/p/march-17-2026",
-      "summary": "The Senate voted to begin debate on the SAVE America Act, which aims to implement stricter voting regulations as proposed by Trump and his supporters.",
-      "why_relevant": "The Senate's action indicates a potential shift towards more restrictive voting laws, impacting democratic participation and representation.",
+      "summary": "Trump and his supporters are advocating for the passage of the SAVE America Act, which includes measures such as voter ID and proof of citizenship requirements. This legislation is framed as necessary to prevent alleged voter fraud.",
+      "why_relevant": "The proposed legislation could significantly restrict voting access, impacting democratic participation and representation.",
       "attacks": [
-        "workers",
-        "minorities"
+        "7",
+        "21"
       ],
-      "_origin_file": "hcr_events_2026-03-14_2026-03-20.json",
-      "_origin_index": 18
+      "_origin_file": "hcr_events_2026-03-01_2026-03-20.json",
+      "_origin_index": 12
     },
     {
       "source_key": "meidas",
@@ -2290,32 +2273,18 @@
       "_origin_index": 35
     },
     {
-      "source_key": "justsecurity",
+      "source_key": "hcr",
       "date": "2026-03-18",
       "category": "Judicial Developments",
-      "title": "Appeal filed — King County v. Turner (W.D. Wash.) 2:25-cv-00814",
-      "url": "https://www.courtlistener.com/docket/70062174/king-county-v-turner/",
-      "summary": "Defendants appealed the district court's Jan. 21, 2026 preliminary injunction to the Ninth Circuit.",
-      "why_relevant": "This litigation update changes the posture of an active legal challenge to Trump administration action.",
-      "attacks": [],
-      "_origin_file": "justsecurity_events_2026-03-14_2026-03-20.json",
-      "_origin_index": 3
-    },
-    {
-      "source_key": "justsecurity",
-      "date": "2026-03-18",
-      "category": "Judicial Developments",
-      "title": "Complaint filed — Bradley v. United States Agency for International Development",
-      "url": "https://www.courtlistener.com/docket/72513309/bradley-v-united-states-agency-for-international-development/",
-      "summary": "On March 18, 2026, former USAID foreign service officers filed a complaint in the U.S. District Court for the District of Columbia against the United States Agency for International Development. The plaintiffs allege that the mass terminations of older employees through a reduction in force were pretextual and discriminatory, violating the Age Discrimination in Employment Act and the Older Workers Benefit Protection Act. They claim the terminations were intended to replace older workers with a younger, \"tech-savvy\" workforce, bypassing legally required protections for older workers. The plaintiffs seek reinstatement, back pay, and damages.",
-      "why_relevant": "Litigation over Trump administration actions affects judicial review, executive power, rights enforcement, and the rule of law.",
+      "title": "Trump criticizes the Supreme Court's ruling on tariffs",
+      "url": "https://heathercoxrichardson.substack.com/p/march-17-2026",
+      "summary": "Trump publicly criticized the Supreme Court for its ruling that his tariffs were unconstitutional and for allowing President Biden's inauguration, calling the court a \"weaponized and unjust Political Organization.\"",
+      "why_relevant": "Trump's criticism of the Supreme Court reflects ongoing tensions between the executive branch and the judiciary, impacting the rule of law and judicial independence.",
       "attacks": [
-        "minorities",
-        "civil_service",
-        "rule_of_law"
+        "20"
       ],
-      "_origin_file": "justsecurity_events_2026-03-14_2026-03-20.json",
-      "_origin_index": 26
+      "_origin_file": "hcr_events_2026-03-01_2026-03-20.json",
+      "_origin_index": 11
     },
     {
       "source_key": "justsecurity",
@@ -2403,19 +2372,40 @@
       "_origin_index": 38
     },
     {
-      "source_key": "hcr",
+      "source_key": "guardian",
       "date": "2026-03-18",
-      "category": "Elections & Representation",
-      "title": "Trump proposes the SAVE America Act",
-      "url": "https://heathercoxrichardson.substack.com/p/march-17-2026",
-      "summary": "Trump and his allies are pushing for the Safeguard American Voter Eligibility (SAVE) America Act, which would impose stricter voting requirements, including proof of citizenship, to prevent alleged voter fraud.",
-      "why_relevant": "This act could significantly restrict voter access and participation, raising concerns about voter suppression and the integrity of democratic processes.",
-      "attacks": [
-        "workers",
-        "minorities"
-      ],
-      "_origin_file": "hcr_events_2026-03-14_2026-03-20.json",
-      "_origin_index": 17
+      "category": "Civil Society & Protest",
+      "title": "AFL-CIO withdraws support for César Chávez Day activities",
+      "url": "https://www.theguardian.com/us-news/2026/mar/18/cesar-chavez-sexual-abuse-allegations",
+      "summary": "",
+      "why_relevant": "The AFL-CIO's decision highlights the importance of accountability and support for survivors within labor movements.",
+      "attacks": [],
+      "_origin_file": "guardian_events_2026-03-01_2026-03-20.json",
+      "_origin_index": 8
+    },
+    {
+      "source_key": "guardian",
+      "date": "2026-03-18",
+      "category": "Civil Society & Protest",
+      "title": "La Union del Pueblo Entero cancels César Chávez events",
+      "url": "https://www.theguardian.com/us-news/2026/mar/18/cesar-chavez-sexual-abuse-allegations",
+      "summary": "",
+      "why_relevant": "This cancellation reflects the organization's stance on addressing allegations of abuse and supporting survivors.",
+      "attacks": [],
+      "_origin_file": "guardian_events_2026-03-01_2026-03-20.json",
+      "_origin_index": 7
+    },
+    {
+      "source_key": "guardian",
+      "date": "2026-03-18",
+      "category": "Civil Society & Protest",
+      "title": "United Farm Workers cancels César Chávez celebrations",
+      "url": "https://www.theguardian.com/us-news/2026/mar/18/cesar-chavez-sexual-abuse-allegations",
+      "summary": "",
+      "why_relevant": "The cancellation of these events signifies a significant shift in how organizations address historical figures accused of misconduct.",
+      "attacks": [],
+      "_origin_file": "guardian_events_2026-03-01_2026-03-20.json",
+      "_origin_index": 6
     },
     {
       "source_key": "meidas",
@@ -2637,13 +2627,13 @@
       "source_key": "hcr",
       "date": "2026-03-18",
       "category": "Appointments & Patronage",
-      "title": "Joe Kent resigns from National Counterterrorism Center",
+      "title": "Joe Kent resigns over opposition to the Iran war",
       "url": "https://heathercoxrichardson.substack.com/p/march-17-2026",
-      "summary": "Joe Kent, a Trump ally, resigned as director of the National Counterterrorism Center, citing a lack of support for the ongoing war in Iran, which he believes poses no imminent threat to the U.S.",
-      "why_relevant": "Kent's resignation reflects internal dissent within the administration regarding military strategy and foreign policy.",
+      "summary": "Joe Kent, a Trump ally and director of the National Counterterrorism Center, resigned, stating he could not support the ongoing war in Iran, which he believes poses no imminent threat to the U.S. His resignation reflects growing dissent within Trump's circle regarding the conflict.",
+      "why_relevant": "Kent's resignation highlights the fractures within the administration and raises questions about the justification for military actions in Iran.",
       "attacks": [],
-      "_origin_file": "hcr_events_2026-03-14_2026-03-20.json",
-      "_origin_index": 15
+      "_origin_file": "hcr_events_2026-03-01_2026-03-20.json",
+      "_origin_index": 9
     },
     {
       "source_key": "meidas",
@@ -2734,25 +2724,61 @@
       "source_key": "hcr",
       "date": "2026-03-18",
       "category": "International Relations",
-      "title": "Russia increases military cooperation with Iran",
+      "title": "Israel's military operations in Lebanon result in significant casualties",
       "url": "https://heathercoxrichardson.substack.com/p/march-17-2026",
-      "summary": "Reports indicate that Russia has expanded its military cooperation with Iran, providing intelligence sharing and military support, including drone components and satellite imagery, to assist Iran in its conflict against U.S. and Israeli forces.",
-      "why_relevant": "This development signifies a shift in geopolitical alliances and the potential for prolonged conflict in the region.",
+      "summary": "Israeli military operations in Lebanon have reportedly killed over 850 people and displaced at least 800,000 as Israel aims to destroy terror infrastructure. This escalation follows the U.S. and Israeli strikes on Iran that began on February 28.",
+      "why_relevant": "The military actions contribute to regional instability and humanitarian crises, affecting international relations and the perception of U.S. involvement in the Middle East.",
       "attacks": [],
-      "_origin_file": "hcr_events_2026-03-14_2026-03-20.json",
-      "_origin_index": 11
+      "_origin_file": "hcr_events_2026-03-01_2026-03-20.json",
+      "_origin_index": 4
     },
     {
       "source_key": "hcr",
       "date": "2026-03-18",
       "category": "International Relations",
-      "title": "Trump demands NATO assistance for Strait of Hormuz reopening",
+      "title": "Russia increases military cooperation with Iran",
       "url": "https://heathercoxrichardson.substack.com/p/march-17-2026",
-      "summary": "President Donald J. Trump continued to demand assistance from NATO allies to reopen the Strait of Hormuz for tanker traffic, but countries have declined to help. Trump threatened to leave NATO over their unwillingness to assist in the conflict he initiated. His administration has faced criticism for not preparing adequately for the war and its implications on global oil supply.",
-      "why_relevant": "This event highlights the strain on international alliances and the implications of unilateral military actions on global cooperation.",
+      "summary": "Reports indicate that Russia has expanded its military cooperation with Iran, providing intelligence sharing and military support, including drone components and satellite imagery. This assistance enables Iran to target U.S. troops and radar systems in the region.",
+      "why_relevant": "Russia's support for Iran complicates U.S. military efforts and highlights the geopolitical ramifications of the ongoing conflict in the Middle East.",
       "attacks": [],
-      "_origin_file": "hcr_events_2026-03-14_2026-03-20.json",
-      "_origin_index": 9
+      "_origin_file": "hcr_events_2026-03-01_2026-03-20.json",
+      "_origin_index": 5
+    },
+    {
+      "source_key": "hcr",
+      "date": "2026-03-18",
+      "category": "International Relations",
+      "title": "Trump allies express concerns over the Iran conflict",
+      "url": "https://heathercoxrichardson.substack.com/p/march-17-2026",
+      "summary": "Trump’s allies in the White House are reportedly backing away from the war in Iran, viewing it as a political disaster. They had hoped for quick strikes to remove Iran's leadership but now feel that Trump no longer controls the situation.",
+      "why_relevant": "The internal dissent among Trump's allies indicates a potential shift in U.S. foreign policy and the political ramifications of military engagements.",
+      "attacks": [],
+      "_origin_file": "hcr_events_2026-03-01_2026-03-20.json",
+      "_origin_index": 8
+    },
+    {
+      "source_key": "hcr",
+      "date": "2026-03-18",
+      "category": "International Relations",
+      "title": "Trump claims imminent threat from Iran",
+      "url": "https://heathercoxrichardson.substack.com/p/march-17-2026",
+      "summary": "House Speaker Mike Johnson and Trump defended the military actions against Iran, asserting that there was an imminent threat from Iran's nuclear capabilities and missile development. This claim contradicts previous intelligence assessments.",
+      "why_relevant": "The justification for military action based on perceived threats raises concerns about the accuracy of intelligence and the rationale for U.S. military interventions.",
+      "attacks": [],
+      "_origin_file": "hcr_events_2026-03-01_2026-03-20.json",
+      "_origin_index": 10
+    },
+    {
+      "source_key": "hcr",
+      "date": "2026-03-18",
+      "category": "International Relations",
+      "title": "Trump demands international assistance to reopen the Strait of Hormuz",
+      "url": "https://heathercoxrichardson.substack.com/p/march-17-2026",
+      "summary": "President Donald J. Trump continued to demand that other countries assist the U.S. in reopening the Strait of Hormuz for tanker traffic, but countries have declined to help. Trump threatened to leave NATO over allies' unwillingness to assist. This situation arises from a war initiated by Trump without prior consultation, leading to increased tensions and military actions in the region.",
+      "why_relevant": "The demand for international assistance highlights the challenges of U.S. foreign policy and military engagements, impacting global oil supply and diplomatic relations.",
+      "attacks": [],
+      "_origin_file": "hcr_events_2026-03-01_2026-03-20.json",
+      "_origin_index": 3
     },
     {
       "source_key": "meidas",
@@ -2858,20 +2884,6 @@
       "_origin_index": 36
     },
     {
-      "source_key": "hcr",
-      "date": "2026-03-18",
-      "category": "Civil–Military Relations & State Violence",
-      "title": "Israel's military operations in Lebanon escalate",
-      "url": "https://heathercoxrichardson.substack.com/p/march-17-2026",
-      "summary": "Israeli prime minister Benjamin Netanyahu announced military operations in Lebanon aimed at destroying terror infrastructure, resulting in over 850 deaths and the displacement of at least 800,000 people.",
-      "why_relevant": "The escalation of military operations raises concerns about human rights and the impact on civilian populations in conflict zones.",
-      "attacks": [
-        "minorities"
-      ],
-      "_origin_file": "hcr_events_2026-03-14_2026-03-20.json",
-      "_origin_index": 10
-    },
-    {
       "source_key": "guardian",
       "date": "2026-03-19",
       "category": "Executive Actions & Orders",
@@ -2961,6 +2973,21 @@
       "source_key": "hcr",
       "date": "2026-03-19",
       "category": "Legislative & Oversight Activity",
+      "title": "DEA Investigation of Jeffrey Epstein Revealed",
+      "url": "https://www.cbsnews.com/news/jeffrey-epstein-files-dea-document-drug-trafficking-investigation/",
+      "summary": "A document uncovered by CBS News indicates that the U.S. Drug Enforcement Agency (DEA) was investigating Jeffrey Epstein and fourteen others for drug trafficking, prostitution, and money laundering starting in December 2010. The investigation, named \"Chain Reaction,\" was reportedly ongoing until 2015 but was terminated without charges being filed. Senator Ron Wyden has raised concerns about the handling of the investigation and has requested unredacted documents related to it from the DEA, alleging interference from Deputy Attorney General Todd Blanche in the release of these documents.",
+      "why_relevant": "This event highlights potential governmental obstruction in investigating serious criminal activities, raising concerns about accountability and transparency in law enforcement.",
+      "attacks": [
+        "justice_dept",
+        "transparency"
+      ],
+      "_origin_file": "hcr_events_2026-03-01_2026-03-20.json",
+      "_origin_index": 0
+    },
+    {
+      "source_key": "hcr",
+      "date": "2026-03-19",
+      "category": "Legislative & Oversight Activity",
       "title": "Senator Wyden demands documents from DEA regarding Epstein",
       "url": "https://www.finance.senate.gov/ranking-members-news/new-wyden-bill-would-force-treasury-to-turn-over-epstein-files",
       "summary": "Senator Ron Wyden formally demanded that DEA Administrator Terrance C. Cole produce several documents related to the investigation of Jeffrey Epstein, including details on the investigation's conclusion and the reasons for the lack of charges against Epstein and his associates. Wyden's request emphasizes the need for accountability in the handling of the investigation.",
@@ -3033,20 +3060,6 @@
       "source_key": "justsecurity",
       "date": "2026-03-19",
       "category": "Judicial Developments",
-      "title": "Complaint filed — Doe v. Noem",
-      "url": "https://www.courtlistener.com/docket/72516948/doe-v-noem/",
-      "summary": "On March 19, 2026, a group of Yemeni nationals with Temporary Protected Status (TPS) or pending TPS applications filed a class action complaint in the Southern District of New York. They also filed a statement of relatedness to an existing case, Doe v. Noem, 1:25-cv-02103. This legal action challenges the Trump administration's policies affecting TPS holders, seeking judicial review and enforcement of rights.",
-      "why_relevant": "Litigation over Trump administration actions affects judicial review, executive power, rights enforcement, and the rule of law.",
-      "attacks": [
-        "immigrants_refugees"
-      ],
-      "_origin_file": "justsecurity_events_2026-03-14_2026-03-20.json",
-      "_origin_index": 24
-    },
-    {
-      "source_key": "justsecurity",
-      "date": "2026-03-19",
-      "category": "Judicial Developments",
       "title": "Complaint filed — Interfaith Center on Corporate Responsibility v. SEC",
       "url": "https://www.courtlistener.com/docket/72514916/interfaith-center-on-corporate-responsibility-v-securities-and-exchange/",
       "summary": "On March 19, 2026, the Interfaith Center on Corporate Responsibility (ICCR) filed a complaint against the Securities and Exchange Commission (SEC) in the U.S. District Court for the District of Columbia. The complaint challenges the SEC's new \"No-Objection Policy,\" alleging it was adopted in violation of the Administrative Procedure Act (APA). The policy allows the Division of Corporation Finance to accept company representations regarding shareholder proposal exclusions without evaluating their adequacy. The ICCR seeks declaratory and injunctive relief.",
@@ -3071,30 +3084,6 @@
       ],
       "_origin_file": "justsecurity_events_2026-03-14_2026-03-20.json",
       "_origin_index": 6
-    },
-    {
-      "source_key": "justsecurity",
-      "date": "2026-03-19",
-      "category": "Judicial Developments",
-      "title": "Preliminary injunction ruling — State of Maryland v. Noem (D. Md.) 1:26-cv-00733",
-      "url": "https://www.courtlistener.com/docket/72313096/state-of-maryland-v-noem/",
-      "summary": "Judge Hurson extended the TRO until he issues a ruling on Plaintiff's incoming Motion for Preliminary Injunction, and no later than April 16, 2026.",
-      "why_relevant": "This litigation update changes the posture of an active legal challenge to Trump administration action.",
-      "attacks": [],
-      "_origin_file": "justsecurity_events_2026-03-14_2026-03-20.json",
-      "_origin_index": 18
-    },
-    {
-      "source_key": "justsecurity",
-      "date": "2026-03-19",
-      "category": "Judicial Developments",
-      "title": "Summary judgment ruling — State of Oregon v. Kennedy (D. Or.) 6:25-cv-02409",
-      "url": "https://www.courtlistener.com/docket/72077914/state-of-oregon-v-kennedy/",
-      "summary": "In a bench order, Judge Mustafa Kasubhai granted Plaintiffs' motion for summary judgment, holding that the Department of Health and Human Service's declaration restricting gender-affirming care for minors is unlawful and ordering the parties to provide supplemental briefings on injunctive relief.",
-      "why_relevant": "This litigation update changes the posture of an active legal challenge to Trump administration action.",
-      "attacks": [],
-      "_origin_file": "justsecurity_events_2026-03-14_2026-03-20.json",
-      "_origin_index": 10
     },
     {
       "source_key": "zeteo",
@@ -3187,18 +3176,6 @@
       ],
       "_origin_file": "meidas_events_2026-03-14_2026-03-20.json",
       "_origin_index": 1
-    },
-    {
-      "source_key": "democracydocket",
-      "date": "2026-03-19",
-      "category": "Information & Media Control",
-      "title": "Opinion Published on Democracy Docket",
-      "url": "https://www.democracydocket.com/opinion/",
-      "summary": "Democracy Docket published an opinion piece discussing the importance of tracking litigation and actions that directly influence election rules and democratic access. The piece emphasizes the role of courts and voting rights in protecting democracy. It does not report any new legal actions or court decisions but provides context on the significance of ongoing legal battles in shaping democratic processes.",
-      "why_relevant": "The opinion highlights the importance of monitoring legal developments that impact democratic access and election rules.",
-      "attacks": [],
-      "_origin_file": "democracydocket_events_2026-03-14_2026-03-20.json",
-      "_origin_index": 8
     },
     {
       "source_key": "noah",
@@ -3719,22 +3696,6 @@
       "source_key": "justsecurity",
       "date": "2026-03-20",
       "category": "Judicial Developments",
-      "title": "Complaint filed — Chicago Transit Authority v. United States Department of Transportation",
-      "url": "https://www.courtlistener.com/docket/72521744/chicago-transit-authority-v-united-states-department-of-transportation/",
-      "summary": "On March 20, 2026, the Chicago Transit Authority (CTA) filed a complaint in the Northern District of Illinois against the Department of Transportation (DOT), the Federal Transit Administration (FTA), and the United States. The complaint challenges the freezing of federal grant funding for two CTA projects, alleging that an Interim Final Rule (IFR) removing race- and gender-based presumptions from the Disadvantaged Business Enterprise (DBE) program regulations violates the Administrative Procedure Act (APA), the separation of powers, and the Spending Clause. The CTA seeks declaratory and injunctive relief.",
-      "why_relevant": "Litigation over Trump administration actions affects judicial review, executive power, rights enforcement, and the rule of law.",
-      "attacks": [
-        "minorities",
-        "women",
-        "separation_of_powers"
-      ],
-      "_origin_file": "justsecurity_events_2026-03-14_2026-03-20.json",
-      "_origin_index": 9
-    },
-    {
-      "source_key": "justsecurity",
-      "date": "2026-03-20",
-      "category": "Judicial Developments",
       "title": "Complaint filed — State of New Jersey v. U.S. Immigration and Customs Enforcement",
       "url": "https://www.courtlistener.com/docket/72520349/state-of-new-jersey-v-united-states-immigration-and-customs-enforcement/",
       "summary": "On March 20, 2026, the State of New Jersey and the Township of Roxbury filed a complaint in the District of New Jersey against U.S. Immigration and Customs Enforcement (ICE) and the Department of Homeland Security (DHS). The lawsuit challenges the decision to establish a large-scale immigration detention facility in an industrial warehouse in Roxbury, alleging violations of the Administrative Procedure Act (APA). The plaintiffs are seeking declaratory and injunctive relief to prevent the facility's establishment.",
@@ -3749,18 +3710,6 @@
       "source_key": "justsecurity",
       "date": "2026-03-20",
       "category": "Judicial Developments",
-      "title": "Dismissal entered — Jackson v. Kennedy (D.D.C.) 1:25-cv-01750",
-      "url": "https://www.courtlistener.com/docket/70446646/jackson-v-kennedy/",
-      "summary": "Pursuant to a joint stipulation filed on March 17, Judge Beryl Howell dismissed without prejudice claims brought by two Plaintiffs in the case and all claims brought against the Defendant Centers for Disease Control and Prevention.",
-      "why_relevant": "This litigation update changes the posture of an active legal challenge to Trump administration action.",
-      "attacks": [],
-      "_origin_file": "justsecurity_events_2026-03-14_2026-03-20.json",
-      "_origin_index": 28
-    },
-    {
-      "source_key": "justsecurity",
-      "date": "2026-03-20",
-      "category": "Judicial Developments",
       "title": "Motion granted — Minneapolis Area Synod of the Evangelical Lutheran Church in America v. U.S. Department of Homeland Security (D. Minn.) 0:26-cv-01576",
       "url": "https://www.courtlistener.com/docket/72314250/minneapolis-area-synod-of-the-evangelical-lutheran-church-in-america-v/",
       "summary": "Judge Jerry Blackwell reportedly granted an injunction allowing members of the clergy to visit immigration detainees held at the Bishop Henry Whipple Federal Building in Minneapolis.",
@@ -3768,18 +3717,6 @@
       "attacks": [],
       "_origin_file": "justsecurity_events_2026-03-14_2026-03-20.json",
       "_origin_index": 2
-    },
-    {
-      "source_key": "justsecurity",
-      "date": "2026-03-20",
-      "category": "Judicial Developments",
-      "title": "Summary judgment ruling — National TPS Alliance et al. v. Noem (N.D. Cal.) 3:25-cv-01766",
-      "url": "https://www.courtlistener.com/docket/69655305/national-tps-alliance-v-noem/",
-      "summary": "The Ninth Circuit denied Defendants' motion for vacatur of Judge Chen's Sept. 5, 2025 entry of partial summary judgment for the Plaintiffs.",
-      "why_relevant": "This litigation update changes the posture of an active legal challenge to Trump administration action.",
-      "attacks": [],
-      "_origin_file": "justsecurity_events_2026-03-14_2026-03-20.json",
-      "_origin_index": 20
     },
     {
       "source_key": "guardian",

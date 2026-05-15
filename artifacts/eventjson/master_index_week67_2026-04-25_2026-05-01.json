@@ -5,58 +5,57 @@
   },
   "week_number": 67,
   "sources": [
-    "justsecurity",
-    "zeteo",
-    "popinfo",
-    "orders",
-    "democracydocket",
-    "congress",
-    "guardian",
-    "noah",
-    "meidas",
     "50501",
+    "noah",
+    "zeteo",
+    "guardian",
+    "popinfo",
+    "meidas",
+    "congress",
+    "democracydocket",
     "hcr",
+    "orders",
+    "justsecurity",
     "federalregister"
   ],
   "counts": {
-    "total": 278,
+    "total": 277,
     "by_date": {
       "2026-04-25": 20,
       "2026-04-26": 19,
-      "2026-04-27": 38,
-      "2026-04-28": 39,
-      "2026-04-29": 48,
-      "2026-04-30": 58,
-      "2026-05-01": 56
+      "2026-04-27": 37,
+      "2026-04-28": 40,
+      "2026-04-29": 47,
+      "2026-04-30": 56,
+      "2026-05-01": 58
     },
     "by_source": {
-      "guardian": 86,
+      "guardian": 88,
       "meidas": 54,
       "zeteo": 7,
-      "hcr": 25,
+      "hcr": 24,
       "federalregister": 48,
       "congress": 2,
-      "justsecurity": 17,
+      "justsecurity": 10,
       "popinfo": 14,
-      "50501": 15,
+      "50501": 21,
       "noah": 6,
       "orders": 2,
-      "democracydocket": 2
+      "democracydocket": 1
     },
     "by_category": {
       "Executive Actions & Orders": 24,
-      "Judicial Developments": 57,
+      "Judicial Developments": 53,
       "Law Enforcement & Surveillance": 36,
-      "Elections & Representation": 16,
-      "Civil Society & Protest": 5,
+      "Elections & Representation": 15,
+      "Civil Society & Protest": 9,
       "Information & Media Control": 13,
       "Economic & Regulatory Power": 58,
       "Appointments & Patronage": 4,
       "International Relations": 14,
       "Civil–Military Relations & State Violence": 13,
-      "Legislative & Oversight Activity": 35,
-      "Health & Public Welfare": 2,
-      "Voting rights / Courts / Democracy protection": 1
+      "Legislative & Oversight Activity": 36,
+      "Health & Public Welfare": 2
     }
   },
   "events": [
@@ -844,18 +843,6 @@
       "source_key": "justsecurity",
       "date": "2026-04-27",
       "category": "Judicial Developments",
-      "title": "Case update — National Trust for Historic Preservation in the United States v. National Park Service (D.D.C.) 1:25-cv-04316",
-      "url": "https://www.courtlistener.com/docket/72028010/national-trust-for-historic-preservation-in-the-united-states-v-national/",
-      "summary": "Acting Attorney General Todd Blanche filed a motion to dissolve the court's injunction, arguing that the National Trust for Historic Preservation “suffer from Trump Derangement Syndrome,” and that the shooting on Saturday night “could not have taken place in this new and highly secure facility!”",
-      "why_relevant": "This litigation update changes the posture of an active legal challenge to Trump administration action.",
-      "attacks": [],
-      "_origin_file": "justsecurity_events_2026-04-25_2026-05-01.json",
-      "_origin_index": 13
-    },
-    {
-      "source_key": "justsecurity",
-      "date": "2026-04-27",
-      "category": "Judicial Developments",
       "title": "Complaint filed — Phang v. Blanche",
       "url": "https://www.courtlistener.com/docket/73246595/phang-v-blanche/",
       "summary": "On April 27, 2026, Katie Phang filed a complaint in the U.S. District Court for the District of Columbia against Acting Attorney General Todd Blanche, alleging non-compliance with the Epstein Files Transparency Act. The complaint claims that the Department of Justice failed to release all required documents related to Jeffrey Epstein and others, improperly redacted documents, and retracted previously published materials. Phang seeks a declaratory judgment, injunctive relief, and the appointment of a special master to ensure compliance with the Act.",
@@ -1261,6 +1248,21 @@
       "_origin_index": 52
     },
     {
+      "source_key": "guardian",
+      "date": "2026-04-28",
+      "category": "Judicial Developments",
+      "title": "Second indictment against ex-FBI director James Comey",
+      "url": "https://www.theguardian.com/us-news/2026/may/03/james-comey-indictment-instagram-post-seashells",
+      "summary": "Former FBI director indicted in connection with seashell photo as some Trump allies skeptical of news charges",
+      "why_relevant": "This indictment raises concerns about the use of legal actions to target political opponents.",
+      "attacks": [
+        "justice_dept",
+        "rule_of_law"
+      ],
+      "_origin_file": "guardian_events_2026-05-02_2026-05-15.json",
+      "_origin_index": 113
+    },
+    {
       "source_key": "justsecurity",
       "date": "2026-04-28",
       "category": "Judicial Developments",
@@ -1291,18 +1293,6 @@
       "source_key": "justsecurity",
       "date": "2026-04-28",
       "category": "Judicial Developments",
-      "title": "Motion denied — League of Women Voters of Massachusetts v. Trump (D. Mass.) 1:26-cv-11549",
-      "url": "https://www.courtlistener.com/docket/73133197/league-of-women-voters-of-massachusetts-v-trump/",
-      "summary": "Judge Talwani denied the administration's motion to transfer the cases to Washington, D.C. where other actions challenging Executive Order 14399 were pending. Judge Talwani found that none of the plaintiffs in the D.C. cases were parties to the Massachusetts cases, and as such she did not need to defer to the D.C. cases under the first-to-file rule.",
-      "why_relevant": "This litigation update changes the posture of an active legal challenge to Trump administration action.",
-      "attacks": [],
-      "_origin_file": "justsecurity_events_2026-04-25_2026-05-01.json",
-      "_origin_index": 1
-    },
-    {
-      "source_key": "justsecurity",
-      "date": "2026-04-28",
-      "category": "Judicial Developments",
       "title": "Motion denied — National Federation of Prison Locals v. Federal Bureau of Prisons (D. Conn.) 3:25-cv-01907",
       "url": "https://www.courtlistener.com/docket/71907982/national-council-of-prison-locals-american-federation-of-government/",
       "summary": "Judge Oliver denied the administration's motions to dismiss or stay the case and to transfer it to Washington, D.C. Judge Oliver found that the court retained jurisdiction over the case as the challenged Executive Order explicitly excluded the Bureau of Prisons from the Federal Service Labor-Management Relations Statute, which routes federal workforce labor disputes to the Federal Labor Relations Authority. The court also found that the case was not impermissibly split from American Federation Of Government Employees, AFL-CIO v. Trump , which was filed before the collective bargaining agreement was terminated, and also declined to stay the case for those reasons. The court found that Plaintiffs had adequately established a case First Amendment retaliation, viewpoint discrimination, and arbitrary and capricious action under the Administrative Procedure Act, and declined to transfer the case to Washington, D.C. as convenience favored keeping it in Connecticut.",
@@ -1310,18 +1300,6 @@
       "attacks": [],
       "_origin_file": "justsecurity_events_2026-04-25_2026-05-01.json",
       "_origin_index": 11
-    },
-    {
-      "source_key": "justsecurity",
-      "date": "2026-04-28",
-      "category": "Judicial Developments",
-      "title": "Motion denied — State of California v. Trump (D. Mass.) 1:26-cv-11581",
-      "url": "https://www.courtlistener.com/docket/73141063/state-of-california-v-trump/",
-      "summary": "Judge Talwani denied the administration's motion to transfer the cases to Washington, D.C. where other actions challenging Executive Order 14399 were pending. Judge Talwani found that none of the plaintiffs in the D.C. cases were parties to the Massachusetts cases, and as such she did not need to defer to the D.C. cases under the first-to-file rule.",
-      "why_relevant": "This litigation update changes the posture of an active legal challenge to Trump administration action.",
-      "attacks": [],
-      "_origin_file": "justsecurity_events_2026-04-25_2026-05-01.json",
-      "_origin_index": 2
     },
     {
       "source_key": "justsecurity",
@@ -1504,6 +1482,32 @@
       "attacks": [],
       "_origin_file": "guardian_events_2026-04-25_2026-05-01.json",
       "_origin_index": 49
+    },
+    {
+      "source_key": "50501",
+      "date": "2026-04-28",
+      "category": "Civil Society & Protest",
+      "title": "ACLU People Power Action Call",
+      "url": "https://www.the50501movement.org/p/april-action-calendar-before-may",
+      "summary": "The ACLU's People Power network will host a national action call on April 28 at 8 PM ET. The call provides a structured entry point for ongoing civil liberties organizing.",
+      "why_relevant": "The call supports civil liberties advocacy and organizing efforts.",
+      "attacks": [],
+      "_origin_file": "50501_events_2026-03-28_2026-04-24.json",
+      "_origin_index": 34
+    },
+    {
+      "source_key": "50501",
+      "date": "2026-04-28",
+      "category": "Civil Society & Protest",
+      "title": "Workers Memorial Day",
+      "url": "https://www.the50501movement.org/p/april-action-calendar-before-may",
+      "summary": "Workers Memorial Day on April 28, organized by the AFL-CIO, commemorates workers killed or injured on the job. The day includes remembrance and action, with resources provided for local observances. It occurs amid federal rollbacks of workplace safety protections.",
+      "why_relevant": "The day highlights the importance of workplace safety and labor rights.",
+      "attacks": [
+        "workers"
+      ],
+      "_origin_file": "50501_events_2026-03-28_2026-04-24.json",
+      "_origin_index": 33
     },
     {
       "source_key": "guardian",
@@ -1741,6 +1745,20 @@
       ],
       "_origin_file": "50501_events_2026-04-25_2026-05-01.json",
       "_origin_index": 6
+    },
+    {
+      "source_key": "50501",
+      "date": "2026-04-29",
+      "category": "Legislative & Oversight Activity",
+      "title": "House passes budget resolution for ICE and Border Patrol funding",
+      "url": "https://clerk.house.gov",
+      "summary": "The U.S. House of Representatives passed S. Con. Res. 33, a budget resolution that sets up a reconciliation process potentially increasing funding for ICE and Border Patrol. The resolution allows for deficit increases up to $70 billion over the next decade and requires committee recommendations by May 15, 2026. This move could expedite immigration enforcement funding without requiring a supermajority.",
+      "why_relevant": "The resolution could significantly impact immigration enforcement policies and funding, affecting civil liberties and oversight.",
+      "attacks": [
+        "immigrants_refugees"
+      ],
+      "_origin_file": "50501_events_2026-05-02_2026-05-15.json",
+      "_origin_index": 23
     },
     {
       "source_key": "50501",
@@ -2023,18 +2041,6 @@
       "source_key": "justsecurity",
       "date": "2026-04-29",
       "category": "Judicial Developments",
-      "title": "Case update — Zhaocheng Tan v. Donald Trump (D.C. Cir.) 26-1047",
-      "url": "https://www.courtlistener.com/docket/72369202/zhaocheng-tan-v-donald-trump/",
-      "summary": "The D.C. Circuit allowed Petitioners to amend their complaint to include information from a former employee at TikTok in the United States. In the unsigned order, the panel also allowed the former employee to proceed pseudonymously.",
-      "why_relevant": "This litigation update changes the posture of an active legal challenge to Trump administration action.",
-      "attacks": [],
-      "_origin_file": "justsecurity_events_2026-04-25_2026-05-01.json",
-      "_origin_index": 16
-    },
-    {
-      "source_key": "justsecurity",
-      "date": "2026-04-29",
-      "category": "Judicial Developments",
       "title": "Complaint filed — Protect Democracy Project v. Internal Revenue Service",
       "url": "https://www.courtlistener.com/docket/73262025/protect-democracy-project-v-internal-revenue-service/",
       "summary": "On April 29, 2026, Protect Democracy Project filed a complaint in the U.S. District Court for the District of Columbia against the Internal Revenue Service. The complaint alleges that the IRS violated the Freedom of Information Act (FOIA) by failing to conduct an adequate search for records related to the implementation of directives designating \"Antifa\" as a domestic terrorist organization and by wrongfully withholding non-exempt records. The plaintiffs seek declaratory and injunctive relief to compel a reasonable search and the production of all non-exempt responsive records.",
@@ -2045,18 +2051,6 @@
       ],
       "_origin_file": "justsecurity_events_2026-04-25_2026-05-01.json",
       "_origin_index": 14
-    },
-    {
-      "source_key": "justsecurity",
-      "date": "2026-04-29",
-      "category": "Judicial Developments",
-      "title": "Motion granted — Castanon Nava v. Department of Homeland Security (N.D. Ill.) 1:18-cv-03757",
-      "url": "https://www.courtlistener.com/docket/6952165/castanon-nava-v-department-of-homeland-security/",
-      "summary": "Judge Cummings granted Plaintiffs' motion to enforce the consent decree for ten class members, ordering their immediate release without bond or conditions or - if already released - a refund of any bonds paid or conditions imposed. The court denied Plaintiffs' motion as to eleven other class members and separately noted that the claims of four class members had been resolved.",
-      "why_relevant": "This litigation update changes the posture of an active legal challenge to Trump administration action.",
-      "attacks": [],
-      "_origin_file": "justsecurity_events_2026-04-25_2026-05-01.json",
-      "_origin_index": 6
     },
     {
       "source_key": "meidas",
@@ -2617,30 +2611,6 @@
       "attacks": [],
       "_origin_file": "justsecurity_events_2026-04-25_2026-05-01.json",
       "_origin_index": 7
-    },
-    {
-      "source_key": "justsecurity",
-      "date": "2026-04-30",
-      "category": "Judicial Developments",
-      "title": "Motion granted — DSCC v. Trump (D.D.C.) 1:26-cv-01114",
-      "url": "https://www.courtlistener.com/docket/73131864/dscc-v-trump/",
-      "summary": "In a minute order , Judge Carl Nichols granted 12 states' motion to intervene as defendants pursuant to Federal Rule of Civil Procedure 24(b), ruling that intervention was permitted and that the states could join the suit.",
-      "why_relevant": "This litigation update changes the posture of an active legal challenge to Trump administration action.",
-      "attacks": [],
-      "_origin_file": "justsecurity_events_2026-04-25_2026-05-01.json",
-      "_origin_index": 0
-    },
-    {
-      "source_key": "justsecurity",
-      "date": "2026-04-30",
-      "category": "Judicial Developments",
-      "title": "Preliminary injunction ruling — N. v. U.S. Department of Health and Human Services (D.D.C.) 1:26-cv-00577",
-      "url": "https://www.courtlistener.com/docket/72313370/n-v-us-department-of-health-and-human-services/",
-      "summary": "Judge Nichols denied Plaintiffs' motion for a preliminary injunction that would have prevented the Government from requiring previously approved sponsors to repeat the full application process when unaccompanied minors are returned to ORR custody after a prior release. The court held that Plaintiffs had not shown a likelihood of success on their procedural due process or APA claims and that habeas corpus provides an adequate alternative remedy.",
-      "why_relevant": "This litigation update changes the posture of an active legal challenge to Trump administration action.",
-      "attacks": [],
-      "_origin_file": "justsecurity_events_2026-04-25_2026-05-01.json",
-      "_origin_index": 3
     },
     {
       "source_key": "meidas",
@@ -3247,6 +3217,22 @@
       "source_key": "50501",
       "date": "2026-05-01",
       "category": "Judicial Developments",
+      "title": "Federal appeals court orders restrictions on mifepristone",
+      "url": "https://www.the50501movement.org/p/this-week-in-action-may-410-2026",
+      "summary": "A federal appeals court has ordered nationwide restrictions on mifepristone, a medication used for abortion and miscarriage care, potentially disrupting access even in states where abortion is legally protected. The ACLU has highlighted the impact on telehealth, mail, and pharmacy systems, affecting rural, disabled, and low-income patients. An emergency motion has been filed at the Supreme Court to block the Fifth Circuit's decision, emphasizing the urgency of the situation.",
+      "why_relevant": "This ruling affects access to reproductive healthcare and raises significant legal and public health concerns.",
+      "attacks": [
+        "women",
+        "judicial_developments",
+        "public_health"
+      ],
+      "_origin_file": "50501_events_2026-05-02_2026-05-15.json",
+      "_origin_index": 26
+    },
+    {
+      "source_key": "50501",
+      "date": "2026-05-01",
+      "category": "Judicial Developments",
       "title": "Supreme Court ruling weakens Voting Rights Act",
       "url": "https://www.the50501movement.org/p/50501-friday-briefing-may-1-2026",
       "summary": "The Supreme Court ruled 6-3 in Louisiana v. Callais, striking down Louisiana's congressional map that included a second majority-Black district. The decision, written by Justice Samuel Alito, held that Section 2 of the Voting Rights Act did not require the creation of such a district, making it harder for Black communities to challenge maps that dilute their political power. This ruling has significant implications for Black representation, as it invalidates the map used to elect Congressman Cleo Fields and prompts a redistricting fight before the 2026 midterms.",
@@ -3258,6 +3244,22 @@
       ],
       "_origin_file": "50501_events_2026-04-25_2026-05-01.json",
       "_origin_index": 0
+    },
+    {
+      "source_key": "50501",
+      "date": "2026-05-01",
+      "category": "Judicial Developments",
+      "title": "U.S. Court of Appeals for the Fifth Circuit restricts mifepristone access",
+      "url": "https://www.the50501movement.org/p/the-mifepristone-maze",
+      "summary": "On May 1, the U.S. Court of Appeals for the Fifth Circuit issued a ruling that restricted access to the medication mifepristone by blocking its mail distribution and reinstating an in-person dispensing requirement. This decision reversed the FDA's 2021 decision to allow telehealth and mail distribution, which was formalized in 2023. The court sided with Louisiana's argument that the FDA had not adequately justified remote dispensing without additional safeguards, challenging the FDA's regulatory authority under the Federal Food, Drug, and Cosmetic Act.",
+      "why_relevant": "This ruling impacts the regulatory authority of the FDA and affects nationwide access to a critical reproductive health medication.",
+      "attacks": [
+        "women",
+        "courts",
+        "rule_of_law"
+      ],
+      "_origin_file": "50501_events_2026-05-02_2026-05-15.json",
+      "_origin_index": 18
     },
     {
       "source_key": "guardian",
@@ -3518,21 +3520,6 @@
       "_origin_index": 4
     },
     {
-      "source_key": "hcr",
-      "date": "2026-05-01",
-      "category": "Elections & Representation",
-      "title": "Louisiana Governor Suspends Primary Elections for Gerrymandering",
-      "url": "https://www.democracydocket.com/news-alerts/louisiana-governor-suspends-active-election-to-allow-for-gerrymander/",
-      "summary": "Louisiana Governor Jeff Landry declared a state of emergency and suspended primary elections to facilitate a gerrymandered redistricting plan aimed at increasing Republican representation in Congress. This decision came after the Supreme Court's ruling in Louisiana v. Callais, which allows states to redraw district lines with less scrutiny regarding racial discrimination. The suspension affects over 100,000 absentee ballots that had already been sent out.",
-      "why_relevant": "This action undermines the electoral process and the principle of fair representation, as it seeks to manipulate district boundaries for partisan gain.",
-      "attacks": [
-        "minorities",
-        "elections"
-      ],
-      "_origin_file": "hcr_events_2026-04-25_2026-05-01.json",
-      "_origin_index": 2
-    },
-    {
       "source_key": "50501",
       "date": "2026-05-01",
       "category": "Civil Society & Protest",
@@ -3543,6 +3530,30 @@
       "attacks": [],
       "_origin_file": "50501_events_2026-04-25_2026-05-01.json",
       "_origin_index": 3
+    },
+    {
+      "source_key": "50501",
+      "date": "2026-05-01",
+      "category": "Civil Society & Protest",
+      "title": "Nationwide May Day Protests Planned",
+      "url": "https://www.the50501movement.org/p/announcement-may-1-is-next-find-your",
+      "summary": "On May 1, a nationwide day of action titled \"Workers Over Billionaires\" is planned, with rallies, marches, walkouts, and community actions scheduled across the United States. The event aims to highlight issues such as economic inequality, education funding, and immigrant rights. The National Education Association and the Chicago Teachers Union are among the organizations mobilizing for the day, with nearly 100 solidarity schools planned to prepare communities. The event is part of a broader movement to prioritize workers' rights and democracy.",
+      "why_relevant": "This large-scale mobilization reflects ongoing civic engagement and advocacy for workers' rights and democratic principles.",
+      "attacks": [],
+      "_origin_file": "50501_events_2026-03-28_2026-04-24.json",
+      "_origin_index": 38
+    },
+    {
+      "source_key": "guardian",
+      "date": "2026-05-01",
+      "category": "Civil Society & Protest",
+      "title": "Climate activists block highway ramp in Washington DC",
+      "url": "https://www.theguardian.com/us-news/2026/may/05/climate-crisis-working-class-economy",
+      "summary": "On May 1, 2026, climate activists blocked a highway ramp near the offices of the American Petroleum Institute (API) in Washington DC. This protest was part of a broader movement to draw attention to the climate crisis and its economic impacts. The activists aimed to challenge the perception that climate policies are politically toxic and to promote a working-class climate agenda that links decarbonization with economic affordability. The protest highlighted the urgency of addressing climate change and its intersection with economic issues.",
+      "why_relevant": "This protest underscores the growing movement to integrate climate action with economic justice, challenging political narratives that separate the two.",
+      "attacks": [],
+      "_origin_file": "guardian_events_2026-05-02_2026-05-15.json",
+      "_origin_index": 101
     },
     {
       "source_key": "meidas",
@@ -3891,18 +3902,6 @@
       ],
       "_origin_file": "meidas_events_2026-04-25_2026-05-01.json",
       "_origin_index": 16
-    },
-    {
-      "source_key": "democracydocket",
-      "date": "2026-05-01",
-      "category": "Voting rights / Courts / Democracy protection",
-      "title": "Analysis",
-      "url": "https://www.democracydocket.com/analysis/",
-      "summary": "",
-      "why_relevant": "Democracy Docket tracks litigation and actions that directly shape election rules and democratic access.",
-      "attacks": [],
-      "_origin_file": "democracydocket_events_2026-04-25_2026-05-01.json",
-      "_origin_index": 0
     }
   ]
 }

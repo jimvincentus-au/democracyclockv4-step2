@@ -5,57 +5,56 @@
   },
   "week_number": 51,
   "sources": [
-    "democracydocket",
+    "50501",
     "noah",
     "guardian",
-    "outloud",
-    "tracker",
-    "50501",
-    "meidas",
     "popinfo",
-    "federalregister",
+    "justsecurity",
+    "outloud",
+    "meidas",
+    "hcr",
     "orders",
-    "hcr"
+    "democracydocket",
+    "federalregister"
   ],
   "counts": {
-    "total": 249,
+    "total": 247,
     "by_date": {
       "2026-01-03": 11,
-      "2026-01-04": 24,
-      "2026-01-05": 52,
-      "2026-01-06": 31,
-      "2026-01-07": 31,
-      "2026-01-08": 45,
-      "2026-01-09": 55
+      "2026-01-04": 23,
+      "2026-01-05": 37,
+      "2026-01-06": 32,
+      "2026-01-07": 32,
+      "2026-01-08": 49,
+      "2026-01-09": 63
     },
     "by_source": {
-      "hcr": 41,
+      "hcr": 38,
       "democracydocket": 3,
-      "guardian": 71,
+      "guardian": 72,
       "noah": 20,
       "50501": 12,
       "outloud": 9,
       "federalregister": 40,
-      "popinfo": 6,
-      "tracker": 20,
+      "popinfo": 7,
+      "justsecurity": 18,
       "meidas": 26,
-      "orders": 1
+      "orders": 2
     },
     "by_category": {
-      "Executive Actions & Orders": 15,
-      "Judicial Developments": 13,
-      "Law Enforcement & Surveillance": 39,
+      "Executive Actions & Orders": 16,
+      "Judicial Developments": 31,
+      "Law Enforcement & Surveillance": 37,
       "Elections & Representation": 8,
       "Civil Society & Protest": 23,
-      "International Relations": 33,
-      "Civil–Military Relations & State Violence": 18,
-      "Legislative & Oversight Activity": 18,
-      "Information & Media Control": 10,
-      "Economic & Regulatory Power": 61,
+      "International Relations": 26,
+      "Civil–Military Relations & State Violence": 15,
+      "Legislative & Oversight Activity": 15,
+      "Information & Media Control": 8,
+      "Economic & Regulatory Power": 58,
       "Transparency & Records": 6,
       "Appointments & Patronage": 3,
-      "Voting rights / Courts / Democracy protection": 1,
-      "Public Health": 1
+      "Voting rights / Courts / Democracy protection": 1
     }
   },
   "events": [
@@ -291,18 +290,6 @@
       ],
       "_origin_file": "guardian_events_2026-01-03_2026-01-09.json",
       "_origin_index": 64
-    },
-    {
-      "source_key": "hcr",
-      "date": "2026-01-04",
-      "category": "Legislative & Oversight Activity",
-      "title": "House Republicans release Jack Smith's testimony transcript",
-      "url": "https://judiciary.house.gov/sites/evo-subsites/republicans-judiciary.house.gov/files/2025-12/Smith-Depo-Transcript_Redacted-w-Errata.pdf",
-      "summary": "On New Year's Eve, Republicans on the House Judiciary Committee released a 255-page transcript of former special counsel Jack Smith's closed-door testimony from December 17, 2025. In his testimony, Smith stated under oath that he had developed proof beyond a reasonable doubt that President Trump engaged in a criminal scheme to overturn the 2020 election results and obstruct justice regarding classified documents.",
-      "why_relevant": "The release of this transcript highlights ongoing investigations into Trump's actions and the accountability of public officials.",
-      "attacks": [],
-      "_origin_file": "hcr_events_2026-01-03_2026-01-09.json",
-      "_origin_index": 32
     },
     {
       "source_key": "outloud",
@@ -613,6 +600,42 @@
       "_origin_index": 53
     },
     {
+      "source_key": "justsecurity",
+      "date": "2026-01-05",
+      "category": "Judicial Developments",
+      "title": "American Oversight v. Federal Bureau of Investigation (D.D.C.) 1:26-cv-00020 — Case filed",
+      "url": "https://www.courtlistener.com/docket/72106672/american-oversight-v-federal-bureau-of-investigation",
+      "summary": "Case filed On Jan. 5, 2026, American Oversight, a nonprofit organization, sued the Federal Bureau of Investigation (FBI) and the Department of Justice (DOJ) for allegedly violating the Freedom of Information Act (FOIA) by failing to respond to records requests submitted between March and September 2025 regarding the certification of the 2020 presidential election, the Jan. 6, 2021 attack on the Capitol, the related Trump pardons, and the DOJ’s “Weaponization Working Group” – an internal review of prior Trump-related investigations claimed to be politically motivated. The complaint alleges abuse of government power for political retribution, failure by the FBI and DOJ to conduct adequate searches for records responsive to its request, and failure to release non-exempt documents, as required by FOIA. American Oversight requests that the court order (i) the FBI and DOJ to search for and release all non-exempt records responsive to its FOIA request and (ii) prohibit these agencies from withholding records.",
+      "why_relevant": "A new legal challenge was filed against a Trump administration action. Court: D.D.C.. Docket: 1:26-cv-00020.",
+      "attacks": [],
+      "_origin_file": "justsecurity_events_2026-01-01_2026-03-20.json",
+      "_origin_index": 400
+    },
+    {
+      "source_key": "justsecurity",
+      "date": "2026-01-05",
+      "category": "Judicial Developments",
+      "title": "Oregon v. Trump (D. Or.) 3:25-cv-01756 — The court granted Plaintiffs' unopposed motion to stay remaining claims until the Ninth Circuit resolves defendants' consolidated appeals or until further order…",
+      "url": "https://www.courtlistener.com/docket/71481149/state-of-oregon-v-trump",
+      "summary": "The court granted Plaintiffs' unopposed motion to stay remaining claims until the Ninth Circuit resolves defendants' consolidated appeals or until further order of the court.",
+      "why_relevant": "This tracker update marks a concrete litigation development in an ongoing legal challenge. Court: D. Or.. Docket: 3:25-cv-01756.",
+      "attacks": [],
+      "_origin_file": "justsecurity_events_2026-01-01_2026-03-20.json",
+      "_origin_index": 113
+    },
+    {
+      "source_key": "justsecurity",
+      "date": "2026-01-05",
+      "category": "Judicial Developments",
+      "title": "Rhode Island Coalition Against Domestic Violence v. Kennedy (D.R.I.) 1:25-cv-00342 — The appeal was voluntarily dismissed .",
+      "url": "https://www.courtlistener.com/docket/70865884/rhode-island-coalition-against-domestic-violence-v-kennedy-jr",
+      "summary": "The appeal was voluntarily dismissed .",
+      "why_relevant": "This tracker update marks a concrete litigation development in an ongoing legal challenge. Court: D.R.I.. Docket: 1:25-cv-00342.",
+      "attacks": [],
+      "_origin_file": "justsecurity_events_2026-01-01_2026-03-20.json",
+      "_origin_index": 136
+    },
+    {
       "source_key": "guardian",
       "date": "2026-01-05",
       "category": "Law Enforcement & Surveillance",
@@ -675,36 +698,19 @@
       "_origin_index": 58
     },
     {
-      "source_key": "tracker",
+      "source_key": "guardian",
       "date": "2026-01-05",
-      "category": "Law Enforcement & Surveillance",
-      "title": "ICE Plans Mass Deployment to Minnesota",
-      "url": "https://www.wsj.com",
-      "summary": "ICE plans to deploy over 2,000 agents to Minnesota amid a social services fraud investigation, targeting areas with large Somali immigrant communities. The operation includes mass immigration arrests and potential denaturalization proceedings.",
-      "why_relevant": "This operation uses a fraud investigation to justify large-scale immigration enforcement, raising concerns about racial profiling and the militarization of immigration policy.",
+      "category": "Elections & Representation",
+      "title": "Tim Walz announces he will not seek a third term as Minnesota governor",
+      "url": "https://www.theguardian.com/us-news/2026/jan/29/amy-klobuchar-minnesota-governor-campaign",
+      "summary": "On January 5, 2026, Minnesota Governor Tim Walz announced that he would not seek a third term in office. Walz cited ongoing conflicts with the Trump administration, particularly regarding the deployment of federal agents in Minnesota, as a significant factor in his decision. He expressed frustration over the federal government's actions and highlighted the role of ordinary citizens in resisting these measures.",
+      "why_relevant": "Walz's decision not to run for re-election opens the field for new candidates and reflects tensions between state and federal government actions.",
       "attacks": [
         "immigrants_refugees",
-        "law_enforcement",
-        "minorities"
+        "separation_of_powers"
       ],
-      "_origin_file": "tracker_events_2026-01-10_2026-01-16.json",
-      "_origin_index": 38
-    },
-    {
-      "source_key": "tracker",
-      "date": "2026-01-05",
-      "category": "Law Enforcement & Surveillance",
-      "title": "ICE’s Deadliest Year in Two Decades",
-      "url": "https://www.theguardian.com",
-      "summary": "In 2025, 31 people died in ICE custody, marking the deadliest year in over two decades. Most had no criminal convictions, with deaths from suicide, illness, and neglect rising amid overcrowding.",
-      "why_relevant": "The high death toll in ICE custody highlights systemic human rights abuses and the lethal consequences of mass detention policies.",
-      "attacks": [
-        "immigrants_refugees",
-        "sick_vulnerable",
-        "law_enforcement"
-      ],
-      "_origin_file": "tracker_events_2026-01-10_2026-01-16.json",
-      "_origin_index": 42
+      "_origin_file": "guardian_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 101
     },
     {
       "source_key": "guardian",
@@ -717,22 +723,6 @@
       "attacks": [],
       "_origin_file": "guardian_events_2026-01-03_2026-01-09.json",
       "_origin_index": 57
-    },
-    {
-      "source_key": "tracker",
-      "date": "2026-01-05",
-      "category": "Elections & Representation",
-      "title": "USPS Policy Change Threatens Mail-In Ballots",
-      "url": "https://www.washingtonpost.com",
-      "summary": "The U.S. Postal Service announced it will no longer guarantee same-day postmarks for mail dropped off on Election Day, potentially invalidating thousands of ballots in states relying on postmark deadlines. This policy shift could disproportionately affect last-minute voters and rural communities.",
-      "why_relevant": "This change poses a risk to voter enfranchisement and could lead to widespread disenfranchisement, particularly among vulnerable populations.",
-      "attacks": [
-        "elections",
-        "minorities",
-        "poor"
-      ],
-      "_origin_file": "tracker_events_2026-01-10_2026-01-16.json",
-      "_origin_index": 36
     },
     {
       "source_key": "guardian",
@@ -764,36 +754,6 @@
       ],
       "_origin_file": "hcr_events_2026-01-03_2026-01-09.json",
       "_origin_index": 29
-    },
-    {
-      "source_key": "tracker",
-      "date": "2026-01-05",
-      "category": "Information & Media Control",
-      "title": "Capitol Plaque Honoring Jan. 6 Police Not Displayed",
-      "url": "https://apnews.com",
-      "summary": "Five years after the Jan. 6 attack, a plaque honoring police who defended Congress remains undisplayed, despite a law requiring its installation. House Speaker Mike Johnson has not unveiled it, and the DOJ seeks to dismiss a lawsuit demanding its display.",
-      "why_relevant": "The suppression of this plaque contributes to the erasure of public memory of Jan. 6, undermining accountability and enabling historical revisionism.",
-      "attacks": [
-        "public_memory",
-        "congress"
-      ],
-      "_origin_file": "tracker_events_2026-01-10_2026-01-16.json",
-      "_origin_index": 39
-    },
-    {
-      "source_key": "tracker",
-      "date": "2026-01-05",
-      "category": "Information & Media Control",
-      "title": "Corporation for Public Broadcasting Dissolves",
-      "url": "https://apnews.com",
-      "summary": "The Corporation for Public Broadcasting voted to dissolve after Congress defunded it at Trump's urging. The decision ends support for PBS, NPR, and public stations, weakening independent journalism.",
-      "why_relevant": "The dismantling of public media infrastructure undermines independent journalism and accelerates efforts to control the narrative, threatening press freedom.",
-      "attacks": [
-        "press",
-        "information"
-      ],
-      "_origin_file": "tracker_events_2026-01-10_2026-01-16.json",
-      "_origin_index": 41
     },
     {
       "source_key": "federalregister",
@@ -957,65 +917,19 @@
       "_origin_index": 4
     },
     {
-      "source_key": "tracker",
+      "source_key": "popinfo",
       "date": "2026-01-05",
       "category": "Economic & Regulatory Power",
-      "title": "DOJ Official Halts Crypto Enforcement Amid Conflict of Interest",
-      "url": "https://talkingpointsmemo.com",
-      "summary": "Deputy Attorney General Todd Blanche stopped DOJ investigations and enforcement actions against cryptocurrency companies while holding significant crypto investments, violating an ethics agreement. He dismantled a DOJ crypto fraud unit and transferred his holdings to family members instead of divesting. This action raises concerns about regulatory capture and conflicts of interest within the DOJ, as it appears to protect personal financial interests and those of Trump's allies.",
-      "why_relevant": "This event highlights the erosion of ethical standards and the potential for corruption within the DOJ, undermining public trust in regulatory enforcement.",
-      "attacks": [
-        "justice_dept",
-        "public_service"
-      ],
-      "_origin_file": "tracker_events_2026-01-10_2026-01-16.json",
-      "_origin_index": 33
-    },
-    {
-      "source_key": "tracker",
-      "date": "2026-01-05",
-      "category": "Economic & Regulatory Power",
-      "title": "Insider Trading Suspected in Maduro Ouster Bet",
-      "url": "https://www.wsj.com",
-      "summary": "A newly created account on the crypto platform Polymarket placed bets predicting Venezuelan leader Maduro's removal just before a U.S. military strike, resulting in a $410,000 profit. The timing suggests insider knowledge of the military action, raising concerns about national security breaches and potential corruption within Trump's inner circle.",
-      "why_relevant": "This incident suggests a serious breach of national security and potential insider trading linked to U.S. military operations, undermining trust in government integrity.",
-      "attacks": [
-        "public_service",
-        "intelligence"
-      ],
-      "_origin_file": "tracker_events_2026-01-10_2026-01-16.json",
-      "_origin_index": 34
-    },
-    {
-      "source_key": "tracker",
-      "date": "2026-01-05",
-      "category": "Economic & Regulatory Power",
-      "title": "Offshore Wind Companies Sue Trump",
-      "url": "https://www.thehill.com",
-      "summary": "Offshore wind developers sued Trump after he suspended construction authority for five offshore wind projects, citing \"national security\" concerns. The companies argue the suspension is politically motivated and threatens project completion.",
-      "why_relevant": "The suspension of wind projects undermines renewable energy development and suggests political interference in environmental policy.",
-      "attacks": [
-        "environment",
-        "economy",
-        "public_health"
-      ],
-      "_origin_file": "tracker_events_2026-01-10_2026-01-16.json",
-      "_origin_index": 52
-    },
-    {
-      "source_key": "tracker",
-      "date": "2026-01-05",
-      "category": "Economic & Regulatory Power",
-      "title": "U.S. Manufacturing Contracts for 10th Month",
-      "url": "https://www.reuters.com",
-      "summary": "U.S. manufacturing contracted for the 10th consecutive month in December, with tariffs driving up costs and reducing orders. Factory employment also declined, highlighting the economic impact of Trump's trade policies.",
-      "why_relevant": "The prolonged contraction of the manufacturing sector underscores the negative effects of trade disruption and policy volatility on the U.S. economy.",
+      "title": "Venezuela raid enriches MAGA billionaire",
+      "url": "https://popular.info/p/whats-next",
+      "summary": "An investigation by Popular Information revealed that a raid in Venezuela has financially benefited a billionaire with ties to the MAGA movement. The details of the raid and the specific financial gains were not disclosed in the summary, but the implication is that the event has significant political and economic ramifications, particularly concerning the influence of wealthy individuals with political connections. The report suggests a potential conflict of interest or misuse of power that could affect international relations and economic policies.",
+      "why_relevant": "This event highlights the intersection of political influence and economic gain, raising concerns about the integrity of international economic policies and the potential for corruption.",
       "attacks": [
         "economy",
-        "trade"
+        "global_democracy"
       ],
-      "_origin_file": "tracker_events_2026-01-10_2026-01-16.json",
-      "_origin_index": 51
+      "_origin_file": "popinfo_events_2026-02-02_2026-02-06.json",
+      "_origin_index": 2
     },
     {
       "source_key": "federalregister",
@@ -1108,166 +1022,6 @@
       "_origin_index": 3
     },
     {
-      "source_key": "tracker",
-      "date": "2026-01-05",
-      "category": "International Relations",
-      "title": "Cuba Faces Crisis After Maduro’s Ouster",
-      "url": "https://apnews.com",
-      "summary": "Following Maduro's capture, Cuba mourned 32 security officers killed in the operation and warned of severe consequences from losing Venezuelan oil supplies. Trump declared Cuba's economy is \"going down,\" signaling no intent to prevent its collapse.",
-      "why_relevant": "The U.S. intervention in Venezuela has destabilized the region, risking humanitarian crises and using economic strangulation as a tool of coercion.",
-      "attacks": [
-        "diplomacy",
-        "global_democracy",
-        "peace"
-      ],
-      "_origin_file": "tracker_events_2026-01-10_2026-01-16.json",
-      "_origin_index": 44
-    },
-    {
-      "source_key": "tracker",
-      "date": "2026-01-05",
-      "category": "International Relations",
-      "title": "Denmark Warns Against Trump’s Greenland Threats",
-      "url": "https://www.nytimes.com",
-      "summary": "Denmark's prime minister warned that Trump's threats to seize Greenland must be taken seriously, rejecting any U.S. claim to annex the territory. Trump insists Greenland is necessary for U.S. security.",
-      "why_relevant": "Trump's threats against Greenland challenge the territorial integrity of a NATO ally, signaling a shift towards coercive and imperial policies.",
-      "attacks": [
-        "diplomacy",
-        "allies",
-        "global_democracy"
-      ],
-      "_origin_file": "tracker_events_2026-01-10_2026-01-16.json",
-      "_origin_index": 48
-    },
-    {
-      "source_key": "tracker",
-      "date": "2026-01-05",
-      "category": "International Relations",
-      "title": "Trump Threatens Second Venezuela Strike",
-      "url": "https://www.reuters.com",
-      "summary": "Trump warned of a possible second military strike on Venezuela if officials do not cooperate, linking the raid to demands for oil access and dismissing elections in favor of U.S. control.",
-      "why_relevant": "This threat prioritizes resource access over democratic transition, using military force as leverage, and undermines international norms.",
-      "attacks": [
-        "diplomacy",
-        "global_democracy",
-        "peace"
-      ],
-      "_origin_file": "tracker_events_2026-01-10_2026-01-16.json",
-      "_origin_index": 46
-    },
-    {
-      "source_key": "tracker",
-      "date": "2026-01-05",
-      "category": "International Relations",
-      "title": "Trump Warns Oil Executives Before Venezuela Strike",
-      "url": "https://www.wsj.com",
-      "summary": "Prior to the U.S. military operation in Venezuela, Trump privately informed U.S. oil executives to prepare for changes, signaling imminent access to Venezuelan oil. Following the strike, Trump encouraged U.S. companies to take control of Venezuela's oil infrastructure, bypassing Congress in the process.",
-      "why_relevant": "This action bypasses congressional oversight and prioritizes corporate interests over democratic processes, raising concerns about the misuse of military power for economic gain.",
-      "attacks": [
-        "congress",
-        "diplomacy",
-        "rule_of_law"
-      ],
-      "_origin_file": "tracker_events_2026-01-10_2026-01-16.json",
-      "_origin_index": 35
-    },
-    {
-      "source_key": "tracker",
-      "date": "2026-01-05",
-      "category": "International Relations",
-      "title": "Trump’s Oil Ambitions in Venezuela",
-      "url": "https://www.wired.com",
-      "summary": "Trump framed the U.S. seizure of Venezuela's leadership as a chance for American oil companies to control its reserves, despite warnings from industry experts about the risks of investment.",
-      "why_relevant": "This approach treats military intervention as a means for resource acquisition, disregarding economic realities and stability concerns.",
-      "attacks": [
-        "diplomacy",
-        "global_democracy",
-        "trade"
-      ],
-      "_origin_file": "tracker_events_2026-01-10_2026-01-16.json",
-      "_origin_index": 47
-    },
-    {
-      "source_key": "tracker",
-      "date": "2026-01-05",
-      "category": "International Relations",
-      "title": "U.S. Criticizes Europe in Security Strategy",
-      "url": "https://www.theguardian.com",
-      "summary": "Trump officials defended language in the U.S. national security strategy warning of Europe's \"civilizational erasure,\" pressuring allies into policy changes and threatening political interference.",
-      "why_relevant": "This strategy uses ideological pressure and economic coercion to discipline democratic allies, undermining the transatlantic order.",
-      "attacks": [
-        "diplomacy",
-        "global_democracy",
-        "trade"
-      ],
-      "_origin_file": "tracker_events_2026-01-10_2026-01-16.json",
-      "_origin_index": 49
-    },
-    {
-      "source_key": "tracker",
-      "date": "2026-01-05",
-      "category": "International Relations",
-      "title": "U.S. Plans to Intercept Venezuelan Oil Tanker",
-      "url": "https://www.cbsnews.com",
-      "summary": "U.S. forces are preparing to intercept an oil tanker tied to Venezuelan exports, now under a Russian flag, as Trump expands maritime interdictions following Maduro's capture.",
-      "why_relevant": "This action extends U.S. enforcement to international waters, escalating tensions and potentially violating international law.",
-      "attacks": [
-        "diplomacy",
-        "global_democracy",
-        "trade"
-      ],
-      "_origin_file": "tracker_events_2026-01-10_2026-01-16.json",
-      "_origin_index": 50
-    },
-    {
-      "source_key": "tracker",
-      "date": "2026-01-05",
-      "category": "Civil–Military Relations & State Violence",
-      "title": "Hegseth Moves to Downgrade Sen. Kelly’s Military Rank",
-      "url": "https://www.wsj.com",
-      "summary": "Pete Hegseth initiated steps to downgrade Sen. Mark Kelly's retired Navy rank after Kelly urged service members to uphold the Constitution. This move could reduce Kelly's retirement pay and follows Trump's accusations of sedition against lawmakers.",
-      "why_relevant": "This action represents the weaponization of military justice to suppress political dissent and intimidate elected officials, undermining constitutional principles.",
-      "attacks": [
-        "military",
-        "congress",
-        "rule_of_law"
-      ],
-      "_origin_file": "tracker_events_2026-01-10_2026-01-16.json",
-      "_origin_index": 37
-    },
-    {
-      "source_key": "tracker",
-      "date": "2026-01-05",
-      "category": "Civil–Military Relations & State Violence",
-      "title": "Trump’s Military Politicization Compared to Stalin",
-      "url": "https://www.theguardian.com",
-      "summary": "Retired Maj. Gen. Paul Eaton warned that Trump and Pete Hegseth are politicizing the U.S. military by purging senior officers and replacing them with loyalists. Eaton compared this to Stalin-era purges, noting the impact on military discipline and legality.",
-      "why_relevant": "The politicization of the military threatens civilian control and the integrity of military operations, risking illegal orders and domestic repression.",
-      "attacks": [
-        "military",
-        "rule_of_law",
-        "separation_of_powers"
-      ],
-      "_origin_file": "tracker_events_2026-01-10_2026-01-16.json",
-      "_origin_index": 40
-    },
-    {
-      "source_key": "tracker",
-      "date": "2026-01-05",
-      "category": "Civil–Military Relations & State Violence",
-      "title": "Venezuela Orders Crackdown After U.S. Strike",
-      "url": "https://www.reuters.com",
-      "summary": "Venezuela declared a state of emergency, ordering police to arrest anyone supporting the U.S. military operation that removed Maduro. The decree authorizes crackdowns as protests spread.",
-      "why_relevant": "The U.S. intervention has triggered authoritarian backlash, endangering civilians and political opponents through mass arrests and repression.",
-      "attacks": [
-        "rule_of_law",
-        "civil_service",
-        "public_memory"
-      ],
-      "_origin_file": "tracker_events_2026-01-10_2026-01-16.json",
-      "_origin_index": 45
-    },
-    {
       "source_key": "democracydocket",
       "date": "2026-01-05",
       "category": "Voting rights / Courts / Democracy protection",
@@ -1278,22 +1032,6 @@
       "attacks": [],
       "_origin_file": "democracydocket_events_2025-01-25_2026-01-30.json",
       "_origin_index": 95
-    },
-    {
-      "source_key": "tracker",
-      "date": "2026-01-05",
-      "category": "Public Health",
-      "title": "Vaccine Recommendations Cut Under RFK Jr.",
-      "url": "https://www.nytimes.com",
-      "summary": "Federal health officials, directed by RFK Jr., reduced the number of diseases covered by childhood vaccination recommendations from 17 to 11, bypassing scientific review. This change narrows protections against several diseases despite rising outbreaks.",
-      "why_relevant": "The reduction in vaccine recommendations undermines public health, exposing children to preventable diseases and eroding trust in health institutions.",
-      "attacks": [
-        "science",
-        "public_health",
-        "children"
-      ],
-      "_origin_file": "tracker_events_2026-01-10_2026-01-16.json",
-      "_origin_index": 43
     },
     {
       "source_key": "hcr",
@@ -1399,6 +1137,18 @@
       ],
       "_origin_file": "guardian_events_2026-01-03_2026-01-09.json",
       "_origin_index": 49
+    },
+    {
+      "source_key": "justsecurity",
+      "date": "2026-01-06",
+      "category": "Judicial Developments",
+      "title": "Zaid v. Executive Office of the President (D.D.C.) 1:25-cv-01365 — Defendants appealed the court's Dec. 23, 2025 order to the D.C. Circuit, 26-5009 .",
+      "url": "https://www.courtlistener.com/docket/70139392/zaid-v-executive-office-of-the-president",
+      "summary": "Defendants appealed the court's Dec. 23, 2025 order to the D.C. Circuit, 26-5009 .",
+      "why_relevant": "This tracker update marks a concrete litigation development in an ongoing legal challenge. Court: D.D.C.. Docket: 1:25-cv-01365.",
+      "attacks": [],
+      "_origin_file": "justsecurity_events_2026-01-01_2026-03-20.json",
+      "_origin_index": 5
     },
     {
       "source_key": "guardian",
@@ -1747,11 +1497,11 @@
       "category": "Executive Actions & Orders",
       "title": "Executive Order: Prioritizing the Warfighter in Defense Contracting",
       "url": "https://ballotpedia.org/Executive_Order:_Prioritizing_the_Warfighter_in_Defense_Contracting_(Donald_Trump,_2026)",
-      "summary": "On January 7, 2026, President Donald Trump issued an executive order aimed at reforming defense contracting to prioritize the needs of the U.S. military. The order prohibits defense contractors from engaging in stock buy-backs or issuing dividends until they meet performance standards related to production capacity and timeliness. The Secretary of War is tasked with identifying underperforming contractors and enforcing compliance through various measures, including potential use of the Defense Production Act. The order seeks to ensure that defense contractors focus on enhancing military capabilities rather than maximizing investor profits.",
-      "why_relevant": "This executive order impacts the defense industrial base by altering financial practices to prioritize military readiness and capability, reflecting a significant shift in defense procurement policy.",
+      "summary": "On January 7, 2026, President Donald Trump issued an executive order aimed at reforming defense contracting to prioritize the needs of the U.S. military. The order prohibits defense contractors from engaging in stock buy-backs or issuing dividends until they meet performance standards, including timely and quality delivery of defense items. The Secretary of War is tasked with identifying underperforming contractors and enforcing compliance through various measures, including potential use of the Defense Production Act. The order seeks to ensure that defense contractors focus on enhancing military capabilities rather than maximizing investor profits.",
+      "why_relevant": "This executive order impacts the defense industrial base by enforcing stricter performance standards, potentially affecting military readiness and contractor operations.",
       "attacks": [],
-      "_origin_file": "orders_events_2026-01-03_2026-01-09.json",
-      "_origin_index": 0
+      "_origin_file": "orders_events_2025-01-20_2026-02-01.json",
+      "_origin_index": 8
     },
     {
       "source_key": "guardian",
@@ -1799,6 +1549,18 @@
       ],
       "_origin_file": "guardian_events_2026-01-03_2026-01-09.json",
       "_origin_index": 35
+    },
+    {
+      "source_key": "justsecurity",
+      "date": "2026-01-07",
+      "category": "Judicial Developments",
+      "title": "Asbestos Disease Awareness Organization v. National Park Service (D.D.C.) 1:26-cv-00029 — Case filed",
+      "url": "https://www.courtlistener.com/docket/72112184/asbestos-disease-awareness-association-v-national-park-service",
+      "summary": "Case filed On November 5, 2025, the Asbestos Disease Awareness Organization (ADAO) submitted Freedom of Information Act (FOIA) requests to nine federal agencies with possible involvement in the White House East Wing demolition. These FOIA requests sought copies of asbestos abatement permits issued for the Ease Wing demolition and other records related to the release and removal of asbestos during the demolition. On Jan. 7, 2026, after the agencies failed to respond to ADAO’s FOIA requests within the statutory time frame, ADAO sued the Trump administration for alleged FOIA violations. ADAO requests that the court order the Defendants to produce the requested records.",
+      "why_relevant": "A new legal challenge was filed against a Trump administration action. Court: D.D.C.. Docket: 1:26-cv-00029.",
+      "attacks": [],
+      "_origin_file": "justsecurity_events_2026-01-01_2026-03-20.json",
+      "_origin_index": 401
     },
     {
       "source_key": "guardian",
@@ -2266,6 +2028,54 @@
       ],
       "_origin_file": "meidas_events_2026-01-03_2026-01-09.json",
       "_origin_index": 12
+    },
+    {
+      "source_key": "justsecurity",
+      "date": "2026-01-08",
+      "category": "Judicial Developments",
+      "title": "Center for Biological Diversity v. U.S. Fish and Wildlife Service (D.D.C.) 1:26-cv-00043 — Case filed",
+      "url": "https://www.courtlistener.com/docket/72118447/center-for-biological-diversity-v-us-fish-and-wildlife-service",
+      "summary": "Case filed On Jan. 8, 2025, the Center for Biological Diversity sued the administration for refusing to protect the Rio Grande cooter (a freshwater turtle) under the Endangered Species Act, arguing that climate change and current conditions place it at risk of extinction. The defendants are the United States Fish and Wildlife Service, its Director Brian Nesvik, and Secretary of the Department of the Interior Doug Burgum. The Center challenges the agency’s decision not to list the Rio Grande cooter, a species of turtle native to New Mexico, Texas, and northern Mexico, as threatened or endangered under the Endangered Species Act (16 U.S.C. §§ 1531–1544) (ESA) and asserts violations of the Administrative Procedure Act (5 U.S.C. § 706(2)) (APA). The Center alleges the Service’s decision was arbitrary, capricious, and contrary to law because the agency relied on flawed and unsupported risk metrics, irrationally excluded direct mortality and collection impacts from consideration, failed to incorporate or rationally address the best available science regarding climate change impacts and feminization of the species, and unlawfully limited its analysis of the species’ risk in significant portions of its range. The Center seeks declaratory and injunctive relief, including an order vacating the Service’s “not warranted” finding and requiring a new 12-month determination consistent with the ESA and APA.",
+      "why_relevant": "A new legal challenge was filed against a Trump administration action. Court: D.D.C.. Docket: 1:26-cv-00043.",
+      "attacks": [],
+      "_origin_file": "justsecurity_events_2026-01-01_2026-03-20.json",
+      "_origin_index": 103
+    },
+    {
+      "source_key": "justsecurity",
+      "date": "2026-01-08",
+      "category": "Judicial Developments",
+      "title": "Colorado v. Trump (D. Colo.) 1:25-cv-03428 — The Colorado Attorney General filed an amended complaint, alleging the administration is engaging in a “widespread campaign of retribution.”",
+      "url": "https://www.courtlistener.com/docket/71795245/state-of-colorado-v-trump",
+      "summary": "The Colorado Attorney General filed an amended complaint, alleging the administration is engaging in a “widespread campaign of retribution.”",
+      "why_relevant": "This tracker update marks a concrete litigation development in an ongoing legal challenge. Court: D. Colo.. Docket: 1:25-cv-03428.",
+      "attacks": [],
+      "_origin_file": "justsecurity_events_2026-01-01_2026-03-20.json",
+      "_origin_index": 347
+    },
+    {
+      "source_key": "justsecurity",
+      "date": "2026-01-08",
+      "category": "Judicial Developments",
+      "title": "Doe v. United States Department of Homeland Security (C.D. Cal.) 8:26-cv-00060 — Case filed",
+      "url": "https://www.courtlistener.com/docket/72122041/jane-doe-1-v-united-states-department-of-homeland-security",
+      "summary": "Case filed Coming soon. On Jan. 8, 2026, spouses of H-1B visa holders sued the administration over an interim final rule that eliminated automatic extensions of work permits for immigrants with pending renewal applications.",
+      "why_relevant": "A new legal challenge was filed against a Trump administration action. Court: C.D. Cal.. Docket: 8:26-cv-00060.",
+      "attacks": [],
+      "_origin_file": "justsecurity_events_2026-01-01_2026-03-20.json",
+      "_origin_index": 308
+    },
+    {
+      "source_key": "justsecurity",
+      "date": "2026-01-08",
+      "category": "Judicial Developments",
+      "title": "National TPS Alliance v. Noem (N.D. Cal.) 3:25-cv-05687 — Defendants appealed to the Ninth Circuit.",
+      "url": "https://www.courtlistener.com/docket/70726295/national-tps-alliance-v-noem",
+      "summary": "Defendants appealed to the Ninth Circuit.",
+      "why_relevant": "This tracker update marks a concrete litigation development in an ongoing legal challenge. Court: N.D. Cal.. Docket: 3:25-cv-05687.",
+      "attacks": [],
+      "_origin_file": "justsecurity_events_2026-01-01_2026-03-20.json",
+      "_origin_index": 247
     },
     {
       "source_key": "meidas",
@@ -2875,6 +2685,18 @@
       "_origin_index": 2
     },
     {
+      "source_key": "orders",
+      "date": "2026-01-09",
+      "category": "Executive Actions & Orders",
+      "title": "Executive Order: Safeguarding Venezuelan Oil Revenue",
+      "url": "https://ballotpedia.org/Executive_Order:_Safeguarding_Venezuelan_Oil_Revenue_for_the_Good_of_the_American_and_Venezuelan_People_(Donald_Trump,_2026)",
+      "summary": "On January 9, 2026, President Donald Trump issued an executive order to protect Venezuelan oil revenue held in U.S. accounts from judicial processes such as attachment or garnishment. The order declares a national emergency, citing threats to U.S. national security and foreign policy objectives, including economic and political stability in Venezuela. The order prohibits any judicial process against these funds and mandates that they be held in a custodial capacity by the U.S. Treasury, with disbursements controlled by the Secretary of State. This action aims to prevent interference with U.S. foreign policy and maintain international comity.",
+      "why_relevant": "This executive order impacts U.S. foreign policy and international relations by safeguarding foreign assets to maintain diplomatic and economic stability.",
+      "attacks": [],
+      "_origin_file": "orders_events_2025-01-20_2026-02-01.json",
+      "_origin_index": 7
+    },
+    {
       "source_key": "outloud",
       "date": "2026-01-09",
       "category": "Executive Actions & Orders",
@@ -2945,30 +2767,112 @@
       "_origin_index": 3
     },
     {
-      "source_key": "hcr",
+      "source_key": "justsecurity",
       "date": "2026-01-09",
-      "category": "Legislative & Oversight Activity",
-      "title": "Senate advances bill to limit military action in Venezuela",
-      "url": "https://www.cbsnews.com/news/trump-republican-senators-venezuela-war-powers/",
-      "summary": "The Senate voted 52–47 to advance a bill that would prevent the Trump administration from taking further military action in Venezuela without congressional approval. This vote included support from five Republicans, marking a notable rebuke of the president's military authority.",
-      "why_relevant": "The Senate's action to reassert congressional authority over military action demonstrates a critical check on executive power and reflects growing bipartisan concern over the administration's foreign policy decisions.",
-      "attacks": [
-        "separation_of_powers"
-      ],
-      "_origin_file": "hcr_events_2026-01-03_2026-01-09.json",
-      "_origin_index": 4
+      "category": "Judicial Developments",
+      "title": "America First Legal Foundation v. U.S. Government Accountability Office (D.D.C.) 1:25-cv-00662 — In a memorandum opinion , the court granted the GAO's motion to dismiss America First's FOIA suit, finding that GAO is an agency in the legislative branch that…",
+      "url": "https://www.courtlistener.com/docket/69712307/america-first-legal-foundation-v-us-government-accountability-office",
+      "summary": "In a memorandum opinion , the court granted the GAO's motion to dismiss America First's FOIA suit, finding that GAO is an agency in the legislative branch that falls outside of FOIA's definition of “agency” and thus has no obligation to disclose records under the statute.",
+      "why_relevant": "This tracker update marks a concrete litigation development in an ongoing legal challenge. Court: D.D.C.. Docket: 1:25-cv-00662.",
+      "attacks": [],
+      "_origin_file": "justsecurity_events_2026-01-01_2026-03-20.json",
+      "_origin_index": 402
     },
     {
-      "source_key": "hcr",
+      "source_key": "justsecurity",
       "date": "2026-01-09",
-      "category": "Legislative & Oversight Activity",
-      "title": "Senate unanimously approves plaque for Capitol police",
-      "url": "https://www.politico.com/live-updates/2026/01/08/congress/senate-unanimous-approves-jan-6-plaque-law-enforcement-00717799",
-      "summary": "The Senate unanimously approved a resolution to hang a plaque honoring the police who protected the U.S. Capitol on January 6, 2021. This action comes amid ongoing tensions regarding the narrative surrounding the January 6 insurrection and the treatment of law enforcement.",
-      "why_relevant": "The Senate's approval of the plaque serves as a recognition of law enforcement's role during the January 6 attack, contrasting with the administration's narrative and reinforcing the importance of accountability and recognition in democratic governance.",
+      "category": "Judicial Developments",
+      "title": "American Oversight v. U.S. Immigration & Customs Enforcement (D.D.C.) 1:25-cv-01987 — The parties filed a joint status report that indicates Defendant plans to make its next production of documents on or before Feb. 9, 2026.",
+      "url": "https://www.courtlistener.com/docket/70639767/american-oversight-v-us-immigration-customs-enforcement",
+      "summary": "The parties filed a joint status report that indicates Defendant plans to make its next production of documents on or before Feb. 9, 2026.",
+      "why_relevant": "This tracker update marks a concrete litigation development in an ongoing legal challenge. Court: D.D.C.. Docket: 1:25-cv-01987.",
       "attacks": [],
-      "_origin_file": "hcr_events_2026-01-03_2026-01-09.json",
-      "_origin_index": 5
+      "_origin_file": "justsecurity_events_2026-01-01_2026-03-20.json",
+      "_origin_index": 382
+    },
+    {
+      "source_key": "justsecurity",
+      "date": "2026-01-09",
+      "category": "Judicial Developments",
+      "title": "Center for Constitutional Rights v. United States Department of Defense (S.D.N.Y.) 1:25-cv-06214 — Defendants submitted a status report noting that the parties had conferred on narrowing the scope of the FOIA requests and each of the Defendants outlined their…",
+      "url": "https://www.courtlistener.com/docket/70951525/center-for-constitutional-rights-v-united-states-department-of-defense",
+      "summary": "Defendants submitted a status report noting that the parties had conferred on narrowing the scope of the FOIA requests and each of the Defendants outlined their progress responding to the FOIA requests.",
+      "why_relevant": "This tracker update marks a concrete litigation development in an ongoing legal challenge. Court: S.D.N.Y.. Docket: 1:25-cv-06214.",
+      "attacks": [],
+      "_origin_file": "justsecurity_events_2026-01-01_2026-03-20.json",
+      "_origin_index": 386
+    },
+    {
+      "source_key": "justsecurity",
+      "date": "2026-01-09",
+      "category": "Judicial Developments",
+      "title": "Freedom of the Press Foundation v. U.S. Dep’t of Homeland Security (D.D.C.) 1:25-cv-03385 — The parties filed a joint status report noting that DHS and DOJ had completed their searches of documents and had not identified any responsive to FPF's FOIA re…",
+      "url": "https://www.courtlistener.com/docket/71443839/freedom-of-the-press-foundation-v-united-states-department-of-homeland",
+      "summary": "The parties filed a joint status report noting that DHS and DOJ had completed their searches of documents and had not identified any responsive to FPF's FOIA requests.",
+      "why_relevant": "This tracker update marks a concrete litigation development in an ongoing legal challenge. Court: D.D.C.. Docket: 1:25-cv-03385.",
+      "attacks": [],
+      "_origin_file": "justsecurity_events_2026-01-01_2026-03-20.json",
+      "_origin_index": 388
+    },
+    {
+      "source_key": "justsecurity",
+      "date": "2026-01-09",
+      "category": "Judicial Developments",
+      "title": "International Brotherhood of Electrical Workers, Government Coordinating Council 1 v. Trump (D.D.C.) 1:25-cv-03826 — The case was stayed .",
+      "url": "https://www.courtlistener.com/docket/71828568/international-brotherhood-of-electrical-workers-government-coordinating",
+      "summary": "The case was stayed .",
+      "why_relevant": "This tracker update marks a concrete litigation development in an ongoing legal challenge. Court: D.D.C.. Docket: 1:25-cv-03826.",
+      "attacks": [],
+      "_origin_file": "justsecurity_events_2026-01-01_2026-03-20.json",
+      "_origin_index": 325
+    },
+    {
+      "source_key": "justsecurity",
+      "date": "2026-01-09",
+      "category": "Judicial Developments",
+      "title": "National Treasury Employees Union v. Trump (D.D.C.) 1:25-cv-02990 — The case was stayed .",
+      "url": "https://www.courtlistener.com/docket/71260779/national-treasury-employees-union-v-trump",
+      "summary": "The case was stayed .",
+      "why_relevant": "This tracker update marks a concrete litigation development in an ongoing legal challenge. Court: D.D.C.. Docket: 1:25-cv-02990.",
+      "attacks": [],
+      "_origin_file": "justsecurity_events_2026-01-01_2026-03-20.json",
+      "_origin_index": 323
+    },
+    {
+      "source_key": "justsecurity",
+      "date": "2026-01-09",
+      "category": "Judicial Developments",
+      "title": "State of New York v. Administration for Children and Families (S.D.N.Y.) 1:26-cv-00172 — The court granted Plaintiff States' emergency motion for a temporary restraining order (“TRO”), blocking the Administration for Children and Families from imple…",
+      "url": "https://www.courtlistener.com/docket/72123419/state-of-new-york-v-administration-for-children-and-families",
+      "summary": "The court granted Plaintiff States' emergency motion for a temporary restraining order (“TRO”), blocking the Administration for Children and Families from implementing its funding freeze on the Child Care Development Fund, TANF, and Social Services Block Grants, and ordering the agency to immediately lift all non-statutory restrictions on states' ability to draw down those funds.",
+      "why_relevant": "This tracker update marks a concrete litigation development in an ongoing legal challenge. Court: S.D.N.Y.. Docket: 1:26-cv-00172.",
+      "attacks": [],
+      "_origin_file": "justsecurity_events_2026-01-01_2026-03-20.json",
+      "_origin_index": 164
+    },
+    {
+      "source_key": "justsecurity",
+      "date": "2026-01-09",
+      "category": "Judicial Developments",
+      "title": "State of Washington v. Trump (W.D. Wash.) 2:25-cv-00602 — Judge Chun ruled that EO 14,248 violates the separation of powers in its directives §§ 2(a), 4(a), 4(b), 7(a), and 7(b), permanently enjoining enforcement of th…",
+      "url": "https://www.courtlistener.com/docket/69845185/state-of-washington-v-trump",
+      "summary": "Judge Chun ruled that EO 14,248 violates the separation of powers in its directives §§ 2(a), 4(a), 4(b), 7(a), and 7(b), permanently enjoining enforcement of those provisions while denying or dismissing the remaining claims.",
+      "why_relevant": "This tracker update marks a concrete litigation development in an ongoing legal challenge. Court: W.D. Wash.. Docket: 2:25-cv-00602.",
+      "attacks": [],
+      "_origin_file": "justsecurity_events_2026-01-01_2026-03-20.json",
+      "_origin_index": 23
+    },
+    {
+      "source_key": "justsecurity",
+      "date": "2026-01-09",
+      "category": "Judicial Developments",
+      "title": "Victim Rights Law Center v. United States Department of Education (D. Mass.) 1:25-cv-11042 — The First Circuit granted the parties' joint motion for a limited remand so the district court could consider vacating or dissolving the preliminary injunction…",
+      "url": "https://www.courtlistener.com/docket/69921190/victim-rights-law-center-v-united-states-department-of-education",
+      "summary": "The First Circuit granted the parties' joint motion for a limited remand so the district court could consider vacating or dissolving the preliminary injunction, staying the government's briefing obligations until further order.",
+      "why_relevant": "This tracker update marks a concrete litigation development in an ongoing legal challenge. Court: D. Mass.. Docket: 1:25-cv-11042.",
+      "attacks": [],
+      "_origin_file": "justsecurity_events_2026-01-01_2026-03-20.json",
+      "_origin_index": 315
     },
     {
       "source_key": "guardian",

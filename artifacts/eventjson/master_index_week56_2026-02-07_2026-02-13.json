@@ -5,51 +5,55 @@
   },
   "week_number": 56,
   "sources": [
-    "congress",
-    "guardian",
-    "democracydocket",
-    "popinfo",
-    "hcr",
-    "meidas",
-    "orders",
-    "federalregister",
-    "noah",
     "50501",
-    "outloud"
+    "noah",
+    "zeteo",
+    "guardian",
+    "popinfo",
+    "justsecurity",
+    "meidas",
+    "outloud",
+    "congress",
+    "hcr",
+    "orders",
+    "democracydocket",
+    "federalregister"
   ],
   "counts": {
-    "total": 288,
+    "total": 336,
     "by_date": {
-      "2026-02-07": 33,
-      "2026-02-08": 16,
-      "2026-02-09": 47,
-      "2026-02-10": 41,
-      "2026-02-11": 54,
-      "2026-02-12": 47,
-      "2026-02-13": 50
+      "2026-02-07": 34,
+      "2026-02-08": 19,
+      "2026-02-09": 61,
+      "2026-02-10": 48,
+      "2026-02-11": 62,
+      "2026-02-12": 52,
+      "2026-02-13": 60
     },
     "by_source": {
-      "hcr": 32,
-      "guardian": 94,
-      "meidas": 53,
+      "hcr": 39,
+      "guardian": 95,
+      "meidas": 55,
       "noah": 13,
       "outloud": 8,
+      "zeteo": 7,
       "democracydocket": 4,
-      "50501": 11,
+      "justsecurity": 29,
+      "50501": 13,
       "federalregister": 60,
       "popinfo": 11,
       "congress": 1,
       "orders": 1
     },
     "by_category": {
-      "Executive Actions & Orders": 27,
-      "Legislative & Oversight Activity": 43,
-      "Judicial Developments": 29,
-      "Law Enforcement & Surveillance": 40,
-      "Elections & Representation": 9,
-      "Civil Society & Protest": 11,
-      "Information & Media Control": 11,
-      "Economic & Regulatory Power": 72,
+      "Executive Actions & Orders": 30,
+      "Legislative & Oversight Activity": 46,
+      "Judicial Developments": 63,
+      "Law Enforcement & Surveillance": 43,
+      "Elections & Representation": 11,
+      "Civil Society & Protest": 12,
+      "Information & Media Control": 12,
+      "Economic & Regulatory Power": 73,
       "Transparency & Records": 8,
       "International Relations": 15,
       "Civil–Military Relations & State Violence": 6,
@@ -251,6 +255,21 @@
       ],
       "_origin_file": "noah_events_2026-02-07_2026-02-13.json",
       "_origin_index": 9
+    },
+    {
+      "source_key": "zeteo",
+      "date": "2026-02-07",
+      "category": "Law Enforcement & Surveillance",
+      "title": "FBI Halts ICE Killing Investigation",
+      "url": "https://www.nytimes.com",
+      "summary": "Senior FBI officials, including Director Kash Patel, ordered agents to cease a warrant execution to search Renee Good's vehicle, part of a civil rights investigation into her death by an ICE agent. The decision was reportedly influenced by concerns that the investigation would contradict President Trump's narrative of the incident. The New York Times reported that footage disputed the official account of Good's actions.",
+      "why_relevant": "This action raises concerns about the integrity of law enforcement investigations and potential political interference.",
+      "attacks": [
+        "justice_dept",
+        "rule_of_law"
+      ],
+      "_origin_file": "zeteo_events_2026-02-14_2026-02-16.json",
+      "_origin_index": 0
     },
     {
       "source_key": "hcr",
@@ -634,6 +653,30 @@
       "_origin_index": 19
     },
     {
+      "source_key": "justsecurity",
+      "date": "2026-02-08",
+      "category": "Judicial Developments",
+      "title": "New Jersey v. Department of Transportation (S.D.N.Y.) 1:26-cv-00939 — Defendants filed a notice of interlocutory appeal to the Second Circuit.",
+      "url": "https://www.courtlistener.com/docket/72228444/state-of-new-jersey-v-united-states-department-of-transportation",
+      "summary": "Defendants filed a notice of interlocutory appeal to the Second Circuit.",
+      "why_relevant": "This tracker update marks a concrete litigation development in an ongoing legal challenge. Court: S.D.N.Y.. Docket: 1:26-cv-00939.",
+      "attacks": [],
+      "_origin_file": "justsecurity_events_2026-01-01_2026-03-20.json",
+      "_origin_index": 172
+    },
+    {
+      "source_key": "justsecurity",
+      "date": "2026-02-08",
+      "category": "Judicial Developments",
+      "title": "The Advocates for Human Rights v. U.S. Department of Homeland Security (D. Minn.) 0:26-cv-00749 — Judge Brasel issued an order clarifying the scope of her previous order",
+      "url": "https://www.courtlistener.com/docket/72196538/the-advocates-for-human-rights-v-us-department-of-homeland-security",
+      "summary": "Judge Brasel issued an order clarifying the scope of her previous order: Plaintiffs may have two attorneys and two party representatives attend the Whipple Building visit. The attorneys may speak to detainees on “topics relevant to this case” but may not carry cell phones or cameras.",
+      "why_relevant": "This tracker update marks a concrete litigation development in an ongoing legal challenge. Court: D. Minn.. Docket: 0:26-cv-00749.",
+      "attacks": [],
+      "_origin_file": "justsecurity_events_2026-01-01_2026-03-20.json",
+      "_origin_index": 231
+    },
+    {
       "source_key": "hcr",
       "date": "2026-02-08",
       "category": "Law Enforcement & Surveillance",
@@ -746,6 +789,21 @@
       "_origin_index": 52
     },
     {
+      "source_key": "zeteo",
+      "date": "2026-02-08",
+      "category": "Economic & Regulatory Power",
+      "title": "Trump Pay-to-Play Scheme Exposed",
+      "url": "https://www.nytimes.com",
+      "summary": "Freedom 250, an organization linked to the White House, is offering access to President Trump and other benefits to donors contributing at least $1 million. The scheme includes invitations to private events and speaking roles for higher contributions. This raises ethical concerns about the influence of money in politics and potential corruption.",
+      "why_relevant": "This scheme highlights potential corruption and the erosion of democratic norms through pay-to-play politics.",
+      "attacks": [
+        "presidency",
+        "emoluments"
+      ],
+      "_origin_file": "zeteo_events_2026-02-14_2026-02-16.json",
+      "_origin_index": 1
+    },
+    {
       "source_key": "meidas",
       "date": "2026-02-08",
       "category": "Appointments & Patronage",
@@ -854,47 +912,31 @@
       "category": "Legislative & Oversight Activity",
       "title": "McCarthy telegraphs Truman with accusations",
       "url": "https://heathercoxrichardson.substack.com/p/february-8-2026",
-      "summary": "Following his initial speech, McCarthy telegraphed President Truman, accusing him of protecting communists in government and demanding an investigation into the loyalty records of State Department employees. This communication further escalated McCarthy's campaign against perceived communist influence within the government.",
-      "why_relevant": "McCarthy's demands for investigations into government employees based on unsubstantiated claims contributed to a culture of fear and suspicion, impacting the functioning of democratic institutions.",
+      "summary": "Following his initial speech, McCarthy telegraphed President Truman, accusing him of protecting communists in the government and demanding an investigation into the loyalty of State Department employees. This communication further escalated McCarthy's campaign against perceived communist influences within the government.",
+      "why_relevant": "This act exemplified McCarthy's aggressive tactics to undermine the credibility of the Democratic administration and instigate a climate of fear regarding communism.",
       "attacks": [
         "truth",
-        "justice_dept",
-        "civil_service"
+        "courts",
+        "congress"
       ],
-      "_origin_file": "hcr_events_2026-02-07_2026-02-13.json",
+      "_origin_file": "hcr_events_2026-02-09_2026-02-11.json",
+      "_origin_index": 13
+    },
+    {
+      "source_key": "hcr",
+      "date": "2026-02-09",
+      "category": "Legislative & Oversight Activity",
+      "title": "McCarthy's accusations gain traction during the Korean War",
+      "url": "https://heathercoxrichardson.substack.com/p/february-8-2026",
+      "summary": "The outbreak of the Korean War in June 1950 intensified McCarthy's claims that Democrats were secretly plotting to make America communist. His rhetoric gained traction as he spoke widely across the country, and candidates he endorsed in the midterm elections of 1950 won every race.",
+      "why_relevant": "McCarthy's manipulation of the war context to bolster his anti-communist agenda significantly influenced American politics and public perception of the Democratic Party.",
+      "attacks": [
+        "truth",
+        "courts",
+        "congress"
+      ],
+      "_origin_file": "hcr_events_2026-02-09_2026-02-11.json",
       "_origin_index": 14
-    },
-    {
-      "source_key": "hcr",
-      "date": "2026-02-09",
-      "category": "Legislative & Oversight Activity",
-      "title": "McCarthy's accusations gain traction during Korean War",
-      "url": "https://heathercoxrichardson.substack.com/p/february-8-2026",
-      "summary": "The outbreak of the Korean War in June 1950 intensified McCarthy's anti-communist rhetoric, as he claimed that Democrats were secretly plotting to make America communist. His accusations resonated with the public during this period of heightened fear of communism, leading to electoral success for candidates he endorsed in the midterm elections of 1950.",
-      "why_relevant": "McCarthy's exploitation of the Korean War to further his political agenda exemplified how fear can be manipulated to undermine democratic processes and civil rights.",
-      "attacks": [
-        "truth",
-        "justice_dept",
-        "civil_service"
-      ],
-      "_origin_file": "hcr_events_2026-02-07_2026-02-13.json",
-      "_origin_index": 15
-    },
-    {
-      "source_key": "hcr",
-      "date": "2026-02-09",
-      "category": "Legislative & Oversight Activity",
-      "title": "McCarthy's televised hearings lead to downfall",
-      "url": "https://heathercoxrichardson.substack.com/p/february-8-2026",
-      "summary": "In May 1954, McCarthy's televised hearings, where he berated witnesses and made unfounded accusations, led to a significant decline in his public support. The American public began to turn against him as they witnessed his aggressive tactics and lack of evidence.",
-      "why_relevant": "The public's reaction to McCarthy's tactics highlighted the importance of accountability in political discourse and the role of media in shaping public perception of democratic integrity.",
-      "attacks": [
-        "truth",
-        "justice_dept",
-        "civil_service"
-      ],
-      "_origin_file": "hcr_events_2026-02-07_2026-02-13.json",
-      "_origin_index": 16
     },
     {
       "source_key": "hcr",
@@ -902,31 +944,45 @@
       "category": "Legislative & Oversight Activity",
       "title": "Senator Joe McCarthy makes accusations of communism in government",
       "url": "https://heathercoxrichardson.substack.com/p/february-8-2026",
-      "summary": "On February 9, 1950, Senator Joe McCarthy claimed to have a list of 205 individuals in the State Department who were members of the Communist Party, accusing the Democratic administration of President Harry S. Truman of harboring \"traitors.\" This speech marked the beginning of McCarthy's campaign against alleged communists in the government, which gained significant media attention and public support despite a lack of evidence for his claims.",
-      "why_relevant": "McCarthy's actions initiated a period of intense anti-communist sentiment that undermined civil liberties and democratic norms in the United States.",
+      "summary": "On February 9, 1950, Senator Joe McCarthy claimed to have a list of 205 individuals in the State Department who were members of the Communist Party, accusing the Democratic administration of President Harry S. Truman of harboring \"traitors.\" This speech marked the beginning of McCarthy's campaign against alleged communists in the government, which gained significant media attention and support from the Republican Party. His accusations were later criticized for lacking evidence.",
+      "why_relevant": "McCarthy's actions initiated a period of intense anti-communist sentiment that affected civil liberties and political discourse in the United States.",
       "attacks": [
         "truth",
-        "justice_dept",
-        "civil_service"
+        "courts",
+        "congress"
       ],
-      "_origin_file": "hcr_events_2026-02-07_2026-02-13.json",
-      "_origin_index": 13
+      "_origin_file": "hcr_events_2026-02-09_2026-02-11.json",
+      "_origin_index": 12
     },
     {
       "source_key": "hcr",
       "date": "2026-02-09",
       "category": "Legislative & Oversight Activity",
-      "title": "Trump urges Republicans to reject bipartisan immigration reform",
+      "title": "Trump and Vance emulate McCarthy's tactics",
       "url": "https://heathercoxrichardson.substack.com/p/february-8-2026",
-      "summary": "In January 2024, then-candidate Trump urged Republicans to reject a bipartisan immigration reform bill that included significant funding for border security and measures to expedite asylum processes. His opposition was rooted in a campaign strategy that capitalized on fears surrounding immigration.",
-      "why_relevant": "Trump's rejection of bipartisan efforts to reform immigration policy reflects a broader trend of political polarization that undermines collaborative governance and democratic processes.",
+      "summary": "In the lead-up to the 2024 election, Trump and his running mate, Senator J.D. Vance, adopted tactics reminiscent of McCarthy's, focusing on immigration fears and spreading false claims about migrant crime. This strategy aimed to rally support by invoking historical anti-communist sentiments.",
+      "why_relevant": "This approach demonstrated a continuity of fear-based political strategies that exploit societal anxieties to gain electoral advantage.",
       "attacks": [
-        "immigrants_refugees",
         "truth",
-        "justice_dept"
+        "immigrants_refugees"
       ],
-      "_origin_file": "hcr_events_2026-02-07_2026-02-13.json",
-      "_origin_index": 17
+      "_origin_file": "hcr_events_2026-02-09_2026-02-11.json",
+      "_origin_index": 19
+    },
+    {
+      "source_key": "hcr",
+      "date": "2026-02-09",
+      "category": "Legislative & Oversight Activity",
+      "title": "Trump urges Republicans to kill bipartisan immigration reform",
+      "url": "https://heathercoxrichardson.substack.com/p/february-8-2026",
+      "summary": "In January 2024, at the urging of then-candidate Trump, Republicans in Congress refused to pass a bipartisan immigration reform bill that included significant funding for border security and expedited asylum processes. This rejection was part of a broader strategy to capitalize on fears surrounding immigration.",
+      "why_relevant": "The refusal to pass the reform highlighted the politicization of immigration and the use of fear-based rhetoric to mobilize political support.",
+      "attacks": [
+        "truth",
+        "immigrants_refugees"
+      ],
+      "_origin_file": "hcr_events_2026-02-09_2026-02-11.json",
+      "_origin_index": 18
     },
     {
       "source_key": "meidas",
@@ -934,15 +990,31 @@
       "category": "Legislative & Oversight Activity",
       "title": "Ghislaine Maxwell Invokes Fifth Amendment in House Oversight Deposition",
       "url": "https://www.meidasplus.com/p/monday-afternoon-news-updates-maxwell",
-      "summary": "Ghislaine Maxwell, convicted sex trafficker and associate of Jeffrey Epstein, invoked her Fifth Amendment right against self-incrimination during a House Oversight Committee deposition. Maxwell refused to answer questions about alleged co-conspirators and secret settlements, despite previously speaking to Trump's former lawyer. Her attorney suggested she would testify if granted clemency by Trump, a move criticized by Democrats as an attempt to secure a pardon. The deposition raised concerns about a potential cover-up to protect powerful individuals linked to Epstein.",
-      "why_relevant": "Maxwell's refusal to testify and the potential for a pardon highlight issues of accountability and transparency in investigations related to sex trafficking and political influence.",
+      "summary": "Ghislaine Maxwell, convicted sex trafficker and associate of Jeffrey Epstein, invoked her Fifth Amendment right against self-incrimination during a House Oversight Committee deposition. Maxwell refused to answer questions about alleged co-conspirators and her connections to powerful figures, including former President Trump. Her attorney suggested she would testify if granted clemency by Trump, a move criticized by lawmakers as an attempt to secure a pardon. Maxwell's silence has raised concerns about a potential cover-up to protect influential individuals involved in Epstein's network.",
+      "why_relevant": "Maxwell's refusal to testify and the potential for a pardon highlight issues of accountability and transparency in investigations involving high-profile figures.",
       "attacks": [
-        "justice_dept",
         "truth",
-        "rule_of_law"
+        "justice_dept",
+        "congress"
       ],
-      "_origin_file": "meidas_events_2026-02-07_2026-02-13.json",
-      "_origin_index": 36
+      "_origin_file": "meidas_events_2026-02-09_2026-02-11.json",
+      "_origin_index": 8
+    },
+    {
+      "source_key": "meidas",
+      "date": "2026-02-09",
+      "category": "Legislative & Oversight Activity",
+      "title": "House Democrats Criticize Maxwell's Silence as Cover-Up",
+      "url": "https://www.meidasplus.com/p/monday-afternoon-news-updates-maxwell",
+      "summary": "House Democrats, including Reps. Ro Khanna and Melanie Stansbury, criticized Ghislaine Maxwell's invocation of the Fifth Amendment during her deposition as a cover-up to protect powerful individuals. They argued that her silence was a strategic move to secure clemency from Trump, rather than to provide accountability for sex trafficking victims. Lawmakers demanded that Trump publicly rule out any pardon for Maxwell, emphasizing the need for transparency and justice in the investigation of Epstein's network.",
+      "why_relevant": "The lawmakers' response underscores the importance of transparency and accountability in addressing crimes involving influential figures.",
+      "attacks": [
+        "truth",
+        "justice_dept",
+        "congress"
+      ],
+      "_origin_file": "meidas_events_2026-02-09_2026-02-11.json",
+      "_origin_index": 9
     },
     {
       "source_key": "meidas",
@@ -1004,6 +1076,117 @@
       ],
       "_origin_file": "guardian_events_2026-02-07_2026-02-13.json",
       "_origin_index": 77
+    },
+    {
+      "source_key": "hcr",
+      "date": "2026-02-09",
+      "category": "Judicial Developments",
+      "title": "Supreme Court rules in Brown v. Board of Education",
+      "url": "https://heathercoxrichardson.substack.com/p/february-8-2026",
+      "summary": "In May 1954, the Supreme Court issued its decision in Brown v. Board of Education, which declared racial segregation in public schools unconstitutional. This ruling provided a new avenue for far-right extremists to argue that federal civil rights protections were a form of socialism undermining American society.",
+      "why_relevant": "The ruling was pivotal in the civil rights movement and was used by extremists to frame civil rights as a threat to American values, illustrating the intersection of race and political ideology.",
+      "attacks": [
+        "truth",
+        "courts"
+      ],
+      "_origin_file": "hcr_events_2026-02-09_2026-02-11.json",
+      "_origin_index": 15
+    },
+    {
+      "source_key": "justsecurity",
+      "date": "2026-02-09",
+      "category": "Judicial Developments",
+      "title": "American Oversight v. U.S. Department of Homeland Security (D.D.C.) 1:25-cv-03113 — The parties filed a joint status report which indicates that Defendant had completed searches in response to Plaintiff's FOIA requests and was in the process of…",
+      "url": "https://www.courtlistener.com/docket/71310654/american-oversight-v-us-department-of-homeland-security",
+      "summary": "The parties filed a joint status report which indicates that Defendant had completed searches in response to Plaintiff's FOIA requests and was in the process of reviewing and processing these records.",
+      "why_relevant": "This tracker update marks a concrete litigation development in an ongoing legal challenge. Court: D.D.C.. Docket: 1:25-cv-03113.",
+      "attacks": [],
+      "_origin_file": "justsecurity_events_2026-01-01_2026-03-20.json",
+      "_origin_index": 387
+    },
+    {
+      "source_key": "justsecurity",
+      "date": "2026-02-09",
+      "category": "Judicial Developments",
+      "title": "Bower v. U.S. Social Security Administration (D.D.C.) 1:25-cv-02713 — The parties filed a joint status report which indicates that (1) SSA had responded to one of Plaintiffs' questions, is preparing to issue an interim response, a…",
+      "url": "https://www.courtlistener.com/docket/71137685/bower-v-us-social-security-administration",
+      "summary": "The parties filed a joint status report which indicates that (1) SSA had responded to one of Plaintiffs' questions, is preparing to issue an interim response, and will be running additional searches; and (2) USCIS and Plaintiffs had agreed on search terms for part of Plaintiffs' request.",
+      "why_relevant": "This tracker update marks a concrete litigation development in an ongoing legal challenge. Court: D.D.C.. Docket: 1:25-cv-02713.",
+      "attacks": [],
+      "_origin_file": "justsecurity_events_2026-01-01_2026-03-20.json",
+      "_origin_index": 392
+    },
+    {
+      "source_key": "justsecurity",
+      "date": "2026-02-09",
+      "category": "Judicial Developments",
+      "title": "City of Fresno v. Turner (N.D. Cal.) 3:25-cv-07070 — Plaintiffs filed an amended complaint pursuant to a joint stipulation with Defendants",
+      "url": "https://www.courtlistener.com/docket/71160717/city-of-fresno-v-turner",
+      "summary": "Plaintiffs filed an amended complaint pursuant to a joint stipulation with Defendants. This complaint again added new plaintiffs and two additional government defendants (sub-agencies of the Department of Transportation). With the addition of these defendants, Plaintiffs expanded the scope of their factual allegations to include other threatened sources of funding.",
+      "why_relevant": "This tracker update marks a concrete litigation development in an ongoing legal challenge. Court: N.D. Cal.. Docket: 3:25-cv-07070.",
+      "attacks": [],
+      "_origin_file": "justsecurity_events_2026-01-01_2026-03-20.json",
+      "_origin_index": 178
+    },
+    {
+      "source_key": "justsecurity",
+      "date": "2026-02-09",
+      "category": "Judicial Developments",
+      "title": "Environmental Defense Fund v. Department of Interior (D.D.C.) 1:25-cv-00871 — Judge Friedrich dismissed the case in a minute order following the parties' stipulation of dismissal.",
+      "url": "https://www.courtlistener.com/docket/69781182/environmental-defense-fund-v-united-states-department-of-the-interior",
+      "summary": "Judge Friedrich dismissed the case in a minute order following the parties' stipulation of dismissal.",
+      "why_relevant": "This tracker update marks a concrete litigation development in an ongoing legal challenge. Court: D.D.C.. Docket: 1:25-cv-00871.",
+      "attacks": [],
+      "_origin_file": "justsecurity_events_2026-01-01_2026-03-20.json",
+      "_origin_index": 375
+    },
+    {
+      "source_key": "justsecurity",
+      "date": "2026-02-09",
+      "category": "Judicial Developments",
+      "title": "National TPS Alliance v. Noem (N.D. Cal.) 3:25-cv-05687 — The Ninth Circuit stayed the district court's order vacating the TPS terminations for Honduras, Nepal, and Nicaragua, leaving the terminations in effect pending…",
+      "url": "https://www.courtlistener.com/docket/70726295/national-tps-alliance-v-noem",
+      "summary": "The Ninth Circuit stayed the district court's order vacating the TPS terminations for Honduras, Nepal, and Nicaragua, leaving the terminations in effect pending appeal.",
+      "why_relevant": "This tracker update marks a concrete litigation development in an ongoing legal challenge. Court: N.D. Cal.. Docket: 3:25-cv-05687.",
+      "attacks": [],
+      "_origin_file": "justsecurity_events_2026-01-01_2026-03-20.json",
+      "_origin_index": 248
+    },
+    {
+      "source_key": "justsecurity",
+      "date": "2026-02-09",
+      "category": "Judicial Developments",
+      "title": "New Jersey v. Department of Transportation (S.D.N.Y.) 1:26-cv-00939 — Judge Vargas denied Defendants' motion for a stay of the court's TRO pending appeal but granted sua sponte a short administrative stay to allow Defendants to se…",
+      "url": "https://www.courtlistener.com/docket/72228444/state-of-new-jersey-v-united-states-department-of-transportation",
+      "summary": "Judge Vargas denied Defendants' motion for a stay of the court's TRO pending appeal but granted sua sponte a short administrative stay to allow Defendants to seek a stay from the Second Circuit.",
+      "why_relevant": "This tracker update marks a concrete litigation development in an ongoing legal challenge. Court: S.D.N.Y.. Docket: 1:26-cv-00939.",
+      "attacks": [],
+      "_origin_file": "justsecurity_events_2026-01-01_2026-03-20.json",
+      "_origin_index": 173
+    },
+    {
+      "source_key": "justsecurity",
+      "date": "2026-02-09",
+      "category": "Judicial Developments",
+      "title": "The Interfaith Alliance v. Trump (S.D.N.Y.) 1:26-cv-01075 — Case filed",
+      "url": "https://www.courtlistener.com/docket/72248001/the-interfaith-alliance-v-trump",
+      "summary": "Case filed On May 1, 2025, President Donald Trump issued an Executive Order to create the Religious Liberty Commission , an advisory committee focused on “defend[ing] religious liberty for all Americans” and “celebrat[ing] America’s peaceful religious pluralism.” On Feb. 9, 2026, an inter-faith coalition of Plaintiffs, including organizations specifically representing Muslims, Sikhs, and Hindus, filed a complaint against federal officials challenging the composition and disclosure failures of the administration’s Religious Liberty Commission. Defendants include Trump, Attorney General Pam Bondi, the Religious Liberty Commission, and Mary Margaret Bush, the designated federal officer of the Commission. Plaintiffs argue the Commission as currently constituted violates the Federal Advisory Committees Act (FACA) in two ways. First, Plaintiffs allege the Commission’s members are “almost exclusively” Christian, in violation of FACA’s requirement that advisory committees be “fairly balanced.” Second, Plaintiffs allege the Commission has failed to make available to the public meeting minutes and other Commission records required to be publicly disclosed under FACA. Plaintiffs allege these failures to comply with FACA in turn violate the Administrative Procedure Act’s (APA) mandates that the Administration act lawfully and with reasoned explanation. Plaintiffs seek declaratory and injunctive relief under the APA and the Mandamus Act, declaring Defendant’s administration of the Commission to be arbitrary, capricious, and contrary to the law. Plaintiffs specifically request the Court declare the Commission’s makeup to be unlawfully unbalanced, and enjoin Defendants to both attach a disclaimer noting its unbalanced membership to any reports or recommendations it produces and release to the public documents produced for the Commission.",
+      "why_relevant": "A new legal challenge was filed against a Trump administration action. Court: S.D.N.Y.. Docket: 1:26-cv-01075.",
+      "attacks": [],
+      "_origin_file": "justsecurity_events_2026-01-01_2026-03-20.json",
+      "_origin_index": 365
+    },
+    {
+      "source_key": "justsecurity",
+      "date": "2026-02-09",
+      "category": "Judicial Developments",
+      "title": "U.H.A. et al v. Bondi et al (D. Minn.) 0:26-cv-00417 — Judge Tunheim denied the administration's motion to dissolve the temporary restraining order of Operation PARRIS , which blocks DHS from arresting and detaining…",
+      "url": "https://www.courtlistener.com/docket/72157874/uha-v-bondi",
+      "summary": "Judge Tunheim denied the administration's motion to dissolve the temporary restraining order of Operation PARRIS , which blocks DHS from arresting and detaining lawful refugees in Minnesota.",
+      "why_relevant": "This tracker update marks a concrete litigation development in an ongoing legal challenge. Court: D. Minn.. Docket: 0:26-cv-00417.",
+      "attacks": [],
+      "_origin_file": "justsecurity_events_2026-01-01_2026-03-20.json",
+      "_origin_index": 305
     },
     {
       "source_key": "meidas",
@@ -1119,16 +1302,31 @@
       "source_key": "meidas",
       "date": "2026-02-09",
       "category": "Law Enforcement & Surveillance",
-      "title": "Republican Rep. Defends Use of Masked ICE Agents",
+      "title": "Rep. Bryan Steil Defends Use of Masked ICE Agents",
       "url": "https://www.meidasplus.com/p/monday-afternoon-news-updates-maxwell",
-      "summary": "Republican Rep. Bryan Steil defended the use of masked ICE agents and administrative warrants, arguing that visible identification could endanger officers. This stance has been criticized as un-American and raises concerns about transparency and accountability in law enforcement practices.",
-      "why_relevant": "The use of masked agents and lack of transparency in law enforcement practices pose significant concerns for civil liberties and public trust.",
+      "summary": "Republican Rep. Bryan Steil defended the use of masked ICE agents and administrative warrants, arguing that visible identification could endanger officers. This stance has sparked debate over the balance between law enforcement practices and transparency. Critics argue that such measures undermine public trust and accountability in immigration enforcement.",
+      "why_relevant": "The use of masked agents raises concerns about transparency and accountability in law enforcement practices, particularly in immigration enforcement.",
       "attacks": [
-        "civil_service",
+        "immigrants_refugees",
         "justice_dept"
       ],
-      "_origin_file": "meidas_events_2026-02-07_2026-02-13.json",
-      "_origin_index": 38
+      "_origin_file": "meidas_events_2026-02-09_2026-02-11.json",
+      "_origin_index": 12
+    },
+    {
+      "source_key": "zeteo",
+      "date": "2026-02-09",
+      "category": "Law Enforcement & Surveillance",
+      "title": "ICE Arrests Target Non-Criminal Immigrants",
+      "url": "https://www.cbsnews.com",
+      "summary": "CBS News reported that during the first year of Trump's second term, less than 14% of the nearly 400,000 immigrants arrested by ICE had violent criminal charges or convictions. A significant portion of those arrested had no criminal record, raising concerns about the administration's immigration enforcement priorities.",
+      "why_relevant": "The focus on non-criminal immigrants undermines claims of targeting dangerous individuals and raises human rights concerns.",
+      "attacks": [
+        "immigrants_refugees",
+        "rule_of_law"
+      ],
+      "_origin_file": "zeteo_events_2026-02-14_2026-02-16.json",
+      "_origin_index": 2
     },
     {
       "source_key": "50501",
@@ -1141,6 +1339,18 @@
       "attacks": [],
       "_origin_file": "50501_events_2026-02-07_2026-02-13.json",
       "_origin_index": 10
+    },
+    {
+      "source_key": "meidas",
+      "date": "2026-02-09",
+      "category": "Elections & Representation",
+      "title": "Polling Shows Decline in Trump's Support Among Non-College Voters",
+      "url": "https://www.meidasplus.com/p/monday-afternoon-news-updates-maxwell",
+      "summary": "Recent polling data from CNN analyst Harry Enten indicates a significant decline in support for Trump among voters without a college degree. This demographic, which was a core part of Trump's base in the 2024 election, now shows decreased support, posing challenges for his political standing. The shift in voter sentiment reflects broader changes in the political landscape and potential implications for future elections.",
+      "why_relevant": "The polling data highlights shifts in voter demographics that could influence upcoming elections and political strategies.",
+      "attacks": [],
+      "_origin_file": "meidas_events_2026-02-09_2026-02-11.json",
+      "_origin_index": 11
     },
     {
       "source_key": "guardian",
@@ -1157,6 +1367,21 @@
       ],
       "_origin_file": "guardian_events_2026-02-07_2026-02-13.json",
       "_origin_index": 81
+    },
+    {
+      "source_key": "hcr",
+      "date": "2026-02-09",
+      "category": "Civil Society & Protest",
+      "title": "Trump refuses to condemn white nationalists in Charlottesville",
+      "url": "https://heathercoxrichardson.substack.com/p/february-8-2026",
+      "summary": "On August 11, 2017, during the \"Unite the Right\" rally in Charlottesville, Virginia, President Trump failed to condemn white nationalists and instead stated that there were \"very fine people on both sides.\" This response signaled his alignment with far-right groups and their ideologies, including the Great Replacement theory.",
+      "why_relevant": "Trump's refusal to denounce hate groups contributed to the legitimization of extremist ideologies and increased tensions around race and immigration in the U.S.",
+      "attacks": [
+        "truth",
+        "minorities"
+      ],
+      "_origin_file": "hcr_events_2026-02-09_2026-02-11.json",
+      "_origin_index": 17
     },
     {
       "source_key": "meidas",
@@ -1183,6 +1408,22 @@
       "why_relevant": "This action affects how the FCC collects and manages information, impacting transparency and regulatory compliance in media operations.",
       "attacks": [],
       "_origin_file": "federalregister_events_2026-02-07_2026-02-13.json",
+      "_origin_index": 16
+    },
+    {
+      "source_key": "hcr",
+      "date": "2026-02-09",
+      "category": "Information & Media Control",
+      "title": "Trump invokes Great Replacement theory in 2016 campaign",
+      "url": "https://heathercoxrichardson.substack.com/p/february-8-2026",
+      "summary": "During his 2016 presidential campaign, Donald Trump referenced the Great Replacement theory, suggesting that immigrants from Mexico were bringing crime and problems to the U.S. This rhetoric aligned with far-right conspiracy theories about demographic changes threatening American society.",
+      "why_relevant": "Trump's use of this theory in his campaign contributed to the normalization of extremist views in mainstream political discourse and influenced public attitudes toward immigration.",
+      "attacks": [
+        "truth",
+        "minorities",
+        "immigrants_refugees"
+      ],
+      "_origin_file": "hcr_events_2026-02-09_2026-02-11.json",
       "_origin_index": 16
     },
     {
@@ -1313,14 +1554,13 @@
       "category": "Economic & Regulatory Power",
       "title": "Trump Administration Faces Criticism Over Economic Outlook",
       "url": "https://www.meidasplus.com/p/monday-afternoon-news-updates-maxwell",
-      "summary": "Kevin Hassett, Trump's National Economic Council director, warned of potential job losses due to immigration crackdowns and rising productivity, despite increasing corporate profits. This statement comes amid polling showing a decline in Trump's support among voters without a college degree. The administration's economic policies and their impact on employment are under scrutiny as the 2026 elections approach.",
-      "why_relevant": "The administration's economic policies and their potential impact on employment and voter support are critical issues in the context of upcoming elections.",
+      "summary": "Kevin Hassett, director of Trump's National Economic Council, suggested that Americans should expect weaker job growth due to immigration crackdowns and rising productivity. This statement comes amid criticism of the administration's economic policies and their impact on job numbers. Hassett's comments have been interpreted as a preemptive attempt to manage public expectations regarding potential job losses.",
+      "why_relevant": "The administration's economic policies and their potential impact on employment are significant for understanding the broader economic landscape and public sentiment.",
       "attacks": [
-        "economy",
-        "workers"
+        "economy"
       ],
-      "_origin_file": "meidas_events_2026-02-07_2026-02-13.json",
-      "_origin_index": 37
+      "_origin_file": "meidas_events_2026-02-09_2026-02-11.json",
+      "_origin_index": 10
     },
     {
       "source_key": "noah",
@@ -1395,16 +1635,16 @@
       "source_key": "hcr",
       "date": "2026-02-09",
       "category": "International Relations",
-      "title": "Trump promotes Great Replacement theory at UN",
+      "title": "Trump addresses UN on immigration issues",
       "url": "https://heathercoxrichardson.substack.com/p/february-8-2026",
-      "summary": "In September 2025, Trump addressed the United Nations General Assembly, warning European nations about the dangers of immigration and promoting the Great Replacement theory, which posits that elites are replacing white populations with nonwhite immigrants. His rhetoric aimed to stoke fears and garner support for anti-immigration policies.",
-      "why_relevant": "Trump's promotion of divisive conspiracy theories at an international forum exemplifies the erosion of democratic norms and the manipulation of public sentiment for political gain.",
+      "summary": "In September 2024, Trump addressed the United Nations General Assembly, describing immigration as an \"unmitigated disaster\" that was \"destroying your heritage.\" He urged European nations to end open borders, framing immigration as a threat to national identity and stability.",
+      "why_relevant": "Trump's rhetoric at the UN reflected a broader trend of nationalist sentiments and anti-immigration policies that resonate with far-right movements globally.",
       "attacks": [
         "truth",
         "immigrants_refugees"
       ],
-      "_origin_file": "hcr_events_2026-02-07_2026-02-13.json",
-      "_origin_index": 18
+      "_origin_file": "hcr_events_2026-02-09_2026-02-11.json",
+      "_origin_index": 20
     },
     {
       "source_key": "meidas",
@@ -1526,20 +1766,31 @@
       "_origin_index": 50
     },
     {
+      "source_key": "hcr",
+      "date": "2026-02-10",
+      "category": "Executive Actions & Orders",
+      "title": "Proclamation Removing Tariff Duties for Puerto Rico",
+      "url": "https://www.presidency.ucsb.edu/documents/proclamation-462-cessation-tariff-porto-rico",
+      "summary": "On July 25, 1901, President McKinley issued a proclamation that removed tariff duties for products from Puerto Rico, significantly benefiting the island's sugar industry. This action followed the Supreme Court's decision in Downes v. Bidwell, which established Puerto Rico's status as an unincorporated territory.",
+      "why_relevant": "This proclamation illustrates the economic policies affecting Puerto Rico and highlights the complexities of its relationship with the U.S. government.",
+      "attacks": [],
+      "_origin_file": "hcr_events_2026-02-09_2026-02-11.json",
+      "_origin_index": 11
+    },
+    {
       "source_key": "guardian",
       "date": "2026-02-10",
       "category": "Legislative & Oversight Activity",
       "title": "Congressmen Force DOJ to Disclose Names in Epstein Files",
       "url": "https://www.theguardian.com/us-news/2026/feb/10/thomas-massie-epstein-files-redacted-names",
       "summary": "Democratic Congressman Ro Khanna and Republican Congressman Thomas Massie compelled the Department of Justice to reveal the names of six wealthy men, previously redacted, who are \"likely incriminated\" in the Jeffrey Epstein files. The names disclosed include Salvatore Nuara, Zurab Mikeladze, Leonic Leonov, Nicola Caputo, Sultan Ahmed Bin Sulayem, and Leslie Wexner. This disclosure follows their visit to the DOJ to view unredacted documents, as part of their efforts under the Jeffrey Epstein Transparency Act.",
-      "why_relevant": "This act enhances transparency and accountability in the investigation of high-profile individuals connected to Jeffrey Epstein.",
+      "why_relevant": "This act of disclosure challenges the DOJ's redaction decisions and promotes transparency in the investigation of Epstein's connections.",
       "attacks": [
         "justice_dept",
-        "transparency",
-        "rule_of_law"
+        "transparency"
       ],
-      "_origin_file": "guardian_events_2026-02-07_2026-02-13.json",
-      "_origin_index": 54
+      "_origin_file": "guardian_events_2026-02-09_2026-02-11.json",
+      "_origin_index": 8
     },
     {
       "source_key": "guardian",
@@ -1604,13 +1855,25 @@
       "source_key": "guardian",
       "date": "2026-02-10",
       "category": "Legislative & Oversight Activity",
-      "title": "Senate Minority Leader Introduces Bill to Eliminate Statute of Limitations for Sexual Offenses",
+      "title": "Senate Minority Leader Announces Bill to Eliminate Statute of Limitations for Sexual Offenses",
       "url": "https://www.theguardian.com/us-news/2026/feb/10/thomas-massie-epstein-files-redacted-names",
-      "summary": "Senate Minority Leader Chuck Schumer announced a new bill aimed at eliminating the statute of limitations for certain sexual offenses. The bill, named in honor of Virginia Giuffre, an Epstein survivor who died by suicide, seeks to ensure that justice for survivors does not expire. Schumer emphasized the importance of the bill in providing ongoing opportunities for justice for survivors of sexual abuse.",
+      "summary": "Senate Minority Leader Chuck Schumer announced a new bill aimed at eliminating the statute of limitations for certain sexual offenses. The bill, named in honor of Virginia Giuffre, an Epstein survivor who died by suicide, seeks to ensure that justice for survivors does not expire. Schumer emphasized the importance of the bill in providing justice for survivors who have been ignored or told that it is too late for their cases.",
       "why_relevant": "The bill represents a significant legislative effort to address and rectify limitations in the legal system that hinder justice for survivors of sexual offenses.",
       "attacks": [],
-      "_origin_file": "guardian_events_2026-02-07_2026-02-13.json",
-      "_origin_index": 55
+      "_origin_file": "guardian_events_2026-02-09_2026-02-11.json",
+      "_origin_index": 9
+    },
+    {
+      "source_key": "hcr",
+      "date": "2026-02-10",
+      "category": "Legislative & Oversight Activity",
+      "title": "U.S. Citizenship Established for Puerto Ricans",
+      "url": "https://www.politico.com/story/2008/03/puerto-ricans-granted-us-citizenship-march-2-1917-008771",
+      "summary": "The Puerto Rico Federal Relations Act, also known as the Jones-Shafroth Act, was enacted in 1917, establishing U.S. citizenship for Puerto Ricans. This act allowed Puerto Ricans to travel to the mainland United States without being considered immigrants, although they still lacked voting rights in federal elections.",
+      "why_relevant": "This legislation is significant as it shaped the political status and rights of Puerto Ricans, impacting their representation and participation in U.S. democracy.",
+      "attacks": [],
+      "_origin_file": "hcr_events_2026-02-09_2026-02-11.json",
+      "_origin_index": 9
     },
     {
       "source_key": "guardian",
@@ -1631,6 +1894,18 @@
       "source_key": "guardian",
       "date": "2026-02-10",
       "category": "Judicial Developments",
+      "title": "Ghislaine Maxwell Refuses to Testify to House Oversight Committee",
+      "url": "https://www.theguardian.com/us-news/2026/feb/10/thomas-massie-epstein-files-redacted-names",
+      "summary": "Ghislaine Maxwell, convicted co-conspirator of Jeffrey Epstein, refused to testify before the House oversight committee investigating the Epstein case. Invoking her constitutional right against self-incrimination, Maxwell remained silent during the hearing. This follows her previous willingness to speak with Todd Blanche, Trump's deputy attorney general, before being moved to a lower-security prison.",
+      "why_relevant": "Maxwell's refusal to testify underscores the challenges in obtaining information from key figures in the Epstein case, impacting the investigation's progress.",
+      "attacks": [],
+      "_origin_file": "guardian_events_2026-02-09_2026-02-11.json",
+      "_origin_index": 11
+    },
+    {
+      "source_key": "guardian",
+      "date": "2026-02-10",
+      "category": "Judicial Developments",
       "title": "Judges issue injunctions against halting offshore wind projects",
       "url": "https://www.theguardian.com/us-news/2026/feb/10/trump-anti-environment-agenda-pushback",
       "summary": "Four judges, including a Trump appointee, have issued temporary injunctions against the Interior Department's moves to halt work on five offshore wind projects in Virginia, New York, and New England. These projects, which have cost billions of dollars and are far along in development, were targeted by the Trump administration as part of its push to boost fossil fuels and roll back renewable energy initiatives. The injunctions temporarily block the administration's efforts, allowing the projects to continue while legal challenges proceed.",
@@ -1641,6 +1916,57 @@
       ],
       "_origin_file": "guardian_events_2026-02-07_2026-02-13.json",
       "_origin_index": 60
+    },
+    {
+      "source_key": "hcr",
+      "date": "2026-02-10",
+      "category": "Judicial Developments",
+      "title": "Supreme Court Ruling on Puerto Rican Immigration Case",
+      "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep192001/usrep192001.pdf",
+      "summary": "In the 1904 case Gonzalez v. Williams, the Supreme Court ruled that Isabel González, a Puerto Rican woman, was not an alien and should not have been denied entry to the United States. This ruling established a new category of personhood for Puerto Ricans as \"noncitizen nationals,\" granting them some constitutional protections but not full citizenship rights.",
+      "why_relevant": "This ruling is crucial in understanding the legal status of Puerto Ricans and their rights within the U.S. legal framework, influencing ongoing discussions about citizenship and representation.",
+      "attacks": [],
+      "_origin_file": "hcr_events_2026-02-09_2026-02-11.json",
+      "_origin_index": 10
+    },
+    {
+      "source_key": "justsecurity",
+      "date": "2026-02-10",
+      "category": "Judicial Developments",
+      "title": "American Oversight v. U.S. Department of Justice (D.D.C.) 1:25-cv-04208 — Plaintiffs filed an amended complaint .",
+      "url": "https://www.courtlistener.com/docket/71987253/american-oversight-v-us-department-of-justice",
+      "summary": "Plaintiffs filed an amended complaint .",
+      "why_relevant": "This tracker update marks a concrete litigation development in an ongoing legal challenge. Court: D.D.C.. Docket: 1:25-cv-04208.",
+      "attacks": [],
+      "_origin_file": "justsecurity_events_2026-01-01_2026-03-20.json",
+      "_origin_index": 398
+    },
+    {
+      "source_key": "justsecurity",
+      "date": "2026-02-10",
+      "category": "Judicial Developments",
+      "title": "Rodriguez v. Porter (D. Idaho) 1:26-cv-00075 — Case filed",
+      "url": "https://www.courtlistener.com/docket/72256071/rodriguez-v-porter",
+      "summary": "Case filed On Oct. 19, 2025, pursuant to a search warrant based on an anonymous tip, federal, state, and local law enforcement officers conducted a raid at La Catedral during a family horse-racing event, where most attendees were Latino. Armed officers from various agencies and SWAT teams carried out the raid in an allegedly armed and violent manner and were alleged to have denied detained individuals food, water, medical attention, and bathroom access. Following the raid, arrest warrants were issued for five individuals associated with La Catedral on non-violent charges of gambling without a license. The raid was allegedly carried out as part of a broader federal immigration-enforcement initiative. On Feb. 10, 2026, three families filed a class action complaint against the administration, alleging unreasonable mass seizure and racially discriminatory enforcement resulting in physical and mental harm. Plaintiffs argue that the Administration violated their rights by using a criminal search warrant to undertake immigration arrests at an event with a significant number of Latino attendees. Plaintiffs brought claims under the Fourth and Fourteenth Amendments, as well as 42 U.S.C. § 1983, seeking class certification and for the judge to declare the Administration’s actions unlawful.",
+      "why_relevant": "A new legal challenge was filed against a Trump administration action. Docket: 1:26-cv-00075.",
+      "attacks": [],
+      "_origin_file": "justsecurity_events_2026-01-01_2026-03-20.json",
+      "_origin_index": 274
+    },
+    {
+      "source_key": "zeteo",
+      "date": "2026-02-10",
+      "category": "Judicial Developments",
+      "title": "Grand Jury Rejects Indictment of Democratic Lawmakers",
+      "url": "https://www.nbcnews.com",
+      "summary": "A grand jury unanimously rejected the Trump administration's attempt to indict six Democratic lawmakers for a video urging military members to refuse illegal orders. The decision reflects a failure to meet the probable cause threshold, highlighting concerns about the administration's use of the justice system against political opponents.",
+      "why_relevant": "This event underscores the importance of judicial independence and the protection of free speech under the First Amendment.",
+      "attacks": [
+        "justice_dept",
+        "rule_of_law"
+      ],
+      "_origin_file": "zeteo_events_2026-02-14_2026-02-16.json",
+      "_origin_index": 3
     },
     {
       "source_key": "guardian",
@@ -1921,16 +2247,15 @@
       "source_key": "guardian",
       "date": "2026-02-10",
       "category": "Appointments & Patronage",
-      "title": "Commerce Secretary Faces Calls for Resignation Over Epstein Ties",
+      "title": "Commerce Secretary Howard Lutnick Faces Calls for Resignation Over Epstein Ties",
       "url": "https://www.theguardian.com/us-news/2026/feb/10/thomas-massie-epstein-files-redacted-names",
-      "summary": "Howard Lutnick, the US Commerce Secretary, is under pressure to resign following revelations of his ties to Jeffrey Epstein. Correspondence from 2012 shows Lutnick arranged to visit Epstein's private island, where abuse of minors allegedly occurred. During a Senate appropriations committee hearing, Lutnick admitted to having lunch with Epstein on the island, contradicting his previous statements.",
+      "summary": "Howard Lutnick, the US Commerce Secretary, is under bipartisan pressure to resign following revelations of his extensive ties with Jeffrey Epstein. Documents show Lutnick arranged to visit Epstein's private island, where abuse of minors allegedly occurred. During a Senate appropriations committee testimony, Lutnick admitted to having lunch with Epstein on the island, contradicting his previous statements.",
       "why_relevant": "The calls for Lutnick's resignation highlight the ongoing impact of the Epstein scandal on current government officials and the demand for accountability.",
       "attacks": [
-        "public_service",
-        "presidency"
+        "public_service"
       ],
-      "_origin_file": "guardian_events_2026-02-07_2026-02-13.json",
-      "_origin_index": 56
+      "_origin_file": "guardian_events_2026-02-09_2026-02-11.json",
+      "_origin_index": 10
     },
     {
       "source_key": "popinfo",
@@ -2015,6 +2340,21 @@
       ],
       "_origin_file": "guardian_events_2026-02-07_2026-02-13.json",
       "_origin_index": 57
+    },
+    {
+      "source_key": "50501",
+      "date": "2026-02-11",
+      "category": "Executive Actions & Orders",
+      "title": "CMS selects Oracle for cloud migration",
+      "url": "https://www.the50501movement.org/p/medicares-ai-shift-is-happening-quietly",
+      "summary": "",
+      "why_relevant": "The migration of sensitive healthcare data to a private cloud service raises concerns about data security and oversight.",
+      "attacks": [
+        "information",
+        "transparency"
+      ],
+      "_origin_file": "50501_events_2026-03-01_2026-03-20.json",
+      "_origin_index": 21
     },
     {
       "source_key": "guardian",
@@ -2306,6 +2646,66 @@
       "_origin_index": 6
     },
     {
+      "source_key": "justsecurity",
+      "date": "2026-02-11",
+      "category": "Judicial Developments",
+      "title": "Citizens for Responsibility and Ethics in Washington v. U.S. Department Of Justice (D.D.C.) 1:25-cv-03983 — Judge McFadden dismissed Count I with respect to items 2 through 6 of Plaintiffs' FOIA request in response to Plaintiffs' notice of voluntary dismissal, and den…",
+      "url": "https://www.courtlistener.com/docket/71922862/citizens-for-responsibility-and-ethics-in-washington-v-us-department-of",
+      "summary": "Judge McFadden dismissed Count I with respect to items 2 through 6 of Plaintiffs' FOIA request in response to Plaintiffs' notice of voluntary dismissal, and denied as moot the government's motion to dismiss those counts.",
+      "why_relevant": "This tracker update marks a concrete litigation development in an ongoing legal challenge. Court: D.D.C.. Docket: 1:25-cv-03983.",
+      "attacks": [],
+      "_origin_file": "justsecurity_events_2026-01-01_2026-03-20.json",
+      "_origin_index": 397
+    },
+    {
+      "source_key": "justsecurity",
+      "date": "2026-02-11",
+      "category": "Judicial Developments",
+      "title": "Climate Solutions v. U.S. Department of Transportation (W.D. Wash.) 2:25-cv-02578 — The court consolidated Climate Solutions v. U.S. Department of Transportation , 2:25-cv-02578 with State of California v. U.S. Department of Transportation , 2…",
+      "url": "https://www.courtlistener.com/docket/72045202/climate-solutions-v-department-of-transportation-us",
+      "summary": "The court consolidated Climate Solutions v. U.S. Department of Transportation , 2:25-cv-02578 with State of California v. U.S. Department of Transportation , 2:25-cv-02574. This case will proceed under State of California v. U.S. Department of Transportation.",
+      "why_relevant": "This tracker update marks a concrete litigation development in an ongoing legal challenge. Court: W.D. Wash.. Docket: 2:25-cv-02578.",
+      "attacks": [],
+      "_origin_file": "justsecurity_events_2026-01-01_2026-03-20.json",
+      "_origin_index": 161
+    },
+    {
+      "source_key": "justsecurity",
+      "date": "2026-02-11",
+      "category": "Judicial Developments",
+      "title": "New Jersey v. Department of Transportation (S.D.N.Y.) 1:26-cv-00939 — Judge Vargas denied Plaintiffs' motion for reconsideration of the administrative stay.",
+      "url": "https://www.courtlistener.com/docket/72228444/state-of-new-jersey-v-united-states-department-of-transportation",
+      "summary": "Judge Vargas denied Plaintiffs' motion for reconsideration of the administrative stay.",
+      "why_relevant": "This tracker update marks a concrete litigation development in an ongoing legal challenge. Court: S.D.N.Y.. Docket: 1:26-cv-00939.",
+      "attacks": [],
+      "_origin_file": "justsecurity_events_2026-01-01_2026-03-20.json",
+      "_origin_index": 174
+    },
+    {
+      "source_key": "justsecurity",
+      "date": "2026-02-11",
+      "category": "Judicial Developments",
+      "title": "State of California v. U.S. Department of Education (N.D. Cal.) 3:26-cv-01259 — Judge Noel Wise granted a limited temporary restraining order (TRO) prohibiting the government from withholding any of the $4.9 billion in federal education fun…",
+      "url": "https://www.courtlistener.com/docket/72264974/state-of-california-v-us-department-of-education",
+      "summary": "Judge Noel Wise granted a limited temporary restraining order (TRO) prohibiting the government from withholding any of the $4.9 billion in federal education funds until the merits of the motion are fully resolved.",
+      "why_relevant": "This tracker update marks a concrete litigation development in an ongoing legal challenge. Court: N.D. Cal.. Docket: 3:26-cv-01259.",
+      "attacks": [],
+      "_origin_file": "justsecurity_events_2026-01-01_2026-03-20.json",
+      "_origin_index": 179
+    },
+    {
+      "source_key": "justsecurity",
+      "date": "2026-02-11",
+      "category": "Judicial Developments",
+      "title": "State of California v. United States Department of Transportation (W.D. Wash.) 2:25-cv-02574 — The court consolidated Climate Solutions v. U.S. Department of Transportation , 2:25-cv-02578 with State of California v. U.S. Department of Transportation , 2…",
+      "url": "https://www.courtlistener.com/docket/72042658/state-of-california-v-united-states-department-of-transportation",
+      "summary": "The court consolidated Climate Solutions v. U.S. Department of Transportation , 2:25-cv-02578 with State of California v. U.S. Department of Transportation , 2:25-cv-02574. This case will proceed under State of California v. U.S. Department of Transportation.",
+      "why_relevant": "This tracker update marks a concrete litigation development in an ongoing legal challenge. Court: W.D. Wash.. Docket: 2:25-cv-02574.",
+      "attacks": [],
+      "_origin_file": "justsecurity_events_2026-01-01_2026-03-20.json",
+      "_origin_index": 160
+    },
+    {
       "source_key": "meidas",
       "date": "2026-02-11",
       "category": "Judicial Developments",
@@ -2379,6 +2779,20 @@
       "source_key": "hcr",
       "date": "2026-02-11",
       "category": "Law Enforcement & Surveillance",
+      "title": "ACLU Files Lawsuit Over ICE Raid",
+      "url": "https://www.cbsnews.com/news/feds-zip-tied-14-year-old-girl-idaho-raid-ice-tactics/",
+      "summary": "The American Civil Liberties Union (ACLU) filed a federal civil rights lawsuit following an ICE raid at a horse racing venue in Idaho, which resulted in the detention of 105 undocumented immigrants and temporary detention of 375 U.S. citizens or lawful residents. Only five arrests led to criminal charges.",
+      "why_relevant": "The lawsuit highlights concerns over civil rights violations during immigration enforcement actions and the treatment of individuals during such operations.",
+      "attacks": [
+        "immigrants_refugees"
+      ],
+      "_origin_file": "hcr_events_2026-02-09_2026-02-11.json",
+      "_origin_index": 3
+    },
+    {
+      "source_key": "hcr",
+      "date": "2026-02-11",
+      "category": "Law Enforcement & Surveillance",
       "title": "Congressional Hearing on Immigration Enforcement",
       "url": "https://www.cbsnews.com/live-updates/ice-hearing-cbp-uscis-congress-immigration/",
       "summary": "Officials from the Department of Homeland Security, including Todd Lyons of ICE, testified before the House Committee on Homeland Security regarding immigration enforcement actions. Lyons defended ICE's operations, claiming they are necessary for national security, while Democrats raised concerns about the deaths of U.S. citizens during these encounters and called for changes in ICE and Border Patrol practices.",
@@ -2404,6 +2818,22 @@
       ],
       "_origin_file": "meidas_events_2026-02-07_2026-02-13.json",
       "_origin_index": 16
+    },
+    {
+      "source_key": "zeteo",
+      "date": "2026-02-11",
+      "category": "Elections & Representation",
+      "title": "House Passes Restrictive Election Bill",
+      "url": "https://www.americanprogress.org",
+      "summary": "The Republican-controlled House passed the SAVE America Act, which imposes strict voter ID requirements and mandates frequent voter roll purges. Critics argue it disenfranchises millions, particularly women and minorities, by requiring proof of citizenship that many lack. The bill now moves to the Senate, where it faces opposition.",
+      "why_relevant": "The bill threatens voting rights and could significantly impact electoral participation and representation.",
+      "attacks": [
+        "elections",
+        "minorities",
+        "women"
+      ],
+      "_origin_file": "zeteo_events_2026-02-14_2026-02-16.json",
+      "_origin_index": 4
     },
     {
       "source_key": "50501",
@@ -3095,6 +3525,54 @@
       "_origin_index": 4
     },
     {
+      "source_key": "justsecurity",
+      "date": "2026-02-12",
+      "category": "Judicial Developments",
+      "title": "African Communities Together v. Noem (D. Mass.) 1:25-cv-13939 — Judge Saris granted Plaintiffs' motion to postpone the government's policy terminating Temporary Protected Status for South Sudan under 5 U.S.C. § 705.",
+      "url": "https://www.courtlistener.com/docket/72069053/african-communities-together-v-noem",
+      "summary": "Judge Saris granted Plaintiffs' motion to postpone the government's policy terminating Temporary Protected Status for South Sudan under 5 U.S.C. § 705.",
+      "why_relevant": "This tracker update marks a concrete litigation development in an ongoing legal challenge. Court: D. Mass.. Docket: 1:25-cv-13939.",
+      "attacks": [],
+      "_origin_file": "justsecurity_events_2026-01-01_2026-03-20.json",
+      "_origin_index": 252
+    },
+    {
+      "source_key": "justsecurity",
+      "date": "2026-02-12",
+      "category": "Judicial Developments",
+      "title": "Kelly v. Hegseth (D.D.C.) 1:26-cv-00081 — Judge Leon granted Plaintiff's motion for a preliminary injunction, enjoining the administration from censuring Senator Mark Kelly or initiating proceedings to…",
+      "url": "https://www.courtlistener.com/docket/72131361/kelly-v-hegseth",
+      "summary": "Judge Leon granted Plaintiff's motion for a preliminary injunction, enjoining the administration from censuring Senator Mark Kelly or initiating proceedings to reduce his retirement rank and pay, finding that such actions likely violated the Senator's First Amendment rights by retaliating against him in response to a video message in which he warned U.S troops not to follow illegal orders.",
+      "why_relevant": "This tracker update marks a concrete litigation development in an ongoing legal challenge. Court: D.D.C.. Docket: 1:26-cv-00081.",
+      "attacks": [],
+      "_origin_file": "justsecurity_events_2026-01-01_2026-03-20.json",
+      "_origin_index": 38
+    },
+    {
+      "source_key": "justsecurity",
+      "date": "2026-02-12",
+      "category": "Judicial Developments",
+      "title": "State of Illinois v. Vought (N.D. Ill.) 1:26-cv-01566 — Judge Shah granted a temporary restraining order against the government's plan to withhold public-health grants from states with sanctuary city policies.",
+      "url": "https://www.courtlistener.com/docket/72265112/state-of-illinois-v-vought",
+      "summary": "Judge Shah granted a temporary restraining order against the government's plan to withhold public-health grants from states with sanctuary city policies.",
+      "why_relevant": "This tracker update marks a concrete litigation development in an ongoing legal challenge. Court: N.D. Ill.. Docket: 1:26-cv-01566.",
+      "attacks": [],
+      "_origin_file": "justsecurity_events_2026-01-01_2026-03-20.json",
+      "_origin_index": 180
+    },
+    {
+      "source_key": "justsecurity",
+      "date": "2026-02-12",
+      "category": "Judicial Developments",
+      "title": "The Advocates for Human Rights v. U.S. Department of Homeland Security (D. Minn.) 0:26-cv-00749 — Judge Brasel granted a temporary restraining order requiring ICE to provide noncitizen detainees at the Whipple Building in Fort Snelling, Minnesota, with meani…",
+      "url": "https://www.courtlistener.com/docket/72196538/the-advocates-for-human-rights-v-us-department-of-homeland-security",
+      "summary": "Judge Brasel granted a temporary restraining order requiring ICE to provide noncitizen detainees at the Whipple Building in Fort Snelling, Minnesota, with meaningful access to counsel, finding that ICE's practices under “Operation Metro Surge” likely violate the Fifth Amendment.",
+      "why_relevant": "This tracker update marks a concrete litigation development in an ongoing legal challenge. Court: D. Minn.. Docket: 0:26-cv-00749.",
+      "attacks": [],
+      "_origin_file": "justsecurity_events_2026-01-01_2026-03-20.json",
+      "_origin_index": 232
+    },
+    {
       "source_key": "meidas",
       "date": "2026-02-12",
       "category": "Judicial Developments",
@@ -3121,6 +3599,21 @@
       ],
       "_origin_file": "meidas_events_2026-02-07_2026-02-13.json",
       "_origin_index": 21
+    },
+    {
+      "source_key": "zeteo",
+      "date": "2026-02-12",
+      "category": "Judicial Developments",
+      "title": "Judge Rebukes Trump Administration Over ICE Detainee Rights",
+      "url": "https://www.courthousenews.com",
+      "summary": "A federal judge criticized the Trump administration for obstructing ICE detainees' access to legal counsel in Minnesota. The ruling emphasized the constitutional rights of detainees and condemned the government's inadequate planning for legal access during Operation Metro Surge.",
+      "why_relevant": "This ruling highlights the importance of upholding constitutional rights for all individuals, including detainees.",
+      "attacks": [
+        "justice_dept",
+        "rule_of_law"
+      ],
+      "_origin_file": "zeteo_events_2026-02-14_2026-02-16.json",
+      "_origin_index": 5
     },
     {
       "source_key": "guardian",
@@ -3535,6 +4028,21 @@
       "_origin_index": 13
     },
     {
+      "source_key": "zeteo",
+      "date": "2026-02-13",
+      "category": "Executive Actions & Orders",
+      "title": "Termination of TPS for Yemen Announced",
+      "url": "https://www.dhs.gov",
+      "summary": "Homeland Security Secretary Kristi Noem announced the termination of Temporary Protected Status (TPS) for Yemen, giving Yemenis 60 days to leave the U.S. or face deportation. This decision affects thousands of Yemenis who sought refuge from conflict and humanitarian crises in their home country.",
+      "why_relevant": "The termination of TPS for Yemen raises humanitarian concerns and impacts the lives of vulnerable immigrants.",
+      "attacks": [
+        "immigrants_refugees",
+        "rule_of_law"
+      ],
+      "_origin_file": "zeteo_events_2026-02-14_2026-02-16.json",
+      "_origin_index": 6
+    },
+    {
       "source_key": "50501",
       "date": "2026-02-13",
       "category": "Legislative & Oversight Activity",
@@ -3549,6 +4057,21 @@
       ],
       "_origin_file": "50501_events_2026-02-07_2026-02-13.json",
       "_origin_index": 2
+    },
+    {
+      "source_key": "50501",
+      "date": "2026-02-13",
+      "category": "Legislative & Oversight Activity",
+      "title": "ICE whistleblower testifies about training program cuts",
+      "url": "https://www.the50501movement.org/p/dont-look-away-from-minnesota",
+      "summary": "Former ICE assistant chief counsel Ryan Schwank testified before Congress about significant reductions in ICE's officer training program, including cuts to constitutional and legal instruction. The program was reduced from 72 days to 42, with specific reductions in use-of-force coursework. DHS disputes these claims, asserting that training remains comprehensive. The testimony raises concerns about the adequacy of training for federal agents, particularly in light of recent enforcement actions and constitutional violations.",
+      "why_relevant": "The testimony highlights potential deficiencies in federal agent training, impacting the enforcement of laws and protection of constitutional rights.",
+      "attacks": [
+        "civil_service",
+        "rule_of_law"
+      ],
+      "_origin_file": "50501_events_2026-02-21_2026-02-27.json",
+      "_origin_index": 7
     },
     {
       "source_key": "guardian",
@@ -3613,6 +4136,102 @@
       ],
       "_origin_file": "guardian_events_2026-02-07_2026-02-13.json",
       "_origin_index": 11
+    },
+    {
+      "source_key": "justsecurity",
+      "date": "2026-02-13",
+      "category": "Judicial Developments",
+      "title": "American Council of Learned Societies v. McDonald (S.D.N.Y.) 1:25-cv-03657 — Judge McMahon denied the government's motion to keep certain discovery materials confidential and under seal, holding they are judicial documents subject to a p…",
+      "url": "https://www.courtlistener.com/docket/70035052/american-council-of-learned-societies-v-mcdonald",
+      "summary": "Judge McMahon denied the government's motion to keep certain discovery materials confidential and under seal, holding they are judicial documents subject to a presumption of public access and that generalized concern about embarrassment was insufficient and not narrowly tailored. The materials include two DOGE personnel rosters and four sentences from a text message by NEH Assistant Chair for Programs Adam Wolfson sent from his personal device.",
+      "why_relevant": "This tracker update marks a concrete litigation development in an ongoing legal challenge. Court: S.D.N.Y.. Docket: 1:25-cv-03657.",
+      "attacks": [],
+      "_origin_file": "justsecurity_events_2026-01-01_2026-03-20.json",
+      "_origin_index": 334
+    },
+    {
+      "source_key": "justsecurity",
+      "date": "2026-02-13",
+      "category": "Judicial Developments",
+      "title": "LatinoJustice PRLDEF and American Immigration Council v. U.S. Immigration and Customs Enforcement (S.D.N.Y.) 1:25-cv-08516 — Plaintiffs filed a supplemental complaint adding claims arising from three FOIA requests related to and filed at the same time as the requests at issue in the i…",
+      "url": "https://www.courtlistener.com/docket/71654426/latinojustice-prldef-v-us-immigration-and-customs-enforcement",
+      "summary": "Plaintiffs filed a supplemental complaint adding claims arising from three FOIA requests related to and filed at the same time as the requests at issue in the initial complaint which were not yet ripe at the time the initial complaint was filed.",
+      "why_relevant": "This tracker update marks a concrete litigation development in an ongoing legal challenge. Court: S.D.N.Y.. Docket: 1:25-cv-08516.",
+      "attacks": [],
+      "_origin_file": "justsecurity_events_2026-01-01_2026-03-20.json",
+      "_origin_index": 395
+    },
+    {
+      "source_key": "justsecurity",
+      "date": "2026-02-13",
+      "category": "Judicial Developments",
+      "title": "Lujan v. FMCSA (D.C. Cir.) 25-1215 — The court consolidated Lujan v. FMCSA , 25-1215 with Lujan v. FMCSA , 26-1032",
+      "url": "https://www.courtlistener.com/docket/71701019/jorge-lujan-v-fmcsa",
+      "summary": "The court consolidated Lujan v. FMCSA , 25-1215 with Lujan v. FMCSA , 26-1032. This case will proceed under Lujan v. FMCSA , 26-1032.",
+      "why_relevant": "This tracker update marks a concrete litigation development in an ongoing legal challenge. Court: D.C. Cir.. Docket: 25-1215.",
+      "attacks": [],
+      "_origin_file": "justsecurity_events_2026-01-01_2026-03-20.json",
+      "_origin_index": 300
+    },
+    {
+      "source_key": "justsecurity",
+      "date": "2026-02-13",
+      "category": "Judicial Developments",
+      "title": "Mullady v. Office of Management and Budget (D. Md.) 8:26-cv-00573 — Case filed",
+      "url": "https://www.courtlistener.com/docket/72269762/mullady-v-office-of-management-and-budget",
+      "summary": "Case filed Coming soon. On Feb. 13, 2026, a group of 143 former employees of the Departments of Justice, State, Education, Homeland Security, HHS, and USAID sued the administration over their terminations as part of government-wide reductions in force (RIFs). Plaintiffs argue that agencies did not follow procedural requirements for the RIFs, violating the Privacy Act and the APA, and that the administration has weakened the independence of the Merit Systems Protection Board and its capacity to hear their appeals so as to effectively deprive them of due process.",
+      "why_relevant": "A new legal challenge was filed against a Trump administration action. Court: D. Md.. Docket: 8:26-cv-00573.",
+      "attacks": [],
+      "_origin_file": "justsecurity_events_2026-01-01_2026-03-20.json",
+      "_origin_index": 353
+    },
+    {
+      "source_key": "justsecurity",
+      "date": "2026-02-13",
+      "category": "Judicial Developments",
+      "title": "New England Synod, Evangelical Lutheran Church in America v. Department of Homeland Security (D. Mass.) 4:25-cv-40102 — Judge Saylor granted in part Plaintiffs' request for preliminary relief",
+      "url": "https://www.courtlistener.com/docket/70939776/new-england-synod-evangelical-lutheran-church-in-america-v-department-of",
+      "summary": "Judge Saylor granted in part Plaintiffs' request for preliminary relief. Judge Saylor found that Plaintiffs were likely to succeed on the merits of their RFRA claim based on religious freedom (and therefore did not reach their associational-freedom First Amendment claim) and enjoined Defendants from taking any immigration enforcement action in a protected area absent exigent circumstances or within 100 feet of a protected area absent exigent circumstances or prior approval. Judge Saylor denied Plaintiffs' request for a stay under 5 U.S.C. § 705 and found that the 2025 Policy was not final agency action reviewable under the APA.",
+      "why_relevant": "This tracker update marks a concrete litigation development in an ongoing legal challenge. Court: D. Mass.. Docket: 4:25-cv-40102.",
+      "attacks": [],
+      "_origin_file": "justsecurity_events_2026-01-01_2026-03-20.json",
+      "_origin_index": 58
+    },
+    {
+      "source_key": "justsecurity",
+      "date": "2026-02-13",
+      "category": "Judicial Developments",
+      "title": "The Authors Guild v. National Endowment for the Humanities (S.D.N.Y.) 1:25-cv-03923 — Judge McMahon denied the government's motion to keep certain discovery materials confidential and under seal, holding they are judicial documents subject to a p…",
+      "url": "https://www.courtlistener.com/docket/70243086/the-authors-guild-v-national-endowment-for-the-humanities",
+      "summary": "Judge McMahon denied the government's motion to keep certain discovery materials confidential and under seal, holding they are judicial documents subject to a presumption of public access and that generalized concern about embarrassment was insufficient and not narrowly tailored. The materials include two DOGE personnel rosters and four sentences from a text message by NEH Assistant Chair for Programs Adam Wolfson sent from his personal device.",
+      "why_relevant": "This tracker update marks a concrete litigation development in an ongoing legal challenge. Court: S.D.N.Y.. Docket: 1:25-cv-03923.",
+      "attacks": [],
+      "_origin_file": "justsecurity_events_2026-01-01_2026-03-20.json",
+      "_origin_index": 339
+    },
+    {
+      "source_key": "justsecurity",
+      "date": "2026-02-13",
+      "category": "Judicial Developments",
+      "title": "The Board of Education of The City School District of The City of New York v. United States Department of Education (S.D.N.Y.) 1:25-cv-08547 — A coalition of 15 states and the District of Columbia filed an amicus brief in support of Plaintiff's motion for summary judgment.",
+      "url": "https://www.courtlistener.com/docket/71659617/the-board-of-education-of-the-city-school-district-of-the-city-of-new-york",
+      "summary": "A coalition of 15 states and the District of Columbia filed an amicus brief in support of Plaintiff's motion for summary judgment.",
+      "why_relevant": "This tracker update marks a concrete litigation development in an ongoing legal challenge. Court: S.D.N.Y.. Docket: 1:25-cv-08547.",
+      "attacks": [],
+      "_origin_file": "justsecurity_events_2026-01-01_2026-03-20.json",
+      "_origin_index": 147
+    },
+    {
+      "source_key": "justsecurity",
+      "date": "2026-02-13",
+      "category": "Judicial Developments",
+      "title": "Tincher v. Noem (D. Minn.) 0:25-cv-04669 — Plaintiffs filed an amended complaint expanding their challenge to DHS's “Operation Metro Surge,” now supported by over 100 sworn declarations that “tell a stor…",
+      "url": "https://www.courtlistener.com/docket/72047643/tincher-v-noem",
+      "summary": "Plaintiffs filed an amended complaint expanding their challenge to DHS's “Operation Metro Surge,” now supported by over 100 sworn declarations that “tell a story of widespread cruel, immoral, and unconstitutional conduct by DHS agents.”",
+      "why_relevant": "This tracker update marks a concrete litigation development in an ongoing legal challenge. Court: D. Minn.. Docket: 0:25-cv-04669.",
+      "attacks": [],
+      "_origin_file": "justsecurity_events_2026-01-01_2026-03-20.json",
+      "_origin_index": 33
     },
     {
       "source_key": "meidas",

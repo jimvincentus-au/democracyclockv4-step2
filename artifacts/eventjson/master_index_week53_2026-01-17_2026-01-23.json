@@ -5,52 +5,54 @@
   },
   "week_number": 53,
   "sources": [
-    "outloud",
+    "50501",
     "noah",
     "guardian",
-    "democracydocket",
-    "50501",
-    "meidas",
     "popinfo",
-    "federalregister",
-    "orders",
+    "outloud",
+    "democracydocket",
+    "congress",
     "hcr",
-    "congress"
+    "meidas",
+    "orders",
+    "justsecurity",
+    "federalregister"
   ],
   "counts": {
-    "total": 271,
+    "total": 307,
     "by_date": {
-      "2026-01-17": 19,
-      "2026-01-18": 24,
-      "2026-01-19": 14,
-      "2026-01-20": 67,
-      "2026-01-21": 36,
-      "2026-01-22": 62,
-      "2026-01-23": 49
+      "2026-01-17": 21,
+      "2026-01-18": 26,
+      "2026-01-19": 16,
+      "2026-01-20": 71,
+      "2026-01-21": 45,
+      "2026-01-22": 66,
+      "2026-01-23": 62
     },
     "by_source": {
-      "guardian": 121,
+      "guardian": 124,
       "hcr": 39,
+      "justsecurity": 30,
       "noah": 10,
       "outloud": 5,
-      "50501": 30,
+      "50501": 31,
       "federalregister": 36,
-      "orders": 1,
+      "orders": 2,
       "democracydocket": 2,
+      "popinfo": 6,
       "congress": 3,
-      "popinfo": 5,
       "meidas": 19
     },
     "by_category": {
-      "Executive Actions & Orders": 22,
+      "Executive Actions & Orders": 24,
       "Legislative & Oversight Activity": 18,
-      "Judicial Developments": 34,
-      "Law Enforcement & Surveillance": 53,
-      "Civil Society & Protest": 29,
+      "Judicial Developments": 63,
+      "Law Enforcement & Surveillance": 55,
+      "Civil Society & Protest": 31,
       "Information & Media Control": 16,
       "International Relations": 35,
       "Civil–Military Relations & State Violence": 13,
-      "Elections & Representation": 5,
+      "Elections & Representation": 6,
       "Economic & Regulatory Power": 41,
       "Public Health & Welfare": 1,
       "Public Health & Safety": 1,
@@ -190,6 +192,30 @@
       ],
       "_origin_file": "guardian_events_2026-01-17_2026-01-23.json",
       "_origin_index": 114
+    },
+    {
+      "source_key": "justsecurity",
+      "date": "2026-01-17",
+      "category": "Judicial Developments",
+      "title": "Asylum Seeker Advocacy Project v. United States Citizenship and Immigration Services (D. Md.) 1:25-cv-03299 — Plaintiffs filed an amended complaint challenging EOIR's Jan. 2, 2026 memorandum .",
+      "url": "https://www.courtlistener.com/docket/71544005/asylum-seeker-advocacy-project-v-united-states-citizenship-and-immigration",
+      "summary": "Plaintiffs filed an amended complaint challenging EOIR's Jan. 2, 2026 memorandum .",
+      "why_relevant": "This tracker update marks a concrete litigation development in an ongoing legal challenge. Court: D. Md.. Docket: 1:25-cv-03299.",
+      "attacks": [],
+      "_origin_file": "justsecurity_events_2026-01-01_2026-03-20.json",
+      "_origin_index": 225
+    },
+    {
+      "source_key": "justsecurity",
+      "date": "2026-01-17",
+      "category": "Judicial Developments",
+      "title": "Gibson v. Bondi (D. Minn.) 0:26-cv-00172 — Judge Bryan granted Petitioner's Amended Petition for a writ of habeas corpus on the basis that it is unopposed and, on an independent and separate basis, deter…",
+      "url": "https://www.courtlistener.com/docket/72130038/gibson-v-bondi",
+      "summary": "Judge Bryan granted Petitioner's Amended Petition for a writ of habeas corpus on the basis that it is unopposed and, on an independent and separate basis, determined that petitioner demonstrated the unlawfulness of his re-detention.",
+      "why_relevant": "This tracker update marks a concrete litigation development in an ongoing legal challenge. Court: D. Minn.. Docket: 0:26-cv-00172.",
+      "attacks": [],
+      "_origin_file": "justsecurity_events_2026-01-01_2026-03-20.json",
+      "_origin_index": 282
     },
     {
       "source_key": "guardian",
@@ -374,6 +400,18 @@
       "_origin_index": 103
     },
     {
+      "source_key": "justsecurity",
+      "date": "2026-01-18",
+      "category": "Judicial Developments",
+      "title": "U.H.A. et al v. Bondi et al (D. Minn.) 0:26-cv-00417 — The court enjoined the government from removing, transferring, or otherwise facilitating the removal of Petitioner from the District of Minnesota until further…",
+      "url": "https://www.courtlistener.com/docket/72157874/uha-v-bondi",
+      "summary": "The court enjoined the government from removing, transferring, or otherwise facilitating the removal of Petitioner from the District of Minnesota until further order of the court.",
+      "why_relevant": "This tracker update marks a concrete litigation development in an ongoing legal challenge. Court: D. Minn.. Docket: 0:26-cv-00417.",
+      "attacks": [],
+      "_origin_file": "justsecurity_events_2026-01-01_2026-03-20.json",
+      "_origin_index": 302
+    },
+    {
       "source_key": "outloud",
       "date": "2026-01-18",
       "category": "Judicial Developments",
@@ -403,6 +441,21 @@
       ],
       "_origin_file": "guardian_events_2026-01-17_2026-01-23.json",
       "_origin_index": 107
+    },
+    {
+      "source_key": "guardian",
+      "date": "2026-01-18",
+      "category": "Law Enforcement & Surveillance",
+      "title": "ICE conducts immigration raid in St. Paul, Minnesota",
+      "url": "https://www.theguardian.com/us-news/2026/feb/28/liberty-vans-ice-immigrants",
+      "summary": "On January 18, 2026, ICE agents, along with other law enforcement officers, conducted an immigration raid at a home in St. Paul, Minnesota. This raid occurred shortly after an ICE agent fatally shot Renee Nicole Good. The raid is part of a series of intensified ICE operations across the United States, which have been met with increasing public scrutiny and criticism. The actions of ICE have sparked protests and mobilization efforts by various groups aiming to document and resist these enforcement tactics.",
+      "why_relevant": "This event highlights the ongoing and controversial enforcement actions by ICE, which have significant implications for immigrant communities and civil liberties in the United States.",
+      "attacks": [
+        "immigrants_refugees",
+        "rule_of_law"
+      ],
+      "_origin_file": "guardian_events_2026-02-27_2026-03-01.json",
+      "_origin_index": 2
     },
     {
       "source_key": "guardian",
@@ -739,21 +792,6 @@
       "_origin_index": 89
     },
     {
-      "source_key": "50501",
-      "date": "2026-01-19",
-      "category": "Judicial Developments",
-      "title": "Federal Judge Restricts Immigration Agent Tactics in Minnesota",
-      "url": "https://www.reuters.com",
-      "summary": "A federal judge in Minnesota has issued an injunction limiting the actions of immigration agents against peaceful protesters and legal observers. The order prohibits the use of force, including pepper spray, unless there is reasonable suspicion of criminal activity. This legal development comes amid heightened tensions in Minnesota, where federal immigration enforcement has been a contentious issue. The injunction aims to protect the rights of nonviolent demonstrators and maintain public order during protests.",
-      "why_relevant": "The injunction serves as a judicial check on federal enforcement practices, safeguarding the rights of peaceful protesters and reinforcing legal protections for civil demonstrations.",
-      "attacks": [
-        "law_enforcement",
-        "rule_of_law"
-      ],
-      "_origin_file": "50501_events_2026-01-17_2026-01-23.json",
-      "_origin_index": 17
-    },
-    {
       "source_key": "guardian",
       "date": "2026-01-19",
       "category": "Judicial Developments",
@@ -795,6 +833,42 @@
       ],
       "_origin_file": "guardian_events_2026-01-17_2026-01-23.json",
       "_origin_index": 96
+    },
+    {
+      "source_key": "justsecurity",
+      "date": "2026-01-19",
+      "category": "Judicial Developments",
+      "title": "Neguse v. U.S. Immigration and Customs Enforcement (D.D.C.) 1:25-cv-02463 — The court denied Plaintiffs' motion for an order to show cause “only because it is not the proper avenue to challenge Defendant's January 8, 2026 memorandum and…",
+      "url": "https://www.courtlistener.com/docket/70964222/neguse-v-us-immigration-and-customs-enforcement",
+      "summary": "The court denied Plaintiffs' motion for an order to show cause “only because it is not the proper avenue to challenge Defendant's January 8, 2026 memorandum and the policy stated therein,” holding that DHS' new seven-day notice policy for members of Congress is a new agency action outside the scope of the court's prior stay and must be challenged through amended or supplemental pleadings.",
+      "why_relevant": "This tracker update marks a concrete litigation development in an ongoing legal challenge. Court: D.D.C.. Docket: 1:25-cv-02463.",
+      "attacks": [],
+      "_origin_file": "justsecurity_events_2026-01-01_2026-03-20.json",
+      "_origin_index": 296
+    },
+    {
+      "source_key": "justsecurity",
+      "date": "2026-01-19",
+      "category": "Judicial Developments",
+      "title": "Tincher v. Noem (D. Minn.) 0:25-cv-04669 — Defendants appealed to the Eight Circuit.",
+      "url": "https://www.courtlistener.com/docket/72047643/tincher-v-noem",
+      "summary": "Defendants appealed to the Eight Circuit.",
+      "why_relevant": "This tracker update marks a concrete litigation development in an ongoing legal challenge. Court: D. Minn.. Docket: 0:25-cv-04669.",
+      "attacks": [],
+      "_origin_file": "justsecurity_events_2026-01-01_2026-03-20.json",
+      "_origin_index": 29
+    },
+    {
+      "source_key": "justsecurity",
+      "date": "2026-01-19",
+      "category": "Judicial Developments",
+      "title": "Wright v. Noem (D.D.C.) 1:26-cv-00144 — Case filed",
+      "url": "https://www.courtlistener.com/docket/72158550/wright-v-noem",
+      "summary": "Case filed On January 19, 2026 Brandon Wright, a former civil servant and employee of the Department of Homeland Security (DHS) filed suit against the DHS and an unknown woman, defendant Doe, alleging that his employment was unlawfully terminated after he was filmed criticizing the agency’s head, Kristi Noem, during a date with Doe. The complaint states that defendant Doe was working for compensation and/or in conjunction with a conservative media group and during their date, without his knowledge or consent, recorded him making negative comments about the DHS and Noem. After the recordings spread online, Wright was placed on administrative leave in January 2025 and then fired on Jan 8, 2026 due to the stated reason that he had made statements that were “disrespectful and unprofessional, and unbecoming of a federal employee.” The complaint alleges that the termination is a violation of the First Amendment as retaliation for protected speech and the Fifth Amendment due process clause as he was unable to obtain an objective review of his termination due to the non-functioning of the Merit Systems Protection Board (MSPB) as an independent agency. He seeks a declaration that the termination was unconstitutional and that the MSPB does not have the ability to adjudicate his claims. Mr. Wright separately seeks relief against Defendant Doe for fraudulent misrepresentation, conspiracy to commit fraudulent misrepresentation, tortious interference with employment relationship, and violation of state and federal wire tap laws.",
+      "why_relevant": "A new legal challenge was filed against a Trump administration action. Court: D.D.C.. Docket: 1:26-cv-00144.",
+      "attacks": [],
+      "_origin_file": "justsecurity_events_2026-01-01_2026-03-20.json",
+      "_origin_index": 40
     },
     {
       "source_key": "50501",
@@ -967,11 +1041,11 @@
       "category": "Executive Actions & Orders",
       "title": "Executive Order: Stopping Wall Street From Competing With Main Street Homebuyers",
       "url": "https://ballotpedia.org/Executive_Order:_Stopping_Wall_Street_From_Competing_With_Main_Street_Homebuyers_(Donald_Trump,_2026)",
-      "summary": "On January 20, 2026, President Donald Trump issued an executive order aimed at preventing large institutional investors from purchasing single-family homes that could otherwise be bought by individual families. The order directs various federal departments and agencies to issue guidance to restrict the sale of single-family homes to large investors and promote sales to individual owner-occupants. It also mandates the development of definitions for \"large institutional investor\" and \"single-family home\" and calls for legislative recommendations to codify these policies.",
-      "why_relevant": "This executive order seeks to address housing market dynamics by limiting the influence of large investors, thereby potentially increasing homeownership opportunities for individual families.",
+      "summary": "On January 20, 2026, President Donald Trump issued an executive order aimed at preventing large institutional investors from purchasing single-family homes that could otherwise be bought by individual families. The order directs various federal agencies to issue guidance to restrict the sale of single-family homes to these investors and promote sales to individual owner-occupants. It also mandates the development of definitions for \"large institutional investor\" and \"single-family home\" and calls for legislative recommendations to codify these policies. The order seeks to preserve homeownership opportunities for American families and combat speculation in the housing market.",
+      "why_relevant": "This executive order impacts the housing market by attempting to limit the influence of large investors, thereby potentially increasing homeownership opportunities for individual families.",
       "attacks": [],
-      "_origin_file": "orders_events_2026-01-17_2026-01-23.json",
-      "_origin_index": 0
+      "_origin_file": "orders_events_2025-01-20_2026-02-01.json",
+      "_origin_index": 5
     },
     {
       "source_key": "guardian",
@@ -1046,6 +1120,42 @@
       ],
       "_origin_file": "guardian_events_2026-01-17_2026-01-23.json",
       "_origin_index": 61
+    },
+    {
+      "source_key": "justsecurity",
+      "date": "2026-01-20",
+      "category": "Judicial Developments",
+      "title": "American Oversight v. IRS, et al (D.D.C.) 1:25-cv-01585 — American Oversight and the IRS filed a joint status report that provided an update on the IRS's progress in responding to American Oversight's FOIA requests and…",
+      "url": "https://www.courtlistener.com/docket/70308608/american-oversight-v-internal-revenue-service",
+      "summary": "American Oversight and the IRS filed a joint status report that provided an update on the IRS's progress in responding to American Oversight's FOIA requests and notes that part 5 of Plaintiff's FOIA request had been dismissed by the court at a status conference held on Dec. 17, 2025.",
+      "why_relevant": "This tracker update marks a concrete litigation development in an ongoing legal challenge. Court: D.D.C.. Docket: 1:25-cv-01585.",
+      "attacks": [],
+      "_origin_file": "justsecurity_events_2026-01-01_2026-03-20.json",
+      "_origin_index": 379
+    },
+    {
+      "source_key": "justsecurity",
+      "date": "2026-01-20",
+      "category": "Judicial Developments",
+      "title": "County of Santa Clara v. Noem (N.D. Cal.) 3:25-cv-08330 — Defendants appealed to the Ninth Circuit.",
+      "url": "https://www.courtlistener.com/docket/71508891/county-of-santa-clara-v-noem",
+      "summary": "Defendants appealed to the Ninth Circuit.",
+      "why_relevant": "This tracker update marks a concrete litigation development in an ongoing legal challenge. Court: N.D. Cal.. Docket: 3:25-cv-08330.",
+      "attacks": [],
+      "_origin_file": "justsecurity_events_2026-01-01_2026-03-20.json",
+      "_origin_index": 175
+    },
+    {
+      "source_key": "justsecurity",
+      "date": "2026-01-20",
+      "category": "Judicial Developments",
+      "title": "County of Santa Clara v. Noem (N.D. Cal.) 3:25-cv-08330 — Judge Orrick denied the government's motion to dismiss.",
+      "url": "https://www.courtlistener.com/docket/71508891/county-of-santa-clara-v-noem",
+      "summary": "Judge Orrick denied the government's motion to dismiss.",
+      "why_relevant": "This tracker update marks a concrete litigation development in an ongoing legal challenge. Court: N.D. Cal.. Docket: 3:25-cv-08330.",
+      "attacks": [],
+      "_origin_file": "justsecurity_events_2026-01-01_2026-03-20.json",
+      "_origin_index": 176
     },
     {
       "source_key": "guardian",
@@ -1141,6 +1251,21 @@
       ],
       "_origin_file": "guardian_events_2026-01-17_2026-01-23.json",
       "_origin_index": 81
+    },
+    {
+      "source_key": "popinfo",
+      "date": "2026-01-20",
+      "category": "Law Enforcement & Surveillance",
+      "title": "ICE has stopped paying for detainee medical treatment",
+      "url": "https://popular.info/p/whats-next",
+      "summary": "According to a report by Popular Information, the U.S. Immigration and Customs Enforcement (ICE) has ceased funding medical treatment for detainees. This decision could have severe implications for the health and well-being of individuals in detention, potentially violating their rights and raising ethical concerns about the treatment of detainees. The cessation of medical funding may lead to increased scrutiny and criticism of ICE's policies and practices.",
+      "why_relevant": "The decision to stop funding medical treatment for detainees impacts human rights and the ethical obligations of law enforcement agencies.",
+      "attacks": [
+        "immigrants_refugees",
+        "sick_vulnerable"
+      ],
+      "_origin_file": "popinfo_events_2026-02-02_2026-02-06.json",
+      "_origin_index": 3
     },
     {
       "source_key": "guardian",
@@ -1825,6 +1950,21 @@
       "_origin_index": 24
     },
     {
+      "source_key": "50501",
+      "date": "2026-01-21",
+      "category": "Executive Actions & Orders",
+      "title": "DHS Rescinds Guidance on Immigration Enforcement Near Schools",
+      "url": "https://www.the50501movement.org/p/will-my-family-still-be-here-when",
+      "summary": "On January 21, 2025, the U.S. Department of Homeland Security announced the rescission of prior guidance that limited immigration enforcement actions in or near \"protected areas,\" including schools. This change means that schools are no longer treated as uniquely buffered spaces in federal guidance, potentially increasing the presence of immigration enforcement activities near educational institutions. The announcement has raised concerns about the impact on students from immigrant families and their sense of safety and belonging.",
+      "why_relevant": "The removal of protections for schools as safe zones may increase fear and absenteeism among students from immigrant families, affecting their education and well-being.",
+      "attacks": [
+        "immigrants_refugees",
+        "education"
+      ],
+      "_origin_file": "50501_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 0
+    },
+    {
       "source_key": "hcr",
       "date": "2026-01-21",
       "category": "Executive Actions & Orders",
@@ -1958,6 +2098,102 @@
       ],
       "_origin_file": "guardian_events_2026-01-17_2026-01-23.json",
       "_origin_index": 56
+    },
+    {
+      "source_key": "justsecurity",
+      "date": "2026-01-21",
+      "category": "Judicial Developments",
+      "title": "City and County of San Francisco v. United States Department of Justice (N.D. Cal.) 3:25-cv-09277 — Judge James Donato granted a preliminary injunction against Defendants, enjoining them from (1) imposing or enforcing the Challenged Conditions for the COPS gra…",
+      "url": "https://www.courtlistener.com/docket/71788745/city-and-county-of-san-francisco-v-united-states-department-of-justice",
+      "summary": "Judge James Donato granted a preliminary injunction against Defendants, enjoining them from (1) imposing or enforcing the Challenged Conditions for the COPS grants to Plaintiffs, and (2) withholding or terminating FY25 COPS grant funding on the ground that Plaintiffs did not accept or comply with the Challenged Conditions.",
+      "why_relevant": "This tracker update marks a concrete litigation development in an ongoing legal challenge. Court: N.D. Cal.. Docket: 3:25-cv-09277.",
+      "attacks": [],
+      "_origin_file": "justsecurity_events_2026-01-01_2026-03-20.json",
+      "_origin_index": 153
+    },
+    {
+      "source_key": "justsecurity",
+      "date": "2026-01-21",
+      "category": "Judicial Developments",
+      "title": "Cook v. Trump ( D.D.C.) 1:25-cv-02903 — This case was argued before the Supreme Court.",
+      "url": "https://www.courtlistener.com/docket/71218248/cook-v-trump",
+      "summary": "This case was argued before the Supreme Court.",
+      "why_relevant": "This tracker update marks a concrete litigation development in an ongoing legal challenge. Docket: 1:25-cv-02903.",
+      "attacks": [],
+      "_origin_file": "justsecurity_events_2026-01-01_2026-03-20.json",
+      "_origin_index": 359
+    },
+    {
+      "source_key": "justsecurity",
+      "date": "2026-01-21",
+      "category": "Judicial Developments",
+      "title": "D.A. et al v. Noem et al (D.D.C.) 1:25-cv-03135 — The district court granted Plaintiffs' motion to voluntarily dismiss the case.",
+      "url": "https://www.courtlistener.com/docket/71323714/da-v-noem",
+      "summary": "The district court granted Plaintiffs' motion to voluntarily dismiss the case.",
+      "why_relevant": "This tracker update marks a concrete litigation development in an ongoing legal challenge. Court: D.D.C.. Docket: 1:25-cv-03135.",
+      "attacks": [],
+      "_origin_file": "justsecurity_events_2026-01-01_2026-03-20.json",
+      "_origin_index": 215
+    },
+    {
+      "source_key": "justsecurity",
+      "date": "2026-01-21",
+      "category": "Judicial Developments",
+      "title": "Maryland Clean Energy Center v. United States (Fed. Cl.) 1:25-cv-01738 — Judge Loren A",
+      "url": "https://www.courtlistener.com/docket/71667491/maryland-clean-energy-center",
+      "summary": "Judge Loren A. Smith granted Defendant's motion to stay the proceedings until April 21, 2026 while Plaintiffs' related action State of Arizona v. EPA , No. 2:25-cv-02015 (W.D. Wash.) proceeds.",
+      "why_relevant": "This tracker update marks a concrete litigation development in an ongoing legal challenge. Court: Fed. Cl.. Docket: 1:25-cv-01738.",
+      "attacks": [],
+      "_origin_file": "justsecurity_events_2026-01-01_2026-03-20.json",
+      "_origin_index": 204
+    },
+    {
+      "source_key": "justsecurity",
+      "date": "2026-01-21",
+      "category": "Judicial Developments",
+      "title": "Smith v. United States Agency for International Development (D.D.C.) 1:26-cv-00183 — Case filed",
+      "url": "https://www.courtlistener.com/docket/72171728/smith-v-united-states-agency-for-international-development",
+      "summary": "Case filed In March 2025, the United States Agency for International Development (USAID) terminated en masse the services of foreign service limited (FSL) employees, a special class of employees hired into critical senior technical roles, with neither pretermination notice nor individualized assessments of their performance and experience. On Jan. 21, 2026, twenty-nine of these former USAID filed a complaint , alleging that their mass terminations were a pretextual, politically motivated and unconstitutional reduction-in-force (RIF). Plaintiffs claim that despite their formal appointment to federal service as employees, legally distinguishing them from contractors, USAID treated plaintiffs like contractors who may be terminated at will and without prior notice or any post-termination recourse to administrative or judicial review. The complaint alleges that the termination was punishment for their perceived ideological affiliation and partisan beliefs, loosely disguised as a RIF. Plaintiffs assert that their terminations violate their constitutional rights including the First Amendment protection against removal based on political affiliation, and Fifth Amendment Due Process protection in USAID following its adopted regulations. Plaintiffs also allege violations of the Administrative Leave Act (ALA), which prevents defendants from placing an employee on administrative leave for more than a total of ten workdays, and the Administrative Procedure Act (APA), contending that the termination was arbitrary and capricious because it was pretextual, detached from any review of Plaintiffs’ individual performance, and without any rational connection between the grounds charged and the interest assertedly served by terminating these employees; contrary to constitutional rights because it violated their First Amendment free speech and association rights as civil servants; and in excess of statutory authority because it violated their rights under the ALA and the Civil Service Reform Act (CSRA) against partisan removal. They also allege that the terminations represent a mala fide RIF, as they were removed “on the basis of misconduct,” disguised as a RIF, but denied their right to a hearing and review under the Foreign Service Act, 22 U.S.C. § 4010. They seek a declaratory judgment that Plaintiffs possess the same rights as career Foreign Service Officers also hired through appointment and not contract and that the terminations were unlawful and unconstitutional, ask the court to enjoin both the terminations and the use of evaluation of partisan affiliation of future applicants for Plaintiffs’ positions, and request an order requiring the defendants to individually evaluate each plaintiff’s performance during their tenure, declare the reasons for terminations, correct their personnel files, and give them an opportunity to be restored to similar positions.",
+      "why_relevant": "A new legal challenge was filed against a Trump administration action. Court: D.D.C.. Docket: 1:26-cv-00183.",
+      "attacks": [],
+      "_origin_file": "justsecurity_events_2026-01-01_2026-03-20.json",
+      "_origin_index": 344
+    },
+    {
+      "source_key": "justsecurity",
+      "date": "2026-01-21",
+      "category": "Judicial Developments",
+      "title": "State of Washington v. United States Department of Commerce (W.D. Wash.) 2:25-cv-01507 — The court terminated the case following Plaintiffs' notice of voluntary dismissal of the case on Jan. 20, 2026.",
+      "url": "https://www.courtlistener.com/docket/71065919/state-of-washington-v-united-states-department-of-commerce",
+      "summary": "The court terminated the case following Plaintiffs' notice of voluntary dismissal of the case on Jan. 20, 2026.",
+      "why_relevant": "This tracker update marks a concrete litigation development in an ongoing legal challenge. Court: W.D. Wash.. Docket: 2:25-cv-01507.",
+      "attacks": [],
+      "_origin_file": "justsecurity_events_2026-01-01_2026-03-20.json",
+      "_origin_index": 143
+    },
+    {
+      "source_key": "justsecurity",
+      "date": "2026-01-21",
+      "category": "Judicial Developments",
+      "title": "The Board of Education of The City School District of The City of New York v. United States Department of Education (S.D.N.Y.) 1:25-cv-08547 — The attorneys general of 18 states filed an amicus brief in opposition to Plaintiff's motion for summary judgment and in support of Defendants' motion to dismis…",
+      "url": "https://www.courtlistener.com/docket/71659617/the-board-of-education-of-the-city-school-district-of-the-city-of-new-york",
+      "summary": "The attorneys general of 18 states filed an amicus brief in opposition to Plaintiff's motion for summary judgment and in support of Defendants' motion to dismiss.",
+      "why_relevant": "This tracker update marks a concrete litigation development in an ongoing legal challenge. Court: S.D.N.Y.. Docket: 1:25-cv-08547.",
+      "attacks": [],
+      "_origin_file": "justsecurity_events_2026-01-01_2026-03-20.json",
+      "_origin_index": 146
+    },
+    {
+      "source_key": "justsecurity",
+      "date": "2026-01-21",
+      "category": "Judicial Developments",
+      "title": "Tincher v. Noem (D. Minn.) 0:25-cv-04669 — The Eighth Circuit issued an administrative stay of Judge Menendez's preliminary injunction, temporarily lifting the restrictions on ICE's use of force against…",
+      "url": "https://www.courtlistener.com/docket/72047643/tincher-v-noem",
+      "summary": "The Eighth Circuit issued an administrative stay of Judge Menendez's preliminary injunction, temporarily lifting the restrictions on ICE's use of force against protesters.",
+      "why_relevant": "This tracker update marks a concrete litigation development in an ongoing legal challenge. Court: D. Minn.. Docket: 0:25-cv-04669.",
+      "attacks": [],
+      "_origin_file": "justsecurity_events_2026-01-01_2026-03-20.json",
+      "_origin_index": 30
     },
     {
       "source_key": "guardian",
@@ -2631,6 +2867,42 @@
       "_origin_index": 29
     },
     {
+      "source_key": "justsecurity",
+      "date": "2026-01-22",
+      "category": "Judicial Developments",
+      "title": "American Oversight v. Transportation Security Administration (D.D.C.) 1:26-cv-00193 — Case filed",
+      "url": "https://www.courtlistener.com/docket/72173839/american-oversight-v-transportation-security-administration",
+      "summary": "Case filed In March 2025, Immigration and Customs Enforcement (ICE) and the Transportation Security Administration (TSA) entered into a partnership which included sharing the names and birth dates of airline passengers. On Dec. 19, 2025, Plaintiff American Oversight (AO), a not-for-profit organization that promotes government transparency, filed Freedom of Information Act (FOIA), 5 U.S.C. § 552, requests with TSA and ICE seeking records regarding TSA’s sharing of data with ICE for immigration enforcement purposes at U.S. airports. AO’s requests were allegedly denied by TSA and ICE. On Jan. 22, 2026, AO filed a complaint alleging violations of FOIA for failure to conduct adequate searches for responsive records, wrongful withholding of non-exempt responsive records, and failure to grant expedited processing of its request. AO requests that the court order TSA and ICE to search for and produce to AO all records responsive to the FOIA requests that are not exempt from production under FOIA. regarding data sharing between the two agencies, primarily to search for and produce to Plaintiff all records responsive to the FOIA requests that are not exempt from production under FOIA.",
+      "why_relevant": "A new legal challenge was filed against a Trump administration action. Court: D.D.C.. Docket: 1:26-cv-00193.",
+      "attacks": [],
+      "_origin_file": "justsecurity_events_2026-01-01_2026-03-20.json",
+      "_origin_index": 404
+    },
+    {
+      "source_key": "justsecurity",
+      "date": "2026-01-22",
+      "category": "Judicial Developments",
+      "title": "Chicago Headline Club v. Noem (N.D. Ill.) 1:25-cv-12173 — Judge Ellis decertified the class and granted Plaintiffs' motion to dismiss, terminating the case on the basis that it was closely related to another case pendi…",
+      "url": "https://www.courtlistener.com/docket/71559589/chicago-headline-club-v-noem",
+      "summary": "Judge Ellis decertified the class and granted Plaintiffs' motion to dismiss, terminating the case on the basis that it was closely related to another case pending before Judge Alexakis on the same court.",
+      "why_relevant": "This tracker update marks a concrete litigation development in an ongoing legal challenge. Court: N.D. Ill.. Docket: 1:25-cv-12173.",
+      "attacks": [],
+      "_origin_file": "justsecurity_events_2026-01-01_2026-03-20.json",
+      "_origin_index": 11
+    },
+    {
+      "source_key": "justsecurity",
+      "date": "2026-01-22",
+      "category": "Judicial Developments",
+      "title": "State of Washington v. United States Department of Education (W.D. Wash.) 2:25-cv-01228 — Judge Evanson granted Defendants' motion to amend the Dec. 19 judgment",
+      "url": "https://www.courtlistener.com/docket/70679500/state-of-washington-v-united-states-department-of-education",
+      "summary": "Judge Evanson granted Defendants' motion to amend the Dec. 19 judgment. This new judgment orders Defendants to issue new continuation determinations no later than Feb. 6, 2026, and to issue any new continuation awards no later than Feb. 11, 2026, backdated to Feb. 6, 2026, to avoid a gap in funding. In the same order, Judge Evanson denied Plaintiffs' motion to enforce the summary judgment orders.",
+      "why_relevant": "This tracker update marks a concrete litigation development in an ongoing legal challenge. Court: W.D. Wash.. Docket: 2:25-cv-01228.",
+      "attacks": [],
+      "_origin_file": "justsecurity_events_2026-01-01_2026-03-20.json",
+      "_origin_index": 138
+    },
+    {
       "source_key": "meidas",
       "date": "2026-01-22",
       "category": "Judicial Developments",
@@ -2951,6 +3223,18 @@
       ],
       "_origin_file": "popinfo_events_2026-01-17_2026-01-23.json",
       "_origin_index": 2
+    },
+    {
+      "source_key": "guardian",
+      "date": "2026-01-22",
+      "category": "Elections & Representation",
+      "title": "Amy Klobuchar files paperwork to run for Minnesota governor",
+      "url": "https://www.theguardian.com/us-news/2026/jan/29/amy-klobuchar-minnesota-governor-campaign",
+      "summary": "Amy Klobuchar, a Democratic US senator and former presidential candidate, filed initial paperwork on January 22, 2026, to run for governor of Minnesota. This move follows the announcement by the incumbent governor, Tim Walz, that he would not seek a third term. Klobuchar's candidacy is expected to focus on issues such as political violence and immigration enforcement tactics in the state, as well as addressing public fraud scandals.",
+      "why_relevant": "Klobuchar's entry into the gubernatorial race could influence the political landscape in Minnesota, particularly in relation to immigration policies and public accountability.",
+      "attacks": [],
+      "_origin_file": "guardian_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 100
     },
     {
       "source_key": "50501",
@@ -3308,6 +3592,18 @@
       "_origin_index": 0
     },
     {
+      "source_key": "orders",
+      "date": "2026-01-23",
+      "category": "Executive Actions & Orders",
+      "title": "Continuance of the Federal Emergency Management Agency Review Council",
+      "url": "https://ballotpedia.org/Executive_Order:_Continuance_of_the_Federal_Emergency_Management_Agency_Review_Council_(Donald_Trump,_2026)",
+      "summary": "On January 23, 2026, President Donald Trump issued an executive order to continue the Federal Emergency Management Agency (FEMA) Review Council until March 25, 2026. This order extends the council's mandate, originally established by Executive Order 14180 on January 24, 2025. The Secretary of Homeland Security is tasked with performing the President's functions under the Federal Advisory Committee Act as they apply to the council. The order is effective from January 24, 2026, and is to be implemented in accordance with applicable laws and budgetary constraints.",
+      "why_relevant": "This executive order demonstrates the administration's ongoing commitment to overseeing and potentially reforming FEMA's operations, which is crucial for effective disaster management and response.",
+      "attacks": [],
+      "_origin_file": "orders_events_2025-01-20_2026-02-01.json",
+      "_origin_index": 4
+    },
+    {
       "source_key": "guardian",
       "date": "2026-01-23",
       "category": "Legislative & Oversight Activity",
@@ -3435,6 +3731,126 @@
       ],
       "_origin_file": "hcr_events_2026-01-17_2026-01-23.json",
       "_origin_index": 2
+    },
+    {
+      "source_key": "justsecurity",
+      "date": "2026-01-23",
+      "category": "Judicial Developments",
+      "title": "American Federation of State, County & Municipal Employees, AFL-CIO v. U.S. Department of Health and Human Services (N.D. Cal.) 3:26-cv-00759 — Case filed",
+      "url": "https://www.courtlistener.com/docket/72184130/american-federation-of-state-county-municipal-employees-afl-cio-v-us",
+      "summary": "Case filed On Jan. 6, 2026, the Administration for Children and Families (ACF), Assistant Secretary Alex J. Adams of the U.S. Department of Health and Human Services (HHS), and Secretary Robert F. Kennedy, Jr of HHS (the Defendants) froze $10 billion in federal funding for social services and child care programs in the states of New York, Illinois, California, Colorado, and Minnesota. On Jan. 23, 2026, Plaintiffs, two national union organizations (AFL-CIO and SEIU) and other labor unions, filed a complaint seeking to block the freezing of funds. Plaintiffs argue that the freeze is unauthorized, exceeds statutory authority, is arbitrary and capricious under the Administrative Procedure Act, constitutes viewpoint discrimination and unconstitutional retaliation for “actual or assumed” political expression in violation of the First Amendment, and is a violation of equal protection under the Fifth Amendment. Plaintiffs argue that Defendants have no statutory or regulatory authority to unilaterally impose a funding freeze and that congressional direction and implementing regulations forbid HHS from unilaterally deciding to terminate subsidies under these programs. Plaintiffs argue that Defendants cannot circumvent these legislative and regulatory constraints by withholding all funding to the targeted states and their residents until those states comply with demands for information. Plaintiffs ask the court to declare that the funding freeze exceeds the agencies’ statutory authority, is contrary to law, is arbitrary and capricious, violates the Administrative Procedure Act, and is unconstitutional. Plaintiffs also ask the court vacate the funding freeze and any and all actions taken pursuant to it, to temporarily and permanently block Defendants from implementing the freeze, and to prevent Defendants from effectuating any similar policy under a different name.",
+      "why_relevant": "A new legal challenge was filed against a Trump administration action. Court: N.D. Cal.. Docket: 3:26-cv-00759.",
+      "attacks": [],
+      "_origin_file": "justsecurity_events_2026-01-01_2026-03-20.json",
+      "_origin_index": 122
+    },
+    {
+      "source_key": "justsecurity",
+      "date": "2026-01-23",
+      "category": "Judicial Developments",
+      "title": "Freedom Network, USA v. Trump (N.D. Ill.) 1:25-cv-12419 — Plaintiffs' preliminary injunction motion was terminated as moot based on the anticipated filing of an amended complaint.",
+      "url": "https://www.courtlistener.com/docket/71610372/freedom-network-usa-v-president-donald-j-trump",
+      "summary": "Plaintiffs' preliminary injunction motion was terminated as moot based on the anticipated filing of an amended complaint.",
+      "why_relevant": "This tracker update marks a concrete litigation development in an ongoing legal challenge. Court: N.D. Ill.. Docket: 1:25-cv-12419.",
+      "attacks": [],
+      "_origin_file": "justsecurity_events_2026-01-01_2026-03-20.json",
+      "_origin_index": 145
+    },
+    {
+      "source_key": "justsecurity",
+      "date": "2026-01-23",
+      "category": "Judicial Developments",
+      "title": "Global Nurse Force v. Trump (N.D. Cal.) 4:25-cv-08454 — One plaintiff voluntarily dismissed her claims without prejudice while leaving other plaintiffs' claims intact.",
+      "url": "https://www.courtlistener.com/docket/71541425/global-nurse-force-v-trump",
+      "summary": "One plaintiff voluntarily dismissed her claims without prejudice while leaving other plaintiffs' claims intact.",
+      "why_relevant": "This tracker update marks a concrete litigation development in an ongoing legal challenge. Court: N.D. Cal.. Docket: 4:25-cv-08454.",
+      "attacks": [],
+      "_origin_file": "justsecurity_events_2026-01-01_2026-03-20.json",
+      "_origin_index": 220
+    },
+    {
+      "source_key": "justsecurity",
+      "date": "2026-01-23",
+      "category": "Judicial Developments",
+      "title": "Ramirez Ovando v. Noem (D. Colo.) 1:25-cv-03183 — Defendants appealed the Nov. 25 order to the Tenth Circuit.",
+      "url": "https://www.courtlistener.com/docket/71592542/ramirez-ovando-v-noem",
+      "summary": "Defendants appealed the Nov. 25 order to the Tenth Circuit.",
+      "why_relevant": "This tracker update marks a concrete litigation development in an ongoing legal challenge. Court: D. Colo.. Docket: 1:25-cv-03183.",
+      "attacks": [],
+      "_origin_file": "justsecurity_events_2026-01-01_2026-03-20.json",
+      "_origin_index": 270
+    },
+    {
+      "source_key": "justsecurity",
+      "date": "2026-01-23",
+      "category": "Judicial Developments",
+      "title": "State of California v. Pipeline and Hazardous Materials Safety Administration (9th Cir.) 26-508 — Case filed",
+      "url": "https://www.courtlistener.com/docket/72241676/state-of-california-v-pipeline-and-hazardous-materials-safety",
+      "summary": "Case filed Coming soon. On Jan. 23, 2026, California sued the Pipeline and Hazardous Materials Safety Administration (PHMSA) in the Ninth Circuit, challenging federal orders that reclassified two California onshore oil pipelines as “interstate” and approved their restart.",
+      "why_relevant": "A new legal challenge was filed against a Trump administration action. Court: 9th Cir.. Docket: 26-508.",
+      "attacks": [],
+      "_origin_file": "justsecurity_events_2026-01-01_2026-03-20.json",
+      "_origin_index": 105
+    },
+    {
+      "source_key": "justsecurity",
+      "date": "2026-01-23",
+      "category": "Judicial Developments",
+      "title": "State of California v. United States of America (N.D. Ca.) 4:25-cv-04966 — Several trade groups appealed the district court's Dec. 2, 2025 ruling to the Ninth Circuit.",
+      "url": "https://www.courtlistener.com/docket/70522333/state-of-california-v-united-states-of-america",
+      "summary": "Several trade groups appealed the district court's Dec. 2, 2025 ruling to the Ninth Circuit.",
+      "why_relevant": "This tracker update marks a concrete litigation development in an ongoing legal challenge. Court: N.D. Ca.. Docket: 4:25-cv-04966.",
+      "attacks": [],
+      "_origin_file": "justsecurity_events_2026-01-01_2026-03-20.json",
+      "_origin_index": 106
+    },
+    {
+      "source_key": "justsecurity",
+      "date": "2026-01-23",
+      "category": "Judicial Developments",
+      "title": "State of New York v. Administration for Children and Families (S.D.N.Y.) 1:26-cv-00172 — Judge Broderick extended the TRO until Feb. 6, 2026.",
+      "url": "https://www.courtlistener.com/docket/72123419/state-of-new-york-v-administration-for-children-and-families",
+      "summary": "Judge Broderick extended the TRO until Feb. 6, 2026.",
+      "why_relevant": "This tracker update marks a concrete litigation development in an ongoing legal challenge. Court: S.D.N.Y.. Docket: 1:26-cv-00172.",
+      "attacks": [],
+      "_origin_file": "justsecurity_events_2026-01-01_2026-03-20.json",
+      "_origin_index": 165
+    },
+    {
+      "source_key": "justsecurity",
+      "date": "2026-01-23",
+      "category": "Judicial Developments",
+      "title": "State of New York v. Burgum (D.D.C.) 1:26-cv-00072 — The court consolidated State of New York v. Burgum (D.D.C), 1:26-cv-00072 and Sunrise Wind LLC v. Burgum (D.D.C.) 1:26-cv-00028",
+      "url": "https://www.courtlistener.com/docket/72126847/state-of-new-york-v-burgum",
+      "summary": "The court consolidated State of New York v. Burgum (D.D.C), 1:26-cv-00072 and Sunrise Wind LLC v. Burgum (D.D.C.) 1:26-cv-00028. These cases will proceed under Sunrise Wind LLC v. Burgum .",
+      "why_relevant": "This tracker update marks a concrete litigation development in an ongoing legal challenge. Court: D.D.C.. Docket: 1:26-cv-00072.",
+      "attacks": [],
+      "_origin_file": "justsecurity_events_2026-01-01_2026-03-20.json",
+      "_origin_index": 95
+    },
+    {
+      "source_key": "justsecurity",
+      "date": "2026-01-23",
+      "category": "Judicial Developments",
+      "title": "State of Washington v. United States Department of Education (W.D. Wash.) 2:25-cv-01228 — Defendants appealed Judge Evanson's Jan. 22 order to the Ninth Circuit.",
+      "url": "https://www.courtlistener.com/docket/70679500/state-of-washington-v-united-states-department-of-education",
+      "summary": "Defendants appealed Judge Evanson's Jan. 22 order to the Ninth Circuit.",
+      "why_relevant": "This tracker update marks a concrete litigation development in an ongoing legal challenge. Court: W.D. Wash.. Docket: 2:25-cv-01228.",
+      "attacks": [],
+      "_origin_file": "justsecurity_events_2026-01-01_2026-03-20.json",
+      "_origin_index": 139
+    },
+    {
+      "source_key": "justsecurity",
+      "date": "2026-01-23",
+      "category": "Judicial Developments",
+      "title": "Sunrise Wind LLC v. Burgum (D.D.C.) 1:26-cv-00028 — The court consolidated State of New York v. Burgum (D.D.C), 1:26-cv-00072 and Sunrise Wind LLC v. Burgum (D.D.C.), 1:26-cv-00028",
+      "url": "https://www.courtlistener.com/docket/72111814/sunrise-wind-llc-v-burgum",
+      "summary": "The court consolidated State of New York v. Burgum (D.D.C), 1:26-cv-00072 and Sunrise Wind LLC v. Burgum (D.D.C.), 1:26-cv-00028. These cases will proceed under Sunrise Wind LLC v. Burgum .",
+      "why_relevant": "This tracker update marks a concrete litigation development in an ongoing legal challenge. Court: D.D.C.. Docket: 1:26-cv-00028.",
+      "attacks": [],
+      "_origin_file": "justsecurity_events_2026-01-01_2026-03-20.json",
+      "_origin_index": 93
     },
     {
       "source_key": "50501",
@@ -3570,6 +3986,36 @@
       "attacks": [],
       "_origin_file": "50501_events_2026-01-17_2026-01-23.json",
       "_origin_index": 0
+    },
+    {
+      "source_key": "50501",
+      "date": "2026-01-23",
+      "category": "Civil Society & Protest",
+      "title": "Viral Video of Xenophobic Slurs in Iowa",
+      "url": "https://www.the50501movement.org/p/will-my-family-still-be-here-when",
+      "summary": "In late January 2026, a viral video documented a boy in Iowa describing xenophobic slurs from other children after a youth soccer tournament. The facility where the incident occurred has opened an investigation. This incident highlights the spillover of immigration-related tensions into peer interactions among children, contributing to a hostile environment for students from immigrant backgrounds.",
+      "why_relevant": "The use of xenophobic language among children reflects broader societal tensions and can contribute to a climate of fear and exclusion in schools.",
+      "attacks": [
+        "immigrants_refugees",
+        "education"
+      ],
+      "_origin_file": "50501_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 4
+    },
+    {
+      "source_key": "guardian",
+      "date": "2026-01-23",
+      "category": "Civil Society & Protest",
+      "title": "Economic blackout and rally in Minnesota",
+      "url": "https://www.theguardian.com/us-news/2026/feb/01/minnesota-twin-cities-ice-protests",
+      "summary": "On January 23, 2026, Minnesota residents participated in an economic blackout and rally to protest against ICE's presence and actions in the state. The event, organized by local unions and community groups, involved people calling out of work, not spending money, and closing businesses to demonstrate against the federal immigration enforcement surge. The protest aimed to show solidarity with immigrant communities and pressure the federal government to cease its aggressive deportation tactics.",
+      "why_relevant": "The economic blackout and rally represent a collective action by citizens to oppose federal immigration policies, showcasing the power of organized civil resistance.",
+      "attacks": [
+        "immigrants_refugees",
+        "public_service"
+      ],
+      "_origin_file": "guardian_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 49
     },
     {
       "source_key": "guardian",

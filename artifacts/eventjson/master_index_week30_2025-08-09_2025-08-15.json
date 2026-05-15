@@ -5,55 +5,54 @@
   },
   "week_number": 30,
   "sources": [
-    "democracydocket",
-    "outloud",
-    "guardian",
     "noah",
-    "popinfo",
-    "federalregister",
-    "orders",
-    "hcr",
     "zeteo",
-    "congress"
+    "guardian",
+    "popinfo",
+    "outloud",
+    "congress",
+    "hcr",
+    "orders",
+    "democracydocket",
+    "federalregister"
   ],
   "counts": {
-    "total": 316,
+    "total": 178,
     "by_date": {
-      "2025-08-09": 33,
-      "2025-08-10": 18,
-      "2025-08-11": 64,
-      "2025-08-12": 31,
-      "2025-08-13": 48,
-      "2025-08-14": 57,
-      "2025-08-15": 65
+      "2025-08-09": 11,
+      "2025-08-10": 10,
+      "2025-08-11": 36,
+      "2025-08-12": 20,
+      "2025-08-13": 32,
+      "2025-08-14": 31,
+      "2025-08-15": 38
     },
     "by_source": {
-      "guardian": 113,
-      "zeteo": 22,
+      "guardian": 61,
       "democracydocket": 4,
-      "hcr": 51,
-      "outloud": 20,
-      "orders": 10,
+      "zeteo": 10,
+      "hcr": 32,
+      "outloud": 12,
+      "orders": 5,
       "popinfo": 3,
-      "federalregister": 77,
+      "federalregister": 39,
       "noah": 10,
-      "congress": 6
+      "congress": 2
     },
     "by_category": {
-      "Executive Actions & Orders": 39,
-      "Legislative & Oversight Activity": 34,
-      "Judicial Developments": 34,
-      "Law Enforcement & Surveillance": 39,
-      "Information & Media Control": 8,
-      "Economic & Regulatory Power": 80,
-      "Appointments & Patronage": 7,
-      "International Relations": 11,
-      "Civil–Military Relations & State Violence": 24,
-      "Civil Society & Protest": 24,
-      "Elections & Representation": 7,
-      "Transparency & Records": 7,
-      "Public Health & Welfare": 1,
-      "Labor Enforcement & Surveillance": 1
+      "Executive Actions & Orders": 24,
+      "Judicial Developments": 21,
+      "Law Enforcement & Surveillance": 17,
+      "Information & Media Control": 4,
+      "Appointments & Patronage": 5,
+      "International Relations": 7,
+      "Legislative & Oversight Activity": 19,
+      "Civil Society & Protest": 15,
+      "Economic & Regulatory Power": 42,
+      "Elections & Representation": 5,
+      "Transparency & Records": 2,
+      "Civil–Military Relations & State Violence": 16,
+      "Public Health & Welfare": 1
     }
   },
   "events": [
@@ -74,62 +73,6 @@
       "_origin_index": 1084
     },
     {
-      "source_key": "zeteo",
-      "date": "2025-08-09",
-      "category": "Executive Actions & Orders",
-      "title": "Trump announces unconstitutional mid-decade census",
-      "url": "https://zeteo.com/p/this-week-in-democracy-week-29-hunting",
-      "summary": "President Trump announced plans for a new mid-decade census that would not count undocumented immigrants, using results from the 2024 presidential election, which is unconstitutional and likely to face legal challenges.",
-      "why_relevant": "This move threatens the integrity of the census process and could distort representation and resource allocation based on inaccurate population data.",
-      "attacks": [
-        "constitution"
-      ],
-      "_origin_file": "zeteo_events_2025-06-07_2025-08-15.json",
-      "_origin_index": 5
-    },
-    {
-      "source_key": "zeteo",
-      "date": "2025-08-09",
-      "category": "Executive Actions & Orders",
-      "title": "Trump signs memo to collect detailed admissions data from colleges",
-      "url": "https://zeteo.com/p/this-week-in-democracy-week-29-hunting",
-      "summary": "President Trump signed a presidential memo requiring colleges and universities to provide more detailed admissions data to the Education Department, aiming to crack down on affirmative action. This includes data not only for admitted students but also for applicants.",
-      "why_relevant": "This action seeks to undermine affirmative action policies, potentially affecting diversity and equity in higher education admissions.",
-      "attacks": [
-        "education"
-      ],
-      "_origin_file": "zeteo_events_2025-06-07_2025-08-15.json",
-      "_origin_index": 3
-    },
-    {
-      "source_key": "zeteo",
-      "date": "2025-08-09",
-      "category": "Executive Actions & Orders",
-      "title": "Trump threatens federal control of Washington, DC",
-      "url": "https://zeteo.com/p/this-week-in-democracy-week-29-hunting",
-      "summary": "President Trump threatened to have the federal government take control of Washington, DC, if it \"doesn’t get its act together,\" following an incident involving a former employee. He also suggested trying minors charged with violent crimes as adults.",
-      "why_relevant": "This threat to federalize local governance undermines the autonomy of the district and raises concerns about the potential for authoritarian control.",
-      "attacks": [
-        "separation_of_powers"
-      ],
-      "_origin_file": "zeteo_events_2025-06-07_2025-08-15.json",
-      "_origin_index": 6
-    },
-    {
-      "source_key": "zeteo",
-      "date": "2025-08-09",
-      "category": "Legislative & Oversight Activity",
-      "title": "Texas Governor Abbott threatens Democratic lawmakers over redistricting",
-      "url": "https://zeteo.com/p/this-week-in-democracy-week-29-hunting",
-      "summary": "Texas Governor Greg Abbott threatened over 50 Democratic state House members who left the state to block Republicans from passing a mid-decade congressional redistricting map. He accused them of abandoning their elected positions and warned that the attorney general could remove them if they do not return by Monday afternoon. Abbott also alleged that some lawmakers committed felonies by soliciting funds to evade fines.",
-      "why_relevant": "This action represents an attempt to intimidate lawmakers and undermine their ability to perform their duties, impacting democratic representation.",
-      "attacks": [
-        "congress"
-      ],
-      "_origin_file": "zeteo_events_2025-06-07_2025-08-15.json",
-      "_origin_index": 0
-    },
-    {
       "source_key": "democracydocket",
       "date": "2025-08-09",
       "category": "Judicial Developments",
@@ -145,21 +88,6 @@
       "_origin_index": 27
     },
     {
-      "source_key": "guardian",
-      "date": "2025-08-09",
-      "category": "Judicial Developments",
-      "title": "US court vacates contempt order against Trump administration over deportations",
-      "url": "https://www.theguardian.com/us-news/2025/aug/08/court-contempt-order-trump-el-salvador-deportations",
-      "summary": "An appeals court has overturned a district judge's contempt ruling against the Trump administration regarding the deportation of Venezuelans to El Salvador without due process. The ruling came from a divided three-judge panel, which found that the district court's order raised concerns about judicial control over executive functions. The Trump administration had been accused of violating a court order that barred the deportations, which were part of its aggressive anti-immigration agenda. The deportees have since been returned to Venezuela in a prisoner swap.",
-      "why_relevant": "This ruling highlights the tension between judicial authority and executive power, particularly in the context of immigration policy and due process rights.",
-      "attacks": [
-        "immigrants_refugees",
-        "rule_of_law"
-      ],
-      "_origin_file": "guardian_events_2025-06-07_2025-08-15.json",
-      "_origin_index": 53
-    },
-    {
       "source_key": "zeteo",
       "date": "2025-08-09",
       "category": "Judicial Developments",
@@ -170,46 +98,6 @@
       "attacks": [],
       "_origin_file": "zeteo_events_2025-01-20_2025-11-30.json",
       "_origin_index": 477
-    },
-    {
-      "source_key": "zeteo",
-      "date": "2025-08-09",
-      "category": "Judicial Developments",
-      "title": "Federal judge blocks Trump from terminating disaster funding",
-      "url": "https://zeteo.com/p/this-week-in-democracy-week-29-hunting",
-      "summary": "A federal judge blocked the Trump administration from terminating $4 billion in federal funding allocated for natural disaster mitigation projects through FEMA.",
-      "why_relevant": "This ruling reinforces the rule of law by preventing the executive branch from unlawfully withholding funds allocated by Congress.",
-      "attacks": [],
-      "_origin_file": "zeteo_events_2025-06-07_2025-08-15.json",
-      "_origin_index": 7
-    },
-    {
-      "source_key": "zeteo",
-      "date": "2025-08-09",
-      "category": "Judicial Developments",
-      "title": "Texas AG Paxton files lawsuit against House Democrats",
-      "url": "https://zeteo.com/p/this-week-in-democracy-week-29-hunting",
-      "summary": "Texas Attorney General Ken Paxton filed a lawsuit with the state Supreme Court to declare the seats of 13 Texas House Democrats vacant after they failed to meet a return deadline imposed by Governor Abbott.",
-      "why_relevant": "This lawsuit seeks to undermine the legislative process and could disenfranchise voters by removing elected representatives from office.",
-      "attacks": [
-        "congress"
-      ],
-      "_origin_file": "zeteo_events_2025-06-07_2025-08-15.json",
-      "_origin_index": 11
-    },
-    {
-      "source_key": "zeteo",
-      "date": "2025-08-09",
-      "category": "Judicial Developments",
-      "title": "Trump administration seeks to dissolve Flores agreement",
-      "url": "https://zeteo.com/p/this-week-in-democracy-week-29-hunting",
-      "summary": "The Trump administration filed a lawsuit to dissolve the Flores agreement, which restricts how long immigrant children can be held in custody and mandates safe and sanitary conditions.",
-      "why_relevant": "This action threatens the rights and welfare of immigrant children, undermining protections established to ensure their safety and humane treatment.",
-      "attacks": [
-        "children"
-      ],
-      "_origin_file": "zeteo_events_2025-06-07_2025-08-15.json",
-      "_origin_index": 10
     },
     {
       "source_key": "guardian",
@@ -238,89 +126,6 @@
       "_origin_index": 1085
     },
     {
-      "source_key": "guardian",
-      "date": "2025-08-09",
-      "category": "Law Enforcement & Surveillance",
-      "title": "Shooting incident near CDC and Emory University results in deaths",
-      "url": "https://www.theguardian.com/us-news/2025/aug/08/atlanta-police-emory-university-georgia",
-      "summary": "A shooting incident occurred near the Centers for Disease Control and Prevention and Emory University in Atlanta, Georgia, resulting in the deaths of a suspected gunman and a police officer. Law enforcement responded to reports of an active shooter, and while no civilians were injured, bullets struck buildings on the CDC campus. The Atlanta police department, FBI, and Georgia bureau of investigation are conducting an investigation into the incident. Authorities confirmed there is no ongoing threat to the area.",
-      "why_relevant": "The incident highlights concerns about public safety and the response of law enforcement to active shooter situations in educational and federal agency environments.",
-      "attacks": [],
-      "_origin_file": "guardian_events_2025-06-07_2025-08-15.json",
-      "_origin_index": 50
-    },
-    {
-      "source_key": "guardian",
-      "date": "2025-08-09",
-      "category": "Law Enforcement & Surveillance",
-      "title": "Trump Burger owner faces deportation after ICE arrest",
-      "url": "https://www.theguardian.com/us-news/2025/aug/09/trump-burger-ice-arrest",
-      "summary": "Roland Mehrez Beainy, the owner of Trump Burger in Texas, was arrested by Immigration and Customs Enforcement (ICE) on May 16, 2025, for allegedly overstaying his visa. Beainy, who entered the U.S. as a non-immigrant visitor from Lebanon in 2019, is currently in immigration proceedings and has a hearing scheduled for November 18, 2025. He denies the charges against him, claiming they are untrue. The case highlights the administration's commitment to strict immigration enforcement, regardless of an individual's political affiliations.",
-      "why_relevant": "This event underscores the aggressive enforcement of immigration laws under the current administration, impacting individuals regardless of their political support.",
-      "attacks": [
-        "immigrants_refugees"
-      ],
-      "_origin_file": "guardian_events_2025-06-07_2025-08-15.json",
-      "_origin_index": 48
-    },
-    {
-      "source_key": "guardian",
-      "date": "2025-08-09",
-      "category": "Law Enforcement & Surveillance",
-      "title": "Trump orders seven-day crackdown in Washington DC citing ‘violent crime’",
-      "url": "https://www.theguardian.com/us-news/2025/aug/08/trump-violent-crime-crackdown-dc",
-      "summary": "President Trump has ordered a seven-day crackdown on violent crime in Washington DC, mobilizing federal officers to sweep the streets following an attack on a Trump administration figure. This operation, which began on Thursday night, involves multiple federal agencies working alongside local police, despite crime statistics indicating that violent crime in the city has reached a 30-year low. The White House has stated that the operation may be extended if necessary. Concerns have been raised about the potential impact on vulnerable populations, including the homeless.",
-      "why_relevant": "This crackdown raises significant concerns about civil liberties and the treatment of vulnerable populations in the context of law enforcement actions.",
-      "attacks": [
-        "poor",
-        "civil_service"
-      ],
-      "_origin_file": "guardian_events_2025-06-07_2025-08-15.json",
-      "_origin_index": 58
-    },
-    {
-      "source_key": "zeteo",
-      "date": "2025-08-09",
-      "category": "Law Enforcement & Surveillance",
-      "title": "FBI to assist in locating Texas House Democrats",
-      "url": "https://zeteo.com/p/this-week-in-democracy-week-29-hunting",
-      "summary": "Republican Senator John Cornyn announced that FBI Director Kash Patel approved his request for FBI agents to assist state and local law enforcement in locating runaway Texas House Democrats. The legality of this assistance remains unclear.",
-      "why_relevant": "The involvement of federal law enforcement in state legislative matters raises concerns about the misuse of federal power and the integrity of state governance.",
-      "attacks": [
-        "congress"
-      ],
-      "_origin_file": "zeteo_events_2025-06-07_2025-08-15.json",
-      "_origin_index": 2
-    },
-    {
-      "source_key": "zeteo",
-      "date": "2025-08-09",
-      "category": "Law Enforcement & Surveillance",
-      "title": "Texas Governor Abbott orders police to arrest House Democrats",
-      "url": "https://zeteo.com/p/this-week-in-democracy-week-29-hunting",
-      "summary": "Texas Governor Greg Abbott ordered police to find and arrest House Democrats who left the state to block Republican gerrymandering efforts. The state GOP-led House issued arrest warrants, which have no power outside state lines, and Abbott requested the Texas Rangers to investigate the lawmakers for possible crimes, including bribery.",
-      "why_relevant": "This directive to arrest lawmakers who are exercising their legislative rights poses a significant threat to the functioning of democracy and legislative processes.",
-      "attacks": [
-        "congress"
-      ],
-      "_origin_file": "zeteo_events_2025-06-07_2025-08-15.json",
-      "_origin_index": 1
-    },
-    {
-      "source_key": "zeteo",
-      "date": "2025-08-09",
-      "category": "Law Enforcement & Surveillance",
-      "title": "Trump administration separates migrant children from families",
-      "url": "https://zeteo.com/p/this-week-in-democracy-week-29-hunting",
-      "summary": "Reports indicate that the Trump administration has been separating migrant children from their families, with parents given the choice to self-deport with their children or remain in detention while their children are sent to shelters.",
-      "why_relevant": "This practice raises serious ethical concerns and highlights the administration's harsh immigration policies affecting vulnerable populations.",
-      "attacks": [
-        "children"
-      ],
-      "_origin_file": "zeteo_events_2025-06-07_2025-08-15.json",
-      "_origin_index": 9
-    },
-    {
       "source_key": "hcr",
       "date": "2025-08-09",
       "category": "Information & Media Control",
@@ -335,50 +140,6 @@
       "_origin_index": 423
     },
     {
-      "source_key": "hcr",
-      "date": "2025-08-09",
-      "category": "Information & Media Control",
-      "title": "Trump supports release of classified report on Russian interference",
-      "url": "https://heathercoxrichardson.substack.com/p/august-8-2025-friday",
-      "summary": "Director of National Intelligence Tulsi Gabbard declassified and released a highly classified report on Russia's interference in the 2016 U.S. presidential election, which Trump supported despite its reference to sensitive sources and methods. This action appears to be part of a broader effort to reshape the narrative around Russian involvement in the election.",
-      "why_relevant": "The release of this report may serve to distract from ongoing investigations into Trump's connections to Russia and other controversies.",
-      "attacks": [
-        "truth"
-      ],
-      "_origin_file": "hcr_events_2025-06-07_2025-08-15.json",
-      "_origin_index": 25
-    },
-    {
-      "source_key": "zeteo",
-      "date": "2025-08-09",
-      "category": "Information & Media Control",
-      "title": "Trump administration eases criticism of human rights abuses",
-      "url": "https://zeteo.com/p/this-week-in-democracy-week-29-hunting",
-      "summary": "The Trump administration is reportedly scaling back its criticism of human rights violations in El Salvador, Israel, and Russia, according to leaked drafts of the State Department's annual human rights reports.",
-      "why_relevant": "This shift in policy could undermine international human rights standards and diminish accountability for abuses in these countries.",
-      "attacks": [
-        "truth"
-      ],
-      "_origin_file": "zeteo_events_2025-06-07_2025-08-15.json",
-      "_origin_index": 8
-    },
-    {
-      "source_key": "guardian",
-      "date": "2025-08-09",
-      "category": "Economic & Regulatory Power",
-      "title": "White House moves to open Arctic reserve to oil and gas drilling",
-      "url": "https://www.theguardian.com/us-news/2025/aug/09/national-petroleum-reserve-alaska-oil-gas-drilling",
-      "summary": "The Trump administration's plan to expand oil and gas drilling in the National Petroleum Reserve-Alaska (NPR-A) has prompted significant public outcry. The US Bureau of Land Management (BLM) is working to strip protections from this vast tract of land, which is crucial for Arctic wildlife and the subsistence rights of Alaska Natives. The BLM's proposal to roll back protections has received over a quarter of a million public comments, indicating widespread concern over the potential ecological and cultural impacts of increased industrialization in the region.",
-      "why_relevant": "This action threatens the ecological integrity of a vital Arctic ecosystem and undermines the rights of Indigenous communities who rely on the land for subsistence.",
-      "attacks": [
-        "environment",
-        "poor",
-        "minorities"
-      ],
-      "_origin_file": "guardian_events_2025-06-07_2025-08-15.json",
-      "_origin_index": 49
-    },
-    {
       "source_key": "guardian",
       "date": "2025-08-09",
       "category": "Appointments & Patronage",
@@ -389,18 +150,6 @@
       "attacks": [],
       "_origin_file": "guardian_events_2025-01-20_2025-11-30.json",
       "_origin_index": 1082
-    },
-    {
-      "source_key": "guardian",
-      "date": "2025-08-09",
-      "category": "Appointments & Patronage",
-      "title": "Trump nominates Tammy Bruce for deputy UN ambassador",
-      "url": "https://www.theguardian.com/us-news/2025/aug/09/trump-tammy-bruce-deputy-un-ambassador",
-      "summary": "Donald Trump announced the nomination of Tammy Bruce, the current state department spokesperson, as the next US deputy representative to the United Nations. Bruce, who has no prior foreign policy experience, is praised by Trump as a \"Great Patriot\" and is expected to represent the country at the UN. Her confirmation will depend on the Republican-controlled Senate, which is currently stalling the nomination of her superior, Mike Waltz.",
-      "why_relevant": "This nomination reflects the Trump administration's approach to appointing individuals with limited experience in foreign policy to significant diplomatic roles, potentially impacting US international relations.",
-      "attacks": [],
-      "_origin_file": "guardian_events_2025-06-07_2025-08-15.json",
-      "_origin_index": 47
     },
     {
       "source_key": "zeteo",
@@ -435,18 +184,6 @@
       "source_key": "hcr",
       "date": "2025-08-09",
       "category": "International Relations",
-      "title": "Putin awards Order of Lenin to American's mother",
-      "url": "https://heathercoxrichardson.substack.com/p/august-8-2025-friday",
-      "summary": "Russian President Vladimir Putin awarded the Order of Lenin to the mother of Michael Gloss, an American who died fighting for Russia in Ukraine. This gesture, which was passed on through Putin's special envoy, is seen as a provocative move, especially given that Gloss's mother works for the CIA.",
-      "why_relevant": "This award symbolizes a complex interplay of U.S.-Russia relations and highlights the risks associated with American citizens engaging in foreign conflicts.",
-      "attacks": [],
-      "_origin_file": "hcr_events_2025-06-07_2025-08-15.json",
-      "_origin_index": 26
-    },
-    {
-      "source_key": "hcr",
-      "date": "2025-08-09",
-      "category": "International Relations",
       "title": "Trump announces meeting with Putin in Alaska",
       "url": "https://heathercoxrichardson.substack.com/p/august-8-2025-friday",
       "summary": "President Donald Trump announced his intention to meet with Russian President Vladimir Putin on August 15 in Alaska, following a deadline he set for Putin to agree to a ceasefire in the ongoing war in Ukraine. This meeting is controversial as Putin has been indicted for war crimes and is generally unable to travel outside Russia. The meeting is seen as a significant diplomatic gesture that could undermine U.S. policy regarding Ukraine.",
@@ -461,20 +198,6 @@
       "source_key": "hcr",
       "date": "2025-08-09",
       "category": "International Relations",
-      "title": "Trump announces meeting with Putin in Alaska",
-      "url": "https://heathercoxrichardson.substack.com/p/august-8-2025-friday",
-      "summary": "President Donald Trump announced his intention to meet with Russian President Vladimir Putin on August 15 in Alaska, following a deadline he set for Putin to agree to a ceasefire in the ongoing war in Ukraine. This meeting comes amid reports that Russian attacks on Ukraine have doubled since Trump took office. The planned summit is seen as a significant diplomatic move, potentially undermining U.S. commitments to Ukraine's territorial integrity.",
-      "why_relevant": "This meeting could legitimize Putin's actions in Ukraine and weaken U.S. support for Ukraine's sovereignty.",
-      "attacks": [
-        "global_democracy"
-      ],
-      "_origin_file": "hcr_events_2025-06-07_2025-08-15.json",
-      "_origin_index": 23
-    },
-    {
-      "source_key": "hcr",
-      "date": "2025-08-09",
-      "category": "International Relations",
       "title": "U.S. and Russia plan summit to discuss Ukraine territory",
       "url": "https://heathercoxrichardson.substack.com/p/august-8-2025-friday",
       "summary": "U.S. and Russian officials are reportedly planning a summit to negotiate an agreement that would require Ukraine to cede territory currently occupied by Russian forces, including Crimea. This plan is reminiscent of previous proposals that sought to undermine Ukraine's sovereignty and could set a dangerous precedent for territorial acquisition through force.",
@@ -484,34 +207,6 @@
       ],
       "_origin_file": "hcr_events_2025-01-20_2025-11-30.json",
       "_origin_index": 422
-    },
-    {
-      "source_key": "hcr",
-      "date": "2025-08-09",
-      "category": "International Relations",
-      "title": "U.S. and Russia plan summit to discuss Ukraine territory",
-      "url": "https://heathercoxrichardson.substack.com/p/august-8-2025-friday",
-      "summary": "U.S. and Russian officials are reportedly planning a summit to negotiate an agreement that would require Ukraine to cede territory currently occupied by Russian troops, including Crimea. This plan, which excludes Ukrainian President Volodymyr Zelensky and European allies, is reminiscent of previous proposals made by Russian operatives during the 2016 U.S. presidential campaign.",
-      "why_relevant": "The proposed agreement undermines Ukraine's sovereignty and sets a dangerous precedent for territorial acquisition through force.",
-      "attacks": [
-        "global_democracy"
-      ],
-      "_origin_file": "hcr_events_2025-06-07_2025-08-15.json",
-      "_origin_index": 24
-    },
-    {
-      "source_key": "zeteo",
-      "date": "2025-08-09",
-      "category": "Civil–Military Relations & State Violence",
-      "title": "Trump directs Pentagon to prepare military action against drug cartels",
-      "url": "https://zeteo.com/p/this-week-in-democracy-week-29-hunting",
-      "summary": "President Trump directed the Pentagon to prepare for potential military action against Latin American drug cartels, which his administration considers terrorist organizations.",
-      "why_relevant": "This directive raises concerns about the militarization of U.S. foreign policy and the implications for international relations and domestic law enforcement.",
-      "attacks": [
-        "diplomacy"
-      ],
-      "_origin_file": "zeteo_events_2025-06-07_2025-08-15.json",
-      "_origin_index": 4
     },
     {
       "source_key": "guardian",
@@ -548,22 +243,6 @@
     {
       "source_key": "guardian",
       "date": "2025-08-10",
-      "category": "Legislative & Oversight Activity",
-      "title": "Trump signs sweeping tax and spending legislation",
-      "url": "https://www.theguardian.com/us-news/2025/aug/10/trump-bill-august-recess-democrats-republicans",
-      "summary": "On July 4, 2025, Donald Trump signed a significant tax and spending bill that extends lower tax rates from his first term, introduces new exemptions for working-class voters, and includes provisions for mass deportations of immigrants. The legislation imposes work requirements for Medicaid enrollees, which has sparked controversy and backlash from constituents during town halls. The bill is expected to have a price tag of $3.4 trillion over the next decade and is seen as a pivotal issue for both parties as they head into the August recess.",
-      "why_relevant": "The bill's cuts to Medicaid and other safety net programs could significantly impact vulnerable populations, raising concerns about healthcare access and economic stability.",
-      "attacks": [
-        "poor",
-        "sick_vulnerable",
-        "workers"
-      ],
-      "_origin_file": "guardian_events_2025-06-07_2025-08-15.json",
-      "_origin_index": 46
-    },
-    {
-      "source_key": "guardian",
-      "date": "2025-08-10",
       "category": "Judicial Developments",
       "title": "Court bans fishing in Pacific protected area",
       "url": "https://www.theguardian.com/us-news/2025/aug/10/pacific-islands-heritage-monument-trump-administration",
@@ -576,18 +255,6 @@
       ],
       "_origin_file": "guardian_events_2025-01-20_2025-11-30.json",
       "_origin_index": 1077
-    },
-    {
-      "source_key": "guardian",
-      "date": "2025-08-10",
-      "category": "Judicial Developments",
-      "title": "Court bans fishing in Pacific protected area overriding Trump officials’ rollback",
-      "url": "https://www.theguardian.com/us-news/2025/aug/10/pacific-islands-heritage-monument-trump-administration",
-      "summary": "A federal judge in Hawaii ruled that commercial fishing is illegal in the Pacific Islands Heritage marine national monument, overturning a previous letter from the National Marine Fisheries Service that allowed fishing in parts of the monument. The ruling maintains the ban on commercial fishing, emphasizing the need for public involvement in changing fishing regulations. The lawsuit was filed by Earthjustice on behalf of environmental groups, arguing that the Trump administration's actions violated federal law.",
-      "why_relevant": "This ruling reinforces environmental protections and public involvement in regulatory processes, countering previous attempts to roll back conservation measures.",
-      "attacks": [],
-      "_origin_file": "guardian_events_2025-06-07_2025-08-15.json",
-      "_origin_index": 43
     },
     {
       "source_key": "guardian",
@@ -605,66 +272,6 @@
       "_origin_index": 1080
     },
     {
-      "source_key": "guardian",
-      "date": "2025-08-10",
-      "category": "Law Enforcement & Surveillance",
-      "title": "Michael Gordon fired for prosecuting January 6 rioters",
-      "url": "https://www.theguardian.com/us-news/2025/aug/10/mike-gordon-trump-administration-january-6",
-      "summary": "Michael Gordon, a federal prosecutor in Tampa, was abruptly fired by US Attorney General Pam Bondi after he prosecuted individuals involved in the January 6 Capitol attack. His dismissal, which he attributes to political motivations from the Trump administration, has raised concerns about the independence of the justice system. Gordon, along with two colleagues, has filed a federal lawsuit challenging his firing, claiming wrongful termination. The case highlights the ongoing tensions within the Department of Justice regarding political influence over prosecutorial decisions.",
-      "why_relevant": "This event underscores the potential politicization of the justice system and the risks faced by prosecutors who pursue politically sensitive cases.",
-      "attacks": [
-        "justice_dept",
-        "rule_of_law"
-      ],
-      "_origin_file": "guardian_events_2025-06-07_2025-08-15.json",
-      "_origin_index": 45
-    },
-    {
-      "source_key": "outloud",
-      "date": "2025-08-10",
-      "category": "Law Enforcement & Surveillance",
-      "title": "Detention and Imminent Deportation of Will (Tae Huang) Kim",
-      "url": "https://kziegler.substack.com/p/democracy-out-loud-445a-different",
-      "summary": "Will (Tae Huang) Kim, a lawful permanent resident and doctoral student at Texas A&M, was detained at an airport and faces deportation due to a marijuana possession charge from 14 years ago. Advocacy efforts, including petitions, are underway to prevent his deportation. This case highlights the harsh consequences of immigration enforcement policies on individuals with minor past offenses.",
-      "why_relevant": "The potential deportation of a lawful permanent resident for a minor past offense raises questions about the proportionality and fairness of immigration enforcement.",
-      "attacks": [
-        "immigrants_refugees",
-        "justice_dept"
-      ],
-      "_origin_file": "outloud_events_2025-01-20_2025-11-30.json",
-      "_origin_index": 63
-    },
-    {
-      "source_key": "outloud",
-      "date": "2025-08-10",
-      "category": "Law Enforcement & Surveillance",
-      "title": "Detention of Catalina \"Xochitl\" Santiago by ICE",
-      "url": "https://kziegler.substack.com/p/democracy-out-loud-445a-different",
-      "summary": "Catalina \"Xochitl\" Santiago, a DACA recipient and community organizer, was detained by ICE in El Paso. Her community is actively applying pressure for her release, including organizing petitions and advocacy efforts. This incident highlights ongoing issues with immigration enforcement and the treatment of individuals under DACA protections. The community's response underscores the importance of public pressure in influencing immigration authorities' actions.",
-      "why_relevant": "The detention of a DACA recipient raises significant concerns about immigration enforcement practices and the protection of individuals under DACA.",
-      "attacks": [
-        "immigrants_refugees",
-        "justice_dept"
-      ],
-      "_origin_file": "outloud_events_2025-01-20_2025-11-30.json",
-      "_origin_index": 62
-    },
-    {
-      "source_key": "guardian",
-      "date": "2025-08-10",
-      "category": "Civil Society & Protest",
-      "title": "Trump orders homeless people he passed en route to golf course to leave Washington DC",
-      "url": "https://www.theguardian.com/us-news/2025/aug/10/trump-homeless-golf-course-washington-dc",
-      "summary": "President Donald Trump demanded that homeless residents of Washington DC leave the capital or face eviction, stating he would use federal officers to enforce this order. This announcement was made via a social media post shortly after he traveled to his golf club. Despite claims of a crime epidemic, data shows that violent crime in the city is at a 30-year low. Trump's comments have sparked protests and raised questions about the legal authority to evict individuals from the city.",
-      "why_relevant": "This act threatens the rights of homeless individuals and undermines local governance by imposing federal control over the city.",
-      "attacks": [
-        "poor",
-        "civil_service"
-      ],
-      "_origin_file": "guardian_events_2025-06-07_2025-08-15.json",
-      "_origin_index": 44
-    },
-    {
       "source_key": "hcr",
       "date": "2025-08-10",
       "category": "Civil Society & Protest",
@@ -677,20 +284,6 @@
       ],
       "_origin_file": "hcr_events_2025-01-20_2025-11-30.json",
       "_origin_index": 420
-    },
-    {
-      "source_key": "hcr",
-      "date": "2025-08-10",
-      "category": "Civil Society & Protest",
-      "title": "Defense Secretary reposts video opposing women's voting",
-      "url": "https://www.theguardian.com/us-news/2025/aug/09/pete-hegseth-video-pastors-women-voting",
-      "summary": "On August 9, 2025, Defense Secretary Pete Hegseth reposted a video featuring Christian nationalist pastors who expressed their opposition to women voting. The video included remarks from Doug Wilson, who stated a desire for the nation to be a Christian nation. Hegseth's repost included the phrase \"All of Christ for All of Life,\" reflecting a viewpoint that intertwines governance with religious ideology.",
-      "why_relevant": "This event highlights the ongoing tension between religious ideologies and democratic principles, particularly regarding women's rights and voting.",
-      "attacks": [
-        "women"
-      ],
-      "_origin_file": "hcr_events_2025-06-07_2025-08-15.json",
-      "_origin_index": 22
     },
     {
       "source_key": "outloud",
@@ -733,18 +326,6 @@
       ],
       "_origin_file": "outloud_events_2025-06-07_2025-08-15.json",
       "_origin_index": 11
-    },
-    {
-      "source_key": "outloud",
-      "date": "2025-08-10",
-      "category": "Civil Society & Protest",
-      "title": "Moral Monday Protest Planned by Rev. William Barber",
-      "url": "https://kziegler.substack.com/p/democracy-out-loud-445a-different",
-      "summary": "Rev. William Barber is organizing a Moral Monday protest on August 18 in Washington DC and several Southern locations, including Raleigh, NC. The protest aims to address issues of social justice and inequality, continuing the tradition of Moral Monday demonstrations that focus on civil rights and economic justice.",
-      "why_relevant": "The protest represents ongoing civil society efforts to address systemic inequality and advocate for social justice.",
-      "attacks": [],
-      "_origin_file": "outloud_events_2025-01-20_2025-11-30.json",
-      "_origin_index": 64
     },
     {
       "source_key": "outloud",
@@ -807,20 +388,6 @@
       "source_key": "hcr",
       "date": "2025-08-11",
       "category": "Executive Actions & Orders",
-      "title": "Trump announces press conference to address crime in D.C.",
-      "url": "https://www.washingtonpost.com/dc-md-va/2025/08/10/trump-crime-data-federal-takeover/",
-      "summary": "On August 10, 2025, Trump announced a press conference scheduled for August 11, 2025, to discuss his plans to combat crime in Washington, D.C. He claimed that the city has become one of the most dangerous in the world and promised to make it \"one of the safest.\" His statements included plans to remove the homeless from the capital and to increase incarceration for criminals.",
-      "why_relevant": "The announcement reflects Trump's approach to governance and law enforcement, potentially impacting local policies and civil rights.",
-      "attacks": [
-        "civil_service"
-      ],
-      "_origin_file": "hcr_events_2025-06-07_2025-08-15.json",
-      "_origin_index": 19
-    },
-    {
-      "source_key": "hcr",
-      "date": "2025-08-11",
-      "category": "Executive Actions & Orders",
       "title": "Trump criticizes D.C. Mayor and Federal Reserve Chair",
       "url": "https://www.washingtonpost.com/dc-md-va/2025/08/10/trump-crime-data-federal-takeover/",
       "summary": "On August 10, 2025, Trump publicly criticized D.C. Mayor Muriel Bowser for the city's crime rates and expressed dissatisfaction with Federal Reserve Chair Jerome Powell regarding the cost of renovations at the Fed. He suggested that Bowser had failed to improve the city and indicated a desire to take control of the situation.",
@@ -836,57 +403,30 @@
       "source_key": "orders",
       "date": "2025-08-11",
       "category": "Executive Actions & Orders",
-      "title": "Declaring a Crime Emergency in the District of Columbia",
-      "url": "https://ballotpedia.org/Executive_Order:_Declaring_a_Crime_Emergency_in_the_District_of_Columbia_(Donald_Trump,_2025)",
-      "summary": "On August 11, 2025, President Donald Trump issued an executive order declaring a crime emergency in the District of Columbia. The order cites a significant rise in violent crime, which the President argues endangers public safety and disrupts the functioning of the Federal Government. It mandates the use of the Metropolitan Police Department for federal purposes, including maintaining law and order and protecting federal properties. The Attorney General is given authority to oversee the implementation of this order.",
-      "why_relevant": "This order alters the operational control of local law enforcement in the nation's capital, impacting the balance of power between federal and local authorities.",
-      "attacks": [
-        "civil_service",
-        "rule_of_law"
-      ],
-      "_origin_file": "orders_events_2025-06-07_2025-08-15.json",
-      "_origin_index": 4
-    },
-    {
-      "source_key": "orders",
-      "date": "2025-08-11",
-      "category": "Executive Actions & Orders",
       "title": "Executive Order Declaring a Crime Emergency in D.C.",
       "url": "https://ballotpedia.org/Executive_Order:_Declaring_a_Crime_Emergency_in_the_District_of_Columbia_(Donald_Trump,_2025)",
-      "summary": "On August 11, 2025, President Donald Trump issued an executive order declaring a crime emergency in the District of Columbia. The order mandates the use of the Metropolitan Police Department for federal purposes, citing rising violence that threatens public safety and federal operations. The Attorney General is delegated authority to direct the Mayor of D.C. to provide police services as necessary. The order aims to restore order and ensure the safety of federal employees and the public in the nation's capital.",
+      "summary": "On August 11, 2025, President Donald Trump issued an executive order declaring a crime emergency in the District of Columbia. The order mandates the use of the Metropolitan Police Department for federal purposes to maintain law and order, protect federal buildings, and ensure the smooth functioning of the federal government. The order delegates authority to the Attorney General to direct the Mayor of D.C. regarding police services and requires regular updates on the situation. This action aims to address rising violent crime rates in the capital, which are impacting federal operations and public safety.",
       "why_relevant": "This executive order directly impacts the governance and security of the nation's capital, affecting federal operations and public safety.",
       "attacks": [
         "rule_of_law",
         "separation_of_powers"
       ],
-      "_origin_file": "orders_events_2025-01-20_2025-11-30.json",
-      "_origin_index": 27
+      "_origin_file": "orders_events_2025-01-20_2026-02-01.json",
+      "_origin_index": 46
     },
     {
       "source_key": "orders",
       "date": "2025-08-11",
       "category": "Executive Actions & Orders",
-      "title": "Executive Order Modifying Reciprocal Tariff Rates",
+      "title": "Executive Order Modifying Tariff Rates with China",
       "url": "https://ballotpedia.org/Executive_Order:_Further_Modifying_Reciprocal_Tariff_Rates_to_Reflect_Ongoing_Discussions_With_the_People%27s_Republic_of_China_(Donald_Trump,_2025)",
-      "summary": "On August 11, 2025, President Donald Trump issued an executive order to further modify reciprocal tariff rates with the People's Republic of China. This order extends the suspension of additional ad valorem duties on Chinese imports until November 10, 2025, as part of ongoing discussions to address trade reciprocity and national security concerns. The order directs relevant U.S. departments and agencies to implement necessary actions to continue the suspension and adjust regulations accordingly. This move aims to facilitate continued negotiations with China to resolve trade imbalances and security issues.",
-      "why_relevant": "This executive order impacts U.S.-China trade relations and reflects the administration's approach to addressing trade deficits and national security through tariff adjustments.",
+      "summary": "On August 11, 2025, President Donald Trump issued an executive order to further modify reciprocal tariff rates with the People's Republic of China. This order extends the suspension of additional ad valorem duties on Chinese imports until November 10, 2025, as part of ongoing trade discussions aimed at addressing trade imbalances and national security concerns. The order directs relevant U.S. departments and agencies to implement necessary actions to continue the suspension and adjust regulations accordingly.",
+      "why_relevant": "This executive order impacts U.S.-China trade relations and reflects ongoing diplomatic efforts to address trade imbalances and national security issues.",
       "attacks": [
         "trade"
       ],
-      "_origin_file": "orders_events_2025-01-20_2025-11-30.json",
-      "_origin_index": 26
-    },
-    {
-      "source_key": "orders",
-      "date": "2025-08-11",
-      "category": "Executive Actions & Orders",
-      "title": "Further Modifying Reciprocal Tariff Rates to Reflect Ongoing Discussions With the People's Republic of China",
-      "url": "https://ballotpedia.org/Executive_Order:_Further_Modifying_Reciprocal_Tariff_Rates_to_Reflect_Ongoing_Discussions_With_the_People%27s_Republic_of_China_(Donald_Trump,_2025)",
-      "summary": "On August 11, 2025, President Donald Trump issued an executive order to further modify reciprocal tariff rates in response to ongoing discussions with the People's Republic of China. This order extends the suspension of certain ad valorem duties on imports from China until November 10, 2025, as part of efforts to address trade reciprocity and national security concerns. The Secretary of Commerce, Secretary of Homeland Security, and the U.S. Trade Representative are directed to implement this order.",
-      "why_relevant": "This executive order impacts U.S.-China trade relations and reflects the administration's approach to economic and national security through tariff modifications.",
-      "attacks": [],
-      "_origin_file": "orders_events_2025-06-07_2025-08-15.json",
-      "_origin_index": 3
+      "_origin_file": "orders_events_2025-01-20_2026-02-01.json",
+      "_origin_index": 45
     },
     {
       "source_key": "guardian",
@@ -902,20 +442,6 @@
       ],
       "_origin_file": "guardian_events_2025-01-20_2025-11-30.json",
       "_origin_index": 1075
-    },
-    {
-      "source_key": "hcr",
-      "date": "2025-08-11",
-      "category": "Legislative & Oversight Activity",
-      "title": "Trump criticizes D.C. Mayor and Federal Reserve Chair",
-      "url": "https://www.washingtonpost.com/dc-md-va/2025/08/10/trump-crime-data-federal-takeover/",
-      "summary": "On August 10, 2025, Trump publicly criticized D.C. Mayor Muriel Bowser for the city's crime rates and expressed dissatisfaction with Federal Reserve Chair Jerome Powell regarding the costs of renovating Federal Reserve buildings. He suggested that Bowser has failed to improve the situation in D.C. and implied that Powell should be removed from office.",
-      "why_relevant": "Trump's criticisms of local and federal officials highlight his attempts to exert influence over governance and policy decisions.",
-      "attacks": [
-        "congress"
-      ],
-      "_origin_file": "hcr_events_2025-06-07_2025-08-15.json",
-      "_origin_index": 20
     },
     {
       "source_key": "guardian",
@@ -937,21 +463,6 @@
       "source_key": "guardian",
       "date": "2025-08-11",
       "category": "Judicial Developments",
-      "title": "Federal judge hears case on Trump administration's military deployment during protests",
-      "url": "https://www.theguardian.com/us-news/2025/aug/11/trump-la-ice-protests-immigration",
-      "summary": "A federal judge in San Francisco began hearing arguments regarding the Trump administration's deployment of national guard soldiers and marines to Los Angeles amid protests against immigration raids. California is seeking to regain control of the troops, arguing that the deployment violated federal law and the 10th Amendment. The case could set a precedent for future military deployments in domestic situations. The Trump administration has appealed a previous ruling that found it exceeded its authority.",
-      "why_relevant": "This case addresses the legality of using military forces for domestic law enforcement, which has significant implications for the balance of power between state and federal authorities.",
-      "attacks": [
-        "military",
-        "rule_of_law"
-      ],
-      "_origin_file": "guardian_events_2025-06-07_2025-08-15.json",
-      "_origin_index": 38
-    },
-    {
-      "source_key": "guardian",
-      "date": "2025-08-11",
-      "category": "Judicial Developments",
       "title": "Judge rejects Trump administration request to unseal Ghislaine Maxwell grand jury transcripts",
       "url": "https://www.theguardian.com/us-news/2025/aug/11/trump-epstein-maxwell-transcripts",
       "summary": "A federal judge in New York, Paul Engelmayer, rejected the Trump administration's request to unseal grand jury transcripts related to Ghislaine Maxwell's case. The judge stated that releasing the transcripts would undermine the secrecy of the grand jury process and noted that the transcripts were redundant of evidence already presented at Maxwell's trial. The request was seen as a move for transparency amid political pressure surrounding the Epstein investigation, but the judge suggested it was more of a diversion than a genuine effort for disclosure.",
@@ -959,18 +470,6 @@
       "attacks": [],
       "_origin_file": "guardian_events_2025-01-20_2025-11-30.json",
       "_origin_index": 1071
-    },
-    {
-      "source_key": "guardian",
-      "date": "2025-08-11",
-      "category": "Judicial Developments",
-      "title": "Judge rejects Trump administration request to unseal Ghislaine Maxwell grand jury transcripts",
-      "url": "https://www.theguardian.com/us-news/2025/aug/11/trump-epstein-maxwell-transcripts",
-      "summary": "A federal judge in New York, Paul Engelmayer, has rejected the Trump administration's request to release grand jury transcripts related to Ghislaine Maxwell's case, stating that doing so would jeopardize the secrecy of grand jury proceedings. The judge noted that the transcripts did not provide significant new information and suggested that the administration's push for their release was more about creating an illusion of transparency than genuine disclosure. The ruling raises questions about the administration's motives amid ongoing scrutiny of its ties to the Epstein case.",
-      "why_relevant": "This ruling highlights the ongoing legal battles surrounding high-profile cases and the implications for transparency and accountability in government actions.",
-      "attacks": [],
-      "_origin_file": "guardian_events_2025-06-07_2025-08-15.json",
-      "_origin_index": 39
     },
     {
       "source_key": "zeteo",
@@ -999,35 +498,6 @@
       ],
       "_origin_file": "guardian_events_2025-01-20_2025-11-30.json",
       "_origin_index": 1073
-    },
-    {
-      "source_key": "guardian",
-      "date": "2025-08-11",
-      "category": "Law Enforcement & Surveillance",
-      "title": "FBI Reassigns Agents, Eviscerates Extremist Investigation Units",
-      "url": "https://www.theguardian.com/us-news/2025/aug/11/trump-far-right-fbi",
-      "summary": "The FBI, under the leadership of Kash Patel, has reassigned thousands of agents and significantly reduced the resources dedicated to investigating right-wing extremists, which experts consider a major domestic security threat. This shift has emboldened extremist groups, allowing them to organize with less fear of federal interference. The changes have raised concerns about increased violence and activity from these groups, as the federal government appears to be abandoning its efforts to monitor and surveil racists and white supremacists.",
-      "why_relevant": "The FBI's actions undermine the government's ability to monitor and combat domestic extremism, posing a threat to public safety and democratic stability.",
-      "attacks": [
-        "justice_dept",
-        "civil_service"
-      ],
-      "_origin_file": "guardian_events_2025-06-07_2025-08-15.json",
-      "_origin_index": 41
-    },
-    {
-      "source_key": "guardian",
-      "date": "2025-08-11",
-      "category": "Law Enforcement & Surveillance",
-      "title": "Massachusetts sheriff charged with extortion over $50,000 stock deal with cannabis company",
-      "url": "https://www.theguardian.com/us-news/2025/aug/11/steven-tompkins-boston-cannabis-extortion",
-      "summary": "Suffolk County Sheriff Steven Tompkins was arrested by the FBI for allegedly extorting a national cannabis retailer by threatening to revoke his office's partnership unless the company provided him with $50,000 worth of stock. He faces two counts of extortion, each carrying a maximum sentence of 20 years in federal prison. The indictment highlights concerns about ethical standards among elected officials, particularly in law enforcement. Tompkins has a history of scrutiny, including previous fines for misconduct.",
-      "why_relevant": "The case raises significant issues regarding corruption and ethical conduct among public officials, undermining trust in law enforcement and governance.",
-      "attacks": [
-        "justice_dept"
-      ],
-      "_origin_file": "guardian_events_2025-06-07_2025-08-15.json",
-      "_origin_index": 40
     },
     {
       "source_key": "guardian",
@@ -1128,18 +598,6 @@
       "source_key": "federalregister",
       "date": "2025-08-11",
       "category": "Economic & Regulatory Power",
-      "title": "Cambrex Charles City Granted Application for Bulk Manufacturing of Controlled Substances",
-      "url": "https://www.federalregister.gov/documents/2025/08/11/2025-15157/bulk-manufacturer-of-controlled-substances-application-cambrex-charles-city",
-      "summary": "The Drug Enforcement Administration has published a notice regarding Cambrex Charles City's application to register as a bulk manufacturer of various controlled substances, allowing them to produce these substances for clinical and research purposes. Comments on the application are due by October 10, 2025.",
-      "why_relevant": "This registration impacts the regulation of controlled substances, affecting public health and safety measures.",
-      "attacks": [],
-      "_origin_file": "federalregister_events_2025-06-07_2025-08-15.json",
-      "_origin_index": 7
-    },
-    {
-      "source_key": "federalregister",
-      "date": "2025-08-11",
-      "category": "Economic & Regulatory Power",
       "title": "Chattem Chemicals Applies for Bulk Manufacturing Registration",
       "url": "https://www.federalregister.gov/documents/2025/08/11/2025-15161/bulk-manufacturer-of-controlled-substances-application-chattem-chemicals",
       "summary": "The Drug Enforcement Administration (DEA) has announced that Chattem Chemicals has applied to be registered as a bulk manufacturer of various controlled substances, including Gamma Hydroxybutyric Acid, Marihuana, and Methamphetamine. The application, filed on July 15, 2025, is open for public comments or objections until October 10, 2025. The company plans to manufacture these substances for bulk distribution and sale, with synthetic production for certain drug codes like Marihuana and Tetrahydrocannabinols.",
@@ -1171,18 +629,6 @@
       "attacks": [],
       "_origin_file": "federalregister_events_2025-01-20_2025-11-30.json",
       "_origin_index": 38
-    },
-    {
-      "source_key": "federalregister",
-      "date": "2025-08-11",
-      "category": "Economic & Regulatory Power",
-      "title": "Curia New York Inc Granted Application to Import Controlled Substances",
-      "url": "https://www.federalregister.gov/documents/2025/08/11/2025-15156/importer-of-controlled-substances-application-curia-new-york-inc",
-      "summary": "The Drug Enforcement Administration has published a notice approving Curia New York Inc's application to register as an importer of specific controlled substances, including Gamma Hydroxybutyric Acid and Poppy Straw Concentrate. Comments on this decision are open until September 10, 2025.",
-      "why_relevant": "This action regulates the importation of controlled substances, impacting public health and safety measures.",
-      "attacks": [],
-      "_origin_file": "federalregister_events_2025-06-07_2025-08-15.json",
-      "_origin_index": 8
     },
     {
       "source_key": "federalregister",
@@ -1236,102 +682,6 @@
       "source_key": "federalregister",
       "date": "2025-08-11",
       "category": "Economic & Regulatory Power",
-      "title": "Importer of Controlled Substances Application Approved for Experic LLC",
-      "url": "https://www.federalregister.gov/documents/2025/08/11/2025-15160/importer-of-controlled-substances-application-experic-llc",
-      "summary": "The Drug Enforcement Administration has published a notice regarding Experic LLC's application to register as an importer of specific controlled substances for research and clinical trial purposes. Comments on the application are due by September 10, 2025.",
-      "why_relevant": "This action regulates the importation of controlled substances, impacting drug research and clinical trials.",
-      "attacks": [],
-      "_origin_file": "federalregister_events_2025-06-07_2025-08-15.json",
-      "_origin_index": 4
-    },
-    {
-      "source_key": "federalregister",
-      "date": "2025-08-11",
-      "category": "Economic & Regulatory Power",
-      "title": "Importer of Controlled Substances Application Approved for Galephar Pharmaceutical Research Inc",
-      "url": "https://www.federalregister.gov/documents/2025/08/11/2025-15155/importer-of-controlled-substances-application-galephar-pharmaceutical-research-inc",
-      "summary": "The Drug Enforcement Administration has published a notice regarding Galephar Pharmaceutical Research Inc's application to register as an importer of controlled substances, specifically hydromorphone and morphine, for analytical purposes only. Comments on the application are due by September 10, 2025.",
-      "why_relevant": "This action regulates the importation of controlled substances, impacting drug enforcement and public health safety.",
-      "attacks": [],
-      "_origin_file": "federalregister_events_2025-06-07_2025-08-15.json",
-      "_origin_index": 9
-    },
-    {
-      "source_key": "federalregister",
-      "date": "2025-08-11",
-      "category": "Economic & Regulatory Power",
-      "title": "Importer of Controlled Substances Application Approved for Veterans Pharmaceuticals, Inc.",
-      "url": "https://www.federalregister.gov/documents/2025/08/11/2025-15153/importer-of-controlled-substances-application-veterans-pharmaceuticals-inc",
-      "summary": "The Drug Enforcement Administration has published a notice regarding Veterans Pharmaceuticals, Inc.'s application to register as an importer of specific controlled substances, including methamphetamine and various hallucinogens, for research and clinical trials. Comments on the application are due by September 10, 2025.",
-      "why_relevant": "This action regulates the importation of controlled substances, impacting drug research and public health.",
-      "attacks": [],
-      "_origin_file": "federalregister_events_2025-06-07_2025-08-15.json",
-      "_origin_index": 10
-    },
-    {
-      "source_key": "federalregister",
-      "date": "2025-08-11",
-      "category": "Economic & Regulatory Power",
-      "title": "Notice of Application for Bulk Manufacturer of Controlled Substances by Biopharmaceutical Research Company",
-      "url": "https://www.federalregister.gov/documents/2025/08/11/2025-15162/bulk-manufacturer-of-controlled-substances-application-biopharmaceutical-research-company",
-      "summary": "The Drug Enforcement Administration published a notice regarding Biopharmaceutical Research Company's application to register as a bulk manufacturer of controlled substances, specifically marihuana and its extracts, for research purposes. Comments on the application are due by October 10, 2025.",
-      "why_relevant": "This action regulates the manufacturing of controlled substances, impacting research and pharmaceutical development.",
-      "attacks": [],
-      "_origin_file": "federalregister_events_2025-06-07_2025-08-15.json",
-      "_origin_index": 2
-    },
-    {
-      "source_key": "federalregister",
-      "date": "2025-08-11",
-      "category": "Economic & Regulatory Power",
-      "title": "Notice of Application for Bulk Manufacturer of Controlled Substances by Chattem Chemicals",
-      "url": "https://www.federalregister.gov/documents/2025/08/11/2025-15161/bulk-manufacturer-of-controlled-substances-application-chattem-chemicals",
-      "summary": "The Drug Enforcement Administration published a notice regarding Chattem Chemicals' application to register as a bulk manufacturer of various controlled substances, including Gamma Hydroxybutyric Acid and Marihuana. Comments on the application are due by October 10, 2025.",
-      "why_relevant": "This action regulates the manufacturing of controlled substances, impacting public health and safety.",
-      "attacks": [],
-      "_origin_file": "federalregister_events_2025-06-07_2025-08-15.json",
-      "_origin_index": 3
-    },
-    {
-      "source_key": "federalregister",
-      "date": "2025-08-11",
-      "category": "Economic & Regulatory Power",
-      "title": "Notice of application for importer of controlled substances by Benuvia Operations, LLC",
-      "url": "https://www.federalregister.gov/documents/2025/08/11/2025-15158/importer-of-controlled-substances-application-benuvia-operations-llc",
-      "summary": "The Drug Enforcement Administration published a notice regarding Benuvia Operations, LLC's application to register as an importer of specific controlled substances for clinical trial manufacturing. Comments on the application are due by September 10, 2025.",
-      "why_relevant": "This action regulates the importation of controlled substances, impacting drug manufacturing and public health oversight.",
-      "attacks": [],
-      "_origin_file": "federalregister_events_2025-06-07_2025-08-15.json",
-      "_origin_index": 6
-    },
-    {
-      "source_key": "federalregister",
-      "date": "2025-08-11",
-      "category": "Economic & Regulatory Power",
-      "title": "Notice of Application for Importer of Controlled Substances by Chattem Chemicals",
-      "url": "https://www.federalregister.gov/documents/2025/08/11/2025-15159/importer-of-controlled-substances-application-chattem-chemicals",
-      "summary": "The Drug Enforcement Administration published a notice regarding Chattem Chemicals' application to register as an importer of various controlled substances, including methamphetamine and cocaine, with a comment period ending on September 10, 2025.",
-      "why_relevant": "This action regulates the importation of controlled substances, impacting public health and safety.",
-      "attacks": [],
-      "_origin_file": "federalregister_events_2025-06-07_2025-08-15.json",
-      "_origin_index": 5
-    },
-    {
-      "source_key": "federalregister",
-      "date": "2025-08-11",
-      "category": "Economic & Regulatory Power",
-      "title": "Notice of Receipt of Requests To Voluntarily Cancel Certain Pesticide Registrations",
-      "url": "https://www.federalregister.gov/documents/2025/08/11/2025-15214/notice-of-receipt-of-requests-to-voluntarily-cancel-certain-pesticide-registrations-andor-amend",
-      "summary": "The Environmental Protection Agency received requests from registrants to voluntarily cancel certain pesticide registrations and amend registrations to terminate specific uses. Comments are due by September 10, 2025, after which the EPA may grant these requests.",
-      "why_relevant": "This action impacts pesticide regulation and environmental safety, influencing agricultural practices and public health.",
-      "attacks": [],
-      "_origin_file": "federalregister_events_2025-06-07_2025-08-15.json",
-      "_origin_index": 208
-    },
-    {
-      "source_key": "federalregister",
-      "date": "2025-08-11",
-      "category": "Economic & Regulatory Power",
       "title": "OSHA Extends OMB Approval for Conflict of Interest Form",
       "url": "https://www.federalregister.gov/documents/2025/08/11/2025-15209/conflict-of-interest-coi-and-disclosure-form-extension-of-the-office-of-management-and-budgets-omb",
       "summary": "The Occupational Safety and Health Administration (OSHA) announced the extension of the Office of Management and Budget's (OMB) approval for the Conflict of Interest (COI) and Disclosure Form. This extension pertains to the information collection requirements under the Paperwork Reduction Act. OSHA is seeking public comments on the necessity and burden of these requirements, which aim to ensure minimal paperwork burden on employers while maintaining the integrity of peer reviews. Comments are due by October 10, 2025.",
@@ -1339,18 +689,6 @@
       "attacks": [],
       "_origin_file": "federalregister_events_2025-01-20_2025-11-30.json",
       "_origin_index": 661
-    },
-    {
-      "source_key": "federalregister",
-      "date": "2025-08-11",
-      "category": "Economic & Regulatory Power",
-      "title": "Proposed Data Collection for Laboratory Response Network",
-      "url": "https://www.federalregister.gov/documents/2025/08/11/2025-15215/proposed-data-collection-submitted-for-public-comment-and-recommendations",
-      "summary": "The Centers for Disease Control and Prevention (CDC) announced a proposed data collection for the Laboratory Response Network to track laboratory testing capacity and ensure public health emergency preparedness. Comments are due by October 10, 2025.",
-      "why_relevant": "This action facilitates the CDC's ability to respond effectively to public health emergencies by ensuring adequate laboratory capabilities across the nation.",
-      "attacks": [],
-      "_origin_file": "federalregister_events_2025-06-07_2025-08-15.json",
-      "_origin_index": 345
     },
     {
       "source_key": "federalregister",
@@ -1380,45 +718,6 @@
       "_origin_index": 1067
     },
     {
-      "source_key": "guardian",
-      "date": "2025-08-11",
-      "category": "Appointments & Patronage",
-      "title": "Trump nominates Heritage Foundation economist as labor statistics chief",
-      "url": "https://www.theguardian.com/us-news/2025/aug/11/trump-ej-antoni-heritage-foundation-bls",
-      "summary": "Donald Trump has nominated EJ Antoni, the chief economist at the Heritage Foundation, to be the next commissioner of the Bureau of Labor Statistics (BLS), following the firing of Erika McEntarfer. Trump stated that Antoni would ensure the accuracy of economic data released by the agency. The nomination is significant as it comes after concerns were raised about the integrity of BLS data, particularly after a weak jobs report that Trump claimed was manipulated. The Senate will need to confirm Antoni's nomination.",
-      "why_relevant": "This nomination could impact the credibility and independence of economic data, which is crucial for informed public policy and economic decision-making.",
-      "attacks": [
-        "truth",
-        "science"
-      ],
-      "_origin_file": "guardian_events_2025-06-07_2025-08-15.json",
-      "_origin_index": 34
-    },
-    {
-      "source_key": "federalregister",
-      "date": "2025-08-11",
-      "category": "Transparency & Records",
-      "title": "Extension of OMB Approval for Conflict of Interest Disclosure Form",
-      "url": "https://www.federalregister.gov/documents/2025/08/11/2025-15209/conflict-of-interest-coi-and-disclosure-form-extension-of-the-office-of-management-and-budgets-omb",
-      "summary": "The Occupational Safety and Health Administration (OSHA) has published a notice extending the Office of Management and Budget's approval for the information collection requirements of the Conflict of Interest and Disclosure Form, allowing for public comments until October 10, 2025.",
-      "why_relevant": "This action ensures continued oversight and transparency in the management of conflicts of interest within OSHA's peer review processes.",
-      "attacks": [],
-      "_origin_file": "federalregister_events_2025-06-07_2025-08-15.json",
-      "_origin_index": 176
-    },
-    {
-      "source_key": "federalregister",
-      "date": "2025-08-11",
-      "category": "Transparency & Records",
-      "title": "Federal Communications Commission Submits Information Collection for OMB Approval",
-      "url": "https://www.federalregister.gov/documents/2025/08/11/2025-15226/information-collection-being-submitted-for-review-and-approval-to-office-of-management-and-budget",
-      "summary": "The Federal Communications Commission (FCC) has submitted a notice for public comment regarding an information collection under the Paperwork Reduction Act, seeking to reduce paperwork burdens for small businesses. Comments are due by September 10, 2025.",
-      "why_relevant": "This action facilitates public input on regulatory processes, enhancing transparency and accountability in government operations.",
-      "attacks": [],
-      "_origin_file": "federalregister_events_2025-06-07_2025-08-15.json",
-      "_origin_index": 109
-    },
-    {
       "source_key": "hcr",
       "date": "2025-08-11",
       "category": "Transparency & Records",
@@ -1433,30 +732,6 @@
     {
       "source_key": "hcr",
       "date": "2025-08-11",
-      "category": "Transparency & Records",
-      "title": "Democracy Forward Foundation sues DOJ and FBI for Epstein files",
-      "url": "https://storage.courtlistener.com/recap/gov.uscourts.dcd.283567/gov.uscourts.dcd.283567.1.0.pdf",
-      "summary": "On August 10, 2025, the Democracy Forward Foundation filed a lawsuit against the Department of Justice (DOJ) and the Federal Bureau of Investigation (FBI) to compel them to respond to a Freedom of Information Act request for the release of Epstein files and related communications. The request was initially submitted on July 28, 2025, but the DOJ and FBI have not yet responded. The case has been assigned to Judge Tanya Chutkan, who previously presided over Trump's criminal trial regarding the 2020 election.",
-      "why_relevant": "The lawsuit seeks to ensure government transparency and accountability regarding high-profile investigations involving public figures.",
-      "attacks": [],
-      "_origin_file": "hcr_events_2025-06-07_2025-08-15.json",
-      "_origin_index": 17
-    },
-    {
-      "source_key": "hcr",
-      "date": "2025-08-11",
-      "category": "International Relations",
-      "title": "Trump meets with Putin in Alaska",
-      "url": "https://www.wsj.com/world/ukraine-and-europe-counter-putins-cease-fire-proposal-6a16133c",
-      "summary": "Trump is scheduled to meet with Russian President Vladimir Putin in Alaska on August 15, 2025, amid ongoing discussions about a ceasefire in Ukraine. The meeting follows reports of miscommunication by Trump's special envoy regarding the terms of a ceasefire proposed by Putin.",
-      "why_relevant": "The meeting with Putin raises concerns about U.S. foreign policy and the implications of Trump's approach to international diplomacy.",
-      "attacks": [],
-      "_origin_file": "hcr_events_2025-06-07_2025-08-15.json",
-      "_origin_index": 21
-    },
-    {
-      "source_key": "hcr",
-      "date": "2025-08-11",
       "category": "International Relations",
       "title": "Trump prepares for meeting with Putin amid diplomatic concerns",
       "url": "https://www.wsj.com/world/ukraine-and-europe-counter-putins-cease-fire-proposal-6a16133c",
@@ -1467,22 +742,6 @@
       ],
       "_origin_file": "hcr_events_2025-01-20_2025-11-30.json",
       "_origin_index": 419
-    },
-    {
-      "source_key": "guardian",
-      "date": "2025-08-11",
-      "category": "Civil–Military Relations & State Violence",
-      "title": "Trump announces police takeover and deployment of National Guard in Washington DC",
-      "url": "https://www.theguardian.com/us-news/2025/aug/11/trump-washington-dc-national-guard-police",
-      "summary": "President Donald Trump announced plans to take control of the Washington DC police department and deploy National Guard troops to the streets, citing rising crime as the justification. This move has sparked protests from residents who view it as an authoritarian attempt to exert control over the capital. City leaders have criticized the intervention as unwarranted, pointing to declining crime statistics. The announcement comes amid ongoing concerns about safety in certain neighborhoods, with mixed reactions from the community regarding the potential impact of federal presence.",
-      "why_relevant": "This action raises significant concerns about the militarization of local law enforcement and the potential erosion of democratic governance in the capital.",
-      "attacks": [
-        "civil_service",
-        "rule_of_law",
-        "peaceful_transfer"
-      ],
-      "_origin_file": "guardian_events_2025-06-07_2025-08-15.json",
-      "_origin_index": 37
     },
     {
       "source_key": "guardian",
@@ -1517,22 +776,6 @@
       "_origin_index": 1068
     },
     {
-      "source_key": "guardian",
-      "date": "2025-08-11",
-      "category": "Civil–Military Relations & State Violence",
-      "title": "Trump seizes control of Washington DC police and deploys national guard",
-      "url": "https://www.theguardian.com/us-news/2025/aug/11/trump-washington-dc-crime",
-      "summary": "President Donald Trump has ordered the deployment of the national guard to Washington DC and has taken control of the city's police force, citing a public safety emergency. This federal takeover, enabled by invoking section 740 of the District of Columbia Home Rule Act, is set to last for 30 days without Congressional approval. The move has been met with significant criticism from local leaders and civil rights advocates, who view it as an assault on the political independence of the city.",
-      "why_relevant": "This action undermines local governance and raises concerns about the militarization of law enforcement in a racially diverse city.",
-      "attacks": [
-        "civil_service",
-        "local_government",
-        "minorities"
-      ],
-      "_origin_file": "guardian_events_2025-06-07_2025-08-15.json",
-      "_origin_index": 35
-    },
-    {
       "source_key": "hcr",
       "date": "2025-08-11",
       "category": "Civil–Military Relations & State Violence",
@@ -1545,20 +788,6 @@
       ],
       "_origin_file": "hcr_events_2025-01-20_2025-11-30.json",
       "_origin_index": 416
-    },
-    {
-      "source_key": "hcr",
-      "date": "2025-08-11",
-      "category": "Civil–Military Relations & State Violence",
-      "title": "Trump threatens federal control over Washington, D.C.",
-      "url": "https://www.washingtonpost.com/dc-md-va/2025/08/10/trump-crime-data-federal-takeover/",
-      "summary": "On August 10, 2025, former President Donald Trump threatened to \"federalize\" Washington, D.C., following an alleged carjacking attempt involving two teenagers. He claimed that crime in the city is \"totally out of control\" and announced plans for a press conference to address the issue. Trump also made statements about relocating the homeless and increasing law enforcement presence in the capital.",
-      "why_relevant": "Trump's threats to federalize D.C. raise concerns about the potential undermining of local governance and the constitutional authority of Congress over the federal district.",
-      "attacks": [
-        "separation_of_powers"
-      ],
-      "_origin_file": "hcr_events_2025-06-07_2025-08-15.json",
-      "_origin_index": 18
     },
     {
       "source_key": "popinfo",
@@ -1618,35 +847,6 @@
       "_origin_index": 1224
     },
     {
-      "source_key": "guardian",
-      "date": "2025-08-11",
-      "category": "Labor Enforcement & Surveillance",
-      "title": "VA terminates labor agreements with health worker unions",
-      "url": "https://www.theguardian.com/us-news/2025/aug/11/us-veterans-affairs-agency-medical-staff-departures",
-      "summary": "The Department of Veterans Affairs announced the termination of labor agreements with unions representing most of its health workers, citing a March executive order from President Trump aimed at eliminating collective bargaining rights on \"national security\" grounds. This move eliminates the VA's obligation to respond to reports of unsafe working conditions and voids contract language requiring professional training for nurses. The unions plan to challenge this decision in court, arguing that their right to bargain collectively cannot be revoked on such grounds.",
-      "why_relevant": "This action undermines workers' rights and safety standards, potentially jeopardizing the quality of care provided to veterans.",
-      "attacks": [
-        "workers",
-        "veterans"
-      ],
-      "_origin_file": "guardian_events_2025-06-07_2025-08-15.json",
-      "_origin_index": 42
-    },
-    {
-      "source_key": "hcr",
-      "date": "2025-08-12",
-      "category": "Executive Actions & Orders",
-      "title": "Trump Assumes Control Over D.C. Metropolitan Police Department",
-      "url": "https://www.washingtonpost.com/politics/2025/08/11/trump-national-guard-dc-crime-crackdown/",
-      "summary": "President Donald J. Trump announced at a press conference that he is taking control of the Washington, D.C., Metropolitan Police Department and deploying over 100 FBI agents, 40 agents from the Bureau of Alcohol, Tobacco, Firearms, and Explosives, along with other federal officers and National Guard members to address crime in the capital. He stated that officers would clear homeless encampments from the city. This move comes despite statistics showing a significant decrease in violent crime in D.C.",
-      "why_relevant": "This action represents a significant federal intervention in local law enforcement, raising concerns about the potential for authoritarian control over policing.",
-      "attacks": [
-        "separation_of_powers"
-      ],
-      "_origin_file": "hcr_events_2025-06-07_2025-08-15.json",
-      "_origin_index": 12
-    },
-    {
       "source_key": "hcr",
       "date": "2025-08-12",
       "category": "Executive Actions & Orders",
@@ -1659,20 +859,6 @@
       ],
       "_origin_file": "hcr_events_2025-01-20_2025-11-30.json",
       "_origin_index": 411
-    },
-    {
-      "source_key": "hcr",
-      "date": "2025-08-12",
-      "category": "Executive Actions & Orders",
-      "title": "Trump Mobilizes National Guard Amid Claims of Crime Crisis",
-      "url": "https://www.washingtonpost.com/politics/2025/08/11/trump-national-guard-dc-crime-crackdown/",
-      "summary": "President Trump mobilized the National Guard in Washington, D.C., claiming it was necessary to address a crime crisis, despite evidence showing that violent crime rates are at a historic low. This action is seen as a pretext for consolidating federal control over local law enforcement.",
-      "why_relevant": "This mobilization reflects an alarming trend of federal overreach into local governance and law enforcement, which can threaten democratic norms.",
-      "attacks": [
-        "separation_of_powers"
-      ],
-      "_origin_file": "hcr_events_2025-06-07_2025-08-15.json",
-      "_origin_index": 15
     },
     {
       "source_key": "hcr",
@@ -1751,21 +937,6 @@
       "_origin_index": 1061
     },
     {
-      "source_key": "guardian",
-      "date": "2025-08-12",
-      "category": "Judicial Developments",
-      "title": "Texas attorney general seeks jail for O’Rourke",
-      "url": "https://www.theguardian.com/us-news/2025/aug/12/beto-orourke-texas-democrats-ken-paxton",
-      "summary": "Texas Attorney General Ken Paxton has filed a request with a local judge to jail former congressman Beto O’Rourke for allegedly defying a court order that prohibits him and his political group, Powered by People, from fundraising. The order was issued to prevent the group from financially supporting Texas lawmakers who left the state to block the passage of a Republican-drawn congressional map. Paxton's filing claims O’Rourke continued to solicit donations after the ruling, and he seeks fines and jail time until O’Rourke complies with the court's orders. The Texas Senate has passed the new congressional map, but it faces challenges due to the quorum-break caused by the absent lawmakers.",
-      "why_relevant": "This event highlights the use of judicial power to enforce political compliance and the potential criminalization of political fundraising efforts, which can undermine democratic participation and dissent.",
-      "attacks": [
-        "justice_dept",
-        "elections_&_representation"
-      ],
-      "_origin_file": "guardian_events_2025-06-07_2025-08-15.json",
-      "_origin_index": 29
-    },
-    {
       "source_key": "hcr",
       "date": "2025-08-12",
       "category": "Judicial Developments",
@@ -1778,20 +949,6 @@
       ],
       "_origin_file": "hcr_events_2025-06-07_2025-08-15.json",
       "_origin_index": 13
-    },
-    {
-      "source_key": "hcr",
-      "date": "2025-08-12",
-      "category": "Judicial Developments",
-      "title": "California Sues Federal Government Over Unauthorized Troop Deployment",
-      "url": "https://calmatters.org/justice/2025/08/newsom-vs-trump-national-guard/",
-      "summary": "California Governor Gavin Newsom and Attorney General Rob Bonta filed a lawsuit against the Department of Justice, claiming it unlawfully deployed approximately 4,000 National Guard troops and 700 U.S. Marines to Los Angeles without proper authorization, violating the Posse Comitatus Act. The federal government acknowledged that the troops were subject to this law and were meant to guard federal buildings, but witnesses reported they accompanied ICE during arrests.",
-      "why_relevant": "This lawsuit challenges the legality of federal military involvement in local law enforcement, which is critical for maintaining the rule of law and civil liberties.",
-      "attacks": [
-        "rule_of_law"
-      ],
-      "_origin_file": "hcr_events_2025-01-20_2025-11-30.json",
-      "_origin_index": 412
     },
     {
       "source_key": "zeteo",
@@ -1828,20 +985,6 @@
       "source_key": "guardian",
       "date": "2025-08-12",
       "category": "Law Enforcement & Surveillance",
-      "title": "Baltimore police arrest pastor accused of abusing six teens",
-      "url": "https://www.theguardian.com/us-news/2025/aug/12/baltimore-pastor-accused-abusing-teens-arrested",
-      "summary": "Thomas Pinkerton, a former youth pastor in Baltimore, has been arrested on charges of molesting at least six teenagers between 2006 and 2010. The Baltimore County Police Department alleges that Pinkerton engaged in inappropriate touching and kissing, claiming it was a normal practice for a pastor. He was extradited from Georgia to Maryland on August 6 to face 24 felony and misdemeanor counts and has pleaded not guilty. The investigation began after multiple accusers came forward in the fall of 2024.",
-      "why_relevant": "The arrest highlights ongoing issues of sexual abuse within religious institutions and the need for accountability and protection for victims.",
-      "attacks": [
-        "children"
-      ],
-      "_origin_file": "guardian_events_2025-06-07_2025-08-15.json",
-      "_origin_index": 32
-    },
-    {
-      "source_key": "guardian",
-      "date": "2025-08-12",
-      "category": "Law Enforcement & Surveillance",
       "title": "Justice Department Seeks Sanctions Against Immigration Lawyer",
       "url": "https://www.theguardian.com/us-news/2025/aug/12/justice-department-immigration-lawyer-joshua-schroeder-trump",
       "summary": "The U.S. Department of Justice has filed a motion seeking sanctions against Joshua Schroeder, a California-based attorney, for his efforts to block the deportation of his client, a Hmong immigrant. The Justice Department accuses Schroeder of making \"reckless misrepresentations\" and is pursuing substantial financial penalties. This action follows a memorandum signed by President Trump in March, directing the Attorney General to prioritize sanctions against attorneys engaging in what the administration deems \"frivolous\" lawsuits. Schroeder's client was ultimately deported after a judge dismissed the case.",
@@ -1852,20 +995,6 @@
       ],
       "_origin_file": "guardian_events_2025-01-20_2025-11-30.json",
       "_origin_index": 1064
-    },
-    {
-      "source_key": "guardian",
-      "date": "2025-08-12",
-      "category": "Law Enforcement & Surveillance",
-      "title": "Justice Department seeks sanctions against immigration lawyer",
-      "url": "https://www.theguardian.com/us-news/2025/aug/12/justice-department-immigration-lawyer-joshua-schroeder-trump",
-      "summary": "The U.S. Department of Justice has filed a sanctions motion against attorney Joshua Schroeder, who attempted to block the deportation of his client, a Hmong man from Laos. The DOJ accuses Schroeder of making \"reckless misrepresentations\" in his legal filings and is seeking substantial financial penalties. This action follows a memorandum signed by President Trump in March, which prioritized sanctions against attorneys pursuing what the administration deems frivolous lawsuits. Advocates warn that this move is part of a broader strategy to intimidate immigration lawyers.",
-      "why_relevant": "This event highlights the Trump administration's efforts to punish legal advocates for immigrants, potentially undermining the rights of individuals seeking legal representation.",
-      "attacks": [
-        "immigrants_refugees"
-      ],
-      "_origin_file": "guardian_events_2025-06-07_2025-08-15.json",
-      "_origin_index": 31
     },
     {
       "source_key": "hcr",
@@ -1892,23 +1021,6 @@
       "attacks": [],
       "_origin_file": "democracydocket_events_2025-01-25_2026-01-30.json",
       "_origin_index": 86
-    },
-    {
-      "source_key": "guardian",
-      "date": "2025-08-12",
-      "category": "Civil Society & Protest",
-      "title": "DoJ finds George Washington University violated civil rights law",
-      "url": "https://www.theguardian.com/us-news/2025/aug/12/trump-administration-george-washington-university-civil-rights-law",
-      "summary": "The Department of Justice announced that George Washington University (GWU) violated federal civil rights law by failing to adequately address antisemitism during pro-Palestinian protests on campus in 2024. The DOJ's investigation revealed that GWU was \"deliberately indifferent\" to incidents of harassment and intimidation faced by Jewish students and faculty. The university has been given until August 22 to express interest in a voluntary resolution agreement to address these issues. GWU maintains its commitment to combating antisemitism and ensuring a safe educational environment.",
-      "why_relevant": "This action highlights the government's role in regulating university responses to discrimination and the implications for academic freedom and civil rights.",
-      "attacks": [
-        "minorities",
-        "truth",
-        "education",
-        "rule_of_law"
-      ],
-      "_origin_file": "guardian_events_2025-06-07_2025-08-15.json",
-      "_origin_index": 30
     },
     {
       "source_key": "noah",
@@ -1964,46 +1076,6 @@
       "_origin_index": 450
     },
     {
-      "source_key": "federalregister",
-      "date": "2025-08-12",
-      "category": "Economic & Regulatory Power",
-      "title": "Notice of Application for Bulk Manufacturer of Controlled Substances by Benuvia Operations, LLC",
-      "url": "https://www.federalregister.gov/documents/2025/08/12/2025-15279/bulk-manufacturer-of-controlled-substances-application-benuvia-operations-llc",
-      "summary": "The Drug Enforcement Administration published a notice regarding Benuvia Operations, LLC's application to register as a bulk manufacturer of various controlled substances, with a comment period ending on October 14, 2025. The company intends to manufacture these substances for internal research and dosage formulation development.",
-      "why_relevant": "This action regulates the manufacturing of controlled substances, impacting public health and safety measures related to drug production.",
-      "attacks": [],
-      "_origin_file": "federalregister_events_2025-06-07_2025-08-15.json",
-      "_origin_index": 1
-    },
-    {
-      "source_key": "guardian",
-      "date": "2025-08-12",
-      "category": "Economic & Regulatory Power",
-      "title": "Trump law will cut food stamps for 2.4 million people as work rules widen",
-      "url": "https://www.theguardian.com/us-news/2025/aug/12/trump-cut-food-stamps",
-      "summary": "The Trump administration has enacted a law that will cut food stamp benefits for approximately 2.4 million Americans by expanding work requirements for recipients. The law mandates that parents of dependent children aged 14 and older must work, volunteer, or participate in job training for at least 80 hours a month to qualify for benefits. This change is expected to disproportionately affect low-income households, while higher-income households may see an increase in resources. The Congressional Budget Office (CBO) has projected these outcomes following the law's passage in July.",
-      "why_relevant": "This law narrows access to essential food assistance for millions of low-income Americans, exacerbating food insecurity and inequality.",
-      "attacks": [
-        "poor"
-      ],
-      "_origin_file": "guardian_events_2025-06-07_2025-08-15.json",
-      "_origin_index": 33
-    },
-    {
-      "source_key": "hcr",
-      "date": "2025-08-12",
-      "category": "Economic & Regulatory Power",
-      "title": "Trump’s Economic Control Compared to State Capitalism",
-      "url": "https://www.wsj.com/economy/the-u-s-marches-toward-state-capitalism-with-american-characteristics-f75cafa8",
-      "summary": "Greg Ip of the Wall Street Journal noted that the U.S. is moving towards a form of state capitalism under Trump, where the government exerts significant control over private enterprises, contrasting sharply with traditional free market principles. This includes the government's involvement in U.S. Steel and directing investments from trading partners.",
-      "why_relevant": "The shift towards state capitalism raises concerns about the erosion of free market principles and the potential for government overreach into the private sector.",
-      "attacks": [
-        "economy"
-      ],
-      "_origin_file": "hcr_events_2025-06-07_2025-08-15.json",
-      "_origin_index": 16
-    },
-    {
       "source_key": "hcr",
       "date": "2025-08-12",
       "category": "Economic & Regulatory Power",
@@ -2028,18 +1100,6 @@
       "attacks": [],
       "_origin_file": "noah_events_2025-01-20_2025-11-30.json",
       "_origin_index": 71
-    },
-    {
-      "source_key": "federalregister",
-      "date": "2025-08-12",
-      "category": "Transparency & Records",
-      "title": "Federal Communications Commission Reviews Information Collection Under Delegated Authority",
-      "url": "https://www.federalregister.gov/documents/2025/08/12/2025-15241/information-collection-being-reviewed-by-the-federal-communications-commission-under-delegated",
-      "summary": "The Federal Communications Commission (FCC) has published a notice inviting public comments on an information collection under the Paperwork Reduction Act. The comments are due by October 14, 2025, and aim to assess the necessity and utility of the information collected.",
-      "why_relevant": "This action facilitates public participation in regulatory processes, ensuring transparency and accountability in the FCC's information collection practices.",
-      "attacks": [],
-      "_origin_file": "federalregister_events_2025-06-07_2025-08-15.json",
-      "_origin_index": 108
     },
     {
       "source_key": "noah",
@@ -2084,21 +1144,6 @@
       ],
       "_origin_file": "guardian_events_2025-01-20_2025-11-30.json",
       "_origin_index": 1051
-    },
-    {
-      "source_key": "guardian",
-      "date": "2025-08-13",
-      "category": "Executive Actions & Orders",
-      "title": "Trump seeks long-term control of DC police department",
-      "url": "https://www.theguardian.com/us-news/2025/aug/13/mayor-dc-trump-national-guard",
-      "summary": "President Trump announced plans to request Congress for \"long-term\" control of the Washington DC police department, following a temporary invocation of federal law. He indicated that he would also target other Democratic-led cities for similar changes. This move comes amid a campaign to address what he describes as a \"crime crisis,\" despite local leaders disputing the existence of such a crisis. Trump suggested that if necessary, he could extend control without Congressional approval by declaring a national emergency.",
-      "why_relevant": "This action represents an attempt to centralize control over local law enforcement, potentially undermining local governance and autonomy.",
-      "attacks": [
-        "civil_service",
-        "democracy"
-      ],
-      "_origin_file": "guardian_events_2025-06-07_2025-08-15.json",
-      "_origin_index": 20
     },
     {
       "source_key": "hcr",
@@ -2174,37 +1219,13 @@
       "source_key": "orders",
       "date": "2025-08-13",
       "category": "Executive Actions & Orders",
-      "title": "Executive Order Enabling Competition in the Commercial Space Industry Issued",
-      "url": "https://ballotpedia.org/Executive_Order:_Enabling_Competition_in_the_Commercial_Space_Industry_(Donald_Trump,_2025)",
-      "summary": "On August 13, 2025, President Donald Trump issued the Executive Order titled \"Enabling Competition in the Commercial Space Industry.\" This order aims to enhance the United States' competitive position in the commercial space sector by streamlining regulatory processes for launch and reentry licenses, expediting environmental reviews, and reforming regulatory barriers to spaceport infrastructure development. The order mandates various federal agencies to collaborate and implement measures to increase the cadence of commercial space activities by 2030.",
-      "why_relevant": "This executive order significantly impacts the commercial space industry by reducing regulatory hurdles, potentially fostering innovation and economic growth in a critical sector for national security and technological advancement.",
-      "attacks": [],
-      "_origin_file": "orders_events_2025-06-07_2025-08-15.json",
-      "_origin_index": 1
-    },
-    {
-      "source_key": "orders",
-      "date": "2025-08-13",
-      "category": "Executive Actions & Orders",
       "title": "Executive Order on Pharmaceutical Supply Chain Resilience",
       "url": "https://ballotpedia.org/Executive_Order:_Ensuring_American_Pharmaceutical_Supply_Chain_Resilience_by_Filling_the_Strategic_Active_Pharmaceutical_Ingredients_Reserve_(Donald_Trump,_2025)",
-      "summary": "On August 13, 2025, President Donald Trump issued an executive order to enhance the resilience of the American pharmaceutical supply chain by filling the Strategic Active Pharmaceutical Ingredients Reserve (SAPIR). The order mandates the development of a list of critical drugs and the procurement of a six-month supply of active pharmaceutical ingredients (APIs) for these drugs, with a preference for domestic production. The order aims to reduce reliance on foreign sources for APIs and strengthen national health security. The Department of Health and Human Services is tasked with implementing these measures within specified timeframes.",
-      "why_relevant": "This executive order is significant as it addresses national security concerns by aiming to reduce dependency on foreign pharmaceutical supply chains, thereby enhancing domestic production capabilities and preparedness for public health emergencies.",
+      "summary": "On August 13, 2025, President Donald Trump issued an executive order to enhance the resilience of the American pharmaceutical supply chain by filling the Strategic Active Pharmaceutical Ingredients Reserve (SAPIR). The order mandates the development of a list of critical drugs and the procurement of a six-month supply of active pharmaceutical ingredients (APIs) for these drugs, with a preference for domestic production. The order aims to reduce reliance on foreign sources for APIs and strengthen national health security. The Office of Management and Budget is tasked with facilitating the repurposing of funds to support this initiative.",
+      "why_relevant": "This executive order is significant as it addresses national security concerns by aiming to reduce dependency on foreign pharmaceutical supply chains, thereby enhancing the resilience and self-sufficiency of the U.S. healthcare system.",
       "attacks": [],
-      "_origin_file": "orders_events_2025-01-20_2025-11-30.json",
-      "_origin_index": 25
-    },
-    {
-      "source_key": "orders",
-      "date": "2025-08-13",
-      "category": "Executive Actions & Orders",
-      "title": "Executive Order to Fill Strategic Active Pharmaceutical Ingredients Reserve",
-      "url": "https://ballotpedia.org/Executive_Order:_Ensuring_American_Pharmaceutical_Supply_Chain_Resilience_by_Filling_the_Strategic_Active_Pharmaceutical_Ingredients_Reserve_(Donald_Trump,_2025)",
-      "summary": "On August 13, 2025, President Donald Trump issued an executive order aimed at enhancing the resilience of the American pharmaceutical supply chain by filling the Strategic Active Pharmaceutical Ingredients Reserve (SAPIR). The order mandates the Assistant Secretary for Preparedness and Response to develop a list of critical drugs and ensure a six-month supply of active pharmaceutical ingredients (APIs) is maintained, with a preference for domestic production. This action is intended to address vulnerabilities in the supply chain and promote domestic manufacturing of essential medicines.",
-      "why_relevant": "This executive order reflects a significant shift in policy aimed at securing the pharmaceutical supply chain, which has implications for public health and national security.",
-      "attacks": [],
-      "_origin_file": "orders_events_2025-06-07_2025-08-15.json",
-      "_origin_index": 2
+      "_origin_file": "orders_events_2025-01-20_2026-02-01.json",
+      "_origin_index": 44
     },
     {
       "source_key": "orders",
@@ -2212,11 +1233,11 @@
       "category": "Executive Actions & Orders",
       "title": "Executive Order: Enabling Competition in the Commercial Space Industry",
       "url": "https://ballotpedia.org/Executive_Order:_Enabling_Competition_in_the_Commercial_Space_Industry_(Donald_Trump,_2025)",
-      "summary": "On August 13, 2025, President Donald Trump issued an executive order aimed at enhancing competition in the commercial space industry. The order directs the Secretary of Transportation to streamline the approval process for commercial space launch and reentry licenses, reducing regulatory barriers. It also mandates the Secretary of Commerce to evaluate state compliance with federal spaceport development laws and propose a process for authorizing novel space activities. The order seeks to increase the frequency of commercial space launches and advance U.S. space capabilities by 2030.",
-      "why_relevant": "This executive order is significant as it aims to bolster the U.S. position in the global space industry by reducing regulatory hurdles and promoting innovation, which could have broad economic and national security implications.",
+      "summary": "On August 13, 2025, President Donald Trump issued an executive order aimed at enhancing competition in the commercial space industry. The order directs the Secretary of Transportation to streamline the approval process for commercial space launch and reentry licenses, and to reform regulatory barriers to spaceport infrastructure development. It also mandates the Secretary of Commerce to propose a process for authorizing novel space activities. The order seeks to increase the commercial space launch cadence and promote American space competitiveness by 2030, emphasizing economic growth and national security.",
+      "why_relevant": "This executive order is significant as it aims to bolster the United States' position in the global space industry, potentially impacting economic growth and national security.",
       "attacks": [],
-      "_origin_file": "orders_events_2025-01-20_2025-11-30.json",
-      "_origin_index": 24
+      "_origin_file": "orders_events_2025-01-20_2026-02-01.json",
+      "_origin_index": 43
     },
     {
       "source_key": "orders",
@@ -2224,25 +1245,13 @@
       "category": "Executive Actions & Orders",
       "title": "Revocation of Executive Order on Competition",
       "url": "https://ballotpedia.org/Executive_Order:_Revocation_of_Executive_Order_on_Competition_(Donald_Trump,_2025)",
-      "summary": "On August 13, 2025, President Donald Trump issued an executive order revoking Executive Order 14036, which was originally signed on July 9, 2021, to promote competition in the American economy. This revocation order does not affect the authority granted by law to any executive department or agency, nor does it create any enforceable rights or benefits. The costs for publishing this order are to be covered by the Department of Justice.",
+      "summary": "On August 13, 2025, President Donald Trump issued an executive order revoking Executive Order 14036, which was originally signed on July 9, 2021, to promote competition in the American economy. This revocation order does not affect the authority granted by law to any executive department or agency, nor does it create any enforceable rights or benefits against the United States. The costs for publishing this order are to be covered by the Department of Justice.",
       "why_relevant": "This action represents a significant shift in federal policy regarding economic competition, potentially impacting regulatory approaches and market dynamics.",
       "attacks": [
         "economy"
       ],
-      "_origin_file": "orders_events_2025-01-20_2025-11-30.json",
-      "_origin_index": 23
-    },
-    {
-      "source_key": "orders",
-      "date": "2025-08-13",
-      "category": "Executive Actions & Orders",
-      "title": "Revocation of Executive Order on Competition",
-      "url": "https://ballotpedia.org/Executive_Order:_Revocation_of_Executive_Order_on_Competition_(Donald_Trump,_2025)",
-      "summary": "On August 13, 2025, President Donald Trump issued an executive order revoking Executive Order 14036, which had promoted competition in the American economy. This action effectively nullifies the previous order's provisions aimed at enhancing market competition and may impact regulatory frameworks related to economic practices. The revocation signifies a shift in policy direction regarding competition in the marketplace.",
-      "why_relevant": "This revocation alters the regulatory landscape for competition in the economy, potentially affecting market dynamics and consumer protections.",
-      "attacks": [],
-      "_origin_file": "orders_events_2025-06-07_2025-08-15.json",
-      "_origin_index": 0
+      "_origin_file": "orders_events_2025-01-20_2026-02-01.json",
+      "_origin_index": 42
     },
     {
       "source_key": "guardian",
@@ -2259,21 +1268,6 @@
       ],
       "_origin_file": "guardian_events_2025-01-20_2025-11-30.json",
       "_origin_index": 1057
-    },
-    {
-      "source_key": "guardian",
-      "date": "2025-08-13",
-      "category": "Legislative & Oversight Activity",
-      "title": "Democrats file suit against Trump administration over ICE visitation policy",
-      "url": "https://www.theguardian.com/us-news/2025/aug/13/democrats-ice-detention-visits-blocked",
-      "summary": "A dozen Democratic members of Congress filed a lawsuit against the Trump administration, challenging a Department of Homeland Security policy that requires lawmakers to provide a week's notice before visiting ICE detention facilities. The Democrats argue that this requirement unlawfully restricts their oversight authority and violates their rights as a co-equal branch of government. The lawsuit highlights ongoing tensions between the administration and Congress regarding access to immigrant detention facilities amid reports of inhumane conditions.",
-      "why_relevant": "This lawsuit seeks to uphold congressional oversight rights, which are essential for maintaining checks and balances in government.",
-      "attacks": [
-        "congress",
-        "rule_of_law"
-      ],
-      "_origin_file": "guardian_events_2025-06-07_2025-08-15.json",
-      "_origin_index": 27
     },
     {
       "source_key": "guardian",
@@ -2305,20 +1299,6 @@
       ],
       "_origin_file": "guardian_events_2025-01-20_2025-11-30.json",
       "_origin_index": 1055
-    },
-    {
-      "source_key": "guardian",
-      "date": "2025-08-13",
-      "category": "Legislative & Oversight Activity",
-      "title": "Tennessee town approves plans to turn former prison into Ice detention center",
-      "url": "https://www.theguardian.com/us-news/2025/aug/13/tennessee-ice-detention-center-mason",
-      "summary": "Officials in Mason, Tennessee, voted to convert a former prison into an immigration detention facility operated by CoreCivic, despite public opposition. The board approved contracts with CoreCivic and ICE, allowing the facility to reopen after being closed in 2021. The mayor argued that the move would bring jobs and economic development to the struggling town, while critics expressed concerns about the treatment of immigrants and the implications for the community.",
-      "why_relevant": "This decision reflects a significant shift in local policy regarding immigration enforcement and the privatization of detention, raising concerns about the treatment of immigrants and community impact.",
-      "attacks": [
-        "immigrants_refugees"
-      ],
-      "_origin_file": "guardian_events_2025-06-07_2025-08-15.json",
-      "_origin_index": 25
     },
     {
       "source_key": "guardian",
@@ -2466,35 +1446,6 @@
     {
       "source_key": "guardian",
       "date": "2025-08-13",
-      "category": "Law Enforcement & Surveillance",
-      "title": "Retaliation against IceBlock app developer's wife by DOJ",
-      "url": "https://www.theguardian.com/us-news/2025/aug/13/ice-alert-app-trump",
-      "summary": "Carolyn Feinstein, the wife of IceBlock app developer Joshua Aaron, was fired from her position at the Department of Justice, which the couple claims was retaliation for the app's launch. The DOJ accused her of \"lack of candor\" and endangering law enforcement, but the couple believes the firing was directly linked to the app's development and its impact on ICE operations. This incident highlights the potential consequences for individuals involved in activism against immigration enforcement.",
-      "why_relevant": "The firing raises concerns about government retaliation against individuals advocating for immigrant rights and the chilling effect on free speech and activism.",
-      "attacks": [
-        "workers",
-        "immigrants_refugees"
-      ],
-      "_origin_file": "guardian_events_2025-06-07_2025-08-15.json",
-      "_origin_index": 24
-    },
-    {
-      "source_key": "guardian",
-      "date": "2025-08-13",
-      "category": "Law Enforcement & Surveillance",
-      "title": "Trump administration invokes Alien Enemies Act against Venezuelans",
-      "url": "https://www.theguardian.com/us-news/2025/aug/13/joseph-humire-thinktank-tren-de-aragua",
-      "summary": "The Trump administration invoked the Alien Enemies Act in March, leading to the expulsion of hundreds of Venezuelans accused of being members of the Tren de Aragua gang to a Salvadoran prison. This action was justified by claims that the Venezuelan government was collaborating with the gang to infiltrate the U.S. Despite skepticism from U.S. intelligence agencies regarding these claims, the administration has maintained its aggressive stance against Venezuela.",
-      "why_relevant": "The invocation of the Alien Enemies Act raises significant concerns about civil liberties and the treatment of individuals based on their nationality or alleged affiliations.",
-      "attacks": [
-        "immigrants_refugees"
-      ],
-      "_origin_file": "guardian_events_2025-06-07_2025-08-15.json",
-      "_origin_index": 23
-    },
-    {
-      "source_key": "guardian",
-      "date": "2025-08-13",
       "category": "Civil Society & Protest",
       "title": "Protest Against JD Vance's Visit in Cotswolds",
       "url": "https://www.theguardian.com/us-news/2025/aug/12/cotswolds-residents-protest-against-jd-vance-visit-charlbury",
@@ -2507,32 +1458,6 @@
       ],
       "_origin_file": "guardian_events_2025-01-20_2025-11-30.json",
       "_origin_index": 1060
-    },
-    {
-      "source_key": "guardian",
-      "date": "2025-08-13",
-      "category": "Civil Society & Protest",
-      "title": "Protest Against JD Vance's Visit to Cotswolds",
-      "url": "https://www.theguardian.com/us-news/2025/aug/12/cotswolds-residents-protest-against-jd-vance-visit-charlbury",
-      "summary": "Approximately 100 residents of Charlbury, Oxfordshire, gathered for a protest dubbed \"Dance Against Vance\" to express their discontent with US Vice President JD Vance's visit to the area. The event, organized by the Stop Trump Coalition, featured placards criticizing Vance's policies and actions, particularly regarding his treatment of Ukrainian President Volodymyr Zelenskyy. The protest highlighted local frustrations with the presence of high-profile political figures and the associated security measures that disrupted the community.",
-      "why_relevant": "The protest reflects community resistance to political figures perceived as out of touch with local issues, emphasizing the importance of public dissent in a democratic society.",
-      "attacks": [],
-      "_origin_file": "guardian_events_2025-06-07_2025-08-15.json",
-      "_origin_index": 28
-    },
-    {
-      "source_key": "guardian",
-      "date": "2025-08-13",
-      "category": "Information & Media Control",
-      "title": "Trump administration official led thinktank spreading false information about Venezuelan gang",
-      "url": "https://www.theguardian.com/us-news/2025/aug/13/joseph-humire-thinktank-tren-de-aragua",
-      "summary": "Joseph Humire, a senior official in the Trump administration's defense department, led a thinktank that published a report tracking alleged crimes by the Venezuelan gang Tren de Aragua. An analysis by InSight Crime revealed that multiple entries in the report were fabricated, with local police confirming that the reported crimes did not exist. Despite this, Humire has continued to promote the narrative that the Venezuelan government is directing the gang's activities. The Department of Defense has not commented on the findings.",
-      "why_relevant": "The dissemination of false information undermines the integrity of public discourse and can lead to harmful policy decisions based on inaccurate data.",
-      "attacks": [
-        "truth"
-      ],
-      "_origin_file": "guardian_events_2025-06-07_2025-08-15.json",
-      "_origin_index": 21
     },
     {
       "source_key": "federalregister",
@@ -2571,30 +1496,6 @@
       "_origin_index": 448
     },
     {
-      "source_key": "federalregister",
-      "date": "2025-08-13",
-      "category": "Economic & Regulatory Power",
-      "title": "Final Rule Amending Television Broadcasting Services in Portland, Oregon",
-      "url": "https://www.federalregister.gov/documents/2025/08/13/2025-15349/television-broadcasting-services-portland-oregon",
-      "summary": "The Federal Communications Commission finalized a rule substituting channel 12 for channel 21 in Portland, Oregon, allowing KPTV to maintain uninterrupted service. This change complies with community coverage and technical requirements.",
-      "why_relevant": "This rule ensures continued access to broadcasting services for viewers in Portland, impacting local media infrastructure.",
-      "attacks": [],
-      "_origin_file": "federalregister_events_2025-06-07_2025-08-15.json",
-      "_origin_index": 107
-    },
-    {
-      "source_key": "federalregister",
-      "date": "2025-08-13",
-      "category": "Economic & Regulatory Power",
-      "title": "Financial Assurance Guidance for the Good Samaritan Remediation of Abandoned Hardrock Mines Act of 2024",
-      "url": "https://www.federalregister.gov/documents/2025/08/13/2025-15352/financial-assurance-guidance-for-the-good-samaritan-remediation-of-abandoned-hardrock-mines-act-of",
-      "summary": "The Environmental Protection Agency issued guidance for financial assurance requirements under the Good Samaritan Remediation of Abandoned Hardrock Mines Act of 2024, detailing mechanisms for project funding and compliance. Comments are due by September 12, 2025.",
-      "why_relevant": "This guidance establishes financial protocols for environmental remediation projects, impacting regulatory compliance and funding mechanisms.",
-      "attacks": [],
-      "_origin_file": "federalregister_events_2025-06-07_2025-08-15.json",
-      "_origin_index": 207
-    },
-    {
       "source_key": "hcr",
       "date": "2025-08-13",
       "category": "Appointments & Patronage",
@@ -2624,33 +1525,6 @@
       "_origin_index": 8
     },
     {
-      "source_key": "federalregister",
-      "date": "2025-08-13",
-      "category": "Transparency & Records",
-      "title": "Federal Communications Commission Notice on Information Collection Approval",
-      "url": "https://www.federalregister.gov/documents/2025/08/13/2025-15375/information-collection-being-submitted-for-review-and-approval-to-office-of-management-and-budget",
-      "summary": "The Federal Communications Commission (FCC) published a notice inviting public comments on an information collection under the Paperwork Reduction Act, aimed at reducing paperwork burdens for small businesses. Comments are due by September 12, 2025.",
-      "why_relevant": "This action seeks to streamline information collection processes, potentially easing regulatory burdens on small businesses and enhancing transparency in government operations.",
-      "attacks": [],
-      "_origin_file": "federalregister_events_2025-06-07_2025-08-15.json",
-      "_origin_index": 106
-    },
-    {
-      "source_key": "guardian",
-      "date": "2025-08-13",
-      "category": "Civil–Military Relations & State Violence",
-      "title": "National guard begins deploying on DC streets after Trump police takeover",
-      "url": "https://www.theguardian.com/us-news/2025/aug/12/mayor-national-guard-washington-dc",
-      "summary": "The National Guard began deploying in Washington DC following President Trump's order to federalize law enforcement in the city, which has been criticized as an authoritarian power grab. Mayor Muriel Bowser condemned the move, asserting it undermines local autonomy and called for residents to resist Trump's actions. The deployment comes amid a significant law enforcement surge that resulted in multiple arrests, despite crime rates being at a historical low.",
-      "why_relevant": "This event highlights the federal government's increased control over local law enforcement, raising concerns about the erosion of democratic governance and local autonomy.",
-      "attacks": [
-        "civil_service",
-        "separation_of_powers"
-      ],
-      "_origin_file": "guardian_events_2025-06-07_2025-08-15.json",
-      "_origin_index": 26
-    },
-    {
       "source_key": "guardian",
       "date": "2025-08-13",
       "category": "Civil–Military Relations & State Violence",
@@ -2670,20 +1544,6 @@
       "source_key": "guardian",
       "date": "2025-08-13",
       "category": "Civil–Military Relations & State Violence",
-      "title": "Trump administration escalates military strategy against drug cartels",
-      "url": "https://www.theguardian.com/us-news/2025/aug/13/joseph-humire-thinktank-tren-de-aragua",
-      "summary": "The Trump administration has directed the Pentagon to use military force against drug cartels, marking a significant escalation in its \"war on drugs.\" This directive follows the administration's earlier designation of the Venezuelan gang Tren de Aragua as a terrorist organization and the doubling of a bounty on Venezuelan President Nicolás Maduro. The Justice Department has accused high-ranking Venezuelan officials of drug trafficking, while the State Department has also labeled the Cartel of the Suns as a terrorist organization.",
-      "why_relevant": "The use of military force in domestic drug enforcement raises concerns about the militarization of law enforcement and the potential for human rights violations.",
-      "attacks": [
-        "military"
-      ],
-      "_origin_file": "guardian_events_2025-06-07_2025-08-15.json",
-      "_origin_index": 22
-    },
-    {
-      "source_key": "guardian",
-      "date": "2025-08-13",
-      "category": "Civil–Military Relations & State Violence",
       "title": "Trump directs Pentagon to use military force on drug cartels",
       "url": "https://www.theguardian.com/us-news/2025/aug/13/joseph-humire-thinktank-tren-de-aragua",
       "summary": "President Trump has directed the Pentagon to employ military force against certain drug cartels, marking a significant escalation in the administration's \"war on drugs.\" This directive is part of a broader strategy to increase US involvement in Latin America, which includes threats of tariffs and military intervention. The move is seen as an aggressive stance against organized crime in the region, despite concerns about the potential for increased violence and destabilization.",
@@ -2694,20 +1554,6 @@
       ],
       "_origin_file": "guardian_events_2025-01-20_2025-11-30.json",
       "_origin_index": 1052
-    },
-    {
-      "source_key": "guardian",
-      "date": "2025-08-13",
-      "category": "Civil–Military Relations & State Violence",
-      "title": "VA experiences severe staff shortages due to significant workforce reduction",
-      "url": "https://www.theguardian.com/us-news/2025/aug/13/department-veterans-affairs-shortages-trump",
-      "summary": "The Department of Veterans Affairs (VA) is facing severe staff shortages at its hospitals, with a 50% increase in shortages this fiscal year, according to a report from the agency's independent watchdog. The report highlights that 94% of VA facilities are experiencing severe shortages of doctors and 79% of nurses, impacting the agency's ability to provide mission-critical care to veterans. The VA is currently undergoing a reduction of 30,000 workers, which officials claim will not affect patient care but is aimed at reducing bureaucracy.",
-      "why_relevant": "The significant reduction in healthcare staff at the VA undermines the quality of care available to veterans, impacting their access to necessary medical services.",
-      "attacks": [
-        "veterans"
-      ],
-      "_origin_file": "guardian_events_2025-06-07_2025-08-15.json",
-      "_origin_index": 19
     },
     {
       "source_key": "hcr",
@@ -2754,21 +1600,6 @@
       "source_key": "guardian",
       "date": "2025-08-14",
       "category": "Executive Actions & Orders",
-      "title": "Trump announces federal takeover of DC police department",
-      "url": "https://www.theguardian.com/us-news/2025/aug/14/trump-washington-dc-national-guard",
-      "summary": "On August 14, 2025, President Donald Trump announced a federal takeover of the Washington DC police department, citing a recent violent incident as justification. He described this action as a \"historic\" move to restore order in the capital, which he characterized as plagued by crime. This decision has drawn criticism from local leaders, who view it as an infringement on DC's home rule. The announcement follows a pattern of federal intervention in local governance during times of perceived crisis.",
-      "why_relevant": "This action undermines the autonomy of local governance in Washington DC, raising concerns about federal overreach and the implications for democratic representation.",
-      "attacks": [
-        "civil_service",
-        "democracy"
-      ],
-      "_origin_file": "guardian_events_2025-06-07_2025-08-15.json",
-      "_origin_index": 15
-    },
-    {
-      "source_key": "guardian",
-      "date": "2025-08-14",
-      "category": "Executive Actions & Orders",
       "title": "Trump issues draft executive order to exempt space launches from environmental review",
       "url": "https://www.theguardian.com/us-news/2025/aug/14/trump-rocket-launches-environment-musk-bezos",
       "summary": "A draft executive order from President Donald Trump aims to largely exempt space launches from environmental review, benefiting commercial space industry players like Elon Musk and Jeff Bezos. The order directs the US Department of Transportation to use all available authorities to eliminate or expedite environmental reviews, targeting the National Environmental Policy Act (NEPA) and the Coastal Zone Management Act. Critics argue that the order could lead to environmental disasters by increasing pollution and harming wildlife, and question its legality as it attempts to circumvent existing environmental laws.",
@@ -2780,35 +1611,6 @@
       ],
       "_origin_file": "guardian_events_2025-01-20_2025-11-30.json",
       "_origin_index": 1042
-    },
-    {
-      "source_key": "guardian",
-      "date": "2025-08-14",
-      "category": "Executive Actions & Orders",
-      "title": "Trump issues draft executive order to exempt space launches from environmental review",
-      "url": "https://www.theguardian.com/us-news/2025/aug/14/trump-rocket-launches-environment-musk-bezos",
-      "summary": "A draft executive order from President Donald Trump aims to exempt space launches from environmental reviews, potentially undermining protections under the National Environmental Policy Act (NEPA) and the Coastal Zone Management Act. The order directs the U.S. Transportation Department to expedite or eliminate these reviews, which could lead to significant environmental harm, including pollution and damage to wildlife habitats. Legal experts have raised concerns about the legality of this move, suggesting it may violate existing environmental laws.",
-      "why_relevant": "This executive order could significantly weaken environmental protections, allowing for increased pollution and harm to wildlife, which undermines democratic accountability and public health.",
-      "attacks": [
-        "environment"
-      ],
-      "_origin_file": "guardian_events_2025-06-07_2025-08-15.json",
-      "_origin_index": 12
-    },
-    {
-      "source_key": "guardian",
-      "date": "2025-08-14",
-      "category": "Executive Actions & Orders",
-      "title": "Trump orders relaxed rules for rocket launches, appearing to benefit Musk and Bezos",
-      "url": "https://www.theguardian.com/us-news/2025/aug/13/trump-order-rocket-launches-musk-bezos",
-      "summary": "Donald Trump signed an executive order titled “Enabling Competition in the Commercial Space Industry,” which relaxes environmental regulations for commercial rocket launches. This order allows companies like SpaceX and Blue Origin to potentially bypass environmental reviews mandated by the National Environmental Policy Act (NEPA). The FAA, which oversees launch permits, has faced criticism for lengthy review processes, and this order aims to expedite approvals, benefiting private space companies. Environmental advocates have raised concerns about the risks posed to wildlife and local communities.",
-      "why_relevant": "The executive order undermines environmental protections, potentially endangering communities and ecosystems while favoring corporate interests in the space industry.",
-      "attacks": [
-        "environment",
-        "truth"
-      ],
-      "_origin_file": "guardian_events_2025-06-07_2025-08-15.json",
-      "_origin_index": 18
     },
     {
       "source_key": "guardian",
@@ -2837,30 +1639,6 @@
       "attacks": [],
       "_origin_file": "congress_events_2025-01-20_2025-11-30.json",
       "_origin_index": 4
-    },
-    {
-      "source_key": "congress",
-      "date": "2025-08-14",
-      "category": "Legislative & Oversight Activity",
-      "title": "Became Law: ACES Act of 2025",
-      "url": "https://api.congress.gov/v3/bill/119/s/201?format=json",
-      "summary": "The ACES Act of 2025 was enacted, becoming Public Law No: 119-32, which signifies a legislative advancement in addressing specific policy areas.",
-      "why_relevant": "The enactment of this law reflects a significant legislative decision impacting governance and policy implementation.",
-      "attacks": [],
-      "_origin_file": "congress_events_2025-01-20_2025-12-21.json",
-      "_origin_index": 3
-    },
-    {
-      "source_key": "congress",
-      "date": "2025-08-14",
-      "category": "Legislative & Oversight Activity",
-      "title": "Became Law: ACES Act of 2025",
-      "url": "https://api.congress.gov/v3/bill/119/s/201?format=json",
-      "summary": "The ACES Act of 2025 was enacted, becoming Public Law No: 119-32, which signifies a legislative advancement in addressing specific policy areas.",
-      "why_relevant": "The enactment of this law reflects the legislative process and its impact on governance and policy implementation.",
-      "attacks": [],
-      "_origin_file": "congress_events_2025-01-20_2026-01-04.json",
-      "_origin_index": 3
     },
     {
       "source_key": "guardian",
@@ -2893,21 +1671,6 @@
       "_origin_index": 1038
     },
     {
-      "source_key": "guardian",
-      "date": "2025-08-14",
-      "category": "Legislative & Oversight Activity",
-      "title": "Texas Democrats prepare to return to state after two-week absence",
-      "url": "https://www.theguardian.com/us-news/2025/aug/14/texas-democrats-prepare-return",
-      "summary": "Texas Democrats announced their readiness to return to the state after a two-week absence aimed at blocking Republicans from passing a new congressional map that would add five GOP seats. They stated their return is contingent on the end of the current special session and the introduction of a new congressional map by California that would add five Democratic seats. The Democrats aim to build a legislative record to support potential legal challenges against the proposed map.",
-      "why_relevant": "This event highlights ongoing partisan conflicts over redistricting and voting rights, which are critical to maintaining fair representation in Congress.",
-      "attacks": [
-        "minorities",
-        "voting"
-      ],
-      "_origin_file": "guardian_events_2025-06-07_2025-08-15.json",
-      "_origin_index": 9
-    },
-    {
       "source_key": "hcr",
       "date": "2025-08-14",
       "category": "Legislative & Oversight Activity",
@@ -2918,18 +1681,6 @@
       "attacks": [],
       "_origin_file": "hcr_events_2025-01-20_2025-11-30.json",
       "_origin_index": 405
-    },
-    {
-      "source_key": "hcr",
-      "date": "2025-08-14",
-      "category": "Legislative & Oversight Activity",
-      "title": "Social Security Act signed into law",
-      "url": "https://www.ssa.gov/history/35act.html",
-      "summary": "On August 14, 1935, President Franklin Delano Roosevelt signed the Social Security Act into law, establishing a federal system of old-age benefits, unemployment insurance, and aid for dependent children. This legislation marked a significant shift in the relationship between the government and its citizens, creating a social safety net funded through taxation. The act was driven by Frances Perkins, the first woman in the U.S. Cabinet, who advocated for these changes in response to the hardships of the Great Depression.",
-      "why_relevant": "The Social Security Act fundamentally transformed American governance by institutionalizing a commitment to social welfare and economic security for citizens.",
-      "attacks": [],
-      "_origin_file": "hcr_events_2025-06-07_2025-08-15.json",
-      "_origin_index": 4
     },
     {
       "source_key": "guardian",
@@ -2946,22 +1697,6 @@
       ],
       "_origin_file": "guardian_events_2025-01-20_2025-11-30.json",
       "_origin_index": 1043
-    },
-    {
-      "source_key": "guardian",
-      "date": "2025-08-14",
-      "category": "Judicial Developments",
-      "title": "Lawsuit filed against ICE for unlawful deportation of US citizen children",
-      "url": "https://www.theguardian.com/us-news/2025/aug/14/ice-lawsuit-louisiana-immigration-deportation",
-      "summary": "A lawsuit was filed in Louisiana on July 31, 2025, against US Immigration and Customs Enforcement (ICE) by two mothers on behalf of their four minor children, including one with cancer. The suit alleges that ICE unlawfully deported the families to Honduras without due process, denying them access to counsel and ignoring legal filings. The lawsuit claims that three of the children, who are American citizens, were included in the deportation despite their parents' wishes for them to remain in the US for medical care. The case highlights serious concerns regarding the treatment of families and children in immigration enforcement actions.",
-      "why_relevant": "This lawsuit raises significant issues regarding due process and the rights of US citizen children in immigration enforcement actions, highlighting potential violations of constitutional rights.",
-      "attacks": [
-        "immigrants_refugees",
-        "children",
-        "rule_of_law"
-      ],
-      "_origin_file": "guardian_events_2025-06-07_2025-08-15.json",
-      "_origin_index": 13
     },
     {
       "source_key": "zeteo",
@@ -2982,44 +1717,6 @@
       "source_key": "guardian",
       "date": "2025-08-14",
       "category": "Law Enforcement & Surveillance",
-      "title": "Florida governor announces opening of new immigration jail",
-      "url": "https://www.theguardian.com/us-news/2025/aug/14/florida-governor-ron-desantis-immigration-detention",
-      "summary": "Florida Governor Ron DeSantis announced plans to open a second immigration jail at the former Baker correctional institution in Sanderson, which will hold up to 1,300 undocumented immigrants awaiting deportation. This announcement comes as a federal judge considers whether to close the existing facility known as \"Alligator Alcatraz\" due to allegations of inhumane conditions. DeSantis emphasized the need for additional capacity to enforce immigration laws and stated that the new facility would be operational soon, although no specific timeline was provided.",
-      "why_relevant": "The establishment of a new immigration jail raises concerns about the treatment of undocumented immigrants and the expansion of detention facilities in Florida.",
-      "attacks": [
-        "immigrants_refugees"
-      ],
-      "_origin_file": "guardian_events_2025-06-07_2025-08-15.json",
-      "_origin_index": 11
-    },
-    {
-      "source_key": "guardian",
-      "date": "2025-08-14",
-      "category": "Law Enforcement & Surveillance",
-      "title": "Man charged with assaulting federal officer over sandwich incident",
-      "url": "https://www.theguardian.com/us-news/2025/aug/13/man-accused-subway-sandwich-charged-felony-assault",
-      "summary": "Sean Charles Dunn has been charged with felony assault for allegedly throwing a sandwich at a US Customs and Border Protection agent in Washington DC. The incident, which was captured on video, occurred during a confrontation where Dunn expressed his discontent with the presence of federal officers. The charge could lead to a year in jail and significant fines. The case is being prosecuted by the US attorney's office, led by Trump appointee Jeanine Pirro, who has publicly supported the federal crackdown on crime in the district.",
-      "why_relevant": "This event highlights the increasing tensions between federal authorities and local populations, particularly in the context of aggressive law enforcement tactics under the Trump administration.",
-      "attacks": [],
-      "_origin_file": "guardian_events_2025-06-07_2025-08-15.json",
-      "_origin_index": 17
-    },
-    {
-      "source_key": "guardian",
-      "date": "2025-08-14",
-      "category": "Law Enforcement & Surveillance",
-      "title": "Man charged with felony assault for throwing sandwich at law enforcement officer",
-      "url": "https://www.theguardian.com/us-news/2025/aug/14/dc-sandwich-thrower-justice-department",
-      "summary": "Sean Charles Dunn was charged with felony assault after allegedly throwing a sandwich at a federal law enforcement officer in Washington DC. The incident occurred while Dunn confronted a group of US Customs and Border Protection officers. Following the incident, Dunn was fired from his position at the Department of Justice. The US attorney general emphasized the seriousness of the assault and the administration's commitment to law enforcement. The incident coincided with a broader crackdown on crime in the city, as announced by President Trump.",
-      "why_relevant": "This event highlights the administration's aggressive stance on law enforcement and the consequences of actions against federal officers, reflecting a broader trend of increasing tensions between citizens and law enforcement.",
-      "attacks": [],
-      "_origin_file": "guardian_events_2025-06-07_2025-08-15.json",
-      "_origin_index": 10
-    },
-    {
-      "source_key": "guardian",
-      "date": "2025-08-14",
-      "category": "Law Enforcement & Surveillance",
       "title": "Pam Bondi issues prosecution threat to sanctuary city leaders",
       "url": "https://www.theguardian.com/us-news/2025/aug/14/pam-bondi-sanctuary-cities-letter-immigration",
       "summary": "Pam Bondi, the attorney general, has sent letters to the mayors of 32 cities and several county executives, threatening prosecution if they do not comply with federal immigration enforcement policies. The letters demand a response by August 19, confirming their commitment to federal law and detailing initiatives to eliminate local laws that impede federal immigration enforcement. This action follows an executive order by Donald Trump, which directed the attorney general to identify and notify jurisdictions obstructing federal immigration laws as a precursor to potential prosecution or withholding of grants.",
@@ -3031,21 +1728,6 @@
       ],
       "_origin_file": "guardian_events_2025-01-20_2025-11-30.json",
       "_origin_index": 1037
-    },
-    {
-      "source_key": "guardian",
-      "date": "2025-08-14",
-      "category": "Law Enforcement & Surveillance",
-      "title": "Pam Bondi threatens prosecution for leaders not complying with immigration officers",
-      "url": "https://www.theguardian.com/us-news/2025/aug/14/pam-bondi-sanctuary-cities-letter-immigration",
-      "summary": "Pam Bondi, the attorney general, has sent letters to the mayors of 32 cities and some county executives, threatening prosecution for those who do not comply with federal immigration enforcement. The letters demand confirmation of compliance with federal law and outline potential legal consequences for non-compliance. Bondi cites an executive order from Donald Trump that instructs her to identify jurisdictions obstructing federal immigration laws. Initial responses from local leaders express skepticism and defiance against the threats made in the letters.",
-      "why_relevant": "This action represents a significant threat to local governance and autonomy regarding immigration policies, potentially coercing local leaders to align with federal enforcement.",
-      "attacks": [
-        "immigrants_refugees",
-        "local_governance"
-      ],
-      "_origin_file": "guardian_events_2025-06-07_2025-08-15.json",
-      "_origin_index": 8
     },
     {
       "source_key": "democracydocket",
@@ -3087,66 +1769,6 @@
       "attacks": [],
       "_origin_file": "congress_events_2025-01-20_2025-11-30.json",
       "_origin_index": 3
-    },
-    {
-      "source_key": "congress",
-      "date": "2025-08-14",
-      "category": "Economic & Regulatory Power",
-      "title": "Became Law: PRO Veterans Act of 2025",
-      "url": "https://api.congress.gov/v3/bill/119/s/423?format=json",
-      "summary": "The PRO Veterans Act of 2025 was enacted, establishing new provisions to support veterans' services and benefits. This law aims to enhance access to care and resources for veterans across the country.",
-      "why_relevant": "This law improves the support system for veterans, ensuring better access to necessary services and benefits.",
-      "attacks": [],
-      "_origin_file": "congress_events_2025-01-20_2025-12-21.json",
-      "_origin_index": 2
-    },
-    {
-      "source_key": "congress",
-      "date": "2025-08-14",
-      "category": "Economic & Regulatory Power",
-      "title": "Became Law: PRO Veterans Act of 2025",
-      "url": "https://api.congress.gov/v3/bill/119/s/423?format=json",
-      "summary": "The PRO Veterans Act of 2025 was enacted, establishing new provisions to enhance support and services for veterans. This law aims to improve access to healthcare and benefits for those who have served in the military.",
-      "why_relevant": "This law strengthens the support system for veterans, ensuring better access to essential services and benefits.",
-      "attacks": [],
-      "_origin_file": "congress_events_2025-01-20_2026-01-04.json",
-      "_origin_index": 2
-    },
-    {
-      "source_key": "federalregister",
-      "date": "2025-08-14",
-      "category": "Economic & Regulatory Power",
-      "title": "Air Plan Approval for Outdoor Burning in Oregon",
-      "url": "https://www.federalregister.gov/documents/2025/08/14/2025-15441/air-plan-approval-oregon-lane-regional-air-protection-agency-outdoor-burning",
-      "summary": "The Environmental Protection Agency approved revisions to the Lane Regional Air Protection Agency's outdoor burning rules, expanding the burning season in Lane County, Oregon, effective September 15, 2025. This action incorporates the revisions into the Oregon State Implementation Plan.",
-      "why_relevant": "This approval impacts local air quality management and regulatory compliance under the Clean Air Act.",
-      "attacks": [],
-      "_origin_file": "federalregister_events_2025-06-07_2025-08-15.json",
-      "_origin_index": 205
-    },
-    {
-      "source_key": "federalregister",
-      "date": "2025-08-14",
-      "category": "Economic & Regulatory Power",
-      "title": "Air Plan Approval; Missouri; Removal of Obsolete Rules on Control of NOX Emissions",
-      "url": "https://www.federalregister.gov/documents/2025/08/14/2025-15440/air-plan-approval-missouri-removal-of-obsolete-rules-on-control-of-nox-emissions",
-      "summary": "The Environmental Protection Agency approved the removal of two obsolete rules regarding nitrogen oxides emissions from Missouri's State Implementation Plan, effective September 15, 2025, as they no longer impact air quality.",
-      "why_relevant": "This action streamlines regulatory requirements, reflecting changes in state air quality management.",
-      "attacks": [],
-      "_origin_file": "federalregister_events_2025-06-07_2025-08-15.json",
-      "_origin_index": 206
-    },
-    {
-      "source_key": "federalregister",
-      "date": "2025-08-14",
-      "category": "Economic & Regulatory Power",
-      "title": "Approval of New York's Emission Statement Certification for Ozone Standards",
-      "url": "https://www.federalregister.gov/documents/2025/08/14/2025-15443/approval-and-promulgation-of-state-implementation-plans-new-york-emission-statement-certification-of",
-      "summary": "The Environmental Protection Agency approved New York's State Implementation Plan revisions certifying compliance with emission statement requirements for the 2008 and 2015 ozone National Ambient Air Quality Standards, effective September 15, 2025.",
-      "why_relevant": "This approval supports air quality management and regulatory compliance under the Clean Air Act, impacting public health and environmental standards.",
-      "attacks": [],
-      "_origin_file": "federalregister_events_2025-06-07_2025-08-15.json",
-      "_origin_index": 203
     },
     {
       "source_key": "federalregister",
@@ -3212,18 +1834,6 @@
       "source_key": "federalregister",
       "date": "2025-08-14",
       "category": "Economic & Regulatory Power",
-      "title": "EPA Grants in Part and Denies in Part Petition Regarding Valero Energy Partners' Operating Permit",
-      "url": "https://www.federalregister.gov/documents/2025/08/14/2025-15494/clean-air-act-operating-permit-program-petition-for-objection-to-state-operating-permit-for-valero",
-      "summary": "The EPA issued a final order on July 18, 2025, partially granting and denying a petition from environmental groups concerning a Clean Air Act operating permit for Valero Energy Partners in Harris County, Texas. The order allows for judicial review of the denied issues until October 14, 2025.",
-      "why_relevant": "This action reflects the EPA's regulatory oversight in environmental matters and the balance between industrial operations and community health concerns.",
-      "attacks": [],
-      "_origin_file": "federalregister_events_2025-06-07_2025-08-15.json",
-      "_origin_index": 200
-    },
-    {
-      "source_key": "federalregister",
-      "date": "2025-08-14",
-      "category": "Economic & Regulatory Power",
       "title": "EPA Grants Petition to Object to Utah Operating Permit",
       "url": "https://www.federalregister.gov/documents/2025/08/14/2025-15444/clean-air-act-operating-permit-program-order-on-petition-for-objection-to-state-operating-permit-for",
       "summary": "The Environmental Protection Agency (EPA) Administrator issued an order on May 30, 2025, granting a petition from the Center for Biological Diversity. The petition requested the EPA to object to a Clean Air Act operating permit issued by the Utah Department of Environmental Quality to Kinder Morgan Altamont, LLC for its compressor station in Duchesne County, Utah. The EPA's decision was based on the petition's arguments, which are detailed in the order.",
@@ -3243,18 +1853,6 @@
       "attacks": [],
       "_origin_file": "federalregister_events_2025-01-20_2025-11-30.json",
       "_origin_index": 856
-    },
-    {
-      "source_key": "federalregister",
-      "date": "2025-08-14",
-      "category": "Economic & Regulatory Power",
-      "title": "EPA Order on Petition for Objection to Kinder Morgan Operating Permit",
-      "url": "https://www.federalregister.gov/documents/2025/08/14/2025-15444/clean-air-act-operating-permit-program-order-on-petition-for-objection-to-state-operating-permit-for",
-      "summary": "The Environmental Protection Agency issued an order granting a petition from the Center for Biological Diversity, objecting to a Clean Air Act operating permit for Kinder Morgan Altamont, LLC in Duchesne County, Utah. This order was signed on May 30, 2025.",
-      "why_relevant": "This action reflects the EPA's role in regulating air quality and enforcing environmental protections under the Clean Air Act.",
-      "attacks": [],
-      "_origin_file": "federalregister_events_2025-06-07_2025-08-15.json",
-      "_origin_index": 202
     },
     {
       "source_key": "federalregister",
@@ -3296,54 +1894,6 @@
       "source_key": "federalregister",
       "date": "2025-08-14",
       "category": "Economic & Regulatory Power",
-      "title": "Federal Communications Commission Information Collection Review",
-      "url": "https://www.federalregister.gov/documents/2025/08/14/2025-15437/information-collection-being-reviewed-by-the-federal-communications-commission",
-      "summary": "The Federal Communications Commission (FCC) is inviting public comments on an information collection under the Paperwork Reduction Act, focusing on the necessity and utility of the data collected from broadcasters regarding digital television standards. Comments are due by October 14, 2025.",
-      "why_relevant": "This review impacts regulatory compliance for broadcasters, influencing the quality of information available to consumers regarding digital television programming.",
-      "attacks": [],
-      "_origin_file": "federalregister_events_2025-06-07_2025-08-15.json",
-      "_origin_index": 105
-    },
-    {
-      "source_key": "federalregister",
-      "date": "2025-08-14",
-      "category": "Economic & Regulatory Power",
-      "title": "Final Rule Amending FM Allotments in Matador, Texas",
-      "url": "https://www.federalregister.gov/documents/2025/08/14/2025-15514/radio-broadcasting-services-matador-texas",
-      "summary": "The Federal Communications Commission finalized a rule to amend the FM allotments in Matador, Texas, substituting Channel 276C2 for vacant Channel 244C2 and Channel 252C3 for vacant Channel 276C3, effective September 22, 2025.",
-      "why_relevant": "This rule facilitates the allocation of radio broadcasting channels, impacting local media access and communication.",
-      "attacks": [],
-      "_origin_file": "federalregister_events_2025-06-07_2025-08-15.json",
-      "_origin_index": 103
-    },
-    {
-      "source_key": "federalregister",
-      "date": "2025-08-14",
-      "category": "Economic & Regulatory Power",
-      "title": "Final Rule Amending Television Broadcasting Services in Henderson, Nevada",
-      "url": "https://www.federalregister.gov/documents/2025/08/14/2025-15438/television-broadcasting-services-henderson-nevada",
-      "summary": "The Federal Communications Commission finalized a rule substituting channel 9 for channel 24 in Henderson, Nevada, allowing KVVU-TV to maintain uninterrupted service. This change is effective as of August 14, 2025.",
-      "why_relevant": "This rule ensures continued access to television broadcasting services for the local community.",
-      "attacks": [],
-      "_origin_file": "federalregister_events_2025-06-07_2025-08-15.json",
-      "_origin_index": 104
-    },
-    {
-      "source_key": "federalregister",
-      "date": "2025-08-14",
-      "category": "Economic & Regulatory Power",
-      "title": "Final Rule Approving Iowa SIP Revision for Alter Metal Recycling Permit Modification",
-      "url": "https://www.federalregister.gov/documents/2025/08/14/2025-15442/air-plan-approval-ia-alter-metal-recycling-permit-modification",
-      "summary": "The Environmental Protection Agency approved revisions to the Iowa State Implementation Plan, incorporating a modified air construction permit for Alter Metal Recycling, effective September 15, 2025. This action does not affect air quality standards.",
-      "why_relevant": "This approval facilitates regulatory compliance for air quality management in Iowa, ensuring adherence to the Clean Air Act.",
-      "attacks": [],
-      "_origin_file": "federalregister_events_2025-06-07_2025-08-15.json",
-      "_origin_index": 204
-    },
-    {
-      "source_key": "federalregister",
-      "date": "2025-08-14",
-      "category": "Economic & Regulatory Power",
       "title": "Finding of Failure To Attain; Air Plan Approval for Huntington County, Indiana",
       "url": "https://www.federalregister.gov/documents/2025/08/14/2025-15455/finding-of-failure-to-attain-air-plan-approval-indiana-huntington-county-sulfur-dioxide-attainment",
       "summary": "The Environmental Protection Agency determined that Huntington County, Indiana, failed to meet the 2010 Sulfur Dioxide National Ambient Air Quality Standard by the April 9, 2023 deadline, while approving Indiana's State Implementation Plan revisions for compliance. This rule is effective September 15, 2025.",
@@ -3351,32 +1901,6 @@
       "attacks": [],
       "_origin_file": "federalregister_events_2025-06-07_2025-08-15.json",
       "_origin_index": 201
-    },
-    {
-      "source_key": "federalregister",
-      "date": "2025-08-14",
-      "category": "Economic & Regulatory Power",
-      "title": "Notice of Information Collection for Monthly Wholesale Trade Survey",
-      "url": "https://www.federalregister.gov/documents/2025/08/14/2025-15462/agency-information-collection-activities-submission-to-the-office-of-management-and-budget-omb-for",
-      "summary": "The Census Bureau published a notice inviting public comments on the proposed extension of the Monthly Wholesale Trade Survey, which collects data on sales and inventories from U.S. merchant wholesalers. Comments are due by October 14, 2025.",
-      "why_relevant": "This action facilitates the collection of economic data essential for assessing the wholesale trade sector's performance.",
-      "attacks": [],
-      "_origin_file": "federalregister_events_2025-06-07_2025-08-15.json",
-      "_origin_index": 57
-    },
-    {
-      "source_key": "federalregister",
-      "date": "2025-08-14",
-      "category": "Economic & Regulatory Power",
-      "title": "Revision of Agency Information Collection Activity Under OMB Review: Aviation Security Customer Satisfaction Performance Measurement Passenger Survey",
-      "url": "https://www.federalregister.gov/documents/2025/08/14/2025-15422/revision-of-agency-information-collection-activity-under-omb-review-aviation-security-customer",
-      "summary": "The Transportation Security Administration (TSA) has submitted a revision of the Aviation Security Customer Satisfaction Performance Measurement Passenger Survey to the Office of Management and Budget (OMB) for review, removing the term \"gender\" in compliance with Executive Order 14168. This survey aims to enhance TSA's security screening performance by measuring traveler satisfaction.",
-      "why_relevant": "This action reflects regulatory compliance and aims to improve the efficiency of TSA's operations, impacting public trust in aviation security measures.",
-      "attacks": [
-        "women"
-      ],
-      "_origin_file": "federalregister_events_2025-06-07_2025-08-15.json",
-      "_origin_index": 27
     },
     {
       "source_key": "guardian",
@@ -3405,22 +1929,6 @@
       ],
       "_origin_file": "guardian_events_2025-01-20_2025-11-30.json",
       "_origin_index": 1045
-    },
-    {
-      "source_key": "guardian",
-      "date": "2025-08-14",
-      "category": "Civil–Military Relations & State Violence",
-      "title": "Hegseth's Pentagon Policies Spark Division Among Military Ranks",
-      "url": "https://www.theguardian.com/us-news/2025/aug/14/pete-hegseth-pentagon-christian-nationalism",
-      "summary": "Secretary of Defense Pete Hegseth is promoting an ultra-conservative Christian nationalism within the Pentagon, leading to divisions among military personnel. His recruitment ads and social media activities, which incorporate religious themes, have drawn criticism from veterans who feel that such actions politicize their roles and undermine the military's integrity. Hegseth's approach has reportedly resulted in a surge of Christian nationalists joining the military, raising concerns about the future effectiveness of U.S. national security.",
-      "why_relevant": "Hegseth's actions are seen as undermining the military's nonpartisan nature and could threaten democratic values within the armed forces.",
-      "attacks": [
-        "military",
-        "truth",
-        "democracy"
-      ],
-      "_origin_file": "guardian_events_2025-06-07_2025-08-15.json",
-      "_origin_index": 14
     },
     {
       "source_key": "guardian",
@@ -3553,21 +2061,6 @@
       "source_key": "guardian",
       "date": "2025-08-15",
       "category": "Legislative & Oversight Activity",
-      "title": "Agreement to Scale Back Trump’s Control of DC Police",
-      "url": "https://www.theguardian.com/us-news/2025/aug/15/trump-dc-police-chief-dea",
-      "summary": "The White House and Washington DC officials reached an agreement to limit the Trump administration's control over the Metropolitan Police Department, ensuring it remains under the authority of Chief Pamela Smith rather than DEA Administrator Terry Cole. This decision follows a lawsuit filed by DC Attorney General Brian Schwalb, who argued that the federal government was overstepping its legal authority. The agreement allows for some federal involvement in emergencies but maintains local control over police operations.",
-      "why_relevant": "This event highlights the ongoing struggle between local and federal authority, particularly regarding law enforcement and immigration policies, which has significant implications for governance and civil rights in the capital.",
-      "attacks": [
-        "civil_service",
-        "rule_of_law"
-      ],
-      "_origin_file": "guardian_events_2025-08-16_2025-10-24.json",
-      "_origin_index": 732
-    },
-    {
-      "source_key": "guardian",
-      "date": "2025-08-15",
-      "category": "Legislative & Oversight Activity",
       "title": "Democrats introduce joint resolution to end federalization of DC police",
       "url": "https://www.theguardian.com/us-news/2025/aug/15/democrats-trump-dc-police-resolution",
       "summary": "Democratic lawmakers, including Representative Jamie Raskin and DC's non-voting House delegate Eleanor Holmes Norton, introduced a joint resolution to end former President Trump's federalization of the Metropolitan Police Department (MPD) in Washington DC. The resolution argues that Trump has not demonstrated the special emergency conditions required for such federalization under the District of Columbia Home Rule Act of 1973. The resolution is sponsored in the Senate by Chris Van Hollen of Maryland. Lawmakers claim Trump's actions have blocked DC's access to local funds and worsened public safety.",
@@ -3579,22 +2072,6 @@
       ],
       "_origin_file": "guardian_events_2025-01-20_2025-11-30.json",
       "_origin_index": 1028
-    },
-    {
-      "source_key": "guardian",
-      "date": "2025-08-15",
-      "category": "Legislative & Oversight Activity",
-      "title": "Democrats introduce joint resolution to end Trump’s ‘lawless’ DC takeover",
-      "url": "https://www.theguardian.com/us-news/2025/aug/15/democrats-trump-dc-police-resolution",
-      "summary": "Democratic lawmakers, including Representative Jamie Raskin and DC delegate Eleanor Holmes Norton, have introduced a joint resolution to terminate President Trump's federalization of the Metropolitan Police Department in Washington DC. They argue that Trump has not demonstrated any special emergency conditions that would justify this action, which they claim undermines local governance as established by the District of Columbia Home Rule Act of 1973. The resolution aims to restore local control over the police department.",
-      "why_relevant": "This resolution seeks to protect local governance and autonomy in Washington DC against federal overreach, which is crucial for democratic representation.",
-      "attacks": [
-        "separation_of_powers",
-        "rule_of_law",
-        "constitution"
-      ],
-      "_origin_file": "guardian_events_2025-06-07_2025-08-15.json",
-      "_origin_index": 0
     },
     {
       "source_key": "guardian",
@@ -3617,21 +2094,6 @@
       "source_key": "guardian",
       "date": "2025-08-15",
       "category": "Legislative & Oversight Activity",
-      "title": "Scrutiny over water level change for Vance's birthday",
-      "url": "https://www.theguardian.com/us-news/2025/aug/15/jd-vance-lake-water-levels-ohio",
-      "summary": "Senator Adam Schiff has raised concerns regarding the Secret Service and US military engineers' decision to alter the water level of Caesar Creek Lake in Ohio for JD Vance's birthday boating trip. Schiff's letter to the Secretary of Defense questions the appropriateness of using public funds for personal purposes and requests documentation of the decision-making process. He argues that this misuse of public resources is particularly troubling given recent cuts to federal agencies that affect outdoor recreation. The US Army Corps of Engineers stated that the request met operational criteria and did not require deviation from normal procedures.",
-      "why_relevant": "This event highlights potential misuse of public resources for personal gain, raising questions about accountability and transparency in government actions.",
-      "attacks": [
-        "workers",
-        "rule_of_law"
-      ],
-      "_origin_file": "guardian_events_2025-06-07_2025-08-15.json",
-      "_origin_index": 5
-    },
-    {
-      "source_key": "guardian",
-      "date": "2025-08-15",
-      "category": "Legislative & Oversight Activity",
       "title": "Secret Service and US Military Engineers Scrutinized for Altering Water Levels",
       "url": "https://www.theguardian.com/us-news/2025/aug/15/jd-vance-lake-water-levels-ohio",
       "summary": "The Secret Service and US military engineers are under scrutiny after Senator Adam Schiff questioned the decision to alter the water level of Caesar Creek Lake in Ohio for Vice-President JD Vance's birthday boating trip. Schiff's letter to the Secretary of Defense and army corps leadership suggests the use of funds for personal purposes may have been inappropriate. The Secret Service stated the change was for security reasons, and the USACE claimed it met operational criteria without requiring deviation from normal procedures. Schiff criticized the action as an improper use of public resources.",
@@ -3643,36 +2105,6 @@
       ],
       "_origin_file": "guardian_events_2025-01-20_2025-11-30.json",
       "_origin_index": 1034
-    },
-    {
-      "source_key": "guardian",
-      "date": "2025-08-15",
-      "category": "Legislative & Oversight Activity",
-      "title": "Texas Governor Calls Special Session for Redistricting",
-      "url": "https://www.theguardian.com/us-news/2025/aug/15/greg-abbott-special-session-electoral-maps",
-      "summary": "Texas Governor Greg Abbott officially called a second special session to address congressional redistricting, set to begin immediately after the first session adjourned. This move follows a significant absence of over 50 Texas Democrats, who left the state to deny Republicans a quorum necessary for legislative business. Abbott's proclamation emphasizes the urgency of completing the redistricting process, which aims to add five Republican seats in the state. The Democrats plan to return to Texas to build a legislative record for a potential legal challenge against the proposed maps.",
-      "why_relevant": "This special session is critical as it directly impacts the balance of power in Congress through redistricting, which can influence electoral outcomes and representation.",
-      "attacks": [
-        "elections_representation"
-      ],
-      "_origin_file": "guardian_events_2025-06-07_2025-08-15.json",
-      "_origin_index": 6
-    },
-    {
-      "source_key": "guardian",
-      "date": "2025-08-15",
-      "category": "Legislative & Oversight Activity",
-      "title": "Trump administration threatens sanctuary cities with prosecution and funding cuts",
-      "url": "https://www.theguardian.com/us-news/2025/aug/15/trump-washington-dc-democrat-cities-analysis",
-      "summary": "Pam Bondi, the US attorney general, sent letters to numerous sanctuary cities warning that local leaders could face prosecution and loss of federal funds if they do not comply with the Trump administration's immigration enforcement policies. This move is part of a broader strategy to target Democratic-run cities, asserting federal authority and potentially arresting local officials who obstruct immigration enforcement. The administration's actions have drawn legal challenges from cities defending their local policies.",
-      "why_relevant": "The threats against local officials undermine their autonomy and could lead to significant legal and political repercussions for cities resisting federal immigration policies.",
-      "attacks": [
-        "immigrants_refugees",
-        "local_government",
-        "rule_of_law"
-      ],
-      "_origin_file": "guardian_events_2025-06-07_2025-08-15.json",
-      "_origin_index": 4
     },
     {
       "source_key": "hcr",
@@ -3688,21 +2120,6 @@
       ],
       "_origin_file": "hcr_events_2025-01-20_2025-11-30.json",
       "_origin_index": 402
-    },
-    {
-      "source_key": "hcr",
-      "date": "2025-08-15",
-      "category": "Legislative & Oversight Activity",
-      "title": "Newsom Criticizes Trump's Influence on Redistricting",
-      "url": "https://www.gov.ca.gov/2025/08/14/governor-newsom-launches-statewide-response-to-trump-rigging-texas-elections/",
-      "summary": "During his announcement, Governor Newsom criticized former President Trump for attempting to influence the Texas legislature to redistrict in a way that would benefit Republicans. Newsom emphasized the need for Democrats to respond assertively to protect democracy, framing the situation as a critical moment for the nation. He called for a collective awakening to the threats posed by Trump's actions and rhetoric.",
-      "why_relevant": "Newsom's remarks highlight the ongoing struggle over electoral integrity and the importance of political accountability in safeguarding democratic norms.",
-      "attacks": [
-        "truth",
-        "democracy"
-      ],
-      "_origin_file": "hcr_events_2025-06-07_2025-08-15.json",
-      "_origin_index": 1
     },
     {
       "source_key": "outloud",
@@ -3736,22 +2153,6 @@
       "source_key": "guardian",
       "date": "2025-08-15",
       "category": "Judicial Developments",
-      "title": "Court lifts block on Trump’s mass firings at top US consumer watchdog",
-      "url": "https://www.theguardian.com/us-news/2025/aug/15/trump-cfpb-firings",
-      "summary": "A federal appeals court ruled that a lower court lacked jurisdiction to block the Trump administration's plan to lay off 1,500 employees at the Consumer Financial Protection Bureau (CFPB). This decision allows the administration to proceed with the firings, although it will not take immediate effect to permit further legal review by workers' representatives. The ruling is part of an ongoing legal battle regarding the future of the CFPB, which has returned over $21 billion to consumers since its inception.",
-      "why_relevant": "The ruling undermines the stability and oversight functions of the CFPB, potentially harming consumer protections and enabling executive overreach.",
-      "attacks": [
-        "workers",
-        "rule_of_law",
-        "separation_of_powers"
-      ],
-      "_origin_file": "guardian_events_2025-06-07_2025-08-15.json",
-      "_origin_index": 2
-    },
-    {
-      "source_key": "guardian",
-      "date": "2025-08-15",
-      "category": "Judicial Developments",
       "title": "Judge dismisses domestic terrorism charges against 'Cop City' protester",
       "url": "https://www.theguardian.com/us-news/2025/aug/15/cop-city-protester-charges-dropped",
       "summary": "A DeKalb superior court judge, Gregory Adams, dismissed domestic terrorism charges against Jamie Marsicano, a protester involved in the opposition to the 'Cop City' police training center near Atlanta, Georgia. The judge ruled that Marsicano's due process and constitutional rights were violated due to the state's delays and failure to issue an indictment two and a half years after the arrest. The decision is seen as a victory for protesters against the $109 million center, which has faced opposition over concerns of police militarization and environmental impact.",
@@ -3762,34 +2163,6 @@
       ],
       "_origin_file": "guardian_events_2025-01-20_2025-11-30.json",
       "_origin_index": 1032
-    },
-    {
-      "source_key": "guardian",
-      "date": "2025-08-15",
-      "category": "Judicial Developments",
-      "title": "Judge dismisses domestic terrorism charges against Atlanta ‘Cop City’ protester",
-      "url": "https://www.theguardian.com/us-news/2025/aug/15/cop-city-protester-charges-dropped",
-      "summary": "A DeKalb superior court judge dismissed domestic terrorism charges against Jamie Marsicano, ruling that their due process and constitutional rights were violated due to the state's delays in issuing an indictment. The judge noted that the state was intentionally delaying the process, which has been a concern among activists. This ruling is seen as a significant win for protesters opposing the police training center known as 'Cop City'. The dismissal marks the second time charges have been dropped in connection with the state's prosecution of opponents to the center.",
-      "why_relevant": "The dismissal of charges highlights issues of due process and the potential misuse of legal power against protesters, impacting the integrity of the judicial system.",
-      "attacks": [],
-      "_origin_file": "guardian_events_2025-06-07_2025-08-15.json",
-      "_origin_index": 3
-    },
-    {
-      "source_key": "guardian",
-      "date": "2025-08-15",
-      "category": "Judicial Developments",
-      "title": "New Orleans mayor indicted for corruption over alleged bodyguard romance",
-      "url": "https://www.theguardian.com/us-news/2025/aug/15/new-orleans-mayor-indicted-latoya-cantrell",
-      "summary": "LaToya Cantrell, the mayor of New Orleans, was indicted by a federal grand jury on corruption charges related to her alleged affair with her former bodyguard, Jeffrey Vappie. The indictment claims that Cantrell used city resources for personal gain, including arranging for Vappie to accompany her on trips and using a city-owned apartment for their meetings. Both Cantrell and Vappie face multiple charges, including wire fraud and obstruction of justice. This marks the first time a sitting New Orleans mayor has been charged with federal crimes.",
-      "why_relevant": "The indictment of a sitting mayor on corruption charges raises significant concerns about public trust in government and the integrity of elected officials.",
-      "attacks": [
-        "truth",
-        "decency",
-        "rule_of_law"
-      ],
-      "_origin_file": "guardian_events_2025-06-07_2025-08-15.json",
-      "_origin_index": 1
     },
     {
       "source_key": "guardian",
@@ -3836,18 +2209,6 @@
       "_origin_index": 30
     },
     {
-      "source_key": "federalregister",
-      "date": "2025-08-15",
-      "category": "Law Enforcement & Surveillance",
-      "title": "Temporary Placement of N-pyrrolidino metonitazene and N-pyrrolidino protonitazene in Schedule I",
-      "url": "https://www.federalregister.gov/documents/2025/08/15/2025-15566/schedules-of-controlled-substances-temporary-placement-of-n-pyrrolidino-metonitazene-and",
-      "summary": "The Drug Enforcement Administration has issued a temporary order to classify N-pyrrolidino metonitazene and N-pyrrolidino protonitazene as Schedule I controlled substances, effective until August 15, 2027, to mitigate public safety risks.",
-      "why_relevant": "This action addresses the urgent need to control substances posing imminent hazards to public safety amid rising opioid-related overdoses.",
-      "attacks": [],
-      "_origin_file": "federalregister_events_2025-06-07_2025-08-15.json",
-      "_origin_index": 0
-    },
-    {
       "source_key": "guardian",
       "date": "2025-08-15",
       "category": "Law Enforcement & Surveillance",
@@ -3864,20 +2225,6 @@
       "_origin_index": 1036
     },
     {
-      "source_key": "guardian",
-      "date": "2025-08-15",
-      "category": "Law Enforcement & Surveillance",
-      "title": "Man fleeing Ice raid outside LA Home Depot hit and killed on freeway",
-      "url": "https://www.theguardian.com/us-news/2025/aug/14/los-angeles-ice-raid",
-      "summary": "A man was killed while fleeing from an Immigration and Customs Enforcement (ICE) raid at a Home Depot in Los Angeles. The operation, which was not communicated to local officials, resulted in the detention of ten individuals. The incident highlights the ongoing federal immigration enforcement actions in California, which have sparked fear in immigrant communities. Local officials criticized the raids as harmful and counterproductive to community safety.",
-      "why_relevant": "The incident underscores the impact of federal immigration enforcement on local communities and raises concerns about the safety and rights of immigrants.",
-      "attacks": [
-        "immigrants_refugees"
-      ],
-      "_origin_file": "guardian_events_2025-06-07_2025-08-15.json",
-      "_origin_index": 7
-    },
-    {
       "source_key": "hcr",
       "date": "2025-08-15",
       "category": "Law Enforcement & Surveillance",
@@ -3891,20 +2238,6 @@
       ],
       "_origin_file": "hcr_events_2025-01-20_2025-11-30.json",
       "_origin_index": 403
-    },
-    {
-      "source_key": "hcr",
-      "date": "2025-08-15",
-      "category": "Law Enforcement & Surveillance",
-      "title": "Armed Border Patrol Agents Sent to Newsom's Event",
-      "url": "https://www.nytimes.com/2025/08/14/us/newsom-la-immigration-agents.html",
-      "summary": "Armed Border Patrol agents were deployed to the Japanese American National Museum in Los Angeles during Governor Newsom's announcement, reportedly to intimidate state officials. The presence of these agents, some carrying rifles, was described by a Border Patrol chief as a measure to ensure safety in Los Angeles, which Newsom interpreted as an act of intimidation against political leaders.",
-      "why_relevant": "The deployment of armed agents to a political event raises concerns about the use of law enforcement for intimidation and the impact on political discourse.",
-      "attacks": [
-        "democracy"
-      ],
-      "_origin_file": "hcr_events_2025-06-07_2025-08-15.json",
-      "_origin_index": 2
     },
     {
       "source_key": "noah",
@@ -3945,32 +2278,6 @@
     {
       "source_key": "hcr",
       "date": "2025-08-15",
-      "category": "Elections & Representation",
-      "title": "California to Hold Special Election on Redistricting",
-      "url": "https://www.gov.ca.gov/2025/08/14/governor-newsom-launches-statewide-response-to-trump-rigging-texas-elections/",
-      "summary": "California Governor Gavin Newsom announced a special election for November 4, 2025, to allow voters to consider temporary redistricting in response to Texas's potential redistricting efforts influenced by Trump. This plan aims to counteract what Newsom describes as Trump's manipulation of the electoral system to gain additional congressional seats. The proposal will only take effect if Texas proceeds with its redistricting, which is seen as a strategy to bolster Republican prospects in upcoming elections.",
-      "why_relevant": "This action represents a proactive measure by California to safeguard democratic processes against perceived electoral manipulation.",
-      "attacks": [],
-      "_origin_file": "hcr_events_2025-06-07_2025-08-15.json",
-      "_origin_index": 0
-    },
-    {
-      "source_key": "outloud",
-      "date": "2025-08-15",
-      "category": "Elections & Representation",
-      "title": "Texas Democrats Fight Against Electoral Map Rigging",
-      "url": "https://kziegler.substack.com/p/democracy-out-loud-446training-and",
-      "summary": "Texas State Representative Gene Wu and other Democrats are actively opposing efforts by former President Trump to manipulate electoral maps in Texas. This initiative is part of a broader struggle against perceived electoral injustices in the state, which has a significant number of registered Democrats compared to Republicans. The Democrats' efforts are aimed at ensuring fair representation and preventing disenfranchisement of voters in Texas.",
-      "why_relevant": "This action is significant as it addresses the integrity of electoral processes and the representation of voters in a major U.S. state.",
-      "attacks": [
-        "elections"
-      ],
-      "_origin_file": "outloud_events_2025-01-20_2025-11-30.json",
-      "_origin_index": 57
-    },
-    {
-      "source_key": "hcr",
-      "date": "2025-08-15",
       "category": "Civil Society & Protest",
       "title": "Newsom Calls for Action Against Trump's Assault on Democracy",
       "url": "https://www.gov.ca.gov/2025/08/14/governor-newsom-launches-statewide-response-to-trump-rigging-texas-elections/",
@@ -3984,20 +2291,6 @@
       "_origin_index": 404
     },
     {
-      "source_key": "hcr",
-      "date": "2025-08-15",
-      "category": "Civil Society & Protest",
-      "title": "Newsom Calls for Action Against Trump's Assault on Democracy",
-      "url": "https://www.gov.ca.gov/2025/08/14/governor-newsom-launches-statewide-response-to-trump-rigging-texas-elections/",
-      "summary": "Governor Newsom urged Americans to recognize and respond to what he described as Trump's assault on democratic institutions, knowledge, and public health. He emphasized the need for proactive engagement and action to protect democracy, referencing historical calls to action from President Abraham Lincoln.",
-      "why_relevant": "Newsom's call to action reflects a broader mobilization effort to defend democratic values against perceived authoritarian threats.",
-      "attacks": [
-        "democracy"
-      ],
-      "_origin_file": "hcr_events_2025-06-07_2025-08-15.json",
-      "_origin_index": 3
-    },
-    {
       "source_key": "noah",
       "date": "2025-08-15",
       "category": "Civil Society & Protest",
@@ -4008,20 +2301,6 @@
       "attacks": [],
       "_origin_file": "noah_events_2025-01-20_2025-11-30.json",
       "_origin_index": 68
-    },
-    {
-      "source_key": "outloud",
-      "date": "2025-08-15",
-      "category": "Civil Society & Protest",
-      "title": "Active Bystander Training in ICE Situations",
-      "url": "https://kziegler.substack.com/p/democracy-out-loud-446training-and",
-      "summary": "The DC Peace Team is offering training for active bystander intervention in situations involving ICE. This training aims to equip participants with the skills needed to respond effectively to ICE operations, reflecting ongoing community efforts to protect vulnerable populations from immigration enforcement.",
-      "why_relevant": "The training supports community resilience and preparedness in the face of aggressive immigration enforcement tactics.",
-      "attacks": [
-        "immigrants_refugees"
-      ],
-      "_origin_file": "outloud_events_2025-01-20_2025-11-30.json",
-      "_origin_index": 60
     },
     {
       "source_key": "outloud",
@@ -4048,20 +2327,6 @@
       ],
       "_origin_file": "outloud_events_2025-06-07_2025-08-15.json",
       "_origin_index": 2
-    },
-    {
-      "source_key": "outloud",
-      "date": "2025-08-15",
-      "category": "Civil Society & Protest",
-      "title": "Campaign to Ground Avelo Airlines for ICE Contract",
-      "url": "https://kziegler.substack.com/p/democracy-out-loud-446training-and",
-      "summary": "Activists, led by the group Engaged Durhamites for Democracy, are campaigning to ground Avelo Airlines due to its contract with Immigration and Customs Enforcement (ICE). This initiative was highlighted during a recent One Million Rising call, emphasizing the community's opposition to the airline's involvement with ICE operations.",
-      "why_relevant": "The campaign reflects civil society's role in challenging corporate complicity in controversial government actions, particularly those involving immigration enforcement.",
-      "attacks": [
-        "immigrants_refugees"
-      ],
-      "_origin_file": "outloud_events_2025-01-20_2025-11-30.json",
-      "_origin_index": 58
     },
     {
       "source_key": "outloud",
@@ -4110,20 +2375,6 @@
       "source_key": "outloud",
       "date": "2025-08-15",
       "category": "Civil Society & Protest",
-      "title": "Moral Monday Protest Against Republican Health Bill",
-      "url": "https://kziegler.substack.com/p/democracy-out-loud-446training-and",
-      "summary": "A Moral Monday protest is scheduled in Raleigh, North Carolina, to oppose a Republican health bill that is claimed to result in numerous deaths. The protest will feature symbolic caskets to illustrate the potential human cost of the legislation. Participants will march from the Capital to Senator Budd’s office to express their dissent.",
-      "why_relevant": "This protest highlights public opposition to legislative actions perceived as harmful to public health and welfare.",
-      "attacks": [
-        "public_health"
-      ],
-      "_origin_file": "outloud_events_2025-01-20_2025-11-30.json",
-      "_origin_index": 59
-    },
-    {
-      "source_key": "outloud",
-      "date": "2025-08-15",
-      "category": "Civil Society & Protest",
       "title": "Siembre NC coordinates 4th Amendment Workplace actions",
       "url": "https://kziegler.substack.com/p/democracy-out-loud-446training-and",
       "summary": "Siembre NC is organizing actions focused on the 4th Amendment in workplaces, aiming to protect individuals' rights against unwarranted searches and seizures. Participants can sign up for these local initiatives.",
@@ -4150,20 +2401,6 @@
       "_origin_index": 0
     },
     {
-      "source_key": "outloud",
-      "date": "2025-08-15",
-      "category": "Information & Media Control",
-      "title": "Indivisible's Truth Brigade Campaign Launch",
-      "url": "https://kziegler.substack.com/p/democracy-out-loud-446training-and",
-      "summary": "Indivisible is launching a Truth Brigade campaign to combat disinformation. The campaign aims to mobilize individuals to actively counter false narratives and promote factual information, with a launch event scheduled for September 10.",
-      "why_relevant": "This initiative addresses the critical issue of disinformation, which poses a threat to informed citizenship and democratic processes.",
-      "attacks": [
-        "truth"
-      ],
-      "_origin_file": "outloud_events_2025-01-20_2025-11-30.json",
-      "_origin_index": 61
-    },
-    {
       "source_key": "federalregister",
       "date": "2025-08-15",
       "category": "Economic & Regulatory Power",
@@ -4174,18 +2411,6 @@
       "attacks": [],
       "_origin_file": "federalregister_events_2025-01-20_2025-11-30.json",
       "_origin_index": 1223
-    },
-    {
-      "source_key": "federalregister",
-      "date": "2025-08-15",
-      "category": "Economic & Regulatory Power",
-      "title": "Environmental Impact Statements Notice of Availability",
-      "url": "https://www.federalregister.gov/documents/2025/08/15/2025-15551/environmental-impact-statements-notice-of-availability",
-      "summary": "The Environmental Protection Agency published a notice regarding the availability of Environmental Impact Statements (EISs) filed from August 4 to August 11, 2025, extending the comment period for certain EISs. This action ensures public engagement in environmental assessments.",
-      "why_relevant": "This notice facilitates public participation in environmental decision-making, reinforcing democratic engagement in regulatory processes.",
-      "attacks": [],
-      "_origin_file": "federalregister_events_2025-06-07_2025-08-15.json",
-      "_origin_index": 199
     },
     {
       "source_key": "federalregister",
@@ -4227,30 +2452,6 @@
       "source_key": "federalregister",
       "date": "2025-08-15",
       "category": "Economic & Regulatory Power",
-      "title": "EPA Publishes Findings on New Chemicals and Significant New Uses",
-      "url": "https://www.federalregister.gov/documents/2025/08/15/2025-15584/certain-new-chemicals-or-significant-new-uses-statements-of-findings-june-2025",
-      "summary": "The Environmental Protection Agency (EPA) issued a notice detailing findings under the Toxic Substances Control Act, confirming that certain new chemical substances and significant new uses are not likely to present an unreasonable risk to health or the environment. This applies to submissions reviewed from June 1 to June 30, 2025.",
-      "why_relevant": "This action reflects regulatory oversight of chemical safety, impacting public health and environmental protection.",
-      "attacks": [],
-      "_origin_file": "federalregister_events_2025-06-07_2025-08-15.json",
-      "_origin_index": 197
-    },
-    {
-      "source_key": "federalregister",
-      "date": "2025-08-15",
-      "category": "Economic & Regulatory Power",
-      "title": "Extension of Deadlines for Emission Standards in Oil and Gas Sector",
-      "url": "https://www.federalregister.gov/documents/2025/08/15/2025-15614/extension-of-deadlines-standards-of-performance-for-new-reconstructed-and-modified-sources-and",
-      "summary": "The Environmental Protection Agency extended compliance deadlines for performance standards and emissions guidelines for the oil and gas sector, integrated iron and steel manufacturing, and coke ovens, facilitating public hearings and comment periods.",
-      "why_relevant": "This action impacts environmental regulations and compliance timelines, influencing industry practices and public health standards.",
-      "attacks": [],
-      "_origin_file": "federalregister_events_2025-06-07_2025-08-15.json",
-      "_origin_index": 196
-    },
-    {
-      "source_key": "federalregister",
-      "date": "2025-08-15",
-      "category": "Economic & Regulatory Power",
       "title": "FDA Announces Public Meeting on Biosimilar User Fee Act III",
       "url": "https://www.federalregister.gov/documents/2025/08/15/2025-15571/biosimilar-user-fee-act-iii-regulatory-science-program-interim-public-meeting-public-meeting-interim",
       "summary": "The Food and Drug Administration (FDA) announced a public meeting to discuss the Biosimilar User Fee Act III Regulatory Science Program. The meeting, scheduled for September 18, 2025, will review the program's progress and solicit input on future research priorities. The FDA also released an interim report summarizing the pilot program's activities and research progress. Comments on the meeting and report are open until October 18, 2025.",
@@ -4258,18 +2459,6 @@
       "attacks": [],
       "_origin_file": "federalregister_events_2025-01-20_2025-11-30.json",
       "_origin_index": 1417
-    },
-    {
-      "source_key": "federalregister",
-      "date": "2025-08-15",
-      "category": "Economic & Regulatory Power",
-      "title": "FDA Announces Public Meeting on Biosimilar User Fee Act III Regulatory Science Program",
-      "url": "https://www.federalregister.gov/documents/2025/08/15/2025-15571/biosimilar-user-fee-act-iii-regulatory-science-program-interim-public-meeting-public-meeting-interim",
-      "summary": "The FDA is hosting a hybrid public meeting on September 18, 2025, to review the progress of the Biosimilar User Fee Act III Regulatory Science Program and solicit input on future research priorities. Comments are due by October 18, 2025.",
-      "why_relevant": "This meeting aims to enhance the development of biosimilar products, impacting healthcare access and innovation.",
-      "attacks": [],
-      "_origin_file": "federalregister_events_2025-06-07_2025-08-15.json",
-      "_origin_index": 406
     },
     {
       "source_key": "federalregister",
@@ -4287,18 +2476,6 @@
       "source_key": "federalregister",
       "date": "2025-08-15",
       "category": "Economic & Regulatory Power",
-      "title": "FDA Announces Public Workshop on Interchangeable Products Development",
-      "url": "https://www.federalregister.gov/documents/2025/08/15/2025-15572/advancing-the-development-of-interchangeable-products-identifying-future-needs-public-workshop",
-      "summary": "The Food and Drug Administration (FDA) is hosting a public workshop on September 19, 2025, to discuss future needs for developing interchangeable biosimilar products, inviting stakeholder input to inform a draft strategy document. Comments are due by October 19, 2025.",
-      "why_relevant": "This workshop aims to enhance the regulatory framework for biosimilars, impacting healthcare access and innovation.",
-      "attacks": [],
-      "_origin_file": "federalregister_events_2025-06-07_2025-08-15.json",
-      "_origin_index": 405
-    },
-    {
-      "source_key": "federalregister",
-      "date": "2025-08-15",
-      "category": "Economic & Regulatory Power",
       "title": "FDA Revokes Emergency Use Authorization for COVID-19 Diagnostic Device",
       "url": "https://www.federalregister.gov/documents/2025/08/15/2025-15556/revocation-of-authorization-of-emergency-use-of-in-vitro-diagnostic-device-for-detection-andor",
       "summary": "The Food and Drug Administration (FDA) has revoked the Emergency Use Authorization (EUA) for LumiraDx UK Ltd.'s LumiraDx SARS CoV-2 RNA STAR Complete diagnostic device. The revocation, effective April 15, 2025, was requested by the manufacturer, which ceased production of the device. The FDA determined that revocation was appropriate to protect public health and safety under the Federal Food, Drug, and Cosmetic Act.",
@@ -4306,42 +2483,6 @@
       "attacks": [],
       "_origin_file": "federalregister_events_2025-01-20_2025-11-30.json",
       "_origin_index": 1418
-    },
-    {
-      "source_key": "federalregister",
-      "date": "2025-08-15",
-      "category": "Economic & Regulatory Power",
-      "title": "Fees for Cruise Ship Operational Sanitation, Construction, and Renovation Inspections",
-      "url": "https://www.federalregister.gov/documents/2025/08/15/2025-15595/fees-for-cruise-ship-operational-sanitation-construction-and-renovation-inspections",
-      "summary": "The Centers for Disease Control and Prevention (CDC) announced that the vessel sanitation inspection fees established for fiscal year 2025 will continue into fiscal year 2026, remaining in effect until further notice. These fees apply to all passenger cruise vessels subject to inspections under the Vessel Sanitation Program.",
-      "why_relevant": "This action regulates the cruise ship industry, impacting public health and sanitation standards for vessels operating in U.S. waters.",
-      "attacks": [],
-      "_origin_file": "federalregister_events_2025-06-07_2025-08-15.json",
-      "_origin_index": 344
-    },
-    {
-      "source_key": "federalregister",
-      "date": "2025-08-15",
-      "category": "Economic & Regulatory Power",
-      "title": "Mandipropamid; Pesticide Tolerance Established",
-      "url": "https://www.federalregister.gov/documents/2025/08/15/2025-15555/mandipropamid-pesticide-tolerance",
-      "summary": "The Environmental Protection Agency established a tolerance for residues of mandipropamid on papaya at 0.9 parts per million, effective August 15, 2025, following a petition from Syngenta Crop Protection, LLC.",
-      "why_relevant": "This regulation impacts agricultural practices and food safety standards regarding pesticide use on crops.",
-      "attacks": [],
-      "_origin_file": "federalregister_events_2025-06-07_2025-08-15.json",
-      "_origin_index": 198
-    },
-    {
-      "source_key": "federalregister",
-      "date": "2025-08-15",
-      "category": "Economic & Regulatory Power",
-      "title": "Revocation of Emergency Use Authorization for COVID-19 Diagnostic Device",
-      "url": "https://www.federalregister.gov/documents/2025/08/15/2025-15556/revocation-of-authorization-of-emergency-use-of-in-vitro-diagnostic-device-for-detection-andor",
-      "summary": "The Food and Drug Administration revoked the Emergency Use Authorization for LumiraDx UK's SARS CoV-2 RNA STAR Complete, effective April 15, 2025, following a request from the manufacturer due to cessation of production.",
-      "why_relevant": "This action impacts public health measures and the availability of COVID-19 diagnostic tools.",
-      "attacks": [],
-      "_origin_file": "federalregister_events_2025-06-07_2025-08-15.json",
-      "_origin_index": 407
     },
     {
       "source_key": "noah",

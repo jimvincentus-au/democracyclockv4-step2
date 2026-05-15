@@ -1,0 +1,36 @@
+{
+  "window": {
+    "start": "2026-05-16",
+    "end": "2026-05-22"
+  },
+  "week_number": 70,
+  "sources": [
+    "50501"
+  ],
+  "counts": {
+    "total": 1,
+    "by_date": {
+      "2026-05-16": 1
+    },
+    "by_source": {
+      "50501": 1
+    },
+    "by_category": {
+      "Civil Society & Protest": 1
+    }
+  },
+  "events": [
+    {
+      "source_key": "50501",
+      "date": "2026-05-16",
+      "category": "Civil Society & Protest",
+      "title": "National voting rights mobilization planned",
+      "url": "https://www.the50501movement.org/p/all-roads-lead-to-the-south",
+      "summary": "A national mobilization for voting rights, \"All Roads Lead to the South,\" is scheduled for May 16. Led by Black Voters Matter and a coalition of over 90 organizations, the event will feature major gatherings in Alabama, including a prayer gathering in Selma and a rally in Montgomery. The mobilization aims to address recent attacks on voting rights and is part of a sustained summer of organizing for voter mobilization and civic education.",
+      "why_relevant": "The mobilization represents a significant effort to defend voting rights and promote civic engagement.",
+      "attacks": [],
+      "_origin_file": "50501_events_2026-05-02_2026-05-15.json",
+      "_origin_index": 5
+    }
+  ]
+}

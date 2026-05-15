@@ -5,53 +5,55 @@
   },
   "week_number": 58,
   "sources": [
+    "50501",
+    "noah",
     "zeteo",
     "guardian",
-    "democracydocket",
     "popinfo",
-    "federalregister",
     "meidas",
-    "50501",
-    "hcr",
     "outloud",
-    "noah"
+    "democracydocket",
+    "hcr",
+    "justsecurity",
+    "federalregister"
   ],
   "counts": {
-    "total": 305,
+    "total": 336,
     "by_date": {
-      "2026-02-21": 30,
-      "2026-02-22": 29,
-      "2026-02-23": 35,
-      "2026-02-24": 35,
-      "2026-02-25": 63,
-      "2026-02-26": 60,
-      "2026-02-27": 53
+      "2026-02-21": 35,
+      "2026-02-22": 31,
+      "2026-02-23": 38,
+      "2026-02-24": 40,
+      "2026-02-25": 66,
+      "2026-02-26": 61,
+      "2026-02-27": 65
     },
     "by_source": {
-      "guardian": 75,
+      "guardian": 77,
       "hcr": 42,
-      "meidas": 61,
-      "outloud": 6,
+      "meidas": 65,
+      "outloud": 8,
       "zeteo": 9,
       "noah": 11,
+      "justsecurity": 25,
       "federalregister": 78,
       "popinfo": 5,
-      "democracydocket": 8,
-      "50501": 10
+      "democracydocket": 5,
+      "50501": 11
     },
     "by_category": {
-      "Executive Actions & Orders": 27,
-      "Legislative & Oversight Activity": 37,
-      "Judicial Developments": 36,
+      "Executive Actions & Orders": 32,
+      "Legislative & Oversight Activity": 36,
+      "Judicial Developments": 63,
       "Law Enforcement & Surveillance": 23,
-      "Elections & Representation": 14,
-      "Civil Society & Protest": 16,
-      "Information & Media Control": 16,
+      "Elections & Representation": 13,
+      "Civil Society & Protest": 18,
+      "Information & Media Control": 15,
       "Economic & Regulatory Power": 89,
-      "International Relations": 19,
-      "Civil–Military Relations & State Violence": 9,
+      "International Relations": 21,
+      "Civil–Military Relations & State Violence": 8,
       "Transparency & Records": 10,
-      "Voting rights / Courts / Democracy protection": 2,
+      "Voting rights / Courts / Democracy protection": 1,
       "Health & Public Welfare": 2,
       "Public Health & Welfare": 1,
       "Appointments & Patronage": 4
@@ -145,6 +147,21 @@
       ],
       "_origin_file": "hcr_events_2026-02-21_2026-02-27.json",
       "_origin_index": 40
+    },
+    {
+      "source_key": "meidas",
+      "date": "2026-02-21",
+      "category": "Executive Actions & Orders",
+      "title": "Trump Announces New Global Tariffs Despite Court Ruling",
+      "url": "https://www.meidasplus.com/p/saturday-afternoon-news-updates-after",
+      "summary": "Following the Supreme Court's decision, President Trump announced a new 10 percent worldwide tariff, later increasing it to 15 percent. He claims to invoke Section 122 of the Trade Act of 1974, which allows temporary import surcharges under specific conditions. However, the current U.S. economic situation does not meet the statute's requirements, raising questions about the legality of Trump's actions.",
+      "why_relevant": "This action challenges the legal limits of presidential authority in trade policy, potentially leading to further legal disputes.",
+      "attacks": [
+        "separation_of_powers",
+        "rule_of_law"
+      ],
+      "_origin_file": "meidas_events_2026-02-21_2026-02-24.json",
+      "_origin_index": 22
     },
     {
       "source_key": "meidas",
@@ -315,6 +332,21 @@
       "_origin_index": 49
     },
     {
+      "source_key": "meidas",
+      "date": "2026-02-21",
+      "category": "Judicial Developments",
+      "title": "Supreme Court Strikes Down Trump's Tariff Regime",
+      "url": "https://www.meidasplus.com/p/saturday-afternoon-news-updates-after",
+      "summary": "The Supreme Court ruled against President Trump's tariff regime, declaring it unlawful. The decision emphasized that the president does not have unchecked power to impose global taxes under emergency authority. This ruling marks a significant legal setback for Trump's trade policies, which have been criticized for lacking statutory support. The Court's decision reinforces the principle of checks and balances, limiting executive overreach in trade matters.",
+      "why_relevant": "The ruling underscores the judiciary's role in curbing executive overreach and maintaining the rule of law.",
+      "attacks": [
+        "separation_of_powers",
+        "rule_of_law"
+      ],
+      "_origin_file": "meidas_events_2026-02-21_2026-02-24.json",
+      "_origin_index": 21
+    },
+    {
       "source_key": "guardian",
       "date": "2026-02-21",
       "category": "Law Enforcement & Surveillance",
@@ -394,13 +426,41 @@
       "category": "Civil Society & Protest",
       "title": "Proposed ICE Detention Centers in North Carolina",
       "url": "https://kziegler.substack.com/p/democracy-out-loud-473the-way-forward",
-      "summary": "Plans have been announced for the expansion of ICE detention centers in North Carolina, specifically in Cary, Charlotte, and Concord. These expansions have been reported by Wired and the New York Times. Democracy Out Loud, along with other Indivisible groups, is organizing opposition to these plans. Efforts include contacting real estate companies involved in potential sales for ICE use and mobilizing community protests. A meeting of the Cary Town Council is scheduled for March 5 to discuss the proposed new ICE office in Cary.",
+      "summary": "Plans have been announced for the expansion of ICE detention centers in North Carolina, specifically in Cary, Charlotte, and Concord. These expansions have been reported by Wired and the New York Times. Local groups, including Democracy Out Loud and other Indivisible groups, are organizing to oppose these plans. They are encouraging public action to block the sale of a warehouse in Concord intended for ICE use and to oppose detention centers in Hertford and Greensboro. Additionally, there is a weekly protest at the ICE facility in Cary, organized by Engaged Defenders 4 Democracy.",
       "why_relevant": "The expansion of ICE detention centers raises significant concerns about human rights and the treatment of immigrants, prompting organized civil resistance.",
       "attacks": [
         "immigrants_refugees"
       ],
-      "_origin_file": "outloud_events_2026-02-21_2026-02-27.json",
-      "_origin_index": 5
+      "_origin_file": "outloud_events_2026-02-21_2026-02-24.json",
+      "_origin_index": 0
+    },
+    {
+      "source_key": "outloud",
+      "date": "2026-02-21",
+      "category": "Civil Society & Protest",
+      "title": "Public Opposition to ICE Warehouse Sale in Concord, North Carolina",
+      "url": "https://kziegler.substack.com/p/democracy-out-loud-473the-way-forward",
+      "summary": "Activists are urging the public to contact Crescent Communities to oppose the sale of a warehouse in Concord, North Carolina, intended for use by ICE. The campaign aims to prevent the establishment of a detention center by discouraging business dealings with ICE. Activists are calling for Crescent Communities to publicly assert they have no plans to contract with DHS or any related entities.",
+      "why_relevant": "This action represents a strategic effort to prevent the expansion of immigration detention facilities through community and business pressure.",
+      "attacks": [
+        "immigrants_refugees"
+      ],
+      "_origin_file": "outloud_events_2026-02-21_2026-02-24.json",
+      "_origin_index": 2
+    },
+    {
+      "source_key": "outloud",
+      "date": "2026-02-21",
+      "category": "Civil Society & Protest",
+      "title": "Weekly Protests Against ICE in Cary, North Carolina",
+      "url": "https://kziegler.substack.com/p/democracy-out-loud-473the-way-forward",
+      "summary": "Engaged Defenders 4 Democracy is organizing weekly protests at the ICE facility in Cary, North Carolina. These protests occur every Friday from 9 to 11 am, under the banner \"ICE is not welcome here.\" The protests are part of a broader effort to oppose the establishment and expansion of ICE facilities in the area, reflecting ongoing community resistance to federal immigration enforcement practices.",
+      "why_relevant": "Regular protests highlight community opposition to federal immigration policies and practices, emphasizing the role of civil society in advocating for immigrant rights.",
+      "attacks": [
+        "immigrants_refugees"
+      ],
+      "_origin_file": "outloud_events_2026-02-21_2026-02-24.json",
+      "_origin_index": 1
     },
     {
       "source_key": "meidas",
@@ -495,6 +555,21 @@
     {
       "source_key": "meidas",
       "date": "2026-02-21",
+      "category": "International Relations",
+      "title": "U.S. Ambassador Criticizes EU Defense Procurement Rules",
+      "url": "https://www.meidasplus.com/p/saturday-afternoon-news-updates-after",
+      "summary": "The U.S. Ambassador to the European Union criticized the EU for considering procurement rules favoring European-made defense equipment. This statement comes amid strained transatlantic relations due to the Trump administration's trade policies. European leaders are increasingly seeking self-reliance in defense production, reflecting uncertainty about U.S. reliability as a partner.",
+      "why_relevant": "The criticism highlights growing tensions between the U.S. and its European allies, affecting international alliances and defense cooperation.",
+      "attacks": [
+        "allies",
+        "diplomacy"
+      ],
+      "_origin_file": "meidas_events_2026-02-21_2026-02-24.json",
+      "_origin_index": 23
+    },
+    {
+      "source_key": "meidas",
+      "date": "2026-02-21",
       "category": "Civil–Military Relations & State Violence",
       "title": "Trump Administration Faces Challenges in Military Budget Increase",
       "url": "https://www.meidasplus.com/p/this-weekend-in-politics-bulletin-17d",
@@ -523,6 +598,30 @@
       "_origin_index": 62
     },
     {
+      "source_key": "hcr",
+      "date": "2026-02-22",
+      "category": "Executive Actions & Orders",
+      "title": "President Harrison admits Montana and Washington as states",
+      "url": "https://www.archives.gov/publications/prologue/1996/spring/1890-census",
+      "summary": "On November 8 and November 11, 1889, President Harrison admitted Montana and Washington into the Union, completing a series of state admissions that favored the Republican Party.",
+      "why_relevant": "The admission of Montana and Washington further solidified Republican control in Congress, impacting legislative outcomes and electoral dynamics.",
+      "attacks": [],
+      "_origin_file": "hcr_events_2026-02-21_2026-02-24.json",
+      "_origin_index": 8
+    },
+    {
+      "source_key": "hcr",
+      "date": "2026-02-22",
+      "category": "Executive Actions & Orders",
+      "title": "President Harrison signs statehood documents for North and South Dakota",
+      "url": "https://www.archives.gov/publications/prologue/1996/spring/1890-census",
+      "summary": "On November 2, 1889, President Benjamin Harrison signed the documents admitting North Dakota and South Dakota into the Union, marking a significant expansion of Republican influence in Congress.",
+      "why_relevant": "The admission of these states underlines the strategic efforts of the Republican Party to increase their representation and power in the federal government.",
+      "attacks": [],
+      "_origin_file": "hcr_events_2026-02-21_2026-02-24.json",
+      "_origin_index": 7
+    },
+    {
       "source_key": "noah",
       "date": "2026-02-22",
       "category": "Executive Actions & Orders",
@@ -543,11 +642,11 @@
       "category": "Legislative & Oversight Activity",
       "title": "Admission of Wyoming and Idaho as new states",
       "url": "https://www.archives.gov/publications/prologue/1996/spring/1890-census",
-      "summary": "On July 3, 1890, Wyoming and Idaho were admitted to the Union after a party-line vote. This marked the addition of six new states in less than a year, further consolidating Republican power in Congress despite concerns from Democrats and moderate Republicans about the skewed representation.",
-      "why_relevant": "The admission of these states highlights the political motivations behind statehood and the implications for congressional representation.",
+      "summary": "On July 3, 1890, Wyoming and Idaho were admitted to the Union after a party-line vote, adding six new states to the Union in less than a year and enhancing Republican representation in Congress.",
+      "why_relevant": "The admission of these states exemplifies the political strategy of the Republican Party to manipulate statehood processes for electoral advantage.",
       "attacks": [],
-      "_origin_file": "hcr_events_2026-02-21_2026-02-27.json",
-      "_origin_index": 35
+      "_origin_file": "hcr_events_2026-02-21_2026-02-24.json",
+      "_origin_index": 9
     },
     {
       "source_key": "hcr",
@@ -555,37 +654,26 @@
       "category": "Legislative & Oversight Activity",
       "title": "Grover Cleveland signs omnibus bill for Dakota Territory division",
       "url": "https://www.archives.gov/publications/prologue/1996/spring/1890-census",
-      "summary": "On February 22, 1889, President Grover Cleveland signed an omnibus bill that divided the Dakota Territory into North Dakota and South Dakota, allowing these territories, along with Montana and Washington, to draft state constitutions and establish state governments. This legislative action set the stage for the admission of these four states into the Union within nine months, significantly impacting the political landscape by increasing Republican representation in Congress.",
-      "why_relevant": "This event illustrates the political maneuvering involved in state admissions, highlighting how party interests can shape governance and representation.",
+      "summary": "On February 22, 1889, President Grover Cleveland signed an omnibus bill that divided the Dakota Territory into North Dakota and South Dakota, allowing these territories, along with Montana and Washington, to draft state constitutions and establish state governments. This legislative action set the stage for the admission of these states into the Union within nine months, significantly impacting the political landscape by increasing Republican representation in Congress.",
+      "why_relevant": "This event illustrates the political maneuvering involved in state admissions, which can alter the balance of power in Congress and influence national elections.",
       "attacks": [],
-      "_origin_file": "hcr_events_2026-02-21_2026-02-27.json",
-      "_origin_index": 31
+      "_origin_file": "hcr_events_2026-02-21_2026-02-24.json",
+      "_origin_index": 4
     },
     {
       "source_key": "hcr",
       "date": "2026-02-22",
       "category": "Legislative & Oversight Activity",
-      "title": "Manipulation of the 1890 census for political advantage",
+      "title": "Manipulation of the 1890 census for political gain",
       "url": "https://www.archives.gov/publications/prologue/1996/spring/1890-census",
-      "summary": "The Republican administration manipulated the 1890 census to favor Republican districts, projecting that this would yield fifteen additional Republican congressmen while only seven for the Democrats. This manipulation aimed to secure a stronger Republican majority in Congress.",
-      "why_relevant": "This act of manipulating census data demonstrates the lengths to which political parties may go to maintain power and influence electoral outcomes.",
+      "summary": "The Republican administration manipulated the 1890 census to favor Republican districts, projecting a significant increase in Republican congressional representation while diminishing Democratic influence.",
+      "why_relevant": "This manipulation of the census highlights the lengths to which political parties may go to secure power, undermining the integrity of democratic processes.",
       "attacks": [
-        "21"
+        "truth",
+        "rule_of_law"
       ],
-      "_origin_file": "hcr_events_2026-02-21_2026-02-27.json",
-      "_origin_index": 36
-    },
-    {
-      "source_key": "hcr",
-      "date": "2026-02-22",
-      "category": "Legislative & Oversight Activity",
-      "title": "President Harrison signs statehood documents for new states",
-      "url": "https://www.archives.gov/publications/prologue/1996/spring/1890-census",
-      "summary": "On November 2, 1889, President Benjamin Harrison signed the documents admitting North Dakota and South Dakota into the Union. Following this, Montana was admitted on November 8, and Washington on November 11, 1889. This series of admissions marked a significant expansion of the United States and solidified Republican influence in the Senate.",
-      "why_relevant": "The admission of these states illustrates the strategic efforts to enhance Republican power in Congress and the Electoral College.",
-      "attacks": [],
-      "_origin_file": "hcr_events_2026-02-21_2026-02-27.json",
-      "_origin_index": 34
+      "_origin_file": "hcr_events_2026-02-21_2026-02-24.json",
+      "_origin_index": 10
     },
     {
       "source_key": "meidas",
@@ -666,25 +754,27 @@
       "source_key": "meidas",
       "date": "2026-02-22",
       "category": "Law Enforcement & Surveillance",
-      "title": "DHS Reverses Suspension of TSA PreCheck and Global Entry",
+      "title": "DHS suspends and then reinstates TSA PreCheck and Global Entry",
       "url": "https://www.meidasplus.com/p/sunday-afternoon-news-updates-22226",
-      "summary": "The Department of Homeland Security initially announced a suspension of TSA PreCheck and Global Entry programs amid a partial government shutdown but reversed the decision within 12 hours following public backlash. The programs remain operational, ensuring continued convenience for travelers despite ongoing tensions over immigration enforcement policies.",
-      "why_relevant": "The quick reversal of the suspension highlights the impact of public pressure on government decisions and the importance of maintaining essential services.",
-      "attacks": [],
-      "_origin_file": "meidas_events_2026-02-21_2026-02-27.json",
-      "_origin_index": 60
+      "summary": "The Department of Homeland Security announced a suspension of TSA PreCheck and Global Entry programs during a partial government shutdown over immigration enforcement tensions. Following public backlash, the agency reversed its decision within 12 hours, confirming that TSA PreCheck remains operational.",
+      "why_relevant": "The suspension and rapid reinstatement highlight the impact of political decisions on public services and travel security.",
+      "attacks": [
+        "public_service"
+      ],
+      "_origin_file": "meidas_events_2026-02-21_2026-02-24.json",
+      "_origin_index": 20
     },
     {
       "source_key": "hcr",
       "date": "2026-02-22",
       "category": "Elections & Representation",
-      "title": "Congressional elections confirm Republican dominance in new states",
+      "title": "Congressional elections confirm Republican states",
       "url": "https://www.archives.gov/publications/prologue/1996/spring/1890-census",
-      "summary": "In October 1889, congressional elections in North Dakota, South Dakota, and Washington confirmed that these territories would enter the Union as Republican states. The elections resulted in Republicans securing 169 seats compared to the Democrats' 161, further establishing Republican control in Congress.",
-      "why_relevant": "This event underscores the impact of state admissions on congressional composition and the balance of political power.",
+      "summary": "In October 1889, congressional elections in North Dakota, South Dakota, and Washington confirmed that these territories would enter the Union as Republican states, further solidifying Republican dominance in Congress.",
+      "why_relevant": "The confirmation of Republican states through congressional elections was crucial for the party's strategy to maintain control over Congress and influence national policies.",
       "attacks": [],
-      "_origin_file": "hcr_events_2026-02-21_2026-02-27.json",
-      "_origin_index": 33
+      "_origin_file": "hcr_events_2026-02-21_2026-02-24.json",
+      "_origin_index": 6
     },
     {
       "source_key": "hcr",
@@ -692,23 +782,23 @@
       "category": "Elections & Representation",
       "title": "Elections for constitutional conventions in new territories",
       "url": "https://www.archives.gov/publications/prologue/1996/spring/1890-census",
-      "summary": "In May 1889, elections were held for members of the constitutional conventions in North Dakota, South Dakota, and Washington Territory, resulting in Republican victories. Montana's election went to the Democrats, but Republicans attributed this outcome to alleged gerrymandering. This electoral result confirmed the Republican leanings of the new states, further solidifying their political power in Congress.",
-      "why_relevant": "The elections for constitutional conventions reflect the strategic importance of statehood in shaping political power and representation in Congress.",
+      "summary": "In May 1889, elections were held for members of the constitutional conventions in North Dakota, South Dakota, and Washington Territory, resulting in Republican victories. This outcome confirmed the Republican influence in these territories, which would soon be admitted as states.",
+      "why_relevant": "The elections for constitutional conventions were pivotal in establishing Republican control in the newly formed states, affecting future legislative dynamics in Congress.",
       "attacks": [],
-      "_origin_file": "hcr_events_2026-02-21_2026-02-27.json",
-      "_origin_index": 32
+      "_origin_file": "hcr_events_2026-02-21_2026-02-24.json",
+      "_origin_index": 5
     },
     {
       "source_key": "hcr",
       "date": "2026-02-22",
       "category": "Elections & Representation",
-      "title": "Grover Cleveland's return to the presidency in 1892",
+      "title": "Grover Cleveland elected president in 1892",
       "url": "https://www.archives.gov/publications/prologue/1996/spring/1890-census",
-      "summary": "In the presidential election of 1892, Grover Cleveland won four electoral votes from South Dakota, three from Montana, four from Washington, and three from Wyoming, while Idaho's votes went to the Populist candidate. Cleveland's victory marked a significant political shift, as he returned to the White House and the Democrats regained control of Congress for the first time since before the Civil War.",
-      "why_relevant": "Cleveland's return to the presidency signifies a pivotal moment in American politics, illustrating the consequences of shifting voter sentiments and the impact of state admissions on electoral outcomes.",
+      "summary": "In the presidential election of 1892, Grover Cleveland won four electoral votes from South Dakota, three from Montana, four from Washington, and three from Wyoming, leading to his return to the White House and a Democratic majority in Congress.",
+      "why_relevant": "Cleveland's election signifies a pivotal shift in political power, demonstrating the dynamic nature of electoral politics and the impact of state admissions on national elections.",
       "attacks": [],
-      "_origin_file": "hcr_events_2026-02-21_2026-02-27.json",
-      "_origin_index": 38
+      "_origin_file": "hcr_events_2026-02-21_2026-02-24.json",
+      "_origin_index": 12
     },
     {
       "source_key": "hcr",
@@ -716,11 +806,11 @@
       "category": "Elections & Representation",
       "title": "Public backlash against Republican policies in 1890 midterms",
       "url": "https://www.archives.gov/publications/prologue/1996/spring/1890-census",
-      "summary": "In the 1890 midterm elections, voters removed the Republicans' slim majority in the House, resulting in a Democratic majority of more than two to one. This shift was influenced by a growing \"Alliance\" movement among farmers and workers advocating for business regulations and income taxes.",
-      "why_relevant": "The midterm elections reflect a significant shift in public sentiment against the Republican Party, highlighting the dynamic nature of political power in response to economic conditions.",
+      "summary": "In the 1890 midterm elections, voters removed the Republican majority in the House, resulting in a Democratic majority of more than two to one, reflecting public discontent with Republican policies.",
+      "why_relevant": "The shift in power during the midterms indicates the electorate's response to governance and policy, emphasizing the importance of accountability in a democratic system.",
       "attacks": [],
-      "_origin_file": "hcr_events_2026-02-21_2026-02-27.json",
-      "_origin_index": 37
+      "_origin_file": "hcr_events_2026-02-21_2026-02-24.json",
+      "_origin_index": 11
     },
     {
       "source_key": "meidas",
@@ -765,31 +855,31 @@
       "source_key": "meidas",
       "date": "2026-02-22",
       "category": "Economic & Regulatory Power",
-      "title": "Trump Imposes New Tariffs Using Section 122",
+      "title": "Treasury Secretary declines to commit to tariff refunds",
       "url": "https://www.meidasplus.com/p/sunday-afternoon-news-updates-22226",
-      "summary": "Former President Donald Trump announced a 15% tariff by invoking Section 122 of the Trade Act of 1974, despite the U.S. Supreme Court recently striking down his previous tariff regime as unconstitutional. This move has sparked international reactions, including the European Parliament's proposal to freeze the ratification of a trade agreement with the U.S. and India's delay of a planned trade visit. The legality of Trump's action is under scrutiny, as it appears to contravene the Supreme Court's ruling.",
-      "why_relevant": "The imposition of tariffs despite a Supreme Court ruling raises concerns about adherence to constitutional checks and balances.",
+      "summary": "Treasury Secretary Scott Bessent has declined to commit to issuing refunds for the $134 billion collected under Trump's now-invalidated tariffs. Despite a previous DOJ statement indicating refunds would be issued if tariffs were deemed unlawful, Bessent stated that the Supreme Court did not address refunds, leaving the matter uncertain.",
+      "why_relevant": "The uncertainty over refunds affects public trust and financial accountability in government actions.",
       "attacks": [
-        "trade",
-        "rule_of_law"
+        "rule_of_law",
+        "economy"
       ],
-      "_origin_file": "meidas_events_2026-02-21_2026-02-27.json",
-      "_origin_index": 56
+      "_origin_file": "meidas_events_2026-02-21_2026-02-24.json",
+      "_origin_index": 19
     },
     {
       "source_key": "meidas",
       "date": "2026-02-22",
       "category": "Economic & Regulatory Power",
-      "title": "U.S. Treasury Secretary Declines to Commit to Tariff Refunds",
+      "title": "Trump imposes 15% tariff using Section 122 of the Trade Act",
       "url": "https://www.meidasplus.com/p/sunday-afternoon-news-updates-22226",
-      "summary": "Treasury Secretary Scott Bessent declined to commit to issuing refunds for the $134 billion collected under tariffs that the Supreme Court ruled unconstitutional. Despite a previous DOJ statement indicating refunds would be issued if the tariffs were deemed unlawful, Bessent stated that the Supreme Court did not address refunds, leaving the matter unresolved.",
-      "why_relevant": "The uncertainty over tariff refunds affects economic fairness and the government's accountability to court rulings.",
+      "summary": "Former President Donald Trump announced a 15% tariff by invoking Section 122 of the Trade Act of 1974, despite the U.S. Supreme Court recently striking down his previous tariff regime as unconstitutional. This move has sparked international reactions, including the European Parliament's proposal to freeze ratification of the EU trade agreement with the U.S. and India's delay of a planned trade visit to Washington. The legality of Trump's action is under scrutiny, as it appears to contravene the Supreme Court's ruling.",
+      "why_relevant": "The imposition of tariffs despite a Supreme Court ruling raises concerns about adherence to legal and constitutional norms.",
       "attacks": [
         "rule_of_law",
-        "economy"
+        "trade"
       ],
-      "_origin_file": "meidas_events_2026-02-21_2026-02-27.json",
-      "_origin_index": 59
+      "_origin_file": "meidas_events_2026-02-21_2026-02-24.json",
+      "_origin_index": 15
     },
     {
       "source_key": "noah",
@@ -833,15 +923,45 @@
       "source_key": "meidas",
       "date": "2026-02-22",
       "category": "International Relations",
-      "title": "France Summons U.S. Ambassador Over Interference Concerns",
+      "title": "European Parliament proposes freezing EU-U.S. trade agreement ratification",
       "url": "https://www.meidasplus.com/p/sunday-afternoon-news-updates-22226",
-      "summary": "France has summoned U.S. Ambassador Charles Kushner following concerns about interference in its domestic affairs. This diplomatic action comes in response to former President Trump's new tariff policies and the broader implications of his administration's foreign policy decisions. Kushner, a controversial figure due to his past legal issues and familial connections to Trump, faces scrutiny in his diplomatic role.",
-      "why_relevant": "The summoning of an ambassador highlights tensions in U.S.-France relations and the potential diplomatic fallout from Trump's policies.",
+      "summary": "In response to Trump's new tariffs, the European Parliament is set to propose freezing the ratification of the European Union trade agreement with the United States. This action reflects the international community's concern over the legality and impact of the tariffs imposed by Trump, which have been deemed unconstitutional by the U.S. Supreme Court.",
+      "why_relevant": "The proposal indicates significant diplomatic and economic repercussions for U.S. international trade relations.",
+      "attacks": [
+        "trade",
+        "diplomacy"
+      ],
+      "_origin_file": "meidas_events_2026-02-21_2026-02-24.json",
+      "_origin_index": 16
+    },
+    {
+      "source_key": "meidas",
+      "date": "2026-02-22",
+      "category": "International Relations",
+      "title": "France summons U.S. Ambassador over interference concerns",
+      "url": "https://www.meidasplus.com/p/sunday-afternoon-news-updates-22226",
+      "summary": "France has summoned U.S. Ambassador Charles Kushner following concerns about interference in its domestic affairs. This diplomatic action comes amid tensions over Trump's recent tariff imposition and its international fallout. Kushner, a controversial figure due to his past legal issues and pardon by Trump, faces scrutiny in his diplomatic role.",
+      "why_relevant": "The summoning of an ambassador highlights strained diplomatic relations and potential impacts on U.S.-France ties.",
       "attacks": [
         "diplomacy"
       ],
-      "_origin_file": "meidas_events_2026-02-21_2026-02-27.json",
-      "_origin_index": 57
+      "_origin_file": "meidas_events_2026-02-21_2026-02-24.json",
+      "_origin_index": 17
+    },
+    {
+      "source_key": "meidas",
+      "date": "2026-02-22",
+      "category": "International Relations",
+      "title": "Greenland reacts to Trump's rhetoric on sovereignty",
+      "url": "https://www.meidasplus.com/p/sunday-afternoon-news-updates-22226",
+      "summary": "Greenlandic officials and residents have expressed concern over Trump's rhetoric about sending hospital ships to the island, despite Greenland's universal healthcare and lack of request for such aid. This follows a U.S. nuclear submarine's unannounced presence off Greenland's coast, raising fears of aggressive U.S. posturing under the guise of humanitarian aid.",
+      "why_relevant": "The situation underscores tensions in U.S.-Greenland relations and concerns over sovereignty and military presence.",
+      "attacks": [
+        "diplomacy",
+        "peace"
+      ],
+      "_origin_file": "meidas_events_2026-02-21_2026-02-24.json",
+      "_origin_index": 18
     },
     {
       "source_key": "guardian",
@@ -868,21 +988,6 @@
       ],
       "_origin_file": "meidas_events_2026-02-21_2026-02-27.json",
       "_origin_index": 34
-    },
-    {
-      "source_key": "meidas",
-      "date": "2026-02-22",
-      "category": "Civil–Military Relations & State Violence",
-      "title": "Greenland Responds to U.S. Military Presence",
-      "url": "https://www.meidasplus.com/p/sunday-afternoon-news-updates-22226",
-      "summary": "Greenlandic officials expressed concern over former President Trump's rhetoric about sending hospital ships to the island, despite Greenland's existing healthcare system. This follows the unexpected surfacing of a U.S. nuclear submarine off Greenland's coast during a medical emergency. The incident, which occurred during a visit by Denmark's King Frederik X, has raised fears of a more aggressive U.S. posture in the region.",
-      "why_relevant": "The presence of U.S. military assets near Greenland without prior notification to local authorities raises issues of sovereignty and military transparency.",
-      "attacks": [
-        "military",
-        "diplomacy"
-      ],
-      "_origin_file": "meidas_events_2026-02-21_2026-02-27.json",
-      "_origin_index": 58
     },
     {
       "source_key": "meidas",
@@ -1062,6 +1167,42 @@
       "attacks": [],
       "_origin_file": "guardian_events_2026-02-21_2026-02-27.json",
       "_origin_index": 54
+    },
+    {
+      "source_key": "justsecurity",
+      "date": "2026-02-23",
+      "category": "Judicial Developments",
+      "title": "American Public Health Association v. EPA (D.C. Cir.) 26-1037 — The court consolidated American Public Health Association v. EPA , 26-1037, with Business Climate Initiative Action v. EPA , 26-1039",
+      "url": "https://www.courtlistener.com/docket/72292285/american-public-health-association-v-epa",
+      "summary": "The court consolidated American Public Health Association v. EPA , 26-1037, with Business Climate Initiative Action v. EPA , 26-1039. These cases will proceed under American Public Health Association v. EPA .",
+      "why_relevant": "This tracker update marks a concrete litigation development in an ongoing legal challenge. Court: D.C. Cir.. Docket: 26-1037.",
+      "attacks": [],
+      "_origin_file": "justsecurity_events_2026-01-01_2026-03-20.json",
+      "_origin_index": 82
+    },
+    {
+      "source_key": "justsecurity",
+      "date": "2026-02-23",
+      "category": "Judicial Developments",
+      "title": "Freedom of the Press Foundation v. U.S. Dep’t of Homeland Security (D.D.C.) 1:25-cv-03385 — The parties filed a joint status report which indicated that they are continuing to confer regarding Defendants' responses to FOIA requests in an effort to narr…",
+      "url": "https://www.courtlistener.com/docket/71443839/freedom-of-the-press-foundation-v-united-states-department-of-homeland",
+      "summary": "The parties filed a joint status report which indicated that they are continuing to confer regarding Defendants' responses to FOIA requests in an effort to narrow or eliminate issues requiring the Court's intervention.",
+      "why_relevant": "This tracker update marks a concrete litigation development in an ongoing legal challenge. Court: D.D.C.. Docket: 1:25-cv-03385.",
+      "attacks": [],
+      "_origin_file": "justsecurity_events_2026-01-01_2026-03-20.json",
+      "_origin_index": 389
+    },
+    {
+      "source_key": "justsecurity",
+      "date": "2026-02-23",
+      "category": "Judicial Developments",
+      "title": "Pablo Sequen v. Albarran (N.D. Cal.) 5:25-cv-06487 — Defendants appealed the stay to the Ninth Circuit.",
+      "url": "https://www.courtlistener.com/docket/70990996/pablo-sequen-v-kaiser",
+      "summary": "Defendants appealed the stay to the Ninth Circuit.",
+      "why_relevant": "This tracker update marks a concrete litigation development in an ongoing legal challenge. Court: N.D. Cal.. Docket: 5:25-cv-06487.",
+      "attacks": [],
+      "_origin_file": "justsecurity_events_2026-01-01_2026-03-20.json",
+      "_origin_index": 287
     },
     {
       "source_key": "meidas",
@@ -1509,6 +1650,66 @@
       ],
       "_origin_file": "hcr_events_2026-02-21_2026-02-27.json",
       "_origin_index": 24
+    },
+    {
+      "source_key": "justsecurity",
+      "date": "2026-02-24",
+      "category": "Judicial Developments",
+      "title": "Aceituno v. U.S. Department of Homeland Security (W.D.N.C.) 3:26-cv-00146 — Case filed",
+      "url": "https://www.courtlistener.com/docket/72322839/aceituno-v-us-department-of-homeland-security",
+      "summary": "Case filed Coming soon.",
+      "why_relevant": "A new legal challenge was filed against a Trump administration action. Court: W.D.N.C.. Docket: 3:26-cv-00146.",
+      "attacks": [],
+      "_origin_file": "justsecurity_events_2026-01-01_2026-03-20.json",
+      "_origin_index": 275
+    },
+    {
+      "source_key": "justsecurity",
+      "date": "2026-02-24",
+      "category": "Judicial Developments",
+      "title": "American Council of Learned Societies v. McDonald (S.D.N.Y.) 1:25-cv-03657 — Plaintiffs filed an amended complaint adding an equal protection claim after learning in discovery that a DOGE employee had allegedly identified grants to termi…",
+      "url": "https://www.courtlistener.com/docket/70035052/american-council-of-learned-societies-v-mcdonald",
+      "summary": "Plaintiffs filed an amended complaint adding an equal protection claim after learning in discovery that a DOGE employee had allegedly identified grants to terminate using search terms such as “BIPOC”, “homosexual”, “LGBTQ”, and “Tribal.”",
+      "why_relevant": "This tracker update marks a concrete litigation development in an ongoing legal challenge. Court: S.D.N.Y.. Docket: 1:25-cv-03657.",
+      "attacks": [],
+      "_origin_file": "justsecurity_events_2026-01-01_2026-03-20.json",
+      "_origin_index": 335
+    },
+    {
+      "source_key": "justsecurity",
+      "date": "2026-02-24",
+      "category": "Judicial Developments",
+      "title": "Kelly v. Hegseth (D.D.C.) 1:26-cv-00081 — Defendants appealed to the D.C. Circuit, Case No. 26-5070 .",
+      "url": "https://www.courtlistener.com/docket/72131361/kelly-v-hegseth",
+      "summary": "Defendants appealed to the D.C. Circuit, Case No. 26-5070 .",
+      "why_relevant": "This tracker update marks a concrete litigation development in an ongoing legal challenge. Court: D.D.C.. Docket: 1:26-cv-00081.",
+      "attacks": [],
+      "_origin_file": "justsecurity_events_2026-01-01_2026-03-20.json",
+      "_origin_index": 39
+    },
+    {
+      "source_key": "justsecurity",
+      "date": "2026-02-24",
+      "category": "Judicial Developments",
+      "title": "State of Arizona v. Kennedy (N.D. Cal.) 3:26-cv-01609 — Case filed",
+      "url": "https://www.courtlistener.com/docket/72324736/state-of-california-justice-departments-v-kennedy",
+      "summary": "Case filed On February 24, 2026, a coalition of 14 states and Pennsylvania Governor Josh Shapiro filed a complaint against the U.S. Department of Health and Human Services (HHS), the Centers for Disease Control (CDC), and related federal officials challenging the CDC’s Jan. 5, 2026 decision revising recommendations for seven childhood vaccines from universally-recommended status to risk-based or shared clinical decision-making status (the “Kennedy Schedule”). Plaintiffs also challenge Secretary Robert F. Kennedy’s replacement of seventeen voting members of the Advisory Committee on Immunization Practices (APIC), the expert federal panel central to vaccine policy and the Committee's recent change to the CDC’s hepatitis B vaccination recommendation. Plaintiffs allege injury to state public health systems, statutory programs, and sovereign interests. Specifically, they assert that the Kenney Schedule and the reconstitution of ACIP undermine childhood vaccination uptake, increase vaccine-preventable disease, strain Medicaid and other state health infrastructure by forcing states to spend substantial resources to retool laws, information systems, and public health communications while responding to increased outbreaks. Plaintiffs further allege that the Kennedy Schedule is Arbitrary and Capricious, “contrary to law” and “without observance of procedure required by law” in violation of the Administrative Procedure Act (APA) § 706(2)(A). Plaintiffs seek a declaratory judgment that the Kennedy Schedule, the recent ACIP Appointments, and the ACIP’s hepatitis B decision are unlawful, arbitrary and capricious, and contrary to law. They also request that the court vacate and set aside the Kennedy Schedule and the ACIP appointments and its actions and that the court enjoin any further implementation of these measures.",
+      "why_relevant": "A new legal challenge was filed against a Trump administration action. Court: N.D. Cal.. Docket: 3:26-cv-01609.",
+      "attacks": [],
+      "_origin_file": "justsecurity_events_2026-01-01_2026-03-20.json",
+      "_origin_index": 131
+    },
+    {
+      "source_key": "justsecurity",
+      "date": "2026-02-24",
+      "category": "Judicial Developments",
+      "title": "State of Washington v. United States Department of Education (W.D. Wash.) 2:25-cv-01228 — The Ninth Circuit denied the government's emergency motion to stay the district court's permanent injunction pending appeal and remanded for the limited purpose…",
+      "url": "https://www.courtlistener.com/docket/70679500/state-of-washington-v-united-states-department-of-education",
+      "summary": "The Ninth Circuit denied the government's emergency motion to stay the district court's permanent injunction pending appeal and remanded for the limited purpose of setting new deadlines for the Department to make new continuation decisions. The court found that the government failed to show it had engaged in the reasoned decision-making required by the APA and failed to demonstrate irreparable injury absent a stay.",
+      "why_relevant": "This tracker update marks a concrete litigation development in an ongoing legal challenge. Court: W.D. Wash.. Docket: 2:25-cv-01228.",
+      "attacks": [],
+      "_origin_file": "justsecurity_events_2026-01-01_2026-03-20.json",
+      "_origin_index": 140
     },
     {
       "source_key": "popinfo",
@@ -2092,6 +2293,54 @@
       "_origin_index": 41
     },
     {
+      "source_key": "justsecurity",
+      "date": "2026-02-25",
+      "category": "Judicial Developments",
+      "title": "L.C. v. Trump (D.D.C.) 1:26-cv-00688 — Case filed",
+      "url": "https://www.courtlistener.com/docket/72331356/lc-v-trump",
+      "summary": "Case filed Coming soon. On Feb. 25, 2026, the husband and minor child of Francesca Albanese, a U.N. human rights investigator, sued the administration over its decision to designate her as a Specially Designated National (SDN) under its executive order sanctioning anyone “directly engaged in” or assisted the International Criminal Court in pursuing U.S. nationals or citizens of other U.S. allies that do not consent to ICC jurisdiction.",
+      "why_relevant": "A new legal challenge was filed against a Trump administration action. Court: D.D.C.. Docket: 1:26-cv-00688.",
+      "attacks": [],
+      "_origin_file": "justsecurity_events_2026-01-01_2026-03-20.json",
+      "_origin_index": 49
+    },
+    {
+      "source_key": "justsecurity",
+      "date": "2026-02-25",
+      "category": "Judicial Developments",
+      "title": "Lazaro Maldonado Bautista v. Ernesto Santacruz Jr. (C.D. Cal.) 5:25-cv-01873 — District Judge Sykes denied the government's ex parte application to stay.",
+      "url": "https://www.courtlistener.com/docket/70895584/lazaro-maldonado-bautista-v-ernesto-santacruz-jr",
+      "summary": "District Judge Sykes denied the government's ex parte application to stay.",
+      "why_relevant": "This tracker update marks a concrete litigation development in an ongoing legal challenge. Court: C.D. Cal.. Docket: 5:25-cv-01873.",
+      "attacks": [],
+      "_origin_file": "justsecurity_events_2026-01-01_2026-03-20.json",
+      "_origin_index": 286
+    },
+    {
+      "source_key": "justsecurity",
+      "date": "2026-02-25",
+      "category": "Judicial Developments",
+      "title": "ProPublica v. United States Department of Education (S.D.N.Y.) 1:26-cv-01576 — Case filed",
+      "url": "https://www.courtlistener.com/docket/72329095/pro-publica-inc-v-united-states-department-of-education",
+      "summary": "Case filed Coming soon. On Feb 25, 2026, the news outlet ProPublica sued the U.S. Department of Education seeking documents it had requested under the Freedom of Information Act regarding the closure and shift in focus of the Department’s Office of Civil Rights.",
+      "why_relevant": "A new legal challenge was filed against a Trump administration action. Court: S.D.N.Y.. Docket: 1:26-cv-01576.",
+      "attacks": [],
+      "_origin_file": "justsecurity_events_2026-01-01_2026-03-20.json",
+      "_origin_index": 408
+    },
+    {
+      "source_key": "justsecurity",
+      "date": "2026-02-25",
+      "category": "Judicial Developments",
+      "title": "State of Colorado v. United States (Fed. Cl.) 1:26-cv-00315 — Case filed",
+      "url": "https://www.courtlistener.com/docket/72332052/state-of-colorado-v-united-states",
+      "summary": "Case filed Coming soon.",
+      "why_relevant": "A new legal challenge was filed against a Trump administration action. Court: Fed. Cl.. Docket: 1:26-cv-00315.",
+      "attacks": [],
+      "_origin_file": "justsecurity_events_2026-01-01_2026-03-20.json",
+      "_origin_index": 184
+    },
+    {
       "source_key": "meidas",
       "date": "2026-02-25",
       "category": "Judicial Developments",
@@ -2665,20 +2914,6 @@
       "_origin_index": 14
     },
     {
-      "source_key": "hcr",
-      "date": "2026-02-25",
-      "category": "International Relations",
-      "title": "U.S. supports negotiations favoring Russia",
-      "url": "https://www.axios.com/2025/04/22/trump-russia-ukraine-peace-plan-crimea-donbas",
-      "summary": "In April 2025, the U.S. appeared to back a plan that would grant Russia significant concessions, including territory it had invaded in Ukraine. This shift in U.S. policy raised concerns about the implications for Ukraine's sovereignty and the ongoing conflict.",
-      "why_relevant": "Supporting negotiations that favor an aggressor undermines international law and the principles of sovereignty and territorial integrity, affecting global democratic norms.",
-      "attacks": [
-        "global_democracy"
-      ],
-      "_origin_file": "hcr_events_2026-02-21_2026-02-27.json",
-      "_origin_index": 17
-    },
-    {
       "source_key": "meidas",
       "date": "2026-02-25",
       "category": "International Relations",
@@ -2894,6 +3129,30 @@
       "_origin_index": 10
     },
     {
+      "source_key": "justsecurity",
+      "date": "2026-02-26",
+      "category": "Judicial Developments",
+      "title": "Global Nurse Force v. Trump (N.D. Cal.) 4:25-cv-08454 — Judge Gilliam denied Defendants' motion for a stay.",
+      "url": "https://www.courtlistener.com/docket/71541425/global-nurse-force-v-trump",
+      "summary": "Judge Gilliam denied Defendants' motion for a stay.",
+      "why_relevant": "This tracker update marks a concrete litigation development in an ongoing legal challenge. Court: N.D. Cal.. Docket: 4:25-cv-08454.",
+      "attacks": [],
+      "_origin_file": "justsecurity_events_2026-01-01_2026-03-20.json",
+      "_origin_index": 221
+    },
+    {
+      "source_key": "justsecurity",
+      "date": "2026-02-26",
+      "category": "Judicial Developments",
+      "title": "State of California v. United States Department of Agriculture (N.D. Cal.) 3:25-cv-06310 — Judge Chesney expanded its preliminary injunction enjoining USDA from disallowing SNAP funding based on the agency's renewed demands that Plaintiff States turn…",
+      "url": "https://www.courtlistener.com/docket/70945300/state-of-california-v-united-states-department-of-agriculture",
+      "summary": "Judge Chesney expanded its preliminary injunction enjoining USDA from disallowing SNAP funding based on the agency's renewed demands that Plaintiff States turn over applicant and recipient data.",
+      "why_relevant": "This tracker update marks a concrete litigation development in an ongoing legal challenge. Court: N.D. Cal.. Docket: 3:25-cv-06310.",
+      "attacks": [],
+      "_origin_file": "justsecurity_events_2026-01-01_2026-03-20.json",
+      "_origin_index": 332
+    },
+    {
       "source_key": "meidas",
       "date": "2026-02-26",
       "category": "Judicial Developments",
@@ -2998,18 +3257,6 @@
       ],
       "_origin_file": "zeteo_events_2026-02-21_2026-02-27.json",
       "_origin_index": 7
-    },
-    {
-      "source_key": "democracydocket",
-      "date": "2026-02-26",
-      "category": "Elections & Representation",
-      "title": "Live redistricting tracker update",
-      "url": "https://www.democracydocket.com/analysis/live-redistricting-tracker/",
-      "summary": "Democracy Docket has updated its live redistricting tracker, which monitors ongoing litigation and actions related to redistricting across the United States. This tracker provides real-time updates on court rulings, legislative actions, and other developments that impact voting districts and election fairness. The tracker is a resource for understanding how redistricting efforts affect democratic access and representation.",
-      "why_relevant": "The tracker provides crucial information on how redistricting efforts influence electoral fairness and democratic representation.",
-      "attacks": [],
-      "_origin_file": "democracydocket_events_2026-02-21_2026-02-27.json",
-      "_origin_index": 2
     },
     {
       "source_key": "noah",
@@ -3529,6 +3776,21 @@
       "_origin_index": 50
     },
     {
+      "source_key": "50501",
+      "date": "2026-02-27",
+      "category": "Executive Actions & Orders",
+      "title": "Oracle receives federal approval for AI services in government use",
+      "url": "https://www.the50501movement.org/p/medicares-ai-shift-is-happening-quietly",
+      "summary": "",
+      "why_relevant": "The approval of AI tools for government use raises significant concerns about data privacy and oversight.",
+      "attacks": [
+        "information",
+        "transparency"
+      ],
+      "_origin_file": "50501_events_2026-03-01_2026-03-20.json",
+      "_origin_index": 20
+    },
+    {
       "source_key": "guardian",
       "date": "2026-02-27",
       "category": "Executive Actions & Orders",
@@ -3561,17 +3823,33 @@
       "source_key": "guardian",
       "date": "2026-02-27",
       "category": "Executive Actions & Orders",
-      "title": "Trump administration loosens air pollution restrictions for coal plants",
+      "title": "Trump Administration Grants Blanket Exemptions to Coal Plants",
       "url": "https://www.theguardian.com/us-news/2026/feb/27/trump-coal-plant-air-pollution-rules",
-      "summary": "The Trump administration announced a rollback of air pollution restrictions, specifically targeting mercury, lead, and other heavy metals emitted by coal plants. This decision reverses stricter limits set in 2024 under the Biden administration's Mercury and Air Toxics Standards (Mats). The Environmental Protection Agency (EPA) under Trump granted exemptions to 71 coal plants, allowing them to bypass these pollution rules. This move has been criticized for prioritizing a minority of coal plants over public health, as these pollutants are linked to severe health issues, including brain damage in children.",
-      "why_relevant": "This rollback of pollution standards affects public health and environmental protections, highlighting the administration's prioritization of coal industry interests over regulatory safeguards.",
+      "summary": "The Trump administration provided blanket exemptions to coal plants from adhering to the 2024 pollution rules, allowing them to operate without meeting stricter mercury emission standards. These exemptions were granted even when operators had the technology to comply, and in some cases, for longer periods than requested. This decision has been criticized for lacking scrutiny and for potentially increasing pollution levels, which could have adverse effects on public health and the environment.",
+      "why_relevant": "The exemptions undermine regulatory standards designed to protect public health and the environment from harmful emissions.",
       "attacks": [
         "environment",
         "public_health",
         "truth"
       ],
-      "_origin_file": "guardian_events_2026-02-21_2026-02-27.json",
-      "_origin_index": 7
+      "_origin_file": "guardian_events_2026-02-27_2026-03-01.json",
+      "_origin_index": 20
+    },
+    {
+      "source_key": "guardian",
+      "date": "2026-02-27",
+      "category": "Executive Actions & Orders",
+      "title": "Trump Administration Loosens Air Pollution Restrictions for Coal Plants",
+      "url": "https://www.theguardian.com/us-news/2026/feb/27/trump-coal-plant-air-pollution-rules",
+      "summary": "The Trump administration announced a rollback of air pollution restrictions, specifically targeting mercury, lead, and other heavy metals emitted by coal plants. This decision reverses stricter limits set in 2024 under the Biden administration's Mercury and Air Toxics Standards (MATS). The Environmental Protection Agency (EPA) under Trump granted exemptions to 71 coal plants, allowing them to bypass these pollution controls. This move has been criticized for prioritizing a minority of coal plants over public health, as these pollutants are linked to severe health issues, including brain damage in children.",
+      "why_relevant": "This rollback of environmental protections impacts public health and undermines efforts to regulate pollutants that pose significant health risks.",
+      "attacks": [
+        "environment",
+        "public_health",
+        "truth"
+      ],
+      "_origin_file": "guardian_events_2026-02-27_2026-03-01.json",
+      "_origin_index": 19
     },
     {
       "source_key": "hcr",
@@ -3736,6 +4014,22 @@
       "_origin_index": 0
     },
     {
+      "source_key": "guardian",
+      "date": "2026-02-27",
+      "category": "Judicial Developments",
+      "title": "Water polo player files lawsuit against elite LA school",
+      "url": "https://www.theguardian.com/us-news/2026/mar/07/water-polo-abuse-california-school",
+      "summary": "Aidan Romain, an 18-year-old Black water polo player, filed a lawsuit against Harvard-Westlake school in Studio City, California, alleging sexual assault and racial harassment by teammates, with school staff failing to intervene. The lawsuit, filed on February 27, 2026, in Los Angeles superior court, accuses the school, its president, the head of the boys’ water polo program, and a former teammate of fostering a \"culture of harassment.\" The complaint details incidents of abuse and claims the school ignored reports to protect the team and a star player. The school disputes the allegations, stating it acted with urgency and complied with mandatory reporting obligations.",
+      "why_relevant": "The lawsuit highlights issues of institutional accountability and the protection of students' rights within educational environments.",
+      "attacks": [
+        "minorities",
+        "children",
+        "truth"
+      ],
+      "_origin_file": "guardian_events_2026-03-01_2026-03-20.json",
+      "_origin_index": 125
+    },
+    {
       "source_key": "hcr",
       "date": "2026-02-27",
       "category": "Judicial Developments",
@@ -3748,6 +4042,138 @@
       ],
       "_origin_file": "hcr_events_2026-02-21_2026-02-27.json",
       "_origin_index": 4
+    },
+    {
+      "source_key": "justsecurity",
+      "date": "2026-02-27",
+      "category": "Judicial Developments",
+      "title": "A. v. Noem (D. Mass.) 3:26-cv-30031 — Case filed",
+      "url": "https://www.courtlistener.com/docket/72343601/a-v-noem",
+      "summary": "Case filed On Dec. 18, 2025, the Acting Executive Associate Director of U.S. Immigration and Customs Enforcement (ICE) issued a memo rescinding a 2010 ICE policy that had prohibited the detention of refugees admitted under 8 U.S.C. § 1157 solely on the basis that they had not yet adjusted their status to lawful permanent resident. On Feb. 18, 2026, ICE and U.S. Citizenship and Immigration Services (USCIS) jointly issued a second memo purporting to establish a new policy interpreting 8 U.S.C. § 1159(a)(1) to mandate potentially indefinite detention of all unadjusted refugees after one year of physical presence in the United States. Six individual refugees with pending adjustment of status applications — from Rwanda, Iraq, Syria, Afghanistan, and Sudan — together with two nonprofit refugee resettlement organizations, the International Institute of New England and Jewish Family Service of Western Massachusetts, filed a putative class action against the Department of Homeland Security (DHS), Immigration and Customs Enforcement (ICE), and U.S. Citizenship and Immigration Services (USCIS) on behalf of all unadjusted refugees subject to the policy. The complaint alleges that the memos exceed defendants’ statutory authority under the INA; are arbitrary and capricious and were issued without the notice-and-comment procedures required by the Administrative Procedure Act (APA), 5 U.S.C. § 553; and violate the Fourth Amendment’s prohibition on warrantless seizure and the Fifth Amendment’s due process and equal protection guarantees. Plaintiffs seek vacatur of the memos, class certification, and preliminary and permanent injunctive relief.",
+      "why_relevant": "A new legal challenge was filed against a Trump administration action. Court: D. Mass.. Docket: 3:26-cv-30031.",
+      "attacks": [],
+      "_origin_file": "justsecurity_events_2026-01-01_2026-03-20.json",
+      "_origin_index": 294
+    },
+    {
+      "source_key": "justsecurity",
+      "date": "2026-02-27",
+      "category": "Judicial Developments",
+      "title": "American Council of Learned Societies v. McDonald (S.D.N.Y.) 1:25-cv-03657 — Judge McMahon denied the government's motion for reconsideration of the court's Feb. 5, 2026 order granting Plaintiffs' motion to compel discovery for 96 docume…",
+      "url": "https://www.courtlistener.com/docket/70035052/american-council-of-learned-societies-v-mcdonald",
+      "summary": "Judge McMahon denied the government's motion for reconsideration of the court's Feb. 5, 2026 order granting Plaintiffs' motion to compel discovery for 96 documents.",
+      "why_relevant": "This tracker update marks a concrete litigation development in an ongoing legal challenge. Court: S.D.N.Y.. Docket: 1:25-cv-03657.",
+      "attacks": [],
+      "_origin_file": "justsecurity_events_2026-01-01_2026-03-20.json",
+      "_origin_index": 336
+    },
+    {
+      "source_key": "justsecurity",
+      "date": "2026-02-27",
+      "category": "Judicial Developments",
+      "title": "American Public Health Association v. EPA (D.C. Cir.) 26-1037 — The court consolidated American Public Health Association v. EPA , 26-1037, with Metropolitan Congregations United for St",
+      "url": "https://www.courtlistener.com/docket/72292285/american-public-health-association-v-epa",
+      "summary": "The court consolidated American Public Health Association v. EPA , 26-1037, with Metropolitan Congregations United for St. Louis v. EPA , 26-1043. These cases will proceed under American Public Health Association v. EPA .",
+      "why_relevant": "This tracker update marks a concrete litigation development in an ongoing legal challenge. Court: D.C. Cir.. Docket: 26-1037.",
+      "attacks": [],
+      "_origin_file": "justsecurity_events_2026-01-01_2026-03-20.json",
+      "_origin_index": 83
+    },
+    {
+      "source_key": "justsecurity",
+      "date": "2026-02-27",
+      "category": "Judicial Developments",
+      "title": "Bowser v. Noem (D. Mass.) 1:26-cv-10382 — Judge Kelley granted Plaintiffs' motion for a preliminary injunction, ordering the administration to adjudicate the couple's application for immigration benefit…",
+      "url": "https://www.courtlistener.com/docket/72192698/bowser-v-noem",
+      "summary": "Judge Kelley granted Plaintiffs' motion for a preliminary injunction, ordering the administration to adjudicate the couple's application for immigration benefits within ten days.",
+      "why_relevant": "This tracker update marks a concrete litigation development in an ongoing legal challenge. Court: D. Mass.. Docket: 1:26-cv-10382.",
+      "attacks": [],
+      "_origin_file": "justsecurity_events_2026-01-01_2026-03-20.json",
+      "_origin_index": 224
+    },
+    {
+      "source_key": "justsecurity",
+      "date": "2026-02-27",
+      "category": "Judicial Developments",
+      "title": "Brighton Park Neighborhood Council v. McMahon (D.D.C.) 1:25-cv-04523 — Plaintiffs filed an amended complaint .",
+      "url": "https://www.courtlistener.com/docket/72085355/brighton-park-neighborhood-council-v-mcmahon",
+      "summary": "Plaintiffs filed an amended complaint .",
+      "why_relevant": "This tracker update marks a concrete litigation development in an ongoing legal challenge. Court: D.D.C.. Docket: 1:25-cv-04523.",
+      "attacks": [],
+      "_origin_file": "justsecurity_events_2026-01-01_2026-03-20.json",
+      "_origin_index": 163
+    },
+    {
+      "source_key": "justsecurity",
+      "date": "2026-02-27",
+      "category": "Judicial Developments",
+      "title": "Does v. Patel (D.D.C.) 1:25-cv-04258 — Plaintiffs filed an amended complaint alleging further facts to support their claims, including allegations regarding FBI internal policies limiting summary dis…",
+      "url": "https://www.courtlistener.com/docket/72004388/does-v-patel",
+      "summary": "Plaintiffs filed an amended complaint alleging further facts to support their claims, including allegations regarding FBI internal policies limiting summary dismissal to compelling or exigent circumstances and protecting employees' rights to political non-association.",
+      "why_relevant": "This tracker update marks a concrete litigation development in an ongoing legal challenge. Court: D.D.C.. Docket: 1:25-cv-04258.",
+      "attacks": [],
+      "_origin_file": "justsecurity_events_2026-01-01_2026-03-20.json",
+      "_origin_index": 26
+    },
+    {
+      "source_key": "justsecurity",
+      "date": "2026-02-27",
+      "category": "Judicial Developments",
+      "title": "Gonzalez v. Noem (N.D. Ill.) 1:25-cv-13323 — Judge McNally granted Plaintiffs' motion to allow their medical and mental health expert to tour the portions of the Broadview facility accessible to detainees…",
+      "url": "https://www.courtlistener.com/docket/71832522/moreno-gonzalez-v-noem-secretary-us-department-of-homeland-security",
+      "summary": "Judge McNally granted Plaintiffs' motion to allow their medical and mental health expert to tour the portions of the Broadview facility accessible to detainees but, absent agreement, may not interview staff or detainees.",
+      "why_relevant": "This tracker update marks a concrete litigation development in an ongoing legal challenge. Court: N.D. Ill.. Docket: 1:25-cv-13323.",
+      "attacks": [],
+      "_origin_file": "justsecurity_events_2026-01-01_2026-03-20.json",
+      "_origin_index": 288
+    },
+    {
+      "source_key": "justsecurity",
+      "date": "2026-02-27",
+      "category": "Judicial Developments",
+      "title": "National Alliance to End Homelessness v. United States Department of Housing and Urban Development (D.R.I.) 1:25-cv-00636 — Judge McElroy denied the government's motion to dissolve the Dec. 19, 2025 preliminary injunctions, holding that Plaintiffs still face imminent irreparable harm…",
+      "url": "https://www.courtlistener.com/docket/71978322/national-alliance-to-end-homelessness-v-united-states-department-of",
+      "summary": "Judge McElroy denied the government's motion to dissolve the Dec. 19, 2025 preliminary injunctions, holding that Plaintiffs still face imminent irreparable harm if HUD rapidly implements the challenged December 2025 Continuum of Care NOFO. The notice remains blocked.",
+      "why_relevant": "This tracker update marks a concrete litigation development in an ongoing legal challenge. Court: D.R.I.. Docket: 1:25-cv-00636.",
+      "attacks": [],
+      "_origin_file": "justsecurity_events_2026-01-01_2026-03-20.json",
+      "_origin_index": 158
+    },
+    {
+      "source_key": "justsecurity",
+      "date": "2026-02-27",
+      "category": "Judicial Developments",
+      "title": "State of Washington v. United States Department of Housing and Urban Development (D.R.I.) 1:25-cv-00626 — Judge McElroy denied the government's motion to dissolve the Dec. 19, 2025 preliminary injunctions, holding that Plaintiffs still face imminent irreparable harm…",
+      "url": "https://www.courtlistener.com/docket/71959540/state-of-washington-v-united-states-department-of-housing-and-urban/?order_by=desc",
+      "summary": "Judge McElroy denied the government's motion to dissolve the Dec. 19, 2025 preliminary injunctions, holding that Plaintiffs still face imminent irreparable harm if HUD rapidly implements the challenged December 2025 Continuum of Care NOFO. The notice remains blocked.",
+      "why_relevant": "This tracker update marks a concrete litigation development in an ongoing legal challenge. Court: D.R.I.. Docket: 1:25-cv-00626.",
+      "attacks": [],
+      "_origin_file": "justsecurity_events_2026-01-01_2026-03-20.json",
+      "_origin_index": 155
+    },
+    {
+      "source_key": "justsecurity",
+      "date": "2026-02-27",
+      "category": "Judicial Developments",
+      "title": "The Authors Guild v. National Endowment for the Humanities (S.D.N.Y.) 1:25-cv-03923 — Judge McMahon denied the government's motion for reconsideration of the court's Feb. 5, 2026 order granting Plaintiffs' motion to compel discovery for 96 docume…",
+      "url": "https://www.courtlistener.com/docket/70243086/the-authors-guild-v-national-endowment-for-the-humanities",
+      "summary": "Judge McMahon denied the government's motion for reconsideration of the court's Feb. 5, 2026 order granting Plaintiffs' motion to compel discovery for 96 documents.",
+      "why_relevant": "This tracker update marks a concrete litigation development in an ongoing legal challenge. Court: S.D.N.Y.. Docket: 1:25-cv-03923.",
+      "attacks": [],
+      "_origin_file": "justsecurity_events_2026-01-01_2026-03-20.json",
+      "_origin_index": 340
+    },
+    {
+      "source_key": "justsecurity",
+      "date": "2026-02-27",
+      "category": "Judicial Developments",
+      "title": "U.H.A. et al v. Bondi et al (D. Minn.) 0:26-cv-00417 — The court granted Plaintiffs' motion for a preliminary injunction, holding that DHS likely lacks statutory authority under 8 U.S.C. § 1159(a) to arrest or detai…",
+      "url": "https://www.courtlistener.com/docket/72157874/uha-v-bondi",
+      "summary": "The court granted Plaintiffs' motion for a preliminary injunction, holding that DHS likely lacks statutory authority under 8 U.S.C. § 1159(a) to arrest or detain Minnesota refugees solely because they have not yet adjusted to lawful permanent resident status, and enjoining enforcement of that detention policy against the putative class while denying preliminary relief as to the already-released detained subclass.",
+      "why_relevant": "This tracker update marks a concrete litigation development in an ongoing legal challenge. Court: D. Minn.. Docket: 0:26-cv-00417.",
+      "attacks": [],
+      "_origin_file": "justsecurity_events_2026-01-01_2026-03-20.json",
+      "_origin_index": 307
     },
     {
       "source_key": "50501",
@@ -3885,18 +4311,6 @@
       ],
       "_origin_file": "democracydocket_events_2026-02-21_2026-02-27.json",
       "_origin_index": 7
-    },
-    {
-      "source_key": "democracydocket",
-      "date": "2026-02-27",
-      "category": "Information & Media Control",
-      "title": "Opinion Published on Democracy Docket",
-      "url": "https://www.democracydocket.com/opinion/",
-      "summary": "Democracy Docket published an opinion piece discussing the importance of tracking litigation and actions that directly impact election rules and democratic access. The piece emphasizes the role of courts and voting rights in protecting democracy.",
-      "why_relevant": "The opinion highlights the significance of monitoring legal developments that affect democratic processes and access to voting.",
-      "attacks": [],
-      "_origin_file": "democracydocket_events_2026-02-21_2026-02-27.json",
-      "_origin_index": 4
     },
     {
       "source_key": "meidas",
@@ -4247,18 +4661,6 @@
       ],
       "_origin_file": "guardian_events_2026-02-21_2026-02-27.json",
       "_origin_index": 5
-    },
-    {
-      "source_key": "democracydocket",
-      "date": "2026-02-27",
-      "category": "Voting rights / Courts / Democracy protection",
-      "title": "Analysis",
-      "url": "https://www.democracydocket.com/analysis/",
-      "summary": "",
-      "why_relevant": "Democracy Docket tracks litigation and actions that directly shape election rules and democratic access.",
-      "attacks": [],
-      "_origin_file": "democracydocket_events_2026-02-21_2026-02-27.json",
-      "_origin_index": 0
     }
   ]
 }

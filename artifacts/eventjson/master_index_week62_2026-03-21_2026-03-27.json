@@ -5,61 +5,60 @@
   },
   "week_number": 62,
   "sources": [
-    "democracydocket",
-    "congress",
-    "meidas",
-    "federalregister",
-    "justsecurity",
     "50501",
-    "orders",
-    "outloud",
     "noah",
     "zeteo",
     "guardian",
+    "popinfo",
+    "justsecurity",
+    "meidas",
+    "outloud",
+    "congress",
     "hcr",
-    "popinfo"
+    "orders",
+    "democracydocket",
+    "federalregister"
   ],
   "counts": {
-    "total": 311,
+    "total": 302,
     "by_date": {
-      "2026-03-21": 33,
+      "2026-03-21": 34,
       "2026-03-22": 22,
       "2026-03-23": 44,
-      "2026-03-24": 48,
+      "2026-03-24": 43,
       "2026-03-25": 66,
-      "2026-03-26": 54,
-      "2026-03-27": 44
+      "2026-03-26": 51,
+      "2026-03-27": 42
     },
     "by_source": {
       "hcr": 49,
       "meidas": 72,
       "noah": 16,
-      "guardian": 83,
+      "guardian": 84,
+      "50501": 2,
       "zeteo": 7,
       "outloud": 2,
       "federalregister": 36,
-      "democracydocket": 3,
-      "justsecurity": 28,
+      "democracydocket": 1,
+      "justsecurity": 19,
       "popinfo": 11,
       "orders": 2,
-      "50501": 1,
       "congress": 1
     },
     "by_category": {
       "Executive Actions & Orders": 36,
-      "Legislative & Oversight Activity": 43,
+      "Legislative & Oversight Activity": 44,
       "Law Enforcement & Surveillance": 25,
       "Elections & Representation": 12,
+      "Civil Society & Protest": 5,
       "Information & Media Control": 7,
       "Economic & Regulatory Power": 54,
       "International Relations": 33,
       "Civil–Military Relations & State Violence": 26,
-      "Judicial Developments": 54,
-      "Civil Society & Protest": 4,
+      "Judicial Developments": 45,
       "Transparency & Records": 4,
       "Appointments & Patronage": 10,
-      "Justice & Law Enforcement": 1,
-      "Voting rights / Courts / Democracy protection": 2
+      "Justice & Law Enforcement": 1
     }
   },
   "events": [
@@ -270,6 +269,18 @@
       ],
       "_origin_file": "meidas_events_2026-03-21_2026-03-27.json",
       "_origin_index": 54
+    },
+    {
+      "source_key": "50501",
+      "date": "2026-03-21",
+      "category": "Civil Society & Protest",
+      "title": "50501 Georgia Hosts Sign-Making Event in Atlanta",
+      "url": "https://www.the50501movement.org/p/what-50501-communities-are-building",
+      "summary": "The 50501 Georgia chapter is organizing a sign-making event in Atlanta on March 21, ahead of the larger March 28 demonstration. The event is open to all ages and encourages participants to bring their own supplies. The venue is ADA accessible, and attendees are encouraged to use rideshare and carpooling options. This event is part of the broader preparation efforts for the upcoming nationwide protest organized by the 50501 Movement, aimed at defending democracy and building community connections.",
+      "why_relevant": "This event exemplifies grassroots organizing efforts that support larger democratic movements by fostering community engagement and preparation.",
+      "attacks": [],
+      "_origin_file": "50501_events_2026-03-01_2026-03-20.json",
+      "_origin_index": 1
     },
     {
       "source_key": "guardian",
@@ -1556,45 +1567,6 @@
       "source_key": "justsecurity",
       "date": "2026-03-24",
       "category": "Judicial Developments",
-      "title": "Case update — Massachusetts v. Department of Education (D. Mass.) 1:26-cv-11229",
-      "url": "https://www.courtlistener.com/docket/72415687/massachusetts-v-department-of-education/",
-      "summary": "The court issued a further TRO extending the deadline for Plaintiffs to complete the ACTS survey through April 6, 2026.",
-      "why_relevant": "This litigation update changes the posture of an active legal challenge to Trump administration action.",
-      "attacks": [],
-      "_origin_file": "justsecurity_events_2026-03-21_2026-03-27.json",
-      "_origin_index": 5
-    },
-    {
-      "source_key": "justsecurity",
-      "date": "2026-03-24",
-      "category": "Judicial Developments",
-      "title": "Case update — Minnesota Bureau of Criminal Apprehension v. Noem (D. Minn.) 0:26-cv-00628",
-      "url": "https://www.courtlistener.com/docket/72185880/minnesota-bureau-of-criminal-apprehension-v-noem/",
-      "summary": "Plaintiffs filed a motion to voluntarily dismiss this action without prejudice.",
-      "why_relevant": "This litigation update changes the posture of an active legal challenge to Trump administration action.",
-      "attacks": [],
-      "_origin_file": "justsecurity_events_2026-03-21_2026-03-27.json",
-      "_origin_index": 0
-    },
-    {
-      "source_key": "justsecurity",
-      "date": "2026-03-24",
-      "category": "Judicial Developments",
-      "title": "Complaint filed — Hines Immigration Law, PLLC v. Executive Office for Immigration Review",
-      "url": "https://www.courtlistener.com/docket/72618270/hines-immigration-law-pllc-v-executive-office-for-immigration-review/",
-      "summary": "On March 24, 2026, two Minnesota-based legal service providers filed a complaint against the Executive Office for Immigration Review (EOIR), the Department of Justice (DOJ), EOIR Director Daren K. Margolin, and Attorney General Pamela Bondi. The plaintiffs challenge the alleged \"Somali Fast-Track Policy,\" which accelerates the immigration cases of non-detained Somali nationals, claiming it violates the Administrative Procedure Act, the Fifth Amendment, and the First Amendment. They seek a stay, vacatur, and permanent injunction of the policy.",
-      "why_relevant": "Litigation over Trump administration actions affects judicial review, executive power, rights enforcement, and the rule of law.",
-      "attacks": [
-        "immigrants_refugees",
-        "rule_of_law"
-      ],
-      "_origin_file": "justsecurity_events_2026-03-21_2026-03-27.json",
-      "_origin_index": 20
-    },
-    {
-      "source_key": "justsecurity",
-      "date": "2026-03-24",
-      "category": "Judicial Developments",
       "title": "Complaint filed — Leon Rengel v. United States",
       "url": "https://www.courtlistener.com/docket/72600914/leon-rengel-v-united-states/",
       "summary": "On March 24, 2026, Neiyerver Adrián Leon Rengel filed a complaint against the United States in the District Court for the District of Columbia. The complaint seeks at least $1,300,000 in damages under the Federal Tort Claims Act (FTCA), alleging that senior Trump Administration officials orchestrated an unconstitutional scheme targeting Venezuelan immigrants. Rengel claims he was unlawfully deported to El Salvador, imprisoned under harsh conditions, and denied due process, in violation of a court order. The lawsuit includes claims for negligence, intentional infliction of emotional distress, abuse of process, and false imprisonment.",
@@ -1638,30 +1610,6 @@
       ],
       "_origin_file": "justsecurity_events_2026-03-21_2026-03-27.json",
       "_origin_index": 1
-    },
-    {
-      "source_key": "justsecurity",
-      "date": "2026-03-24",
-      "category": "Judicial Developments",
-      "title": "Dismissal entered — State of California v. Wright (N.D. Cal.) 3:26-cv-02500",
-      "url": "https://www.courtlistener.com/docket/72533198/state-of-california-v-wright/",
-      "summary": "The Court ordered to show cause why case should not be dismissed for improper venue, finding California's challenge to the Energy Secretary's DPA pipeline restart order was likely filed in the wrong district given the pipelines at issue are located in the Central and/or Eastern Districts; California has one week to respond or refile.",
-      "why_relevant": "This litigation update changes the posture of an active legal challenge to Trump administration action.",
-      "attacks": [],
-      "_origin_file": "justsecurity_events_2026-03-21_2026-03-27.json",
-      "_origin_index": 7
-    },
-    {
-      "source_key": "justsecurity",
-      "date": "2026-03-24",
-      "category": "Judicial Developments",
-      "title": "Motion granted — Chicago Transit Authority v. United States Department of Transportation (N.D. Ill) 1:26-cv-03140",
-      "url": "https://www.courtlistener.com/docket/72521744/chicago-transit-authority-v-united-states-department-of-transportation/",
-      "summary": "The Court granted a TRO ordering the FTA to resume processing over $2 billion in suspended grant payments for the CTA's Red Line Extension and Red and Purple Modernization projects, finding the DOT's retroactive application of its interim final rule eliminating race- and gender-based DBE presumptions likely arbitrary and capricious, procedurally defective under the APA and Title VI, and selectively enforced only against entities in Chicago and New York.",
-      "why_relevant": "This litigation update changes the posture of an active legal challenge to Trump administration action.",
-      "attacks": [],
-      "_origin_file": "justsecurity_events_2026-03-21_2026-03-27.json",
-      "_origin_index": 8
     },
     {
       "source_key": "noah",
@@ -3157,6 +3105,20 @@
       "source_key": "guardian",
       "date": "2026-03-26",
       "category": "Legislative & Oversight Activity",
+      "title": "Texas House Speaker orders study on annexing parts of New Mexico",
+      "url": "https://www.theguardian.com/us-news/2026/mar/30/texas-study-annexing-new-mexico",
+      "summary": "New Mexico governor calls order ‘not serious’ as south-eastern counties note divisions with Democratic Santa Fe",
+      "why_relevant": "This action could impact state boundaries and governance, affecting representation and political dynamics.",
+      "attacks": [
+        "union"
+      ],
+      "_origin_file": "guardian_events_2026-03-28_2026-04-24.json",
+      "_origin_index": 256
+    },
+    {
+      "source_key": "guardian",
+      "date": "2026-03-26",
+      "category": "Legislative & Oversight Activity",
       "title": "Trump signs bill requiring DOJ to release Epstein files",
       "url": "https://www.theguardian.com/us-news/2026/mar/26/trump-voter-epstein-survivor",
       "summary": "On November 19, 2025, former President Donald Trump signed a congressional bill into law that mandates the Department of Justice to release records related to Jeffrey Epstein. This decision came after Trump initially opposed the bill but reversed his stance when it gained bipartisan support. Since the bill's enactment, the DOJ has released multiple batches of records, including a significant disclosure of approximately 3 million records in January. However, some survivors and lawmakers claim that certain materials are still missing or redacted, raising concerns about compliance with the law.",
@@ -3286,18 +3248,6 @@
       "source_key": "justsecurity",
       "date": "2026-03-26",
       "category": "Judicial Developments",
-      "title": "Case update — Global Nurse Force v. Trump (N.D. Cal.) 4:25-cv-08454",
-      "url": "https://www.courtlistener.com/docket/71541425/global-nurse-force-v-trump/",
-      "summary": "Plaintiffs filed a notice informing the court that two Plaintiff organizations had received identical emails from the Department of Homeland Security denying their requests for an exemption from the $100,000 fee for H-1B visas at issue in the case. The denial emails, which stated the decision was “final and not subject to appeal,” allegedly erroneously characterized both employers' individual exemption requests as requests for “an industry-wide or business-wide exception.”",
-      "why_relevant": "This litigation update changes the posture of an active legal challenge to Trump administration action.",
-      "attacks": [],
-      "_origin_file": "justsecurity_events_2026-03-21_2026-03-27.json",
-      "_origin_index": 10
-    },
-    {
-      "source_key": "justsecurity",
-      "date": "2026-03-26",
-      "category": "Judicial Developments",
       "title": "Case update — Reach Community Development v. U.S. Department of Homeland Security (D. Or.) 3:25-cv-02257",
       "url": "https://www.courtlistener.com/docket/72000469/reach-community-development-v-us-department-of-homeland-security/",
       "summary": "Plaintiffs filed an emergency motion for en banc reconsideration of the Ninth Circuit's stay of a lower court ruling enjoining the government from deploying tear gas next to an affordable-housing complex in Portland, Oregon. Plaintiffs seek reconsideration on the basis that the Ninth Circuit failed to apply the proper legal standard in staying the lower court's injunction.",
@@ -3320,30 +3270,6 @@
       ],
       "_origin_file": "justsecurity_events_2026-03-21_2026-03-27.json",
       "_origin_index": 6
-    },
-    {
-      "source_key": "justsecurity",
-      "date": "2026-03-26",
-      "category": "Judicial Developments",
-      "title": "Preliminary injunction ruling — Anthropic PBC v. U.S. Department of War (N.D. Cal.) 3:26-cv-01996",
-      "url": "https://www.courtlistener.com/docket/72379655/anthropic-pbc-v-us-department-of-war/",
-      "summary": "In an opinion and order , Judge Rita Lin granted Anthropic's motion for a preliminary injunction, blocking the administration from implementing policies banning federal agencies, contractors, suppliers, and partners from using Anthropic's technology. The court found Anthropic likely to succeed on its First Amendment retaliation, Fifth Amendment due process, and APA claims, holding that the government's actions appeared designed to punish Anthropic for protected speech rather than to address a legitimate national security concern. The court granted Defendants a seven-day administrative stay to seek emergency relief from the court of appeals.",
-      "why_relevant": "This litigation update changes the posture of an active legal challenge to Trump administration action.",
-      "attacks": [],
-      "_origin_file": "justsecurity_events_2026-03-21_2026-03-27.json",
-      "_origin_index": 27
-    },
-    {
-      "source_key": "justsecurity",
-      "date": "2026-03-26",
-      "category": "Judicial Developments",
-      "title": "Preliminary injunction ruling — The Advocates for Human Rights v. U.S. Department of Homeland Security (D. Minn.) 0:26-cv-00749",
-      "url": "https://www.courtlistener.com/docket/72196538/the-advocates-for-human-rights-v-us-department-of-homeland-security/",
-      "summary": "Citing continued difficulties by immigration detainees seeking counsel, Judge Brasel granted Plaintiffs' motion for a preliminary injunction, ordering ICE to provide noncitizens detained at the Bishop Henry Whipple Federal Building with free, private, and unmonitored telephone access within one house of detention; prohibiting out-of-state transfers within the first 72 hours of detention; and requiring in-person legal visitation at least eight hours per day on weekdays and four hours per day on weekends. The court also provisionally certified a class of all noncitizens detained at Whipple under the INA, finding Plaintiffs likely to succeed on their Fifth Amendment access-to-counsel claim.",
-      "why_relevant": "This litigation update changes the posture of an active legal challenge to Trump administration action.",
-      "attacks": [],
-      "_origin_file": "justsecurity_events_2026-03-21_2026-03-27.json",
-      "_origin_index": 11
     },
     {
       "source_key": "meidas",
@@ -3733,18 +3659,6 @@
       "_origin_index": 28
     },
     {
-      "source_key": "democracydocket",
-      "date": "2026-03-26",
-      "category": "Voting rights / Courts / Democracy protection",
-      "title": "Opinion",
-      "url": "https://www.democracydocket.com/opinion/",
-      "summary": "",
-      "why_relevant": "Democracy Docket tracks litigation and actions that directly shape election rules and democratic access.",
-      "attacks": [],
-      "_origin_file": "democracydocket_events_2026-03-21_2026-03-27.json",
-      "_origin_index": 1
-    },
-    {
       "source_key": "federalregister",
       "date": "2026-03-27",
       "category": "Executive Actions & Orders",
@@ -4014,22 +3928,6 @@
       "attacks": [],
       "_origin_file": "guardian_events_2026-03-21_2026-03-27.json",
       "_origin_index": 6
-    },
-    {
-      "source_key": "justsecurity",
-      "date": "2026-03-27",
-      "category": "Judicial Developments",
-      "title": "Complaint filed — Jane Doe 1 v. United States",
-      "url": "https://www.courtlistener.com/docket/72894095/jane-doe-1-v-united-states-of-america/",
-      "summary": "On March 27, 2026, a Jeffrey Epstein survivor filed a putative class action complaint in the Northern District of California against the United States and Google. The complaint alleges that the Department of Justice violated the Privacy Act of 1974 by releasing unredacted records containing the personally identifiable information of approximately 100 Epstein survivors. It also claims that Google continued to index and display this information despite being notified of the issue, violating California's Unfair Competition Law. The plaintiff seeks class certification, injunctive relief, damages, and declaratory relief.",
-      "why_relevant": "Litigation over Trump administration actions affects judicial review, executive power, rights enforcement, and the rule of law.",
-      "attacks": [
-        "truth",
-        "privacy",
-        "rule_of_law"
-      ],
-      "_origin_file": "justsecurity_events_2026-03-21_2026-03-27.json",
-      "_origin_index": 26
     },
     {
       "source_key": "justsecurity",
@@ -4338,18 +4236,6 @@
       ],
       "_origin_file": "zeteo_events_2026-03-21_2026-03-27.json",
       "_origin_index": 6
-    },
-    {
-      "source_key": "democracydocket",
-      "date": "2026-03-27",
-      "category": "Voting rights / Courts / Democracy protection",
-      "title": "Analysis",
-      "url": "https://www.democracydocket.com/analysis/",
-      "summary": "",
-      "why_relevant": "Democracy Docket tracks litigation and actions that directly shape election rules and democratic access.",
-      "attacks": [],
-      "_origin_file": "democracydocket_events_2026-03-21_2026-03-27.json",
-      "_origin_index": 0
     }
   ]
 }

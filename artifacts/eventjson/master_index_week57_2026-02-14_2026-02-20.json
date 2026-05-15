@@ -5,36 +5,38 @@
   },
   "week_number": 57,
   "sources": [
-    "meidas",
-    "zeteo",
-    "hcr",
-    "democracydocket",
-    "orders",
     "50501",
-    "guardian",
     "noah",
-    "federalregister",
+    "zeteo",
+    "guardian",
+    "popinfo",
+    "justsecurity",
+    "meidas",
     "congress",
-    "popinfo"
+    "hcr",
+    "orders",
+    "democracydocket",
+    "federalregister"
   ],
   "counts": {
-    "total": 251,
+    "total": 306,
     "by_date": {
-      "2026-02-14": 28,
+      "2026-02-14": 35,
       "2026-02-15": 18,
-      "2026-02-16": 26,
-      "2026-02-17": 37,
-      "2026-02-18": 53,
-      "2026-02-19": 45,
-      "2026-02-20": 44
+      "2026-02-16": 31,
+      "2026-02-17": 49,
+      "2026-02-18": 58,
+      "2026-02-19": 56,
+      "2026-02-20": 59
     },
     "by_source": {
-      "guardian": 69,
-      "hcr": 37,
-      "meidas": 56,
+      "hcr": 40,
+      "guardian": 83,
+      "meidas": 61,
       "zeteo": 7,
       "democracydocket": 3,
-      "50501": 10,
+      "50501": 16,
+      "justsecurity": 27,
       "federalregister": 53,
       "noah": 3,
       "popinfo": 10,
@@ -42,39 +44,23 @@
       "congress": 2
     },
     "by_category": {
-      "Executive Actions & Orders": 20,
-      "Legislative & Oversight Activity": 30,
-      "Judicial Developments": 29,
-      "Law Enforcement & Surveillance": 36,
+      "Executive Actions & Orders": 23,
+      "Legislative & Oversight Activity": 31,
+      "Judicial Developments": 61,
+      "Law Enforcement & Surveillance": 38,
       "Elections & Representation": 9,
-      "Civil Society & Protest": 8,
-      "Information & Media Control": 10,
-      "Economic & Regulatory Power": 66,
-      "Transparency & Records": 6,
-      "International Relations": 23,
-      "Civil–Military Relations & State Violence": 5,
+      "Civil Society & Protest": 14,
+      "Information & Media Control": 12,
+      "Economic & Regulatory Power": 68,
+      "Transparency & Records": 7,
+      "International Relations": 27,
+      "Civil–Military Relations & State Violence": 7,
       "Appointments & Patronage": 4,
       "Public Health": 1,
       "": 4
     }
   },
   "events": [
-    {
-      "source_key": "guardian",
-      "date": "2026-02-14",
-      "category": "Executive Actions & Orders",
-      "title": "Federal demands on Minnesota's social programs and voter rolls",
-      "url": "https://www.theguardian.com/us-news/2026/feb/14/why-minnesota-ice-crackdown-trump",
-      "summary": "In a letter dated January 24, the federal government, represented by Attorney General Pam Bondi, demanded that Minnesota turn over records on social programs, end policies preventing local coordination with immigration enforcement, and hand over voter rolls. These demands are part of the Trump administration's broader efforts to exert control over the state, which has resisted federal immigration enforcement operations. Local officials have described the letter as coercive and an overreach of federal authority.",
-      "why_relevant": "The federal demands on state records and policies represent an attempt to undermine state autonomy and exert federal control over state governance.",
-      "attacks": [
-        "separation_of_powers",
-        "rule_of_law",
-        "constitution"
-      ],
-      "_origin_file": "guardian_events_2026-02-14_2026-02-20.json",
-      "_origin_index": 68
-    },
     {
       "source_key": "hcr",
       "date": "2026-02-14",
@@ -126,15 +112,14 @@
       "category": "Legislative & Oversight Activity",
       "title": "Subpoenas issued to Minnesota officials",
       "url": "https://www.theguardian.com/us-news/2026/feb/14/why-minnesota-ice-crackdown-trump",
-      "summary": "The US Department of Justice issued subpoenas to several high-ranking officials in Minnesota, suggesting potential prosecution. This action is part of the Trump administration's broader crackdown on the state, which has included federal immigration enforcement operations and attempts to withhold federal funding. The subpoenas are seen as part of an effort to coerce the state into compliance with federal demands, including turning over records on social programs and voter rolls.",
-      "why_relevant": "The issuance of subpoenas to state officials represents a significant federal intervention in state governance, raising concerns about the use of legal processes to exert political pressure.",
+      "summary": "The US Department of Justice has issued subpoenas to several high-ranking officials in Minnesota, suggesting potential prosecution as part of the Trump administration's crackdown on the state. This action is part of a broader effort to investigate the state's government and enforce federal immigration laws. The subpoenas are seen as a move to exert pressure on the state, which has been targeted for its progressive policies and resistance to federal immigration enforcement.",
+      "why_relevant": "The issuance of subpoenas to state officials represents a significant federal intervention in state governance, raising questions about the balance of power and the use of legal tools for political purposes.",
       "attacks": [
-        "justice_dept",
-        "rule_of_law",
-        "separation_of_powers"
+        "separation_of_powers",
+        "rule_of_law"
       ],
-      "_origin_file": "guardian_events_2026-02-14_2026-02-20.json",
-      "_origin_index": 67
+      "_origin_file": "guardian_events_2026-02-14_2026-02-22.json",
+      "_origin_index": 84
     },
     {
       "source_key": "hcr",
@@ -244,15 +229,30 @@
       "category": "Law Enforcement & Surveillance",
       "title": "Federal immigration enforcement operations in Minneapolis",
       "url": "https://www.theguardian.com/us-news/2026/feb/14/why-minnesota-ice-crackdown-trump",
-      "summary": "On February 5, federal immigration enforcement operations were conducted in Minneapolis, Minnesota, where federal agents used pepper spray on observers. The operations are part of a broader crackdown by the Trump administration, which has targeted Minnesota due to its Democratic-leaning policies and high levels of civic engagement. The state has seen a surge of federal agents, investigations into its government, and attempts to withhold federal funding. The operations have resulted in the deaths of two US citizens and the detention of thousands of immigrants, including children.",
-      "why_relevant": "This event highlights the use of federal power to target a state for its political and social policies, raising concerns about the abuse of law enforcement for political retribution.",
+      "summary": "On February 5, federal immigration enforcement operations were conducted in Minneapolis, Minnesota, where federal agents used pepper spray on observers. The operations are part of a broader crackdown by the Trump administration, which has targeted Minnesota due to its Democratic-leaning policies and high levels of civic engagement. The operations have resulted in the deaths of two US citizens, Renee Good and Alex Pretti, and the detention of thousands of immigrants, including children. The actions have sparked protests and legal challenges, with allegations of systemic violations of due process and constitutional rights.",
+      "why_relevant": "The operations highlight the use of federal power to target a state for its political and social policies, raising concerns about the abuse of authority and the impact on civil liberties.",
       "attacks": [
         "immigrants_refugees",
-        "civil_service",
-        "rule_of_law"
+        "rule_of_law",
+        "state_violence"
       ],
-      "_origin_file": "guardian_events_2026-02-14_2026-02-20.json",
-      "_origin_index": 66
+      "_origin_file": "guardian_events_2026-02-14_2026-02-22.json",
+      "_origin_index": 83
+    },
+    {
+      "source_key": "guardian",
+      "date": "2026-02-14",
+      "category": "Law Enforcement & Surveillance",
+      "title": "Thames Valley police liaising with prosecutors over Epstein files",
+      "url": "https://www.theguardian.com/us-news/2026/feb/14/david-stern-jeffrey-epstein-hide-conviction-china-visa",
+      "summary": "Thames Valley police are working with prosecutors to examine materials from the Epstein files concerning allegations of \"misconduct in public office\" by Andrew Mountbatten-Windsor. The former prince is accused of leaking confidential information to Jeffrey Epstein, including official reports from trips to Singapore, Hong Kong, and Vietnam during his tenure as a government trade envoy. The police are determining whether a criminal offense is suspected and if a full investigation is warranted. Both Mountbatten-Windsor and Peter Mandelson, who faces a similar investigation, have denied any wrongdoing.",
+      "why_relevant": "The investigation into potential misconduct by a former government official underscores the importance of accountability and transparency in public office.",
+      "attacks": [
+        "rule_of_law",
+        "transparency"
+      ],
+      "_origin_file": "guardian_events_2026-02-14_2026-02-22.json",
+      "_origin_index": 89
     },
     {
       "source_key": "guardian",
@@ -343,6 +343,22 @@
       "_origin_index": 50
     },
     {
+      "source_key": "guardian",
+      "date": "2026-02-14",
+      "category": "Civil Society & Protest",
+      "title": "Arrests of protesters and journalists in Minnesota",
+      "url": "https://www.theguardian.com/us-news/2026/feb/14/why-minnesota-ice-crackdown-trump",
+      "summary": "During the federal immigration enforcement operations in Minnesota, protesters and journalists have been arrested and charged. One protester was mocked by the White House in a digitally altered photo. These actions are part of a broader effort to suppress dissent and control the narrative around the federal crackdown on the state. The arrests have raised concerns about the violation of free speech and press freedoms.",
+      "why_relevant": "The arrests of protesters and journalists represent an attack on civil liberties and the freedom of the press, essential components of a functioning democracy.",
+      "attacks": [
+        "press",
+        "civil_service",
+        "state_violence"
+      ],
+      "_origin_file": "guardian_events_2026-02-14_2026-02-22.json",
+      "_origin_index": 86
+    },
+    {
       "source_key": "meidas",
       "date": "2026-02-14",
       "category": "Civil Society & Protest",
@@ -371,6 +387,36 @@
       ],
       "_origin_file": "hcr_events_2026-02-14_2026-02-20.json",
       "_origin_index": 36
+    },
+    {
+      "source_key": "meidas",
+      "date": "2026-02-14",
+      "category": "Information & Media Control",
+      "title": "European Commission President von der Leyen on Digital Sovereignty",
+      "url": "https://www.meidasplus.com/p/saturday-afternoon-news-updates-21426",
+      "summary": "European Commission President Ursula von der Leyen, speaking in Munich, emphasized the importance of digital sovereignty and democratic resilience. She stated that what is forbidden offline should also be forbidden online, signaling Europe's intent to enforce its laws against American big tech interests. Her remarks come amid tensions between European regulators and tech companies aligned with Trump allies.",
+      "why_relevant": "Von der Leyen's comments reflect Europe's commitment to maintaining control over its digital space and protecting democratic processes from external influences.",
+      "attacks": [
+        "information"
+      ],
+      "_origin_file": "meidas_events_2026-02-14_2026-02-16.json",
+      "_origin_index": 11
+    },
+    {
+      "source_key": "guardian",
+      "date": "2026-02-14",
+      "category": "Economic & Regulatory Power",
+      "title": "Federal funding withheld from Minnesota",
+      "url": "https://www.theguardian.com/us-news/2026/feb/14/why-minnesota-ice-crackdown-trump",
+      "summary": "The Trump administration has attempted to withhold several streams of federal funding from Minnesota as part of its crackdown on the state. This move is seen as an effort to coerce the state into compliance with federal immigration enforcement policies. The withholding of funds has significant implications for the state's ability to provide services and maintain its social safety net, which is a key aspect of its progressive policies.",
+      "why_relevant": "The withholding of federal funds is a coercive tactic that undermines state autonomy and threatens the provision of essential services, highlighting the use of economic power to enforce political compliance.",
+      "attacks": [
+        "state_violence",
+        "economy",
+        "separation_of_powers"
+      ],
+      "_origin_file": "guardian_events_2026-02-14_2026-02-22.json",
+      "_origin_index": 85
     },
     {
       "source_key": "meidas",
@@ -418,19 +464,34 @@
       "_origin_index": 47
     },
     {
+      "source_key": "meidas",
+      "date": "2026-02-14",
+      "category": "Transparency & Records",
+      "title": "Steve Bannon's 2019 Communications with Jeffrey Epstein Revealed",
+      "url": "https://www.meidasplus.com/p/saturday-afternoon-news-updates-21426",
+      "summary": "Newly released Justice Department materials reveal communications between Steve Bannon and Jeffrey Epstein in 2019. Bannon messaged Epstein about efforts to undermine Pope Francis, whom he viewed as an obstacle to nationalist political movements. These revelations add to concerns about the priorities and judgment of figures in Trump's political orbit.",
+      "why_relevant": "The disclosure of Bannon's communications with Epstein raises questions about the influence of nationalist figures on global political dynamics and their impact on democratic institutions.",
+      "attacks": [
+        "global_democracy",
+        "public_memory"
+      ],
+      "_origin_file": "meidas_events_2026-02-14_2026-02-16.json",
+      "_origin_index": 14
+    },
+    {
       "source_key": "guardian",
       "date": "2026-02-14",
       "category": "International Relations",
       "title": "Andrew aide advised Epstein to omit conviction on China visa form",
       "url": "https://www.theguardian.com/us-news/2026/feb/14/david-stern-jeffrey-epstein-hide-conviction-china-visa",
-      "summary": "",
-      "why_relevant": "This event highlights potential misuse of diplomatic influence and raises questions about ethical conduct in international relations.",
+      "summary": "David Stern, an aide to Andrew Mountbatten-Windsor, advised Jeffrey Epstein to omit his child sexual abuse conviction when applying for a visa to China. This advice was given after Epstein's initial visa application was rejected. Stern suggested that Epstein's assistant apply at the Chinese embassy in Paris and avoid mentioning previous denials or criminal charges. The advice was part of an email chain from 2012, and there is no indication that Mountbatten-Windsor was aware of this advice. It is also unclear if Epstein ever traveled to Beijing.",
+      "why_relevant": "This event highlights potential misuse of diplomatic influence and the evasion of legal accountability by high-profile individuals.",
       "attacks": [
-        "diplomacy",
-        "rule_of_law"
+        "rule_of_law",
+        "international_relations"
       ],
-      "_origin_file": "guardian_events_2026-02-14_2026-02-20.json",
-      "_origin_index": 70
+      "_origin_file": "guardian_events_2026-02-14_2026-02-22.json",
+      "_origin_index": 88
     },
     {
       "source_key": "guardian",
@@ -450,6 +511,20 @@
       "source_key": "meidas",
       "date": "2026-02-14",
       "category": "International Relations",
+      "title": "China's Foreign Minister Wang Yi Defends the United Nations",
+      "url": "https://www.meidasplus.com/p/saturday-afternoon-news-updates-21426",
+      "summary": "China's Foreign Minister Wang Yi, speaking in Munich, defended the importance of the United Nations, warning against a world reverting to the \"law of the jungle.\" His comments contrast with statements from Trump allies questioning the relevance of multilateral institutions. Wang's remarks underscore China's support for the UN amid global geopolitical tensions.",
+      "why_relevant": "Wang Yi's defense of the UN highlights the ongoing debate over the role of multilateral institutions in maintaining global order.",
+      "attacks": [
+        "global_democracy"
+      ],
+      "_origin_file": "meidas_events_2026-02-14_2026-02-16.json",
+      "_origin_index": 13
+    },
+    {
+      "source_key": "meidas",
+      "date": "2026-02-14",
+      "category": "International Relations",
       "title": "Rubio Reassures Allies at Munich Conference",
       "url": "https://www.meidasplus.com/p/this-weekend-in-politics-bulletin-ead",
       "summary": "Senator Marco Rubio delivered a speech at the Munich conference, reassuring European allies of the US's commitment to the trans-Atlantic alliance despite previous hostile rhetoric from the Trump administration. Rubio emphasized the US's intent to reshape the alliance while maintaining strong ties with Europe.",
@@ -460,6 +535,32 @@
       ],
       "_origin_file": "meidas_events_2026-02-14_2026-02-20.json",
       "_origin_index": 51
+    },
+    {
+      "source_key": "meidas",
+      "date": "2026-02-14",
+      "category": "International Relations",
+      "title": "UK Prime Minister Starmer Calls for European Defense Strengthening",
+      "url": "https://www.meidasplus.com/p/saturday-afternoon-news-updates-21426",
+      "summary": "UK Prime Minister Keir Starmer, addressing leaders in Munich, called for Europe to strengthen its defense capabilities, citing the need to deter aggression and protect European values. He noted that Europe can no longer rely solely on the United States for security and described Europe as a \"sleeping giant\" with significant economic power but fragmented defense structures.",
+      "why_relevant": "Starmer's call for a stronger European defense highlights a shift in security dynamics and the need for Europe to assume greater responsibility for its own defense.",
+      "attacks": [],
+      "_origin_file": "meidas_events_2026-02-14_2026-02-16.json",
+      "_origin_index": 12
+    },
+    {
+      "source_key": "meidas",
+      "date": "2026-02-14",
+      "category": "International Relations",
+      "title": "Ukrainian President Zelenskyy Rejects Concessions in Peace Talks",
+      "url": "https://www.meidasplus.com/p/saturday-afternoon-news-updates-21426",
+      "summary": "Ukrainian President Volodymyr Zelenskyy, speaking at a gathering in Munich, rejected the idea of Ukraine making concessions in peace negotiations with Russia. He criticized the focus on Ukrainian concessions without demanding meaningful compromises from Russia. Zelenskyy emphasized that Ukraine should not be pressured to surrender territory and highlighted the strength of Ukraine's military. He also addressed the impracticality of holding elections under ongoing missile attacks, countering calls from Trump allies for elections in Ukraine.",
+      "why_relevant": "Zelenskyy's stance underscores the challenges in achieving a fair peace settlement and highlights the geopolitical tensions involving Ukraine, Russia, and Western allies.",
+      "attacks": [
+        "global_democracy"
+      ],
+      "_origin_file": "meidas_events_2026-02-14_2026-02-16.json",
+      "_origin_index": 10
     },
     {
       "source_key": "meidas",
@@ -768,6 +869,21 @@
       "_origin_index": 25
     },
     {
+      "source_key": "guardian",
+      "date": "2026-02-16",
+      "category": "Legislative & Oversight Activity",
+      "title": "Texas legislature gerrymanders congressional maps",
+      "url": "https://www.theguardian.com/us-news/2026/mar/01/texas-democrats-primary-senate-seat",
+      "summary": "",
+      "why_relevant": "Gerrymandering affects the fairness of elections and representation, impacting the democratic process.",
+      "attacks": [
+        "elections",
+        "rule_of_law"
+      ],
+      "_origin_file": "guardian_events_2026-02-28_2026-03-06.json",
+      "_origin_index": 69
+    },
+    {
       "source_key": "meidas",
       "date": "2026-02-16",
       "category": "Legislative & Oversight Activity",
@@ -797,6 +913,42 @@
       ],
       "_origin_file": "meidas_events_2026-02-14_2026-02-20.json",
       "_origin_index": 42
+    },
+    {
+      "source_key": "justsecurity",
+      "date": "2026-02-16",
+      "category": "Judicial Developments",
+      "title": "City of Philadelphia v. Burgum (E.D. Pa.) 2:26-cv-00434 — Judge Rufe granted a preliminary injunction , ordering Defendants to restore the President's House to its physical status as of Jan. 21, 2026 by “reinstall[ing]…",
+      "url": "https://www.courtlistener.com/docket/72178941/city-of-philadelphia-v-burgum",
+      "summary": "Judge Rufe granted a preliminary injunction , ordering Defendants to restore the President's House to its physical status as of Jan. 21, 2026 by “reinstall[ing] all panels, displays, and video exhibits that were previously in place” and “prevent[ing] any additions, removals, destruction, or further changes of any kind to the President's House site” without mutual agreement of the City of Philadelphia or until further court order.",
+      "why_relevant": "This tracker update marks a concrete litigation development in an ongoing legal challenge. Court: E.D. Pa.. Docket: 2:26-cv-00434.",
+      "attacks": [],
+      "_origin_file": "justsecurity_events_2026-01-01_2026-03-20.json",
+      "_origin_index": 75
+    },
+    {
+      "source_key": "justsecurity",
+      "date": "2026-02-16",
+      "category": "Judicial Developments",
+      "title": "Lesly Miot v. Trump (D.D.C.) 1:25-cv-02471 — A coalition of 17 states and the District of Columbia filed an amicus brief in opposition to the emergency motion to stay pending appeal.",
+      "url": "https://www.courtlistener.com/docket/70965949/lesly-miot-v-trump",
+      "summary": "A coalition of 17 states and the District of Columbia filed an amicus brief in opposition to the emergency motion to stay pending appeal.",
+      "why_relevant": "This tracker update marks a concrete litigation development in an ongoing legal challenge. Court: D.D.C.. Docket: 1:25-cv-02471.",
+      "attacks": [],
+      "_origin_file": "justsecurity_events_2026-01-01_2026-03-20.json",
+      "_origin_index": 257
+    },
+    {
+      "source_key": "justsecurity",
+      "date": "2026-02-16",
+      "category": "Judicial Developments",
+      "title": "State of Minnesota v. Noem (D. Minn.) 0:26-cv-00190 — A magistrate judge denied Minnesota's motion for expedited discovery, holding that despite the “far-reaching and deeply traumatizing effects” of Operation Metro…",
+      "url": "https://www.courtlistener.com/docket/72132615/state-of-minnesota-v-noem",
+      "summary": "A magistrate judge denied Minnesota's motion for expedited discovery, holding that despite the “far-reaching and deeply traumatizing effects” of Operation Metro Surge, Plaintiffs had not shown good cause because they had not yet filed the contemplated preliminary injunction motion or narrowly targeted their request to support specific and necessary ends.",
+      "why_relevant": "This tracker update marks a concrete litigation development in an ongoing legal challenge. Court: D. Minn.. Docket: 0:26-cv-00190.",
+      "attacks": [],
+      "_origin_file": "justsecurity_events_2026-01-01_2026-03-20.json",
+      "_origin_index": 17
     },
     {
       "source_key": "guardian",
@@ -914,6 +1066,21 @@
       ],
       "_origin_file": "guardian_events_2026-02-14_2026-02-20.json",
       "_origin_index": 51
+    },
+    {
+      "source_key": "guardian",
+      "date": "2026-02-16",
+      "category": "Information & Media Control",
+      "title": "CBS refuses to air Stephen Colbert's interview with James Talarico",
+      "url": "https://www.theguardian.com/us-news/2026/mar/01/texas-democrats-primary-senate-seat",
+      "summary": "",
+      "why_relevant": "The incident highlights issues of media control and censorship, impacting the democratic process by influencing voter access to information.",
+      "attacks": [
+        "press",
+        "information"
+      ],
+      "_origin_file": "guardian_events_2026-02-28_2026-03-06.json",
+      "_origin_index": 68
     },
     {
       "source_key": "meidas",
@@ -1176,15 +1343,14 @@
       "category": "Legislative & Oversight Activity",
       "title": "Articles of impeachment filed against Kristi Noem",
       "url": "https://www.theguardian.com/us-news/2026/feb/17/tricia-mclaughlin-trump-dhs-exit-role",
-      "summary": "House Democrats have filed articles of impeachment against Kristi Noem, the US Homeland Security Secretary. The impeachment articles accuse Noem of violating public trust and obstructing congressional oversight, particularly in relation to the fatal shootings of two US citizens by federal immigration officers in Minneapolis. These incidents have sparked significant public outrage and are central to the impeachment proceedings. The articles also mention allegations of financial self-dealing involving a DHS advertising campaign linked to Noem's department.",
-      "why_relevant": "The impeachment proceedings highlight significant concerns about accountability and oversight within the Department of Homeland Security.",
+      "summary": "House Democrats have filed articles of impeachment against Kristi Noem, the US Homeland Security Secretary. The impeachment articles accuse Noem of violating public trust and obstructing congressional oversight, following the fatal shootings of two US citizens by federal immigration officers in Minneapolis. These incidents have sparked significant public outrage and are central to the impeachment proceedings.",
+      "why_relevant": "The impeachment articles highlight significant concerns about accountability and oversight within the Department of Homeland Security.",
       "attacks": [
         "congress",
-        "rule_of_law",
-        "immigrants_refugees"
+        "rule_of_law"
       ],
-      "_origin_file": "guardian_events_2026-02-14_2026-02-20.json",
-      "_origin_index": 39
+      "_origin_file": "guardian_events_2026-02-14_2026-02-22.json",
+      "_origin_index": 56
     },
     {
       "source_key": "guardian",
@@ -1288,6 +1454,90 @@
       ],
       "_origin_file": "hcr_events_2026-02-14_2026-02-20.json",
       "_origin_index": 24
+    },
+    {
+      "source_key": "justsecurity",
+      "date": "2026-02-17",
+      "category": "Judicial Developments",
+      "title": "American Academy of Pediatrics v. Federal Trade Commission (D.D.C.) 1:26-cv-00508 — Case filed",
+      "url": "https://www.courtlistener.com/docket/72286835/american-academy-of-pediatrics-v-federal-trade-commission",
+      "summary": "Case filed Coming soon. On Feb. 17, 2026, the American Academy of Pediatrics (AAP) sued the Federal Trade Commission, challenging the administration’s Civil Investigative Demand (CID) seeking extensive information regarding AAP’s statements about “Pediatric Gender Dysphoria Treatment.” Plaintiff alleges that the CID is retaliatory, exceeds the FTC’s jurisdiction, and violates the First and Fourth Amendments.",
+      "why_relevant": "A new legal challenge was filed against a Trump administration action. Court: D.D.C.. Docket: 1:26-cv-00508.",
+      "attacks": [],
+      "_origin_file": "justsecurity_events_2026-01-01_2026-03-20.json",
+      "_origin_index": 44
+    },
+    {
+      "source_key": "justsecurity",
+      "date": "2026-02-17",
+      "category": "Judicial Developments",
+      "title": "American Academy of Pediatrics v. Robert F. Kennedy Jr. (D. Mass.) 1:25-cv-11916 — Plaintiffs filed a fourth amended complaint seeking to block additional HHS actions, including the Jan. 5, 2026 childhood immunization overhaul , claiming the a…",
+      "url": "https://www.courtlistener.com/docket/70722326/american-academy-of-pediatrics-v-kennedy",
+      "summary": "Plaintiffs filed a fourth amended complaint seeking to block additional HHS actions, including the Jan. 5, 2026 childhood immunization overhaul , claiming the agency failed to consider whether the decision would result in important factors, such as serious illness and death. Plaintiffs also request to halt the upcoming Advisory Committee on Immunization Practices (ACIP) public meeting, alleging the spread of false and misleading information at past meetings.",
+      "why_relevant": "This tracker update marks a concrete litigation development in an ongoing legal challenge. Court: D. Mass.. Docket: 1:25-cv-11916.",
+      "attacks": [],
+      "_origin_file": "justsecurity_events_2026-01-01_2026-03-20.json",
+      "_origin_index": 129
+    },
+    {
+      "source_key": "justsecurity",
+      "date": "2026-02-17",
+      "category": "Judicial Developments",
+      "title": "City of Philadelphia v. Burgum (E.D. Pa.) 2:26-cv-00434 — Defendants appealed the court's Feb. 16, 2026 memorandum opinion and order to the Third Circuit, Case No. 26-1348 .",
+      "url": "https://www.courtlistener.com/docket/72178941/city-of-philadelphia-v-burgum",
+      "summary": "Defendants appealed the court's Feb. 16, 2026 memorandum opinion and order to the Third Circuit, Case No. 26-1348 .",
+      "why_relevant": "This tracker update marks a concrete litigation development in an ongoing legal challenge. Court: E.D. Pa.. Docket: 2:26-cv-00434.",
+      "attacks": [],
+      "_origin_file": "justsecurity_events_2026-01-01_2026-03-20.json",
+      "_origin_index": 76
+    },
+    {
+      "source_key": "justsecurity",
+      "date": "2026-02-17",
+      "category": "Judicial Developments",
+      "title": "Democracy Defenders Fund v. Federal Bureau of Investigation (D.D.C.) 1:26-cv-00496 — Case filed",
+      "url": "https://www.courtlistener.com/docket/72284498/democracy-defenders-fund-v-federal-bureau-of-investigation",
+      "summary": "Case filed On Feb. 17, 2026, Plaintiff Democracy Defenders Fund (DDF), a non-profit…organization dedicated to restoring American democracy by defending the rule of law, fighting corruption, and protecting elections, sued the Federal Bureau of Investigation (FBI) for allegedly violating the Freedom of Information Act (FOIA), 5 U.S.C. § 552, by failing to respond to records requests related to the investigation of Thomas Homan, the “Border Czar” of the Trump administration. DDF alleges that, on Sept. 23, 2025, it issued a FOIA request to the FBI concerning the FBI’s alleged investigation of Homan after it was reported that Homan allegedly accepted $50,000 from undercover FBI Agents posing as prospective government contractors for the purpose of securing future contracts with the government if President Donald Trump won re-election in 2024. Plaintiff further alleges that the FBI ended its investigation into Homan after Trump took office in 2025. On Jan. 5, 2026, the FBI allegedly denied DDF’s FOIA request in its entirety, a decision which DDF appealed and requested expedited processing for its appeal. The FBI allegedly denied the expedited processing request on Feb. 9, 2026 and DDF alleges the FBI has failed to respond to the substance of DDF’s appeal as of the date it filed its complaint, in violation of FOIA. DDF requests that the court (i) enter an order declaring that the FBI wrongfully withheld the requested agency records and issue a permanent injunction directing the FBI to disclose to DDF all wrongfully withheld documents.",
+      "why_relevant": "A new legal challenge was filed against a Trump administration action. Court: D.D.C.. Docket: 1:26-cv-00496.",
+      "attacks": [],
+      "_origin_file": "justsecurity_events_2026-01-01_2026-03-20.json",
+      "_origin_index": 406
+    },
+    {
+      "source_key": "justsecurity",
+      "date": "2026-02-17",
+      "category": "Judicial Developments",
+      "title": "National Parks Conservation Association v. Department of the Interior (D. Mass) 1:26-cv-10877 — Case filed",
+      "url": "https://www.courtlistener.com/docket/72285106/national-parks-conservation-association-v-department-of-the-interior",
+      "summary": "Case filed Coming soon. On Feb. 17, 2026, a group of environmental and other non-profit organizations filed a complaint against the Department of the Interior (DOI) and the National Park Service (NPS) alleging that the Secretary of the Interior’s May 20, 2025 order implementing the President’s March 2025 Executive Order , “Restoring Truth and Sanity to American History,” and the DOI’s implementation of it violate the Administrative Procedure Act, the National Park Service Centennial Act (NPSCA), the National Park Service Organic Act (NPSOA), the National Parks Omnibus Management Act (NPOMA), the Federal Land Policy Management Act (FLPMA), and the Paperwork Reduction Act (PRA). Plaintiffs seek declaratory and injunctive relief.",
+      "why_relevant": "A new legal challenge was filed against a Trump administration action. Docket: 1:26-cv-10877.",
+      "attacks": [],
+      "_origin_file": "justsecurity_events_2026-01-01_2026-03-20.json",
+      "_origin_index": 79
+    },
+    {
+      "source_key": "justsecurity",
+      "date": "2026-02-17",
+      "category": "Judicial Developments",
+      "title": "Oregon v. Trump (D. Or.) 3:25-cv-01756 — The Ninth Circuit dismissed the consolidated appeals.",
+      "url": "https://www.courtlistener.com/docket/71481149/state-of-oregon-v-trump",
+      "summary": "The Ninth Circuit dismissed the consolidated appeals.",
+      "why_relevant": "This tracker update marks a concrete litigation development in an ongoing legal challenge. Court: D. Or.. Docket: 3:25-cv-01756.",
+      "attacks": [],
+      "_origin_file": "justsecurity_events_2026-01-01_2026-03-20.json",
+      "_origin_index": 116
+    },
+    {
+      "source_key": "justsecurity",
+      "date": "2026-02-17",
+      "category": "Judicial Developments",
+      "title": "State of Washington v. Federal Emergency Management Agency (D. Mass.) 1:25-cv-12006 — Plaintiff States filed a Motion to Enforce Judgment.",
+      "url": "https://www.courtlistener.com/docket/70807946/state-of-washington-v-federal-emergency-management-agency",
+      "summary": "Plaintiff States filed a Motion to Enforce Judgment.",
+      "why_relevant": "This tracker update marks a concrete litigation development in an ongoing legal challenge. Court: D. Mass.. Docket: 1:25-cv-12006.",
+      "attacks": [],
+      "_origin_file": "justsecurity_events_2026-01-01_2026-03-20.json",
+      "_origin_index": 141
     },
     {
       "source_key": "50501",
@@ -1413,6 +1663,30 @@
       "source_key": "50501",
       "date": "2026-02-17",
       "category": "Civil Society & Protest",
+      "title": "\"Impeach, Convict, Remove, Defund\" Action Announced",
+      "url": "https://www.the50501movement.org/p/announcement-the-next-no-kings-mobilization",
+      "summary": "The 50501 Movement has scheduled an action titled \"Impeach, Convict, Remove, Defund\" for February 17, 2026. This event is part of a series of protests leading up to a larger mobilization on March 28. The action focuses on holding government officials accountable and advocating for systemic changes. Participants are encouraged to join local events, share information, and participate in training sessions to ensure effective and organized actions.",
+      "why_relevant": "This action underscores public demands for accountability and reform within government institutions.",
+      "attacks": [],
+      "_origin_file": "50501_events_2026-01-24_2026-01-30.json",
+      "_origin_index": 6
+    },
+    {
+      "source_key": "50501",
+      "date": "2026-02-17",
+      "category": "Civil Society & Protest",
+      "title": "National Day of Lobbying announced for February 17",
+      "url": "https://citizensimpeachment.com/feb17",
+      "summary": "A National Day of Lobbying is scheduled for February 17, urging citizens to visit their representatives' district offices to demand impeachment, conviction, and removal of certain officials. The event emphasizes the importance of in-district pressure over phone calls to D.C. offices. This organized effort aims to mobilize public opinion and influence legislative action through direct constituent engagement.",
+      "why_relevant": "This event represents a coordinated effort to influence legislative processes and hold elected officials accountable through direct civic engagement.",
+      "attacks": [],
+      "_origin_file": "50501_events_2026-02-09_2026-02-11.json",
+      "_origin_index": 1
+    },
+    {
+      "source_key": "50501",
+      "date": "2026-02-17",
+      "category": "Civil Society & Protest",
       "title": "National Day of Lobbying for Impeachment",
       "url": "https://www.the50501movement.org/p/how-to-lobby-your-representatives",
       "summary": "On February 17, a coordinated National Day of Lobbying took place across the United States, organized by FLARE, Citizens’ Impeachment, and the 50501 Movement. Constituents visited their representatives' district offices to demand the filing of articles of impeachment against Donald Trump and members of his administration. The campaign focused on three grounds: tyranny, treason, and obstruction of justice. Participants were provided with scripts, preparation steps, and talking points to effectively communicate their demands and document their visits.",
@@ -1439,6 +1713,21 @@
       "source_key": "50501",
       "date": "2026-02-17",
       "category": "Civil Society & Protest",
+      "title": "National Day of Lobbying for Trump's Impeachment",
+      "url": "https://www.the50501movement.org/p/you-are-50501-no-permission-required",
+      "summary": "On February 17, 2026, the 50501 Movement, in collaboration with FLARE and Citizens Impeachment, is organizing a National Day of Lobbying across all 435 congressional districts. The initiative seeks to advocate for the impeachment, conviction, and removal of Donald Trump and his administration. Participants will visit local Representatives' offices to demand action, supported by a lobbying toolkit and guidance provided by the organizing groups.",
+      "why_relevant": "This lobbying effort represents a significant mobilization to hold a former president accountable and influence legislative action.",
+      "attacks": [
+        "presidency",
+        "rule_of_law"
+      ],
+      "_origin_file": "50501_events_2026-01-24_2026-01-30.json",
+      "_origin_index": 10
+    },
+    {
+      "source_key": "50501",
+      "date": "2026-02-17",
+      "category": "Civil Society & Protest",
       "title": "National Day of Lobbying held across nearly 100 congressional districts",
       "url": "https://www.the50501movement.org/p/juan-nicolas-is-two-months-old-this",
       "summary": "On February 17, constituents in nearly 100 congressional districts participated in a National Day of Lobbying, organized by Citizens’ Impeachment, FLARE USA, and 50501. The coordinated action involved constituents visiting or attempting to visit their U.S. House representatives' offices to demand impeachment proceedings and the abolition of ICE. In South Carolina’s 1st Congressional District, groups such as Indivisible Charleston and the Charleston DSA reported that Rep. Nancy Mace's office did not respond to calls or meeting requests, leading to a press conference outside her office.",
@@ -1446,6 +1735,18 @@
       "attacks": [],
       "_origin_file": "50501_events_2026-02-14_2026-02-20.json",
       "_origin_index": 6
+    },
+    {
+      "source_key": "50501",
+      "date": "2026-02-17",
+      "category": "Civil Society & Protest",
+      "title": "Nationwide In-District Lobbying Day Announced",
+      "url": "https://www.the50501movement.org/p/economic-noncooperation",
+      "summary": "A nationwide day of direct action, organized by Citizens’ Impeachment, FLARE USA, and the 50501 Movement, is scheduled for February 17. The event, called the National In-District Lobbying Day, aims to demand that Congress hold former President Trump accountable and take steps toward impeachment. Participants are encouraged to show up in their respective districts to speak out and demand justice. This coordinated effort is part of a broader campaign to apply political pressure through civic engagement.",
+      "why_relevant": "This event represents a coordinated effort to influence legislative action through organized civic participation, highlighting the role of public pressure in democratic accountability.",
+      "attacks": [],
+      "_origin_file": "50501_events_2026-01-31_2026-02-06.json",
+      "_origin_index": 0
     },
     {
       "source_key": "meidas",
@@ -1549,6 +1850,21 @@
       ],
       "_origin_file": "federalregister_events_2026-02-14_2026-02-20.json",
       "_origin_index": 0
+    },
+    {
+      "source_key": "guardian",
+      "date": "2026-02-17",
+      "category": "Economic & Regulatory Power",
+      "title": "Allegations of financial self-dealing involving Tricia McLaughlin",
+      "url": "https://www.theguardian.com/us-news/2026/feb/17/tricia-mclaughlin-trump-dhs-exit-role",
+      "summary": "Tricia McLaughlin, the top spokesperson for the Department of Homeland Security, faces allegations of financial self-dealing. Federal Communications Commission documents reveal her involvement in a $220 million DHS advertising campaign, with portions of the funds going to an ad firm run by her husband. This alleged conflict of interest is cited in the impeachment articles against Kristi Noem.",
+      "why_relevant": "The allegations raise concerns about potential corruption and misuse of public funds within the Department of Homeland Security.",
+      "attacks": [
+        "public_service",
+        "emoluments"
+      ],
+      "_origin_file": "guardian_events_2026-02-14_2026-02-22.json",
+      "_origin_index": 57
     },
     {
       "source_key": "hcr",
@@ -1685,12 +2001,12 @@
       "source_key": "orders",
       "date": "2026-02-18",
       "category": "Executive Actions & Orders",
-      "title": "Executive Order on Elemental Phosphorus and Glyphosate-based Herbicides",
+      "title": "Executive Order on National Defense Supply of Phosphorus and Herbicides",
       "url": "https://ballotpedia.org/Executive_Order:_Promoting_the_National_Defense_by_Ensuring_an_Adequate_Supply_of_Elemental_Phosphorus_and_Glyphosate-based_Herbicides_(Donald_Trump,_2026)",
-      "summary": "On February 18, 2026, President Donald Trump issued an executive order to ensure an adequate supply of elemental phosphorus and glyphosate-based herbicides, citing their importance to national defense and agricultural productivity. The order delegates authority to the Secretary of Agriculture to prioritize and allocate resources necessary for their production, emphasizing the critical role these substances play in defense technologies and agriculture. The order aims to bolster domestic production to reduce reliance on imports and mitigate national security risks associated with supply chain disruptions.",
+      "summary": "On February 18, 2026, President Donald Trump issued an executive order to ensure an adequate supply of elemental phosphorus and glyphosate-based herbicides, citing their critical role in national defense and agricultural productivity. The order delegates authority to the Secretary of Agriculture to prioritize and allocate resources necessary for their production, emphasizing the importance of domestic production to national security. The order also provides immunity to domestic producers complying with its directives, aiming to prevent reliance on foreign imports and safeguard the defense supply chain.",
       "why_relevant": "This executive order impacts national security and economic stability by addressing supply chain vulnerabilities in critical defense and agricultural sectors.",
       "attacks": [],
-      "_origin_file": "orders_events_2026-02-14_2026-02-20.json",
+      "_origin_file": "orders_events_2026-03-07_2026-03-13.json",
       "_origin_index": 0
     },
     {
@@ -1800,6 +2116,66 @@
       ],
       "_origin_file": "guardian_events_2026-02-14_2026-02-20.json",
       "_origin_index": 34
+    },
+    {
+      "source_key": "justsecurity",
+      "date": "2026-02-18",
+      "category": "Judicial Developments",
+      "title": "Lazaro Maldonado Bautista v. Ernesto Santacruz Jr. (C.D. Cal.) 5:25-cv-01873 — Judge Sykes granted Plaintiffs' motion to enforce judgment, finding that the government violated her prior order by continuing to detain noncitizens without a b…",
+      "url": "https://www.courtlistener.com/docket/70895584/lazaro-maldonado-bautista-v-ernesto-santacruz-jr",
+      "summary": "Judge Sykes granted Plaintiffs' motion to enforce judgment, finding that the government violated her prior order by continuing to detain noncitizens without a bond hearing. Judge Sykes vacated a Board of Immigration Appeals decision that conflicted with her order, finding that the administration's continued reliance on that decision “far crossed the boundaries of constitutional conduct.” Judge Sykes also ordered the government to provide notice to a nationwide class of detained noncitizens of their ability to seek bond hearings under her order.",
+      "why_relevant": "This tracker update marks a concrete litigation development in an ongoing legal challenge. Court: C.D. Cal.. Docket: 5:25-cv-01873.",
+      "attacks": [],
+      "_origin_file": "justsecurity_events_2026-01-01_2026-03-20.json",
+      "_origin_index": 285
+    },
+    {
+      "source_key": "justsecurity",
+      "date": "2026-02-18",
+      "category": "Judicial Developments",
+      "title": "Pedro Vasquez Perdomo v. Noem et al (C.D. Cal.) 2:25-cv-05605 — Judge Frimpong denied the government's motion to dismiss a complaint filed by multiple California cities and the county of Los Angeles as intervenors in the law…",
+      "url": "https://www.courtlistener.com/docket/70594806/pedro-vasquez-perdomo-v-kristi-noem",
+      "summary": "Judge Frimpong denied the government's motion to dismiss a complaint filed by multiple California cities and the county of Los Angeles as intervenors in the lawsuit. The court found that the municipalities' injuries alleged in the complaint gave them sufficient standing to join the lawsuit and that they had made a preliminary showing of Fourth Amendment, Tenth Amendment, and APA violations.",
+      "why_relevant": "This tracker update marks a concrete litigation development in an ongoing legal challenge. Court: C.D. Cal.. Docket: 2:25-cv-05605.",
+      "attacks": [],
+      "_origin_file": "justsecurity_events_2026-01-01_2026-03-20.json",
+      "_origin_index": 267
+    },
+    {
+      "source_key": "justsecurity",
+      "date": "2026-02-18",
+      "category": "Judicial Developments",
+      "title": "State of California v. Wright (N.D. Cal.) 3:26-cv-01417 — Case filed",
+      "url": "https://www.courtlistener.com/docket/72294336/state-of-california-v-wright",
+      "summary": "Case filed Coming soon. On Feb. 18, 2026, coalition of thirteen states filed a complaint against the Department of Energy (DOE) and Office of Management and Budget (OMB) for terminating over $1.2 billion in funding for congressionally mandated energy and infrastructure programs, including the Alliance for Renewable Clean Hydrogen Energy Systems (ARCHES).",
+      "why_relevant": "A new legal challenge was filed against a Trump administration action. Court: N.D. Cal.. Docket: 3:26-cv-01417.",
+      "attacks": [],
+      "_origin_file": "justsecurity_events_2026-01-01_2026-03-20.json",
+      "_origin_index": 205
+    },
+    {
+      "source_key": "justsecurity",
+      "date": "2026-02-18",
+      "category": "Judicial Developments",
+      "title": "State of New York v. Department of Education (D. Mass.) 1:25-cv-11116 — Judge Young granted parties' joint motion to dismiss the complaint without prejudice after the administration withdrew its appeal in American Federation of Teac…",
+      "url": "https://www.courtlistener.com/docket/69944116/state-of-new-york-v-department-of-education",
+      "summary": "Judge Young granted parties' joint motion to dismiss the complaint without prejudice after the administration withdrew its appeal in American Federation of Teachers v. Department of Education of a court order vacating the same challenged agency action.",
+      "why_relevant": "This tracker update marks a concrete litigation development in an ongoing legal challenge. Court: D. Mass.. Docket: 1:25-cv-11116.",
+      "attacks": [],
+      "_origin_file": "justsecurity_events_2026-01-01_2026-03-20.json",
+      "_origin_index": 73
+    },
+    {
+      "source_key": "justsecurity",
+      "date": "2026-02-18",
+      "category": "Judicial Developments",
+      "title": "U.H.A. et al v. Bondi et al (D. Minn.) 0:26-cv-00417 — Judge Tunheim granted the motion to stay consideration of Plaintiffs' contempt motion for seven days.",
+      "url": "https://www.courtlistener.com/docket/72157874/uha-v-bondi",
+      "summary": "Judge Tunheim granted the motion to stay consideration of Plaintiffs' contempt motion for seven days.",
+      "why_relevant": "This tracker update marks a concrete litigation development in an ongoing legal challenge. Court: D. Minn.. Docket: 0:26-cv-00417.",
+      "attacks": [],
+      "_origin_file": "justsecurity_events_2026-01-01_2026-03-20.json",
+      "_origin_index": 306
     },
     {
       "source_key": "meidas",
@@ -2405,14 +2781,27 @@
       "source_key": "hcr",
       "date": "2026-02-19",
       "category": "Executive Actions & Orders",
-      "title": "Pritzker Criticizes Federal Actions Impacting Illinois",
+      "title": "Illinois Eliminates $1 Billion in Medical Debt",
       "url": "https://heathercoxrichardson.substack.com/p/february-18-2026",
-      "summary": "During his address, Governor Pritzker criticized the Trump administration for its policies that he claims have harmed Illinois residents, including tariffs that raise costs for families and cuts to essential services. He stated that the state has been forced to spend significant resources in legal battles to reclaim funds that were promised to Illinois taxpayers.",
-      "why_relevant": "The governor's remarks highlight the impact of federal policies on state governance and the financial well-being of residents, emphasizing the need for accountability in federal-state relations.",
+      "summary": "Governor J.B. Pritzker announced during his State of the State address on February 18, 2026, that Illinois had eliminated $1 billion in medical debt for over 500,000 residents by purchasing and erasing the debt for pennies on the dollar. This action aims to alleviate financial burdens on residents and improve access to healthcare.",
+      "why_relevant": "The elimination of medical debt represents a significant state initiative to enhance public health and economic stability, reflecting a commitment to the welfare of citizens in a democratic society.",
+      "attacks": [],
+      "_origin_file": "hcr_events_2026-02-19_2026-02-20.json",
+      "_origin_index": 11
+    },
+    {
+      "source_key": "hcr",
+      "date": "2026-02-19",
+      "category": "Executive Actions & Orders",
+      "title": "Illinois Governor Criticizes Federal Withholding of Funds",
+      "url": "https://heathercoxrichardson.substack.com/p/february-18-2026",
+      "summary": "During his State of the State address on February 18, 2026, Governor J.B. Pritzker stated that the Trump administration had cost Illinois $8.4 billion by illegally withholding funds that had been promised and appropriated by Congress. He emphasized that these funds were not handouts but taxes paid by Illinois residents, and he criticized the federal government's impact on state finances and services.",
+      "why_relevant": "This statement underscores the tension between state and federal governance, highlighting the implications of federal actions on state budgets and services, which is crucial for democratic accountability.",
       "attacks": [
-        "rule_of_law"
+        "rule_of_law",
+        "truth"
       ],
-      "_origin_file": "hcr_events_2026-02-14_2026-02-20.json",
+      "_origin_file": "hcr_events_2026-02-19_2026-02-20.json",
       "_origin_index": 10
     },
     {
@@ -2448,16 +2837,14 @@
       "category": "Legislative & Oversight Activity",
       "title": "Illinois Governor J.B. Pritzker Delivers State of the State Address",
       "url": "https://heathercoxrichardson.substack.com/p/february-18-2026",
-      "summary": "On February 18, 2026, Illinois Governor J.B. Pritzker delivered the State of the State address, discussing the state budget and broader issues affecting Illinois and the nation. He criticized the Trump administration for costing Illinois $8.4 billion in withheld federal funds and outlined plans to address economic challenges, including reducing housing costs and eliminating $1 billion in medical debt for over 500,000 residents. Pritzker emphasized the importance of empathy and kindness in combating authoritarianism.",
-      "why_relevant": "The address highlights the state's response to federal actions and outlines significant policy initiatives affecting residents' welfare and rights.",
+      "summary": "On February 18, 2026, Illinois Governor J.B. Pritzker delivered the State of the State address, discussing the state budget and broader issues affecting Illinois and the nation. He criticized the Trump administration for withholding $8.4 billion in federal funds, which he claimed were constitutionally approved for Illinois. Pritzker also announced the elimination of $1 billion in medical debt for over 500,000 residents and outlined plans to address housing, electricity, and healthcare costs. He emphasized the importance of empathy and kindness in combating authoritarianism.",
+      "why_relevant": "The address highlights significant state actions and critiques of federal policies that impact the welfare of Illinois residents, reflecting on the importance of state governance in a democratic context.",
       "attacks": [
-        "workers",
-        "poor",
-        "truth",
-        "rule_of_law"
+        "rule_of_law",
+        "truth"
       ],
-      "_origin_file": "hcr_events_2026-02-14_2026-02-20.json",
-      "_origin_index": 8
+      "_origin_file": "hcr_events_2026-02-19_2026-02-20.json",
+      "_origin_index": 9
     },
     {
       "source_key": "meidas",
@@ -2533,6 +2920,78 @@
       ],
       "_origin_file": "guardian_events_2026-02-14_2026-02-20.json",
       "_origin_index": 22
+    },
+    {
+      "source_key": "justsecurity",
+      "date": "2026-02-19",
+      "category": "Judicial Developments",
+      "title": "Lemmon v. Trump (D.D.C.) 1:26-cv-00544 — Case filed",
+      "url": "https://www.courtlistener.com/docket/72301112/lemmon-v-trump",
+      "summary": "Case filed On February 19, 2026, a group of private plaintiffs, including Vietnam War veterans, dipolmats, and a historic preservation expert, filed a complaint to block President Donald Trump’s proposed 25-story “Independence Arch” on Memorial Circle between the Lincoln Memorial and Arlington National Cemetery in Washington, D.C. Plaintiffs allege that the administration directed construction on an accelerated schedule ahead of July 4, 2026, which harmed their personal and aesthetic interests in the historic viewshed between Arlington National Cemetery and the Lincoln Memorial. They further allege that federal officials proceeded with plans to construct the monument in violation of statutory requirements governing federal commemorative works and historical and environmental review, namely legislative approval. Plaintiffs allege that the administration violated the Commemorative Works Act 40 U.S.C. §§ 8901-8909, the National Historic Preservation Act 54 U.S.C. §§ 300101 et seq., and the National Environmental Policy Act 42 U.S.C. § 4321 et seq., and they assert that proceeding without the approvals and reviews required by those statutes is ultra vires. Plaintiffs seek declaratory and injunctive relief barring the government from proceeding with construction. They have filed a preliminary injunction that is currently pending.",
+      "why_relevant": "A new legal challenge was filed against a Trump administration action. Court: D.D.C.. Docket: 1:26-cv-00544.",
+      "attacks": [],
+      "_origin_file": "justsecurity_events_2026-01-01_2026-03-20.json",
+      "_origin_index": 100
+    },
+    {
+      "source_key": "justsecurity",
+      "date": "2026-02-19",
+      "category": "Judicial Developments",
+      "title": "Pedro Vasquez Perdomo v. Noem et al (C.D. Cal.) 2:25-cv-05605 — Judge Frimpong denied the government's motion to dismiss on nearly all claims, finding that the government's assertions were false and that the Supreme Court ha…",
+      "url": "https://www.courtlistener.com/docket/70594806/pedro-vasquez-perdomo-v-kristi-noem",
+      "summary": "Judge Frimpong denied the government's motion to dismiss on nearly all claims, finding that the government's assertions were false and that the Supreme Court had not yet resolved the matter.",
+      "why_relevant": "This tracker update marks a concrete litigation development in an ongoing legal challenge. Court: C.D. Cal.. Docket: 2:25-cv-05605.",
+      "attacks": [],
+      "_origin_file": "justsecurity_events_2026-01-01_2026-03-20.json",
+      "_origin_index": 268
+    },
+    {
+      "source_key": "justsecurity",
+      "date": "2026-02-19",
+      "category": "Judicial Developments",
+      "title": "Southern Utah Wilderness Alliance v. United States Department of the Interior (D. Utah) 2:25-cv-00657 — Judge Barlow granted a motion allowing Peak Minerals, the owner of mineral leases at stake in Southern Utah Wilderness Alliance's lawsuit against the government…",
+      "url": "https://www.courtlistener.com/docket/71051491/southern-utah-wilderness-alliance-v-united-states-department-of-the",
+      "summary": "Judge Barlow granted a motion allowing Peak Minerals, the owner of mineral leases at stake in Southern Utah Wilderness Alliance's lawsuit against the government, to intervene in the case.",
+      "why_relevant": "This tracker update marks a concrete litigation development in an ongoing legal challenge. Docket: 2:25-cv-00657.",
+      "attacks": [],
+      "_origin_file": "justsecurity_events_2026-01-01_2026-03-20.json",
+      "_origin_index": 98
+    },
+    {
+      "source_key": "justsecurity",
+      "date": "2026-02-19",
+      "category": "Judicial Developments",
+      "title": "State of Arizona v. Environmental Protection Agency (W.D. Wash.) 2:25-cv-02015 — Plaintiffs filed an amended complaint adding the Commonwealth of Virginia as a Plaintiff.",
+      "url": "https://www.courtlistener.com/docket/71669995/state-of-arizona-v-environmental-protection-agency",
+      "summary": "Plaintiffs filed an amended complaint adding the Commonwealth of Virginia as a Plaintiff.",
+      "why_relevant": "This tracker update marks a concrete litigation development in an ongoing legal challenge. Court: W.D. Wash.. Docket: 2:25-cv-02015.",
+      "attacks": [],
+      "_origin_file": "justsecurity_events_2026-01-01_2026-03-20.json",
+      "_origin_index": 203
+    },
+    {
+      "source_key": "justsecurity",
+      "date": "2026-02-19",
+      "category": "Judicial Developments",
+      "title": "Tincher v. Noem (D. Minn.) 0:25-cv-04669 — The Eight Circuit stayed the appeal proceedings pending an indicative ruling by the district court on a motion to dissolve the preliminary injunction, following…",
+      "url": "https://www.courtlistener.com/docket/72047643/tincher-v-noem",
+      "summary": "The Eight Circuit stayed the appeal proceedings pending an indicative ruling by the district court on a motion to dissolve the preliminary injunction, following the reported end of Operation Metro Surge in Minneapolis.",
+      "why_relevant": "This tracker update marks a concrete litigation development in an ongoing legal challenge. Court: D. Minn.. Docket: 0:25-cv-04669.",
+      "attacks": [],
+      "_origin_file": "justsecurity_events_2026-01-01_2026-03-20.json",
+      "_origin_index": 34
+    },
+    {
+      "source_key": "justsecurity",
+      "date": "2026-02-19",
+      "category": "Judicial Developments",
+      "title": "Williams v. National Aeronautics and Space Administration (D.D.C.) 1:26-cv-00564 — Case filed",
+      "url": "https://www.courtlistener.com/docket/72303394/williams-v-national-aeronautics-and-space-administration",
+      "summary": "Case filed Coming soon. On Feb. 19, 2026, two scientists and an association of engineers and scientists working at the Goddard Space Flight Center (GSFC) filed a complaint against the National Aeronautics and Space Administration (NASA) and the Archivist of the United States alleging violations of the Administrative Procedure Act (APA) and seeking declaratory and injunctive relief to prevent Defendants from disposing of or destroying federal records and materials housed at the Goddard Information and Collaboration Center (GICC) as well as vacatur and rescission of the decisions to permanently shutter the GICC and the NASA Space Science Data Coordinated Archive (the “Database”).",
+      "why_relevant": "A new legal challenge was filed against a Trump administration action. Court: D.D.C.. Docket: 1:26-cv-00564.",
+      "attacks": [],
+      "_origin_file": "justsecurity_events_2026-01-01_2026-03-20.json",
+      "_origin_index": 407
     },
     {
       "source_key": "meidas",
@@ -2629,31 +3088,46 @@
       "source_key": "guardian",
       "date": "2026-02-19",
       "category": "Law Enforcement & Surveillance",
-      "title": "FBI Investigation into CBP Officer's Relationship with Jeffrey Epstein",
+      "title": "FBI Interviews with Epstein's Pilot Regarding CBP Interactions",
       "url": "https://www.theguardian.com/us-news/2026/feb/19/jeffrey-epstein-cbp-officer-st-thomas",
-      "summary": "The FBI opened a preliminary investigation into Timothy \"Bill\" Routch, a CBP agricultural inspector, due to his alleged friendship with Jeffrey Epstein while working in St. Thomas. The investigation, initiated in October 2019, was based on a report suggesting Routch had ongoing interactions with Epstein. Federal authorities interviewed Epstein's pilot and subpoenaed credit reports for Routch and three other CBP officers. The investigation did not result in any charges, and there is no evidence that Routch or other officers had direct knowledge of Epstein's crimes.",
-      "why_relevant": "This investigation highlights potential lapses in oversight and accountability within federal law enforcement agencies, which are critical for maintaining public trust and ensuring justice.",
+      "summary": "The FBI interviewed Jeffrey Epstein's longtime pilot, Larry Visoski, about Epstein's contacts with CBP officers. Visoski disclosed that Epstein often engaged in small talk with CBP officers and had given helicopter rides to some officers to Epstein's private island. The interviews aimed to assess whether CBP officers were aware of or complicit in Epstein's criminal activities. No evidence of direct involvement was found.",
+      "why_relevant": "These interviews are part of broader efforts to ensure law enforcement officers are not complicit in criminal activities.",
       "attacks": [
         "justice_dept",
         "rule_of_law"
       ],
-      "_origin_file": "guardian_events_2026-02-14_2026-02-20.json",
-      "_origin_index": 19
+      "_origin_file": "guardian_events_2026-02-14_2026-02-22.json",
+      "_origin_index": 36
     },
     {
-      "source_key": "hcr",
+      "source_key": "guardian",
       "date": "2026-02-19",
       "category": "Law Enforcement & Surveillance",
-      "title": "Pritzker Addresses Federal Agents' Actions in Chicago",
-      "url": "https://heathercoxrichardson.substack.com/p/february-18-2026",
-      "summary": "Governor Pritzker condemned the actions of federal agents in Chicago, describing them as brutal and unaccountable, which he claims have led to violence and fear among residents. He linked these actions to a broader pattern of authoritarianism under the Trump administration.",
-      "why_relevant": "This statement addresses concerns about federal overreach and the implications for civil rights and public safety in urban areas.",
+      "title": "FBI Investigation into CBP Officer's Relationship with Jeffrey Epstein",
+      "url": "https://www.theguardian.com/us-news/2026/feb/19/jeffrey-epstein-cbp-officer-st-thomas",
+      "summary": "The FBI opened a preliminary investigation into Timothy \"Bill\" Routch, a CBP agricultural inspector, due to his alleged ongoing friendship with Jeffrey Epstein while working in St. Thomas. The investigation, initiated in October 2019, was based on a report suggesting Routch's involvement with Epstein, who was known for sex trafficking. The investigation included interviews and subpoenas for credit reports on Routch and three other CBP officers. However, no charges were filed, and there was no evidence of direct involvement in Epstein's crimes.",
+      "why_relevant": "This investigation highlights potential misconduct within federal law enforcement and its implications for oversight and accountability.",
       "attacks": [
-        "civil_service",
-        "truth"
+        "justice_dept",
+        "rule_of_law"
       ],
-      "_origin_file": "hcr_events_2026-02-14_2026-02-20.json",
-      "_origin_index": 11
+      "_origin_file": "guardian_events_2026-02-14_2026-02-22.json",
+      "_origin_index": 34
+    },
+    {
+      "source_key": "guardian",
+      "date": "2026-02-19",
+      "category": "Law Enforcement & Surveillance",
+      "title": "Subpoenas Issued for CBP Officers in Epstein Investigation",
+      "url": "https://www.theguardian.com/us-news/2026/feb/19/jeffrey-epstein-cbp-officer-st-thomas",
+      "summary": "As part of the investigation into Jeffrey Epstein's interactions with CBP officers, federal authorities issued subpoenas for credit reports on four CBP officers, including Timothy \"Bill\" Routch. The subpoenas were part of efforts to determine any potential misconduct or involvement in Epstein's criminal activities. Despite the investigation, no charges were filed against the officers, and the extent of their involvement remains unclear.",
+      "why_relevant": "The issuance of subpoenas underscores the importance of transparency and accountability in law enforcement agencies.",
+      "attacks": [
+        "justice_dept",
+        "rule_of_law"
+      ],
+      "_origin_file": "guardian_events_2026-02-14_2026-02-22.json",
+      "_origin_index": 35
     },
     {
       "source_key": "meidas",
@@ -2907,14 +3381,59 @@
       "category": "International Relations",
       "title": "Trump unveils multinational force plan for Gaza",
       "url": "https://www.theguardian.com/us-news/2026/feb/19/troops-for-gaza-and-money-top-agenda-as-trumps-board-of-peace-meets",
-      "summary": "During the inaugural meeting of his Board of Peace in Washington, DC, Donald Trump announced a plan for the US to command a multinational force in postwar Gaza. The force would include troops from Albania, Indonesia, Kazakhstan, Kosovo, and Morocco. The plan requires the disarmament of Hamas and support from Israel. Trump also committed $10 billion to a fund for Gaza's reconstruction, with additional contributions from several countries and organizations. The initiative has faced criticism and skepticism regarding its feasibility and political implications.",
-      "why_relevant": "The proposal for a multinational force in Gaza and significant financial commitments have implications for regional stability and international diplomatic relations.",
+      "summary": "At the inaugural meeting of his Board of Peace in Washington, DC, Donald Trump announced a US-led multinational force plan for postwar Gaza. The plan involves deploying troops from Albania, Indonesia, Kazakhstan, Kosovo, and Morocco, with the US committing $10 billion to Gaza's reconstruction. The initiative requires the disarmament of Hamas and support from Israel. The board, criticized as a shadow UN, includes autocrats and rightwing allies, with major European countries declining participation. The plan's success hinges on political solutions and the disarmament of militant groups in Gaza.",
+      "why_relevant": "This initiative could significantly impact the geopolitical landscape and stability in the Middle East.",
       "attacks": [
         "global_democracy",
         "peace"
       ],
-      "_origin_file": "guardian_events_2026-02-14_2026-02-20.json",
-      "_origin_index": 24
+      "_origin_file": "guardian_events_2026-02-19_2026-02-20.json",
+      "_origin_index": 7
+    },
+    {
+      "source_key": "guardian",
+      "date": "2026-02-19",
+      "category": "International Relations",
+      "title": "US masses forces for potential Iran attack",
+      "url": "https://www.theguardian.com/us-news/2026/feb/19/troops-for-gaza-and-money-top-agenda-as-trumps-board-of-peace-meets",
+      "summary": "The US has amassed military forces in the Middle East, including two aircraft carriers and numerous warplanes, in preparation for a potential attack on Iran. This military buildup follows previous US strikes on Iran's nuclear facilities and is part of ongoing tensions between the two nations. President Trump indicated that further actions might be taken depending on the outcome of diplomatic talks with Iran.",
+      "why_relevant": "The potential for military conflict with Iran poses significant risks to regional and global stability.",
+      "attacks": [
+        "peace",
+        "global_democracy"
+      ],
+      "_origin_file": "guardian_events_2026-02-19_2026-02-20.json",
+      "_origin_index": 9
+    },
+    {
+      "source_key": "guardian",
+      "date": "2026-02-19",
+      "category": "Civil–Military Relations & State Violence",
+      "title": "US plans military base in Gaza",
+      "url": "https://www.theguardian.com/us-news/2026/feb/19/troops-for-gaza-and-money-top-agenda-as-trumps-board-of-peace-meets",
+      "summary": "The Trump administration plans to construct a 5,000-person military base over 350 acres in Gaza, as revealed by the Board of Peace's contracting records. This development is part of a broader strategy to stabilize and reconstruct Gaza, contingent on the disarmament of Hamas. The base's establishment raises questions about the US's long-term military presence in the region and its implications for Gaza's sovereignty and regional stability.",
+      "why_relevant": "The establishment of a US military base in Gaza could alter the balance of power and influence in the region.",
+      "attacks": [
+        "peace",
+        "global_democracy"
+      ],
+      "_origin_file": "guardian_events_2026-02-19_2026-02-20.json",
+      "_origin_index": 8
+    },
+    {
+      "source_key": "hcr",
+      "date": "2026-02-19",
+      "category": "Civil–Military Relations & State Violence",
+      "title": "Pritzker Addresses Authoritarianism and Federal Actions",
+      "url": "https://heathercoxrichardson.substack.com/p/february-18-2026",
+      "summary": "In his State of the State address on February 18, 2026, Governor J.B. Pritzker condemned the actions of federal agents in Chicago, describing them as brutal and authoritarian. He referenced the historical context of federal intervention during the Pullman strike and criticized the current administration for similar tactics against immigrants and citizens.",
+      "why_relevant": "This critique of federal actions highlights the ongoing struggle against authoritarianism and the importance of protecting civil rights and liberties within a democratic framework.",
+      "attacks": [
+        "civil_service",
+        "truth"
+      ],
+      "_origin_file": "hcr_events_2026-02-19_2026-02-20.json",
+      "_origin_index": 12
     },
     {
       "source_key": "popinfo",
@@ -2965,6 +3484,21 @@
       "_origin_index": 1
     },
     {
+      "source_key": "50501",
+      "date": "2026-02-20",
+      "category": "Executive Actions & Orders",
+      "title": "President imposes new tariffs under Section 122",
+      "url": "https://www.the50501movement.org/p/the-court-said-no-trumps-workaround",
+      "summary": "Following the Supreme Court's ruling against IEEPA tariffs, the President quickly issued a proclamation under Section 122 of the Trade Act of 1974, imposing a temporary 10% import surcharge on nearly all imports, effective February 24, 2026. The rate was later increased to 15%, the statutory maximum. This move bypasses the need for congressional approval for 150 days, allowing the administration to maintain a high tariff posture while exploring other legal avenues to sustain tariffs.",
+      "why_relevant": "This action demonstrates the executive branch's attempt to circumvent a Supreme Court ruling by using alternative legal mechanisms to impose tariffs.",
+      "attacks": [
+        "separation_of_powers",
+        "rule_of_law"
+      ],
+      "_origin_file": "50501_events_2026-02-21_2026-02-27.json",
+      "_origin_index": 13
+    },
+    {
       "source_key": "guardian",
       "date": "2026-02-20",
       "category": "Executive Actions & Orders",
@@ -2978,6 +3512,35 @@
       ],
       "_origin_file": "guardian_events_2026-02-14_2026-02-20.json",
       "_origin_index": 5
+    },
+    {
+      "source_key": "guardian",
+      "date": "2026-02-20",
+      "category": "Executive Actions & Orders",
+      "title": "Trump announces new 10% global tariff",
+      "url": "https://www.theguardian.com/us-news/2026/feb/20/trump-supreme-court-tariffs-ruling",
+      "summary": "Following the Supreme Court's ruling against his previous tariffs, President Trump announced a new 10% global baseline tariff under Section 122 of the Trade Act of 1974. This section allows the president to impose tariffs for 150 days. Trump stated that the administration would investigate unfair trading practices, potentially leading to permanent tariffs. This move is part of Trump's continued effort to reshape U.S. trade policy despite the court's decision.",
+      "why_relevant": "The announcement reflects ongoing tensions between executive actions and judicial rulings, impacting U.S. trade policy and international relations.",
+      "attacks": [
+        "trade",
+        "separation_of_powers"
+      ],
+      "_origin_file": "guardian_events_2026-02-14_2026-02-22.json",
+      "_origin_index": 19
+    },
+    {
+      "source_key": "hcr",
+      "date": "2026-02-20",
+      "category": "Executive Actions & Orders",
+      "title": "Trump Announces Funding for Board of Peace",
+      "url": "https://www.thehill.com/policy/international/5745297-trump-funding-board-of-peace/",
+      "summary": "During the meeting of the Board of Peace, President Trump announced that the U.S. would contribute $10 billion to the initiative. However, this funding is legally questionable, as only Congress has the authority to appropriate federal funds. The announcement has raised concerns about the legality and transparency of the board's operations.",
+      "why_relevant": "This action highlights potential overreach by the executive branch in financial matters and raises questions about adherence to constitutional processes.",
+      "attacks": [
+        "rule_of_law"
+      ],
+      "_origin_file": "hcr_events_2026-02-19_2026-02-20.json",
+      "_origin_index": 3
     },
     {
       "source_key": "hcr",
@@ -3079,6 +3642,21 @@
       "_origin_index": 7
     },
     {
+      "source_key": "50501",
+      "date": "2026-02-20",
+      "category": "Judicial Developments",
+      "title": "Supreme Court rules IEEPA tariffs unlawful",
+      "url": "https://www.the50501movement.org/p/the-court-said-no-trumps-workaround",
+      "summary": "On February 20, 2026, the Supreme Court ruled 6-3 that the International Emergency Economic Powers Act (IEEPA) does not authorize the President to impose tariffs, reinforcing the constitutional principle that Congress holds the power to tax imports. The decision struck down tariffs imposed under IEEPA, which had targeted several countries. The ruling emphasized the need for clear congressional authorization for such significant economic actions, invoking the major questions doctrine. The case was remanded for further proceedings regarding potential refunds for tariffs already collected.",
+      "why_relevant": "This ruling reaffirms the separation of powers by limiting executive authority to impose tariffs without explicit congressional approval.",
+      "attacks": [
+        "separation_of_powers",
+        "rule_of_law"
+      ],
+      "_origin_file": "50501_events_2026-02-21_2026-02-27.json",
+      "_origin_index": 12
+    },
+    {
       "source_key": "guardian",
       "date": "2026-02-20",
       "category": "Judicial Developments",
@@ -3093,6 +3671,21 @@
       ],
       "_origin_file": "guardian_events_2026-02-14_2026-02-20.json",
       "_origin_index": 10
+    },
+    {
+      "source_key": "guardian",
+      "date": "2026-02-20",
+      "category": "Judicial Developments",
+      "title": "Supreme Court Declares Trump Tariffs Illegal",
+      "url": "https://www.theguardian.com/us-news/2026/feb/22/trump-tariff-policy-ruling",
+      "summary": "On February 20, 2026, the U.S. Supreme Court ruled that many of the tariffs imposed by the Trump administration were illegal, stating that the 1977 law used to justify these tariffs did not provide the necessary legal basis. The court's decision was a 6-3 ruling, with three conservative-leaning justices dissenting. The ruling emphasized that the power to levy tariffs during peacetime belongs to Congress, not the president. This decision challenges a significant aspect of Trump's economic policy, which aimed to penalize foreign exporters and encourage domestic manufacturing.",
+      "why_relevant": "The ruling reaffirms the constitutional separation of powers, emphasizing Congress's sole authority to levy tariffs.",
+      "attacks": [
+        "separation_of_powers",
+        "rule_of_law"
+      ],
+      "_origin_file": "guardian_events_2026-02-21_2026-02-27.json",
+      "_origin_index": 60
     },
     {
       "source_key": "guardian",
@@ -3128,16 +3721,62 @@
       "source_key": "guardian",
       "date": "2026-02-20",
       "category": "Judicial Developments",
+      "title": "Supreme Court Rules Against Trump's Tariffs",
+      "url": "https://www.theguardian.com/us-news/2026/feb/23/fedex-lawsuit-trump-tariffs",
+      "summary": "The US Supreme Court ruled 6-3 that former President Donald Trump overstepped his authority by imposing tariffs using the International Emergency Economic Powers Act (IEEPA) during peacetime. The court emphasized that Congress has the sole authority to levy taxes under the Constitution. This decision marks the first time the Supreme Court has overruled a policy from Trump's second term, challenging his claims to executive authority in reshaping US trade policy. The ruling did not clarify whether businesses are entitled to refunds for the tariffs paid.",
+      "why_relevant": "The ruling underscores the constitutional limits on executive power and has significant implications for US trade policy and economic governance.",
+      "attacks": [
+        "separation_of_powers",
+        "trade"
+      ],
+      "_origin_file": "guardian_events_2026-02-21_2026-02-27.json",
+      "_origin_index": 47
+    },
+    {
+      "source_key": "guardian",
+      "date": "2026-02-20",
+      "category": "Judicial Developments",
       "title": "Supreme Court rules Trump's tariffs illegal",
       "url": "https://www.theguardian.com/us-news/2026/feb/20/trump-supreme-court-tariffs-ruling",
-      "summary": "The US Supreme Court ruled 6-3 that many of Donald Trump's tariffs, imposed under the International Emergency Economic Powers Act (IEEPA), were illegal. The court found that the 1977 law did not justify the tariffs, as the power to impose tariffs during peacetime belongs to Congress. This decision marks the first time the court has overruled a policy from Trump's second term. Trump announced plans to enact a new 10% global baseline tariff under a different law, the Trade Act of 1974, following the ruling.",
-      "why_relevant": "The ruling reaffirms the constitutional separation of powers, emphasizing Congress's exclusive authority over tariffs.",
+      "summary": "The U.S. Supreme Court ruled 6-3 that many of Donald Trump's tariffs, imposed under the International Emergency Economic Powers Act (IEEPA), were illegal. The court found that the 1977 law did not justify the tariffs, as the power to impose tariffs during peacetime belongs to Congress. This decision marks the first time the court has overruled a policy from Trump's second term. The ruling emphasized that the executive branch cannot use ambiguous legal language to justify significant actions, reinforcing Congress's sole authority to levy taxes.",
+      "why_relevant": "This ruling reaffirms the constitutional separation of powers, emphasizing Congress's exclusive authority over taxation and tariffs.",
       "attacks": [
         "separation_of_powers",
         "rule_of_law"
       ],
-      "_origin_file": "guardian_events_2026-02-14_2026-02-20.json",
-      "_origin_index": 4
+      "_origin_file": "guardian_events_2026-02-14_2026-02-22.json",
+      "_origin_index": 18
+    },
+    {
+      "source_key": "guardian",
+      "date": "2026-02-20",
+      "category": "Judicial Developments",
+      "title": "Supreme Court rules Trump's tariffs unlawful",
+      "url": "https://www.theguardian.com/us-news/2026/feb/21/trump-tariffs-ruling-supreme-court",
+      "summary": "On February 20, 2026, the U.S. Supreme Court ruled that President Donald Trump's sweeping tariffs were unlawful, stating that the International Emergency Economic Powers Act (IEEPA) did not grant him the authority to impose such tariffs. The decision was a 6-3 vote, with Chief Justice John Roberts and two other conservative justices, Neil Gorsuch and Amy Coney Barrett, joining the three liberal-leaning justices in the majority. This ruling limits Trump's power to unilaterally impose tariffs, emphasizing Congress's sole authority over taxation.",
+      "why_relevant": "The ruling reaffirms the constitutional separation of powers by limiting the executive branch's authority to impose tariffs without congressional approval.",
+      "attacks": [
+        "separation_of_powers",
+        "trade",
+        "rule_of_law"
+      ],
+      "_origin_file": "guardian_events_2026-02-21_2026-02-27.json",
+      "_origin_index": 76
+    },
+    {
+      "source_key": "guardian",
+      "date": "2026-02-20",
+      "category": "Judicial Developments",
+      "title": "Supreme Court Strikes Down Trump's Global Tariffs",
+      "url": "https://www.theguardian.com/us-news/2026/feb/21/retailers-trump-tariffs-refunds",
+      "summary": "On February 20, 2026, the U.S. Supreme Court ruled against the global tariffs imposed by former President Donald Trump, declaring that he had exceeded his authority. The decision did not address the issue of refunds for the tariffs collected, leaving it to lower courts to resolve. The ruling has prompted calls from business associations for the swift return of an estimated $133 billion in tariffs to U.S. importers. The decision is expected to lead to further legal proceedings to determine the process and feasibility of refunds.",
+      "why_relevant": "The ruling impacts U.S. economic policy and the authority of the executive branch in imposing tariffs.",
+      "attacks": [
+        "trade",
+        "separation_of_powers"
+      ],
+      "_origin_file": "guardian_events_2026-02-21_2026-02-27.json",
+      "_origin_index": 68
     },
     {
       "source_key": "guardian",
@@ -3165,6 +3804,78 @@
       "attacks": [],
       "_origin_file": "hcr_events_2026-02-14_2026-02-20.json",
       "_origin_index": 1
+    },
+    {
+      "source_key": "justsecurity",
+      "date": "2026-02-20",
+      "category": "Judicial Developments",
+      "title": "American Public Health Association v. EPA (D.C. Cir.) 26-1037 — The court consolidated American Public Health Association v. EPA , 26-1037 with Elena Venner v. EPA , 26-1038",
+      "url": "https://www.courtlistener.com/docket/72292285/american-public-health-association-v-epa",
+      "summary": "The court consolidated American Public Health Association v. EPA , 26-1037 with Elena Venner v. EPA , 26-1038. These cases will proceed under American Public Health Association v. EPA .",
+      "why_relevant": "This tracker update marks a concrete litigation development in an ongoing legal challenge. Court: D.C. Cir.. Docket: 26-1037.",
+      "attacks": [],
+      "_origin_file": "justsecurity_events_2026-01-01_2026-03-20.json",
+      "_origin_index": 81
+    },
+    {
+      "source_key": "justsecurity",
+      "date": "2026-02-20",
+      "category": "Judicial Developments",
+      "title": "City of Fresno v. Noem (N.D. Cal.) 5:26-cv-01535 — Case filed",
+      "url": "https://www.courtlistener.com/docket/72310176/city-of-fresno-v-noem",
+      "summary": "Case filed Coming soon. On Feb. 20, 2026, a group of Plaintiff cities and counties from California filed a complaint against the Departments of Homeland Security, Justice, and Interior for cutting federal grant programs, pursuant to the Administration’s executive orders on DEI, immigration, and gender. The complaint alleges that the executive orders impose standards which are “vague, unintelligible, and incapable of consistent or lawful enforcement,” rendering them unconstitutional under both the Due Process Clause and the Spending Clause, and in violation of the Administrative Procedure Act.",
+      "why_relevant": "A new legal challenge was filed against a Trump administration action. Court: N.D. Cal.. Docket: 5:26-cv-01535.",
+      "attacks": [],
+      "_origin_file": "justsecurity_events_2026-01-01_2026-03-20.json",
+      "_origin_index": 183
+    },
+    {
+      "source_key": "justsecurity",
+      "date": "2026-02-20",
+      "category": "Judicial Developments",
+      "title": "City of Philadelphia v. Burgum (E.D. Pa.) 2:26-cv-00434 — Judge Hardiman of the Third Circuit stayed the district court's preliminary injunction ordering Defendants to restore the President's House Site to its physical…",
+      "url": "https://www.courtlistener.com/docket/72178941/city-of-philadelphia-v-burgum",
+      "summary": "Judge Hardiman of the Third Circuit stayed the district court's preliminary injunction ordering Defendants to restore the President's House Site to its physical status as of Jan. 21, 2026 and to provide immediate and proper maintenance of the site. Judge Hardiman denied Defendants' request for an administrative stay of the portion of the preliminary injunction enjoining Defendants from taking any action to damage or change the site and ordered Defendants to preserve the status quo as of the entry of his order. Judge Hardiman referred the request for a stay pending resolution of the appeal to a full three-judge motions panel.",
+      "why_relevant": "This tracker update marks a concrete litigation development in an ongoing legal challenge. Court: E.D. Pa.. Docket: 2:26-cv-00434.",
+      "attacks": [],
+      "_origin_file": "justsecurity_events_2026-01-01_2026-03-20.json",
+      "_origin_index": 78
+    },
+    {
+      "source_key": "justsecurity",
+      "date": "2026-02-20",
+      "category": "Judicial Developments",
+      "title": "City of Philadelphia v. Burgum (E.D. Pa.) 2:26-cv-00434 — Judge Rufe denied Defendants' emergency motion for an immediate administrative stay and a stay pending appeal.",
+      "url": "https://www.courtlistener.com/docket/72178941/city-of-philadelphia-v-burgum",
+      "summary": "Judge Rufe denied Defendants' emergency motion for an immediate administrative stay and a stay pending appeal.",
+      "why_relevant": "This tracker update marks a concrete litigation development in an ongoing legal challenge. Court: E.D. Pa.. Docket: 2:26-cv-00434.",
+      "attacks": [],
+      "_origin_file": "justsecurity_events_2026-01-01_2026-03-20.json",
+      "_origin_index": 77
+    },
+    {
+      "source_key": "justsecurity",
+      "date": "2026-02-20",
+      "category": "Judicial Developments",
+      "title": "Lujan v. FMCSA (D.C. Cir.) 25-1215 — The court severed Lujan v. FMCSA, 26-1032 from Lujan v. FMCSA, 25-1215",
+      "url": "https://www.courtlistener.com/docket/71701019/jorge-lujan-v-fmcsa",
+      "summary": "The court severed Lujan v. FMCSA, 26-1032 from Lujan v. FMCSA, 25-1215. The court ordered Lujan v. FMCSA, 25-1215 remain in abeyance pending further order of the court following the disposition of Lujan v. FMCSA, 26-1032.",
+      "why_relevant": "This tracker update marks a concrete litigation development in an ongoing legal challenge. Court: D.C. Cir.. Docket: 25-1215.",
+      "attacks": [],
+      "_origin_file": "justsecurity_events_2026-01-01_2026-03-20.json",
+      "_origin_index": 301
+    },
+    {
+      "source_key": "justsecurity",
+      "date": "2026-02-20",
+      "category": "Judicial Developments",
+      "title": "Protect Democracy Project v. U.S. Department of the Treasury (D.D.C.) 1:25-cv-04101 — Plaintiffs filed an amended complaint alleging they have exhausted administrative remedies under FOIA and are now entitled to an injunction.",
+      "url": "https://www.courtlistener.com/docket/71951881/protect-democracy-project-v-us-department-of-the-treasury",
+      "summary": "Plaintiffs filed an amended complaint alleging they have exhausted administrative remedies under FOIA and are now entitled to an injunction.",
+      "why_relevant": "This tracker update marks a concrete litigation development in an ongoing legal challenge. Court: D.D.C.. Docket: 1:25-cv-04101.",
+      "attacks": [],
+      "_origin_file": "justsecurity_events_2026-01-01_2026-03-20.json",
+      "_origin_index": 399
     },
     {
       "source_key": "meidas",
@@ -3289,6 +4000,18 @@
       "attacks": [],
       "_origin_file": "hcr_events_2026-02-14_2026-02-20.json",
       "_origin_index": 5
+    },
+    {
+      "source_key": "hcr",
+      "date": "2026-02-20",
+      "category": "Civil Society & Protest",
+      "title": "Workers Hang Banner at Department of Justice",
+      "url": "https://www.theguardian.com/us-news/2026/feb/04/illinois-world-health-organization-global-outbreak-alert-and-response-network",
+      "summary": "Workers at the Department of Justice hung a banner featuring a large portrait of Trump. This act of protest reflects ongoing tensions within the department and the broader political climate.",
+      "why_relevant": "This protest highlights dissent within government institutions and the challenges to democratic norms and accountability.",
+      "attacks": [],
+      "_origin_file": "hcr_events_2026-02-19_2026-02-20.json",
+      "_origin_index": 6
     },
     {
       "source_key": "guardian",

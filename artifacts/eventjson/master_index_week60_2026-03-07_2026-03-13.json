@@ -5,53 +5,55 @@
   },
   "week_number": 60,
   "sources": [
-    "orders",
-    "popinfo",
-    "hcr",
     "50501",
-    "meidas",
     "noah",
-    "federalregister",
     "zeteo",
-    "guardian"
+    "guardian",
+    "popinfo",
+    "meidas",
+    "hcr",
+    "orders",
+    "justsecurity",
+    "federalregister"
   ],
   "counts": {
-    "total": 203,
+    "total": 275,
     "by_date": {
-      "2026-03-07": 6,
-      "2026-03-08": 8,
-      "2026-03-09": 41,
-      "2026-03-10": 27,
-      "2026-03-11": 30,
-      "2026-03-12": 46,
+      "2026-03-07": 25,
+      "2026-03-08": 19,
+      "2026-03-09": 51,
+      "2026-03-10": 39,
+      "2026-03-11": 35,
+      "2026-03-12": 61,
       "2026-03-13": 45
     },
     "by_source": {
-      "guardian": 71,
+      "guardian": 70,
+      "meidas": 47,
       "zeteo": 7,
-      "meidas": 20,
+      "hcr": 42,
+      "justsecurity": 21,
       "50501": 10,
-      "federalregister": 54,
+      "federalregister": 56,
       "popinfo": 8,
       "noah": 10,
-      "hcr": 19,
       "orders": 4
     },
     "by_category": {
-      "Legislative & Oversight Activity": 24,
-      "Judicial Developments": 16,
+      "Legislative & Oversight Activity": 31,
+      "Judicial Developments": 39,
       "Law Enforcement & Surveillance": 24,
-      "Economic & Regulatory Power": 63,
-      "Executive Actions & Orders": 16,
-      "Elections & Representation": 8,
+      "Civil Society & Protest": 5,
+      "Information & Media Control": 7,
+      "Economic & Regulatory Power": 74,
+      "International Relations": 31,
+      "Civil–Military Relations & State Violence": 23,
+      "Executive Actions & Orders": 17,
+      "Elections & Representation": 10,
       "Appointments & Patronage": 6,
-      "Civil–Military Relations & State Violence": 9,
-      "Information & Media Control": 3,
-      "Transparency & Records": 4,
-      "International Relations": 24,
+      "Transparency & Records": 6,
       "Public Health & Welfare": 1,
-      "Public Health & Social Services": 1,
-      "Civil Society & Protest": 4
+      "Public Health & Social Services": 1
     }
   },
   "events": [
@@ -86,6 +88,21 @@
       "_origin_index": 129
     },
     {
+      "source_key": "meidas",
+      "date": "2026-03-07",
+      "category": "Legislative & Oversight Activity",
+      "title": "Trump Administration Bypasses Congress for Defense Budget Increase",
+      "url": "https://www.meidasplus.com/p/this-weekend-in-politics-bulletin-9b3",
+      "summary": "The Trump administration is seeking an additional $50 billion in funding for operations in Iran, bypassing Congress by using emergency authority. This move has sparked debate over the necessity and implications of increased military spending.",
+      "why_relevant": "Bypassing congressional oversight for defense budget increases challenges the balance of power and accountability in government spending.",
+      "attacks": [
+        "separation_of_powers",
+        "congress"
+      ],
+      "_origin_file": "meidas_events_2026-03-07_2026-03-13.json",
+      "_origin_index": 37
+    },
+    {
       "source_key": "guardian",
       "date": "2026-03-07",
       "category": "Judicial Developments",
@@ -100,6 +117,33 @@
       ],
       "_origin_file": "guardian_events_2026-03-01_2026-03-20.json",
       "_origin_index": 127
+    },
+    {
+      "source_key": "meidas",
+      "date": "2026-03-07",
+      "category": "Judicial Developments",
+      "title": "Classified U.S. Intelligence Doubts Iran Strategy",
+      "url": "https://www.meidasplus.com/p/saturday-afternoon-news-updates-3726",
+      "summary": "A classified U.S. intelligence assessment reportedly concludes that a large-scale military campaign is unlikely to topple Iran's governing system or lead to opposition forces taking power. The analysis suggests that Iran's clerical and military establishment has contingency plans to maintain continuity even if top leadership were killed.",
+      "why_relevant": "Intelligence assessments can shape military and foreign policy decisions, affecting international relations and conflict outcomes.",
+      "attacks": [],
+      "_origin_file": "meidas_events_2026-03-07_2026-03-13.json",
+      "_origin_index": 44
+    },
+    {
+      "source_key": "meidas",
+      "date": "2026-03-07",
+      "category": "Judicial Developments",
+      "title": "Federal Judge Rules Against Kari Lake's Actions at Voice of America",
+      "url": "https://www.meidasplus.com/p/this-weekend-in-politics-bulletin-9b3",
+      "summary": "US District Court Judge Royce Lamberth ruled that Kari Lake acted unlawfully in her management of the US Agency for Global Media, which oversees Voice of America. The judge declared all of Lake's actions over the past year, including layoffs and content deals, to be null and void. Lake plans to appeal the decision, which could reverse her efforts to dismantle VOA and other federally funded international networks.",
+      "why_relevant": "The ruling underscores the importance of legal checks on executive actions that threaten the independence and function of public media institutions.",
+      "attacks": [
+        "press",
+        "information"
+      ],
+      "_origin_file": "meidas_events_2026-03-07_2026-03-13.json",
+      "_origin_index": 31
     },
     {
       "source_key": "guardian",
@@ -118,6 +162,21 @@
       "_origin_index": 128
     },
     {
+      "source_key": "meidas",
+      "date": "2026-03-07",
+      "category": "Law Enforcement & Surveillance",
+      "title": "ICE Detains Journalist Without Warrant",
+      "url": "https://www.meidasplus.com/p/this-weekend-in-politics-bulletin-9b3",
+      "summary": "Estefany Rodriguez Florez, a journalist for Nashville Noticias, was detained by ICE during a traffic stop without being shown a warrant. Rodriguez, a Colombian citizen with a valid work permit, has applied for political asylum in the US. Her detention has been criticized by the National Association of Hispanic Journalists as an interference with news coverage of immigration enforcement.",
+      "why_relevant": "The detention of a journalist without a warrant raises concerns about press freedom and the potential misuse of immigration enforcement to silence critical reporting.",
+      "attacks": [
+        "press",
+        "immigrants_refugees"
+      ],
+      "_origin_file": "meidas_events_2026-03-07_2026-03-13.json",
+      "_origin_index": 32
+    },
+    {
       "source_key": "zeteo",
       "date": "2026-03-07",
       "category": "Law Enforcement & Surveillance",
@@ -133,6 +192,63 @@
       "_origin_index": 0
     },
     {
+      "source_key": "hcr",
+      "date": "2026-03-07",
+      "category": "Civil Society & Protest",
+      "title": "Jesse Jackson's Funeral Services Held in Chicago",
+      "url": "https://www.cbsnews.com/chicago/news/barack-obama-jesse-jackson-memorial-speech-full-transcript/",
+      "summary": "Funeral services for Reverend Jesse Jackson were held in Chicago, attended by mourners including former presidents Bill Clinton, Barack Obama, and Joe Biden. Obama spoke about Jackson's legacy, emphasizing his role in empowering marginalized communities and advocating for democratic ideals. He highlighted the ongoing challenges to democracy and the importance of hope and action in the face of adversity. The event served as a reminder of Jackson's contributions to civil rights and social justice.",
+      "why_relevant": "The funeral underscored the ongoing struggle for civil rights and the importance of collective action in preserving democracy.",
+      "attacks": [],
+      "_origin_file": "hcr_events_2026-03-07_2026-03-13.json",
+      "_origin_index": 31
+    },
+    {
+      "source_key": "meidas",
+      "date": "2026-03-07",
+      "category": "Information & Media Control",
+      "title": "Trump Administration Blocks Intelligence Bulletin on Iran War Threats",
+      "url": "https://www.meidasplus.com/p/this-weekend-in-politics-bulletin-9b3",
+      "summary": "The Trump administration blocked a joint intelligence bulletin from the FBI, DHS, and the National Counterterrorism Center that was set to warn state and local authorities about heightened threats tied to the ongoing war with Iran. The bulletin, titled \"A Public Safety Awareness Report: Elevated threat in the US during US-Iran conflict,\" detailed potential threats to US military and government personnel, Jewish and Israeli institutions, and Iranian dissidents in the US. The White House ordered the bulletin to be placed on hold after being informed of its contents.",
+      "why_relevant": "Blocking the release of intelligence warnings can hinder local law enforcement's ability to prepare for and respond to potential threats, impacting public safety and transparency.",
+      "attacks": [
+        "information",
+        "transparency"
+      ],
+      "_origin_file": "meidas_events_2026-03-07_2026-03-13.json",
+      "_origin_index": 29
+    },
+    {
+      "source_key": "meidas",
+      "date": "2026-03-07",
+      "category": "Information & Media Control",
+      "title": "Trump Administration Uses Propaganda Videos to Rally Support",
+      "url": "https://www.meidasplus.com/p/this-weekend-in-politics-bulletin-9b3",
+      "summary": "The Trump administration has released a series of propaganda videos featuring combat footage from the war with Iran, mixed with clips from action movies and video games. These videos, shared on social media, appear aimed at appealing to young right-wing American men.",
+      "why_relevant": "The use of propaganda to shape public perception of military actions raises concerns about the manipulation of information and the impact on democratic discourse.",
+      "attacks": [
+        "information",
+        "truth"
+      ],
+      "_origin_file": "meidas_events_2026-03-07_2026-03-13.json",
+      "_origin_index": 35
+    },
+    {
+      "source_key": "meidas",
+      "date": "2026-03-07",
+      "category": "Information & Media Control",
+      "title": "Trump Misrepresents Iran's Position on Social Media",
+      "url": "https://www.meidasplus.com/p/saturday-afternoon-news-updates-3726",
+      "summary": "Former President Donald Trump falsely claimed on social media that Iran had \"surrendered\" and apologized to the region, despite ongoing missile launches and drone strikes by Iran. Trump's posts also included threats of additional strikes on Iranian targets, escalating rhetoric that military analysts warn could further destabilize the region.",
+      "why_relevant": "Misleading public statements by influential figures can exacerbate international tensions and misinform the public.",
+      "attacks": [
+        "truth",
+        "peace"
+      ],
+      "_origin_file": "meidas_events_2026-03-07_2026-03-13.json",
+      "_origin_index": 42
+    },
+    {
       "source_key": "guardian",
       "date": "2026-03-07",
       "category": "Economic & Regulatory Power",
@@ -146,6 +262,167 @@
       ],
       "_origin_file": "guardian_events_2026-03-01_2026-03-20.json",
       "_origin_index": 126
+    },
+    {
+      "source_key": "meidas",
+      "date": "2026-03-07",
+      "category": "Economic & Regulatory Power",
+      "title": "Corporate Media Reports on U.S. Economic Situation",
+      "url": "https://www.meidasplus.com/p/saturday-afternoon-news-updates-3726",
+      "summary": "Major media outlets, including the Wall Street Journal, the Washington Post, and the New York Times, are reporting on job losses tied to Trump's economic policies. The reports highlight the decline in employment following a tariff-driven economic shock earlier in the year, coinciding with rising energy prices and strained global trade routes due to the war.",
+      "why_relevant": "Media coverage of economic conditions can influence public awareness and policy responses to economic challenges.",
+      "attacks": [
+        "economy"
+      ],
+      "_origin_file": "meidas_events_2026-03-07_2026-03-13.json",
+      "_origin_index": 46
+    },
+    {
+      "source_key": "meidas",
+      "date": "2026-03-07",
+      "category": "Economic & Regulatory Power",
+      "title": "Trump Administration Temporarily Suspends Some Russia Sanctions",
+      "url": "https://www.meidasplus.com/p/this-weekend-in-politics-bulletin-9b3",
+      "summary": "The US has temporarily suspended certain sanctions on Russia to make Russian oil available, despite concerns about Russia's financial benefit amid its war in Ukraine. Energy Secretary Chris Wright stated the focus is on addressing the impact of the Iran conflict on US consumers.",
+      "why_relevant": "The suspension of sanctions on Russia amid its involvement in Ukraine raises questions about the consistency of US foreign policy and economic strategy.",
+      "attacks": [
+        "international_relations",
+        "economy"
+      ],
+      "_origin_file": "meidas_events_2026-03-07_2026-03-13.json",
+      "_origin_index": 36
+    },
+    {
+      "source_key": "meidas",
+      "date": "2026-03-07",
+      "category": "Economic & Regulatory Power",
+      "title": "U.S. Diesel Prices Surge Amid Conflict",
+      "url": "https://www.meidasplus.com/p/saturday-afternoon-news-updates-3726",
+      "summary": "The national average price of diesel in the United States has surged past $4.50 per gallon, with projections indicating it could soon approach $4.95. The increase is attributed to the ongoing conflict in the Strait of Hormuz, which is affecting global oil supply and prices. Rising diesel costs are expected to impact shipping, trucking, and supply chains across the U.S., exacerbating economic challenges.",
+      "why_relevant": "Rising fuel prices can have cascading effects on the economy, affecting transportation and consumer goods costs.",
+      "attacks": [
+        "economy"
+      ],
+      "_origin_file": "meidas_events_2026-03-07_2026-03-13.json",
+      "_origin_index": 41
+    },
+    {
+      "source_key": "meidas",
+      "date": "2026-03-07",
+      "category": "International Relations",
+      "title": "Iran Strikes Oil Tanker in Strait of Hormuz",
+      "url": "https://www.meidasplus.com/p/saturday-afternoon-news-updates-3726",
+      "summary": "Iran's Revolutionary Guard struck an oil tanker in the Strait of Hormuz after it reportedly ignored warnings from Iranian naval forces. This action has contributed to a significant slowdown in tanker movement through the critical waterway, which handles a substantial portion of the world's oil supply. The disruption is causing economic ripple effects, including reduced refinery and oil output in Kuwait, an OPEC member.",
+      "why_relevant": "The Strait of Hormuz is a vital chokepoint for global oil supply, and disruptions can have widespread economic impacts.",
+      "attacks": [
+        "trade",
+        "peace"
+      ],
+      "_origin_file": "meidas_events_2026-03-07_2026-03-13.json",
+      "_origin_index": 40
+    },
+    {
+      "source_key": "meidas",
+      "date": "2026-03-07",
+      "category": "International Relations",
+      "title": "Iranian Strikes Target Middle East Radar Systems",
+      "url": "https://www.meidasplus.com/p/this-weekend-in-politics-bulletin-9b3",
+      "summary": "Iran has targeted radar systems in the Middle East, degrading the ability of the US and its allies to track incoming missiles. Strikes have hit radar, communications, and air defense systems in Qatar, UAE, Jordan, Bahrain, Kuwait, and Saudi Arabia, often using cost-effective one-way attack drones.",
+      "why_relevant": "The targeting of radar systems by Iran escalates the conflict and challenges the defensive capabilities of US allies in the region.",
+      "attacks": [
+        "peace",
+        "international_relations"
+      ],
+      "_origin_file": "meidas_events_2026-03-07_2026-03-13.json",
+      "_origin_index": 34
+    },
+    {
+      "source_key": "meidas",
+      "date": "2026-03-07",
+      "category": "International Relations",
+      "title": "Trump Administration Expedites Bomb Sale to Israel",
+      "url": "https://www.meidasplus.com/p/this-weekend-in-politics-bulletin-9b3",
+      "summary": "The Trump administration bypassed Congress using emergency authority to expedite the sale of over 20,000 bombs to Israel, valued at approximately $650 million. The State Department, led by Marco Rubio, determined an emergency existed that required the immediate sale, waiving congressional review requirements. This arms package follows the joint US-Israel air war against Iran, marking a significant military operation since the 2003 Iraq invasion.",
+      "why_relevant": "The expedited arms sale without congressional oversight raises concerns about executive overreach and the potential escalation of military conflict.",
+      "attacks": [
+        "separation_of_powers",
+        "international_relations"
+      ],
+      "_origin_file": "meidas_events_2026-03-07_2026-03-13.json",
+      "_origin_index": 30
+    },
+    {
+      "source_key": "meidas",
+      "date": "2026-03-07",
+      "category": "International Relations",
+      "title": "Trump Hosts Summit with Right-Wing Latin American Leaders",
+      "url": "https://www.meidasplus.com/p/saturday-afternoon-news-updates-3726",
+      "summary": "Former President Trump hosted a summit in Florida with right-wing Latin American leaders, branded as the \"Shield of the Americas\" summit. The event, held at his private golf resort, included discussions on missile strikes against cartel targets and U.S. intervention in Cuba. The rhetoric at the summit was marked by controversial statements and a lack of participation from major regional powers.",
+      "why_relevant": "Diplomatic gatherings and rhetoric can influence regional alliances and international perceptions of U.S. foreign policy.",
+      "attacks": [
+        "diplomacy"
+      ],
+      "_origin_file": "meidas_events_2026-03-07_2026-03-13.json",
+      "_origin_index": 45
+    },
+    {
+      "source_key": "meidas",
+      "date": "2026-03-07",
+      "category": "Civil–Military Relations & State Violence",
+      "title": "Defense Secretary's Comments on Iran Raise Concerns",
+      "url": "https://www.meidasplus.com/p/saturday-afternoon-news-updates-3726",
+      "summary": "U.S. Defense Secretary Pete Hegseth made controversial comments in a 60 Minutes interview, suggesting that Iranians who believe they will survive should be worried. The statement, lacking distinction between the Iranian regime and civilians, has raised concerns about the U.S. approach to the conflict and its potential humanitarian impact.",
+      "why_relevant": "Statements by senior defense officials can influence military strategy and public perception, impacting conflict dynamics.",
+      "attacks": [
+        "peace",
+        "decency"
+      ],
+      "_origin_file": "meidas_events_2026-03-07_2026-03-13.json",
+      "_origin_index": 43
+    },
+    {
+      "source_key": "meidas",
+      "date": "2026-03-07",
+      "category": "Civil–Military Relations & State Violence",
+      "title": "Iranian Drone Strike Near Dubai Airport",
+      "url": "https://www.meidasplus.com/p/saturday-afternoon-news-updates-3726",
+      "summary": "An Iranian drone struck near Dubai International Airport, narrowly missing a major concourse. The United Arab Emirates reported that its air defense systems are actively intercepting ballistic missiles, and fighter jets are engaged in shooting down drones and loitering munitions. This incident underscores the heightened tensions and risks to civilian aviation in one of the world's busiest airports amid the ongoing conflict between Iran and the United States.",
+      "why_relevant": "The attack on a major international airport poses significant risks to civilian safety and regional stability.",
+      "attacks": [
+        "peace"
+      ],
+      "_origin_file": "meidas_events_2026-03-07_2026-03-13.json",
+      "_origin_index": 39
+    },
+    {
+      "source_key": "meidas",
+      "date": "2026-03-07",
+      "category": "Civil–Military Relations & State Violence",
+      "title": "U.S. Strike on Iranian Desalination Facility",
+      "url": "https://www.meidasplus.com/p/saturday-afternoon-news-updates-3726",
+      "summary": "The United States conducted a military strike on a freshwater desalination facility located on Qeshm Island in Iran. This action disrupted the water supply for approximately 30 villages, drawing condemnation from Iran's foreign minister. The attack raises concerns about the potential for retaliatory strikes on similar infrastructure in neighboring Gulf countries, which rely heavily on desalination for drinking water. The incident highlights the escalating tensions and humanitarian risks associated with the ongoing conflict between the U.S. and Iran.",
+      "why_relevant": "Targeting critical civilian infrastructure in conflict zones can have severe humanitarian and geopolitical consequences.",
+      "attacks": [
+        "peace",
+        "environment"
+      ],
+      "_origin_file": "meidas_events_2026-03-07_2026-03-13.json",
+      "_origin_index": 38
+    },
+    {
+      "source_key": "meidas",
+      "date": "2026-03-07",
+      "category": "Civil–Military Relations & State Violence",
+      "title": "US and Israel Discuss Special Forces Operation in Iran",
+      "url": "https://www.meidasplus.com/p/this-weekend-in-politics-bulletin-9b3",
+      "summary": "The US and Israel are considering deploying special forces to secure Iran's stockpile of highly enriched uranium amid the ongoing conflict. This operation would involve navigating heavily fortified underground facilities in Iran, potentially requiring US or Israeli troops on the ground.",
+      "why_relevant": "The potential deployment of special forces in Iran represents a significant escalation in military involvement, with implications for regional stability and international law.",
+      "attacks": [
+        "peace",
+        "international_relations"
+      ],
+      "_origin_file": "meidas_events_2026-03-07_2026-03-13.json",
+      "_origin_index": 33
     },
     {
       "source_key": "guardian",
@@ -180,6 +457,20 @@
       "_origin_index": 120
     },
     {
+      "source_key": "hcr",
+      "date": "2026-03-08",
+      "category": "Legislative & Oversight Activity",
+      "title": "Senator Whitehouse criticizes Trump's policies favoring Russia",
+      "url": "https://www.theguardian.com/world/2026/mar/07/iran-trump-unconditional-surrender-war-masoud-pezeshkian",
+      "summary": "On March 7, 2026, Senator Sheldon Whitehouse addressed the Senate, criticizing President Trump's policies that he argued favored Russia, including pausing weapons shipments to Ukraine and easing sanctions. Whitehouse suggested that Trump's actions were consistent with doing Russia's bidding, raising concerns about U.S. national security and foreign policy integrity.",
+      "why_relevant": "This criticism underscores the potential risks to U.S. national security and the integrity of democratic institutions when foreign policy is perceived to be influenced by personal or partisan interests.",
+      "attacks": [
+        "diplomacy"
+      ],
+      "_origin_file": "hcr_events_2026-03-07_2026-03-13.json",
+      "_origin_index": 29
+    },
+    {
       "source_key": "guardian",
       "date": "2026-03-08",
       "category": "Judicial Developments",
@@ -194,6 +485,21 @@
       ],
       "_origin_file": "guardian_events_2026-03-01_2026-03-20.json",
       "_origin_index": 119
+    },
+    {
+      "source_key": "justsecurity",
+      "date": "2026-03-08",
+      "category": "Judicial Developments",
+      "title": "Judge Moss partially grants summary judgment in Amica Center For Immigrant Rights v. EOIR",
+      "url": "https://www.courtlistener.com/docket/72338638/amica-center-for-immigrant-rights-v-executive-office-for-immigration/",
+      "summary": "Judge Moss granted in part and denied in part Plaintiffs' motion for partial summary judgment in the case of Amica Center For Immigrant Rights v. Executive Office for Immigration Review. The court vacated and set aside the substantive portions of the interim final rule (IFR) as unlawfully and unenforceably promulgated “without observance of procedure required by law.” The matter was remanded to the EOIR for proceedings consistent with the decision, impacting the rule's enforcement and the appellate review process before the Board of Immigration Appeals.",
+      "why_relevant": "Litigation over Trump administration actions affects judicial review, executive power, rights enforcement, and the rule of law.",
+      "attacks": [
+        "immigrants_refugees",
+        "rule_of_law"
+      ],
+      "_origin_file": "justsecurity_events_2026-03-01_2026-03-10.json",
+      "_origin_index": 37
     },
     {
       "source_key": "guardian",
@@ -239,6 +545,48 @@
       "_origin_index": 1
     },
     {
+      "source_key": "hcr",
+      "date": "2026-03-08",
+      "category": "Information & Media Control",
+      "title": "Trump downplays Russian assistance to Iran",
+      "url": "https://www.washingtonpost.com/national-security/2026/03/06/russia-iran-intelligence-us-targets/",
+      "summary": "On March 7, 2026, during a roundtable discussion, President Trump responded to a question about reports of Russian assistance to Iran in targeting U.S. forces, dismissing it as a \"stupid question.\" This response came amid growing concerns about the implications of Russian support for Iran's military actions against the U.S.",
+      "why_relevant": "Trump's dismissal of critical questions regarding U.S. national security reflects a troubling trend in the administration's approach to transparency and accountability in foreign policy.",
+      "attacks": [
+        "truth"
+      ],
+      "_origin_file": "hcr_events_2026-03-07_2026-03-13.json",
+      "_origin_index": 30
+    },
+    {
+      "source_key": "meidas",
+      "date": "2026-03-08",
+      "category": "Economic & Regulatory Power",
+      "title": "Bahrain Declares Force Majeure on Oil Shipments",
+      "url": "https://www.meidasplus.com/p/today-in-politics-bulletin-324-3926",
+      "summary": "Bahrain's state oil company, Bapco Energies, declared force majeure on its shipments following an Iranian attack on its only oil refinery. The attack disrupted operations, leading to a suspension of export obligations. This declaration affects global oil supply, as Bahrain's refinery is a critical source for several regions.",
+      "why_relevant": "The disruption in Bahrain's oil exports exacerbates the global energy crisis, impacting economic stability and international trade.",
+      "attacks": [
+        "economy"
+      ],
+      "_origin_file": "meidas_events_2026-03-07_2026-03-13.json",
+      "_origin_index": 26
+    },
+    {
+      "source_key": "meidas",
+      "date": "2026-03-08",
+      "category": "Economic & Regulatory Power",
+      "title": "ICE Orders 2,500 Marked Vehicles",
+      "url": "https://www.meidasplus.com/p/today-in-politics-bulletin-324-3926",
+      "summary": "The former ICE Deputy Director, Madison Sheehan, placed an order for 2,500 custom-marked ICE vehicles, which are now unused and stored in parking garages. ICE agents have expressed reluctance to use these conspicuous vehicles, as they prefer to avoid public identification. The vehicles, marked with ICE's name and logo, were intended for recruitment purposes as the agency plans to hire 10,000 new deportation officers. This order is part of a series of questionable expenditures by the Department of Homeland Security.",
+      "why_relevant": "The procurement of marked vehicles reflects potential mismanagement of resources within ICE, impacting transparency and operational efficiency.",
+      "attacks": [
+        "public_service"
+      ],
+      "_origin_file": "meidas_events_2026-03-07_2026-03-13.json",
+      "_origin_index": 24
+    },
+    {
       "source_key": "guardian",
       "date": "2026-03-08",
       "category": "Appointments & Patronage",
@@ -252,6 +600,60 @@
       ],
       "_origin_file": "guardian_events_2026-03-01_2026-03-20.json",
       "_origin_index": 122
+    },
+    {
+      "source_key": "hcr",
+      "date": "2026-03-08",
+      "category": "International Relations",
+      "title": "Trump convenes \"Shield of the Americas\" summit",
+      "url": "https://www.theguardian.com/us-news/2026/mar/07/trump-shield-of-americas-summit",
+      "summary": "On March 7, 2026, President Trump held a \"Shield of the Americas\" summit in Miami with twelve Latin American leaders aligned with his administration. During the summit, Trump called for an \"anti-cartel coalition\" to use military force against drug cartels, suggesting Cuba could be the next target for U.S. intervention.",
+      "why_relevant": "This summit reflects a strategic alignment of U.S. foreign policy with right-wing leaders in Latin America, potentially leading to increased military interventions in the region.",
+      "attacks": [],
+      "_origin_file": "hcr_events_2026-03-07_2026-03-13.json",
+      "_origin_index": 28
+    },
+    {
+      "source_key": "hcr",
+      "date": "2026-03-08",
+      "category": "International Relations",
+      "title": "Trump demands unconditional surrender from Iran",
+      "url": "https://www.wsj.com/world/middle-east/trump-is-rewriting-the-iran-endgame-in-real-time-98f8531f",
+      "summary": "On March 7, 2026, President Donald J. Trump posted on social media demanding \"unconditional surrender\" from Iran, stating that the U.S. and its allies would work to bring Iran back from destruction. This marked a significant shift from his earlier promises to the Iranian people. White House press secretary Karoline Leavitt indicated that the definition of unconditional surrender would be determined by Trump as commander in chief. The situation escalated as U.S. military personnel faced casualties and American citizens were stranded in the Middle East.",
+      "why_relevant": "This event highlights a significant escalation in U.S. foreign policy and military engagement in the Middle East, impacting international relations and regional stability.",
+      "attacks": [],
+      "_origin_file": "hcr_events_2026-03-07_2026-03-13.json",
+      "_origin_index": 26
+    },
+    {
+      "source_key": "meidas",
+      "date": "2026-03-08",
+      "category": "International Relations",
+      "title": "Iranian Drone Strike on Bahrain Refinery",
+      "url": "https://www.meidasplus.com/p/today-in-politics-bulletin-324-3926",
+      "summary": "An Iranian drone and missile strike targeted Bahrain's Sitra refinery complex, causing operational disruptions and injuries. The attack led to Bahrain declaring force majeure, affecting its ability to fulfill oil export contracts. This incident is part of escalating regional tensions impacting global oil markets.",
+      "why_relevant": "The attack on Bahrain's refinery highlights the ongoing regional conflict's impact on global energy security and international relations.",
+      "attacks": [
+        "peace",
+        "global_democracy"
+      ],
+      "_origin_file": "meidas_events_2026-03-07_2026-03-13.json",
+      "_origin_index": 27
+    },
+    {
+      "source_key": "meidas",
+      "date": "2026-03-08",
+      "category": "International Relations",
+      "title": "Trump Signals End to Iran War",
+      "url": "https://www.meidasplus.com/p/today-in-politics-bulletin-324-3926",
+      "summary": "President Trump indicated a shift in strategy regarding the Iran War, suggesting a potential end to the conflict. Initially, Trump demanded unconditional surrender and regime change, but recent statements suggest a declaration of victory and withdrawal. The conflict has led to significant geopolitical and economic consequences, including a spike in oil prices and strained international relations.",
+      "why_relevant": "The potential end of the Iran War could have significant implications for global stability and U.S. foreign policy.",
+      "attacks": [
+        "peace",
+        "global_democracy"
+      ],
+      "_origin_file": "meidas_events_2026-03-07_2026-03-13.json",
+      "_origin_index": 25
     },
     {
       "source_key": "guardian",
@@ -268,6 +670,33 @@
       ],
       "_origin_file": "guardian_events_2026-03-01_2026-03-20.json",
       "_origin_index": 124
+    },
+    {
+      "source_key": "hcr",
+      "date": "2026-03-08",
+      "category": "Civil–Military Relations & State Violence",
+      "title": "Trump threatens military action against drug cartels",
+      "url": "https://abcnews.com/Politics/trump-speak-shield-americas-summit-aimed-taking-cartels/story?id=130847707",
+      "summary": "On March 7, 2026, Defense Secretary Pete Hegseth warned representatives from sixteen Latin American and Caribbean countries that the Trump administration would take military action against drug cartels if they did not adopt more aggressive strategies. Hegseth emphasized the need for these nations to remain \"Christian nations\" and resist \"radical narco-communism.\"",
+      "why_relevant": "This statement indicates a potential shift in U.S. military policy towards Latin America, raising concerns about sovereignty and the use of military force in domestic issues of other nations.",
+      "attacks": [],
+      "_origin_file": "hcr_events_2026-03-07_2026-03-13.json",
+      "_origin_index": 27
+    },
+    {
+      "source_key": "meidas",
+      "date": "2026-03-08",
+      "category": "Civil–Military Relations & State Violence",
+      "title": "U.S. Cruise Missile Allegedly Hits Iranian School",
+      "url": "https://www.meidasplus.com/p/today-in-politics-bulletin-324-3926",
+      "summary": "Iranian state media released a video purportedly showing a U.S. cruise missile strike on a compound in Iran, resulting in the deaths of approximately 175 students and staff at a girls' school. The U.S. military's involvement is under investigation, with officials neither confirming nor denying responsibility.",
+      "why_relevant": "The alleged U.S. missile strike on a civilian target raises significant ethical and legal concerns, impacting U.S. military conduct and international perception.",
+      "attacks": [
+        "peace",
+        "rule_of_law"
+      ],
+      "_origin_file": "meidas_events_2026-03-07_2026-03-13.json",
+      "_origin_index": 28
     },
     {
       "source_key": "meidas",
@@ -389,6 +818,93 @@
       ],
       "_origin_file": "guardian_events_2026-03-01_2026-03-20.json",
       "_origin_index": 117
+    },
+    {
+      "source_key": "justsecurity",
+      "date": "2026-03-09",
+      "category": "Judicial Developments",
+      "title": "AFSCME files lawsuit against Trump administration over public health grant terminations",
+      "url": "https://www.courtlistener.com/docket/72384325/american-federation-of-state-county-and-municipal-employees-aflcio-v/",
+      "summary": "On March 9, 2026, the American Federation of State, County, and Municipal Employees (AFSCME) and its Illinois affiliate filed a lawsuit in the Northern District of Illinois against Russell Vought, Robert F. Kennedy Jr., and federal agencies including the Department of Health and Human Services (HHS) and the Centers for Disease Control and Prevention (CDC). The suit challenges a directive from the Trump administration that ordered the termination of over $600 million in public health grants managed by the CDC. The plaintiffs are seeking declaratory and injunctive relief, claiming the administration's actions unlawfully conditioned or withdrew grant funding for several states, violating the Administrative Procedure Act (APA) and constitutional limits, and constituting political retaliation.",
+      "why_relevant": "Litigation over Trump administration actions affects judicial review, executive power, rights enforcement, and the rule of law.",
+      "attacks": [
+        "public_health",
+        "rule_of_law"
+      ],
+      "_origin_file": "justsecurity_events_2026-03-01_2026-03-10.json",
+      "_origin_index": 20
+    },
+    {
+      "source_key": "justsecurity",
+      "date": "2026-03-09",
+      "category": "Judicial Developments",
+      "title": "Coalition for Independent Technology Research files complaint against administration's \"Censorship Policy\"",
+      "url": "https://www.courtlistener.com/docket/72379411/coalition-for-independent-technology-research-v-rubio/",
+      "summary": "On March 9, 2026, the Coalition for Independent Technology Research filed a lawsuit in the U.S. District Court for the District of Columbia against the Secretary of State, the Secretary of Homeland Security, and the Attorney General. The complaint challenges the administration's \"Censorship Policy,\" which allegedly excludes and deports noncitizens involved in combating misinformation and disinformation. The plaintiffs argue this policy violates the First and Fifth Amendments and the Administrative Procedure Act. They seek declaratory and injunctive relief to halt the policy's enforcement.",
+      "why_relevant": "Litigation over Trump administration actions affects judicial review, executive power, rights enforcement, and the rule of law.",
+      "attacks": [
+        "immigrants_refugees",
+        "information",
+        "rule_of_law"
+      ],
+      "_origin_file": "justsecurity_events_2026-03-01_2026-03-10.json",
+      "_origin_index": 5
+    },
+    {
+      "source_key": "justsecurity",
+      "date": "2026-03-09",
+      "category": "Judicial Developments",
+      "title": "Empire Leaseholder LLC v. Burgum (D.D.C.) 1:26-cv-00004 — Judge Nichols denied Defendants' motion to stay the case.",
+      "url": "https://www.courtlistener.com/docket/72099689/empire-leaseholder-llc-v-burgum",
+      "summary": "Judge Nichols denied Defendants' motion to stay the case.",
+      "why_relevant": "This tracker update marks a concrete litigation development in an ongoing legal challenge. Court: D.D.C.. Docket: 1:26-cv-00004.",
+      "attacks": [],
+      "_origin_file": "justsecurity_events_2026-01-01_2026-03-20.json",
+      "_origin_index": 91
+    },
+    {
+      "source_key": "justsecurity",
+      "date": "2026-03-09",
+      "category": "Judicial Developments",
+      "title": "Judge denies preliminary injunction in Hussen v. Noem",
+      "url": "https://www.courtlistener.com/docket/72146903/hussen-v-noem/",
+      "summary": "Judge Tostrud denied the Plaintiffs' motion for a preliminary injunction in the case of Hussen v. Noem. The Plaintiffs, who are ethnically Somali and Latino U.S. citizens, alleged that federal agents were unlawfully targeting individuals based on race under DHS's Operation Metro Surge. The judge acknowledged that the policy of stopping and arresting individuals based solely on race or ethnicity is likely unconstitutional. However, the Plaintiffs were found to lack standing for forward-looking relief and did not demonstrate that irreparable harm was imminent.",
+      "why_relevant": "Litigation over Trump administration actions affects judicial review, executive power, rights enforcement, and the rule of law.",
+      "attacks": [
+        "minorities",
+        "rule_of_law"
+      ],
+      "_origin_file": "justsecurity_events_2026-03-01_2026-03-10.json",
+      "_origin_index": 32
+    },
+    {
+      "source_key": "justsecurity",
+      "date": "2026-03-09",
+      "category": "Judicial Developments",
+      "title": "Judge Talwani grants continued stay in SNAP benefits suspension case",
+      "url": "https://www.courtlistener.com/docket/71783393/commonwealth-of-massachusetts-v-united-states-department-of-agriculture/",
+      "summary": "In the case of Commonwealth of Massachusetts v. United States Department of Agriculture, Judge Talwani granted the Parties' request for a continued stay. This case involves a lawsuit filed by 22 states and the District of Columbia against the USDA and other federal entities, challenging the suspension of SNAP benefits. The plaintiffs argue that the suspension is unlawful and would cause significant harm to millions of beneficiaries. The continued stay delays further proceedings in the case.",
+      "why_relevant": "Litigation over Trump administration actions affects judicial review, executive power, rights enforcement, and the rule of law.",
+      "attacks": [
+        "poor",
+        "rule_of_law"
+      ],
+      "_origin_file": "justsecurity_events_2026-03-01_2026-03-10.json",
+      "_origin_index": 14
+    },
+    {
+      "source_key": "justsecurity",
+      "date": "2026-03-09",
+      "category": "Judicial Developments",
+      "title": "Student-loan borrowers file lawsuit against U.S. Department of Education",
+      "url": "https://www.courtlistener.com/docket/72379585/havens-v-us-department-of-education/",
+      "summary": "On March 9, 2026, four student-loan borrowers filed a lawsuit in the U.S. District Court for the District of Columbia against the Department of Education. The plaintiffs allege that the Department is unlawfully refusing to implement the SAVE Final Rule, which was finalized in 2023 to provide automatic loan discharge and reduced monthly payments. Despite a prior injunction being lifted, the Department allegedly continues to deny loan discharges and maintains inaccurate information about the plan's status. The plaintiffs seek declaratory and injunctive relief, claiming the Department's actions are arbitrary and capricious under the Administrative Procedure Act.",
+      "why_relevant": "Litigation over Trump administration actions affects judicial review, executive power, rights enforcement, and the rule of law.",
+      "attacks": [
+        "rule_of_law"
+      ],
+      "_origin_file": "justsecurity_events_2026-03-01_2026-03-10.json",
+      "_origin_index": 24
     },
     {
       "source_key": "zeteo",
@@ -641,6 +1157,20 @@
       "_origin_index": 104
     },
     {
+      "source_key": "hcr",
+      "date": "2026-03-09",
+      "category": "Economic & Regulatory Power",
+      "title": "Trump comments on high oil prices due to military actions",
+      "url": "https://www.nytimes.com/2026/03/07/business/gasoline-prices.html",
+      "summary": "President Trump stated that high oil prices resulting from military actions in the Middle East are \"a very small price to pay for U.S.A., and World, Safety and Peace.\" This comment reflects the administration's framing of military expenditures and their impact on the economy.",
+      "why_relevant": "Trump's remarks illustrate the administration's prioritization of military spending over domestic welfare, impacting public perception and economic policy.",
+      "attacks": [
+        "economy"
+      ],
+      "_origin_file": "hcr_events_2026-03-07_2026-03-13.json",
+      "_origin_index": 25
+    },
+    {
       "source_key": "federalregister",
       "date": "2026-03-09",
       "category": "Appointments & Patronage",
@@ -813,6 +1343,46 @@
       "_origin_index": 51
     },
     {
+      "source_key": "hcr",
+      "date": "2026-03-09",
+      "category": "Civil–Military Relations & State Violence",
+      "title": "Dignified transfer of remains of U.S. soldiers killed in Iran",
+      "url": "https://apnews.com/article/dignified-transfer-trump-iran-american-soldiers-killed-c6ca32cc5deaf90e1a5c1805dbde807b",
+      "summary": "President Donald J. Trump attended the dignified transfer of the remains of six U.S. soldiers killed in military action against Iran. The event was marked by controversy as Trump wore a white USA baseball cap, which was criticized as disrespectful. Fox News Channel chose not to air footage of Trump at the event, instead showing old footage from his first term. The incident highlights the administration's approach to military actions and public perception.",
+      "why_relevant": "The event underscores the tensions between military actions and public sentiment, reflecting on the administration's handling of war and its implications for democratic norms.",
+      "attacks": [],
+      "_origin_file": "hcr_events_2026-03-07_2026-03-13.json",
+      "_origin_index": 22
+    },
+    {
+      "source_key": "hcr",
+      "date": "2026-03-09",
+      "category": "Civil–Military Relations & State Violence",
+      "title": "U.S. strike on girls' school in Iran kills many civilians",
+      "url": "https://www.reuters.com/world/middle-east/us-investigation-points-likely-us-responsibility-iran-school-strike-sources-say-2026-03-06/",
+      "summary": "A U.S. strike on a girls' school in Minab, Iran, during the early waves of an Israeli-U.S. attack reportedly killed at least 168 people, many of whom were children. The incident is under investigation, and it has been noted that the U.S. was operating in the area at the time.",
+      "why_relevant": "This event highlights the consequences of military operations on civilian populations, raising significant ethical and legal concerns regarding U.S. military engagement.",
+      "attacks": [
+        "civil_military_relations"
+      ],
+      "_origin_file": "hcr_events_2026-03-07_2026-03-13.json",
+      "_origin_index": 24
+    },
+    {
+      "source_key": "hcr",
+      "date": "2026-03-09",
+      "category": "Civil–Military Relations & State Violence",
+      "title": "U.S. submarine torpedoes Iranian warship in international waters",
+      "url": "https://www.theguardian.com/world/2026/mar/04/us-submarine-torpedo-iran-warship-sri-lanka-coast-pete-hegseth",
+      "summary": "A U.S. submarine torpedoed an Iranian warship in international waters, which was not participating in hostilities. The attack resulted in casualties, with Sri Lankan officials reporting 32 survivors and 87 bodies recovered. This incident is notable as submarine attacks on non-hostile vessels have been rare since World War II.",
+      "why_relevant": "The attack raises questions about the legality and morality of military actions taken by the U.S., impacting international norms and the conduct of warfare.",
+      "attacks": [
+        "civil_military_relations"
+      ],
+      "_origin_file": "hcr_events_2026-03-07_2026-03-13.json",
+      "_origin_index": 23
+    },
+    {
       "source_key": "popinfo",
       "date": "2026-03-09",
       "category": "Civil–Military Relations & State Violence",
@@ -851,6 +1421,18 @@
       "attacks": [],
       "_origin_file": "guardian_events_2026-03-01_2026-03-20.json",
       "_origin_index": 93
+    },
+    {
+      "source_key": "hcr",
+      "date": "2026-03-10",
+      "category": "Executive Actions & Orders",
+      "title": "Trump discusses potential military actions against Iran",
+      "url": "https://time.com/7382697/trump-iran-war/",
+      "summary": "In a phone interview, President Trump stated that the war in Iran could be nearing completion and warned that if Iran interfered with oil shipments in the Strait of Hormuz, the U.S. would respond with significant military force. He also mentioned having someone in mind to replace Iran's new Supreme Leader, Mojtaba Khamenei.",
+      "why_relevant": "Trump's comments indicate a willingness to escalate military actions in Iran, which could have significant implications for U.S. foreign policy and regional stability.",
+      "attacks": [],
+      "_origin_file": "hcr_events_2026-03-07_2026-03-13.json",
+      "_origin_index": 20
     },
     {
       "source_key": "guardian",
@@ -914,6 +1496,34 @@
       "_origin_index": 101
     },
     {
+      "source_key": "hcr",
+      "date": "2026-03-10",
+      "category": "Legislative & Oversight Activity",
+      "title": "Congress may restrict funding for Iran war",
+      "url": "https://www.justsecurity.org/133361/iran-war-powers-purse-leverage-legalization/",
+      "summary": "Reports indicate that Congress could use its power of the purse to restrict funding for military actions in Iran, despite the Trump administration's plans to request additional funding. Congress has the authority to refuse funding or impose restrictions, although Trump could veto such measures.",
+      "why_relevant": "This potential action by Congress highlights the ongoing struggle over military funding and the balance of power between the executive and legislative branches.",
+      "attacks": [],
+      "_origin_file": "hcr_events_2026-03-07_2026-03-13.json",
+      "_origin_index": 19
+    },
+    {
+      "source_key": "hcr",
+      "date": "2026-03-10",
+      "category": "Legislative & Oversight Activity",
+      "title": "Trump threatens Congress over voting legislation",
+      "url": "https://www.upi.com/Top_News/US/2026/03/08/trump-save-act-must-be-passed/5271773001362/",
+      "summary": "Donald Trump threatened Republican senators on social media, stating he would not sign any bills unless they passed the Safeguard American Voter Eligibility (SAVE) America Act, which includes strict voter ID requirements and limits on mail-in ballots. Senate minority leader Chuck Schumer criticized the act as a modern form of Jim Crow that would disenfranchise millions.",
+      "why_relevant": "Trump's threat to withhold support for other legislation unless the SAVE Act is passed represents an attempt to manipulate legislative processes to restrict voting rights.",
+      "attacks": [
+        "women",
+        "minorities",
+        "voters"
+      ],
+      "_origin_file": "hcr_events_2026-03-07_2026-03-13.json",
+      "_origin_index": 18
+    },
+    {
       "source_key": "guardian",
       "date": "2026-03-10",
       "category": "Judicial Developments",
@@ -957,6 +1567,90 @@
       ],
       "_origin_file": "guardian_events_2026-03-01_2026-03-20.json",
       "_origin_index": 99
+    },
+    {
+      "source_key": "justsecurity",
+      "date": "2026-03-10",
+      "category": "Judicial Developments",
+      "title": "County of San Diego files lawsuit against DHS and CoreCivic",
+      "url": "https://www.courtlistener.com/docket/72418655/county-of-san-diego-v-us-department-of-homeland-security/",
+      "summary": "On March 10, 2026, the County of San Diego filed a lawsuit against the Department of Homeland Security and private contractor CoreCivic in the Southern District of California. The lawsuit seeks to obtain access for state-mandated health and safety inspections at the Otay Mesa Detention Center, a privately operated immigration detention facility. The County claims that although clearance was initially granted to its inspection team, access was later denied, preventing the completion of a required inspection. The County is requesting both preliminary and permanent injunctions to ensure inspection access.",
+      "why_relevant": "Litigation over Trump administration actions affects judicial review, executive power, rights enforcement, and the rule of law.",
+      "attacks": [
+        "immigrants_refugees",
+        "rule_of_law"
+      ],
+      "_origin_file": "justsecurity_events_2026-03-01_2026-03-10.json",
+      "_origin_index": 30
+    },
+    {
+      "source_key": "justsecurity",
+      "date": "2026-03-10",
+      "category": "Judicial Developments",
+      "title": "Democratic National Committee files complaint against U.S. Department of Justice",
+      "url": "https://www.courtlistener.com/docket/72384565/democratic-national-committee-v-us-department-of-justice/",
+      "summary": "On March 10, 2026, the Democratic National Committee (DNC) filed a lawsuit against the U.S. Department of Justice, Department of Defense, and Department of Homeland Security in the District Court for the District of Columbia. The complaint alleges that these agencies failed to respond to eleven Freedom of Information Act (FOIA) requests for nearly five months. The requests sought records related to the potential deployment of federal agents and troops to polling places, ballot drop boxes, and election offices. The DNC claims the agencies violated statutory deadlines under 5 U.S.C. § 552 and seeks a court order for the production of records, a Vaughn index of withheld materials, and attorneys’ fees.",
+      "why_relevant": "Litigation over Trump administration actions affects judicial review, executive power, rights enforcement, and the rule of law.",
+      "attacks": [
+        "transparency",
+        "elections_representation"
+      ],
+      "_origin_file": "justsecurity_events_2026-03-01_2026-03-10.json",
+      "_origin_index": 52
+    },
+    {
+      "source_key": "justsecurity",
+      "date": "2026-03-10",
+      "category": "Judicial Developments",
+      "title": "Environmental groups file lawsuit against Secretary of the Interior over land order revocation",
+      "url": "https://www.courtlistener.com/docket/72387064/northern-alaska-environmental-center-v-burgum/",
+      "summary": "On March 10, 2026, ten environmental nonprofit organizations filed a lawsuit against Secretary of the Interior Douglas Burgum in the District of Alaska. The lawsuit challenges the issuance of Public Land Order (PLO) 7966, which revokes PLOs 5150 and 5180. These orders had previously withdrawn approximately 2.1 million acres along the Dalton Highway and Trans-Alaska Pipeline Corridor from mineral entry and State land selection since 1971 and 1972. The revocation opens the area to mining and oil and gas development, potentially affecting federal subsistence protections for rural communities. The plaintiffs allege violations of several federal acts and seek to vacate the revocation decision and prevent land transfer to the state.",
+      "why_relevant": "Litigation over Trump administration actions affects judicial review, executive power, rights enforcement, and the rule of law.",
+      "attacks": [
+        "environment",
+        "rule_of_law"
+      ],
+      "_origin_file": "justsecurity_events_2026-03-01_2026-03-10.json",
+      "_origin_index": 10
+    },
+    {
+      "source_key": "justsecurity",
+      "date": "2026-03-10",
+      "category": "Judicial Developments",
+      "title": "Maryland files complaint against DHS and ICE over detention conditions",
+      "url": "https://www.courtlistener.com/docket/72384900/state-of-maryland-v-lyons/",
+      "summary": "On March 10, 2026, the State of Maryland filed a complaint in the U.S. District Court for the District of Maryland against the Department of Homeland Security (DHS) and Immigration and Customs Enforcement (ICE). The complaint challenges ICE's refusal to comply with a state administrative subpoena related to a civil rights investigation into detention conditions at ICE's Baltimore Field Office. Maryland alleges that ICE's practices, including prolonged detention in overcrowded conditions without adequate food, water, or medical care, violate the Administrative Procedure Act. The state seeks a declaration of unlawfulness, an order for document production, and attorneys' fees.",
+      "why_relevant": "Litigation over Trump administration actions affects judicial review, executive power, rights enforcement, and the rule of law.",
+      "attacks": [
+        "immigrants_refugees",
+        "rule_of_law"
+      ],
+      "_origin_file": "justsecurity_events_2026-03-01_2026-03-10.json",
+      "_origin_index": 29
+    },
+    {
+      "source_key": "justsecurity",
+      "date": "2026-03-10",
+      "category": "Judicial Developments",
+      "title": "State of New York v. Administration for Children and Families (S.D.N.Y.) 1:26-cv-00172 — The court granted a preliminary injunction and stay blocking HHS and ACF's conditional freeze of approximately $10 billion in CCDF, TANF, and SSBG funds to Plai…",
+      "url": "https://www.courtlistener.com/docket/72123419/state-of-new-york-v-administration-for-children-and-families",
+      "summary": "The court granted a preliminary injunction and stay blocking HHS and ACF's conditional freeze of approximately $10 billion in CCDF, TANF, and SSBG funds to Plaintiff States, finding them likely to succeed on APA grounds because ACF's letters were arbitrary and capricious and contrary to law. The court also denied the government's request for a nearly $300 million bond, finding that imposing one would have an impermissible chilling effect on states' rights to judicial review of unlawful agency action.",
+      "why_relevant": "This tracker update marks a concrete litigation development in an ongoing legal challenge. Court: S.D.N.Y.. Docket: 1:26-cv-00172.",
+      "attacks": [],
+      "_origin_file": "justsecurity_events_2026-01-01_2026-03-20.json",
+      "_origin_index": 167
+    },
+    {
+      "source_key": "justsecurity",
+      "date": "2026-03-10",
+      "category": "Judicial Developments",
+      "title": "State of Washington v. Trump (W.D. Wash.) 2:25-cv-00602 — Defendants appealed to the Ninth Circuit.",
+      "url": "https://www.courtlistener.com/docket/69845185/state-of-washington-v-trump",
+      "summary": "Defendants appealed to the Ninth Circuit.",
+      "why_relevant": "This tracker update marks a concrete litigation development in an ongoing legal challenge. Court: W.D. Wash.. Docket: 2:25-cv-00602.",
+      "attacks": [],
+      "_origin_file": "justsecurity_events_2026-01-01_2026-03-20.json",
+      "_origin_index": 24
     },
     {
       "source_key": "guardian",
@@ -1092,6 +1786,18 @@
       "source_key": "federalregister",
       "date": "2026-03-10",
       "category": "Economic & Regulatory Power",
+      "title": "EPA Finalizes Emission Standards for Large Municipal Waste Combustors",
+      "url": "https://www.federalregister.gov/documents/2026/03/10/2026-04646/standards-of-performance-for-new-stationary-sources-and-emission-guidelines-for-existing-sources",
+      "summary": "The Environmental Protection Agency (EPA) has finalized new source performance standards and emission guidelines for large municipal waste combustors. This rule revises emission limits for pollutants such as cadmium, lead, and mercury, and removes certain startup, shutdown, and malfunction exemptions. The rule aims to reduce pollutants by 3,269 tons per year and will be effective on May 11, 2026.",
+      "why_relevant": "This action represents a significant regulatory update aimed at reducing air pollution from waste combustion, impacting environmental standards and public health.",
+      "attacks": [],
+      "_origin_file": "federalregister_events_2026-03-07_2026-03-13.json",
+      "_origin_index": 31
+    },
+    {
+      "source_key": "federalregister",
+      "date": "2026-03-10",
+      "category": "Economic & Regulatory Power",
       "title": "FDA Determines Regulatory Review Period for Patent Extension of AURORA EV-ICD",
       "url": "https://www.federalregister.gov/documents/2026/03/10/C1-2026-02383/determination-of-regulatory-review-period-for-purposes-of-patent-extension-aurora-ev-icd",
       "summary": "The Food and Drug Administration (FDA) has issued a notice determining the regulatory review period for the purposes of patent extension for the AURORA EV-ICD. This determination is part of the patent term extension process, which allows for the extension of patent life to compensate for time lost during the FDA's regulatory review. The notice corrects a previous document published on February 6, 2026, and updates the relevant dates for the patent extension application.",
@@ -1138,6 +1844,18 @@
       ],
       "_origin_file": "noah_events_2026-03-01_2026-03-20.json",
       "_origin_index": 12
+    },
+    {
+      "source_key": "hcr",
+      "date": "2026-03-10",
+      "category": "Transparency & Records",
+      "title": "DOJ releases Epstein documents related to Trump",
+      "url": "https://www.newsweek.com/doj-releases-new-epstein-documents-trump-accuser-read-full-11631360",
+      "summary": "The Department of Justice released documents concerning an allegation from an Epstein survivor that Donald Trump raped her when she was a minor. The documents included four FBI interview summaries, known as 302 reports, detailing the survivor's accounts of abuse, including interactions with Trump. Some files related to the accusation remain missing.",
+      "why_relevant": "The release of these documents is significant for accountability and transparency regarding serious allegations against a former president.",
+      "attacks": [],
+      "_origin_file": "hcr_events_2026-03-07_2026-03-13.json",
+      "_origin_index": 17
     },
     {
       "source_key": "popinfo",
@@ -1214,6 +1932,18 @@
       ],
       "_origin_file": "noah_events_2026-03-01_2026-03-20.json",
       "_origin_index": 11
+    },
+    {
+      "source_key": "hcr",
+      "date": "2026-03-10",
+      "category": "Civil–Military Relations & State Violence",
+      "title": "U.S. Southern Command strikes vessel in Pacific",
+      "url": "https://www.thehindu.com/news/international/venezuelas-delcy-rodriguez-commits-to-dialogue-in-message-to-trump/article70717157.ece",
+      "summary": "The U.S. Southern Command announced it struck a small vessel in the eastern Pacific, resulting in the deaths of six individuals, as part of its operations against what it labels \"narco-terrorists\" in Latin America.",
+      "why_relevant": "This military action reflects the ongoing U.S. military engagement in Latin America and raises questions about the use of force in combating drug-related activities.",
+      "attacks": [],
+      "_origin_file": "hcr_events_2026-03-07_2026-03-13.json",
+      "_origin_index": 21
     },
     {
       "source_key": "guardian",
@@ -1293,6 +2023,42 @@
       "_origin_index": 48
     },
     {
+      "source_key": "justsecurity",
+      "date": "2026-03-11",
+      "category": "Judicial Developments",
+      "title": "Aragon v. Rollins (D.D.C.) 1:26-cv-00861 — Case filed",
+      "url": "https://www.courtlistener.com/docket/72419889/aragon-v-rollins",
+      "summary": "Case filed Coming soon. On March 11, 2026, five recipients of SNAP benefits sued the USDA and its Secretary Brooke Rollins over its approval of waivers allowing states to modify which foods qualify for such benefits. The Plaintiffs allege that the waivers do not satisfy a statutorily-approved purpose, that USDA failed to undertake the required notice and comment period for such waivers, and that the waivers are overbroad and allow states to evaluate their effectiveness at an unspecified later date in violation of the Administrative Procedure Act (APA). Plaintiffs seek declaratory relief, postponement of the waivers’ effective dates, and permanent injunctive relief.",
+      "why_relevant": "A new legal challenge was filed against a Trump administration action. Court: D.D.C.. Docket: 1:26-cv-00861.",
+      "attacks": [],
+      "_origin_file": "justsecurity_events_2026-01-01_2026-03-20.json",
+      "_origin_index": 132
+    },
+    {
+      "source_key": "justsecurity",
+      "date": "2026-03-11",
+      "category": "Judicial Developments",
+      "title": "Joslin v. U.S. Department of the Interior (D.D.C.) 1:26-cv-00576 — Judge Sooknanan transferred the case to the Eastern District of California.",
+      "url": "https://www.courtlistener.com/docket/72312534/joslin-v-us-department-of-the-interior",
+      "summary": "Judge Sooknanan transferred the case to the Eastern District of California.",
+      "why_relevant": "This tracker update marks a concrete litigation development in an ongoing legal challenge. Court: D.D.C.. Docket: 1:26-cv-00576.",
+      "attacks": [],
+      "_origin_file": "justsecurity_events_2026-01-01_2026-03-20.json",
+      "_origin_index": 27
+    },
+    {
+      "source_key": "justsecurity",
+      "date": "2026-03-11",
+      "category": "Judicial Developments",
+      "title": "Lesly Miot v. Trump (D.D.C.) 1:25-cv-02471 — The administration asked the Supreme Court to stay the district court's injunction blocking the administration from revoking Haiti's TPS designation",
+      "url": "https://www.courtlistener.com/docket/70965949/lesly-miot-v-trump",
+      "summary": "The administration asked the Supreme Court to stay the district court's injunction blocking the administration from revoking Haiti's TPS designation. The administration also asked the Court to grant certiorari before judgment to address conflicting rulings on the administration's TPS decisions for other countries, including Syria, Burma, Nepal, Honduras, Nicaragua, Afghanistan, and Cameroon. ( 25-1084 (25A999) )",
+      "why_relevant": "This tracker update marks a concrete litigation development in an ongoing legal challenge. Court: D.D.C.. Docket: 1:25-cv-02471.",
+      "attacks": [],
+      "_origin_file": "justsecurity_events_2026-01-01_2026-03-20.json",
+      "_origin_index": 259
+    },
+    {
       "source_key": "guardian",
       "date": "2026-03-11",
       "category": "Law Enforcement & Surveillance",
@@ -1325,13 +2091,13 @@
       "category": "Law Enforcement & Surveillance",
       "title": "Trump Briefed on Iranian Sleeper Cells",
       "url": "https://www.meidasplus.com/p/today-in-politics-bulletin-326-51226",
-      "summary": "Former President Donald Trump stated that he has been briefed on the presence of Iranian terrorist sleeper cells within the United States. He claimed that authorities are aware of the locations of most of these cells and are monitoring them. This statement comes amid heightened tensions between the U.S. and Iran, following military actions and threats in the region.",
+      "summary": "Former President Donald Trump stated that he has been briefed on the presence of Iranian terrorist sleeper cells within the United States. He claimed that authorities are aware of the locations of most of these cells and are monitoring them. This statement comes amid heightened tensions between the U.S. and Iran, following military conflicts in the Middle East.",
       "why_relevant": "The acknowledgment of sleeper cells within the U.S. raises concerns about domestic security and the potential for retaliatory actions.",
       "attacks": [
         "immigrants_refugees"
       ],
-      "_origin_file": "meidas_events_2026-03-01_2026-03-20.json",
-      "_origin_index": 45
+      "_origin_file": "meidas_events_2026-03-07_2026-03-13.json",
+      "_origin_index": 10
     },
     {
       "source_key": "guardian",
@@ -1553,14 +2319,14 @@
       "category": "International Relations",
       "title": "Iran Threatens Economic Centers and Banks",
       "url": "https://www.meidasplus.com/p/today-in-politics-bulletin-326-51226",
-      "summary": "Iran's Islamic Revolutionary Guard Corps (IRGC) has threatened to attack economic centers and banks associated with U.S. and Israeli entities in the region. This threat follows what Iran claims was an attack on an Iranian bank by U.S. and Israeli forces. The IRGC warned civilians to avoid these areas, indicating a potential escalation in regional hostilities.",
-      "why_relevant": "The threat to economic centers and banks highlights the potential for significant economic disruption and increased regional instability.",
+      "summary": "Iran's Islamic Revolutionary Guard Corps (IRGC) has threatened to attack economic centers and banks associated with U.S. and Israeli entities in the region. This threat follows what Iran claims was an attack on an Iranian bank by U.S. and Israeli forces.",
+      "why_relevant": "The threat to economic centers and banks could destabilize regional economies and escalate military conflicts.",
       "attacks": [
         "global_democracy",
         "economy"
       ],
-      "_origin_file": "meidas_events_2026-03-01_2026-03-20.json",
-      "_origin_index": 47
+      "_origin_file": "meidas_events_2026-03-07_2026-03-13.json",
+      "_origin_index": 12
     },
     {
       "source_key": "meidas",
@@ -1568,28 +2334,13 @@
       "category": "International Relations",
       "title": "Trump Threatens Iranian National Soccer Team",
       "url": "https://www.meidasplus.com/p/today-in-politics-bulletin-326-51226",
-      "summary": "Donald Trump posted a message interpreted as a threat to the Iranian National Soccer Team, suggesting that their participation in the World Cup could endanger their lives and safety. This statement is part of a broader context of escalating tensions between the U.S. and Iran, with military and economic conflicts intensifying.",
-      "why_relevant": "Such threats can exacerbate international tensions and impact diplomatic relations between the U.S. and Iran.",
+      "summary": "Donald Trump posted a message interpreted as a threat to the Iranian National Soccer Team, suggesting that their participation in the World Cup could endanger their lives and safety. This statement is part of a broader context of escalating tensions between the U.S. and Iran.",
+      "why_relevant": "Such statements can exacerbate international tensions and impact diplomatic relations.",
       "attacks": [
         "global_democracy"
       ],
-      "_origin_file": "meidas_events_2026-03-01_2026-03-20.json",
-      "_origin_index": 46
-    },
-    {
-      "source_key": "meidas",
-      "date": "2026-03-11",
-      "category": "International Relations",
-      "title": "U.S. Officials Confirm Mines in Strait of Hormuz",
-      "url": "https://www.meidasplus.com/p/today-in-politics-bulletin-326-51226",
-      "summary": "U.S. officials have confirmed that Iran has laid mines in the Strait of Hormuz, contradicting earlier statements that there was no indication of such activity. These mines are described as highly destructive, posing a significant threat to commercial shipping and global oil supply routes.",
-      "why_relevant": "The mining of the Strait of Hormuz threatens global oil supply and could lead to further military escalation in the region.",
-      "attacks": [
-        "global_democracy",
-        "economy"
-      ],
-      "_origin_file": "meidas_events_2026-03-01_2026-03-20.json",
-      "_origin_index": 48
+      "_origin_file": "meidas_events_2026-03-07_2026-03-13.json",
+      "_origin_index": 11
     },
     {
       "source_key": "popinfo",
@@ -1641,13 +2392,57 @@
       "source_key": "meidas",
       "date": "2026-03-11",
       "category": "Civil–Military Relations & State Violence",
+      "title": "Iran Lays Mines in Strait of Hormuz",
+      "url": "https://www.meidasplus.com/p/today-in-politics-bulletin-326-51226",
+      "summary": "U.S. officials have confirmed that Iran has laid mines in the Strait of Hormuz, contradicting earlier statements that there was no indication of such activity. The mines are described as highly destructive, posing a significant threat to naval operations.",
+      "why_relevant": "The presence of mines in a critical shipping lane poses a direct threat to international maritime security.",
+      "attacks": [
+        "peace"
+      ],
+      "_origin_file": "meidas_events_2026-03-07_2026-03-13.json",
+      "_origin_index": 15
+    },
+    {
+      "source_key": "meidas",
+      "date": "2026-03-11",
+      "category": "Civil–Military Relations & State Violence",
+      "title": "U.S. and Israeli Forces Bomb Iranian Sites",
+      "url": "https://www.meidasplus.com/p/today-in-politics-bulletin-326-51226",
+      "summary": "Iran has accused U.S. and Israeli forces of bombing nearly 10,000 civilian sites in the country, resulting in over 1,300 civilian deaths since the conflict began. This has led to increased tensions and retaliatory threats from Iran.",
+      "why_relevant": "The reported civilian casualties and infrastructure damage highlight the humanitarian impact of the conflict.",
+      "attacks": [
+        "peace",
+        "global_democracy"
+      ],
+      "_origin_file": "meidas_events_2026-03-07_2026-03-13.json",
+      "_origin_index": 16
+    },
+    {
+      "source_key": "meidas",
+      "date": "2026-03-11",
+      "category": "Civil–Military Relations & State Violence",
+      "title": "U.S. Navy Faces Challenges in Strait of Hormuz",
+      "url": "https://www.meidasplus.com/p/today-in-politics-bulletin-326-51226",
+      "summary": "The U.S. Navy is facing challenges in the Strait of Hormuz due to Iranian actions, including the laying of mines. This has led to significant disruptions in oil shipping routes, contributing to a spike in global oil prices.",
+      "why_relevant": "The disruption of a major shipping route impacts global trade and energy security.",
+      "attacks": [
+        "peace",
+        "economy"
+      ],
+      "_origin_file": "meidas_events_2026-03-07_2026-03-13.json",
+      "_origin_index": 13
+    },
+    {
+      "source_key": "meidas",
+      "date": "2026-03-11",
+      "category": "Civil–Military Relations & State Violence",
       "title": "USS Gerald R. Ford Experiences Fire",
       "url": "https://www.meidasplus.com/p/today-in-politics-bulletin-326-51226",
-      "summary": "The USS Gerald R. Ford, a U.S. aircraft carrier operating in the Red Sea, experienced a fire in its laundry facilities. The fire was contained, and two sailors were treated for non-life-threatening injuries. The incident highlights the strain on military resources amid ongoing operations in the Middle East.",
-      "why_relevant": "The fire underscores the operational challenges faced by U.S. military forces during extended deployments in conflict zones.",
+      "summary": "The USS Gerald R. Ford, a U.S. aircraft carrier, experienced a fire in its laundry facilities while operating in the Red Sea. The fire was contained, and the carrier remains operational. This incident highlights the strain on military resources amid ongoing operations in the Middle East.",
+      "why_relevant": "The incident underscores the operational challenges faced by the U.S. military in prolonged deployments.",
       "attacks": [],
-      "_origin_file": "meidas_events_2026-03-01_2026-03-20.json",
-      "_origin_index": 49
+      "_origin_file": "meidas_events_2026-03-07_2026-03-13.json",
+      "_origin_index": 14
     },
     {
       "source_key": "federalregister",
@@ -1679,16 +2474,16 @@
       "source_key": "meidas",
       "date": "2026-03-12",
       "category": "Executive Actions & Orders",
-      "title": "Trump Administration Faces Criticism Over Iran War Planning",
+      "title": "Trump Administration Faces Backlash Over Iran War Strategy",
       "url": "https://www.meidasplus.com/p/today-in-politics-bulletin-327-31326",
-      "summary": "The Trump administration is facing criticism for its handling of the military conflict with Iran, particularly regarding the underestimation of Iran's response and the strategic implications for the Strait of Hormuz. Critics argue that the administration's actions have led to economic instability and increased geopolitical tensions.",
-      "why_relevant": "The criticism of the administration's war planning highlights concerns about decision-making processes and the broader impact on international stability.",
+      "summary": "The Trump administration is facing backlash over its strategy in the Iran war, with critics highlighting the lack of planning for predictable countermeasures, such as Iran's actions in the Strait of Hormuz. The administration's approach has been described as incompetent and detrimental to American interests, with significant economic and strategic repercussions.",
+      "why_relevant": "The criticism of the administration's war strategy highlights concerns about the effectiveness and consequences of U.S. foreign policy decisions.",
       "attacks": [
         "peace",
         "economy"
       ],
-      "_origin_file": "meidas_events_2026-03-01_2026-03-20.json",
-      "_origin_index": 44
+      "_origin_file": "meidas_events_2026-03-07_2026-03-13.json",
+      "_origin_index": 8
     },
     {
       "source_key": "noah",
@@ -1735,6 +2530,58 @@
       "_origin_index": 79
     },
     {
+      "source_key": "hcr",
+      "date": "2026-03-12",
+      "category": "Legislative & Oversight Activity",
+      "title": "Billionaires contribute significantly to political campaigns",
+      "url": "https://www.nytimes.com/2026/03/09/us/billionaires-federal-election-campaign-contributions.html",
+      "summary": "In 2024, 300 billionaires and their families contributed 19% of all political contributions in federal elections, totaling over $3 billion. This financial influence has allowed wealthy individuals to shape policy preferences, particularly favoring tax cuts and deregulation.",
+      "why_relevant": "The concentration of political contributions among a small number of billionaires raises concerns about the integrity of democratic processes and the representation of average citizens.",
+      "attacks": [
+        "truth"
+      ],
+      "_origin_file": "hcr_events_2026-03-11_2026-03-13.json",
+      "_origin_index": 1
+    },
+    {
+      "source_key": "hcr",
+      "date": "2026-03-12",
+      "category": "Legislative & Oversight Activity",
+      "title": "President Biden proposes tax increases on the wealthy",
+      "url": "https://www.cnbc.com/2024/03/09/president-bidens-proposed-2024-budget-calls-for-top-39point6percent-tax-rate.htm",
+      "summary": "President Joe Biden proposed increasing taxes on individuals earning over $400,000 and imposing a 25% tax on Americans with wealth exceeding $100 million, aiming to secure the solvency of Social Security and Medicare.",
+      "why_relevant": "Biden's tax proposals represent an effort to address income inequality and ensure that the wealthy contribute fairly to government revenue, which is essential for maintaining social programs.",
+      "attacks": [],
+      "_origin_file": "hcr_events_2026-03-11_2026-03-13.json",
+      "_origin_index": 6
+    },
+    {
+      "source_key": "hcr",
+      "date": "2026-03-12",
+      "category": "Legislative & Oversight Activity",
+      "title": "Republicans call for cuts to social programs",
+      "url": "https://fortune.com/2026/03/10/treasury-debt-borrowing-five-months-deficit-warning/",
+      "summary": "In response to the ballooning national debt, Republicans are advocating for cuts to programs that benefit the American public, raising fundamental questions about the role of government.",
+      "why_relevant": "The push for cuts to social programs reflects a shift in priorities that may undermine the social safety net and the government's responsibility to support its citizens.",
+      "attacks": [],
+      "_origin_file": "hcr_events_2026-03-11_2026-03-13.json",
+      "_origin_index": 9
+    },
+    {
+      "source_key": "hcr",
+      "date": "2026-03-12",
+      "category": "Legislative & Oversight Activity",
+      "title": "Senator Sheehy kills solar energy tax credit",
+      "url": "https://www.politico.com/news/2026/03/08/gop-senator-mocked-green-energy-crap-his-home-runs-on-it-00791293",
+      "summary": "Senator Tim Sheehy has been in the news for eliminating a decades-old solar energy tax credit, despite using solar power in his own home.",
+      "why_relevant": "The decision to eliminate the solar energy tax credit raises questions about the motivations behind policy decisions and the influence of campaign contributions from fossil fuel interests.",
+      "attacks": [
+        "truth"
+      ],
+      "_origin_file": "hcr_events_2026-03-11_2026-03-13.json",
+      "_origin_index": 3
+    },
+    {
       "source_key": "noah",
       "date": "2026-03-12",
       "category": "Legislative & Oversight Activity",
@@ -1771,6 +2618,42 @@
       ],
       "_origin_file": "hcr_events_2026-03-01_2026-03-20.json",
       "_origin_index": 42
+    },
+    {
+      "source_key": "justsecurity",
+      "date": "2026-03-12",
+      "category": "Judicial Developments",
+      "title": "Gateway Development Commission v. United States (Fed. Cl.) 1:26-cv-00176 — Judge Hertling dismissed the first six counts of Plaintiffs' complaint, reportedly telling parties during oral argument that the government's reimbursement to t…",
+      "url": "https://www.courtlistener.com/docket/72224347/gateway-development-commission-v-united-states",
+      "summary": "Judge Hertling dismissed the first six counts of Plaintiffs' complaint, reportedly telling parties during oral argument that the government's reimbursement to the Gateway Development Commission rendered the claims moot. The court's memorandum opinion was filed concurrently under seal pending the parties' proposed redactions. Two counts seeking reimbursement for additional costs remain pending. Judge Hertling did not dismiss two counts of the complaint that sought reimbursement for additional costs.",
+      "why_relevant": "This tracker update marks a concrete litigation development in an ongoing legal challenge. Court: Fed. Cl.. Docket: 1:26-cv-00176.",
+      "attacks": [],
+      "_origin_file": "justsecurity_events_2026-01-01_2026-03-20.json",
+      "_origin_index": 170
+    },
+    {
+      "source_key": "justsecurity",
+      "date": "2026-03-12",
+      "category": "Judicial Developments",
+      "title": "State of Illinois v. Vought (N.D. Ill.) 1:26-cv-01566 — Judge Manish Shah granted in part and denied in part Plaintiffs' motion for a preliminary injunction, enjoining OMB directives targeting Illinois, California, C…",
+      "url": "https://www.courtlistener.com/docket/72265112/state-of-illinois-v-vought",
+      "summary": "Judge Manish Shah granted in part and denied in part Plaintiffs' motion for a preliminary injunction, enjoining OMB directives targeting Illinois, California, Colorado, and Minnesota for HHS funding cuts based on their status as sanctuary jurisdictions, while declining to enjoin the broader multi-agency “Targeting Directive” as to DOT and DHS. The court found Plaintiffs likely to succeed on their APA claims, holding that OMB's directive to HHS was likely a final agency action that was arbitrary, capricious, and in excess of statutory authority, and that the states' sovereign and public health interests outweighed the government's interests.",
+      "why_relevant": "This tracker update marks a concrete litigation development in an ongoing legal challenge. Court: N.D. Ill.. Docket: 1:26-cv-01566.",
+      "attacks": [],
+      "_origin_file": "justsecurity_events_2026-01-01_2026-03-20.json",
+      "_origin_index": 181
+    },
+    {
+      "source_key": "justsecurity",
+      "date": "2026-03-12",
+      "category": "Judicial Developments",
+      "title": "Tincher v. Noem (D. Minn.) 0:25-cv-04669 — The Eighth Circuit remanded the case to the district court for the limited purpose of ruling on Plaintiffs' motion to dissolve the preliminary injunction, direc…",
+      "url": "https://www.courtlistener.com/docket/72047643/tincher-v-noem",
+      "summary": "The Eighth Circuit remanded the case to the district court for the limited purpose of ruling on Plaintiffs' motion to dissolve the preliminary injunction, directing the parties to seek appropriate relief from the appellate court within fourteen days of the district court's ruling.",
+      "why_relevant": "This tracker update marks a concrete litigation development in an ongoing legal challenge. Court: D. Minn.. Docket: 0:25-cv-04669.",
+      "attacks": [],
+      "_origin_file": "justsecurity_events_2026-01-01_2026-03-20.json",
+      "_origin_index": 36
     },
     {
       "source_key": "popinfo",
@@ -1829,16 +2712,30 @@
       "_origin_index": 77
     },
     {
-      "source_key": "guardian",
+      "source_key": "hcr",
       "date": "2026-03-12",
-      "category": "Law Enforcement & Surveillance",
-      "title": "Former US academic charged with dealing meth",
-      "url": "https://www.theguardian.com/us-news/2026/mar/16/former-us-academic-charged-dealing-meth",
-      "summary": "Alan Jay White, a former college dean, was arrested in Clarksville, Indiana, after police raided his home and found 78 grams of suspected methamphetamine and counterfeit cash. The police have charged him with illegally dealing meth, counterfeiting, and possessing drug paraphernalia. White, who was released from jail without posting bond, claims the drugs found were not his. The police have been investigating White for years, suspecting him of being a drug dealer, and have nicknamed him \"the professor\" due to his academic background.",
-      "why_relevant": "This arrest highlights law enforcement's ongoing efforts to combat drug trafficking and the legal implications for individuals involved in such activities.",
+      "category": "Elections & Representation",
+      "title": "Elon Musk contributes $20 million to Republican campaigns",
+      "url": "https://www.thehill.com/policy/technology/5727198-musk-political-fray-big-2026-midterm-donations/",
+      "summary": "Elon Musk donated $20 million to Republican campaigns in preparation for the 2026 elections, despite previously indicating a desire to step back from political spending.",
+      "why_relevant": "Musk's significant financial contributions to Republican campaigns illustrate the ongoing influence of billionaires in shaping political landscapes and electoral outcomes.",
       "attacks": [],
-      "_origin_file": "guardian_events_2026-03-01_2026-03-20.json",
-      "_origin_index": 42
+      "_origin_file": "hcr_events_2026-03-11_2026-03-13.json",
+      "_origin_index": 5
+    },
+    {
+      "source_key": "hcr",
+      "date": "2026-03-12",
+      "category": "Elections & Representation",
+      "title": "Senator Tim Sheehy receives substantial donations for Senate race",
+      "url": "https://www.nytimes.com/2026/03/09/us/billionaires-federal-election-campaign-contributions.html",
+      "summary": "Senator Tim Sheehy (R-MT) won his 2024 election with the help of $8 million from billionaire Stephen Schwarzman and contributions from at least 63 other billionaires, totaling around $47 million.",
+      "why_relevant": "The financial support from billionaires for Sheehy's campaign exemplifies the growing influence of wealth in political elections and its implications for policy-making.",
+      "attacks": [
+        "truth"
+      ],
+      "_origin_file": "hcr_events_2026-03-11_2026-03-13.json",
+      "_origin_index": 2
     },
     {
       "source_key": "noah",
@@ -1943,6 +2840,18 @@
       "source_key": "federalregister",
       "date": "2026-03-12",
       "category": "Economic & Regulatory Power",
+      "title": "EPA Proposed Consent Decree in Clean Air Act Citizen Suit",
+      "url": "https://www.federalregister.gov/documents/2026/03/12/2026-04852/proposed-consent-decree-clean-air-act-citizen-suit",
+      "summary": "The Environmental Protection Agency (EPA) announced a proposed consent decree to resolve a lawsuit alleging failure to determine if the San Joaquin Valley met the 2006 PM2.5 air quality standards. The decree sets a deadline of May 8, 2026, for the EPA to take final action. Public comments on the decree are open until April 13, 2026.",
+      "why_relevant": "This action addresses compliance with national air quality standards, impacting environmental regulation and public health.",
+      "attacks": [],
+      "_origin_file": "federalregister_events_2026-03-07_2026-03-13.json",
+      "_origin_index": 25
+    },
+    {
+      "source_key": "federalregister",
+      "date": "2026-03-12",
+      "category": "Economic & Regulatory Power",
       "title": "EPA Seeks Comments on Underground Storage Tank Finder Application Renewal",
       "url": "https://www.federalregister.gov/documents/2026/03/12/2026-04840/proposed-information-collection-request-comment-request-underground-storage-tank-finder-application",
       "summary": "The Environmental Protection Agency (EPA) has issued a notice seeking public comments on the proposed renewal of the Underground Storage Tank Finder Application. This application provides a comprehensive map of underground storage tanks and leaking underground storage tanks across the United States. The EPA aims to collect data from state and territorial agencies to enhance the application's data quality and usability. Comments are open until May 11, 2026, and the renewal is part of the agency's efforts to improve environmental safety and public health.",
@@ -1991,6 +2900,18 @@
       "source_key": "hcr",
       "date": "2026-03-12",
       "category": "Economic & Regulatory Power",
+      "title": "Congressional Budget Office reports significant borrowing",
+      "url": "https://fortune.com/2026/03/10/treasury-debt-borrowing-five-months-deficit-warning/",
+      "summary": "The Congressional Budget Office reported that the U.S. has borrowed $1 trillion over the past five months, averaging $50 billion per week, largely due to the impact of Trump's tax cuts on government revenue.",
+      "why_relevant": "The significant increase in national debt raises concerns about fiscal responsibility and the sustainability of government programs, impacting future policy decisions.",
+      "attacks": [],
+      "_origin_file": "hcr_events_2026-03-11_2026-03-13.json",
+      "_origin_index": 8
+    },
+    {
+      "source_key": "hcr",
+      "date": "2026-03-12",
+      "category": "Economic & Regulatory Power",
       "title": "Pentagon reports high costs of military operations",
       "url": "https://www.nytimes.com/2026/03/11/us/politics/iran-war-costs-pentagon.html",
       "summary": "Pentagon officials informed Congress that the military has expended $5.6 billion worth of munitions in the first two days of the war against Iran, with total costs exceeding $11.3 billion in the first six days. Lawmakers are concerned about the impact of these expenditures on U.S. military readiness for future conflicts.",
@@ -2000,18 +2921,60 @@
       "_origin_index": 41
     },
     {
+      "source_key": "hcr",
+      "date": "2026-03-12",
+      "category": "Economic & Regulatory Power",
+      "title": "Pentagon reports high costs of military operations",
+      "url": "https://www.washingtonpost.com/national-security/2026/03/09/iran-war-cost/",
+      "summary": "Pentagon officials informed Congress that the military has expended $5.6 billion worth of munitions in the first two days of the war against Iran, with total costs exceeding $11.3 billion in the first six days, raising concerns about military readiness for future conflicts.",
+      "why_relevant": "The financial burden of the conflict impacts U.S. military readiness and resource allocation, affecting national security.",
+      "attacks": [],
+      "_origin_file": "hcr_events_2026-03-11_2026-03-13.json",
+      "_origin_index": 15
+    },
+    {
       "source_key": "meidas",
       "date": "2026-03-12",
       "category": "Economic & Regulatory Power",
-      "title": "U.S. Military Faces Munitions Shortage Amid Iran Conflict",
+      "title": "Trump Administration Lifts Sanctions on Russian Oil Shipments",
       "url": "https://www.meidasplus.com/p/today-in-politics-bulletin-327-31326",
-      "summary": "The U.S. military is experiencing a rapid depletion of munitions, including advanced long-range missiles, due to the ongoing conflict with Iran. The Pentagon is preparing to request an additional $50 billion in military spending to replenish stockpiles. This situation raises concerns about the sustainability of U.S. military operations and the financial burden on the defense budget.",
-      "why_relevant": "The depletion of military resources and the need for increased spending highlight the economic and strategic challenges posed by prolonged military engagements.",
+      "summary": "The Trump administration has temporarily lifted sanctions on Russian oil shipments to mitigate economic fallout from its military conflict with Iran. This decision allows Russia to sell approximately 128 million barrels of oil that were previously restricted by U.S. sanctions. The move is intended to stabilize global oil markets, which have been disrupted by the conflict, but it also provides a significant financial benefit to Russia, which has been profiting from increased oil sales since the conflict began.",
+      "why_relevant": "The lifting of sanctions on Russian oil shipments impacts global economic stability and highlights the geopolitical consequences of the U.S. conflict with Iran.",
+      "attacks": [
+        "global_democracy",
+        "economy"
+      ],
+      "_origin_file": "meidas_events_2026-03-07_2026-03-13.json",
+      "_origin_index": 0
+    },
+    {
+      "source_key": "meidas",
+      "date": "2026-03-12",
+      "category": "Economic & Regulatory Power",
+      "title": "U.S. Eases Sanctions on Russian Oil for All Countries",
+      "url": "https://www.meidasplus.com/p/today-in-politics-bulletin-327-31326",
+      "summary": "The U.S. has further eased sanctions on Russian oil, allowing all countries, not just India, to purchase Russian oil that was loaded by March 12. This decision is part of the Trump administration's efforts to manage the economic impact of its military actions against Iran. The easing of sanctions enables Russia to sell oil at higher prices, further benefiting from the conflict.",
+      "why_relevant": "The broad easing of sanctions on Russian oil affects global energy markets and reflects the complex geopolitical dynamics resulting from the U.S. conflict with Iran.",
+      "attacks": [
+        "global_democracy",
+        "economy"
+      ],
+      "_origin_file": "meidas_events_2026-03-07_2026-03-13.json",
+      "_origin_index": 3
+    },
+    {
+      "source_key": "meidas",
+      "date": "2026-03-12",
+      "category": "Economic & Regulatory Power",
+      "title": "U.S. Economic Growth Slows Amid Iran Conflict",
+      "url": "https://www.meidasplus.com/p/today-in-politics-bulletin-327-31326",
+      "summary": "The U.S. Commerce Department reported slower-than-expected economic growth in the final quarter of 2025, with GDP rising at an annual rate of just 0.7%. The slowdown is attributed to the economic impact of the ongoing conflict with Iran, which has disrupted global markets and contributed to rising inflation.",
+      "why_relevant": "The slowdown in U.S. economic growth underscores the domestic economic consequences of international military conflicts.",
       "attacks": [
         "economy"
       ],
-      "_origin_file": "meidas_events_2026-03-01_2026-03-20.json",
-      "_origin_index": 42
+      "_origin_file": "meidas_events_2026-03-07_2026-03-13.json",
+      "_origin_index": 9
     },
     {
       "source_key": "noah",
@@ -2079,15 +3042,29 @@
       "source_key": "hcr",
       "date": "2026-03-12",
       "category": "Transparency & Records",
-      "title": "Pentagon revises U.S. troop casualty figures",
+      "title": "Lawmakers express frustration over Pentagon transparency",
       "url": "https://www.washingtonpost.com/national-security/2026/03/10/us-troops-wounded-iran-war/",
-      "summary": "The Pentagon publicly revised its estimate of U.S. troop casualties in the Iran conflict, increasing the number from fewer than a dozen to about 140 wounded, including serious injuries. This revision followed reports that as many as 150 U.S. troops had been injured. Lawmakers expressed frustration over the lack of transparency regarding casualty figures.",
-      "why_relevant": "The revision of casualty figures highlights issues of transparency and accountability in military operations, which are critical for public trust and legislative oversight.",
+      "summary": "Congressional lawmakers expressed frustration that the Pentagon did not proactively announce the revised casualty numbers of U.S. troops in the Iran conflict, emphasizing the need for transparency regarding military operations and the welfare of service members.",
+      "why_relevant": "This frustration underscores the importance of accountability and transparency in military engagements and the relationship between Congress and the executive branch.",
       "attacks": [
         "21"
       ],
-      "_origin_file": "hcr_events_2026-03-01_2026-03-20.json",
-      "_origin_index": 39
+      "_origin_file": "hcr_events_2026-03-07_2026-03-13.json",
+      "_origin_index": 13
+    },
+    {
+      "source_key": "hcr",
+      "date": "2026-03-12",
+      "category": "Transparency & Records",
+      "title": "Pentagon revises U.S. troop casualty numbers",
+      "url": "https://www.washingtonpost.com/national-security/2026/03/10/us-troops-wounded-iran-war/",
+      "summary": "The Pentagon revised its estimate of U.S. troop casualties in the Iran conflict from fewer than a dozen to approximately 140, including serious injuries and seven fatalities. This revision came after media reports highlighted the discrepancy in casualty figures.",
+      "why_relevant": "The revision of casualty figures raises concerns about transparency and accountability in military operations.",
+      "attacks": [
+        "21"
+      ],
+      "_origin_file": "hcr_events_2026-03-07_2026-03-13.json",
+      "_origin_index": 10
     },
     {
       "source_key": "guardian",
@@ -2103,6 +3080,18 @@
       ],
       "_origin_file": "guardian_events_2026-03-01_2026-03-20.json",
       "_origin_index": 78
+    },
+    {
+      "source_key": "hcr",
+      "date": "2026-03-12",
+      "category": "International Relations",
+      "title": "Iran strikes oil storage facilities in Oman and Bahrain",
+      "url": "https://www.theguardian.com/news/2026/mar/11/us-iran-strait-of-hormuz-mine-boat-attacks",
+      "summary": "Iranian forces targeted oil storage facilities in Oman and Bahrain, further escalating tensions in the region amid ongoing military conflict with the U.S. and Israel. This action is part of Iran's strategy to retaliate against U.S. military actions and to influence oil prices globally.",
+      "why_relevant": "This strike highlights the direct impact of military conflict on regional stability and global oil markets.",
+      "attacks": [],
+      "_origin_file": "hcr_events_2026-03-07_2026-03-13.json",
+      "_origin_index": 9
     },
     {
       "source_key": "hcr",
@@ -2158,41 +3147,25 @@
       "category": "International Relations",
       "title": "European Countries Open Talks with Iran for Safe Passage",
       "url": "https://www.meidasplus.com/p/today-in-politics-bulletin-327-31326",
-      "summary": "European countries, including France, have initiated negotiations with Iran to secure safe passage for their ships through the Strait of Hormuz. This diplomatic effort aims to mitigate the risks posed by the ongoing conflict between the U.S. and Iran, which has disrupted shipping routes and global trade.",
-      "why_relevant": "The negotiations highlight the international community's efforts to address the economic and security challenges arising from the U.S.-Iran conflict.",
+      "summary": "European countries, including France, have initiated negotiations with Iran to secure safe passage for their ships through the Strait of Hormuz. These talks aim to mitigate the risks posed by the ongoing conflict between the U.S. and Iran, which has disrupted shipping routes and threatened global economic stability.",
+      "why_relevant": "Diplomatic efforts by European countries to ensure safe passage through the Strait of Hormuz reflect the international community's response to the destabilizing effects of the U.S.-Iran conflict.",
       "attacks": [],
-      "_origin_file": "meidas_events_2026-03-01_2026-03-20.json",
-      "_origin_index": 41
+      "_origin_file": "meidas_events_2026-03-07_2026-03-13.json",
+      "_origin_index": 5
     },
     {
       "source_key": "meidas",
       "date": "2026-03-12",
       "category": "International Relations",
-      "title": "Trump Administration Lifts Sanctions on Russian Oil Shipments",
+      "title": "Iran Launches Missile Strikes on Dubai",
       "url": "https://www.meidasplus.com/p/today-in-politics-bulletin-327-31326",
-      "summary": "The Trump administration temporarily lifted sanctions on Russian oil shipments to mitigate economic fallout from its military actions against Iran. This decision allows Russia to sell approximately 128 million barrels of oil that were previously restricted by the U.S., providing a significant financial boost to Russia amidst rising crude prices. The move has been criticized for benefiting Russia economically while American consumers face higher oil prices.",
-      "why_relevant": "The lifting of sanctions on Russian oil shipments impacts global economic dynamics and reflects the geopolitical consequences of U.S. military actions.",
+      "summary": "Iran has launched missile strikes on Dubai, targeting the International Financial Centre and other locations, in retaliation for the U.S. and Israeli military actions that killed Iran's Supreme Leader Ali Khamenei. The attacks have caused significant damage and disruption in Dubai, leading to evacuations and heightened tensions in the region.",
+      "why_relevant": "Iran's retaliatory strikes on Dubai escalate regional tensions and highlight the broader geopolitical consequences of the U.S. conflict with Iran.",
       "attacks": [
-        "global_democracy",
-        "economy"
+        "peace"
       ],
-      "_origin_file": "meidas_events_2026-03-01_2026-03-20.json",
-      "_origin_index": 37
-    },
-    {
-      "source_key": "meidas",
-      "date": "2026-03-12",
-      "category": "International Relations",
-      "title": "U.S. Eases Sanctions on Russian Oil for All Countries",
-      "url": "https://www.meidasplus.com/p/today-in-politics-bulletin-327-31326",
-      "summary": "The U.S. has further eased sanctions on Russian oil, allowing all countries to purchase oil that was loaded by March 12. This decision follows the initial lifting of sanctions to stabilize markets amid the conflict with Iran. The move enables Russia to sell oil at higher prices, further benefiting economically from the situation.",
-      "why_relevant": "The easing of sanctions on Russian oil affects global energy markets and reflects the complex geopolitical landscape shaped by U.S. foreign policy decisions.",
-      "attacks": [
-        "global_democracy",
-        "economy"
-      ],
-      "_origin_file": "meidas_events_2026-03-01_2026-03-20.json",
-      "_origin_index": 40
+      "_origin_file": "meidas_events_2026-03-07_2026-03-13.json",
+      "_origin_index": 4
     },
     {
       "source_key": "guardian",
@@ -2200,29 +3173,15 @@
       "category": "Civil–Military Relations & State Violence",
       "title": "Terrorist attack on Temple Israel synagogue in Michigan",
       "url": "https://www.theguardian.com/us-news/2026/mar/15/dearborn-synagogue-attack-moving-forward",
-      "summary": "On March 12, 2026, Ayman Ghazali, a Lebanese American, drove his truck into the Temple Israel synagogue in West Bloomfield Township, Michigan, and allegedly shot himself after being confronted by security. Explosives were found in the truck, which caught fire, but there were no major injuries beyond Ghazali's death. The attack is believed to be in retaliation for the Israeli Defense Forces' killing of Ghazali's relatives in Lebanon. The incident has heightened tensions between Jewish and Arab American communities in the area.",
+      "summary": "On March 12, 2026, Ayman Ghazali, a Lebanese American, drove his truck into the Temple Israel synagogue in West Bloomfield Township, Michigan, and allegedly shot himself after being confronted by security. Explosives were found in the truck, which caught fire, but there were no other serious injuries. The attack is believed to be in retaliation for the Israeli Defense Forces' killing of Ghazali's relatives in Lebanon. The incident has heightened tensions between Jewish and Arab American communities in the area.",
       "why_relevant": "This attack highlights the intersection of international conflict and domestic violence, affecting community relations and safety.",
       "attacks": [
         "minorities",
         "peace",
         "public_health"
       ],
-      "_origin_file": "guardian_events_2026-03-01_2026-03-20.json",
-      "_origin_index": 49
-    },
-    {
-      "source_key": "meidas",
-      "date": "2026-03-12",
-      "category": "Civil–Military Relations & State Violence",
-      "title": "Iran Launches Missile Strikes on Dubai",
-      "url": "https://www.meidasplus.com/p/today-in-politics-bulletin-327-31326",
-      "summary": "Iran has launched missile strikes on Dubai, targeting the International Financial Centre and other locations, in retaliation for the U.S. and Israeli military actions that killed Iran's Supreme Leader. The attacks have caused significant damage and disruption in Dubai, leading to evacuations and heightened tensions in the region.",
-      "why_relevant": "The missile strikes on Dubai illustrate the escalating regional conflict and its impact on civilian populations and international relations.",
-      "attacks": [
-        "peace"
-      ],
-      "_origin_file": "meidas_events_2026-03-01_2026-03-20.json",
-      "_origin_index": 43
+      "_origin_file": "guardian_events_2026-03-14_2026-03-20.json",
+      "_origin_index": 66
     },
     {
       "source_key": "meidas",
@@ -2230,13 +3189,28 @@
       "category": "Civil–Military Relations & State Violence",
       "title": "U.S. Deploys Marine Expeditionary Unit to Middle East",
       "url": "https://www.meidasplus.com/p/today-in-politics-bulletin-327-31326",
-      "summary": "The Pentagon has approved the deployment of a Marine expeditionary unit to the Middle East in response to increased Iranian attacks on the Strait of Hormuz. This unit, consisting of up to 2,500 Marines, is intended to bolster U.S. military presence in the region as Iran's actions disrupt global trade and drive up oil prices. The deployment highlights the escalating military tensions following the U.S. attack on Iran.",
-      "why_relevant": "The deployment of U.S. military forces to the Middle East underscores the intensifying conflict and its potential impact on international stability and trade.",
+      "summary": "The Pentagon has approved the deployment of a Marine expeditionary unit to the Middle East in response to increased Iranian attacks on the Strait of Hormuz. This unit, consisting of up to 2,500 Marines, is being sent to support U.S. Central Command operations in the region. The deployment aims to address the strategic and economic disruptions caused by Iran's actions, which have paralyzed traffic through the vital waterway and affected global oil prices.",
+      "why_relevant": "The deployment of U.S. military forces to the Middle East underscores the escalating military tensions and their potential impact on international stability and economic security.",
       "attacks": [
         "peace"
       ],
-      "_origin_file": "meidas_events_2026-03-01_2026-03-20.json",
-      "_origin_index": 38
+      "_origin_file": "meidas_events_2026-03-07_2026-03-13.json",
+      "_origin_index": 1
+    },
+    {
+      "source_key": "meidas",
+      "date": "2026-03-12",
+      "category": "Civil–Military Relations & State Violence",
+      "title": "U.S. Faces Criticism for Rules of Engagement in Iran War",
+      "url": "https://www.meidasplus.com/p/today-in-politics-bulletin-327-31326",
+      "summary": "U.S. military leadership, including Pete Hegseth, has faced criticism for adopting aggressive rules of engagement in the Iran conflict, which have been linked to civilian casualties, including the bombing of an Iranian elementary school. The rules, described as granting \"maximum authorities\" to military personnel, have raised concerns about the ethical and strategic implications of the U.S. military's conduct in the war.",
+      "why_relevant": "The criticism of U.S. military rules of engagement underscores the ethical and humanitarian concerns associated with the conduct of military operations.",
+      "attacks": [
+        "peace",
+        "decency"
+      ],
+      "_origin_file": "meidas_events_2026-03-07_2026-03-13.json",
+      "_origin_index": 7
     },
     {
       "source_key": "meidas",
@@ -2244,13 +3218,27 @@
       "category": "Civil–Military Relations & State Violence",
       "title": "U.S. Military Aircraft Crash in Iraq",
       "url": "https://www.meidasplus.com/p/today-in-politics-bulletin-327-31326",
-      "summary": "A U.S. military KC-135 refueling aircraft crashed in Iraq, resulting in the deaths of all six crew members. This incident is part of the broader American and Israeli military operations against Iran, which have now resulted in at least 13 U.S. service member fatalities. The crash highlights the human cost of the ongoing conflict in the Middle East.",
-      "why_relevant": "The loss of U.S. military personnel in the conflict with Iran raises concerns about the human toll and strategic implications of the war.",
+      "summary": "A U.S. military KC-135 refueling aircraft crashed in Iraq, resulting in the deaths of all six crew members. The aircraft was part of the American and Israeli military operations against Iran. This incident raises the total number of U.S. service members killed in the conflict to at least 13, highlighting the human cost of the ongoing military engagement in the region.",
+      "why_relevant": "The loss of U.S. military personnel in the conflict with Iran highlights the human toll of military operations and the risks involved in international military engagements.",
       "attacks": [
         "peace"
       ],
-      "_origin_file": "meidas_events_2026-03-01_2026-03-20.json",
-      "_origin_index": 39
+      "_origin_file": "meidas_events_2026-03-07_2026-03-13.json",
+      "_origin_index": 2
+    },
+    {
+      "source_key": "meidas",
+      "date": "2026-03-12",
+      "category": "Civil–Military Relations & State Violence",
+      "title": "U.S. Military Depletes Munitions Stockpiles in Iran Conflict",
+      "url": "https://www.meidasplus.com/p/today-in-politics-bulletin-327-31326",
+      "summary": "The U.S. military has rapidly depleted its munitions stockpiles, including advanced long-range Tomahawk missiles, since the start of the conflict with Iran. The Pentagon is reportedly preparing to request an additional $50 billion in military spending to replenish these stockpiles. The depletion raises concerns about the sustainability of U.S. military operations and the financial implications of the ongoing conflict.",
+      "why_relevant": "The rapid depletion of U.S. munitions highlights the financial and strategic challenges posed by prolonged military engagements.",
+      "attacks": [
+        "economy"
+      ],
+      "_origin_file": "meidas_events_2026-03-07_2026-03-13.json",
+      "_origin_index": 6
     },
     {
       "source_key": "guardian",
@@ -2416,20 +3404,6 @@
       "source_key": "hcr",
       "date": "2026-03-13",
       "category": "Legislative & Oversight Activity",
-      "title": "Exposé on Billionaire Influence in Politics Published",
-      "url": "https://www.nytimes.com/2026/03/09/us/billionaires-federal-election-campaign-contributions.html",
-      "summary": "A report by Mike Baker and Steven Rich in the New York Times detailed the significant influence of billionaires on American politics, noting that in 2024, 300 billionaires and their families contributed 19% of all political donations in federal elections, totaling over $3 billion. This financial power has allowed the wealthy to shape policy outcomes in their favor, including tax cuts and deregulation.",
-      "why_relevant": "The findings highlight the growing concern over the role of money in politics and its implications for democratic governance and policy-making.",
-      "attacks": [
-        "truth"
-      ],
-      "_origin_file": "hcr_events_2026-03-01_2026-03-20.json",
-      "_origin_index": 31
-    },
-    {
-      "source_key": "hcr",
-      "date": "2026-03-13",
-      "category": "Legislative & Oversight Activity",
       "title": "President Biden Calls for Higher Taxes on the Wealthy",
       "url": "https://www.cnbc.com/2024/03/15/bidens-billionaire-tax-hits-the-super-rich-can-a-wealth-tax-work.html",
       "summary": "President Joe Biden proposed increasing taxes on individuals earning over $400,000 and closing tax loopholes during his term, aiming to secure the solvency of Social Security and Medicare. His proposals included a 25% tax on Americans with wealth exceeding $100 million, emphasizing the need for equitable taxation.",
@@ -2513,6 +3487,30 @@
       ],
       "_origin_file": "guardian_events_2026-03-01_2026-03-20.json",
       "_origin_index": 63
+    },
+    {
+      "source_key": "justsecurity",
+      "date": "2026-03-13",
+      "category": "Judicial Developments",
+      "title": "Rise Economy v. Vought (N.D. Cal) 5:25-cv-10481 — Judge Davila granted Plaintiffs' motion for summary judgment, holding that Acting CFPB Director Russell Vought acted arbitrarily, capriciously, and contrary to…",
+      "url": "https://www.courtlistener.com/docket/72002069/rise-economy-v-vought",
+      "summary": "Judge Davila granted Plaintiffs' motion for summary judgment, holding that Acting CFPB Director Russell Vought acted arbitrarily, capriciously, and contrary to law by adopting a November 2025 OLC memo interpreting 12 U.S.C. § 5497's “combined earnings” to mean Federal Reserve “profits” and refusing to request CFPB funding from the Federal Reserve on that basis. The court held that “combined earnings” means revenue - not profit - and that the Director lacked authority to define or calculate the Federal Reserve's combined earnings in the first place; it ordered Defendants to continue requesting funding from the Federal Reserve consistent with § 5497. The court wrote that “[CFPB Director] Vought's plan to ‘shut down' the CFPB using this clearly erroneous interpretation . . . frustrates Congress's intent to insulate the Bureau's funding stream from this exact transparent display of partisanship.”",
+      "why_relevant": "This tracker update marks a concrete litigation development in an ongoing legal challenge. Docket: 5:25-cv-10481.",
+      "attacks": [],
+      "_origin_file": "justsecurity_events_2026-01-01_2026-03-20.json",
+      "_origin_index": 328
+    },
+    {
+      "source_key": "justsecurity",
+      "date": "2026-03-13",
+      "category": "Judicial Developments",
+      "title": "Service Employees International Union v. Scott (D. Mass.) 1:26-cv-11251 — Case filed",
+      "url": "https://www.courtlistener.com/docket/72487599/service-employees-international-union-v-scott",
+      "summary": "Case filed Since February 2025, U.S. Customs and Border Protection (CBP) has revoked the Customs seals of immigrant airport workers – including green card applicants, Temporary Protected Status (TPS) holders, and asylum seekers with valid work authorization — under a new interpretation of its airport access regulations. Federal regulations require workers with access to “Customs security areas” in international airports to hold a CBP-issued seal; historically, valid work authorization satisfied the regulation’s “authorized residency” requirement. CBP memos issued in January, May, and November 2025 to employers at Orlando, JFK, and SFO airports notified employers that an Employment Authorization Document (EAD) alone no longer confers “authorized residency,” which CBP now defines to include only specified immigration statuses such as lawful permanent residents, refugees, asylees, and certain nonimmigrant visa holders. SEIU, the nation’s largest service workers union, and four individual former Logan Airport cabin cleaners filed a complaint alleging that the policy change has cost at least 80 Logan Airport workers their jobs and left Plaintiffs unemployed or forced into lower-paying, non-union positions. Plaintiffs allege that CBP's reinterpretation of “authorized residency” is arbitrary and capricious in violation of the APA, 5 U.S.C. § 706(2)(A), for failing to explain the departure from longstanding practice or account for workers' reliance interests; that CBP's application of the “violation of a U.S. immigration law” ground, 19 C.F.R. § 122.183(a)(4)(xxxiv), to workers with pending asylum claims is likewise arbitrary and capricious; and that the regulation’s authorization of emergency revocations without a pre-deprivation hearing violates the Due Process Clause of the Fifth Amendment. Plaintiffs seek declaratory relief, vacatur of the individual seal revocations and CBP’s 2025 policy interpretations, a permanent injunction requiring pre-deprivation hearings, and reinstatement of Plaintiffs’ seals.",
+      "why_relevant": "A new legal challenge was filed against a Trump administration action. Court: D. Mass.. Docket: 1:26-cv-11251.",
+      "attacks": [],
+      "_origin_file": "justsecurity_events_2026-01-01_2026-03-20.json",
+      "_origin_index": 327
     },
     {
       "source_key": "50501",
@@ -2823,20 +3821,6 @@
       ],
       "_origin_file": "guardian_events_2026-03-01_2026-03-20.json",
       "_origin_index": 68
-    },
-    {
-      "source_key": "hcr",
-      "date": "2026-03-13",
-      "category": "Economic & Regulatory Power",
-      "title": "Congressional Budget Office Reports on National Debt",
-      "url": "https://fortune.com/2026/03/10/treasury-debt-borrowing-five-months-deficit-warning/",
-      "summary": "The Congressional Budget Office reported that the U.S. has borrowed $1 trillion over the past five months, averaging $50 billion per week, largely attributed to the revenue loss from Trump's tax cuts. This alarming trend has prompted discussions among Republicans about addressing the national debt through cuts to social programs.",
-      "why_relevant": "The rising national debt and proposed cuts to social programs highlight the tension between fiscal responsibility and the need to support vulnerable populations, raising fundamental questions about government priorities.",
-      "attacks": [
-        "poor"
-      ],
-      "_origin_file": "hcr_events_2026-03-01_2026-03-20.json",
-      "_origin_index": 36
     },
     {
       "source_key": "hcr",

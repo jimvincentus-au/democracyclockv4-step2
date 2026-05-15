@@ -5,20 +5,20 @@
   },
   "week_number": 49,
   "sources": [
+    "50501",
     "noah",
+    "zeteo",
     "guardian",
     "shadow",
-    "50501",
     "meidas",
-    "federalregister",
     "hcr",
-    "zeteo"
+    "federalregister"
   ],
   "counts": {
-    "total": 143,
+    "total": 142,
     "by_date": {
       "2025-12-20": 28,
-      "2025-12-21": 16,
+      "2025-12-21": 15,
       "2025-12-22": 44,
       "2025-12-23": 23,
       "2025-12-24": 17,
@@ -27,7 +27,7 @@
     },
     "by_source": {
       "guardian": 37,
-      "hcr": 24,
+      "hcr": 23,
       "zeteo": 20,
       "50501": 12,
       "federalregister": 18,
@@ -37,14 +37,14 @@
     },
     "by_category": {
       "Executive Actions & Orders": 12,
-      "Legislative & Oversight Activity": 12,
-      "Judicial Developments": 26,
+      "Legislative & Oversight Activity": 11,
+      "Judicial Developments": 25,
       "Civil Society & Protest": 9,
       "Information & Media Control": 13,
       "Economic & Regulatory Power": 27,
       "Transparency & Records": 14,
       "International Relations": 14,
-      "Civil–Military Relations & State Violence": 6,
+      "Civil–Military Relations & State Violence": 7,
       "Law Enforcement & Surveillance": 9,
       "Elections & Representation": 1
     }
@@ -489,18 +489,6 @@
       ],
       "_origin_file": "guardian_events_2025-12-20_2025-12-26.json",
       "_origin_index": 20
-    },
-    {
-      "source_key": "hcr",
-      "date": "2025-12-21",
-      "category": "Legislative & Oversight Activity",
-      "title": "Congress passed the Epstein Files Transparency Act",
-      "url": "https://www.congress.gov/bill/119th-congress/house-bill/4405/text",
-      "summary": "On November 19, 2025, Congress passed H.R. 4405, the Epstein Files Transparency Act, which mandates the Department of Justice to release all documents related to Jeffrey Epstein within 30 days. President Donald Trump signed the bill into law on the same day. The law requires the release of various records, including communications and investigative materials, while allowing limited withholding of classified information or personal data. The deadline for the release of these materials was December 19, 2025.",
-      "why_relevant": "This act aims to enhance transparency regarding the investigations into Jeffrey Epstein's activities, which is significant for accountability in governance.",
-      "attacks": [],
-      "_origin_file": "hcr_events_2025-12-20_2025-12-26.json",
-      "_origin_index": 6
     },
     {
       "source_key": "hcr",
@@ -1322,18 +1310,6 @@
       "_origin_index": 8
     },
     {
-      "source_key": "shadow",
-      "date": "2025-12-23",
-      "category": "Judicial Developments",
-      "title": "Supreme Court Denies Stay in Trump v. Illinois",
-      "url": "https://ballotpedia.org/Supreme_Court_emergency_orders_related_to_the_Trump_administration,_2025",
-      "summary": "On December 23, 2025, the Supreme Court denied the federal government's request for a stay in the case of Trump v. Illinois. This decision means that the lower court's ruling will remain in effect while the case continues through the judicial process. The denial was issued despite dissent from Justices Alito, Thomas, and Gorsuch. The case involves significant legal questions related to the Trump administration's policies, but the specifics of the lower court's ruling and the implications of the stay denial were not detailed in the provided text.",
-      "why_relevant": "The Supreme Court's decision to deny a stay affects the implementation of federal policies and highlights the ongoing judicial scrutiny of the Trump administration's actions.",
-      "attacks": [],
-      "_origin_file": "shadow_events_2025-12-20_2025-12-26.json",
-      "_origin_index": 0
-    },
-    {
       "source_key": "zeteo",
       "date": "2025-12-23",
       "category": "Judicial Developments",
@@ -1587,6 +1563,22 @@
       "why_relevant": "This event reflects the intertwining of military decisions with personal political branding, raising concerns about the use of military resources for personal legacy projects.",
       "attacks": [],
       "_origin_file": "hcr_events_2025-12-20_2025-12-26.json",
+      "_origin_index": 0
+    },
+    {
+      "source_key": "shadow",
+      "date": "2025-12-23",
+      "category": "Civil–Military Relations & State Violence",
+      "title": "Supreme Court Denies Stay in Trump v. Illinois",
+      "url": "https://ballotpedia.org/Supreme_Court_emergency_orders_related_to_the_Trump_administration,_2025#Trump_v._Illinois",
+      "summary": "On December 23, 2025, the U.S. Supreme Court denied the federal government's request for a stay in the case of Trump v. Illinois. This decision upheld a lower court's order that barred the Trump administration from deploying the federalized National Guard in Illinois for immigration enforcement actions. The case arose after the Trump administration federalized the Texas and Illinois National Guard to assist with immigration enforcement in Chicago, which was challenged by the state of Illinois. The Supreme Court's denial means the federal government cannot deploy the National Guard in Illinois pending further legal proceedings. Justices Alito, Thomas, and Gorsuch dissented from the decision.",
+      "why_relevant": "The decision impacts the balance of federal and state authority over military deployment and immigration enforcement.",
+      "attacks": [
+        "separation_of_powers",
+        "civil_service",
+        "rule_of_law"
+      ],
+      "_origin_file": "shadow_events_2025-01-20_2026-02-01.json",
       "_origin_index": 0
     },
     {

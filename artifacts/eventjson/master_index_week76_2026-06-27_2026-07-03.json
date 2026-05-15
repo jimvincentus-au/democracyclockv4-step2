@@ -1,0 +1,36 @@
+{
+  "window": {
+    "start": "2026-06-27",
+    "end": "2026-07-03"
+  },
+  "week_number": 76,
+  "sources": [
+    "50501"
+  ],
+  "counts": {
+    "total": 1,
+    "by_date": {
+      "2026-06-27": 1
+    },
+    "by_source": {
+      "50501": 1
+    },
+    "by_category": {
+      "Civil Society & Protest": 1
+    }
+  },
+  "events": [
+    {
+      "source_key": "50501",
+      "date": "2026-06-27",
+      "category": "Civil Society & Protest",
+      "title": "National Day of Action: All of U.S. 250",
+      "url": "https://www.the50501movement.org/p/announcement-all-of-us-250-june-27th",
+      "summary": "On June 27, 2026, Americans across the country will participate in \"All of U.S. 250,\" a national day of action organized by the 50501 Movement and its partners. This event aims to highlight the full history of the United States, countering the administration's \"Freedom 250\" program, which is criticized for presenting an incomplete narrative of American history. The day will feature marches, rallies, and gatherings nationwide, emphasizing the struggles and achievements of various groups in American history, including abolitionists, suffragists, civil rights activists, and others.",
+      "why_relevant": "This event represents a significant mobilization effort to advocate for a comprehensive understanding of American history and to challenge narratives that omit the struggles for civil rights and equality.",
+      "attacks": [],
+      "_origin_file": "50501_events_2026-05-02_2026-05-15.json",
+      "_origin_index": 14
+    }
+  ]
+}

@@ -5,45 +5,49 @@
   },
   "week_number": 50,
   "sources": [
-    "outloud",
+    "50501",
     "noah",
     "guardian",
-    "50501",
     "meidas",
+    "outloud",
+    "orders",
+    "justsecurity",
     "federalregister"
   ],
   "counts": {
-    "total": 136,
+    "total": 139,
     "by_date": {
-      "2025-12-27": 14,
+      "2025-12-27": 15,
       "2025-12-28": 2,
-      "2025-12-29": 22,
+      "2025-12-29": 19,
       "2025-12-30": 40,
       "2025-12-31": 20,
       "2026-01-01": 13,
-      "2026-01-02": 25
+      "2026-01-02": 30
     },
     "by_source": {
       "guardian": 33,
       "outloud": 9,
       "noah": 16,
       "federalregister": 47,
-      "50501": 5,
-      "meidas": 26
+      "meidas": 26,
+      "50501": 2,
+      "orders": 1,
+      "justsecurity": 5
     },
     "by_category": {
       "Legislative & Oversight Activity": 9,
-      "Law Enforcement & Surveillance": 11,
+      "Law Enforcement & Surveillance": 9,
       "Civil Society & Protest": 5,
-      "Information & Media Control": 7,
+      "Information & Media Control": 6,
       "Economic & Regulatory Power": 65,
       "Transparency & Records": 3,
+      "International Relations": 11,
       "Civil–Military Relations & State Violence": 5,
       "Public Health": 1,
-      "Executive Actions & Orders": 9,
-      "Judicial Developments": 8,
+      "Executive Actions & Orders": 10,
+      "Judicial Developments": 12,
       "Appointments & Patronage": 2,
-      "International Relations": 10,
       "Elections & Representation": 1
     }
   },
@@ -225,6 +229,21 @@
     {
       "source_key": "guardian",
       "date": "2025-12-27",
+      "category": "International Relations",
+      "title": "Trump withdraws the US from the Paris climate agreement for a second time",
+      "url": "https://www.theguardian.com/us-news/2026/jan/29/donald-trump-perverse-policy-on-climate-change",
+      "summary": "On December 27, 2025, former President Donald Trump announced the withdrawal of the United States from the Paris climate agreement for the second time. This decision aligns with his previous stance that climate change is a \"hoax\" and follows his administration's pattern of dismantling measures aimed at combating climate change. The withdrawal is seen as an abdication of responsibility in addressing global climate issues and has been criticized for encouraging unrestrained development by the oil industry.",
+      "why_relevant": "This action undermines international efforts to combat climate change and signals a retreat from global cooperation on environmental issues.",
+      "attacks": [
+        "climate_cooperation",
+        "idea_of_america"
+      ],
+      "_origin_file": "guardian_events_2026-01-28_2026-02-04.json",
+      "_origin_index": 95
+    },
+    {
+      "source_key": "guardian",
+      "date": "2025-12-27",
       "category": "Civil–Military Relations & State Violence",
       "title": "Federal agents in military fatigues deployed in major cities",
       "url": "https://www.theguardian.com/us-news/2025/dec/27/inflatable-frogs-ad-campaign-trump-protest-methods",
@@ -290,21 +309,6 @@
       "_origin_index": 32
     },
     {
-      "source_key": "50501",
-      "date": "2025-12-29",
-      "category": "Judicial Developments",
-      "title": "Temporary restraining order granted to Imran Ahmed",
-      "url": "https://www.reuters.com",
-      "summary": "Imran Ahmed, of the Center for Countering Digital Hate, has sued the government, claiming that its actions violated his constitutional rights. A federal judge has granted a temporary restraining order preventing the government from detaining him while the case proceeds. This legal action highlights the tension between government actions and the rights of individuals working in oversight roles.",
-      "why_relevant": "The court's intervention underscores the importance of judicial oversight in protecting individual rights against government overreach.",
-      "attacks": [
-        "justice_dept",
-        "information"
-      ],
-      "_origin_file": "50501_events_2025-12-27_2026-01-02.json",
-      "_origin_index": 12
-    },
-    {
       "source_key": "guardian",
       "date": "2025-12-29",
       "category": "Judicial Developments",
@@ -320,21 +324,6 @@
       "_origin_index": 24
     },
     {
-      "source_key": "50501",
-      "date": "2025-12-29",
-      "category": "Law Enforcement & Surveillance",
-      "title": "ICE plans to expand detention using warehouse-style facilities",
-      "url": "https://www.washingtonpost.com",
-      "summary": "The Washington Post reported that ICE is planning to expand its detention capabilities by utilizing warehouse-style facilities near major logistics hubs. These large-scale holding centers are designed to expedite deportations, reflecting an industrial approach to immigration enforcement. This expansion is part of a broader immigration enforcement strategy, supported by a GOP-backed spending package that allocates $170 billion in additional funding for ICE and Border Patrol through September 2029.",
-      "why_relevant": "This expansion represents a significant increase in government capacity for immigration enforcement, raising concerns about due process and the treatment of detainees.",
-      "attacks": [
-        "immigrants_refugees",
-        "law_enforcement"
-      ],
-      "_origin_file": "50501_events_2025-12-27_2026-01-02.json",
-      "_origin_index": 10
-    },
-    {
       "source_key": "guardian",
       "date": "2025-12-29",
       "category": "Law Enforcement & Surveillance",
@@ -348,21 +337,6 @@
       ],
       "_origin_file": "guardian_events_2025-12-27_2026-01-02.json",
       "_origin_index": 25
-    },
-    {
-      "source_key": "50501",
-      "date": "2025-12-29",
-      "category": "Information & Media Control",
-      "title": "Visa bans imposed on European anti-disinformation figures",
-      "url": "https://www.reuters.com",
-      "summary": "Reuters reported that the administration has imposed visa bans on several European figures involved in anti-disinformation efforts, labeling their work as \"censorship.\" This move has been condemned by European officials, who argue that enforcing platform rules should not be equated with censorship. The action is part of a broader strategy to portray oversight and accountability efforts as threats.",
-      "why_relevant": "The visa bans represent an attempt to intimidate and discredit those working to combat disinformation, undermining efforts to hold power accountable.",
-      "attacks": [
-        "information",
-        "press"
-      ],
-      "_origin_file": "50501_events_2025-12-27_2026-01-02.json",
-      "_origin_index": 11
     },
     {
       "source_key": "federalregister",
@@ -1552,6 +1526,21 @@
       "_origin_index": 18
     },
     {
+      "source_key": "orders",
+      "date": "2026-01-02",
+      "category": "Executive Actions & Orders",
+      "title": "Executive Order Prohibiting HieFo Corporation's Acquisition of Emcore Assets",
+      "url": "https://ballotpedia.org/Executive_Order:_Regarding_the_Acquisition_of_Certain_Assets_of_Emcore_Corporation_by_HieFo_Corporation_(Donald_Trump,_2026)",
+      "summary": "On January 2, 2026, President Donald Trump issued an executive order prohibiting HieFo Corporation, controlled by a Chinese citizen, from acquiring assets of Emcore Corporation due to national security concerns. The order mandates HieFo to divest all interests in Emcore's digital chips and related businesses within 180 days, subject to extensions by the Committee on Foreign Investment in the United States (CFIUS). The order also restricts HieFo from accessing or transferring Emcore's assets until divestment is verified by CFIUS, which is authorized to audit compliance.",
+      "why_relevant": "This executive order highlights the use of presidential authority to address national security risks associated with foreign acquisitions of U.S. technology assets.",
+      "attacks": [
+        "economy",
+        "national_security"
+      ],
+      "_origin_file": "orders_events_2025-01-20_2026-02-01.json",
+      "_origin_index": 9
+    },
+    {
       "source_key": "outloud",
       "date": "2026-01-02",
       "category": "Executive Actions & Orders",
@@ -1598,6 +1587,66 @@
       "_origin_index": 1
     },
     {
+      "source_key": "justsecurity",
+      "date": "2026-01-02",
+      "category": "Judicial Developments",
+      "title": "American Federation of Government Employees v. Office of Management and Budget (N.D. Cal.) 3:25-cv-08302 — The court granted the government's motion to dismiss the appeal.",
+      "url": "https://www.courtlistener.com/docket/71502325/v-united-states-office-of-management-and-budget",
+      "summary": "The court granted the government's motion to dismiss the appeal.",
+      "why_relevant": "This tracker update marks a concrete litigation development in an ongoing legal challenge. Court: N.D. Cal.. Docket: 3:25-cv-08302.",
+      "attacks": [],
+      "_origin_file": "justsecurity_events_2026-01-01_2026-03-20.json",
+      "_origin_index": 352
+    },
+    {
+      "source_key": "justsecurity",
+      "date": "2026-01-02",
+      "category": "Judicial Developments",
+      "title": "American Oversight v. U.S. Department Of Homeland Security (D.D.C.) 1:25-cv-02390 — The parties filed a joint status report in which each of the Defendants outlined their progress responding to Plaintiff's FOIA requests",
+      "url": "https://www.courtlistener.com/docket/70903713/american-oversight-v-us-department-of-homeland-security",
+      "summary": "The parties filed a joint status report in which each of the Defendants outlined their progress responding to Plaintiff's FOIA requests. DHS noted it had released portions of thirty-seven pages of records to Plaintiff and was still processing sixty-three pages. ICE shared it had located and processed some responsive records that it intends to release by the end of January 2026. USCIS noted it had issued an interim response to Plaintiff's request on Dec. 23, 2025, and expected to release another response within the month.",
+      "why_relevant": "This tracker update marks a concrete litigation development in an ongoing legal challenge. Court: D.D.C.. Docket: 1:25-cv-02390.",
+      "attacks": [],
+      "_origin_file": "justsecurity_events_2026-01-01_2026-03-20.json",
+      "_origin_index": 385
+    },
+    {
+      "source_key": "justsecurity",
+      "date": "2026-01-02",
+      "category": "Judicial Developments",
+      "title": "Kettlewell v. Noem (D. Ariz.) 4:25-cv-00491 — The appeal of the Sept. 25 preliminary injunction orders was voluntarily dismissed.",
+      "url": "https://www.courtlistener.com/docket/71242794/kettlewell-v-noem",
+      "summary": "The appeal of the Sept. 25 preliminary injunction orders was voluntarily dismissed.",
+      "why_relevant": "This tracker update marks a concrete litigation development in an ongoing legal challenge. Court: D. Ariz.. Docket: 4:25-cv-00491.",
+      "attacks": [],
+      "_origin_file": "justsecurity_events_2026-01-01_2026-03-20.json",
+      "_origin_index": 227
+    },
+    {
+      "source_key": "justsecurity",
+      "date": "2026-01-02",
+      "category": "Judicial Developments",
+      "title": "Shapiro v. Department of Agriculture (M.D. Pa.) 1:25-cv-00998 — Plaintiffs appealed the Court's Dec. 3, order to the Third Circuit.",
+      "url": "https://www.courtlistener.com/docket/70452516/shapiro-v-us-department-of-agriculture",
+      "summary": "Plaintiffs appealed the Court's Dec. 3, order to the Third Circuit.",
+      "why_relevant": "This tracker update marks a concrete litigation development in an ongoing legal challenge. Court: M.D. Pa.. Docket: 1:25-cv-00998.",
+      "attacks": [],
+      "_origin_file": "justsecurity_events_2026-01-01_2026-03-20.json",
+      "_origin_index": 135
+    },
+    {
+      "source_key": "justsecurity",
+      "date": "2026-01-02",
+      "category": "Judicial Developments",
+      "title": "State of California v. United States Department of Transportation (D.R.I.) 1:25-cv-00208 — Defendants appealed to the First Circuit.",
+      "url": "https://www.courtlistener.com/docket/70251998/state-of-california-v-united-states-department-of-transportation",
+      "summary": "Defendants appealed to the First Circuit.",
+      "why_relevant": "This tracker update marks a concrete litigation development in an ongoing legal challenge. Court: D.R.I.. Docket: 1:25-cv-00208.",
+      "attacks": [],
+      "_origin_file": "justsecurity_events_2026-01-01_2026-03-20.json",
+      "_origin_index": 120
+    },
+    {
       "source_key": "guardian",
       "date": "2026-01-02",
       "category": "Law Enforcement & Surveillance",
@@ -1612,21 +1661,6 @@
       ],
       "_origin_file": "guardian_events_2025-12-27_2026-01-02.json",
       "_origin_index": 3
-    },
-    {
-      "source_key": "guardian",
-      "date": "2026-01-02",
-      "category": "Law Enforcement & Surveillance",
-      "title": "Kentucky woman charged with fetal homicide",
-      "url": "https://www.theguardian.com/us-news/2026/jan/02/kentucky-woman-arrest-abortion",
-      "summary": "Melinda S Spencer, a 35-year-old woman from Kentucky, was arrested by state police on charges of fetal homicide in the first degree, abuse of a corpse, and tampering with physical evidence. Spencer allegedly induced her own abortion using medication ordered online and buried the remains in her backyard. Despite Kentucky's ban on doctors performing abortions after conception, the state does not prohibit individuals from self-managing their abortions. Spencer was booked into a jail in Beattyville, Kentucky, and remains in custody.",
-      "why_relevant": "This case highlights the legal and criminal implications of self-managed abortions in states with restrictive abortion laws.",
-      "attacks": [
-        "women",
-        "rule_of_law"
-      ],
-      "_origin_file": "guardian_events_2025-12-27_2026-01-02.json",
-      "_origin_index": 0
     },
     {
       "source_key": "outloud",
