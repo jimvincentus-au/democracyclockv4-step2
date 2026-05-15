@@ -420,6 +420,78 @@ def _render_footer(events: List[EventRow]) -> str:
 
 
 # ──────────────────────────────────────────────────────────────────────────────
+# Cross-extraction de-duplication
+# ──────────────────────────────────────────────────────────────────────────────
+
+def _norm_url(u: str) -> str:
+    """Normalize a URL for dedup keying: collapse Ballotpedia wiki index
+    variants (?title=X) onto the canonical /X path; strip a trailing slash."""
+    u = (u or "").strip()
+    if not u:
+        return ""
+    m = re.search(r"[?&]title=([^&]+)", u)
+    if m and "ballotpedia.org" in u:
+        return "https://ballotpedia.org/" + m.group(1)
+    return u.rstrip("/")
+
+
+def _dedupe_rows(
+    rows: List[EventRow], file_mtime: Dict[str, float], logger
+) -> List[EventRow]:
+    """
+    Collapse cross-extraction duplicates produced by --rebuild-all.
+
+    rebuild-all globs every *_events_*.json file, including overlapping windows
+    (a wide multi-month harvest plus narrow weekly re-harvests). The same source
+    article is therefore loaded several times — often as *variant* LLM
+    extractions with different event counts/wording per run. Concatenating them
+    inflates every weekly count ~1.5-3x.
+
+    Strategy: group by (source_key, normalized url). If more than one origin
+    file contributed to a group, keep exactly one file's extraction of that
+    url — the most complete (most rows; ties broken by newest file mtime).
+    Events that share a url *within a single file* are left intact: those are
+    the legitimate many-events-per-roundup-article case. Url-less events cannot
+    be keyed safely and are passed through unchanged.
+    """
+    groups: Dict[Tuple[str, str], Dict[str, List[EventRow]]] = {}
+    passthrough: List[EventRow] = []
+    for r in rows:
+        nu = _norm_url(r.url)
+        if not nu:
+            passthrough.append(r)
+            continue
+        groups.setdefault((r.source_key, nu), {}).setdefault(r.origin_file, []).append(r)
+
+    kept: List[EventRow] = []
+    multi_url = 0
+    removed = 0
+    for by_file in groups.values():
+        if len(by_file) == 1:
+            kept.extend(next(iter(by_file.values())))
+            continue
+        multi_url += 1
+        best_file = max(
+            by_file,
+            key=lambda fn: (len(by_file[fn]), file_mtime.get(fn, 0.0)),
+        )
+        kept.extend(by_file[best_file])
+        removed += sum(len(v) for fn, v in by_file.items() if fn != best_file)
+
+    logger.info(
+        "Dedup: %d raw rows -> %d unique (removed %d cross-extraction duplicate "
+        "rows across %d source-urls with multiple extractions; %d url-less rows "
+        "passed through unchanged)",
+        len(rows),
+        len(kept) + len(passthrough),
+        removed,
+        multi_url,
+        len(passthrough),
+    )
+    return kept + passthrough
+
+
+# ──────────────────────────────────────────────────────────────────────────────
 # Main
 # ──────────────────────────────────────────────────────────────────────────────
 
@@ -473,12 +545,17 @@ def main() -> int:
 
     # PASS A: Load + normalize (no writing)
     all_rows: List[EventRow] = []
+    file_mtime: Dict[str, float] = {}
     for src, p in selected_files:
         try:
             payload = json.loads(p.read_text(encoding="utf-8"))
         except Exception as e:
             logger.exception("Failed to read JSON: %s", p)
             continue
+        try:
+            file_mtime[p.name] = p.stat().st_mtime
+        except OSError:
+            file_mtime[p.name] = 0.0
         events = payload.get("events") or []
         logger.info("Loaded %d events from %s", len(events), p.name)
         for i, e in enumerate(events):
@@ -494,6 +571,9 @@ def main() -> int:
         out_txt.write_text("", encoding="utf-8")
         out_idx.write_text(json.dumps({"window": {"start": start_iso, "end": end_iso}, "events": []}, indent=2), encoding="utf-8")
         return 0
+
+    # Collapse cross-extraction duplicates before counting / sorting / writing.
+    all_rows = _dedupe_rows(all_rows, file_mtime, logger)
 
     # If rebuild-all, derive window from all events loaded
     if args.rebuild_all:
