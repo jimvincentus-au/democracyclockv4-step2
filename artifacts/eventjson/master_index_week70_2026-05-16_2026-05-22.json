@@ -5,32 +5,51 @@
   },
   "week_number": 70,
   "sources": [
-    "50501"
+    "guardian"
   ],
   "counts": {
-    "total": 1,
+    "total": 2,
     "by_date": {
-      "2026-05-16": 1
+      "2026-05-16": 2
     },
     "by_source": {
-      "50501": 1
+      "guardian": 2
     },
     "by_category": {
-      "Civil Society & Protest": 1
+      "Law Enforcement & Surveillance": 1,
+      "Appointments & Patronage": 1
     }
   },
   "events": [
     {
-      "source_key": "50501",
+      "source_key": "guardian",
       "date": "2026-05-16",
-      "category": "Civil Society & Protest",
-      "title": "National voting rights mobilization planned",
-      "url": "https://www.the50501movement.org/p/all-roads-lead-to-the-south",
-      "summary": "A national mobilization for voting rights, \"All Roads Lead to the South,\" is scheduled for May 16. Led by Black Voters Matter and a coalition of over 90 organizations, the event will feature major gatherings in Alabama, including a prayer gathering in Selma and a rally in Montgomery. The mobilization aims to address recent attacks on voting rights and is part of a sustained summer of organizing for voter mobilization and civic education.",
-      "why_relevant": "The mobilization represents a significant effort to defend voting rights and promote civic engagement.",
-      "attacks": [],
-      "_origin_file": "50501_events_2026-05-02_2026-05-15.json",
-      "_origin_index": 5
+      "category": "Law Enforcement & Surveillance",
+      "title": "Iraqi National Charged with Terrorism in US Federal Court",
+      "url": "https://www.theguardian.com/us-news/2026/may/15/iraqi-terror-attacks-arrested-charged",
+      "summary": "Mohammad Baqer Saad Dawood al-Saadi, an Iraqi national, was arrested and charged in a US federal court in Manhattan with six terrorism-related charges. The charges include conspiracy to provide material support to foreign terrorist organizations and conspiracy to bomb public places. Al-Saadi is accused of being an operative for Kata’ib Hezbollah and Iran’s Islamic Revolutionary Guard Corps, both designated as terrorist organizations by the US. The justice department alleges his involvement in various attacks and plots across the US and Europe, targeting Jewish institutions and other sites.",
+      "why_relevant": "This arrest highlights ongoing international terrorism threats and the US justice system's role in addressing such security challenges.",
+      "attacks": [
+        "rule_of_law",
+        "minorities",
+        "international_relations"
+      ],
+      "_origin_file": "guardian_events_2026-05-16_2026-05-22.json",
+      "_origin_index": 1
+    },
+    {
+      "source_key": "guardian",
+      "date": "2026-05-16",
+      "category": "Appointments & Patronage",
+      "title": "FDA Acting Drug Chief Tracy Beth Høeg Fired",
+      "url": "https://www.theguardian.com/us-news/2026/may/16/fda-tracy-beth-hoeg-drug-chief-departs",
+      "summary": "Dr. Tracy Beth Høeg, the acting drug chief at the Food and Drug Administration (FDA), claims she was fired after refusing to resign. Her departure is part of a broader shake-up at the FDA, which also saw the ousting of Katherine Szarama, the acting vaccines chief, and Jim Traficant, the chief of staff. The FDA is currently without a permanent commissioner or deputy commissioner, following the resignation of Marty Makary. Michael Davis will serve as the acting director of the Center for Drug Evaluation and Research (CDER) in Høeg's place.",
+      "why_relevant": "The firing of a top FDA official and the absence of permanent leadership at the agency could impact its regulatory functions and public health policies.",
+      "attacks": [
+        "public_service"
+      ],
+      "_origin_file": "guardian_events_2026-05-16_2026-05-22.json",
+      "_origin_index": 0
     }
   ]
 }
