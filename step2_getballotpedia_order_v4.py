@@ -7,6 +7,7 @@ from __future__ import annotations
 
 from pathlib import Path
 from typing import Any, Dict, List, Optional
+import os
 import re
 from datetime import datetime, timezone, date
 
@@ -35,7 +36,76 @@ from step2_helper_v4 import (
 
 # Month anchors look like: <span class="mw-headline" id="September_2025">
 MONTH_RE = re.compile(r"^(January|February|March|April|May|June|July|August|September|October|November|December)_(\d{4})$")
+
 HARVESTER_ID = "ballotpedia_orders"
+
+# Helper to detect Ballotpedia AWS WAF/CloudFront challenges and fail loudly if encountered.
+def _is_ballotpedia_waf_challenge(status: int, html: str) -> bool:
+    """
+    Detect AWS WAF / CloudFront challenge HTML returned by Ballotpedia.
+    These responses are not article pages and must not be treated as empty results.
+    """
+    body = html or ""
+    waf_markers = (
+        "window.awsWafCookieDomainList",
+        "window.gokuProps",
+        "awsWaf",
+        "x-amzn-waf-action",
+    )
+    return status == 202 and any(marker in body for marker in waf_markers)
+
+
+def _raise_if_bad_ballotpedia_fetch(status: int, html: str, url: str) -> None:
+    """
+    Fail loudly when Ballotpedia returns a blocker/challenge or any non-200 page.
+    Source failure must not collapse into a valid zero-entity harvest.
+    """
+    if _is_ballotpedia_waf_challenge(status, html):
+        raise RuntimeError(
+            f"Ballotpedia AWS WAF challenge instead of article HTML: status={status} url={url}"
+        )
+    if status != 200 or not html:
+        raise RuntimeError(
+            f"Ballotpedia index fetch failed: status={status} html_chars={len(html or '')} url={url}"
+        )
+
+
+# Optional browser/manual fallback for Ballotpedia when AWS WAF blocks requests.
+def _load_manual_ballotpedia_html_if_configured(logger) -> Optional[str]:
+    """
+    Optional browser/manual fallback for Ballotpedia when AWS WAF blocks requests.
+
+    Usage:
+      DC_BALLOTPEDIA_ORDERS_HTML="/path/to/saved_ballotpedia_orders.html" \
+        python daily_digest_controller_v1.py --today
+
+    The saved file must be the real Ballotpedia article HTML, not the AWS WAF challenge page.
+    """
+    raw_path = (os.environ.get("DC_BALLOTPEDIA_ORDERS_HTML") or "").strip()
+    if not raw_path:
+        return None
+
+    html_path = Path(raw_path).expanduser()
+    if not html_path.exists():
+        raise RuntimeError(f"Configured manual Ballotpedia orders HTML does not exist: {html_path}")
+    if not html_path.is_file():
+        raise RuntimeError(f"Configured manual Ballotpedia orders HTML is not a file: {html_path}")
+
+    html = html_path.read_text(encoding="utf-8", errors="replace")
+    _raise_if_bad_ballotpedia_fetch(200, html, str(html_path))
+
+    if "mw-content-text" not in html:
+        raise RuntimeError(
+            f"Manual Ballotpedia orders HTML does not contain expected mw-content-text container: {html_path}"
+        )
+
+    if "window.gokuProps" in html or "window.awsWafCookieDomainList" in html:
+        raise RuntimeError(
+            f"Manual Ballotpedia orders HTML appears to be an AWS WAF challenge, not article HTML: {html_path}"
+        )
+
+    logger.warning("Using manual Ballotpedia orders HTML fallback: %s (chars=%d)", html_path, len(html))
+    return html
 
 # V3 used visible H2 labels
 SECTION_MAP: Dict[str, str] = {
@@ -197,10 +267,13 @@ def _discover_index_items_v3(session, start_iso: str, end_iso: str, logger):
       • extract <li><a> items whose href starts with BP_URL_PREFIX_ALLOW.
     """
     logger.info("Discovering Ballotpedia index (month layout): %s", BP_URL_2025)
-    status, html = http_get(session, BP_URL_2025, logger)
-    if status != 200 or not html:
-        logger.error("Index fetch failed (status=%s). Aborting discovery.", status)
-        return [], []
+
+    manual_html = _load_manual_ballotpedia_html_if_configured(logger)
+    if manual_html is not None:
+        html = manual_html
+    else:
+        status, html = http_get(session, BP_URL_2025, logger)
+        _raise_if_bad_ballotpedia_fetch(status, html, BP_URL_2025)
 
     soup = BeautifulSoup(html, "html.parser")
     root = soup.find("div", id="mw-content-text")
