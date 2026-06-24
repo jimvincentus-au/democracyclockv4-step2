@@ -55,18 +55,22 @@ def _is_ballotpedia_waf_challenge(status: int, html: str) -> bool:
     return status == 202 and any(marker in body for marker in waf_markers)
 
 
-def _raise_if_bad_ballotpedia_fetch(status: int, html: str, url: str) -> None:
+def _raise_if_bad_ballotpedia_fetch(status: int, html: Optional[str], url: str) -> None:
     """
     Fail loudly when Ballotpedia returns a blocker/challenge or any non-200 page.
     Source failure must not collapse into a valid zero-entity harvest.
     """
-    if _is_ballotpedia_waf_challenge(status, html):
+    body = html or ""
+    if _is_ballotpedia_waf_challenge(status, body):
         raise RuntimeError(
             f"Ballotpedia AWS WAF challenge instead of article HTML: status={status} url={url}"
         )
-    if status != 200 or not html:
+    if status != 200 or not body:
         raise RuntimeError(
-            f"Ballotpedia index fetch failed: status={status} html_chars={len(html or '')} url={url}"
+            "Ballotpedia index fetch failed: "
+            f"status={status} html_chars={len(body)} url={url}. "
+            "If Ballotpedia is blocked by AWS WAF, save the page in a browser and set "
+            "DC_BALLOTPEDIA_ORDERS_HTML to that HTML file before running the controller."
         )
 
 
@@ -81,7 +85,8 @@ def _load_manual_ballotpedia_html_if_configured(logger) -> Optional[str]:
 
     The saved file must be the real Ballotpedia article HTML, not the AWS WAF challenge page.
     """
-    raw_path = (os.environ.get("DC_BALLOTPEDIA_ORDERS_HTML") or "").strip()
+    default_path = Path.home() / "Documents" / "Donald Trump's executive orders and actions, 2025-2026 - Ballotpedia.html"
+    raw_path = (os.environ.get("DC_BALLOTPEDIA_ORDERS_HTML") or str(default_path)).strip()
     if not raw_path:
         return None
 
@@ -274,8 +279,10 @@ def _discover_index_items_v3(session, start_iso: str, end_iso: str, logger):
     else:
         status, html = http_get(session, BP_URL_2025, logger)
         _raise_if_bad_ballotpedia_fetch(status, html, BP_URL_2025)
+    html = html or ""
 
     soup = BeautifulSoup(html, "html.parser")
+    
     root = soup.find("div", id="mw-content-text")
     if not root:
         logger.error("Could not find #mw-content-text container; page structure changed.")

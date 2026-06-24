@@ -5,6 +5,7 @@ from typing import Any, Dict, List, Optional, Tuple
 from datetime import datetime
 from pathlib import Path
 from bs4 import BeautifulSoup
+import os
 import re
 
 # Project helpers / config (COPY mode: use existing helpers; no reinvention)
@@ -29,6 +30,12 @@ BP_SHADOW_URL_FALLBACK = (
     "Supreme_Court_emergency_orders_related_to_the_Trump_administration,_2025"
 )
 
+BP_SHADOW_HTML_DEFAULT = (
+    Path.home()
+    / "Documents"
+    / "Supreme Court emergency orders related to the Trump administration, 2025-2026 - Ballotpedia.html"
+)
+
 # Caption substrings to positively identify the correct data-table
 CAPTION_NEEDLES = [
     "Decided emergency docket applications",
@@ -49,6 +56,35 @@ def _resolve_shadow_url(logger) -> str:
         return url
     logger.debug("Shadow URL: using FALLBACK (V3)=%s", BP_SHADOW_URL_FALLBACK)
     return BP_SHADOW_URL_FALLBACK
+
+def _load_manual_ballotpedia_shadow_html_if_configured(logger) -> Optional[str]:
+    """
+    Load a local saved Ballotpedia shadow-docket HTML page when configured.
+    Environment variable wins; otherwise use the default file in ~/Documents.
+    """
+    raw_path = (os.environ.get("DC_BALLOTPEDIA_SHADOW_HTML") or str(BP_SHADOW_HTML_DEFAULT)).strip()
+    if not raw_path:
+        return None
+
+    path = Path(raw_path).expanduser()
+    if not path.exists():
+        logger.debug("Shadow manual HTML not found at %s; using live URL fetch.", path)
+        return None
+
+    try:
+        html = path.read_text(encoding="utf-8")
+    except UnicodeDecodeError:
+        html = path.read_text(encoding="utf-8", errors="replace")
+    except Exception as e:
+        logger.warning("Shadow manual HTML configured but could not be read (%s): %s", path, e)
+        return None
+
+    if not html.strip():
+        logger.warning("Shadow manual HTML file is empty: %s", path)
+        return None
+
+    logger.info("Using local Ballotpedia shadow HTML: %s", path)
+    return html
 
 def _mdy_to_iso(s: str) -> str:
     """
@@ -120,10 +156,14 @@ def _discover_shadow_rows(session, url: str, logger) -> Tuple[List[Dict[str, Any
       snapshot_items: list of dicts with fields the JSON writer expects
       debug_rows:     list with richer raw info (used only for RAW audit dump)
     """
-    status, html = http_get(session, url, logger)
-    if status != 200 or not html:
-        logger.error("Failed to fetch shadow docket page (status=%s).", status)
-        return [], []
+    html = _load_manual_ballotpedia_shadow_html_if_configured(logger)
+    if html:
+        status = 200
+    else:
+        status, html = http_get(session, url, logger)
+        if status != 200 or not html:
+            logger.error("Failed to fetch shadow docket page (status=%s).", status)
+            return [], []
 
     soup = BeautifulSoup(html, "html.parser")
 
