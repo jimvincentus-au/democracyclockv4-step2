@@ -7,7 +7,7 @@ import json
 import sys
 from datetime import date, timedelta
 from pathlib import Path
-from typing import Dict, List, Tuple, Optional
+from typing import Any, Callable, Dict, List, Optional, Tuple, cast
 
 from config_v4 import ARTIFACTS_ROOT
 from step2_helper_v4 import setup_logger, resolve_date_window
@@ -20,6 +20,9 @@ HARVESTER_SPECS: Dict[str, Tuple[str, str]] = {
     "orders": ("step2_getballotpedia_order_v4", "run_harvester"),
     "shadow": ("step2_getballotpedia_shadow_v4", "run_harvester"),
     "congress": ("step2_getcongress_v4", "run_harvester"),
+    "scotusblog": ("step2_getscotusblog_v4", "run_harvester"),
+    "scotusorders": ("step2_getscotusorders_v4", "run_harvester"),
+    "scotusopinions": ("step2_getscotusopinions_v4", "run_harvester"),
     "democracydocket": ("step2_getdemocracydocket_v5", "run_harvester"),
     "federalregister": ("step2_getfederalregister_v4", "run_harvester"),
     "meidas": ("step2_getmeidas_v4", "run_harvester"),
@@ -182,7 +185,7 @@ def _resolve_selection(only: List[str] | None, skip: List[str] | None, logger) -
     return selected
 
 
-def _load_harvester(key: str, logger):
+def _load_harvester(key: str, logger) -> Optional[Callable[..., Dict[str, Any]]]:
     """
     Lazy-load the harvester module only when it's selected.
     Returns run_harvester callable or None if missing.
@@ -198,7 +201,7 @@ def _load_harvester(key: str, logger):
     if not callable(fn):
         logger.error("Harvester '%s' does not expose %s()", key, fn_name)
         return None
-    return fn
+    return cast(Callable[..., Dict[str, Any]], fn)
 
 def _is_clean_requested(args) -> bool:
     return any([
@@ -280,7 +283,7 @@ def main() -> int:
     selected = _resolve_selection(args.only, args.skip, logger)
     logger.info("Selected harvesters: %s", " ".join(selected) if selected else "(none)")
 
-    results: List[Dict] = []
+    results: List[Dict[str, Any]] = []
     ok, failed = [], []
 
     for key in selected:
@@ -293,13 +296,15 @@ def main() -> int:
         logger.info("→ Running '%s' (log: %s)", key, log_file)
 
         try:
-            meta = run_fn(
+            meta: Dict[str, Any] = run_fn(
                 start=start_iso,
                 end=end_iso,
                 artifacts_root=str(artifacts),
                 level=level_norm,
                 log_path=str(log_file),
             )
+            if not isinstance(meta, dict):
+                meta = {"raw": meta}
             results.append({"key": key, "ok": True, "meta": meta})
             ok.append(key)
             logger.info(

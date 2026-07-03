@@ -37,6 +37,15 @@ W1_START = date(2025, 1, 20)  # Monday
 W1_END   = date(2025, 1, 24)  # Friday
 W2_START = date(2025, 1, 25)  # Saturday (start of standard Sat→Fri cadence)
 
+SOURCE_ALIASES = {
+    "getscotusorders": "scotusorders",
+    "buildscotusorders": "scotusorders",
+    "scotusorders": "scotusorders",
+    "getscotusopinions": "scotusopinions",
+    "buildscotusopinions": "scotusopinions",
+    "scotusopinions": "scotusopinions",
+}
+
 def _iso(d: date) -> str:
     return d.isoformat()
 
@@ -75,6 +84,29 @@ def _compute_window_from_week(week: int, weeks: Optional[int]) -> Tuple[str, str
 
 
 # -----------------------------
+# Source selection normalization
+# -----------------------------
+
+def _normalize_source_selection(values: Optional[List[str]]) -> Optional[List[str]]:
+    """Normalize top-level --only/--skip source aliases before passing to child CLIs."""
+    if not values:
+        return values
+    normalized: List[str] = []
+    for value in values:
+        key = SOURCE_ALIASES.get(value, value)
+        if key not in normalized:
+            normalized.append(key)
+    return normalized
+
+def _remove_analysis_only_sources(values: Optional[List[str]]) -> Optional[List[str]]:
+    """Exclude analysis/enrichment sources from Step 2 event harvesting."""
+    if not values:
+        return values
+    filtered = [value for value in values if value != "scotusblog"]
+    return filtered or None
+
+
+# -----------------------------
 # CLI
 # -----------------------------
 
@@ -94,9 +126,9 @@ def _parse_args() -> argparse.Namespace:
     ap.add_argument("--level", default="INFO", help="Logging level (DEBUG, INFO, ...)")
     ap.add_argument("--artifacts-root", default="artifacts", help="Artifacts root directory")
 
-    # Passthrough selection flags used by get/build
-    ap.add_argument("--only", nargs="+", help="Restrict to specific sources/builders (passed to get/build)")
-    ap.add_argument("--skip", nargs="+", help="Skip specific sources/builders (passed to get/build)")
+    # Passthrough selection flags used by get/build/write
+    ap.add_argument("--only", nargs="+", help="Restrict to specific sources/builders (passed to get/build/write); SCOTUS event aliases getscotusorders/getscotusopinions are accepted")
+    ap.add_argument("--skip", nargs="+", help="Skip specific sources/builders (passed to get/build/write); SCOTUS event aliases getscotusorders/getscotusopinions are accepted")
 
     # Optional limits (handy for testing)
     ap.add_argument("--limit", type=int, help="Optional per-source limit (passed where supported)")
@@ -161,30 +193,43 @@ def main() -> int:
         "--artifacts-root", str(args.artifacts_root),
     ]
 
+    only_sources = _remove_analysis_only_sources(_normalize_source_selection(args.only))
+    skip_sources = _remove_analysis_only_sources(_normalize_source_selection(args.skip))
+
+    if args.only and only_sources is None:
+        print(json.dumps({
+            "error": "No Step 2 event sources selected after removing analysis-only sources.",
+            "analysis_only_sources": ["scotusblog"],
+        }))
+        return 2
+
     # getweekevents passthroughs
+    # Remove non-event/pipeline-only selections before passing to get_cmd
     get_cmd = [sys.executable, args.get_cmd, "--start", start_iso, "--end", end_iso, *common]
-    # Remove "tracker" from --only before passing to get_cmd
-    if args.only:
-        args.only = [x for x in args.only if x != "tracker"]
-    if args.only:
-        get_cmd += ["--only", *args.only]
-    if args.skip:
-        get_cmd += ["--skip", *args.skip]
+    get_only = [x for x in only_sources or [] if x != "tracker"]
+    if get_only:
+        get_cmd += ["--only", *get_only]
+    if skip_sources:
+        get_cmd += ["--skip", *skip_sources]
 
     # buildweekevents passthroughs
+    # Remove non-event/pipeline-only selections before passing to build_cmd
     build_cmd = [sys.executable, args.build_cmd, "--start", start_iso, "--end", end_iso, *common]
-    # Remove "tracker" from --only before passing to build_cmd
-    if args.only:
-        args.only = [x for x in args.only if x != "tracker"]
-    if args.only:
-        build_cmd += ["--only", *args.only]
-    if args.skip:
-        build_cmd += ["--skip", *args.skip]
+    build_only = [x for x in only_sources or [] if x != "tracker"]
+    if build_only:
+        build_cmd += ["--only", *build_only]
+    if skip_sources:
+        build_cmd += ["--skip", *skip_sources]
     if args.limit is not None:
         build_cmd += ["--limit", str(args.limit)]
 
-    # writeweekevents passthroughs (usually just needs the window + artifacts)
+    # writeweekevents passthroughs
     write_cmd = [sys.executable, args.write_cmd, "--start", start_iso, "--end", end_iso, *common]
+    write_only = [x for x in only_sources or [] if x != "tracker"]
+    if write_only:
+        write_cmd += ["--only", *write_only]
+    if skip_sources:
+        write_cmd += ["--skip", *skip_sources]
 
     # Run steps in order
     r_get = _run_step(get_cmd)

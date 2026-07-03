@@ -24,6 +24,9 @@ CATEGORY_ORDER = [
     "Executive Actions & Orders",
     "Legislative & Oversight Activity",
     "Judicial Developments",
+    "Courts / Supreme Court / Blog",
+    "Courts / Supreme Court / Orders",
+    "Courts / Supreme Court / Opinions",
     "Law Enforcement & Surveillance",
     "Elections & Representation",
     "Civil Society & Protest",
@@ -41,6 +44,9 @@ MASTER_IDX_NAME = "master_index_{start}_{end}.json"
 
 SOURCE_DISPLAY_NAMES = {
     "democracydocket": "Democracy Docket",
+    "scotusblog": "SCOTUSblog",
+    "scotusorders": "Supreme Court Orders",
+    "scotusopinions": "Supreme Court Opinions",
     "zeteo": "Zeteo",
     "justsecurity": "Just Security",
     "dailysignal": "The Daily Signal",
@@ -664,8 +670,15 @@ def main() -> int:
         week_bounds[wnum] = (wstart, wend)
 
     # Determine which DC weeks are actually inside the window [start_d, end_d]
+    # At this point start_d/end_d have been set either by the requested window
+    # or by rebuild-all derivation above. The guard keeps Pylance and runtime
+    # aligned before date arithmetic.
+    if start_d is None or end_d is None:
+        logger.error("Internal error: start/end dates were not resolved before weekly index generation.")
+        return 1
+
     window_week_nums: Set[int] = set()
-    cur = start_d
+    cur: date = start_d
     while cur <= end_d:
         wk = dc_week_for(cur)
         if wk:

@@ -44,6 +44,7 @@ _CAT_RE = re.compile(r"^Category:\s*(.+)$", re.IGNORECASE)
 _WHY_RE = re.compile(r"^Why Relevant:\s*(.+)$", re.IGNORECASE)
 _ATK_RE = re.compile(r'^"?attacks"?\s*:\s*(.+)$', re.IGNORECASE)
 _URL_EX = re.compile(r"https?://\S+")
+_REVISION_MARKER_RE = re.compile(r"\s+Revisions?\s*:\s*\d{1,2}/\d{1,2}/\d{2,4}\s*$", re.IGNORECASE)
 
 _INFERENTIAL_SUMMARY_STARTS = (
     "this case involves",

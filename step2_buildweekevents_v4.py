@@ -7,7 +7,7 @@ import importlib
 import json
 import sys
 from pathlib import Path
-from typing import Dict, List, Tuple, Optional
+from typing import Any, Callable, Dict, List, Optional, Tuple, cast
 
 from config_v4 import ARTIFACTS_ROOT
 from step2_helper_v4 import setup_logger, resolve_date_window
@@ -28,6 +28,9 @@ BUILDER_SPECS: Dict[str, Tuple[str, str]] = {
     "orders":   ("step2_buildballotpedia_orders_v4", "run_builder"),
     "shadow":   ("step2_buildballotpedia_shadow_v4", "run_builder"),
     "congress": ("step2_buildcongress_v4", "run_builder"),
+    "scotusblog": ("step2_buildscotusblog_v4", "run_builder"),
+    "scotusorders": ("step2_buildscotusorders_v4", "run_builder"),
+    "scotusopinions": ("step2_buildscotusopinions_v4", "run_builder"),
     "federalregister": ("step2_buildfederalregister_v4", "run_builder"),
     "guardian": ("step2_buildguardian_v4", "run_builder"),
     "econ":     ("step2_buildecon_v4", "run_builder"),
@@ -121,7 +124,7 @@ def _resolve_selection(only: List[str] | None, skip: List[str] | None, logger) -
     return selected
 
 
-def _load_builder(key: str, logger):
+def _load_builder(key: str, logger) -> Optional[Callable[..., Dict[str, Any]]]:
     """
     Lazy-load the builder module only when it's selected.
     Returns run_builder callable or None if missing.
@@ -137,7 +140,7 @@ def _load_builder(key: str, logger):
     if not callable(fn):
         logger.error("Builder '%s' does not expose %s()", key, fn_name)
         return None
-    return fn
+    return cast(Callable[..., Dict[str, Any]], fn)
 
 
 # -------------------------------------------------------------------
@@ -174,7 +177,7 @@ def main() -> int:
     selected = _resolve_selection(args.only, args.skip, logger)
     logger.info("Selected sources: %s", " ".join(selected) if selected else "(none)")
 
-    results: List[Dict] = []
+    results: List[Dict[str, Any]] = []
     ok, failed = [], []
 
     for key in selected:
@@ -187,7 +190,7 @@ def main() -> int:
         logger.info("→ Building '%s' (log: %s)", key, log_file)
 
         try:
-            meta = run_fn(
+            meta: Dict[str, Any] = run_fn(
                 source=key,
                 start=start_iso,
                 end=end_iso,
@@ -198,13 +201,15 @@ def main() -> int:
                 ids=None,          # Orchestrator doesn’t pick per-item IDs; use builder CLI for that.
                 skip_existing=args.skip_existing,
             )
+            if not isinstance(meta, dict):
+                meta = {"raw": meta}
             results.append({"key": key, "ok": True, "meta": meta})
             ok.append(key)
             logger.info(
                 "← Done '%s' | events=%s | out=%s",
                 key,
-                meta.get("count"),
-                meta.get("events_path"),
+                meta.get("count", meta.get("events")),
+                meta.get("events_path", meta.get("path")),
             )
         except Exception as e:
             results.append({"key": key, "ok": False, "error": str(e)})
