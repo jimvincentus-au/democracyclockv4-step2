@@ -5,31 +5,31 @@
   },
   "week_number": 50,
   "sources": [
-    "50501",
-    "noah",
-    "guardian",
-    "meidas",
-    "outloud",
-    "orders",
     "justsecurity",
-    "federalregister"
+    "meidas",
+    "federalregister",
+    "guardian",
+    "outloud",
+    "noah",
+    "50501",
+    "orders"
   ],
   "counts": {
-    "total": 139,
+    "total": 142,
     "by_date": {
       "2025-12-27": 15,
       "2025-12-28": 2,
-      "2025-12-29": 19,
+      "2025-12-29": 20,
       "2025-12-30": 40,
-      "2025-12-31": 20,
+      "2025-12-31": 21,
       "2026-01-01": 13,
-      "2026-01-02": 30
+      "2026-01-02": 31
     },
     "by_source": {
       "guardian": 33,
       "outloud": 9,
       "noah": 16,
-      "federalregister": 47,
+      "federalregister": 50,
       "meidas": 26,
       "50501": 2,
       "orders": 1,
@@ -45,7 +45,7 @@
       "International Relations": 11,
       "Civil–Military Relations & State Violence": 5,
       "Public Health": 1,
-      "Executive Actions & Orders": 10,
+      "Executive Actions & Orders": 13,
       "Judicial Developments": 12,
       "Appointments & Patronage": 2,
       "Elections & Representation": 1
@@ -307,6 +307,18 @@
       "attacks": [],
       "_origin_file": "federalregister_events_2025-12-27_2026-01-02.json",
       "_origin_index": 32
+    },
+    {
+      "source_key": "federalregister",
+      "date": "2025-12-29",
+      "category": "Executive Actions & Orders",
+      "title": "To Implement the United States-Israel Agreement on Trade in Agricultural Products and for Other Purposes",
+      "url": "https://www.federalregister.gov/documents/2026/01/08/2026-00245/to-implement-the-united-states-israel-agreement-on-trade-in-agricultural-products-and-for-other",
+      "summary": "",
+      "why_relevant": "",
+      "attacks": [],
+      "_origin_file": "federalregister_events_2025-01-20_2026-07-03.json",
+      "_origin_index": 135
     },
     {
       "source_key": "guardian",
@@ -1049,6 +1061,18 @@
       "_origin_index": 23
     },
     {
+      "source_key": "federalregister",
+      "date": "2025-12-31",
+      "category": "Executive Actions & Orders",
+      "title": "Amendments to Adjusting Imports of Timber, Lumber, and Their Derivative Products Into the United States",
+      "url": "https://www.federalregister.gov/documents/2026/01/09/2026-00327/amendments-to-adjusting-imports-of-timber-lumber-and-their-derivative-products-into-the-united",
+      "summary": "",
+      "why_relevant": "",
+      "attacks": [],
+      "_origin_file": "federalregister_events_2025-01-20_2026-07-03.json",
+      "_origin_index": 133
+    },
+    {
       "source_key": "guardian",
       "date": "2025-12-31",
       "category": "Executive Actions & Orders",
@@ -1524,6 +1548,18 @@
       "attacks": [],
       "_origin_file": "federalregister_events_2025-12-27_2026-01-02.json",
       "_origin_index": 18
+    },
+    {
+      "source_key": "federalregister",
+      "date": "2026-01-02",
+      "category": "Executive Actions & Orders",
+      "title": "Regarding the Acquisition of Certain Assets of EMCORE Corporation by HieFo Corporation",
+      "url": "https://www.federalregister.gov/documents/2026/01/08/2026-00248/regarding-the-acquisition-of-certain-assets-of-emcore-corporation-by-hiefo-corporation",
+      "summary": "",
+      "why_relevant": "",
+      "attacks": [],
+      "_origin_file": "federalregister_events_2025-01-20_2026-07-03.json",
+      "_origin_index": 134
     },
     {
       "source_key": "orders",

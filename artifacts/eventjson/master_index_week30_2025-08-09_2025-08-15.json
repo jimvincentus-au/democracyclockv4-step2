@@ -5,26 +5,26 @@
   },
   "week_number": 30,
   "sources": [
-    "noah",
-    "zeteo",
-    "guardian",
-    "popinfo",
-    "outloud",
     "congress",
-    "hcr",
-    "orders",
+    "popinfo",
+    "federalregister",
+    "guardian",
+    "outloud",
     "democracydocket",
-    "federalregister"
+    "zeteo",
+    "noah",
+    "hcr",
+    "orders"
   ],
   "counts": {
-    "total": 178,
+    "total": 184,
     "by_date": {
       "2025-08-09": 11,
       "2025-08-10": 10,
-      "2025-08-11": 36,
+      "2025-08-11": 38,
       "2025-08-12": 20,
-      "2025-08-13": 32,
-      "2025-08-14": 31,
+      "2025-08-13": 35,
+      "2025-08-14": 32,
       "2025-08-15": 38
     },
     "by_source": {
@@ -33,14 +33,14 @@
       "zeteo": 10,
       "hcr": 32,
       "outloud": 12,
+      "federalregister": 45,
       "orders": 5,
       "popinfo": 3,
-      "federalregister": 39,
       "noah": 10,
       "congress": 2
     },
     "by_category": {
-      "Executive Actions & Orders": 24,
+      "Executive Actions & Orders": 30,
       "Judicial Developments": 21,
       "Law Enforcement & Surveillance": 17,
       "Information & Media Control": 4,
@@ -353,6 +353,30 @@
       ],
       "_origin_file": "zeteo_events_2025-01-20_2025-11-30.json",
       "_origin_index": 478
+    },
+    {
+      "source_key": "federalregister",
+      "date": "2025-08-11",
+      "category": "Executive Actions & Orders",
+      "title": "Declaring a Crime Emergency in the District of Columbia",
+      "url": "https://www.federalregister.gov/documents/2025/08/14/2025-15550/declaring-a-crime-emergency-in-the-district-of-columbia",
+      "summary": "",
+      "why_relevant": "",
+      "attacks": [],
+      "_origin_file": "federalregister_events_2025-01-20_2026-07-03.json",
+      "_origin_index": 242
+    },
+    {
+      "source_key": "federalregister",
+      "date": "2025-08-11",
+      "category": "Executive Actions & Orders",
+      "title": "Further Modifying Reciprocal Tariff Rates To Reflect Ongoing Discussions With the People's Republic of China",
+      "url": "https://www.federalregister.gov/documents/2025/08/14/2025-15554/further-modifying-reciprocal-tariff-rates-to-reflect-ongoing-discussions-with-the-peoples-republic",
+      "summary": "",
+      "why_relevant": "",
+      "attacks": [],
+      "_origin_file": "federalregister_events_2025-01-20_2026-07-03.json",
+      "_origin_index": 241
     },
     {
       "source_key": "guardian",
@@ -1130,6 +1154,42 @@
       "_origin_index": 72
     },
     {
+      "source_key": "federalregister",
+      "date": "2025-08-13",
+      "category": "Executive Actions & Orders",
+      "title": "Enabling Competition in the Commercial Space Industry",
+      "url": "https://www.federalregister.gov/documents/2025/08/19/2025-15822/enabling-competition-in-the-commercial-space-industry",
+      "summary": "",
+      "why_relevant": "",
+      "attacks": [],
+      "_origin_file": "federalregister_events_2025-01-20_2026-07-03.json",
+      "_origin_index": 235
+    },
+    {
+      "source_key": "federalregister",
+      "date": "2025-08-13",
+      "category": "Executive Actions & Orders",
+      "title": "Ensuring American Pharmaceutical Supply Chain Resilience by Filling the Strategic Active Pharmaceutical Ingredients Reserve",
+      "url": "https://www.federalregister.gov/documents/2025/08/19/2025-15823/ensuring-american-pharmaceutical-supply-chain-resilience-by-filling-the-strategic-active",
+      "summary": "",
+      "why_relevant": "",
+      "attacks": [],
+      "_origin_file": "federalregister_events_2025-01-20_2026-07-03.json",
+      "_origin_index": 234
+    },
+    {
+      "source_key": "federalregister",
+      "date": "2025-08-13",
+      "category": "Executive Actions & Orders",
+      "title": "Revocation of Executive Order on Competition",
+      "url": "https://www.federalregister.gov/documents/2025/08/19/2025-15824/revocation-of-executive-order-on-competition",
+      "summary": "",
+      "why_relevant": "",
+      "attacks": [],
+      "_origin_file": "federalregister_events_2025-01-20_2026-07-03.json",
+      "_origin_index": 233
+    },
+    {
       "source_key": "guardian",
       "date": "2025-08-13",
       "category": "Executive Actions & Orders",
@@ -1580,6 +1640,18 @@
       "attacks": [],
       "_origin_file": "hcr_events_2025-01-20_2025-11-30.json",
       "_origin_index": 408
+    },
+    {
+      "source_key": "federalregister",
+      "date": "2025-08-14",
+      "category": "Executive Actions & Orders",
+      "title": "90th Anniversary of the Social Security Act",
+      "url": "https://www.federalregister.gov/documents/2025/08/19/2025-15827/90th-anniversary-of-the-social-security-act",
+      "summary": "",
+      "why_relevant": "",
+      "attacks": [],
+      "_origin_file": "federalregister_events_2025-01-20_2026-07-03.json",
+      "_origin_index": 232
     },
     {
       "source_key": "guardian",

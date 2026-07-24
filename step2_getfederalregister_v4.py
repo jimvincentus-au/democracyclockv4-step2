@@ -6,7 +6,7 @@ import os
 from pathlib import Path
 from typing import Any, Dict, List, Optional, Tuple
 from urllib.parse import urlencode
-from datetime import datetime
+from datetime import datetime, timezone
 
 # V4 infra
 from config_v4 import ARTIFACTS_ROOT
@@ -65,7 +65,8 @@ TIER_A_FILTERS: list[tuple[str, list[str]]] = [
 ]
 
 # EXACT slugs the API expects for presidential sub-types
-FR_PRES_SUBTYPES = ["executive_order", "proclamation", "memorandum", "presidential_order"]
+FR_PRES_SUBTYPES = ["executive_order", "proclamation", "memorandum", "presidential_order",
+                    "determination", "notice", "order"]  # broadened so no legit PRESDOCU is dropped
 
 # Keep payloads compact but useful
 FR_FIELDS = [
@@ -133,27 +134,33 @@ def _fetch_fr_page(session, start_iso: str, end_iso: str, page: int, logger):
         ("order", "newest"),
         ("page", str(page)),
 
-        # Filter for Presidential Documents
+        # Filter for Presidential Documents (type alone scopes to EOs/proclamations/memos).
+        # NOTE (fix 2026-07-10): the conditions[presidential_document_type][] sub-filters were
+        # removed — an unsupported slug (e.g. "presidential_order") made the FR API return 0
+        # results, so NO presidential documents were ever harvested. type=PRESDOCU is
+        # sufficient; sub-types are filtered client-side below if needed.
         ("conditions[type][]", "PRESDOCU"),
 
         # Date range
         ("conditions[publication_date][gte]", start_iso),
         ("conditions[publication_date][lte]", end_iso),
 
-        # Presidential document subtypes
-        ("conditions[presidential_document_type][]", "executive_order"),
-        ("conditions[presidential_document_type][]", "memorandum"),
-        ("conditions[presidential_document_type][]", "proclamation"),
-        ("conditions[presidential_document_type][]", "presidential_order"),
-
-        # Fields to return
+        # Fields to return. NOTE (fix 2026-07-10): "presidential_document_type" is NOT a valid
+        # FR field name — requesting it made the API return 400, so 0 presidential docs were
+        # ever harvested. This is exactly the known-good field set the working Tier-A query uses.
         ("fields[]", "title"),
         ("fields[]", "html_url"),
         ("fields[]", "publication_date"),
         ("fields[]", "type"),
         ("fields[]", "agency_names"),
         ("fields[]", "document_number"),
-        ("fields[]", "presidential_document_type"),
+        # abstract: FR's official one-paragraph summary (valid, default field). Confirmed
+        # EMPTY for presidential docs (0/572) — kept harmlessly in case future docs carry it.
+        ("fields[]", "abstract"),
+        # signing_date: presidential-doc-only field = the date the EO/proclamation/memo was
+        # actually SIGNED (vs. publication_date). Used as the event date so FR records align
+        # with news-sourced events for Step 3 grouping. Falls back to publication_date if absent.
+        ("fields[]", "signing_date"),
     ]
 
     # Log the unencoded query parameters
@@ -360,6 +367,8 @@ def _append_doc_to_snapshot(doc: Dict[str, Any], snapshot: List[Dict[str, Any]],
     sub = (doc.get("presidential_document_type") or "").strip()
     doc_num = (doc.get("document_number") or "").strip()
     agencies = doc.get("agency_names") or []
+    abstract = normalize_ws(doc.get("abstract") or "")  # FR official summary; empty on presidential docs
+    signing_date = (doc.get("signing_date") or "").strip()  # actual signing date (presidential docs)
 
     raw_line = f"=== {pub_date} — {title}"
 
@@ -371,8 +380,8 @@ def _append_doc_to_snapshot(doc: Dict[str, Any], snapshot: List[Dict[str, Any]],
         "url": html_url,
         "canonical_url": html_url,
         "summary_url": "",           # none inherent; enrichment may add later
-        "summary": "",
-        "summary_origin": "",
+        "summary": abstract,         # deterministic summary from FR abstract when present
+        "summary_origin": "federalregister_abstract" if abstract else "",
         "summary_timestamp": "",
         "post_date": pub_date,       # publication_date
         "raw_line": raw_line,
@@ -381,6 +390,7 @@ def _append_doc_to_snapshot(doc: Dict[str, Any], snapshot: List[Dict[str, Any]],
         "fr_subtype": sub,
         "fr_document_number": doc_num,
         "fr_agencies": agencies,
+        "signing_date": signing_date,   # actual EO/proclamation signing date, "" if absent
     }
     snapshot.append(entity)
 
@@ -516,7 +526,7 @@ def run_harvester(
 
     logger.debug("FR snapshot merged total=%d", len(full_snapshot))
 
-    now_utc = datetime.utcnow().isoformat(timespec="seconds") + "Z"
+    now_utc = datetime.now(timezone.utc).isoformat(timespec="seconds").replace("+00:00", "Z")
 
     # Reuse your existing window+dedupe machinery (unchanged)
     filtered_items, win_stats = _filter_window_and_dedupe(full_snapshot, start, end, logger)
@@ -545,6 +555,7 @@ def run_harvester(
                 "fr_subtype": it.get("fr_subtype", ""),
                 "fr_document_number": it.get("fr_document_number", ""),
                 "fr_agencies": it.get("fr_agencies", []),
+                "signing_date": it.get("signing_date", ""),
             }
             for it in full_snapshot
         ],
