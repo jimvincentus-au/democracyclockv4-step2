@@ -30,6 +30,8 @@ _WHY_RE = re.compile(r"^Why Relevant:\s*(.+)$", re.IGNORECASE)
 _URL_EX = re.compile(r"https?://\S+")
 _ATK_RE = re.compile(r'^"?attacks"?\s*:\s*(.+)$', re.IGNORECASE)
 
+from step2_builder_helper_v4 import parse_supplemental_fields
+
 def _parse_llm_events_canonical(text: str, *, article_url: str, logger: Optional[logging.Logger] = None) -> List[Dict[str, Any]]:
     lines = [ln.rstrip() for ln in (text or "").splitlines()]
     blocks: List[List[str]] = []
@@ -111,6 +113,7 @@ def _parse_llm_events_canonical(text: str, *, article_url: str, logger: Optional
             "sources": sources,
             "tags": [],
             "attacks": attacks_list,
+            **parse_supplemental_fields("\n".join(block)),
         })
     return events
 

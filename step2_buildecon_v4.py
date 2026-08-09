@@ -28,6 +28,8 @@ _URL_EX = re.compile(r"https?://\S+")
 _ATK_RE = re.compile(r'^"?attacks"?\s*:\s*(.+)$', re.IGNORECASE)  # keep attacks for schema stability
 
 
+from step2_builder_helper_v4 import parse_supplemental_fields
+
 def _parse_llm_events_canonical(text: str, *, article_url: str, logger=None) -> List[Dict[str, Any]]:
     """
     Parse the Democracy Clock canonical LLM format into event dicts.
@@ -111,6 +113,7 @@ def _parse_llm_events_canonical(text: str, *, article_url: str, logger=None) -> 
                 "sources": sources,
                 "tags": [],
                 "attacks": attacks_list,
+                **parse_supplemental_fields("\n".join(block)),
             }
         )
     return events

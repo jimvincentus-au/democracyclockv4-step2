@@ -19,6 +19,55 @@ _WHY_RE = re.compile(r"^Why Relevant:\s*(.+)$", re.IGNORECASE)
 _URL_EX = re.compile(r"https?://\S+")
 _ATK_RE = re.compile(r'^"?attacks"?\s*:\s*(.+)$', re.IGNORECASE)
 
+# ---------- supplemental per-event fields (Cowork #1/#2/#3, added 2026-08-10) ----------
+_OCCURRED_RE = re.compile(r"^\s*Occurred:\s*(.+)$", re.IGNORECASE | re.MULTILINE)
+_CONF_RE     = re.compile(r"^\s*Confidence:\s*(.+)$", re.IGNORECASE | re.MULTILINE)
+_BASIS_RE    = re.compile(r"^\s*Basis:\s*(.+)$", re.IGNORECASE | re.MULTILINE)
+_JURIS_RE    = re.compile(r"^\s*Jurisdiction:\s*(.+)$", re.IGNORECASE | re.MULTILINE)
+_NEXUS_RE    = re.compile(r"^\s*Federal nexus:\s*(.+)$", re.IGNORECASE | re.MULTILINE)
+_ISO_RE      = re.compile(r"\d{4}-\d{2}-\d{2}")
+_VALID_JURIS = {"federal", "state", "local", "private", "foreign", "multi"}
+_NULLISH     = {"", "unknown", "none", "n/a", "na", "null"}
+
+def parse_supplemental_fields(block_text: str) -> Dict[str, Any]:
+    """Parse the supplemental per-event fields added 2026-08-10 for Cowork
+    findings #1 (occurred_on), #2 (confidence/basis), #3 (jurisdiction/
+    federal_nexus). All are OPTIONAL and additive: a missing field returns None,
+    so omissions and older prompts degrade gracefully. Single-sourced here and
+    called by every builder's canonical parser. `occurred_on` is deliberately
+    None (never post_date) unless the model gave a real date — see the DATING
+    RULE in step2_prompts_v4.py."""
+    t = block_text or ""
+    def _g(rx: "re.Pattern") -> str:
+        m = rx.search(t)
+        return m.group(1).strip() if m else ""
+
+    occurred_raw = _g(_OCCURRED_RE)
+    occurred_on = None
+    if occurred_raw.lower() not in _NULLISH:
+        m = _ISO_RE.search(occurred_raw)
+        if m:
+            occurred_on = m.group(0)
+
+    conf = _g(_CONF_RE).lower().strip().strip(".")
+    confidence = conf if conf in ("high", "medium", "low") else None
+
+    basis = _g(_BASIS_RE).strip().strip('"').strip("'").strip() or None
+
+    juris = _g(_JURIS_RE).lower().strip().strip(".")
+    jurisdiction = juris if juris in _VALID_JURIS else None
+
+    nexus = _g(_NEXUS_RE).strip()
+    federal_nexus = None if nexus.lower() in _NULLISH else nexus
+
+    return {
+        "occurred_on": occurred_on,
+        "confidence": confidence,
+        "basis": basis,
+        "jurisdiction": jurisdiction,
+        "federal_nexus": federal_nexus,
+    }
+
 
 def parse_llm_events_canonical(text: str, *, article_url: str, logger=None) -> List[Dict[str, Any]]:
     """Parse canonical LLM builder output into event dicts.
@@ -125,6 +174,7 @@ def parse_llm_events_canonical(text: str, *, article_url: str, logger=None) -> L
             "sources": sources,
             "tags": [],
             "attacks": attacks_list,
+            **parse_supplemental_fields("\n".join(block)),
         })
     return events
 
@@ -366,6 +416,7 @@ def _parse_llm_events_canonical(text: str, *, article_url: str = "", logger=None
             "category": category,
             "why_relevant": why,
             "attacks": attacks_list,
+            **parse_supplemental_fields(block),
         })
 
         if logger:

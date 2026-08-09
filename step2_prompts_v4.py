@@ -44,8 +44,12 @@ SCOPE AND EXHAUSTIVENESS:
 • If the input lists many discrete acts, output them all.
 • Some sources may instruct “exactly one event” in the preface — honor that.
 
-DATING RULE:
-• Use `post_date` (YYYY-MM-DD) unless the text clearly provides a newer, specific action date.
+DATING RULE (two DISTINCT dates — never copy one into the other):
+• Header date = the REPORTED date: the article/post `post_date` (YYYY-MM-DD). Always use
+  post_date in the header line, even when the act itself happened earlier.
+• `Occurred:` = the date the act ACTUALLY happened (YYYY-MM-DD), and ONLY if the text
+  explicitly states it. If the text does not state when the act happened, write exactly
+  `Occurred: unknown`. Never default `Occurred` to post_date and never guess it.
 • Skip events older than 14 days unless explicitly newly relevant.
 
 OUTPUT FORMAT — FOLLOW THIS EXACT SCHEMA FOR EACH EVENT:
@@ -58,6 +62,11 @@ OUTPUT FORMAT — FOLLOW THIS EXACT SCHEMA FOR EACH EVENT:
    Source: {one or more DIRECT URLs, space-separated, NO labels, NO punctuation, NO dashes}
    Category: {choose exactly one domain from the list below}
    Why Relevant: {one crisp sentence explaining the democratic significance}
+   Occurred: {YYYY-MM-DD if the source explicitly states when the act happened; otherwise the single word: unknown}
+   Jurisdiction: {exactly one of: federal | state | local | private | foreign | multi}
+   Federal nexus: {if Jurisdiction is not "federal", one sentence naming the federal connection; otherwise the single word: none}
+   Confidence: {exactly one of: high | medium | low — your confidence this is a real, distinct, qualifying past-tense act}
+   Basis: {a short verbatim quote (≤25 words) copied from the source text that this event is drawn from}
    attacks: [{comma-separated handles or empty}]  ← always present, even if empty
 
 3) Footer (mandatory):
@@ -67,7 +76,8 @@ OUTPUT FORMAT — FOLLOW THIS EXACT SCHEMA FOR EACH EVENT:
 STRICT FORMAT RULES:
 • Plain text only. No JSON, no code fences, no bullets, no headings, no emojis.
 • Use the literal EM DASH (—) in the header (not a hyphen).
-• Do not add extra blank lines or extra fields.
+• Do not add extra blank lines. Emit every labeled field listed above, once each, in order.
+• The header date is the REPORTED (publication) date; put the real event date only in `Occurred:`.
 • “Summary” = what happened. “Why Relevant” = why it matters. Keep them separate.
 • “attacks:” must appear for every event; use `attacks: []` when no category applies.
 
@@ -86,10 +96,11 @@ CATEGORY OPTIONS (pick exactly one per event — policy domain, not process):
 12. Civil–Military Relations & State Violence
 
 SELF-CHECK BEFORE OUTPUT:
-✅ Header line uses EM DASH and correct date format.
+✅ Header line uses EM DASH and correct date format; header date is the post_date (reported date).
 ✅ “Source:” contains only direct URL(s), space-separated (no labels like “Ballotpedia — …”).
 ✅ Category is one of the 12 above.
-✅ Every event has an `attacks:` line (either with one or more handles or `[]`).
+✅ Every event has: Occurred (a date or "unknown"), Jurisdiction (one of the six), Confidence (high/medium/low), Basis (a verbatim quote), and an `attacks:` line.
+✅ `Occurred:` is "unknown" unless the text explicitly states the act's date — it is never a copy of post_date.
 ✅ Footer includes Total events found + [END OF LOG].
 ✅ If the preface says “exactly one event,” then Total events found: [1].
 

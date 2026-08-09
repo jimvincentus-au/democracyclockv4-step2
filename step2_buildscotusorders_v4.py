@@ -354,6 +354,8 @@ def _clean_order_why(why: str, summary: str) -> str:
     return "The order is relevant as an official Supreme Court procedural action in a pending case."
 
 
+from step2_builder_helper_v4 import parse_supplemental_fields
+
 def _parse_llm_events_canonical(text: str, *, article_url: str, logger=None) -> List[Dict[str, Any]]:
     lines = [ln.rstrip() for ln in (text or "").splitlines()]
     blocks: List[List[str]] = []
@@ -448,6 +450,7 @@ def _parse_llm_events_canonical(text: str, *, article_url: str, logger=None) -> 
             "tags": [],
             "attacks": [],
             "llm_attacks_suggested": attacks_list,
+            **parse_supplemental_fields("\n".join(block)),
         })
 
     return events

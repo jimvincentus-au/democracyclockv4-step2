@@ -94,6 +94,30 @@ Fourth batch (2026-08-10) — medium-severity:
   (orchestrator passes `ids=None`); left unchanged to avoid disturbing existing
   manual usage. Noted for a future consistency pass.
 
+Fifth batch (2026-08-10) — Cowork schema findings #1/#2/#3 (the migration data-shape pass):
+
+- ✅ **#1 (F1) Reported vs occurred date** — the canonical prompt's DATING RULE now
+  separates the two: the header stays the *reported* (post_date) date, and a new
+  `Occurred:` line carries the true event date or the literal `unknown` (never
+  defaulted). The writer emits `reported_on`, `occurred_on` (blank when unknown),
+  and `dated_by`, and keys week-assignment/sort off the occurrence date when known.
+  Verified: an act dated 08-03 but reported 08-07 files under 08-03 (`dated_by=
+  occurred`); an `unknown` occurrence stays blank and buckets by report.
+- ✅ **#2 (F2) Confidence + basis** — new `Confidence:` (high/medium/low) and
+  `Basis:` (verbatim ≤25-word source quote) fields; captured and carried through to
+  the master index. Verified live (Guardian event: confidence=high + real quote).
+- ✅ **#3 (F3) Jurisdiction** — new `Jurisdiction:` (federal/state/local/private/
+  foreign/multi) and `Federal nexus:` fields. Verified live (an Idaho police event
+  correctly labeled `state`).
+- Implementation: additive fields in the single shared `CANONICAL_EXTRACTION_PROTOCOL`;
+  one shared parser helper `parse_supplemental_fields()` wired into all **16** parser
+  sites (2 shared + 14 per-builder copies); writer normalizes + emits to master and
+  weekly indexes and the TXT log. All backward-compatible — old event JSON with no
+  new fields degrades to blanks and behaves as before.
+- **Note:** purely deterministic builders (e.g. scotusopinions) don't emit the LLM
+  fields; the writer leaves them blank. They could be set in code later (SCOTUS =
+  federal, occurred = opinion date). #4 (act_key) deferred pending the Step 3 repo.
+
 ### New: C-2b (found while fixing C-2) — DD v5 harvester lists non-articles [read + live]
 - ✅ **FIXED (2026-08-10)** — `step2_getdemocracydocket_v5.py` now drops URLs whose
   path is a bare section root (`.../analysis/`, `.../opinion/`, `.../news/`, site
