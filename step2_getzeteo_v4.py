@@ -146,8 +146,12 @@ def _discover_copy_mode(
     )
 
     page_idx = 0
+    offset = 0
     while page_idx < max_pages:
-        offset = page_idx * per
+        # M-5 fix (2026-08-10): advance the API offset by the number of posts
+        # actually returned (see bottom of loop), not page_idx*per. The Substack
+        # archive API can return a short page (<per) that is NOT end-of-data; a
+        # fixed stride then silently skipped the posts in the gap.
         params = {"sort": "new", "offset": offset, "limit": per}
         logger.info("REQUEST page=%d: GET %s params=%s", page_idx + 1, API_URL, params)
 
@@ -266,6 +270,7 @@ def _discover_copy_mode(
             logger.info("Early stop at page %d (older-than-start and no in-window hits).", page_idx + 1)
             break
 
+        offset += len(posts)  # M-5: advance by actual returned count (see top of loop)
         page_idx += 1  # next page
 
     logger.info(

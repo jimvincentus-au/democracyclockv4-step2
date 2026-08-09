@@ -33,6 +33,12 @@ LOGGER = setup_logger("dc.extractor")  # level governed by --level / DC_LOG_LEVE
 # Single place where we define the fallback LLM for ALL builders
 _DEFAULT_EXTRACT_MODEL = "builder_default"
 _DEFAULT_TEMPERATURE = 0.2
+# H-4 fix (2026-08-10): the previous 6000-token default silently truncated dense
+# sources (Zeteo expects 20-40 events, Meidas 10-25) — later events were lost with
+# only a compliance warning. Billing is on ACTUAL output tokens, not this cap, so
+# raising it costs nothing for short outputs and only prevents truncation on long
+# ones. Well under gpt-4o's 16384 output ceiling. Per-call max_tokens still wins.
+_DEFAULT_MAX_TOKENS = 12000
 
 def _ensure_console_logger(logger: logging.Logger) -> None:
     # always have a console handler for extractor
@@ -175,7 +181,7 @@ def _safe_head_tail(txt: str, head: int = 800, tail: int = 600) -> Dict[str, str
         "tail": txt[-tail:] if len(txt) > tail else txt,
     }
 
-_EVENT_TITLE_RE = re.compile(r"^\s*\d{4}-\d{2}-\d{2}\s+—\s+.+$", re.M)
+_EVENT_TITLE_RE = re.compile(r"^\s*\d{4}-\d{2}-\d{2}\s+[—–―\-]\s+.+$", re.M)
 
 def _preparse_compliance_scan(text: str) -> Dict[str, Any]:
     if not text:
@@ -505,7 +511,7 @@ def extract_events_from_url(
     """
     model = model or os.getenv("OPENAI_MODEL_EVENTS", "gpt-4o")
     temperature = 0.0 if temperature is None else temperature
-    max_tokens = max_tokens or 6000
+    max_tokens = max_tokens or _DEFAULT_MAX_TOKENS
 
     default_log_dir = Path(artifacts_root or "artifacts") / "log"
     out_dir = Path(debug_dir) if debug_dir else default_log_dir
@@ -585,7 +591,7 @@ def extract_events_from_url(
     system_chars = len((system_prompt or "").strip())
     user_chars   = len(user_msg)
     approx_in    = _approx_tokens_from_chars(system_chars + user_chars)
-    provider_cap = 16000
+    provider_cap = 128000  # G-5 fix: real gpt-4o/Claude-class context; was a stale 16000 (used only for the truncation-room diagnostic)
     approx_room  = max(0, provider_cap - approx_in - (max_tokens or 0))
 
     pre = {
@@ -695,7 +701,7 @@ def extract_events_from_text(
 
     model = model or os.getenv("OPENAI_MODEL_EVENTS", "gpt-4o")
     temperature = 0.0 if temperature is None else temperature
-    max_tokens = max_tokens or 6000
+    max_tokens = max_tokens or _DEFAULT_MAX_TOKENS
 
     url = (meta or {}).get("url") or (meta or {}).get("canonical_url") or "(text source)"
     a_title = article_title or (meta or {}).get("title")
@@ -725,7 +731,7 @@ def extract_events_from_text(
     system_chars = len((system_prompt or "").strip())
     user_chars   = len(user_msg)
     approx_in    = _approx_tokens_from_chars(system_chars + user_chars)
-    provider_cap = 16000
+    provider_cap = 128000  # G-5 fix: real gpt-4o/Claude-class context; was a stale 16000 (used only for the truncation-room diagnostic)
     approx_room  = max(0, provider_cap - approx_in - (max_tokens or 0))
 
     pre = {

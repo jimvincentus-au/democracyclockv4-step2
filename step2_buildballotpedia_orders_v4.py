@@ -23,7 +23,7 @@ import hashlib
 # Parsers (mirrors build50501_v4.py)
 # ------------------------------------------------------------
 
-_HDR_RE = re.compile(r"^(\d{4}-\d{2}-\d{2})\s+—\s+(.*)$")
+_HDR_RE = re.compile(r"^(\d{4}-\d{2}-\d{2})\s+[—–―\-]\s+(.*)$")
 _SUM_RE = re.compile(r"^Summary:\s*(.+)$", re.IGNORECASE)
 _SRC_RE = re.compile(r"^Source:\s*(.+)$", re.IGNORECASE)
 _CAT_RE = re.compile(r"^Category:\s*(.+)$", re.IGNORECASE)
@@ -31,6 +31,8 @@ _WHY_RE = re.compile(r"^Why Relevant:\s*(.+)$", re.IGNORECASE)
 _URL_EX = re.compile(r"https?://\S+")
 _ATK_RE = re.compile(r'^"?attacks"?\s*:\s*(.+)$', re.IGNORECASE)
 
+
+from step2_builder_helper_v4 import parse_supplemental_fields
 
 def _parse_llm_events_canonical(text: str, *, article_url: str, logger=None) -> List[Dict[str, Any]]:
     """Parse the canonical Democracy Clock LLM event format (with attacks)."""
@@ -117,6 +119,7 @@ def _parse_llm_events_canonical(text: str, *, article_url: str, logger=None) -> 
                 "sources": sources,
                 "tags": [],
                 "attacks": attacks_list,
+                **parse_supplemental_fields("\n".join(block)),
             }
         )
 

@@ -37,7 +37,7 @@ TZ_DEFAULT = "Australia/Brisbane"
 DEFAULT_SOURCE = "scotusorders"
 DEFAULT_CATEGORY = "Courts / Supreme Court / Orders"
 
-_HDR_RE = re.compile(r"^(\d{4}-\d{2}-\d{2})\s+—\s+(.*)$")
+_HDR_RE = re.compile(r"^(\d{4}-\d{2}-\d{2})\s+[—–―\-]\s+(.*)$")
 _SUM_RE = re.compile(r"^Summary:\s*(.+)$", re.IGNORECASE)
 _SRC_RE = re.compile(r"^Source:\s*(.+)$", re.IGNORECASE)
 _CAT_RE = re.compile(r"^Category:\s*(.+)$", re.IGNORECASE)
@@ -354,6 +354,8 @@ def _clean_order_why(why: str, summary: str) -> str:
     return "The order is relevant as an official Supreme Court procedural action in a pending case."
 
 
+from step2_builder_helper_v4 import parse_supplemental_fields
+
 def _parse_llm_events_canonical(text: str, *, article_url: str, logger=None) -> List[Dict[str, Any]]:
     lines = [ln.rstrip() for ln in (text or "").splitlines()]
     blocks: List[List[str]] = []
@@ -448,6 +450,7 @@ def _parse_llm_events_canonical(text: str, *, article_url: str, logger=None) -> 
             "tags": [],
             "attacks": [],
             "llm_attacks_suggested": attacks_list,
+            **parse_supplemental_fields("\n".join(block)),
         })
 
     return events

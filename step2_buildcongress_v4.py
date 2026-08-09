@@ -22,13 +22,15 @@ from datetime import datetime, date, timedelta
 # Canonical block parser (same style as build50501_v4.py)
 # ------------------------------------------------------------
 
-_HDR_RE = re.compile(r"^(\d{4}-\d{2}-\d{2})\s+—\s+(.*)$")
+_HDR_RE = re.compile(r"^(\d{4}-\d{2}-\d{2})\s+[—–―\-]\s+(.*)$")
 _SUM_RE = re.compile(r"^Summary:\s*(.+)$", re.IGNORECASE)
 _SRC_RE = re.compile(r"^Source:\s*(.+)$", re.IGNORECASE)
 _CAT_RE = re.compile(r"^Category:\s*(.+)$", re.IGNORECASE)
 _WHY_RE = re.compile(r"^Why Relevant:\s*(.+)$", re.IGNORECASE)
 _URL_EX = re.compile(r"https?://\S+")
 _ATK_RE = re.compile(r'^"?attacks"?\s*:\s*(.+)$', re.IGNORECASE)
+
+from step2_builder_helper_v4 import parse_supplemental_fields
 
 def _parse_llm_events_canonical(text: str, *, article_url: str, logger: Optional[logging.Logger] = None) -> List[Dict[str, Any]]:
     lines = [ln.rstrip() for ln in (text or "").splitlines()]
@@ -111,6 +113,7 @@ def _parse_llm_events_canonical(text: str, *, article_url: str, logger: Optional
             "sources": sources,
             "tags": [],
             "attacks": attacks_list,
+            **parse_supplemental_fields("\n".join(block)),
         })
     return events
 
@@ -232,6 +235,15 @@ def _is_salient_nonbill(title: str, raw_line: str) -> bool:
     # Must also be substantively salient
     return bool(_KEEP_SALIENT_KEYWORDS.search(tl))
 
+def _is_veto_or_override(title: str, raw_line: str) -> bool:
+    """M-1 fix (2026-08-10): presidential vetoes and congressional override votes
+    are terminal actions but match neither _is_public_law nor _is_salient_nonbill,
+    so the build-time keep filter dropped them whenever the same window also held a
+    public law (because of the `if kept: items = kept` guard). Detect them
+    explicitly so they are always kept."""
+    s = f"{title or ''} {raw_line or ''}".lower()
+    return ("veto" in s) or ("overridden" in s) or ("override" in s)
+
 # ------------------------------------------------------------
 # Runner (COPY MODE shape from build50501_v4.py)
 # ------------------------------------------------------------
@@ -286,7 +298,9 @@ def run_builder(
     for rec in items:
         raw_line = rec.get("raw_line", "")
         title = rec.get("title", "")
-        if _is_public_law(raw_line) or _is_salient_nonbill(title, raw_line):
+        if (_is_public_law(raw_line)
+                or _is_salient_nonbill(title, raw_line)
+                or _is_veto_or_override(title, raw_line)):
             kept.append(rec)
     if kept:
         items = kept

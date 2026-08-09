@@ -265,7 +265,7 @@ def dc_week_for(d: date) -> Optional[Tuple[int, date, date]]:
 @dataclass(frozen=True)
 class EventRow:
     source_key: str
-    date_iso: str  # may be ""
+    date_iso: str  # EFFECTIVE date (occurred_on if known, else reported_on) — drives sort/week/render
     date_obj: Optional[date]  # for sorting
     category: str
     title: str
@@ -273,7 +273,16 @@ class EventRow:
     url: str
     summary: str
     why: str
-    attacks: list[str]   # ← NEW
+    attacks: list[str]
+    # #1 dates (added 2026-08-10): reported vs occurred — never guessed from each other
+    reported_on: str    # publication/report date (may be "")
+    occurred_on: str    # true event date; "" when the source did not state it (never defaulted)
+    dated_by: str       # "occurred" | "reported" | "" — which date drove date_iso
+    # #2 precision + #3 jurisdiction (added 2026-08-10)
+    confidence: str     # high | medium | low | ""
+    basis: str          # verbatim source quote, or ""
+    jurisdiction: str   # federal | state | local | private | foreign | multi | ""
+    federal_nexus: str  # sentence when jurisdiction != federal, else ""
     # Provenance:
     origin_file: str
     origin_index: int
@@ -284,11 +293,17 @@ def _norm_event(e: Dict[str, Any], source_key: str, origin_file: str, idx: int, 
     Required fields for writer: date (can be ""), title, summary, category, why, url (can be "").
     """
     # Flexible key reads (be tolerant)
-    date_iso = str(
-        e.get("date")
+    # #1 (added 2026-08-10): reported_on = the publication/report date (the existing
+    # header date), occurred_on = the true event date the model emitted, which is ""
+    # unless the source stated it. The EFFECTIVE date used for week assignment,
+    # sorting and rendering is occurred_on when known, else reported_on — so an act
+    # reported a week after it happened is filed under the week it happened.
+    reported_iso = str(
+        e.get("reported_on")
+        or e.get("date")
         or e.get("event_date")
-        or e.get("source_date")   # ← add this
-        or e.get("post_date")     # ← and this (some sources use post/publication dates)
+        or e.get("source_date")
+        or e.get("post_date")
         or ""
     ).strip()
     title = str(e.get("title") or "").strip()
@@ -311,12 +326,28 @@ def _norm_event(e: Dict[str, Any], source_key: str, origin_file: str, idx: int, 
     else:
         attacks = []
 
-    # Parse date to object
-    d_obj = _safe_date(date_iso)
-    # date_iso should be kept as original string (possibly ""), but for sorting we use d_obj.
-    # If d_obj present, keep canonicalized yyyy-mm-dd for rendering.
-    if d_obj:
-        date_iso = d_obj.isoformat()
+    # Parse reported + occurred dates
+    reported_obj = _safe_date(reported_iso)
+    if reported_obj:
+        reported_iso = reported_obj.isoformat()
+
+    occurred_raw = str(e.get("occurred_on") or "").strip()
+    occurred_obj = _safe_date(occurred_raw) if occurred_raw else None
+    occurred_iso = occurred_obj.isoformat() if occurred_obj else ""
+
+    # Effective date: occurrence when known, else the reported date.
+    if occurred_obj:
+        eff_obj, dated_by = occurred_obj, "occurred"
+    else:
+        eff_obj, dated_by = reported_obj, ("reported" if reported_obj else "")
+    date_iso = eff_obj.isoformat() if eff_obj else reported_iso
+    d_obj = eff_obj
+
+    # #2 / #3 supplemental fields (all optional; "" when absent)
+    confidence = str(e.get("confidence") or "").strip().lower()
+    basis = str(e.get("basis") or "").strip()
+    jurisdiction = str(e.get("jurisdiction") or "").strip().lower()
+    federal_nexus = str(e.get("federal_nexus") or "").strip()
 
     # Strict mode: must have title, summary, category, why
     if strict and (not title or not summary or not category or not why):
@@ -334,6 +365,13 @@ def _norm_event(e: Dict[str, Any], source_key: str, origin_file: str, idx: int, 
         summary=summary,
         why=why,
         attacks=attacks,
+        reported_on=reported_iso,
+        occurred_on=occurred_iso,
+        dated_by=dated_by,
+        confidence=confidence,
+        basis=basis,
+        jurisdiction=jurisdiction,
+        federal_nexus=federal_nexus,
         origin_file=origin_file,
         origin_index=idx,
     )
@@ -356,7 +394,19 @@ def _render_event_lines(ev: EventRow) -> List[str]:
     lines.append(f"Source: {ev.source_label}")
     lines.append(f"Category: {ev.category}")
     lines.append(f"Why Relevant: {ev.why}")
-    # NEW: always show attacks for this event
+    # #1/#2/#3 audit fields (added 2026-08-10) — shown only when present so the
+    # human log stays readable. The header date is the effective date; when it
+    # came from an explicit occurrence date, note that and the reported date.
+    if ev.dated_by == "occurred" and ev.occurred_on:
+        lines.append(f"Occurred: {ev.occurred_on} (reported {ev.reported_on or 'n/a'})")
+    if ev.jurisdiction:
+        nexus = f" — {ev.federal_nexus}" if (ev.jurisdiction != "federal" and ev.federal_nexus) else ""
+        lines.append(f"Jurisdiction: {ev.jurisdiction}{nexus}")
+    if ev.confidence:
+        lines.append(f"Confidence: {ev.confidence}")
+    if ev.basis:
+        lines.append(f"Basis: {ev.basis}")
+    # always show attacks for this event
     if ev.attacks:
         # Human-readable attacks line for TXT
         lines.append(f"Attacks: {humanize_attacks(ev.attacks)}")
@@ -637,11 +687,18 @@ def main() -> int:
             {
                 "source_key": ev.source_key,
                 "date": ev.date_iso,
+                "occurred_on": ev.occurred_on,
+                "reported_on": ev.reported_on,
+                "dated_by": ev.dated_by,
                 "category": ev.category,
                 "title": ev.title,
                 "url": ev.url,
                 "summary": ev.summary,
                 "why_relevant": ev.why,
+                "jurisdiction": ev.jurisdiction,
+                "federal_nexus": ev.federal_nexus,
+                "confidence": ev.confidence,
+                "basis": ev.basis,
                 "attacks": ev.attacks,
                 "_origin_file": ev.origin_file,
                 "_origin_index": ev.origin_index,
@@ -714,11 +771,18 @@ def main() -> int:
                     {
                         "source_key": r.source_key,
                         "date": r.date_iso,
+                        "occurred_on": r.occurred_on,
+                        "reported_on": r.reported_on,
+                        "dated_by": r.dated_by,
                         "category": r.category,
                         "title": r.title,
                         "url": r.url,
                         "summary": r.summary,
                         "why_relevant": r.why,
+                        "jurisdiction": r.jurisdiction,
+                        "federal_nexus": r.federal_nexus,
+                        "confidence": r.confidence,
+                        "basis": r.basis,
                         "attacks": r.attacks,
                         "_origin_file": r.origin_file,
                         "_origin_index": r.origin_index,

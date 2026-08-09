@@ -12,7 +12,7 @@ from config_v4 import ARTIFACTS_ROOT
 from step2_helper_v4 import setup_logger
 # single source of truth for prompts — no builder-side assembly
 from step2_prompts_v4 import compose_system_prompt
-from step2_extractor_v4 import extract_events_from_text
+from step2_extractor_v4 import extract_events_from_url
 
 import hashlib
 from datetime import datetime, date, timedelta
@@ -21,13 +21,15 @@ from datetime import datetime, date, timedelta
 # Helpers (same canonical block parser as build50501_v4.py)
 # ------------------------------------------------------------
 
-_HDR_RE = re.compile(r"^(\d{4}-\d{2}-\d{2})\s+—\s+(.*)$")
+_HDR_RE = re.compile(r"^(\d{4}-\d{2}-\d{2})\s+[—–―\-]\s+(.*)$")
 _SUM_RE = re.compile(r"^Summary:\s*(.+)$", re.IGNORECASE)
 _SRC_RE = re.compile(r"^Source:\s*(.+)$", re.IGNORECASE)
 _CAT_RE = re.compile(r"^Category:\s*(.+)$", re.IGNORECASE)
 _WHY_RE = re.compile(r"^Why Relevant:\s*(.+)$", re.IGNORECASE)
 _URL_EX = re.compile(r"https?://\S+")
 _ATK_RE = re.compile(r'^"?attacks"?\s*:\s*(.+)$', re.IGNORECASE)
+
+from step2_builder_helper_v4 import parse_supplemental_fields
 
 def _parse_llm_events_canonical(text: str, *, article_url: str, logger=None) -> List[Dict[str, Any]]:
     """Parse canonical LLM output (non-HCR)."""
@@ -118,6 +120,7 @@ def _parse_llm_events_canonical(text: str, *, article_url: str, logger=None) -> 
             "sources": sources,
             "tags": [],
             "attacks": attacks_list,
+            **parse_supplemental_fields("\n".join(block)),
         })
     return events
 
@@ -203,29 +206,32 @@ def run_builder(
         title = ent.get("title") or "(untitled)"
         url = ent.get("canonical_url") or ent.get("url") or ent.get("link") or ""
         date_s = (ent.get("date") or ent.get("post_date") or ent.get("published") or "")[:10]
-        # democracydocket specifics — we pass text, not a live page
-        summary = ent.get("summary") or ""
-        content = ent.get("content") or ent.get("html") or ""
-        # keep synthetic under control; the extractor is already tuned to Canonical Protocol
-        synthetic_text = (
-            f"{(date_s or start)[:10]} — {title}\n"
-            f"Summary: {(summary or content).strip()[:2000]}\n"
-            f"Source: {url or '(no url)'}\n"
-            "Category: Voting rights / Courts / Democracy protection\n"
-            "Why Relevant: Democracy Docket tracks litigation and actions that directly shape election rules and democratic access."
-        )
-
-        logger.info("[%s] item %d/%d", source, i, len(idxs))
-        try:
-            text = extract_events_from_text(
-                synthetic_text,
-                system_prompt=system_prompt,
-                artifacts_root=str(artifacts),
-                idx=idx,
-            )
-        except Exception as e:
-            logger.exception("Extractor failed on idx=%d (%s)", idx, title)
-            text = f"(Extraction error: {e})"
+        # C-2 fix (2026-08-09): the v5 sitemap harvester intentionally does NOT
+        # fetch article bodies (summary/content are always empty), so the previous
+        # synthetic_text fed the LLM only a slug title + hardcoded boilerplate —
+        # Democracy Docket (a many-acts-per-post source) therefore produced ~0
+        # real events every week. Fetch the real article body at build time via
+        # extract_events_from_url (the extractor's fetcher already carries
+        # Democracy-Docket-specific selectors). This matches how the Substack and
+        # Guardian builders work. max_tokens raised for DD's dense multi-act posts.
+        logger.info("[%s] item %d/%d — fetching %s", source, i, len(idxs), url or "(no url)")
+        if not url:
+            logger.warning("Skipping idx=%d: no URL to fetch (%s)", idx, title)
+            text = ""
+        else:
+            try:
+                text = extract_events_from_url(
+                    url,
+                    system_prompt=system_prompt,
+                    article_title=title,
+                    article_date=(date_s or start)[:10],
+                    artifacts_root=str(artifacts),
+                    idx=idx,
+                    max_tokens=9000,
+                )
+            except Exception as e:
+                logger.exception("Extractor failed on idx=%d (%s)", idx, title)
+                text = f"(Extraction error: {e})"
 
         with open(artifacts / "log" / f"{source}_llm_out_idx{idx}_{start}_{end}.txt", "w", encoding="utf-8") as f:
             f.write(text)
