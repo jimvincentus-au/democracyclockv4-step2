@@ -189,6 +189,27 @@ def main() -> int:
             failed.append(key)
             continue
 
+        # H-5 fix (2026-08-10): --skip-existing (resume mode) was accepted and
+        # threaded to every builder but never acted on — a resume re-fetched and
+        # re-LLM'd every source and overwrote prior output. Implement it once here
+        # for all builders: if this source already has a non-empty events file for
+        # the window, skip rebuilding it. A 0-event scaffold is NOT treated as
+        # done, so sources that previously produced nothing are retried.
+        if args.skip_existing:
+            existing = artifacts / "eventjson" / f"{key}_events_{start_iso}_{end_iso}.json"
+            if existing.is_file() and existing.stat().st_size > 0:
+                try:
+                    n_existing = len(json.loads(existing.read_text(encoding="utf-8")).get("events", []) or [])
+                except Exception:
+                    n_existing = 0
+                if n_existing > 0:
+                    logger.info("↷ Skipping '%s' (--skip-existing: %s already has %d events)",
+                                key, existing.name, n_existing)
+                    results.append({"key": key, "ok": True, "skipped": True,
+                                    "meta": {"events": n_existing, "path": str(existing)}})
+                    ok.append(key)
+                    continue
+
         log_file = artifacts / "log" / f"{key}_build_{start_iso}_{end_iso}.log"
         logger.info("→ Building '%s' (log: %s)", key, log_file)
 

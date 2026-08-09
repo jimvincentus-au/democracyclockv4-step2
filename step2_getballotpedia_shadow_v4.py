@@ -83,7 +83,18 @@ def _load_manual_ballotpedia_shadow_html_if_configured(logger) -> Optional[str]:
         logger.warning("Shadow manual HTML file is empty: %s", path)
         return None
 
-    logger.info("Using local Ballotpedia shadow HTML: %s", path)
+    # H-3 fix (2026-08-10): warn (with file age) so a stale saved page is never
+    # used silently.
+    try:
+        from datetime import datetime as _dt
+        mtime = _dt.fromtimestamp(path.stat().st_mtime).isoformat(timespec="seconds")
+    except Exception:
+        mtime = "unknown"
+    logger.warning(
+        "Using manual Ballotpedia shadow HTML fallback: %s (last modified %s) — "
+        "live fetch was unavailable; this saved page may be STALE and miss recent decisions.",
+        path, mtime,
+    )
     return html
 
 def _mdy_to_iso(s: str) -> str:
@@ -156,14 +167,20 @@ def _discover_shadow_rows(session, url: str, logger) -> Tuple[List[Dict[str, Any
       snapshot_items: list of dicts with fields the JSON writer expects
       debug_rows:     list with richer raw info (used only for RAW audit dump)
     """
-    html = _load_manual_ballotpedia_shadow_html_if_configured(logger)
-    if html:
-        status = 200
+    # H-3 fix (2026-08-10): fetch the LIVE page first; fall back to a saved manual
+    # HTML file only if the live fetch fails. Previously a saved ~/Documents file
+    # was always preferred, so new shadow-docket decisions were silently missed
+    # while it was stale.
+    status, html = http_get(session, url, logger)
+    if status == 200 and html:
+        logger.info("Using live Ballotpedia shadow page (chars=%d).", len(html))
     else:
-        status, html = http_get(session, url, logger)
-        if status != 200 or not html:
-            logger.error("Failed to fetch shadow docket page (status=%s).", status)
+        logger.warning("Live shadow fetch unusable (status=%s); trying manual HTML fallback.", status)
+        html = _load_manual_ballotpedia_shadow_html_if_configured(logger)
+        if not html:
+            logger.error("Failed to fetch shadow docket page (status=%s) and no manual fallback available.", status)
             return [], []
+        status = 200
 
     soup = BeautifulSoup(html, "html.parser")
 

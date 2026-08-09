@@ -91,10 +91,13 @@ def _load_manual_ballotpedia_html_if_configured(logger) -> Optional[str]:
         return None
 
     html_path = Path(raw_path).expanduser()
-    if not html_path.exists():
-        raise RuntimeError(f"Configured manual Ballotpedia orders HTML does not exist: {html_path}")
-    if not html_path.is_file():
-        raise RuntimeError(f"Configured manual Ballotpedia orders HTML is not a file: {html_path}")
+    # H-3 fix (2026-08-10): this is now a FALLBACK, not the primary path, so a
+    # missing file is not an error — return None and let the caller use the live
+    # fetch. (Previously this raised, but it was also being called before the live
+    # fetch, so a present saved file was always preferred and could be stale.)
+    if not html_path.exists() or not html_path.is_file():
+        logger.debug("No manual Ballotpedia orders HTML fallback at %s.", html_path)
+        return None
 
     html = html_path.read_text(encoding="utf-8", errors="replace")
     _raise_if_bad_ballotpedia_fetch(200, html, str(html_path))
@@ -109,7 +112,17 @@ def _load_manual_ballotpedia_html_if_configured(logger) -> Optional[str]:
             f"Manual Ballotpedia orders HTML appears to be an AWS WAF challenge, not article HTML: {html_path}"
         )
 
-    logger.warning("Using manual Ballotpedia orders HTML fallback: %s (chars=%d)", html_path, len(html))
+    # Warn (with file age) so a stale saved page is never used silently.
+    try:
+        from datetime import datetime as _dt
+        mtime = _dt.fromtimestamp(html_path.stat().st_mtime).isoformat(timespec="seconds")
+    except Exception:
+        mtime = "unknown"
+    logger.warning(
+        "Using manual Ballotpedia orders HTML fallback: %s (last modified %s, chars=%d) — "
+        "live fetch was unavailable; this saved page may be STALE and miss recent orders.",
+        html_path, mtime, len(html),
+    )
     return html
 
 # V3 used visible H2 labels
@@ -273,12 +286,26 @@ def _discover_index_items_v3(session, start_iso: str, end_iso: str, logger):
     """
     logger.info("Discovering Ballotpedia index (month layout): %s", BP_URL_2025)
 
-    manual_html = _load_manual_ballotpedia_html_if_configured(logger)
-    if manual_html is not None:
-        html = manual_html
+    # H-3 fix (2026-08-10): fetch the LIVE page first; fall back to a saved manual
+    # HTML file only if the live fetch fails or is blocked by AWS WAF. Previously
+    # a saved ~/Documents file (which exists on the maintainer's machine) was always
+    # preferred, so new executive orders were silently missed while it was stale.
+    status, live_html = http_get(session, BP_URL_2025, logger)
+    if status == 200 and live_html and not _is_ballotpedia_waf_challenge(status, live_html):
+        html = live_html
+        logger.info("Using live Ballotpedia orders page (chars=%d).", len(live_html))
     else:
-        status, html = http_get(session, BP_URL_2025, logger)
-        _raise_if_bad_ballotpedia_fetch(status, html, BP_URL_2025)
+        logger.warning(
+            "Live Ballotpedia orders fetch unusable (status=%s, waf=%s); trying manual HTML fallback.",
+            status, _is_ballotpedia_waf_challenge(status, live_html or ""),
+        )
+        manual_html = _load_manual_ballotpedia_html_if_configured(logger)
+        if manual_html is not None:
+            html = manual_html
+        else:
+            # No usable fallback — surface the live failure (raises on WAF/non-200).
+            _raise_if_bad_ballotpedia_fetch(status, live_html, BP_URL_2025)
+            html = live_html
     html = html or ""
 
     soup = BeautifulSoup(html, "html.parser")

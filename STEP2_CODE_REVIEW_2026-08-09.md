@@ -53,6 +53,24 @@ Second batch (2026-08-10):
   it from `--only`, and still rejects `--only scotusblog`. Verified across default,
   `--only guardian`, and `--only scotusblog` cases.
 
+Third batch (2026-08-10):
+
+- ✅ **H-3** — both Ballotpedia harvesters (orders + shadow) now fetch the LIVE
+  page first and fall back to a saved `~/Documents` HTML file only when live is
+  WAF-blocked/fails, with a STALE-page warning (incl. file mtime). Previously the
+  saved file was always preferred, so new orders/decisions were silently missed.
+  Verified live: orders fetched 398K chars (3 orders), shadow 327K chars.
+- ✅ **H-4** — extractor default `max_tokens` raised 6000 → 12000 (`_DEFAULT_MAX_TOKENS`).
+  Dense sources (Zeteo 20-40 events, Meidas 10-25) no longer truncate mid-log.
+  Billing is on actual output tokens, so no cost increase for short outputs.
+- ✅ **H-5** — `--skip-existing` (resume mode) is now honored, implemented once in
+  the buildweekevents loop for all builders: a source with a non-empty events file
+  for the window is skipped (0-event scaffolds are retried). Verified (meidas
+  skipped, no LLM calls).
+- ✅ **G-5** — stale `provider_cap = 16000` → `128000` (diagnostic-only), plus the
+  `_DEFAULT_MAX_TOKENS` constant above. Dead `_DEFAULT_EXTRACT_MODEL` /
+  `_DEFAULT_TEMPERATURE` left in place (harmless).
+
 ### New: C-2b (found while fixing C-2) — DD v5 harvester lists non-articles [read + live]
 - ✅ **FIXED (2026-08-10)** — `step2_getdemocracydocket_v5.py` now drops URLs whose
   path is a bare section root (`.../analysis/`, `.../opinion/`, `.../news/`, site
@@ -175,14 +193,14 @@ strings (`Courts / Supreme Court / merits-cases`, etc.) never match the writer's
 lands as "unknown" category. An analysis-only source is silently polluting the
 event log under mislabeled categories.
 
-**H-3. Both Ballotpedia harvesters silently prefer a stale local HTML file. [read]**
+**H-3. ✅ FIXED — Both Ballotpedia harvesters silently prefer a stale local HTML file. [read]**
 `orders` ([getballotpedia_order_v4.py:88](step2_getballotpedia_order_v4.py:88))
 and `shadow` ([getballotpedia_shadow_v4.py:33](step2_getballotpedia_shadow_v4.py:33))
 default to a `~/Documents/…Ballotpedia.html` file and, if present, never fetch the
 live page. A months-old saved page → new executive orders / shadow-docket
 decisions silently missed, no error.
 
-**H-4. Dense Substack sources truncate at 6000 output tokens → later events lost. [read]**
+**H-4. ✅ FIXED — Dense Substack sources truncate at 6000 output tokens → later events lost. [read]**
 Zeteo, Meidas, 50501, Noah, OutLoud call `extract_events_from_url` without
 `max_tokens`, taking the 6000 default ([extractor:508](step2_extractor_v4.py:508)),
 while HCR alone passes 9000 ([buildhcr_v4.py:154](step2_buildhcr_v4.py:154)). For a
@@ -190,7 +208,7 @@ source whose own prompt expects 20–40 events (Zeteo), output exceeds the cap, 
 response is truncated, the single retry runs at the same cap, and events past the
 cut are parsed-around and lost with only a compliance warning.
 
-**H-5. `skip_existing` (resume mode) is a no-op in every builder. [read]**
+**H-5. ✅ FIXED — `skip_existing` (resume mode) is a no-op in every builder. [read]**
 The flag is threaded from CLI/orchestrator but never read
 (e.g. [buildguardian_v4.py:212](step2_buildguardian_v4.py:212),
 [buildjustsecurity_v5.py:377](step2_buildjustsecurity_v5.py:377)). `--skip-existing`
