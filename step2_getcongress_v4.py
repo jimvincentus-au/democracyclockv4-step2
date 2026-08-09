@@ -196,10 +196,26 @@ def _walk_bill_pages(
         params = _api_params(from_dt, to_dt, page_limit, offset, api_key)
         resp = session.get(base_url, params=params, timeout=30)
         status = resp.status_code
+
+        # C-3 fix (2026-08-09): a non-200 response (especially the HTTP 403
+        # Congress.gov returns without a valid api_key) was previously ignored —
+        # data.get("bills", []) became [], the loop broke, and the harvester
+        # "succeeded" with zero bills, silently dropping every public law/veto.
+        # Fail loudly instead. With the H-1 best-effort orchestrator this fails
+        # only the congress source, not the whole weekly run.
+        if status != 200:
+            snippet = (resp.text or "")[:300]
+            hint = " (missing or invalid CONGRESS_GOV_API_KEY?)" if status in (401, 403) else ""
+            msg = f"Congress.gov returned HTTP {status} for {resp.url}{hint}: {snippet}"
+            logger.error(msg)
+            raise RuntimeError(msg)
+
         try:
             data = resp.json()
         except Exception:
-            data = {}
+            msg = f"Congress.gov returned HTTP 200 with unparseable JSON at {resp.url}"
+            logger.error(msg)
+            raise RuntimeError(msg)
 
         bills = data.get("bills", []) or []
         logger.debug(
@@ -373,7 +389,14 @@ def run_harvester(
 
     api_key = _get_congress_api_key()
     if not api_key:
-        logger.warning("No Congress.gov API key found (CONGRESS_GOV_API_KEY). You may hit stricter rate limits.")
+        # C-3 fix (2026-08-09): Congress.gov requires a key; a keyless request
+        # returns HTTP 403, which _walk_bill_pages now raises on. Surface the
+        # likely cause up front at error level so the failure is self-explaining.
+        logger.error(
+            "No Congress.gov API key found. Set CONGRESS_GOV_API_KEY (env) or "
+            "CONGRESS_API_KEY (config_v4). Keyless requests return HTTP 403 and "
+            "will fail this source with zero bills harvested."
+        )
 
     # Normalize window to Zulu datetimes per API requirement
     from_dt = _as_utc_datetime_str(start, end_of_day=False)

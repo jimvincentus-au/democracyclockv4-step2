@@ -48,7 +48,10 @@ BUILDER_SPECS: Dict[str, Tuple[str, str]] = {
 # the default run. dailysignal/examiner are firehose-volume; freebeacon/bulwark
 # are held pending a later call on whether they're worth the cost. This keeps a
 # plain default re-run cheap without needing --skip. (decision 2026-05-14)
-OPTIONAL_SOURCES = {"dailysignal", "examiner", "freebeacon", "bulwark"}
+# econ added 2026-08-09: its harvester is commented out in getweekevents, so
+# leaving econ in the default build set caused every default run to build from a
+# missing/stale file. Keep it runnable via --only econ, but out of the default.
+OPTIONAL_SOURCES = {"dailysignal", "examiner", "freebeacon", "bulwark", "econ"}
 
 DEFAULT_SOURCES = [k for k in BUILDER_SPECS if k not in OPTIONAL_SOURCES]
 

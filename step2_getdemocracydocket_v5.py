@@ -18,6 +18,7 @@ import logging
 import requests
 from pathlib import Path
 from typing import Any, Dict, List, Optional
+from urllib.parse import urlsplit
 from xml.etree import ElementTree as ET
 
 # --- V4 infrastructure imports ---
@@ -63,6 +64,23 @@ def title_from_slug(url: str) -> str:
     slug = slug.replace("-", " ").replace("_", " ")
     slug = " ".join(slug.split())
     return slug.capitalize()
+
+
+# Section landing pages whose final path segment is just the section name — these
+# are navigation/index pages, not articles.
+_SECTION_ROOT_SEGMENTS = {"news", "analysis", "opinion"}
+
+def _is_section_index(url: str) -> bool:
+    """C-2b fix (2026-08-10): the sitemaps list bare section roots (e.g.
+    https://www.democracydocket.com/analysis/) alongside real articles. Those are
+    navigation pages: fetching them wastes an HTTP GET + LLM call and yields no
+    events. True when the URL path is empty (site root) or its last segment is a
+    section name; real articles have a slug after the section (…/analysis/<slug>/)."""
+    path = urlsplit(url).path.rstrip("/")
+    if not path:
+        return True
+    last = path.rsplit("/", 1)[-1].lower()
+    return last in _SECTION_ROOT_SEGMENTS
 
 
 def _discover_via_sitemaps(logger: logging.Logger) -> List[Dict[str, Any]]:
@@ -135,6 +153,12 @@ def _discover_via_sitemaps(logger: logging.Logger) -> List[Dict[str, Any]]:
             # Restrict to allowed sections only: /news/, /analysis/, /opinion/
             if not ("/news/" in canonical_url or "/analysis/" in canonical_url or "/opinion/" in canonical_url):
                 logger.debug("Skipping URL due to section filtering: %s", canonical_url)
+                continue
+
+            # C-2b fix (2026-08-10): drop bare section-index pages (…/analysis/,
+            # …/opinion/, …/news/) — they are navigation pages, not articles.
+            if _is_section_index(canonical_url):
+                logger.debug("Skipping section-index page (not an article): %s", canonical_url)
                 continue
 
             post_date = lastmod_text[:10] if lastmod_text else ""

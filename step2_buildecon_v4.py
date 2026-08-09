@@ -315,7 +315,7 @@ def run_builder(
         orig_tags = item.get("tags") or []
         topics = derive_topics(orig_title, orig_tags)
 
-        if not raw or raw.startswith("(Extraction error:")):
+        if not raw or raw.startswith("(Extraction error:"):
             noncompliant.append({"idx": rec["_idx"], "url": url, "reason": "no_blocks"})
             continue
 

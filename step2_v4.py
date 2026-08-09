@@ -98,12 +98,30 @@ def _normalize_source_selection(values: Optional[List[str]]) -> Optional[List[st
             normalized.append(key)
     return normalized
 
-def _remove_analysis_only_sources(values: Optional[List[str]]) -> Optional[List[str]]:
-    """Exclude analysis/enrichment sources from Step 2 event harvesting."""
+# Sources that are harvested/built for downstream ANALYSIS only and must never be
+# written into the Step-2 Master Event Log. They remain runnable directly (e.g.
+# getweekevents --only scotusblog) for their analysis purpose.
+ANALYSIS_ONLY_SOURCES = ["scotusblog"]
+
+def _strip_analysis_only_from_only(values: Optional[List[str]]) -> Optional[List[str]]:
+    """Remove analysis-only sources from an --only selection (they are not valid
+    Step-2 event sources)."""
     if not values:
         return values
-    filtered = [value for value in values if value != "scotusblog"]
+    filtered = [v for v in values if v not in ANALYSIS_ONLY_SOURCES]
     return filtered or None
+
+def _add_analysis_only_to_skip(values: Optional[List[str]]) -> List[str]:
+    """H-2 fix (2026-08-09): analysis-only sources default-run into the event log
+    because the child get/build/write CLIs include them in their DEFAULT set. The
+    orchestrator must therefore ALWAYS skip them (merged with any user --skip),
+    regardless of whether the user passed --skip. The previous code instead
+    stripped scotusblog OUT of the skip list, so it was never excluded."""
+    base = list(values or [])
+    for s in ANALYSIS_ONLY_SOURCES:
+        if s not in base:
+            base.append(s)
+    return base
 
 
 # -----------------------------
@@ -193,13 +211,13 @@ def main() -> int:
         "--artifacts-root", str(args.artifacts_root),
     ]
 
-    only_sources = _remove_analysis_only_sources(_normalize_source_selection(args.only))
-    skip_sources = _remove_analysis_only_sources(_normalize_source_selection(args.skip))
+    only_sources = _strip_analysis_only_from_only(_normalize_source_selection(args.only))
+    skip_sources = _add_analysis_only_to_skip(_normalize_source_selection(args.skip))
 
     if args.only and only_sources is None:
         print(json.dumps({
             "error": "No Step 2 event sources selected after removing analysis-only sources.",
-            "analysis_only_sources": ["scotusblog"],
+            "analysis_only_sources": ANALYSIS_ONLY_SOURCES,
         }))
         return 2
 
@@ -221,7 +239,10 @@ def main() -> int:
     if skip_sources:
         build_cmd += ["--skip", *skip_sources]
     if args.limit is not None:
-        build_cmd += ["--limit", str(args.limit)]
+        # Fix (2026-08-09): buildweekevents_v4 accepts --limit-per-source, not
+        # --limit. Passing --limit made the build stage crash with an argparse
+        # "unrecognized arguments" error, so --limit was unusable end-to-end.
+        build_cmd += ["--limit-per-source", str(args.limit)]
 
     # writeweekevents passthroughs
     write_cmd = [sys.executable, args.write_cmd, "--start", start_iso, "--end", end_iso, *common]
@@ -231,30 +252,46 @@ def main() -> int:
     if skip_sources:
         write_cmd += ["--skip", *skip_sources]
 
-    # Run steps in order
+    # Run steps in order.
+    #
+    # H-1 fix (2026-08-09): previously build ran only if get returned rc==0, and
+    # getweekevents returns rc=1 if ANY single harvester fails. With ~17 live
+    # scrapers, one site 500/timeout/layout-change made get fail, which skipped
+    # build AND write entirely — silently dropping the whole week's data.
+    #
+    # Build and write are now BEST-EFFORT: they run on whatever harvested
+    # successfully. A failed harvester just leaves no filtered file for its
+    # source, so its builder is a no-op. Per-stage rc and a `partial` flag are
+    # reported so an incomplete harvest is visible, not blocking.
     r_get = _run_step(get_cmd)
-    r_build = _run_step(build_cmd) if r_get.rc == 0 else RunResult(rc=99, cmd=build_cmd, log=None)
+    r_build = _run_step(build_cmd)
 
-    # Decide whether to run the writer:
-    # - If build succeeded (rc==0), always run it.
-    # - If build failed, still run it if any per-source eventjson exists for this window.
+    # Run the writer if the build produced/updated outputs, or if any per-source
+    # eventjson already exists for this window (so a partial build still merges
+    # what succeeded). This still avoids overwriting a good master with an empty
+    # one when there is genuinely nothing to write.
     should_write = False
-    if r_get.rc == 0:
-        if r_build.rc == 0:
-            should_write = True
-        else:
-            try:
-                ej_dir = Path(args.artifacts_root) / "eventjson"
-                pattern = f"*__events_{start_iso}_{end_iso}.json"
-                # Some builders emit names like '<source>_events_<start>_<end>.json'
-                # Allow both single underscore and double underscore separators.
-                matches = list(ej_dir.glob(f"*events_{start_iso}_{end_iso}.json"))
-                matches += list(ej_dir.glob(pattern))
-                should_write = any(p.is_file() and p.stat().st_size > 0 for p in matches)
-            except Exception:
-                should_write = False
+    if r_build.rc == 0:
+        should_write = True
+    else:
+        try:
+            ej_dir = Path(args.artifacts_root) / "eventjson"
+            pattern = f"*__events_{start_iso}_{end_iso}.json"
+            # Some builders emit names like '<source>_events_<start>_<end>.json'
+            # Allow both single underscore and double underscore separators.
+            # (master_index_* files do not contain 'events_' and are not matched.)
+            matches = list(ej_dir.glob(f"*events_{start_iso}_{end_iso}.json"))
+            matches += list(ej_dir.glob(pattern))
+            should_write = any(p.is_file() and p.stat().st_size > 0 for p in matches)
+        except Exception:
+            should_write = False
 
     r_write = _run_step(write_cmd) if should_write else RunResult(rc=99, cmd=write_cmd, log=None)
+
+    all_ok = (r_get.rc == 0 and r_build.rc == 0 and r_write.rc == 0)
+    # A "partial" run is one where some stage reported failure but the writer
+    # still produced/updated a master log from whatever succeeded.
+    partial = (not all_ok) and (r_write.rc == 0)
 
     summary: Dict[str, object] = {
         "window": {"start": start_iso, "end": end_iso},
@@ -264,11 +301,12 @@ def main() -> int:
             "build": {"rc": r_build.rc, "cmd": r_build.cmd},
             "write": {"rc": r_write.rc, "cmd": r_write.cmd},
         },
-        "ok": (r_get.rc == 0 and r_build.rc == 0 and r_write.rc == 0),
+        "ok": all_ok,
+        "partial": partial,
     }
 
     print(json.dumps(summary, indent=2))
-    return 0 if summary["ok"] else 1
+    return 0 if all_ok else 1
 
 
 if __name__ == "__main__":
