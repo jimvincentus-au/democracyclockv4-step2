@@ -181,7 +181,7 @@ def _safe_head_tail(txt: str, head: int = 800, tail: int = 600) -> Dict[str, str
         "tail": txt[-tail:] if len(txt) > tail else txt,
     }
 
-_EVENT_TITLE_RE = re.compile(r"^\s*\d{4}-\d{2}-\d{2}\s+—\s+.+$", re.M)
+_EVENT_TITLE_RE = re.compile(r"^\s*\d{4}-\d{2}-\d{2}\s+[—–―\-]\s+.+$", re.M)
 
 def _preparse_compliance_scan(text: str) -> Dict[str, Any]:
     if not text:

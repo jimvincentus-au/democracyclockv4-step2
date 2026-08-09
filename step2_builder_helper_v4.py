@@ -11,7 +11,7 @@ from typing import Any, Dict, List, Tuple, Optional
 
 # ---------- canonical LLM-output parser ----------
 
-_HDR_RE = re.compile(r"^(\d{4}-\d{2}-\d{2})\s+—\s+(.*)$")
+_HDR_RE = re.compile(r"^(\d{4}-\d{2}-\d{2})\s+[—–―\-]\s+(.*)$")
 _SUM_RE = re.compile(r"^Summary:\s*(.+)$", re.IGNORECASE)
 _SRC_RE = re.compile(r"^Source:\s*(.+)$", re.IGNORECASE)
 _CAT_RE = re.compile(r"^Category:\s*(.+)$", re.IGNORECASE)
@@ -281,7 +281,7 @@ def make_event_record(entity: Dict[str, Any], extracted_text: str) -> Dict[str, 
 # Examples:
 #   === 2025-10-20 — Title
 #   2025-10-20 — Title
-_HEADER_RE = re.compile(r"^(?:===\s*)?(\d{4}-\d{2}-\d{2})\s+—\s+(.+)$", re.M)
+_HEADER_RE = re.compile(r"^(?:===\s*)?(\d{4}-\d{2}-\d{2})\s+[—–―\-]\s+(.+)$", re.M)
 _ATK_RE     = re.compile(r'^"?attacks"?\s*:\s*(.+)$', re.IGNORECASE)
 
 def _parse_llm_events_canonical(text: str, *, article_url: str = "", logger=None) -> List[Dict[str, Any]]:

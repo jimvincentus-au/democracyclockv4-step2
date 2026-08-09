@@ -35,7 +35,7 @@ from step2_extractor_v4 import extract_events_from_text
 # Canonical LLM block parser
 # ------------------------------------------------------------
 
-_HDR_RE = re.compile(r"^(\d{4}-\d{2}-\d{2})\s+—\s+(.*)$")
+_HDR_RE = re.compile(r"^(\d{4}-\d{2}-\d{2})\s+[—–―\-]\s+(.*)$")
 _SUM_RE = re.compile(r"^Summary:\s*(.+)$", re.IGNORECASE)
 _SRC_RE = re.compile(r"^Source:\s*(.+)$", re.IGNORECASE)
 _CAT_RE = re.compile(r"^Category:\s*(.+)$", re.IGNORECASE)

@@ -71,6 +71,29 @@ Third batch (2026-08-10):
   `_DEFAULT_MAX_TOKENS` constant above. Dead `_DEFAULT_EXTRACT_MODEL` /
   `_DEFAULT_TEMPERATURE` left in place (harmless).
 
+Fourth batch (2026-08-10) — medium-severity:
+
+- ✅ **M-1** — Congress builder now keeps presidential vetoes / override votes via
+  a new `_is_veto_or_override` predicate; previously they were dropped whenever the
+  same window also held a public law. Unit-tested.
+- ✅ **M-3** — the em-dash-dependent header parser is hardened across **16 regexes
+  in 15 files**: the separator now accepts em / en / horizontal-bar / hyphen
+  (`[—–―\-]`). A model that emits a hyphen instead of `—` no longer zeroes out a
+  whole article. **Important before the model migration.** Verified all variants.
+- ✅ **M-5** — Zeteo pagination now advances the API offset by the actual number of
+  posts returned, not `page_idx*per`; a short (non-final) page no longer skips the
+  posts in the gap. Mirrors the Bulwark harvester's correct approach.
+- ⏳ **M-2** (two divergent parsers) — the acute risk (a `===`/em-dash mismatch
+  zeroing a source) is now mostly closed by M-3. Full consolidation into one shared
+  parser is a refactor with regression risk; deferred, not urgent.
+- ⏳ **M-4** (scotusblog empty-category drop) — **moot** for the event log now that
+  H-2 excludes scotusblog from it. Left as-is.
+- ⏳ **M-6** (no cross-source dedup = Cowork F4) — a design decision that also spans
+  Step 3; deferred to the migration/schema work.
+- ⏳ **M-7** (`ids` 1-based vs 0-based across builders) — debug/CLI-only knob
+  (orchestrator passes `ids=None`); left unchanged to avoid disturbing existing
+  manual usage. Noted for a future consistency pass.
+
 ### New: C-2b (found while fixing C-2) — DD v5 harvester lists non-articles [read + live]
 - ✅ **FIXED (2026-08-10)** — `step2_getdemocracydocket_v5.py` now drops URLs whose
   path is a bare section root (`.../analysis/`, `.../opinion/`, `.../news/`, site
@@ -226,7 +249,7 @@ again by the writer's `--strict` mode
 
 ### 🟡 Medium
 
-- **M-1. Congress build drops vetoes/overrides depending on window contents. [read]**
+- **M-1. ✅ FIXED — Congress build drops vetoes/overrides depending on window contents. [read]**
   The keep-filter retains only public laws or salient non-bills; vetoes/pocket-vetoes
   pass neither, and `if kept: items = kept`
   ([buildcongress_v4.py:291](step2_buildcongress_v4.py:291)) applies the filter only
@@ -241,7 +264,7 @@ again by the writer's `--strict` mode
   missing-`Summary:` block (helper:82) and only the latter tolerates a `===`
   header prefix — if the prompt/model ever emits `===`, the whole Substack family
   parses **zero** blocks. Latent trap; unify them.
-- **M-3. Parser hinges on a literal em-dash `—` in the date header. [read]**
+- **M-3. ✅ FIXED — Parser hinges on a literal em-dash `—` in the date header. [read]**
   `_HDR_RE`/`_HEADER_RE` require `YYYY-MM-DD — title`
   ([builder_helper:14](step2_builder_helper_v4.py:14); prompt spec at
   [prompts:53](step2_prompts_v4.py:53)). A model emitting a hyphen/en-dash instead
@@ -252,7 +275,7 @@ again by the writer's `--strict` mode
   Unlike orders/opinions (which force a default), it trusts the LLM's `Category:`
   line ([buildscotusblog_v4.py:134](step2_buildscotusblog_v4.py:134)); omission →
   empty category → dropped under `--strict`.
-- **M-5. Zeteo pagination uses a fixed stride. [read]**
+- **M-5. ✅ FIXED — Zeteo pagination uses a fixed stride. [read]**
   `offset = page_idx * per` ([getzeteo_v4.py:150](step2_getzeteo_v4.py:150)) — the
   exact bug Bulwark's code documents fixing (advance by `len(posts)`). On windows
   needing backfill past a short page, posts in the skipped offset range are never
