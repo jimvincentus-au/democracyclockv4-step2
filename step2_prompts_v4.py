@@ -37,7 +37,20 @@ Examples include:
 • elections, campaign filings, appointments, or removals
 • statements or leaks revealing new facts of legal, political, or ethical consequence
 • protests, censorship, arrests, sanctions, or military deployments
-Not events: analysis, speculation, opinions, or reactions.
+• an official refusal, defiance, or non-cooperation — declining to extradite,
+  enforce, comply, certify, or assist another authority. A concrete official
+  refusal is an ACT (the declaration has occurred); capture it. Jurisdiction
+  may be state or local.
+• a non-governmental act that materially alters democratic conditions AND that
+  government or institutions respond to — e.g., political violence, an
+  assassination, organized intimidation, a major cyber-attack. Record the act
+  itself as the predicate event (tag Jurisdiction accordingly), so the responses
+  to it do not sit in the record with nothing they respond to. Exclude ordinary
+  private crime with no bearing on democratic conditions.
+Not events: analysis, speculation, opinions, or purely rhetorical reactions
+(punditry, partisan spin, "X condemned Y", forecasts). A consequential act is NOT
+a "reaction": a declared official refusal, a legislative walkout, or a sanctuary
+posture IS an event; an opinion about one is not.
 
 SCOPE AND EXHAUSTIVENESS:
 • Extract every democracy-relevant act; do not merge distinct acts.
@@ -201,8 +214,8 @@ TEXT CHARACTERISTICS:
 
 EXPECTED OUTPUT BEHAVIOR:
 1. Coverage: extract every democracy-relevant act — one event per act. If the bulletin reports 15 acts, expect ≈15 events.
-2. Selection: include new, verifiable actions, rulings, orders, filings, appointments, sanctions, protests, hearings, or votes.  
-   Exclude speculation, partisan opinion, or forecasts of future acts.
+2. Selection: include new, verifiable actions, rulings, orders, filings, appointments, sanctions, protests, hearings, votes, official refusals or non-cooperation (e.g. declining to extradite, enforce, or comply), and predicate acts of political violence that government responds to.
+   Exclude speculation, partisan opinion, or forecasts of future acts — but a declared official refusal is a present act, not a forecast.
 3. Granularity: if one paragraph reports several actions (“The Senate confirmed X and the President signed Y”), record both separately.
 4. Completeness: typical yield is 10–25 event blocks depending on bulletin length and density.
 5. Neutrality: past tense, factual tone; no adjectives or evaluative phrasing.
@@ -260,8 +273,8 @@ TEXT CHARACTERISTICS:
 EXPECTED OUTPUT BEHAVIOR:
 1. Coverage: capture every democracy-relevant act mentioned — one event per act.  
    A normal article yields 5–15 events depending on density.
-2. Selection: include verifiable actions, rulings, directives, votes, appointments, sanctions, investigations, or official reports that affect governance, law, or rights.  
-   Exclude opinion, forecasts, or counterfactual discussion.
+2. Selection: include verifiable actions, rulings, directives, votes, appointments, sanctions, investigations, or official reports that affect governance, law, or rights, plus official refusals/non-cooperation and predicate acts of political violence that government responds to.
+   Exclude opinion, forecasts, or counterfactual discussion — but a declared official refusal is a present act, not a forecast.
 3. Granularity: do not merge multiple acts within one paragraph. Each new governmental decision, policy, or ruling = one event.
 4. Completeness: ensure no qualifying act is omitted.
 5. Neutrality: past tense, factual, reportorial tone — no adjectives or interpretive framing.
