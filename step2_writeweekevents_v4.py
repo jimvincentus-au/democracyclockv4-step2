@@ -284,6 +284,10 @@ class EventRow:
     basis: str          # verbatim source quote, or ""
     jurisdiction: str   # federal | state | local | private | foreign | multi | ""
     federal_nexus: str  # sentence when jurisdiction != federal, else ""
+    # act_key inputs (Cowork #4/#8 corroboration tier + #5 archive-as-authority join)
+    actor: str          # primary actor as emitted, or ""
+    action: str         # short action lemma as emitted, or ""
+    act_key: str        # deterministic normalize(actor)|normalize(action)|date, or ""
     # Provenance:
     origin_file: str
     origin_index: int
@@ -350,6 +354,11 @@ def _norm_event(e: Dict[str, Any], source_key: str, origin_file: str, idx: int, 
     jurisdiction = str(e.get("jurisdiction") or "").strip().lower()
     federal_nexus = str(e.get("federal_nexus") or "").strip()
 
+    # act_key inputs (#4/#8 + #5): actor + action + effective date, computed here.
+    actor = str(e.get("actor") or "").strip()
+    action = str(e.get("action") or "").strip()
+    act_key = _compute_act_key(actor, action, date_iso)
+
     # Strict mode: must have title, summary, category, why
     if strict and (not title or not summary or not category or not why):
         logger.warning("Strict drop: missing fields at %s[%d] (title=%r, cat=%r)", origin_file, idx, title, category)
@@ -373,6 +382,9 @@ def _norm_event(e: Dict[str, Any], source_key: str, origin_file: str, idx: int, 
         basis=basis,
         jurisdiction=jurisdiction,
         federal_nexus=federal_nexus,
+        actor=actor,
+        action=action,
+        act_key=act_key,
         origin_file=origin_file,
         origin_index=idx,
     )
@@ -555,6 +567,34 @@ def _dedupe_rows(
 # ──────────────────────────────────────────────────────────────────────────────
 # Source metadata + durable keys (Cowork items 1–3)
 # ──────────────────────────────────────────────────────────────────────────────
+
+# act_key: deterministic cross-source / archive identity (Cowork #4/#8 + #5)
+_ACTKEY_TITLES = {
+    "secretary", "president", "senator", "representative", "governor", "attorney",
+    "general", "judge", "justice", "director", "administrator", "chair", "chairman",
+    "chairwoman", "rep", "sen", "gov", "dr", "mr", "ms", "mrs", "the", "of", "us",
+}
+
+def _actkey_norm(s: str, drop_titles: bool = False) -> str:
+    s = re.sub(r"[^a-z0-9 ]+", " ", (s or "").lower())
+    toks = [t for t in s.split() if t]
+    if drop_titles:
+        toks = [t for t in toks if t not in _ACTKEY_TITLES]
+    return " ".join(toks)
+
+def _compute_act_key(actor: str, action: str, date_iso: str) -> str:
+    """Deterministic identity: normalize(actor) | normalize(action) | date. Used to
+    (a) count distinct outlets sharing one act for the corroboration tier (#8) and
+    (b) join a pipeline event to its canonical Trump Action Archive event
+    (#5, archive-as-authority). Returns "" when actor/action/date are insufficient to
+    form a stable key — an empty key is better than a false cluster."""
+    na = _actkey_norm(actor, drop_titles=True)
+    nc = _actkey_norm(action)
+    d = (date_iso or "").strip()[:10]
+    if not na or not nc or not re.match(r"^\d{4}-\d{2}-\d{2}$", d):
+        return ""
+    return f"{na}|{nc}|{d}"
+
 
 _FR_DOC_RE   = re.compile(r"federalregister\.gov/documents/\d{4}/\d{2}/\d{2}/([0-9]{4}-[0-9]{3,})", re.I)
 _CL_DOCK_RE  = re.compile(r"courtlistener\.com/docket/(\d+)", re.I)
@@ -767,6 +807,9 @@ def main() -> int:
                 "federal_nexus": ev.federal_nexus,
                 "confidence": ev.confidence,
                 "basis": ev.basis,
+                "actor": ev.actor,
+                "action": ev.action,
+                "act_key": ev.act_key,
                 "attacks": ev.attacks,
                 "source_meta": url_meta_cache.get(ev.url) or _empty_meta,
                 "_origin_file": ev.origin_file,
@@ -852,6 +895,9 @@ def main() -> int:
                         "federal_nexus": r.federal_nexus,
                         "confidence": r.confidence,
                         "basis": r.basis,
+                        "actor": r.actor,
+                        "action": r.action,
+                        "act_key": r.act_key,
                         "attacks": r.attacks,
                         "source_meta": url_meta_cache.get(r.url) or _empty_meta,
                         "_origin_file": r.origin_file,

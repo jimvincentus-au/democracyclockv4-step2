@@ -25,6 +25,8 @@ _CONF_RE     = re.compile(r"^\s*Confidence:\s*(.+)$", re.IGNORECASE | re.MULTILI
 _BASIS_RE    = re.compile(r"^\s*Basis:\s*(.+)$", re.IGNORECASE | re.MULTILINE)
 _JURIS_RE    = re.compile(r"^\s*Jurisdiction:\s*(.+)$", re.IGNORECASE | re.MULTILINE)
 _NEXUS_RE    = re.compile(r"^\s*Federal nexus:\s*(.+)$", re.IGNORECASE | re.MULTILINE)
+_ACTOR_RE    = re.compile(r"^\s*Actor:\s*(.+)$", re.IGNORECASE | re.MULTILINE)
+_ACTION_RE   = re.compile(r"^\s*Action:\s*(.+)$", re.IGNORECASE | re.MULTILINE)
 _ISO_RE      = re.compile(r"\d{4}-\d{2}-\d{2}")
 _VALID_JURIS = {"federal", "state", "local", "private", "foreign", "multi"}
 _NULLISH     = {"", "unknown", "none", "n/a", "na", "null"}
@@ -60,12 +62,18 @@ def parse_supplemental_fields(block_text: str) -> Dict[str, Any]:
     nexus = _g(_NEXUS_RE).strip()
     federal_nexus = None if nexus.lower() in _NULLISH else nexus
 
+    # act_key inputs (Cowork #4/#8 + #5 archive-as-authority join, added 2026-08-10)
+    actor = _g(_ACTOR_RE).strip().strip('"').strip("'").strip() or None
+    action = _g(_ACTION_RE).strip().strip('"').strip("'").strip().lower() or None
+
     return {
         "occurred_on": occurred_on,
         "confidence": confidence,
         "basis": basis,
         "jurisdiction": jurisdiction,
         "federal_nexus": federal_nexus,
+        "actor": actor,
+        "action": action,
     }
 
 

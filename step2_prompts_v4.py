@@ -67,6 +67,8 @@ OUTPUT FORMAT — FOLLOW THIS EXACT SCHEMA FOR EACH EVENT:
    Federal nexus: {if Jurisdiction is not "federal", one sentence naming the federal connection; otherwise the single word: none}
    Confidence: {exactly one of: high | medium | low — your confidence this is a real, distinct, qualifying past-tense act}
    Basis: {a short verbatim quote (≤25 words) copied from the source text that this event is drawn from}
+   Actor: {the single primary actor who took the act — a specific person or institution, named plainly (e.g. "Trump", "DOJ", "Scott Bessent", "SCOTUS", "Newsom"). One actor only.}
+   Action: {a short canonical action lemma of 2–5 words: verb + object, lower-case (e.g. "signed executive order", "dismissed lawsuit", "deployed national guard", "faced mortgage scrutiny"). No dates, names, or adjectives — just the act.}
    attacks: [{comma-separated handles or empty}]  ← always present, even if empty
 
 3) Footer (mandatory):
