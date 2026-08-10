@@ -271,7 +271,136 @@ def _fetch_substack_transcript_text(transcript_url: str, timeout: int = 30) -> s
     except Exception:
         return ""
 
-def fetch_article_text(url: str, timeout: int = 30) -> Tuple[str, int]:
+# -----------------------------------------------------------------------------
+# Source-metadata capture (Cowork items 1 & 3), parsed at fetch time when the page
+# is in hand. Recovering these later is unreliable/impossible (measured: Serper
+# resolved only 9 of 69 after the fact), so we capture at ingest.
+# -----------------------------------------------------------------------------
+
+def _sm_first(*vals):
+    for v in vals:
+        if v and str(v).strip():
+            return str(v).strip()
+    return None
+
+def _sm_norm_date(s):
+    """Best-effort normalize a publication timestamp to YYYY-MM-DD (nullable)."""
+    if not s:
+        return None
+    m = re.search(r"(\d{4})-(\d{2})-(\d{2})", str(s))
+    if m:
+        return m.group(0)
+    from datetime import datetime as _dt
+    for fmt in ("%B %d, %Y", "%b %d, %Y", "%d %B %Y", "%m/%d/%Y"):
+        try:
+            return _dt.strptime(str(s).strip(), fmt).strftime("%Y-%m-%d")
+        except Exception:
+            pass
+    return None
+
+def _sm_jsonld(soup):
+    recs = []
+    for tag in soup.find_all("script", attrs={"type": "application/ld+json"}):
+        try:
+            data = json.loads(tag.string or tag.get_text() or "")
+        except Exception:
+            continue
+        if isinstance(data, dict):
+            if isinstance(data.get("@graph"), list):
+                recs.extend(x for x in data["@graph"] if isinstance(x, dict))
+            else:
+                recs.append(data)
+        elif isinstance(data, list):
+            recs.extend(x for x in data if isinstance(x, dict))
+    return recs
+
+def parse_source_metadata(soup, url: str) -> Dict[str, Any]:
+    """Citation-grade metadata from an article's HTML: headline (verbatim, untruncated),
+    published_on (YYYY-MM-DD), byline, outlet. All fields nullable."""
+    meta: Dict[str, Any] = {"headline": None, "published_on": None, "byline": None, "outlet": None}
+    if soup is None:
+        return meta
+
+    def _mp(prop):
+        t = soup.find("meta", attrs={"property": prop})
+        return t.get("content") if t and t.get("content") else None
+    def _mn(name):
+        t = soup.find("meta", attrs={"name": name})
+        return t.get("content") if t and t.get("content") else None
+
+    ld_headline = ld_pub = ld_author = ld_outlet = None
+    for rec in _sm_jsonld(soup):
+        t = rec.get("@type")
+        types = t if isinstance(t, list) else [t]
+        if any(str(x).lower() in ("newsarticle", "article", "reportagenewsarticle", "webpage") for x in types):
+            ld_headline = ld_headline or rec.get("headline") or rec.get("name")
+            ld_pub = ld_pub or rec.get("datePublished") or rec.get("dateCreated")
+            a = rec.get("author")
+            if isinstance(a, dict):
+                ld_author = ld_author or a.get("name")
+            elif isinstance(a, list) and a and isinstance(a[0], dict):
+                ld_author = ld_author or a[0].get("name")
+            elif isinstance(a, str):
+                ld_author = ld_author or a
+            pub = rec.get("publisher")
+            if isinstance(pub, dict):
+                ld_outlet = ld_outlet or pub.get("name")
+
+    title_tag = soup.find("title")
+    h1 = soup.find("h1")
+    time_tag = soup.find("time")
+    time_dt = time_tag.get("datetime") if time_tag and time_tag.get("datetime") else None
+
+    meta["headline"] = _sm_first(_mp("og:title"), _mn("twitter:title"), ld_headline,
+                                 h1.get_text(strip=True) if h1 else None,
+                                 title_tag.get_text(strip=True) if title_tag else None)
+    meta["published_on"] = _sm_norm_date(_sm_first(
+        _mp("article:published_time"), _mp("og:article:published_time"), ld_pub,
+        _mn("publishdate"), _mn("pubdate"), _mn("date"), _mn("DC.date.issued"), time_dt))
+    meta["byline"] = _sm_first(ld_author, _mn("author"), _mp("article:author"),
+                               _mn("byl"), _mn("sailthru.author"))
+    from urllib.parse import urlsplit as _urlsplit
+    meta["outlet"] = _sm_first(_mp("og:site_name"), ld_outlet, _mn("application-name")) or (
+        (_urlsplit(url).netloc or "").replace("www.", "") or None)
+    return meta
+
+_WAYBACK_ENABLED = (os.getenv("DC_WAYBACK_SNAPSHOT", "") or "").strip().lower() in ("1", "true", "yes", "on")
+
+def _wayback_snapshot(url: str) -> Optional[str]:
+    """Best-effort Wayback 'Save Page Now' (Cowork item 3). Env-gated via
+    DC_WAYBACK_SNAPSHOT=1 because SPN is rate-limited and adds latency per URL.
+    Returns the archived URL or None; never raises."""
+    if not _WAYBACK_ENABLED or not url:
+        return None
+    try:
+        r = requests.get("https://web.archive.org/save/" + url, timeout=25, allow_redirects=True)
+        cl = r.headers.get("Content-Location")
+        if cl:
+            return "https://web.archive.org" + cl
+        if "/web/" in (getattr(r, "url", "") or ""):
+            return r.url
+    except Exception as e:
+        LOGGER.debug("wayback snapshot failed for %s: %s", url, e)
+    return None
+
+def _persist_source_metadata(url: str, meta: Dict[str, Any], status: int, artifacts_root: Optional[str]) -> None:
+    """Write captured source metadata keyed by url, once (idempotent — skip if it
+    already exists so we don't re-snapshot). Best-effort; never breaks extraction."""
+    if not url or status != 200:
+        return
+    root = Path(artifacts_root or "artifacts") / "source_meta"
+    root.mkdir(parents=True, exist_ok=True)
+    out = root / f"{_sha1(url)}.json"
+    if out.exists():
+        return
+    rec = dict(meta or {})
+    rec["url"] = url
+    rec["accessed_on"] = time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime())
+    rec["snapshot_url"] = _wayback_snapshot(url)
+    out.write_text(json.dumps(rec, ensure_ascii=False, indent=2), encoding="utf-8")
+
+
+def fetch_article_text(url: str, timeout: int = 30) -> Tuple[str, int, Dict[str, Any]]:
     headers = {
         "User-Agent": ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
                        "AppleWebKit/537.36 (KHTML, like Gecko) "
@@ -281,13 +410,14 @@ def fetch_article_text(url: str, timeout: int = 30) -> Tuple[str, int]:
         "Cache-Control": "no-cache",
     }
     raw_html = ""
+    meta: Dict[str, Any] = {}
     try:
         r = requests.get(url, headers=headers, timeout=timeout, allow_redirects=True)
         status = r.status_code
         raw_html = r.text or ""
     except Exception as e:
         LOGGER.error("fetch_article_text: EXCEPTION for url=%s err=%s", url, e)
-        return "", 0
+        return "", 0, {}
 
     LOGGER.debug("fetch_article_text: url=%s status=%s raw_bytes=%s", url, status, len(raw_html))
 
@@ -295,6 +425,12 @@ def fetch_article_text(url: str, timeout: int = 30) -> Tuple[str, int]:
     winning_selector = None
     if status == 200 and raw_html:
         soup = BeautifulSoup(raw_html, "html.parser")
+        # Cowork item 1: capture citation-grade source metadata while the page is in hand.
+        try:
+            meta = parse_source_metadata(soup, url)
+        except Exception as _me:
+            LOGGER.debug("parse_source_metadata failed for %s: %s", url, _me)
+            meta = {}
 
         # DemocracyDocket first
         selectors = [
@@ -345,7 +481,7 @@ def fetch_article_text(url: str, timeout: int = 30) -> Tuple[str, int]:
                 len(text), url, dbg_file
             )
 
-    return text, status
+    return text, status, meta
 
 
 # -----------------------------------------------------------------------------
@@ -518,8 +654,15 @@ def extract_events_from_url(
     _ensure_dir(out_dir)
 
     # 1) fetch
-    art_text, rc = fetch_article_text(url)
+    art_text, rc, src_meta = fetch_article_text(url)
     LOGGER.debug("extract_events_from_url: after fetch len=%s rc=%s url=%s", len(art_text), rc, url)
+
+    # Cowork items 1 & 3: persist citation-grade source metadata + snapshot at ingest,
+    # keyed by url (idempotent). Best-effort — never affects extraction.
+    try:
+        _persist_source_metadata(url, src_meta, rc, artifacts_root)
+    except Exception as _sme:
+        LOGGER.debug("source-meta persist failed for %s: %s", url, _sme)
 
     # 2) decide log policy
     _pol, _samp = _resolve_log_policy(log_policy, log_sample_rate)

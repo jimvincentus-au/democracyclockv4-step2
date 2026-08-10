@@ -5,6 +5,7 @@
 from __future__ import annotations
 
 import argparse
+import hashlib
 import json
 import re
 import sys
@@ -551,6 +552,62 @@ def _dedupe_rows(
 # Main
 # ──────────────────────────────────────────────────────────────────────────────
 
+# ──────────────────────────────────────────────────────────────────────────────
+# Source metadata + durable keys (Cowork items 1–3)
+# ──────────────────────────────────────────────────────────────────────────────
+
+_FR_DOC_RE   = re.compile(r"federalregister\.gov/documents/\d{4}/\d{2}/\d{2}/([0-9]{4}-[0-9]{3,})", re.I)
+_CL_DOCK_RE  = re.compile(r"courtlistener\.com/docket/(\d+)", re.I)
+_CONG_WEB_RE = re.compile(r"congress\.gov/bill/(\d+)(?:st|nd|rd|th)-congress/([a-z-]+)/(\d+)", re.I)
+_CONG_API_RE = re.compile(r"api\.congress\.gov/v3/bill/(\d+)/([a-z]+)/(\d+)", re.I)
+
+def _derive_durable_keys(url: str) -> Dict[str, str]:
+    """Cowork item 2: pull citation-grade, non-decaying identifiers straight out of
+    the URL (Federal Register doc #, CourtListener docket, Congress bill). These are
+    what a serious endnote cites and never rot. Pure URL parsing — works for every
+    source, LLM-fetched or deterministic."""
+    keys: Dict[str, str] = {}
+    if not url:
+        return keys
+    m = _FR_DOC_RE.search(url)
+    if m:
+        keys["federal_register_doc"] = m.group(1).upper()
+    m = _CL_DOCK_RE.search(url)
+    if m:
+        keys["courtlistener_docket_id"] = m.group(1)
+    m = _CONG_WEB_RE.search(url) or _CONG_API_RE.search(url)
+    if m:
+        keys["congress_bill"] = f"{m.group(1)}-{m.group(2).lower()}-{m.group(3)}"
+    return keys
+
+def _load_captured_source_meta(artifacts_root: Path, url: str) -> Dict[str, Any]:
+    """Load the source metadata the extractor captured at ingest (headline,
+    published_on, byline, outlet, accessed_on, snapshot_url), keyed by url hash.
+    Returns {} if none was captured (e.g. deterministic sources not fetched)."""
+    if not url:
+        return {}
+    p = Path(artifacts_root) / "source_meta" / f"{hashlib.sha1(url.encode('utf-8')).hexdigest()}.json"
+    if not p.exists():
+        return {}
+    try:
+        return json.loads(p.read_text(encoding="utf-8"))
+    except Exception:
+        return {}
+
+def _source_meta_for(artifacts_root: Path, url: str) -> Dict[str, Any]:
+    """Assemble the per-event source-metadata block for the master index."""
+    m = _load_captured_source_meta(artifacts_root, url)
+    return {
+        "headline": m.get("headline"),
+        "published_on": m.get("published_on"),
+        "byline": m.get("byline"),
+        "outlet": m.get("outlet"),
+        "accessed_on": m.get("accessed_on"),
+        "snapshot_url": m.get("snapshot_url"),
+        "durable_keys": _derive_durable_keys(url),
+    }
+
+
 def main() -> int:
     args = _parse_args()
     artifacts = Path(args.artifacts_root)
@@ -653,6 +710,17 @@ def main() -> int:
 
     all_rows.sort(key=sort_key)
 
+    # Cowork items 1-3: assemble per-url source metadata (captured at ingest) +
+    # derived durable keys once, then attach to each event in the indexes below.
+    url_meta_cache: Dict[str, Dict[str, Any]] = {}
+    for _ev in all_rows:
+        if _ev.url and _ev.url not in url_meta_cache:
+            url_meta_cache[_ev.url] = _source_meta_for(artifacts, _ev.url)
+    _empty_meta = {
+        "headline": None, "published_on": None, "byline": None, "outlet": None,
+        "accessed_on": None, "snapshot_url": None, "durable_keys": {},
+    }
+
     # Preview
     if args.preview and args.preview > 0:
         logger.info("Preview mode: limiting to first %d events after sort.", args.preview)
@@ -700,6 +768,7 @@ def main() -> int:
                 "confidence": ev.confidence,
                 "basis": ev.basis,
                 "attacks": ev.attacks,
+                "source_meta": url_meta_cache.get(ev.url) or _empty_meta,
                 "_origin_file": ev.origin_file,
                 "_origin_index": ev.origin_index,
             }
@@ -784,6 +853,7 @@ def main() -> int:
                         "confidence": r.confidence,
                         "basis": r.basis,
                         "attacks": r.attacks,
+                        "source_meta": url_meta_cache.get(r.url) or _empty_meta,
                         "_origin_file": r.origin_file,
                         "_origin_index": r.origin_index,
                     }
