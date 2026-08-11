@@ -518,7 +518,10 @@ def _dedupe_rows(
 
     Strategy: group by (source_key, normalized url). If more than one origin
     file contributed to a group, keep exactly one file's extraction of that
-    url — the most complete (most rows; ties broken by newest file mtime).
+    url — preferring the ENRICHED (act_key-bearing) extraction first, then the
+    most complete (most rows), then newest file mtime. Enriched-first prevents a
+    mixed-vintage --rebuild-all from letting an old un-enriched extraction win on
+    row count and silently stripping act_key/actor/action.
     Events that share a url *within a single file* are left intact: those are
     the legitimate many-events-per-roundup-article case. Url-less events cannot
     be keyed safely and are passed through unchanged.
@@ -542,7 +545,15 @@ def _dedupe_rows(
         multi_url += 1
         best_file = max(
             by_file,
-            key=lambda fn: (len(by_file[fn]), file_mtime.get(fn, 0.0)),
+            key=lambda fn: (
+                # Enriched extraction wins first: a new-vintage file (act_key/actor/action
+                # populated) always beats an old-vintage one, regardless of row count.
+                # Without this, the old prompt's more-verbose extraction (more rows) would
+                # win and silently strip enrichment during a mixed-vintage --rebuild-all.
+                any(bool(r.act_key) for r in by_file[fn]),
+                len(by_file[fn]),                 # then most complete
+                file_mtime.get(fn, 0.0),          # then newest harvest
+            ),
         )
         kept.extend(by_file[best_file])
         removed += sum(len(v) for fn, v in by_file.items() if fn != best_file)
