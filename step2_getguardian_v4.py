@@ -89,6 +89,17 @@ _EXCLUDE_SECTION_IDS = {
     "letters",
 }
 
+# Tone-tag exclusion. Opinion pieces frequently live INSIDE section=us-news
+# (so the section/URL checks above miss them). The Guardian `tone/` taxonomy is
+# the reliable signal. We drop PURE opinion only and deliberately KEEP news,
+# analysis, explainers, and features — Step 2 is a recall-first blunt collector;
+# Step 3 does precision. Requires show-tags=tone in the query params.
+_EXCLUDE_TONE_TAGS = {
+    "tone/comment",     # opinion columns
+    "tone/editorials",  # editorials / the paper's view
+    "tone/letters",     # readers' letters
+}
+
 def _params(page: int, page_size: int, start: str, end: str, api_key: str) -> Dict[str, Any]:
     """
     Build Content API params for a windowed search.
@@ -105,6 +116,8 @@ def _params(page: int, page_size: int, start: str, end: str, api_key: str) -> Di
         "api-key": api_key,
         # Bring useful fields for writer/Step-2
         "show-fields": "byline,trailText,bodyText",
+        # Bring tone tags so we can drop pure opinion that hides inside us-news.
+        "show-tags": "tone",
     }
     return p
 
@@ -213,6 +226,12 @@ def _looks_opinion(item: Dict[str, Any]) -> bool:
     title = (item.get("webTitle") or "").lower()
     if title.startswith("opinion:") or "[opinion]" in title:
         return True
+    # NEW: tone-tag check — catches opinion pieces that sit inside us-news
+    # (e.g. an analysis/comment column not routed through commentisfree).
+    # Requires show-tags=tone; degrades to no-op if tags are absent.
+    for t in item.get("tags") or []:
+        if (t.get("id") or "").strip().lower() in _EXCLUDE_TONE_TAGS:
+            return True
     return False
 
 def _is_us_news(item: Dict[str, Any]) -> bool:
