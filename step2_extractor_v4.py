@@ -33,6 +33,12 @@ LOGGER = setup_logger("dc.extractor")  # level governed by --level / DC_LOG_LEVE
 # Single place where we define the fallback LLM for ALL builders
 _DEFAULT_EXTRACT_MODEL = "builder_default"
 _DEFAULT_TEMPERATURE = 0.2
+# Provider toggle (backout plan). DC_LLM_PROVIDER selects the backend at the one
+# LLM call site below: "openai" (default) reproduces the original behaviour
+# byte-for-byte; "claude" routes to the Anthropic SDK. When on Claude, the
+# OpenAI model id passed in by the builders is ignored and DC_CLAUDE_MODEL is
+# used instead (default below). Haiku 4.5 is the cost-optimised default.
+_DEFAULT_CLAUDE_MODEL = "claude-haiku-4-5"
 # H-4 fix (2026-08-10): the previous 6000-token default silently truncated dense
 # sources (Zeteo expects 20-40 events, Meidas 10-25) — later events were lost with
 # only a compliance warning. Billing is on ACTUAL output tokens, not this cap, so
@@ -545,6 +551,109 @@ def call_openai(
 
 
 # -----------------------------------------------------------------------------
+# Claude call (provider toggle)
+# -----------------------------------------------------------------------------
+
+def call_claude(
+    messages: List[Dict],
+    *,
+    model: str,
+    temperature: float,
+    max_tokens: int
+) -> Tuple[str, Optional[str]]:
+    """
+    Anthropic path used when DC_LLM_PROVIDER=claude. Same signature and return
+    contract as call_openai() so it is a drop-in behind call_llm().
+
+    - Auth is zero-config: anthropic.Anthropic() uses ANTHROPIC_API_KEY if set
+      (metered API billing), otherwise the OAuth subscription profile written by
+      `ant auth login` (subscription-metered). This is the cost distinction.
+    - `model` here is the OpenAI model id the builders pass; for Claude it is
+      ignored in favour of DC_CLAUDE_MODEL (default _DEFAULT_CLAUDE_MODEL).
+    - Streaming is used so long extractions (up to _DEFAULT_MAX_TOKENS) do not
+      hit the non-streaming request timeout.
+    - finish_reason is normalised to OpenAI-style strings so the debug logs that
+      record it are unchanged across providers.
+    """
+    import anthropic  # lazy: the OpenAI path must not require anthropic installed
+
+    claude_model = os.getenv("DC_CLAUDE_MODEL", _DEFAULT_CLAUDE_MODEL)
+
+    # Split OpenAI-style messages into Anthropic (system + conversation).
+    system_chunks: List[str] = []
+    conv: List[Dict[str, str]] = []
+    for m in messages:
+        role = m.get("role")
+        content = m.get("content") or ""
+        if role == "system":
+            system_chunks.append(content)
+        elif role in ("user", "assistant"):
+            conv.append({"role": role, "content": content})
+        else:
+            # Fold any unexpected role into user text, defensively.
+            conv.append({"role": "user", "content": content})
+    if not conv:
+        conv = [{"role": "user", "content": ""}]
+
+    client = anthropic.Anthropic()
+
+    params: Dict[str, Any] = {
+        "model": claude_model,
+        "max_tokens": max_tokens or _DEFAULT_MAX_TOKENS,
+        "messages": conv,
+    }
+    if system_chunks:
+        params["system"] = "\n\n".join(system_chunks)
+    # Opus 4.8 / Sonnet 5 reject `temperature` (HTTP 400); Haiku 4.5 accepts it.
+    # Only send it for models known to accept it so a model swap can't 400.
+    if temperature is not None and "haiku" in claude_model.lower():
+        params["temperature"] = temperature
+
+    with client.messages.stream(**params) as stream:
+        final = stream.get_final_message()
+
+    text = "".join(
+        getattr(block, "text", "")
+        for block in final.content
+        if getattr(block, "type", None) == "text"
+    ).strip()
+
+    stop = getattr(final, "stop_reason", None)
+    finish_reason = {"end_turn": "stop", "max_tokens": "length"}.get(stop, stop)
+    return text, finish_reason
+
+
+# -----------------------------------------------------------------------------
+# Provider dispatcher — the pipeline's single LLM entry point
+# -----------------------------------------------------------------------------
+
+def call_llm(
+    messages: List[Dict],
+    *,
+    model: str,
+    temperature: float,
+    max_tokens: int
+) -> Tuple[str, Optional[str]]:
+    """
+    Single choke point for every LLM call in Step 2. DC_LLM_PROVIDER selects the
+    backend: "openai" (default) or "claude". This is the backout toggle — unset
+    or =openai reproduces the original OpenAI behaviour byte-for-byte.
+    """
+    provider = (os.getenv("DC_LLM_PROVIDER") or "openai").strip().lower()
+    if provider in ("claude", "anthropic"):
+        return call_claude(
+            messages, model=model, temperature=temperature, max_tokens=max_tokens
+        )
+    if provider in ("", "openai", "oai"):
+        return call_openai(
+            messages, model=model, temperature=temperature, max_tokens=max_tokens
+        )
+    raise RuntimeError(
+        f"Unknown DC_LLM_PROVIDER={provider!r} (expected 'openai' or 'claude')"
+    )
+
+
+# -----------------------------------------------------------------------------
 # Message construction
 # -----------------------------------------------------------------------------
 
@@ -754,7 +863,7 @@ def extract_events_from_url(
     }
     dbg.json(".debug.json", {"phase": "precall", **pre}, is_failure=False)
 
-    out_text, finish_reason = call_openai(
+    out_text, finish_reason = call_llm(
         messages=messages,
         model=model,
         temperature=temperature,
@@ -787,7 +896,7 @@ def extract_events_from_url(
     need_retry = (out_text or "").strip() == "RETRY_SCHEMA" or is_schema_fail
     if need_retry:
         messages_retry = _retry_append_instruction(messages)
-        out_text_retry, finish_reason_retry = call_openai(
+        out_text_retry, finish_reason_retry = call_llm(
             messages=messages_retry,
             model=model,
             temperature=temperature,
@@ -894,7 +1003,7 @@ def extract_events_from_text(
     }
     dbg.json(".debug.json", {"phase": "precall", **pre}, is_failure=False)
 
-    out_text, finish_reason = call_openai(
+    out_text, finish_reason = call_llm(
         messages=messages,
         model=model,
         temperature=temperature,
@@ -941,7 +1050,7 @@ def extract_events_from_text(
 
     if (out_text or "").strip() == "RETRY_SCHEMA" or is_schema_fail:
         messages_retry = _retry_append_instruction(messages)
-        out_text_retry, finish_reason_retry = call_openai(
+        out_text_retry, finish_reason_retry = call_llm(
             messages=messages_retry,
             model=model,
             temperature=temperature,

@@ -5,6 +5,7 @@ from __future__ import annotations
 import argparse
 import importlib
 import json
+import os
 import sys
 from pathlib import Path
 from typing import Any, Callable, Dict, List, Optional, Tuple, cast
@@ -103,6 +104,14 @@ def _parse_args() -> argparse.Namespace:
         help="Week number where week 1 = 2025-01-20..2025-01-24; week 2 = 2025-01-25..2025-01-31; later weeks Sat–Fri",
     )
 
+    # LLM provider toggle (backout plan). Convenience wrapper over the
+    # DC_LLM_PROVIDER env var read by the extractor's call_llm(). Lets a direct
+    # `buildweekevents` run (e.g. a single-source recovery) select the backend.
+    # Omit to honour an already-set DC_LLM_PROVIDER, else default openai.
+    ap.add_argument("--provider", choices=["openai", "claude"],
+                    help="LLM backend for extraction (sets DC_LLM_PROVIDER). "
+                         "Default: current env, else openai.")
+
     return ap.parse_args()
 
 
@@ -151,6 +160,11 @@ def _load_builder(key: str, logger) -> Optional[Callable[..., Dict[str, Any]]]:
 # -------------------------------------------------------------------
 def main() -> int:
     args = _parse_args()
+
+    # Propagate the provider choice to the extractor via the environment
+    # (call_llm reads DC_LLM_PROVIDER). Applies to direct builder runs.
+    if getattr(args, "provider", None):
+        os.environ["DC_LLM_PROVIDER"] = args.provider
 
     artifacts = Path(args.artifacts_root)
     (artifacts / "log").mkdir(parents=True, exist_ok=True)

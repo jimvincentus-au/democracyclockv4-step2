@@ -21,6 +21,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import os
 import subprocess
 import sys
 from dataclasses import dataclass
@@ -156,6 +157,14 @@ def _parse_args() -> argparse.Namespace:
     ap.add_argument("--build-cmd", default="step2_buildweekevents_v4.py")
     ap.add_argument("--write-cmd", default="step2_writeweekevents_v4.py")
 
+    # LLM provider toggle (backout plan). Convenience wrapper over the
+    # DC_LLM_PROVIDER env var that the extractor's call_llm() reads. Setting it
+    # here propagates to the get/build/write children (they inherit os.environ).
+    # Omit to honour an already-set DC_LLM_PROVIDER, else default openai.
+    ap.add_argument("--provider", choices=["openai", "claude"],
+                    help="LLM backend for extraction (sets DC_LLM_PROVIDER). "
+                         "Default: current env, else openai.")
+
     return ap.parse_args()
 
 
@@ -183,6 +192,11 @@ def _run_step(cmd: List[str]) -> RunResult:
 
 def main() -> int:
     args = _parse_args()
+
+    # Propagate the provider choice to the child steps via the environment.
+    # The extractor reads DC_LLM_PROVIDER inside call_llm(); children inherit it.
+    if args.provider:
+        os.environ["DC_LLM_PROVIDER"] = args.provider
 
     # Validate window arguments & compute inclusive start/end
     if args.start:
