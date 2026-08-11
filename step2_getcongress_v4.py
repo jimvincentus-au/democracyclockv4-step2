@@ -236,6 +236,76 @@ def _walk_bill_pages(
     logger.debug("Total bills seen across pages: %d", seen)
 
 
+def _normalize_action_date(raw_date: str) -> str:
+    """Normalize a Congress.gov actionDate ('YYYY-MM-DD' or ISO datetime) to YYYY-MM-DD."""
+    raw_date = (raw_date or "").strip()
+    if not raw_date:
+        return ""
+    try:
+        if "T" in raw_date:
+            return datetime.fromisoformat(raw_date.replace("Z", "+00:00")).date().isoformat()
+        return datetime.strptime(raw_date[:10], "%Y-%m-%d").date().isoformat()
+    except Exception:
+        return raw_date[:10]
+
+
+def _walk_law_pages(
+    session: requests.Session,
+    congress: int,
+    law_type: str,
+    logger,
+    page_limit: int = 250,
+    api_key: str = "",
+) -> Iterable[Dict[str, Any]]:
+    """
+    Iterate ENACTED laws for a Congress via /law/{congress}/{lawType}
+    (lawType: 'pub' = public laws, 'priv' = private laws).
+
+    Why not /bill windowed on fromDateTime/toDateTime? Because that endpoint filters
+    on `updateDate`, which the Congress.gov docs state explicitly "is NOT a date
+    corresponding to the legislative action date" — it bumps on any administrative
+    touch. Windowing on it floods the result with thousands of referral-stage bills
+    (2,405 in the wk34-45 run) and does NOT reliably surface enacted laws — the
+    shutdown-ending public law was missed entirely. The /law endpoint returns only
+    bills that became law (a few hundred per two-year Congress) and takes no date
+    params, so we page through all and filter client-side by the enactment date
+    (latestAction.actionDate). Same fail-loud handling as the bill walker.
+    """
+    base_url = f"{CONGRESS_BASE.rstrip('/')}/law/{congress}/{law_type}"
+    offset = 0
+    seen = 0
+    while True:
+        params: Dict[str, Any] = {"format": "json", "limit": str(page_limit), "offset": str(offset)}
+        if api_key:
+            params["api_key"] = api_key
+        resp = session.get(base_url, params=params, timeout=30)
+        status = resp.status_code
+        if status != 200:
+            snippet = (resp.text or "")[:300]
+            hint = " (missing or invalid CONGRESS_GOV_API_KEY?)" if status in (401, 403) else ""
+            msg = f"Congress.gov returned HTTP {status} for {resp.url}{hint}: {snippet}"
+            logger.error(msg)
+            raise RuntimeError(msg)
+        try:
+            data = resp.json()
+        except Exception:
+            msg = f"Congress.gov returned HTTP 200 with unparseable JSON at {resp.url}"
+            logger.error(msg)
+            raise RuntimeError(msg)
+
+        laws = data.get("laws", []) or []
+        logger.debug("GET %s offset=%s status=%s -> page_count=%s", resp.url, offset, status, len(laws))
+        for law in laws:
+            seen += 1
+            yield law
+
+        if len(laws) < page_limit:
+            break
+        offset += page_limit
+
+    logger.debug("Total %s laws seen across pages: %d", law_type, seen)
+
+
 # ---------------------------
 # Filtering & mapping
 # ---------------------------
@@ -378,10 +448,21 @@ def run_harvester(
     congress: Optional[int] = None,
 ) -> Dict[str, Any]:
     """
-    Step-1 harvester for Congress.gov bills (COPY mode):
-      - Queries by Congress number + update window (fromDateTime/toDateTime as RFC-3339 Z)
-      - Keeps terminal outcomes only
+    Step-1 harvester for Congress.gov ENACTED LAWS (COPY mode):
+      - Queries /law/{congress}/{pub,priv} (all enacted laws for the Congress)
+      - Filters client-side to laws ENACTED within [start, end]
+        (latestAction.actionDate = the "Became Public Law" date)
+      - Drops ceremonial laws (post-office namings, coins, CGM, VA facility renames)
       - Writes RAW snapshot and FILTERED entity list
+
+    Rationale: the prior /bill window query filtered on `updateDate` (any
+    administrative touch), which per Congress.gov docs is NOT the action date. It
+    returned thousands of referral-stage bills and zero enacted laws, silently
+    missing every public law (incl. the shutdown-ending CR). The /law endpoint is
+    the authoritative, low-noise source for terminal "became law" outcomes.
+
+    NOTE: veto/override/pocket-veto outcomes are not laws and are out of scope here
+    (rare, and heavily covered by the news sources). Add via bill actions if needed.
     """
     logger = setup_logger(f"dc.{HARVESTER_ID}", level, Path(log_path) if log_path else None)
     artifacts = Path(artifacts_root)
@@ -398,62 +479,64 @@ def run_harvester(
             "will fail this source with zero bills harvested."
         )
 
-    # Normalize window to Zulu datetimes per API requirement
-    from_dt = _as_utc_datetime_str(start, end_of_day=False)
-    to_dt = _as_utc_datetime_str(end, end_of_day=True)
-
     # Congress scope
     congress_num = congress or CONGRESS_NUMBER
 
     sess = session or build_session()
     logger.info("Session ready. Harvesting %s → %s", start, end)
     logger.info(
-        "Discovering Congress.gov bills: %s → %s (terminal actions only) | Congress=%s | fromDateTime=%s | toDateTime=%s",
-        start, end, congress_num, from_dt, to_dt
+        "Discovering Congress.gov enacted laws (pub+priv) | Congress=%s | enacted-in-window %s → %s",
+        congress_num, start, end
     )
 
-    # Walk pages
+    # Walk enacted laws (public + private); keep those enacted in-window.
     snapshot: List[Dict[str, Any]] = []
     kept_entities: List[Dict[str, Any]] = []
+    seen_by_type: Dict[str, int] = {}
 
-    for bill in _walk_bill_pages(sess, congress_num, from_dt, to_dt, logger, api_key=api_key):
-        snapshot.append({
-            "congress": bill.get("congress"),
-            "number": bill.get("number"),
-            "type": bill.get("type"),
-            "title": _bill_title(bill),
-            "latestAction": bill.get("latestAction"),
-            "url": bill.get("url"),
-        })
+    for law_type in ("pub", "priv"):
+        n_type = 0
+        for law in _walk_law_pages(sess, congress_num, law_type, logger, api_key=api_key):
+            n_type += 1
+            latest = law.get("latestAction") or {}
+            # Every /law item is enacted; the enactment date is latestAction.actionDate
+            # (text e.g. "Became Public Law No: 119-37.").
+            decision_date = _normalize_action_date(latest.get("actionDate") or "")
+            law_no = ""
+            _laws = law.get("laws") or []
+            if _laws and isinstance(_laws[0], dict):
+                law_no = _laws[0].get("number") or ""
 
-        is_term, tag, decision_date = _is_terminal_bill(bill)
-        if not is_term:
-            continue
-        # Drop ceremonial by default (rename/designate/coins/CGM)
-        if _looks_ceremonial(bill):
-            continue
+            snapshot.append({
+                "congress": law.get("congress"),
+                "number": law.get("number"),
+                "type": law.get("type"),
+                "lawType": law_type,
+                "lawNumber": law_no,
+                "title": _bill_title(law),
+                "latestAction": latest,
+                "url": law.get("url"),
+            })
 
-        entity = _bill_to_entity(bill, decision_date_iso=decision_date)
-        # -------- HARD WINDOW FILTER (extra belt) --------
-        # prefer the entity's post_date (we just set it from latestAction)
-        ent_date = (entity.get("post_date") or "").strip()[:10]
-        if ent_date:
-            if not (start <= ent_date <= end):
-                logger.debug(
-                    "Congress window drop: %s (entity post_date=%s outside %s→%s) title=%r",
-                    entity.get("url") or entity.get("canonical_url") or "",
-                    ent_date, start, end,
-                    entity.get("title", "")[:140],
-                )
+            # Drop ceremonial laws (post-office namings, coins, CGM, VA renames).
+            if _looks_ceremonial(law):
                 continue
-        else:
-            logger.debug(
-                "Congress window drop: missing post_date → %r",
-                entity.get("title", "")[:140],
-            )
-            continue
-        # -----------------------------------------------
-        kept_entities.append(entity)
+
+            # -------- HARD WINDOW FILTER on the ENACTMENT date --------
+            if not decision_date:
+                logger.debug("Congress law drop: missing actionDate → %r", _bill_title(law)[:140])
+                continue
+            if not (start <= decision_date <= end):
+                continue
+            # ----------------------------------------------------------
+
+            kept_entities.append(_bill_to_entity(law, decision_date_iso=decision_date))
+        seen_by_type[law_type] = n_type
+
+    logger.info(
+        "Laws scanned: pub=%s priv=%s | enacted-in-window kept=%d",
+        seen_by_type.get("pub", 0), seen_by_type.get("priv", 0), len(kept_entities)
+    )
 
     # ---- RAW write (pre-filter snapshot) ----
     raw_payload = {
@@ -462,11 +545,12 @@ def run_harvester(
         "api_scope": {
             "base": CONGRESS_BASE,
             "congress": congress_num,
-            "fromDateTime": from_dt,
-            "toDateTime": to_dt,
+            "endpoint": "/law/{congress}/{pub,priv}",
+            "filter": "latestAction.actionDate within window",
             "limit": 250,
         },
         "parsed_total": len(snapshot),
+        "laws_scanned_by_type": seen_by_type,
         "items_snapshot": snapshot,
     }
     write_json(raw_path, raw_payload)
