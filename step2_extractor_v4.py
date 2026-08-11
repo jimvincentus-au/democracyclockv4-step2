@@ -46,6 +46,25 @@ _DEFAULT_CLAUDE_MODEL = "claude-haiku-4-5"
 # ones. Well under gpt-4o's 16384 output ceiling. Per-call max_tokens still wins.
 _DEFAULT_MAX_TOKENS = 12000
 
+
+def _max_retries() -> int:
+    """
+    Transport-level retry budget passed to both SDK clients. The OpenAI and
+    Anthropic SDKs each retry with exponential backoff and honour Retry-After
+    headers; this only raises the SDK default (2) so a sustained rate-limit
+    during a long overnight run self-heals instead of aborting mid-way.
+    Configurable via DC_LLM_MAX_RETRIES (default 6, clamped 0..12).
+
+    NOTE: this covers 429 / 5xx / connection errors only. Insufficient-credit
+    or quota-exhausted responses are NOT rate limits and are NOT retried — the
+    run will fail fast on those, by design.
+    """
+    try:
+        n = int(os.getenv("DC_LLM_MAX_RETRIES", "6"))
+    except (TypeError, ValueError):
+        n = 6
+    return max(0, min(n, 12))
+
 def _ensure_console_logger(logger: logging.Logger) -> None:
     # always have a console handler for extractor
     has_console = False
@@ -509,7 +528,7 @@ def call_openai(
     if not api_key:
         raise RuntimeError("OPENAI_API_KEY is not set.")
 
-    client = OpenAI(api_key=api_key)
+    client = OpenAI(api_key=api_key, max_retries=_max_retries())
 
     # Decide which token-length parameter to use
     def _needs_max_completion_tokens(m: str) -> bool:
@@ -595,7 +614,7 @@ def call_claude(
     if not conv:
         conv = [{"role": "user", "content": ""}]
 
-    client = anthropic.Anthropic()
+    client = anthropic.Anthropic(max_retries=_max_retries())
 
     params: Dict[str, Any] = {
         "model": claude_model,
