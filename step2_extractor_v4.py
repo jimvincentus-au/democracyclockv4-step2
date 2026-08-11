@@ -39,6 +39,9 @@ _DEFAULT_TEMPERATURE = 0.2
 # OpenAI model id passed in by the builders is ignored and DC_CLAUDE_MODEL is
 # used instead (default below). Haiku 4.5 is the cost-optimised default.
 _DEFAULT_CLAUDE_MODEL = "claude-haiku-4-5"
+# One-time guard so we log the Claude auth mode (API key vs subscription) once
+# per process instead of on every article.
+_CLAUDE_AUTH_LOGGED = False
 # H-4 fix (2026-08-10): the previous 6000-token default silently truncated dense
 # sources (Zeteo expects 20-40 events, Meidas 10-25) — later events were lost with
 # only a compliance warning. Billing is on ACTUAL output tokens, not this cap, so
@@ -614,7 +617,27 @@ def call_claude(
     if not conv:
         conv = [{"role": "user", "content": ""}]
 
-    client = anthropic.Anthropic(max_retries=_max_retries())
+    # Auth selection is deterministic and explicit:
+    #   ANTHROPIC_API_KEY set  -> pass it explicitly => metered API billing.
+    #   ANTHROPIC_API_KEY unset -> zero-arg client => whatever ambient credential
+    #                              exists, e.g. the `ant auth login` subscription.
+    # This removes any dependence on SDK auth-precedence so a paid backfill can't
+    # silently land on the subscription (or vice-versa).
+    global _CLAUDE_AUTH_LOGGED
+    api_key = os.getenv("ANTHROPIC_API_KEY")
+    if api_key:
+        client = anthropic.Anthropic(api_key=api_key, max_retries=_max_retries())
+        if not _CLAUDE_AUTH_LOGGED:
+            LOGGER.info("Anthropic auth: API key (metered billing) | model=%s", claude_model)
+            _CLAUDE_AUTH_LOGGED = True
+    else:
+        client = anthropic.Anthropic(max_retries=_max_retries())
+        if not _CLAUDE_AUTH_LOGGED:
+            LOGGER.info(
+                "Anthropic auth: no ANTHROPIC_API_KEY — using ambient credential "
+                "(e.g. `ant auth login` subscription) | model=%s", claude_model
+            )
+            _CLAUDE_AUTH_LOGGED = True
 
     params: Dict[str, Any] = {
         "model": claude_model,
