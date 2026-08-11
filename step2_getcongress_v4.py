@@ -293,7 +293,20 @@ def _walk_law_pages(
             logger.error(msg)
             raise RuntimeError(msg)
 
-        laws = data.get("laws", []) or []
+        # The /law endpoint returns law items under the "bills" wrapper key (a law
+        # is a bill that became law), NOT "laws" — each item already has its own
+        # "laws" sub-array (the PL number). Tolerate either, and self-diagnose if
+        # neither is present so a future wrapper change can't silently yield zero.
+        laws = data.get("bills")
+        if laws is None:
+            laws = data.get("laws")
+        if laws is None:
+            logger.warning(
+                "Congress /law page had neither 'bills' nor 'laws' key at %s; top-level keys=%s",
+                resp.url, list(data.keys()),
+            )
+            laws = []
+        laws = laws or []
         logger.debug("GET %s offset=%s status=%s -> page_count=%s", resp.url, offset, status, len(laws))
         for law in laws:
             seen += 1
