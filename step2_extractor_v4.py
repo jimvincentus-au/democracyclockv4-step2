@@ -651,8 +651,36 @@ def call_claude(
     if temperature is not None and "haiku" in claude_model.lower():
         params["temperature"] = temperature
 
-    with client.messages.stream(**params) as stream:
-        final = stream.get_final_message()
+    # Stream, retrying transient MID-STREAM drops. The SDK's max_retries only
+    # covers failures BEFORE the stream starts; a RemoteProtocolError mid-body
+    # ("peer closed connection without sending complete message body") escapes it
+    # and would otherwise lose the article. Retry the whole stream with backoff.
+    _transient = [anthropic.APIConnectionError, anthropic.APITimeoutError]
+    try:
+        import httpx as _httpx
+        _transient += [_httpx.RemoteProtocolError, _httpx.ReadError,
+                       _httpx.ConnectError, _httpx.ReadTimeout, _httpx.WriteError]
+    except Exception:
+        pass
+    _transient = tuple(_transient)
+
+    _attempts = max(1, _max_retries())
+    _delay = 1.0
+    final = None
+    for _attempt in range(1, _attempts + 1):
+        try:
+            with client.messages.stream(**params) as stream:
+                final = stream.get_final_message()
+            break
+        except _transient as e:
+            if _attempt >= _attempts:
+                raise
+            LOGGER.warning(
+                "Claude stream transient error (attempt %d/%d): %r; retrying in %.1fs",
+                _attempt, _attempts, e, _delay,
+            )
+            time.sleep(_delay)
+            _delay = min(_delay * 2, 30.0)
 
     text = "".join(
         getattr(block, "text", "")
