@@ -706,10 +706,12 @@ def call_llm(
 ) -> Tuple[str, Optional[str]]:
     """
     Single choke point for every LLM call in Step 2. DC_LLM_PROVIDER selects the
-    backend: "openai" (default) or "claude". This is the backout toggle — unset
-    or =openai reproduces the original OpenAI behaviour byte-for-byte.
+    backend: "claude" (DEFAULT — harvests run on Claude) or "openai" (the backout
+    path; set DC_LLM_PROVIDER=openai explicitly, needs OPENAI_API_KEY). Defaulting
+    to openai silently failed with no key whenever the env var was unset; matches
+    the Steps 3-9 fix.
     """
-    provider = (os.getenv("DC_LLM_PROVIDER") or "openai").strip().lower()
+    provider = (os.getenv("DC_LLM_PROVIDER") or "claude").strip().lower()
     if provider in ("claude", "anthropic"):
         return call_claude(
             messages, model=model, temperature=temperature, max_tokens=max_tokens
