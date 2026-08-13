@@ -33,9 +33,10 @@ LOGGER = setup_logger("dc.extractor")  # level governed by --level / DC_LOG_LEVE
 # Single place where we define the fallback LLM for ALL builders
 _DEFAULT_EXTRACT_MODEL = "builder_default"
 _DEFAULT_TEMPERATURE = 0.2
-# Provider toggle (backout plan). DC_LLM_PROVIDER selects the backend at the one
-# LLM call site below: "openai" (default) reproduces the original behaviour
-# byte-for-byte; "claude" routes to the Anthropic SDK. When on Claude, the
+# Provider toggle. DC_LLM_PROVIDER selects the backend at the one LLM call site
+# below: "claude" is the DEFAULT (the migration is complete); "openai" is the
+# explicit backout that reproduces the original raw-HTTP behaviour. When on
+# Claude (the default), the
 # OpenAI model id passed in by the builders is ignored and DC_CLAUDE_MODEL is
 # used instead (default below). Haiku 4.5 is the cost-optimised default.
 _DEFAULT_CLAUDE_MODEL = "claude-haiku-4-5"

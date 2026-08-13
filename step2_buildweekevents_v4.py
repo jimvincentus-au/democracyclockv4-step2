@@ -107,10 +107,10 @@ def _parse_args() -> argparse.Namespace:
     # LLM provider toggle (backout plan). Convenience wrapper over the
     # DC_LLM_PROVIDER env var read by the extractor's call_llm(). Lets a direct
     # `buildweekevents` run (e.g. a single-source recovery) select the backend.
-    # Omit to honour an already-set DC_LLM_PROVIDER, else default openai.
+    # Omit to defer to DC_LLM_PROVIDER, else the extractor default (claude).
     ap.add_argument("--provider", choices=["openai", "claude"],
                     help="LLM backend for extraction (sets DC_LLM_PROVIDER). "
-                         "Default: current env, else openai.")
+                         "Default: current env, else claude.")
 
     return ap.parse_args()
 
