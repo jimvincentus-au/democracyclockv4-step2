@@ -646,7 +646,16 @@ def call_claude(
         "messages": conv,
     }
     if system_chunks:
-        params["system"] = "\n\n".join(system_chunks)
+        # Prompt caching: mark the (large, fixed) extraction system prompt cacheable.
+        # Anthropic caches prefixes >=1024 tokens and bills cache hits at ~10% of
+        # input; a prompt too small to cache is simply not cached (no harm). The
+        # same system prompt repeats across every article and source, so this cuts
+        # the dominant repeated cost of a harvest.
+        params["system"] = [{
+            "type": "text",
+            "text": "\n\n".join(system_chunks),
+            "cache_control": {"type": "ephemeral"},
+        }]
     # Opus 4.8 / Sonnet 5 reject `temperature` (HTTP 400); Haiku 4.5 accepts it.
     # Only send it for models known to accept it so a model swap can't 400.
     if temperature is not None and "haiku" in claude_model.lower():
