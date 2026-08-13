@@ -111,6 +111,25 @@ def main(argv: Optional[List[str]] = None) -> int:
         return 2
 
     runs = [_load_run([g]) for g in run_globs]
+
+    # ── Guard: refuse a byte-identical comparison. If two "runs" are the exact
+    # same events, the extraction did not actually re-run (e.g. the write step
+    # failed and a stale master index was copied twice) — reporting 100% then
+    # would be the "validator that inspects nothing" trap.
+    import hashlib
+    def _content_hash(evs):
+        blob = "\n".join(sorted(json.dumps(e, sort_keys=True, ensure_ascii=False) for e in evs))
+        return hashlib.sha256(blob.encode("utf-8")).hexdigest()
+    hashes = [_content_hash(r) for r in runs]
+    if len(set(hashes)) == 1 and runs and runs[0]:
+        print("\n*** INVALID TEST ***", file=sys.stderr)
+        print("  All runs are BYTE-IDENTICAL — the extraction did not vary between runs.", file=sys.stderr)
+        print("  Almost certainly the write step did not run (each run copied the SAME", file=sys.stderr)
+        print("  master index). Re-run the extraction with a working write step so the", file=sys.stderr)
+        print("  two files genuinely differ, then compare again.", file=sys.stderr)
+        print(f"  (shared content sha256: {hashes[0][:16]}…, events={len(runs[0])})", file=sys.stderr)
+        return 3
+
     key_sets = [_act_keys(r) for r in runs]
     counts = [len(r) for r in runs]
     empties = [sum(1 for e in r if not (e.get("act_key") or "").strip()) for r in runs]
