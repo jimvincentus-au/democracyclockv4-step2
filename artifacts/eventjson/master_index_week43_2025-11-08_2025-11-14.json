@@ -5,27 +5,28 @@
   },
   "week_number": 43,
   "sources": [
-    "guardian",
-    "noah",
-    "federalregister",
-    "democracydocket",
-    "popinfo",
     "orders",
-    "meidas",
-    "scotusorders",
     "50501",
-    "justsecurity",
+    "federalregister",
+    "scotusorders",
+    "meidas",
     "hcr",
-    "zeteo"
+    "popinfo",
+    "congress",
+    "guardian",
+    "justsecurity",
+    "democracydocket",
+    "zeteo",
+    "noah"
   ],
   "counts": {
-    "total": 334,
+    "total": 335,
     "by_date": {
       "2025-11-08": 12,
       "2025-11-09": 37,
       "2025-11-10": 58,
       "2025-11-11": 42,
-      "2025-11-12": 48,
+      "2025-11-12": 49,
       "2025-11-13": 65,
       "2025-11-14": 72
     },
@@ -40,12 +41,13 @@
       "justsecurity": 26,
       "scotusorders": 9,
       "popinfo": 6,
+      "congress": 1,
       "orders": 2,
       "democracydocket": 3
     },
     "by_category": {
       "Executive Actions & Orders": 51,
-      "Legislative & Oversight Activity": 47,
+      "Legislative & Oversight Activity": 48,
       "Judicial Developments": 67,
       "Law Enforcement & Surveillance": 51,
       "Information & Media Control": 27,
@@ -5313,6 +5315,39 @@
       },
       "_origin_file": "50501_events_2025-09-06_2025-12-12.json",
       "_origin_index": 88
+    },
+    {
+      "source_key": "congress",
+      "date": "2025-11-12",
+      "occurred_on": "2025-11-12",
+      "reported_on": "2025-11-12",
+      "dated_by": "occurred",
+      "category": "Legislative & Oversight Activity",
+      "title": "Became Law: Continuing Appropriations, Agriculture, Legislative Branch, Military Construction and Veterans Affairs, and Extensions Act, 2026",
+      "url": "https://api.congress.gov/v3/bill/119/hr/5371?format=json",
+      "summary": "Congress enacted Public Law 119-37, a continuing appropriations measure funding agriculture, legislative branch operations, military construction, and veterans affairs through an extension period. The bill allocates resources across multiple federal agencies and departments, maintaining government operations and veteran services during the fiscal transition.",
+      "why_relevant": "Continuing appropriations are essential to prevent government shutdowns and maintain core federal functions, including veterans services and military readiness.",
+      "jurisdiction": "federal",
+      "federal_nexus": "",
+      "confidence": "high",
+      "basis": "Became Public Law No: 119-37. (2025-11-12)",
+      "actor": "Congress",
+      "action": "enacted continuing appropriations bill",
+      "act_key": "congress|enacted continuing appropriations bill|2025-11-12",
+      "attacks": [],
+      "source_meta": {
+        "headline": null,
+        "published_on": null,
+        "byline": null,
+        "outlet": null,
+        "accessed_on": null,
+        "snapshot_url": null,
+        "durable_keys": {
+          "congress_bill": "119-hr-5371"
+        }
+      },
+      "_origin_file": "congress_events_2025-09-06_2025-12-12.json",
+      "_origin_index": 19
     },
     {
       "source_key": "guardian",

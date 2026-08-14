@@ -5,27 +5,28 @@
   },
   "week_number": 44,
   "sources": [
-    "guardian",
-    "noah",
-    "federalregister",
-    "democracydocket",
-    "popinfo",
     "orders",
-    "meidas",
-    "scotusorders",
     "50501",
-    "justsecurity",
+    "federalregister",
+    "scotusorders",
+    "meidas",
     "hcr",
-    "zeteo"
+    "popinfo",
+    "congress",
+    "guardian",
+    "justsecurity",
+    "democracydocket",
+    "zeteo",
+    "noah"
   ],
   "counts": {
-    "total": 431,
+    "total": 432,
     "by_date": {
       "2025-11-15": 25,
       "2025-11-16": 32,
       "2025-11-17": 82,
       "2025-11-18": 82,
-      "2025-11-19": 57,
+      "2025-11-19": 58,
       "2025-11-20": 80,
       "2025-11-21": 73
     },
@@ -41,6 +42,7 @@
       "popinfo": 7,
       "scotusorders": 4,
       "democracydocket": 4,
+      "congress": 1,
       "orders": 1
     },
     "by_category": {
@@ -54,7 +56,7 @@
       "Civil–Military Relations & State Violence": 13,
       "Legislative & Oversight Activity": 33,
       "Elections & Representation": 15,
-      "Transparency & Records": 32,
+      "Transparency & Records": 33,
       "International Relations": 19,
       "Courts / Supreme Court / Orders": 4
     }
@@ -9198,6 +9200,39 @@
       },
       "_origin_file": "meidas_events_2025-09-06_2025-12-12.json",
       "_origin_index": 380
+    },
+    {
+      "source_key": "congress",
+      "date": "2025-11-19",
+      "occurred_on": "2025-11-19",
+      "reported_on": "2025-11-19",
+      "dated_by": "occurred",
+      "category": "Transparency & Records",
+      "title": "Became Law: Epstein Files Transparency Act",
+      "url": "https://api.congress.gov/v3/bill/119/hr/4405?format=json",
+      "summary": "Congress enacted the Epstein Files Transparency Act (Public Law 119-38), requiring the disclosure of sealed documents related to Jeffrey Epstein's criminal case. The law mandates the release of previously withheld records to the public, expanding access to judicial proceedings and evidence. This legislative action increases transparency in a high-profile criminal matter of significant public interest.",
+      "why_relevant": "Enactment of transparency legislation directly strengthens public access to judicial records and government accountability in matters of substantial democratic concern.",
+      "jurisdiction": "federal",
+      "federal_nexus": "",
+      "confidence": "high",
+      "basis": "Became Public Law No: 119-38. (2025-11-19)",
+      "actor": "Congress",
+      "action": "enacted transparency law",
+      "act_key": "congress|enacted transparency law|2025-11-19",
+      "attacks": [],
+      "source_meta": {
+        "headline": null,
+        "published_on": null,
+        "byline": null,
+        "outlet": null,
+        "accessed_on": null,
+        "snapshot_url": null,
+        "durable_keys": {
+          "congress_bill": "119-hr-4405"
+        }
+      },
+      "_origin_file": "congress_events_2025-09-06_2025-12-12.json",
+      "_origin_index": 18
     },
     {
       "source_key": "hcr",
