@@ -167,17 +167,46 @@ def _iso_from_epoch(v: Any) -> str:
         return ""
 
 
-def _fetch(page: int, logger) -> Tuple[int, List[Dict[str, Any]]]:
-    q = urllib.parse.urlencode({"pagesize": PAGE_SIZE, "page": page,
-                                "sort": "date", "direction": "DESC"})
+def _fetch_day(day: _dt.date, page: int, logger) -> Tuple[int, List[Dict[str, Any]]]:
+    """
+    Fetch one calendar day of releases.
+
+    WHY BY DAY, NOT BY PAGING BACK. The API sorts newest-first, so reaching an early
+    2025 window by pagination costs ~450+ pages (~10 minutes) and silently stops at
+    whatever page cap is set — returning zero events for a week it simply never
+    reached. Querying `parameters[date]` instead costs ONE request per day and works
+    identically for a window last week or eighteen months ago.
+    """
+    epoch = int(_dt.datetime(day.year, day.month, day.day,
+                             tzinfo=_dt.timezone.utc).timestamp())
+    q = urllib.parse.urlencode({"parameters[date]": epoch,
+                                "pagesize": PAGE_SIZE, "page": page})
     req = urllib.request.Request(f"{API}?{q}", headers={"User-Agent": UA,
                                                         "Accept": "application/json"})
     try:
         with urllib.request.urlopen(req, timeout=40) as r:
             return 200, (json.load(r).get("results") or [])
     except Exception as e:
-        logger.warning("DOJ: page %s fetch failed: %s", page, str(e)[:80])
+        logger.warning("DOJ: %s page %s fetch failed: %s", day, page, str(e)[:70])
         return 0, []
+
+
+def _day_range(start: str, end: str) -> List[_dt.date]:
+    """
+    Days to query, padded one either side.
+
+    The API's date field is an epoch whose day boundary does not align exactly with
+    the requested local date — a probe for 2025-02-18 returned items dated 02-17 —
+    so the range is padded and the real window filter is applied afterwards from each
+    item's own date. Padding is cheap (two requests) and removes an off-by-one.
+    """
+    s = _dt.date.fromisoformat(start) - _dt.timedelta(days=1)
+    e = _dt.date.fromisoformat(end) + _dt.timedelta(days=1)
+    out, d = [], s
+    while d <= e:
+        out.append(d)
+        d += _dt.timedelta(days=1)
+    return out
 
 
 def run_harvester(
@@ -209,77 +238,80 @@ def run_harvester(
     seen_uuid: set = set()
     pages_read = dupes = 0
 
-    for page in range(0, MAX_PAGES):
-        status, results = _fetch(page, logger)
-        audit.append({"page": page, "status": status, "returned": len(results)})
-        if status != 200 or not results:
-            break
-        pages_read += 1
+    days = _day_range(start, end)
+    logger.info("DOJ: querying %d day(s) %s .. %s (one request per day, not paged back)",
+                len(days), days[0], days[-1])
 
-        page_dates: List[str] = []
-        for rec in results:
-            uuid = (rec.get("uuid") or "").strip()
-            # Identity is the uuid, not the URL: DOJ restructured its site and the
-            # API returns duplicates across pages.
-            if uuid and uuid in seen_uuid:
-                dupes += 1
-                continue
-            if uuid:
-                seen_uuid.add(uuid)
+    for di, day in enumerate(days, 1):
+        day_items = 0
+        for page in range(0, 20):          # within-day paging; DOJ runs ~40/day
+            status, results = _fetch_day(day, page, logger)
+            audit.append({"day": day.isoformat(), "page": page,
+                          "status": status, "returned": len(results)})
+            if status != 200 or not results:
+                break
+            pages_read += 1
+            day_items += len(results)
 
-            title = _strip(rec.get("title"))
-            url = canonicalize_url((rec.get("url") or "").strip(), base="https://www.justice.gov/")
-            post_date = _iso_from_epoch(rec.get("date")) or _iso_from_epoch(rec.get("created"))
-            teaser = _strip(rec.get("teaser"))
-            names = _components(rec)
-            if post_date:
-                page_dates.append(post_date)
-            if not title or not url:
-                continue
+            for rec in results:
+                uuid = (rec.get("uuid") or "").strip()
+                # Identity is the uuid, not the URL: DOJ restructured its site and
+                # the API repeats items across pages.
+                if uuid and uuid in seen_uuid:
+                    dupes += 1
+                    continue
+                if uuid:
+                    seen_uuid.add(uuid)
 
-            in_scope = True if allow_all else _in_scope(names)
-            stage = _classify_stage(title, teaser)
+                title = _strip(rec.get("title"))
+                url = canonicalize_url((rec.get("url") or "").strip(),
+                                       base="https://www.justice.gov/")
+                post_date = _iso_from_epoch(rec.get("date")) or _iso_from_epoch(rec.get("created"))
+                teaser = _strip(rec.get("teaser"))
+                names = _components(rec)
+                if not title or not url:
+                    continue
 
-            snapshot.append({
-                "source": "Department of Justice",
-                "doc_type": "doj_press_release",
-                "title": title,
-                "url": url,
-                "canonical_url": url,
-                "summary_url": "",
-                # Empty by design: the teaser is DOJ's own account of its announcement.
-                # Kept verbatim below under a name that cannot be read as our prose.
-                "summary": "",
-                "summary_origin": "",
-                "summary_timestamp": "",
-                "post_date": post_date,
-                "raw_line": f"=== {post_date} — {title}",
-                # DOJ extras
-                "doj_uuid": uuid,
-                "doj_components": names,
-                "doj_teaser_verbatim": teaser,
-                "doj_changed": _iso_from_epoch(rec.get("changed")),
-                # The stage this announcement describes. None = not an enforcement
-                # action (policy, appointment, statement).
-                "legal_stage": stage,
-                # True where the announcement describes charges/allegations not yet
-                # adjudicated — enforced structurally, not by a copied disclaimer.
-                "allegations_present": stage in {"indictment_returned", "information_filed",
-                                                 "complaint_filed", "arrest_made",
-                                                 "investigation_announced"},
-                "in_scope": in_scope,
-                "speech_act_verb": "announced",
-                "trust_basis": "official_actor_record",
-                "never_corroborates": True,
-                "proposition_scope": "own_acts_and_statements",
-            })
+                in_scope = True if allow_all else _in_scope(names)
+                stage = _classify_stage(title, teaser)
 
-        if page_dates and max(page_dates) < start:
-            logger.debug("DOJ: page %s entirely before window start; stopping", page)
-            break
+                snapshot.append({
+                    "source": "Department of Justice",
+                    "doc_type": "doj_press_release",
+                    "title": title,
+                    "url": url,
+                    "canonical_url": url,
+                    "summary_url": "",
+                    "summary": "",
+                    "summary_origin": "",
+                    "summary_timestamp": "",
+                    "post_date": post_date,
+                    "raw_line": f"=== {post_date} — {title}",
+                    "doj_uuid": uuid,
+                    "doj_components": names,
+                    "doj_teaser_verbatim": teaser,
+                    "doj_changed": _iso_from_epoch(rec.get("changed")),
+                    "legal_stage": stage,
+                    "allegations_present": stage in {"indictment_returned", "information_filed",
+                                                     "complaint_filed", "arrest_made",
+                                                     "investigation_announced"},
+                    "in_scope": in_scope,
+                    "speech_act_verb": "announced",
+                    "trust_basis": "official_actor_record",
+                    "never_corroborates": True,
+                    "proposition_scope": "own_acts_and_statements",
+                })
+            if len(results) < PAGE_SIZE:
+                break
+            time.sleep(REQ_PAUSE)
+
+        # Progress every day: a silent multi-minute run is indistinguishable from a hung one.
+        kept_so_far = sum(1 for i in snapshot if i.get("in_scope"))
+        logger.info("DOJ: [%d/%d] %s — %d release(s), %d in-scope so far",
+                    di, len(days), day, day_items, kept_so_far)
         time.sleep(REQ_PAUSE)
 
-    logger.info("DOJ: %d pages read, %d unique items, %d duplicates skipped",
+    logger.info("DOJ: %d request(s), %d unique items, %d duplicates skipped",
                 pages_read, len(snapshot), dupes)
 
     # window + scope filter
