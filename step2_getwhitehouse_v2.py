@@ -95,12 +95,15 @@ INSTRUMENT TYPING — three tiers, never the title
          This is also the standing ruling's own answer: these instruments are
          "cited from the FEDERAL REGISTER, not from here."
 
-      3. FEDERAL REGISTER RESIDUAL (ratified 2026-08-26). Within a single signing
-         date, if exactly one White House presidential action and exactly one FR
-         presidential document remain unclaimed after tier 2, they are the same
-         instrument. No title similarity is consulted — only the date and the fact
-         that one candidate remains on each side. The uniqueness requirement is the
-         whole safety guarantee.
+      3. FEDERAL REGISTER RESIDUAL (ratified 2026-08-26; pool tightened the same
+         day after the first production run). Within a single signing date, if
+         exactly one White House presidential action and exactly one unclaimed FR
+         INSTRUMENT — Executive Order, Proclamation or Memorandum — remain after
+         tier 2, they are the same instrument. No title similarity is consulted.
+
+         The pool restriction is load-bearing, not cosmetic: uniqueness alone
+         produced 9 pairings of which 7 were false (White House nominations lists
+         paired against FR emergency-continuation Notices). See _residual_pass.
 
          This exists because the two publishers do not always agree on an official
          title: EO 14219 is "…Regulatory Initiative" at the White House and
@@ -200,10 +203,15 @@ CHANNELS: List[Dict[str, Any]] = [
      "doc_type": "presidential_action", "instrument": "memorandum",
      "verb": "announced a presidential memorandum titled", "fr_expected": None},
 
+    # The verb reads oddly against the real titles this channel carries — they are
+    # themselves "Nominations Sent to the Senate", so the v1 verb produced
+    # 'announced nominations sent to the Senate: "Nominations Sent to the Senate"'.
+    # It describes the act of publishing, like every other verb here, and leaves the
+    # title to say what was published.
     {"key": "nominations_appointments", "family": "presidential-actions",
      "path": "/presidential-actions/nominations-appointments/",
      "doc_type": "presidential_action", "instrument": "nominations",
-     "verb": "announced nominations sent to the Senate:", "fr_expected": False},
+     "verb": "published a nominations announcement titled", "fr_expected": False},
 
     {"key": "briefings_statements", "family": "briefings-statements",
      "path": "/briefings-statements/",
@@ -732,8 +740,8 @@ def _residual_pass(unmatched_wh: List[Dict[str, Any]], fr_all: List[Dict[str, An
     Tier 3 typing — RATIFIED 2026-08-26, date-and-exhaustion.
 
     Within a single signing date, if exactly one White House presidential action and
-    exactly one Federal Register presidential document remain unclaimed after exact
-    title matching, they are the same instrument.
+    exactly one unclaimed Federal Register INSTRUMENT remain, they are the same
+    instrument.
 
     This exists because the two publishers do not always agree on an instrument's
     official title. Measured 2026-08-26 on February 2025: of 49 presidential actions,
@@ -745,9 +753,43 @@ def _residual_pass(unmatched_wh: List[Dict[str, Any]], fr_all: List[Dict[str, An
     which is EO 14219. A fuzzy title match would have papered over a real discrepancy
     between two official records; ruling 1.5 forbids that and is right to. This rule
     uses no title similarity at all — only the signing date and the fact that one
-    candidate remains on each side. The uniqueness requirement is the entire safety
-    guarantee: two unclaimed items on either side means ambiguity, and ambiguity
-    means we decline.
+    candidate remains on each side.
+
+    THE FR POOL IS RESTRICTED TO TYPEABLE INSTRUMENTS (tightened 2026-08-26).
+        The first production run exposed that uniqueness alone is a weak guarantee.
+        It produced NINE pairings across 20 months, of which only two were real:
+
+            2025-01-27  Auschwitz 80th anniversary   <- Proclamation        CORRECT
+            2025-03-01  Timber, Lumber imports       <- Executive Order 14223 CORRECT
+            2026-03-02  Nominations Sent to the Senate <- Notice             WRONG
+            2026-01-13  Nominations Sent to the Senate <- Determination      WRONG
+            … five more of the same shape
+
+        A White House nominations list is not an FR emergency-continuation Notice.
+        Those pairings satisfied the uniqueness condition and were still false: the
+        White House publishes presidential actions the FR does not carry, and the FR
+        carries presidential documents the White House does not post as actions, so
+        "one left on each side" routinely pairs two unrelated things.
+
+        Those seven were discarded only because Notice and Determination have no
+        entry in _FR_SUBTYPE_CHANNEL — i.e. the TYPING step was silently doing the
+        SAFETY work. Had an unclaimed Executive Order fallen on one of those dates,
+        a nominations list would have been typed as that order and stamped with its
+        real EO number. Fabricating an instrument identity is precisely the failure
+        this whole apparatus exists to prevent.
+
+        Restricting the pool to Executive Order / Proclamation / Memorandum makes
+        that protection explicit and strengthens the condition from "one unclaimed
+        document" to "one unclaimed instrument". It also stops Notices and
+        Determinations from occupying the single slot on a date where a real
+        instrument is waiting.
+
+        RESIDUAL EXPOSURE, stated plainly: this does not guard the White House side.
+        A nominations list is still an eligible WH candidate, so a date carrying one
+        unclaimed nominations post and one unclaimed executive order would still
+        mispair. Narrowing the WH side would require reading its titles, which
+        ruling 1.5 forbids. The uniqueness guard plus the instrument restriction is
+        where the rule stops.
 
     Matches are stamped wh_typed_by="fr_date_residual" so the weaker provenance stays
     visible downstream and can be reviewed or reversed as a class.
@@ -762,6 +804,11 @@ def _residual_pass(unmatched_wh: List[Dict[str, Any]], fr_all: List[Dict[str, An
     fr_by_date: Dict[str, List[Dict[str, Any]]] = {}
     for r in fr_all:
         if r.get("document_number") in consumed:
+            continue
+        # Only instruments we can type. A Notice or Determination can never be the
+        # counterpart of a presidential action here, and letting one into the pool
+        # both risks a false pairing and blocks a true one on the same date.
+        if (r.get("subtype") or "") not in _FR_SUBTYPE_CHANNEL:
             continue
         d = (r.get("signing_date") or "")[:10]
         if d:
@@ -987,11 +1034,24 @@ def run_harvester(
     art_cache = _ArticleCache(artifacts, logger)
 
     # 1. Typed subcategory listings — authoritative typing for what they still carry.
+    #
+    # Scanned by FAMILY, not by selected channel. Discovery is family-granular (the
+    # canonical permalink exposes only /presidential-actions/), so selecting any one
+    # presidential-action channel sweeps in all of them. Typing must therefore be
+    # family-granular too: scanning only the selected subcategories would sweep in
+    # items and then refuse to type them from the taxonomy that describes them.
+    #
+    # This is what makes nominations typeable. Their listing reaches back to
+    # 2025-04-01 and covers 49 of the 52 nominations posts that were otherwise
+    # landing as untyped presidential actions — and, critically, it removes them
+    # from the residual pool, where one of them had been mispaired against a real
+    # Federal Register memorandum on 2025-07-15.
     listing_items: List[Dict[str, Any]] = []
     full_audit: List[Dict[str, Any]] = []
     for chan in CHANNELS:
-        if chan["key"] not in wanted:
-            logger.debug("WH: channel=%s not selected; skipping", chan["key"])
+        if chan["family"] not in wanted_families:
+            logger.debug("WH: family=%s not selected; skipping channel=%s",
+                         chan["family"], chan["key"])
             continue
         snap, audit = _discover_channel(sess, chan, start, list_cache, logger)
         listing_items.extend(snap)

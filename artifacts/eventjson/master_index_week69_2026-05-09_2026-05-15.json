@@ -5,23 +5,23 @@
   },
   "week_number": 69,
   "sources": [
-    "federalregister",
-    "popinfo",
-    "justice",
-    "zeteo",
-    "meidas",
-    "50501",
-    "outloud",
-    "guardian",
-    "whitehouse",
-    "scotusorders",
-    "noah",
-    "democracydocket",
-    "hcr",
     "defense",
+    "federalregister",
+    "guardian",
+    "meidas",
     "justsecurity",
+    "outloud",
+    "democracydocket",
     "scotusopinions",
-    "congress"
+    "noah",
+    "popinfo",
+    "congress",
+    "whitehouse",
+    "justice",
+    "hcr",
+    "scotusorders",
+    "50501",
+    "zeteo"
   ],
   "counts": {
     "total": 435,
@@ -54,14 +54,14 @@
       "scotusopinions": 4
     },
     "by_category": {
-      "Executive Actions & Orders": 36,
+      "Executive Actions & Orders": 34,
       "Legislative & Oversight Activity": 35,
       "Judicial Developments": 57,
       "Law Enforcement & Surveillance": 31,
       "Elections & Representation": 32,
       "Information & Media Control": 34,
       "Economic & Regulatory Power": 80,
-      "Appointments & Patronage": 20,
+      "Appointments & Patronage": 22,
       "International Relations": 59,
       "Civil Society & Protest": 10,
       "Transparency & Records": 18,
@@ -3158,37 +3158,6 @@
       "reported_on": "2026-05-11",
       "dated_by": "occurred",
       "category": "Executive Actions & Orders",
-      "title": "Nominations and Withdrawal Sent to the Senate",
-      "url": "https://www.whitehouse.gov/presidential-actions/2026/05/nominations-and-withdrawal-sent-to-the-senate-c6ad/",
-      "summary": "",
-      "why_relevant": "",
-      "jurisdiction": "federal",
-      "federal_nexus": "Official White House channel; documents the act of publication only.",
-      "confidence": "high",
-      "basis": "official_actor_record",
-      "actor": "The White House",
-      "action": "announced a presidential action titled \"Nominations and Withdrawal Sent to the Senate\"",
-      "act_key": "white house|announced a presidential action titled nominations and withdrawal sent to the senate|2026-05-11",
-      "attacks": [],
-      "source_meta": {
-        "headline": null,
-        "published_on": null,
-        "byline": null,
-        "outlet": null,
-        "accessed_on": null,
-        "snapshot_url": null,
-        "durable_keys": {}
-      },
-      "_origin_file": "whitehouse_events_2025-01-20_2026-08-14.json",
-      "_origin_index": 1544
-    },
-    {
-      "source_key": "whitehouse",
-      "date": "2026-05-11",
-      "occurred_on": "2026-05-11",
-      "reported_on": "2026-05-11",
-      "dated_by": "occurred",
-      "category": "Executive Actions & Orders",
       "title": "Peace Officers Memorial Day and Police Week, 2026",
       "url": "https://www.whitehouse.gov/presidential-actions/2026/05/peace-officers-memorial-day-and-police-week-2026/",
       "summary": "",
@@ -3210,8 +3179,8 @@
         "snapshot_url": null,
         "durable_keys": {}
       },
-      "_origin_file": "whitehouse_events_2025-01-20_2026-08-14.json",
-      "_origin_index": 941
+      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
+      "_origin_index": 948
     },
     {
       "source_key": "meidas",
@@ -3978,8 +3947,8 @@
         "snapshot_url": null,
         "durable_keys": {}
       },
-      "_origin_file": "whitehouse_events_2025-01-20_2026-08-14.json",
-      "_origin_index": 51
+      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
+      "_origin_index": 57
     },
     {
       "source_key": "50501",
@@ -4548,6 +4517,37 @@
       "_origin_index": 15
     },
     {
+      "source_key": "whitehouse",
+      "date": "2026-05-11",
+      "occurred_on": "2026-05-11",
+      "reported_on": "2026-05-11",
+      "dated_by": "occurred",
+      "category": "Appointments & Patronage",
+      "title": "Nominations and Withdrawal Sent to the Senate",
+      "url": "https://www.whitehouse.gov/presidential-actions/2026/05/nominations-and-withdrawal-sent-to-the-senate-c6ad/",
+      "summary": "",
+      "why_relevant": "",
+      "jurisdiction": "federal",
+      "federal_nexus": "Official White House channel; documents the act of publication only.",
+      "confidence": "high",
+      "basis": "official_actor_record",
+      "actor": "The White House",
+      "action": "published a nominations announcement titled \"Nominations and Withdrawal Sent to the Senate\"",
+      "act_key": "white house|published a nominations announcement titled nominations and withdrawal sent to the senate|2026-05-11",
+      "attacks": [],
+      "source_meta": {
+        "headline": null,
+        "published_on": null,
+        "byline": null,
+        "outlet": null,
+        "accessed_on": null,
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
+      "_origin_index": 1162
+    },
+    {
       "source_key": "federalregister",
       "date": "2026-05-11",
       "occurred_on": "2026-05-11",
@@ -4715,8 +4715,8 @@
         "snapshot_url": null,
         "durable_keys": {}
       },
-      "_origin_file": "defense_events_2025-01-20_2026-08-14.json",
-      "_origin_index": 81
+      "_origin_file": "defense_events_2025-01-20_2026-08-21.json",
+      "_origin_index": 87
     },
     {
       "source_key": "defense",
@@ -4746,8 +4746,8 @@
         "snapshot_url": null,
         "durable_keys": {}
       },
-      "_origin_file": "defense_events_2025-01-20_2026-08-14.json",
-      "_origin_index": 516
+      "_origin_file": "defense_events_2025-01-20_2026-08-21.json",
+      "_origin_index": 522
     },
     {
       "source_key": "meidas",
@@ -5237,8 +5237,8 @@
         "snapshot_url": null,
         "durable_keys": {}
       },
-      "_origin_file": "defense_events_2025-01-20_2026-08-14.json",
-      "_origin_index": 82
+      "_origin_file": "defense_events_2025-01-20_2026-08-21.json",
+      "_origin_index": 88
     },
     {
       "source_key": "meidas",
@@ -5471,37 +5471,6 @@
       },
       "_origin_file": "meidas_events_2026-03-07_2026-05-15.json",
       "_origin_index": 30
-    },
-    {
-      "source_key": "whitehouse",
-      "date": "2026-05-12",
-      "occurred_on": "2026-05-12",
-      "reported_on": "2026-05-12",
-      "dated_by": "occurred",
-      "category": "Executive Actions & Orders",
-      "title": "Nominations Sent to the Senate",
-      "url": "https://www.whitehouse.gov/presidential-actions/2026/05/nominations-sent-to-the-senate-3857/",
-      "summary": "",
-      "why_relevant": "",
-      "jurisdiction": "federal",
-      "federal_nexus": "Official White House channel; documents the act of publication only.",
-      "confidence": "high",
-      "basis": "official_actor_record",
-      "actor": "The White House",
-      "action": "announced a presidential action titled \"Nominations Sent to the Senate\"",
-      "act_key": "white house|announced a presidential action titled nominations sent to the senate|2026-05-12",
-      "attacks": [],
-      "source_meta": {
-        "headline": null,
-        "published_on": null,
-        "byline": null,
-        "outlet": null,
-        "accessed_on": null,
-        "snapshot_url": null,
-        "durable_keys": {}
-      },
-      "_origin_file": "whitehouse_events_2025-01-20_2026-08-14.json",
-      "_origin_index": 1545
     },
     {
       "source_key": "zeteo",
@@ -7207,6 +7176,37 @@
       "_origin_index": 35
     },
     {
+      "source_key": "whitehouse",
+      "date": "2026-05-12",
+      "occurred_on": "2026-05-12",
+      "reported_on": "2026-05-12",
+      "dated_by": "occurred",
+      "category": "Appointments & Patronage",
+      "title": "Nominations Sent to the Senate",
+      "url": "https://www.whitehouse.gov/presidential-actions/2026/05/nominations-sent-to-the-senate-3857/",
+      "summary": "",
+      "why_relevant": "",
+      "jurisdiction": "federal",
+      "federal_nexus": "Official White House channel; documents the act of publication only.",
+      "confidence": "high",
+      "basis": "official_actor_record",
+      "actor": "The White House",
+      "action": "published a nominations announcement titled \"Nominations Sent to the Senate\"",
+      "act_key": "white house|published a nominations announcement titled nominations sent to the senate|2026-05-12",
+      "attacks": [],
+      "source_meta": {
+        "headline": null,
+        "published_on": null,
+        "byline": null,
+        "outlet": null,
+        "accessed_on": null,
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
+      "_origin_index": 1161
+    },
+    {
       "source_key": "federalregister",
       "date": "2026-05-12",
       "occurred_on": "2026-05-12",
@@ -7471,8 +7471,8 @@
         "snapshot_url": null,
         "durable_keys": {}
       },
-      "_origin_file": "defense_events_2025-01-20_2026-08-14.json",
-      "_origin_index": 80
+      "_origin_file": "defense_events_2025-01-20_2026-08-21.json",
+      "_origin_index": 86
     },
     {
       "source_key": "guardian",
@@ -8787,8 +8787,8 @@
         "snapshot_url": null,
         "durable_keys": {}
       },
-      "_origin_file": "whitehouse_events_2025-01-20_2026-08-14.json",
-      "_origin_index": 50
+      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
+      "_origin_index": 56
     },
     {
       "source_key": "federalregister",
@@ -9581,8 +9581,8 @@
         "snapshot_url": null,
         "durable_keys": {}
       },
-      "_origin_file": "defense_events_2025-01-20_2026-08-14.json",
-      "_origin_index": 77
+      "_origin_file": "defense_events_2025-01-20_2026-08-21.json",
+      "_origin_index": 83
     },
     {
       "source_key": "meidas",
@@ -9678,8 +9678,8 @@
         "snapshot_url": null,
         "durable_keys": {}
       },
-      "_origin_file": "defense_events_2025-01-20_2026-08-14.json",
-      "_origin_index": 79
+      "_origin_file": "defense_events_2025-01-20_2026-08-21.json",
+      "_origin_index": 85
     },
     {
       "source_key": "defense",
@@ -9709,8 +9709,8 @@
         "snapshot_url": null,
         "durable_keys": {}
       },
-      "_origin_file": "defense_events_2025-01-20_2026-08-14.json",
-      "_origin_index": 78
+      "_origin_file": "defense_events_2025-01-20_2026-08-21.json",
+      "_origin_index": 84
     },
     {
       "source_key": "guardian",
@@ -13542,8 +13542,8 @@
         "snapshot_url": null,
         "durable_keys": {}
       },
-      "_origin_file": "defense_events_2025-01-20_2026-08-14.json",
-      "_origin_index": 75
+      "_origin_file": "defense_events_2025-01-20_2026-08-21.json",
+      "_origin_index": 81
     },
     {
       "source_key": "federalregister",
@@ -14574,8 +14574,8 @@
         "snapshot_url": null,
         "durable_keys": {}
       },
-      "_origin_file": "defense_events_2025-01-20_2026-08-14.json",
-      "_origin_index": 76
+      "_origin_file": "defense_events_2025-01-20_2026-08-21.json",
+      "_origin_index": 82
     },
     {
       "source_key": "defense",
@@ -14605,8 +14605,8 @@
         "snapshot_url": null,
         "durable_keys": {}
       },
-      "_origin_file": "defense_events_2025-01-20_2026-08-14.json",
-      "_origin_index": 429
+      "_origin_file": "defense_events_2025-01-20_2026-08-21.json",
+      "_origin_index": 435
     },
     {
       "source_key": "hcr",

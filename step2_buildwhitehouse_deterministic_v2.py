@@ -119,7 +119,7 @@ FALLBACK_VERB = {
     "executive_order": "announced an executive order titled",
     "proclamation":    "announced a proclamation titled",
     "memorandum":      "announced a presidential memorandum titled",
-    "nominations":     "announced nominations sent to the Senate:",
+    "nominations":     "published a nominations announcement titled",
     "release":         "published a release titled",
     "fact_sheet":      "issued a fact sheet titled",
     "statement":       "issued a statement titled",
@@ -193,6 +193,10 @@ def _event_from_entity(e: Dict[str, Any]) -> Dict[str, Any]:
         # stage linked to the published record without re-querying (SED-045).
         "executive_order_number": e.get("executive_order_number"),
         "fr_document_number": e.get("fr_document_number", ""),
+        # The FR's own subtype string. Carried alongside wh_instrument_type because
+        # the two can disagree in principle, and a reader auditing a residual match
+        # needs to see what the Federal Register actually called the document.
+        "fr_subtype": e.get("fr_subtype", ""),
         "fr_signing_date": e.get("fr_signing_date", ""),
         "fr_publication_date": e.get("fr_publication_date", ""),
         "fr_url": e.get("fr_url", ""),

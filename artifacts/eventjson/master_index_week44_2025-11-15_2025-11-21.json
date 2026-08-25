@@ -5,23 +5,23 @@
   },
   "week_number": 44,
   "sources": [
-    "orders",
-    "federalregister",
-    "popinfo",
-    "justice",
-    "zeteo",
-    "50501",
-    "meidas",
-    "outloud",
-    "noah",
-    "guardian",
-    "whitehouse",
-    "scotusorders",
-    "democracydocket",
-    "hcr",
     "defense",
+    "federalregister",
+    "guardian",
+    "meidas",
     "justsecurity",
-    "congress"
+    "outloud",
+    "democracydocket",
+    "noah",
+    "orders",
+    "popinfo",
+    "congress",
+    "whitehouse",
+    "justice",
+    "hcr",
+    "scotusorders",
+    "50501",
+    "zeteo"
   ],
   "counts": {
     "total": 466,
@@ -54,13 +54,13 @@
       "orders": 1
     },
     "by_category": {
-      "Executive Actions & Orders": 48,
+      "Executive Actions & Orders": 47,
       "Judicial Developments": 52,
       "Law Enforcement & Surveillance": 58,
       "Civil Society & Protest": 18,
       "Information & Media Control": 39,
       "Economic & Regulatory Power": 96,
-      "Appointments & Patronage": 22,
+      "Appointments & Patronage": 23,
       "Civil–Military Relations & State Violence": 17,
       "Legislative & Oversight Activity": 40,
       "Elections & Representation": 14,
@@ -2534,8 +2534,8 @@
         "snapshot_url": null,
         "durable_keys": {}
       },
-      "_origin_file": "whitehouse_events_2025-01-20_2026-08-14.json",
-      "_origin_index": 980
+      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
+      "_origin_index": 986
     },
     {
       "source_key": "guardian",
@@ -3546,8 +3546,8 @@
         "snapshot_url": null,
         "durable_keys": {}
       },
-      "_origin_file": "whitehouse_events_2025-01-20_2026-08-14.json",
-      "_origin_index": 195
+      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
+      "_origin_index": 201
     },
     {
       "source_key": "zeteo",
@@ -4728,8 +4728,8 @@
         "snapshot_url": null,
         "durable_keys": {}
       },
-      "_origin_file": "defense_events_2025-01-20_2026-08-14.json",
-      "_origin_index": 187
+      "_origin_file": "defense_events_2025-01-20_2026-08-21.json",
+      "_origin_index": 193
     },
     {
       "source_key": "defense",
@@ -4759,8 +4759,8 @@
         "snapshot_url": null,
         "durable_keys": {}
       },
-      "_origin_file": "defense_events_2025-01-20_2026-08-14.json",
-      "_origin_index": 188
+      "_origin_file": "defense_events_2025-01-20_2026-08-21.json",
+      "_origin_index": 194
     },
     {
       "source_key": "guardian",
@@ -4965,37 +4965,6 @@
       },
       "_origin_file": "guardian_events_2025-09-06_2025-12-12.json",
       "_origin_index": 333
-    },
-    {
-      "source_key": "whitehouse",
-      "date": "2025-11-18",
-      "occurred_on": "2025-11-18",
-      "reported_on": "2025-11-18",
-      "dated_by": "occurred",
-      "category": "Executive Actions & Orders",
-      "title": "Nominations Sent to the Senate",
-      "url": "https://www.whitehouse.gov/presidential-actions/2025/11/nominations-sent-to-the-senate-d2ae/",
-      "summary": "",
-      "why_relevant": "",
-      "jurisdiction": "federal",
-      "federal_nexus": "Official White House channel; documents the act of publication only.",
-      "confidence": "high",
-      "basis": "official_actor_record",
-      "actor": "The White House",
-      "action": "announced a presidential action titled \"Nominations Sent to the Senate\"",
-      "act_key": "white house|announced a presidential action titled nominations sent to the senate|2025-11-18",
-      "attacks": [],
-      "source_meta": {
-        "headline": null,
-        "published_on": null,
-        "byline": null,
-        "outlet": null,
-        "accessed_on": null,
-        "snapshot_url": null,
-        "durable_keys": {}
-      },
-      "_origin_file": "whitehouse_events_2025-01-20_2026-08-14.json",
-      "_origin_index": 1511
     },
     {
       "source_key": "zeteo",
@@ -6442,8 +6411,8 @@
         "snapshot_url": null,
         "durable_keys": {}
       },
-      "_origin_file": "whitehouse_events_2025-01-20_2026-08-14.json",
-      "_origin_index": 487
+      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
+      "_origin_index": 494
     },
     {
       "source_key": "whitehouse",
@@ -6473,8 +6442,8 @@
         "snapshot_url": null,
         "durable_keys": {}
       },
-      "_origin_file": "whitehouse_events_2025-01-20_2026-08-14.json",
-      "_origin_index": 194
+      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
+      "_origin_index": 200
     },
     {
       "source_key": "zeteo",
@@ -7473,6 +7442,37 @@
       },
       "_origin_file": "hcr_events_2025-09-06_2025-12-12.json",
       "_origin_index": 158
+    },
+    {
+      "source_key": "whitehouse",
+      "date": "2025-11-18",
+      "occurred_on": "2025-11-18",
+      "reported_on": "2025-11-18",
+      "dated_by": "occurred",
+      "category": "Appointments & Patronage",
+      "title": "Nominations Sent to the Senate",
+      "url": "https://www.whitehouse.gov/presidential-actions/2025/11/nominations-sent-to-the-senate-d2ae/",
+      "summary": "",
+      "why_relevant": "",
+      "jurisdiction": "federal",
+      "federal_nexus": "Official White House channel; documents the act of publication only.",
+      "confidence": "high",
+      "basis": "official_actor_record",
+      "actor": "The White House",
+      "action": "published a nominations announcement titled \"Nominations Sent to the Senate\"",
+      "act_key": "white house|published a nominations announcement titled nominations sent to the senate|2025-11-18",
+      "attacks": [],
+      "source_meta": {
+        "headline": null,
+        "published_on": null,
+        "byline": null,
+        "outlet": null,
+        "accessed_on": null,
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
+      "_origin_index": 1176
     },
     {
       "source_key": "federalregister",
@@ -9378,8 +9378,8 @@
         "snapshot_url": null,
         "durable_keys": {}
       },
-      "_origin_file": "whitehouse_events_2025-01-20_2026-08-14.json",
-      "_origin_index": 192
+      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
+      "_origin_index": 198
     },
     {
       "source_key": "whitehouse",
@@ -9409,8 +9409,8 @@
         "snapshot_url": null,
         "durable_keys": {}
       },
-      "_origin_file": "whitehouse_events_2025-01-20_2026-08-14.json",
-      "_origin_index": 193
+      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
+      "_origin_index": 199
     },
     {
       "source_key": "zeteo",
@@ -10012,8 +10012,8 @@
         "snapshot_url": null,
         "durable_keys": {}
       },
-      "_origin_file": "defense_events_2025-01-20_2026-08-14.json",
-      "_origin_index": 186
+      "_origin_file": "defense_events_2025-01-20_2026-08-21.json",
+      "_origin_index": 192
     },
     {
       "source_key": "guardian",
@@ -10578,8 +10578,8 @@
         "snapshot_url": null,
         "durable_keys": {}
       },
-      "_origin_file": "whitehouse_events_2025-01-20_2026-08-14.json",
-      "_origin_index": 790
+      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
+      "_origin_index": 797
     },
     {
       "source_key": "50501",
@@ -11938,8 +11938,8 @@
         "snapshot_url": null,
         "durable_keys": {}
       },
-      "_origin_file": "whitehouse_events_2025-01-20_2026-08-14.json",
-      "_origin_index": 191
+      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
+      "_origin_index": 197
     },
     {
       "source_key": "defense",
@@ -11969,8 +11969,8 @@
         "snapshot_url": null,
         "durable_keys": {}
       },
-      "_origin_file": "defense_events_2025-01-20_2026-08-14.json",
-      "_origin_index": 185
+      "_origin_file": "defense_events_2025-01-20_2026-08-21.json",
+      "_origin_index": 191
     },
     {
       "source_key": "federalregister",
@@ -13317,8 +13317,8 @@
         "snapshot_url": null,
         "durable_keys": {}
       },
-      "_origin_file": "whitehouse_events_2025-01-20_2026-08-14.json",
-      "_origin_index": 979
+      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
+      "_origin_index": 985
     },
     {
       "source_key": "hcr",
@@ -14599,8 +14599,8 @@
         "snapshot_url": null,
         "durable_keys": {}
       },
-      "_origin_file": "whitehouse_events_2025-01-20_2026-08-14.json",
-      "_origin_index": 486
+      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
+      "_origin_index": 493
     },
     {
       "source_key": "defense",
@@ -14630,8 +14630,8 @@
         "snapshot_url": null,
         "durable_keys": {}
       },
-      "_origin_file": "defense_events_2025-01-20_2026-08-14.json",
-      "_origin_index": 184
+      "_origin_file": "defense_events_2025-01-20_2026-08-21.json",
+      "_origin_index": 190
     },
     {
       "source_key": "federalregister",
@@ -15463,8 +15463,8 @@
         "snapshot_url": null,
         "durable_keys": {}
       },
-      "_origin_file": "defense_events_2025-01-20_2026-08-14.json",
-      "_origin_index": 181
+      "_origin_file": "defense_events_2025-01-20_2026-08-21.json",
+      "_origin_index": 187
     },
     {
       "source_key": "defense",
@@ -15494,8 +15494,8 @@
         "snapshot_url": null,
         "durable_keys": {}
       },
-      "_origin_file": "defense_events_2025-01-20_2026-08-14.json",
-      "_origin_index": 182
+      "_origin_file": "defense_events_2025-01-20_2026-08-21.json",
+      "_origin_index": 188
     },
     {
       "source_key": "federalregister",
@@ -15699,8 +15699,8 @@
         "snapshot_url": null,
         "durable_keys": {}
       },
-      "_origin_file": "defense_events_2025-01-20_2026-08-14.json",
-      "_origin_index": 183
+      "_origin_file": "defense_events_2025-01-20_2026-08-21.json",
+      "_origin_index": 189
     }
   ]
 }

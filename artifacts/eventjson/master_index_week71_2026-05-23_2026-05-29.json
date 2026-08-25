@@ -5,24 +5,24 @@
   },
   "week_number": 71,
   "sources": [
-    "orders",
-    "federalregister",
-    "popinfo",
-    "justice",
-    "zeteo",
-    "meidas",
-    "50501",
-    "outloud",
-    "noah",
-    "guardian",
-    "scotusorders",
-    "whitehouse",
-    "scotusopinions",
-    "hcr",
     "defense",
+    "federalregister",
+    "guardian",
+    "meidas",
     "justsecurity",
+    "outloud",
     "democracydocket",
-    "congress"
+    "scotusopinions",
+    "noah",
+    "orders",
+    "popinfo",
+    "congress",
+    "whitehouse",
+    "justice",
+    "hcr",
+    "scotusorders",
+    "50501",
+    "zeteo"
   ],
   "counts": {
     "total": 383,
@@ -3909,8 +3909,8 @@
         "snapshot_url": null,
         "durable_keys": {}
       },
-      "_origin_file": "whitehouse_events_2025-01-20_2026-08-14.json",
-      "_origin_index": 45
+      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
+      "_origin_index": 51
     },
     {
       "source_key": "federalregister",
@@ -4701,8 +4701,8 @@
         "snapshot_url": null,
         "durable_keys": {}
       },
-      "_origin_file": "defense_events_2025-01-20_2026-08-14.json",
-      "_origin_index": 423
+      "_origin_file": "defense_events_2025-01-20_2026-08-21.json",
+      "_origin_index": 429
     },
     {
       "source_key": "meidas",
@@ -5983,8 +5983,8 @@
         "snapshot_url": null,
         "durable_keys": {}
       },
-      "_origin_file": "whitehouse_events_2025-01-20_2026-08-14.json",
-      "_origin_index": 44
+      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
+      "_origin_index": 50
     },
     {
       "source_key": "federalregister",
@@ -6661,8 +6661,8 @@
         "snapshot_url": null,
         "durable_keys": {}
       },
-      "_origin_file": "defense_events_2025-01-20_2026-08-14.json",
-      "_origin_index": 72
+      "_origin_file": "defense_events_2025-01-20_2026-08-21.json",
+      "_origin_index": 78
     },
     {
       "source_key": "guardian",
@@ -8068,8 +8068,8 @@
         "snapshot_url": null,
         "durable_keys": {}
       },
-      "_origin_file": "defense_events_2025-01-20_2026-08-14.json",
-      "_origin_index": 71
+      "_origin_file": "defense_events_2025-01-20_2026-08-21.json",
+      "_origin_index": 77
     },
     {
       "source_key": "federalregister",
@@ -9598,8 +9598,8 @@
         "snapshot_url": null,
         "durable_keys": {}
       },
-      "_origin_file": "whitehouse_events_2025-01-20_2026-08-14.json",
-      "_origin_index": 1074
+      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
+      "_origin_index": 1081
     },
     {
       "source_key": "whitehouse",
@@ -9629,8 +9629,8 @@
         "snapshot_url": null,
         "durable_keys": {}
       },
-      "_origin_file": "whitehouse_events_2025-01-20_2026-08-14.json",
-      "_origin_index": 742
+      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
+      "_origin_index": 749
     },
     {
       "source_key": "whitehouse",
@@ -9660,8 +9660,8 @@
         "snapshot_url": null,
         "durable_keys": {}
       },
-      "_origin_file": "whitehouse_events_2025-01-20_2026-08-14.json",
-      "_origin_index": 743
+      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
+      "_origin_index": 750
     },
     {
       "source_key": "congress",
@@ -11448,8 +11448,8 @@
         "snapshot_url": null,
         "durable_keys": {}
       },
-      "_origin_file": "whitehouse_events_2025-01-20_2026-08-14.json",
-      "_origin_index": 421
+      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
+      "_origin_index": 428
     },
     {
       "source_key": "whitehouse",
@@ -11479,8 +11479,8 @@
         "snapshot_url": null,
         "durable_keys": {}
       },
-      "_origin_file": "whitehouse_events_2025-01-20_2026-08-14.json",
-      "_origin_index": 422
+      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
+      "_origin_index": 429
     },
     {
       "source_key": "federalregister",
@@ -12557,8 +12557,8 @@
         "snapshot_url": null,
         "durable_keys": {}
       },
-      "_origin_file": "defense_events_2025-01-20_2026-08-14.json",
-      "_origin_index": 68
+      "_origin_file": "defense_events_2025-01-20_2026-08-21.json",
+      "_origin_index": 74
     },
     {
       "source_key": "defense",
@@ -12588,8 +12588,8 @@
         "snapshot_url": null,
         "durable_keys": {}
       },
-      "_origin_file": "defense_events_2025-01-20_2026-08-14.json",
-      "_origin_index": 70
+      "_origin_file": "defense_events_2025-01-20_2026-08-21.json",
+      "_origin_index": 76
     },
     {
       "source_key": "defense",
@@ -12619,8 +12619,8 @@
         "snapshot_url": null,
         "durable_keys": {}
       },
-      "_origin_file": "defense_events_2025-01-20_2026-08-14.json",
-      "_origin_index": 69
+      "_origin_file": "defense_events_2025-01-20_2026-08-21.json",
+      "_origin_index": 75
     },
     {
       "source_key": "defense",
@@ -12650,8 +12650,8 @@
         "snapshot_url": null,
         "durable_keys": {}
       },
-      "_origin_file": "defense_events_2025-01-20_2026-08-14.json",
-      "_origin_index": 67
+      "_origin_file": "defense_events_2025-01-20_2026-08-21.json",
+      "_origin_index": 73
     },
     {
       "source_key": "guardian",

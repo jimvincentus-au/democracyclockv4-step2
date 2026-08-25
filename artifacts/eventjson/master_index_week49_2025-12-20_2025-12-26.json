@@ -5,20 +5,20 @@
   },
   "week_number": 49,
   "sources": [
-    "federalregister",
-    "popinfo",
-    "justice",
-    "zeteo",
-    "meidas",
-    "50501",
-    "shadow",
-    "guardian",
-    "noah",
-    "scotusorders",
-    "hcr",
     "defense",
+    "federalregister",
+    "guardian",
+    "meidas",
     "justsecurity",
-    "congress"
+    "noah",
+    "popinfo",
+    "congress",
+    "shadow",
+    "justice",
+    "hcr",
+    "scotusorders",
+    "50501",
+    "zeteo"
   ],
   "counts": {
     "total": 331,
@@ -3498,8 +3498,8 @@
         "snapshot_url": null,
         "durable_keys": {}
       },
-      "_origin_file": "defense_events_2025-01-20_2026-08-14.json",
-      "_origin_index": 461
+      "_origin_file": "defense_events_2025-01-20_2026-08-21.json",
+      "_origin_index": 467
     },
     {
       "source_key": "justice",
@@ -4669,8 +4669,8 @@
         "snapshot_url": null,
         "durable_keys": {}
       },
-      "_origin_file": "defense_events_2025-01-20_2026-08-14.json",
-      "_origin_index": 168
+      "_origin_file": "defense_events_2025-01-20_2026-08-21.json",
+      "_origin_index": 174
     },
     {
       "source_key": "defense",
@@ -4700,8 +4700,8 @@
         "snapshot_url": null,
         "durable_keys": {}
       },
-      "_origin_file": "defense_events_2025-01-20_2026-08-14.json",
-      "_origin_index": 166
+      "_origin_file": "defense_events_2025-01-20_2026-08-21.json",
+      "_origin_index": 172
     },
     {
       "source_key": "federalregister",
@@ -5484,8 +5484,8 @@
         "snapshot_url": null,
         "durable_keys": {}
       },
-      "_origin_file": "defense_events_2025-01-20_2026-08-14.json",
-      "_origin_index": 167
+      "_origin_file": "defense_events_2025-01-20_2026-08-21.json",
+      "_origin_index": 173
     },
     {
       "source_key": "federalregister",
@@ -5956,8 +5956,8 @@
         "snapshot_url": null,
         "durable_keys": {}
       },
-      "_origin_file": "defense_events_2025-01-20_2026-08-14.json",
-      "_origin_index": 165
+      "_origin_file": "defense_events_2025-01-20_2026-08-21.json",
+      "_origin_index": 171
     },
     {
       "source_key": "defense",
@@ -5987,8 +5987,8 @@
         "snapshot_url": null,
         "durable_keys": {}
       },
-      "_origin_file": "defense_events_2025-01-20_2026-08-14.json",
-      "_origin_index": 164
+      "_origin_file": "defense_events_2025-01-20_2026-08-21.json",
+      "_origin_index": 170
     },
     {
       "source_key": "meidas",
@@ -7748,8 +7748,8 @@
         "snapshot_url": null,
         "durable_keys": {}
       },
-      "_origin_file": "defense_events_2025-01-20_2026-08-14.json",
-      "_origin_index": 162
+      "_origin_file": "defense_events_2025-01-20_2026-08-21.json",
+      "_origin_index": 168
     },
     {
       "source_key": "federalregister",
@@ -8391,8 +8391,8 @@
         "snapshot_url": null,
         "durable_keys": {}
       },
-      "_origin_file": "defense_events_2025-01-20_2026-08-14.json",
-      "_origin_index": 163
+      "_origin_file": "defense_events_2025-01-20_2026-08-21.json",
+      "_origin_index": 169
     },
     {
       "source_key": "hcr",
