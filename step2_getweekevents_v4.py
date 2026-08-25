@@ -35,6 +35,11 @@ HARVESTER_SPECS: Dict[str, Tuple[str, str]] = {
     "50501": ("step2_get50501_v4", "run_harvester"),
     "outloud": ("step2_getoutloud_v4", "run_harvester"),
     "noah": ("step2_getnoah_v4", "run_harvester"),
+    # Official actor channels added 2026-08-25 (whitehouse.gov TOXIC ruling withdrawn).
+    # These document their OWN acts and statements and NEVER corroborate.
+    "whitehouse": ("step2_getwhitehouse_v1", "run_harvester"),
+    "defense": ("step2_getdefense_v1", "run_harvester"),
+    "justice": ("step2_getjustice_v1", "run_harvester"),
     # Right-wing / contrarian sources added 2026-05
     "dailysignal": ("step2_getdailysignal_v4", "run_harvester"),
     "examiner": ("step2_getexaminer_v4", "run_harvester"),

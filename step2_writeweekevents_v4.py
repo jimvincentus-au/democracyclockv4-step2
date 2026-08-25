@@ -44,6 +44,11 @@ MASTER_TXT_NAME = "master_events_{start}_{end}.txt"
 MASTER_IDX_NAME = "master_index_{start}_{end}.json"
 
 SOURCE_DISPLAY_NAMES = {
+    # Official actor channels (added 2026-08-25). Named for the ACTOR, because the
+    # event these produce is the actor's own speech act.
+    "whitehouse": "The White House",
+    "defense": "Department of War",
+    "justice": "Department of Justice",
     "democracydocket": "Democracy Docket",
     "scotusblog": "SCOTUSblog",
     "scotusorders": "Supreme Court Orders",

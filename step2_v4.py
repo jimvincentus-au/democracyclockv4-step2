@@ -45,6 +45,13 @@ SOURCE_ALIASES = {
     "getscotusopinions": "scotusopinions",
     "buildscotusopinions": "scotusopinions",
     "scotusopinions": "scotusopinions",
+    # Official actor channels (2026-08-25)
+    "getwhitehouse": "whitehouse", "buildwhitehouse": "whitehouse", "whitehouse": "whitehouse",
+    "wh": "whitehouse",
+    "getdefense": "defense", "builddefense": "defense", "defense": "defense",
+    "dod": "defense", "war": "defense",
+    "getjustice": "justice", "buildjustice": "justice", "justice": "justice",
+    "doj": "justice",
 }
 
 def _iso(d: date) -> str:

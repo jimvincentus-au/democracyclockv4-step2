@@ -38,6 +38,12 @@ BUILDER_SPECS: Dict[str, Tuple[str, str]] = {
     "democracydocket": ("step2_builddemocracydocket_v4", "run_builder"),
     # Non-Substack examples (uncomment when implemented)
     "justsecurity": ("step2_buildjustsecurity_v5", "run_builder"),
+    # Official actor channels added 2026-08-25. All three are DETERMINISTIC
+    # builders (zero LLM calls): the document IS the event, so no extraction
+    # model is needed and none of them incurs per-item cost.
+    "whitehouse": ("step2_buildwhitehouse_deterministic_v1", "run_builder"),
+    "defense": ("step2_builddefense_deterministic_v1", "run_builder"),
+    "justice": ("step2_buildjustice_deterministic_v1", "run_builder"),
     # Right-wing / contrarian sources added 2026-05
     "dailysignal": ("step2_builddailysignal_v4", "run_builder"),
     "examiner":    ("step2_buildexaminer_v4", "run_builder"),

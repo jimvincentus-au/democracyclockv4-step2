@@ -224,6 +224,7 @@ def _parse_listing(page_html: str, chan: Dict[str, str], logger) -> List[Dict[st
             # False -> routinely absent from the FR; absence asserts nothing.
             # None  -> unknown; assert nothing either way.
             "fr_publication_expected": chan["fr_expected"],
+            "discovery": "listing",
             **ACTOR_RECORD_CONSTRAINTS,
         }
         out.append(entity)
@@ -232,6 +233,124 @@ def _parse_listing(page_html: str, chan: Dict[str, str], logger) -> List[Dict[st
 
 def _listing_url(path: str, page: int) -> str:
     return f"{BASE}{path}" if page <= 1 else f"{BASE}{path}page/{page}/"
+
+
+# ── sitemap gap-fill ─────────────────────────────────────────────────────────
+# The listing pages do not reach the whole archive: /releases/ stops at page 45
+# (2025-05-08), so the first ~15 weeks of the administration are unreachable that
+# way. The sitemaps carry everything — ~2,060 URLs, with the publication date in
+# the path (/releases/2025/03/slug) — so any window the listings miss is filled
+# from there instead.
+#
+# This is automatic and needs no flag: recent windows are satisfied entirely by
+# the listings and cost no extra requests; older windows fall through to the
+# sitemap. Article pages are fetched ONLY for gap URLs, because the sitemap gives
+# no title and the URL slug is truncated — and a truncated title would degrade the
+# Federal Register title match that presidential-actions depends on.
+SITEMAP_INDEX = f"{BASE}/sitemap_index.xml"
+_SITEMAP_POST = re.compile(r"<loc>([^<]*post-sitemap\d*\.xml)</loc>", re.I)
+_SITEMAP_LOC = re.compile(r"<loc>([^<]+)</loc>", re.I)
+_PATH_YM = re.compile(r"/(\d{4})/(\d{2})/")
+_OG_TITLE = re.compile(r'<meta[^>]+property="og:title"[^>]+content="([^"]+)"', re.I)
+_H1 = re.compile(r"<h1[^>]*>(.*?)</h1>", re.S | re.I)
+
+
+def _sitemap_urls(session, logger) -> List[str]:
+    """Every post URL the site publishes, from the sitemap index."""
+    status, text = http_get(session, SITEMAP_INDEX, logger)
+    if status != 200 or not text:
+        logger.warning("WH: sitemap index unavailable (status=%s); gap-fill disabled", status)
+        return []
+    out: List[str] = []
+    for sm in _SITEMAP_POST.findall(text):
+        st, xml = http_get(session, sm, logger)
+        if st != 200 or not xml:
+            continue
+        out.extend(_SITEMAP_LOC.findall(xml))
+        polite_sleep()
+    logger.debug("WH: sitemap enumerated %d urls", len(out))
+    return out
+
+
+def _fetch_article(session, url: str, chan: Dict[str, Any], logger) -> Optional[Dict[str, Any]]:
+    """Resolve one gap URL to a full entity by fetching its page for the real title."""
+    status, text = http_get(session, url, logger)
+    if status != 200 or not text:
+        logger.debug("WH: gap fetch failed status=%s url=%s", status, url)
+        return None
+    m = _OG_TITLE.search(text) or _H1.search(text)
+    title = _strip_tags(m.group(1)) if m else ""
+    # strip the site suffix WordPress appends to og:title
+    title = re.sub(r"\s*[–—-]\s*The White House\s*$", "", title).strip()
+    dm = _DATETIME.search(text)
+    post_date = dm.group(1) if dm else _date_from_url(url)
+    if not title:
+        return None
+    return {
+        "source": "White House",
+        "doc_type": chan["doc_type"],
+        "title": title,
+        "url": url,
+        "canonical_url": url,
+        "summary_url": "",
+        "summary": "",
+        "summary_origin": "",
+        "summary_timestamp": "",
+        "post_date": post_date,
+        "raw_line": f"=== {post_date} — {title}",
+        "wh_channel": chan["key"],
+        "wh_category": "",
+        "speech_act_verb": chan["verb"],
+        "wh_instrument_type": chan["instrument"],
+        "fr_publication_expected": chan["fr_expected"],
+        "discovery": "sitemap",
+        **ACTOR_RECORD_CONSTRAINTS,
+    }
+
+
+def _gap_fill(session, wanted: set, have_urls: set, start_iso: str, end_iso: str,
+              logger) -> List[Dict[str, Any]]:
+    """
+    Find in-window URLs the listing walk did not return, and resolve them.
+
+    Matched by the date in the URL path at month granularity (the day is not in the
+    path), so the exact date comes from the fetched page and the window filter is
+    applied afterwards as usual.
+    """
+    by_path = {c["path"].strip("/"): c for c in CHANNELS if c["key"] in wanted}
+    if not by_path:
+        return []
+    urls = _sitemap_urls(session, logger)
+    if not urls:
+        return []
+
+    start_ym, end_ym = start_iso[:7], end_iso[:7]
+    gaps: List[Tuple[str, Dict[str, Any]]] = []
+    for u in urls:
+        if u in have_urls:
+            continue
+        ym = _PATH_YM.search(u)
+        if not ym or not (start_ym <= f"{ym.group(1)}-{ym.group(2)}" <= end_ym):
+            continue
+        rel = u.replace(BASE + "/", "")
+        for cpath, chan in by_path.items():
+            if rel.startswith(cpath + "/"):
+                gaps.append((u, chan))
+                break
+
+    if not gaps:
+        logger.debug("WH: no sitemap gaps in window")
+        return []
+    logger.info("WH: %d in-window URL(s) absent from listings; resolving from sitemap", len(gaps))
+
+    out: List[Dict[str, Any]] = []
+    for u, chan in gaps:
+        ent = _fetch_article(session, u, chan, logger)
+        if ent:
+            out.append(ent)
+        polite_sleep()
+    logger.info("WH: gap-fill resolved %d/%d", len(out), len(gaps))
+    return out
 
 
 def _discover_channel(session, chan: Dict[str, str],
@@ -354,6 +473,12 @@ def run_harvester(
         full_snapshot.extend(snap)
         full_audit.extend(audit)
 
+    # Listing pages do not reach the whole archive (/releases/ stops at 2025-05-08).
+    # Anything in-window they missed is resolved from the sitemap. No flag: recent
+    # windows find no gaps and pay nothing.
+    have = {i.get("canonical_url") for i in full_snapshot}
+    full_snapshot.extend(_gap_fill(sess, wanted, have, start, end, logger))
+
     now_utc = datetime.now(timezone.utc).isoformat(timespec="seconds").replace("+00:00", "Z")
     filtered_items, win_stats = _filter_window_and_dedupe(full_snapshot, start, end, logger)
 
@@ -376,6 +501,7 @@ def run_harvester(
                 "wh_category": it.get("wh_category", ""),
                 "wh_instrument_type": it.get("wh_instrument_type", ""),
                 "fr_publication_expected": it.get("fr_publication_expected"),
+                "discovery": it.get("discovery", ""),
             }
             for it in full_snapshot
         ],
