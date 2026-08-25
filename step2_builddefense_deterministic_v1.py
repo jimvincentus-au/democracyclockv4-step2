@@ -63,6 +63,50 @@ CATEGORY_BY_SUBTYPE = {
 }
 DEFAULT_CATEGORY = "Civil–Military Relations & State Violence"
 
+# Title routing, applied only where the sub-type does not already decide the
+# category. Without it every defence press product lands in one bucket, which
+# loses recoverable signal: a $7bn software agreement, a Guantánamo hearing
+# invitation and a foreign-institutions watchlist are not the same kind of thing.
+#
+# This is a Step-2 grouping hint ONLY. Step 7 re-categorises into its own five
+# canonical categories regardless, so a miss here is cheap — which is why the
+# patterns are deliberately conservative and fall through to the default.
+_CATEGORY_PATTERNS: List[tuple] = [
+    # money: procurement, loans, equity, agreements with named dollar figures
+    (r"\$[\d,.]+\s*(?:million|billion|trillion|m\b|b\b)|conditional loan|loan commitment|"
+     r"equity investment|framework agreement|\bcontract\b|\bawards?\b|procurement|"
+     r"office of strategic capital|investment in",
+     "Economic & Regulatory Power"),
+    # Allied engagement FIRST. "Joint Military Commission" is a bilateral defence
+    # body and must not be captured by the war-crimes "military commission" pattern
+    # below — the two share a phrase and mean entirely different things.
+    (r"joint military commission|joint (?:defense )?cooperation committee|joint statement|"
+     r"\breadout\b|defense cooperation|bilateral|\bnato\b|joint declaration|counterpart",
+     "International Relations"),
+    # courts and war-crimes military commissions
+    (r"\bpre-?trial\b|\bhearing\b|(?<!joint )military commission|\bv\.\s|\bcourt\b|"
+     r"\bindict|\bplea\b|united states v",
+     "Judicial Developments"),
+    # disclosure, records releases, reports, watchlists
+    (r"\breleases? (?:its|the|updated)\b|annual report|declassif|\bfoia\b|"
+     r"publishes|updated list|\barchive\b|transparency",
+     "Transparency & Records"),
+    # nominations/appointments that survive scope filtering
+    (r"\bconfirmation\b|sworn in|assumes? (?:the )?(?:role|duties)|appointment of",
+     "Appointments & Patronage"),
+]
+
+
+def _route_category(title: str, subtype: str) -> str:
+    """Sub-type wins where defined; otherwise route on the title; else default."""
+    if subtype in CATEGORY_BY_SUBTYPE:
+        return CATEGORY_BY_SUBTYPE[subtype]
+    t = (title or "").lower()
+    for pat, cat in _CATEGORY_PATTERNS:
+        if re.search(pat, t):
+            return cat
+    return DEFAULT_CATEGORY
+
 GENERIC_VERB = "published a document titled"
 _ISO = re.compile(r"^\d{4}-\d{2}-\d{2}$")
 
@@ -104,7 +148,7 @@ def _event_from_entity(e: Dict[str, Any]) -> Dict[str, Any]:
         # announcement, retained verbatim below but never rendered as our prose.
         "summary": "",
         "why_relevant": "",
-        "category": CATEGORY_BY_SUBTYPE.get(subtype, DEFAULT_CATEGORY),
+        "category": _route_category(title, subtype),
         "sources": [url] if url else [],
         "tags": [SOURCE_KEY, subtype] if subtype else [SOURCE_KEY],
         "attacks": [],
