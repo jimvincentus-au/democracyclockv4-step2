@@ -101,7 +101,10 @@ ALLOW_COMPONENTS = {
     "National Security Division",
     "Antitrust Division",
     "Civil Division",
+    # The API emits both "Environment and Natural Resources Division" and
+    # "Energy and Natural Resources Division" for ENRD; carry both spellings.
     "Environment and Natural Resources Division",
+    "Energy and Natural Resources Division",
     "Justice Management Division",
     "Executive Office for Immigration Review",
     "Office of Justice Programs",
@@ -155,9 +158,26 @@ def _components(rec: Dict[str, Any]) -> List[str]:
 
 
 def _in_scope(names: List[str]) -> bool:
+    """
+    Allowlist test, tolerant of the API's suffix variants.
+
+    Measured 2026-08-26: DOJ emits "National Security Division (NSD)" as well as the
+    bare name, and appends section suffixes ("Civil Rights - Voting Section"). Exact
+    membership therefore under-collects — it silently dropped 4 NSD items in one
+    sample week. Matching on a normalised prefix keeps the allowlist readable while
+    catching the variants.
+    """
     if any(re.search(p, n) for n in names for p in DENY_PATTERNS):
         return False
-    return any(n in ALLOW_COMPONENTS for n in names)
+    for n in names:
+        base = re.sub(r"\s*\([A-Z]+\)\s*$", "", (n or "").strip())   # drop "(NSD)"
+        if base in ALLOW_COMPONENTS:
+            return True
+        # "Civil Rights - Voting Section" -> "Civil Rights"; match the parent division
+        head = base.split(" - ")[0].strip()
+        if head and any(a == head or a.startswith(head + " ") for a in ALLOW_COMPONENTS):
+            return True
+    return False
 
 
 def _iso_from_epoch(v: Any) -> str:
