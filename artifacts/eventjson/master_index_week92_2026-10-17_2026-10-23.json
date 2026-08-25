@@ -1,0 +1,57 @@
+{
+  "window": {
+    "start": "2026-10-17",
+    "end": "2026-10-23"
+  },
+  "week_number": 92,
+  "sources": [
+    "federalregister"
+  ],
+  "counts": {
+    "total": 1,
+    "by_date": {
+      "2026-10-18": 1
+    },
+    "by_source": {
+      "federalregister": 1
+    },
+    "by_category": {
+      "Economic & Regulatory Power": 1
+    }
+  },
+  "events": [
+    {
+      "source_key": "federalregister",
+      "date": "2026-10-18",
+      "occurred_on": "2026-10-18",
+      "reported_on": "2026-06-01",
+      "dated_by": "occurred",
+      "category": "Economic & Regulatory Power",
+      "title": "FDA classifies real-time ultrasound anatomy visualization device for regional anesthesia as Class II medical device",
+      "url": "https://www.federalregister.gov/documents/2026/06/01/2026-10907/medical-devices-anesthesiology-devices-classification-of-the-real-time-ultrasound-anatomy",
+      "summary": "The Food and Drug Administration issued a final order classifying the ScanNav Anatomy Peripheral Nerve Block device—a real-time ultrasound anatomy visualization and labeling device for ultrasound-guided regional anesthesia—into Class II (special controls) under De Novo classification procedures. The device provides real-time interpretation and enhanced visualization of live ultrasound images by highlighting anatomical landmarks. FDA determined that Class II designation with specified special controls (clinical performance testing, human factors testing, software verification and validation, and labeling requirements) provides reasonable assurance of safety and effectiveness while reducing regulatory burden and enhancing patient access to beneficial innovation.",
+      "why_relevant": "Device classification decisions directly affect market access, regulatory burden, and the pace of medical innovation reaching patients; Class II designation reduces premarket approval requirements compared to automatic Class III assignment.",
+      "jurisdiction": "federal",
+      "federal_nexus": "",
+      "confidence": "high",
+      "basis": "FDA issued an order to the requester classifying the device into class II. In this final order, FDA is codifying the classification of the device by adding 21 CFR 868.1980.",
+      "actor": "FDA",
+      "action": "classified medical device",
+      "act_key": "fda|classified medical device|2026-10-18",
+      "attacks": [],
+      "source_meta": {
+        "headline": "Medical Devices; Anesthesiology Devices; Classification of the Real-Time Ultrasound Anatomy Visualization and Labeling Device for Ultrasound Guided Regional Anesthesia",
+        "published_on": "2026-06-01",
+        "byline": null,
+        "outlet": "Federal Register",
+        "accessed_on": "2026-08-15T11:07:23Z",
+        "snapshot_url": null,
+        "durable_keys": {
+          "federal_register_doc": "2026-10907"
+        }
+      },
+      "_origin_file": "federalregister_events_2026-05-16_2026-07-24.json",
+      "_origin_index": 346
+    }
+  ]
+}

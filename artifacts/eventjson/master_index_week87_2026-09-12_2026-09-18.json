@@ -1,0 +1,90 @@
+{
+  "window": {
+    "start": "2026-09-12",
+    "end": "2026-09-18"
+  },
+  "week_number": 87,
+  "sources": [
+    "federalregister"
+  ],
+  "counts": {
+    "total": 2,
+    "by_date": {
+      "2026-09-16": 2
+    },
+    "by_source": {
+      "federalregister": 2
+    },
+    "by_category": {
+      "Transparency & Records": 2
+    }
+  },
+  "events": [
+    {
+      "source_key": "federalregister",
+      "date": "2026-09-16",
+      "occurred_on": "2026-09-16",
+      "reported_on": "2026-07-28",
+      "dated_by": "occurred",
+      "category": "Transparency & Records",
+      "title": "FDA establishes public docket and announces Pediatric Advisory Committee meeting",
+      "url": "https://www.federalregister.gov/documents/2026/07/28/2026-15149/pediatric-advisory-committee-pac-notice-of-meeting-establishment-of-a-public-docket-request-for",
+      "summary": "The Food and Drug Administration announced a virtual meeting of the Pediatric Advisory Committee scheduled for September 16, 2026, to review post-marketing pediatric safety data on multiple medical devices, biologics, and drugs. The FDA established a public docket (FDA-2026-N-7514) and requested public comments by September 15, 2026. The meeting will be open to the public via online platform, with oral presentations from interested parties scheduled between 10:30 a.m. and 11:30 a.m. Eastern Time. Background materials will be posted on the FDA website no later than two business days before the meeting.",
+      "why_relevant": "Public notice of advisory committee proceedings and establishment of a docket for citizen comment exemplifies transparent regulatory process and democratic participation in federal health and safety decisions.",
+      "jurisdiction": "federal",
+      "federal_nexus": "",
+      "confidence": "high",
+      "basis": "The Food and Drug Administration (FDA or the Agency) announces a forthcoming public advisory committee meeting of the Pediatric Advisory Committee (PAC). The meeting will be open to the public. FDA is establishing a docket for public comment on this document.",
+      "actor": "FDA",
+      "action": "announced advisory committee meeting",
+      "act_key": "fda|announced advisory committee meeting|2026-09-16",
+      "attacks": [],
+      "source_meta": {
+        "headline": "Pediatric Advisory Committee (PAC); Notice of Meeting; Establishment of a Public Docket; Request for Comments",
+        "published_on": "2026-07-28",
+        "byline": null,
+        "outlet": "Federal Register",
+        "accessed_on": "2026-08-15T22:55:20Z",
+        "snapshot_url": null,
+        "durable_keys": {
+          "federal_register_doc": "2026-15149"
+        }
+      },
+      "_origin_file": "federalregister_events_2026-07-25_2026-08-07.json",
+      "_origin_index": 96
+    },
+    {
+      "source_key": "federalregister",
+      "date": "2026-09-16",
+      "occurred_on": "2026-09-16",
+      "reported_on": "2026-08-11",
+      "dated_by": "occurred",
+      "category": "Transparency & Records",
+      "title": "Federal Communications Commission announces Consumer Protection and Accessibility Advisory Committee meeting",
+      "url": "https://www.federalregister.gov/documents/2026/08/11/2026-16273/consumer-protection-and-accessibility-advisory-committee-announcement-of-meeting",
+      "summary": "The Federal Communications Commission published notice of a public meeting of its Consumer Protection and Accessibility Advisory Committee scheduled for Wednesday, September 16, 2026, at 9:00 a.m. Eastern Time. The meeting will be held in person at FCC headquarters in Washington, DC, and streamed online with sign language interpreters and open captioning. The Committee is expected to receive updates from two working groups, consider robocall mitigation recommendations, and discuss other relevant topics. Public comment will be accepted in person or via email.",
+      "why_relevant": "Public notice of an advisory committee meeting ensures transparency in the regulatory process and provides opportunity for citizen participation in consumer protection and accessibility policy development.",
+      "jurisdiction": "federal",
+      "federal_nexus": "",
+      "confidence": "high",
+      "basis": "In this document, the Commission announces the next meeting of its Consumer Protection and Accessibility Advisory Committee (CPAAC or Committee).",
+      "actor": "Federal Communications Commission",
+      "action": "announced advisory committee meeting",
+      "act_key": "federal communications commission|announced advisory committee meeting|2026-09-16",
+      "attacks": [],
+      "source_meta": {
+        "headline": "Consumer Protection and Accessibility Advisory Committee; Announcement of Meeting",
+        "published_on": "2026-08-11",
+        "byline": null,
+        "outlet": "Federal Register",
+        "accessed_on": "2026-08-16T05:48:43Z",
+        "snapshot_url": null,
+        "durable_keys": {
+          "federal_register_doc": "2026-16273"
+        }
+      },
+      "_origin_file": "federalregister_events_2026-08-08_2026-08-14.json",
+      "_origin_index": 21
+    }
+  ]
+}

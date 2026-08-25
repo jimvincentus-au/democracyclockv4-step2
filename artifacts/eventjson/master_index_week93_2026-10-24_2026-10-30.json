@@ -1,0 +1,92 @@
+{
+  "window": {
+    "start": "2026-10-24",
+    "end": "2026-10-30"
+  },
+  "week_number": 93,
+  "sources": [
+    "federalregister"
+  ],
+  "counts": {
+    "total": 2,
+    "by_date": {
+      "2026-10-27": 1,
+      "2026-10-28": 1
+    },
+    "by_source": {
+      "federalregister": 2
+    },
+    "by_category": {
+      "Economic & Regulatory Power": 1,
+      "Transparency & Records": 1
+    }
+  },
+  "events": [
+    {
+      "source_key": "federalregister",
+      "date": "2026-10-27",
+      "occurred_on": "2026-10-27",
+      "reported_on": "2026-04-20",
+      "dated_by": "occurred",
+      "category": "Economic & Regulatory Power",
+      "title": "EPA receives experimental use permit application for Wolbachia-infected mosquitoes",
+      "url": "https://www.federalregister.gov/documents/2026/04/20/2026-07625/pesticide-experimental-use-permit-receipt-of-application-comment-request-february-2026",
+      "summary": "The Environmental Protection Agency announced receipt of an experimental use permit (EUP) application from Google LLC for field testing of Wolbachia pipientis wPip strain in live Aedes albopictus male mosquitoes. The application proposes releasing up to 16 million modified mosquitoes annually over 800 acres in New Jersey (three years), California, and Florida (two years each) to suppress wild mosquito populations through mating interference. EPA determined the application may be of regional and national significance and is soliciting public comment by May 20, 2026, before deciding whether to issue or deny the permit.",
+      "why_relevant": "The permit decision affects public health policy, environmental release of genetically modified organisms, and the regulatory process governing experimental pesticide deployment in populated areas.",
+      "jurisdiction": "federal",
+      "federal_nexus": "",
+      "confidence": "high",
+      "basis": "EPA's receipt of an application 92643-EUP-E from Google LLC requesting an experimental use permit (EUP) for the Wolbachia pipientis wPip strain contained in live adult Aedes albopictus males.",
+      "actor": "EPA",
+      "action": "received experimental use permit application",
+      "act_key": "epa|received experimental use permit application|2026-10-27",
+      "attacks": [],
+      "source_meta": {
+        "headline": "Pesticide Experimental Use Permit; Receipt of Application; Comment Request (February 2026)",
+        "published_on": "2026-04-20",
+        "byline": null,
+        "outlet": "Federal Register",
+        "accessed_on": "2026-08-15T01:05:12Z",
+        "snapshot_url": null,
+        "durable_keys": {
+          "federal_register_doc": "2026-07625"
+        }
+      },
+      "_origin_file": "federalregister_events_2026-03-07_2026-05-15.json",
+      "_origin_index": 216
+    },
+    {
+      "source_key": "federalregister",
+      "date": "2026-10-28",
+      "occurred_on": "2026-10-28",
+      "reported_on": "2026-07-21",
+      "dated_by": "occurred",
+      "category": "Transparency & Records",
+      "title": "CDC announces public meeting of Advisory Board on Radiation and Worker Health Subcommittee for Procedure Reviews",
+      "url": "https://www.federalregister.gov/documents/2026/07/21/2026-14661/meeting-of-the-advisory-board-on-radiation-and-worker-health-subcommittee-for-procedure-reviews",
+      "summary": "The Centers for Disease Control and Prevention published notice of a scheduled meeting of the Subcommittee on Procedures Reviews (SPR) of the Advisory Board on Radiation and Worker Health (ABRWH), to be held October 28, 2026, from 11 a.m. to 4:30 p.m. EDT. The meeting is open to the public for listening via audio conference; written comments are accepted in advance but no oral public comment period is provided. The agenda covers dose reconstruction procedures, technical reviews, and compensation program administration under the Energy Employees Occupational Illness Compensation Program Act of 2000.",
+      "why_relevant": "Public notice of an advisory board meeting ensures transparency in the administration of occupational health compensation for radiation-exposed workers and allows public participation in the process.",
+      "jurisdiction": "federal",
+      "federal_nexus": "",
+      "confidence": "high",
+      "basis": "The meeting will be held on October 28, 2026, from 11 a.m. to 4:30 p.m., EDT. This meeting is open to the public, but without an oral public comment period.",
+      "actor": "CDC",
+      "action": "announced advisory board meeting",
+      "act_key": "cdc|announced advisory board meeting|2026-10-28",
+      "attacks": [],
+      "source_meta": {
+        "headline": "Meeting of the Advisory Board on Radiation and Worker Health, Subcommittee for Procedure Reviews, National Institute for Occupational Safety and Health",
+        "published_on": "2026-07-21",
+        "byline": null,
+        "outlet": "Federal Register",
+        "accessed_on": "2026-08-15T10:45:55Z",
+        "snapshot_url": null,
+        "durable_keys": {
+          "federal_register_doc": "2026-14661"
+        }
+      },
+      "_origin_file": "federalregister_events_2026-05-16_2026-07-24.json",
+      "_origin_index": 238
+    }
+  ]
+}

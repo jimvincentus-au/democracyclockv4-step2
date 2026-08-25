@@ -1,0 +1,57 @@
+{
+  "window": {
+    "start": "2026-11-07",
+    "end": "2026-11-13"
+  },
+  "week_number": 95,
+  "sources": [
+    "federalregister"
+  ],
+  "counts": {
+    "total": 1,
+    "by_date": {
+      "2026-11-09": 1
+    },
+    "by_source": {
+      "federalregister": 1
+    },
+    "by_category": {
+      "Economic & Regulatory Power": 1
+    }
+  },
+  "events": [
+    {
+      "source_key": "federalregister",
+      "date": "2026-11-09",
+      "occurred_on": "2026-11-09",
+      "reported_on": "2026-06-11",
+      "dated_by": "occurred",
+      "category": "Economic & Regulatory Power",
+      "title": "FDA classifies Spinal Muscular Atrophy newborn screening test system as Class II device",
+      "url": "https://www.federalregister.gov/documents/2026/06/11/2026-11740/medical-devices-immunology-and-microbiology-devices-classification-of-the-spinal-muscular-atrophy",
+      "summary": "The Food and Drug Administration issued a final order classifying the Spinal Muscular Atrophy (SMA) newborn screening test system into Class II (special controls) under De Novo classification procedures. The device, a prescription in vitro diagnostic intended to detect homozygous deletion of exon 7 or similar mutations in the SMN1 gene from dried blood spot specimens, will now be subject to special controls addressing risks of false negative and false positive results. This classification reduces regulatory burden compared to automatic Class III assignment and allows future substantially equivalent devices to use the less burdensome 510(k) pathway.",
+      "why_relevant": "Device classification decisions directly affect patient access to diagnostic innovation and the regulatory pathway for future medical technologies, balancing safety oversight with innovation incentives.",
+      "jurisdiction": "federal",
+      "federal_nexus": "",
+      "confidence": "high",
+      "basis": "FDA issued an order to the requester classifying the device into class II. In this final order, FDA is codifying the classification of the device by adding 21 CFR 866.5980.",
+      "actor": "FDA",
+      "action": "classified medical device",
+      "act_key": "fda|classified medical device|2026-11-09",
+      "attacks": [],
+      "source_meta": {
+        "headline": "Medical Devices; Immunology and Microbiology Devices; Classification of the Spinal Muscular Atrophy Newborn Screening Test System",
+        "published_on": "2026-06-11",
+        "byline": null,
+        "outlet": "Federal Register",
+        "accessed_on": "2026-08-15T11:04:15Z",
+        "snapshot_url": null,
+        "durable_keys": {
+          "federal_register_doc": "2026-11740"
+        }
+      },
+      "_origin_file": "federalregister_events_2026-05-16_2026-07-24.json",
+      "_origin_index": 330
+    }
+  ]
+}

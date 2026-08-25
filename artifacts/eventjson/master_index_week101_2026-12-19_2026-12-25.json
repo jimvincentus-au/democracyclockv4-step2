@@ -1,0 +1,268 @@
+{
+  "window": {
+    "start": "2026-12-19",
+    "end": "2026-12-25"
+  },
+  "week_number": 101,
+  "sources": [
+    "federalregister",
+    "zeteo"
+  ],
+  "counts": {
+    "total": 7,
+    "by_date": {
+      "2026-12-23": 1,
+      "2026-12-24": 4,
+      "2026-12-25": 2
+    },
+    "by_source": {
+      "federalregister": 1,
+      "zeteo": 6
+    },
+    "by_category": {
+      "Economic & Regulatory Power": 1,
+      "Judicial Developments": 2,
+      "Information & Media Control": 1,
+      "Transparency & Records": 1,
+      "International Relations": 1,
+      "Civil–Military Relations & State Violence": 1
+    }
+  },
+  "events": [
+    {
+      "source_key": "federalregister",
+      "date": "2026-12-23",
+      "occurred_on": "2026-12-23",
+      "reported_on": "2026-07-29",
+      "dated_by": "occurred",
+      "category": "Economic & Regulatory Power",
+      "title": "FDA classifies phase-changing fiducial marker for radiation therapy as Class II device",
+      "url": "https://www.federalregister.gov/documents/2026/07/29/2026-15303/medical-devices-radiology-devices-classification-of-the-phase-changing-fiducial-marker-for-radiation",
+      "summary": "The Food and Drug Administration issued a final order classifying the phase-changing fiducial marker for radiation therapy into Class II (special controls) under the De Novo classification process. The device is a single-use, sterile liquid material injected into tissue to aid radiation therapy treatment and visualization via radiologic imaging. FDA determined that Class II designation with specified special controls—including clinical performance data, animal testing, biocompatibility evaluation, and labeling requirements—provides reasonable assurance of safety and effectiveness while reducing regulatory burden compared to automatic Class III assignment.",
+      "why_relevant": "FDA's reclassification of a medical device from Class III to Class II reduces premarket approval burdens, enabling faster patient access to innovative radiation therapy technology and establishing a predicate for future substantially equivalent devices.",
+      "jurisdiction": "federal",
+      "federal_nexus": "",
+      "confidence": "high",
+      "basis": "FDA issued an order to the requester classifying the device into class II. In this final order, FDA is codifying the classification of the device by adding 21 CFR 892.5727.",
+      "actor": "FDA",
+      "action": "classified medical device",
+      "act_key": "fda|classified medical device|2026-12-23",
+      "attacks": [],
+      "source_meta": {
+        "headline": "Medical Devices; Radiology Devices; Classification of the Phase-Changing Fiducial Marker for Radiation Therapy",
+        "published_on": "2026-07-29",
+        "byline": null,
+        "outlet": "Federal Register",
+        "accessed_on": "2026-08-15T22:54:24Z",
+        "snapshot_url": null,
+        "durable_keys": {
+          "federal_register_doc": "2026-15303"
+        }
+      },
+      "_origin_file": "federalregister_events_2026-07-25_2026-08-07.json",
+      "_origin_index": 91
+    },
+    {
+      "source_key": "zeteo",
+      "date": "2026-12-24",
+      "occurred_on": "2026-12-24",
+      "reported_on": "2026-01-10",
+      "dated_by": "occurred",
+      "category": "Judicial Developments",
+      "title": "Federal judge blocks ICE courthouse arrests in Northern California",
+      "url": "https://zeteo.com/p/this-week-in-democracy-weeks-50-51-trump",
+      "summary": "A federal judge issued a ruling on December 24 prohibiting ICE and the DOJ's Executive Office for Immigration Review from conducting \"sweeping\" arrests at immigration courthouses in Northern California.",
+      "why_relevant": "Court protection of courthouse sanctuaries preserves access to justice and prevents intimidation of immigrants seeking legal remedies; the ruling constrains executive enforcement overreach.",
+      "jurisdiction": "federal",
+      "federal_nexus": "",
+      "confidence": "high",
+      "basis": "A federal judge issued a ruling prohibiting ICE and the DOJ's Executive Office for Immigration Review from conducting 'sweeping' arrests at immigration courthouses in Northern California.",
+      "actor": "Federal judge (Northern California)",
+      "action": "blocked courthouse arrests",
+      "act_key": "federal northern california|blocked courthouse arrests|2026-12-24",
+      "attacks": [],
+      "source_meta": {
+        "headline": "This Week in Democracy – Weeks 50 & 51: Fascism at Home, Imperialism Abroad",
+        "published_on": "2026-01-10",
+        "byline": "Team Zeteo",
+        "outlet": "Zeteo",
+        "accessed_on": "2026-08-11T22:01:43Z",
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "zeteo_events_2025-11-29_2026-03-06.json",
+      "_origin_index": 127
+    },
+    {
+      "source_key": "zeteo",
+      "date": "2026-12-24",
+      "occurred_on": "2026-12-24",
+      "reported_on": "2026-01-10",
+      "dated_by": "occurred",
+      "category": "Information & Media Control",
+      "title": "Trump calls for broadcast license revocation of networks critical of him",
+      "url": "https://zeteo.com/p/this-week-in-democracy-weeks-50-51-trump",
+      "summary": "On Truth Social on December 24, Trump called for the revocation of broadcast licenses for networks he claims are \"almost 100% Negative\" to him, MAGA, and the Republican Party. This follows his earlier attack on late-night host Stephen Colbert, whom he called a \"pathetic trainwreck\" running on \"hatred and fumes.\"",
+      "why_relevant": "Threats to revoke broadcast licenses based on editorial content constitute direct attacks on press freedom and the First Amendment; using regulatory power to punish critical media is a hallmark of authoritarian governance.",
+      "jurisdiction": "federal",
+      "federal_nexus": "",
+      "confidence": "high",
+      "basis": "In another ridiculous post, Trump continued to call for the revocation of broadcast licenses for networks he claims are 'almost 100% Negative' to him, MAGA, and the Republican Party.",
+      "actor": "Trump",
+      "action": "called for license revocation",
+      "act_key": "trump|called for license revocation|2026-12-24",
+      "attacks": [
+        "press",
+        "truth",
+        "constitution"
+      ],
+      "source_meta": {
+        "headline": "This Week in Democracy – Weeks 50 & 51: Fascism at Home, Imperialism Abroad",
+        "published_on": "2026-01-10",
+        "byline": "Team Zeteo",
+        "outlet": "Zeteo",
+        "accessed_on": "2026-08-11T22:01:43Z",
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "zeteo_events_2025-11-29_2026-03-06.json",
+      "_origin_index": 125
+    },
+    {
+      "source_key": "zeteo",
+      "date": "2026-12-24",
+      "occurred_on": "2026-12-24",
+      "reported_on": "2026-01-10",
+      "dated_by": "occurred",
+      "category": "Transparency & Records",
+      "title": "Senators request DOJ Inspector General investigation into Epstein files non-release",
+      "url": "https://zeteo.com/p/this-week-in-democracy-weeks-50-51-trump",
+      "summary": "Twelve senators sent a letter to the Justice Department's Inspector General on December 24 requesting an investigation into the DOJ's failure to release the entirety of the Epstein files by the December 19 deadline. The senators accused the department of withholding files, releasing documents already available to the public, heavily redacting documents, and removing files after releasing them. The DOJ simultaneously announced it had uncovered over one million additional documents potentially related to Epstein and claimed lawyers were working around the clock to review them, a process the agency said \"may take a few more weeks.\"",
+      "why_relevant": "Congressional oversight of executive compliance with statutory transparency deadlines is a core democratic check; the DOJ's apparent non-compliance with the Epstein Files Transparency Act undermines public access to records of potential crimes and official misconduct.",
+      "jurisdiction": "federal",
+      "federal_nexus": "",
+      "confidence": "high",
+      "basis": "A dozen senators sent a letter to the Justice Department's Inspector General calling for an investigation into the DOJ's failure to release the entirety of the Epstein files by the Dec. 19 deadline, accusing the department of withholding files, releasing documents that were largely already available to the public, heavily redacting documents, and removing files after releasing them.",
+      "actor": "Senate (12 senators)",
+      "action": "requested inspector general investigation",
+      "act_key": "senate 12 senators|requested inspector general investigation|2026-12-24",
+      "attacks": [
+        "transparency",
+        "rule_of_law"
+      ],
+      "source_meta": {
+        "headline": "This Week in Democracy – Weeks 50 & 51: Fascism at Home, Imperialism Abroad",
+        "published_on": "2026-01-10",
+        "byline": "Team Zeteo",
+        "outlet": "Zeteo",
+        "accessed_on": "2026-08-11T22:01:43Z",
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "zeteo_events_2025-11-29_2026-03-06.json",
+      "_origin_index": 123
+    },
+    {
+      "source_key": "zeteo",
+      "date": "2026-12-24",
+      "occurred_on": "2026-12-24",
+      "reported_on": "2026-01-10",
+      "dated_by": "occurred",
+      "category": "International Relations",
+      "title": "Trump administration orders military quarantine of Venezuelan oil",
+      "url": "https://zeteo.com/p/this-week-in-democracy-weeks-50-51-trump",
+      "summary": "Reuters reported on December 24 that the Trump administration ordered the US military to spend at least the next two months enforcing a \"quarantine\" of Venezuelan oil. One official stated that the White House's belief is that by late January, \"Venezuela will be facing an economic calamity unless it agrees to make significant concessions to the US.\"",
+      "why_relevant": "Unilateral military enforcement of economic coercion against a sovereign nation without congressional authorization or international legal basis undermines the rule of law and peaceful resolution of disputes.",
+      "jurisdiction": "federal",
+      "federal_nexus": "",
+      "confidence": "high",
+      "basis": "Reuters reported that the Trump administration ordered the US military to spend at least the next two months enforcing a 'quarantine' of Venezuelan oil, with one official saying that the White House's belief is that, by late January, 'Venezuela will be facing an economic calamity unless it agrees to make significant concessions to the US.",
+      "actor": "Trump administration",
+      "action": "ordered military oil quarantine",
+      "act_key": "trump administration|ordered military oil quarantine|2026-12-24",
+      "attacks": [
+        "peace",
+        "separation_of_powers",
+        "rule_of_law"
+      ],
+      "source_meta": {
+        "headline": "This Week in Democracy – Weeks 50 & 51: Fascism at Home, Imperialism Abroad",
+        "published_on": "2026-01-10",
+        "byline": "Team Zeteo",
+        "outlet": "Zeteo",
+        "accessed_on": "2026-08-11T22:01:43Z",
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "zeteo_events_2025-11-29_2026-03-06.json",
+      "_origin_index": 126
+    },
+    {
+      "source_key": "zeteo",
+      "date": "2026-12-25",
+      "occurred_on": "2026-12-25",
+      "reported_on": "2026-01-10",
+      "dated_by": "occurred",
+      "category": "Judicial Developments",
+      "title": "Federal judge temporarily blocks detention of digital hate center CEO",
+      "url": "https://zeteo.com/p/this-week-in-democracy-weeks-50-51-trump",
+      "summary": "A federal judge temporarily blocked the Trump administration from detaining Imran Ahmed, the CEO and founder of the Center for Countering Digital Hate, on December 25, two days after the State Department imposed visa bans on Ahmed and four Europeans accused of working to censor freedom of speech in the US.",
+      "why_relevant": "The court's intervention protects against executive detention of foreign critics of the administration; the underlying visa bans target individuals for speech critical of government, raising First Amendment concerns.",
+      "jurisdiction": "federal",
+      "federal_nexus": "",
+      "confidence": "high",
+      "basis": "A federal judge temporarily blocked the Trump administration from detaining Imran Ahmed, the CEO and founder of the Center for Countering Digital Hate, two days after the State Department imposed visa bans on Ahmed and four Europeans accused of working to censor freedom of speech in the US.",
+      "actor": "Federal judge",
+      "action": "blocked detention order",
+      "act_key": "federal|blocked detention order|2026-12-25",
+      "attacks": [],
+      "source_meta": {
+        "headline": "This Week in Democracy – Weeks 50 & 51: Fascism at Home, Imperialism Abroad",
+        "published_on": "2026-01-10",
+        "byline": "Team Zeteo",
+        "outlet": "Zeteo",
+        "accessed_on": "2026-08-11T22:01:43Z",
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "zeteo_events_2025-11-29_2026-03-06.json",
+      "_origin_index": 129
+    },
+    {
+      "source_key": "zeteo",
+      "date": "2026-12-25",
+      "occurred_on": "2026-12-25",
+      "reported_on": "2026-01-10",
+      "dated_by": "occurred",
+      "category": "Civil–Military Relations & State Violence",
+      "title": "Trump announces deadly US military strike in Nigeria",
+      "url": "https://zeteo.com/p/this-week-in-democracy-weeks-50-51-trump",
+      "summary": "On Truth Social on December 25, Trump announced that at his direction, the US launched a deadly strike against \"ISIS Terrorist Scum\" in Nigeria, claiming they have been \"targeting and viciously killing, primarily, innocent Christians, at levels not seen for many years, and even Centuries.\" He warned there will be \"many more\" dead \"Terrorists\" if the \"slaughter of Christians continues.\" Zeteo later reported that Nigerian officials and those monitoring political violence in the country accused the Trump administration of spreading misinformation, noting that Christians make up a smaller percentage of the death toll in attacks than Muslims.",
+      "why_relevant": "Unilateral military strikes without congressional authorization, combined with false justifications for the action, violate constitutional war powers and undermine informed democratic decision-making.",
+      "jurisdiction": "federal",
+      "federal_nexus": "",
+      "confidence": "high",
+      "basis": "On Truth Social, Trump announced that, at his direction, the US launched a deadly strike against 'ISIS Terrorist Scum' in Nigeria, who he claims have been 'targeting and viciously killing, primarily, innocent Christians, at levels not seen for many years, and even Centuries!",
+      "actor": "Trump",
+      "action": "authorized military strike",
+      "act_key": "trump|authorized military strike|2026-12-25",
+      "attacks": [
+        "peace",
+        "truth",
+        "separation_of_powers",
+        "rule_of_law"
+      ],
+      "source_meta": {
+        "headline": "This Week in Democracy – Weeks 50 & 51: Fascism at Home, Imperialism Abroad",
+        "published_on": "2026-01-10",
+        "byline": "Team Zeteo",
+        "outlet": "Zeteo",
+        "accessed_on": "2026-08-11T22:01:43Z",
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "zeteo_events_2025-11-29_2026-03-06.json",
+      "_origin_index": 128
+    }
+  ]
+}

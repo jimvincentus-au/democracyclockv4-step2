@@ -1,0 +1,57 @@
+{
+  "window": {
+    "start": "2026-12-12",
+    "end": "2026-12-18"
+  },
+  "week_number": 100,
+  "sources": [
+    "federalregister"
+  ],
+  "counts": {
+    "total": 1,
+    "by_date": {
+      "2026-12-16": 1
+    },
+    "by_source": {
+      "federalregister": 1
+    },
+    "by_category": {
+      "Economic & Regulatory Power": 1
+    }
+  },
+  "events": [
+    {
+      "source_key": "federalregister",
+      "date": "2026-12-16",
+      "occurred_on": "2026-12-16",
+      "reported_on": "2026-06-05",
+      "dated_by": "occurred",
+      "category": "Economic & Regulatory Power",
+      "title": "FDA classifies shoulder joint humeral ceramic/metallic prosthesis into Class II medical device category",
+      "url": "https://www.federalregister.gov/documents/2026/06/05/2026-11306/medical-devices-orthopedic-devices-classification-of-the-shoulder-joint-humeral-hemi-shoulder",
+      "summary": "The Food and Drug Administration issued a final order classifying the shoulder joint humeral (hemi-shoulder) ceramic head/metallic stem cemented or uncemented prosthesis into Class II (special controls) under 21 CFR 888.3695. The classification, applicable retroactively to December 16, 2022, establishes special controls including clinical data requirements, non-clinical performance testing, biocompatibility evaluation, sterilization validation, and labeling specifications. FDA determined that Class II designation with these special controls provides reasonable assurance of safety and effectiveness while reducing regulatory burden compared to automatic Class III assignment.",
+      "why_relevant": "Device classification decisions directly affect market access, innovation incentives, and the regulatory pathway manufacturers must follow to bring medical devices to patients.",
+      "jurisdiction": "federal",
+      "federal_nexus": "",
+      "confidence": "high",
+      "basis": "FDA is classifying the shoulder joint humeral (hemi-shoulder) ceramic head/metallic stem cemented or uncemented prosthesis into class II (special controls).",
+      "actor": "FDA",
+      "action": "classified medical device",
+      "act_key": "fda|classified medical device|2026-12-16",
+      "attacks": [],
+      "source_meta": {
+        "headline": "Medical Devices; Orthopedic Devices; Classification of the Shoulder Joint Humeral (Hemi-Shoulder) Ceramic Head/Metallic Stem Cemented or Uncemented Prosthesis",
+        "published_on": "2026-06-05",
+        "byline": null,
+        "outlet": "Federal Register",
+        "accessed_on": "2026-08-15T11:05:25Z",
+        "snapshot_url": null,
+        "durable_keys": {
+          "federal_register_doc": "2026-11306"
+        }
+      },
+      "_origin_file": "federalregister_events_2026-05-16_2026-07-24.json",
+      "_origin_index": 336
+    }
+  ]
+}

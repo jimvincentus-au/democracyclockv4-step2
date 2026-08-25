@@ -1,0 +1,59 @@
+{
+  "window": {
+    "start": "3025-06-11",
+    "end": "3025-06-17"
+  },
+  "week_number": 52199,
+  "sources": [
+    "noah"
+  ],
+  "counts": {
+    "total": 1,
+    "by_date": {
+      "3025-06-11": 1
+    },
+    "by_source": {
+      "noah": 1
+    },
+    "by_category": {
+      "Transparency & Records": 1
+    }
+  },
+  "events": [
+    {
+      "source_key": "noah",
+      "date": "3025-06-11",
+      "occurred_on": "",
+      "reported_on": "3025-06-11",
+      "dated_by": "reported",
+      "category": "Transparency & Records",
+      "title": "Personnel cuts at statistical agencies impair economic data collection",
+      "url": "https://www.noahpinion.blog/p/at-least-five-interesting-things-438",
+      "summary": "Trump administration personnel cuts at federal statistical agencies have degraded the capacity to collect critical economic data, including Consumer Price Index information. The cuts make it harder to gather reliable statistics needed for sound economic policymaking.",
+      "why_relevant": "Reduced capacity to collect and publish accurate economic statistics weakens the information foundation for both public understanding and government decision-making on economic policy.",
+      "jurisdiction": "federal",
+      "federal_nexus": "",
+      "confidence": "high",
+      "basis": "Trump isn't trying to block the data from being collected, but his personnel cuts at government statistical agencies have made it much harder to collect the data.",
+      "actor": "Trump administration",
+      "action": "cut personnel at statistical agencies",
+      "act_key": "trump administration|cut personnel at statistical agencies|3025-06-11",
+      "attacks": [
+        "truth",
+        "information",
+        "knowledge"
+      ],
+      "source_meta": {
+        "headline": "At least five interesting things: Anything but protests edition (#65)",
+        "published_on": "2025-06-11",
+        "byline": "Noah Smith",
+        "outlet": "Noahpinion",
+        "accessed_on": "2026-08-13T10:35:53Z",
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "noah_events_2025-04-05_2025-07-25.json",
+      "_origin_index": 63
+    }
+  ]
+}

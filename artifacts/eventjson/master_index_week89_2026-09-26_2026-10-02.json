@@ -1,0 +1,95 @@
+{
+  "window": {
+    "start": "2026-09-26",
+    "end": "2026-10-02"
+  },
+  "week_number": 89,
+  "sources": [
+    "guardian",
+    "democracydocket"
+  ],
+  "counts": {
+    "total": 2,
+    "by_date": {
+      "2026-10-01": 2
+    },
+    "by_source": {
+      "guardian": 1,
+      "democracydocket": 1
+    },
+    "by_category": {
+      "Executive Actions & Orders": 1,
+      "Elections & Representation": 1
+    }
+  },
+  "events": [
+    {
+      "source_key": "guardian",
+      "date": "2026-10-01",
+      "occurred_on": "",
+      "reported_on": "2026-10-01",
+      "dated_by": "reported",
+      "category": "Executive Actions & Orders",
+      "title": "Trump pardoned Changpeng Zhao, Binance founder, after family crypto deal",
+      "url": "https://www.theguardian.com/us-news/2026/apr/11/trump-mass-pardons-end-of-presidential-term",
+      "summary": "President Trump pardoned Changpeng Zhao, founder of cryptocurrency exchange Binance, who had been sentenced to four months in prison for failing to maintain an anti-money laundering program. The pardon followed a $2 billion transaction from an Emirati investment fund to World Liberty Financial, a crypto enterprise run by Trump's family, which helped legitimize the family's digital currency venture.",
+      "why_relevant": "The pardon appears coordinated with a major financial transaction benefiting Trump's family business, exemplifying use of presidential clemency power for personal enrichment and pay-to-play dynamics.",
+      "jurisdiction": "federal",
+      "federal_nexus": "",
+      "confidence": "high",
+      "basis": "Trump in October pardoned Changpeng Zhao, the founder of cryptocurrency exchange Binance, who had been sentenced to four months in prison after he pleaded guilty for not maintaining an anti-money laundering program. Earlier in the year, Binance accepted a $2bn transaction from the Emirati investment fund through World Liberty Financial, the crypto enterprise run by Trump's family.",
+      "actor": "Trump",
+      "action": "pardoned changpeng zhao",
+      "act_key": "trump|pardoned changpeng zhao|2026-10-01",
+      "attacks": [
+        "emoluments",
+        "rule_of_law"
+      ],
+      "source_meta": {
+        "headline": "Trump reportedly says he’ll issue mass pardons at end of his presidential term",
+        "published_on": "2026-04-11",
+        "byline": "Lauren Aratani",
+        "outlet": "the Guardian",
+        "accessed_on": "2026-08-15T03:17:46Z",
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "guardian_events_2026-03-07_2026-05-15.json",
+      "_origin_index": 478
+    },
+    {
+      "source_key": "democracydocket",
+      "date": "2026-10-01",
+      "occurred_on": "2026-10-01",
+      "reported_on": "2026-01-17",
+      "dated_by": "occurred",
+      "category": "Elections & Representation",
+      "title": "Missouri Secretary of State rejects nearly 100,000 referendum signatures on redistricting map",
+      "url": "https://www.democracydocket.com/analysis/in-battling-a-gop-gerrymander-missouri-voters-are-fighting-for-american-democracy/",
+      "summary": "In October 2026, Missouri Secretary of State Denny Hoskins announced rejection of approximately 100,000 signatures collected before his October 14 approval of the referendum petition, claiming pre-approval signatures were invalid. People Not Politicians, the referendum organizer, immediately challenged the decision in court. The case is currently on hold pending verification of roughly 200,000 signatures collected after October 14. This rejection blocks a key step in the voter-initiated referendum process to veto the GOP-drawn congressional map.",
+      "why_relevant": "The rejection of valid signatures directly obstructs the constitutional right of Missouri voters to hold a referendum on redistricting, a core democratic mechanism for popular veto of legislative acts.",
+      "jurisdiction": "state",
+      "federal_nexus": "",
+      "confidence": "high",
+      "basis": "In October, Missouri's chief election official, Secretary of State Denny Hoskins, announced that he would reject nearly 100,000 signatures, including the 150 Roesler gathered that day.",
+      "actor": "Denny Hoskins",
+      "action": "rejected referendum signatures",
+      "act_key": "denny hoskins|rejected referendum signatures|2026-10-01",
+      "attacks": [
+        "rule_of_law",
+        "peaceful_transfer"
+      ],
+      "source_meta": {
+        "headline": "In battling a GOP gerrymander, Missouri voters are fighting for American democracy",
+        "published_on": "2026-01-17",
+        "byline": null,
+        "outlet": "Democracy Docket",
+        "accessed_on": "2026-08-12T13:38:29Z",
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "democracydocket_events_2025-11-29_2026-03-06.json",
+      "_origin_index": 33
+    }
+  ]
+}

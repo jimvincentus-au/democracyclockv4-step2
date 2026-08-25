@@ -5,67 +5,73 @@
   },
   "week_number": 21,
   "sources": [
-    "justsecurity",
-    "50501",
+    "orders",
     "federalregister",
-    "noah",
-    "zeteo",
-    "scotusopinions",
-    "outloud",
-    "guardian",
-    "meidas",
     "popinfo",
+    "justice",
+    "zeteo",
+    "meidas",
+    "50501",
+    "outloud",
+    "whitehouse",
+    "guardian",
+    "noah",
+    "scotusorders",
     "democracydocket",
     "hcr",
-    "scotusorders",
-    "orders",
+    "defense",
+    "justsecurity",
+    "scotusopinions",
     "congress"
   ],
   "counts": {
-    "total": 513,
+    "total": 580,
     "by_date": {
-      "2025-06-07": 33,
-      "2025-06-08": 43,
-      "2025-06-09": 77,
-      "2025-06-10": 113,
-      "2025-06-11": 75,
-      "2025-06-12": 99,
-      "2025-06-13": 73
+      "2025-06-07": 40,
+      "2025-06-08": 49,
+      "2025-06-09": 90,
+      "2025-06-10": 119,
+      "2025-06-11": 83,
+      "2025-06-12": 116,
+      "2025-06-13": 83
     },
     "by_source": {
-      "hcr": 78,
-      "guardian": 121,
+      "hcr": 90,
+      "whitehouse": 27,
+      "guardian": 137,
       "zeteo": 37,
       "meidas": 67,
-      "popinfo": 35,
-      "justsecurity": 54,
+      "popinfo": 39,
+      "justsecurity": 50,
       "50501": 2,
       "noah": 6,
       "outloud": 9,
       "scotusorders": 7,
-      "federalregister": 82,
+      "federalregister": 85,
+      "defense": 2,
       "democracydocket": 3,
       "congress": 4,
       "orders": 2,
-      "scotusopinions": 6
+      "justice": 1,
+      "scotusopinions": 12
     },
     "by_category": {
-      "Executive Actions & Orders": 49,
-      "Legislative & Oversight Activity": 34,
-      "Judicial Developments": 86,
-      "Law Enforcement & Surveillance": 77,
-      "Civil Society & Protest": 24,
-      "Information & Media Control": 42,
-      "Appointments & Patronage": 10,
+      "Executive Actions & Orders": 62,
+      "Legislative & Oversight Activity": 35,
+      "Judicial Developments": 84,
+      "Law Enforcement & Surveillance": 90,
+      "Civil Society & Protest": 25,
+      "Information & Media Control": 60,
+      "Appointments & Patronage": 11,
       "Transparency & Records": 31,
-      "Civil–Military Relations & State Violence": 67,
+      "Civil–Military Relations & State Violence": 80,
       "Intelligence & Oversight": 1,
       "": 2,
-      "Economic & Regulatory Power": 61,
+      "Economic & Regulatory Power": 63,
       "Courts / Supreme Court / Orders": 7,
-      "International Relations": 10,
+      "International Relations": 11,
       "Elections & Representation": 6,
-      "Courts / Supreme Court / Opinions": 6
+      "Courts / Supreme Court / Opinions": 12
     }
   },
   "events": [
@@ -207,6 +213,37 @@
       "_origin_index": 357
     },
     {
+      "source_key": "whitehouse",
+      "date": "2025-06-07",
+      "occurred_on": "2025-06-07",
+      "reported_on": "2025-06-07",
+      "dated_by": "occurred",
+      "category": "Executive Actions & Orders",
+      "title": "Department of Defense Security for the Protection of Department of Homeland Security Functions",
+      "url": "https://www.whitehouse.gov/presidential-actions/2025/06/department-of-defense-security-for-the-protection-of-department-of-homeland-security-functions/",
+      "summary": "",
+      "why_relevant": "",
+      "jurisdiction": "federal",
+      "federal_nexus": "Official White House channel; documents the act of publication only.",
+      "confidence": "high",
+      "basis": "official_actor_record",
+      "actor": "The White House",
+      "action": "announced a presidential memorandum titled \"Department of Defense Security for the Protection of Department of Homeland Security Functions\"",
+      "act_key": "white house|announced a presidential memorandum titled department of defense security for the protection of department of homeland security functions|2025-06-07",
+      "attacks": [],
+      "source_meta": {
+        "headline": null,
+        "published_on": null,
+        "byline": null,
+        "outlet": null,
+        "accessed_on": null,
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "whitehouse_events_2025-01-20_2026-08-14.json",
+      "_origin_index": 1122
+    },
+    {
       "source_key": "hcr",
       "date": "2025-06-07",
       "occurred_on": "2025-06-07",
@@ -274,6 +311,76 @@
       },
       "_origin_file": "guardian_events_2025-04-05_2025-07-25.json",
       "_origin_index": 768
+    },
+    {
+      "source_key": "guardian",
+      "date": "2025-06-07",
+      "occurred_on": "2025-06-07",
+      "reported_on": "2025-07-28",
+      "dated_by": "occurred",
+      "category": "Law Enforcement & Surveillance",
+      "title": "Border Patrol arrests protester based on suspicious appearance near agents",
+      "url": "https://www.theguardian.com/us-news/2025/jul/28/doj-la-protesters-false-claims",
+      "summary": "Border Patrol officers stopped Russell Gomez Dzul on June 7, 2025, during the Paramount protests, deeming him suspicious for appearing \"nervous\" near them and biking away. The government initially filed felony assault charges against Dzul, claiming he was \"one of several individuals … actively throwing hard objects [at officers]\" without referencing specific evidence or details. The DOJ later dismissed the felony assault charge and filed a simple assault misdemeanor without offering details about the alleged conduct.",
+      "why_relevant": "Arresting and prosecuting someone based solely on appearing nervous near law enforcement demonstrates pretextual use of police power to suppress protest activity and chill First Amendment exercise through harassment and false charges.",
+      "jurisdiction": "federal",
+      "federal_nexus": "",
+      "confidence": "high",
+      "basis": "officers deemed him suspicious for appearing 'nervous' near them and biking away, but then filed a simple assault misdemeanor, without offering details.",
+      "actor": "Border Patrol",
+      "action": "arrested protester for suspicious appearance",
+      "act_key": "border patrol|arrested protester for suspicious appearance|2025-06-07",
+      "attacks": [
+        "rule_of_law",
+        "immigrants_refugees"
+      ],
+      "source_meta": {
+        "headline": "Dropped cases against LA protesters reveal false claims from federal agents",
+        "published_on": "2025-07-28",
+        "byline": "Sam Levin",
+        "outlet": "the Guardian",
+        "accessed_on": "2026-08-14T08:33:55Z",
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "guardian_events_2025-07-26_2025-08-29.json",
+      "_origin_index": 440
+    },
+    {
+      "source_key": "guardian",
+      "date": "2025-06-07",
+      "occurred_on": "2025-06-07",
+      "reported_on": "2025-07-28",
+      "dated_by": "occurred",
+      "category": "Law Enforcement & Surveillance",
+      "title": "DOJ dismisses felony charges against LA immigration protesters after false federal agent testimony",
+      "url": "https://www.theguardian.com/us-news/2025/jul/28/doj-la-protesters-false-claims",
+      "summary": "The U.S. Department of Justice dismissed at least eight felony charges against Los Angeles protesters arrested during June 2025 immigration demonstrations after discovering that Department of Homeland Security agents made false and misleading statements in their reports. Federal prosecutors filed charges against at least 26 people for assaulting and impeding federal officers, but video evidence contradicted agent testimony about the sequence of events and who initiated physical contact. The dismissals represent a major embarrassment for Trump-appointed U.S. Attorney Bill Essayli and reflect systemic failures in case vetting and officer accountability.",
+      "why_relevant": "The dismissals expose how federal law enforcement fabricated evidence against protesters exercising First Amendment rights, then prosecutors filed charges without adequate scrutiny, demonstrating weaponization of the justice system to suppress dissent and instill fear.",
+      "jurisdiction": "federal",
+      "federal_nexus": "",
+      "confidence": "high",
+      "basis": "US immigration officers made false and misleading statements in their reports about several Los Angeles protesters they arrested during the massive demonstrations that rocked the city in June, according to federal law enforcement files obtained by the Guardian.",
+      "actor": "DOJ",
+      "action": "dismissed felony charges against protesters",
+      "act_key": "doj|dismissed felony charges against protesters|2025-06-07",
+      "attacks": [
+        "justice_dept",
+        "rule_of_law",
+        "press",
+        "immigrants_refugees"
+      ],
+      "source_meta": {
+        "headline": "Dropped cases against LA protesters reveal false claims from federal agents",
+        "published_on": "2025-07-28",
+        "byline": "Sam Levin",
+        "outlet": "the Guardian",
+        "accessed_on": "2026-08-14T08:33:55Z",
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "guardian_events_2025-07-26_2025-08-29.json",
+      "_origin_index": 436
     },
     {
       "source_key": "guardian",
@@ -346,6 +453,40 @@
       },
       "_origin_file": "guardian_events_2025-04-05_2025-07-25.json",
       "_origin_index": 671
+    },
+    {
+      "source_key": "guardian",
+      "date": "2025-06-07",
+      "occurred_on": "2025-06-07",
+      "reported_on": "2025-12-23",
+      "dated_by": "occurred",
+      "category": "Law Enforcement & Surveillance",
+      "title": "Nick Stern injured by law enforcement at ICE protest in Compton, California",
+      "url": "https://www.theguardian.com/us-news/2025/dec/23/violence-against-journalists-increase-trump",
+      "summary": "Los Angeles photographer Nick Stern was struck by an explosive device fired by law enforcement on June 7, 2025, while covering an anti-ICE protest in Compton. Despite wearing a visible press badge, standing 40 feet from a barricade, and holding a camera, a casing entered his thigh, requiring emergency surgery and four-day hospitalization. Stern later suffered a second assault when an officer struck him in the face with a baton at an August protest, despite displaying his press ID. He has filed lawsuits against the Los Angeles Police Department and Los Angeles County Sheriff's Department.",
+      "why_relevant": "The documented use of force against a clearly identified journalist covering lawful protest represents both an attack on press freedom and potential violation of constitutional protections for newsgathering.",
+      "jurisdiction": "local",
+      "federal_nexus": "The protest concerned federal immigration enforcement (ICE); federal courts may review constitutional claims arising from the incident.",
+      "confidence": "high",
+      "basis": "He was covering a protest against Immigration and Customs Enforcement (ICE) on 7 June in Compton when an officer allegedly fired an explosive device that landed near him, even though he was 40ft (12 meters) away from a barricade, wearing a press badge and holding a camera, a lawsuit states.",
+      "actor": "Los Angeles law enforcement",
+      "action": "fired explosive device at journalist",
+      "act_key": "los angeles law enforcement|fired explosive device at journalist|2025-06-07",
+      "attacks": [
+        "press",
+        "rule_of_law"
+      ],
+      "source_meta": {
+        "headline": "US sees surge in violence against journalists under Trump, report says",
+        "published_on": "2025-12-23",
+        "byline": "Eric Berger",
+        "outlet": "the Guardian",
+        "accessed_on": "2026-08-12T12:37:06Z",
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "guardian_events_2025-11-29_2026-03-06.json",
+      "_origin_index": 1339
     },
     {
       "source_key": "guardian",
@@ -837,6 +978,37 @@
       "_origin_index": 356
     },
     {
+      "source_key": "whitehouse",
+      "date": "2025-06-07",
+      "occurred_on": "2025-06-07",
+      "reported_on": "2025-06-07",
+      "dated_by": "occurred",
+      "category": "Information & Media Control",
+      "title": "MEMO: The One Big Beautiful Bill Improves the Fiscal Trajectory",
+      "url": "https://www.whitehouse.gov/releases/2025/06/memo-the-one-big-beautiful-bill-improves-the-fiscal-trajectory/",
+      "summary": "",
+      "why_relevant": "",
+      "jurisdiction": "federal",
+      "federal_nexus": "Official White House channel; documents the act of publication only.",
+      "confidence": "high",
+      "basis": "official_actor_record",
+      "actor": "The White House",
+      "action": "published a release titled \"MEMO: The One Big Beautiful Bill Improves the Fiscal Trajectory\"",
+      "act_key": "white house|published a release titled memo the one big beautiful bill improves the fiscal trajectory|2025-06-07",
+      "attacks": [],
+      "source_meta": {
+        "headline": null,
+        "published_on": null,
+        "byline": null,
+        "outlet": null,
+        "accessed_on": null,
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "whitehouse_events_2025-01-20_2026-08-14.json",
+      "_origin_index": 1480
+    },
+    {
       "source_key": "zeteo",
       "date": "2025-06-07",
       "occurred_on": "2025-06-07",
@@ -979,6 +1151,44 @@
       "source_key": "guardian",
       "date": "2025-06-07",
       "occurred_on": "2025-06-07",
+      "reported_on": "2025-06-07",
+      "dated_by": "occurred",
+      "category": "Civil–Military Relations & State Violence",
+      "title": "Trump administration deployed national guard and marines to Los Angeles following immigration enforcement protests",
+      "url": "https://www.theguardian.com/us-news/2025/aug/11/trump-la-ice-protests-immigration",
+      "summary": "Following protests that erupted on June 7 when Immigration and Customs Enforcement officers arrested people at multiple locations in Los Angeles, the Trump administration federalized California national guard members and deployed approximately 4,000 national guard troops and 700 marines to the city over the objections of Governor Gavin Newsom and city leaders. Troops accompanied federal immigration officers on raids and stood guard at federal buildings. This marked the first time in 60 years a US president deployed troops without a governor's consent. The Trump administration later extended the activation through November 6, 2025.",
+      "why_relevant": "The deployment represents an unprecedented assertion of federal military authority over state forces in response to civilian protest, raising constitutional questions about federalism, the Posse Comitatus Act, and the use of military force to suppress dissent and enforce immigration law.",
+      "jurisdiction": "state",
+      "federal_nexus": "The Trump administration federalized California national guard under Section 12406 of Title 10, asserting federal authority over state military forces without gubernatorial consent.",
+      "confidence": "high",
+      "basis": "The Trump administration federalized California national guard members and sent them to the second-largest US city over the objections of the California governor, Gavin Newsom, and city leaders, after protests erupted on 7 June.",
+      "actor": "Trump administration",
+      "action": "federalized and deployed national guard and marines",
+      "act_key": "trump administration|federalized and deployed national guard and marines|2025-06-07",
+      "attacks": [
+        "separation_of_powers",
+        "constitution",
+        "military",
+        "rule_of_law",
+        "immigrants_refugees",
+        "civil_service"
+      ],
+      "source_meta": {
+        "headline": "US judge hears if Trump team broke law during LA Ice protests",
+        "published_on": "2025-08-11",
+        "byline": "Coral Murphy Marcos",
+        "outlet": "the Guardian",
+        "accessed_on": "2026-08-14T08:01:56Z",
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "guardian_events_2025-07-26_2025-08-29.json",
+      "_origin_index": 237
+    },
+    {
+      "source_key": "guardian",
+      "date": "2025-06-07",
+      "occurred_on": "2025-06-07",
       "reported_on": "2025-06-08",
       "dated_by": "occurred",
       "category": "Civil–Military Relations & State Violence",
@@ -1080,6 +1290,42 @@
       },
       "_origin_file": "hcr_events_2025-04-05_2025-07-25.json",
       "_origin_index": 349
+    },
+    {
+      "source_key": "hcr",
+      "date": "2025-06-07",
+      "occurred_on": "2025-06-07",
+      "reported_on": "2025-08-18",
+      "dated_by": "occurred",
+      "category": "Civil–Military Relations & State Violence",
+      "title": "Trump deployed 700 Marines and federalized 4,100 California National Guard personnel in Los Angeles",
+      "url": "https://www.cbsnews.com/news/national-guard-los-angeles-deployment-trial-day-3/",
+      "summary": "On June 7, Trump deployed 700 Marines to Los Angeles and federalized 4,100 California National Guard personnel following scattered protests of immigration raids. Administration officials claimed troops were not engaged in law enforcement but were protecting federal agents. In a trial held last week, federal government lawyers argued that troops can protect federal agents wherever they go, effectively asserting there are no limits to presidential use of troops domestically despite the 1878 Posse Comitatus Act. The deployment was deeply unpopular; of 72 soldiers whose enlistment expired during the deployment, 55 said they would not extend service, yielding a 21 percent retention rate versus a normal 60 percent rate.",
+      "why_relevant": "Deployment of active-duty military personnel in a state against the governor's wishes and assertion of unlimited presidential authority to use troops domestically directly challenges constitutional limits on executive power and the Posse Comitatus Act.",
+      "jurisdiction": "state",
+      "federal_nexus": "Trump asserted federal authority to deploy active-duty Marines and federalize state National Guard without state consent, challenging the constitutional division of military authority between federal and state governments.",
+      "confidence": "high",
+      "basis": "On June 7, Trump deployed 700 Marines to Los Angeles and federalized 4,100 California National Guard personnel after scattered protests of immigration raids.",
+      "actor": "Trump",
+      "action": "deployed marines and federalized national guard",
+      "act_key": "trump|deployed marines and federalized national guard|2025-06-07",
+      "attacks": [
+        "rule_of_law",
+        "separation_of_powers",
+        "union",
+        "constitution"
+      ],
+      "source_meta": {
+        "headline": null,
+        "published_on": null,
+        "byline": null,
+        "outlet": null,
+        "accessed_on": null,
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "hcr_events_2025-07-26_2025-08-29.json",
+      "_origin_index": 105
     },
     {
       "source_key": "zeteo",
@@ -1287,6 +1533,39 @@
     {
       "source_key": "hcr",
       "date": "2025-06-08",
+      "occurred_on": "",
+      "reported_on": "2025-06-08",
+      "dated_by": "reported",
+      "category": "Executive Actions & Orders",
+      "title": "Trump Announces National Garden of American Heroes",
+      "url": "https://trumpwhitehouse.archives.gov/presidential-actions/executive-order-building-national-garden-american-heroes/",
+      "summary": "President Trump announced plans to create a \"National Garden of American Heroes,\" which will feature 250 statues to commemorate significant figures in American history. The project is intended to foster patriotism ahead of the nation's 250th anniversary in 2026. However, reports indicate that the project faces significant logistical challenges, including a lack of available sculptors and foundries to meet the demands of the initiative.",
+      "why_relevant": "The initiative to build a garden of statues is part of a broader strategy to promote a specific ideological interpretation of American history, potentially marginalizing diverse perspectives.",
+      "jurisdiction": "",
+      "federal_nexus": "",
+      "confidence": "",
+      "basis": "",
+      "actor": "",
+      "action": "",
+      "act_key": "",
+      "attacks": [
+        "public_memory"
+      ],
+      "source_meta": {
+        "headline": null,
+        "published_on": null,
+        "byline": null,
+        "outlet": null,
+        "accessed_on": null,
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "hcr_events_2025-01-20_2025-11-30.json",
+      "_origin_index": 717
+    },
+    {
+      "source_key": "hcr",
+      "date": "2025-06-08",
       "occurred_on": "2025-06-08",
       "reported_on": "2025-06-08",
       "dated_by": "occurred",
@@ -1457,6 +1736,43 @@
       },
       "_origin_file": "zeteo_events_2025-04-05_2025-07-25.json",
       "_origin_index": 239
+    },
+    {
+      "source_key": "guardian",
+      "date": "2025-06-08",
+      "occurred_on": "2025-06-08",
+      "reported_on": "2025-08-13",
+      "dated_by": "occurred",
+      "category": "Legislative & Oversight Activity",
+      "title": "DHS blocks Democratic lawmakers from conducting congressional oversight visits to ICE detention facilities",
+      "url": "https://www.theguardian.com/us-news/2025/aug/13/democrats-ice-detention-visits-blocked",
+      "summary": "Democratic members of Congress have been systematically denied entry to ICE detention facilities across the country to conduct legally mandated oversight inspections. The Trump administration's Department of Homeland Security imposed a policy requiring one week's advance notice for congressional visits, which Democrats argue violates federal law and their constitutional oversight authority. Democratic lawmakers including Representatives Yassamin Ansari, Judy Chu, Jason Crow, and others report being turned away from facilities in Arizona, California, New York, and New Jersey despite their legal right to unannounced inspections under federal statute.",
+      "why_relevant": "This action directly obstructs Congress's constitutional oversight authority and prevents lawmakers from documenting alleged human rights abuses in detention facilities, undermining the separation of powers and checks and balances.",
+      "jurisdiction": "federal",
+      "federal_nexus": "",
+      "confidence": "high",
+      "basis": "From New York to California, Democratic members of Congress have been repeatedly blocked from entering Ice detention facilities where thousands of noncitizens – many with no criminal convictions – are being held.",
+      "actor": "DHS",
+      "action": "blocked congressional oversight visits",
+      "act_key": "dhs|blocked congressional oversight visits|2025-06-08",
+      "attacks": [
+        "congress",
+        "rule_of_law",
+        "separation_of_powers",
+        "immigrants_refugees",
+        "sick_vulnerable"
+      ],
+      "source_meta": {
+        "headline": "Democrats say Trump is illegally blocking them from visiting Ice detention: ‘The goal is to bully us’",
+        "published_on": "2025-08-13",
+        "byline": "Rachel Leingang",
+        "outlet": "the Guardian",
+        "accessed_on": "2026-08-14T07:59:00Z",
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "guardian_events_2025-07-26_2025-08-29.json",
+      "_origin_index": 215
     },
     {
       "source_key": "guardian",
@@ -1731,6 +2047,42 @@
     {
       "source_key": "guardian",
       "date": "2025-06-08",
+      "occurred_on": "2025-06-08",
+      "reported_on": "2025-07-28",
+      "dated_by": "occurred",
+      "category": "Law Enforcement & Surveillance",
+      "title": "DHS agent testimony contradicted by video evidence in assault cases against protesters",
+      "url": "https://www.theguardian.com/us-news/2025/jul/28/doj-la-protesters-false-claims",
+      "summary": "Department of Homeland Security agents filed inaccurate criminal complaints against five Latino U.S. citizen protesters, misrepresenting the sequence of events and who initiated physical contact. Border Patrol Agent Eduardo Mejorado gave inaccurate testimony about the order of arrests; video evidence showed an officer pushing protester Brayan Ramos-Brito rather than the reverse. DHS supervisors later acknowledged errors and apologized, noting \"due to the chaos of the events that day, some events may have been miscommunicated.\" Despite these documented inaccuracies, prosecutors initially charged all five with felony assault carrying potential 20-year sentences before dismissing most charges within two weeks.",
+      "why_relevant": "Systematic falsification of evidence by federal agents against protesters exercising constitutional rights demonstrates institutional failure to police law enforcement misconduct and reveals how fabricated charges are used to detain and intimidate dissidents.",
+      "jurisdiction": "federal",
+      "federal_nexus": "",
+      "confidence": "high",
+      "basis": "The DHS's own subsequent reports, however, reveal multiple factual discrepancies in the narrative initially presented by officers and prosecutors. While the complaint suggested Cerna-Camacho, Ramos Brito and Mojica attacked agents in protest of the sisters' arrest, records show the women were arrested in a separate incident – which occurred after the men were detained.",
+      "actor": "DHS",
+      "action": "filed false criminal complaints against protesters",
+      "act_key": "dhs|filed false criminal complaints against protesters|2025-06-08",
+      "attacks": [
+        "justice_dept",
+        "rule_of_law",
+        "immigrants_refugees",
+        "truth"
+      ],
+      "source_meta": {
+        "headline": "Dropped cases against LA protesters reveal false claims from federal agents",
+        "published_on": "2025-07-28",
+        "byline": "Sam Levin",
+        "outlet": "the Guardian",
+        "accessed_on": "2026-08-14T08:33:55Z",
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "guardian_events_2025-07-26_2025-08-29.json",
+      "_origin_index": 437
+    },
+    {
+      "source_key": "guardian",
+      "date": "2025-06-08",
       "occurred_on": "",
       "reported_on": "2025-06-08",
       "dated_by": "reported",
@@ -1901,6 +2253,41 @@
       },
       "_origin_file": "meidas_events_2025-04-05_2025-07-25.json",
       "_origin_index": 546
+    },
+    {
+      "source_key": "popinfo",
+      "date": "2025-06-08",
+      "occurred_on": "2025-06-08",
+      "reported_on": "2025-10-06",
+      "dated_by": "occurred",
+      "category": "Law Enforcement & Surveillance",
+      "title": "Cary Lopez Alvarado, nine-months-pregnant U.S. citizen, detained and charged without evidence",
+      "url": "https://popular.info/p/how-federal-agents-are-terrorizing",
+      "summary": "On June 8, 2025, Cary Lopez Alvarado, a U.S. citizen who was nine months pregnant, was detained by federal agents. Three agents grabbed and attempted to handcuff her while she crouched down holding her belly in fear. A DHS spokesperson claimed Alvarado obstructed federal law enforcement by blocking access to a car containing two Guatemalan nationals, but she was never charged with any crime.",
+      "why_relevant": "The detention of a heavily pregnant U.S. citizen without charges, based on unsubstantiated claims of obstruction, violates due process and demonstrates reckless disregard for vulnerable populations.",
+      "jurisdiction": "federal",
+      "federal_nexus": "",
+      "confidence": "high",
+      "basis": "Cary Lopez Alvarado, a U.S. citizen, was detained when she was nine months pregnant. She was never charged",
+      "actor": "Department of Homeland Security",
+      "action": "detained pregnant citizen without charges",
+      "act_key": "department homeland security|detained pregnant citizen without charges|2025-06-08",
+      "attacks": [
+        "rule_of_law",
+        "women",
+        "pregnant_citizens"
+      ],
+      "source_meta": {
+        "headline": "How federal agents are terrorizing American citizens",
+        "published_on": "2025-10-06",
+        "byline": "Judd Legum",
+        "outlet": "Popular Information",
+        "accessed_on": "2026-08-11T14:18:21Z",
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "popinfo_events_2025-09-06_2025-12-12.json",
+      "_origin_index": 147
     },
     {
       "source_key": "zeteo",
@@ -2074,6 +2461,37 @@
       "_origin_index": 351
     },
     {
+      "source_key": "hcr",
+      "date": "2025-06-08",
+      "occurred_on": "",
+      "reported_on": "2025-06-08",
+      "dated_by": "reported",
+      "category": "Civil Society & Protest",
+      "title": "Launch of Journey to American Democracy Video Series",
+      "url": "https://www.youtube.com/playlist?list=PL2dS6uX1RkUyIQKUhI72xmstYGNpN_k1B",
+      "summary": "A new video series titled \"Journey to American Democracy\" was announced, aimed at making American history more accessible. The series will include short videos that explore significant events and issues in U.S. history, emphasizing the ongoing struggle for equality and democratic principles. The first installment, \"Ten Steps to Revolution,\" focuses on the Declaration of Independence and its implications for self-governance.",
+      "why_relevant": "This initiative seeks to educate the public about democratic principles and the historical context of American governance, countering revisionist narratives.",
+      "jurisdiction": "",
+      "federal_nexus": "",
+      "confidence": "",
+      "basis": "",
+      "actor": "",
+      "action": "",
+      "act_key": "",
+      "attacks": [],
+      "source_meta": {
+        "headline": null,
+        "published_on": null,
+        "byline": null,
+        "outlet": null,
+        "accessed_on": null,
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "hcr_events_2025-01-20_2025-11-30.json",
+      "_origin_index": 718
+    },
+    {
       "source_key": "meidas",
       "date": "2025-06-08",
       "occurred_on": "",
@@ -2211,6 +2629,37 @@
       },
       "_origin_file": "popinfo_events_2025-04-05_2025-07-25.json",
       "_origin_index": 154
+    },
+    {
+      "source_key": "whitehouse",
+      "date": "2025-06-08",
+      "occurred_on": "2025-06-08",
+      "reported_on": "2025-06-08",
+      "dated_by": "occurred",
+      "category": "Information & Media Control",
+      "title": "SUNDAY SHOWS: Pass the One Big Beautiful Bill",
+      "url": "https://www.whitehouse.gov/releases/2025/06/sunday-shows-pass-the-one-big-beautiful-bill/",
+      "summary": "",
+      "why_relevant": "",
+      "jurisdiction": "federal",
+      "federal_nexus": "Official White House channel; documents the act of publication only.",
+      "confidence": "high",
+      "basis": "official_actor_record",
+      "actor": "The White House",
+      "action": "published a release titled \"SUNDAY SHOWS: Pass the One Big Beautiful Bill\"",
+      "act_key": "white house|published a release titled sunday shows pass the one big beautiful bill|2025-06-08",
+      "attacks": [],
+      "source_meta": {
+        "headline": null,
+        "published_on": null,
+        "byline": null,
+        "outlet": null,
+        "accessed_on": null,
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "whitehouse_events_2025-01-20_2026-08-14.json",
+      "_origin_index": 1482
     },
     {
       "source_key": "zeteo",
@@ -2851,6 +3300,72 @@
       "_origin_index": 748
     },
     {
+      "source_key": "hcr",
+      "date": "2025-06-09",
+      "occurred_on": "",
+      "reported_on": "2025-06-09",
+      "dated_by": "reported",
+      "category": "Executive Actions & Orders",
+      "title": "Stephen Miller demands increased ICE arrests.",
+      "url": "https://heathercoxrichardson.substack.com/p/june-8-2025",
+      "summary": "White House deputy chief of staff Stephen Miller criticized federal immigration officials for low deportation numbers, demanding a minimum of 3,000 arrests by ICE daily. This directive indicates a significant escalation in the administration's immigration enforcement strategy.",
+      "why_relevant": "Miller's demand for increased arrests reflects a broader strategy to intensify immigration enforcement, potentially undermining due process rights for immigrants.",
+      "jurisdiction": "",
+      "federal_nexus": "",
+      "confidence": "",
+      "basis": "",
+      "actor": "",
+      "action": "",
+      "act_key": "",
+      "attacks": [
+        "immigrants_refugees"
+      ],
+      "source_meta": {
+        "headline": "June 8, 2025",
+        "published_on": "2025-06-09",
+        "byline": "Heather Cox Richardson",
+        "outlet": "Letters from an American",
+        "accessed_on": "2026-08-13T08:08:39Z",
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "hcr_events_2025-01-20_2025-11-30.json",
+      "_origin_index": 709
+    },
+    {
+      "source_key": "hcr",
+      "date": "2025-06-09",
+      "occurred_on": "",
+      "reported_on": "2025-06-09",
+      "dated_by": "reported",
+      "category": "Executive Actions & Orders",
+      "title": "Trump issues statement on Los Angeles protests.",
+      "url": "https://heathercoxrichardson.substack.com/p/june-8-2025",
+      "summary": "President Trump issued a statement directing key cabinet members to take necessary actions to \"liberate\" Los Angeles from what he described as a \"Migrant Invasion,\" framing the protests as violent riots against federal law enforcement.",
+      "why_relevant": "This statement reflects the administration's narrative framing of immigration issues and protests, potentially justifying further aggressive actions against dissent.",
+      "jurisdiction": "",
+      "federal_nexus": "",
+      "confidence": "",
+      "basis": "",
+      "actor": "",
+      "action": "",
+      "act_key": "",
+      "attacks": [
+        "immigrants_refugees"
+      ],
+      "source_meta": {
+        "headline": "June 8, 2025",
+        "published_on": "2025-06-09",
+        "byline": "Heather Cox Richardson",
+        "outlet": "Letters from an American",
+        "accessed_on": "2026-08-13T08:08:39Z",
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "hcr_events_2025-01-20_2025-11-30.json",
+      "_origin_index": 714
+    },
+    {
       "source_key": "meidas",
       "date": "2025-06-09",
       "occurred_on": "2025-06-09",
@@ -2986,6 +3501,37 @@
       },
       "_origin_file": "outloud_events_2025-04-05_2025-07-25.json",
       "_origin_index": 32
+    },
+    {
+      "source_key": "whitehouse",
+      "date": "2025-06-09",
+      "occurred_on": "2025-06-09",
+      "reported_on": "2025-06-09",
+      "dated_by": "occurred",
+      "category": "Executive Actions & Orders",
+      "title": "Presidential Permit Authorizing Green Corridors, LLC, to Construct, Maintain, and Operate a Commercial Elevated Guideway Border Crossing Near Laredo, Texas, at the International Boundary Between the United States and Mexico",
+      "url": "https://www.whitehouse.gov/presidential-actions/2025/06/presidential-permit-authorizing-green-corridors-llc-to-construct-maintain-and-operate-commercial-elevated-guideway-border-crossing-near-laredo-texas-at-the-international-boundary-between-the-us-mexico/",
+      "summary": "",
+      "why_relevant": "",
+      "jurisdiction": "federal",
+      "federal_nexus": "Official White House channel; documents the act of publication only.",
+      "confidence": "high",
+      "basis": "official_actor_record",
+      "actor": "The White House",
+      "action": "announced a presidential memorandum titled \"Presidential Permit Authorizing Green Corridors, LLC, to Construct, Maintain, and Operate a Commercial Elevated Guideway Border Crossing Near Laredo, Texas, at the International Boundary Between the United States and Mexico\"",
+      "act_key": "white house|announced a presidential memorandum titled presidential permit authorizing green corridors llc to construct maintain and operate a commercial elevated guideway border crossing near laredo texas at the international boundary between the united states and mexico|2025-06-09",
+      "attacks": [],
+      "source_meta": {
+        "headline": null,
+        "published_on": null,
+        "byline": null,
+        "outlet": null,
+        "accessed_on": null,
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "whitehouse_events_2025-01-20_2026-08-14.json",
+      "_origin_index": 1121
     },
     {
       "source_key": "zeteo",
@@ -3302,39 +3848,6 @@
       "reported_on": "2025-06-09",
       "dated_by": "reported",
       "category": "Judicial Developments",
-      "title": "Case update — State of California v. Department of Justice (N.D. Cal.) 3:25-cv-04863",
-      "url": "https://www.courtlistener.com/docket/70495597/state-of-california-v-united-states-department-of-justice/",
-      "summary": "Plaintiffs filed for a declaratory and injunctive relief against all defendants and an injunction against the US government/official or APA vacatur requested. Complaints modified on June 10.",
-      "why_relevant": "This litigation update changes the posture of an active legal challenge to Trump administration action.",
-      "jurisdiction": "",
-      "federal_nexus": "",
-      "confidence": "",
-      "basis": "",
-      "actor": "",
-      "action": "",
-      "act_key": "",
-      "attacks": [],
-      "source_meta": {
-        "headline": null,
-        "published_on": null,
-        "byline": null,
-        "outlet": null,
-        "accessed_on": null,
-        "snapshot_url": null,
-        "durable_keys": {
-          "courtlistener_docket_id": "70495597"
-        }
-      },
-      "_origin_file": "justsecurity_events_2025-04-05_2025-07-25.json",
-      "_origin_index": 37
-    },
-    {
-      "source_key": "justsecurity",
-      "date": "2025-06-09",
-      "occurred_on": "",
-      "reported_on": "2025-06-09",
-      "dated_by": "reported",
-      "category": "Judicial Developments",
       "title": "Dismissal entered — Denver Public Schools v. Noem (D. Colo.) 1:25-cv-00474",
       "url": "https://www.courtlistener.com/docket/69635800/denver-public-schools-v-noem/",
       "summary": "Plaintiffs dismissed all claims in the action in their entirety. The civil case was terminated on that same day.",
@@ -3370,7 +3883,7 @@
       "category": "Judicial Developments",
       "title": "Motion to dismiss decided — J. Doe 4 v. Musk (D. Md.) 8:25-cv-00462",
       "url": "https://www.courtlistener.com/docket/69636722/does-1-26-v-musk/",
-      "summary": "The Fourth Circuit granted Defendants' motion for abeyance until the district court resolves the motion to dismiss or otherwise issues any subsequent appealable order.",
+      "summary": "The Fourth Circuit granted the Defendants' motion for abeyance until the district court resolves the motion to dismiss or otherwise issues any subsequent appealable order.",
       "why_relevant": "This litigation update changes the posture of an active legal challenge to Trump administration action.",
       "jurisdiction": "",
       "federal_nexus": "",
@@ -3391,8 +3904,8 @@
           "courtlistener_docket_id": "69636722"
         }
       },
-      "_origin_file": "justsecurity_events_2025-04-05_2025-07-25.json",
-      "_origin_index": 934
+      "_origin_file": "justsecurity_events_2025-03-15_2025-06-27.json",
+      "_origin_index": 1002
     },
     {
       "source_key": "justsecurity",
@@ -3424,41 +3937,8 @@
           "courtlistener_docket_id": "69631573"
         }
       },
-      "_origin_file": "justsecurity_events_2025-04-05_2025-07-25.json",
-      "_origin_index": 872
-    },
-    {
-      "source_key": "justsecurity",
-      "date": "2025-06-09",
-      "occurred_on": "",
-      "reported_on": "2025-06-09",
-      "dated_by": "reported",
-      "category": "Judicial Developments",
-      "title": "Preliminary injunction ruling — Angelica S. v. Dept of Health and Human Services (D.D.C.) 1:25-cv-01405",
-      "url": "https://www.courtlistener.com/docket/70225239/s-v-us-department-of-health-and-human-services/",
-      "summary": "In a memorandum opinion and order , the court granted Plaintiffs' motion for class certification and granted in part and denied in part the Plaintiffs' motion for a preliminary injunction, enjoining the new proof of identification and income requirements but denying an injunction on the Interim Final Rule.",
-      "why_relevant": "This litigation update changes the posture of an active legal challenge to Trump administration action.",
-      "jurisdiction": "",
-      "federal_nexus": "",
-      "confidence": "",
-      "basis": "",
-      "actor": "",
-      "action": "",
-      "act_key": "",
-      "attacks": [],
-      "source_meta": {
-        "headline": null,
-        "published_on": null,
-        "byline": null,
-        "outlet": null,
-        "accessed_on": null,
-        "snapshot_url": null,
-        "durable_keys": {
-          "courtlistener_docket_id": "70225239"
-        }
-      },
-      "_origin_file": "justsecurity_events_2025-04-05_2025-07-25.json",
-      "_origin_index": 443
+      "_origin_file": "justsecurity_events_2025-03-15_2025-06-27.json",
+      "_origin_index": 941
     },
     {
       "source_key": "justsecurity",
@@ -3981,6 +4461,39 @@
     {
       "source_key": "hcr",
       "date": "2025-06-09",
+      "occurred_on": "",
+      "reported_on": "2025-06-09",
+      "dated_by": "reported",
+      "category": "Law Enforcement & Surveillance",
+      "title": "Federal crackdown on immigration in Los Angeles.",
+      "url": "https://heathercoxrichardson.substack.com/p/june-8-2025",
+      "summary": "Federal officials launched a new phase of immigration enforcement in Los Angeles, focusing on workplaces in the garment district. This operation involved agents in tactical gear confronting protesters, leading to clashes and arrests.",
+      "why_relevant": "The aggressive enforcement actions in Los Angeles illustrate the administration's commitment to a hardline immigration policy, impacting the rights of undocumented individuals.",
+      "jurisdiction": "",
+      "federal_nexus": "",
+      "confidence": "",
+      "basis": "",
+      "actor": "",
+      "action": "",
+      "act_key": "",
+      "attacks": [
+        "immigrants_refugees"
+      ],
+      "source_meta": {
+        "headline": "June 8, 2025",
+        "published_on": "2025-06-09",
+        "byline": "Heather Cox Richardson",
+        "outlet": "Letters from an American",
+        "accessed_on": "2026-08-13T08:08:39Z",
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "hcr_events_2025-01-20_2025-11-30.json",
+      "_origin_index": 710
+    },
+    {
+      "source_key": "hcr",
+      "date": "2025-06-09",
       "occurred_on": "2025-06-09",
       "reported_on": "2025-06-10",
       "dated_by": "occurred",
@@ -4012,6 +4525,39 @@
       },
       "_origin_file": "hcr_events_2025-04-05_2025-07-25.json",
       "_origin_index": 328
+    },
+    {
+      "source_key": "hcr",
+      "date": "2025-06-09",
+      "occurred_on": "",
+      "reported_on": "2025-06-09",
+      "dated_by": "reported",
+      "category": "Law Enforcement & Surveillance",
+      "title": "ICE uses flash-bang grenades against protesters in Los Angeles.",
+      "url": "https://heathercoxrichardson.substack.com/p/june-8-2025",
+      "summary": "In Los Angeles, Immigration and Customs Enforcement (ICE) officers deployed flash-bang grenades against a crowd of protesters opposing immigration enforcement actions. This incident occurred during a crackdown on undocumented immigrants, highlighting the aggressive tactics used by federal agents.",
+      "why_relevant": "The use of flash-bang grenades against protesters raises serious concerns about the treatment of dissent and the rights of individuals to peacefully assemble.",
+      "jurisdiction": "",
+      "federal_nexus": "",
+      "confidence": "",
+      "basis": "",
+      "actor": "",
+      "action": "",
+      "act_key": "",
+      "attacks": [
+        "civil_service"
+      ],
+      "source_meta": {
+        "headline": "June 8, 2025",
+        "published_on": "2025-06-09",
+        "byline": "Heather Cox Richardson",
+        "outlet": "Letters from an American",
+        "accessed_on": "2026-08-13T08:08:39Z",
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "hcr_events_2025-01-20_2025-11-30.json",
+      "_origin_index": 708
     },
     {
       "source_key": "outloud",
@@ -4529,6 +5075,99 @@
       "_origin_index": 156
     },
     {
+      "source_key": "whitehouse",
+      "date": "2025-06-09",
+      "occurred_on": "2025-06-09",
+      "reported_on": "2025-06-09",
+      "dated_by": "occurred",
+      "category": "Information & Media Control",
+      "title": "President Trump is Stepping Up Where Democrats Won’t",
+      "url": "https://www.whitehouse.gov/releases/2025/06/president-trump-is-stepping-up-where-democrats-wont/",
+      "summary": "",
+      "why_relevant": "",
+      "jurisdiction": "federal",
+      "federal_nexus": "Official White House channel; documents the act of publication only.",
+      "confidence": "high",
+      "basis": "official_actor_record",
+      "actor": "The White House",
+      "action": "published a release titled \"President Trump is Stepping Up Where Democrats Won’t\"",
+      "act_key": "white house|published a release titled president trump is stepping up where democrats won t|2025-06-09",
+      "attacks": [],
+      "source_meta": {
+        "headline": null,
+        "published_on": null,
+        "byline": null,
+        "outlet": null,
+        "accessed_on": null,
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "whitehouse_events_2025-01-20_2026-08-14.json",
+      "_origin_index": 390
+    },
+    {
+      "source_key": "whitehouse",
+      "date": "2025-06-09",
+      "occurred_on": "2025-06-09",
+      "reported_on": "2025-06-09",
+      "dated_by": "occurred",
+      "category": "Information & Media Control",
+      "title": "The One Big Beautiful Bill Will END Taxpayer-Funded Health Care for Illegals",
+      "url": "https://www.whitehouse.gov/releases/2025/06/the-one-big-beautiful-bill-will-end-taxpayer-funded-health-care-for-illegals/",
+      "summary": "",
+      "why_relevant": "",
+      "jurisdiction": "federal",
+      "federal_nexus": "Official White House channel; documents the act of publication only.",
+      "confidence": "high",
+      "basis": "official_actor_record",
+      "actor": "The White House",
+      "action": "published a release titled \"The One Big Beautiful Bill Will END Taxpayer-Funded Health Care for Illegals\"",
+      "act_key": "white house|published a release titled the one big beautiful bill will end taxpayer funded health care for illegals|2025-06-09",
+      "attacks": [],
+      "source_meta": {
+        "headline": null,
+        "published_on": null,
+        "byline": null,
+        "outlet": null,
+        "accessed_on": null,
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "whitehouse_events_2025-01-20_2026-08-14.json",
+      "_origin_index": 389
+    },
+    {
+      "source_key": "whitehouse",
+      "date": "2025-06-09",
+      "occurred_on": "2025-06-09",
+      "reported_on": "2025-06-09",
+      "dated_by": "occurred",
+      "category": "Information & Media Control",
+      "title": "Trump Accounts Will Chart the Path to Prosperity for a Generation of American Kids",
+      "url": "https://www.whitehouse.gov/releases/2025/06/trump-accounts-will-chart-path-to-prosperity-for-a-generation-of-american-kids/",
+      "summary": "",
+      "why_relevant": "",
+      "jurisdiction": "federal",
+      "federal_nexus": "Official White House channel; documents the act of publication only.",
+      "confidence": "high",
+      "basis": "official_actor_record",
+      "actor": "The White House",
+      "action": "published a release titled \"Trump Accounts Will Chart the Path to Prosperity for a Generation of American Kids\"",
+      "act_key": "white house|published a release titled trump accounts will chart the path to prosperity for a generation of american kids|2025-06-09",
+      "attacks": [],
+      "source_meta": {
+        "headline": null,
+        "published_on": null,
+        "byline": null,
+        "outlet": null,
+        "accessed_on": null,
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "whitehouse_events_2025-01-20_2026-08-14.json",
+      "_origin_index": 388
+    },
+    {
       "source_key": "zeteo",
       "date": "2025-06-09",
       "occurred_on": "2025-06-09",
@@ -4690,6 +5329,41 @@
       },
       "_origin_file": "federalregister_events_2025-04-05_2025-07-25.json",
       "_origin_index": 810
+    },
+    {
+      "source_key": "popinfo",
+      "date": "2025-06-09",
+      "occurred_on": "2025-06-09",
+      "reported_on": "2025-12-15",
+      "dated_by": "occurred",
+      "category": "Appointments & Patronage",
+      "title": "RFK Jr. removed all voting members of the Advisory Committee on Immunization Practices",
+      "url": "https://popular.info/p/as-measles-ravages-south-carolina",
+      "summary": "On June 9, 2025, HHS Secretary Robert F. Kennedy Jr. removed all 17 voting members of the Advisory Committee on Immunization Practices (ACIP), the federal advisory committee that develops vaccine recommendations for the U.S. civilian population. This action eliminated the entire voting membership of the committee responsible for guiding national vaccination policy, replacing them with individuals selected by Kennedy.",
+      "why_relevant": "Removing the entire voting membership of the federal committee responsible for vaccine recommendations allows the HHS Secretary to unilaterally reshape vaccination policy without the input of independent medical experts, concentrating power over public health guidance in a single official with a documented history of promoting vaccine misinformation.",
+      "jurisdiction": "federal",
+      "federal_nexus": "",
+      "confidence": "high",
+      "basis": "On June 9, Kennedy removed all 17 voting members of ACIP.",
+      "actor": "Robert F. Kennedy Jr.",
+      "action": "removed committee voting members",
+      "act_key": "robert f kennedy jr|removed committee voting members|2025-06-09",
+      "attacks": [
+        "civil_service",
+        "science",
+        "public_health"
+      ],
+      "source_meta": {
+        "headline": "As measles ravages South Carolina, RFK Jr. undermines the vaccine",
+        "published_on": "2025-12-15",
+        "byline": "Judd Legum",
+        "outlet": "Popular Information",
+        "accessed_on": "2026-08-11T22:22:55Z",
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "popinfo_events_2025-11-29_2026-03-06.json",
+      "_origin_index": 194
     },
     {
       "source_key": "zeteo",
@@ -4892,6 +5566,37 @@
       },
       "_origin_file": "outloud_events_2025-04-05_2025-07-25.json",
       "_origin_index": 30
+    },
+    {
+      "source_key": "defense",
+      "date": "2025-06-09",
+      "occurred_on": "2025-06-09",
+      "reported_on": "2025-06-09",
+      "dated_by": "occurred",
+      "category": "Civil–Military Relations & State Violence",
+      "title": "Secretary of Defense Pete Hegseth to Travel to Fort Bragg, North Carolina",
+      "url": "https://www.war.gov/News/Advisories/Advisory/Article/4210506/secretary-of-defense-pete-hegseth-to-travel-to-fort-bragg-north-carolina/",
+      "summary": "",
+      "why_relevant": "",
+      "jurisdiction": "federal",
+      "federal_nexus": "Official Department of War channel; documents the act of publication only.",
+      "confidence": "high",
+      "basis": "official_actor_record",
+      "actor": "The Department of War",
+      "action": "issued a media advisory titled \"Secretary of Defense Pete Hegseth to Travel to Fort Bragg, North Carolina\"",
+      "act_key": "department war|issued a media advisory titled secretary of defense pete hegseth to travel to fort bragg north carolina|2025-06-09",
+      "attacks": [],
+      "source_meta": {
+        "headline": null,
+        "published_on": null,
+        "byline": null,
+        "outlet": null,
+        "accessed_on": null,
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "defense_events_2025-01-20_2026-08-14.json",
+      "_origin_index": 488
     },
     {
       "source_key": "guardian",
@@ -5109,6 +5814,70 @@
     {
       "source_key": "hcr",
       "date": "2025-06-09",
+      "occurred_on": "",
+      "reported_on": "2025-06-09",
+      "dated_by": "reported",
+      "category": "Civil–Military Relations & State Violence",
+      "title": "Governor Newsom requests rescindment of National Guard deployment.",
+      "url": "https://heathercoxrichardson.substack.com/p/june-8-2025",
+      "summary": "California Governor Gavin Newsom formally requested that the Trump Administration rescind the deployment of National Guard troops in Los Angeles, arguing that it was an unlawful act that inflamed tensions and breached state sovereignty.",
+      "why_relevant": "The governor's request highlights the conflict between state and federal authority, emphasizing the importance of state sovereignty in managing local law enforcement.",
+      "jurisdiction": "",
+      "federal_nexus": "",
+      "confidence": "",
+      "basis": "",
+      "actor": "",
+      "action": "",
+      "act_key": "",
+      "attacks": [
+        "separation_of_powers"
+      ],
+      "source_meta": {
+        "headline": "June 8, 2025",
+        "published_on": "2025-06-09",
+        "byline": "Heather Cox Richardson",
+        "outlet": "Letters from an American",
+        "accessed_on": "2026-08-13T08:08:39Z",
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "hcr_events_2025-01-20_2025-11-30.json",
+      "_origin_index": 715
+    },
+    {
+      "source_key": "hcr",
+      "date": "2025-06-09",
+      "occurred_on": "",
+      "reported_on": "2025-06-09",
+      "dated_by": "reported",
+      "category": "Civil–Military Relations & State Violence",
+      "title": "Military parade preparations in Washington, D.C.",
+      "url": "https://heathercoxrichardson.substack.com/p/june-8-2025",
+      "summary": "Flatbed train cars carrying tanks arrived in Washington, D.C., in preparation for a military parade scheduled for June 14, 2025. This event reflects the administration's focus on showcasing military strength amid ongoing tensions related to immigration policies.",
+      "why_relevant": "The military parade symbolizes the administration's use of military power in domestic affairs, raising concerns about the militarization of governance.",
+      "jurisdiction": "",
+      "federal_nexus": "",
+      "confidence": "",
+      "basis": "",
+      "actor": "",
+      "action": "",
+      "act_key": "",
+      "attacks": [],
+      "source_meta": {
+        "headline": "June 8, 2025",
+        "published_on": "2025-06-09",
+        "byline": "Heather Cox Richardson",
+        "outlet": "Letters from an American",
+        "accessed_on": "2026-08-13T08:08:39Z",
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "hcr_events_2025-01-20_2025-11-30.json",
+      "_origin_index": 707
+    },
+    {
+      "source_key": "hcr",
+      "date": "2025-06-09",
       "occurred_on": "2025-06-09",
       "reported_on": "2025-06-10",
       "dated_by": "occurred",
@@ -5174,6 +5943,105 @@
       },
       "_origin_file": "hcr_events_2025-04-05_2025-07-25.json",
       "_origin_index": 329
+    },
+    {
+      "source_key": "hcr",
+      "date": "2025-06-09",
+      "occurred_on": "",
+      "reported_on": "2025-06-09",
+      "dated_by": "reported",
+      "category": "Civil–Military Relations & State Violence",
+      "title": "Trump activates National Guard in response to protests.",
+      "url": "https://heathercoxrichardson.substack.com/p/june-8-2025",
+      "summary": "President Trump signed an order activating at least 2,000 members of the California National Guard to protect ICE and other federal personnel amid ongoing protests in Los Angeles. This marks the first time in 60 years that a state’s National Guard has been activated without a request from its governor.",
+      "why_relevant": "The activation of the National Guard without state approval raises significant concerns about federal overreach and the militarization of local law enforcement.",
+      "jurisdiction": "",
+      "federal_nexus": "",
+      "confidence": "",
+      "basis": "",
+      "actor": "",
+      "action": "",
+      "act_key": "",
+      "attacks": [
+        "separation_of_powers"
+      ],
+      "source_meta": {
+        "headline": "June 8, 2025",
+        "published_on": "2025-06-09",
+        "byline": "Heather Cox Richardson",
+        "outlet": "Letters from an American",
+        "accessed_on": "2026-08-13T08:08:39Z",
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "hcr_events_2025-01-20_2025-11-30.json",
+      "_origin_index": 711
+    },
+    {
+      "source_key": "hcr",
+      "date": "2025-06-09",
+      "occurred_on": "",
+      "reported_on": "2025-06-09",
+      "dated_by": "reported",
+      "category": "Civil–Military Relations & State Violence",
+      "title": "Trump labels protests as insurrection.",
+      "url": "https://heathercoxrichardson.substack.com/p/june-8-2025",
+      "summary": "President Trump characterized the protests in Los Angeles as an \"insurrection against the laws and sovereignty of the United States,\" suggesting a willingness to invoke the Insurrection Act to deploy military force against American citizens.",
+      "why_relevant": "Labeling protests as insurrection reflects a dangerous precedent for the use of military force against dissent, undermining democratic norms.",
+      "jurisdiction": "",
+      "federal_nexus": "",
+      "confidence": "",
+      "basis": "",
+      "actor": "",
+      "action": "",
+      "act_key": "",
+      "attacks": [
+        "peaceful_transfer"
+      ],
+      "source_meta": {
+        "headline": "June 8, 2025",
+        "published_on": "2025-06-09",
+        "byline": "Heather Cox Richardson",
+        "outlet": "Letters from an American",
+        "accessed_on": "2026-08-13T08:08:39Z",
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "hcr_events_2025-01-20_2025-11-30.json",
+      "_origin_index": 712
+    },
+    {
+      "source_key": "hcr",
+      "date": "2025-06-09",
+      "occurred_on": "",
+      "reported_on": "2025-06-09",
+      "dated_by": "reported",
+      "category": "Civil–Military Relations & State Violence",
+      "title": "Trump threatens to mobilize active duty Marines.",
+      "url": "https://heathercoxrichardson.substack.com/p/june-8-2025",
+      "summary": "Defense Secretary Pete Hegseth announced that the Defense Department was mobilizing the National Guard and warned that active duty Marines at Camp Pendleton would also be mobilized if violence continued during the protests in Los Angeles.",
+      "why_relevant": "The threat to mobilize active duty Marines against civilians raises alarms about the potential for military intervention in domestic protests, challenging the principles of civilian oversight.",
+      "jurisdiction": "",
+      "federal_nexus": "",
+      "confidence": "",
+      "basis": "",
+      "actor": "",
+      "action": "",
+      "act_key": "",
+      "attacks": [
+        "peaceful_transfer"
+      ],
+      "source_meta": {
+        "headline": "June 8, 2025",
+        "published_on": "2025-06-09",
+        "byline": "Heather Cox Richardson",
+        "outlet": "Letters from an American",
+        "accessed_on": "2026-08-13T08:08:39Z",
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "hcr_events_2025-01-20_2025-11-30.json",
+      "_origin_index": 713
     },
     {
       "source_key": "meidas",
@@ -6133,8 +7001,8 @@
           "courtlistener_docket_id": "69741724"
         }
       },
-      "_origin_file": "justsecurity_events_2025-04-05_2025-07-25.json",
-      "_origin_index": 481
+      "_origin_file": "justsecurity_events_2025-03-15_2025-06-27.json",
+      "_origin_index": 545
     },
     {
       "source_key": "justsecurity",
@@ -6143,9 +7011,9 @@
       "reported_on": "2025-06-10",
       "dated_by": "reported",
       "category": "Judicial Developments",
-      "title": "Case update — Make the Road New York et al v. Noem (D.D.C.) 1:25-cv-00190",
+      "title": "Case update — Make the Road New York et al v. Kristi Noem (Acting Secretary of Homeland Security) et al (D.D.C.) 1:25-cv-00190",
       "url": "https://www.courtlistener.com/docket/69566723/make-the-road-new-york-v-huffman/",
-      "summary": "Plaintiffs filed a motion to postpone agency action.",
+      "summary": "The plaintiffs filed a motion to postpone agency action.",
       "why_relevant": "This litigation update changes the posture of an active legal challenge to Trump administration action.",
       "jurisdiction": "",
       "federal_nexus": "",
@@ -6166,8 +7034,8 @@
           "courtlistener_docket_id": "69566723"
         }
       },
-      "_origin_file": "justsecurity_events_2025-04-05_2025-07-25.json",
-      "_origin_index": 446
+      "_origin_file": "justsecurity_events_2025-03-15_2025-06-27.json",
+      "_origin_index": 499
     },
     {
       "source_key": "justsecurity",
@@ -6265,8 +7133,8 @@
           "courtlistener_docket_id": "69755722"
         }
       },
-      "_origin_file": "justsecurity_events_2025-04-05_2025-07-25.json",
-      "_origin_index": 615
+      "_origin_file": "justsecurity_events_2025-03-15_2025-06-27.json",
+      "_origin_index": 671
     },
     {
       "source_key": "justsecurity",
@@ -6331,8 +7199,8 @@
           "courtlistener_docket_id": "69741724"
         }
       },
-      "_origin_file": "justsecurity_events_2025-04-05_2025-07-25.json",
-      "_origin_index": 479
+      "_origin_file": "justsecurity_events_2025-03-15_2025-06-27.json",
+      "_origin_index": 543
     },
     {
       "source_key": "justsecurity",
@@ -6364,8 +7232,8 @@
           "courtlistener_docket_id": "69748413"
         }
       },
-      "_origin_file": "justsecurity_events_2025-04-05_2025-07-25.json",
-      "_origin_index": 435
+      "_origin_file": "justsecurity_events_2025-03-15_2025-06-27.json",
+      "_origin_index": 488
     },
     {
       "source_key": "justsecurity",
@@ -6397,8 +7265,8 @@
           "courtlistener_docket_id": "69741724"
         }
       },
-      "_origin_file": "justsecurity_events_2025-04-05_2025-07-25.json",
-      "_origin_index": 480
+      "_origin_file": "justsecurity_events_2025-03-15_2025-06-27.json",
+      "_origin_index": 544
     },
     {
       "source_key": "justsecurity",
@@ -6430,8 +7298,8 @@
           "courtlistener_docket_id": "69741724"
         }
       },
-      "_origin_file": "justsecurity_events_2025-04-05_2025-07-25.json",
-      "_origin_index": 482
+      "_origin_file": "justsecurity_events_2025-03-15_2025-06-27.json",
+      "_origin_index": 546
     },
     {
       "source_key": "justsecurity",
@@ -6529,8 +7397,8 @@
           "courtlistener_docket_id": "69711562"
         }
       },
-      "_origin_file": "justsecurity_events_2025-04-05_2025-07-25.json",
-      "_origin_index": 824
+      "_origin_file": "justsecurity_events_2025-03-15_2025-06-27.json",
+      "_origin_index": 877
     },
     {
       "source_key": "justsecurity",
@@ -6784,6 +7652,41 @@
       },
       "_origin_file": "scotusorders_events_2025-04-05_2025-07-25.json",
       "_origin_index": 46
+    },
+    {
+      "source_key": "guardian",
+      "date": "2025-06-10",
+      "occurred_on": "2025-06-10",
+      "reported_on": "2026-06-11",
+      "dated_by": "occurred",
+      "category": "Law Enforcement & Surveillance",
+      "title": "Robert Dillon files lawsuit against Florida law enforcement for wrongful arrest based on AI facial recognition error",
+      "url": "https://www.theguardian.com/us-news/2026/jun/10/florida-lawsuit-ai-facial-recognition",
+      "summary": "Robert Dillon, a Fort Myers resident, sued the Jacksonville Beach Police Department, Jacksonville Sheriff's Office, and Pinellas County Sheriff Bob Gualtieri after being wrongly arrested in August 2024 for allegedly attempting to lure a child. An AI facial recognition algorithm (the Faces system) returned a 93% match, but Dillon lived 300 miles away and had never visited Jacksonville Beach. The case was dismissed and charges dropped in 2025. The ACLU lawsuit alleges the lead investigator deliberately omitted exculpatory evidence—including license plate reader data and the poor quality of the photo submitted to the algorithm—and built a case to confirm the faulty match rather than test it.",
+      "why_relevant": "The case exemplifies systemic failures in AI oversight, investigative integrity, and accountability in law enforcement, with direct harm to an innocent citizen's liberty, reputation, and psychological well-being.",
+      "jurisdiction": "state",
+      "federal_nexus": "The ACLU, a national civil rights organization, filed the lawsuit; the case involves systemic AI facial recognition practices that affect interstate law enforcement.",
+      "confidence": "high",
+      "basis": "Robert Dillon was arrested at home in Florida despite living 300 miles away from where a crime was committed\" and \"charges dropped last year over the August 2024 incident. Now the 52-year-old has filed a lawsuit.",
+      "actor": "Robert Dillon (plaintiff, via ACLU)",
+      "action": "filed wrongful arrest lawsuit",
+      "act_key": "robert dillon plaintiff via aclu|filed wrongful arrest lawsuit|2025-06-10",
+      "attacks": [
+        "justice_dept",
+        "rule_of_law",
+        "truth"
+      ],
+      "source_meta": {
+        "headline": "Florida lawsuit alleges wrongful arrest after AI facial recognition error",
+        "published_on": "2026-06-10",
+        "byline": "Richard Luscombe",
+        "outlet": "the Guardian",
+        "accessed_on": "2026-08-15T12:45:19Z",
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "guardian_events_2026-05-16_2026-07-24.json",
+      "_origin_index": 533
     },
     {
       "source_key": "guardian",
@@ -8159,6 +9062,68 @@
       "_origin_index": 131
     },
     {
+      "source_key": "whitehouse",
+      "date": "2025-06-10",
+      "occurred_on": "2025-06-10",
+      "reported_on": "2025-06-10",
+      "dated_by": "occurred",
+      "category": "Information & Media Control",
+      "title": "America’s Job Creators Back the One Big Beautiful Bill",
+      "url": "https://www.whitehouse.gov/releases/2025/06/americas-job-creators-back-the-one-big-beautiful-bill/",
+      "summary": "",
+      "why_relevant": "",
+      "jurisdiction": "federal",
+      "federal_nexus": "Official White House channel; documents the act of publication only.",
+      "confidence": "high",
+      "basis": "official_actor_record",
+      "actor": "The White House",
+      "action": "published a release titled \"America’s Job Creators Back the One Big Beautiful Bill\"",
+      "act_key": "white house|published a release titled america s job creators back the one big beautiful bill|2025-06-10",
+      "attacks": [],
+      "source_meta": {
+        "headline": null,
+        "published_on": null,
+        "byline": null,
+        "outlet": null,
+        "accessed_on": null,
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "whitehouse_events_2025-01-20_2026-08-14.json",
+      "_origin_index": 386
+    },
+    {
+      "source_key": "whitehouse",
+      "date": "2025-06-10",
+      "occurred_on": "2025-06-10",
+      "reported_on": "2025-06-10",
+      "dated_by": "occurred",
+      "category": "Information & Media Control",
+      "title": "The Largest Tax Cut in History for Working and Middle-Class Americans",
+      "url": "https://www.whitehouse.gov/releases/2025/06/the-largest-tax-cut-in-history-for-working-and-middle-class-americans/",
+      "summary": "",
+      "why_relevant": "",
+      "jurisdiction": "federal",
+      "federal_nexus": "Official White House channel; documents the act of publication only.",
+      "confidence": "high",
+      "basis": "official_actor_record",
+      "actor": "The White House",
+      "action": "published a release titled \"The Largest Tax Cut in History for Working and Middle-Class Americans\"",
+      "act_key": "white house|published a release titled the largest tax cut in history for working and middle class americans|2025-06-10",
+      "attacks": [],
+      "source_meta": {
+        "headline": null,
+        "published_on": null,
+        "byline": null,
+        "outlet": null,
+        "accessed_on": null,
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "whitehouse_events_2025-01-20_2026-08-14.json",
+      "_origin_index": 387
+    },
+    {
       "source_key": "zeteo",
       "date": "2025-06-10",
       "occurred_on": "2025-06-10",
@@ -8803,6 +9768,75 @@
     {
       "source_key": "guardian",
       "date": "2025-06-10",
+      "occurred_on": "",
+      "reported_on": "2025-06-10",
+      "dated_by": "reported",
+      "category": "Civil–Military Relations & State Violence",
+      "title": "Trump Administration Mobilizes National Guard in Los Angeles",
+      "url": "https://www.theguardian.com/us-news/2025/jun/09/doechii-bet-awards-speech-trump-ice-raids-protests",
+      "summary": "On Monday, Donald Trump authorized the mobilization of an additional 2,000 National Guard members in response to protests in Los Angeles, bringing the total number of guards deployed to over 4,100. The protests were sparked by immigration raids conducted by ICE, which led to dozens of arrests. The deployment of military forces to manage civilian protests has been criticized by local leaders, including Los Angeles Mayor Karen Bass, who described it as a \"deliberate attempt\" to create chaos.",
+      "why_relevant": "The use of military forces to manage civilian protests raises concerns about the militarization of domestic law enforcement and the suppression of democratic rights.",
+      "jurisdiction": "",
+      "federal_nexus": "",
+      "confidence": "",
+      "basis": "",
+      "actor": "",
+      "action": "",
+      "act_key": "",
+      "attacks": [
+        "military",
+        "protest",
+        "rule_of_law"
+      ],
+      "source_meta": {
+        "headline": null,
+        "published_on": null,
+        "byline": null,
+        "outlet": null,
+        "accessed_on": null,
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "guardian_events_2025-01-20_2025-11-30.json",
+      "_origin_index": 1789
+    },
+    {
+      "source_key": "guardian",
+      "date": "2025-06-10",
+      "occurred_on": "",
+      "reported_on": "2025-06-10",
+      "dated_by": "reported",
+      "category": "Civil–Military Relations & State Violence",
+      "title": "Trump authorizes mobilization of National Guard in response to protests",
+      "url": "https://www.theguardian.com/us-news/2025/jun/09/doechii-bet-awards-speech-trump-ice-raids",
+      "summary": "In response to ongoing protests in Los Angeles over immigration raids, President Donald Trump authorized the deployment of an additional 2,000 National Guard members, increasing the total to over 4,100. This decision was made amid rising tensions and criticism from local leaders and activists, including rapper Doechii, who condemned the use of military forces against demonstrators during her acceptance speech at the BET awards. The protests were sparked by recent immigration enforcement actions that resulted in numerous arrests.",
+      "why_relevant": "The mobilization of military forces against protesters raises significant concerns about the right to protest and the use of state power to suppress dissent.",
+      "jurisdiction": "",
+      "federal_nexus": "",
+      "confidence": "",
+      "basis": "",
+      "actor": "",
+      "action": "",
+      "act_key": "",
+      "attacks": [
+        "immigrants_refugees",
+        "workers"
+      ],
+      "source_meta": {
+        "headline": null,
+        "published_on": null,
+        "byline": null,
+        "outlet": null,
+        "accessed_on": null,
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "guardian_events_2025-06-07_2025-08-15.json",
+      "_origin_index": 685
+    },
+    {
+      "source_key": "guardian",
+      "date": "2025-06-10",
       "occurred_on": "2025-06-10",
       "reported_on": "2025-06-11",
       "dated_by": "occurred",
@@ -8871,6 +9905,41 @@
       },
       "_origin_file": "guardian_events_2025-04-05_2025-07-25.json",
       "_origin_index": 717
+    },
+    {
+      "source_key": "guardian",
+      "date": "2025-06-10",
+      "occurred_on": "2025-06-10",
+      "reported_on": "2025-06-10",
+      "dated_by": "occurred",
+      "category": "Civil–Military Relations & State Violence",
+      "title": "Trump seizes California National Guard and deploys U.S. Marines to Los Angeles without governor consent",
+      "url": "https://www.theguardian.com/us-news/2025/aug/24/no-holds-barred-fight-californias-governor-takes-off-his-gloves-to-punch-back-at-trump",
+      "summary": "Earlier in summer 2025, President Trump seized control of California's National Guard and deployed U.S. Marines to Los Angeles without Governor Newsom's consent to suppress protests against the federal immigration crackdown. The action represented a direct assertion of federal authority over state military assets and a unilateral federal intervention in state law enforcement, escalating tensions between the Trump administration and California.",
+      "why_relevant": "The seizure of state National Guard assets and deployment of federal military forces without gubernatorial consent violates federalism norms, undermines state sovereignty, and represents an unconstitutional assertion of executive power over state institutions.",
+      "jurisdiction": "federal",
+      "federal_nexus": "",
+      "confidence": "high",
+      "basis": "The all-out political war between the president and California's governor erupted earlier this summer, when Trump seized control of California's national guard and deployed US marines to Los Angeles, over Newsom's objections, to suppress protests against the federal immigration crackdown.",
+      "actor": "Trump",
+      "action": "seized national guard and deployed marines",
+      "act_key": "trump|seized national guard and deployed marines|2025-06-10",
+      "attacks": [
+        "separation_of_powers",
+        "military",
+        "union"
+      ],
+      "source_meta": {
+        "headline": "‘No-holds-barred fight’: California’s governor takes off his gloves to punch back at Trump",
+        "published_on": "2025-08-24",
+        "byline": "Lauren Gambino",
+        "outlet": "the Guardian",
+        "accessed_on": "2026-08-14T07:34:35Z",
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "guardian_events_2025-07-26_2025-08-29.json",
+      "_origin_index": 67
     },
     {
       "source_key": "guardian",
@@ -9430,6 +10499,40 @@
       "_origin_index": 696
     },
     {
+      "source_key": "guardian",
+      "date": "2025-06-11",
+      "occurred_on": "",
+      "reported_on": "2025-06-11",
+      "dated_by": "reported",
+      "category": "Judicial Developments",
+      "title": "R Kelly Files Request for Release from Prison Citing Murder Plot",
+      "url": "https://www.theguardian.com/us-news/2025/jun/11/r-kelly-murder-plot",
+      "summary": "Attorneys for R&B singer R Kelly have filed an urgent request for his release from federal prison, citing a serious threat to his life. The motion, submitted on Tuesday, claims that three officials from the Bureau of Prisons attempted to recruit an inmate to murder Kelly. The filing includes a sworn statement from Mikeal Glenn Stine, a terminally ill inmate and member of the Aryan Brotherhood, who alleges that prison officials offered him a deal to assassinate Kelly in exchange for a chance to escape custody. Kelly's legal team argues that his continued incarceration constitutes cruel and unusual punishment.",
+      "why_relevant": "The filing raises significant concerns about the safety and treatment of inmates within the federal prison system, highlighting potential abuses of power by prison officials.",
+      "jurisdiction": "",
+      "federal_nexus": "",
+      "confidence": "",
+      "basis": "",
+      "actor": "",
+      "action": "",
+      "act_key": "",
+      "attacks": [
+        "justice_dept",
+        "civil_service"
+      ],
+      "source_meta": {
+        "headline": null,
+        "published_on": null,
+        "byline": null,
+        "outlet": null,
+        "accessed_on": null,
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "guardian_events_2025-01-20_2025-11-30.json",
+      "_origin_index": 1768
+    },
+    {
       "source_key": "justsecurity",
       "date": "2025-06-11",
       "occurred_on": "",
@@ -9459,8 +10562,8 @@
           "courtlistener_docket_id": "69757814"
         }
       },
-      "_origin_file": "justsecurity_events_2025-04-05_2025-07-25.json",
-      "_origin_index": 622
+      "_origin_file": "justsecurity_events_2025-03-15_2025-06-27.json",
+      "_origin_index": 681
     },
     {
       "source_key": "justsecurity",
@@ -9696,6 +10799,44 @@
       },
       "_origin_file": "guardian_events_2025-04-05_2025-07-25.json",
       "_origin_index": 701
+    },
+    {
+      "source_key": "guardian",
+      "date": "2025-06-11",
+      "occurred_on": "2025-06-11",
+      "reported_on": "2026-05-15",
+      "dated_by": "occurred",
+      "category": "Law Enforcement & Surveillance",
+      "title": "ICE arrested US citizen Christian Cerna with excessive force during anti-ICE protest response, filmed arrest for social media",
+      "url": "https://www.theguardian.com/us-news/2026/may/15/ice-us-citizen-violent-arrest-documentary",
+      "summary": "On June 11, 2025, ICE agents used two vehicles to ram Christian Cerna's car in Los Angeles, deployed flash-bang grenades, and pointed assault rifles at him while his two young children were in the vehicle. Cerna, a US citizen and carpenter, was arrested after allegedly assaulting a border patrol agent during an anti-ICE protest days earlier. ICE agents filmed the arrest operation with high-quality equipment and posted footage to social media. A federal judge later ruled the arrest tactics constituted a \"vindictive effort\" to \"impose extrajudicial punishment.\" Cerna pleaded guilty to simple assault and received one year probation with no jail time.",
+      "why_relevant": "The arrest of a US citizen exercising protest rights, combined with deliberate filming and social media promotion by federal agents, demonstrates weaponization of law enforcement against dissent and violation of constitutional protections.",
+      "jurisdiction": "federal",
+      "federal_nexus": "",
+      "confidence": "high",
+      "basis": "ICE agents jumped out and trained their guns at them\" and \"agents, court records show, were also filming high-quality footage of the arrest operation, which they would later post to social media.",
+      "actor": "ICE",
+      "action": "arrested citizen with excessive force, filmed and posted arrest",
+      "act_key": "ice|arrested citizen with excessive force filmed and posted arrest|2025-06-11",
+      "attacks": [
+        "peaceful_transfer",
+        "rule_of_law",
+        "justice_dept",
+        "press",
+        "children",
+        "decency"
+      ],
+      "source_meta": {
+        "headline": "ICE violently arrested a US citizen and filmed it ‘like a documentary’, videos reveal",
+        "published_on": "2026-05-15",
+        "byline": "Sam Levin",
+        "outlet": "the Guardian",
+        "accessed_on": "2026-08-15T02:03:26Z",
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "guardian_events_2026-03-07_2026-05-15.json",
+      "_origin_index": 12
     },
     {
       "source_key": "guardian",
@@ -10043,6 +11184,130 @@
       "_origin_index": 644
     },
     {
+      "source_key": "whitehouse",
+      "date": "2025-06-11",
+      "occurred_on": "2025-06-11",
+      "reported_on": "2025-06-11",
+      "dated_by": "occurred",
+      "category": "Information & Media Control",
+      "title": "ICYMI: “For the first time in decades, the US-Mexico border is silent”",
+      "url": "https://www.whitehouse.gov/releases/2025/06/icymi-for-the-first-time-in-decades-the-us-mexico-border-is-silent/",
+      "summary": "",
+      "why_relevant": "",
+      "jurisdiction": "federal",
+      "federal_nexus": "Official White House channel; documents the act of publication only.",
+      "confidence": "high",
+      "basis": "official_actor_record",
+      "actor": "The White House",
+      "action": "published a release titled \"ICYMI: “For the first time in decades, the US-Mexico border is silent”\"",
+      "act_key": "white house|published a release titled icymi for the first time in decades the us mexico border is silent|2025-06-11",
+      "attacks": [],
+      "source_meta": {
+        "headline": null,
+        "published_on": null,
+        "byline": null,
+        "outlet": null,
+        "accessed_on": null,
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "whitehouse_events_2025-01-20_2026-08-14.json",
+      "_origin_index": 384
+    },
+    {
+      "source_key": "whitehouse",
+      "date": "2025-06-11",
+      "occurred_on": "2025-06-11",
+      "reported_on": "2025-06-11",
+      "dated_by": "occurred",
+      "category": "Information & Media Control",
+      "title": "President Trump Signs Executive Orders on Drones, Flying Cars, and Supersonics",
+      "url": "https://www.whitehouse.gov/releases/2025/06/president-trump-signs-executive-orders-on-drones-flying-cars-and-supersonics/",
+      "summary": "",
+      "why_relevant": "",
+      "jurisdiction": "federal",
+      "federal_nexus": "Official White House channel; documents the act of publication only.",
+      "confidence": "high",
+      "basis": "official_actor_record",
+      "actor": "The White House",
+      "action": "published a release titled \"President Trump Signs Executive Orders on Drones, Flying Cars, and Supersonics\"",
+      "act_key": "white house|published a release titled president trump signs executive orders on drones flying cars and supersonics|2025-06-11",
+      "attacks": [],
+      "source_meta": {
+        "headline": null,
+        "published_on": null,
+        "byline": null,
+        "outlet": null,
+        "accessed_on": null,
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "whitehouse_events_2025-01-20_2026-08-14.json",
+      "_origin_index": 382
+    },
+    {
+      "source_key": "whitehouse",
+      "date": "2025-06-11",
+      "occurred_on": "2025-06-11",
+      "reported_on": "2025-06-11",
+      "dated_by": "occurred",
+      "category": "Information & Media Control",
+      "title": "The One Big Beautiful Bill Will Supercharge Our Economy",
+      "url": "https://www.whitehouse.gov/releases/2025/06/the-one-big-beautiful-bill-will-supercharge-our-economy/",
+      "summary": "",
+      "why_relevant": "",
+      "jurisdiction": "federal",
+      "federal_nexus": "Official White House channel; documents the act of publication only.",
+      "confidence": "high",
+      "basis": "official_actor_record",
+      "actor": "The White House",
+      "action": "published a release titled \"The One Big Beautiful Bill Will Supercharge Our Economy\"",
+      "act_key": "white house|published a release titled the one big beautiful bill will supercharge our economy|2025-06-11",
+      "attacks": [],
+      "source_meta": {
+        "headline": null,
+        "published_on": null,
+        "byline": null,
+        "outlet": null,
+        "accessed_on": null,
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "whitehouse_events_2025-01-20_2026-08-14.json",
+      "_origin_index": 383
+    },
+    {
+      "source_key": "whitehouse",
+      "date": "2025-06-11",
+      "occurred_on": "2025-06-11",
+      "reported_on": "2025-06-11",
+      "dated_by": "occurred",
+      "category": "Information & Media Control",
+      "title": "Under President Trump, America is Defeating Inflation",
+      "url": "https://www.whitehouse.gov/releases/2025/06/under-president-trump-america-is-defeating-inflation/",
+      "summary": "",
+      "why_relevant": "",
+      "jurisdiction": "federal",
+      "federal_nexus": "Official White House channel; documents the act of publication only.",
+      "confidence": "high",
+      "basis": "official_actor_record",
+      "actor": "The White House",
+      "action": "published a release titled \"Under President Trump, America is Defeating Inflation\"",
+      "act_key": "white house|published a release titled under president trump america is defeating inflation|2025-06-11",
+      "attacks": [],
+      "source_meta": {
+        "headline": null,
+        "published_on": null,
+        "byline": null,
+        "outlet": null,
+        "accessed_on": null,
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "whitehouse_events_2025-01-20_2026-08-14.json",
+      "_origin_index": 385
+    },
+    {
       "source_key": "federalregister",
       "date": "2025-06-11",
       "occurred_on": "2025-06-11",
@@ -10107,6 +11372,39 @@
       },
       "_origin_file": "federalregister_events_2025-04-05_2025-07-25.json",
       "_origin_index": 7
+    },
+    {
+      "source_key": "federalregister",
+      "date": "2025-06-11",
+      "occurred_on": "2025-06-11",
+      "reported_on": "2025-09-12",
+      "dated_by": "occurred",
+      "category": "Economic & Regulatory Power",
+      "title": "DEA publishes notice of Catalent Pharma Solutions' application to import Schedule I controlled substances for clinical trials",
+      "url": "https://www.federalregister.gov/documents/2025/09/12/2025-17581/importer-of-controlled-substances-application-catalent-pharma-solutions-llc",
+      "summary": "The Drug Enforcement Administration published a notice that Catalent Pharma Solutions, LLC applied on June 11, 2025, to be registered as an importer of four Schedule I controlled substances—ibogaine, lysergic acid diethylamide (LSD), 5-methoxy-N,N-dimethyltryptamine, and psilocybin—for use as finished dosage unit products in clinical trials, research, and analytical activities. The DEA opened a 60-day public comment period ending October 14, 2025, during which registered bulk manufacturers and applicants may submit objections or request a hearing on the proposed registration.",
+      "why_relevant": "The notice reflects regulatory authorization of controlled-substance importation for clinical research, signaling potential expansion of legal access to Schedule I compounds for therapeutic investigation.",
+      "jurisdiction": "federal",
+      "federal_nexus": "",
+      "confidence": "high",
+      "basis": "Catalent Pharma Solutions, LLC has applied to be registered as an importer of basic class(es) of controlled substance(s).",
+      "actor": "Drug Enforcement Administration",
+      "action": "published import application notice",
+      "act_key": "drug enforcement administration|published import application notice|2025-06-11",
+      "attacks": [],
+      "source_meta": {
+        "headline": "Importer of Controlled Substances Application: Catalent Pharma Solutions, LLC",
+        "published_on": "2025-09-12",
+        "byline": null,
+        "outlet": "Federal Register",
+        "accessed_on": "2026-08-11T15:34:18Z",
+        "snapshot_url": null,
+        "durable_keys": {
+          "federal_register_doc": "2025-17581"
+        }
+      },
+      "_origin_file": "federalregister_events_2025-09-06_2025-09-12.json",
+      "_origin_index": 3
     },
     {
       "source_key": "federalregister",
@@ -11407,6 +12705,41 @@
     {
       "source_key": "guardian",
       "date": "2025-06-11",
+      "occurred_on": "2025-06-11",
+      "reported_on": "2025-07-28",
+      "dated_by": "occurred",
+      "category": "Civil–Military Relations & State Violence",
+      "title": "DHS agents ram vehicle containing toddler and infant during protester arrest",
+      "url": "https://www.theguardian.com/us-news/2025/jul/28/doj-la-protesters-false-claims",
+      "summary": "Four days after the June 7 Paramount protests, Department of Homeland Security agents arrested protester Christian Cerna-Camacho by ramming his car with two unmarked vehicles while his toddler and infant were inside. Officers deployed teargas during the arrest. DHS aggressively defended the arrest, publishing a photo of Cerna-Camacho being detained and claiming he had \"punched\" a border patrol officer at the Paramount protests, though video evidence showed only an unclear scuffle in a chaotic crowd. The incident caused significant local outrage.",
+      "why_relevant": "Using dangerous tactics (vehicle ramming, teargas) against a protester with children present, combined with false claims about his conduct, demonstrates reckless endangerment of civilians and weaponization of law enforcement against dissent.",
+      "jurisdiction": "federal",
+      "federal_nexus": "",
+      "confidence": "high",
+      "basis": "The case is a significant one for the Trump administration. Cerna-Camacho was arrested four days after the protest, when two unmarked vehicles rammed his car while his toddler and infant were inside, with officers deploying teargas.",
+      "actor": "DHS",
+      "action": "rammed vehicle containing children during arrest",
+      "act_key": "dhs|rammed vehicle containing children during arrest|2025-06-11",
+      "attacks": [
+        "children",
+        "rule_of_law",
+        "immigrants_refugees"
+      ],
+      "source_meta": {
+        "headline": "Dropped cases against LA protesters reveal false claims from federal agents",
+        "published_on": "2025-07-28",
+        "byline": "Sam Levin",
+        "outlet": "the Guardian",
+        "accessed_on": "2026-08-14T08:33:55Z",
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "guardian_events_2025-07-26_2025-08-29.json",
+      "_origin_index": 441
+    },
+    {
+      "source_key": "guardian",
+      "date": "2025-06-11",
       "occurred_on": "",
       "reported_on": "2025-06-11",
       "dated_by": "reported",
@@ -12054,6 +13387,68 @@
       "_origin_index": 14
     },
     {
+      "source_key": "whitehouse",
+      "date": "2025-06-12",
+      "occurred_on": "2025-06-12",
+      "reported_on": "2025-06-12",
+      "dated_by": "occurred",
+      "category": "Executive Actions & Orders",
+      "title": "Empowering Commonsense Wildfire Prevention and Response",
+      "url": "https://www.whitehouse.gov/presidential-actions/2025/06/empowering-commonsense-wildfire-prevention-and-response/",
+      "summary": "",
+      "why_relevant": "",
+      "jurisdiction": "federal",
+      "federal_nexus": "Official White House channel; documents the act of publication only.",
+      "confidence": "high",
+      "basis": "official_actor_record",
+      "actor": "The White House",
+      "action": "announced an executive order titled \"Empowering Commonsense Wildfire Prevention and Response\"",
+      "act_key": "white house|announced an executive order titled empowering commonsense wildfire prevention and response|2025-06-12",
+      "attacks": [],
+      "source_meta": {
+        "headline": null,
+        "published_on": null,
+        "byline": null,
+        "outlet": null,
+        "accessed_on": null,
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "whitehouse_events_2025-01-20_2026-08-14.json",
+      "_origin_index": 844
+    },
+    {
+      "source_key": "whitehouse",
+      "date": "2025-06-12",
+      "occurred_on": "2025-06-12",
+      "reported_on": "2025-06-12",
+      "dated_by": "occurred",
+      "category": "Executive Actions & Orders",
+      "title": "Stopping Radical Environmentalism to Generate Power for the Columbia River Basin",
+      "url": "https://www.whitehouse.gov/presidential-actions/2025/06/stopping-radical-environmentalism-to-generate-power-for-the-columbia-river-basin/",
+      "summary": "",
+      "why_relevant": "",
+      "jurisdiction": "federal",
+      "federal_nexus": "Official White House channel; documents the act of publication only.",
+      "confidence": "high",
+      "basis": "official_actor_record",
+      "actor": "The White House",
+      "action": "announced a presidential memorandum titled \"Stopping Radical Environmentalism to Generate Power for the Columbia River Basin\"",
+      "act_key": "white house|announced a presidential memorandum titled stopping radical environmentalism to generate power for the columbia river basin|2025-06-12",
+      "attacks": [],
+      "source_meta": {
+        "headline": null,
+        "published_on": null,
+        "byline": null,
+        "outlet": null,
+        "accessed_on": null,
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "whitehouse_events_2025-01-20_2026-08-14.json",
+      "_origin_index": 1120
+    },
+    {
       "source_key": "guardian",
       "date": "2025-06-12",
       "occurred_on": "2025-06-12",
@@ -12524,6 +13919,37 @@
       "_origin_index": 297
     },
     {
+      "source_key": "justice",
+      "date": "2025-06-12",
+      "occurred_on": "2025-06-12",
+      "reported_on": "2025-06-12",
+      "dated_by": "occurred",
+      "category": "Judicial Developments",
+      "title": "Justice Department Files Lawsuit to Stop New York’s Unlawful “Protect Our Courts Act” from Obstructing Immigration Enforcement",
+      "url": "https://www.justice.gov/opa/pr/justice-department-files-lawsuit-stop-new-yorks-unlawful-protect-our-courts-act-obstructing",
+      "summary": "",
+      "why_relevant": "",
+      "jurisdiction": "federal",
+      "federal_nexus": "Official DOJ channel; documents the act of announcement only.",
+      "confidence": "high",
+      "basis": "official_actor_record",
+      "actor": "The Department of Justice",
+      "action": "announced \"Justice Department Files Lawsuit to Stop New York’s Unlawful “Protect Our Courts Act” from Obstructing Immigration Enforcement\"",
+      "act_key": "department|announced justice department files lawsuit to stop new york s unlawful protect our courts act from obstructing immigration enforcement|2025-06-12",
+      "attacks": [],
+      "source_meta": {
+        "headline": null,
+        "published_on": null,
+        "byline": null,
+        "outlet": null,
+        "accessed_on": null,
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "justice_events_2025-01-20_2026-08-14.json",
+      "_origin_index": 99
+    },
+    {
       "source_key": "justsecurity",
       "date": "2025-06-12",
       "occurred_on": "",
@@ -12652,8 +14078,8 @@
           "courtlistener_docket_id": "69844582"
         }
       },
-      "_origin_file": "justsecurity_events_2025-04-05_2025-07-25.json",
-      "_origin_index": 975
+      "_origin_file": "justsecurity_events_2025-03-15_2025-06-27.json",
+      "_origin_index": 1063
     },
     {
       "source_key": "justsecurity",
@@ -12718,8 +14144,8 @@
           "courtlistener_docket_id": "69823792"
         }
       },
-      "_origin_file": "justsecurity_events_2025-04-05_2025-07-25.json",
-      "_origin_index": 54
+      "_origin_file": "justsecurity_events_2025-03-15_2025-06-27.json",
+      "_origin_index": 70
     },
     {
       "source_key": "justsecurity",
@@ -12753,39 +14179,6 @@
       },
       "_origin_file": "justsecurity_events_2025-04-05_2025-07-25.json",
       "_origin_index": 64
-    },
-    {
-      "source_key": "justsecurity",
-      "date": "2025-06-12",
-      "occurred_on": "",
-      "reported_on": "2025-06-12",
-      "dated_by": "reported",
-      "category": "Judicial Developments",
-      "title": "Dismissal entered — Mayor and City Council of Baltimore et al. v. CFPB (D. Md.) 1:25-cv-00458",
-      "url": "https://www.courtlistener.com/docket/69634790/mayor-and-city-council-of-baltimore-v-vought/",
-      "summary": "Plaintiffs voluntarily dismissed the case without prejudice as Defendants have repeatedly represented that there is no mechanism by which Defendants can transfer money away from, or otherwise relinquish control over the money in, the Bureau fund. On this basis, Plaintiffs have voluntarily dismissed the action but will undertake further actions as appropriate if Defendants later transfer Bureau funds in contradiction of their representations.",
-      "why_relevant": "This litigation update changes the posture of an active legal challenge to Trump administration action.",
-      "jurisdiction": "",
-      "federal_nexus": "",
-      "confidence": "",
-      "basis": "",
-      "actor": "",
-      "action": "",
-      "act_key": "",
-      "attacks": [],
-      "source_meta": {
-        "headline": null,
-        "published_on": null,
-        "byline": null,
-        "outlet": null,
-        "accessed_on": null,
-        "snapshot_url": null,
-        "durable_keys": {
-          "courtlistener_docket_id": "69634790"
-        }
-      },
-      "_origin_file": "justsecurity_events_2025-04-05_2025-07-25.json",
-      "_origin_index": 822
     },
     {
       "source_key": "justsecurity",
@@ -12916,8 +14309,8 @@
           "courtlistener_docket_id": "69741724"
         }
       },
-      "_origin_file": "justsecurity_events_2025-04-05_2025-07-25.json",
-      "_origin_index": 483
+      "_origin_file": "justsecurity_events_2025-03-15_2025-06-27.json",
+      "_origin_index": 547
     },
     {
       "source_key": "scotusopinions",
@@ -12948,6 +14341,37 @@
         "durable_keys": {}
       },
       "_origin_file": "scotusopinions_events_2025-04-05_2025-07-25.json",
+      "_origin_index": 26
+    },
+    {
+      "source_key": "scotusopinions",
+      "date": "2025-06-12",
+      "occurred_on": "",
+      "reported_on": "2025-06-12",
+      "dated_by": "reported",
+      "category": "Courts / Supreme Court / Opinions",
+      "title": "Supreme Court releases opinion in A. J. T. v. Osseo Area Schools, Independent School Dist. No. 279 (24-249)",
+      "url": "https://www.supremecourt.gov/opinions/24pdf/24-249_a86c.pdf",
+      "summary": "The Supreme Court released an official slip opinion in A. J. T. v. Osseo Area Schools, Independent School Dist. No. 279. Docket number(s): 24-249.",
+      "why_relevant": "The Supreme Court's official opinion in A. J. T. v. Osseo Area Schools, Independent School Dist. No. 279 is a primary legal source. Supreme Court opinions can define binding national law and alter the legal position of the executive branch, federal agencies, states, litigants, and democratic institutions.",
+      "jurisdiction": "",
+      "federal_nexus": "",
+      "confidence": "",
+      "basis": "",
+      "actor": "",
+      "action": "",
+      "act_key": "",
+      "attacks": [],
+      "source_meta": {
+        "headline": null,
+        "published_on": null,
+        "byline": null,
+        "outlet": null,
+        "accessed_on": null,
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "scotusopinions_events_2025-06-07_2025-10-24.json",
       "_origin_index": 26
     },
     {
@@ -12988,6 +14412,37 @@
       "reported_on": "2025-06-12",
       "dated_by": "reported",
       "category": "Courts / Supreme Court / Opinions",
+      "title": "Supreme Court releases opinion in Commissioner v. Zuch (24-416)",
+      "url": "https://www.supremecourt.gov/opinions/24pdf/24-416_l5gm.pdf",
+      "summary": "The Supreme Court released an official slip opinion in Commissioner v. Zuch. Docket number(s): 24-416.",
+      "why_relevant": "The Supreme Court's official opinion in Commissioner v. Zuch is a primary legal source. Supreme Court opinions can define binding national law and alter the legal position of the executive branch, federal agencies, states, litigants, and democratic institutions.",
+      "jurisdiction": "",
+      "federal_nexus": "",
+      "confidence": "",
+      "basis": "",
+      "actor": "",
+      "action": "",
+      "act_key": "",
+      "attacks": [],
+      "source_meta": {
+        "headline": null,
+        "published_on": null,
+        "byline": null,
+        "outlet": null,
+        "accessed_on": null,
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "scotusopinions_events_2025-06-07_2025-10-24.json",
+      "_origin_index": 22
+    },
+    {
+      "source_key": "scotusopinions",
+      "date": "2025-06-12",
+      "occurred_on": "",
+      "reported_on": "2025-06-12",
+      "dated_by": "reported",
+      "category": "Courts / Supreme Court / Opinions",
       "title": "Supreme Court releases opinion in Martin v. United States (24-362)",
       "url": "https://www.supremecourt.gov/opinions/24pdf/605us2r44_4f57.pdf",
       "summary": "The Supreme Court released an official slip opinion in Martin v. United States. Docket number(s): 24-362.",
@@ -13010,6 +14465,37 @@
         "durable_keys": {}
       },
       "_origin_file": "scotusopinions_events_2025-04-05_2025-07-25.json",
+      "_origin_index": 23
+    },
+    {
+      "source_key": "scotusopinions",
+      "date": "2025-06-12",
+      "occurred_on": "",
+      "reported_on": "2025-06-12",
+      "dated_by": "reported",
+      "category": "Courts / Supreme Court / Opinions",
+      "title": "Supreme Court releases opinion in Martin v. United States (24-362)",
+      "url": "https://www.supremecourt.gov/opinions/24pdf/24-362_mjn0.pdf",
+      "summary": "The Supreme Court released an official slip opinion in Martin v. United States. Docket number(s): 24-362.",
+      "why_relevant": "The Supreme Court's official opinion in Martin v. United States is a primary legal source. Supreme Court opinions can define binding national law and alter the legal position of the executive branch, federal agencies, states, litigants, and democratic institutions.",
+      "jurisdiction": "",
+      "federal_nexus": "",
+      "confidence": "",
+      "basis": "",
+      "actor": "",
+      "action": "",
+      "act_key": "",
+      "attacks": [],
+      "source_meta": {
+        "headline": null,
+        "published_on": null,
+        "byline": null,
+        "outlet": null,
+        "accessed_on": null,
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "scotusopinions_events_2025-06-07_2025-10-24.json",
       "_origin_index": 23
     },
     {
@@ -13050,6 +14536,37 @@
       "reported_on": "2025-06-12",
       "dated_by": "reported",
       "category": "Courts / Supreme Court / Opinions",
+      "title": "Supreme Court releases opinion in Parrish v. United States (24-275)",
+      "url": "https://www.supremecourt.gov/opinions/24pdf/24-275_k6gc.pdf",
+      "summary": "The Supreme Court released an official slip opinion in Parrish v. United States. Docket number(s): 24-275.",
+      "why_relevant": "The Supreme Court's official opinion in Parrish v. United States is a primary legal source. Supreme Court opinions can define binding national law and alter the legal position of the executive branch, federal agencies, states, litigants, and democratic institutions.",
+      "jurisdiction": "",
+      "federal_nexus": "",
+      "confidence": "",
+      "basis": "",
+      "actor": "",
+      "action": "",
+      "act_key": "",
+      "attacks": [],
+      "source_meta": {
+        "headline": null,
+        "published_on": null,
+        "byline": null,
+        "outlet": null,
+        "accessed_on": null,
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "scotusopinions_events_2025-06-07_2025-10-24.json",
+      "_origin_index": 24
+    },
+    {
+      "source_key": "scotusopinions",
+      "date": "2025-06-12",
+      "occurred_on": "",
+      "reported_on": "2025-06-12",
+      "dated_by": "reported",
+      "category": "Courts / Supreme Court / Opinions",
       "title": "Supreme Court releases opinion in Rivers v. Guerrero (23-1345)",
       "url": "https://www.supremecourt.gov/opinions/24pdf/605us2r46_kjfm.pdf",
       "summary": "The Supreme Court released an official slip opinion in Rivers v. Guerrero. Docket number(s): 23-1345.",
@@ -13081,6 +14598,37 @@
       "reported_on": "2025-06-12",
       "dated_by": "reported",
       "category": "Courts / Supreme Court / Opinions",
+      "title": "Supreme Court releases opinion in Rivers v. Guerrero (23-1345)",
+      "url": "https://www.supremecourt.gov/opinions/24pdf/23-1345_g3bh.pdf",
+      "summary": "The Supreme Court released an official slip opinion in Rivers v. Guerrero. Docket number(s): 23-1345.",
+      "why_relevant": "The Supreme Court's official opinion in Rivers v. Guerrero is a primary legal source. Supreme Court opinions can define binding national law and alter the legal position of the executive branch, federal agencies, states, litigants, and democratic institutions.",
+      "jurisdiction": "",
+      "federal_nexus": "",
+      "confidence": "",
+      "basis": "",
+      "actor": "",
+      "action": "",
+      "act_key": "",
+      "attacks": [],
+      "source_meta": {
+        "headline": null,
+        "published_on": null,
+        "byline": null,
+        "outlet": null,
+        "accessed_on": null,
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "scotusopinions_events_2025-06-07_2025-10-24.json",
+      "_origin_index": 21
+    },
+    {
+      "source_key": "scotusopinions",
+      "date": "2025-06-12",
+      "occurred_on": "",
+      "reported_on": "2025-06-12",
+      "dated_by": "reported",
+      "category": "Courts / Supreme Court / Opinions",
       "title": "Supreme Court releases opinion in Soto v. United States (24-320)",
       "url": "https://www.supremecourt.gov/opinions/24pdf/605us2r42_k5fl.pdf",
       "summary": "The Supreme Court released an official slip opinion in Soto v. United States. Docket number(s): 24-320.",
@@ -13103,6 +14651,37 @@
         "durable_keys": {}
       },
       "_origin_file": "scotusopinions_events_2025-04-05_2025-07-25.json",
+      "_origin_index": 25
+    },
+    {
+      "source_key": "scotusopinions",
+      "date": "2025-06-12",
+      "occurred_on": "",
+      "reported_on": "2025-06-12",
+      "dated_by": "reported",
+      "category": "Courts / Supreme Court / Opinions",
+      "title": "Supreme Court releases opinion in Soto v. United States (24-320)",
+      "url": "https://www.supremecourt.gov/opinions/24pdf/24-320_m648.pdf",
+      "summary": "The Supreme Court released an official slip opinion in Soto v. United States. Docket number(s): 24-320.",
+      "why_relevant": "The Supreme Court's official opinion in Soto v. United States is a primary legal source. Supreme Court opinions can define binding national law and alter the legal position of the executive branch, federal agencies, states, litigants, and democratic institutions.",
+      "jurisdiction": "",
+      "federal_nexus": "",
+      "confidence": "",
+      "basis": "",
+      "actor": "",
+      "action": "",
+      "act_key": "",
+      "attacks": [],
+      "source_meta": {
+        "headline": null,
+        "published_on": null,
+        "byline": null,
+        "outlet": null,
+        "accessed_on": null,
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "scotusopinions_events_2025-06-07_2025-10-24.json",
       "_origin_index": 25
     },
     {
@@ -13140,6 +14719,42 @@
       },
       "_origin_file": "guardian_events_2025-04-05_2025-07-25.json",
       "_origin_index": 692
+    },
+    {
+      "source_key": "guardian",
+      "date": "2025-06-12",
+      "occurred_on": "2025-06-12",
+      "reported_on": "2026-03-20",
+      "dated_by": "occurred",
+      "category": "Law Enforcement & Surveillance",
+      "title": "DOJ issues memo prioritizing prosecutions of anti-ICE protesters",
+      "url": "https://www.theguardian.com/us-news/2026/mar/20/us-army-veteran-ice-protest-trial",
+      "summary": "Following the June 11, 2025 ICE protest in Spokane, the Department of Justice sent a memo to all 93 US attorneys nationwide demanding they prioritize prosecutions of anti-ICE protesters. This directive led to conspiracy charges against nine demonstrators one month after the protest. Acting US Attorney Richard Barker, an 11-year DOJ veteran, resigned rather than sign the indictment, citing ethical concerns about the conspiracy charge carrying a six-year sentence.",
+      "why_relevant": "A DOJ-wide directive to prioritize prosecution of protesters based on their political position on immigration enforcement constitutes weaponization of federal law enforcement against First Amendment-protected speech and demonstrates institutional capture of the justice system for partisan purposes.",
+      "jurisdiction": "federal",
+      "federal_nexus": "",
+      "confidence": "high",
+      "basis": "the day after the Spokane protest, the justice department sent him – and the 92 other US attorneys nationwide – a memo that demanded they prioritize prosecutions of anti-ICE protesters.",
+      "actor": "DOJ",
+      "action": "issued prosecutorial directive",
+      "act_key": "doj|issued prosecutorial directive|2025-06-12",
+      "attacks": [
+        "justice_dept",
+        "rule_of_law",
+        "press",
+        "constitution"
+      ],
+      "source_meta": {
+        "headline": "US veteran charged with ‘conspiracy’ over ICE protest refuses to plead guilty",
+        "published_on": "2026-03-20",
+        "byline": "Aaron Glantz",
+        "outlet": "the Guardian",
+        "accessed_on": "2026-08-15T04:04:41Z",
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "guardian_events_2026-03-07_2026-05-15.json",
+      "_origin_index": 760
     },
     {
       "source_key": "guardian",
@@ -13209,6 +14824,41 @@
       },
       "_origin_file": "guardian_events_2025-04-05_2025-07-25.json",
       "_origin_index": 690
+    },
+    {
+      "source_key": "guardian",
+      "date": "2025-06-12",
+      "occurred_on": "2025-06-12",
+      "reported_on": "2025-06-12",
+      "dated_by": "occurred",
+      "category": "Law Enforcement & Surveillance",
+      "title": "ICE agents physically assault US citizen Brian Gavidia during immigration enforcement operation in Los Angeles",
+      "url": "https://www.theguardian.com/us-news/2025/sep/12/los-angeles-immigration-trump-lawsuit",
+      "summary": "Federal Immigration and Customs Enforcement agents confronted Brian Gavidia, a 29-year-old US citizen and small business owner, at a tow yard in Los Angeles on June 12, 2025. When Gavidia could not immediately recall the hospital where he was born, agents threw him against a wall, twisted his arm, and detained him for approximately 20 minutes before releasing him after viewing his ID. The incident occurred as part of the Trump administration's mass deportation campaign targeting the Los Angeles area.",
+      "why_relevant": "The incident exemplifies alleged racial profiling and excessive force by federal agents against US citizens during immigration enforcement, raising constitutional concerns about due process and equal protection under the law.",
+      "jurisdiction": "federal",
+      "federal_nexus": "",
+      "confidence": "high",
+      "basis": "An agent appeared and told him to stop. Another agent approached, grabbing him by the arm, and demanding Gavidia tell him which hospital he was born in. When he couldn't recall the hospital he was born in, an agent threw Gavidia against a wall, lifting his arm and twisting it.",
+      "actor": "ICE",
+      "action": "physically assaulted us citizen during enforcement operation",
+      "act_key": "ice|physically assaulted us citizen during enforcement operation|2025-06-12",
+      "attacks": [
+        "immigrants_refugees",
+        "rule_of_law",
+        "constitution"
+      ],
+      "source_meta": {
+        "headline": "‘I will not stay quiet’: LA man swept up in Trump Ice dragnet on why he’s suing",
+        "published_on": "2025-09-12",
+        "byline": "Dani Anguiano",
+        "outlet": "the Guardian",
+        "accessed_on": "2026-08-11T20:50:57Z",
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "guardian_events_2025-09-06_2025-09-12.json",
+      "_origin_index": 10
     },
     {
       "source_key": "guardian",
@@ -13597,6 +15247,39 @@
       "source_key": "popinfo",
       "date": "2025-06-12",
       "occurred_on": "2025-06-12",
+      "reported_on": "2025-10-06",
+      "dated_by": "occurred",
+      "category": "Law Enforcement & Surveillance",
+      "title": "Javier Ramirez, U.S. citizen born in California, detained for five days without charges",
+      "url": "https://popular.info/p/how-federal-agents-are-terrorizing",
+      "summary": "On June 12, 2025, Javier Ramirez, a U.S. citizen born in San Bernardino, California, was detained by federal agents at a Southern California tow yard. Despite telling agents he was a citizen with documentation, Ramirez was held in a federal detention facility for five days before being released without charges.",
+      "why_relevant": "The prolonged detention of a U.S. citizen without charges violates Fifth Amendment due process protections and demonstrates systemic abuse in immigration enforcement.",
+      "jurisdiction": "federal",
+      "federal_nexus": "",
+      "confidence": "high",
+      "basis": "Ramirez was held in a federal detention facility for five days before being released",
+      "actor": "Federal agents",
+      "action": "detained citizen without charges",
+      "act_key": "federal agents|detained citizen without charges|2025-06-12",
+      "attacks": [
+        "rule_of_law"
+      ],
+      "source_meta": {
+        "headline": "How federal agents are terrorizing American citizens",
+        "published_on": "2025-10-06",
+        "byline": "Judd Legum",
+        "outlet": "Popular Information",
+        "accessed_on": "2026-08-11T14:18:21Z",
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "popinfo_events_2025-09-06_2025-12-12.json",
+      "_origin_index": 146
+    },
+    {
+      "source_key": "popinfo",
+      "date": "2025-06-12",
+      "occurred_on": "2025-06-12",
       "reported_on": "2025-06-17",
       "dated_by": "occurred",
       "category": "Law Enforcement & Surveillance",
@@ -13856,6 +15539,161 @@
       },
       "_origin_file": "meidas_events_2025-04-05_2025-07-25.json",
       "_origin_index": 496
+    },
+    {
+      "source_key": "whitehouse",
+      "date": "2025-06-12",
+      "occurred_on": "2025-06-12",
+      "reported_on": "2025-06-12",
+      "dated_by": "occurred",
+      "category": "Information & Media Control",
+      "title": "Fact Sheet: President Donald J. Trump Empowers Commonsense Wildfire Prevention and Response",
+      "url": "https://www.whitehouse.gov/fact-sheets/2025/06/fact-sheet-president-donald-j-trump-empowers-commonsense-wildfire-prevention-and-response/",
+      "summary": "",
+      "why_relevant": "",
+      "jurisdiction": "federal",
+      "federal_nexus": "Official White House channel; documents the act of publication only.",
+      "confidence": "high",
+      "basis": "official_actor_record",
+      "actor": "The White House",
+      "action": "issued a fact sheet titled \"Fact Sheet: President Donald J. Trump Empowers Commonsense Wildfire Prevention and Response\"",
+      "act_key": "white house|issued a fact sheet titled fact sheet president donald j trump empowers commonsense wildfire prevention and response|2025-06-12",
+      "attacks": [],
+      "source_meta": {
+        "headline": null,
+        "published_on": null,
+        "byline": null,
+        "outlet": null,
+        "accessed_on": null,
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "whitehouse_events_2025-01-20_2026-08-14.json",
+      "_origin_index": 574
+    },
+    {
+      "source_key": "whitehouse",
+      "date": "2025-06-12",
+      "occurred_on": "2025-06-12",
+      "reported_on": "2025-06-12",
+      "dated_by": "occurred",
+      "category": "Information & Media Control",
+      "title": "Fact Sheet: President Donald J. Trump Stops the Green Agenda in the Columbia River Basin",
+      "url": "https://www.whitehouse.gov/fact-sheets/2025/06/fact-sheet-president-donald-j-trump-stops-the-green-agenda-in-the-columbia-river-basin/",
+      "summary": "",
+      "why_relevant": "",
+      "jurisdiction": "federal",
+      "federal_nexus": "Official White House channel; documents the act of publication only.",
+      "confidence": "high",
+      "basis": "official_actor_record",
+      "actor": "The White House",
+      "action": "issued a fact sheet titled \"Fact Sheet: President Donald J. Trump Stops the Green Agenda in the Columbia River Basin\"",
+      "act_key": "white house|issued a fact sheet titled fact sheet president donald j trump stops the green agenda in the columbia river basin|2025-06-12",
+      "attacks": [],
+      "source_meta": {
+        "headline": null,
+        "published_on": null,
+        "byline": null,
+        "outlet": null,
+        "accessed_on": null,
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "whitehouse_events_2025-01-20_2026-08-14.json",
+      "_origin_index": 573
+    },
+    {
+      "source_key": "whitehouse",
+      "date": "2025-06-12",
+      "occurred_on": "2025-06-12",
+      "reported_on": "2025-06-12",
+      "dated_by": "occurred",
+      "category": "Information & Media Control",
+      "title": "Micron Announces Massive Chips Investment, Onshoring Production",
+      "url": "https://www.whitehouse.gov/releases/2025/06/micron-announces-massive-chips-investment-onshoring-production/",
+      "summary": "",
+      "why_relevant": "",
+      "jurisdiction": "federal",
+      "federal_nexus": "Official White House channel; documents the act of publication only.",
+      "confidence": "high",
+      "basis": "official_actor_record",
+      "actor": "The White House",
+      "action": "published a release titled \"Micron Announces Massive Chips Investment, Onshoring Production\"",
+      "act_key": "white house|published a release titled micron announces massive chips investment onshoring production|2025-06-12",
+      "attacks": [],
+      "source_meta": {
+        "headline": null,
+        "published_on": null,
+        "byline": null,
+        "outlet": null,
+        "accessed_on": null,
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "whitehouse_events_2025-01-20_2026-08-14.json",
+      "_origin_index": 381
+    },
+    {
+      "source_key": "whitehouse",
+      "date": "2025-06-12",
+      "occurred_on": "2025-06-12",
+      "reported_on": "2025-06-12",
+      "dated_by": "occurred",
+      "category": "Information & Media Control",
+      "title": "President Trump, First Lady Met with Standing Ovation at Kennedy Center",
+      "url": "https://www.whitehouse.gov/releases/2025/06/president-trump-first-lady-met-with-standing-ovation-at-kennedy-center/",
+      "summary": "",
+      "why_relevant": "",
+      "jurisdiction": "federal",
+      "federal_nexus": "Official White House channel; documents the act of publication only.",
+      "confidence": "high",
+      "basis": "official_actor_record",
+      "actor": "The White House",
+      "action": "published a release titled \"President Trump, First Lady Met with Standing Ovation at Kennedy Center\"",
+      "act_key": "white house|published a release titled president trump first lady met with standing ovation at kennedy center|2025-06-12",
+      "attacks": [],
+      "source_meta": {
+        "headline": null,
+        "published_on": null,
+        "byline": null,
+        "outlet": null,
+        "accessed_on": null,
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "whitehouse_events_2025-01-20_2026-08-14.json",
+      "_origin_index": 380
+    },
+    {
+      "source_key": "whitehouse",
+      "date": "2025-06-12",
+      "occurred_on": "2025-06-12",
+      "reported_on": "2025-06-12",
+      "dated_by": "occurred",
+      "category": "Information & Media Control",
+      "title": "REPORT: Failure to Pass One Big Beautiful Bill Will Kill 1.1+ Million Manufacturing Jobs",
+      "url": "https://www.whitehouse.gov/releases/2025/06/report-failure-to-pass-one-big-beautiful-bill-will-kill-1-1-million-manufacturing-jobs/",
+      "summary": "",
+      "why_relevant": "",
+      "jurisdiction": "federal",
+      "federal_nexus": "Official White House channel; documents the act of publication only.",
+      "confidence": "high",
+      "basis": "official_actor_record",
+      "actor": "The White House",
+      "action": "published a release titled \"REPORT: Failure to Pass One Big Beautiful Bill Will Kill 1.1+ Million Manufacturing Jobs\"",
+      "act_key": "white house|published a release titled report failure to pass one big beautiful bill will kill 1 1 million manufacturing jobs|2025-06-12",
+      "attacks": [],
+      "source_meta": {
+        "headline": null,
+        "published_on": null,
+        "byline": null,
+        "outlet": null,
+        "accessed_on": null,
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "whitehouse_events_2025-01-20_2026-08-14.json",
+      "_origin_index": 379
     },
     {
       "source_key": "congress",
@@ -14563,6 +16401,37 @@
       "_origin_index": 511
     },
     {
+      "source_key": "defense",
+      "date": "2025-06-12",
+      "occurred_on": "2025-06-12",
+      "reported_on": "2025-06-12",
+      "dated_by": "occurred",
+      "category": "Civil–Military Relations & State Violence",
+      "title": "Statement by Chief Pentagon Spokesman Sean Parnell on Securing the Southern Border: SkillBridge",
+      "url": "https://www.war.gov/News/Releases/Release/Article/4215533/statement-by-chief-pentagon-spokesman-sean-parnell-on-securing-the-southern-bor/",
+      "summary": "",
+      "why_relevant": "",
+      "jurisdiction": "federal",
+      "federal_nexus": "Official Department of War channel; documents the act of publication only.",
+      "confidence": "high",
+      "basis": "official_actor_record",
+      "actor": "The Department of War",
+      "action": "issued a press release titled \"Statement by Chief Pentagon Spokesman Sean Parnell on Securing the Southern Border: SkillBridge\"",
+      "act_key": "department war|issued a press release titled statement by chief pentagon spokesman sean parnell on securing the southern border skillbridge|2025-06-12",
+      "attacks": [],
+      "source_meta": {
+        "headline": null,
+        "published_on": null,
+        "byline": null,
+        "outlet": null,
+        "accessed_on": null,
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "defense_events_2025-01-20_2026-08-14.json",
+      "_origin_index": 265
+    },
+    {
       "source_key": "democracydocket",
       "date": "2025-06-12",
       "occurred_on": "",
@@ -15019,6 +16888,39 @@
     {
       "source_key": "federalregister",
       "date": "2025-06-13",
+      "occurred_on": "",
+      "reported_on": "2025-06-13",
+      "dated_by": "reported",
+      "category": "Executive Actions & Orders",
+      "title": "Father's Day, 2025",
+      "url": "https://www.federalregister.gov/documents/2025/06/18/2025-11363/fathers-day-2025",
+      "summary": "",
+      "why_relevant": "",
+      "jurisdiction": "",
+      "federal_nexus": "",
+      "confidence": "",
+      "basis": "",
+      "actor": "",
+      "action": "",
+      "act_key": "",
+      "attacks": [],
+      "source_meta": {
+        "headline": "Father's Day, 2025",
+        "published_on": "2025-06-18",
+        "byline": null,
+        "outlet": "Federal Register",
+        "accessed_on": "2026-08-13T14:03:18Z",
+        "snapshot_url": null,
+        "durable_keys": {
+          "federal_register_doc": "2025-11363"
+        }
+      },
+      "_origin_file": "federalregister_events_2025-01-20_2026-07-03.json",
+      "_origin_index": 296
+    },
+    {
+      "source_key": "federalregister",
+      "date": "2025-06-13",
       "occurred_on": "2025-06-13",
       "reported_on": "2025-06-20",
       "dated_by": "occurred",
@@ -15219,6 +17121,161 @@
       },
       "_origin_file": "orders_events_2025-04-05_2025-07-25.json",
       "_origin_index": 13
+    },
+    {
+      "source_key": "whitehouse",
+      "date": "2025-06-13",
+      "occurred_on": "2025-06-13",
+      "reported_on": "2025-06-13",
+      "dated_by": "occurred",
+      "category": "Executive Actions & Orders",
+      "title": "250th Anniversary of the Founding of the United States Army",
+      "url": "https://www.whitehouse.gov/presidential-actions/2025/06/250th-anniversary-of-the-founding-of-the-united-states-army/",
+      "summary": "",
+      "why_relevant": "",
+      "jurisdiction": "federal",
+      "federal_nexus": "Official White House channel; documents the act of publication only.",
+      "confidence": "high",
+      "basis": "official_actor_record",
+      "actor": "The White House",
+      "action": "announced a proclamation titled \"250th Anniversary of the Founding of the United States Army\"",
+      "act_key": "white house|announced a proclamation titled 250th anniversary of the founding of the united states army|2025-06-13",
+      "attacks": [],
+      "source_meta": {
+        "headline": null,
+        "published_on": null,
+        "byline": null,
+        "outlet": null,
+        "accessed_on": null,
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "whitehouse_events_2025-01-20_2026-08-14.json",
+      "_origin_index": 1020
+    },
+    {
+      "source_key": "whitehouse",
+      "date": "2025-06-13",
+      "occurred_on": "2025-06-13",
+      "reported_on": "2025-06-13",
+      "dated_by": "occurred",
+      "category": "Executive Actions & Orders",
+      "title": "Father’s Day, 2025",
+      "url": "https://www.whitehouse.gov/presidential-actions/2025/06/fathers-day-2025/",
+      "summary": "",
+      "why_relevant": "",
+      "jurisdiction": "federal",
+      "federal_nexus": "Official White House channel; documents the act of publication only.",
+      "confidence": "high",
+      "basis": "official_actor_record",
+      "actor": "The White House",
+      "action": "announced a proclamation titled \"Father’s Day, 2025\"",
+      "act_key": "white house|announced a proclamation titled father s day 2025|2025-06-13",
+      "attacks": [],
+      "source_meta": {
+        "headline": null,
+        "published_on": null,
+        "byline": null,
+        "outlet": null,
+        "accessed_on": null,
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "whitehouse_events_2025-01-20_2026-08-14.json",
+      "_origin_index": 1018
+    },
+    {
+      "source_key": "whitehouse",
+      "date": "2025-06-13",
+      "occurred_on": "2025-06-13",
+      "reported_on": "2025-06-13",
+      "dated_by": "occurred",
+      "category": "Executive Actions & Orders",
+      "title": "Flag Day and National Flag Week, 2025",
+      "url": "https://www.whitehouse.gov/presidential-actions/2025/06/flag-day-and-national-flag-week-2025/",
+      "summary": "",
+      "why_relevant": "",
+      "jurisdiction": "federal",
+      "federal_nexus": "Official White House channel; documents the act of publication only.",
+      "confidence": "high",
+      "basis": "official_actor_record",
+      "actor": "The White House",
+      "action": "announced a proclamation titled \"Flag Day and National Flag Week, 2025\"",
+      "act_key": "white house|announced a proclamation titled flag day and national flag week 2025|2025-06-13",
+      "attacks": [],
+      "source_meta": {
+        "headline": null,
+        "published_on": null,
+        "byline": null,
+        "outlet": null,
+        "accessed_on": null,
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "whitehouse_events_2025-01-20_2026-08-14.json",
+      "_origin_index": 1019
+    },
+    {
+      "source_key": "whitehouse",
+      "date": "2025-06-13",
+      "occurred_on": "2025-06-13",
+      "reported_on": "2025-06-13",
+      "dated_by": "occurred",
+      "category": "Executive Actions & Orders",
+      "title": "Presidential Permit Authorizing the City of Laredo, Texas, to Expand and Continue to Maintain, and Operate a Vehicular Border Crossing at the Laredo-Colombia Solidarity International Bridge Land Port of Entry",
+      "url": "https://www.whitehouse.gov/presidential-actions/2025/06/presidential-permit-authorizing-the-city-of-laredo-texas-to-expand-and-continue-to-maintain-and-operate-a-vehicular-border-crossing-at-the-laredo-colombia-solidarity-international-bridge-land-port/",
+      "summary": "",
+      "why_relevant": "",
+      "jurisdiction": "federal",
+      "federal_nexus": "Official White House channel; documents the act of publication only.",
+      "confidence": "high",
+      "basis": "official_actor_record",
+      "actor": "The White House",
+      "action": "announced a presidential memorandum titled \"Presidential Permit Authorizing the City of Laredo, Texas, to Expand and Continue to Maintain, and Operate a Vehicular Border Crossing at the Laredo-Colombia Solidarity International Bridge Land Port of Entry\"",
+      "act_key": "white house|announced a presidential memorandum titled presidential permit authorizing the city of laredo texas to expand and continue to maintain and operate a vehicular border crossing at the laredo colombia solidarity international bridge land port of entry|2025-06-13",
+      "attacks": [],
+      "source_meta": {
+        "headline": null,
+        "published_on": null,
+        "byline": null,
+        "outlet": null,
+        "accessed_on": null,
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "whitehouse_events_2025-01-20_2026-08-14.json",
+      "_origin_index": 1119
+    },
+    {
+      "source_key": "whitehouse",
+      "date": "2025-06-13",
+      "occurred_on": "2025-06-13",
+      "reported_on": "2025-06-13",
+      "dated_by": "occurred",
+      "category": "Executive Actions & Orders",
+      "title": "Regarding the Proposed Acquisition of the United States Steel Corporation by Nippon Steel Corporation",
+      "url": "https://www.whitehouse.gov/presidential-actions/2025/06/regarding-the-proposed-acquisition-of-the-united-states-steel-corporation-by-nippon-steel-corporation/",
+      "summary": "",
+      "why_relevant": "",
+      "jurisdiction": "federal",
+      "federal_nexus": "Official White House channel; documents the act of publication only.",
+      "confidence": "high",
+      "basis": "official_actor_record",
+      "actor": "The White House",
+      "action": "announced an executive order titled \"Regarding the Proposed Acquisition of the United States Steel Corporation by Nippon Steel Corporation\"",
+      "act_key": "white house|announced an executive order titled regarding the proposed acquisition of the united states steel corporation by nippon steel corporation|2025-06-13",
+      "attacks": [],
+      "source_meta": {
+        "headline": null,
+        "published_on": null,
+        "byline": null,
+        "outlet": null,
+        "accessed_on": null,
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "whitehouse_events_2025-01-20_2026-08-14.json",
+      "_origin_index": 843
     },
     {
       "source_key": "meidas",
@@ -15630,39 +17687,6 @@
       "reported_on": "2025-06-13",
       "dated_by": "reported",
       "category": "Judicial Developments",
-      "title": "Case update — Environmental Defense Fund v. Department of Interior (D.D.C.) 1:25-cv-00871",
-      "url": "https://www.courtlistener.com/docket/69781182/environmental-defense-fund-v-united-states-department-of-the-interior/",
-      "summary": "Plaintiff and Defendants Department of the Interior, National Oceanic and Atmospheric Administration, and Council on Environmental Quality (CEQ) agreed to dismiss Defendant CEQ and Count II of the complaint (which alleges CEQ failed to comply with Plaintiff's FOIA request). The court ordered these dismissals on June 15.",
-      "why_relevant": "This litigation update changes the posture of an active legal challenge to Trump administration action.",
-      "jurisdiction": "",
-      "federal_nexus": "",
-      "confidence": "",
-      "basis": "",
-      "actor": "",
-      "action": "",
-      "act_key": "",
-      "attacks": [],
-      "source_meta": {
-        "headline": null,
-        "published_on": null,
-        "byline": null,
-        "outlet": null,
-        "accessed_on": null,
-        "snapshot_url": null,
-        "durable_keys": {
-          "courtlistener_docket_id": "69781182"
-        }
-      },
-      "_origin_file": "justsecurity_events_2025-04-05_2025-07-25.json",
-      "_origin_index": 1095
-    },
-    {
-      "source_key": "justsecurity",
-      "date": "2025-06-13",
-      "occurred_on": "",
-      "reported_on": "2025-06-13",
-      "dated_by": "reported",
-      "category": "Judicial Developments",
       "title": "Case update — Mahmoud Khalil v. William P. Joyce et al. (D.N.J.) 2:25-cv-01963",
       "url": "https://www.courtlistener.com/docket/69757814/khalil-v-joyce/",
       "summary": "Judge Farbiarz found that the government may continue to detain Mahmoud Khalil on a separate immigration charge, so long as detention is not based on the government's initial determination that Khalil is a national security threat. This ruling comes after the government responded to the court's June 11 order , claiming that the court did not order Khalil's release, but only barred his detention.",
@@ -15686,8 +17710,8 @@
           "courtlistener_docket_id": "69757814"
         }
       },
-      "_origin_file": "justsecurity_events_2025-04-05_2025-07-25.json",
-      "_origin_index": 623
+      "_origin_file": "justsecurity_events_2025-03-15_2025-06-27.json",
+      "_origin_index": 682
     },
     {
       "source_key": "justsecurity",
@@ -15764,7 +17788,7 @@
       "category": "Judicial Developments",
       "title": "Notice of appeal filed — Orr v. Trump (D. Mass.) 1:25-cv-10313",
       "url": "https://www.courtlistener.com/docket/69623342/orr-v-trump-president-of-the-united-states/",
-      "summary": "Defendants filed a notice of appeal to the First Circuit as to Judge Julia Kobik's April 18 Order of Preliminary Injunction (Case No. 25-1579 ).",
+      "summary": "Defendants filed a notice of appeal to the First Circuit as to Judge Julia Kobik's April 18 Order of Preliminary Injunction.",
       "why_relevant": "This litigation update changes the posture of an active legal challenge to Trump administration action.",
       "jurisdiction": "",
       "federal_nexus": "",
@@ -15785,8 +17809,8 @@
           "courtlistener_docket_id": "69623342"
         }
       },
-      "_origin_file": "justsecurity_events_2025-04-05_2025-07-25.json",
-      "_origin_index": 93
+      "_origin_file": "justsecurity_events_2025-03-15_2025-06-27.json",
+      "_origin_index": 111
     },
     {
       "source_key": "justsecurity",
@@ -16020,6 +18044,39 @@
       },
       "_origin_file": "guardian_events_2025-04-05_2025-07-25.json",
       "_origin_index": 656
+    },
+    {
+      "source_key": "guardian",
+      "date": "2025-06-13",
+      "occurred_on": "2025-06-13",
+      "reported_on": "2025-07-29",
+      "dated_by": "occurred",
+      "category": "Law Enforcement & Surveillance",
+      "title": "FBI charges Geoffrey Chad Giglio with threatening congressman",
+      "url": "https://www.theguardian.com/us-news/2025/jul/29/lawmakers-security-political-violence-threats",
+      "summary": "The FBI charged Geoffrey Chad Giglio with making violent threats against U.S. Representative Eric Swalwell (D-California) and his wife. Giglio made multiple voicemail threats to Swalwell's district office, including statements about harming the congressman and references to a .308 rifle. The most recent call occurred on June 13, 2025, days after the FBI had interviewed Giglio about previous threats. Giglio had previously been interviewed by Reuters in October 2024 regarding violent political rhetoric.",
+      "why_relevant": "Exemplifies the escalation of threats against federal elected officials and law enforcement response, illustrating the security challenges lawmakers face and the criminal justice system's role in addressing political violence.",
+      "jurisdiction": "federal",
+      "federal_nexus": "",
+      "confidence": "high",
+      "basis": "The staff at representative Swalwell's California district office had heard the man's voice before. He had called twice in previous weeks to leave revolting, racist threats against the Democratic congressman and his wife in voicemails, according to an FBI criminal complaint released on Monday.",
+      "actor": "FBI",
+      "action": "charged individual with threats",
+      "act_key": "fbi|charged individual with threats|2025-06-13",
+      "attacks": [
+        "rule_of_law"
+      ],
+      "source_meta": {
+        "headline": "US lawmakers balance security and openness as threats of political violence rise",
+        "published_on": "2025-07-29",
+        "byline": "George Chidi",
+        "outlet": "the Guardian",
+        "accessed_on": "2026-08-14T08:31:37Z",
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "guardian_events_2025-07-26_2025-08-29.json",
+      "_origin_index": 426
     },
     {
       "source_key": "guardian",
@@ -16538,6 +18595,101 @@
       },
       "_origin_file": "meidas_events_2025-04-05_2025-07-25.json",
       "_origin_index": 492
+    },
+    {
+      "source_key": "whitehouse",
+      "date": "2025-06-13",
+      "occurred_on": "2025-06-13",
+      "reported_on": "2025-06-13",
+      "dated_by": "occurred",
+      "category": "Information & Media Control",
+      "title": "President Trump’s Policies Are Delivering Wins Across America",
+      "url": "https://www.whitehouse.gov/releases/2025/06/president-trumps-policies-are-delivering-wins-across-america/",
+      "summary": "",
+      "why_relevant": "",
+      "jurisdiction": "federal",
+      "federal_nexus": "Official White House channel; documents the act of publication only.",
+      "confidence": "high",
+      "basis": "official_actor_record",
+      "actor": "The White House",
+      "action": "published a release titled \"President Trump’s Policies Are Delivering Wins Across America\"",
+      "act_key": "white house|published a release titled president trump s policies are delivering wins across america|2025-06-13",
+      "attacks": [],
+      "source_meta": {
+        "headline": null,
+        "published_on": null,
+        "byline": null,
+        "outlet": null,
+        "accessed_on": null,
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "whitehouse_events_2025-01-20_2026-08-14.json",
+      "_origin_index": 378
+    },
+    {
+      "source_key": "whitehouse",
+      "date": "2025-06-13",
+      "occurred_on": "2025-06-13",
+      "reported_on": "2025-06-13",
+      "dated_by": "occurred",
+      "category": "Information & Media Control",
+      "title": "What They Are Saying: President Trump Stops Radical Environmentalism to Generate Power for the Columbia River Basin",
+      "url": "https://www.whitehouse.gov/releases/2025/06/what-they-are-saying-president-trump-stops-radical-environmentalism-to-generate-power-for-the-columbia-river-basin/",
+      "summary": "",
+      "why_relevant": "",
+      "jurisdiction": "federal",
+      "federal_nexus": "Official White House channel; documents the act of publication only.",
+      "confidence": "high",
+      "basis": "official_actor_record",
+      "actor": "The White House",
+      "action": "published a release titled \"What They Are Saying: President Trump Stops Radical Environmentalism to Generate Power for the Columbia River Basin\"",
+      "act_key": "white house|published a release titled what they are saying president trump stops radical environmentalism to generate power for the columbia river basin|2025-06-13",
+      "attacks": [],
+      "source_meta": {
+        "headline": null,
+        "published_on": null,
+        "byline": null,
+        "outlet": null,
+        "accessed_on": null,
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "whitehouse_events_2025-01-20_2026-08-14.json",
+      "_origin_index": 1484
+    },
+    {
+      "source_key": "federalregister",
+      "date": "2025-06-13",
+      "occurred_on": "2025-06-13",
+      "reported_on": "2025-08-12",
+      "dated_by": "occurred",
+      "category": "Economic & Regulatory Power",
+      "title": "DEA publishes notice of bulk manufacturer application by Benuvia Operations, LLC for controlled substances",
+      "url": "https://www.federalregister.gov/documents/2025/08/12/2025-15279/bulk-manufacturer-of-controlled-substances-application-benuvia-operations-llc",
+      "summary": "The Drug Enforcement Administration published a notice on August 12, 2025, that Benuvia Operations, LLC applied on June 13, 2025, to be registered as a bulk manufacturer of controlled substances including Schedule I hallucinogens (ibogaine, psilocybin, DMT, mescaline, MDMA) and Schedule II stimulants and opioids (amphetamine, lisdexamfetamine, remifentanil). The company stated it plans to manufacture these substances for internal research and dosage formulation development. Registered bulk manufacturers and other applicants may submit comments or objections by October 14, 2025, or request a hearing.",
+      "why_relevant": "The notice initiates a public comment period on a DEA registration that would authorize bulk manufacturing of Schedule I and II controlled substances, affecting regulatory oversight of pharmaceutical research and drug manufacturing.",
+      "jurisdiction": "federal",
+      "federal_nexus": "",
+      "confidence": "high",
+      "basis": "Benuvia Operations, LLC has applied to be registered as a bulk manufacturer of basic class(es) of controlled substance(s).",
+      "actor": "Drug Enforcement Administration",
+      "action": "published registration notice",
+      "act_key": "drug enforcement administration|published registration notice|2025-06-13",
+      "attacks": [],
+      "source_meta": {
+        "headline": "Bulk Manufacturer of Controlled Substances Application: Benuvia Operations, LLC",
+        "published_on": "2025-08-12",
+        "byline": null,
+        "outlet": "Federal Register",
+        "accessed_on": "2026-08-14T06:24:28Z",
+        "snapshot_url": null,
+        "durable_keys": {
+          "federal_register_doc": "2025-15279"
+        }
+      },
+      "_origin_file": "federalregister_events_2025-07-26_2025-08-29.json",
+      "_origin_index": 7
     },
     {
       "source_key": "federalregister",
@@ -17271,6 +19423,40 @@
       },
       "_origin_file": "guardian_events_2025-04-05_2025-07-25.json",
       "_origin_index": 660
+    },
+    {
+      "source_key": "popinfo",
+      "date": "2025-06-13",
+      "occurred_on": "",
+      "reported_on": "2025-06-13",
+      "dated_by": "reported",
+      "category": "International Relations",
+      "title": "Israel begins bombing Iran",
+      "url": "https://popular.info/p/what-will-happen-if-the-united-states",
+      "summary": "On June 13, 2025, Israel initiated a bombing campaign against Iran, targeting suspected nuclear sites and other locations. Israel claims the operation is necessary to prevent Iran from developing a nuclear weapon. This military action has escalated tensions in the region and has implications for international relations and potential U.S. involvement. The situation has disrupted ongoing diplomatic efforts by the Trump administration to negotiate a new deal with Iran. The bombing campaign has been criticized for preempting a diplomatic solution and potentially destabilizing the region further.",
+      "why_relevant": "The bombing campaign by Israel against Iran heightens regional tensions and disrupts diplomatic efforts, impacting global stability and international relations.",
+      "jurisdiction": "",
+      "federal_nexus": "",
+      "confidence": "",
+      "basis": "",
+      "actor": "",
+      "action": "",
+      "act_key": "",
+      "attacks": [
+        "global_democracy",
+        "peace"
+      ],
+      "source_meta": {
+        "headline": "What will happen if the United States bombs Iran?",
+        "published_on": "2025-06-19",
+        "byline": "Judd Legum",
+        "outlet": "Popular Information",
+        "accessed_on": "2026-08-13T10:05:11Z",
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "popinfo_events_2025-01-20_2025-11-30.json",
+      "_origin_index": 144
     },
     {
       "source_key": "guardian",

@@ -5,59 +5,67 @@
   },
   "week_number": 13,
   "sources": [
-    "justsecurity",
+    "orders",
     "federalregister",
-    "noah",
-    "zeteo",
-    "scotusopinions",
-    "outloud",
-    "guardian",
-    "meidas",
     "popinfo",
+    "justice",
+    "zeteo",
+    "meidas",
+    "outloud",
+    "noah",
+    "guardian",
     "hcr",
+    "whitehouse",
     "scotusorders",
-    "orders"
+    "democracydocket",
+    "justsecurity",
+    "defense",
+    "scotusopinions"
   ],
   "counts": {
-    "total": 423,
+    "total": 496,
     "by_date": {
-      "2025-04-12": 7,
-      "2025-04-13": 37,
-      "2025-04-14": 77,
-      "2025-04-15": 99,
-      "2025-04-16": 55,
-      "2025-04-17": 75,
-      "2025-04-18": 73
+      "2025-04-12": 9,
+      "2025-04-13": 39,
+      "2025-04-14": 86,
+      "2025-04-15": 120,
+      "2025-04-16": 68,
+      "2025-04-17": 92,
+      "2025-04-18": 82
     },
     "by_source": {
-      "guardian": 74,
-      "justsecurity": 122,
+      "guardian": 81,
+      "justsecurity": 115,
       "zeteo": 37,
       "noah": 16,
-      "hcr": 43,
+      "hcr": 65,
       "meidas": 67,
-      "federalregister": 40,
+      "whitehouse": 33,
+      "federalregister": 45,
+      "defense": 5,
       "orders": 6,
       "outloud": 4,
-      "popinfo": 8,
+      "popinfo": 9,
+      "justice": 5,
+      "democracydocket": 1,
       "scotusorders": 5,
-      "scotusopinions": 1
+      "scotusopinions": 2
     },
     "by_category": {
-      "Executive Actions & Orders": 45,
-      "Judicial Developments": 161,
-      "Economic & Regulatory Power": 51,
-      "Civil–Military Relations & State Violence": 8,
-      "Law Enforcement & Surveillance": 36,
-      "Civil Society & Protest": 16,
-      "Information & Media Control": 30,
+      "Executive Actions & Orders": 61,
+      "Judicial Developments": 166,
+      "Law Enforcement & Surveillance": 39,
+      "Economic & Regulatory Power": 66,
+      "Civil–Military Relations & State Violence": 10,
+      "Civil Society & Protest": 18,
+      "Information & Media Control": 52,
       "Transparency & Records": 18,
-      "International Relations": 17,
-      "Legislative & Oversight Activity": 11,
+      "International Relations": 23,
+      "Legislative & Oversight Activity": 12,
       "Elections & Representation": 17,
       "Appointments & Patronage": 6,
       "Courts / Supreme Court / Orders": 5,
-      "Courts / Supreme Court / Opinions": 1,
+      "Courts / Supreme Court / Opinions": 2,
       "Education & Regulatory Power": 1
     }
   },
@@ -127,8 +135,8 @@
           "courtlistener_docket_id": "69777799"
         }
       },
-      "_origin_file": "justsecurity_events_2025-04-05_2025-07-25.json",
-      "_origin_index": 710
+      "_origin_file": "justsecurity_events_2025-03-15_2025-06-27.json",
+      "_origin_index": 776
     },
     {
       "source_key": "justsecurity",
@@ -160,8 +168,8 @@
           "courtlistener_docket_id": "69832711"
         }
       },
-      "_origin_file": "justsecurity_events_2025-04-05_2025-07-25.json",
-      "_origin_index": 366
+      "_origin_file": "justsecurity_events_2025-03-15_2025-06-27.json",
+      "_origin_index": 410
     },
     {
       "source_key": "justsecurity",
@@ -193,8 +201,8 @@
           "courtlistener_docket_id": "69800762"
         }
       },
-      "_origin_file": "justsecurity_events_2025-04-05_2025-07-25.json",
-      "_origin_index": 356
+      "_origin_file": "justsecurity_events_2025-03-15_2025-06-27.json",
+      "_origin_index": 399
     },
     {
       "source_key": "zeteo",
@@ -229,6 +237,71 @@
       },
       "_origin_file": "zeteo_events_2025-04-05_2025-07-25.json",
       "_origin_index": 607
+    },
+    {
+      "source_key": "guardian",
+      "date": "2025-04-12",
+      "occurred_on": "",
+      "reported_on": "2025-04-12",
+      "dated_by": "reported",
+      "category": "Law Enforcement & Surveillance",
+      "title": "Police searching for man who allegedly sexually abused corpse on New York subway",
+      "url": "https://www.theguardian.com/us-news/2025/apr/12/new-york-subway-corpse-sexual-assault",
+      "summary": "Authorities are searching for a man, identified as Carlos Garcia, who allegedly sexually assaulted a corpse on a New York City subway train after robbing the deceased individual. The incident occurred on a southbound R train near the Whitehall Street station, where surveillance footage captured the act. Police have released images of Garcia and are seeking information from the public. The victim is believed to have died of natural causes prior to the incident.",
+      "why_relevant": "This incident raises serious concerns about public safety and the adequacy of law enforcement responses in urban transit systems.",
+      "jurisdiction": "",
+      "federal_nexus": "",
+      "confidence": "",
+      "basis": "",
+      "actor": "",
+      "action": "",
+      "act_key": "",
+      "attacks": [],
+      "source_meta": {
+        "headline": "Police searching for man who allegedly sexually abused corpse on New York subway",
+        "published_on": "2025-04-12",
+        "byline": "Ramon Antonio Vargas",
+        "outlet": "the Guardian",
+        "accessed_on": "2026-08-13T18:34:07Z",
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "guardian_events_2025-03-29_2025-06-06.json",
+      "_origin_index": 527
+    },
+    {
+      "source_key": "guardian",
+      "date": "2025-04-12",
+      "occurred_on": "",
+      "reported_on": "2025-04-12",
+      "dated_by": "reported",
+      "category": "Economic & Regulatory Power",
+      "title": "Trump Pauses Tariffs for Most Countries, Excluding China",
+      "url": "https://www.theguardian.com/us-news/2025/apr/12/donald-trump-is-now-badly-wounded-europe-and-the-uk-can-seize-an-advantage",
+      "summary": "President Donald Trump announced a 90-day pause on a range of tariffs for most countries, while maintaining a 145% tariff on Chinese imports. This decision came after a near collapse of the $29 trillion US government debt market, which threatened the stability of the American and global financial systems. The pause was seen as a response to market pressures and is intended to prevent further economic instability. The US Federal Reserve has assured markets of its commitment to maintaining stability. The pause provides an opportunity for the EU and other democracies to collaborate on a new global trade order.",
+      "why_relevant": "The tariff pause reflects significant economic pressures and has implications for global trade dynamics and international relations.",
+      "jurisdiction": "",
+      "federal_nexus": "",
+      "confidence": "",
+      "basis": "",
+      "actor": "",
+      "action": "",
+      "act_key": "",
+      "attacks": [
+        "trade",
+        "economy"
+      ],
+      "source_meta": {
+        "headline": null,
+        "published_on": null,
+        "byline": null,
+        "outlet": null,
+        "accessed_on": null,
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "guardian_events_2025-03-29_2025-05-09.json",
+      "_origin_index": 328
     },
     {
       "source_key": "noah",
@@ -436,8 +509,8 @@
           "courtlistener_docket_id": "69777799"
         }
       },
-      "_origin_file": "justsecurity_events_2025-04-05_2025-07-25.json",
-      "_origin_index": 711
+      "_origin_file": "justsecurity_events_2025-03-15_2025-06-27.json",
+      "_origin_index": 777
     },
     {
       "source_key": "justsecurity",
@@ -469,41 +542,8 @@
           "courtlistener_docket_id": "69752936"
         }
       },
-      "_origin_file": "justsecurity_events_2025-04-05_2025-07-25.json",
-      "_origin_index": 317
-    },
-    {
-      "source_key": "justsecurity",
-      "date": "2025-04-13",
-      "occurred_on": "",
-      "reported_on": "2025-04-13",
-      "dated_by": "reported",
-      "category": "Judicial Developments",
-      "title": "Dismissal entered — Democracy Forward Foundation v. Office of Management and Budget (D.D.C.) 1:25-cv-00586",
-      "url": "https://www.courtlistener.com/docket/69690683/democracy-forward-foundation-v-office-of-management-and-budget/",
-      "summary": "OMB filed its answer to Democracy Forward's complaint. OMB admitted that it had received Democracy Forward's FOIA requests and acknowledged their receipt, but denied that Plaintiff is entitled to relief. Among its defenses, OMB requests that the complaint be dismissed to the extent Democracy Forward failed to reasonably describe the records it requested and failed to exhaust administrative remedies prior to filing.",
-      "why_relevant": "This litigation update changes the posture of an active legal challenge to Trump administration action.",
-      "jurisdiction": "",
-      "federal_nexus": "",
-      "confidence": "",
-      "basis": "",
-      "actor": "",
-      "action": "",
-      "act_key": "",
-      "attacks": [],
-      "source_meta": {
-        "headline": null,
-        "published_on": null,
-        "byline": null,
-        "outlet": null,
-        "accessed_on": null,
-        "snapshot_url": null,
-        "durable_keys": {
-          "courtlistener_docket_id": "69690683"
-        }
-      },
-      "_origin_file": "justsecurity_events_2025-04-05_2025-07-25.json",
-      "_origin_index": 1087
+      "_origin_file": "justsecurity_events_2025-03-15_2025-06-27.json",
+      "_origin_index": 349
     },
     {
       "source_key": "guardian",
@@ -1042,6 +1082,37 @@
       "_origin_index": 1094
     },
     {
+      "source_key": "whitehouse",
+      "date": "2025-04-13",
+      "occurred_on": "2025-04-13",
+      "reported_on": "2025-04-13",
+      "dated_by": "occurred",
+      "category": "Information & Media Control",
+      "title": "SUNDAY SHOWS: President Trump’s America First Trade Policies in Action",
+      "url": "https://www.whitehouse.gov/releases/2025/04/sunday-shows-president-trumps-america-first-trade-policies-in-action/",
+      "summary": "",
+      "why_relevant": "",
+      "jurisdiction": "federal",
+      "federal_nexus": "Official White House channel; documents the act of publication only.",
+      "confidence": "high",
+      "basis": "official_actor_record",
+      "actor": "The White House",
+      "action": "published a release titled \"SUNDAY SHOWS: President Trump’s America First Trade Policies in Action\"",
+      "act_key": "white house|published a release titled sunday shows president trump s america first trade policies in action|2025-04-13",
+      "attacks": [],
+      "source_meta": {
+        "headline": null,
+        "published_on": null,
+        "byline": null,
+        "outlet": null,
+        "accessed_on": null,
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "whitehouse_events_2025-01-20_2026-08-14.json",
+      "_origin_index": 1391
+    },
+    {
       "source_key": "zeteo",
       "date": "2025-04-13",
       "occurred_on": "2025-04-13",
@@ -1142,6 +1213,72 @@
       },
       "_origin_file": "guardian_events_2025-04-05_2025-07-25.json",
       "_origin_index": 1573
+    },
+    {
+      "source_key": "hcr",
+      "date": "2025-04-13",
+      "occurred_on": "",
+      "reported_on": "2025-04-13",
+      "dated_by": "reported",
+      "category": "Economic & Regulatory Power",
+      "title": "Trump announced 10% tariff on all imports",
+      "url": "https://apnews.com/article/tariffs-trump-greer-trade-38a91d4dbec9ac01a85aa54539b6c696",
+      "summary": "On April 2, President Trump announced a 10% tariff on all imports to the United States, with higher rates on countries he accused of unfair trade practices. This announcement led to a significant drop in the stock market and raised concerns about inflation and recession among economists.",
+      "why_relevant": "The tariffs have potential implications for the U.S. economy and international trade relations, affecting consumers and businesses alike.",
+      "jurisdiction": "",
+      "federal_nexus": "",
+      "confidence": "",
+      "basis": "",
+      "actor": "",
+      "action": "",
+      "act_key": "",
+      "attacks": [
+        "economy"
+      ],
+      "source_meta": {
+        "headline": null,
+        "published_on": null,
+        "byline": null,
+        "outlet": null,
+        "accessed_on": null,
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "hcr_events_2025-03-29_2025-05-09.json",
+      "_origin_index": 122
+    },
+    {
+      "source_key": "hcr",
+      "date": "2025-04-13",
+      "occurred_on": "",
+      "reported_on": "2025-04-13",
+      "dated_by": "reported",
+      "category": "Economic & Regulatory Power",
+      "title": "Trump paused most tariffs for 90 days",
+      "url": "https://www.nytimes.com/2025/04/09/business/economy/bonds-tariffs-safe-haven.html",
+      "summary": "On April 9, President Trump announced a pause on most of the highest tariffs for 90 days, while simultaneously raising tariffs on goods from China to 125%. This decision caused a significant spike in stock prices, but also raised questions about the administration's trade strategy.",
+      "why_relevant": "The abrupt changes in tariff policy reflect instability in economic governance and have direct consequences for U.S. businesses and consumers.",
+      "jurisdiction": "",
+      "federal_nexus": "",
+      "confidence": "",
+      "basis": "",
+      "actor": "",
+      "action": "",
+      "act_key": "",
+      "attacks": [
+        "economy"
+      ],
+      "source_meta": {
+        "headline": null,
+        "published_on": null,
+        "byline": null,
+        "outlet": null,
+        "accessed_on": null,
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "hcr_events_2025-03-29_2025-05-09.json",
+      "_origin_index": 123
     },
     {
       "source_key": "meidas",
@@ -1596,6 +1733,40 @@
       "reported_on": "2025-04-14",
       "dated_by": "reported",
       "category": "Executive Actions & Orders",
+      "title": "Administration claims foreign affairs immunity in Abrego Garcia case",
+      "url": "https://storage.courtlistener.com/recap/gov.uscourts.mdd.578815/gov.uscourts.mdd.578815.65.0.pdf",
+      "summary": "In a court hearing, administration lawyers argued that any attempt to return Kilmar Abrego Garcia from El Salvador would intrude on the president's power to conduct foreign affairs. They suggested that the president is only required to remove domestic obstacles to his return, citing ongoing diplomatic relations with El Salvador.",
+      "why_relevant": "This argument raises concerns about the separation of powers and the extent of executive authority in immigration and foreign policy matters.",
+      "jurisdiction": "",
+      "federal_nexus": "",
+      "confidence": "",
+      "basis": "",
+      "actor": "",
+      "action": "",
+      "act_key": "",
+      "attacks": [
+        "separation_of_powers",
+        "rule_of_law"
+      ],
+      "source_meta": {
+        "headline": null,
+        "published_on": null,
+        "byline": null,
+        "outlet": null,
+        "accessed_on": null,
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "hcr_events_2025-03-29_2025-05-09.json",
+      "_origin_index": 120
+    },
+    {
+      "source_key": "hcr",
+      "date": "2025-04-14",
+      "occurred_on": "",
+      "reported_on": "2025-04-14",
+      "dated_by": "reported",
+      "category": "Executive Actions & Orders",
       "title": "Erik Prince pitches plan to expand renditions to El Salvador",
       "url": "https://heathercoxrichardson.substack.com/p/april-13-2025",
       "summary": "According to reporting by Dasha Burns and Myah Ward of Politico on April 11, 2025, former Blackwater CEO Erik Prince is pitching a plan to expand renditions to El Salvador to include at least 100,000 criminal offenders from U.S. prisons. To avoid legal challenges, Prince's plan proposes making part of CECOT American territory and then leasing it back to El Salvador to operate, thereby potentially circumventing U.S. constitutional protections and judicial oversight.",
@@ -1869,6 +2040,40 @@
     {
       "source_key": "hcr",
       "date": "2025-04-14",
+      "occurred_on": "",
+      "reported_on": "2025-04-14",
+      "dated_by": "reported",
+      "category": "Judicial Developments",
+      "title": "DOJ argues against returning Kilmar Abrego Garcia",
+      "url": "https://storage.courtlistener.com/recap/gov.uscourts.mdd.578815/gov.uscourts.mdd.578815.31.0.pdf",
+      "summary": "Lawyers for the Department of Justice informed a federal court that the administration does not believe it is legally obligated to return Kilmar Abrego Garcia to the U.S., despite a court order mandating his return. Abrego Garcia, who was removed to El Salvador, has been detained under questionable circumstances, and the government has cited an \"administrative error\" for his removal while also alleging gang affiliation without evidence. The Supreme Court had previously ordered the administration to facilitate his release from custody in El Salvador.",
+      "why_relevant": "This case raises significant concerns about due process and the government's authority to remove individuals to foreign prisons without legal justification.",
+      "jurisdiction": "",
+      "federal_nexus": "",
+      "confidence": "",
+      "basis": "",
+      "actor": "",
+      "action": "",
+      "act_key": "",
+      "attacks": [
+        "due_process",
+        "rule_of_law"
+      ],
+      "source_meta": {
+        "headline": null,
+        "published_on": null,
+        "byline": null,
+        "outlet": null,
+        "accessed_on": null,
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "hcr_events_2025-03-29_2025-05-09.json",
+      "_origin_index": 118
+    },
+    {
+      "source_key": "hcr",
+      "date": "2025-04-14",
       "occurred_on": "2025-04-14",
       "reported_on": "2025-04-15",
       "dated_by": "occurred",
@@ -1896,6 +2101,40 @@
       },
       "_origin_file": "hcr_events_2025-04-05_2025-07-25.json",
       "_origin_index": 781
+    },
+    {
+      "source_key": "hcr",
+      "date": "2025-04-14",
+      "occurred_on": "",
+      "reported_on": "2025-04-14",
+      "dated_by": "reported",
+      "category": "Judicial Developments",
+      "title": "Supreme Court orders return of Kilmar Abrego Garcia",
+      "url": "https://storage.courtlistener.com/recap/gov.uscourts.mdd.578815/gov.uscourts.mdd.578815.64.0.pdf",
+      "summary": "The Supreme Court issued a unanimous 9-0 decision requiring the Trump administration to facilitate the return of Kilmar Abrego Garcia from El Salvador, where he was detained. The Court emphasized the need for the government to clarify its actions regarding his return and to respect the jurisdiction of U.S. law in this matter.",
+      "why_relevant": "The ruling underscores the importance of judicial oversight in immigration matters and the necessity of adhering to legal processes in the treatment of individuals facing deportation.",
+      "jurisdiction": "",
+      "federal_nexus": "",
+      "confidence": "",
+      "basis": "",
+      "actor": "",
+      "action": "",
+      "act_key": "",
+      "attacks": [
+        "due_process",
+        "rule_of_law"
+      ],
+      "source_meta": {
+        "headline": null,
+        "published_on": null,
+        "byline": null,
+        "outlet": null,
+        "accessed_on": null,
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "hcr_events_2025-03-29_2025-05-09.json",
+      "_origin_index": 119
     },
     {
       "source_key": "hcr",
@@ -2029,8 +2268,8 @@
           "courtlistener_docket_id": "69780645"
         }
       },
-      "_origin_file": "justsecurity_events_2025-04-05_2025-07-25.json",
-      "_origin_index": 629
+      "_origin_file": "justsecurity_events_2025-03-15_2025-06-27.json",
+      "_origin_index": 687
     },
     {
       "source_key": "justsecurity",
@@ -2128,8 +2367,8 @@
           "courtlistener_docket_id": "69752936"
         }
       },
-      "_origin_file": "justsecurity_events_2025-04-05_2025-07-25.json",
-      "_origin_index": 318
+      "_origin_file": "justsecurity_events_2025-03-15_2025-06-27.json",
+      "_origin_index": 350
     },
     {
       "source_key": "justsecurity",
@@ -2194,8 +2433,8 @@
           "courtlistener_docket_id": "69844582"
         }
       },
-      "_origin_file": "justsecurity_events_2025-04-05_2025-07-25.json",
-      "_origin_index": 971
+      "_origin_file": "justsecurity_events_2025-03-15_2025-06-27.json",
+      "_origin_index": 1059
     },
     {
       "source_key": "justsecurity",
@@ -2227,41 +2466,8 @@
           "courtlistener_docket_id": "69695790"
         }
       },
-      "_origin_file": "justsecurity_events_2025-04-05_2025-07-25.json",
-      "_origin_index": 657
-    },
-    {
-      "source_key": "justsecurity",
-      "date": "2025-04-14",
-      "occurred_on": "",
-      "reported_on": "2025-04-14",
-      "dated_by": "reported",
-      "category": "Judicial Developments",
-      "title": "Motion granted — National Council of Nonprofits v. Office of Management and Budget (D.D.C.) 1:25-cv-00239",
-      "url": "https://www.courtlistener.com/docket/69583571/national-council-of-nonprofits-v-office-of-management-and-budget/",
-      "summary": "Defendants filed an answer to the Plaintiffs' complaint, responding paragraph-by-paragraph to the Plaintiffs' allegations and claiming that the court lacks subject-matter jurisdiction over the claims, the Complaint fails to state a claim upon which relief can be granted, and the relief that Plaintiffs seek is barred by sovereign immunity and not available under the APA.",
-      "why_relevant": "This litigation update changes the posture of an active legal challenge to Trump administration action.",
-      "jurisdiction": "",
-      "federal_nexus": "",
-      "confidence": "",
-      "basis": "",
-      "actor": "",
-      "action": "",
-      "act_key": "",
-      "attacks": [],
-      "source_meta": {
-        "headline": null,
-        "published_on": null,
-        "byline": null,
-        "outlet": null,
-        "accessed_on": null,
-        "snapshot_url": null,
-        "durable_keys": {
-          "courtlistener_docket_id": "69583571"
-        }
-      },
-      "_origin_file": "justsecurity_events_2025-04-05_2025-07-25.json",
-      "_origin_index": 199
+      "_origin_file": "justsecurity_events_2025-03-15_2025-06-27.json",
+      "_origin_index": 717
     },
     {
       "source_key": "justsecurity",
@@ -2293,8 +2499,8 @@
           "courtlistener_docket_id": "69791808"
         }
       },
-      "_origin_file": "justsecurity_events_2025-04-05_2025-07-25.json",
-      "_origin_index": 346
+      "_origin_file": "justsecurity_events_2025-03-15_2025-06-27.json",
+      "_origin_index": 388
     },
     {
       "source_key": "justsecurity",
@@ -2425,8 +2631,8 @@
           "courtlistener_docket_id": "69675603"
         }
       },
-      "_origin_file": "justsecurity_events_2025-04-05_2025-07-25.json",
-      "_origin_index": 117
+      "_origin_file": "justsecurity_events_2025-03-15_2025-06-27.json",
+      "_origin_index": 142
     },
     {
       "source_key": "justsecurity",
@@ -2491,8 +2697,8 @@
           "courtlistener_docket_id": "69747050"
         }
       },
-      "_origin_file": "justsecurity_events_2025-04-05_2025-07-25.json",
-      "_origin_index": 137
+      "_origin_file": "justsecurity_events_2025-03-15_2025-06-27.json",
+      "_origin_index": 177
     },
     {
       "source_key": "justsecurity",
@@ -2524,8 +2730,8 @@
           "courtlistener_docket_id": "69729077"
         }
       },
-      "_origin_file": "justsecurity_events_2025-04-05_2025-07-25.json",
-      "_origin_index": 748
+      "_origin_file": "justsecurity_events_2025-03-15_2025-06-27.json",
+      "_origin_index": 806
     },
     {
       "source_key": "justsecurity",
@@ -2590,8 +2796,8 @@
           "courtlistener_docket_id": "69846584"
         }
       },
-      "_origin_file": "justsecurity_events_2025-04-05_2025-07-25.json",
-      "_origin_index": 336
+      "_origin_file": "justsecurity_events_2025-03-15_2025-06-27.json",
+      "_origin_index": 375
     },
     {
       "source_key": "justsecurity",
@@ -2656,8 +2862,8 @@
           "courtlistener_docket_id": "69753739"
         }
       },
-      "_origin_file": "justsecurity_events_2025-04-05_2025-07-25.json",
-      "_origin_index": 769
+      "_origin_file": "justsecurity_events_2025-03-15_2025-06-27.json",
+      "_origin_index": 827
     },
     {
       "source_key": "justsecurity",
@@ -3132,6 +3338,37 @@
       "_origin_index": 1566
     },
     {
+      "source_key": "guardian",
+      "date": "2025-04-14",
+      "occurred_on": "",
+      "reported_on": "2025-04-14",
+      "dated_by": "reported",
+      "category": "Law Enforcement & Surveillance",
+      "title": "US college students detained in Denmark after alleged Uber driver dispute",
+      "url": "https://www.theguardian.com/us-news/2025/ap/14/college-students-detained-denmark-uber",
+      "summary": "Two American college students were arrested in Copenhagen and charged with common assault following an altercation with an Uber driver. The incident occurred when they entered the wrong address on the app, leading to a dispute. They were detained at the airport while attempting to return to the US and have been held in a Danish prison, with their passports confiscated. The US State Department is providing consular assistance in the matter.",
+      "why_relevant": "The detention of US citizens abroad raises concerns about their rights and the treatment they receive under foreign legal systems.",
+      "jurisdiction": "",
+      "federal_nexus": "",
+      "confidence": "",
+      "basis": "",
+      "actor": "",
+      "action": "",
+      "act_key": "",
+      "attacks": [],
+      "source_meta": {
+        "headline": null,
+        "published_on": null,
+        "byline": null,
+        "outlet": null,
+        "accessed_on": null,
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "guardian_events_2025-03-29_2025-06-06.json",
+      "_origin_index": 510
+    },
+    {
       "source_key": "hcr",
       "date": "2025-04-14",
       "occurred_on": "2025-04-14",
@@ -3536,6 +3773,130 @@
       "_origin_index": 1089
     },
     {
+      "source_key": "whitehouse",
+      "date": "2025-04-14",
+      "occurred_on": "2025-04-14",
+      "reported_on": "2025-04-14",
+      "dated_by": "occurred",
+      "category": "Information & Media Control",
+      "title": "No Safe Harbor for Illegal Immigrant Criminals Under President Trump",
+      "url": "https://www.whitehouse.gov/releases/2025/04/no-safe-harbor-for-illegal-immigrant-criminals-under-president-trump/",
+      "summary": "",
+      "why_relevant": "",
+      "jurisdiction": "federal",
+      "federal_nexus": "Official White House channel; documents the act of publication only.",
+      "confidence": "high",
+      "basis": "official_actor_record",
+      "actor": "The White House",
+      "action": "published a release titled \"No Safe Harbor for Illegal Immigrant Criminals Under President Trump\"",
+      "act_key": "white house|published a release titled no safe harbor for illegal immigrant criminals under president trump|2025-04-14",
+      "attacks": [],
+      "source_meta": {
+        "headline": null,
+        "published_on": null,
+        "byline": null,
+        "outlet": null,
+        "accessed_on": null,
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "whitehouse_events_2025-01-20_2026-08-14.json",
+      "_origin_index": 1390
+    },
+    {
+      "source_key": "whitehouse",
+      "date": "2025-04-14",
+      "occurred_on": "2025-04-14",
+      "reported_on": "2025-04-14",
+      "dated_by": "occurred",
+      "category": "Information & Media Control",
+      "title": "Remarks by Director Kratsios at the Endless Frontiers Retreat",
+      "url": "https://www.whitehouse.gov/releases/2025/04/remarks-by-director-kratsios-at-the-endless-frontiers-retreat/",
+      "summary": "",
+      "why_relevant": "",
+      "jurisdiction": "federal",
+      "federal_nexus": "Official White House channel; documents the act of publication only.",
+      "confidence": "high",
+      "basis": "official_actor_record",
+      "actor": "The White House",
+      "action": "published a release titled \"Remarks by Director Kratsios at the Endless Frontiers Retreat\"",
+      "act_key": "white house|published a release titled remarks by director kratsios at the endless frontiers retreat|2025-04-14",
+      "attacks": [],
+      "source_meta": {
+        "headline": null,
+        "published_on": null,
+        "byline": null,
+        "outlet": null,
+        "accessed_on": null,
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "whitehouse_events_2025-01-20_2026-08-14.json",
+      "_origin_index": 1424
+    },
+    {
+      "source_key": "whitehouse",
+      "date": "2025-04-14",
+      "occurred_on": "2025-04-14",
+      "reported_on": "2025-04-14",
+      "dated_by": "occurred",
+      "category": "Information & Media Control",
+      "title": "The NPR, PBS Grift Has Ripped Us Off for Too Long",
+      "url": "https://www.whitehouse.gov/releases/2025/04/the-npr-pbs-grift-has-ripped-us-off-for-too-long/",
+      "summary": "",
+      "why_relevant": "",
+      "jurisdiction": "federal",
+      "federal_nexus": "Official White House channel; documents the act of publication only.",
+      "confidence": "high",
+      "basis": "official_actor_record",
+      "actor": "The White House",
+      "action": "published a release titled \"The NPR, PBS Grift Has Ripped Us Off for Too Long\"",
+      "act_key": "white house|published a release titled the npr pbs grift has ripped us off for too long|2025-04-14",
+      "attacks": [],
+      "source_meta": {
+        "headline": null,
+        "published_on": null,
+        "byline": null,
+        "outlet": null,
+        "accessed_on": null,
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "whitehouse_events_2025-01-20_2026-08-14.json",
+      "_origin_index": 1381
+    },
+    {
+      "source_key": "whitehouse",
+      "date": "2025-04-14",
+      "occurred_on": "2025-04-14",
+      "reported_on": "2025-04-14",
+      "dated_by": "occurred",
+      "category": "Information & Media Control",
+      "title": "TRUMP EFFECT: NVIDIA Leads American-Made Chips Boom",
+      "url": "https://www.whitehouse.gov/releases/2025/04/trump-effect-nvidia-leads-american-made-chips-boom/",
+      "summary": "",
+      "why_relevant": "",
+      "jurisdiction": "federal",
+      "federal_nexus": "Official White House channel; documents the act of publication only.",
+      "confidence": "high",
+      "basis": "official_actor_record",
+      "actor": "The White House",
+      "action": "published a release titled \"TRUMP EFFECT: NVIDIA Leads American-Made Chips Boom\"",
+      "act_key": "white house|published a release titled trump effect nvidia leads american made chips boom|2025-04-14",
+      "attacks": [],
+      "source_meta": {
+        "headline": null,
+        "published_on": null,
+        "byline": null,
+        "outlet": null,
+        "accessed_on": null,
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "whitehouse_events_2025-01-20_2026-08-14.json",
+      "_origin_index": 1382
+    },
+    {
       "source_key": "zeteo",
       "date": "2025-04-14",
       "occurred_on": "2025-04-14",
@@ -3739,6 +4100,39 @@
       },
       "_origin_file": "zeteo_events_2025-04-05_2025-07-25.json",
       "_origin_index": 615
+    },
+    {
+      "source_key": "federalregister",
+      "date": "2025-04-14",
+      "occurred_on": "",
+      "reported_on": "2025-04-14",
+      "dated_by": "reported",
+      "category": "Economic & Regulatory Power",
+      "title": "Census Bureau Cancels 2026 Government Units Survey",
+      "url": "https://www.federalregister.gov/documents/2025/04/14/2025-06303/agency-information-collection-activities-submission-to-the-office-of-management-and-budget-omb-for",
+      "summary": "The Census Bureau announced the cancellation of the 2026 Government Units Survey, initially planned to identify and classify active governments. The decision follows the adoption of alternative data collection methods, such as reviewing legislation and direct agreements with states, which are deemed reliable and reduce the burden on local governments.",
+      "why_relevant": "The cancellation reflects a shift in data collection strategy, impacting how government units are identified and classified, which is crucial for accurate governance data.",
+      "jurisdiction": "",
+      "federal_nexus": "",
+      "confidence": "",
+      "basis": "",
+      "actor": "",
+      "action": "",
+      "act_key": "",
+      "attacks": [],
+      "source_meta": {
+        "headline": null,
+        "published_on": null,
+        "byline": null,
+        "outlet": null,
+        "accessed_on": null,
+        "snapshot_url": null,
+        "durable_keys": {
+          "federal_register_doc": "2025-06303"
+        }
+      },
+      "_origin_file": "federalregister_events_2025-03-29_2025-05-09.json",
+      "_origin_index": 44
     },
     {
       "source_key": "federalregister",
@@ -3975,6 +4369,37 @@
       },
       "_origin_file": "zeteo_events_2025-04-05_2025-07-25.json",
       "_origin_index": 633
+    },
+    {
+      "source_key": "defense",
+      "date": "2025-04-14",
+      "occurred_on": "2025-04-14",
+      "reported_on": "2025-04-14",
+      "dated_by": "occurred",
+      "category": "International Relations",
+      "title": "Readout of Secretary of Defense Pete Hegseth's Call With Lithuanian Minister of National Defense, Dovilė Šakalienė",
+      "url": "https://www.war.gov/News/Releases/Release/Article/4153861/readout-of-secretary-of-defense-pete-hegseths-call-with-lithuanian-minister-of/",
+      "summary": "",
+      "why_relevant": "",
+      "jurisdiction": "federal",
+      "federal_nexus": "Official Department of War channel; documents the act of publication only.",
+      "confidence": "high",
+      "basis": "official_actor_record",
+      "actor": "The Department of War",
+      "action": "issued a press release titled \"Readout of Secretary of Defense Pete Hegseth's Call With Lithuanian Minister of National Defense, Dovilė Šakalienė\"",
+      "act_key": "department war|issued a press release titled readout of secretary of defense pete hegseth s call with lithuanian minister of national defense dovil akalien|2025-04-14",
+      "attacks": [],
+      "source_meta": {
+        "headline": null,
+        "published_on": null,
+        "byline": null,
+        "outlet": null,
+        "accessed_on": null,
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "defense_events_2025-01-20_2026-08-14.json",
+      "_origin_index": 326
     },
     {
       "source_key": "hcr",
@@ -4564,6 +4989,192 @@
       "_origin_index": 76
     },
     {
+      "source_key": "whitehouse",
+      "date": "2025-04-15",
+      "occurred_on": "2025-04-15",
+      "reported_on": "2025-04-15",
+      "dated_by": "occurred",
+      "category": "Executive Actions & Orders",
+      "title": "Ensuring National Security and Economic Resilience Through Section 232 Actions on Processed Critical Minerals and Derivative Products",
+      "url": "https://www.whitehouse.gov/presidential-actions/2025/04/ensuring-national-security-and-economic-resilience-through-section-232-actions-on-processed-critical-minerals-and-derivative-products/",
+      "summary": "",
+      "why_relevant": "",
+      "jurisdiction": "federal",
+      "federal_nexus": "Official White House channel; documents the act of publication only.",
+      "confidence": "high",
+      "basis": "official_actor_record",
+      "actor": "The White House",
+      "action": "announced an executive order titled \"Ensuring National Security and Economic Resilience Through Section 232 Actions on Processed Critical Minerals and Derivative Products\"",
+      "act_key": "white house|announced an executive order titled ensuring national security and economic resilience through section 232 actions on processed critical minerals and derivative products|2025-04-15",
+      "attacks": [],
+      "source_meta": {
+        "headline": null,
+        "published_on": null,
+        "byline": null,
+        "outlet": null,
+        "accessed_on": null,
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "whitehouse_events_2025-01-20_2026-08-14.json",
+      "_origin_index": 879
+    },
+    {
+      "source_key": "whitehouse",
+      "date": "2025-04-15",
+      "occurred_on": "2025-04-15",
+      "reported_on": "2025-04-15",
+      "dated_by": "occurred",
+      "category": "Executive Actions & Orders",
+      "title": "Lowering Drug Prices by Once Again Putting Americans First",
+      "url": "https://www.whitehouse.gov/presidential-actions/2025/04/lowering-drug-prices-by-once-again-putting-americans-first/",
+      "summary": "",
+      "why_relevant": "",
+      "jurisdiction": "federal",
+      "federal_nexus": "Official White House channel; documents the act of publication only.",
+      "confidence": "high",
+      "basis": "official_actor_record",
+      "actor": "The White House",
+      "action": "announced an executive order titled \"Lowering Drug Prices by Once Again Putting Americans First\"",
+      "act_key": "white house|announced an executive order titled lowering drug prices by once again putting americans first|2025-04-15",
+      "attacks": [],
+      "source_meta": {
+        "headline": null,
+        "published_on": null,
+        "byline": null,
+        "outlet": null,
+        "accessed_on": null,
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "whitehouse_events_2025-01-20_2026-08-14.json",
+      "_origin_index": 880
+    },
+    {
+      "source_key": "whitehouse",
+      "date": "2025-04-15",
+      "occurred_on": "2025-04-15",
+      "reported_on": "2025-04-15",
+      "dated_by": "occurred",
+      "category": "Executive Actions & Orders",
+      "title": "Preventing Illegal Aliens from Obtaining Social Security Act Benefits",
+      "url": "https://www.whitehouse.gov/presidential-actions/2025/04/preventing-illegal-aliens-from-obtaining-social-security-act-benefits/",
+      "summary": "",
+      "why_relevant": "",
+      "jurisdiction": "federal",
+      "federal_nexus": "Official White House channel; documents the act of publication only.",
+      "confidence": "high",
+      "basis": "official_actor_record",
+      "actor": "The White House",
+      "action": "announced a presidential memorandum titled \"Preventing Illegal Aliens from Obtaining Social Security Act Benefits\"",
+      "act_key": "white house|announced a presidential memorandum titled preventing illegal aliens from obtaining social security act benefits|2025-04-15",
+      "attacks": [],
+      "source_meta": {
+        "headline": null,
+        "published_on": null,
+        "byline": null,
+        "outlet": null,
+        "accessed_on": null,
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "whitehouse_events_2025-01-20_2026-08-14.json",
+      "_origin_index": 1130
+    },
+    {
+      "source_key": "whitehouse",
+      "date": "2025-04-15",
+      "occurred_on": "2025-04-15",
+      "reported_on": "2025-04-15",
+      "dated_by": "occurred",
+      "category": "Executive Actions & Orders",
+      "title": "Restoring Common Sense to Federal Office Space Management",
+      "url": "https://www.whitehouse.gov/presidential-actions/2025/04/restoring-common-sense-to-federal-office-space-management/",
+      "summary": "",
+      "why_relevant": "",
+      "jurisdiction": "federal",
+      "federal_nexus": "Official White House channel; documents the act of publication only.",
+      "confidence": "high",
+      "basis": "official_actor_record",
+      "actor": "The White House",
+      "action": "announced an executive order titled \"Restoring Common Sense to Federal Office Space Management\"",
+      "act_key": "white house|announced an executive order titled restoring common sense to federal office space management|2025-04-15",
+      "attacks": [],
+      "source_meta": {
+        "headline": null,
+        "published_on": null,
+        "byline": null,
+        "outlet": null,
+        "accessed_on": null,
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "whitehouse_events_2025-01-20_2026-08-14.json",
+      "_origin_index": 878
+    },
+    {
+      "source_key": "whitehouse",
+      "date": "2025-04-15",
+      "occurred_on": "2025-04-15",
+      "reported_on": "2025-04-15",
+      "dated_by": "occurred",
+      "category": "Executive Actions & Orders",
+      "title": "Restoring Common Sense to Federal Procurement",
+      "url": "https://www.whitehouse.gov/presidential-actions/2025/04/restoring-common-sense-to-federal-procurement/",
+      "summary": "",
+      "why_relevant": "",
+      "jurisdiction": "federal",
+      "federal_nexus": "Official White House channel; documents the act of publication only.",
+      "confidence": "high",
+      "basis": "official_actor_record",
+      "actor": "The White House",
+      "action": "announced an executive order titled \"Restoring Common Sense to Federal Procurement\"",
+      "act_key": "white house|announced an executive order titled restoring common sense to federal procurement|2025-04-15",
+      "attacks": [],
+      "source_meta": {
+        "headline": null,
+        "published_on": null,
+        "byline": null,
+        "outlet": null,
+        "accessed_on": null,
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "whitehouse_events_2025-01-20_2026-08-14.json",
+      "_origin_index": 881
+    },
+    {
+      "source_key": "whitehouse",
+      "date": "2025-04-15",
+      "occurred_on": "2025-04-15",
+      "reported_on": "2025-04-15",
+      "dated_by": "occurred",
+      "category": "Executive Actions & Orders",
+      "title": "Updating Permitting Technology for the 21st Century",
+      "url": "https://www.whitehouse.gov/presidential-actions/2025/04/updating-permitting-technology-for-the-21st-century/",
+      "summary": "",
+      "why_relevant": "",
+      "jurisdiction": "federal",
+      "federal_nexus": "Official White House channel; documents the act of publication only.",
+      "confidence": "high",
+      "basis": "official_actor_record",
+      "actor": "The White House",
+      "action": "announced a presidential action titled \"Updating Permitting Technology for the 21st Century\"",
+      "act_key": "white house|announced a presidential action titled updating permitting technology for the 21st century|2025-04-15",
+      "attacks": [],
+      "source_meta": {
+        "headline": null,
+        "published_on": null,
+        "byline": null,
+        "outlet": null,
+        "accessed_on": null,
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "whitehouse_events_2025-01-20_2026-08-14.json",
+      "_origin_index": 1386
+    },
+    {
       "source_key": "zeteo",
       "date": "2025-04-15",
       "occurred_on": "2025-04-15",
@@ -4970,6 +5581,40 @@
     {
       "source_key": "guardian",
       "date": "2025-04-15",
+      "occurred_on": "",
+      "reported_on": "2025-04-15",
+      "dated_by": "reported",
+      "category": "Judicial Developments",
+      "title": "LA County Announces $4 Billion Settlement in Sex Abuse Case",
+      "url": "https://www.theguardian.com/us-news/2025/apr/15/budget-los-angeles-california-county",
+      "summary": "Los Angeles County has announced a $4 billion settlement to resolve thousands of claims of sexual abuse in juvenile facilities, with cases dating back to 1959. This settlement is the largest of its kind in U.S. history and will have long-term financial implications for the county, with payments expected to continue through 2051. The settlement is part of a broader financial strain on the county, which is also dealing with nearly $2 billion in costs from recent wildfires and potential federal funding cuts.",
+      "why_relevant": "The settlement represents a significant legal and financial development, impacting the county's budget and highlighting systemic issues in juvenile facilities.",
+      "jurisdiction": "",
+      "federal_nexus": "",
+      "confidence": "",
+      "basis": "",
+      "actor": "",
+      "action": "",
+      "act_key": "",
+      "attacks": [
+        "justice_dept",
+        "public_service"
+      ],
+      "source_meta": {
+        "headline": null,
+        "published_on": null,
+        "byline": null,
+        "outlet": null,
+        "accessed_on": null,
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "guardian_events_2025-01-20_2025-11-30.json",
+      "_origin_index": 2420
+    },
+    {
+      "source_key": "guardian",
+      "date": "2025-04-15",
       "occurred_on": "2025-04-15",
       "reported_on": "2025-04-15",
       "dated_by": "occurred",
@@ -5038,6 +5683,37 @@
       "_origin_index": 765
     },
     {
+      "source_key": "justice",
+      "date": "2025-04-15",
+      "occurred_on": "2025-04-15",
+      "reported_on": "2025-04-15",
+      "dated_by": "occurred",
+      "category": "Judicial Developments",
+      "title": "Panamanian Doctor Pleads Guilty in Criminal Fraud Case Expected to Save U.S. Government $25M",
+      "url": "https://www.justice.gov/opa/pr/panamanian-doctor-pleads-guilty-criminal-fraud-case-expected-save-us-government-25m",
+      "summary": "",
+      "why_relevant": "",
+      "jurisdiction": "federal",
+      "federal_nexus": "Official DOJ channel; documents the act of announcement only.",
+      "confidence": "high",
+      "basis": "official_actor_record",
+      "actor": "The Department of Justice",
+      "action": "announced \"Panamanian Doctor Pleads Guilty in Criminal Fraud Case Expected to Save U.S. Government $25M\"",
+      "act_key": "department|announced panamanian doctor pleads guilty in criminal fraud case expected to save u s government 25m|2025-04-15",
+      "attacks": [],
+      "source_meta": {
+        "headline": null,
+        "published_on": null,
+        "byline": null,
+        "outlet": null,
+        "accessed_on": null,
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "justice_events_2025-01-20_2026-08-14.json",
+      "_origin_index": 58
+    },
+    {
       "source_key": "justsecurity",
       "date": "2025-04-15",
       "occurred_on": "",
@@ -5046,7 +5722,7 @@
       "category": "Judicial Developments",
       "title": "Appeal filed — CREW v. DOGE (D.D.C.) 1:25-cv-00511",
       "url": "https://www.courtlistener.com/docket/69658871/citizens-for-responsibility-and-ethics-in-washington-v-us-doge-service/",
-      "summary": "Judge Cooper granted in part and denied in part CREW's motion for expedited discovery and determined that CREW is entitled to limited discovery. Judge Cooper ordered USDS to serve responses and objections to CREW within seven days, produce all responsive documents within fourteen days, and complete all depositions within twenty four days. That same day, the Defendants appealed to the D.C. Circuit requesting a mandamus order to halt Judge Cooper's April 15 discovery order (Case No. 25-5130 ).",
+      "summary": "Judge Cooper granted in part and denied in part CREW's motion for expedited discovery and determined that CREW is entitled to limited discovery. Judge Cooper ordered USDS to serve responses and objections to CREW within seven days, produce all responsive documents within fourteen days, and complete all depositions within twenty four days. That same day, the Defendants appealed to the D.C. Circuit requesting a mandamus order to halt Judge Cooper's April 15 discovery order.",
       "why_relevant": "This litigation update changes the posture of an active legal challenge to Trump administration action.",
       "jurisdiction": "",
       "federal_nexus": "",
@@ -5067,8 +5743,8 @@
           "courtlistener_docket_id": "69658871"
         }
       },
-      "_origin_file": "justsecurity_events_2025-04-05_2025-07-25.json",
-      "_origin_index": 1069
+      "_origin_file": "justsecurity_events_2025-03-15_2025-06-27.json",
+      "_origin_index": 1160
     },
     {
       "source_key": "justsecurity",
@@ -5100,8 +5776,8 @@
           "courtlistener_docket_id": "69835979"
         }
       },
-      "_origin_file": "justsecurity_events_2025-04-05_2025-07-25.json",
-      "_origin_index": 844
+      "_origin_file": "justsecurity_events_2025-03-15_2025-06-27.json",
+      "_origin_index": 909
     },
     {
       "source_key": "justsecurity",
@@ -5199,8 +5875,8 @@
           "courtlistener_docket_id": "69718818"
         }
       },
-      "_origin_file": "justsecurity_events_2025-04-05_2025-07-25.json",
-      "_origin_index": 245
+      "_origin_file": "justsecurity_events_2025-03-15_2025-06-27.json",
+      "_origin_index": 288
     },
     {
       "source_key": "justsecurity",
@@ -5232,8 +5908,8 @@
           "courtlistener_docket_id": "69777799"
         }
       },
-      "_origin_file": "justsecurity_events_2025-04-05_2025-07-25.json",
-      "_origin_index": 712
+      "_origin_file": "justsecurity_events_2025-03-15_2025-06-27.json",
+      "_origin_index": 778
     },
     {
       "source_key": "justsecurity",
@@ -5265,8 +5941,8 @@
           "courtlistener_docket_id": "69755722"
         }
       },
-      "_origin_file": "justsecurity_events_2025-04-05_2025-07-25.json",
-      "_origin_index": 611
+      "_origin_file": "justsecurity_events_2025-03-15_2025-06-27.json",
+      "_origin_index": 668
     },
     {
       "source_key": "justsecurity",
@@ -5298,41 +5974,8 @@
           "courtlistener_docket_id": "69718818"
         }
       },
-      "_origin_file": "justsecurity_events_2025-04-05_2025-07-25.json",
-      "_origin_index": 244
-    },
-    {
-      "source_key": "justsecurity",
-      "date": "2025-04-15",
-      "occurred_on": "",
-      "reported_on": "2025-04-15",
-      "dated_by": "reported",
-      "category": "Judicial Developments",
-      "title": "Preliminary injunction ruling — United States Conference of Catholic Bishops v. Department of State et al. (D.D.C.) 1:25-cv-00465",
-      "url": "https://www.courtlistener.com/docket/69649820/united-states-conference-of-catholic-bishops-v-united-states-department-of/",
-      "summary": "The government filed in opposition to the motion for a preliminary injunction and the following day, on March 6, Plaintiffs filed a reply .",
-      "why_relevant": "This litigation update changes the posture of an active legal challenge to Trump administration action.",
-      "jurisdiction": "",
-      "federal_nexus": "",
-      "confidence": "",
-      "basis": "",
-      "actor": "",
-      "action": "",
-      "act_key": "",
-      "attacks": [],
-      "source_meta": {
-        "headline": null,
-        "published_on": null,
-        "byline": null,
-        "outlet": null,
-        "accessed_on": null,
-        "snapshot_url": null,
-        "durable_keys": {
-          "courtlistener_docket_id": "69649820"
-        }
-      },
-      "_origin_file": "justsecurity_events_2025-04-05_2025-07-25.json",
-      "_origin_index": 728
+      "_origin_file": "justsecurity_events_2025-03-15_2025-06-27.json",
+      "_origin_index": 287
     },
     {
       "source_key": "justsecurity",
@@ -5364,8 +6007,8 @@
           "courtlistener_docket_id": "69736976"
         }
       },
-      "_origin_file": "justsecurity_events_2025-04-05_2025-07-25.json",
-      "_origin_index": 389
+      "_origin_file": "justsecurity_events_2025-03-15_2025-06-27.json",
+      "_origin_index": 432
     },
     {
       "source_key": "justsecurity",
@@ -5397,8 +6040,8 @@
           "courtlistener_docket_id": "69718818"
         }
       },
-      "_origin_file": "justsecurity_events_2025-04-05_2025-07-25.json",
-      "_origin_index": 246
+      "_origin_file": "justsecurity_events_2025-03-15_2025-06-27.json",
+      "_origin_index": 289
     },
     {
       "source_key": "justsecurity",
@@ -5690,6 +6333,37 @@
       },
       "_origin_file": "hcr_events_2025-04-05_2025-07-25.json",
       "_origin_index": 734
+    },
+    {
+      "source_key": "hcr",
+      "date": "2025-04-15",
+      "occurred_on": "",
+      "reported_on": "2025-04-15",
+      "dated_by": "reported",
+      "category": "Law Enforcement & Surveillance",
+      "title": "Judge Denies Bail for Arson Suspect in Attack on Governor's Residence",
+      "url": "https://www.cnn.com/2025/04/14/us/pennsylvania-governor-arson-what-we-know-hnk/index.html",
+      "summary": "On April 14, 2025, Dauphin County Magisterial District Judge Dale Klein denied bail for Cody Balmer, who was charged with arson for setting fire to the residence of Pennsylvania Governor Josh Shapiro. The attack occurred shortly after a Passover meal, endangering the lives of the governor's family and guests. Balmer, who has a history of violence and mental health issues, expressed hatred for the governor, prompting concerns about public safety.",
+      "why_relevant": "This incident underscores the rising threat of politically motivated violence and the challenges faced by public officials in ensuring safety and security.",
+      "jurisdiction": "",
+      "federal_nexus": "",
+      "confidence": "",
+      "basis": "",
+      "actor": "",
+      "action": "",
+      "act_key": "",
+      "attacks": [],
+      "source_meta": {
+        "headline": null,
+        "published_on": null,
+        "byline": null,
+        "outlet": null,
+        "accessed_on": null,
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "hcr_events_2025-03-29_2025-05-09.json",
+      "_origin_index": 117
     },
     {
       "source_key": "meidas",
@@ -6520,6 +7194,316 @@
       "_origin_index": 239
     },
     {
+      "source_key": "whitehouse",
+      "date": "2025-04-15",
+      "occurred_on": "2025-04-15",
+      "reported_on": "2025-04-15",
+      "dated_by": "occurred",
+      "category": "Information & Media Control",
+      "title": "Fact Sheet: President Donald J. Trump Announces Actions to Lower Prescription Drug Prices",
+      "url": "https://www.whitehouse.gov/fact-sheets/2025/04/fact-sheet-president-donald-j-trump-announces-actions-to-lower-prescription-drug-prices/",
+      "summary": "",
+      "why_relevant": "",
+      "jurisdiction": "federal",
+      "federal_nexus": "Official White House channel; documents the act of publication only.",
+      "confidence": "high",
+      "basis": "official_actor_record",
+      "actor": "The White House",
+      "action": "issued a fact sheet titled \"Fact Sheet: President Donald J. Trump Announces Actions to Lower Prescription Drug Prices\"",
+      "act_key": "white house|issued a fact sheet titled fact sheet president donald j trump announces actions to lower prescription drug prices|2025-04-15",
+      "attacks": [],
+      "source_meta": {
+        "headline": null,
+        "published_on": null,
+        "byline": null,
+        "outlet": null,
+        "accessed_on": null,
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "whitehouse_events_2025-01-20_2026-08-14.json",
+      "_origin_index": 624
+    },
+    {
+      "source_key": "whitehouse",
+      "date": "2025-04-15",
+      "occurred_on": "2025-04-15",
+      "reported_on": "2025-04-15",
+      "dated_by": "occurred",
+      "category": "Information & Media Control",
+      "title": "Fact Sheet: President Donald J. Trump Cuts Costs, Brings Government to the People",
+      "url": "https://www.whitehouse.gov/fact-sheets/2025/04/fact-sheet-president-donald-j-trump-cuts-costs-brings-government-to-the-people/",
+      "summary": "",
+      "why_relevant": "",
+      "jurisdiction": "federal",
+      "federal_nexus": "Official White House channel; documents the act of publication only.",
+      "confidence": "high",
+      "basis": "official_actor_record",
+      "actor": "The White House",
+      "action": "issued a fact sheet titled \"Fact Sheet: President Donald J. Trump Cuts Costs, Brings Government to the People\"",
+      "act_key": "white house|issued a fact sheet titled fact sheet president donald j trump cuts costs brings government to the people|2025-04-15",
+      "attacks": [],
+      "source_meta": {
+        "headline": null,
+        "published_on": null,
+        "byline": null,
+        "outlet": null,
+        "accessed_on": null,
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "whitehouse_events_2025-01-20_2026-08-14.json",
+      "_origin_index": 629
+    },
+    {
+      "source_key": "whitehouse",
+      "date": "2025-04-15",
+      "occurred_on": "2025-04-15",
+      "reported_on": "2025-04-15",
+      "dated_by": "occurred",
+      "category": "Information & Media Control",
+      "title": "Fact Sheet: President Donald J. Trump Enforces Requirement of Cost-Effective Commercial Solutions in Federal Contracts",
+      "url": "https://www.whitehouse.gov/fact-sheets/2025/04/fact-sheet-president-donald-j-trump-enforces-requirement-of-cost-effective-commercial-solutions-in-federal-contracts/",
+      "summary": "",
+      "why_relevant": "",
+      "jurisdiction": "federal",
+      "federal_nexus": "Official White House channel; documents the act of publication only.",
+      "confidence": "high",
+      "basis": "official_actor_record",
+      "actor": "The White House",
+      "action": "issued a fact sheet titled \"Fact Sheet: President Donald J. Trump Enforces Requirement of Cost-Effective Commercial Solutions in Federal Contracts\"",
+      "act_key": "white house|issued a fact sheet titled fact sheet president donald j trump enforces requirement of cost effective commercial solutions in federal contracts|2025-04-15",
+      "attacks": [],
+      "source_meta": {
+        "headline": null,
+        "published_on": null,
+        "byline": null,
+        "outlet": null,
+        "accessed_on": null,
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "whitehouse_events_2025-01-20_2026-08-14.json",
+      "_origin_index": 626
+    },
+    {
+      "source_key": "whitehouse",
+      "date": "2025-04-15",
+      "occurred_on": "2025-04-15",
+      "reported_on": "2025-04-15",
+      "dated_by": "occurred",
+      "category": "Information & Media Control",
+      "title": "Fact Sheet: President Donald J. Trump Ensures National Security and Economic Resilience Through Section 232 Actions on Processed Critical Minerals and Derivative Products",
+      "url": "https://www.whitehouse.gov/fact-sheets/2025/04/fact-sheet-president-donald-j-trump-ensures-national-security-and-economic-resilience-through-section-232-actions-on-processed-critical-minerals-and-derivative-products/",
+      "summary": "",
+      "why_relevant": "",
+      "jurisdiction": "federal",
+      "federal_nexus": "Official White House channel; documents the act of publication only.",
+      "confidence": "high",
+      "basis": "official_actor_record",
+      "actor": "The White House",
+      "action": "issued a fact sheet titled \"Fact Sheet: President Donald J. Trump Ensures National Security and Economic Resilience Through Section 232 Actions on Processed Critical Minerals and Derivative Products\"",
+      "act_key": "white house|issued a fact sheet titled fact sheet president donald j trump ensures national security and economic resilience through section 232 actions on processed critical minerals and derivative products|2025-04-15",
+      "attacks": [],
+      "source_meta": {
+        "headline": null,
+        "published_on": null,
+        "byline": null,
+        "outlet": null,
+        "accessed_on": null,
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "whitehouse_events_2025-01-20_2026-08-14.json",
+      "_origin_index": 625
+    },
+    {
+      "source_key": "whitehouse",
+      "date": "2025-04-15",
+      "occurred_on": "2025-04-15",
+      "reported_on": "2025-04-15",
+      "dated_by": "occurred",
+      "category": "Information & Media Control",
+      "title": "Fact Sheet: President Donald J. Trump Prevents Illegal Aliens from Obtaining Social Security Act Benefits",
+      "url": "https://www.whitehouse.gov/fact-sheets/2025/04/fact-sheet-president-donald-j-trump-prevents-illegal-aliens-from-obtaining-social-security-act-benefits/",
+      "summary": "",
+      "why_relevant": "",
+      "jurisdiction": "federal",
+      "federal_nexus": "Official White House channel; documents the act of publication only.",
+      "confidence": "high",
+      "basis": "official_actor_record",
+      "actor": "The White House",
+      "action": "issued a fact sheet titled \"Fact Sheet: President Donald J. Trump Prevents Illegal Aliens from Obtaining Social Security Act Benefits\"",
+      "act_key": "white house|issued a fact sheet titled fact sheet president donald j trump prevents illegal aliens from obtaining social security act benefits|2025-04-15",
+      "attacks": [],
+      "source_meta": {
+        "headline": null,
+        "published_on": null,
+        "byline": null,
+        "outlet": null,
+        "accessed_on": null,
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "whitehouse_events_2025-01-20_2026-08-14.json",
+      "_origin_index": 628
+    },
+    {
+      "source_key": "whitehouse",
+      "date": "2025-04-15",
+      "occurred_on": "2025-04-15",
+      "reported_on": "2025-04-15",
+      "dated_by": "occurred",
+      "category": "Information & Media Control",
+      "title": "Fact Sheet: President Donald J. Trump Restores Common Sense to Federal Procurement",
+      "url": "https://www.whitehouse.gov/fact-sheets/2025/04/fact-sheet-president-donald-j-trump-restores-common-sense-to-federal-procurement/",
+      "summary": "",
+      "why_relevant": "",
+      "jurisdiction": "federal",
+      "federal_nexus": "Official White House channel; documents the act of publication only.",
+      "confidence": "high",
+      "basis": "official_actor_record",
+      "actor": "The White House",
+      "action": "issued a fact sheet titled \"Fact Sheet: President Donald J. Trump Restores Common Sense to Federal Procurement\"",
+      "act_key": "white house|issued a fact sheet titled fact sheet president donald j trump restores common sense to federal procurement|2025-04-15",
+      "attacks": [],
+      "source_meta": {
+        "headline": null,
+        "published_on": null,
+        "byline": null,
+        "outlet": null,
+        "accessed_on": null,
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "whitehouse_events_2025-01-20_2026-08-14.json",
+      "_origin_index": 627
+    },
+    {
+      "source_key": "whitehouse",
+      "date": "2025-04-15",
+      "occurred_on": "2025-04-15",
+      "reported_on": "2025-04-15",
+      "dated_by": "occurred",
+      "category": "Information & Media Control",
+      "title": "Fact Sheet: President Trump Brings Permitting Technology Into the 21st Century for Government Efficiency",
+      "url": "https://www.whitehouse.gov/fact-sheets/2025/04/fact-sheet-president-trump-brings-permitting-technology-into-the-21st-century-for-government-efficiency/",
+      "summary": "",
+      "why_relevant": "",
+      "jurisdiction": "federal",
+      "federal_nexus": "Official White House channel; documents the act of publication only.",
+      "confidence": "high",
+      "basis": "official_actor_record",
+      "actor": "The White House",
+      "action": "issued a fact sheet titled \"Fact Sheet: President Trump Brings Permitting Technology Into the 21st Century for Government Efficiency\"",
+      "act_key": "white house|issued a fact sheet titled fact sheet president trump brings permitting technology into the 21st century for government efficiency|2025-04-15",
+      "attacks": [],
+      "source_meta": {
+        "headline": null,
+        "published_on": null,
+        "byline": null,
+        "outlet": null,
+        "accessed_on": null,
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "whitehouse_events_2025-01-20_2026-08-14.json",
+      "_origin_index": 1384
+    },
+    {
+      "source_key": "whitehouse",
+      "date": "2025-04-15",
+      "occurred_on": "2025-04-15",
+      "reported_on": "2025-04-15",
+      "dated_by": "occurred",
+      "category": "Information & Media Control",
+      "title": "President Trump Unleashes Permitting Technology for the 21st Century",
+      "url": "https://www.whitehouse.gov/releases/2025/04/permitting-technology/",
+      "summary": "",
+      "why_relevant": "",
+      "jurisdiction": "federal",
+      "federal_nexus": "Official White House channel; documents the act of publication only.",
+      "confidence": "high",
+      "basis": "official_actor_record",
+      "actor": "The White House",
+      "action": "published a release titled \"President Trump Unleashes Permitting Technology for the 21st Century\"",
+      "act_key": "white house|published a release titled president trump unleashes permitting technology for the 21st century|2025-04-15",
+      "attacks": [],
+      "source_meta": {
+        "headline": null,
+        "published_on": null,
+        "byline": null,
+        "outlet": null,
+        "accessed_on": null,
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "whitehouse_events_2025-01-20_2026-08-14.json",
+      "_origin_index": 1383
+    },
+    {
+      "source_key": "whitehouse",
+      "date": "2025-04-15",
+      "occurred_on": "2025-04-15",
+      "reported_on": "2025-04-15",
+      "dated_by": "occurred",
+      "category": "Information & Media Control",
+      "title": "These Sick Criminals Are Who Democrats and the Legacy Media Are Defending",
+      "url": "https://www.whitehouse.gov/releases/2025/04/these-sick-criminals-are-who-democrats-and-the-legacy-media-are-defending/",
+      "summary": "",
+      "why_relevant": "",
+      "jurisdiction": "federal",
+      "federal_nexus": "Official White House channel; documents the act of publication only.",
+      "confidence": "high",
+      "basis": "official_actor_record",
+      "actor": "The White House",
+      "action": "published a release titled \"These Sick Criminals Are Who Democrats and the Legacy Media Are Defending\"",
+      "act_key": "white house|published a release titled these sick criminals are who democrats and the legacy media are defending|2025-04-15",
+      "attacks": [],
+      "source_meta": {
+        "headline": null,
+        "published_on": null,
+        "byline": null,
+        "outlet": null,
+        "accessed_on": null,
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "whitehouse_events_2025-01-20_2026-08-14.json",
+      "_origin_index": 1389
+    },
+    {
+      "source_key": "whitehouse",
+      "date": "2025-04-15",
+      "occurred_on": "2025-04-15",
+      "reported_on": "2025-04-15",
+      "dated_by": "occurred",
+      "category": "Information & Media Control",
+      "title": "“Sanctuary” Policies Put Accused Killer Back on the Streets",
+      "url": "https://www.whitehouse.gov/releases/2025/04/sanctuary-policies-put-accused-killer-back-on-the-streets/",
+      "summary": "",
+      "why_relevant": "",
+      "jurisdiction": "federal",
+      "federal_nexus": "Official White House channel; documents the act of publication only.",
+      "confidence": "high",
+      "basis": "official_actor_record",
+      "actor": "The White House",
+      "action": "published a release titled \"“Sanctuary” Policies Put Accused Killer Back on the Streets\"",
+      "act_key": "white house|published a release titled sanctuary policies put accused killer back on the streets|2025-04-15",
+      "attacks": [],
+      "source_meta": {
+        "headline": null,
+        "published_on": null,
+        "byline": null,
+        "outlet": null,
+        "accessed_on": null,
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "whitehouse_events_2025-01-20_2026-08-14.json",
+      "_origin_index": 1387
+    },
+    {
       "source_key": "zeteo",
       "date": "2025-04-15",
       "occurred_on": "2025-04-15",
@@ -6688,6 +7672,39 @@
       "source_key": "federalregister",
       "date": "2025-04-15",
       "occurred_on": "2025-04-15",
+      "reported_on": "2025-08-15",
+      "dated_by": "occurred",
+      "category": "Economic & Regulatory Power",
+      "title": "FDA revokes Emergency Use Authorization for LumiraDx COVID-19 diagnostic device",
+      "url": "https://www.federalregister.gov/documents/2025/08/15/2025-15556/revocation-of-authorization-of-emergency-use-of-in-vitro-diagnostic-device-for-detection-andor",
+      "summary": "The Food and Drug Administration revoked the Emergency Use Authorization for LumiraDx UK Ltd.'s LumiraDx SARS CoV-2 RNA STAR Complete diagnostic device, effective April 15, 2025. The revocation was granted at the manufacturer's request after LumiraDx notified FDA it had ceased production of the authorized product. FDA determined revocation was appropriate to protect public health and safety under section 564(g)(2)(C) of the Federal Food, Drug, and Cosmetic Act.",
+      "why_relevant": "Revocation of emergency medical device authorizations affects public access to diagnostic tools and reflects the FDA's ongoing management of COVID-19 emergency authorities as pandemic conditions evolve.",
+      "jurisdiction": "federal",
+      "federal_nexus": "",
+      "confidence": "high",
+      "basis": "FDA revoked the Authorization for the LumiraDx UK Ltd.'s LumiraDx SARS CoV-2 RNA STAR Complete. LumiraDx UK Ltd. notified FDA that they have ceased manufacture of the authorized product.",
+      "actor": "FDA",
+      "action": "revoked emergency use authorization",
+      "act_key": "fda|revoked emergency use authorization|2025-04-15",
+      "attacks": [],
+      "source_meta": {
+        "headline": "Revocation of Authorization of Emergency Use of In Vitro Diagnostic Device for Detection and/or Diagnosis of COVID-19; Availability",
+        "published_on": "2025-08-15",
+        "byline": null,
+        "outlet": "Federal Register",
+        "accessed_on": "2026-08-14T07:08:30Z",
+        "snapshot_url": null,
+        "durable_keys": {
+          "federal_register_doc": "2025-15556"
+        }
+      },
+      "_origin_file": "federalregister_events_2025-07-26_2025-08-29.json",
+      "_origin_index": 233
+    },
+    {
+      "source_key": "federalregister",
+      "date": "2025-04-15",
+      "occurred_on": "2025-04-15",
       "reported_on": "2025-04-18",
       "dated_by": "occurred",
       "category": "Economic & Regulatory Power",
@@ -6794,6 +7811,39 @@
     {
       "source_key": "guardian",
       "date": "2025-04-15",
+      "occurred_on": "",
+      "reported_on": "2025-04-15",
+      "dated_by": "reported",
+      "category": "Economic & Regulatory Power",
+      "title": "LA County Proposes $90 Million Budget Cut Amid Financial Strain",
+      "url": "https://www.theguardian.com/us-news/2025/apr/15/budget-los-angeles-california-county",
+      "summary": "In response to financial pressures from wildfire costs, a $4 billion abuse settlement, and potential federal funding cuts, Los Angeles County has proposed a budget cut of nearly $90 million. The plan includes a 3% reduction in department budgets, the elimination of over 300 vacant positions, and cuts to supplies and equipment purchases. The county aims to save $88.9 million through these measures, while avoiding layoffs for the time being.",
+      "why_relevant": "The budget cuts reflect the county's efforts to manage financial challenges, which could affect public services and economic stability.",
+      "jurisdiction": "",
+      "federal_nexus": "",
+      "confidence": "",
+      "basis": "",
+      "actor": "",
+      "action": "",
+      "act_key": "",
+      "attacks": [
+        "public_service"
+      ],
+      "source_meta": {
+        "headline": null,
+        "published_on": null,
+        "byline": null,
+        "outlet": null,
+        "accessed_on": null,
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "guardian_events_2025-01-20_2025-11-30.json",
+      "_origin_index": 2421
+    },
+    {
+      "source_key": "guardian",
+      "date": "2025-04-15",
       "occurred_on": "2025-04-15",
       "reported_on": "2025-03-10",
       "dated_by": "occurred",
@@ -6824,6 +7874,37 @@
       },
       "_origin_file": "guardian_events_2025-04-05_2025-07-25.json",
       "_origin_index": 1262
+    },
+    {
+      "source_key": "guardian",
+      "date": "2025-04-15",
+      "occurred_on": "",
+      "reported_on": "2025-04-15",
+      "dated_by": "reported",
+      "category": "Economic & Regulatory Power",
+      "title": "Unhoused man wins $1m jackpot from California lottery scratcher",
+      "url": "https://www.theguardian.com/us-news/2025/apr/15/homeless-california-man-wins-lottery",
+      "summary": "An unhoused man in California won a $1 million jackpot from a lottery ticket purchased at Sandy’s Deli-Liquor in San Luis Obispo. Initially believing he had won $100,000, he was informed by the store manager that he had actually won the larger prize. The manager assisted him in traveling to Fresno to claim the ticket in person. The winner described the prize as \"life-changing,\" intending to use it for a down payment on a home and a car. Lottery officials stated that they process around 10,000 claims a month, with over 100 being $1 million or larger each year.",
+      "why_relevant": "This event highlights the potential for lottery winnings to significantly alter the life circumstances of individuals experiencing homelessness.",
+      "jurisdiction": "",
+      "federal_nexus": "",
+      "confidence": "",
+      "basis": "",
+      "actor": "",
+      "action": "",
+      "act_key": "",
+      "attacks": [],
+      "source_meta": {
+        "headline": "Unhoused man wins $1m jackpot from California lottery scratcher",
+        "published_on": "2025-04-15",
+        "byline": "Dani Anguiano",
+        "outlet": "the Guardian",
+        "accessed_on": "2026-08-13T18:27:17Z",
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "guardian_events_2025-03-29_2025-06-06.json",
+      "_origin_index": 494
     },
     {
       "source_key": "meidas",
@@ -7618,6 +8699,73 @@
       "_origin_index": 769
     },
     {
+      "source_key": "hcr",
+      "date": "2025-04-16",
+      "occurred_on": "",
+      "reported_on": "2025-04-16",
+      "dated_by": "reported",
+      "category": "Executive Actions & Orders",
+      "title": "Trump Administration Denies FEMA Assistance to North Carolina",
+      "url": "https://www.cnn.com/2024/10/21/politics/fact-check-trump-fema-hurricane-response/index.html",
+      "summary": "The Trump administration denied North Carolina's application for an extension of FEMA assistance following Hurricane Helene, despite ongoing recovery needs in the state. Governor Josh Stein expressed disappointment and urged reconsideration of the decision, highlighting the necessity for continued federal support for disaster recovery efforts.",
+      "why_relevant": "The denial of federal assistance raises concerns about the administration's commitment to disaster recovery and support for affected communities.",
+      "jurisdiction": "",
+      "federal_nexus": "",
+      "confidence": "",
+      "basis": "",
+      "actor": "",
+      "action": "",
+      "act_key": "",
+      "attacks": [
+        "poor"
+      ],
+      "source_meta": {
+        "headline": null,
+        "published_on": null,
+        "byline": null,
+        "outlet": null,
+        "accessed_on": null,
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "hcr_events_2025-03-29_2025-05-09.json",
+      "_origin_index": 113
+    },
+    {
+      "source_key": "hcr",
+      "date": "2025-04-16",
+      "occurred_on": "",
+      "reported_on": "2025-04-16",
+      "dated_by": "reported",
+      "category": "Executive Actions & Orders",
+      "title": "Trump Administration's Immigration Policy Under Scrutiny",
+      "url": "https://www.lawfaremedia.org/article/lawfare-live--court-hearing-on-the-removal-of-abrego-garcia",
+      "summary": "During the court hearing, it was revealed that the Trump administration has not taken any steps to comply with a federal court order to return Kilmar Abrego Garcia to the U.S. The administration's inaction was criticized, and the judge emphasized the harm caused by Garcia's continued detention. The administration's strategy appears to involve using the case to garner media attention while deflecting accountability for its immigration policies.",
+      "why_relevant": "The administration's failure to comply with court orders raises concerns about the rule of law and accountability in immigration enforcement.",
+      "jurisdiction": "",
+      "federal_nexus": "",
+      "confidence": "",
+      "basis": "",
+      "actor": "",
+      "action": "",
+      "act_key": "",
+      "attacks": [
+        "courts",
+        "rule_of_law"
+      ],
+      "source_meta": {
+        "headline": null,
+        "published_on": null,
+        "byline": null,
+        "outlet": null,
+        "accessed_on": null,
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "hcr_events_2025-03-29_2025-05-09.json",
+      "_origin_index": 111
+    },
+    {
       "source_key": "orders",
       "date": "2025-04-16",
       "occurred_on": "2025-04-16",
@@ -7647,6 +8795,68 @@
       },
       "_origin_file": "orders_events_2025-04-05_2025-07-25.json",
       "_origin_index": 49
+    },
+    {
+      "source_key": "whitehouse",
+      "date": "2025-04-16",
+      "occurred_on": "2025-04-16",
+      "reported_on": "2025-04-16",
+      "dated_by": "occurred",
+      "category": "Executive Actions & Orders",
+      "title": "Ensuring Commercial, Cost-Effective Solutions in Federal Contracts",
+      "url": "https://www.whitehouse.gov/presidential-actions/2025/04/ensuring-commercial-cost-effective-solutions-in-federal-contracts/",
+      "summary": "",
+      "why_relevant": "",
+      "jurisdiction": "federal",
+      "federal_nexus": "Official White House channel; documents the act of publication only.",
+      "confidence": "high",
+      "basis": "official_actor_record",
+      "actor": "The White House",
+      "action": "announced an executive order titled \"Ensuring Commercial, Cost-Effective Solutions in Federal Contracts\"",
+      "act_key": "white house|announced an executive order titled ensuring commercial cost effective solutions in federal contracts|2025-04-16",
+      "attacks": [],
+      "source_meta": {
+        "headline": null,
+        "published_on": null,
+        "byline": null,
+        "outlet": null,
+        "accessed_on": null,
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "whitehouse_events_2025-01-20_2026-08-14.json",
+      "_origin_index": 877
+    },
+    {
+      "source_key": "guardian",
+      "date": "2025-04-16",
+      "occurred_on": "",
+      "reported_on": "2025-04-16",
+      "dated_by": "reported",
+      "category": "Legislative & Oversight Activity",
+      "title": "Berkeley City Council Approves New Wildfire Safety Rules",
+      "url": "https://www.theguardian.com/us-news/2025/apr/16/berkeley--california-gardens-wildfires",
+      "summary": "The Berkeley City Council in California has approved new wildfire safety regulations requiring residents in high-risk areas to remove plants and other combustible materials within 5 feet of their homes. This measure aims to create defensible space around residences to slow the spread of wildfires. The rules will apply to approximately 1,000 homes in the Berkeley Hills starting next year. The decision follows recent deadly wildfires in Los Angeles and is part of a broader effort to mitigate wildfire risks exacerbated by climate change.",
+      "why_relevant": "This legislative action is significant as it represents a proactive approach to wildfire risk management, potentially setting a precedent for other high-risk areas.",
+      "jurisdiction": "",
+      "federal_nexus": "",
+      "confidence": "",
+      "basis": "",
+      "actor": "",
+      "action": "",
+      "act_key": "",
+      "attacks": [],
+      "source_meta": {
+        "headline": null,
+        "published_on": null,
+        "byline": null,
+        "outlet": null,
+        "accessed_on": null,
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "guardian_events_2025-01-20_2025-11-30.json",
+      "_origin_index": 2408
     },
     {
       "source_key": "hcr",
@@ -7740,6 +8950,37 @@
       },
       "_origin_file": "outloud_events_2025-04-05_2025-07-25.json",
       "_origin_index": 78
+    },
+    {
+      "source_key": "democracydocket",
+      "date": "2025-04-16",
+      "occurred_on": "",
+      "reported_on": "2025-04-16",
+      "dated_by": "reported",
+      "category": "Judicial Developments",
+      "title": "If the marshals go rogue courts have other ways to enforce their orders",
+      "url": "https://www.democracydocket.com/opinion/if-the-marshals-go-rogue-courts-have-other-ways-to-enforce-their-orders/",
+      "summary": "",
+      "why_relevant": "Democracy Docket tracks litigation and actions that directly shape election rules and democratic access.",
+      "jurisdiction": "",
+      "federal_nexus": "",
+      "confidence": "",
+      "basis": "",
+      "actor": "",
+      "action": "",
+      "act_key": "",
+      "attacks": [],
+      "source_meta": {
+        "headline": "If the Marshals Go Rogue, Courts Have Other Ways to Enforce their Orders",
+        "published_on": "2025-03-14",
+        "byline": null,
+        "outlet": "Democracy Docket",
+        "accessed_on": "2026-08-13T19:10:30Z",
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "democracydocket_events_2025-04-12_2025-04-18.json",
+      "_origin_index": 0
     },
     {
       "source_key": "guardian",
@@ -7958,6 +9199,37 @@
     {
       "source_key": "hcr",
       "date": "2025-04-16",
+      "occurred_on": "",
+      "reported_on": "2025-04-16",
+      "dated_by": "reported",
+      "category": "Judicial Developments",
+      "title": "Judge Xinis Orders Fact Finding in Abrego Garcia Case",
+      "url": "https://storage.courtlistener.com/recap/gov.uscourts.mdd.578815/gov.uscourts.mdd.578815.79.0.pdf",
+      "summary": "U.S. District Judge Paula Xinis held a hearing regarding the case of Kilmar Abrego Garcia, who was deported to El Salvador. The judge ordered a two-week fact-finding period to determine if the Trump administration is in contempt of court for failing to facilitate Garcia's return to the U.S. She dismissed the administration's claims that a recent meeting between President Trump and El Salvador's president was part of the effort to comply with the court's orders. The judge emphasized the ongoing harm caused by Garcia's detention.",
+      "why_relevant": "This case highlights the judicial system's role in enforcing court orders against executive actions, emphasizing the importance of rule of law.",
+      "jurisdiction": "",
+      "federal_nexus": "",
+      "confidence": "",
+      "basis": "",
+      "actor": "",
+      "action": "",
+      "act_key": "",
+      "attacks": [],
+      "source_meta": {
+        "headline": null,
+        "published_on": null,
+        "byline": null,
+        "outlet": null,
+        "accessed_on": null,
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "hcr_events_2025-03-29_2025-06-06.json",
+      "_origin_index": 244
+    },
+    {
+      "source_key": "hcr",
+      "date": "2025-04-16",
       "occurred_on": "2025-04-16",
       "reported_on": "2025-04-17",
       "dated_by": "occurred",
@@ -7992,6 +9264,68 @@
       "_origin_index": 762
     },
     {
+      "source_key": "justice",
+      "date": "2025-04-16",
+      "occurred_on": "2025-04-16",
+      "reported_on": "2025-04-16",
+      "dated_by": "occurred",
+      "category": "Judicial Developments",
+      "title": "Former President of Asphalt Paving Company Receives Prison Sentence for Bid Rigging",
+      "url": "https://www.justice.gov/opa/pr/former-president-asphalt-paving-company-receives-prison-sentence-bid-rigging",
+      "summary": "",
+      "why_relevant": "",
+      "jurisdiction": "federal",
+      "federal_nexus": "Official DOJ channel; documents the act of announcement only.",
+      "confidence": "high",
+      "basis": "official_actor_record",
+      "actor": "The Department of Justice",
+      "action": "announced \"Former President of Asphalt Paving Company Receives Prison Sentence for Bid Rigging\"",
+      "act_key": "department|announced former president of asphalt paving company receives prison sentence for bid rigging|2025-04-16",
+      "attacks": [],
+      "source_meta": {
+        "headline": null,
+        "published_on": null,
+        "byline": null,
+        "outlet": null,
+        "accessed_on": null,
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "justice_events_2025-01-20_2026-08-14.json",
+      "_origin_index": 60
+    },
+    {
+      "source_key": "justice",
+      "date": "2025-04-16",
+      "occurred_on": "2025-04-16",
+      "reported_on": "2025-04-16",
+      "dated_by": "occurred",
+      "category": "Judicial Developments",
+      "title": "Oilfield Company, Its Executive, and a Support Services Company Plead Guilty and Are Sentenced for Worker Safety, Clean Air Act, and Safe Drinking Water Act Violations Resulting in the Death of an Employee and His Spouse",
+      "url": "https://www.justice.gov/opa/pr/oilfield-company-its-executive-and-support-services-company-plead-guilty-and-are-sentenced",
+      "summary": "",
+      "why_relevant": "",
+      "jurisdiction": "federal",
+      "federal_nexus": "Official DOJ channel; documents the act of announcement only.",
+      "confidence": "high",
+      "basis": "official_actor_record",
+      "actor": "The Department of Justice",
+      "action": "announced \"Oilfield Company, Its Executive, and a Support Services Company Plead Guilty and Are Sentenced for Worker Safety, Clean Air Act, and Safe Drinking Water Act Violations Resulting in the Death of an Employee and His Spouse\"",
+      "act_key": "department|announced oilfield company its executive and a support services company plead guilty and are sentenced for worker safety clean air act and safe drinking water act violations resulting in the death of an employee and his spouse|2025-04-16",
+      "attacks": [],
+      "source_meta": {
+        "headline": null,
+        "published_on": null,
+        "byline": null,
+        "outlet": null,
+        "accessed_on": null,
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "justice_events_2025-01-20_2026-08-14.json",
+      "_origin_index": 59
+    },
+    {
       "source_key": "justsecurity",
       "date": "2025-04-16",
       "occurred_on": "",
@@ -8021,8 +9355,8 @@
           "courtlistener_docket_id": "69741724"
         }
       },
-      "_origin_file": "justsecurity_events_2025-04-05_2025-07-25.json",
-      "_origin_index": 472
+      "_origin_file": "justsecurity_events_2025-03-15_2025-06-27.json",
+      "_origin_index": 536
     },
     {
       "source_key": "justsecurity",
@@ -8033,7 +9367,7 @@
       "category": "Judicial Developments",
       "title": "Appeal filed — Massachusetts Fair Housing Center v. Department of Housing and Urban Development (D. Mass.) 3:25-cv-30041",
       "url": "https://www.courtlistener.com/docket/69733424/massachusetts-fair-housing-center-v-department-of-housing-and-urban/",
-      "summary": "Plaintiffs appealed Judge Stearns' April 14 order granting Defendants' motion to dissolve the emergency TRO to the First Circuit Court of Appeals (Case No. 25-1368 ).",
+      "summary": "Plaintiffs appealed Judge Stearns' April 14 order granting Defendants' motion to dissolve the emergency TRO to the First Circuit Court of Appeals.",
       "why_relevant": "This litigation update changes the posture of an active legal challenge to Trump administration action.",
       "jurisdiction": "",
       "federal_nexus": "",
@@ -8054,41 +9388,8 @@
           "courtlistener_docket_id": "69733424"
         }
       },
-      "_origin_file": "justsecurity_events_2025-04-05_2025-07-25.json",
-      "_origin_index": 252
-    },
-    {
-      "source_key": "justsecurity",
-      "date": "2025-04-16",
-      "occurred_on": "",
-      "reported_on": "2025-04-16",
-      "dated_by": "reported",
-      "category": "Judicial Developments",
-      "title": "Case update — AFL-CIO v. Department of Labor (D.D.C.) 1:25-cv-00339",
-      "url": "https://www.courtlistener.com/docket/69613359/american-federation-of-labor-and-congress-of-industrial-organizations-v/",
-      "summary": "Judge Bates issued an order dismissing counts relating to the Federal Information Security Modernization Act, Administrative Procedure Act, Confidential Information Protection and Statistical Efficiency Act, and Health Insurance Portability and Accountability Act.",
-      "why_relevant": "This litigation update changes the posture of an active legal challenge to Trump administration action.",
-      "jurisdiction": "",
-      "federal_nexus": "",
-      "confidence": "",
-      "basis": "",
-      "actor": "",
-      "action": "",
-      "act_key": "",
-      "attacks": [],
-      "source_meta": {
-        "headline": null,
-        "published_on": null,
-        "byline": null,
-        "outlet": null,
-        "accessed_on": null,
-        "snapshot_url": null,
-        "durable_keys": {
-          "courtlistener_docket_id": "69613359"
-        }
-      },
-      "_origin_file": "justsecurity_events_2025-04-05_2025-07-25.json",
-      "_origin_index": 854
+      "_origin_file": "justsecurity_events_2025-03-15_2025-06-27.json",
+      "_origin_index": 298
     },
     {
       "source_key": "justsecurity",
@@ -8130,10 +9431,10 @@
       "reported_on": "2025-04-16",
       "dated_by": "reported",
       "category": "Judicial Developments",
-      "title": "Dismissal entered — University of California Student Ass’n v. Carter et al (D.D.C.) 1:25-cv-00354",
-      "url": "https://www.courtlistener.com/docket/69620025/university-of-california-student-association-v-carter/",
-      "summary": "Plaintiffs voluntarily dismissed the action.",
-      "why_relevant": "This litigation update changes the posture of an active legal challenge to Trump administration action.",
+      "title": "Complaint filed — Ercelik v. Hyde",
+      "url": "https://www.courtlistener.com/docket/69903924/ercelik-v-hyde/",
+      "summary": "A complaint was filed in the case of Ercelik v. Hyde in the United States District Court for the District of Massachusetts. The case is docketed under number 1:25-cv-11007. Details of the case are not yet available, but it involves legal challenges related to actions taken during the Trump administration. This filing marks the initiation of judicial proceedings in this matter.",
+      "why_relevant": "Litigation over Trump administration actions affects judicial review, executive power, rights enforcement, and the rule of law.",
       "jurisdiction": "",
       "federal_nexus": "",
       "confidence": "",
@@ -8150,11 +9451,11 @@
         "accessed_on": null,
         "snapshot_url": null,
         "durable_keys": {
-          "courtlistener_docket_id": "69620025"
+          "courtlistener_docket_id": "69903924"
         }
       },
-      "_origin_file": "justsecurity_events_2025-04-05_2025-07-25.json",
-      "_origin_index": 865
+      "_origin_file": "justsecurity_events_2025-03-15_2025-06-27.json",
+      "_origin_index": 759
     },
     {
       "source_key": "justsecurity",
@@ -8219,8 +9520,8 @@
           "courtlistener_docket_id": "69777799"
         }
       },
-      "_origin_file": "justsecurity_events_2025-04-05_2025-07-25.json",
-      "_origin_index": 713
+      "_origin_file": "justsecurity_events_2025-03-15_2025-06-27.json",
+      "_origin_index": 779
     },
     {
       "source_key": "justsecurity",
@@ -8231,7 +9532,7 @@
       "category": "Judicial Developments",
       "title": "Notice of appeal filed — Climate United Fund v. Citibank (D.D.C.) 1:24-cv-00698",
       "url": "https://www.courtlistener.com/docket/69718818/climate-united-fund-v-citibank-na/",
-      "summary": "The EPA filed a notice of appeal of the April 15 preliminary injunction to the D.C. Circuit (Case No. 25-5122 ).",
+      "summary": "The EPA filed a notice of appeal of the April 15 preliminary injunction to the D.C. Circuit.",
       "why_relevant": "This litigation update changes the posture of an active legal challenge to Trump administration action.",
       "jurisdiction": "",
       "federal_nexus": "",
@@ -8252,8 +9553,8 @@
           "courtlistener_docket_id": "69718818"
         }
       },
-      "_origin_file": "justsecurity_events_2025-04-05_2025-07-25.json",
-      "_origin_index": 247
+      "_origin_file": "justsecurity_events_2025-03-15_2025-06-27.json",
+      "_origin_index": 290
     },
     {
       "source_key": "justsecurity",
@@ -8285,8 +9586,8 @@
           "courtlistener_docket_id": "69791808"
         }
       },
-      "_origin_file": "justsecurity_events_2025-04-05_2025-07-25.json",
-      "_origin_index": 347
+      "_origin_file": "justsecurity_events_2025-03-15_2025-06-27.json",
+      "_origin_index": 389
     },
     {
       "source_key": "justsecurity",
@@ -8318,8 +9619,8 @@
           "courtlistener_docket_id": "69835979"
         }
       },
-      "_origin_file": "justsecurity_events_2025-04-05_2025-07-25.json",
-      "_origin_index": 845
+      "_origin_file": "justsecurity_events_2025-03-15_2025-06-27.json",
+      "_origin_index": 910
     },
     {
       "source_key": "justsecurity",
@@ -8384,8 +9685,8 @@
           "courtlistener_docket_id": "69758448"
         }
       },
-      "_origin_file": "justsecurity_events_2025-04-05_2025-07-25.json",
-      "_origin_index": 400
+      "_origin_file": "justsecurity_events_2025-03-15_2025-06-27.json",
+      "_origin_index": 449
     },
     {
       "source_key": "justsecurity",
@@ -8450,8 +9751,8 @@
           "courtlistener_docket_id": "69844582"
         }
       },
-      "_origin_file": "justsecurity_events_2025-04-05_2025-07-25.json",
-      "_origin_index": 972
+      "_origin_file": "justsecurity_events_2025-03-15_2025-06-27.json",
+      "_origin_index": 1060
     },
     {
       "source_key": "justsecurity",
@@ -8483,8 +9784,8 @@
           "courtlistener_docket_id": "69762768"
         }
       },
-      "_origin_file": "justsecurity_events_2025-04-05_2025-07-25.json",
-      "_origin_index": 396
+      "_origin_file": "justsecurity_events_2025-03-15_2025-06-27.json",
+      "_origin_index": 443
     },
     {
       "source_key": "justsecurity",
@@ -8549,41 +9850,8 @@
           "courtlistener_docket_id": "69846584"
         }
       },
-      "_origin_file": "justsecurity_events_2025-04-05_2025-07-25.json",
-      "_origin_index": 337
-    },
-    {
-      "source_key": "justsecurity",
-      "date": "2025-04-16",
-      "occurred_on": "",
-      "reported_on": "2025-04-16",
-      "dated_by": "reported",
-      "category": "Judicial Developments",
-      "title": "Summary judgment ruling — Doctors for America v. Office of Personnel Management et al (D.D.C.) 1:25-cv-00322",
-      "url": "https://www.courtlistener.com/docket/69608613/doctors-for-america-v-office-of-personnel-management/",
-      "summary": "Defendants filed a reply in support for their cross motion for summary judgment. Defendants argue the court lacks subject matter jurisdiction and that Plaintiffs have failed to establish a final agency action subject to review under the APA.",
-      "why_relevant": "This litigation update changes the posture of an active legal challenge to Trump administration action.",
-      "jurisdiction": "",
-      "federal_nexus": "",
-      "confidence": "",
-      "basis": "",
-      "actor": "",
-      "action": "",
-      "act_key": "",
-      "attacks": [],
-      "source_meta": {
-        "headline": null,
-        "published_on": null,
-        "byline": null,
-        "outlet": null,
-        "accessed_on": null,
-        "snapshot_url": null,
-        "durable_keys": {
-          "courtlistener_docket_id": "69608613"
-        }
-      },
-      "_origin_file": "justsecurity_events_2025-04-05_2025-07-25.json",
-      "_origin_index": 746
+      "_origin_file": "justsecurity_events_2025-03-15_2025-06-27.json",
+      "_origin_index": 376
     },
     {
       "source_key": "justsecurity",
@@ -8648,8 +9916,8 @@
           "courtlistener_docket_id": "69725919"
         }
       },
-      "_origin_file": "justsecurity_events_2025-04-05_2025-07-25.json",
-      "_origin_index": 0
+      "_origin_file": "justsecurity_events_2025-03-15_2025-06-27.json",
+      "_origin_index": 2
     },
     {
       "source_key": "justsecurity",
@@ -8827,6 +10095,39 @@
       "reported_on": "2025-04-16",
       "dated_by": "reported",
       "category": "Civil Society & Protest",
+      "title": "Harvard University Defends Academic Freedom Against Administration Demands",
+      "url": "https://www.harvard.edu/research-funding/wp-content/uploads/sites/16/2025/04/Letter-Sent-to-Harvard-2025-04-11.pdf",
+      "summary": "Harvard University publicly rejected the Trump administration's demands to regulate its governance and programs in exchange for federal funding. The university's legal team asserted that such demands violate the First Amendment and the institution's rights. Harvard emphasized its commitment to academic freedom and independence from government control.",
+      "why_relevant": "Harvard's stance represents a significant pushback against government overreach into higher education and the protection of academic freedom.",
+      "jurisdiction": "",
+      "federal_nexus": "",
+      "confidence": "",
+      "basis": "",
+      "actor": "",
+      "action": "",
+      "act_key": "",
+      "attacks": [
+        "civil_service"
+      ],
+      "source_meta": {
+        "headline": null,
+        "published_on": null,
+        "byline": null,
+        "outlet": null,
+        "accessed_on": null,
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "hcr_events_2025-03-29_2025-05-09.json",
+      "_origin_index": 114
+    },
+    {
+      "source_key": "hcr",
+      "date": "2025-04-16",
+      "occurred_on": "",
+      "reported_on": "2025-04-16",
+      "dated_by": "reported",
+      "category": "Civil Society & Protest",
       "title": "Harvard University launched public defense of federally funded medical research",
       "url": "https://www.harvard.edu/president/news/2025/the-promise-of-american-higher-education/",
       "summary": "Harvard University converted its website into a defense of medical research funded by federal grants that the Trump administration is threatening to withhold. The website explains advances Harvard researchers have made in cancer research, heart disease, neurodegenerative diseases, obesity and diabetes, infectious diseases, and organs and transplantation, highlighting researchers, labs, and scientific breakthroughs. Harvard President Alan Garber issued a statement defending \"the promise of higher education\" and the freedom of thought and inquiry that has enabled universities to contribute to a free society.",
@@ -8995,6 +10296,70 @@
       "_origin_index": 756
     },
     {
+      "source_key": "whitehouse",
+      "date": "2025-04-16",
+      "occurred_on": "2025-04-16",
+      "reported_on": "2025-04-16",
+      "dated_by": "occurred",
+      "category": "Information & Media Control",
+      "title": "Where’s Chris Van Hollen’s Concern for Americans Brutalized by Illegal Immigrant Crime?",
+      "url": "https://www.whitehouse.gov/releases/2025/04/wheres-chris-van-hollens-concern-for-americans-brutalized-by-illegal-immigrant-crime/",
+      "summary": "",
+      "why_relevant": "",
+      "jurisdiction": "federal",
+      "federal_nexus": "Official White House channel; documents the act of publication only.",
+      "confidence": "high",
+      "basis": "official_actor_record",
+      "actor": "The White House",
+      "action": "published a release titled \"Where’s Chris Van Hollen’s Concern for Americans Brutalized by Illegal Immigrant Crime?\"",
+      "act_key": "white house|published a release titled where s chris van hollen s concern for americans brutalized by illegal immigrant crime|2025-04-16",
+      "attacks": [],
+      "source_meta": {
+        "headline": null,
+        "published_on": null,
+        "byline": null,
+        "outlet": null,
+        "accessed_on": null,
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "whitehouse_events_2025-01-20_2026-08-14.json",
+      "_origin_index": 1388
+    },
+    {
+      "source_key": "federalregister",
+      "date": "2025-04-16",
+      "occurred_on": "2025-04-16",
+      "reported_on": "2025-12-19",
+      "dated_by": "occurred",
+      "category": "Economic & Regulatory Power",
+      "title": "DEA publishes notice of Aveva Drug Delivery Systems' application to import controlled substance thebaine",
+      "url": "https://www.federalregister.gov/documents/2025/12/19/2025-23469/importer-of-controlled-substances-application-aveva-drug-delivery-systems-inc",
+      "summary": "The Drug Enforcement Administration published a notice that Aveva Drug Delivery Systems, Inc., based in Miramar, Florida, has applied to be registered as an importer of thebaine (Drug Enforcement Administration code 9333, Schedule II controlled substance). The company states it intends to import thebaine for analytical purposes only. The DEA is accepting comments and hearing requests from registered bulk manufacturers and other applicants through January 20, 2026. Approval will occur only if the registrant's business activity is consistent with authorized import purposes under 21 U.S.C. 952(a)(2), and authorization will not extend to import of finished dosage forms for commercial sale.",
+      "why_relevant": "DEA licensing and import authorization for controlled substances is a core regulatory function affecting pharmaceutical supply chains and drug policy enforcement.",
+      "jurisdiction": "federal",
+      "federal_nexus": "",
+      "confidence": "high",
+      "basis": "Aveva Drug Delivery Systems, Inc. has applied to be registered as an importer of basic class(es) of controlled substance(s).",
+      "actor": "Drug Enforcement Administration",
+      "action": "published import application notice",
+      "act_key": "drug enforcement administration|published import application notice|2025-04-16",
+      "attacks": [],
+      "source_meta": {
+        "headline": "Importer of Controlled Substances Application: Aveva Drug Delivery Systems, Inc.",
+        "published_on": "2025-12-19",
+        "byline": null,
+        "outlet": "Federal Register",
+        "accessed_on": "2026-08-12T07:03:17Z",
+        "snapshot_url": null,
+        "durable_keys": {
+          "federal_register_doc": "2025-23469"
+        }
+      },
+      "_origin_file": "federalregister_events_2025-11-29_2026-03-06.json",
+      "_origin_index": 39
+    },
+    {
       "source_key": "federalregister",
       "date": "2025-04-16",
       "occurred_on": "2025-04-16",
@@ -9059,6 +10424,39 @@
       },
       "_origin_file": "federalregister_events_2025-04-05_2025-07-25.json",
       "_origin_index": 490
+    },
+    {
+      "source_key": "federalregister",
+      "date": "2025-04-16",
+      "occurred_on": "2025-04-16",
+      "reported_on": "2025-11-26",
+      "dated_by": "occurred",
+      "category": "Economic & Regulatory Power",
+      "title": "FDA classifies anchored esophageal sheath as Class II medical device",
+      "url": "https://www.federalregister.gov/documents/2025/11/26/2025-21217/medical-devices-gastroenterology-urology-devices-classification-of-the-anchored-esophageal-sheath",
+      "summary": "The Food and Drug Administration issued a final order classifying the anchored esophageal sheath—a gastroenterology device used to facilitate endoscope insertion into the upper gastrointestinal tract—as a Class II device subject to special controls. The classification, which became applicable April 16, 2019, establishes biocompatibility, performance testing, simulated use, shelf-life, and labeling requirements to ensure safety and effectiveness. The order codifies the device classification in 21 CFR 876.1510 and reduces regulatory burden by placing the device in the appropriate risk-based class.",
+      "why_relevant": "Medical device classification determines the regulatory pathway and market access for medical innovations; Class II designation with special controls balances patient safety with reduced regulatory burden and faster innovation adoption.",
+      "jurisdiction": "federal",
+      "federal_nexus": "",
+      "confidence": "high",
+      "basis": "FDA is classifying the anchored esophageal sheath into class II (special controls)...will provide a reasonable assurance of safety and effectiveness of the device.",
+      "actor": "FDA",
+      "action": "classified medical device",
+      "act_key": "fda|classified medical device|2025-04-16",
+      "attacks": [],
+      "source_meta": {
+        "headline": "Medical Devices; Gastroenterology-Urology Devices; Classification of the Anchored Esophageal Sheath",
+        "published_on": "2025-11-26",
+        "byline": null,
+        "outlet": "Federal Register",
+        "accessed_on": "2026-08-11T16:42:55Z",
+        "snapshot_url": null,
+        "durable_keys": {
+          "federal_register_doc": "2025-21217"
+        }
+      },
+      "_origin_file": "federalregister_events_2025-11-22_2025-11-28.json",
+      "_origin_index": 43
     },
     {
       "source_key": "federalregister",
@@ -9161,6 +10559,40 @@
       "_origin_index": 759
     },
     {
+      "source_key": "popinfo",
+      "date": "2025-04-16",
+      "occurred_on": "2025-04-16",
+      "reported_on": "2025-08-13",
+      "dated_by": "occurred",
+      "category": "Economic & Regulatory Power",
+      "title": "DoorDash donated $125,000 to Republican Attorneys General Association",
+      "url": "https://popular.info/p/your-favorite-brands-are-funding",
+      "summary": "DoorDash, which pledged to cover travel-related expenses for employees who no longer had access to abortion care in their state, donated $125,000 to the Republican Attorneys General Association on April 16, 2025. RAGA uses funds to support legal efforts restricting abortion access nationwide.",
+      "why_relevant": "A company that publicly committed to supporting employee reproductive rights simultaneously funds an organization actively litigating to restrict those rights, demonstrating a contradiction between stated corporate values and financial support for abortion restrictions.",
+      "jurisdiction": "private",
+      "federal_nexus": "RAGA members coordinate multi-state litigation and petition federal agencies to restrict abortion access.",
+      "confidence": "high",
+      "basis": "On April 16, 2025, Doordash donated $125,000 to RAGA.",
+      "actor": "DoorDash",
+      "action": "donated to anti-abortion legal organization",
+      "act_key": "doordash|donated to anti abortion legal organization|2025-04-16",
+      "attacks": [
+        "women",
+        "rule_of_law"
+      ],
+      "source_meta": {
+        "headline": "Your favorite brands are funding anti-abortion legal campaigns",
+        "published_on": "2025-08-13",
+        "byline": "Judd Legum",
+        "outlet": "Popular Information",
+        "accessed_on": "2026-08-14T02:19:07Z",
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "popinfo_events_2025-07-26_2025-08-29.json",
+      "_origin_index": 13
+    },
+    {
       "source_key": "federalregister",
       "date": "2025-04-16",
       "occurred_on": "",
@@ -9192,6 +10624,37 @@
       },
       "_origin_file": "federalregister_events_2025-04-05_2025-07-25.json",
       "_origin_index": 270
+    },
+    {
+      "source_key": "defense",
+      "date": "2025-04-16",
+      "occurred_on": "2025-04-16",
+      "reported_on": "2025-04-16",
+      "dated_by": "occurred",
+      "category": "International Relations",
+      "title": "Readout of Secretary of Defense Pete Hegseth's Bilateral Meeting With El Salvador's Minister of Defense H.E. René Merino Monroy",
+      "url": "https://www.war.gov/News/Releases/Release/Article/4156973/readout-of-secretary-of-defense-pete-hegseths-bilateral-meeting-with-el-salvado/",
+      "summary": "",
+      "why_relevant": "",
+      "jurisdiction": "federal",
+      "federal_nexus": "Official Department of War channel; documents the act of publication only.",
+      "confidence": "high",
+      "basis": "official_actor_record",
+      "actor": "The Department of War",
+      "action": "issued a press release titled \"Readout of Secretary of Defense Pete Hegseth's Bilateral Meeting With El Salvador's Minister of Defense H.E. René Merino Monroy\"",
+      "act_key": "department war|issued a press release titled readout of secretary of defense pete hegseth s bilateral meeting with el salvador s minister of defense h e ren merino monroy|2025-04-16",
+      "attacks": [],
+      "source_meta": {
+        "headline": null,
+        "published_on": null,
+        "byline": null,
+        "outlet": null,
+        "accessed_on": null,
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "defense_events_2025-01-20_2026-08-14.json",
+      "_origin_index": 325
     },
     {
       "source_key": "hcr",
@@ -9331,6 +10794,37 @@
       },
       "_origin_file": "hcr_events_2025-04-05_2025-07-25.json",
       "_origin_index": 774
+    },
+    {
+      "source_key": "defense",
+      "date": "2025-04-16",
+      "occurred_on": "2025-04-16",
+      "reported_on": "2025-04-16",
+      "dated_by": "occurred",
+      "category": "Civil–Military Relations & State Violence",
+      "title": "Secretary of Defense Pete Hegseth Greets El Salvador's Minister of Defense H.E. René Merino Monroy",
+      "url": "https://www.war.gov/News/Transcripts/Transcript/Article/4157725/secretary-of-defense-pete-hegseth-greets-el-salvadors-minister-of-defense-he-re/",
+      "summary": "",
+      "why_relevant": "",
+      "jurisdiction": "federal",
+      "federal_nexus": "Official Department of War channel; documents the act of publication only.",
+      "confidence": "high",
+      "basis": "official_actor_record",
+      "actor": "The Department of War",
+      "action": "published a transcript titled \"Secretary of Defense Pete Hegseth Greets El Salvador's Minister of Defense H.E. René Merino Monroy\"",
+      "act_key": "department war|published a transcript titled secretary of defense pete hegseth greets el salvador s minister of defense h e ren merino monroy|2025-04-16",
+      "attacks": [],
+      "source_meta": {
+        "headline": null,
+        "published_on": null,
+        "byline": null,
+        "outlet": null,
+        "accessed_on": null,
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "defense_events_2025-01-20_2026-08-14.json",
+      "_origin_index": 564
     },
     {
       "source_key": "hcr",
@@ -9579,6 +11073,73 @@
       "_origin_index": 754
     },
     {
+      "source_key": "hcr",
+      "date": "2025-04-17",
+      "occurred_on": "",
+      "reported_on": "2025-04-17",
+      "dated_by": "reported",
+      "category": "Executive Actions & Orders",
+      "title": "Trump Demands Maine Governor Ban Transgender Girls in Sports",
+      "url": "https://www.washingtonpost.com/politics/2025/04/11/maine-education-trump-janet-mills/",
+      "summary": "President Trump demanded that Maine Governor Janet Mills prohibit transgender girls from participating in girls' sports, threatening to withhold federal education funding if she does not comply. Mills has stated that she will follow state law, which protects against discrimination based on gender identity, and has indicated a willingness to challenge the federal government in court.",
+      "why_relevant": "This action reflects the administration's efforts to influence state policies on gender identity, raising concerns about federal overreach and the protection of civil rights.",
+      "jurisdiction": "",
+      "federal_nexus": "",
+      "confidence": "",
+      "basis": "",
+      "actor": "",
+      "action": "",
+      "act_key": "",
+      "attacks": [
+        "women",
+        "lgbtq"
+      ],
+      "source_meta": {
+        "headline": null,
+        "published_on": null,
+        "byline": null,
+        "outlet": null,
+        "accessed_on": null,
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "hcr_events_2025-03-29_2025-05-09.json",
+      "_origin_index": 107
+    },
+    {
+      "source_key": "hcr",
+      "date": "2025-04-17",
+      "occurred_on": "",
+      "reported_on": "2025-04-17",
+      "dated_by": "reported",
+      "category": "Executive Actions & Orders",
+      "title": "Trump Demands Maine Governor Ban Transgender Participation in Sports",
+      "url": "https://www.washingtonpost.com/national-security/2025/04/16/justice-department-maine-transgender-athletes/",
+      "summary": "President Trump demanded that Maine Governor Janet Mills prohibit transgender girls from participating in girls' sports, threatening to withhold federal education funding if she does not comply. Mills has stated that she will follow state law, which protects against discrimination based on gender identity, and has indicated a willingness to challenge the federal government in court.",
+      "why_relevant": "This action represents an attempt to influence state law and undermine protections for transgender individuals, raising concerns about federal overreach.",
+      "jurisdiction": "",
+      "federal_nexus": "",
+      "confidence": "",
+      "basis": "",
+      "actor": "",
+      "action": "",
+      "act_key": "",
+      "attacks": [
+        "lgbtq"
+      ],
+      "source_meta": {
+        "headline": null,
+        "published_on": null,
+        "byline": null,
+        "outlet": null,
+        "accessed_on": null,
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "hcr_events_2025-01-20_2025-11-30.json",
+      "_origin_index": 971
+    },
+    {
       "source_key": "meidas",
       "date": "2025-04-17",
       "occurred_on": "",
@@ -9820,6 +11381,130 @@
       "_origin_index": 134
     },
     {
+      "source_key": "whitehouse",
+      "date": "2025-04-17",
+      "occurred_on": "2025-04-17",
+      "reported_on": "2025-04-17",
+      "dated_by": "occurred",
+      "category": "Executive Actions & Orders",
+      "title": "250th Anniversary of the Battles of Lexington and Concord",
+      "url": "https://www.whitehouse.gov/presidential-actions/2025/04/250th-anniversary-of-the-battles-of-lexington-and-concord/",
+      "summary": "",
+      "why_relevant": "",
+      "jurisdiction": "federal",
+      "federal_nexus": "Official White House channel; documents the act of publication only.",
+      "confidence": "high",
+      "basis": "official_actor_record",
+      "actor": "The White House",
+      "action": "announced a proclamation titled \"250th Anniversary of the Battles of Lexington and Concord\"",
+      "act_key": "white house|announced a proclamation titled 250th anniversary of the battles of lexington and concord|2025-04-17",
+      "attacks": [],
+      "source_meta": {
+        "headline": null,
+        "published_on": null,
+        "byline": null,
+        "outlet": null,
+        "accessed_on": null,
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "whitehouse_events_2025-01-20_2026-08-14.json",
+      "_origin_index": 1053
+    },
+    {
+      "source_key": "whitehouse",
+      "date": "2025-04-17",
+      "occurred_on": "2025-04-17",
+      "reported_on": "2025-04-17",
+      "dated_by": "occurred",
+      "category": "Executive Actions & Orders",
+      "title": "Extension of Hiring Freeze",
+      "url": "https://www.whitehouse.gov/presidential-actions/2025/04/extension-of-hiring-freeze/",
+      "summary": "",
+      "why_relevant": "",
+      "jurisdiction": "federal",
+      "federal_nexus": "Official White House channel; documents the act of publication only.",
+      "confidence": "high",
+      "basis": "official_actor_record",
+      "actor": "The White House",
+      "action": "announced a presidential memorandum titled \"Extension of Hiring Freeze\"",
+      "act_key": "white house|announced a presidential memorandum titled extension of hiring freeze|2025-04-17",
+      "attacks": [],
+      "source_meta": {
+        "headline": null,
+        "published_on": null,
+        "byline": null,
+        "outlet": null,
+        "accessed_on": null,
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "whitehouse_events_2025-01-20_2026-08-14.json",
+      "_origin_index": 1129
+    },
+    {
+      "source_key": "whitehouse",
+      "date": "2025-04-17",
+      "occurred_on": "2025-04-17",
+      "reported_on": "2025-04-17",
+      "dated_by": "occurred",
+      "category": "Executive Actions & Orders",
+      "title": "Restoring American Seafood Competitiveness",
+      "url": "https://www.whitehouse.gov/presidential-actions/2025/04/restoring-american-seafood-competitiveness/",
+      "summary": "",
+      "why_relevant": "",
+      "jurisdiction": "federal",
+      "federal_nexus": "Official White House channel; documents the act of publication only.",
+      "confidence": "high",
+      "basis": "official_actor_record",
+      "actor": "The White House",
+      "action": "announced an executive order titled \"Restoring American Seafood Competitiveness\"",
+      "act_key": "white house|announced an executive order titled restoring american seafood competitiveness|2025-04-17",
+      "attacks": [],
+      "source_meta": {
+        "headline": null,
+        "published_on": null,
+        "byline": null,
+        "outlet": null,
+        "accessed_on": null,
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "whitehouse_events_2025-01-20_2026-08-14.json",
+      "_origin_index": 876
+    },
+    {
+      "source_key": "whitehouse",
+      "date": "2025-04-17",
+      "occurred_on": "2025-04-17",
+      "reported_on": "2025-04-17",
+      "dated_by": "occurred",
+      "category": "Executive Actions & Orders",
+      "title": "Unleashing American Commercial Fishing in the Pacific",
+      "url": "https://www.whitehouse.gov/presidential-actions/2025/04/unleashing-american-commercial-fishing-in-the-pacific/",
+      "summary": "",
+      "why_relevant": "",
+      "jurisdiction": "federal",
+      "federal_nexus": "Official White House channel; documents the act of publication only.",
+      "confidence": "high",
+      "basis": "official_actor_record",
+      "actor": "The White House",
+      "action": "announced a proclamation titled \"Unleashing American Commercial Fishing in the Pacific\"",
+      "act_key": "white house|announced a proclamation titled unleashing american commercial fishing in the pacific|2025-04-17",
+      "attacks": [],
+      "source_meta": {
+        "headline": null,
+        "published_on": null,
+        "byline": null,
+        "outlet": null,
+        "accessed_on": null,
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "whitehouse_events_2025-01-20_2026-08-14.json",
+      "_origin_index": 1054
+    },
+    {
       "source_key": "meidas",
       "date": "2025-04-17",
       "occurred_on": "",
@@ -9961,6 +11646,72 @@
       "_origin_index": 753
     },
     {
+      "source_key": "hcr",
+      "date": "2025-04-17",
+      "occurred_on": "",
+      "reported_on": "2025-04-17",
+      "dated_by": "reported",
+      "category": "Judicial Developments",
+      "title": "Justice Department Sues Maine Over Transgender Sports Policy",
+      "url": "https://www.washingtonpost.com/national-security/2025/04/16/justice-department-maine-transgender-athletes/",
+      "summary": "The Justice Department filed a lawsuit against Maine's Department of Education, seeking to enforce a ban on transgender girls participating in girls' sports. This legal action follows threats from the Trump administration to cut federal funding for education in the state unless the ban is implemented.",
+      "why_relevant": "The lawsuit exemplifies the federal government's efforts to impose its policies on states, potentially infringing on individual rights and state autonomy.",
+      "jurisdiction": "",
+      "federal_nexus": "",
+      "confidence": "",
+      "basis": "",
+      "actor": "",
+      "action": "",
+      "act_key": "",
+      "attacks": [
+        "lgbtq"
+      ],
+      "source_meta": {
+        "headline": null,
+        "published_on": null,
+        "byline": null,
+        "outlet": null,
+        "accessed_on": null,
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "hcr_events_2025-01-20_2025-11-30.json",
+      "_origin_index": 972
+    },
+    {
+      "source_key": "hcr",
+      "date": "2025-04-17",
+      "occurred_on": "",
+      "reported_on": "2025-04-17",
+      "dated_by": "reported",
+      "category": "Judicial Developments",
+      "title": "U.S. District Judge Issues Contempt Ruling Against Administration",
+      "url": "https://ecf.dcd.uscourts.gov/cgi-bin/show_public_doc?2025cv0766-81",
+      "summary": "U.S. District Judge James Boasberg ruled that the Trump administration's expedited removal of individuals to El Salvador, despite a temporary restraining order, demonstrated willful disregard for judicial authority. The judge indicated that if the government does not rectify its contempt, he may appoint a private prosecutor to pursue the case.",
+      "why_relevant": "This ruling underscores the importance of judicial oversight and the rule of law, emphasizing that government officials must adhere to court orders.",
+      "jurisdiction": "",
+      "federal_nexus": "",
+      "confidence": "",
+      "basis": "",
+      "actor": "",
+      "action": "",
+      "act_key": "",
+      "attacks": [
+        "rule_of_law"
+      ],
+      "source_meta": {
+        "headline": null,
+        "published_on": null,
+        "byline": null,
+        "outlet": null,
+        "accessed_on": null,
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "hcr_events_2025-03-29_2025-05-09.json",
+      "_origin_index": 106
+    },
+    {
       "source_key": "justsecurity",
       "date": "2025-04-17",
       "occurred_on": "",
@@ -9969,7 +11720,7 @@
       "category": "Judicial Developments",
       "title": "Appeal filed — American Federation of State, County and Municipal Employees, AFL-CIO v. Social Security Administration (D. Md.) 1:25-cv-00596",
       "url": "https://www.courtlistener.com/docket/69664313/american-federation-of-state-county-and-municipal-employees-afl-cio-v/",
-      "summary": "Judge Hollander granted the preliminary injunction . On that same day, Defendants appealed this order to the Fourth Circuit Court of Appeals (Case No. 25-1411 ).",
+      "summary": "Judge Hollander granted the preliminary injunction . On that same day, Defendants appealed this order to the Fourth Circuit Court of Appeals.",
       "why_relevant": "This litigation update changes the posture of an active legal challenge to Trump administration action.",
       "jurisdiction": "",
       "federal_nexus": "",
@@ -9990,8 +11741,8 @@
           "courtlistener_docket_id": "69664313"
         }
       },
-      "_origin_file": "justsecurity_events_2025-04-05_2025-07-25.json",
-      "_origin_index": 880
+      "_origin_file": "justsecurity_events_2025-03-15_2025-06-27.json",
+      "_origin_index": 953
     },
     {
       "source_key": "justsecurity",
@@ -10023,8 +11774,8 @@
           "courtlistener_docket_id": "69753739"
         }
       },
-      "_origin_file": "justsecurity_events_2025-04-05_2025-07-25.json",
-      "_origin_index": 770
+      "_origin_file": "justsecurity_events_2025-03-15_2025-06-27.json",
+      "_origin_index": 828
     },
     {
       "source_key": "justsecurity",
@@ -10089,8 +11840,8 @@
           "courtlistener_docket_id": "69636722"
         }
       },
-      "_origin_file": "justsecurity_events_2025-04-05_2025-07-25.json",
-      "_origin_index": 930
+      "_origin_file": "justsecurity_events_2025-03-15_2025-06-27.json",
+      "_origin_index": 998
     },
     {
       "source_key": "justsecurity",
@@ -10198,39 +11949,6 @@
       "reported_on": "2025-04-17",
       "dated_by": "reported",
       "category": "Judicial Developments",
-      "title": "Case update — State of Washington et al v. Donald J. Trump et al (W.D. Wash.) 2:25-cv-00127",
-      "url": "https://www.courtlistener.com/docket/69561931/state-of-washington-v-trump/",
-      "summary": "The U.S. Supreme Court declined to rule on the partial stay pending oral arguments, which was set for May 15.",
-      "why_relevant": "This litigation update changes the posture of an active legal challenge to Trump administration action.",
-      "jurisdiction": "",
-      "federal_nexus": "",
-      "confidence": "",
-      "basis": "",
-      "actor": "",
-      "action": "",
-      "act_key": "",
-      "attacks": [],
-      "source_meta": {
-        "headline": null,
-        "published_on": null,
-        "byline": null,
-        "outlet": null,
-        "accessed_on": null,
-        "snapshot_url": null,
-        "durable_keys": {
-          "courtlistener_docket_id": "69561931"
-        }
-      },
-      "_origin_file": "justsecurity_events_2025-04-05_2025-07-25.json",
-      "_origin_index": 568
-    },
-    {
-      "source_key": "justsecurity",
-      "date": "2025-04-17",
-      "occurred_on": "",
-      "reported_on": "2025-04-17",
-      "dated_by": "reported",
-      "category": "Judicial Developments",
       "title": "Case update — Sustainability Institute v. Trump (D.S.C.) 2:25-cv-02152",
       "url": "https://www.courtlistener.com/docket/69762768/the-sustainability-institute-v-trump/",
       "summary": "DOE, DOT, USDA and the EPA, replied to the order for expedited discovery with responsive documents. The EPA requested an extension to provide the remainder of responsive documents by April 18 and subsequently requested an additional extension until April 21.",
@@ -10254,8 +11972,8 @@
           "courtlistener_docket_id": "69762768"
         }
       },
-      "_origin_file": "justsecurity_events_2025-04-05_2025-07-25.json",
-      "_origin_index": 397
+      "_origin_file": "justsecurity_events_2025-03-15_2025-06-27.json",
+      "_origin_index": 444
     },
     {
       "source_key": "justsecurity",
@@ -10287,8 +12005,8 @@
           "courtlistener_docket_id": "69777799"
         }
       },
-      "_origin_file": "justsecurity_events_2025-04-05_2025-07-25.json",
-      "_origin_index": 714
+      "_origin_file": "justsecurity_events_2025-03-15_2025-06-27.json",
+      "_origin_index": 780
     },
     {
       "source_key": "justsecurity",
@@ -10353,8 +12071,8 @@
           "courtlistener_docket_id": "69631573"
         }
       },
-      "_origin_file": "justsecurity_events_2025-04-05_2025-07-25.json",
-      "_origin_index": 869
+      "_origin_file": "justsecurity_events_2025-03-15_2025-06-27.json",
+      "_origin_index": 938
     },
     {
       "source_key": "justsecurity",
@@ -10485,8 +12203,8 @@
           "courtlistener_docket_id": "69718818"
         }
       },
-      "_origin_file": "justsecurity_events_2025-04-05_2025-07-25.json",
-      "_origin_index": 248
+      "_origin_file": "justsecurity_events_2025-03-15_2025-06-27.json",
+      "_origin_index": 291
     },
     {
       "source_key": "justsecurity",
@@ -10551,8 +12269,8 @@
           "courtlistener_docket_id": "69624423"
         }
       },
-      "_origin_file": "justsecurity_events_2025-04-05_2025-07-25.json",
-      "_origin_index": 816
+      "_origin_file": "justsecurity_events_2025-03-15_2025-06-27.json",
+      "_origin_index": 867
     },
     {
       "source_key": "justsecurity",
@@ -10563,7 +12281,7 @@
       "category": "Judicial Developments",
       "title": "Stay motion decided — American Federation of State, County and Municipal Employees, AFL-CIO v. Social Security Administration (D. Md.) 1:25-cv-00596",
       "url": "https://www.courtlistener.com/docket/69664313/american-federation-of-state-county-and-municipal-employees-afl-cio-v/",
-      "summary": "Defendants also filed a motion requesting to stay the preliminary injunction pending appeal, on the basis that the Fourth Circuit Court of Appeals had also granted a stay of the preliminary injunction in the substantively similar case American Federation of Teachers v. Bessent . Plaintiffs filed their opposition to Defendants' motion to stay the preliminary injunction on April 19. On April 22, Judge Hollander denied Defendants' motion to stay the preliminary injunction, on the basis that the Fourth Circuit may not schedule the appeal hearing until fall of 2025 and that Plaintiffs would suffer irreparable harm if DOGE were able to access Plaintiffs' personal data while awaiting appeal.",
+      "summary": "Defendants also filed a motion requesting to stay the preliminary injunction pending appeal, on the basis that the Fourth Circuit Court of Appeals had also granted a stay of the preliminary injunction in the substantively similar case American Federation of Teachers v. Bessent. Plaintiffs filed their opposition to Defendants' motion to stay the preliminary injunction on April 19. On April 22, Judge Hollander denied Defendants' motion to stay the preliminary injunction, on the basis that the Fourth Circuit may not schedule the appeal hearing until fall of 2025 and that Plaintiffs would suffer irreparable harm if DOGE were able to access Plaintiffs' personal data while awaiting appeal.",
       "why_relevant": "This litigation update changes the posture of an active legal challenge to Trump administration action.",
       "jurisdiction": "",
       "federal_nexus": "",
@@ -10584,8 +12302,8 @@
           "courtlistener_docket_id": "69664313"
         }
       },
-      "_origin_file": "justsecurity_events_2025-04-05_2025-07-25.json",
-      "_origin_index": 881
+      "_origin_file": "justsecurity_events_2025-03-15_2025-06-27.json",
+      "_origin_index": 954
     },
     {
       "source_key": "justsecurity",
@@ -10972,6 +12690,37 @@
       "_origin_index": 41
     },
     {
+      "source_key": "scotusopinions",
+      "date": "2025-04-17",
+      "occurred_on": "",
+      "reported_on": "2025-04-17",
+      "dated_by": "reported",
+      "category": "Courts / Supreme Court / Opinions",
+      "title": "Supreme Court releases opinion in Cunningham v. Cornell Univ. (23-1007)",
+      "url": "https://www.supremecourt.gov/opinions/24pdf/23-1007_h3ci.pdf",
+      "summary": "The Supreme Court released an official slip opinion in Cunningham v. Cornell Univ. Docket number(s): 23-1007.",
+      "why_relevant": "The Supreme Court's official opinion in Cunningham v. Cornell Univ. is a primary legal source. Supreme Court opinions can define binding national law and alter the legal position of the executive branch, federal agencies, states, litigants, and democratic institutions.",
+      "jurisdiction": "",
+      "federal_nexus": "",
+      "confidence": "",
+      "basis": "",
+      "actor": "",
+      "action": "",
+      "act_key": "",
+      "attacks": [],
+      "source_meta": {
+        "headline": null,
+        "published_on": null,
+        "byline": null,
+        "outlet": null,
+        "accessed_on": null,
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "scotusopinions_events_2025-03-29_2025-06-06.json",
+      "_origin_index": 14
+    },
+    {
       "source_key": "guardian",
       "date": "2025-04-17",
       "occurred_on": "2025-04-17",
@@ -11106,6 +12855,99 @@
       },
       "_origin_file": "meidas_events_2025-04-05_2025-07-25.json",
       "_origin_index": 1058
+    },
+    {
+      "source_key": "whitehouse",
+      "date": "2025-04-17",
+      "occurred_on": "2025-04-17",
+      "reported_on": "2025-04-17",
+      "dated_by": "occurred",
+      "category": "Information & Media Control",
+      "title": "Fact Sheet: President Donald J. Trump Extends the Hiring Freeze",
+      "url": "https://www.whitehouse.gov/fact-sheets/2025/04/fact-sheet-president-donald-j-trump-extends-the-hiring-freeze/",
+      "summary": "",
+      "why_relevant": "",
+      "jurisdiction": "federal",
+      "federal_nexus": "Official White House channel; documents the act of publication only.",
+      "confidence": "high",
+      "basis": "official_actor_record",
+      "actor": "The White House",
+      "action": "issued a fact sheet titled \"Fact Sheet: President Donald J. Trump Extends the Hiring Freeze\"",
+      "act_key": "white house|issued a fact sheet titled fact sheet president donald j trump extends the hiring freeze|2025-04-17",
+      "attacks": [],
+      "source_meta": {
+        "headline": null,
+        "published_on": null,
+        "byline": null,
+        "outlet": null,
+        "accessed_on": null,
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "whitehouse_events_2025-01-20_2026-08-14.json",
+      "_origin_index": 621
+    },
+    {
+      "source_key": "whitehouse",
+      "date": "2025-04-17",
+      "occurred_on": "2025-04-17",
+      "reported_on": "2025-04-17",
+      "dated_by": "occurred",
+      "category": "Information & Media Control",
+      "title": "Fact Sheet: President Donald J. Trump Restores American Seafood Competitiveness",
+      "url": "https://www.whitehouse.gov/fact-sheets/2025/04/fact-sheet-president-donald-j-trump-restores-american-seafood-competitiveness/",
+      "summary": "",
+      "why_relevant": "",
+      "jurisdiction": "federal",
+      "federal_nexus": "Official White House channel; documents the act of publication only.",
+      "confidence": "high",
+      "basis": "official_actor_record",
+      "actor": "The White House",
+      "action": "issued a fact sheet titled \"Fact Sheet: President Donald J. Trump Restores American Seafood Competitiveness\"",
+      "act_key": "white house|issued a fact sheet titled fact sheet president donald j trump restores american seafood competitiveness|2025-04-17",
+      "attacks": [],
+      "source_meta": {
+        "headline": null,
+        "published_on": null,
+        "byline": null,
+        "outlet": null,
+        "accessed_on": null,
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "whitehouse_events_2025-01-20_2026-08-14.json",
+      "_origin_index": 623
+    },
+    {
+      "source_key": "whitehouse",
+      "date": "2025-04-17",
+      "occurred_on": "2025-04-17",
+      "reported_on": "2025-04-17",
+      "dated_by": "occurred",
+      "category": "Information & Media Control",
+      "title": "Fact Sheet: President Donald J. Trump Unleashes American Commercial Fishing in the Pacific",
+      "url": "https://www.whitehouse.gov/fact-sheets/2025/04/fact-sheet-president-donald-j-trump-unleashes-american-commercial-fishing-in-the-pacific/",
+      "summary": "",
+      "why_relevant": "",
+      "jurisdiction": "federal",
+      "federal_nexus": "Official White House channel; documents the act of publication only.",
+      "confidence": "high",
+      "basis": "official_actor_record",
+      "actor": "The White House",
+      "action": "issued a fact sheet titled \"Fact Sheet: President Donald J. Trump Unleashes American Commercial Fishing in the Pacific\"",
+      "act_key": "white house|issued a fact sheet titled fact sheet president donald j trump unleashes american commercial fishing in the pacific|2025-04-17",
+      "attacks": [],
+      "source_meta": {
+        "headline": null,
+        "published_on": null,
+        "byline": null,
+        "outlet": null,
+        "accessed_on": null,
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "whitehouse_events_2025-01-20_2026-08-14.json",
+      "_origin_index": 622
     },
     {
       "source_key": "federalregister",
@@ -11409,6 +13251,102 @@
       },
       "_origin_file": "federalregister_events_2025-04-05_2025-07-25.json",
       "_origin_index": 883
+    },
+    {
+      "source_key": "hcr",
+      "date": "2025-04-17",
+      "occurred_on": "",
+      "reported_on": "2025-04-17",
+      "dated_by": "reported",
+      "category": "Economic & Regulatory Power",
+      "title": "IRS Plans to Revoke Harvard's Tax-Exempt Status",
+      "url": "https://www.cnn.com/2025/04/16/politics/irs-harvard-tax-exempt-status/index.html",
+      "summary": "The Internal Revenue Service (IRS) is reportedly planning to revoke Harvard University's tax-exempt status following the institution's defiance of the Trump administration's directives. Legal experts have noted that such a move would be illegal, as the President cannot direct the IRS to initiate audits or investigations of taxpayers.",
+      "why_relevant": "This action raises concerns about the politicization of the IRS and the potential use of tax policy as a tool for political retribution against institutions that oppose the administration.",
+      "jurisdiction": "",
+      "federal_nexus": "",
+      "confidence": "",
+      "basis": "",
+      "actor": "",
+      "action": "",
+      "act_key": "",
+      "attacks": [
+        "courts",
+        "truth"
+      ],
+      "source_meta": {
+        "headline": null,
+        "published_on": null,
+        "byline": null,
+        "outlet": null,
+        "accessed_on": null,
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "hcr_events_2025-03-29_2025-05-09.json",
+      "_origin_index": 109
+    },
+    {
+      "source_key": "hcr",
+      "date": "2025-04-17",
+      "occurred_on": "",
+      "reported_on": "2025-04-17",
+      "dated_by": "reported",
+      "category": "Economic & Regulatory Power",
+      "title": "Trump Escalates Economic Concerns Amid Stock Market Decline",
+      "url": "https://www.nytimes.com/2025/04/16/business/stocks-trump-tariffs.html",
+      "summary": "Following the announcement of limits on chip sales to China and warnings from Federal Reserve Chair Jerome Powell about economic impacts, the stock market experienced significant declines. The Dow Jones fell 700 points, and global investors have reportedly withdrawn record amounts from U.S. stocks.",
+      "why_relevant": "The economic policies and rhetoric of the Trump administration are contributing to market instability, affecting public confidence and economic growth.",
+      "jurisdiction": "",
+      "federal_nexus": "",
+      "confidence": "",
+      "basis": "",
+      "actor": "",
+      "action": "",
+      "act_key": "",
+      "attacks": [],
+      "source_meta": {
+        "headline": null,
+        "published_on": null,
+        "byline": null,
+        "outlet": null,
+        "accessed_on": null,
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "hcr_events_2025-01-20_2025-11-30.json",
+      "_origin_index": 975
+    },
+    {
+      "source_key": "justice",
+      "date": "2025-04-17",
+      "occurred_on": "2025-04-17",
+      "reported_on": "2025-04-17",
+      "dated_by": "occurred",
+      "category": "Economic & Regulatory Power",
+      "title": "Department of Justice Prevails in Landmark Antitrust Case Against Google",
+      "url": "https://www.justice.gov/opa/pr/department-justice-prevails-landmark-antitrust-case-against-google",
+      "summary": "",
+      "why_relevant": "",
+      "jurisdiction": "federal",
+      "federal_nexus": "Official DOJ channel; documents the act of announcement only.",
+      "confidence": "high",
+      "basis": "official_actor_record",
+      "actor": "The Department of Justice",
+      "action": "announced \"Department of Justice Prevails in Landmark Antitrust Case Against Google\"",
+      "act_key": "department|announced department of justice prevails in landmark antitrust case against google|2025-04-17",
+      "attacks": [],
+      "source_meta": {
+        "headline": null,
+        "published_on": null,
+        "byline": null,
+        "outlet": null,
+        "accessed_on": null,
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "justice_events_2025-01-20_2026-08-14.json",
+      "_origin_index": 61
     },
     {
       "source_key": "meidas",
@@ -11752,6 +13690,103 @@
       },
       "_origin_file": "guardian_events_2025-04-05_2025-07-25.json",
       "_origin_index": 1527
+    },
+    {
+      "source_key": "defense",
+      "date": "2025-04-17",
+      "occurred_on": "2025-04-17",
+      "reported_on": "2025-04-17",
+      "dated_by": "occurred",
+      "category": "International Relations",
+      "title": "Readout of Secretary of Defense Pete Hegseth's Meeting With France's Minister of the Armed Forces Sébastien Lecornu",
+      "url": "https://www.war.gov/News/Releases/Release/Article/4157492/readout-of-secretary-of-defense-pete-hegseths-meeting-with-frances-minister-of/",
+      "summary": "",
+      "why_relevant": "",
+      "jurisdiction": "federal",
+      "federal_nexus": "Official Department of War channel; documents the act of publication only.",
+      "confidence": "high",
+      "basis": "official_actor_record",
+      "actor": "The Department of War",
+      "action": "issued a press release titled \"Readout of Secretary of Defense Pete Hegseth's Meeting With France's Minister of the Armed Forces Sébastien Lecornu\"",
+      "act_key": "department war|issued a press release titled readout of secretary of defense pete hegseth s meeting with france s minister of the armed forces s bastien lecornu|2025-04-17",
+      "attacks": [],
+      "source_meta": {
+        "headline": null,
+        "published_on": null,
+        "byline": null,
+        "outlet": null,
+        "accessed_on": null,
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "defense_events_2025-01-20_2026-08-14.json",
+      "_origin_index": 324
+    },
+    {
+      "source_key": "hcr",
+      "date": "2025-04-17",
+      "occurred_on": "",
+      "reported_on": "2025-04-17",
+      "dated_by": "reported",
+      "category": "International Relations",
+      "title": "El Salvador Denies Senator Meeting Regarding Constituent's Imprisonment",
+      "url": "https://www.cbsnews.com/baltimore/news/kilmar-abrego-garcia-el-salvador-maryland-man-deported/",
+      "summary": "In El Salvador, authorities denied Senator Chris Van Hollen (D-MD) a meeting with Kilmar Abrego Garcia, a constituent imprisoned without evidence of gang affiliation. Van Hollen's attempts to discuss Garcia's situation with President Nayib Bukele were redirected to Vice President Félix Ulloa, who indicated that the U.S. government is financially incentivizing Garcia's detention. This raises concerns about Garcia's well-being and the implications of U.S. foreign policy.",
+      "why_relevant": "This event highlights the intersection of U.S. foreign policy and human rights, raising questions about the treatment of individuals detained under questionable circumstances.",
+      "jurisdiction": "",
+      "federal_nexus": "",
+      "confidence": "",
+      "basis": "",
+      "actor": "",
+      "action": "",
+      "act_key": "",
+      "attacks": [
+        "minorities"
+      ],
+      "source_meta": {
+        "headline": null,
+        "published_on": null,
+        "byline": null,
+        "outlet": null,
+        "accessed_on": null,
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "hcr_events_2025-03-29_2025-05-09.json",
+      "_origin_index": 105
+    },
+    {
+      "source_key": "hcr",
+      "date": "2025-04-17",
+      "occurred_on": "",
+      "reported_on": "2025-04-17",
+      "dated_by": "reported",
+      "category": "International Relations",
+      "title": "Senator Van Hollen Denied Meeting in El Salvador",
+      "url": "https://www.politico.com/news/2025/04/16/kilmar-abrego-garcia-congress-el-salvador-00295147",
+      "summary": "In El Salvador, authorities denied Senator Chris Van Hollen (D-MD) a meeting with Kilmar Abrego Garcia, a constituent imprisoned without evidence of gang affiliation. Van Hollen's attempts to meet with President Nayib Bukele were redirected to Vice President Félix Ulloa, who suggested that the meeting might not be possible at all. This situation raises concerns about Abrego Garcia's well-being and the implications of U.S. funding for his detention.",
+      "why_relevant": "The denial of access to a U.S. senator raises questions about human rights and the treatment of individuals detained under questionable circumstances.",
+      "jurisdiction": "",
+      "federal_nexus": "",
+      "confidence": "",
+      "basis": "",
+      "actor": "",
+      "action": "",
+      "act_key": "",
+      "attacks": [
+        "global_democracy"
+      ],
+      "source_meta": {
+        "headline": null,
+        "published_on": null,
+        "byline": null,
+        "outlet": null,
+        "accessed_on": null,
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "hcr_events_2025-01-20_2025-11-30.json",
+      "_origin_index": 969
     },
     {
       "source_key": "meidas",
@@ -12212,6 +14247,68 @@
       "_origin_index": 1515
     },
     {
+      "source_key": "hcr",
+      "date": "2025-04-18",
+      "occurred_on": "2025-04-18",
+      "reported_on": "2025-04-18",
+      "dated_by": "occurred",
+      "category": "Judicial Developments",
+      "title": "U.S. District Judge grants class-action status and stay in passport case",
+      "url": "https://storage.courtlistener.com/recap/gov.uscourts.mad.280559/gov.uscourts.mad.280559.74.0_1.pdf",
+      "summary": "U.S. District Judge Julia E. Kobick granted a motion to make the passport sex-marker case a class action and issued a stay of Trump's executive order. Kobick found that plaintiffs led by Ashton Orr would likely win on the merits of their claim that the new policy violates their right to equal protection under the Fifth Amendment.",
+      "why_relevant": "The district court's preliminary finding that the policy likely violates equal protection rights temporarily protected transgender Americans' access to identity documentation.",
+      "jurisdiction": "federal",
+      "federal_nexus": "",
+      "confidence": "high",
+      "basis": "on April 18 U.S. District Judge Julia E. Kobick granted a motion to make the case a class action. She also granted a stay, finding that the plaintiffs would likely win on the merits",
+      "actor": "Julia E. Kobick",
+      "action": "granted class-action status and stay",
+      "act_key": "julia e kobick|granted class action status and stay|2025-04-18",
+      "attacks": [],
+      "source_meta": {
+        "headline": null,
+        "published_on": null,
+        "byline": null,
+        "outlet": null,
+        "accessed_on": null,
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "hcr_events_2025-09-06_2025-12-12.json",
+      "_origin_index": 173
+    },
+    {
+      "source_key": "justice",
+      "date": "2025-04-18",
+      "occurred_on": "2025-04-18",
+      "reported_on": "2025-04-18",
+      "dated_by": "occurred",
+      "category": "Judicial Developments",
+      "title": "Guatemalan Man Unlawfully Residing in the United States and Convicted of Sexual Battery Indicted for Fraudulently Obtaining Custody of an Unaccompanied Alien Child in the United States",
+      "url": "https://www.justice.gov/opa/pr/guatemalan-man-unlawfully-residing-united-states-and-convicted-sexual-battery-indicted",
+      "summary": "",
+      "why_relevant": "",
+      "jurisdiction": "federal",
+      "federal_nexus": "Official DOJ channel; documents the act of announcement only.",
+      "confidence": "high",
+      "basis": "official_actor_record",
+      "actor": "The Department of Justice",
+      "action": "announced \"Guatemalan Man Unlawfully Residing in the United States and Convicted of Sexual Battery Indicted for Fraudulently Obtaining Custody of an Unaccompanied Alien Child in the United States\"",
+      "act_key": "department|announced guatemalan man unlawfully residing in the united states and convicted of sexual battery indicted for fraudulently obtaining custody of an unaccompanied alien child in the united states|2025-04-18",
+      "attacks": [],
+      "source_meta": {
+        "headline": null,
+        "published_on": null,
+        "byline": null,
+        "outlet": null,
+        "accessed_on": null,
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "justice_events_2025-01-20_2026-08-14.json",
+      "_origin_index": 62
+    },
+    {
       "source_key": "justsecurity",
       "date": "2025-04-18",
       "occurred_on": "",
@@ -12241,8 +14338,8 @@
           "courtlistener_docket_id": "69624423"
         }
       },
-      "_origin_file": "justsecurity_events_2025-04-05_2025-07-25.json",
-      "_origin_index": 817
+      "_origin_file": "justsecurity_events_2025-03-15_2025-06-27.json",
+      "_origin_index": 868
     },
     {
       "source_key": "justsecurity",
@@ -12274,8 +14371,8 @@
           "courtlistener_docket_id": "71168373"
         }
       },
-      "_origin_file": "justsecurity_events_2025-04-05_2025-07-25.json",
-      "_origin_index": 635
+      "_origin_file": "justsecurity_events_2025-03-15_2025-06-27.json",
+      "_origin_index": 696
     },
     {
       "source_key": "justsecurity",
@@ -12307,8 +14404,8 @@
           "courtlistener_docket_id": "69655364"
         }
       },
-      "_origin_file": "justsecurity_events_2025-04-05_2025-07-25.json",
-      "_origin_index": 947
+      "_origin_file": "justsecurity_events_2025-03-15_2025-06-27.json",
+      "_origin_index": 1030
     },
     {
       "source_key": "justsecurity",
@@ -12373,8 +14470,8 @@
           "courtlistener_docket_id": "69718818"
         }
       },
-      "_origin_file": "justsecurity_events_2025-04-05_2025-07-25.json",
-      "_origin_index": 249
+      "_origin_file": "justsecurity_events_2025-03-15_2025-06-27.json",
+      "_origin_index": 292
     },
     {
       "source_key": "justsecurity",
@@ -12406,8 +14503,8 @@
           "courtlistener_docket_id": "69741724"
         }
       },
-      "_origin_file": "justsecurity_events_2025-04-05_2025-07-25.json",
-      "_origin_index": 474
+      "_origin_file": "justsecurity_events_2025-03-15_2025-06-27.json",
+      "_origin_index": 538
     },
     {
       "source_key": "justsecurity",
@@ -12449,7 +14546,7 @@
       "reported_on": "2025-04-18",
       "dated_by": "reported",
       "category": "Judicial Developments",
-      "title": "Case update — Make the Road New York et al v. Noem (D.D.C.) 1:25-cv-00190",
+      "title": "Case update — Make the Road New York et al v. Kristi Noem (Acting Secretary of Homeland Security) et al (D.D.C.) 1:25-cv-00190",
       "url": "https://www.courtlistener.com/docket/69566723/make-the-road-new-york-v-huffman/",
       "summary": "Defendants moved to dismiss Plaintiffs' complaint. Defendants state that the legality of the expedited removal statute has long standing precedent and allege Plaintiffs' claims are time-barred and outside the zone of interests.",
       "why_relevant": "This litigation update changes the posture of an active legal challenge to Trump administration action.",
@@ -12472,8 +14569,8 @@
           "courtlistener_docket_id": "69566723"
         }
       },
-      "_origin_file": "justsecurity_events_2025-04-05_2025-07-25.json",
-      "_origin_index": 444
+      "_origin_file": "justsecurity_events_2025-03-15_2025-06-27.json",
+      "_origin_index": 497
     },
     {
       "source_key": "justsecurity",
@@ -12538,8 +14635,8 @@
           "courtlistener_docket_id": "69695790"
         }
       },
-      "_origin_file": "justsecurity_events_2025-04-05_2025-07-25.json",
-      "_origin_index": 658
+      "_origin_file": "justsecurity_events_2025-03-15_2025-06-27.json",
+      "_origin_index": 718
     },
     {
       "source_key": "justsecurity",
@@ -12637,8 +14734,8 @@
           "courtlistener_docket_id": "69846584"
         }
       },
-      "_origin_file": "justsecurity_events_2025-04-05_2025-07-25.json",
-      "_origin_index": 338
+      "_origin_file": "justsecurity_events_2025-03-15_2025-06-27.json",
+      "_origin_index": 377
     },
     {
       "source_key": "justsecurity",
@@ -12736,8 +14833,8 @@
           "courtlistener_docket_id": "69799154"
         }
       },
-      "_origin_file": "justsecurity_events_2025-04-05_2025-07-25.json",
-      "_origin_index": 584
+      "_origin_file": "justsecurity_events_2025-03-15_2025-06-27.json",
+      "_origin_index": 631
     },
     {
       "source_key": "justsecurity",
@@ -12769,8 +14866,8 @@
           "courtlistener_docket_id": "69741724"
         }
       },
-      "_origin_file": "justsecurity_events_2025-04-05_2025-07-25.json",
-      "_origin_index": 473
+      "_origin_file": "justsecurity_events_2025-03-15_2025-06-27.json",
+      "_origin_index": 537
     },
     {
       "source_key": "justsecurity",
@@ -12802,8 +14899,8 @@
           "courtlistener_docket_id": "69655305"
         }
       },
-      "_origin_file": "justsecurity_events_2025-04-05_2025-07-25.json",
-      "_origin_index": 590
+      "_origin_file": "justsecurity_events_2025-03-15_2025-06-27.json",
+      "_origin_index": 640
     },
     {
       "source_key": "justsecurity",
@@ -12835,41 +14932,8 @@
           "courtlistener_docket_id": "69658871"
         }
       },
-      "_origin_file": "justsecurity_events_2025-04-05_2025-07-25.json",
-      "_origin_index": 1070
-    },
-    {
-      "source_key": "justsecurity",
-      "date": "2025-04-18",
-      "occurred_on": "",
-      "reported_on": "2025-04-18",
-      "dated_by": "reported",
-      "category": "Judicial Developments",
-      "title": "Motion to dismiss decided — John and Jane Does 1-9 v. Department of Justice (D.D.C.) 1:25-cv-00325",
-      "url": "https://www.courtlistener.com/docket/69609079/does-1-9-v-department-of-justice/",
-      "summary": "Defendants filed a supplemental memorandum in support of their motion to dismiss in which they assert that their discovery responses prove that they did not share information outside of the DOJ and that it is impermissible for Plaintiffs to ask the court to issue an advisory opinion on speculative future conduct.",
-      "why_relevant": "This litigation update changes the posture of an active legal challenge to Trump administration action.",
-      "jurisdiction": "",
-      "federal_nexus": "",
-      "confidence": "",
-      "basis": "",
-      "actor": "",
-      "action": "",
-      "act_key": "",
-      "attacks": [],
-      "source_meta": {
-        "headline": null,
-        "published_on": null,
-        "byline": null,
-        "outlet": null,
-        "accessed_on": null,
-        "snapshot_url": null,
-        "durable_keys": {
-          "courtlistener_docket_id": "69609079"
-        }
-      },
-      "_origin_file": "justsecurity_events_2025-04-05_2025-07-25.json",
-      "_origin_index": 851
+      "_origin_file": "justsecurity_events_2025-03-15_2025-06-27.json",
+      "_origin_index": 1161
     },
     {
       "source_key": "justsecurity",
@@ -12967,8 +15031,8 @@
           "courtlistener_docket_id": "69675603"
         }
       },
-      "_origin_file": "justsecurity_events_2025-04-05_2025-07-25.json",
-      "_origin_index": 118
+      "_origin_file": "justsecurity_events_2025-03-15_2025-06-27.json",
+      "_origin_index": 143
     },
     {
       "source_key": "justsecurity",
@@ -13000,8 +15064,8 @@
           "courtlistener_docket_id": "69775896"
         }
       },
-      "_origin_file": "justsecurity_events_2025-04-05_2025-07-25.json",
-      "_origin_index": 410
+      "_origin_file": "justsecurity_events_2025-03-15_2025-06-27.json",
+      "_origin_index": 463
     },
     {
       "source_key": "justsecurity",
@@ -13033,8 +15097,8 @@
           "courtlistener_docket_id": "69652290"
         }
       },
-      "_origin_file": "justsecurity_events_2025-04-05_2025-07-25.json",
-      "_origin_index": 194
+      "_origin_file": "justsecurity_events_2025-03-15_2025-06-27.json",
+      "_origin_index": 228
     },
     {
       "source_key": "justsecurity",
@@ -13066,8 +15130,8 @@
           "courtlistener_docket_id": "69623342"
         }
       },
-      "_origin_file": "justsecurity_events_2025-04-05_2025-07-25.json",
-      "_origin_index": 91
+      "_origin_file": "justsecurity_events_2025-03-15_2025-06-27.json",
+      "_origin_index": 109
     },
     {
       "source_key": "justsecurity",
@@ -13198,8 +15262,8 @@
           "courtlistener_docket_id": "69746961"
         }
       },
-      "_origin_file": "justsecurity_events_2025-04-05_2025-07-25.json",
-      "_origin_index": 1006
+      "_origin_file": "justsecurity_events_2025-03-15_2025-06-27.json",
+      "_origin_index": 1102
     },
     {
       "source_key": "justsecurity",
@@ -13264,8 +15328,8 @@
           "courtlistener_docket_id": "69725919"
         }
       },
-      "_origin_file": "justsecurity_events_2025-04-05_2025-07-25.json",
-      "_origin_index": 1
+      "_origin_file": "justsecurity_events_2025-03-15_2025-06-27.json",
+      "_origin_index": 3
     },
     {
       "source_key": "justsecurity",
@@ -13297,8 +15361,8 @@
           "courtlistener_docket_id": "69754533"
         }
       },
-      "_origin_file": "justsecurity_events_2025-04-05_2025-07-25.json",
-      "_origin_index": 829
+      "_origin_file": "justsecurity_events_2025-03-15_2025-06-27.json",
+      "_origin_index": 890
     },
     {
       "source_key": "justsecurity",
@@ -13900,6 +15964,37 @@
       "_origin_index": 1514
     },
     {
+      "source_key": "hcr",
+      "date": "2025-04-18",
+      "occurred_on": "",
+      "reported_on": "2025-04-18",
+      "dated_by": "reported",
+      "category": "Civil Society & Protest",
+      "title": "Conservative calls for civic uprising against Trumpism",
+      "url": "https://www.nytimes.com/2025/04/17/opinion/trump-critic-conservatism.html",
+      "summary": "In a New York Times opinion piece, conservative columnist David Brooks called for a \"comprehensive national civic uprising\" to resist what he described as a multifront assault on democracy by Trump and his supporters. He urged collaboration among those opposing Trump to create a vision for a fairer society, indicating a significant shift in conservative thought against Trumpism.",
+      "why_relevant": "This call for civic action reflects a growing recognition among conservatives of the threats posed by Trump to democratic norms and institutions, highlighting the need for collective resistance.",
+      "jurisdiction": "",
+      "federal_nexus": "",
+      "confidence": "",
+      "basis": "",
+      "actor": "",
+      "action": "",
+      "act_key": "",
+      "attacks": [],
+      "source_meta": {
+        "headline": null,
+        "published_on": null,
+        "byline": null,
+        "outlet": null,
+        "accessed_on": null,
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "hcr_events_2025-03-29_2025-06-06.json",
+      "_origin_index": 239
+    },
+    {
       "source_key": "guardian",
       "date": "2025-04-18",
       "occurred_on": "2025-04-18",
@@ -13972,6 +16067,99 @@
       "_origin_index": 1500
     },
     {
+      "source_key": "whitehouse",
+      "date": "2025-04-18",
+      "occurred_on": "2025-04-18",
+      "reported_on": "2025-04-18",
+      "dated_by": "occurred",
+      "category": "Information & Media Control",
+      "title": "Fact Sheet: President Donald J. Trump Creates New Federal Employee Category to Enhance Accountability",
+      "url": "https://www.whitehouse.gov/fact-sheets/2025/04/fact-sheet-president-donald-j-trump-creates-new-federal-employee-category-to-enhance-accountability/",
+      "summary": "",
+      "why_relevant": "",
+      "jurisdiction": "federal",
+      "federal_nexus": "Official White House channel; documents the act of publication only.",
+      "confidence": "high",
+      "basis": "official_actor_record",
+      "actor": "The White House",
+      "action": "issued a fact sheet titled \"Fact Sheet: President Donald J. Trump Creates New Federal Employee Category to Enhance Accountability\"",
+      "act_key": "white house|issued a fact sheet titled fact sheet president donald j trump creates new federal employee category to enhance accountability|2025-04-18",
+      "attacks": [],
+      "source_meta": {
+        "headline": null,
+        "published_on": null,
+        "byline": null,
+        "outlet": null,
+        "accessed_on": null,
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "whitehouse_events_2025-01-20_2026-08-14.json",
+      "_origin_index": 620
+    },
+    {
+      "source_key": "whitehouse",
+      "date": "2025-04-18",
+      "occurred_on": "2025-04-18",
+      "reported_on": "2025-04-18",
+      "dated_by": "occurred",
+      "category": "Information & Media Control",
+      "title": "Trump Administration Advances First Wave of Critical Mineral Production Projects",
+      "url": "https://www.whitehouse.gov/releases/2025/04/trump-administration-advances-first-wave-of-critical-mineral-production-projects/",
+      "summary": "",
+      "why_relevant": "",
+      "jurisdiction": "federal",
+      "federal_nexus": "Official White House channel; documents the act of publication only.",
+      "confidence": "high",
+      "basis": "official_actor_record",
+      "actor": "The White House",
+      "action": "published a release titled \"Trump Administration Advances First Wave of Critical Mineral Production Projects\"",
+      "act_key": "white house|published a release titled trump administration advances first wave of critical mineral production projects|2025-04-18",
+      "attacks": [],
+      "source_meta": {
+        "headline": null,
+        "published_on": null,
+        "byline": null,
+        "outlet": null,
+        "accessed_on": null,
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "whitehouse_events_2025-01-20_2026-08-14.json",
+      "_origin_index": 1397
+    },
+    {
+      "source_key": "whitehouse",
+      "date": "2025-04-18",
+      "occurred_on": "2025-04-18",
+      "reported_on": "2025-04-18",
+      "dated_by": "occurred",
+      "category": "Information & Media Control",
+      "title": "Week 13 Wins: President Trump’s Relentless Pursuit of Prosperity, Opportunity",
+      "url": "https://www.whitehouse.gov/releases/2025/04/week-13-wins-president-trumps-relentless-pursuit-of-prosperity-opportunity/",
+      "summary": "",
+      "why_relevant": "",
+      "jurisdiction": "federal",
+      "federal_nexus": "Official White House channel; documents the act of publication only.",
+      "confidence": "high",
+      "basis": "official_actor_record",
+      "actor": "The White House",
+      "action": "published a release titled \"Week 13 Wins: President Trump’s Relentless Pursuit of Prosperity, Opportunity\"",
+      "act_key": "white house|published a release titled week 13 wins president trump s relentless pursuit of prosperity opportunity|2025-04-18",
+      "attacks": [],
+      "source_meta": {
+        "headline": null,
+        "published_on": null,
+        "byline": null,
+        "outlet": null,
+        "accessed_on": null,
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "whitehouse_events_2025-01-20_2026-08-14.json",
+      "_origin_index": 1398
+    },
+    {
       "source_key": "federalregister",
       "date": "2025-04-18",
       "occurred_on": "2025-04-18",
@@ -14040,6 +16228,39 @@
     {
       "source_key": "federalregister",
       "date": "2025-04-18",
+      "occurred_on": "",
+      "reported_on": "2025-04-18",
+      "dated_by": "reported",
+      "category": "Economic & Regulatory Power",
+      "title": "EPA Interim Registration Decision for Dicrotophos",
+      "url": "https://www.federalregister.gov/documents/2025/04/18/2025-06666/pesticide-registration-review-interim-registration-decision-for-dicrotophos-notice-of-availability",
+      "summary": "The Environmental Protection Agency (EPA) announced the availability of its interim registration review decision for the pesticide dicrotophos. This decision is part of the EPA's periodic review process to ensure that pesticides meet statutory standards for registration, ensuring they do not pose unreasonable adverse effects on human health or the environment. The decision follows a public comment period and is supported by rationales included in the docket for dicrotophos.",
+      "why_relevant": "This decision impacts agricultural practices and environmental safety by regulating the use of a specific pesticide, ensuring compliance with health and environmental standards.",
+      "jurisdiction": "",
+      "federal_nexus": "",
+      "confidence": "",
+      "basis": "",
+      "actor": "",
+      "action": "",
+      "act_key": "",
+      "attacks": [],
+      "source_meta": {
+        "headline": null,
+        "published_on": null,
+        "byline": null,
+        "outlet": null,
+        "accessed_on": null,
+        "snapshot_url": null,
+        "durable_keys": {
+          "federal_register_doc": "2025-06666"
+        }
+      },
+      "_origin_file": "federalregister_events_2025-03-29_2025-05-09.json",
+      "_origin_index": 169
+    },
+    {
+      "source_key": "federalregister",
+      "date": "2025-04-18",
       "occurred_on": "2025-04-18",
       "reported_on": "2025-04-18",
       "dated_by": "occurred",
@@ -14102,6 +16323,39 @@
       },
       "_origin_file": "federalregister_events_2025-04-05_2025-07-25.json",
       "_origin_index": 268
+    },
+    {
+      "source_key": "hcr",
+      "date": "2025-04-18",
+      "occurred_on": "",
+      "reported_on": "2025-04-18",
+      "dated_by": "reported",
+      "category": "Economic & Regulatory Power",
+      "title": "Trump criticizes Federal Reserve chair Jerome Powell",
+      "url": "https://www.federalreserve.gov/newsevents/speech/powell20250416a.htm",
+      "summary": "President Donald Trump publicly criticized Federal Reserve chair Jerome Powell on his social media platform, claiming Powell is \"always TOO LATE AND WRONG\" and expressing a desire for Powell's termination. This statement came after Powell warned of significant economic effects from Trump's tariffs, including higher inflation and slower growth. The White House later clarified that Trump's post should not be interpreted as a direct threat to fire Powell.",
+      "why_relevant": "Trump's attack on the Federal Reserve chair raises concerns about the independence of economic institutions and the potential for political interference in monetary policy.",
+      "jurisdiction": "",
+      "federal_nexus": "",
+      "confidence": "",
+      "basis": "",
+      "actor": "",
+      "action": "",
+      "act_key": "",
+      "attacks": [
+        "rule_of_law"
+      ],
+      "source_meta": {
+        "headline": null,
+        "published_on": null,
+        "byline": null,
+        "outlet": null,
+        "accessed_on": null,
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "hcr_events_2025-03-29_2025-05-09.json",
+      "_origin_index": 103
     },
     {
       "source_key": "guardian",
@@ -14306,6 +16560,37 @@
       "_origin_index": 483
     },
     {
+      "source_key": "hcr",
+      "date": "2025-04-18",
+      "occurred_on": "",
+      "reported_on": "2025-04-18",
+      "dated_by": "reported",
+      "category": "International Relations",
+      "title": "Senator Chris Van Hollen meets with Kilmar Abrego Garcia",
+      "url": "https://www.nytimes.com/2025/04/17/us/politics/senator-chris-van-hollen-el-salvador-prison.html",
+      "summary": "Senator Chris Van Hollen (D-MD) met with Kilmar Abrego Garcia, a Maryland man imprisoned in El Salvador, after the Trump administration's failure to return him to the U.S. Van Hollen expressed his commitment to advocating for Garcia's return and communicated Garcia's message to his wife. This meeting marks a significant shift in the relationship between U.S. officials and the Salvadoran government regarding Garcia's situation.",
+      "why_relevant": "This meeting highlights the ongoing issues of due process and the treatment of U.S. citizens abroad, emphasizing the need for accountability in international relations.",
+      "jurisdiction": "",
+      "federal_nexus": "",
+      "confidence": "",
+      "basis": "",
+      "actor": "",
+      "action": "",
+      "act_key": "",
+      "attacks": [],
+      "source_meta": {
+        "headline": null,
+        "published_on": null,
+        "byline": null,
+        "outlet": null,
+        "accessed_on": null,
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "hcr_events_2025-03-29_2025-05-09.json",
+      "_origin_index": 104
+    },
+    {
       "source_key": "zeteo",
       "date": "2025-04-18",
       "occurred_on": "2025-04-18",
@@ -14338,6 +16623,37 @@
       },
       "_origin_file": "zeteo_events_2025-04-05_2025-07-25.json",
       "_origin_index": 374
+    },
+    {
+      "source_key": "defense",
+      "date": "2025-04-18",
+      "occurred_on": "2025-04-18",
+      "reported_on": "2025-04-18",
+      "dated_by": "occurred",
+      "category": "Civil–Military Relations & State Violence",
+      "title": "Statement From Chief Pentagon Spokesman Sean Parnell Announcing the Consolidation of Forces in Syria Under Combined Joint Task Force – Operation Inherent Resolve",
+      "url": "https://www.war.gov/News/Releases/Release/Article/4160500/statement-from-chief-pentagon-spokesman-sean-parnell-announcing-the-consolidati/",
+      "summary": "",
+      "why_relevant": "",
+      "jurisdiction": "federal",
+      "federal_nexus": "Official Department of War channel; documents the act of publication only.",
+      "confidence": "high",
+      "basis": "official_actor_record",
+      "actor": "The Department of War",
+      "action": "issued a press release titled \"Statement From Chief Pentagon Spokesman Sean Parnell Announcing the Consolidation of Forces in Syria Under Combined Joint Task Force – Operation Inherent Resolve\"",
+      "act_key": "department war|issued a press release titled statement from chief pentagon spokesman sean parnell announcing the consolidation of forces in syria under combined joint task force operation inherent resolve|2025-04-18",
+      "attacks": [],
+      "source_meta": {
+        "headline": null,
+        "published_on": null,
+        "byline": null,
+        "outlet": null,
+        "accessed_on": null,
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "defense_events_2025-01-20_2026-08-14.json",
+      "_origin_index": 323
     },
     {
       "source_key": "guardian",
