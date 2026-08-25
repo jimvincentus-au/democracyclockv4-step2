@@ -37,7 +37,11 @@ HARVESTER_SPECS: Dict[str, Tuple[str, str]] = {
     "noah": ("step2_getnoah_v4", "run_harvester"),
     # Official actor channels added 2026-08-25 (whitehouse.gov TOXIC ruling withdrawn).
     # These document their OWN acts and statements and NEVER corroborate.
-    "whitehouse": ("step2_getwhitehouse_v1", "run_harvester"),
+    # v2 (2026-08-26): sitemap-first discovery. v1 walked the typed subcategory
+    # listings, which are truncated at the source — /presidential-actions/
+    # executive-orders/ ends at 2025-03-19, so weeks 1–9 returned fact sheets and
+    # releases but ZERO instruments. See the version history in the module docstring.
+    "whitehouse": ("step2_getwhitehouse_v2", "run_harvester"),
     "defense": ("step2_getdefense_v1", "run_harvester"),
     "justice": ("step2_getjustice_v1", "run_harvester"),
     # Right-wing / contrarian sources added 2026-05

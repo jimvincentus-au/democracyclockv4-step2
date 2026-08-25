@@ -41,7 +41,9 @@ BUILDER_SPECS: Dict[str, Tuple[str, str]] = {
     # Official actor channels added 2026-08-25. All three are DETERMINISTIC
     # builders (zero LLM calls): the document IS the event, so no extraction
     # model is needed and none of them incurs per-item cost.
-    "whitehouse": ("step2_buildwhitehouse_deterministic_v1", "run_builder"),
+    # v2 (2026-08-26): routes the untyped presidential action that getwhitehouse v2
+    # can now emit, instead of letting it default into Information & Media Control.
+    "whitehouse": ("step2_buildwhitehouse_deterministic_v2", "run_builder"),
     "defense": ("step2_builddefense_deterministic_v1", "run_builder"),
     "justice": ("step2_buildjustice_deterministic_v1", "run_builder"),
     # Right-wing / contrarian sources added 2026-05
