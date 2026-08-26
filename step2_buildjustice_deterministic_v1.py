@@ -113,6 +113,106 @@ def _route_category(components: List[str], stage: Optional[str]) -> str:
     return DEFAULT_CATEGORY
 
 
+_STAGE_PHRASE = {
+    "investigation_announced": "an announced investigation",
+    "complaint_filed": "a complaint filed",
+    "indictment_returned": "an indictment returned",
+    "information_filed": "an information filed",
+    "arrest_made": "an arrest",
+    "plea_entered": "a plea entered",
+    "conviction_after_trial": "a conviction after trial",
+    "sentence_imposed": "a sentence imposed",
+    "judgment_entered": "a judgment entered",
+    "case_dismissed": "a case dismissed",
+    "appeal_filed": "an appeal filed",
+    "consent_decree_entered": "a consent decree entered",
+    "consent_decree_proposed": "a consent decree proposed",
+}
+
+
+# Longest verbatim extract carried into a summary. DOJ teasers run to a median of
+# 339 characters; this bounds the tail without truncating most of them.
+_VERBATIM_MAX = 420
+
+
+def _verbatim_clause(text: str, attribution: str) -> str:
+    """
+    Append DOJ's OWN WORDS, quoted and attributed. Added 2026-08-26. Identical
+    rationale to step2_builddefense_deterministic_v1._verbatim_clause.
+
+    WHY THE QUOTATION MARKS ARE THE WHOLE POINT.
+        This channel is the government's account of itself — `never_corroborates`
+        is already True on every record. The teaser gives Step 3's trait sensor and
+        Step 7's appendix selector something to judge, and both read the summary.
+        It must never be mistakable for the chronicle's own assertion, so it is
+        quoted and attributed inside the same sentence.
+
+    THIS MATTERS MORE HERE THAN ANYWHERE ELSE IN THE PIPELINE.
+        A DOJ teaser routinely describes conduct alleged against a named private
+        individual. The stage sentence built below already marks unadjudicated
+        allegations as unadjudicated; the quotation marks make the second, separate
+        point that the account itself is the Department's. Both are required — one
+        without the other would state an accusation in the chronicle's voice.
+
+    No model is involved; the text is copied, bounded and quoted.
+    """
+    t = " ".join((text or "").split())
+    if not t:
+        return ""
+    if len(t) > _VERBATIM_MAX:
+        cut = t[:_VERBATIM_MAX]
+        stop = max(cut.rfind(". "), cut.rfind("? "), cut.rfind("! "))
+        if stop > _VERBATIM_MAX // 2:
+            t = cut[:stop + 1]
+        else:
+            sp = cut.rfind(" ")
+            t = (cut[:sp] if sp > 0 else cut) + " …"
+    # Inner double quotes would break the outer quotation; single them. Curly
+    # pairs must be included — DOJ teasers routinely open with one, which
+    # otherwise renders as a doubled quote mark ("“Today the Department...).
+    t = t.translate(str.maketrans({'"': "'", "“": "'", "”": "'"})).strip()
+    return f' {attribution}: "{t}"'
+
+
+def _act_summary(e: Dict[str, Any], source_date: str, stage: Optional[str],
+                 comps: List[str]) -> str:
+    """
+    A TEMPLATED, ACT-DESCRIPTIVE summary. Added 2026-08-26. Same rationale as the
+    White House and Defense builders: measured that day, an event with an empty
+    `summary` is invisible to Step 3's trait sensor and Step 7's appendix selector,
+    so all 551 DOJ events were harvested, built, written and then silently dropped.
+
+    DOJ ALSO CARRIES THE LEGAL STAGE, AND THAT BELONGS HERE.
+        The stage is the difference between an allegation and an adjudication, and
+        it is the one thing a downstream reader most needs and is most likely to
+        lose. Where the stage is unadjudicated this sentence says so explicitly —
+        structurally, not as a disclaimer copied from DOJ's own boilerplate.
+
+    Contains only fields already held: who announced, when, which component, and
+    the recorded stage. It never describes, paraphrases or endorses the conduct
+    alleged, and no model is involved.
+    """
+    when = source_date or "an unrecorded date"
+    lead = f"{ACTOR} announced this on {when}"
+    if comps:
+        lead += f" through {comps[0]}"
+    lead += "."
+
+    out = lead
+    if stage:
+        phrase = _STAGE_PHRASE.get(stage, stage.replace("_", " "))
+        out += f" The recorded stage is {phrase}."
+        if stage in UNADJUDICATED:
+            out += (" The allegations are unadjudicated; this documents the "
+                    "announcement, not the truth of any allegation.")
+
+    # The quotation goes LAST, after the unadjudicated warning, so no reader
+    # meets the Department's account of the conduct before the caveat on it.
+    out += _verbatim_clause(e.get("doj_teaser_verbatim"),
+                            "The department's own account of it reads")
+    return out
+
+
 def _event_from_entity(e: Dict[str, Any]) -> Dict[str, Any]:
     title = (e.get("title") or "").strip()
     url = (e.get("canonical_url") or e.get("url") or "").strip()
@@ -131,9 +231,10 @@ def _event_from_entity(e: Dict[str, Any]) -> Dict[str, Any]:
         "occurred_on": source_date,
         "title": title,
         "url": url,
-        # Empty by design: the teaser is DOJ's own account of its announcement,
-        # retained verbatim below but never rendered as our prose.
-        "summary": "",
+        # Templated act description (2026-08-26). The teaser remains DOJ's own
+        # account and is still never rendered as our prose — this sentence describes
+        # only the act of announcement plus the legal stage. See _act_summary.
+        "summary": _act_summary(e, source_date, stage, comps),
         "why_relevant": "",
         "category": _route_category(comps, stage),
         "sources": [url] if url else [],

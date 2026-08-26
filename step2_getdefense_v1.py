@@ -364,14 +364,37 @@ def run_harvester(
         dates = [i["post_date"] for i in items if i.get("post_date")]
         logger.info("DEF[%s]: %d items%s", chan["key"], len(items),
                     f" span={min(dates)}..{max(dates)}" if dates else "")
-        # The feed caps at FEED_MAX. If the oldest item is still inside the window,
-        # earlier material exists that this feed cannot reach — say so rather than
-        # letting a truncated harvest look complete.
-        if dates and len(items) >= FEED_MAX and min(dates) > start:
-            logger.warning(
-                "DEF[%s]: feed hit the %d-item cap and its oldest item (%s) is still "
-                "inside the window — earlier items are NOT reachable via RSS.",
-                chan["key"], FEED_MAX, min(dates))
+        # The feed caps at FEED_MAX — measured 2026-08-26, the server ignores any
+        # larger max and returns exactly 500. Items come newest-first, so the harvest
+        # is COMPLETE for the window precisely while the feed's oldest item predates
+        # the window start; there is no way to page past the cap.
+        #
+        # Two conditions, because the first one arrives too late to act on.
+        if dates and len(items) >= FEED_MAX:
+            oldest = min(dates)
+            if oldest > start:
+                # Coverage has ALREADY been lost.
+                logger.warning(
+                    "DEF[%s]: feed hit the %d-item cap and its oldest item (%s) is still "
+                    "inside the window — earlier items are NOT reachable via RSS.",
+                    chan["key"], FEED_MAX, oldest)
+            else:
+                # Still complete, but the cap is a sliding window: every item the
+                # department publishes pushes the oldest one off the end. Measured
+                # 2026-08-26, Releases had 35 items of slack at ~27/month — roughly
+                # six weeks before it could no longer reproduce 2025-01-20. Warn while
+                # there is still time to re-harvest, not after the fact.
+                headroom = sum(1 for d in dates if d < start)
+                if headroom <= FEED_MAX * 0.10:
+                    logger.warning(
+                        "DEF[%s]: feed is complete for this window but has only %d of "
+                        "%d items of slack before the cap slides past %s. Re-harvest "
+                        "soon; once it slides, the early weeks are unrecoverable from "
+                        "RSS and only the committed weekly indexes hold them.",
+                        chan["key"], headroom, FEED_MAX, start)
+                else:
+                    logger.info("DEF[%s]: cap headroom %d item(s) before %s",
+                                chan["key"], headroom, start)
         full_snapshot.extend(items)
         polite_sleep()
 

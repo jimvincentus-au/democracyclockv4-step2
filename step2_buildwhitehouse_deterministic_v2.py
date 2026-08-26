@@ -145,6 +145,74 @@ def _quote(title: str) -> str:
     return f'"{t}"'
 
 
+_CHANNEL_PHRASE = {
+    "executive_orders": "its executive-orders channel",
+    "proclamations": "its proclamations channel",
+    "presidential_memoranda": "its presidential-memoranda channel",
+    "nominations_appointments": "its nominations-and-appointments channel",
+    "fact_sheets": "its fact-sheets channel",
+    "releases": "its releases channel",
+    "briefings_statements": "its briefings-and-statements channel",
+}
+
+
+def _act_summary(e: Dict[str, Any], source_date: str, instrument: str) -> str:
+    """
+    A TEMPLATED, ACT-DESCRIPTIVE summary. Added 2026-08-26.
+
+    WHY THIS EXISTS, AND WHY IT IS NOT A SUMMARY OF THE CONTENT
+        This builder deliberately left `summary` empty: summarising a release
+        titled "President Trump Delivers Largest Drop in Violent Crime in American
+        History" would restate that CLAIM in our voice. That reasoning stands and
+        nothing here softens it — this sentence never touches what was asserted.
+
+        But measured 2026-08-26, the empty field had a consequence nobody intended.
+        Step 3's trait sensor and Step 7's appendix selector both judge an event
+        from its content, so an event with no summary is invisible to both:
+
+            source            n   summary  attacks  trait  selected
+            federalregister  29        29        6      4        16
+            whitehouse       27         0        0      0         0
+
+        Federal Register events carry summaries and almost no attacks, and 55% of
+        them are still selected. The summary — not the attack tags — is the gate.
+        With this field blank, every official-channel event was harvested, built,
+        written, trait-scored and then silently discarded at Step 7.
+
+    WHAT IT MAY CONTAIN
+        Only facts this builder already holds as fields: who published, on what
+        date, through which channel, as what instrument, and — where the Federal
+        Register join resolved — the instrument's citation of record. Every clause
+        is about the ACT OF PUBLICATION. Nothing describes, paraphrases, endorses
+        or evaluates the content, and no model is involved.
+    """
+    who = ACTOR
+    when = source_date or "an unrecorded date"
+    channel = _CHANNEL_PHRASE.get(e.get("wh_channel") or "", "its official channel")
+
+    if instrument == "presidential_action":
+        # Instrument unresolved — say exactly that rather than implying a type.
+        lead = (f"{who} published this presidential action on {when} through "
+                f"{channel}. Its instrument type could not be established from the "
+                f"source's own taxonomy or the Federal Register.")
+    else:
+        readable = instrument.replace("_", " ")
+        lead = f"{who} published this {readable} on {when} through {channel}."
+
+    eo = e.get("executive_order_number")
+    fr_date = (e.get("fr_publication_date") or "").strip()
+    fr_sub = (e.get("fr_subtype") or "").strip()
+    if eo:
+        tail = (f" The Federal Register published it as Executive Order {eo}"
+                + (f" on {fr_date}." if fr_date else "."))
+    elif fr_sub and fr_date:
+        tail = f" The Federal Register published it as a {fr_sub.lower()} on {fr_date}."
+    else:
+        tail = ""
+
+    return lead + tail
+
+
 def _event_from_entity(e: Dict[str, Any]) -> Dict[str, Any]:
     title = (e.get("title") or "").strip()
     url = (e.get("canonical_url") or e.get("url") or "").strip()
@@ -164,7 +232,7 @@ def _event_from_entity(e: Dict[str, Any]) -> Dict[str, Any]:
         "title": title,
         "url": url,
         # Empty by design — see module docstring.
-        "summary": "",
+        "summary": _act_summary(e, source_date, instrument),
         "why_relevant": "",
         "category": CATEGORY_BY_INSTRUMENT.get(instrument, DEFAULT_CATEGORY),
         "sources": [url] if url else [],

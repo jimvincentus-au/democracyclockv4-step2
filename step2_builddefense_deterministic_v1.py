@@ -122,6 +122,92 @@ def _quote(s: str) -> str:
     return '"' + (s or "").strip().replace('"', "'") + '"'
 
 
+_SUBTYPE_PHRASE = {
+    "casualty_identification": "a casualty identification",
+    "contract_announcement": "a contract announcement",
+}
+
+# Longest verbatim extract carried into a summary. The standfirsts run to a
+# median of 167 characters; this bounds the tail without truncating most of them.
+_VERBATIM_MAX = 420
+
+
+def _verbatim_clause(text: str, attribution: str) -> str:
+    """
+    Append the source's OWN WORDS, quoted and attributed. Added 2026-08-26.
+
+    WHY THE QUOTATION MARKS ARE THE WHOLE POINT.
+        This channel is the government's account of itself — `never_corroborates`
+        is already True on every record it produces. Carrying the standfirst gives
+        Step 3's trait sensor and Step 7's appendix selector something to judge,
+        both of which read the summary and had nothing to read before. But it must
+        never be mistakable for the chronicle's own assertion, so it is quoted and
+        attributed inside the same sentence. The event is real; the claim inside it
+        is the department's, not ours.
+
+    Measured 2026-08-26 on week 5: the act-descriptive summary alone recovered the
+    White House channel (0 -> 10 of 27 into the appendix) because a White House
+    title plus instrument type carries its own meaning. It did NOT recover Defense
+    (0 of 9), because "published a release through its releases channel" says
+    nothing about what the release said. The DoD probationary-workforce statement —
+    the department's own confirmation of the purge that was the week's lead story
+    everywhere else — was dropped for exactly that reason.
+
+    No model is involved; the text is copied, bounded and quoted.
+    """
+    t = " ".join((text or "").split())
+    if not t:
+        return ""
+    if len(t) > _VERBATIM_MAX:
+        cut = t[:_VERBATIM_MAX]
+        # Prefer a sentence end; fall back to a word boundary. Never mid-word.
+        stop = max(cut.rfind(". "), cut.rfind("? "), cut.rfind("! "))
+        if stop > _VERBATIM_MAX // 2:
+            t = cut[:stop + 1]
+        else:
+            sp = cut.rfind(" ")
+            t = (cut[:sp] if sp > 0 else cut) + " …"
+    # Inner double quotes would break the outer quotation; single them. Curly
+    # pairs must be included — DOJ teasers routinely open with one, which
+    # otherwise renders as a doubled quote mark ("“Today the Department...).
+    t = t.translate(str.maketrans({'"': "'", "“": "'", "”": "'"})).strip()
+    return f' {attribution}: "{t}"'
+
+
+def _act_summary(e: Dict[str, Any], source_date: str, subtype: str) -> str:
+    """
+    A TEMPLATED, ACT-DESCRIPTIVE summary. Added 2026-08-26. See the identical
+    rationale in step2_buildwhitehouse_deterministic_v2._act_summary.
+
+    Measured 2026-08-26: an event with an empty `summary` is invisible to Step 3's
+    trait sensor and Step 7's appendix selector, both of which judge from content.
+    All 616 defense events were being harvested, built, written — and then silently
+    discarded before reaching the appendix, the Clock or the books.
+
+    This sentence contains only fields this builder already holds: who published,
+    when, and through which channel. It never describes, paraphrases or endorses
+    what was announced, and no model is involved.
+    """
+    when = source_date or "an unrecorded date"
+    channel = (e.get("def_channel") or "").replace("_", " ").strip()
+    if subtype in _SUBTYPE_PHRASE:
+        kind = _SUBTYPE_PHRASE[subtype]
+    elif subtype:
+        word = subtype.replace("_", " ")
+        kind = f"{'an' if word[:1].lower() in 'aeiou' else 'a'} {word}"
+    else:
+        kind = "this item"
+    where = f" through its {channel} channel" if channel else " through an official channel"
+    out = f"{ACTOR} published {kind} on {when}{where}."
+    # Casualty identifications already carry the standfirst as the event text
+    # (see STANDFIRST_SUBTYPES in _event_from_entity); repeating it here would
+    # duplicate the same sentence in every downstream render.
+    if subtype not in STANDFIRST_SUBTYPES:
+        out += _verbatim_clause(e.get("def_standfirst_verbatim"),
+                                "The department's own account of it reads")
+    return out
+
+
 def _event_from_entity(e: Dict[str, Any]) -> Dict[str, Any]:
     title = (e.get("title") or "").strip()
     url = (e.get("canonical_url") or e.get("url") or "").strip()
@@ -144,9 +230,10 @@ def _event_from_entity(e: Dict[str, Any]) -> Dict[str, Any]:
         "occurred_on": source_date,
         "title": title,
         "url": url,
-        # Empty by design: the standfirst is the department's own account of its
-        # announcement, retained verbatim below but never rendered as our prose.
-        "summary": "",
+        # Templated act description (2026-08-26). The standfirst remains the
+        # department's own account and is still never rendered as our prose — this
+        # sentence describes only the act of publication. See _act_summary.
+        "summary": _act_summary(e, source_date, subtype),
         "why_relevant": "",
         "category": _route_category(title, subtype),
         "sources": [url] if url else [],
