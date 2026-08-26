@@ -1192,6 +1192,223 @@ A single, structured event capturing the operative judicial act, who issued it, 
 
 # =======================================================================
 
+# ---------------------------------------------------------------------------
+# OFFICIAL FIRST-PARTY GOVERNMENT CHANNELS (added 2026-08-26)
+#
+# whitehouse / defense / justice were originally built by deterministic, zero-LLM
+# builders that bypassed this prompt system entirely. That bypass was adopted to
+# stop an extractor restating the government's claims about itself as established
+# fact -- a real risk, demonstrated 2026-08-26: run without a system prompt, the
+# extractor asserted White House claims as fact.
+#
+# But the bypass also skipped the canonical block, so these events arrived with
+# `summary`, `why_relevant` and `attacks` empty while all thirteen other sources
+# had them populated. They were then invisible to Step 7's appendix selector and
+# Step 3's trait sensor, both of which judge from content: harvested, built,
+# written, and silently dropped.
+#
+# The correct home for a source-specific handling rule is a preface. These three
+# encode the speech-act rule -- THE ACT IS THE ISSUANCE, the claim is attributed
+# and never adopted -- and rely on the Canonical Extraction Protocol to produce
+# THE SAME SHAPE as every other source. Nothing downstream needs to know these
+# channels exist, which is the point.
+#
+# Each declares ONE-ACT-PER-RECORD, honoured per the protocol's SCOPE section:
+# the issuance is the event even when the content is purely promotional. That is
+# what the deterministic builders were really protecting, and it is available
+# here without leaving the common path.
+# ---------------------------------------------------------------------------
+
+PREFACE_WHITEHOUSE: str = """
+SOURCE: The White House — whitehouse.gov presidential actions and briefings/statements.
+TYPE: First-party executive instruments and the communications issued alongside them.
+STYLE: Formal instrument text (orders, proclamations, memoranda) and promotional framing (fact sheets, releases) published under the same masthead.
+AUDIENCE: Readers tracking what the executive actually ordered, as distinct from what it said about what it ordered.
+
+DATA INPUTS:
+• Each record is one published document with an official title, canonical URL and post date.
+• Each represents exactly ONE published instrument — this source is ONE-ACT-PER-RECORD.
+• `wh_instrument_type` states what was published: executive_order, proclamation, memorandum, nominations, fact_sheet, release, or presidential_action where the type could not be established.
+• Where the Federal Register published the same document, `executive_order_number`, `fr_subtype` and `fr_publication_date` carry the confirmation.
+• Treat these as official ACTS OF ISSUANCE by the executive, not as news reports.
+
+THE ACT IS THE ISSUANCE — READ THIS TWICE:
+• The event is that the White House PUBLISHED this document on this date. That is true regardless of whether anything in the document is true.
+• Titles routinely assert outcomes ("Reins in Independent Agencies", "Reduces the Federal Bureaucracy"). Those are the administration's characterisations of its own act, not established results.
+• NEVER convert a title's framing into an accomplished outcome. "Fact Sheet: President Trump Reduces the Federal Bureaucracy" is an issued fact sheet claiming a reduction — it is not evidence that the bureaucracy was reduced.
+• Where the document asserts effects, figures or achievements, attribute them: "the order states", "the fact sheet claims". Never assert them in your own voice.
+• An executive order's OPERATIVE DIRECTION is a different matter: what the order directs officials to do IS the act, and may be described plainly.
+
+TEXT CHARACTERISTICS:
+• Instrument text is directive and specific; fact sheets and releases are promotional and often restate an instrument published separately.
+• A fact sheet and the order it promotes are TWO records and remain two events. Do not merge them.
+
+EXPECTED OUTPUT BEHAVIOR:
+1. Coverage: emit exactly one event per record. Do not decline a record because its content is promotional — the issuance is the event.
+2. Actor: "The White House", or the President where the instrument is signed personally.
+3. Action: name the instrument, not the title's framing — e.g. "signed executive order", "issued fact sheet", "issued proclamation", "sent nominations".
+4. Summary: state who published what, on what date, through which channel, and what the instrument directs. Attribute every claimed effect.
+5. Why Relevant: assess why THE ACT bears on democratic structure — what power it asserts, what office it reorganises, what constraint it removes. This is an assessment of the act, not an endorsement of the document's claims, and it is required.
+6. Neutrality: never infer motive; never adopt the document's adjectives.
+
+CATEGORY DISCIPLINE:
+Assign to the substantive domain the instrument most directly affects:
+1. Executive Actions & Orders
+2. Legislative & Oversight Activity
+3. Judicial Developments
+4. Law Enforcement & Surveillance
+5. Elections & Representation
+6. Civil Society & Protest
+7. Information & Media Control
+8. Economic & Regulatory Power
+9. Appointments & Patronage
+10. Transparency & Records
+11. International Relations
+12. Civil–Military Relations & State Violence
+An order reorganising an agency → "Executive Actions & Orders". A nominations announcement → "Appointments & Patronage". A fact sheet whose only content is promotional framing → the domain of the act it promotes, NOT "Information & Media Control".
+
+DATE RULE:
+• Prefer the document's signing date where stated; otherwise the provided `post_date`.
+• Where the Federal Register confirms a signing date, that date governs.
+
+SOURCE LINE:
+• Use the canonical whitehouse.gov URL. Where an Executive Order number is known, the Federal Register URL may be added.
+
+OUTPUT HANDOFF:
+• After applying this White House-specific guidance, follow the ATTACKS FIELD instructions and the Canonical Extraction Protocol that follow this preface.
+• Do not restate output schema or footer rules here — the canonical block defines the authoritative format.
+""".strip()
+
+
+PREFACE_DEFENSE: str = """
+SOURCE: U.S. Department of War (war.gov) — releases, advisories, transcripts and speeches.
+TYPE: First-party departmental communications: announcements, readouts, media advisories, casualty identifications and contract announcements.
+STYLE: Institutional press writing — declarative, frequently promotional about procurement figures and alliance activity.
+AUDIENCE: Readers tracking the department's own account of what it is doing, including its use of force, its workforce and its money.
+
+DATA INPUTS:
+• Each record is one published item with an official title, canonical URL and post date.
+• Each represents exactly ONE published item — this source is ONE-ACT-PER-RECORD.
+• `def_subtype` states the kind: release, advisory, transcript, speech, casualty_identification, contract_announcement.
+• `def_standfirst_verbatim` carries the department's own opening summary, verbatim.
+• Treat these as official ACTS OF PUBLICATION by the department, not as news reports.
+
+THE ACT IS THE PUBLICATION — READ THIS TWICE:
+• The event is that the department PUBLISHED this item on this date.
+• Titles routinely assert money and outcomes: "Announces a $750 Million Investment", "Awards a Nearly $7 Billion Agreement". These are announced CEILINGS and CONDITIONAL COMMITMENTS, not obligated funds and not completed transactions.
+• NEVER report an announced figure as money spent, awarded or received. Say what was announced, and attribute it.
+• Where the standfirst describes effects or agreements, attribute them: "the department states". Never assert them in your own voice.
+
+CASUALTY IDENTIFICATIONS — the one documented exception (author ruling 2026-08-25):
+• Titles are uninformative by design ("DOW Identifies Army Casualties"); the standfirst carries the identity, place and circumstance.
+• For this sub-type, build the event from the standfirst. The department is the authoritative record for its own personnel, so these facts may be stated plainly.
+
+TEXT CHARACTERISTICS:
+• Many items are diplomatic readouts of calls and meetings with counterparts. These are genuine acts of publication but frequently carry no democratic stake — the Canonical Protocol's relevance test governs, not this preface.
+• Advisories are logistical (media invitations, briefing schedules) and are usually chaff.
+
+EXPECTED OUTPUT BEHAVIOR:
+1. Coverage: emit exactly one event per record.
+2. Actor: "The Department of War", or the named official where the item is a personal statement.
+3. Action: name the publication act and its kind — e.g. "issued press release", "announced contract", "identified casualty", "issued media advisory".
+4. Summary: state who published what, on what date, and what the item says, with claims attributed.
+5. Why Relevant: assess why THE ACT bears on democratic structure — civilian control of the military, workforce and personnel power, procurement and public money, detention and military justice, or domestic deployment. Where an item genuinely bears on none of these, say so plainly; do not manufacture significance.
+6. Neutrality: never infer motive; never adopt promotional adjectives.
+
+CATEGORY DISCIPLINE:
+Assign to the substantive domain most directly affected:
+1. Executive Actions & Orders
+2. Legislative & Oversight Activity
+3. Judicial Developments
+4. Law Enforcement & Surveillance
+5. Elections & Representation
+6. Civil Society & Protest
+7. Information & Media Control
+8. Economic & Regulatory Power
+9. Appointments & Patronage
+10. Transparency & Records
+11. International Relations
+12. Civil–Military Relations & State Violence
+A procurement announcement → "Economic & Regulatory Power". A bilateral readout → "International Relations". A military commission hearing → "Judicial Developments". A workforce or personnel action → "Civil–Military Relations & State Violence".
+
+DATE RULE:
+• Use the provided `post_date` unless the item states an operative date for the act itself.
+
+SOURCE LINE:
+• Use the canonical war.gov URL.
+
+OUTPUT HANDOFF:
+• After applying this Department of War-specific guidance, follow the ATTACKS FIELD instructions and the Canonical Extraction Protocol that follow this preface.
+• Do not restate output schema or footer rules here — the canonical block defines the authoritative format.
+""".strip()
+
+
+PREFACE_JUSTICE: str = """
+SOURCE: U.S. Department of Justice (justice.gov/opa) — Office of Public Affairs press releases.
+TYPE: First-party announcements of enforcement action, litigation posture, policy and personnel.
+STYLE: Formal prosecutorial announcements, frequently naming private individuals and describing conduct alleged against them.
+AUDIENCE: Readers tracking how federal legal power is used — against whom, at whose direction, and at what stage.
+
+DATA INPUTS:
+• Each record is one press release with an official title, canonical URL and post date.
+• Each represents exactly ONE announcement — this source is ONE-ACT-PER-RECORD.
+• `doj_components` names the announcing component (Office of the Attorney General, Civil Rights Division, Antitrust Division, and so on).
+• `legal_stage` states the recorded posture: investigation_announced, complaint_filed, indictment_returned, information_filed, arrest_made, plea_entered, conviction_after_trial, sentence_imposed, judgment_entered, case_dismissed, appeal_filed, settlement_executed, consent_decree_proposed, consent_decree_entered.
+• `doj_teaser_verbatim` carries the department's own opening summary, verbatim.
+• Treat these as official ACTS OF ANNOUNCEMENT by the department, not as findings of fact.
+
+THE ACT IS THE ANNOUNCEMENT — READ THIS TWICE:
+• The event is that the department ANNOUNCED this on this date. An announcement is not an adjudication.
+• AN ALLEGATION IS NOT A FINDING. At the stages investigation_announced, complaint_filed, indictment_returned, information_filed and arrest_made, nothing has been proven. Say what was alleged and by whom; never state alleged conduct as fact.
+• Name the recorded stage in the summary. The stage is the difference between an accusation and a judgment and it is the thing a reader most easily loses.
+• At conviction_after_trial, sentence_imposed and judgment_entered, a court has acted and the outcome may be stated plainly as a court outcome.
+• Where the release characterises its own conduct ("the largest settlement ever obtained"), attribute the characterisation.
+
+PRIVATE INDIVIDUALS:
+• These releases name private people, many of them ordinary criminal defendants with no democratic significance whatever.
+• Routine federal prosecution is NOT a democracy event merely because DOJ announced it. Apply the Canonical Protocol's relevance test honestly: a jail administrator charged with assaulting a detainee is the Civil Rights Division working correctly, not an attack on anything.
+• Reserve significance for acts that bear on how legal power itself is directed: prosecutions of officials or critics, dropped or redirected cases, policy and charging changes, consent-decree withdrawals, personnel and leadership changes, and departmental positions on the law.
+
+TEXT CHARACTERISTICS:
+• The Office of the Attorney General component carries the institutional material — policy, personnel, nominations and departmental positions. The litigating divisions carry mostly case work.
+
+EXPECTED OUTPUT BEHAVIOR:
+1. Coverage: emit exactly one event per record.
+2. Actor: "The Department of Justice", or the named official where the item is a personal statement.
+3. Action: name the announcement act and its stage — e.g. "announced indictment", "announced settlement", "announced policy change", "announced nominations".
+4. Summary: state who announced what, on what date, through which component, and the recorded stage. Attribute all alleged conduct.
+5. Why Relevant: assess why THE ACT bears on democratic structure — the independence of prosecution, the direction of legal power, equal application of law. Where a release is ordinary law enforcement with no such bearing, say so plainly; do not manufacture significance.
+6. Neutrality: never infer motive; never adopt prosecutorial adjectives.
+
+CATEGORY DISCIPLINE:
+Assign to the substantive domain most directly affected:
+1. Executive Actions & Orders
+2. Legislative & Oversight Activity
+3. Judicial Developments
+4. Law Enforcement & Surveillance
+5. Elections & Representation
+6. Civil Society & Protest
+7. Information & Media Control
+8. Economic & Regulatory Power
+9. Appointments & Patronage
+10. Transparency & Records
+11. International Relations
+12. Civil–Military Relations & State Violence
+An enforcement stage that has reached a court → "Judicial Developments". Pre-court enforcement → "Law Enforcement & Surveillance". Departmental policy or a legal position → "Executive Actions & Orders". Nominations or leadership → "Appointments & Patronage". Voting Section matters → "Elections & Representation".
+
+DATE RULE:
+• Use the provided `post_date` unless the release states an operative court date for the act itself.
+
+SOURCE LINE:
+• Use the canonical justice.gov URL.
+
+OUTPUT HANDOFF:
+• After applying this Department of Justice-specific guidance, follow the ATTACKS FIELD instructions and the Canonical Extraction Protocol that follow this preface.
+• Do not restate output schema or footer rules here — the canonical block defines the authoritative format.
+""".strip()
+
+# =======================================================================
+
 # Registry for easy lookup
 _SUBSTACK_PREFACES: Dict[str, str] = {
     "meidas": PREFACE_MEIDAS,
@@ -1215,6 +1432,11 @@ _SUBSTACK_PREFACES: Dict[str, str] = {
 
     # Federal Register
     "federalregister": PREFACE_FEDERAL_REGISTER,
+
+    # Official first-party government channels (2026-08-26)
+    "whitehouse": PREFACE_WHITEHOUSE,
+    "defense": PREFACE_DEFENSE,
+    "justice": PREFACE_JUSTICE,
 
     # Just Security (litigation tracker)
     "justsecurity": PREFACE_JUSTSECURITY,
@@ -1245,6 +1467,14 @@ _PREFACE_ALIASES: dict[str, str] = {
     "congress_gov": "congress",
 
     "fr": "federalregister",          # if any harvester uses the short form
+
+    "white_house": "whitehouse",
+    "white-house": "whitehouse",
+    "wh": "whitehouse",
+    "war": "defense",
+    "dod": "defense",
+    "dow": "defense",
+    "doj": "justice",
 
     "just_security": "justsecurity",
     "just-security": "justsecurity",
