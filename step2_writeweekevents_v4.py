@@ -40,6 +40,9 @@ CATEGORY_ORDER = [
 ]
 
 # Render targets
+# Week 1 begins 2025-01-20. The chronicle has no events before it.
+CHRONICLE_START = date(2025, 1, 20)
+
 MASTER_TXT_NAME = "master_events_{start}_{end}.txt"
 MASTER_IDX_NAME = "master_index_{start}_{end}.json"
 
@@ -178,6 +181,12 @@ def _parse_args() -> argparse.Namespace:
         "--rebuild-all",
         action="store_true",
         help="Rebuild master and weekly indexes from all existing event JSON files, ignoring date window arguments."
+    )
+    ap.add_argument(
+        "--allow-out-of-window",
+        action="store_true",
+        help="Keep events dated before week 1 (2025-01-20) or after today. Default is "
+             "to drop them, counted and logged. See the CHRONICLE WINDOW block."
     )
     return ap.parse_args()
 
@@ -743,6 +752,66 @@ def main() -> int:
 
     # Collapse cross-extraction duplicates before counting / sorting / writing.
     all_rows = _dedupe_rows(all_rows, file_mtime, logger)
+
+    # ── CHRONICLE WINDOW ───────────────────────────────────────────────────────
+    #
+    # The chronicle covers week 1 (2025-01-20) to today. Anything outside that is
+    # an extraction artefact, not coverage, and it poisons the derived window and
+    # the weekly index files.
+    #
+    # Measured 2026-08-27 on a 39,226-event corpus: 402 rows (1.02%) out of range
+    # -- 352 before week 1, 48 after today, 2 undated. The --rebuild-all window
+    # was being derived as 1775-04-19 .. 4025-06-11, and weekly indexes were
+    # written for week 52199 and week 104376.
+    #
+    # TWO RECURRING CAUSES, which is why this is a standing filter and not a
+    # one-off purge:
+    #   • BEFORE: Heather Cox Richardson writes history. The extractor correctly
+    #     records the burning of Falmouth (1775-10-18) and Maine's admission
+    #     (1820-03-15). Real events; not acts of this administration.
+    #   • AFTER: Federal Register notices ANNOUNCE future meetings -- the
+    #     announcement is in-window, the extracted date is the meeting's. Plus
+    #     outright corrupt values (3025-06-11, 4025-06-11).
+    #
+    # Dropped rows are COUNTED AND LOGGED, never silently discarded.
+    #
+    # OPEN QUESTION, logged not fixed (2026-08-27): an FR notice announcing a
+    # September meeting is a real in-window act, and dropping it loses the
+    # announcement. The alternative is to date such events by `reported_on`
+    # rather than `occurred_on` when the latter is in the future. That changes
+    # dating semantics pipeline-wide (see EventRow.dated_by) and is deliberately
+    # NOT done here.
+    if not getattr(args, "allow_out_of_window", False):
+        _lo = CHRONICLE_START
+        _hi = date.today()
+        _keep, _before, _after, _undated = [], [], [], []
+        for _r in all_rows:
+            if _r.date_obj is None:
+                _undated.append(_r)
+            elif _r.date_obj < _lo:
+                _before.append(_r)
+            elif _r.date_obj > _hi:
+                _after.append(_r)
+            else:
+                _keep.append(_r)
+        _dropped = len(_before) + len(_after) + len(_undated)
+        if _dropped:
+            logger.warning(
+                "Chronicle window %s..%s: dropped %d of %d rows "
+                "(%d before week 1, %d after today, %d undated). "
+                "Use --allow-out-of-window to keep them.",
+                _lo.isoformat(), _hi.isoformat(), _dropped, len(all_rows),
+                len(_before), len(_after), len(_undated))
+            for _lbl, _grp in (("before", _before), ("after", _after)):
+                for _r in _grp[:10]:
+                    logger.info("   dropped(%s) %s [%s] %s",
+                                _lbl, _r.date_iso, _r.source_key, (_r.title or "")[:70])
+                if len(_grp) > 10:
+                    logger.info("   ... and %d more %s the window", len(_grp) - 10, _lbl)
+        all_rows = _keep
+    else:
+        logger.warning("--allow-out-of-window: chronicle window NOT enforced.")
+    # ───────────────────────────────────────────────────────────────────────────
 
     # If rebuild-all, derive window from all events loaded
     if args.rebuild_all:
