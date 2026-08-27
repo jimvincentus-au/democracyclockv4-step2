@@ -1351,7 +1351,8 @@ AUDIENCE: Readers tracking how federal legal power is used — against whom, at 
 
 DATA INPUTS:
 • Each record is one press release with an official title, canonical URL and post date.
-• Each represents exactly ONE announcement — this source is ONE-ACT-PER-RECORD.
+• Each record is one announcement. THIS SOURCE IS NOT ONE-EVENT-PER-RECORD: most
+  DOJ releases are ordinary case work and must yield ZERO events. See THE TEST.
 • `doj_components` names the announcing component (Office of the Attorney General, Civil Rights Division, Antitrust Division, and so on).
 • `legal_stage` states the recorded posture: investigation_announced, complaint_filed, indictment_returned, information_filed, arrest_made, plea_entered, conviction_after_trial, sentence_imposed, judgment_entered, case_dismissed, appeal_filed, settlement_executed, consent_decree_proposed, consent_decree_entered.
 • `doj_teaser_verbatim` carries the department's own opening summary, verbatim.
@@ -1364,16 +1365,57 @@ THE ACT IS THE ANNOUNCEMENT — READ THIS TWICE:
 • At conviction_after_trial, sentence_imposed and judgment_entered, a court has acted and the outcome may be stated plainly as a court outcome.
 • Where the release characterises its own conduct ("the largest settlement ever obtained"), attribute the characterisation.
 
-PRIVATE INDIVIDUALS:
-• These releases name private people, many of them ordinary criminal defendants with no democratic significance whatever.
-• Routine federal prosecution is NOT a democracy event merely because DOJ announced it. Apply the Canonical Protocol's relevance test honestly: a jail administrator charged with assaulting a detainee is the Civil Rights Division working correctly, not an attack on anything.
-• Reserve significance for acts that bear on how legal power itself is directed: prosecutions of officials or critics, dropped or redirected cases, policy and charging changes, consent-decree withdrawals, personnel and leadership changes, and departmental positions on the law.
+THE TEST — APPLY THIS BEFORE WRITING ANYTHING:
+
+    Does this release show how the government's LEGAL POWER IS BEING DIRECTED?
+
+  If yes, emit one event. If no, emit ZERO events for this record and report
+  `Total events found: 0`. Emitting zero is the CORRECT and COMMON outcome here.
+  Most DOJ releases are ordinary case work.
+
+EMIT AN EVENT — the release involves any of:
+• a government official, agency, state, city or public body as target or party
+• a political figure, critic, journalist, advocacy organisation, university or
+  law firm
+• a case being DROPPED, dismissed, settled away, redirected, or a consent decree
+  withdrawn or narrowed
+• departmental policy, charging guidance, a legal position, or an interpretation
+  of a statute or the Constitution
+• personnel: nominations, appointments, resignations, removals, reassignments
+• voting, elections, redistricting, census, immigration enforcement policy
+• the Department suing or being sued by a state or another branch
+
+EMIT ZERO EVENTS — ordinary case work against private parties:
+• prosecutions, convictions, pleas, sentencings of private individuals
+• corporate fraud, False Claims Act settlements, antitrust matters with no
+  political dimension
+• drug, firearms, trafficking, fraud, child-exploitation and hate-crime cases
+• any release whose only significance is that a crime was prosecuted
+
+THE FAILURE THIS PREVENTS — measured 2026-08-27, do not repeat it:
+  A previous run emitted an event for every routine prosecution and invented a
+  rationale for each. "Former Sanger police officer convicted of eight counts of
+  sexual assault" was tagged `why_relevant: demonstrates federal prosecution of
+  law enforcement abuse of power`, with attacks `['women','rule_of_law']`. That is
+  MANUFACTURED SIGNIFICANCE. A police officer being prosecuted is the Justice
+  Department working correctly. It is not an attack on anything and not a
+  democracy event. Sixty such records entered the corpus this way.
+
+  "The case demonstrates federal prosecution of X" is NOT democratic significance.
+  If that is the best you can say, the answer is zero events.
+
+ATTACK HANDLES NAME THE TARGET OF THE STATE ACT, NOT THE VICTIM OF THE CRIME:
+• The same run tagged an anti-Sikh hate-crime prosecution `['minorities','lgbtq']`.
+  Both are wrong. The state act was a prosecution PROTECTING a religious minority;
+  it attacked no one, and `lgbtq` was not implicated at all.
+• Ask only: whom does THIS GOVERNMENT ACTION harm? If prosecuting protects the
+  victims rather than harming anyone, the answer is `attacks: []`.
 
 TEXT CHARACTERISTICS:
-• The Office of the Attorney General component carries the institutional material — policy, personnel, nominations and departmental positions. The litigating divisions carry mostly case work.
+• The Office of the Attorney General component carries the institutional material — policy, personnel, nominations and departmental positions. The litigating divisions carry mostly case work, most of which is out of scope under THE TEST.
 
 EXPECTED OUTPUT BEHAVIOR:
-1. Coverage: emit exactly one event per record.
+1. Coverage: emit ONE event if the record passes THE TEST, otherwise ZERO. Do not stretch to find an angle.
 2. Actor: "The Department of Justice", or the named official where the item is a personal statement.
 3. Action: name the announcement act and its stage — e.g. "announced indictment", "announced settlement", "announced policy change", "announced nominations".
 4. Summary: state who announced what, on what date, through which component, and the recorded stage. Attribute all alleged conduct.
