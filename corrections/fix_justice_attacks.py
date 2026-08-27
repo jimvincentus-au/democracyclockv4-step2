@@ -14,10 +14,20 @@ TWO DEFECTS, both measured 2026-08-27 on the 548-event justice corpus:
    Only the unambiguous cases are cleared. Records where state power IS directed
    at someone (Comey, SPLC, denaturalizations, policy shifts) are left alone.
 
-2. NON-CANONICAL HANDLES. Raw list indices ("31", "42", "43", "45") and invented
-   names (elections_representation, civil_society_protest, elderly_vulnerable,
-   indigenous_rights) that are not among the 55 canonical handles. Indices map
-   back deterministically; invented names are dropped.
+2. NON-CANONICAL HANDLES. Raw list indices ("31", "42", "43", "45"), which are
+   the model emitting a POSITION instead of a label. These map back
+   deterministically and are corrected.
+
+   NOTE, author ruling 2026-08-27: names outside the 55 are NOT errors. The 55
+   were chosen for the shelved "Trump Attacks" book; the vocabulary self-corrects
+   and handles beyond it carry events for a taxonomy chosen later. This script
+   originally DROPPED five such names -- elections_representation (DOJ v Newsom,
+   redistricting), indigenous_rights (statement of interest supporting tribal
+   access), civil_society_protest (Bondi prosecution memo) and two others. That
+   was wrong: each had 10-226 siblings already carrying the same handle elsewhere
+   in the corpus, so the drops punched holes in well-populated categories. The
+   three identifiable ones were restored the same day. DO NOT DROP NON-CANONICAL
+   NAMES.
 
 Writes the two justice event files in place and prints a full change log.
 --apply to write; default is a dry run.

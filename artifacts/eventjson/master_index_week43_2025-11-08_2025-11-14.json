@@ -5,23 +5,23 @@
   },
   "week_number": 43,
   "sources": [
+    "meidas",
+    "defense",
+    "justice",
     "outloud",
     "50501",
+    "federalregister",
+    "justsecurity",
+    "scotusorders",
     "popinfo",
     "orders",
+    "democracydocket",
     "zeteo",
-    "justsecurity",
-    "federalregister",
-    "guardian",
-    "congress",
-    "whitehouse",
-    "justice",
-    "defense",
     "noah",
-    "scotusorders",
     "hcr",
-    "meidas",
-    "democracydocket"
+    "guardian",
+    "whitehouse",
+    "congress"
   ],
   "counts": {
     "total": 403,
@@ -9549,7 +9549,8 @@
       "action": "announced \"Justice Department Sues Governor Gavin Newsom for California’s Race-Based Redistricting Plan\"",
       "act_key": "department|announced justice department sues governor gavin newsom for california s race based redistricting plan|2025-11-13",
       "attacks": [
-        "rule_of_law"
+        "rule_of_law",
+        "elections_representation"
       ],
       "source_meta": {
         "headline": "Justice Department Sues Governor Gavin Newsom for California’s Race-Based Redistricting Plan",

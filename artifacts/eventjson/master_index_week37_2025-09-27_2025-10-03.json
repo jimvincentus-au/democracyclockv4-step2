@@ -5,20 +5,20 @@
   },
   "week_number": 37,
   "sources": [
-    "popinfo",
+    "meidas",
+    "defense",
+    "justice",
     "orders",
+    "federalregister",
+    "justsecurity",
+    "popinfo",
+    "scotusorders",
     "50501",
     "zeteo",
-    "justsecurity",
-    "federalregister",
-    "guardian",
-    "justice",
     "whitehouse",
-    "defense",
     "noah",
-    "scotusorders",
     "hcr",
-    "meidas",
+    "guardian",
     "democracydocket"
   ],
   "counts": {
@@ -2702,7 +2702,8 @@
       "action": "announced \"Attorney General Bondi Issues Memo on Ending Political Violence Against ICE\"",
       "act_key": "department|announced attorney general bondi issues memo on ending political violence against ice|2025-09-29",
       "attacks": [
-        "rule_of_law"
+        "rule_of_law",
+        "civil_society_protest"
       ],
       "source_meta": {
         "headline": "Attorney General Bondi Issues Memo on Ending Political Violence Against ICE",
