@@ -5,23 +5,23 @@
   },
   "week_number": 57,
   "sources": [
-    "congress",
-    "hcr",
-    "whitehouse",
-    "justsecurity",
     "50501",
-    "justice",
-    "scotusopinions",
-    "guardian",
-    "meidas",
-    "democracydocket",
-    "federalregister",
-    "defense",
-    "orders",
-    "noah",
     "popinfo",
+    "orders",
+    "scotusopinions",
     "zeteo",
-    "scotusorders"
+    "justsecurity",
+    "federalregister",
+    "guardian",
+    "justice",
+    "whitehouse",
+    "congress",
+    "defense",
+    "scotusorders",
+    "noah",
+    "hcr",
+    "meidas",
+    "democracydocket"
   ],
   "counts": {
     "total": 461,
@@ -30,22 +30,22 @@
       "2026-02-15": 42,
       "2026-02-16": 38,
       "2026-02-17": 72,
-      "2026-02-18": 87,
+      "2026-02-18": 88,
       "2026-02-19": 81,
-      "2026-02-20": 110
+      "2026-02-20": 109
     },
     "by_source": {
       "hcr": 62,
       "democracydocket": 14,
       "guardian": 92,
       "zeteo": 8,
-      "whitehouse": 17,
       "meidas": 107,
+      "whitehouse": 17,
       "50501": 23,
       "federalregister": 62,
       "justsecurity": 26,
-      "scotusorders": 2,
       "justice": 6,
+      "scotusorders": 2,
       "noah": 5,
       "popinfo": 9,
       "defense": 8,
@@ -54,17 +54,17 @@
       "scotusopinions": 1
     },
     "by_category": {
-      "Executive Actions & Orders": 46,
+      "Executive Actions & Orders": 44,
       "Legislative & Oversight Activity": 33,
       "Judicial Developments": 78,
-      "Law Enforcement & Surveillance": 56,
+      "Law Enforcement & Surveillance": 57,
       "Elections & Representation": 13,
-      "Civil Society & Protest": 31,
-      "Information & Media Control": 35,
+      "Civil Society & Protest": 30,
+      "Information & Media Control": 26,
       "Appointments & Patronage": 20,
       "Transparency & Records": 27,
-      "International Relations": 28,
-      "Economic & Regulatory Power": 78,
+      "International Relations": 31,
+      "Economic & Regulatory Power": 86,
       "Civil–Military Relations & State Violence": 13,
       "Courts / Supreme Court / Orders": 2,
       "Courts / Supreme Court / Opinions": 1
@@ -810,37 +810,6 @@
       "_origin_index": 355
     },
     {
-      "source_key": "whitehouse",
-      "date": "2026-02-14",
-      "occurred_on": "2026-02-14",
-      "reported_on": "2026-02-14",
-      "dated_by": "occurred",
-      "category": "Information & Media Control",
-      "title": "In Munich, Secretary Rubio Calls on Allies to Embrace Shared Heritage, Meet Challenges of New Era",
-      "url": "https://www.whitehouse.gov/releases/2026/02/in-munich-secretary-rubio-calls-on-allies-to-embrace-shared-heritage-meet-challenges-of-new-era/",
-      "summary": "The White House published this release on 2026-02-14 through its releases channel.",
-      "why_relevant": "",
-      "jurisdiction": "federal",
-      "federal_nexus": "Official White House channel; documents the act of publication only.",
-      "confidence": "high",
-      "basis": "official_actor_record",
-      "actor": "The White House",
-      "action": "published a release titled \"In Munich, Secretary Rubio Calls on Allies to Embrace Shared Heritage, Meet Challenges of New Era\"",
-      "act_key": "white house|published a release titled in munich secretary rubio calls on allies to embrace shared heritage meet challenges of new era|2026-02-14",
-      "attacks": [],
-      "source_meta": {
-        "headline": null,
-        "published_on": null,
-        "byline": null,
-        "outlet": null,
-        "accessed_on": null,
-        "snapshot_url": null,
-        "durable_keys": {}
-      },
-      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
-      "_origin_index": 138
-    },
-    {
       "source_key": "democracydocket",
       "date": "2026-02-14",
       "occurred_on": "",
@@ -1114,6 +1083,37 @@
       },
       "_origin_file": "meidas_events_2025-11-29_2026-03-06.json",
       "_origin_index": 362
+    },
+    {
+      "source_key": "whitehouse",
+      "date": "2026-02-14",
+      "occurred_on": "2026-02-14",
+      "reported_on": "2026-02-14",
+      "dated_by": "occurred",
+      "category": "International Relations",
+      "title": "Secretary of State Rubio delivers address at Munich Security Conference on transatlantic alliance",
+      "url": "https://www.whitehouse.gov/releases/2026/02/in-munich-secretary-rubio-calls-on-allies-to-embrace-shared-heritage-meet-challenges-of-new-era/",
+      "summary": "Secretary of State Marco Rubio delivered a speech at the Munich Security Conference on February 14, 2026, reaffirming the Trump administration's commitment to a transatlantic alliance grounded in \"mutual strength, shared heritage, and unapologetic defense of Western civilization.\" The White House release states the speech drew on \"Europe's profound Christian foundations\" and urged European leaders to \"reclaim their sovereignty\" and reject \"unchecked mass migration and climate extremism.\" The release compiled reactions from Republican lawmakers, media figures, and commentators praising the address.",
+      "why_relevant": "The speech articulates the administration's foreign policy doctrine toward Europe and NATO allies, signaling a shift in transatlantic relations and the prioritization of \"America First\" positioning over multilateral frameworks.",
+      "jurisdiction": "foreign",
+      "federal_nexus": "",
+      "confidence": "high",
+      "basis": "Secretary Rubio delivered a landmark address at the Munich Security Conference, boldly reaffirming President Donald J. Trump's commitment to a revitalized transatlantic alliance grounded in mutual strength, shared heritage, and unapologetic defense of Western civilization.",
+      "actor": "The White House",
+      "action": "published a release titled \"In Munich, Secretary Rubio Calls on Allies to Embrace Shared Heritage, Meet Challenges of New Era\"",
+      "act_key": "white house|published a release titled in munich secretary rubio calls on allies to embrace shared heritage meet challenges of new era|2026-02-14",
+      "attacks": [],
+      "source_meta": {
+        "headline": "In Munich, Secretary Rubio Calls on Allies to Embrace Shared Heritage, Meet Challenges of New Era",
+        "published_on": "2026-02-15",
+        "byline": null,
+        "outlet": "The White House",
+        "accessed_on": "2026-08-26T22:44:41Z",
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
+      "_origin_index": 117
     },
     {
       "source_key": "guardian",
@@ -2694,29 +2694,29 @@
       "reported_on": "2026-02-16",
       "dated_by": "occurred",
       "category": "Executive Actions & Orders",
-      "title": "President George Washington’s Birthday, 2026",
+      "title": "President Trump issued proclamation commemorating George Washington's Birthday",
       "url": "https://www.whitehouse.gov/presidential-actions/2026/02/president-george-washingtons-birthday-2026/",
-      "summary": "The White House published this proclamation on 2026-02-16 through its proclamations channel.",
-      "why_relevant": "",
+      "summary": "President Trump issued a proclamation on February 16, 2026, designating that day as a reserved holiday commemorating President George Washington's Birthday. The proclamation recounts Washington's military and political career, emphasizes his role in the American Revolution and the founding of the republic, and highlights his voluntary relinquishment of power after two terms. The document frames Washington's legacy around faith, sovereignty, and constitutional devotion.",
+      "why_relevant": "Proclamations are formal executive instruments that establish official commemorations and set the interpretive frame through which the administration presents historical figures and national identity to the public.",
       "jurisdiction": "federal",
-      "federal_nexus": "Official White House channel; documents the act of publication only.",
+      "federal_nexus": "",
       "confidence": "high",
-      "basis": "official_actor_record",
+      "basis": "NOW, THEREFORE, I, DONALD J. TRUMP, President of the United States of America, by virtue of the authority vested in me by the Constitution and the laws of the United States, do hereby proclaim February 16, 2026, as a reserved holiday commemorating President George Washington's Birthday.",
       "actor": "The White House",
       "action": "announced a proclamation titled \"President George Washington’s Birthday, 2026\"",
       "act_key": "white house|announced a proclamation titled president george washington s birthday 2026|2026-02-16",
       "attacks": [],
       "source_meta": {
-        "headline": null,
-        "published_on": null,
+        "headline": "President George Washington's Birthday, 2026",
+        "published_on": "2026-02-17",
         "byline": null,
-        "outlet": null,
-        "accessed_on": null,
+        "outlet": "The White House",
+        "accessed_on": "2026-08-27T01:21:45Z",
         "snapshot_url": null,
         "durable_keys": {}
       },
       "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
-      "_origin_index": 966
+      "_origin_index": 910
     },
     {
       "source_key": "guardian",
@@ -3380,9 +3380,9 @@
       "action": "refused to air interview",
       "act_key": "cbs|refused to air interview|2026-02-16",
       "attacks": [
-        "29",
-        "30",
-        "32"
+        "press",
+        "information",
+        "internet"
       ],
       "source_meta": {
         "headline": "Populist crusade and anti-Maga outrage as Texas Democrats do battle in Senate primary",
@@ -3471,29 +3471,29 @@
       "reported_on": "2026-02-16",
       "dated_by": "occurred",
       "category": "Information & Media Control",
-      "title": "President Trump Celebrates America’s New Golden Age on Presidents’ Day",
+      "title": "White House issues promotional release on Presidents' Day celebrating claimed economic and security achievements",
       "url": "https://www.whitehouse.gov/releases/2026/02/president-trump-celebrates-americas-new-golden-era-on-presidents-day/",
-      "summary": "The White House published this release on 2026-02-16 through its releases channel.",
-      "why_relevant": "",
+      "summary": "The White House issued a fact sheet on Presidents' Day asserting that President Trump's second-term policies have produced a \"Golden Age\" marked by record low inflation, soaring stock markets, strengthened military, enhanced law enforcement, a \"100% secure\" border, and record-low violent crime. The document claims core inflation has dropped to its lowest level in nearly five years, workers have gained nearly $1,400 in real earnings, major stock indices have hit all-time highs, defense spending has reached record levels, and violent crime has fallen 19% year-over-year with the murder rate at its lowest in 125 years.",
+      "why_relevant": "The document is a promotional fact sheet asserting sweeping claims of policy success without independent verification, using the White House platform to frame contested economic and crime statistics as established fact.",
       "jurisdiction": "federal",
-      "federal_nexus": "Official White House channel; documents the act of publication only.",
+      "federal_nexus": "",
       "confidence": "high",
-      "basis": "official_actor_record",
+      "basis": "Under his decisive leadership, the nation has experienced a historic turnaround: inflation has plummeted to its lowest levels in years; the stock market has soared to unprecedented heights; our great military stands stronger than ever; law enforcement is empowered; the border is more secure than at any point in history; and violent crime has plunged to record lows across our cities.",
       "actor": "The White House",
       "action": "published a release titled \"President Trump Celebrates America’s New Golden Age on Presidents’ Day\"",
       "act_key": "white house|published a release titled president trump celebrates america s new golden age on presidents day|2026-02-16",
       "attacks": [],
       "source_meta": {
-        "headline": null,
-        "published_on": null,
+        "headline": "President Trump Celebrates America’s New Golden Age on Presidents’ Day",
+        "published_on": "2026-02-17",
         "byline": null,
-        "outlet": null,
-        "accessed_on": null,
+        "outlet": "The White House",
+        "accessed_on": "2026-08-26T22:44:28Z",
         "snapshot_url": null,
         "durable_keys": {}
       },
       "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
-      "_origin_index": 137
+      "_origin_index": 116
     },
     {
       "source_key": "zeteo",
@@ -3653,8 +3653,8 @@
       "action": "released epstein emails and messages",
       "act_key": "department|released epstein emails and messages|2026-02-16",
       "attacks": [
-        "20",
-        "43"
+        "courts",
+        "rule_of_law"
       ],
       "source_meta": {
         "headline": "Epstein sympathized with Kavanaugh during supreme court confirmation, emails show",
@@ -4258,6 +4258,37 @@
       "_origin_index": 187
     },
     {
+      "source_key": "justice",
+      "date": "2026-02-17",
+      "occurred_on": "2026-02-17",
+      "reported_on": "2026-02-17",
+      "dated_by": "occurred",
+      "category": "Judicial Developments",
+      "title": "Court orders DTE Energy subsidiaries to comply with Clean Air Act and pay $100 million penalty",
+      "url": "https://www.justice.gov/opa/pr/court-orders-ees-coke-battery-comply-clean-air-act-and-pay-100-million-civil-penalty",
+      "summary": "The U.S. District Court for the Eastern District of Michigan ordered DTE Energy Company and three subsidiaries to pay a $100 million civil penalty and comply with the Clean Air Act following violations at the EES Coke Battery facility on Zug Island near Detroit. The court found the facility increased sulfur dioxide emissions above permitted levels, causing documented public health harms including asthma attacks, heart attacks, and strokes. The court ordered defendants to seek New Source Review permits requiring stringent pollution controls within 250 days.",
+      "why_relevant": "A federal court judgment enforcing environmental law against a major utility company demonstrates the judiciary's capacity to hold corporate actors accountable for violations affecting public health and air quality in a nonattainment area.",
+      "jurisdiction": "federal",
+      "federal_nexus": "",
+      "confidence": "high",
+      "basis": "The U.S. District Court for the Eastern District of Michigan ordered DTE Energy Company and three of its subsidiaries to comply with the Clean Air Act and pay a penalty of $100 million in a decision issued today.",
+      "actor": "The Department of Justice",
+      "action": "announced \"Court Orders EES Coke Battery to Comply with Clean Air Act and Pay $100 Million Civil Penalty\"",
+      "act_key": "department|announced court orders ees coke battery to comply with clean air act and pay 100 million civil penalty|2026-02-17",
+      "attacks": [],
+      "source_meta": {
+        "headline": "Court Orders EES Coke Battery to Comply with Clean Air Act and Pay $100 Million Civil Penalty",
+        "published_on": "2026-02-17",
+        "byline": null,
+        "outlet": "justice.gov",
+        "accessed_on": "2026-08-27T05:15:34Z",
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "justice_events_2025-01-20_2026-08-14.json",
+      "_origin_index": 296
+    },
+    {
       "source_key": "justsecurity",
       "date": "2026-02-17",
       "occurred_on": "",
@@ -4534,37 +4565,6 @@
       },
       "_origin_file": "hcr_events_2025-11-29_2026-03-06.json",
       "_origin_index": 185
-    },
-    {
-      "source_key": "justice",
-      "date": "2026-02-17",
-      "occurred_on": "2026-02-17",
-      "reported_on": "2026-02-17",
-      "dated_by": "occurred",
-      "category": "Law Enforcement & Surveillance",
-      "title": "Court Orders EES Coke Battery to Comply with Clean Air Act and Pay $100 Million Civil Penalty",
-      "url": "https://www.justice.gov/opa/pr/court-orders-ees-coke-battery-comply-clean-air-act-and-pay-100-million-civil-penalty",
-      "summary": "The Department of Justice announced this on 2026-02-17 through Energy and Natural Resources Division. The department's own account of it reads: \"The U.S. District Court for the Eastern District of Michigan ordered DTE Energy Company and three of its subsidiaries to comply with the Clean Air Act and pay a penalty of $100 million in a decision issued today concerning a coke battery in River Rouge, Michigan.\"",
-      "why_relevant": "",
-      "jurisdiction": "federal",
-      "federal_nexus": "Official DOJ channel; documents the act of announcement only.",
-      "confidence": "high",
-      "basis": "official_actor_record",
-      "actor": "The Department of Justice",
-      "action": "announced \"Court Orders EES Coke Battery to Comply with Clean Air Act and Pay $100 Million Civil Penalty\"",
-      "act_key": "department|announced court orders ees coke battery to comply with clean air act and pay 100 million civil penalty|2026-02-17",
-      "attacks": [],
-      "source_meta": {
-        "headline": null,
-        "published_on": null,
-        "byline": null,
-        "outlet": null,
-        "accessed_on": null,
-        "snapshot_url": null,
-        "durable_keys": {}
-      },
-      "_origin_file": "justice_events_2025-01-20_2026-08-14.json",
-      "_origin_index": 297
     },
     {
       "source_key": "meidas",
@@ -6415,29 +6415,29 @@
       "reported_on": "2026-02-18",
       "dated_by": "occurred",
       "category": "Executive Actions & Orders",
-      "title": "Attorney General Bondi Announces Department of Justice Prioritization of Animal Welfare Enforcement",
+      "title": "Attorney General Bondi announces DOJ animal welfare enforcement prioritization plan",
       "url": "https://www.justice.gov/opa/pr/attorney-general-bondi-announces-department-justice-prioritization-animal-welfare-0",
-      "summary": "The Department of Justice announced this on 2026-02-18 through Office of the Attorney General. The department's own account of it reads: \"Attorney General Pamela Bondi announced today a historic plan to combat animal welfare crimes and to strengthen coordination and enforcement efforts between federal agencies, including the Department’s Environment and Natural Resources Division, the U.S. Department of Agriculture, the Executive Office for United States Attorneys, the Federal Bureau of Investigation, the U.S.\"",
-      "why_relevant": "",
+      "summary": "Attorney General Pamela Bondi announced a multi-agency plan to strengthen federal enforcement of animal welfare crimes, comprising five components: a training summit for prosecutors and agents, creation of an interagency Animal Welfare Executive Strategy Committee chaired by Adam Gustafson, establishment of a law enforcement \"Tiger Team\" for search warrants and seizures, continued use of Asset Forfeiture Funds for animal care, and grants to animal welfare groups and state/local law enforcement. The plan was coordinated with the U.S. Department of Agriculture.",
+      "why_relevant": "This announcement reflects a departmental policy prioritization and resource allocation decision by the Attorney General, establishing new enforcement infrastructure and interagency coordination mechanisms.",
       "jurisdiction": "federal",
-      "federal_nexus": "Official DOJ channel; documents the act of announcement only.",
+      "federal_nexus": "",
       "confidence": "high",
-      "basis": "official_actor_record",
+      "basis": "Attorney General Pamela Bondi announced today a historic plan to combat animal welfare crimes and to strengthen coordination and enforcement efforts between federal agencies.",
       "actor": "The Department of Justice",
       "action": "announced \"Attorney General Bondi Announces Department of Justice Prioritization of Animal Welfare Enforcement\"",
       "act_key": "department|announced attorney general bondi announces department of justice prioritization of animal welfare enforcement|2026-02-18",
       "attacks": [],
       "source_meta": {
-        "headline": null,
-        "published_on": null,
+        "headline": "Attorney General Bondi Announces Department of Justice Prioritization of Animal Welfare Enforcement",
+        "published_on": "2026-02-18",
         "byline": null,
-        "outlet": null,
-        "accessed_on": null,
+        "outlet": "justice.gov",
+        "accessed_on": "2026-08-27T05:16:05Z",
         "snapshot_url": null,
         "durable_keys": {}
       },
       "_origin_file": "justice_events_2025-01-20_2026-08-14.json",
-      "_origin_index": 300
+      "_origin_index": 299
     },
     {
       "source_key": "meidas",
@@ -6550,29 +6550,68 @@
       "reported_on": "2026-02-18",
       "dated_by": "occurred",
       "category": "Executive Actions & Orders",
-      "title": "Promoting the National Defense by Ensuring an Adequate Supply of Elemental Phosphorus and Glyphosate-Based Herbicides",
+      "title": "Trump signed executive order invoking Defense Production Act to ensure domestic supply of elemental phosphorus and glyphosate-based herbicides",
       "url": "https://www.whitehouse.gov/presidential-actions/2026/02/promoting-the-national-defense-by-ensuring-an-adequate-supply-of-elemental-phosphorus-and-glyphosate-based-herbicides/",
-      "summary": "The White House published this executive order on 2026-02-18 through its executive-orders channel.",
-      "why_relevant": "",
+      "summary": "President Trump signed an executive order on February 18, 2026, invoking the Defense Production Act of 1950 to designate elemental phosphorus and glyphosate-based herbicides as critical to national defense. The order delegates authority to the Secretary of Agriculture to allocate materials and prioritize domestic production, stating that the U.S. imports over 6 million kilograms of elemental phosphorus annually and has only one domestic producer. The order directs the Secretary to ensure domestic producer viability and grants immunity to compliant producers under section 707 of the Act.",
+      "why_relevant": "The order asserts executive power to commandeer production priorities and allocate resources under wartime authority, delegates that power to Agriculture rather than Defense, and explicitly shields domestic producers from normal competitive or regulatory constraints—a use of national-security framing to protect specific industries from market discipline and potential oversight.",
       "jurisdiction": "federal",
-      "federal_nexus": "Official White House channel; documents the act of publication only.",
+      "federal_nexus": "",
       "confidence": "high",
-      "basis": "official_actor_record",
+      "basis": "the authority of the President conferred by section 101 of the Act to require performance of contracts or orders...to allocate materials, services, and facilities as deemed necessary or appropriate to promote the national defense...is delegated to the Secretary of Agriculture",
       "actor": "The White House",
       "action": "announced an executive order titled \"Promoting the National Defense by Ensuring an Adequate Supply of Elemental Phosphorus and Glyphosate-Based Herbicides\"",
       "act_key": "white house|announced an executive order titled promoting the national defense by ensuring an adequate supply of elemental phosphorus and glyphosate based herbicides|2026-02-18",
-      "attacks": [],
+      "attacks": [
+        "rule_of_law",
+        "separation_of_powers",
+        "economy"
+      ],
       "source_meta": {
-        "headline": null,
-        "published_on": null,
+        "headline": "Promoting the National Defense by Ensuring an Adequate Supply of Elemental Phosphorus and Glyphosate-Based Herbicides",
+        "published_on": "2026-02-18",
         "byline": null,
-        "outlet": null,
-        "accessed_on": null,
+        "outlet": "The White House",
+        "accessed_on": "2026-08-27T00:43:46Z",
         "snapshot_url": null,
         "durable_keys": {}
       },
       "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
-      "_origin_index": 770
+      "_origin_index": 714
+    },
+    {
+      "source_key": "whitehouse",
+      "date": "2026-02-18",
+      "occurred_on": "2026-02-18",
+      "reported_on": "2026-02-18",
+      "dated_by": "occurred",
+      "category": "Executive Actions & Orders",
+      "title": "White House issued fact sheet on Defense Production Act order for phosphorus and herbicide supply chains",
+      "url": "https://www.whitehouse.gov/fact-sheets/2026/02/fact-sheet-president-donald-j-trump-ensures-an-adequate-supply-of-elemental-phosphorus-and-glyphosate-based-herbicides-for-national-security/",
+      "summary": "The White House published a fact sheet on February 18, 2026, describing an executive order signed by President Trump that day invoking the Defense Production Act to mobilize domestic production of elemental phosphorus and glyphosate-based herbicides. The order delegates Defense Production Act authority to the Secretary of Agriculture to allocate materials and ensure supply continuity, framing both substances as critical to military readiness and food security. The fact sheet states the order directs the Secretary of Agriculture to issue implementing regulations in consultation with the Secretary of War.",
+      "why_relevant": "The act asserts executive power to commandeer civilian agricultural supply chains under national-security authority, delegating production-control powers to the Agriculture Department and establishing a precedent for Defense Production Act use in non-defense sectors.",
+      "jurisdiction": "federal",
+      "federal_nexus": "",
+      "confidence": "high",
+      "basis": "President Donald J. Trump signed an Executive Order mobilizing the Defense Production Act to protect domestic production of elemental phosphorus and glyphosate-based herbicides.",
+      "actor": "The White House",
+      "action": "issued a fact sheet titled \"Fact Sheet: President Donald J. Trump Ensures an Adequate Supply of Elemental Phosphorus and Glyphosate-Based Herbicides for National Security\"",
+      "act_key": "white house|issued a fact sheet titled fact sheet president donald j trump ensures an adequate supply of elemental phosphorus and glyphosate based herbicides for national security|2026-02-18",
+      "attacks": [
+        "rule_of_law",
+        "separation_of_powers",
+        "economy"
+      ],
+      "source_meta": {
+        "headline": "Fact Sheet: President Donald J. Trump Ensures an Adequate Supply of Elemental Phosphorus and Glyphosate-Based Herbicides for National Security",
+        "published_on": "2026-02-18",
+        "byline": null,
+        "outlet": "The White House",
+        "accessed_on": "2026-08-26T23:44:16Z",
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
+      "_origin_index": 402
     },
     {
       "source_key": "congress",
@@ -6628,8 +6667,8 @@
       "action": "subpoenaed former president and former secretary of state",
       "act_key": "house oversight committee|subpoenaed former president and former secretary of state|2026-02-18",
       "attacks": [
-        "21",
-        "43"
+        "congress",
+        "rule_of_law"
       ],
       "source_meta": {
         "headline": "Hillary Clinton accuses Trump’s justice department of Epstein files ‘cover-up’",
@@ -6693,8 +6732,8 @@
       "action": "moved to limit gubernatorial power",
       "act_key": "iowa republican state lawmakers|moved to limit gubernatorial power|2026-02-18",
       "attacks": [
-        "49",
-        "48"
+        "union",
+        "peaceful_transfer"
       ],
       "source_meta": {
         "headline": null,
@@ -6852,29 +6891,32 @@
       "reported_on": "2026-02-18",
       "dated_by": "occurred",
       "category": "Judicial Developments",
-      "title": "Justice Department Joins Lawsuit Against Racial Discrimination in Los Angeles Public Schools",
+      "title": "Justice Department intervened in lawsuit challenging LAUSD racial classification program",
       "url": "https://www.justice.gov/opa/pr/justice-department-joins-lawsuit-against-racial-discrimination-los-angeles-public-schools",
-      "summary": "The Department of Justice announced this on 2026-02-18 through Office of the Attorney General. The recorded stage is a complaint filed. The allegations are unadjudicated; this documents the announcement, not the truth of any allegation. The department's own account of it reads: \"Today, the Justice Department’s Civil Rights Division sought intervention in a lawsuit against the administrators of the Los Angeles Unified School District (LAUSD) over the Predominately Hispanic, Black, Asian, and Other (PHBAO) Program. This program categorizes students by race and by the race of their neighbors in order to determine school funding and magnet school admissions.\"",
-      "why_relevant": "",
+      "summary": "The Department of Justice's Civil Rights Division announced it sought intervention in a federal lawsuit against the Los Angeles Unified School District, challenging the PHBAO (Predominately Hispanic, Black, Asian, and Other) Program. The program classifies students by race and neighborhood racial composition to determine school funding and magnet school admissions. The DOJ complaint alleges the program provides extra funding and admissions preferences to schools serving predominantly non-White populations, treating attendance at such schools as equivalent to attending an overcrowded school. The case was filed in U.S. District Court for the Central District of California.",
+      "why_relevant": "The DOJ's intervention in this case represents a significant shift in federal civil rights enforcement posture toward race-conscious school desegregation remedies, challenging a decades-old program and signaling a narrowed interpretation of permissible race-based educational policy.",
       "jurisdiction": "federal",
-      "federal_nexus": "Official DOJ channel; documents the act of announcement only.",
+      "federal_nexus": "",
       "confidence": "high",
-      "basis": "official_actor_record",
+      "basis": "the Justice Department's Civil Rights Division sought intervention in a lawsuit against the administrators of the Los Angeles Unified School District (LAUSD) over the Predominately Hispanic, Black, Asian, and Other (PHBAO) Program.",
       "actor": "The Department of Justice",
       "action": "announced \"Justice Department Joins Lawsuit Against Racial Discrimination in Los Angeles Public Schools\"",
       "act_key": "department|announced justice department joins lawsuit against racial discrimination in los angeles public schools|2026-02-18",
-      "attacks": [],
+      "attacks": [
+        "minorities",
+        "rule_of_law"
+      ],
       "source_meta": {
-        "headline": null,
-        "published_on": null,
+        "headline": "Justice Department Joins Lawsuit Against Racial Discrimination in Los Angeles Public Schools",
+        "published_on": "2026-02-18",
         "byline": null,
-        "outlet": null,
-        "accessed_on": null,
+        "outlet": "justice.gov",
+        "accessed_on": "2026-08-27T05:15:44Z",
         "snapshot_url": null,
         "durable_keys": {}
       },
       "_origin_file": "justice_events_2025-01-20_2026-08-14.json",
-      "_origin_index": 298
+      "_origin_index": 297
     },
     {
       "source_key": "justsecurity",
@@ -7197,9 +7239,9 @@
       "action": "denied evidence access",
       "act_key": "federal bureau investigation|denied evidence access|2026-02-18",
       "attacks": [
-        "21",
-        "30",
-        "43"
+        "congress",
+        "information",
+        "rule_of_law"
       ],
       "source_meta": {
         "headline": null,
@@ -7212,6 +7254,41 @@
       },
       "_origin_file": "hcr_events_2025-11-29_2026-03-06.json",
       "_origin_index": 173
+    },
+    {
+      "source_key": "justice",
+      "date": "2026-02-18",
+      "occurred_on": "2026-02-18",
+      "reported_on": "2026-02-18",
+      "dated_by": "occurred",
+      "category": "Law Enforcement & Surveillance",
+      "title": "Justice Department announces investigations into three Michigan school districts over sexual orientation and gender ideology instruction",
+      "url": "https://www.justice.gov/opa/pr/justice-department-opens-investigations-three-michigan-school-districts-required-instruction",
+      "summary": "The Department of Justice's Civil Rights Division announced investigations into Detroit Public Schools Community District, Godfrey-Lee Public Schools, and Lansing School District to determine whether they have included sexual orientation and gender ideology content in pre-K-12 classes without parental opt-out notification, and whether they limit access to single-sex intimate spaces based on biological sex. The department stated it is examining compliance with Title IX and a 2025 Supreme Court decision. No conclusions have been reached.",
+      "why_relevant": "The announcement reflects a shift in how the Civil Rights Division interprets Title IX and parental rights, using federal investigative power to scrutinize curriculum decisions in local school districts based on ideological content rather than traditional civil-rights violations.",
+      "jurisdiction": "federal",
+      "federal_nexus": "",
+      "confidence": "high",
+      "basis": "Today, the Justice Department's Civil Rights Division launched investigations into three Michigan public school districts...to determine whether they have included sexual orientation and gender ideology (SOGI) content in any class for grades pre-K-12.",
+      "actor": "The Department of Justice",
+      "action": "announced \"Justice Department Opens Investigations into Three Michigan School Districts for Required Instruction on Sexual Orientation and Gender Ideology in Pre-K-12 Schools\"",
+      "act_key": "department|announced justice department opens investigations into three michigan school districts for required instruction on sexual orientation and gender ideology in pre k 12 schools|2026-02-18",
+      "attacks": [
+        "education",
+        "culture_art",
+        "lgbtq"
+      ],
+      "source_meta": {
+        "headline": "Justice Department Opens Investigations into Three Michigan School Districts for Required Instruction on Sexual Orientation and Gender Ideology in Pre-K-12 Schools",
+        "published_on": "2026-02-18",
+        "byline": null,
+        "outlet": "justice.gov",
+        "accessed_on": "2026-08-27T05:15:54Z",
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "justice_events_2025-01-20_2026-08-14.json",
+      "_origin_index": 298
     },
     {
       "source_key": "meidas",
@@ -7285,6 +7362,37 @@
       "_origin_index": 37
     },
     {
+      "source_key": "whitehouse",
+      "date": "2026-02-18",
+      "occurred_on": "2026-02-18",
+      "reported_on": "2026-02-20",
+      "dated_by": "occurred",
+      "category": "Law Enforcement & Surveillance",
+      "title": "Drug Czar hosts roundtable on illicit drug trafficking via social media",
+      "url": "https://www.whitehouse.gov/releases/2026/02/36480/",
+      "summary": "On February 18, 2026, White House Office of National Drug Control Policy Director Sara Carter convened a roundtable at the White House with representatives from Meta, TikTok, X, YouTube, and Internet Works, alongside officials from DOS, HHS, DEA, HUD, HSI, USPIS, and ATF. The discussion focused on combatting illicit drug sales on social media platforms, particularly fentanyl-laced counterfeit pills targeting children. Participants committed to enhanced coordination between law enforcement and social media companies to prevent digital drug trafficking.",
+      "why_relevant": "The roundtable represents a coordinated whole-of-government and private-sector effort to address drug trafficking through digital platforms, affecting law enforcement priorities, platform governance, and child safety policy.",
+      "jurisdiction": "federal",
+      "federal_nexus": "",
+      "confidence": "high",
+      "basis": "Drug Czar Sara Carter brought together Trump Administration officials and representatives from social media companies, including Meta, TikTok, X, YouTube, and Internet Works, for a roundtable focused on ending the sale of illicit drugs via social media platforms.",
+      "actor": "The White House",
+      "action": "published a release titled \"Drug Czar Hosts Roundtable Discussion at the White House About Combatting Illicit Drug Trafficking on Social Media Platforms\"",
+      "act_key": "white house|published a release titled drug czar hosts roundtable discussion at the white house about combatting illicit drug trafficking on social media platforms|2026-02-18",
+      "attacks": [],
+      "source_meta": {
+        "headline": "Drug Czar Hosts Roundtable Discussion at the White House About Combatting Illicit Drug Trafficking on Social Media Platforms",
+        "published_on": "2026-02-20",
+        "byline": null,
+        "outlet": "The White House",
+        "accessed_on": "2026-08-27T02:44:56Z",
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
+      "_origin_index": 1338
+    },
+    {
       "source_key": "federalregister",
       "date": "2026-02-18",
       "occurred_on": "2026-02-18",
@@ -7349,37 +7457,6 @@
       "_origin_index": 181
     },
     {
-      "source_key": "justice",
-      "date": "2026-02-18",
-      "occurred_on": "2026-02-18",
-      "reported_on": "2026-02-18",
-      "dated_by": "occurred",
-      "category": "Civil Society & Protest",
-      "title": "Justice Department Opens Investigations into Three Michigan School Districts for Required Instruction on Sexual Orientation and Gender Ideology in Pre-K-12 Schools",
-      "url": "https://www.justice.gov/opa/pr/justice-department-opens-investigations-three-michigan-school-districts-required-instruction",
-      "summary": "The Department of Justice announced this on 2026-02-18 through Civil Rights Division. The department's own account of it reads: \"Today, the Justice Department’s Civil Rights Division launched investigations into three Michigan public school districts: the Detroit Public Schools Community District , Godfrey-Lee Public Schools , and the Lansing School District (the Michigan School Districts), to determine whether they have included sexual orientation and gender ideology (SOGI) content in any class for grades pre-K-12.\"",
-      "why_relevant": "",
-      "jurisdiction": "federal",
-      "federal_nexus": "Official DOJ channel; documents the act of announcement only.",
-      "confidence": "high",
-      "basis": "official_actor_record",
-      "actor": "The Department of Justice",
-      "action": "announced \"Justice Department Opens Investigations into Three Michigan School Districts for Required Instruction on Sexual Orientation and Gender Ideology in Pre-K-12 Schools\"",
-      "act_key": "department|announced justice department opens investigations into three michigan school districts for required instruction on sexual orientation and gender ideology in pre k 12 schools|2026-02-18",
-      "attacks": [],
-      "source_meta": {
-        "headline": null,
-        "published_on": null,
-        "byline": null,
-        "outlet": null,
-        "accessed_on": null,
-        "snapshot_url": null,
-        "durable_keys": {}
-      },
-      "_origin_file": "justice_events_2025-01-20_2026-08-14.json",
-      "_origin_index": 299
-    },
-    {
       "source_key": "meidas",
       "date": "2026-02-18",
       "occurred_on": "2026-02-18",
@@ -7429,9 +7506,9 @@
       "action": "blocked interview broadcast",
       "act_key": "cbs|blocked interview broadcast|2026-02-18",
       "attacks": [
-        "29",
-        "30",
-        "11"
+        "press",
+        "information",
+        "truth"
       ],
       "source_meta": {
         "headline": null,
@@ -7464,10 +7541,10 @@
       "action": "opened fcc investigation",
       "act_key": "brendan carr|opened fcc investigation|2026-02-18",
       "attacks": [
-        "29",
-        "30",
-        "11",
-        "42"
+        "press",
+        "information",
+        "truth",
+        "separation_of_powers"
       ],
       "source_meta": {
         "headline": null,
@@ -7500,10 +7577,10 @@
       "action": "reinterpreted equal time rule",
       "act_key": "brendan carr|reinterpreted equal time rule|2026-02-18",
       "attacks": [
-        "29",
-        "30",
-        "11",
-        "42"
+        "press",
+        "information",
+        "truth",
+        "separation_of_powers"
       ],
       "source_meta": {
         "headline": null,
@@ -7592,60 +7669,29 @@
       "reported_on": "2026-02-18",
       "dated_by": "occurred",
       "category": "Information & Media Control",
-      "title": "Fact Sheet: President Donald J. Trump Ensures an Adequate Supply of Elemental Phosphorus and Glyphosate-Based Herbicides for National Security",
-      "url": "https://www.whitehouse.gov/fact-sheets/2026/02/fact-sheet-president-donald-j-trump-ensures-an-adequate-supply-of-elemental-phosphorus-and-glyphosate-based-herbicides-for-national-security/",
-      "summary": "The White House published this fact sheet on 2026-02-18 through its fact-sheets channel.",
-      "why_relevant": "",
-      "jurisdiction": "federal",
-      "federal_nexus": "Official White House channel; documents the act of publication only.",
-      "confidence": "high",
-      "basis": "official_actor_record",
-      "actor": "The White House",
-      "action": "issued a fact sheet titled \"Fact Sheet: President Donald J. Trump Ensures an Adequate Supply of Elemental Phosphorus and Glyphosate-Based Herbicides for National Security\"",
-      "act_key": "white house|issued a fact sheet titled fact sheet president donald j trump ensures an adequate supply of elemental phosphorus and glyphosate based herbicides for national security|2026-02-18",
-      "attacks": [],
-      "source_meta": {
-        "headline": null,
-        "published_on": null,
-        "byline": null,
-        "outlet": null,
-        "accessed_on": null,
-        "snapshot_url": null,
-        "durable_keys": {}
-      },
-      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
-      "_origin_index": 458
-    },
-    {
-      "source_key": "whitehouse",
-      "date": "2026-02-18",
-      "occurred_on": "2026-02-18",
-      "reported_on": "2026-02-18",
-      "dated_by": "occurred",
-      "category": "Information & Media Control",
-      "title": "President Trump Celebrates Black History Month: Advancing Opportunity and Prosperity for Every American",
+      "title": "White House issues release celebrating Black History Month and highlighting administration policies",
       "url": "https://www.whitehouse.gov/releases/2026/02/president-trump-celebrates-black-history-month-advancing-opportunity-and-prosperity-for-every-american/",
-      "summary": "The White House published this release on 2026-02-18 through its releases channel.",
-      "why_relevant": "",
+      "summary": "The White House issued a release on February 18, 2026, marking Black History Month. The document describes administration policies the White House characterizes as benefiting Black Americans, including HBCU funding, the SAVE America Act, Trump Accounts savings vehicles, tax cuts, veteran benefits, criminal justice reform, and Opportunity Zones. The release states these initiatives aim to expand economic opportunity and strengthen education.",
+      "why_relevant": "The release is a promotional statement issued by the executive branch characterizing its own policies; it does not announce new executive action but rather frames existing or previously announced initiatives for a specific audience and occasion.",
       "jurisdiction": "federal",
-      "federal_nexus": "Official White House channel; documents the act of publication only.",
+      "federal_nexus": "",
       "confidence": "high",
-      "basis": "official_actor_record",
+      "basis": "Today, President Donald J. Trump hosts leaders from the black community at the White House to mark Black History Month and reflect on the Administration's ongoing efforts to expand economic opportunity, strengthen education, and promote justice for every American.",
       "actor": "The White House",
       "action": "published a release titled \"President Trump Celebrates Black History Month: Advancing Opportunity and Prosperity for Every American\"",
       "act_key": "white house|published a release titled president trump celebrates black history month advancing opportunity and prosperity for every american|2026-02-18",
       "attacks": [],
       "source_meta": {
-        "headline": null,
-        "published_on": null,
+        "headline": "President Trump Celebrates Black History Month: Advancing Opportunity and Prosperity for Every American",
+        "published_on": "2026-02-18",
         "byline": null,
-        "outlet": null,
-        "accessed_on": null,
+        "outlet": "The White House",
+        "accessed_on": "2026-08-26T22:44:17Z",
         "snapshot_url": null,
         "durable_keys": {}
       },
       "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
-      "_origin_index": 136
+      "_origin_index": 115
     },
     {
       "source_key": "federalregister",
@@ -8099,9 +8145,9 @@
       "action": "announced effort to block regulation",
       "act_key": "michael selig|announced effort to block regulation|2026-02-18",
       "attacks": [
-        "28",
-        "44",
-        "51"
+        "public_service",
+        "emoluments",
+        "economy"
       ],
       "source_meta": {
         "headline": null,
@@ -8134,7 +8180,7 @@
       "action": "demanded loan repayment",
       "act_key": "commercial real estate lenders|demanded loan repayment|2026-02-18",
       "attacks": [
-        "54"
+        "future"
       ],
       "source_meta": {
         "headline": null,
@@ -8167,7 +8213,7 @@
       "action": "projected deficit",
       "act_key": "congressional budget office|projected deficit|2026-02-18",
       "attacks": [
-        "54"
+        "future"
       ],
       "source_meta": {
         "headline": null,
@@ -8293,7 +8339,7 @@
       "action": "underperformed global markets",
       "act_key": "u s stock market|underperformed global markets|2026-02-18",
       "attacks": [
-        "54"
+        "future"
       ],
       "source_meta": {
         "headline": "February 17, 2026",
@@ -8326,7 +8372,7 @@
       "action": "added minimal jobs",
       "act_key": "u s economy|added minimal jobs|2026-02-18",
       "attacks": [
-        "54"
+        "future"
       ],
       "source_meta": {
         "headline": null,
@@ -8530,8 +8576,8 @@
       "action": "invested in drone company",
       "act_key": "eric trump|invested in drone company|2026-02-18",
       "attacks": [
-        "44",
-        "19"
+        "emoluments",
+        "presidency"
       ],
       "source_meta": {
         "headline": null,
@@ -8564,8 +8610,8 @@
       "action": "invested in prediction markets",
       "act_key": "don trump jr|invested in prediction markets|2026-02-18",
       "attacks": [
-        "44",
-        "19"
+        "emoluments",
+        "presidency"
       ],
       "source_meta": {
         "headline": null,
@@ -8829,10 +8875,10 @@
       "action": "withheld documents from public release",
       "act_key": "doj|withheld documents from public release|2026-02-18",
       "attacks": [
-        "30",
-        "33",
-        "41",
-        "43"
+        "information",
+        "knowledge",
+        "constitution",
+        "rule_of_law"
       ],
       "source_meta": {
         "headline": "Hillary Clinton accuses Trump’s justice department of Epstein files ‘cover-up’",
@@ -8865,7 +8911,7 @@
       "action": "renewed partnership with china",
       "act_key": "canada|renewed partnership with china|2026-02-18",
       "attacks": [
-        "35"
+        "allies"
       ],
       "source_meta": {
         "headline": null,
@@ -8931,7 +8977,7 @@
       "action": "upgraded strategic partnership",
       "act_key": "emmanuel macron|upgraded strategic partnership|2026-02-18",
       "attacks": [
-        "35"
+        "allies"
       ],
       "source_meta": {
         "headline": null,
@@ -8995,9 +9041,9 @@
       "action": "endorsed white christian nationalism",
       "act_key": "marco rubio|endorsed white christian nationalism|2026-02-18",
       "attacks": [
-        "36",
-        "40",
-        "35"
+        "global_democracy",
+        "idea_of_america",
+        "allies"
       ],
       "source_meta": {
         "headline": "February 17, 2026",
@@ -9065,8 +9111,8 @@
       "action": "removed commandant and assumed housing",
       "act_key": "kristi noem|removed commandant and assumed housing|2026-02-18",
       "attacks": [
-        "25",
-        "22"
+        "military",
+        "civil_service"
       ],
       "source_meta": {
         "headline": null,
@@ -9099,9 +9145,9 @@
       "action": "shifted coast guard mission",
       "act_key": "kristi noem|shifted coast guard mission|2026-02-18",
       "attacks": [
-        "25",
-        "22",
-        "42"
+        "military",
+        "civil_service",
+        "separation_of_powers"
       ],
       "source_meta": {
         "headline": null,
@@ -9134,9 +9180,9 @@
       "action": "launched air and drone strikes",
       "act_key": "trump administration|launched air and drone strikes|2026-02-18",
       "attacks": [
-        "38",
-        "42",
-        "48"
+        "peace",
+        "separation_of_powers",
+        "peaceful_transfer"
       ],
       "source_meta": {
         "headline": null,
@@ -9169,9 +9215,9 @@
       "action": "struck boats and killed people",
       "act_key": "u s southern command|struck boats and killed people|2026-02-18",
       "attacks": [
-        "38",
-        "42",
-        "43"
+        "peace",
+        "separation_of_powers",
+        "rule_of_law"
       ],
       "source_meta": {
         "headline": null,
@@ -9297,29 +9343,33 @@
       "reported_on": "2026-02-19",
       "dated_by": "occurred",
       "category": "Executive Actions & Orders",
-      "title": "Justice Department Office of Legal Counsel Concludes Immigrant Welfare Eligibility Rules Apply to Public Housing",
+      "title": "Department of Justice Office of Legal Counsel issues opinion restricting immigrant access to public housing benefits",
       "url": "https://www.justice.gov/opa/pr/justice-department-office-legal-counsel-concludes-immigrant-welfare-eligibility-rules-apply",
-      "summary": "The Department of Justice announced this on 2026-02-19 through Office of the Attorney General. The department's own account of it reads: \"Today, the Department of Justice released an opinion for the Department of Housing and Urban Development which addresses the relationship between the Personal Responsibility and Work Opportunity Reconciliation Act of 1996 (PRWORA) and Section 214 of the Housing and Community Development Act of 1980.\"",
-      "why_relevant": "",
+      "summary": "The Department of Justice Office of Legal Counsel issued an opinion concluding that immigrant eligibility for public housing benefits under Section 214 of the Housing and Community Development Act of 1980 must satisfy requirements of both that statute and the Personal Responsibility and Work Opportunity Reconciliation Act of 1996. The opinion narrows eligibility for categories including Haitian entrants and many parolees. Attorney General Pamela Bondi characterized the ruling as protecting American taxpayer resources and stated it would prevent \"ineligible aliens\" from accessing housing programs.",
+      "why_relevant": "A federal legal interpretation that materially restricts access to a public benefit based on immigration status bears on equal administration of law and the scope of government assistance available to vulnerable populations.",
       "jurisdiction": "federal",
-      "federal_nexus": "Official DOJ channel; documents the act of announcement only.",
+      "federal_nexus": "",
       "confidence": "high",
-      "basis": "official_actor_record",
+      "basis": "The Office of Legal Counsel's interpretation finds that in order to receive housing benefits administered under Section 214, an alien must satisfy the eligibility requirements of both PRWORA and Section 214.",
       "actor": "The Department of Justice",
       "action": "announced \"Justice Department Office of Legal Counsel Concludes Immigrant Welfare Eligibility Rules Apply to Public Housing\"",
       "act_key": "department|announced justice department office of legal counsel concludes immigrant welfare eligibility rules apply to public housing|2026-02-19",
-      "attacks": [],
+      "attacks": [
+        "immigrants_refugees",
+        "poor",
+        "rule_of_law"
+      ],
       "source_meta": {
-        "headline": null,
-        "published_on": null,
+        "headline": "Justice Department Office of Legal Counsel Concludes Immigrant Welfare Eligibility Rules Apply to Public Housing",
+        "published_on": "2026-02-19",
         "byline": null,
-        "outlet": null,
-        "accessed_on": null,
+        "outlet": "justice.gov",
+        "accessed_on": "2026-08-27T05:16:16Z",
         "snapshot_url": null,
         "durable_keys": {}
       },
       "_origin_file": "justice_events_2025-01-20_2026-08-14.json",
-      "_origin_index": 301
+      "_origin_index": 300
     },
     {
       "source_key": "meidas",
@@ -10854,91 +10904,29 @@
       "reported_on": "2026-02-19",
       "dated_by": "occurred",
       "category": "Information & Media Control",
-      "title": "Fact Sheet: Trump Administration Finalizes Trade Deal with Indonesia",
-      "url": "https://www.whitehouse.gov/fact-sheets/2026/02/fact-sheet-trump-administration-finalizes-trade-deal-with-indonesia/",
-      "summary": "The White House published this fact sheet on 2026-02-19 through its fact-sheets channel.",
-      "why_relevant": "",
-      "jurisdiction": "federal",
-      "federal_nexus": "Official White House channel; documents the act of publication only.",
-      "confidence": "high",
-      "basis": "official_actor_record",
-      "actor": "The White House",
-      "action": "issued a fact sheet titled \"Fact Sheet: Trump Administration Finalizes Trade Deal with Indonesia\"",
-      "act_key": "white house|issued a fact sheet titled fact sheet trump administration finalizes trade deal with indonesia|2026-02-19",
-      "attacks": [],
-      "source_meta": {
-        "headline": null,
-        "published_on": null,
-        "byline": null,
-        "outlet": null,
-        "accessed_on": null,
-        "snapshot_url": null,
-        "durable_keys": {}
-      },
-      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
-      "_origin_index": 457
-    },
-    {
-      "source_key": "whitehouse",
-      "date": "2026-02-19",
-      "occurred_on": "2026-02-19",
-      "reported_on": "2026-02-19",
-      "dated_by": "occurred",
-      "category": "Information & Media Control",
-      "title": "President Trump Is Bringing Back the American Dream of Homeownership",
-      "url": "https://www.whitehouse.gov/releases/2026/02/president-trump-is-bringing-back-the-american-dream-of-homeownership/",
-      "summary": "The White House published this release on 2026-02-19 through its releases channel.",
-      "why_relevant": "",
-      "jurisdiction": "federal",
-      "federal_nexus": "Official White House channel; documents the act of publication only.",
-      "confidence": "high",
-      "basis": "official_actor_record",
-      "actor": "The White House",
-      "action": "published a release titled \"President Trump Is Bringing Back the American Dream of Homeownership\"",
-      "act_key": "white house|published a release titled president trump is bringing back the american dream of homeownership|2026-02-19",
-      "attacks": [],
-      "source_meta": {
-        "headline": null,
-        "published_on": null,
-        "byline": null,
-        "outlet": null,
-        "accessed_on": null,
-        "snapshot_url": null,
-        "durable_keys": {}
-      },
-      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
-      "_origin_index": 134
-    },
-    {
-      "source_key": "whitehouse",
-      "date": "2026-02-19",
-      "occurred_on": "2026-02-19",
-      "reported_on": "2026-02-19",
-      "dated_by": "occurred",
-      "category": "Information & Media Control",
-      "title": "President Trump Returns to Georgia: Delivering Real Relief for Families, With Much More on the Way",
+      "title": "White House issues fact sheet on Trump Georgia visit, claiming economic and public safety gains",
       "url": "https://www.whitehouse.gov/releases/2026/02/president-trump-returns-to-georgia-delivering-real-relief-for-families-with-much-more-on-the-way/",
-      "summary": "The White House published this release on 2026-02-19 through its releases channel.",
-      "why_relevant": "",
+      "summary": "The White House published a fact sheet accompanying President Trump's visit to Georgia on February 19, 2026. The document claims Georgia families are benefiting from lower energy costs (gas prices down 40% from Biden-era highs), tax relief ($3,086 average savings), wage growth projections, rural healthcare investment ($218 million), ICE enforcement actions against undocumented immigrants, home price declines, disaster recovery funding ($1 billion), and corporate investment commitments (Japan $600 million synthetic diamond facility, AWS $11 billion, Salesforce $15 million, JS Link $223 million).",
+      "why_relevant": "The document is a promotional fact sheet asserting policy outcomes without independent verification, exemplifying how the executive uses official channels to frame and distribute claims about its record to the public.",
       "jurisdiction": "federal",
-      "federal_nexus": "Official White House channel; documents the act of publication only.",
+      "federal_nexus": "",
       "confidence": "high",
-      "basis": "official_actor_record",
+      "basis": "As President Donald J. Trump visits Georgia today, he returns to a state that is seeing real recovery, safer communities, and renewed strength under his leadership.",
       "actor": "The White House",
       "action": "published a release titled \"President Trump Returns to Georgia: Delivering Real Relief for Families, With Much More on the Way\"",
       "act_key": "white house|published a release titled president trump returns to georgia delivering real relief for families with much more on the way|2026-02-19",
       "attacks": [],
       "source_meta": {
-        "headline": null,
-        "published_on": null,
+        "headline": "President Trump Returns to Georgia: Delivering Real Relief for Families, With Much More on the Way",
+        "published_on": "2026-02-19",
         "byline": null,
-        "outlet": null,
-        "accessed_on": null,
+        "outlet": "The White House",
+        "accessed_on": "2026-08-26T22:44:04Z",
         "snapshot_url": null,
         "durable_keys": {}
       },
       "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
-      "_origin_index": 135
+      "_origin_index": 114
     },
     {
       "source_key": "federalregister",
@@ -11403,6 +11391,70 @@
       },
       "_origin_file": "popinfo_events_2025-11-29_2026-03-06.json",
       "_origin_index": 33
+    },
+    {
+      "source_key": "whitehouse",
+      "date": "2026-02-19",
+      "occurred_on": "2026-02-19",
+      "reported_on": "2026-02-19",
+      "dated_by": "occurred",
+      "category": "Economic & Regulatory Power",
+      "title": "White House issues fact sheet on finalized U.S.-Indonesia trade agreement",
+      "url": "https://www.whitehouse.gov/fact-sheets/2026/02/fact-sheet-trump-administration-finalizes-trade-deal-with-indonesia/",
+      "summary": "The White House issued a fact sheet announcing the finalization of a trade agreement with Indonesia. The agreement states that Indonesia will eliminate tariffs on over 99% of U.S. products, address non-tariff barriers, remove restrictions on critical minerals exports, adopt forced labor import bans, and commit to labor rights protections. The fact sheet reports approximately $33 billion in associated commercial deals, including $15 billion in energy commodities, $13.5 billion in aircraft purchases, and $4.5 billion in agricultural products. The U.S. will maintain a 19% reciprocal tariff on most Indonesian imports.",
+      "why_relevant": "Trade agreements reshape market access, tariff structures, and supply chains; they affect domestic employment, prices, and industrial capacity, and signal shifts in bilateral relationships and economic strategy.",
+      "jurisdiction": "federal",
+      "federal_nexus": "",
+      "confidence": "high",
+      "basis": "Today, the Trump Administration finalized a landmark trade agreement with Indonesia that will provide Americans with unprecedented market access and unlock major breakthroughs for America's manufacturing, agriculture, and digital sectors.",
+      "actor": "The White House",
+      "action": "issued a fact sheet titled \"Fact Sheet: Trump Administration Finalizes Trade Deal with Indonesia\"",
+      "act_key": "white house|issued a fact sheet titled fact sheet trump administration finalizes trade deal with indonesia|2026-02-19",
+      "attacks": [],
+      "source_meta": {
+        "headline": "Fact Sheet: Trump Administration Finalizes Trade Deal with Indonesia",
+        "published_on": "2026-02-20",
+        "byline": null,
+        "outlet": "The White House",
+        "accessed_on": "2026-08-26T23:44:05Z",
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
+      "_origin_index": 401
+    },
+    {
+      "source_key": "whitehouse",
+      "date": "2026-02-19",
+      "occurred_on": "",
+      "reported_on": "2026-02-19",
+      "dated_by": "reported",
+      "category": "Economic & Regulatory Power",
+      "title": "White House issues fact sheet on housing affordability and homeownership initiatives",
+      "url": "https://www.whitehouse.gov/releases/2026/02/president-trump-is-bringing-back-the-american-dream-of-homeownership/",
+      "summary": "The White House issued a fact sheet claiming that mortgage rates have fallen to multi-year lows under Trump administration policies, citing data from Freddie Mac and the National Association of Realtors. The document states that President Trump directed Fannie Mae and Freddie Mac to purchase $200 billion in mortgage-backed securities, took executive action to prohibit large institutional investors from buying single-family homes, barred undocumented immigrants from accessing taxpayer-backed mortgages, and eliminated the Affirmatively Furthering Fair Housing rule.",
+      "why_relevant": "The document describes executive directives affecting mortgage markets, housing supply, and access to federal lending programs, which reshape the scope of federal housing policy and eligibility for government-backed credit.",
+      "jurisdiction": "federal",
+      "federal_nexus": "",
+      "confidence": "medium",
+      "basis": "President Trump directed Fannie Mae and Freddie Mac to purchase $200 billion in mortgage-backed securities\" and \"took executive action to prohibit large institutional investors from buying single-family homes.",
+      "actor": "The White House",
+      "action": "published a release titled \"President Trump Is Bringing Back the American Dream of Homeownership\"",
+      "act_key": "white house|published a release titled president trump is bringing back the american dream of homeownership|2026-02-19",
+      "attacks": [
+        "immigrants_refugees"
+      ],
+      "source_meta": {
+        "headline": "President Trump Is Bringing Back the American Dream of Homeownership",
+        "published_on": "2026-02-19",
+        "byline": null,
+        "outlet": "The White House",
+        "accessed_on": "2026-08-26T22:43:54Z",
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
+      "_origin_index": 113
     },
     {
       "source_key": "guardian",
@@ -12217,99 +12269,6 @@
       "_origin_index": 268
     },
     {
-      "source_key": "whitehouse",
-      "date": "2026-02-20",
-      "occurred_on": "2026-02-20",
-      "reported_on": "2026-02-20",
-      "dated_by": "occurred",
-      "category": "Executive Actions & Orders",
-      "title": "Continuing the Suspension of Duty-Free De Minimis Treatment for All Countries",
-      "url": "https://www.whitehouse.gov/presidential-actions/2026/02/continuing-the-suspension-of-duty-free-de-minimis-treatment-for-all-countries/",
-      "summary": "The White House published this executive order on 2026-02-20 through its executive-orders channel.",
-      "why_relevant": "",
-      "jurisdiction": "federal",
-      "federal_nexus": "Official White House channel; documents the act of publication only.",
-      "confidence": "high",
-      "basis": "official_actor_record",
-      "actor": "The White House",
-      "action": "announced an executive order titled \"Continuing the Suspension of Duty-Free De Minimis Treatment for All Countries\"",
-      "act_key": "white house|announced an executive order titled continuing the suspension of duty free de minimis treatment for all countries|2026-02-20",
-      "attacks": [],
-      "source_meta": {
-        "headline": null,
-        "published_on": null,
-        "byline": null,
-        "outlet": null,
-        "accessed_on": null,
-        "snapshot_url": null,
-        "durable_keys": {}
-      },
-      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
-      "_origin_index": 768
-    },
-    {
-      "source_key": "whitehouse",
-      "date": "2026-02-20",
-      "occurred_on": "2026-02-20",
-      "reported_on": "2026-02-20",
-      "dated_by": "occurred",
-      "category": "Executive Actions & Orders",
-      "title": "Ending Certain Tariff Actions",
-      "url": "https://www.whitehouse.gov/presidential-actions/2026/02/ending-certain-tariff-actions/",
-      "summary": "The White House published this executive order on 2026-02-20 through its executive-orders channel.",
-      "why_relevant": "",
-      "jurisdiction": "federal",
-      "federal_nexus": "Official White House channel; documents the act of publication only.",
-      "confidence": "high",
-      "basis": "official_actor_record",
-      "actor": "The White House",
-      "action": "announced an executive order titled \"Ending Certain Tariff Actions\"",
-      "act_key": "white house|announced an executive order titled ending certain tariff actions|2026-02-20",
-      "attacks": [],
-      "source_meta": {
-        "headline": null,
-        "published_on": null,
-        "byline": null,
-        "outlet": null,
-        "accessed_on": null,
-        "snapshot_url": null,
-        "durable_keys": {}
-      },
-      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
-      "_origin_index": 769
-    },
-    {
-      "source_key": "whitehouse",
-      "date": "2026-02-20",
-      "occurred_on": "2026-02-20",
-      "reported_on": "2026-02-20",
-      "dated_by": "occurred",
-      "category": "Executive Actions & Orders",
-      "title": "Imposing a Temporary Import Surcharge to Address Fundamental International Payments Problems",
-      "url": "https://www.whitehouse.gov/presidential-actions/2026/02/imposing-a-temporary-import-surcharge-to-address-fundamental-international-payments-problems/",
-      "summary": "The White House published this proclamation on 2026-02-20 through its proclamations channel.",
-      "why_relevant": "",
-      "jurisdiction": "federal",
-      "federal_nexus": "Official White House channel; documents the act of publication only.",
-      "confidence": "high",
-      "basis": "official_actor_record",
-      "actor": "The White House",
-      "action": "announced a proclamation titled \"Imposing a Temporary Import Surcharge to Address Fundamental International Payments Problems\"",
-      "act_key": "white house|announced a proclamation titled imposing a temporary import surcharge to address fundamental international payments problems|2026-02-20",
-      "attacks": [],
-      "source_meta": {
-        "headline": null,
-        "published_on": null,
-        "byline": null,
-        "outlet": null,
-        "accessed_on": null,
-        "snapshot_url": null,
-        "durable_keys": {}
-      },
-      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
-      "_origin_index": 965
-    },
-    {
       "source_key": "zeteo",
       "date": "2026-02-20",
       "occurred_on": "2026-02-20",
@@ -12780,37 +12739,6 @@
       },
       "_origin_file": "hcr_events_2025-11-29_2026-03-06.json",
       "_origin_index": 143
-    },
-    {
-      "source_key": "justice",
-      "date": "2026-02-20",
-      "occurred_on": "2026-02-20",
-      "reported_on": "2026-02-20",
-      "dated_by": "occurred",
-      "category": "Judicial Developments",
-      "title": "Justice Department Sues OhioHealth for Anticompetitive Healthcare Contracts That Increase Costs for Ohio Patients",
-      "url": "https://www.justice.gov/opa/pr/justice-department-sues-ohiohealth-anticompetitive-healthcare-contracts-increase-costs-ohio",
-      "summary": "The Department of Justice announced this on 2026-02-20 through Office of the Attorney General. The recorded stage is a complaint filed. The allegations are unadjudicated; this documents the announcement, not the truth of any allegation. The department's own account of it reads: \"The Justice Department’s Antitrust Division, together with the Attorney General of Ohio, filed a civil antitrust lawsuit today challenging OhioHealth’s anticompetitive contract restrictions that force Ohio patients to pay higher prices for healthcare.\"",
-      "why_relevant": "",
-      "jurisdiction": "federal",
-      "federal_nexus": "Official DOJ channel; documents the act of announcement only.",
-      "confidence": "high",
-      "basis": "official_actor_record",
-      "actor": "The Department of Justice",
-      "action": "announced \"Justice Department Sues OhioHealth for Anticompetitive Healthcare Contracts That Increase Costs for Ohio Patients\"",
-      "act_key": "department|announced justice department sues ohiohealth for anticompetitive healthcare contracts that increase costs for ohio patients|2026-02-20",
-      "attacks": [],
-      "source_meta": {
-        "headline": null,
-        "published_on": null,
-        "byline": null,
-        "outlet": null,
-        "accessed_on": null,
-        "snapshot_url": null,
-        "durable_keys": {}
-      },
-      "_origin_file": "justice_events_2025-01-20_2026-08-14.json",
-      "_origin_index": 302
     },
     {
       "source_key": "justsecurity",
@@ -14269,161 +14197,6 @@
       "_origin_index": 270
     },
     {
-      "source_key": "whitehouse",
-      "date": "2026-02-20",
-      "occurred_on": "2026-02-20",
-      "reported_on": "2026-02-20",
-      "dated_by": "occurred",
-      "category": "Information & Media Control",
-      "title": "Drug Czar Hosts Roundtable Discussion at the White House About Combatting Illicit Drug Trafficking on Social Media Platforms",
-      "url": "https://www.whitehouse.gov/releases/2026/02/36480/",
-      "summary": "The White House published this release on 2026-02-20 through its releases channel.",
-      "why_relevant": "",
-      "jurisdiction": "federal",
-      "federal_nexus": "Official White House channel; documents the act of publication only.",
-      "confidence": "high",
-      "basis": "official_actor_record",
-      "actor": "The White House",
-      "action": "published a release titled \"Drug Czar Hosts Roundtable Discussion at the White House About Combatting Illicit Drug Trafficking on Social Media Platforms\"",
-      "act_key": "white house|published a release titled drug czar hosts roundtable discussion at the white house about combatting illicit drug trafficking on social media platforms|2026-02-20",
-      "attacks": [],
-      "source_meta": {
-        "headline": null,
-        "published_on": null,
-        "byline": null,
-        "outlet": null,
-        "accessed_on": null,
-        "snapshot_url": null,
-        "durable_keys": {}
-      },
-      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
-      "_origin_index": 1410
-    },
-    {
-      "source_key": "whitehouse",
-      "date": "2026-02-20",
-      "occurred_on": "2026-02-20",
-      "reported_on": "2026-02-20",
-      "dated_by": "occurred",
-      "category": "Information & Media Control",
-      "title": "Fact Sheet: President Donald J. Trump Imposes a Temporary Import Duty to Address Fundamental International Payment Problems",
-      "url": "https://www.whitehouse.gov/fact-sheets/2026/02/fact-sheet-president-donald-j-trump-imposes-a-temporary-import-duty-to-address-fundamental-international-payment-problems/",
-      "summary": "The White House published this fact sheet on 2026-02-20 through its fact-sheets channel.",
-      "why_relevant": "",
-      "jurisdiction": "federal",
-      "federal_nexus": "Official White House channel; documents the act of publication only.",
-      "confidence": "high",
-      "basis": "official_actor_record",
-      "actor": "The White House",
-      "action": "issued a fact sheet titled \"Fact Sheet: President Donald J. Trump Imposes a Temporary Import Duty to Address Fundamental International Payment Problems\"",
-      "act_key": "white house|issued a fact sheet titled fact sheet president donald j trump imposes a temporary import duty to address fundamental international payment problems|2026-02-20",
-      "attacks": [],
-      "source_meta": {
-        "headline": null,
-        "published_on": null,
-        "byline": null,
-        "outlet": null,
-        "accessed_on": null,
-        "snapshot_url": null,
-        "durable_keys": {}
-      },
-      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
-      "_origin_index": 456
-    },
-    {
-      "source_key": "whitehouse",
-      "date": "2026-02-20",
-      "occurred_on": "2026-02-20",
-      "reported_on": "2026-02-20",
-      "dated_by": "occurred",
-      "category": "Information & Media Control",
-      "title": "President Trump Was Right About Everything — Including the Democrat Shutdown Costing Us Growth",
-      "url": "https://www.whitehouse.gov/releases/2026/02/president-trump-was-right-about-everything-including-the-democrat-shutdown-costing-us-growth/",
-      "summary": "The White House published this release on 2026-02-20 through its releases channel.",
-      "why_relevant": "",
-      "jurisdiction": "federal",
-      "federal_nexus": "Official White House channel; documents the act of publication only.",
-      "confidence": "high",
-      "basis": "official_actor_record",
-      "actor": "The White House",
-      "action": "published a release titled \"President Trump Was Right About Everything — Including the Democrat Shutdown Costing Us Growth\"",
-      "act_key": "white house|published a release titled president trump was right about everything including the democrat shutdown costing us growth|2026-02-20",
-      "attacks": [],
-      "source_meta": {
-        "headline": null,
-        "published_on": null,
-        "byline": null,
-        "outlet": null,
-        "accessed_on": null,
-        "snapshot_url": null,
-        "durable_keys": {}
-      },
-      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
-      "_origin_index": 131
-    },
-    {
-      "source_key": "whitehouse",
-      "date": "2026-02-20",
-      "occurred_on": "2026-02-20",
-      "reported_on": "2026-02-20",
-      "dated_by": "occurred",
-      "category": "Information & Media Control",
-      "title": "Remarks by Director Michael Kratsios at the India AI Impact Summit",
-      "url": "https://www.whitehouse.gov/releases/2026/02/remarks-by-director-michael-kratsios-at-the-india-ai-impact-summit/",
-      "summary": "The White House published this release on 2026-02-20 through its releases channel.",
-      "why_relevant": "",
-      "jurisdiction": "federal",
-      "federal_nexus": "Official White House channel; documents the act of publication only.",
-      "confidence": "high",
-      "basis": "official_actor_record",
-      "actor": "The White House",
-      "action": "published a release titled \"Remarks by Director Michael Kratsios at the India AI Impact Summit\"",
-      "act_key": "white house|published a release titled remarks by director michael kratsios at the india ai impact summit|2026-02-20",
-      "attacks": [],
-      "source_meta": {
-        "headline": null,
-        "published_on": null,
-        "byline": null,
-        "outlet": null,
-        "accessed_on": null,
-        "snapshot_url": null,
-        "durable_keys": {}
-      },
-      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
-      "_origin_index": 133
-    },
-    {
-      "source_key": "whitehouse",
-      "date": "2026-02-20",
-      "occurred_on": "2026-02-20",
-      "reported_on": "2026-02-20",
-      "dated_by": "occurred",
-      "category": "Information & Media Control",
-      "title": "U.S. Promotes AI Adoption, Sovereignty, and Exports at India AI Impact Summit",
-      "url": "https://www.whitehouse.gov/releases/2026/02/u-s-promotes-ai-adoption-sovereignty-and-exports-at-india-ai-impact-summit/",
-      "summary": "The White House published this release on 2026-02-20 through its releases channel.",
-      "why_relevant": "",
-      "jurisdiction": "federal",
-      "federal_nexus": "Official White House channel; documents the act of publication only.",
-      "confidence": "high",
-      "basis": "official_actor_record",
-      "actor": "The White House",
-      "action": "published a release titled \"U.S. Promotes AI Adoption, Sovereignty, and Exports at India AI Impact Summit\"",
-      "act_key": "white house|published a release titled u s promotes ai adoption sovereignty and exports at india ai impact summit|2026-02-20",
-      "attacks": [],
-      "source_meta": {
-        "headline": null,
-        "published_on": null,
-        "byline": null,
-        "outlet": null,
-        "accessed_on": null,
-        "snapshot_url": null,
-        "durable_keys": {}
-      },
-      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
-      "_origin_index": 132
-    },
-    {
       "source_key": "defense",
       "date": "2026-02-20",
       "occurred_on": "2026-02-20",
@@ -15022,6 +14795,37 @@
       "_origin_index": 665
     },
     {
+      "source_key": "justice",
+      "date": "2026-02-20",
+      "occurred_on": "2026-02-20",
+      "reported_on": "2026-02-20",
+      "dated_by": "occurred",
+      "category": "Economic & Regulatory Power",
+      "title": "Justice Department and Ohio Attorney General sue OhioHealth for anticompetitive healthcare contracts",
+      "url": "https://www.justice.gov/opa/pr/justice-department-sues-ohiohealth-anticompetitive-healthcare-contracts-increase-costs-ohio",
+      "summary": "The Department of Justice's Antitrust Division, together with Ohio Attorney General Dave Yost, filed a civil antitrust lawsuit in U.S. District Court for the Southern District of Ohio challenging OhioHealth Corporation's contractual restrictions. The complaint alleges that OhioHealth, the largest healthcare system in central Ohio, uses market power to force insurers to include OhioHealth in all commercial insurance networks regardless of price competitiveness, preventing development of lower-cost health plans and limiting patient choice. The lawsuit seeks to enjoin OhioHealth from enforcing these restrictions and to reduce healthcare costs for Ohio patients and employers.",
+      "why_relevant": "The lawsuit represents federal enforcement of antitrust law to protect consumer choice and market competition in healthcare, a core function of the executive branch's economic regulation authority.",
+      "jurisdiction": "federal",
+      "federal_nexus": "",
+      "confidence": "high",
+      "basis": "The Justice Department's Antitrust Division, together with the Attorney General of Ohio, filed a civil antitrust lawsuit today challenging OhioHealth Corporation's (OhioHealth) anticompetitive contract restrictions.",
+      "actor": "The Department of Justice",
+      "action": "announced \"Justice Department Sues OhioHealth for Anticompetitive Healthcare Contracts That Increase Costs for Ohio Patients\"",
+      "act_key": "department|announced justice department sues ohiohealth for anticompetitive healthcare contracts that increase costs for ohio patients|2026-02-20",
+      "attacks": [],
+      "source_meta": {
+        "headline": "Justice Department Sues OhioHealth for Anticompetitive Healthcare Contracts That Increase Costs for Ohio Patients",
+        "published_on": "2026-02-20",
+        "byline": null,
+        "outlet": "justice.gov",
+        "accessed_on": "2026-08-27T05:16:25Z",
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "justice_events_2025-01-20_2026-08-14.json",
+      "_origin_index": 301
+    },
+    {
       "source_key": "meidas",
       "date": "2026-02-20",
       "occurred_on": "2026-02-20",
@@ -15257,6 +15061,173 @@
       "_origin_index": 2
     },
     {
+      "source_key": "whitehouse",
+      "date": "2026-02-20",
+      "occurred_on": "2026-02-20",
+      "reported_on": "2026-02-20",
+      "dated_by": "occurred",
+      "category": "Economic & Regulatory Power",
+      "title": "President Trump signed Executive Order 14389 terminating ad valorem tariff duties imposed under prior emergency declarations.",
+      "url": "https://www.whitehouse.gov/presidential-actions/2026/02/ending-certain-tariff-actions/",
+      "summary": "On February 20, 2026, President Trump signed Executive Order 14389, which terminates the collection of additional ad valorem duties imposed under the International Emergency Economic Powers Act (IEEPA) in nine prior executive orders issued between February 2025 and February 2026. These orders had declared national emergencies related to drug flows, border situations, synthetic opioids, Venezuelan oil imports, reciprocal trade practices, and threats from Brazil, Russia, Cuba, and Iran. The order directs executive agencies to immediately cease collection of these tariffs, though it preserves the underlying national emergency declarations and other non-tariff actions taken under those orders. The order does not affect duties imposed under other statutory authorities, including section 232 of the Trade Expansion Act or section 301 of the Trade Act of 1974.",
+      "why_relevant": "The order reverses a significant assertion of emergency executive power to impose tariffs unilaterally, though it preserves the underlying emergency declarations, raising questions about the durability of the emergency rationale and the scope of presidential authority to declare and then rescind emergency trade measures.",
+      "jurisdiction": "federal",
+      "federal_nexus": "",
+      "confidence": "high",
+      "basis": "the additional ad valorem duties imposed pursuant to IEEPA in Executive Order 14193, as amended; Executive Order 14194, as amended; Executive Order 14195, as amended; Executive Order 14245; Executive Order 14257, as amended; Executive Order 14323, as amended; Executive Order 14329, as amended; Executive Order 14380; and Executive Order 14382 shall no longer be in effect",
+      "actor": "The White House",
+      "action": "announced an executive order titled \"Ending Certain Tariff Actions\"",
+      "act_key": "white house|announced an executive order titled ending certain tariff actions|2026-02-20",
+      "attacks": [],
+      "source_meta": {
+        "headline": "Ending Certain Tariff Actions",
+        "published_on": "2026-02-21",
+        "byline": null,
+        "outlet": "The White House",
+        "accessed_on": "2026-08-27T00:43:33Z",
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
+      "_origin_index": 713
+    },
+    {
+      "source_key": "whitehouse",
+      "date": "2026-02-20",
+      "occurred_on": "2026-02-20",
+      "reported_on": "2026-02-20",
+      "dated_by": "occurred",
+      "category": "Economic & Regulatory Power",
+      "title": "Trump issued proclamation imposing temporary 10 percent import surcharge for 150 days",
+      "url": "https://www.whitehouse.gov/presidential-actions/2026/02/imposing-a-temporary-import-surcharge-to-address-fundamental-international-payments-problems/",
+      "summary": "President Trump issued a proclamation on February 20, 2026, imposing a temporary 10 percent ad valorem import surcharge effective February 24, 2026, for 150 days (through July 24, 2026), citing fundamental international payments problems including large trade deficits and a negative net international investment position. The proclamation exempts certain products including critical minerals, energy, agricultural goods, pharmaceuticals, vehicles, aerospace products, and goods from Canada, Mexico, and Central American trade partners. The surcharge is authorized under Section 122 of the Trade Act of 1974.",
+      "why_relevant": "The proclamation unilaterally imposes broad tariffs affecting all imports, asserting executive power over trade policy and potentially affecting prices, supply chains, and international relations without congressional authorization beyond the delegated authority in Section 122.",
+      "jurisdiction": "federal",
+      "federal_nexus": "",
+      "confidence": "high",
+      "basis": "I impose, for a period of 150 days, a temporary import surcharge of 10 percent ad valorem, as described below, on articles imported into the United States, effective February 24, 2026.",
+      "actor": "The White House",
+      "action": "announced a proclamation titled \"Imposing a Temporary Import Surcharge to Address Fundamental International Payments Problems\"",
+      "act_key": "white house|announced a proclamation titled imposing a temporary import surcharge to address fundamental international payments problems|2026-02-20",
+      "attacks": [
+        "trade",
+        "allies",
+        "economy"
+      ],
+      "source_meta": {
+        "headline": "Imposing a Temporary Import Surcharge to Address Fundamental International Payments Problems",
+        "published_on": "2026-02-21",
+        "byline": null,
+        "outlet": "The White House",
+        "accessed_on": "2026-08-27T01:21:33Z",
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
+      "_origin_index": 909
+    },
+    {
+      "source_key": "whitehouse",
+      "date": "2026-02-20",
+      "occurred_on": "2026-02-20",
+      "reported_on": "2026-02-20",
+      "dated_by": "occurred",
+      "category": "Economic & Regulatory Power",
+      "title": "White House issues fact sheet attributing economic growth to Trump agenda and blaming Democratic shutdown for GDP reduction",
+      "url": "https://www.whitehouse.gov/releases/2026/02/president-trump-was-right-about-everything-including-the-democrat-shutdown-costing-us-growth/",
+      "summary": "The White House issued a fact sheet claiming that President Trump's economic policies drove robust 2025 GDP growth despite a 43-day government shutdown attributed to Democrats. The document cites administration officials and external economists estimating the shutdown reduced GDP growth by 1.0–2.0 percentage points, and asserts that without the shutdown, growth would have been higher. The fact sheet frames the shutdown as deliberate Democratic harm and positions Trump's tax cuts, deregulation, tariffs, and energy policies as drivers of recovery.",
+      "why_relevant": "The document uses executive communications to frame partisan responsibility for a fiscal event and to claim credit for economic outcomes, illustrating how the presidency shapes public narrative around shared economic data.",
+      "jurisdiction": "federal",
+      "federal_nexus": "",
+      "confidence": "high",
+      "basis": "President Trump Was Right About Everything — Including the Democrat Shutdown Costing Us Growth\" — White House fact sheet issued February 20, 2026, attributing GDP growth to Trump policies and shutdown to Democratic action.",
+      "actor": "The White House",
+      "action": "published a release titled \"President Trump Was Right About Everything — Including the Democrat Shutdown Costing Us Growth\"",
+      "act_key": "white house|published a release titled president trump was right about everything including the democrat shutdown costing us growth|2026-02-20",
+      "attacks": [],
+      "source_meta": {
+        "headline": "President Trump Was Right About Everything — Including the Democrat Shutdown Costing Us Growth",
+        "published_on": "2026-02-20",
+        "byline": null,
+        "outlet": "The White House",
+        "accessed_on": "2026-08-26T22:43:20Z",
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
+      "_origin_index": 110
+    },
+    {
+      "source_key": "whitehouse",
+      "date": "2026-02-20",
+      "occurred_on": "2026-02-20",
+      "reported_on": "2026-02-20",
+      "dated_by": "occurred",
+      "category": "Economic & Regulatory Power",
+      "title": "White House issues fact sheet on temporary import duty proclamation",
+      "url": "https://www.whitehouse.gov/fact-sheets/2026/02/fact-sheet-president-donald-j-trump-imposes-a-temporary-import-duty-to-address-fundamental-international-payment-problems/",
+      "summary": "The White House published a fact sheet on February 20, 2026, describing President Trump's signing of a proclamation imposing a temporary 10% ad valorem import duty on most articles imported into the United States, effective February 24, 2026, for 150 days. The fact sheet states the duty is authorized under section 122 of the Trade Act of 1974 and is intended to address the U.S. balance-of-payments deficit. Specified categories of goods—including critical minerals, energy, certain agricultural products, pharmaceuticals, and USMCA-compliant goods—are exempted. The fact sheet claims the measure will stem dollar outflow, incentivize domestic production, create jobs, and lower consumer costs.",
+      "why_relevant": "The proclamation asserts executive authority to impose broad tariffs on imports without congressional approval, raising questions about the scope of presidential trade power and the separation of powers in trade policy.",
+      "jurisdiction": "federal",
+      "federal_nexus": "",
+      "confidence": "high",
+      "basis": "President Donald J. Trump signed a Proclamation imposing a temporary import duty to address fundamental international payments problems.",
+      "actor": "The White House",
+      "action": "issued a fact sheet titled \"Fact Sheet: President Donald J. Trump Imposes a Temporary Import Duty to Address Fundamental International Payment Problems\"",
+      "act_key": "white house|issued a fact sheet titled fact sheet president donald j trump imposes a temporary import duty to address fundamental international payment problems|2026-02-20",
+      "attacks": [
+        "trade",
+        "rule_of_law",
+        "separation_of_powers"
+      ],
+      "source_meta": {
+        "headline": "Fact Sheet: President Donald J. Trump Imposes a Temporary Import Duty to Address Fundamental International Payment Problems",
+        "published_on": "2026-02-21",
+        "byline": null,
+        "outlet": "The White House",
+        "accessed_on": "2026-08-26T23:43:54Z",
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
+      "_origin_index": 400
+    },
+    {
+      "source_key": "whitehouse",
+      "date": "2026-02-20",
+      "occurred_on": "2026-02-20",
+      "reported_on": "2026-02-20",
+      "dated_by": "occurred",
+      "category": "Economic & Regulatory Power",
+      "title": "White House signed executive order continuing suspension of duty-free de minimis treatment for imports",
+      "url": "https://www.whitehouse.gov/presidential-actions/2026/02/continuing-the-suspension-of-duty-free-de-minimis-treatment-for-all-countries/",
+      "summary": "President Trump signed Executive Order 14388 on February 20, 2026, continuing the suspension of duty-free de minimis treatment for all countries under 19 U.S.C. 1321(a)(2)(C). The order directs U.S. Customs and Border Protection to collect duties on all shipments, including those sent through the international postal network, effective February 24, 2026. The order states the suspension is necessary to address national emergencies declared in prior executive orders concerning drug flows, border security, synthetic opioid supply chains, and trade deficits.",
+      "why_relevant": "The order expands executive tariff authority by eliminating a statutory exemption for low-value imports, asserting emergency powers under the International Emergency Economic Powers Act to impose duties without congressional appropriation or approval.",
+      "jurisdiction": "federal",
+      "federal_nexus": "",
+      "confidence": "high",
+      "basis": "I have determined that it is still necessary and appropriate to suspend duty-free de minimis treatment under 19 U.S.C. 1321(a)(2)(C), including for shipments sent through the international postal network.",
+      "actor": "The White House",
+      "action": "announced an executive order titled \"Continuing the Suspension of Duty-Free De Minimis Treatment for All Countries\"",
+      "act_key": "white house|announced an executive order titled continuing the suspension of duty free de minimis treatment for all countries|2026-02-20",
+      "attacks": [
+        "separation_of_powers",
+        "rule_of_law",
+        "economy"
+      ],
+      "source_meta": {
+        "headline": "Continuing the Suspension of Duty-Free De Minimis Treatment for All Countries",
+        "published_on": "2026-02-21",
+        "byline": null,
+        "outlet": "The White House",
+        "accessed_on": "2026-08-27T00:43:22Z",
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
+      "_origin_index": 712
+    },
+    {
       "source_key": "guardian",
       "date": "2026-02-20",
       "occurred_on": "2026-02-20",
@@ -15275,9 +15246,9 @@
       "action": "attended olympic event using government aircraft",
       "act_key": "kash patel|attended olympic event using government aircraft|2026-02-20",
       "attacks": [
-        "19",
-        "28",
-        "44"
+        "presidency",
+        "public_service",
+        "emoluments"
       ],
       "source_meta": {
         "headline": "FBI head Kash Patel defends ‘frat bro’ hijinks with US hockey team in Milan",
@@ -15424,6 +15395,68 @@
       },
       "_origin_file": "guardian_events_2025-11-29_2026-03-06.json",
       "_origin_index": 284
+    },
+    {
+      "source_key": "whitehouse",
+      "date": "2026-02-20",
+      "occurred_on": "2026-02-20",
+      "reported_on": "2026-02-20",
+      "dated_by": "occurred",
+      "category": "International Relations",
+      "title": "White House announces American AI Exports Program and international AI adoption initiatives at India summit",
+      "url": "https://www.whitehouse.gov/releases/2026/02/u-s-promotes-ai-adoption-sovereignty-and-exports-at-india-ai-impact-summit/",
+      "summary": "The White House released a statement announcing U.S. initiatives to promote global adoption of American AI technologies. Michael Kratsios, Director of the White House Office of Science and Technology Policy, led a delegation to the India AI Impact Summit 2026 and outlined programs including the National Champions Initiative (integrating partner nations' AI companies into American AI export stacks), the U.S. Tech Prosperity Corps (Peace Corps volunteers providing deployment support), new international financing mechanisms through Treasury, World Bank, and other agencies, and NIST standards development for agentic AI. The statement frames these as part of a \"whole-of-government strategy\" to position American AI as the global standard.",
+      "why_relevant": "The announcement represents an executive strategy to expand U.S. technological and economic influence globally through AI exports, positioning American technology standards as the international baseline and potentially shaping the technological sovereignty of allied and developing nations.",
+      "jurisdiction": "federal",
+      "federal_nexus": "",
+      "confidence": "high",
+      "basis": "Today at the India AI Impact Summit 2026, the United States laid out its bold vision for empowering global allies with cutting-edge and sovereign AI technologies.",
+      "actor": "The White House",
+      "action": "published a release titled \"U.S. Promotes AI Adoption, Sovereignty, and Exports at India AI Impact Summit\"",
+      "act_key": "white house|published a release titled u s promotes ai adoption sovereignty and exports at india ai impact summit|2026-02-20",
+      "attacks": [],
+      "source_meta": {
+        "headline": "U.S. Promotes AI Adoption, Sovereignty, and Exports at India AI Impact Summit",
+        "published_on": "2026-02-20",
+        "byline": null,
+        "outlet": "The White House",
+        "accessed_on": "2026-08-26T22:43:32Z",
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
+      "_origin_index": 111
+    },
+    {
+      "source_key": "whitehouse",
+      "date": "2026-02-20",
+      "occurred_on": "2026-02-20",
+      "reported_on": "2026-02-20",
+      "dated_by": "occurred",
+      "category": "International Relations",
+      "title": "White House releases remarks by Director Michael Kratsios on AI policy at India AI Impact Summit",
+      "url": "https://www.whitehouse.gov/releases/2026/02/remarks-by-director-michael-kratsios-at-the-india-ai-impact-summit/",
+      "summary": "Director Michael Kratsios, head of the White House delegation to India's AI Impact Summit 2026, delivered remarks on U.S. AI strategy and international partnerships. The remarks announced a suite of U.S. government initiatives to promote AI adoption globally, including a National Champions Initiative, AI Agent Standards Initiative, and a new Tech Prosperity Corps. Kratsios stated the Trump Administration rejects global AI governance, emphasizing national sovereignty and bilateral partnerships over multilateral frameworks.",
+      "why_relevant": "The remarks articulate the executive's approach to AI governance as a matter of foreign policy and technological competition, rejecting multilateral oversight in favor of bilateral export and sovereignty frameworks, which affects the structure of international technology governance and U.S. diplomatic posture.",
+      "jurisdiction": "federal",
+      "federal_nexus": "",
+      "confidence": "high",
+      "basis": "today I am pleased to announce a U.S. government-wide suite of support initiatives\" including \"National Champions Initiative,\" \"AI Agent Standards Initiative,\" and \"Tech Prosperity Corps.",
+      "actor": "The White House",
+      "action": "published a release titled \"Remarks by Director Michael Kratsios at the India AI Impact Summit\"",
+      "act_key": "white house|published a release titled remarks by director michael kratsios at the india ai impact summit|2026-02-20",
+      "attacks": [],
+      "source_meta": {
+        "headline": "Remarks by Director Michael Kratsios at the India AI Impact Summit",
+        "published_on": "2026-02-20",
+        "byline": null,
+        "outlet": "The White House",
+        "accessed_on": "2026-08-26T22:43:43Z",
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
+      "_origin_index": 112
     },
     {
       "source_key": "defense",

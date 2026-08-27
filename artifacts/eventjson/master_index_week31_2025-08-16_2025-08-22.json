@@ -5,66 +5,68 @@
   },
   "week_number": 31,
   "sources": [
-    "congress",
-    "hcr",
-    "whitehouse",
+    "outloud",
+    "popinfo",
+    "orders",
+    "zeteo",
     "justsecurity",
     "shadow",
-    "guardian",
-    "meidas",
-    "democracydocket",
     "federalregister",
-    "outloud",
+    "guardian",
+    "congress",
+    "whitehouse",
+    "justice",
     "defense",
-    "orders",
+    "scotusorders",
     "noah",
-    "popinfo",
-    "zeteo",
-    "scotusorders"
+    "hcr",
+    "meidas",
+    "democracydocket"
   ],
   "counts": {
-    "total": 380,
+    "total": 379,
     "by_date": {
       "2025-08-16": 31,
       "2025-08-17": 14,
       "2025-08-18": 61,
-      "2025-08-19": 71,
-      "2025-08-20": 52,
-      "2025-08-21": 75,
-      "2025-08-22": 76
+      "2025-08-19": 72,
+      "2025-08-20": 51,
+      "2025-08-21": 76,
+      "2025-08-22": 74
     },
     "by_source": {
       "guardian": 84,
-      "zeteo": 50,
-      "hcr": 68,
+      "zeteo": 51,
+      "hcr": 66,
       "justsecurity": 19,
       "whitehouse": 13,
       "meidas": 58,
       "popinfo": 1,
       "scotusorders": 6,
-      "federalregister": 65,
       "defense": 1,
+      "federalregister": 64,
       "congress": 1,
       "democracydocket": 5,
       "outloud": 6,
       "noah": 1,
       "orders": 1,
-      "shadow": 1
+      "shadow": 1,
+      "justice": 1
     },
     "by_category": {
       "Executive Actions & Orders": 39,
       "Judicial Developments": 51,
-      "Law Enforcement & Surveillance": 50,
+      "Law Enforcement & Surveillance": 52,
       "Civil Society & Protest": 9,
-      "Information & Media Control": 34,
-      "Economic & Regulatory Power": 76,
-      "Appointments & Patronage": 17,
+      "Information & Media Control": 28,
+      "Economic & Regulatory Power": 78,
+      "Appointments & Patronage": 16,
       "Transparency & Records": 15,
-      "Civil–Military Relations & State Violence": 23,
-      "International Relations": 26,
+      "Civil–Military Relations & State Violence": 22,
+      "International Relations": 28,
       "Legislative & Oversight Activity": 14,
       "Courts / Supreme Court / Orders": 6,
-      "Elections & Representation": 19,
+      "Elections & Representation": 20,
       "Voting rights / Courts / Democracy protection": 1
     }
   },
@@ -381,7 +383,7 @@
       "summary": "Dustin Walker, 34, was charged with child sexual molestation after an 11-year-old girl in his care gave birth at home on August 16, 2025. DNA testing confirmed Walker was the father. The girl's mother, 33, was charged with enabling child sexual abuse. Both were initially arrested on felony child neglect; Walker faced an additional count of sexually abusing the child beginning in January. The girl had not seen a doctor in over a year and was not in regular school, allowing the pregnancy to go undetected. Both adults face potential life sentences if convicted.",
       "why_relevant": "This case represents severe failure of child protection systems and institutional oversight, with authorities unable to detect abuse despite multiple intervention points (medical care, schooling, social services).",
       "jurisdiction": "state",
-      "federal_nexus": "Child abuse and sexual exploitation of minors involve federal crimes under 18 U.S.C. § 2251 and related statutes; state prosecution may trigger federal review.",
+      "federal_nexus": "",
       "confidence": "high",
       "basis": "DNA test confirmed he was the father of the newborn at the center of the case\" and \"Walker on Monday was met with an additional count accusing him of sexually abusing the 11-year-old girl beginning in January.",
       "actor": "Dustin Walker",
@@ -400,8 +402,8 @@
         "snapshot_url": null,
         "durable_keys": {}
       },
-      "_origin_file": "guardian_events_2025-08-23_2025-09-05.json",
-      "_origin_index": 141
+      "_origin_file": "guardian_events_2025-07-26_2025-08-29.json",
+      "_origin_index": 45
     },
     {
       "source_key": "guardian",
@@ -737,8 +739,8 @@
       "action": "reported medicare cuts from reconciliation bill",
       "act_key": "congressional budget office|reported medicare cuts from reconciliation bill|2025-08-16",
       "attacks": [
-        "10",
-        "51"
+        "sick_vulnerable",
+        "economy"
       ],
       "source_meta": {
         "headline": null,
@@ -1380,29 +1382,29 @@
       "reported_on": "2025-08-17",
       "dated_by": "occurred",
       "category": "Information & Media Control",
-      "title": "SUNDAY SHOWS: President Trump’s Pursuit of Peace",
+      "title": "White House issues release on Trump administration officials' Sunday show appearances discussing Ukraine peace negotiations",
       "url": "https://www.whitehouse.gov/releases/2025/08/sunday-shows-president-trumps-pursuit-of-peace/",
-      "summary": "The White House published this release on 2025-08-17 through its releases channel.",
-      "why_relevant": "",
+      "summary": "The White House published a release compiling statements from Secretary of State Marco Rubio and Special Envoy Steve Witkoff made on Sunday news programs regarding President Trump's meeting with Russian President Putin on August 15 and the forthcoming meeting with Ukrainian President Zelensky and European leaders. The release frames these discussions as part of Trump's \"pursuit of peace\" and quotes officials stating that a full peace deal—not merely a ceasefire—is the goal, that both sides must make concessions, and that Trump is uniquely positioned to broker agreement between Russia and Ukraine.",
+      "why_relevant": "The release is a curated compilation of official statements designed to shape public narrative around ongoing diplomatic negotiations affecting a major geopolitical conflict and U.S. foreign policy posture.",
       "jurisdiction": "federal",
-      "federal_nexus": "Official White House channel; documents the act of publication only.",
+      "federal_nexus": "",
       "confidence": "high",
-      "basis": "official_actor_record",
+      "basis": "This morning, Trump Administration officials were on the Sunday shows discussing President Donald J. Trump's relentless pursuit of peace following his historic meeting with Russian President Vladimir Putin on Friday and his forthcoming meeting with Ukrainian President Volodymyr Zelensky and European leaders tomorrow.",
       "actor": "The White House",
       "action": "published a release titled \"SUNDAY SHOWS: President Trump’s Pursuit of Peace\"",
       "act_key": "white house|published a release titled sunday shows president trump s pursuit of peace|2025-08-17",
       "attacks": [],
       "source_meta": {
-        "headline": null,
-        "published_on": null,
+        "headline": "SUNDAY SHOWS: President Trump’s Pursuit of Peace",
+        "published_on": "2025-08-17",
         "byline": null,
-        "outlet": null,
-        "accessed_on": null,
+        "outlet": "The White House",
+        "accessed_on": "2026-08-26T23:13:18Z",
         "snapshot_url": null,
         "durable_keys": {}
       },
       "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
-      "_origin_index": 290
+      "_origin_index": 236
     },
     {
       "source_key": "zeteo",
@@ -1414,11 +1416,11 @@
       "title": "Trump attacks MSNBC anchor Nicole Wallace on Truth Social",
       "url": "https://zeteo.com/p/this-week-in-democracy-week-31-donald",
       "summary": "Trump reposted a meme of MSNBC anchor Nicole Wallace on Truth Social, calling her a \"loser, with bad ratings,\" and claimed without evidence that she \"will be fired soon!\"",
-      "why_relevant": "The president's public attacks on journalists and threats about their employment status constitute intimidation of the press and undermine media independence.",
+      "why_relevant": "The president using his platform to attack and threaten a journalist demonstrates the use of executive power to intimidate press critics.",
       "jurisdiction": "federal",
       "federal_nexus": "",
       "confidence": "high",
-      "basis": "Trump reposted a meme of MSNBC anchor Nicole Wallace and called her a 'loser, with bad ratings.' He also claimed without evidence that she 'will be fired soon!",
+      "basis": "Trump reposted a meme of MSNBC anchor Nicole Wallace and called her a 'loser, with bad ratings",
       "actor": "Trump",
       "action": "attacked journalist on social media",
       "act_key": "trump|attacked journalist on social media|2025-08-17",
@@ -1435,8 +1437,8 @@
         "snapshot_url": null,
         "durable_keys": {}
       },
-      "_origin_file": "zeteo_events_2025-08-23_2025-09-05.json",
-      "_origin_index": 56
+      "_origin_file": "zeteo_events_2025-07-26_2025-08-29.json",
+      "_origin_index": 6
     },
     {
       "source_key": "hcr",
@@ -1647,8 +1649,8 @@
         "snapshot_url": null,
         "durable_keys": {}
       },
-      "_origin_file": "guardian_events_2025-08-23_2025-09-05.json",
-      "_origin_index": 164
+      "_origin_file": "guardian_events_2025-07-26_2025-08-29.json",
+      "_origin_index": 70
     },
     {
       "source_key": "hcr",
@@ -1669,10 +1671,10 @@
       "action": "announced executive order restricting voting methods",
       "act_key": "trump|announced executive order restricting voting methods|2025-08-18",
       "attacks": [
-        "5",
-        "11",
-        "41",
-        "42"
+        "lgbtq",
+        "truth",
+        "constitution",
+        "separation_of_powers"
       ],
       "source_meta": {
         "headline": null,
@@ -1705,9 +1707,9 @@
       "action": "claimed federal authority over state elections",
       "act_key": "trump|claimed federal authority over state elections|2025-08-18",
       "attacks": [
-        "41",
-        "42",
-        "48"
+        "constitution",
+        "separation_of_powers",
+        "peaceful_transfer"
       ],
       "source_meta": {
         "headline": null,
@@ -1745,11 +1747,11 @@
         "constitution"
       ],
       "source_meta": {
-        "headline": null,
-        "published_on": null,
+        "headline": "Granting Pardons And Commutation Of Sentences For Certain Offenses Relating To The Events At Or Near The United States Capitol On January 6, 2021",
+        "published_on": "2025-01-21",
         "byline": null,
-        "outlet": null,
-        "accessed_on": null,
+        "outlet": "The White House",
+        "accessed_on": "2026-08-27T02:56:01Z",
         "snapshot_url": null,
         "durable_keys": {}
       },
@@ -1809,7 +1811,7 @@
       "action": "failed to recognize foreign leader",
       "act_key": "trump|failed to recognize foreign leader|2025-08-18",
       "attacks": [
-        "47"
+        "amendment_25"
       ],
       "source_meta": {
         "headline": null,
@@ -2005,17 +2007,17 @@
       "title": "Democratic states sue Trump DOJ over Victims of Crime Act funding restrictions",
       "url": "https://zeteo.com/p/this-week-in-democracy-week-31-donald",
       "summary": "A coalition of over 20 Democratic-led states and DC sued Trump's Justice Department over efforts to block a new policy that would prevent states from accessing federal funds under the Victims of Crime Act if they don't cooperate with the president's immigration crackdown, calling the move \"unprecedented.\"",
-      "why_relevant": "The administration's attempt to weaponize federal funding to coerce state compliance with immigration policy violates federalism principles and threatens victim services.",
+      "why_relevant": "The administration's attempt to weaponize federal funding to coerce state compliance with immigration enforcement represents an unconstitutional use of federal power and threatens federalism.",
       "jurisdiction": "federal",
       "federal_nexus": "",
       "confidence": "high",
       "basis": "A coalition of over 20 Democratic-led states and DC sued Trump's Justice Department over efforts to block a new policy that would prevent states from accessing federal funds under the Victims of Crime Act",
-      "actor": "Democratic states and DC",
+      "actor": "Democratic states",
       "action": "sued doj over funding restrictions",
-      "act_key": "democratic states and dc|sued doj over funding restrictions|2025-08-18",
+      "act_key": "democratic states|sued doj over funding restrictions|2025-08-18",
       "attacks": [
-        "rule_of_law",
-        "union"
+        "separation_of_powers",
+        "rule_of_law"
       ],
       "source_meta": {
         "headline": "This Week in Democracy – Week 31: Donald Trump Sends Kash Patel After His Enemies",
@@ -2026,8 +2028,8 @@
         "snapshot_url": null,
         "durable_keys": {}
       },
-      "_origin_file": "zeteo_events_2025-08-23_2025-09-05.json",
-      "_origin_index": 57
+      "_origin_file": "zeteo_events_2025-07-26_2025-08-29.json",
+      "_origin_index": 7
     },
     {
       "source_key": "guardian",
@@ -2518,11 +2520,11 @@
         "peaceful_transfer"
       ],
       "source_meta": {
-        "headline": null,
-        "published_on": null,
+        "headline": "Granting Pardons And Commutation Of Sentences For Certain Offenses Relating To The Events At Or Near The United States Capitol On January 6, 2021",
+        "published_on": "2025-01-21",
         "byline": null,
-        "outlet": null,
-        "accessed_on": null,
+        "outlet": "The White House",
+        "accessed_on": "2026-08-27T02:56:01Z",
         "snapshot_url": null,
         "durable_keys": {}
       },
@@ -2536,21 +2538,21 @@
       "reported_on": "2025-08-23",
       "dated_by": "occurred",
       "category": "Law Enforcement & Surveillance",
-      "title": "Trump DOJ investigates DC crime statistics under Jeanine Pirro",
+      "title": "Trump DOJ investigates DC crime statistics under US Attorney Jeanine Pirro",
       "url": "https://zeteo.com/p/this-week-in-democracy-week-31-donald",
       "summary": "Trump said DC was \"under serious investigation,\" accusing the district of providing \"Fake\" statistics on crime \"in order to create a false illusion of safety.\" Reports later confirmed that the Trump DOJ is investigating whether DC police manipulated data to make crime rates appear lower, led by US Attorney Jeanine Pirro's office. Violent crime in DC is at a 30-year low, and Trump's former US attorney for DC, Ed Martin, admitted in an April press release that violent crime had dropped 25% year-to-date.",
-      "why_relevant": "The DOJ investigation into accurate crime statistics, combined with Trump's false claims, represents weaponization of law enforcement to undermine factual reporting and justify federal takeover of local police.",
+      "why_relevant": "The DOJ investigation into accurate crime statistics appears politically motivated and designed to undermine DC's credibility, using law enforcement as a tool for political retaliation against a Democratic-led jurisdiction.",
       "jurisdiction": "federal",
       "federal_nexus": "",
       "confidence": "high",
-      "basis": "Trump said DC was 'under serious investigation,' accusing the district of providing 'Fake' statistics on crime",
-      "actor": "Trump DOJ",
+      "basis": "Trump DOJ is investigating whether DC police manipulated data to make crime rates appear lower",
+      "actor": "DOJ",
       "action": "investigated dc crime statistics",
-      "act_key": "trump doj|investigated dc crime statistics|2025-08-18",
+      "act_key": "doj|investigated dc crime statistics|2025-08-18",
       "attacks": [
-        "truth",
+        "justice_dept",
         "rule_of_law",
-        "justice_dept"
+        "truth"
       ],
       "source_meta": {
         "headline": "This Week in Democracy – Week 31: Donald Trump Sends Kash Patel After His Enemies",
@@ -2561,8 +2563,8 @@
         "snapshot_url": null,
         "durable_keys": {}
       },
-      "_origin_file": "zeteo_events_2025-08-23_2025-09-05.json",
-      "_origin_index": 62
+      "_origin_file": "zeteo_events_2025-07-26_2025-08-29.json",
+      "_origin_index": 12
     },
     {
       "source_key": "hcr",
@@ -2614,9 +2616,9 @@
       "action": "called special legislative session for redistricting",
       "act_key": "abbott|called special legislative session for redistricting|2025-08-18",
       "attacks": [
-        "5",
-        "42",
-        "49"
+        "lgbtq",
+        "separation_of_powers",
+        "union"
       ],
       "source_meta": {
         "headline": null,
@@ -2640,17 +2642,17 @@
       "title": "Texas Democratic lawmakers end two-week walkout, face fines and arrest warrants",
       "url": "https://zeteo.com/p/this-week-in-democracy-week-31-donald",
       "summary": "Democratic state lawmakers in Texas returned to the state, ending their two-week walkout in opposition to Republican efforts to introduce a mid-decade redistricted Congressional map that could net the GOP an additional five House seats in the 2026 midterm elections. The lawmakers faced $500 daily fines for their absences, had civil arrest warrants issued against them, and overcame threats by Texas Governor Greg Abbott to have them removed from office.",
-      "why_relevant": "The use of fines, arrest warrants, and removal threats against legislators exercising protest rights demonstrates suppression of democratic dissent and gerrymandering to entrench Republican power.",
+      "why_relevant": "The use of fines, arrest warrants, and threats of removal against legislators exercising their constitutional right to protest gerrymandering represents an attack on democratic representation and legislative independence.",
       "jurisdiction": "state",
       "federal_nexus": "The redistricting affects federal House representation and Trump has publicly endorsed the gerrymandered map.",
       "confidence": "high",
       "basis": "Democratic state lawmakers in Texas returned to the state, ending their two-week walkout in opposition to Republican efforts to introduce a mid-decade redistricted Congressional map",
-      "actor": "Texas legislature",
-      "action": "penalized democratic lawmakers for protest",
-      "act_key": "texas legislature|penalized democratic lawmakers for protest|2025-08-18",
+      "actor": "Texas Governor Greg Abbott",
+      "action": "threatened and fined protesting lawmakers",
+      "act_key": "texas greg abbott|threatened and fined protesting lawmakers|2025-08-18",
       "attacks": [
         "rule_of_law",
-        "civil_society"
+        "separation_of_powers"
       ],
       "source_meta": {
         "headline": "This Week in Democracy – Week 31: Donald Trump Sends Kash Patel After His Enemies",
@@ -2661,8 +2663,8 @@
         "snapshot_url": null,
         "durable_keys": {}
       },
-      "_origin_file": "zeteo_events_2025-08-23_2025-09-05.json",
-      "_origin_index": 60
+      "_origin_file": "zeteo_events_2025-07-26_2025-08-29.json",
+      "_origin_index": 10
     },
     {
       "source_key": "zeteo",
@@ -2673,8 +2675,8 @@
       "category": "Elections & Representation",
       "title": "Trump announces plan to ban mail-in voting via executive order",
       "url": "https://zeteo.com/p/this-week-in-democracy-week-31-donald",
-      "summary": "In an unhinged rant on Truth Social, Trump said he plans to sign an executive order to ban mail-in voting and \"Highly 'Inaccurate' voting machines\" in an effort to \"help bring HONESTY to the 2026 Midterm Elections.\" Trump falsely claimed that the US is the only country in the world that has mail-in voting and called states, which hold authority over elections, \"merely an 'agent' for the Federal Government in counting and tabulating the votes.\" Trump has voted by mail himself in the past.",
-      "why_relevant": "An executive order banning mail-in voting would violate the Constitution, usurp state election authority, and restrict voting access, striking at the foundation of democratic participation.",
+      "summary": "On Truth Social, Trump claimed he plans to sign an executive order to ban mail-in voting and \"Highly 'Inaccurate' voting machines\" in an effort to \"help bring HONESTY to the 2026 Midterm Elections.\" Trump falsely claimed that the US is the only country in the world that has mail-in voting and called states, which hold authority over elections, \"merely an 'agent' for the Federal Government in counting and tabulating the votes.\" Trump has voted by mail himself in the past.",
+      "why_relevant": "An executive order banning mail-in voting would violate the Constitution by usurping state authority over elections and would disenfranchise millions of voters, representing a direct attack on democratic participation.",
       "jurisdiction": "federal",
       "federal_nexus": "",
       "confidence": "high",
@@ -2696,8 +2698,8 @@
         "snapshot_url": null,
         "durable_keys": {}
       },
-      "_origin_file": "zeteo_events_2025-08-23_2025-09-05.json",
-      "_origin_index": 61
+      "_origin_file": "zeteo_events_2025-07-26_2025-08-29.json",
+      "_origin_index": 11
     },
     {
       "source_key": "zeteo",
@@ -2708,12 +2710,12 @@
       "category": "Elections & Representation",
       "title": "Trump raises idea of canceling 2028 elections if US at war",
       "url": "https://zeteo.com/p/this-week-in-democracy-week-31-donald",
-      "summary": "During an Oval Office meeting with Ukrainian President Volodymyr Zelensky, Trump raised the idea of canceling the 2028 elections if the US were at war, saying, \"If we happen to be at war with somebody, no more elections. That's good.\" The article notes \"But of course he was only joking, right?\"",
-      "why_relevant": "Even as a stated joke, the president's public musing about canceling elections represents a direct attack on constitutional democracy and the peaceful transfer of power.",
+      "summary": "During an Oval Office meeting with Ukrainian President Volodymyr Zelensky, Trump raised the idea of canceling the 2028 elections if the US were at war, saying, \"If we happen to be at war with somebody, no more elections. That's good.\" The article notes this was presented as a joke.",
+      "why_relevant": "Even if presented as a joke, the public statement by a sitting president suggesting the cancellation of elections represents a direct threat to constitutional democracy and the peaceful transfer of power.",
       "jurisdiction": "federal",
       "federal_nexus": "",
       "confidence": "high",
-      "basis": "During an Oval Office meeting with Ukrainian President Volodymyr Zelensky, Trump raised the idea of canceling the 2028 elections if the US were at war, saying, 'If we happen to be at war with somebody, no more elections",
+      "basis": "Trump raised the idea of canceling the 2028 elections if the US were at war, saying, 'If we happen to be at war with somebody, no more elections. That's good.",
       "actor": "Trump",
       "action": "proposed canceling elections",
       "act_key": "trump|proposed canceling elections|2025-08-18",
@@ -2731,8 +2733,8 @@
         "snapshot_url": null,
         "durable_keys": {}
       },
-      "_origin_file": "zeteo_events_2025-08-23_2025-09-05.json",
-      "_origin_index": 63
+      "_origin_file": "zeteo_events_2025-07-26_2025-08-29.json",
+      "_origin_index": 13
     },
     {
       "source_key": "hcr",
@@ -2784,7 +2786,7 @@
       "action": "settled defamation lawsuit with payment",
       "act_key": "newsmax|settled defamation lawsuit with payment|2025-08-18",
       "attacks": [
-        "11"
+        "truth"
       ],
       "source_meta": {
         "headline": null,
@@ -2817,8 +2819,8 @@
       "action": "reposted qanon conspiracy content",
       "act_key": "trump|reposted qanon conspiracy content|2025-08-18",
       "attacks": [
-        "11",
-        "34"
+        "truth",
+        "reality"
       ],
       "source_meta": {
         "headline": null,
@@ -2907,128 +2909,68 @@
     {
       "source_key": "whitehouse",
       "date": "2025-08-18",
-      "occurred_on": "2025-08-18",
+      "occurred_on": "",
       "reported_on": "2025-08-18",
-      "dated_by": "occurred",
+      "dated_by": "reported",
       "category": "Information & Media Control",
-      "title": "American Leadership Is Back Under President Trump",
-      "url": "https://www.whitehouse.gov/releases/2025/08/american-leadership-is-back-under-president-trump/",
-      "summary": "The White House published this release on 2025-08-18 through its releases channel.",
-      "why_relevant": "",
+      "title": "White House issued fact sheet attributing fatal traffic accident to California sanctuary policies",
+      "url": "https://www.whitehouse.gov/releases/2025/08/californias-sanctuary-policies-gave-way-to-florida-tragedy/",
+      "summary": "The White House published a fact sheet on August 18, 2025, linking a fatal multi-vehicle crash on the Florida Turnpike to California's policy of issuing commercial driver's licenses to undocumented immigrants. The document states that three people died when an undocumented Indian national truck driver attempted an illegal U-turn. The fact sheet characterizes California Governor Gavin Newsom's sanctuary policies as \"reckless\" and claims they \"put the lives of American citizens at risk.\" It states the Trump Administration is \"seeking to place the individual into removal proceedings.\"",
+      "why_relevant": "The fact sheet uses a specific tragedy to attack state-level immigration policy and a political opponent, framing a traffic accident as evidence of sanctuary policy failure and weaponizing a death to advance federal immigration enforcement messaging.",
       "jurisdiction": "federal",
-      "federal_nexus": "Official White House channel; documents the act of publication only.",
+      "federal_nexus": "",
       "confidence": "high",
-      "basis": "official_actor_record",
+      "basis": "Three innocent Americans are dead after an illegal alien semi-truck driver attempted an illegal U-turn on the Florida Turnpike and caused a minivan to violently crash into the truck's trailer.",
+      "actor": "The White House",
+      "action": "published a release titled \"California’s “Sanctuary” Policies Gave Way to Florida Tragedy\"",
+      "act_key": "white house|published a release titled california s sanctuary policies gave way to florida tragedy|2025-08-18",
+      "attacks": [
+        "immigrants_refugees",
+        "decency",
+        "rule_of_law"
+      ],
+      "source_meta": {
+        "headline": "California’s “Sanctuary” Policies Gave Way to Florida Tragedy",
+        "published_on": "2025-08-18",
+        "byline": null,
+        "outlet": "The White House",
+        "accessed_on": "2026-08-26T23:13:07Z",
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
+      "_origin_index": 235
+    },
+    {
+      "source_key": "whitehouse",
+      "date": "2025-08-18",
+      "occurred_on": "",
+      "reported_on": "2025-08-18",
+      "dated_by": "reported",
+      "category": "Information & Media Control",
+      "title": "White House issues promotional release on Ukraine peace talks",
+      "url": "https://www.whitehouse.gov/releases/2025/08/american-leadership-is-back-under-president-trump/",
+      "summary": "The White House published a promotional release titled \"American Leadership Is Back Under President Trump\" on August 18, 2025, framing President Trump's convening of Ukrainian President Zelenskyy and European allies as evidence of restored American diplomatic leadership. The release consists entirely of attributed quotations from world leaders praising Trump's role in restarting dialogue on the Ukraine conflict. No new policy directive, executive action, or concrete commitment is announced in the document itself.",
+      "why_relevant": "The document is a promotional framing of diplomatic activity rather than a substantive policy instrument; it demonstrates the White House's use of its official communications channel to amplify a narrative about presidential achievement without disclosing the terms, commitments, or outcomes of the talks themselves.",
+      "jurisdiction": "federal",
+      "federal_nexus": "",
+      "confidence": "high",
+      "basis": "As President Donald J. Trump convenes with Ukrainian President Volodymyr Zelenskyy and key European allies at the White House, the world is witnessing the resurgence of American leadership.",
       "actor": "The White House",
       "action": "published a release titled \"American Leadership Is Back Under President Trump\"",
       "act_key": "white house|published a release titled american leadership is back under president trump|2025-08-18",
       "attacks": [],
       "source_meta": {
-        "headline": null,
-        "published_on": null,
+        "headline": "American Leadership Is Back Under President Trump",
+        "published_on": "2025-08-18",
         "byline": null,
-        "outlet": null,
-        "accessed_on": null,
+        "outlet": "The White House",
+        "accessed_on": "2026-08-26T23:12:45Z",
         "snapshot_url": null,
         "durable_keys": {}
       },
       "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
-      "_origin_index": 287
-    },
-    {
-      "source_key": "whitehouse",
-      "date": "2025-08-18",
-      "occurred_on": "2025-08-18",
-      "reported_on": "2025-08-18",
-      "dated_by": "occurred",
-      "category": "Information & Media Control",
-      "title": "California’s “Sanctuary” Policies Gave Way to Florida Tragedy",
-      "url": "https://www.whitehouse.gov/releases/2025/08/californias-sanctuary-policies-gave-way-to-florida-tragedy/",
-      "summary": "The White House published this release on 2025-08-18 through its releases channel.",
-      "why_relevant": "",
-      "jurisdiction": "federal",
-      "federal_nexus": "Official White House channel; documents the act of publication only.",
-      "confidence": "high",
-      "basis": "official_actor_record",
-      "actor": "The White House",
-      "action": "published a release titled \"California’s “Sanctuary” Policies Gave Way to Florida Tragedy\"",
-      "act_key": "white house|published a release titled california s sanctuary policies gave way to florida tragedy|2025-08-18",
-      "attacks": [],
-      "source_meta": {
-        "headline": null,
-        "published_on": null,
-        "byline": null,
-        "outlet": null,
-        "accessed_on": null,
-        "snapshot_url": null,
-        "durable_keys": {}
-      },
-      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
-      "_origin_index": 289
-    },
-    {
-      "source_key": "whitehouse",
-      "date": "2025-08-18",
-      "occurred_on": "2025-08-18",
-      "reported_on": "2025-08-18",
-      "dated_by": "occurred",
-      "category": "Information & Media Control",
-      "title": "Trump Economy Ignites Record-Breaking Earnings Surge, Market Boom",
-      "url": "https://www.whitehouse.gov/releases/2025/08/trump-economy-ignites-record-breaking-earnings-surge-market-boom/",
-      "summary": "The White House published this release on 2025-08-18 through its releases channel.",
-      "why_relevant": "",
-      "jurisdiction": "federal",
-      "federal_nexus": "Official White House channel; documents the act of publication only.",
-      "confidence": "high",
-      "basis": "official_actor_record",
-      "actor": "The White House",
-      "action": "published a release titled \"Trump Economy Ignites Record-Breaking Earnings Surge, Market Boom\"",
-      "act_key": "white house|published a release titled trump economy ignites record breaking earnings surge market boom|2025-08-18",
-      "attacks": [],
-      "source_meta": {
-        "headline": null,
-        "published_on": null,
-        "byline": null,
-        "outlet": null,
-        "accessed_on": null,
-        "snapshot_url": null,
-        "durable_keys": {}
-      },
-      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
-      "_origin_index": 288
-    },
-    {
-      "source_key": "federalregister",
-      "date": "2025-08-18",
-      "occurred_on": "2025-08-18",
-      "reported_on": "2025-08-28",
-      "dated_by": "occurred",
-      "category": "Economic & Regulatory Power",
-      "title": "EPA approves California air quality rule regulating internal combustion engine emissions",
-      "url": "https://www.federalregister.gov/documents/2025/08/28/2025-16466/air-plan-approval-california-mojave-desert-air-quality-management-district-internal-combustion",
-      "summary": "The Environmental Protection Agency issued a final rule approving a revision to the Mojave Desert Air Quality Management District portion of California's State Implementation Plan. The approval covers MDAQMD Rule 1160, amended January 23, 2023, which regulates volatile organic compounds and nitrogen oxide emissions from internal combustion engines. The EPA also made administrative corrections to the California SIP and removed obsolete rules. The rule becomes effective September 29, 2025.",
-      "why_relevant": "EPA approval of state air quality rules directly affects regulatory compliance obligations for industrial and commercial operators and establishes enforceable emission standards affecting air quality and public health.",
-      "jurisdiction": "federal",
-      "federal_nexus": "",
-      "confidence": "high",
-      "basis": "The EPA is approving this rule into the California SIP. The January 23, 2023 version of Rule 1160 will replace the previously approved version of this rule in the SIP.",
-      "actor": "EPA",
-      "action": "approved state air quality rule",
-      "act_key": "epa|approved state air quality rule|2025-08-18",
-      "attacks": [],
-      "source_meta": {
-        "headline": "Air Plan Approval; California; Mojave Desert Air Quality Management District; Internal Combustion Engines",
-        "published_on": "2025-08-28",
-        "byline": null,
-        "outlet": "Federal Register",
-        "accessed_on": "2026-08-14T06:43:31Z",
-        "snapshot_url": null,
-        "durable_keys": {
-          "federal_register_doc": "2025-16466"
-        }
-      },
-      "_origin_file": "federalregister_events_2025-08-23_2025-09-05.json",
-      "_origin_index": 56
+      "_origin_index": 233
     },
     {
       "source_key": "guardian",
@@ -3086,11 +3028,11 @@
       "action": "eliminated health insurance subsidies",
       "act_key": "federal government|eliminated health insurance subsidies|2025-08-18",
       "attacks": [
-        "1",
-        "7",
-        "9",
-        "10",
-        "51"
+        "children",
+        "poor",
+        "disabled",
+        "sick_vulnerable",
+        "economy"
       ],
       "source_meta": {
         "headline": null,
@@ -3138,6 +3080,37 @@
       "_origin_index": 123
     },
     {
+      "source_key": "whitehouse",
+      "date": "2025-08-18",
+      "occurred_on": "2025-08-18",
+      "reported_on": "2025-08-18",
+      "dated_by": "occurred",
+      "category": "Economic & Regulatory Power",
+      "title": "White House issues fact sheet claiming record corporate earnings surge under Trump policies",
+      "url": "https://www.whitehouse.gov/releases/2025/08/trump-economy-ignites-record-breaking-earnings-surge-market-boom/",
+      "summary": "The White House published a fact sheet asserting that under President Trump's \"pro-growth policies,\" American businesses are achieving record earnings. The document cites figures including S&P 500 earnings per share up 11% year-over-year (claimed as \"almost three times higher\" than consensus), 84% of companies beating Wall Street estimates, and the S&P 500 up nearly 10% for the year. The fact sheet attributes this performance to Trump's \"One Big Beautiful Bill\" and its tax reforms, citing Goldman Sachs analysis and media reports.",
+      "why_relevant": "The fact sheet represents the administration's public claim of economic achievement and frames legislative tax policy as the driver of market performance, a core assertion of executive economic stewardship.",
+      "jurisdiction": "federal",
+      "federal_nexus": "",
+      "confidence": "high",
+      "basis": "Under President Donald J. Trump's bold pro-growth policies, American businesses are thriving like never before — shattering earnings forecasts and propelling the stock market to continued record highs.",
+      "actor": "The White House",
+      "action": "published a release titled \"Trump Economy Ignites Record-Breaking Earnings Surge, Market Boom\"",
+      "act_key": "white house|published a release titled trump economy ignites record breaking earnings surge market boom|2025-08-18",
+      "attacks": [],
+      "source_meta": {
+        "headline": "Trump Economy Ignites Record-Breaking Earnings Surge, Market Boom",
+        "published_on": "2025-08-18",
+        "byline": null,
+        "outlet": "The White House",
+        "accessed_on": "2026-08-26T23:12:55Z",
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
+      "_origin_index": 234
+    },
+    {
       "source_key": "zeteo",
       "date": "2025-08-18",
       "occurred_on": "2025-08-18",
@@ -3146,19 +3119,19 @@
       "category": "Economic & Regulatory Power",
       "title": "Senator Schiff requests FCC details on Trump-Paramount merger quid pro quo",
       "url": "https://zeteo.com/p/this-week-in-democracy-week-31-donald",
-      "summary": "Democratic Senator Adam Schiff sent a letter to FCC chair Brendan Carr requesting details to determine whether Trump tried to obtain programming or media coverage commitments in exchange for his administration approving Paramount's merger with Skydance. Schiff pointed to Paramount's $16 million settlement with Trump and the cancellation of 'The Late Night Show with Stephen Colbert' as events raising \"significant questions\" about whether the FCC has become \"a vehicle for President Trump to exact personal retribution and undermine the freedom of the press.\"",
-      "why_relevant": "The inquiry addresses potential abuse of regulatory authority to extract personal benefits and punish media outlets, striking at both press freedom and rule of law.",
+      "summary": "Democratic Senator Adam Schiff sent a letter to FCC chair Brendan Carr requesting details to determine whether Trump tried to obtain programming or media coverage commitments in exchange for his administration approving Paramount's merger with Skydance. Schiff pointed to Paramount's $16 million settlement with Trump and the cancellation of 'The Late Night Show with Stephen Colbert' as a sequence of events raising concerns that the FCC has become a vehicle for Trump to exact personal retribution and undermine press freedom.",
+      "why_relevant": "The allegation that regulatory approval is being conditioned on media coverage or cancellation of critical programming represents a direct attack on press independence and the rule of law.",
       "jurisdiction": "federal",
       "federal_nexus": "",
       "confidence": "high",
-      "basis": "Democratic Senator Adam Schiff sent a letter to FCC chair Brendan Carr requesting details to determine whether Trump tried to get programming or media coverage commitments in exchange for his administration approving Paramount's merger with Skydance",
-      "actor": "Adam Schiff",
+      "basis": "Schiff pointed to the former's $16 million settlement with Trump and the cancellation of 'The Late Night Show with Stephen Colbert' as a sequence of events that raise 'significant questions and alarm that the FCC — an independent regulatory agency — has become a vehicle for President Trump to exact personal retribution",
+      "actor": "Senator Adam Schiff",
       "action": "requested fcc merger investigation",
       "act_key": "adam schiff|requested fcc merger investigation|2025-08-18",
       "attacks": [
         "press",
-        "emoluments",
-        "rule_of_law"
+        "rule_of_law",
+        "emoluments"
       ],
       "source_meta": {
         "headline": "This Week in Democracy – Week 31: Donald Trump Sends Kash Patel After His Enemies",
@@ -3169,8 +3142,8 @@
         "snapshot_url": null,
         "durable_keys": {}
       },
-      "_origin_file": "zeteo_events_2025-08-23_2025-09-05.json",
-      "_origin_index": 58
+      "_origin_file": "zeteo_events_2025-07-26_2025-08-29.json",
+      "_origin_index": 8
     },
     {
       "source_key": "guardian",
@@ -3217,19 +3190,19 @@
       "category": "Appointments & Patronage",
       "title": "Missouri Attorney General Andrew Bailey named co-deputy director of FBI",
       "url": "https://zeteo.com/p/this-week-in-democracy-week-31-donald",
-      "summary": "Missouri Attorney General Andrew Bailey was named as co-deputy director of the FBI, the first time in history that the agency has had two people share the position. Bailey, a Republican, is known for launching an investigation into Media Matters for America, fighting to keep wrongfully convicted people in prison, and filing an unsuccessful lawsuit against the state of New York for \"unconstitutional lawfare\" election interference and \"wrongful prosecution\" over the hush-money case that resulted in Trump being convicted of 34 felonies.",
-      "why_relevant": "Appointing a Trump loyalist with a record of weaponizing law enforcement to the FBI's second-highest position politicizes the agency and signals its use as a tool for partisan retribution.",
+      "summary": "Missouri Attorney General Andrew Bailey was named as co-deputy director of the FBI, the first time in history that the agency has had two people share the position. Bailey, a Republican, is known for launching an investigation into Media Matters for America, fighting to keep wrongfully convicted people in prison, and filing an unsuccessful lawsuit against New York for \"unconstitutional lawfare\" election interference over the hush-money case that resulted in Trump being convicted of 34 felonies.",
+      "why_relevant": "The appointment of a Trump loyalist with a record of weaponizing law enforcement against Trump critics to a top FBI position represents the politicization of federal law enforcement and the transformation of the FBI into a tool for partisan retaliation.",
       "jurisdiction": "federal",
       "federal_nexus": "",
       "confidence": "high",
       "basis": "Missouri Attorney General Andrew Bailey was named as co-deputy director of the FBI, the first time in history that the agency has had two people share the position",
       "actor": "Trump",
-      "action": "appointed partisan loyalist to fbi leadership",
-      "act_key": "trump|appointed partisan loyalist to fbi leadership|2025-08-18",
+      "action": "appointed loyalist as fbi co-deputy director",
+      "act_key": "trump|appointed loyalist as fbi co deputy director|2025-08-18",
       "attacks": [
         "justice_dept",
-        "rule_of_law",
-        "civil_service"
+        "civil_service",
+        "rule_of_law"
       ],
       "source_meta": {
         "headline": "This Week in Democracy – Week 31: Donald Trump Sends Kash Patel After His Enemies",
@@ -3240,8 +3213,8 @@
         "snapshot_url": null,
         "durable_keys": {}
       },
-      "_origin_file": "zeteo_events_2025-08-23_2025-09-05.json",
-      "_origin_index": 65
+      "_origin_file": "zeteo_events_2025-07-26_2025-08-29.json",
+      "_origin_index": 15
     },
     {
       "source_key": "zeteo",
@@ -3253,17 +3226,17 @@
       "title": "Trump displays 2028 merchandise in White House during foreign leader meetings",
       "url": "https://zeteo.com/p/this-week-in-democracy-week-31-donald",
       "summary": "Trump showed off his 2028 merchandise inside the White House to Presidents Zelensky and Macron, including a \"Four More Years\" hat, in a viral image proudly posted by one of his White House aides.",
-      "why_relevant": "Using the White House as a venue for campaign merchandise sales during official meetings with foreign leaders violates norms against commercializing the presidency and blurs official and campaign functions.",
+      "why_relevant": "The use of official White House meetings with foreign leaders to promote personal campaign merchandise represents a violation of norms separating personal political profit from official duties.",
       "jurisdiction": "federal",
       "federal_nexus": "",
       "confidence": "high",
       "basis": "Trump also showed off his 2028 merch inside the White House to Presidents Zelensky and Macron, including a 'Four More Years' hat",
       "actor": "Trump",
-      "action": "sold campaign merchandise in white house",
-      "act_key": "trump|sold campaign merchandise in white house|2025-08-18",
+      "action": "displayed campaign merchandise at official meeting",
+      "act_key": "trump|displayed campaign merchandise at official meeting|2025-08-18",
       "attacks": [
-        "presidency",
-        "emoluments"
+        "emoluments",
+        "presidency"
       ],
       "source_meta": {
         "headline": "This Week in Democracy – Week 31: Donald Trump Sends Kash Patel After His Enemies",
@@ -3274,8 +3247,8 @@
         "snapshot_url": null,
         "durable_keys": {}
       },
-      "_origin_file": "zeteo_events_2025-08-23_2025-09-05.json",
-      "_origin_index": 64
+      "_origin_file": "zeteo_events_2025-07-26_2025-08-29.json",
+      "_origin_index": 14
     },
     {
       "source_key": "hcr",
@@ -3468,10 +3441,10 @@
       "action": "met with allied leaders on ukraine",
       "act_key": "trump|met with allied leaders on ukraine|2025-08-18",
       "attacks": [
-        "26",
-        "35",
-        "41",
-        "48"
+        "diplomacy",
+        "allies",
+        "constitution",
+        "peaceful_transfer"
       ],
       "source_meta": {
         "headline": null,
@@ -3504,9 +3477,9 @@
       "action": "called putin during allied negotiations",
       "act_key": "trump|called putin during allied negotiations|2025-08-18",
       "attacks": [
-        "26",
-        "35",
-        "40"
+        "diplomacy",
+        "allies",
+        "idea_of_america"
       ],
       "source_meta": {
         "headline": null,
@@ -3554,6 +3527,37 @@
       },
       "_origin_file": "meidas_events_2025-07-26_2025-08-29.json",
       "_origin_index": 119
+    },
+    {
+      "source_key": "whitehouse",
+      "date": "2025-08-18",
+      "occurred_on": "2025-08-18",
+      "reported_on": "2025-08-19",
+      "dated_by": "occurred",
+      "category": "International Relations",
+      "title": "White House issues fact sheet celebrating Trump's Ukraine peace summit",
+      "url": "https://www.whitehouse.gov/releases/2025/08/president-trumps-peace-summit-hailed-as-a-game-changer/",
+      "summary": "The White House published a fact sheet on August 19, 2025, compiling statements from NATO officials, military experts, lawmakers, cabinet secretaries, and media figures praising President Trump's peace summit held the previous day at the White House. The summit brought together Ukrainian President Zelenskyy and European leaders. The document claims the summit represents a breakthrough in Ukraine-Russia negotiations and attributes progress toward peace to Trump's leadership and diplomatic engagement.",
+      "why_relevant": "The document records the White House's official framing of a major diplomatic initiative on a live conflict, asserting executive achievement in foreign policy and peace negotiation while the outcome remains uncertain and unverified.",
+      "jurisdiction": "federal",
+      "federal_nexus": "",
+      "confidence": "high",
+      "basis": "President Donald J. Trump's groundbreaking peace summit at the White House yesterday is being celebrated by world leaders, national security experts, lawmakers, and others as a monumental stride toward resolving the longstanding war in Ukraine.",
+      "actor": "The White House",
+      "action": "published a release titled \"President Trump’s Peace Summit Hailed as a Game-Changer\"",
+      "act_key": "white house|published a release titled president trump s peace summit hailed as a game changer|2025-08-18",
+      "attacks": [],
+      "source_meta": {
+        "headline": "President Trump’s Peace Summit Hailed as a Game-Changer",
+        "published_on": "2025-08-19",
+        "byline": null,
+        "outlet": "The White House",
+        "accessed_on": "2026-08-26T23:12:23Z",
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
+      "_origin_index": 231
     },
     {
       "source_key": "hcr",
@@ -3761,40 +3765,6 @@
       },
       "_origin_file": "meidas_events_2025-07-26_2025-08-29.json",
       "_origin_index": 109
-    },
-    {
-      "source_key": "zeteo",
-      "date": "2025-08-19",
-      "occurred_on": "2025-08-19",
-      "reported_on": "2025-08-23",
-      "dated_by": "occurred",
-      "category": "Executive Actions & Orders",
-      "title": "Kristi Noem announces plan to paint southern border wall black",
-      "url": "https://zeteo.com/p/this-week-in-democracy-week-31-donald",
-      "summary": "Speaking to reporters, Homeland Security Secretary Kristi Noem announced that her department, at Trump's request, will paint the entire southern border wall black in an effort to \"make it even harder for people to climb\" as it gets hotter in the sun. Trump tried to do the same thing in his first term, despite warnings from aides that it could drive up maintenance costs by $500 million and would be unlikely to make the steel hotter. In some areas where walls were painted black, the paint began peeling less than 18 months later.",
-      "why_relevant": "The wasteful border wall painting project demonstrates fiscal irresponsibility and prioritization of symbolic gestures over effective governance.",
-      "jurisdiction": "federal",
-      "federal_nexus": "",
-      "confidence": "high",
-      "basis": "Homeland Security Secretary Kristi Noem announced that her department, at Trump's request, will paint the entire southern border wall black",
-      "actor": "Kristi Noem",
-      "action": "announced border wall painting project",
-      "act_key": "kristi noem|announced border wall painting project|2025-08-19",
-      "attacks": [
-        "economy",
-        "waste"
-      ],
-      "source_meta": {
-        "headline": "This Week in Democracy – Week 31: Donald Trump Sends Kash Patel After His Enemies",
-        "published_on": "2025-08-23",
-        "byline": "Team Zeteo",
-        "outlet": "Zeteo",
-        "accessed_on": "2026-08-14T02:00:21Z",
-        "snapshot_url": null,
-        "durable_keys": {}
-      },
-      "_origin_file": "zeteo_events_2025-08-23_2025-09-05.json",
-      "_origin_index": 80
     },
     {
       "source_key": "guardian",
@@ -4040,7 +4010,7 @@
       "title": "Federal judge dismisses part of Alligator Alcatraz lawsuit over Fifth Amendment violations",
       "url": "https://zeteo.com/p/this-week-in-democracy-week-31-donald",
       "summary": "A federal judge dismissed part of a lawsuit involving the \"Alligator Alcatraz\" immigration detention facility in Florida, rendering moot claims that detainees' Fifth Amendment rights are being violated by not having confidential access to hearings in immigration court after the Trump administration designated a processing center near Miami for cases to be heard. The judge also granted a change of venue motion by the state defendants, where the claims of First Amendment violations will be litigated.",
-      "why_relevant": "The dismissal of Fifth Amendment protections for detained immigrants and venue change favoring state defendants undermines constitutional protections for vulnerable populations.",
+      "why_relevant": "The dismissal of Fifth Amendment protections for immigration detainees and the change of venue undermines constitutional protections and may facilitate continued abuse of vulnerable populations.",
       "jurisdiction": "federal",
       "federal_nexus": "",
       "confidence": "high",
@@ -4049,6 +4019,7 @@
       "action": "dismissed fifth amendment claims",
       "act_key": "federal|dismissed fifth amendment claims|2025-08-19",
       "attacks": [
+        "constitution",
         "immigrants_refugees",
         "rule_of_law"
       ],
@@ -4061,8 +4032,8 @@
         "snapshot_url": null,
         "durable_keys": {}
       },
-      "_origin_file": "zeteo_events_2025-08-23_2025-09-05.json",
-      "_origin_index": 66
+      "_origin_file": "zeteo_events_2025-07-26_2025-08-29.json",
+      "_origin_index": 16
     },
     {
       "source_key": "zeteo",
@@ -4074,7 +4045,7 @@
       "title": "Federal judge dismisses Trump administration lawsuit against Illinois workplace privacy law",
       "url": "https://zeteo.com/p/this-week-in-democracy-week-31-donald",
       "summary": "A federal judge dismissed a case brought by the Trump administration that sought to block the Illinois Right to Privacy in the Workplace Act, which it argued violated federal immigration law.",
-      "why_relevant": "The dismissal protects state authority to regulate workplace privacy and limits federal overreach in immigration enforcement.",
+      "why_relevant": "The dismissal represents a judicial check on the administration's attempt to use federal immigration law to override state workplace privacy protections.",
       "jurisdiction": "federal",
       "federal_nexus": "",
       "confidence": "high",
@@ -4092,8 +4063,8 @@
         "snapshot_url": null,
         "durable_keys": {}
       },
-      "_origin_file": "zeteo_events_2025-08-23_2025-09-05.json",
-      "_origin_index": 78
+      "_origin_file": "zeteo_events_2025-07-26_2025-08-29.json",
+      "_origin_index": 28
     },
     {
       "source_key": "scotusorders",
@@ -4231,7 +4202,7 @@
       "title": "Ed Martin demands New York AG Letitia James resign",
       "url": "https://zeteo.com/p/this-week-in-democracy-week-31-donald",
       "summary": "The New York Times reported that Ed Martin, Trump's \"weaponization czar\" who was recently selected by the DOJ to investigate New York Attorney General Letitia James, sent a letter to her lawyer last week in which he said that her resignation would be considered an \"act of good faith\" and \"best serve the good of the state and nation.\" While James' lawyer didn't directly respond to calls for her client to resign, she wrote a letter to the DOJ calling Martin's visit to James' apartment last week a \"truly bizarre, made-for-media stunt\" that is \"outside the bounds of DOJ and ethics rules.\"",
-      "why_relevant": "A federal official demanding a state attorney general's resignation as a condition of ending investigation represents weaponization of DOJ and coercion of elected officials.",
+      "why_relevant": "The use of a DOJ official to demand the resignation of a state attorney general who prosecuted Trump represents a direct attack on the independence of state law enforcement and the rule of law.",
       "jurisdiction": "federal",
       "federal_nexus": "",
       "confidence": "high",
@@ -4253,8 +4224,8 @@
         "snapshot_url": null,
         "durable_keys": {}
       },
-      "_origin_file": "zeteo_events_2025-08-23_2025-09-05.json",
-      "_origin_index": 72
+      "_origin_file": "zeteo_events_2025-07-26_2025-08-29.json",
+      "_origin_index": 22
     },
     {
       "source_key": "zeteo",
@@ -4263,52 +4234,17 @@
       "reported_on": "2025-08-23",
       "dated_by": "occurred",
       "category": "Law Enforcement & Surveillance",
-      "title": "Lawyers accuse prosecutors of vindictive prosecution of Kilmar Abrego Garcia",
-      "url": "https://zeteo.com/p/this-week-in-democracy-week-31-donald",
-      "summary": "Lawyers for Kilmar Abrego Garcia accused federal prosecutors of \"vindictive and selective prosecution\" in a motion to dismiss the criminal charges against him. The lawyers also argued that Abrego Garcia was charged \"because he refused to acquiesce in the government's violation of his due process rights.\"",
-      "why_relevant": "Allegations of vindictive prosecution against a man previously illegally deported demonstrate weaponization of the justice system against vulnerable immigrants.",
-      "jurisdiction": "federal",
-      "federal_nexus": "",
-      "confidence": "high",
-      "basis": "Lawyers for Kilmar Abrego Garcia accused federal prosecutors of 'vindictive and selective prosecution' in a motion to dismiss the criminal charges against him",
-      "actor": "Federal prosecutors",
-      "action": "charged with vindictive prosecution",
-      "act_key": "federal prosecutors|charged with vindictive prosecution|2025-08-19",
-      "attacks": [
-        "immigrants_refugees",
-        "rule_of_law",
-        "justice_dept"
-      ],
-      "source_meta": {
-        "headline": "This Week in Democracy – Week 31: Donald Trump Sends Kash Patel After His Enemies",
-        "published_on": "2025-08-23",
-        "byline": "Team Zeteo",
-        "outlet": "Zeteo",
-        "accessed_on": "2026-08-14T02:00:21Z",
-        "snapshot_url": null,
-        "durable_keys": {}
-      },
-      "_origin_file": "zeteo_events_2025-08-23_2025-09-05.json",
-      "_origin_index": 79
-    },
-    {
-      "source_key": "zeteo",
-      "date": "2025-08-19",
-      "occurred_on": "2025-08-19",
-      "reported_on": "2025-08-23",
-      "dated_by": "occurred",
-      "category": "Law Enforcement & Surveillance",
-      "title": "Pirro's office directs prosecutors not to seek felony charges for gun violations",
+      "title": "Jeanine Pirro's office issues policy protecting gun law violators from felony charges",
       "url": "https://zeteo.com/p/this-week-in-democracy-week-31-donald",
       "summary": "The Washington Post reported that Pirro's office issued a new policy instructing federal prosecutors in DC not to seek felony charges against people who violate a district law prohibiting most individuals from carrying shotguns or rifles, no matter how strong the evidence against them may be. Meanwhile, Pirro directed staff to seek the toughest possible criminal charges against anyone arrested as part of Trump's federal takeover of the DC police force.",
-      "why_relevant": "Selective prosecution—declining to charge gun violations while maximizing charges for other crimes—demonstrates weaponization of law enforcement for political purposes.",
+      "why_relevant": "The selective enforcement of gun laws—protecting violators from felony charges while aggressively prosecuting those arrested in Trump's police takeover—represents a weaponization of law enforcement and a violation of equal protection under law.",
       "jurisdiction": "federal",
       "federal_nexus": "",
       "confidence": "high",
       "basis": "Pirro's office issued a new policy instructing federal prosecutors in DC not to seek felony charges against people who violate a district law prohibiting most individuals from carrying shotguns or rifles",
       "actor": "Jeanine Pirro",
-      "action": "directed selective non-prosecution policy",
-      "act_key": "jeanine pirro|directed selective non prosecution policy|2025-08-19",
+      "action": "issued selective prosecution policy",
+      "act_key": "jeanine pirro|issued selective prosecution policy|2025-08-19",
       "attacks": [
         "justice_dept",
         "rule_of_law"
@@ -4322,8 +4258,42 @@
         "snapshot_url": null,
         "durable_keys": {}
       },
-      "_origin_file": "zeteo_events_2025-08-23_2025-09-05.json",
-      "_origin_index": 71
+      "_origin_file": "zeteo_events_2025-07-26_2025-08-29.json",
+      "_origin_index": 21
+    },
+    {
+      "source_key": "zeteo",
+      "date": "2025-08-19",
+      "occurred_on": "2025-08-19",
+      "reported_on": "2025-08-23",
+      "dated_by": "occurred",
+      "category": "Law Enforcement & Surveillance",
+      "title": "Lawyers accuse prosecutors of vindictive prosecution of Kilmar Abrego Garcia",
+      "url": "https://zeteo.com/p/this-week-in-democracy-week-31-donald",
+      "summary": "Lawyers for Kilmar Abrego Garcia accused federal prosecutors of \"vindictive and selective prosecution\" in a motion to dismiss the criminal charges against him. The lawyers also argued that Abrego Garcia was charged \"because he refused to acquiesce in the government's violation of his due process rights.\"",
+      "why_relevant": "The allegation of vindictive prosecution based on a defendant's assertion of constitutional rights represents a violation of due process and the rule of law.",
+      "jurisdiction": "federal",
+      "federal_nexus": "",
+      "confidence": "medium",
+      "basis": "Lawyers for Kilmar Abrego Garcia accused federal prosecutors of 'vindictive and selective prosecution",
+      "actor": "Federal prosecutors",
+      "action": "allegedly engaged in vindictive prosecution",
+      "act_key": "federal prosecutors|allegedly engaged in vindictive prosecution|2025-08-19",
+      "attacks": [
+        "rule_of_law",
+        "justice_dept"
+      ],
+      "source_meta": {
+        "headline": "This Week in Democracy – Week 31: Donald Trump Sends Kash Patel After His Enemies",
+        "published_on": "2025-08-23",
+        "byline": "Team Zeteo",
+        "outlet": "Zeteo",
+        "accessed_on": "2026-08-14T02:00:21Z",
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "zeteo_events_2025-07-26_2025-08-29.json",
+      "_origin_index": 29
     },
     {
       "source_key": "zeteo",
@@ -4335,18 +4305,18 @@
       "title": "State Department revokes over 6,000 international student visas",
       "url": "https://zeteo.com/p/this-week-in-democracy-week-31-donald",
       "summary": "The State Department said that the Trump administration has revoked more than 6,000 international student visas, and claimed, without providing evidence, that approximately two-thirds of the revocations were based on crimes including assault, burglary, and driving under the influence, though it's unclear whether those students were convicted of any crimes. The department also said that between 200 and 300 student visas were revoked over \"support for terrorism,\" but the spokesperson didn't elaborate on their claim.",
-      "why_relevant": "Mass visa revocations without evidence or due process, combined with vague terrorism allegations, represent arbitrary enforcement and violation of procedural rights.",
+      "why_relevant": "The mass revocation of student visas without evidence or due process, combined with vague terrorism allegations, represents a weaponization of immigration enforcement against vulnerable populations and undermines the rule of law.",
       "jurisdiction": "federal",
       "federal_nexus": "",
       "confidence": "high",
-      "basis": "The State Department said that the Trump administration has revoked more than 6,000 international student visas",
+      "basis": "State Department said that the Trump administration has revoked more than 6,000 international student visas",
       "actor": "State Department",
-      "action": "revoked international student visas",
-      "act_key": "state department|revoked international student visas|2025-08-19",
+      "action": "revoked student visas",
+      "act_key": "state department|revoked student visas|2025-08-19",
       "attacks": [
-        "immigrants_refugees",
         "rule_of_law",
-        "due_process"
+        "immigrants_refugees",
+        "truth"
       ],
       "source_meta": {
         "headline": "This Week in Democracy – Week 31: Donald Trump Sends Kash Patel After His Enemies",
@@ -4357,8 +4327,8 @@
         "snapshot_url": null,
         "durable_keys": {}
       },
-      "_origin_file": "zeteo_events_2025-08-23_2025-09-05.json",
-      "_origin_index": 67
+      "_origin_file": "zeteo_events_2025-07-26_2025-08-29.json",
+      "_origin_index": 17
     },
     {
       "source_key": "zeteo",
@@ -4367,19 +4337,19 @@
       "reported_on": "2025-08-23",
       "dated_by": "occurred",
       "category": "Law Enforcement & Surveillance",
-      "title": "USCIS announces policy to screen applicants for anti-American ideologies",
+      "title": "Tulsi Gabbard revokes security clearances of 37 intelligence officials",
       "url": "https://zeteo.com/p/this-week-in-democracy-week-31-donald",
-      "summary": "USCIS announced an updated policy to screen immigration benefit applicants for \"anti-American ideologies or activities.\"",
-      "why_relevant": "Screening for undefined \"anti-American ideologies\" enables political persecution of immigrants and violates First Amendment protections for speech and belief.",
+      "summary": "Director of National Intelligence Tulsi Gabbard announced that, at Trump's direction, the agency is revoking the security clearances of 37 current and former intelligence officials, several of whom were involved in an assessment ordered by then-President Barack Obama involving Russian interference in the 2016 presidential election. Gabbard accused the officials of \"abus[ing] the public trust by politicizing and manipulating intelligence, leaking classified intelligence without authorization, and/or committing intentional egregious violations of tradecraft standards.\"",
+      "why_relevant": "The revocation of clearances for officials involved in assessing Russian interference appears to be political retaliation for findings that contradicted Trump's preferred narrative, undermining the independence of the intelligence community.",
       "jurisdiction": "federal",
       "federal_nexus": "",
       "confidence": "high",
-      "basis": "USCIS announced an updated policy to screen immigration benefit applicants for 'anti-American ideologies or activities",
-      "actor": "USCIS",
-      "action": "announced ideological screening policy",
-      "act_key": "uscis|announced ideological screening policy|2025-08-19",
+      "basis": "Director of National Intelligence Tulsi Gabbard announced that, at Trump's direction, the agency is revoking the security clearances of 37 current and former intelligence officials",
+      "actor": "Tulsi Gabbard",
+      "action": "revoked intelligence officials' clearances",
+      "act_key": "tulsi gabbard|revoked intelligence officials clearances|2025-08-19",
       "attacks": [
-        "immigrants_refugees",
+        "intelligence",
         "rule_of_law",
         "truth"
       ],
@@ -4392,8 +4362,8 @@
         "snapshot_url": null,
         "durable_keys": {}
       },
-      "_origin_file": "zeteo_events_2025-08-23_2025-09-05.json",
-      "_origin_index": 69
+      "_origin_file": "zeteo_events_2025-07-26_2025-08-29.json",
+      "_origin_index": 24
     },
     {
       "source_key": "zeteo",
@@ -4402,20 +4372,21 @@
       "reported_on": "2025-08-23",
       "dated_by": "occurred",
       "category": "Law Enforcement & Surveillance",
-      "title": "USCIS issues policy memo for subjective citizenship evaluation",
+      "title": "USCIS announces policy to screen applicants for anti-American ideologies",
       "url": "https://zeteo.com/p/this-week-in-democracy-week-31-donald",
-      "summary": "The Washington Post reported that US Citizenship and Immigration Services (USCIS) issued a new policy memo last week calling for a more \"rigorous, holistic and comprehensive\" approach to evaluating individuals applying to become citizens, which includes judging \"on a case-by-case basis\" whether applicants have \"good moral character\" defined by their \"behavior, adherence to societal norms, and positive contributions.\" Legal experts say the move will allow immigration officers to make subjective judgments about who gets to become a citizen.",
-      "why_relevant": "Subjective, case-by-case evaluation of \"good moral character\" and \"adherence to societal norms\" enables arbitrary denial of citizenship based on political or personal bias.",
+      "summary": "USCIS announced an updated policy to screen immigration benefit applicants for \"anti-American ideologies or activities.\"",
+      "why_relevant": "The vague and undefined concept of \"anti-American ideologies\" creates a tool for political persecution and undermines freedom of thought and expression for immigrants seeking legal status.",
       "jurisdiction": "federal",
       "federal_nexus": "",
       "confidence": "high",
-      "basis": "USCIS issued a new policy memo last week calling for a more 'rigorous, holistic and comprehensive' approach to evaluating individuals applying to become citizens",
+      "basis": "USCIS announced an updated policy to screen immigration benefit applicants for 'anti-American ideologies or activities",
       "actor": "USCIS",
-      "action": "issued subjective citizenship evaluation policy",
-      "act_key": "uscis|issued subjective citizenship evaluation policy|2025-08-19",
+      "action": "announced ideology screening policy",
+      "act_key": "uscis|announced ideology screening policy|2025-08-19",
       "attacks": [
+        "rule_of_law",
         "immigrants_refugees",
-        "rule_of_law"
+        "truth"
       ],
       "source_meta": {
         "headline": "This Week in Democracy – Week 31: Donald Trump Sends Kash Patel After His Enemies",
@@ -4426,8 +4397,42 @@
         "snapshot_url": null,
         "durable_keys": {}
       },
-      "_origin_file": "zeteo_events_2025-08-23_2025-09-05.json",
-      "_origin_index": 68
+      "_origin_file": "zeteo_events_2025-07-26_2025-08-29.json",
+      "_origin_index": 19
+    },
+    {
+      "source_key": "zeteo",
+      "date": "2025-08-19",
+      "occurred_on": "2025-08-19",
+      "reported_on": "2025-08-23",
+      "dated_by": "occurred",
+      "category": "Law Enforcement & Surveillance",
+      "title": "USCIS issues policy memo for subjective citizenship evaluation",
+      "url": "https://zeteo.com/p/this-week-in-democracy-week-31-donald",
+      "summary": "The Washington Post reported that US Citizenship and Immigration Services (USCIS) issued a new policy memo calling for a more \"rigorous, holistic and comprehensive\" approach to evaluating individuals applying to become citizens, which includes judging \"on a case-by-case basis\" whether applicants have \"good moral character\" defined by their \"behavior, adherence to societal norms, and positive contributions.\" Legal experts say the move will allow immigration officers to make subjective judgments about who gets to become a citizen.",
+      "why_relevant": "The introduction of subjective criteria for citizenship determinations without clear standards creates opportunities for discrimination and undermines the rule of law by replacing objective standards with officer discretion.",
+      "jurisdiction": "federal",
+      "federal_nexus": "",
+      "confidence": "high",
+      "basis": "USCIS issued a new policy memo last week calling for a more 'rigorous, holistic and comprehensive' approach to evaluating individuals applying to become citizens",
+      "actor": "USCIS",
+      "action": "issued subjective citizenship evaluation policy",
+      "act_key": "uscis|issued subjective citizenship evaluation policy|2025-08-19",
+      "attacks": [
+        "rule_of_law",
+        "immigrants_refugees"
+      ],
+      "source_meta": {
+        "headline": "This Week in Democracy – Week 31: Donald Trump Sends Kash Patel After His Enemies",
+        "published_on": "2025-08-23",
+        "byline": "Team Zeteo",
+        "outlet": "Zeteo",
+        "accessed_on": "2026-08-14T02:00:21Z",
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "zeteo_events_2025-07-26_2025-08-29.json",
+      "_origin_index": 18
     },
     {
       "source_key": "guardian",
@@ -4459,6 +4464,37 @@
       },
       "_origin_file": "guardian_events_2025-07-26_2025-08-29.json",
       "_origin_index": 133
+    },
+    {
+      "source_key": "zeteo",
+      "date": "2025-08-19",
+      "occurred_on": "2025-08-19",
+      "reported_on": "2025-08-23",
+      "dated_by": "occurred",
+      "category": "Elections & Representation",
+      "title": "Elon Musk pumps brakes on political party plan",
+      "url": "https://zeteo.com/p/this-week-in-democracy-week-31-donald",
+      "summary": "The Wall Street Journal reported that Elon Musk is \"quietly pumping the brakes\" on his plan to start a political party, telling allies he wants to focus on his companies and doesn't want to damage his relationships with powerful Republicans like JD Vance with a third party that could take votes away from the GOP.",
+      "why_relevant": "Musk's decision to abandon a political party plan to preserve relationships with Republican power brokers demonstrates how concentrated wealth and corporate power can shape the political landscape and limit electoral competition.",
+      "jurisdiction": "private",
+      "federal_nexus": "Musk's political influence and business interests are intertwined with federal policy and regulatory decisions.",
+      "confidence": "high",
+      "basis": "Elon Musk is 'quietly pumping the brakes' on his plan to start a political party, telling allies he wants to focus on his companies and doesn't want to damage his relationships with powerful Republicans",
+      "actor": "Elon Musk",
+      "action": "abandoned political party plan",
+      "act_key": "elon musk|abandoned political party plan|2025-08-19",
+      "attacks": [],
+      "source_meta": {
+        "headline": "This Week in Democracy – Week 31: Donald Trump Sends Kash Patel After His Enemies",
+        "published_on": "2025-08-23",
+        "byline": "Team Zeteo",
+        "outlet": "Zeteo",
+        "accessed_on": "2026-08-14T02:00:21Z",
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "zeteo_events_2025-07-26_2025-08-29.json",
+      "_origin_index": 23
     },
     {
       "source_key": "hcr",
@@ -4541,17 +4577,17 @@
       "title": "Texas state Rep. Nicole Collier sues over detention and surveillance",
       "url": "https://zeteo.com/p/this-week-in-democracy-week-31-donald",
       "summary": "Texas state Rep. Nicole Collier filed a lawsuit claiming the state legislature's Republican majority has illegally detained her in the state Capitol after she refused to consent to 24-hour police surveillance. Collier, who slept on the floor of the Capitol in protest on Monday night, was one of the more than 50 House Democrats who fled the state for two weeks to block a new gerrymandered Congressional map. Since returning, the lawmakers have been subjected to new rules preventing them from leaving the House floor without written permission and a law enforcement escort until the chamber reconvened on Wednesday.",
-      "why_relevant": "Detention of legislators and mandatory surveillance for exercising protest rights represents suppression of dissent and violation of freedom of movement.",
+      "why_relevant": "The detention and surveillance of legislators for exercising their constitutional right to protest represents a direct attack on legislative independence and freedom of movement.",
       "jurisdiction": "state",
       "federal_nexus": "The redistricting affects federal House representation and Trump has publicly endorsed the gerrymandered map.",
       "confidence": "high",
       "basis": "Texas state Rep. Nicole Collier filed a lawsuit claiming the state legislature's Republican majority has illegally detained her in the state Capitol after she refused to consent to 24-hour police surveillance",
       "actor": "Texas legislature",
-      "action": "detained legislator for refusing surveillance",
-      "act_key": "texas legislature|detained legislator for refusing surveillance|2025-08-19",
+      "action": "detained and surveilled legislator",
+      "act_key": "texas legislature|detained and surveilled legislator|2025-08-19",
       "attacks": [
-        "civil_society",
-        "rule_of_law"
+        "rule_of_law",
+        "separation_of_powers"
       ],
       "source_meta": {
         "headline": "This Week in Democracy – Week 31: Donald Trump Sends Kash Patel After His Enemies",
@@ -4562,8 +4598,8 @@
         "snapshot_url": null,
         "durable_keys": {}
       },
-      "_origin_file": "zeteo_events_2025-08-23_2025-09-05.json",
-      "_origin_index": 76
+      "_origin_file": "zeteo_events_2025-07-26_2025-08-29.json",
+      "_origin_index": 26
     },
     {
       "source_key": "guardian",
@@ -4770,89 +4806,27 @@
       "_origin_index": 104
     },
     {
-      "source_key": "whitehouse",
-      "date": "2025-08-19",
-      "occurred_on": "2025-08-19",
-      "reported_on": "2025-08-19",
-      "dated_by": "occurred",
-      "category": "Information & Media Control",
-      "title": "President Trump Recaps Breakthroughs in Ukraine Peace Talks",
-      "url": "https://www.whitehouse.gov/releases/2025/08/president-trump-recaps-breakthroughs-in-ukraine-peace-talks/",
-      "summary": "The White House published this release on 2025-08-19 through its releases channel.",
-      "why_relevant": "",
-      "jurisdiction": "federal",
-      "federal_nexus": "Official White House channel; documents the act of publication only.",
-      "confidence": "high",
-      "basis": "official_actor_record",
-      "actor": "The White House",
-      "action": "published a release titled \"President Trump Recaps Breakthroughs in Ukraine Peace Talks\"",
-      "act_key": "white house|published a release titled president trump recaps breakthroughs in ukraine peace talks|2025-08-19",
-      "attacks": [],
-      "source_meta": {
-        "headline": null,
-        "published_on": null,
-        "byline": null,
-        "outlet": null,
-        "accessed_on": null,
-        "snapshot_url": null,
-        "durable_keys": {}
-      },
-      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
-      "_origin_index": 286
-    },
-    {
-      "source_key": "whitehouse",
-      "date": "2025-08-19",
-      "occurred_on": "2025-08-19",
-      "reported_on": "2025-08-19",
-      "dated_by": "occurred",
-      "category": "Information & Media Control",
-      "title": "President Trump’s Peace Summit Hailed as a Game-Changer",
-      "url": "https://www.whitehouse.gov/releases/2025/08/president-trumps-peace-summit-hailed-as-a-game-changer/",
-      "summary": "The White House published this release on 2025-08-19 through its releases channel.",
-      "why_relevant": "",
-      "jurisdiction": "federal",
-      "federal_nexus": "Official White House channel; documents the act of publication only.",
-      "confidence": "high",
-      "basis": "official_actor_record",
-      "actor": "The White House",
-      "action": "published a release titled \"President Trump’s Peace Summit Hailed as a Game-Changer\"",
-      "act_key": "white house|published a release titled president trump s peace summit hailed as a game changer|2025-08-19",
-      "attacks": [],
-      "source_meta": {
-        "headline": null,
-        "published_on": null,
-        "byline": null,
-        "outlet": null,
-        "accessed_on": null,
-        "snapshot_url": null,
-        "durable_keys": {}
-      },
-      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
-      "_origin_index": 285
-    },
-    {
       "source_key": "zeteo",
       "date": "2025-08-19",
       "occurred_on": "2025-08-19",
       "reported_on": "2025-08-23",
       "dated_by": "occurred",
       "category": "Information & Media Control",
-      "title": "RFK Jr. attacks American Academy of Pediatrics over COVID vaccine guidance",
+      "title": "Robert F. Kennedy Jr. attacks American Academy of Pediatrics over COVID guidance",
       "url": "https://zeteo.com/p/this-week-in-democracy-week-31-donald",
       "summary": "On Twitter, Health Secretary Robert F. Kennedy Jr. accused the American Academy of Pediatrics (AAP) of engaging in a \"pay-to-play scheme to promote commercial ambitions\" of its \"Big Pharma benefactors,\" hours after the professional society for doctors who provide medical care to children issued COVID-19 immunization guidelines that continued to recommend the vaccine for kids. The move defied guidance from the Centers for Disease Control and Prevention, which dropped its recommendation back in May under Kennedy's leadership. The AAP said it retained the guidance because children are still at risk of severe cases of COVID-19.",
-      "why_relevant": "The Health Secretary's public attack on pediatricians for following medical evidence represents politicization of public health and intimidation of medical professionals.",
+      "why_relevant": "Kennedy's attack on medical professionals for providing evidence-based guidance represents an attempt to suppress scientific consensus and undermine public health authority through intimidation.",
       "jurisdiction": "federal",
       "federal_nexus": "",
       "confidence": "high",
-      "basis": "Health Secretary Robert F. Kennedy Jr. accused the American Academy of Pediatrics (AAP) of engaging in a 'pay-to-play scheme to promote commercial ambitions' of its 'Big Pharma benefactors",
+      "basis": "Health Secretary Robert F. Kennedy Jr. accused the American Academy of Pediatrics (AAP) of engaging in a 'pay-to-play scheme",
       "actor": "Robert F. Kennedy Jr.",
-      "action": "attacked pediatricians over vaccine guidance",
-      "act_key": "robert f kennedy jr|attacked pediatricians over vaccine guidance|2025-08-19",
+      "action": "attacked medical professional organization",
+      "act_key": "robert f kennedy jr|attacked medical professional organization|2025-08-19",
       "attacks": [
         "science",
-        "public_health",
-        "truth"
+        "truth",
+        "public_health"
       ],
       "source_meta": {
         "headline": "This Week in Democracy – Week 31: Donald Trump Sends Kash Patel After His Enemies",
@@ -4863,8 +4837,8 @@
         "snapshot_url": null,
         "durable_keys": {}
       },
-      "_origin_file": "zeteo_events_2025-08-23_2025-09-05.json",
-      "_origin_index": 77
+      "_origin_file": "zeteo_events_2025-07-26_2025-08-29.json",
+      "_origin_index": 27
     },
     {
       "source_key": "zeteo",
@@ -4873,17 +4847,17 @@
       "reported_on": "2025-08-23",
       "dated_by": "occurred",
       "category": "Information & Media Control",
-      "title": "Trump directs attorneys to review Smithsonian museums for \"bad\" messaging",
+      "title": "Trump directs attorneys to review Smithsonian museums for \"out of control\" content",
       "url": "https://zeteo.com/p/this-week-in-democracy-week-31-donald",
       "summary": "On Truth Social, Trump claimed that the Smithsonian is \"OUT OF CONTROL,\" and complained that their museums focus too much on \"how bad Slavery was,\" along with \"how horrible our Country is.\" He noted that he's directed his attorneys to \"go through the Museums, and start the exact same process that has been done with Colleges and Universities where tremendous progress has been made.\"",
-      "why_relevant": "Directing legal action against museums for historical accuracy about slavery represents state censorship of public memory and rewriting of history.",
+      "why_relevant": "Trump's directive to review and alter Smithsonian exhibits represents an attempt to use government power to control historical narratives and suppress inconvenient truths about American history.",
       "jurisdiction": "federal",
       "federal_nexus": "",
       "confidence": "high",
       "basis": "Trump claimed that the Smithsonian is 'OUT OF CONTROL,' and complained that their museums focus too much on 'how bad Slavery was",
       "actor": "Trump",
-      "action": "directed legal review of museum exhibits",
-      "act_key": "trump|directed legal review of museum exhibits|2025-08-19",
+      "action": "directed review of museum exhibits",
+      "act_key": "trump|directed review of museum exhibits|2025-08-19",
       "attacks": [
         "public_memory",
         "truth",
@@ -4898,8 +4872,8 @@
         "snapshot_url": null,
         "durable_keys": {}
       },
-      "_origin_file": "zeteo_events_2025-08-23_2025-09-05.json",
-      "_origin_index": 75
+      "_origin_file": "zeteo_events_2025-07-26_2025-08-29.json",
+      "_origin_index": 25
     },
     {
       "source_key": "federalregister",
@@ -4943,8 +4917,8 @@
       "category": "Economic & Regulatory Power",
       "title": "DEA publishes notice of bulk manufacturer application by Groff NA Hemplex LLC for controlled substances",
       "url": "https://www.federalregister.gov/documents/2025/11/26/2025-21182/bulk-manufacturer-of-controlled-substances-application-groff-na-hemplex-llc",
-      "summary": "The Drug Enforcement Administration published a notice that Groff NA Hemplex LLC, based in York, Pennsylvania, applied on August 19, 2025, to be registered as a bulk manufacturer of controlled substances including marihuana extract, marihuana, and tetrahydrocannabinols (Schedule I). The company seeks federal authorization to cultivate and bulk manufacture these substances for internal use and sale to federally registered research investigators. The DEA opened a 60-day public comment period ending January 26, 2026, during which registered bulk manufacturers and other applicants may submit objections or request a hearing.",
-      "why_relevant": "This notice establishes a formal regulatory pathway for private commercial cultivation and manufacture of federally controlled substances, affecting the structure of the legal cannabis and research pharmaceutical supply chain.",
+      "summary": "The Drug Enforcement Administration published a notice that Groff NA Hemplex LLC applied on August 19, 2025, to be registered as a bulk manufacturer of marijuana extract, marijuana, and tetrahydrocannabinols (Schedule I controlled substances). The company seeks federal authorization to cultivate and bulk manufacture these substances for internal use and sale to federally registered research investigators. The DEA opened a 60-day public comment period ending January 26, 2026, during which registered bulk manufacturers and other applicants may submit objections or request a hearing.",
+      "why_relevant": "The notice establishes a formal regulatory pathway for private commercial production of federally controlled substances, affecting the structure of the legal cannabis and research pharmaceutical supply chain.",
       "jurisdiction": "federal",
       "federal_nexus": "",
       "confidence": "high",
@@ -4964,8 +4938,8 @@
           "federal_register_doc": "2025-21182"
         }
       },
-      "_origin_file": "federalregister_events_2025-11-22_2025-11-28.json",
-      "_origin_index": 10
+      "_origin_file": "federalregister_events_2025-09-06_2025-12-12.json",
+      "_origin_index": 18
     },
     {
       "source_key": "federalregister",
@@ -5009,8 +4983,8 @@
       "category": "Economic & Regulatory Power",
       "title": "EPA approves South Dakota Regional Haze State Implementation Plan for second implementation period",
       "url": "https://www.federalregister.gov/documents/2025/08/28/2025-16468/air-plan-approval-south-dakota-regional-haze-plan-for-the-second-implementation-period",
-      "summary": "The Environmental Protection Agency issued a final rule approving South Dakota's Regional Haze State Implementation Plan revision submitted July 29, 2022, as satisfying Clean Air Act section 169A requirements and EPA Regional Haze Rule standards for the 2018–2028 implementation period. The approval covers visibility protection calculations, long-term strategy, reasonable progress goals, monitoring requirements, and Federal Land Manager consultation. The rule becomes effective September 29, 2025.",
-      "why_relevant": "EPA approval of state air-quality implementation plans is a core federal regulatory function affecting interstate pollution control, visibility protection in national parks, and compliance with Clean Air Act mandates.",
+      "summary": "The Environmental Protection Agency issued a final rule approving South Dakota's Regional Haze State Implementation Plan revision submitted July 29, 2022, as satisfying Clean Air Act section 169A requirements and EPA Regional Haze Rule standards for the 2018–2028 implementation period. The approval covers visibility protection calculations, long-term strategy, reasonable progress goals, monitoring requirements, and Federal Land Manager consultation across 156 national parks and wilderness areas. The rule becomes effective September 29, 2025.",
+      "why_relevant": "EPA approval of state air-quality implementation plans directly affects regulatory compliance, industrial emissions standards, and the federal-state balance in environmental governance.",
       "jurisdiction": "federal",
       "federal_nexus": "",
       "confidence": "high",
@@ -5030,8 +5004,8 @@
           "federal_register_doc": "2025-16468"
         }
       },
-      "_origin_file": "federalregister_events_2025-08-23_2025-09-05.json",
-      "_origin_index": 54
+      "_origin_file": "federalregister_events_2025-07-26_2025-08-29.json",
+      "_origin_index": 105
     },
     {
       "source_key": "federalregister",
@@ -5469,20 +5443,20 @@
       "source_key": "guardian",
       "date": "2025-08-19",
       "occurred_on": "2025-08-19",
-      "reported_on": "2025-09-07",
+      "reported_on": "2025-09-06",
       "dated_by": "occurred",
       "category": "Economic & Regulatory Power",
       "title": "Florida wildlife agency halts manta ray capture permits pending policy review",
       "url": "https://www.theguardian.com/us-news/2025/sep/06/manta-ray-capture-florida-wildlife-permits",
-      "summary": "The Florida Fish and Wildlife Conservation Commission (FWC) announced it will suspend issuance of \"marine special activity licenses\" that permit capture of endangered marine species, including manta rays and sharks, effective 19 August 2025. The decision followed viral outrage over the July capture of a federally protected giant manta ray by contractors for an Abu Dhabi aquarium. FWC chair Rodney Barreto committed to formal rule hearings in 2026 to revisit the permitting policies. A bipartisan group of Florida lawmakers had urged revocation of the permit and suspension of future licenses.",
-      "why_relevant": "The suspension of endangered species capture permits and commitment to policy review represents a reversal of prior regulatory practice that allowed commercial extraction of protected wildlife, restoring conservation protections.",
+      "summary": "The Florida Fish and Wildlife Conservation Commission (FWC) agreed to suspend issuance of \"marine special activity licenses\" that permit capture of endangered species, including manta rays and sharks, following public and bipartisan legislative outcry over the July capture of a giant manta ray destined for an Abu Dhabi aquarium. FWC chair Rodney Barreto confirmed the agency will revisit policies governing such permits, with rule hearings scheduled for 2026. The halt applies to species listed under the federal Endangered Species Act.",
+      "why_relevant": "The suspension of permits for capturing federally protected endangered species represents a reversal of regulatory capture and demonstrates responsive governance to public and legislative pressure on wildlife conservation.",
       "jurisdiction": "state",
       "federal_nexus": "The manta ray is federally listed as an endangered species under the Endangered Species Act, creating federal oversight authority.",
       "confidence": "high",
       "basis": "the agency, since 19 August, stopped issuing the permits that allow the capture of sharks and manta rays listed under the Endangered Species Act.",
-      "actor": "FWC",
+      "actor": "Florida Fish and Wildlife Conservation Commission",
       "action": "suspended endangered species capture permits",
-      "act_key": "fwc|suspended endangered species capture permits|2025-08-19",
+      "act_key": "florida fish and wildlife conservation commission|suspended endangered species capture permits|2025-08-19",
       "attacks": [],
       "source_meta": {
         "headline": "Legal capture of endangered manta ray sparks bipartisan outrage in Florida",
@@ -5493,8 +5467,8 @@
         "snapshot_url": null,
         "durable_keys": {}
       },
-      "_origin_file": "guardian_events_2025-09-06_2025-09-12.json",
-      "_origin_index": 63
+      "_origin_file": "guardian_events_2025-09-06_2025-12-12.json",
+      "_origin_index": 1433
     },
     {
       "source_key": "hcr",
@@ -5515,8 +5489,8 @@
       "action": "raised electricity prices",
       "act_key": "energy producers|raised electricity prices|2025-08-19",
       "attacks": [
-        "7",
-        "51"
+        "poor",
+        "economy"
       ],
       "source_meta": {
         "headline": null,
@@ -5529,6 +5503,39 @@
       },
       "_origin_file": "hcr_events_2025-07-26_2025-08-29.json",
       "_origin_index": 96
+    },
+    {
+      "source_key": "zeteo",
+      "date": "2025-08-19",
+      "occurred_on": "2025-08-19",
+      "reported_on": "2025-08-23",
+      "dated_by": "occurred",
+      "category": "Economic & Regulatory Power",
+      "title": "Kristi Noem announces plan to paint southern border wall black",
+      "url": "https://zeteo.com/p/this-week-in-democracy-week-31-donald",
+      "summary": "Speaking to reporters, Homeland Security Secretary Kristi Noem announced that her department, at Trump's request, will paint the entire southern border wall black in an effort to \"make it even harder for people to climb\" as it gets hotter in the sun. Trump tried to do the same thing in his first term, despite warnings from aides that it could drive up maintenance costs by $500 million and would be unlikely to make the steel hotter. In some areas where walls were painted black, the paint began peeling less than 18 months later.",
+      "why_relevant": "The plan to paint the border wall black despite prior evidence of ineffectiveness and massive cost represents wasteful government spending and disregard for fiscal responsibility.",
+      "jurisdiction": "federal",
+      "federal_nexus": "",
+      "confidence": "high",
+      "basis": "Homeland Security Secretary Kristi Noem announced that her department, at Trump's request, will paint the entire southern border wall black",
+      "actor": "Kristi Noem",
+      "action": "announced border wall painting plan",
+      "act_key": "kristi noem|announced border wall painting plan|2025-08-19",
+      "attacks": [
+        "economy"
+      ],
+      "source_meta": {
+        "headline": "This Week in Democracy – Week 31: Donald Trump Sends Kash Patel After His Enemies",
+        "published_on": "2025-08-23",
+        "byline": "Team Zeteo",
+        "outlet": "Zeteo",
+        "accessed_on": "2026-08-14T02:00:21Z",
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "zeteo_events_2025-07-26_2025-08-29.json",
+      "_origin_index": 30
     },
     {
       "source_key": "meidas",
@@ -5678,21 +5685,21 @@
       "reported_on": "2025-08-23",
       "dated_by": "occurred",
       "category": "Appointments & Patronage",
-      "title": "Tulsi Gabbard revokes security clearances of 37 intelligence officials",
+      "title": "Jeanine Pirro's 2020 texts reveal political involvement while Fox host",
       "url": "https://zeteo.com/p/this-week-in-democracy-week-31-donald",
-      "summary": "Director of National Intelligence Tulsi Gabbard announced that, at Trump's direction, the agency is revoking the security clearances of 37 current and former intelligence officials, several of whom were involved in an assessment ordered by then-President Barack Obama involving Russian interference in the 2016 presidential election. Gabbard accused the officials of \"abus[ing] the public trust by politicizing and manipulating intelligence, leaking classified intelligence without authorization, and/or committing intentional egregious violations of tradecraft standards.\"",
-      "why_relevant": "Revoking clearances of intelligence officials who assessed Russian interference represents retaliation for inconvenient findings and politicization of the intelligence community.",
+      "summary": "The Washington Post reported that in September 2020, US Attorney for DC Jeanine Pirro, who was then a weekend host on Fox, told then-Republican National Committee chair Ronna McDaniel in a text message that she was determined to help Trump and the Republican Party, saying, \"I work so hard for the President and party,\" despite network rules preventing political involvement from on-air personalities. Additionally, in a text message to Sean Hannity after the post-election edition of her show didn't air, she noted that \"I'M TIRED OF THE CENSORSHIP AND I'M EMBARRASSED BY HOW THEY CALLED THIS ELECTION.\"",
+      "why_relevant": "The revelation that the current US Attorney for DC violated network rules by engaging in partisan political activity while employed as a news host demonstrates the politicization of law enforcement and the blurring of lines between media and government.",
       "jurisdiction": "federal",
       "federal_nexus": "",
       "confidence": "high",
-      "basis": "Director of National Intelligence Tulsi Gabbard announced that, at Trump's direction, the agency is revoking the security clearances of 37 current and former intelligence officials",
-      "actor": "Tulsi Gabbard",
-      "action": "revoked intelligence officials' clearances",
-      "act_key": "tulsi gabbard|revoked intelligence officials clearances|2025-08-19",
+      "basis": "US Attorney for DC Jeanine Pirro, who was then a weekend host on Fox, told then-Republican National Committee chair Ronna McDaniel in a text message that she was determined to help Trump and the Republican Party",
+      "actor": "Jeanine Pirro",
+      "action": "engaged in partisan political activity",
+      "act_key": "jeanine pirro|engaged in partisan political activity|2025-08-19",
       "attacks": [
-        "intelligence",
+        "justice_dept",
         "rule_of_law",
-        "truth"
+        "civil_service"
       ],
       "source_meta": {
         "headline": "This Week in Democracy – Week 31: Donald Trump Sends Kash Patel After His Enemies",
@@ -5703,8 +5710,8 @@
         "snapshot_url": null,
         "durable_keys": {}
       },
-      "_origin_file": "zeteo_events_2025-08-23_2025-09-05.json",
-      "_origin_index": 74
+      "_origin_file": "zeteo_events_2025-07-26_2025-08-29.json",
+      "_origin_index": 20
     },
     {
       "source_key": "congress",
@@ -6051,6 +6058,41 @@
       "_origin_index": 106
     },
     {
+      "source_key": "whitehouse",
+      "date": "2025-08-19",
+      "occurred_on": "",
+      "reported_on": "2025-08-19",
+      "dated_by": "reported",
+      "category": "International Relations",
+      "title": "White House issues release on Trump's Ukraine peace diplomacy statements",
+      "url": "https://www.whitehouse.gov/releases/2025/08/president-trump-recaps-breakthroughs-in-ukraine-peace-talks/",
+      "summary": "The White House published a release recapping President Trump's statements from a Fox & Friends interview regarding a White House peace summit with Ukrainian President Zelenskyy and European leaders. Trump stated he arranged a bilateral meeting between Putin and Zelenskyy, described calls with Putin, emphasized urgency in negotiations, and indicated European nations would provide security guarantees rather than NATO membership. Trump rejected American troop deployment to Ukraine's border.",
+      "why_relevant": "The release documents the executive's direct engagement in active peace negotiations affecting a major geopolitical conflict and signals a shift in U.S. security commitments and NATO policy.",
+      "jurisdiction": "federal",
+      "federal_nexus": "",
+      "confidence": "high",
+      "basis": "President Trump provided an inside look at yesterday's historic White House peace summit with Ukrainian President Volodymyr Zelenskyy and key European leaders.",
+      "actor": "The White House",
+      "action": "published a release titled \"President Trump Recaps Breakthroughs in Ukraine Peace Talks\"",
+      "act_key": "white house|published a release titled president trump recaps breakthroughs in ukraine peace talks|2025-08-19",
+      "attacks": [
+        "peace",
+        "allies",
+        "diplomacy"
+      ],
+      "source_meta": {
+        "headline": "President Trump Recaps Breakthroughs in Ukraine Peace Talks",
+        "published_on": "2025-08-19",
+        "byline": null,
+        "outlet": "The White House",
+        "accessed_on": "2026-08-26T23:12:34Z",
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
+      "_origin_index": 232
+    },
+    {
       "source_key": "democracydocket",
       "date": "2025-08-19",
       "occurred_on": "",
@@ -6088,10 +6130,10 @@
       "reported_on": "2025-08-25",
       "dated_by": "occurred",
       "category": "Executive Actions & Orders",
-      "title": "Presidential permit authorizes Cameron County, Texas pedestrian border crossing at Gateway International Bridge",
+      "title": "President grants Cameron County, Texas, presidential permit to construct and operate pedestrian border crossing at Gateway International Bridge",
       "url": "https://www.federalregister.gov/documents/2025/08/25/2025-16320/authorizing-cameron-county-texas-to-construct-maintain-and-operate-a-pedestrian-border-crossing-at",
-      "summary": "The President issued a presidential permit on August 20, 2025, authorizing Cameron County, Texas to construct, maintain, and operate a pedestrian border crossing at the Gateway International Bridge Land Port of Entry in Brownsville, Texas. The permit is subject to multiple conditions including environmental compliance, federal agency inspection, coordination with the International Boundary and Water Commission, State Department diplomatic notification, and a five-year construction deadline. Cameron County must provide inspection facilities and infrastructure improvements at no cost to the United States.",
-      "why_relevant": "Presidential permits for international border infrastructure represent executive authority over transnational commerce and immigration infrastructure, affecting cross-border movement and port-of-entry operations.",
+      "summary": "The President issued a presidential permit authorizing Cameron County, Texas, to construct, maintain, and operate a pedestrian border crossing at the Gateway International Bridge Land Port of Entry in Brownsville, Texas. The permit, dated August 20, 2025, grants authority under 33 U.S.C. 535d and imposes conditions including environmental compliance, federal agency inspection access, coordination with the International Boundary and Water Commission, State Department diplomatic notification, and a five-year construction deadline. The permittee must provide inspection facilities and infrastructure at no cost to the United States.",
+      "why_relevant": "Presidential permits for international border infrastructure are exercises of executive authority affecting cross-border movement, port-of-entry operations, and U.S.–Mexico relations.",
       "jurisdiction": "federal",
       "federal_nexus": "",
       "confidence": "high",
@@ -6111,8 +6153,8 @@
           "federal_register_doc": "2025-16320"
         }
       },
-      "_origin_file": "federalregister_events_2025-08-23_2025-09-05.json",
-      "_origin_index": 108
+      "_origin_file": "federalregister_events_2025-07-26_2025-08-29.json",
+      "_origin_index": 276
     },
     {
       "source_key": "guardian",
@@ -6193,29 +6235,29 @@
       "reported_on": "2025-08-20",
       "dated_by": "occurred",
       "category": "Executive Actions & Orders",
-      "title": "Presidential Permit: Authorizing Cameron County, Texas, to Construct, Maintain, and Operate a Pedestrian Border Crossing at the Gateway International Bridge Land Port of Entry",
+      "title": "White House issued presidential permit authorizing Cameron County, Texas, to construct and operate pedestrian border crossing",
       "url": "https://www.whitehouse.gov/presidential-actions/2025/08/presidential-permit-authorizing-cameron-county-texas-to-construct-maintain-and-operate-a-pedestrian-border-crossing-at-the-gateway-international-bridge-land-port-of-entry/",
-      "summary": "The White House published this memorandum on 2025-08-20 through its presidential-memoranda channel.",
-      "why_relevant": "",
+      "summary": "The White House issued a presidential memorandum granting Cameron County, Texas, permission to construct, maintain, and operate a pedestrian crossing at the Gateway International Bridge Land Port of Entry in Brownsville, Texas, on the U.S.–Mexico border. The permit, issued under 33 U.S.C. 535d, conditions the project on compliance with federal, state, and local laws; environmental mitigation; inspection access; coordination with the International Boundary and Water Commission; and State Department diplomatic clearance with Mexico. The permittee must provide inspection facilities and infrastructure at no cost to the United States and may not commence construction until State Department notification of Mexican authorization is received.",
+      "why_relevant": "The permit exercises presidential authority over international border infrastructure and cross-border movement, establishing conditions for a new pedestrian crossing that affects immigration, trade, and sovereignty at a major U.S.–Mexico port of entry.",
       "jurisdiction": "federal",
-      "federal_nexus": "Official White House channel; documents the act of publication only.",
+      "federal_nexus": "",
       "confidence": "high",
-      "basis": "official_actor_record",
+      "basis": "I hereby grant permission, subject to the conditions set forth herein, to Cameron County, Texas (the 'permittee'), to construct, maintain, and operate a pedestrian crossing at the Gateway International Bridge Land Port of Entry.",
       "actor": "The White House",
       "action": "announced a presidential memorandum titled \"Presidential Permit: Authorizing Cameron County, Texas, to Construct, Maintain, and Operate a Pedestrian Border Crossing at the Gateway International Bridge Land Port of Entry\"",
       "act_key": "white house|announced a presidential memorandum titled presidential permit authorizing cameron county texas to construct maintain and operate a pedestrian border crossing at the gateway international bridge land port of entry|2025-08-20",
       "attacks": [],
       "source_meta": {
-        "headline": null,
-        "published_on": null,
+        "headline": "Presidential Permit: Authorizing Cameron County, Texas, to Construct, Maintain, and Operate a Pedestrian Border Crossing at the Gateway International Bridge Land Port of Entry",
+        "published_on": "2025-08-21",
         "byline": null,
-        "outlet": null,
-        "accessed_on": null,
+        "outlet": "The White House",
+        "accessed_on": "2026-08-27T01:49:35Z",
         "snapshot_url": null,
         "durable_keys": {}
       },
       "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
-      "_origin_index": 1116
+      "_origin_index": 1058
     },
     {
       "source_key": "zeteo",
@@ -6224,20 +6266,21 @@
       "reported_on": "2025-08-23",
       "dated_by": "occurred",
       "category": "Executive Actions & Orders",
-      "title": "Education Department rescinds English learner support guidance",
+      "title": "Trump Education Department rescinds English learner support guidance",
       "url": "https://zeteo.com/p/this-week-in-democracy-week-31-donald",
       "summary": "The Washington Post reported that Trump's Education Department rescinded an Obama-era guidance requiring schools to provide support for students who are learning English, a move that could impact approximately 5 million children in the US who aren't fluent in the language.",
-      "why_relevant": "Rescinding English learner support harms millions of children and undermines educational equity and access.",
+      "why_relevant": "The rescission of English learner support guidance undermines educational access for millions of children and represents a rollback of civil rights protections.",
       "jurisdiction": "federal",
       "federal_nexus": "",
       "confidence": "high",
       "basis": "Trump's Education Department rescinded an Obama-era guidance requiring schools to provide support for students who are learning English",
       "actor": "Education Department",
-      "action": "rescinded english learner support",
-      "act_key": "education department|rescinded english learner support|2025-08-20",
+      "action": "rescinded english learner support guidance",
+      "act_key": "education department|rescinded english learner support guidance|2025-08-20",
       "attacks": [
         "children",
-        "education"
+        "education",
+        "rule_of_law"
       ],
       "source_meta": {
         "headline": "This Week in Democracy – Week 31: Donald Trump Sends Kash Patel After His Enemies",
@@ -6248,8 +6291,8 @@
         "snapshot_url": null,
         "durable_keys": {}
       },
-      "_origin_file": "zeteo_events_2025-08-23_2025-09-05.json",
-      "_origin_index": 85
+      "_origin_file": "zeteo_events_2025-07-26_2025-08-29.json",
+      "_origin_index": 35
     },
     {
       "source_key": "democracydocket",
@@ -6658,16 +6701,17 @@
       "title": "Federal appeals court allows TPS terminations to proceed",
       "url": "https://zeteo.com/p/this-week-in-democracy-week-31-donald",
       "summary": "A federal appeals court ruled that the Trump administration can temporarily move forward with ending Temporary Protected Status for more than 60,000 immigrants from Nicaragua, Honduras, and Nepal, as a challenge to the terminations continues in court.",
-      "why_relevant": "The ruling allows termination of protected status for tens of thousands of immigrants while legal challenges proceed, creating uncertainty and potential deportations.",
+      "why_relevant": "The ruling allowing TPS terminations to proceed will result in the deportation of tens of thousands of people with legal status, undermining immigration protections and the rule of law.",
       "jurisdiction": "federal",
       "federal_nexus": "",
       "confidence": "high",
       "basis": "A federal appeals court ruled that the Trump administration can temporarily move forward with ending Temporary Protected Status for more than 60,000 immigrants",
       "actor": "Federal appeals court",
-      "action": "allowed tps terminations to proceed",
-      "act_key": "federal appeals court|allowed tps terminations to proceed|2025-08-20",
+      "action": "allowed tps terminations",
+      "act_key": "federal appeals court|allowed tps terminations|2025-08-20",
       "attacks": [
-        "immigrants_refugees"
+        "immigrants_refugees",
+        "rule_of_law"
       ],
       "source_meta": {
         "headline": "This Week in Democracy – Week 31: Donald Trump Sends Kash Patel After His Enemies",
@@ -6678,8 +6722,8 @@
         "snapshot_url": null,
         "durable_keys": {}
       },
-      "_origin_file": "zeteo_events_2025-08-23_2025-09-05.json",
-      "_origin_index": 91
+      "_origin_file": "zeteo_events_2025-07-26_2025-08-29.json",
+      "_origin_index": 41
     },
     {
       "source_key": "guardian",
@@ -6896,10 +6940,10 @@
       "reported_on": "2025-08-23",
       "dated_by": "occurred",
       "category": "Law Enforcement & Surveillance",
-      "title": "Kristi Noem urges ICE to purchase deportation aircraft fleet",
+      "title": "Kristi Noem urges ICE to purchase fleet of deportation aircraft",
       "url": "https://zeteo.com/p/this-week-in-democracy-week-31-donald",
       "summary": "NBC News reported that Noem is urging ICE to use some of its newly allocated funding from Trump's tax and spending bill to buy, own, and operate its own fleet of airplanes to deport immigrants, with former officials saying ICE-owned planes could help the agency double the number of deportations every month.",
-      "why_relevant": "Expanding ICE's capacity to double monthly deportations represents escalation of immigration enforcement and potential increase in due process violations.",
+      "why_relevant": "The plan to dramatically increase deportation capacity through ICE-owned aircraft represents an escalation of immigration enforcement and potential human rights violations.",
       "jurisdiction": "federal",
       "federal_nexus": "",
       "confidence": "high",
@@ -6919,8 +6963,8 @@
         "snapshot_url": null,
         "durable_keys": {}
       },
-      "_origin_file": "zeteo_events_2025-08-23_2025-09-05.json",
-      "_origin_index": 86
+      "_origin_file": "zeteo_events_2025-07-26_2025-08-29.json",
+      "_origin_index": 36
     },
     {
       "source_key": "democracydocket",
@@ -7108,17 +7152,17 @@
       "title": "Texas House passes gerrymandered congressional redistricting map",
       "url": "https://zeteo.com/p/this-week-in-democracy-week-31-donald",
       "summary": "The Texas House of Representatives passed the mid-decade congressional redistricting map, which could result in a net gain of as many as five House seats for Republicans in the 2026 midterm elections. The new map moved to the state Senate for approval. Trump lauded the move on Truth Social, saying that other states like Florida and Indiana are \"looking\" to pass similar gerrymandered maps. He also called for Republicans to end mail-in voting and \"go to PAPER BALLOTS\" before it is too late, claiming that the two moves could result in the party picking up 100 more seats in the House \"and the CROOKED game of politics is over.\"",
-      "why_relevant": "The passage of a mid-decade gerrymandered map, endorsed by Trump, undermines fair representation and democratic competition.",
+      "why_relevant": "The passage of a gerrymandered map that Trump explicitly endorsed and promoted demonstrates the use of redistricting to undermine democratic representation and fair elections.",
       "jurisdiction": "state",
-      "federal_nexus": "Trump publicly endorsed the map and called for similar gerrymandering nationwide, demonstrating federal involvement in state election manipulation.",
+      "federal_nexus": "Trump's public endorsement and promotion of the map demonstrates federal involvement in state electoral manipulation.",
       "confidence": "high",
       "basis": "The Texas House of Representatives passed the mid-decade congressional redistricting map, which could result in a net gain of as many as five House seats for Republicans",
-      "actor": "Texas House",
+      "actor": "Texas House of Representatives",
       "action": "passed gerrymandered redistricting map",
-      "act_key": "texas house|passed gerrymandered redistricting map|2025-08-20",
+      "act_key": "texas house representatives|passed gerrymandered redistricting map|2025-08-20",
       "attacks": [
         "rule_of_law",
-        "elections"
+        "separation_of_powers"
       ],
       "source_meta": {
         "headline": "This Week in Democracy – Week 31: Donald Trump Sends Kash Patel After His Enemies",
@@ -7129,8 +7173,8 @@
         "snapshot_url": null,
         "durable_keys": {}
       },
-      "_origin_file": "zeteo_events_2025-08-23_2025-09-05.json",
-      "_origin_index": 81
+      "_origin_file": "zeteo_events_2025-07-26_2025-08-29.json",
+      "_origin_index": 31
     },
     {
       "source_key": "noah",
@@ -7173,18 +7217,18 @@
       "title": "State Department fires press officer over Israel-Gaza policy language",
       "url": "https://zeteo.com/p/this-week-in-democracy-week-31-donald",
       "summary": "AP reported that the State Department fired its top press officer who drafted Trump administration talking points on US policy on Israel and Gaza after complaints from the US Embassy in Jerusalem. The press officer, Shahed Ghoreishi, wrote a draft response to a media request that initially included a line noting that the US doesn't support the forced relocations of Palestinians in Gaza, which was struck from the response by the US Embassy in Jerusalem. Ghoreishi also said he questioned a statement from the embassy that referred to the occupied West Bank as \"Judea and Samaria,\" the Biblical names for the region that is often used by Israelis, especially among the far right, to describe the West Bank.",
-      "why_relevant": "Firing a press officer for advocating accurate human rights language represents censorship of factual reporting and alignment with far-right Israeli terminology.",
+      "why_relevant": "The firing of a press officer for including accurate information about US policy on Palestinian displacement represents censorship and the suppression of inconvenient truths.",
       "jurisdiction": "federal",
       "federal_nexus": "",
       "confidence": "high",
-      "basis": "The State Department fired its top press officer who drafted Trump administration talking points on US policy on Israel and Gaza after complaints from the US Embassy in Jerusalem",
+      "basis": "State Department fired its top press officer who drafted Trump administration talking points on US policy on Israel and Gaza after complaints from the US Embassy in Jerusalem",
       "actor": "State Department",
-      "action": "fired press officer over policy language",
-      "act_key": "state department|fired press officer over policy language|2025-08-20",
+      "action": "fired press officer",
+      "act_key": "state department|fired press officer|2025-08-20",
       "attacks": [
         "truth",
-        "press",
-        "information"
+        "information",
+        "press"
       ],
       "source_meta": {
         "headline": "This Week in Democracy – Week 31: Donald Trump Sends Kash Patel After His Enemies",
@@ -7195,8 +7239,8 @@
         "snapshot_url": null,
         "durable_keys": {}
       },
-      "_origin_file": "zeteo_events_2025-08-23_2025-09-05.json",
-      "_origin_index": 88
+      "_origin_file": "zeteo_events_2025-07-26_2025-08-29.json",
+      "_origin_index": 38
     },
     {
       "source_key": "federalregister",
@@ -7240,8 +7284,8 @@
       "category": "Economic & Regulatory Power",
       "title": "DEA Notice of Application: Cayman Chemical Company Bulk Manufacturer Registration",
       "url": "https://www.federalregister.gov/documents/2025/11/26/2025-21183/bulk-manufacturer-of-controlled-substances-application-cayman-chemical-company",
-      "summary": "The Drug Enforcement Administration published notice that Cayman Chemical Company, located in Ann Arbor, Michigan, applied on August 20, 2025, to be registered as a bulk manufacturer of controlled substances. The application covers 288 Schedule I and Schedule II controlled substances, including synthetic cannabinoids, fentanyl analogs, cathinones, and opioids. The company states it will manufacture these substances for forensic purposes, analytical reference standards, and Active Pharmaceutical Ingredients for Phase 1 clinical trials. Registered bulk manufacturers and other applicants may submit comments or objections by January 26, 2026.",
-      "why_relevant": "DEA registration of bulk manufacturers of controlled substances is a core regulatory function affecting drug supply chains, public health oversight, and the lawful production of substances for research and pharmaceutical development.",
+      "summary": "The Drug Enforcement Administration published notice that Cayman Chemical Company, Ann Arbor, Michigan, applied on August 20, 2025, to register as a bulk manufacturer of 288 controlled substances across Schedules I and II, including synthetic cannabinoids, fentanyl analogs, cathinones, and opioids. The company states it will manufacture these substances for forensic purposes, analytical reference standards, and Phase 1 pharmaceutical trials. Registered bulk manufacturers and other applicants may submit comments or objections by January 26, 2026.",
+      "why_relevant": "DEA licensing of bulk controlled-substance manufacturers affects the legal supply chain for drugs used in research, forensics, and pharmaceutical development, and signals regulatory capacity to oversee production of high-risk synthetic opioids and novel psychoactive substances.",
       "jurisdiction": "federal",
       "federal_nexus": "",
       "confidence": "high",
@@ -7261,8 +7305,8 @@
           "federal_register_doc": "2025-21183"
         }
       },
-      "_origin_file": "federalregister_events_2025-11-22_2025-11-28.json",
-      "_origin_index": 9
+      "_origin_file": "federalregister_events_2025-09-06_2025-12-12.json",
+      "_origin_index": 17
     },
     {
       "source_key": "federalregister",
@@ -7273,8 +7317,8 @@
       "category": "Economic & Regulatory Power",
       "title": "EPA approves Texas State Implementation Plan for 2010 sulfur dioxide interstate transport requirements",
       "url": "https://www.federalregister.gov/documents/2025/08/28/2025-16467/air-plan-approval-texas-interstate-transport-requirements-for-the-2010-so2-naaqs",
-      "summary": "The Environmental Protection Agency finalized approval of Texas's State Implementation Plan demonstrating compliance with the Clean Air Act's \"good neighbor\" provision for the 2010 1-hour sulfur dioxide National Ambient Air Quality Standard. The rule confirms that Texas emissions will not significantly contribute to nonattainment or interfere with maintenance of the SO2 standard in other states. The approval becomes effective September 29, 2025, and amends 40 CFR Part 52 to incorporate the interstate transport provisions.",
-      "why_relevant": "This rule finalizes federal air-quality compliance standards affecting interstate pollution control and state regulatory authority under the Clean Air Act.",
+      "summary": "The Environmental Protection Agency issued a final rule approving Texas's State Implementation Plan submission demonstrating compliance with the Clean Air Act's \"good neighbor\" provision for the 2010 1-hour sulfur dioxide National Ambient Air Quality Standard. The approval confirms that Texas emissions will not significantly contribute to nonattainment or interfere with maintenance of the SO2 NAAQS in other states. The rule becomes effective September 29, 2025, and addresses interstate transport requirements under section 110(a)(2)(D)(i)(I) of the Clean Air Act.",
+      "why_relevant": "EPA approval of state air quality plans directly affects interstate pollution control, environmental protection standards, and the regulatory framework governing industrial emissions across state lines.",
       "jurisdiction": "federal",
       "federal_nexus": "",
       "confidence": "high",
@@ -7294,8 +7338,8 @@
           "federal_register_doc": "2025-16467"
         }
       },
-      "_origin_file": "federalregister_events_2025-08-23_2025-09-05.json",
-      "_origin_index": 55
+      "_origin_file": "federalregister_events_2025-07-26_2025-08-29.json",
+      "_origin_index": 106
     },
     {
       "source_key": "guardian",
@@ -7376,17 +7420,17 @@
       "reported_on": "2025-08-23",
       "dated_by": "occurred",
       "category": "Economic & Regulatory Power",
-      "title": "Law firms reach pro bono agreements with Commerce Department after Trump deals",
+      "title": "Law firms reach agreements with Trump to quash executive orders",
       "url": "https://zeteo.com/p/this-week-in-democracy-week-31-donald",
       "summary": "The New York Times reported that at least two prominent law firms that reached agreements with Trump to quash executive orders that targeted them have committed to doing pro bono legal work for the Commerce Department, including on trade deals.",
-      "why_relevant": "Law firms trading pro bono work for exemption from executive orders demonstrates quid pro quo corruption and weaponization of regulatory power.",
+      "why_relevant": "The quid pro quo arrangement in which law firms agree to provide pro bono work in exchange for Trump quashing executive orders targeting them represents a form of extortion and corruption.",
       "jurisdiction": "federal",
       "federal_nexus": "",
       "confidence": "high",
-      "basis": "At least two prominent law firms that reached agreements with Trump to quash executive orders that targeted them have committed to doing pro bono legal work for the Commerce Department",
-      "actor": "Law firms and Trump administration",
-      "action": "exchanged pro bono work for regulatory exemption",
-      "act_key": "law firms and trump administration|exchanged pro bono work for regulatory exemption|2025-08-20",
+      "basis": "at least two prominent law firms that reached agreements with Trump to quash executive orders that targeted them have committed to doing pro bono legal work for the Commerce Department",
+      "actor": "Trump",
+      "action": "exchanged executive order quashing for legal work",
+      "act_key": "trump|exchanged executive order quashing for legal work|2025-08-20",
       "attacks": [
         "emoluments",
         "rule_of_law"
@@ -7400,8 +7444,8 @@
         "snapshot_url": null,
         "durable_keys": {}
       },
-      "_origin_file": "zeteo_events_2025-08-23_2025-09-05.json",
-      "_origin_index": 83
+      "_origin_file": "zeteo_events_2025-07-26_2025-08-29.json",
+      "_origin_index": 33
     },
     {
       "source_key": "zeteo",
@@ -7413,7 +7457,7 @@
       "title": "Trump calls for Federal Reserve governor Lisa Cook to resign",
       "url": "https://zeteo.com/p/this-week-in-democracy-week-31-donald",
       "summary": "Trump called for the resignation of Lisa Cook, the first Black woman to serve as a governor of the Federal Reserve, after Federal Housing Finance Agency director Bill Pulte tweeted a criminal referral letter he sent to the Justice Department last week, accusing Cook of committing mortgage fraud. In response, Cook said she has \"no intention of being bullied to step down from my position because of some questions raised in a tweet,\" and added that she is \"gathering the accurate information to answer any legitimate questions and provide the facts.\"",
-      "why_relevant": "Trump's demand for a Federal Reserve governor's resignation based on unsubstantiated allegations represents interference with an independent agency and potential retaliation against a Black woman official.",
+      "why_relevant": "Trump's call for the resignation of a Federal Reserve governor based on unsubstantiated allegations represents an attempt to politicize the Federal Reserve and remove an independent official.",
       "jurisdiction": "federal",
       "federal_nexus": "",
       "confidence": "high",
@@ -7423,7 +7467,6 @@
       "act_key": "trump|called for fed governor resignation|2025-08-20",
       "attacks": [
         "rule_of_law",
-        "minorities",
         "separation_of_powers"
       ],
       "source_meta": {
@@ -7435,39 +7478,8 @@
         "snapshot_url": null,
         "durable_keys": {}
       },
-      "_origin_file": "zeteo_events_2025-08-23_2025-09-05.json",
-      "_origin_index": 82
-    },
-    {
-      "source_key": "zeteo",
-      "date": "2025-08-20",
-      "occurred_on": "2025-08-20",
-      "reported_on": "2025-08-23",
-      "dated_by": "occurred",
-      "category": "Appointments & Patronage",
-      "title": "Tulsi Gabbard announces plan to cut intelligence office staff in half",
-      "url": "https://zeteo.com/p/this-week-in-democracy-week-31-donald",
-      "summary": "Director of National Intelligence Tulsi Gabbard announced that she plans to cut her office's staff in half, marking the largest reform to the ODNI since it was created after 9/11. She also plans to scale back the Foreign Malign Influence Center, which is responsible for collecting and analyzing data on foreign efforts to undermine US democracy, with ODNI claiming the center was used by the Biden administration to \"justify the suppression of free speech and to censor political opposition.\"",
-      "why_relevant": "Cutting intelligence staff in half and dismantling the Foreign Malign Influence Center degrades US capacity to detect and counter foreign interference in elections.",
-      "jurisdiction": "federal",
-      "federal_nexus": "",
-      "confidence": "high",
-      "basis": "Director of National Intelligence Tulsi Gabbard announced that she plans to cut her office's staff in half",
-      "actor": "",
-      "action": "",
-      "act_key": "",
-      "attacks": [],
-      "source_meta": {
-        "headline": "This Week in Democracy – Week 31: Donald Trump Sends Kash Patel After His Enemies",
-        "published_on": "2025-08-23",
-        "byline": "Team Zeteo",
-        "outlet": "Zeteo",
-        "accessed_on": "2026-08-14T02:00:21Z",
-        "snapshot_url": null,
-        "durable_keys": {}
-      },
-      "_origin_file": "zeteo_events_2025-08-23_2025-09-05.json",
-      "_origin_index": 92
+      "_origin_file": "zeteo_events_2025-07-26_2025-08-29.json",
+      "_origin_index": 32
     },
     {
       "source_key": "federalregister",
@@ -7615,20 +7627,20 @@
       "reported_on": "2025-08-23",
       "dated_by": "occurred",
       "category": "International Relations",
-      "title": "Senate Democrats urge protection of Gaza journalists",
+      "title": "Senate Democrats urge protection of journalists in Gaza",
       "url": "https://zeteo.com/p/this-week-in-democracy-week-31-donald",
       "summary": "A group of 17 Senate Democrats sent a letter to Secretary of State Marco Rubio urging him to \"press the Israeli government to protect journalists in Gaza and allow international media to access the territory.\" They cited a recent Israeli targeted strike that killed six journalists, including Al Jazeera reporter Anas al-Sharif, writing, \"Absent a compelling explanation of the military objective for this attack, it appears Israel is publicly admitting to targeting and killing journalists who have shown the world the scale of suffering in Gaza, which would be a violation of international law.\"",
-      "why_relevant": "The killing of journalists covering Gaza represents a violation of international law and press freedom, requiring US diplomatic pressure.",
+      "why_relevant": "The killing of journalists covering Gaza represents an attack on press freedom and potential war crimes, and the Senate Democrats' letter represents an attempt to hold the administration accountable for failing to protect journalists.",
       "jurisdiction": "federal",
       "federal_nexus": "",
       "confidence": "high",
       "basis": "A group of 17 Senate Democrats sent a letter to Rubio urging him to 'press the Israeli government to protect journalists in Gaza",
       "actor": "Senate Democrats",
-      "action": "urged journalist protection in gaza",
-      "act_key": "senate democrats|urged journalist protection in gaza|2025-08-20",
+      "action": "urged journalist protection",
+      "act_key": "senate democrats|urged journalist protection|2025-08-20",
       "attacks": [
         "press",
-        "rule_of_law"
+        "peace"
       ],
       "source_meta": {
         "headline": "This Week in Democracy – Week 31: Donald Trump Sends Kash Patel After His Enemies",
@@ -7639,8 +7651,8 @@
         "snapshot_url": null,
         "durable_keys": {}
       },
-      "_origin_file": "zeteo_events_2025-08-23_2025-09-05.json",
-      "_origin_index": 90
+      "_origin_file": "zeteo_events_2025-07-26_2025-08-29.json",
+      "_origin_index": 40
     },
     {
       "source_key": "zeteo",
@@ -7652,7 +7664,7 @@
       "title": "Trump administration imposes sanctions on ICC judges and prosecutors",
       "url": "https://zeteo.com/p/this-week-in-democracy-week-31-donald",
       "summary": "The Trump administration imposed new sanctions against two ICC judges and two prosecutors, with Secretary of State Marco Rubio baselessly calling the court \"a national security threat\" and saying the officials were sanctioned in response to their efforts to \"investigate, arrest, detain, or prosecute nationals of the United States or Israel.\"",
-      "why_relevant": "Sanctioning ICC officials for investigating potential war crimes represents obstruction of international justice and protection of allies from accountability.",
+      "why_relevant": "The sanctions against ICC officials for investigating potential war crimes represent an attack on international justice and the rule of law, and an attempt to shield US and Israeli officials from accountability.",
       "jurisdiction": "federal",
       "federal_nexus": "",
       "confidence": "high",
@@ -7661,9 +7673,9 @@
       "action": "sanctioned icc officials",
       "act_key": "trump administration|sanctioned icc officials|2025-08-20",
       "attacks": [
-        "allies",
         "rule_of_law",
-        "international_law"
+        "international_relations",
+        "peace"
       ],
       "source_meta": {
         "headline": "This Week in Democracy – Week 31: Donald Trump Sends Kash Patel After His Enemies",
@@ -7674,8 +7686,8 @@
         "snapshot_url": null,
         "durable_keys": {}
       },
-      "_origin_file": "zeteo_events_2025-08-23_2025-09-05.json",
-      "_origin_index": 89
+      "_origin_file": "zeteo_events_2025-07-26_2025-08-29.json",
+      "_origin_index": 39
     },
     {
       "source_key": "hcr",
@@ -7789,14 +7801,14 @@
       "reported_on": "2025-08-23",
       "dated_by": "occurred",
       "category": "Civil–Military Relations & State Violence",
-      "title": "Army reassigns criminal investigators to Pete Hegseth security detail",
+      "title": "Army reassigns criminal investigators to Hegseth security detail",
       "url": "https://zeteo.com/p/this-week-in-democracy-week-31-donald",
       "summary": "The Washington Post reported that the Army's Criminal Investigation Division has had to reassign agents from criminal investigations to work on Defense Secretary Pete Hegseth's \"unusually large\" personal security requirements, with one official telling the Post, \"I've never seen this many security teams for one guy. Nobody has.\"",
-      "why_relevant": "Diverting military criminal investigators from their duties to provide excessive security for a cabinet official represents misuse of military resources and politicization of the armed forces.",
+      "why_relevant": "The diversion of military criminal investigators from their duties to provide excessive personal security for a cabinet official represents a misuse of military resources and undermines military readiness.",
       "jurisdiction": "federal",
       "federal_nexus": "",
       "confidence": "high",
-      "basis": "The Army's Criminal Investigation Division has had to reassign agents from criminal investigations to work on Defense Secretary Pete Hegseth's 'unusually large' personal security requirements",
+      "basis": "the Army's Criminal Investigation Division has had to reassign agents from criminal investigations to work on Defense Secretary Pete Hegseth's 'unusually large' personal security requirements",
       "actor": "Army",
       "action": "reassigned investigators to security detail",
       "act_key": "army|reassigned investigators to security detail|2025-08-20",
@@ -7813,8 +7825,8 @@
         "snapshot_url": null,
         "durable_keys": {}
       },
-      "_origin_file": "zeteo_events_2025-08-23_2025-09-05.json",
-      "_origin_index": 84
+      "_origin_file": "zeteo_events_2025-07-26_2025-08-29.json",
+      "_origin_index": 34
     },
     {
       "source_key": "zeteo",
@@ -7823,17 +7835,17 @@
       "reported_on": "2025-08-23",
       "dated_by": "occurred",
       "category": "Civil–Military Relations & State Violence",
-      "title": "Defense Department Judge Advocate General Corps reassigned to DC police takeover",
+      "title": "Defense Department Judge Advocate General Corps reassigned to prosecute civilian crimes",
       "url": "https://zeteo.com/p/this-week-in-democracy-week-31-donald",
       "summary": "NBC News reported that 20 members of the Defense Department's Judge Advocate General Corps are being reassigned to work as special assistant US attorneys to help prosecute individuals charged with civilian crimes as part of the Trump administration's takeover of the DC police force.",
-      "why_relevant": "Deploying military legal officers to prosecute civilian crimes represents militarization of domestic law enforcement and violation of separation between military and civilian authority.",
+      "why_relevant": "The use of military legal officers to prosecute civilian crimes represents a militarization of civilian law enforcement and a violation of the separation between military and civilian authority.",
       "jurisdiction": "federal",
       "federal_nexus": "",
       "confidence": "high",
       "basis": "20 members of the Defense Department's Judge Advocate General Corps are being reassigned to work as special assistant US attorneys to help prosecute individuals charged with civilian crimes",
       "actor": "Defense Department",
-      "action": "reassigned military lawyers to civilian prosecution",
-      "act_key": "defense department|reassigned military lawyers to civilian prosecution|2025-08-20",
+      "action": "reassigned jag officers to civilian prosecution",
+      "act_key": "defense department|reassigned jag officers to civilian prosecution|2025-08-20",
       "attacks": [
         "military",
         "separation_of_powers",
@@ -7848,8 +7860,8 @@
         "snapshot_url": null,
         "durable_keys": {}
       },
-      "_origin_file": "zeteo_events_2025-08-23_2025-09-05.json",
-      "_origin_index": 87
+      "_origin_file": "zeteo_events_2025-07-26_2025-08-29.json",
+      "_origin_index": 37
     },
     {
       "source_key": "federalregister",
@@ -7860,8 +7872,8 @@
       "category": "Executive Actions & Orders",
       "title": "Trump signed Executive Order 14338 establishing \"America by Design\" initiative and National Design Studio",
       "url": "https://www.federalregister.gov/documents/2025/08/26/2025-16396/improving-our-nation-through-better-design",
-      "summary": "President Donald J. Trump signed Executive Order 14338 on August 21, 2025, establishing a national \"America by Design\" initiative to improve the visual presentation and usability of federal digital and physical services. The order creates a National Design Studio within the White House Office of the Executive Office of the President, led by an Administrator reporting to the White House Chief of Staff, and establishes a new Chief Design Officer position. Agency heads must consult with the Chief Design Officer to implement improvements at their respective agencies, with initial results due by July 4, 2026. The temporary organization shall terminate three years from the order's date.",
-      "why_relevant": "The order directs a government-wide initiative to modernize federal digital and physical service delivery, affecting how Americans interact with government agencies and the allocation of resources across the executive branch.",
+      "summary": "President Trump signed Executive Order 14338 on August 21, 2025, establishing a national \"America by Design\" initiative to improve the visual presentation and usability of federal digital and physical services. The order creates a National Design Studio within the White House, establishes a Chief Design Officer position, and directs agency heads to consult with the Chief Design Officer to modernize government websites and physical sites by July 4, 2026, in compliance with the 21st Century Integrated Digital Experience Act.",
+      "why_relevant": "The order establishes new executive infrastructure and directs comprehensive redesign of federal service delivery interfaces, affecting how Americans interact with government agencies.",
       "jurisdiction": "federal",
       "federal_nexus": "",
       "confidence": "high",
@@ -7881,8 +7893,8 @@
           "federal_register_doc": "2025-16396"
         }
       },
-      "_origin_file": "federalregister_events_2025-08-23_2025-09-05.json",
-      "_origin_index": 107
+      "_origin_file": "federalregister_events_2025-07-26_2025-08-29.json",
+      "_origin_index": 275
     },
     {
       "source_key": "guardian",
@@ -8066,17 +8078,17 @@
       "source_key": "hcr",
       "date": "2025-08-21",
       "occurred_on": "2025-08-21",
-      "reported_on": "2025-08-21",
+      "reported_on": "2025-08-28",
       "dated_by": "occurred",
       "category": "Executive Actions & Orders",
       "title": "Office of Personnel Management director announced 300,000 federal workforce reduction by end of 2025",
       "url": "https://www.nytimes.com/2025/08/22/us/politics/trump-federal-workers.html",
-      "summary": "Scott Kupor, director of the Office of Personnel Management, told the New York Times on August 21 that by the end of December 2025 there will be 300,000 fewer federal workers than there were in January 2025. This represents the largest single-year reduction in civilian federal employment since World War II. The reduction was achieved through hiring freezes, reductions in force, and impoundment of funds, following decades of Republican rhetoric about federal bloat.",
-      "why_relevant": "A massive, unprecedented reduction in the federal workforce in a single year undermines the government's capacity to deliver services, enforce law, and maintain institutional knowledge, weakening democratic institutions and public administration.",
+      "summary": "On August 21, 2025, Office of Personnel Management director Scott Kupor told the New York Times that by the end of December 2025 there will be 300,000 fewer federal workers than there were in January 2025. This represents the largest single-year reduction in civilian federal employment since World War II. The reduction follows hiring freezes, reductions in force, and impoundment of funds implemented by the Trump administration to gut the civil service.",
+      "why_relevant": "The massive workforce reduction degrades the federal government's capacity to deliver services, enforce law, and maintain institutional continuity, weakening democratic institutions and public trust.",
       "jurisdiction": "federal",
       "federal_nexus": "",
       "confidence": "high",
-      "basis": "Office of Personnel Management director Scott Kupor said that by the end of December 2025 there will be 300,000 fewer federal workers than there were in January. Sullivan notes that this is the largest single-year reduction in civilian federal employment since World War II.",
+      "basis": "In an interview with Eileen Sullivan of the New York Times on Thursday, August 21, Office of Personnel Management director Scott Kupor said that by the end of December 2025 there will be 300,000 fewer federal workers than there were in January. Sullivan notes that this is the largest single-year reduction in civilian federal employment since World War II.",
       "actor": "Scott Kupor",
       "action": "announced federal workforce reduction",
       "act_key": "scott kupor|announced federal workforce reduction|2025-08-21",
@@ -8094,8 +8106,8 @@
         "snapshot_url": null,
         "durable_keys": {}
       },
-      "_origin_file": "hcr_events_2025-08-23_2025-09-05.json",
-      "_origin_index": 58
+      "_origin_file": "hcr_events_2025-07-26_2025-08-29.json",
+      "_origin_index": 10
     },
     {
       "source_key": "hcr",
@@ -8106,18 +8118,19 @@
       "category": "Executive Actions & Orders",
       "title": "Trump demanded release of convicted election officer Tina Peters",
       "url": "https://www.thehill.com/homenews/state-watch/4914462-colorado-county-clerk-sentenced-election-breach/",
-      "summary": "Trump demanded that Colorado officials release former election officer Tina Peters, whom a jury found guilty of four felonies for breaching election equipment to support Trump's false claims about 2020 election fraud. Trump posted on social media that Peters \"did nothing wrong\" and threatened \"harsh measures\" if she was not released, despite her conviction by jury.",
-      "why_relevant": "A sitting president demanding release of a convicted felon and threatening retaliation against state officials for enforcing law undermines rule of law and judicial independence.",
+      "summary": "Trump demanded that Colorado officials release former election officer Tina Peters, whom a jury found guilty of four felonies for breaching election equipment to support Trump's false claims about election fraud. Trump posted on social media that Peters \"did nothing wrong\" and threatened \"harsh measures\" if she was not released.",
+      "why_relevant": "The president's demand for release of a convicted felon and threats of federal intervention undermine rule of law and judicial independence.",
       "jurisdiction": "state",
-      "federal_nexus": "The President of the United States is demanding intervention in a state criminal conviction and threatening federal action against state officials.",
+      "federal_nexus": "Trump, as president, demanded intervention in a state criminal conviction and threatened federal action.",
       "confidence": "high",
-      "basis": "yesterday he demanded that Colorado officials release former election officer Tina Peters, whom a jury found guilty of four felonies for breaching election equipment to supporte Trump's lies about election fraud after that election. Trump posted on social media: 'She did nothing wrong, except catching the Democrats cheat in the Election [sic]…. If she is not released, I am going to take harsh measures!!!",
+      "basis": "yesterday he demanded that Colorado officials release former election officer Tina Peters...Trump posted on social media: 'She did nothing wrong...If she is not released, I am going to take harsh measures!!!",
       "actor": "Trump",
-      "action": "demanded prisoner release",
-      "act_key": "trump|demanded prisoner release|2025-08-21",
+      "action": "demanded release of convicted felon",
+      "act_key": "trump|demanded release of convicted felon|2025-08-21",
       "attacks": [
         "rule_of_law",
-        "peaceful_transfer"
+        "peaceful_transfer",
+        "presidency"
       ],
       "source_meta": {
         "headline": null,
@@ -8128,8 +8141,8 @@
         "snapshot_url": null,
         "durable_keys": {}
       },
-      "_origin_file": "hcr_events_2025-08-23_2025-09-05.json",
-      "_origin_index": 101
+      "_origin_file": "hcr_events_2025-07-26_2025-08-29.json",
+      "_origin_index": 57
     },
     {
       "source_key": "meidas",
@@ -8203,29 +8216,60 @@
       "reported_on": "2025-08-21",
       "dated_by": "occurred",
       "category": "Executive Actions & Orders",
-      "title": "Improving Our Nation Through Better Design",
-      "url": "https://www.whitehouse.gov/presidential-actions/2025/08/improving-our-nation-through-better-design/",
-      "summary": "The White House published this executive order on 2025-08-21 through its executive-orders channel.",
-      "why_relevant": "",
+      "title": "White House issued fact sheet promoting \"America by Design\" executive order on federal design standards",
+      "url": "https://www.whitehouse.gov/fact-sheets/2025/08/fact-sheet-president-donald-j-trump-improves-our-nation-through-better-design/",
+      "summary": "The White House published a fact sheet on August 21, 2025, promoting an executive order signed by President Trump establishing the \"America by Design\" initiative. The order creates a National Design Studio and Chief Design Officer role to improve the usability and aesthetics of federal digital and physical services. The fact sheet states the order directs agency heads to collaborate on design improvements, including website modernization and compliance with the 21st Century IDEA Act, and claims federal websites currently lack mobile-friendliness and usability standards.",
+      "why_relevant": "The order asserts executive authority to standardize and centralize design governance across federal agencies, establishing a new executive position (Chief Design Officer) and directing agency compliance with centralized design standards.",
       "jurisdiction": "federal",
-      "federal_nexus": "Official White House channel; documents the act of publication only.",
+      "federal_nexus": "",
       "confidence": "high",
-      "basis": "official_actor_record",
+      "basis": "Today, President Donald J. Trump signed an Executive Order to launch the 'America by Design' initiative, establishing the National Design Studio to enhance the usability and aesthetics of Federal digital and physical services.",
+      "actor": "The White House",
+      "action": "issued a fact sheet titled \"Fact Sheet: President Donald J. Trump Improves our Nation Through Better Design\"",
+      "act_key": "white house|issued a fact sheet titled fact sheet president donald j trump improves our nation through better design|2025-08-21",
+      "attacks": [],
+      "source_meta": {
+        "headline": "Fact Sheet: President Donald J. Trump Improves our Nation Through Better Design",
+        "published_on": "2025-08-21",
+        "byline": null,
+        "outlet": "The White House",
+        "accessed_on": "2026-08-26T23:59:17Z",
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
+      "_origin_index": 481
+    },
+    {
+      "source_key": "whitehouse",
+      "date": "2025-08-21",
+      "occurred_on": "2025-08-21",
+      "reported_on": "2025-08-21",
+      "dated_by": "occurred",
+      "category": "Executive Actions & Orders",
+      "title": "White House signed Executive Order 14338 establishing \"America by Design\" national initiative and National Design Studio",
+      "url": "https://www.whitehouse.gov/presidential-actions/2025/08/improving-our-nation-through-better-design/",
+      "summary": "The White House signed Executive Order 14338 on August 21, 2025, establishing a national initiative called \"America by Design\" to improve the visual presentation and usability of federal digital and physical services. The order creates a National Design Studio within the White House Office of the Executive Office of the President, establishes a new Chief Design Officer position, and directs agency heads to consult with the Chief Design Officer to implement design improvements at their respective agencies, with initial results due by July 4, 2026. The temporary organization shall terminate three years from the order's date.",
+      "why_relevant": "The order creates a new White House office and position with authority to direct agency-wide design and digital experience changes, centralizing control over federal service presentation and user interface standards across government.",
+      "jurisdiction": "federal",
+      "federal_nexus": "",
+      "confidence": "high",
+      "basis": "There is established a national initiative, America by Design, to improve comprehensively the visual presentation and usability of Federal services provided to the public in both digital and physical spaces.",
       "actor": "The White House",
       "action": "announced an executive order titled \"Improving Our Nation Through Better Design\"",
       "act_key": "white house|announced an executive order titled improving our nation through better design|2025-08-21",
       "attacks": [],
       "source_meta": {
-        "headline": null,
-        "published_on": null,
+        "headline": "Improving Our Nation Through Better Design",
+        "published_on": "2025-08-21",
         "byline": null,
-        "outlet": null,
-        "accessed_on": null,
+        "outlet": "The White House",
+        "accessed_on": "2026-08-27T00:53:34Z",
         "snapshot_url": null,
         "durable_keys": {}
       },
       "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
-      "_origin_index": 821
+      "_origin_index": 765
     },
     {
       "source_key": "guardian",
@@ -9095,6 +9139,37 @@
       "_origin_index": 74
     },
     {
+      "source_key": "justice",
+      "date": "2025-08-21",
+      "occurred_on": "2025-08-21",
+      "reported_on": "2025-09-30",
+      "dated_by": "occurred",
+      "category": "Law Enforcement & Surveillance",
+      "title": "Federal grand jury indicts two Denver companies and three executives for fraudulently selling Chinese forklifts to U.S. government as \"Made in America\" and evading tariffs",
+      "url": "https://www.justice.gov/opa/pr/two-companies-and-three-executives-indicted-fraudulently-selling-chinese-forklifts-us",
+      "summary": "A federal grand jury in Denver returned an indictment on August 21, 2025, charging Endless Sales Inc., Octane Forklifts Inc., and executives Brian Firkins, Jeffrey Blasdel, and J.R. Antczak with conspiracy to import forklifts from China, misrepresent their origin as U.S.-manufactured, and sell them to federal agencies. The defendants allegedly conspired to create fraudulent invoices undervaluing imported forklifts to evade over $1 million in tariffs, duties, and fees. Firkins, Blasdel, and Antczak face additional wire fraud charges; Blasdel also faces charges of making false statements to the government.",
+      "why_relevant": "The indictment represents routine federal prosecution of alleged procurement fraud and tariff evasion; it does not bear on the independence of prosecution, direction of legal power toward political ends, or equal application of law across groups.",
+      "jurisdiction": "federal",
+      "federal_nexus": "",
+      "confidence": "high",
+      "basis": "A federal grand jury in Denver returned an indictment on August 21, 2025, charging two Denver-area companies and the companies' top executives for defrauding the federal government on sales of forklifts and conspiring to avoid paying proper tariffs.",
+      "actor": "The Department of Justice",
+      "action": "announced \"Two Companies and Three Executives Indicted for Fraudulently Selling Chinese Forklifts to U.S. Government as “Made in America” and Evading Tariffs\"",
+      "act_key": "department|announced two companies and three executives indicted for fraudulently selling chinese forklifts to u s government as made in america and evading tariffs|2025-08-21",
+      "attacks": [],
+      "source_meta": {
+        "headline": "Two Companies and Three Executives Indicted for Fraudulently Selling Chinese Forklifts to U.S. Government as “Made in America” and Evading Tariffs",
+        "published_on": "2025-09-30",
+        "byline": null,
+        "outlet": "justice.gov",
+        "accessed_on": "2026-08-27T04:58:13Z",
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "justice_events_2025-01-20_2026-08-14.json",
+      "_origin_index": 198
+    },
+    {
       "source_key": "guardian",
       "date": "2025-08-21",
       "occurred_on": "2025-08-21",
@@ -9410,91 +9485,29 @@
       "reported_on": "2025-08-21",
       "dated_by": "occurred",
       "category": "Information & Media Control",
-      "title": "Across the Country, Americans Will Pay Less in Taxes Thanks to President Trump’s Big Beautiful Bill",
-      "url": "https://www.whitehouse.gov/releases/2025/08/across-the-country-americans-will-pay-less-in-taxes-thanks-to-president-trumps-big-beautiful-bill/",
-      "summary": "The White House published this release on 2025-08-21 through its releases channel.",
-      "why_relevant": "",
-      "jurisdiction": "federal",
-      "federal_nexus": "Official White House channel; documents the act of publication only.",
-      "confidence": "high",
-      "basis": "official_actor_record",
-      "actor": "The White House",
-      "action": "published a release titled \"Across the Country, Americans Will Pay Less in Taxes Thanks to President Trump’s Big Beautiful Bill\"",
-      "act_key": "white house|published a release titled across the country americans will pay less in taxes thanks to president trump s big beautiful bill|2025-08-21",
-      "attacks": [],
-      "source_meta": {
-        "headline": null,
-        "published_on": null,
-        "byline": null,
-        "outlet": null,
-        "accessed_on": null,
-        "snapshot_url": null,
-        "durable_keys": {}
-      },
-      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
-      "_origin_index": 282
-    },
-    {
-      "source_key": "whitehouse",
-      "date": "2025-08-21",
-      "occurred_on": "2025-08-21",
-      "reported_on": "2025-08-21",
-      "dated_by": "occurred",
-      "category": "Information & Media Control",
-      "title": "Fact Sheet: President Donald J. Trump Improves our Nation Through Better Design",
-      "url": "https://www.whitehouse.gov/fact-sheets/2025/08/fact-sheet-president-donald-j-trump-improves-our-nation-through-better-design/",
-      "summary": "The White House published this fact sheet on 2025-08-21 through its fact-sheets channel.",
-      "why_relevant": "",
-      "jurisdiction": "federal",
-      "federal_nexus": "Official White House channel; documents the act of publication only.",
-      "confidence": "high",
-      "basis": "official_actor_record",
-      "actor": "The White House",
-      "action": "issued a fact sheet titled \"Fact Sheet: President Donald J. Trump Improves our Nation Through Better Design\"",
-      "act_key": "white house|issued a fact sheet titled fact sheet president donald j trump improves our nation through better design|2025-08-21",
-      "attacks": [],
-      "source_meta": {
-        "headline": null,
-        "published_on": null,
-        "byline": null,
-        "outlet": null,
-        "accessed_on": null,
-        "snapshot_url": null,
-        "durable_keys": {}
-      },
-      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
-      "_origin_index": 537
-    },
-    {
-      "source_key": "whitehouse",
-      "date": "2025-08-21",
-      "occurred_on": "2025-08-21",
-      "reported_on": "2025-08-21",
-      "dated_by": "occurred",
-      "category": "Information & Media Control",
-      "title": "From Safer Streets to Investment Boom, President Trump Delivers Results",
+      "title": "White House issues fact sheet claiming crime reductions in D.C. and investment announcements",
       "url": "https://www.whitehouse.gov/releases/2025/08/from-safer-streets-to-investment-boom-president-trump-delivers-results/",
-      "summary": "The White House published this release on 2025-08-21 through its releases channel.",
-      "why_relevant": "",
+      "summary": "The White House published a fact sheet titled \"From Safer Streets to Investment Boom, President Trump Delivers Results\" on August 21, 2025. The document claims that D.C. has achieved a seven-day period without homicides, reports reductions in carjackings (83%), robberies (46%), car thefts (21%), and overall violent crime (22%). It states that 550 arrests were made in one week and that dozens of homeless encampments were cleared. The fact sheet also announces Johnson & Johnson's $2 billion investment in a North Carolina manufacturing facility, attributed to the \"One Big Beautiful Bill Act.\"",
+      "why_relevant": "The document is a promotional fact sheet making specific quantitative claims about crime reduction and economic investment without providing independent verification, methodology, or temporal context—a form of executive self-promotion that shapes public perception of administrative performance.",
       "jurisdiction": "federal",
-      "federal_nexus": "Official White House channel; documents the act of publication only.",
+      "federal_nexus": "",
       "confidence": "high",
-      "basis": "official_actor_record",
+      "basis": "For the first time in a long time, D.C. has gone seven days without a homicide\" and \"Carjackings are down 83%. Robberies are down 46%.",
       "actor": "The White House",
       "action": "published a release titled \"From Safer Streets to Investment Boom, President Trump Delivers Results\"",
       "act_key": "white house|published a release titled from safer streets to investment boom president trump delivers results|2025-08-21",
       "attacks": [],
       "source_meta": {
-        "headline": null,
-        "published_on": null,
+        "headline": "From Safer Streets to Investment Boom, President Trump Delivers Results",
+        "published_on": "2025-08-21",
         "byline": null,
-        "outlet": null,
-        "accessed_on": null,
+        "outlet": "The White House",
+        "accessed_on": "2026-08-26T23:12:01Z",
         "snapshot_url": null,
         "durable_keys": {}
       },
       "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
-      "_origin_index": 283
+      "_origin_index": 229
     },
     {
       "source_key": "whitehouse",
@@ -9503,29 +9516,34 @@
       "reported_on": "2025-08-21",
       "dated_by": "occurred",
       "category": "Information & Media Control",
-      "title": "President Trump Is Right About the Smithsonian",
+      "title": "White House issues release criticizing Smithsonian Institution exhibitions and programming",
       "url": "https://www.whitehouse.gov/releases/2025/08/president-trump-is-right-about-the-smithsonian/",
-      "summary": "The White House published this release on 2025-08-21 through its releases channel.",
-      "why_relevant": "",
+      "summary": "The White House published a release titled \"President Trump Is Right About the Smithsonian\" cataloging and criticizing specific exhibitions, displays, and programming across multiple Smithsonian museums, including the National Museum of African American History and Culture, National Portrait Gallery, American History Museum, National Museum of African Art, National Museum of the American Latino, and Museum of American Art. The release characterizes these exhibitions as promoting \"woke\" ideology, critical race theory, and progressive political messaging. No direct executive action or policy directive is stated in the document itself.",
+      "why_relevant": "The release signals executive intent to scrutinize and potentially reshape the curatorial and educational content of federal cultural institutions, raising questions about government control over historical narrative and institutional independence.",
       "jurisdiction": "federal",
-      "federal_nexus": "Official White House channel; documents the act of publication only.",
+      "federal_nexus": "",
       "confidence": "high",
-      "basis": "official_actor_record",
+      "basis": "The National Museum of African American History and Culture debuted a series to educate people on 'a society that privileges white people and whiteness'… The campaign featured content from hardcore woke activist Ibram X. Kendi.",
       "actor": "The White House",
       "action": "published a release titled \"President Trump Is Right About the Smithsonian\"",
       "act_key": "white house|published a release titled president trump is right about the smithsonian|2025-08-21",
-      "attacks": [],
+      "attacks": [
+        "culture_art",
+        "public_memory",
+        "truth",
+        "education"
+      ],
       "source_meta": {
-        "headline": null,
-        "published_on": null,
+        "headline": "President Trump Is Right About the Smithsonian",
+        "published_on": "2025-08-21",
         "byline": null,
-        "outlet": null,
-        "accessed_on": null,
+        "outlet": "The White House",
+        "accessed_on": "2026-08-26T23:12:11Z",
         "snapshot_url": null,
         "durable_keys": {}
       },
       "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
-      "_origin_index": 284
+      "_origin_index": 230
     },
     {
       "source_key": "federalregister",
@@ -10025,6 +10043,37 @@
       "_origin_index": 90
     },
     {
+      "source_key": "whitehouse",
+      "date": "2025-08-21",
+      "occurred_on": "2025-08-21",
+      "reported_on": "2025-08-21",
+      "dated_by": "occurred",
+      "category": "Economic & Regulatory Power",
+      "title": "White House issued fact sheet promoting tax cuts from \"One Big Beautiful Bill\"",
+      "url": "https://www.whitehouse.gov/releases/2025/08/across-the-country-americans-will-pay-less-in-taxes-thanks-to-president-trumps-big-beautiful-bill/",
+      "summary": "The White House published a fact sheet on August 21, 2025, compiling state-by-state and county-by-county tax savings projections from the Tax Foundation related to the \"One Big Beautiful Bill Act,\" signed into law on July 4, 2025. The document aggregates media reports claiming average tax cuts ranging from $2,311 to $14,315 depending on location, and cites Council of Economic Advisors projections of job creation and wage increases. The fact sheet does not itself announce a new executive action but promotes an earlier legislative enactment.",
+      "why_relevant": "The document frames and publicizes the administration's signature tax legislation, asserting broad economic benefits; the underlying act (the \"One Big Beautiful Bill\") represents a major exercise of executive and legislative power over federal revenue and economic structure.",
+      "jurisdiction": "federal",
+      "federal_nexus": "",
+      "confidence": "high",
+      "basis": "Americans across the country will feel the benefits of President Trump's One Big Beautiful Bill this tax season, with the average taxpayer saving more and paying less.",
+      "actor": "The White House",
+      "action": "published a release titled \"Across the Country, Americans Will Pay Less in Taxes Thanks to President Trump’s Big Beautiful Bill\"",
+      "act_key": "white house|published a release titled across the country americans will pay less in taxes thanks to president trump s big beautiful bill|2025-08-21",
+      "attacks": [],
+      "source_meta": {
+        "headline": "Across the Country, Americans Will Pay Less in Taxes Thanks to President Trump’s Big Beautiful Bill",
+        "published_on": "2025-08-21",
+        "byline": null,
+        "outlet": "The White House",
+        "accessed_on": "2026-08-26T23:11:49Z",
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
+      "_origin_index": 228
+    },
+    {
       "source_key": "meidas",
       "date": "2025-08-21",
       "occurred_on": "",
@@ -10440,8 +10489,8 @@
         "snapshot_url": null,
         "durable_keys": {}
       },
-      "_origin_file": "guardian_events_2025-08-23_2025-09-05.json",
-      "_origin_index": 168
+      "_origin_file": "guardian_events_2025-07-26_2025-08-29.json",
+      "_origin_index": 74
     },
     {
       "source_key": "guardian",
@@ -10551,24 +10600,24 @@
       "source_key": "hcr",
       "date": "2025-08-22",
       "occurred_on": "2025-08-22",
-      "reported_on": "2025-09-09",
+      "reported_on": "2025-08-23",
       "dated_by": "occurred",
       "category": "Executive Actions & Orders",
-      "title": "Trump declares nine national emergencies and one crime emergency in first month",
-      "url": "https://www.nytimes.com/interactive/2025/08/22/us/politics/trump-emergency-immigration-tariffs-crime.html",
-      "summary": "According to New York Times reporting on August 22, Trump declared nine national emergencies and one \"crime emergency\" in Washington, D.C. in his first month back in office. Experts say no such emergencies exist. Since 1981, presidents have declared on average about seven national emergencies per four-year term. Under normal constitutional provisions, Trump's actions would have required congressional approval or regulatory review, but instead he enacted sweeping immigration measures, deregulated energy, launched a tariff war, and deployed troops in U.S. cities unilaterally.",
-      "why_relevant": "Declaring multiple non-existent emergencies to bypass Congress and constitutional review processes directly attacks the separation of powers and rule of law.",
+      "title": "Trump threatened federal takeover of Chicago",
+      "url": "https://www.reuters.com/world/us/trump-threatens-federal-intervention-chicago-government-takeover-dc-2025-08-22/",
+      "summary": "Trump warned that he would take over Chicago \"with the federal government,\" calling the city a \"mess.\" He stated that \"African American ladies, beautiful ladies, are saying, 'Please, President Trump, come to Chicago, please.'\" The threat followed similar rhetoric about controlling Washington, D.C., and represents an escalation of threats to deploy federal forces in major cities.",
+      "why_relevant": "Threats to take over a major city with federal forces undermine federalism, local governance, and constitutional separation of powers.",
       "jurisdiction": "federal",
       "federal_nexus": "",
       "confidence": "high",
-      "basis": "Since he took office, Trump has declared nine national emergencies and one 'crime emergency' in Washington, D.C. The journalists report that since 1981, presidents have declared on average about seven national emergencies per four-year term. Trump declared that many in his first month back in office, although experts say no such emergencies exist.",
+      "basis": "today he warned that he would take over the city 'with the federal government.' Today, in the Oval Office, Trump told reporters that his administration would invade Chicago.",
       "actor": "Trump",
-      "action": "declared nine national emergencies",
-      "act_key": "trump|declared nine national emergencies|2025-08-22",
+      "action": "threatened federal takeover of city",
+      "act_key": "trump|threatened federal takeover of city|2025-08-22",
       "attacks": [
-        "constitution",
         "separation_of_powers",
-        "rule_of_law"
+        "union",
+        "peaceful_transfer"
       ],
       "source_meta": {
         "headline": null,
@@ -10579,8 +10628,8 @@
         "snapshot_url": null,
         "durable_keys": {}
       },
-      "_origin_file": "hcr_events_2025-09-06_2025-09-12.json",
-      "_origin_index": 25
+      "_origin_file": "hcr_events_2025-07-26_2025-08-29.json",
+      "_origin_index": 59
     },
     {
       "source_key": "meidas",
@@ -10692,19 +10741,19 @@
       "category": "Judicial Developments",
       "title": "Federal judge blocks Trump administration from defunding 34 sanctuary cities and counties",
       "url": "https://www.theguardian.com/us-news/2025/aug/23/sanctuary-cities-trump-administration-funding",
-      "summary": "US District Judge William Orrick issued an order on Friday blocking the Trump administration from cutting federal funding to 34 \"sanctuary cities\" and counties that limit cooperation with Immigration and Customs Enforcement. The ruling expands a previous April decision finding such funding freezes unconstitutional. Cities including Los Angeles, Chicago, Boston, Baltimore, Denver, and Albuquerque are now protected from defunding. The administration had signed executive orders in January and February threatening to withhold federal funds from Democratic-led cities refusing to cooperate with immigration enforcement.",
+      "summary": "US District Judge William Orrick issued an order on Friday blocking the Trump administration from cutting federal funding to 34 \"sanctuary cities\" and counties that limit cooperation with Immigration and Customs Enforcement. The ruling expands a previous April decision finding the administration's funding freeze unconstitutional. Cities including Los Angeles, Chicago, Boston, Baltimore, Denver, and Albuquerque are now protected from defunding. The administration had signed executive orders in January and February threatening to withhold funds from Democratic-led cities refusing to cooperate with federal immigration enforcement.",
       "why_relevant": "The ruling reasserts judicial authority to block executive overreach and protects local autonomy and federal funding rights against coercive defunding tactics tied to immigration policy disagreements.",
       "jurisdiction": "federal",
       "federal_nexus": "",
       "confidence": "high",
       "basis": "A federal judge has blocked the Trump administration from cutting off federal funding to 34 'sanctuary cities' and counties that limit cooperation with federal immigration law enforcement.",
       "actor": "Judge William Orrick",
-      "action": "blocked funding freeze order",
-      "act_key": "william orrick|blocked funding freeze order|2025-08-22",
+      "action": "blocked funding defunding order",
+      "act_key": "william orrick|blocked funding defunding order|2025-08-22",
       "attacks": [
         "separation_of_powers",
         "rule_of_law",
-        "union"
+        "immigrants_refugees"
       ],
       "source_meta": {
         "headline": "Judge blocks White House from defunding 34 municipalities over ‘sanctuary’ policies",
@@ -10715,8 +10764,8 @@
         "snapshot_url": null,
         "durable_keys": {}
       },
-      "_origin_file": "guardian_events_2025-08-23_2025-09-05.json",
-      "_origin_index": 169
+      "_origin_file": "guardian_events_2025-07-26_2025-08-29.json",
+      "_origin_index": 75
     },
     {
       "source_key": "guardian",
@@ -11172,19 +11221,19 @@
       "category": "Law Enforcement & Surveillance",
       "title": "FBI agents raided John Bolton's home and office",
       "url": "https://www.washingtonpost.com/national-security/2025/08/22/bolton-home-fbi-search-trump/",
-      "summary": "FBI agents conducted an early morning search of former National Security Advisor John Bolton's residence and office, investigating whether he illegally retained or leaked classified information. Bolton, a prominent Trump critic who recently stated on CNN that Trump \"achieved very little\" in meetings with Putin, has been a persistent adversary since leaving Trump's first administration. The raid occurred without prior arrangement with Bolton's lawyers, departing from standard procedure for document investigations and signaling potential retaliation against Trump's perceived enemies.",
-      "why_relevant": "The raid demonstrates use of federal law enforcement to target a prominent political critic, raising concerns about weaponization of investigative power and retaliation against dissent.",
+      "summary": "FBI agents conducted an early morning search of the home and office of Trump's former national security advisor John Bolton, investigating whether he illegally retained or leaked classified information. Bolton, a prominent Trump critic, had recently criticized Trump's meeting with Putin on CNN. The raid occurred without prior arrangement with Bolton's lawyers, departing from standard procedure for classified document investigations. Officials characterized it as part of a classified information probe.",
+      "why_relevant": "The raid on a prominent Trump critic without standard legal procedure signals potential weaponization of federal law enforcement against political opponents, undermining rule of law and equal treatment.",
       "jurisdiction": "federal",
       "federal_nexus": "",
       "confidence": "high",
-      "basis": "FBI agents searched the home and office of Trump's former national security advisor John Bolton, who has been a fierce critic of Trump since leaving his first administration.",
+      "basis": "FBI agents searched the home and office of Trump's former national security advisor John Bolton...agents stormed his house and office in an early morning raid.",
       "actor": "FBI",
       "action": "raided residence and office",
       "act_key": "fbi|raided residence and office|2025-08-22",
       "attacks": [
         "rule_of_law",
         "justice_dept",
-        "truth"
+        "presidency"
       ],
       "source_meta": {
         "headline": null,
@@ -11195,8 +11244,8 @@
         "snapshot_url": null,
         "durable_keys": {}
       },
-      "_origin_file": "hcr_events_2025-08-23_2025-09-05.json",
-      "_origin_index": 95
+      "_origin_file": "hcr_events_2025-07-26_2025-08-29.json",
+      "_origin_index": 50
     },
     {
       "source_key": "meidas",
@@ -11522,37 +11571,6 @@
       "_origin_index": 79
     },
     {
-      "source_key": "whitehouse",
-      "date": "2025-08-22",
-      "occurred_on": "2025-08-22",
-      "reported_on": "2025-08-22",
-      "dated_by": "occurred",
-      "category": "Information & Media Control",
-      "title": "ICYMI: Tariffs Will Reduce Deficit by $4 Trillion",
-      "url": "https://www.whitehouse.gov/releases/2025/08/icymi-tariffs-will-reduce-deficit-by-4-trillion/",
-      "summary": "The White House published this release on 2025-08-22 through its releases channel.",
-      "why_relevant": "",
-      "jurisdiction": "federal",
-      "federal_nexus": "Official White House channel; documents the act of publication only.",
-      "confidence": "high",
-      "basis": "official_actor_record",
-      "actor": "The White House",
-      "action": "published a release titled \"ICYMI: Tariffs Will Reduce Deficit by $4 Trillion\"",
-      "act_key": "white house|published a release titled icymi tariffs will reduce deficit by 4 trillion|2025-08-22",
-      "attacks": [],
-      "source_meta": {
-        "headline": null,
-        "published_on": null,
-        "byline": null,
-        "outlet": null,
-        "accessed_on": null,
-        "snapshot_url": null,
-        "durable_keys": {}
-      },
-      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
-      "_origin_index": 281
-    },
-    {
       "source_key": "federalregister",
       "date": "2025-08-22",
       "occurred_on": "2025-08-22",
@@ -11693,8 +11711,8 @@
       "category": "Economic & Regulatory Power",
       "title": "EPA issues decisions on 175 small refinery exemption petitions under Renewable Fuel Standard program",
       "url": "https://www.federalregister.gov/documents/2025/08/27/2025-16390/notice-of-august-2025-decisions-on-petitions-for-small-refinery-exemptions-under-the-renewable-fuel",
-      "summary": "The Environmental Protection Agency announced final decisions on 175 small refinery exemption (SRE) petitions from 38 refineries for compliance years 2016–2024 under the Renewable Fuel Standard program. EPA granted full exemptions to 63 petitions, partial exemptions to 77 petitions, denied 28 petitions, and determined 7 ineligible. The decisions were based on EPA's interpretation of Clean Air Act section 211(o)(9), consultation with the Department of Energy, and application of a DOE matrix as a reasonable proxy for determining disproportionate economic hardship. EPA also articulated implementation procedures for returning previously retired renewable identification numbers (RINs) when exemptions are granted.",
-      "why_relevant": "EPA's interpretation of statutory authority to grant partial exemptions and its framework for adjudicating refinery petitions establishes nationwide policy affecting the Renewable Fuel Standard program's implementation and the renewable fuels market.",
+      "summary": "The Environmental Protection Agency announced final decisions on 175 small refinery exemption (SRE) petitions from 38 refineries for compliance years 2016–2024 under the Renewable Fuel Standard program. EPA granted full exemptions to 63 petitions, partial exemptions to 77 petitions, denied 28 petitions, and determined 7 ineligible. The agency based its adjudications on statutory interpretation of Clean Air Act section 211(o)(9), deference to Department of Energy economic analysis, and a determination that only retired RINs may be returned when exemptions are granted. EPA found its actions have nationwide scope or effect, placing judicial review in the D.C. Circuit.",
+      "why_relevant": "EPA's interpretation of statutory authority to grant partial exemptions and its framework for adjudicating refinery petitions establishes binding precedent affecting the renewable fuel market, RIN pricing, and refinery compliance obligations nationwide.",
       "jurisdiction": "federal",
       "federal_nexus": "",
       "confidence": "high",
@@ -11714,8 +11732,8 @@
           "federal_register_doc": "2025-16390"
         }
       },
-      "_origin_file": "federalregister_events_2025-08-23_2025-09-05.json",
-      "_origin_index": 57
+      "_origin_file": "federalregister_events_2025-07-26_2025-08-29.json",
+      "_origin_index": 108
     },
     {
       "source_key": "federalregister",
@@ -12279,41 +12297,6 @@
       "_origin_index": 93
     },
     {
-      "source_key": "hcr",
-      "date": "2025-08-22",
-      "occurred_on": "2025-08-22",
-      "reported_on": "2025-08-23",
-      "dated_by": "occurred",
-      "category": "Economic & Regulatory Power",
-      "title": "Trump announced government stake in Intel",
-      "url": "https://www.cnn.com/2025/08/22/tech/trump-intel-10-percent-stake",
-      "summary": "Trump announced that the federal government has taken a 10% stake in Intel, which manufactures semiconductors and chips. Trump stated he intends to take similar stakes in other companies, representing direct government ownership and control of private corporations.",
-      "why_relevant": "Government acquisition of equity stakes in private corporations represents state control of the economy and potential use of corporate assets for political purposes.",
-      "jurisdiction": "federal",
-      "federal_nexus": "",
-      "confidence": "high",
-      "basis": "Trump boasted that the government has taken a 10% stake in Intel, which builds semiconductors and chips. Trump says he intends to take similar stakes in other companies.",
-      "actor": "Trump",
-      "action": "announced government equity stake",
-      "act_key": "trump|announced government equity stake|2025-08-22",
-      "attacks": [
-        "emoluments",
-        "economy",
-        "rule_of_law"
-      ],
-      "source_meta": {
-        "headline": null,
-        "published_on": null,
-        "byline": null,
-        "outlet": null,
-        "accessed_on": null,
-        "snapshot_url": null,
-        "durable_keys": {}
-      },
-      "_origin_file": "hcr_events_2025-08-23_2025-09-05.json",
-      "_origin_index": 104
-    },
-    {
       "source_key": "meidas",
       "date": "2025-08-22",
       "occurred_on": "",
@@ -12383,6 +12366,37 @@
       "_origin_index": 81
     },
     {
+      "source_key": "whitehouse",
+      "date": "2025-08-22",
+      "occurred_on": "",
+      "reported_on": "2025-08-22",
+      "dated_by": "reported",
+      "category": "Economic & Regulatory Power",
+      "title": "White House issues fact sheet claiming tariffs will reduce deficit by $4 trillion",
+      "url": "https://www.whitehouse.gov/releases/2025/08/icymi-tariffs-will-reduce-deficit-by-4-trillion/",
+      "summary": "The White House published a fact sheet on August 22, 2025, asserting that President Trump's tariff agenda will reduce total deficits by $4 trillion over the next decade. The document cites a Congressional Budget Office analysis stating that if tariffs are maintained, primary deficits would fall by $3.3 trillion and interest spending would decrease by $700 billion. The fact sheet does not present original analysis but republishes reporting from The Washington Examiner.",
+      "why_relevant": "The issuance frames tariff policy as deficit-reducing, a claim material to public understanding of fiscal trade-offs and the administration's economic authority.",
+      "jurisdiction": "federal",
+      "federal_nexus": "",
+      "confidence": "high",
+      "basis": "President Donald J. Trump's tariffs will reduce total deficits by $4 trillion over the next decade, according to a new analysis from the Congressional Budget Office.",
+      "actor": "The White House",
+      "action": "published a release titled \"ICYMI: Tariffs Will Reduce Deficit by $4 Trillion\"",
+      "act_key": "white house|published a release titled icymi tariffs will reduce deficit by 4 trillion|2025-08-22",
+      "attacks": [],
+      "source_meta": {
+        "headline": "ICYMI: Tariffs Will Reduce Deficit by $4 Trillion",
+        "published_on": "2025-08-22",
+        "byline": null,
+        "outlet": "The White House",
+        "accessed_on": "2026-08-26T23:11:40Z",
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
+      "_origin_index": 227
+    },
+    {
       "source_key": "guardian",
       "date": "2025-08-22",
       "occurred_on": "",
@@ -12431,12 +12445,12 @@
       "category": "Appointments & Patronage",
       "title": "Secretary Hegseth fired Defense Intelligence Agency director",
       "url": "https://www.washingtonpost.com/national-security/2025/08/22/defense-intelligence-agency-kruse-fired-hegseth/",
-      "summary": "Secretary of Defense Pete Hegseth fired U.S. Air Force Lt. General Jeffrey Kruse, director of the Defense Intelligence Agency. The DIA provides intelligence to the Joint Chiefs of Staff and to U.S. military personnel in the field. The firing is part of the administration's broader effort to remove intelligence officials who investigated Russian interference in the 2016 election.",
-      "why_relevant": "Removal of a senior intelligence official responsible for military intelligence operations undermines institutional independence and suggests politicization of military intelligence.",
+      "summary": "Secretary of Defense Pete Hegseth fired U.S. Air Force Lt. General Jeffrey Kruse, director of the Defense Intelligence Agency. The Defense Intelligence Agency provides intelligence to the Joint Chiefs of Staff and to U.S. military personnel in the field. The firing represents removal of a senior intelligence official.",
+      "why_relevant": "Removal of a senior military intelligence official undermines the independence of the intelligence community and military chain of command.",
       "jurisdiction": "federal",
       "federal_nexus": "",
       "confidence": "high",
-      "basis": "Today Hegseth fired the director of the Defense Intelligence Agency, U.S. Air Force Lt. General Jeffrey Kruse. The Defense Intelligence Agency provides intelligence to the Joint Chiefs of Staff and to U.S. military personnel in the field.",
+      "basis": "Today Hegseth fired the director of the Defense Intelligence Agency, U.S. Air Force Lt. General Jeffrey Kruse.",
       "actor": "Pete Hegseth",
       "action": "fired intelligence director",
       "act_key": "pete hegseth|fired intelligence director|2025-08-22",
@@ -12453,8 +12467,8 @@
         "snapshot_url": null,
         "durable_keys": {}
       },
-      "_origin_file": "hcr_events_2025-08-23_2025-09-05.json",
-      "_origin_index": 100
+      "_origin_file": "hcr_events_2025-07-26_2025-08-29.json",
+      "_origin_index": 56
     },
     {
       "source_key": "meidas",
@@ -12665,21 +12679,21 @@
       "reported_on": "2025-08-23",
       "dated_by": "occurred",
       "category": "International Relations",
-      "title": "Trump displayed photograph of Putin and expressed sympathy for him",
+      "title": "Trump displayed photograph of Putin and expressed sadness about his absence",
       "url": "https://abcnews.go.com/Politics/trump-shows-off-photograph-putin-alaska-summit/story?id=124892306",
-      "summary": "During an Oval Office event ostensibly announcing next year's FIFA World Cup, Trump displayed a photograph of himself and Putin that Putin had sent from their Alaska meeting. Trump expressed sadness that Putin, who has murdered more than a million people and is wanted by the International Criminal Court for war crimes, cannot attend the FIFA games. Trump stated he planned to sign the photograph as a gift for Putin. This occurred the same day Russia bombed a U.S. factory in Ukraine, wounding at least 15 people, and after Russian officials rejected Trump's call for a bilateral summit with Ukraine.",
-      "why_relevant": "A sitting U.S. president expressing sympathy for a war criminal and rejecting diplomatic overtures while Russia attacks U.S. interests undermines American foreign policy and alliance credibility.",
-      "jurisdiction": "foreign",
+      "summary": "During an Oval Office event ostensibly announcing next year's FIFA World Cup, Trump displayed a photograph of himself and Putin that Putin had sent from their Alaska meeting. Trump expressed sadness that Putin, who has murdered over a million people and is wanted by the International Criminal Court for war crimes, cannot attend the FIFA games. Trump stated he planned to sign the photograph as a gift for Putin.",
+      "why_relevant": "The president's public expressions of affection for and sympathy toward a foreign leader accused of mass atrocities and war crimes undermine U.S. diplomatic standing and values.",
+      "jurisdiction": "federal",
       "federal_nexus": "",
       "confidence": "high",
-      "basis": "today in a bizarre session in the Oval Office, at what was supposed to be an announcement about next year's FIFA World Cup, wearing a cap with the words 'Trump Was Right About Everything,' Trump showed reporters a photograph of himself and Putin that Putin had sent him from their meeting in Alaska last week, and expressed sadness that Putin, who has murdered more than a million people and is wanted by the International Criminal Court for war crimes, can't attend the FIFA games.",
+      "basis": "Trump showed reporters a photograph of himself and Putin that Putin had sent him from their meeting in Alaska last week, and expressed sadness that Putin...can't attend the FIFA games.",
       "actor": "Trump",
-      "action": "displayed sympathy for putin",
-      "act_key": "trump|displayed sympathy for putin|2025-08-22",
+      "action": "displayed photograph and expressed sympathy",
+      "act_key": "trump|displayed photograph and expressed sympathy|2025-08-22",
       "attacks": [
         "allies",
-        "peace",
-        "international_law"
+        "global_democracy",
+        "peace"
       ],
       "source_meta": {
         "headline": null,
@@ -12690,8 +12704,8 @@
         "snapshot_url": null,
         "durable_keys": {}
       },
-      "_origin_file": "hcr_events_2025-08-23_2025-09-05.json",
-      "_origin_index": 105
+      "_origin_file": "hcr_events_2025-07-26_2025-08-29.json",
+      "_origin_index": 54
     },
     {
       "source_key": "meidas",
@@ -12735,55 +12749,20 @@
       "reported_on": "2025-08-23",
       "dated_by": "occurred",
       "category": "Civil–Military Relations & State Violence",
-      "title": "Secretary Hegseth authorized National Guard troops to carry weapons in Washington D.C.",
+      "title": "National Guard troops in Washington authorized to carry weapons",
       "url": "https://www.washingtonpost.com/national-security/2025/08/22/dc-national-guard-weapons-trump-takeover/",
-      "summary": "Secretary of Defense Pete Hegseth announced that 2,000 National Guard members stationed in Washington, D.C., will begin carrying weapons. Additional National Guard personnel are being deployed to the capital. Trump has stated he wants to extend the deployment beyond the 30-day legal limit and threatened to take over the city \"with the federal government.\"",
-      "why_relevant": "Arming National Guard troops in the nation's capital and threatening to exceed legal deployment limits represents militarization of civilian governance and potential preparation for suppression of dissent.",
+      "summary": "Secretary of Defense Pete Hegseth announced that 2,000 National Guard members stationed in Washington, D.C., will begin carrying weapons. Additional National Guard personnel are being deployed to the capital. Trump stated he wants to extend the deployment beyond the 30-day legal limit and warned he would take over the city \"with the federal government.\"",
+      "why_relevant": "Arming National Guard troops in the capital and threatening to extend deployment beyond legal limits represents militarization of the seat of government and potential preparation for suppression of dissent.",
       "jurisdiction": "federal",
       "federal_nexus": "",
       "confidence": "high",
-      "basis": "Secretary of Defense Pete Hegseth said in a statement today from the Pentagon that the 2,000 National Guard members stationed in Washington, D.C., will begin to carry weapons. More National Guard personnel are on the way.",
+      "basis": "Secretary of Defense Pete Hegseth said in a statement today from the Pentagon that the 2,000 National Guard members stationed in Washington, D.C., will begin to carry weapons.",
       "actor": "Pete Hegseth",
-      "action": "authorized armed deployment",
-      "act_key": "pete hegseth|authorized armed deployment|2025-08-22",
+      "action": "authorized armed national guard deployment",
+      "act_key": "pete hegseth|authorized armed national guard deployment|2025-08-22",
       "attacks": [
         "separation_of_powers",
-        "peaceful_transfer",
-        "civil_liberties"
-      ],
-      "source_meta": {
-        "headline": null,
-        "published_on": null,
-        "byline": null,
-        "outlet": null,
-        "accessed_on": null,
-        "snapshot_url": null,
-        "durable_keys": {}
-      },
-      "_origin_file": "hcr_events_2025-08-23_2025-09-05.json",
-      "_origin_index": 102
-    },
-    {
-      "source_key": "hcr",
-      "date": "2025-08-22",
-      "occurred_on": "2025-08-22",
-      "reported_on": "2025-08-23",
-      "dated_by": "occurred",
-      "category": "Civil–Military Relations & State Violence",
-      "title": "Trump threatened federal takeover of Chicago",
-      "url": "https://www.reuters.com/world/us/trump-threatens-federal-intervention-chicago-government-takeover-dc-2025-08-22/",
-      "summary": "Trump warned that he would take over Chicago \"with the federal government,\" calling the city a \"mess\" and claiming that \"African American ladies, beautiful ladies, are saying, 'Please, President Trump, come to Chicago, please.'\" The threat follows his deployment of National Guard troops to Washington, D.C., and represents an escalation of threats to deploy federal military forces in major cities.",
-      "why_relevant": "A president threatening federal military takeover of a major city undermines federalism, state sovereignty, and constitutional limits on executive power.",
-      "jurisdiction": "federal",
-      "federal_nexus": "",
-      "confidence": "high",
-      "basis": "Today, in the Oval Office, Trump told reporters that his administration would invade Chicago, which he called a 'mess,' next. He said that 'African American ladies, beautiful ladies, are saying, 'Please, President Trump, come to Chicago, please.",
-      "actor": "Trump",
-      "action": "threatened federal takeover",
-      "act_key": "trump|threatened federal takeover|2025-08-22",
-      "attacks": [
-        "separation_of_powers",
-        "union",
+        "civil_military_relations",
         "peaceful_transfer"
       ],
       "source_meta": {
@@ -12795,8 +12774,8 @@
         "snapshot_url": null,
         "durable_keys": {}
       },
-      "_origin_file": "hcr_events_2025-08-23_2025-09-05.json",
-      "_origin_index": 103
+      "_origin_file": "hcr_events_2025-07-26_2025-08-29.json",
+      "_origin_index": 58
     },
     {
       "source_key": "meidas",

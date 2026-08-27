@@ -5,38 +5,38 @@
   },
   "week_number": 38,
   "sources": [
-    "hcr",
-    "whitehouse",
-    "justsecurity",
-    "50501",
-    "guardian",
-    "meidas",
-    "democracydocket",
-    "federalregister",
     "outloud",
-    "noah",
+    "50501",
     "popinfo",
     "zeteo",
-    "scotusorders"
+    "justsecurity",
+    "federalregister",
+    "guardian",
+    "whitehouse",
+    "scotusorders",
+    "noah",
+    "hcr",
+    "meidas",
+    "democracydocket"
   ],
   "counts": {
-    "total": 492,
+    "total": 489,
     "by_date": {
       "2025-10-04": 56,
       "2025-10-05": 35,
       "2025-10-06": 94,
-      "2025-10-07": 88,
+      "2025-10-07": 86,
       "2025-10-08": 66,
-      "2025-10-09": 85,
+      "2025-10-09": 84,
       "2025-10-10": 68
     },
     "by_source": {
       "hcr": 88,
-      "whitehouse": 20,
       "zeteo": 59,
-      "guardian": 142,
+      "guardian": 143,
       "justsecurity": 20,
       "50501": 14,
+      "whitehouse": 16,
       "meidas": 99,
       "federalregister": 13,
       "popinfo": 7,
@@ -46,18 +46,18 @@
       "noah": 17
     },
     "by_category": {
-      "Executive Actions & Orders": 66,
+      "Executive Actions & Orders": 65,
       "Legislative & Oversight Activity": 39,
       "Judicial Developments": 89,
       "Law Enforcement & Surveillance": 85,
       "Elections & Representation": 11,
       "Civil Society & Protest": 16,
-      "Information & Media Control": 51,
-      "Economic & Regulatory Power": 25,
+      "Information & Media Control": 46,
+      "Economic & Regulatory Power": 26,
       "Appointments & Patronage": 17,
-      "Transparency & Records": 16,
+      "Transparency & Records": 17,
       "International Relations": 25,
-      "Civil–Military Relations & State Violence": 42,
+      "Civil–Military Relations & State Violence": 43,
       "": 3,
       "Courts / Supreme Court / Orders": 4,
       "Public Health & Medical Policy": 3
@@ -118,8 +118,8 @@
       "action": "issued ultimatum to governor",
       "act_key": "pete hegseth|issued ultimatum to governor|2025-10-04",
       "attacks": [
-        "42",
-        "49"
+        "separation_of_powers",
+        "union"
       ],
       "source_meta": {
         "headline": null,
@@ -187,8 +187,8 @@
       "action": "authorized national guard deployment",
       "act_key": "trump|authorized national guard deployment|2025-10-04",
       "attacks": [
-        "42",
-        "49"
+        "separation_of_powers",
+        "union"
       ],
       "source_meta": {
         "headline": null,
@@ -201,37 +201,6 @@
       },
       "_origin_file": "hcr_events_2025-09-06_2025-12-12.json",
       "_origin_index": 467
-    },
-    {
-      "source_key": "whitehouse",
-      "date": "2025-10-04",
-      "occurred_on": "2025-10-04",
-      "reported_on": "2025-10-04",
-      "dated_by": "occurred",
-      "category": "Executive Actions & Orders",
-      "title": "Department of War Security for the Protection of Federal Personnel and Property in Illinois",
-      "url": "https://www.whitehouse.gov/presidential-actions/2025/10/department-of-war-security-for-the-protection-of-federal-personnel-and-property-in-illinois/",
-      "summary": "The White House published this memorandum on 2025-10-04 through its presidential-memoranda channel.",
-      "why_relevant": "",
-      "jurisdiction": "federal",
-      "federal_nexus": "Official White House channel; documents the act of publication only.",
-      "confidence": "high",
-      "basis": "official_actor_record",
-      "actor": "The White House",
-      "action": "announced a presidential memorandum titled \"Department of War Security for the Protection of Federal Personnel and Property in Illinois\"",
-      "act_key": "white house|announced a presidential memorandum titled department of war security for the protection of federal personnel and property in illinois|2025-10-04",
-      "attacks": [],
-      "source_meta": {
-        "headline": null,
-        "published_on": null,
-        "byline": null,
-        "outlet": null,
-        "accessed_on": null,
-        "snapshot_url": null,
-        "durable_keys": {}
-      },
-      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
-      "_origin_index": 1109
     },
     {
       "source_key": "zeteo",
@@ -989,8 +958,8 @@
       "action": "shot civilian",
       "act_key": "border patrol|shot civilian|2025-10-04",
       "attacks": [
-        "23",
-        "43"
+        "justice_dept",
+        "rule_of_law"
       ],
       "source_meta": {
         "headline": null,
@@ -1262,9 +1231,9 @@
       "action": "deployed force against protesters",
       "act_key": "federal law enforcement|deployed force against protesters|2025-10-04",
       "attacks": [
-        "6",
-        "42",
-        "48"
+        "workers",
+        "separation_of_powers",
+        "peaceful_transfer"
       ],
       "source_meta": {
         "headline": null,
@@ -1368,9 +1337,9 @@
       "action": "posted misleading video",
       "act_key": "kristi noem|posted misleading video|2025-10-04",
       "attacks": [
-        "29",
-        "30",
-        "34"
+        "press",
+        "information",
+        "reality"
       ],
       "source_meta": {
         "headline": null,
@@ -1403,9 +1372,9 @@
       "action": "attacked court ruling",
       "act_key": "stephen miller|attacked court ruling|2025-10-04",
       "attacks": [
-        "20",
-        "29",
-        "42"
+        "courts",
+        "press",
+        "separation_of_powers"
       ],
       "source_meta": {
         "headline": null,
@@ -1438,10 +1407,10 @@
       "action": "posted inflammatory statement",
       "act_key": "stephen miller|posted inflammatory statement|2025-10-04",
       "attacks": [
-        "11",
-        "29",
-        "34",
-        "42"
+        "truth",
+        "press",
+        "reality",
+        "separation_of_powers"
       ],
       "source_meta": {
         "headline": null,
@@ -1899,6 +1868,43 @@
       "_origin_index": 482
     },
     {
+      "source_key": "whitehouse",
+      "date": "2025-10-04",
+      "occurred_on": "2025-10-04",
+      "reported_on": "2025-10-04",
+      "dated_by": "occurred",
+      "category": "Civil–Military Relations & State Violence",
+      "title": "Trump issued presidential memorandum calling 300+ Illinois National Guard into federal service to protect federal personnel and property in Illinois",
+      "url": "https://www.whitehouse.gov/presidential-actions/2025/10/department-of-war-security-for-the-protection-of-federal-personnel-and-property-in-illinois/",
+      "summary": "President Trump issued a presidential memorandum on October 4, 2025, directing the Secretary of War to call at least 300 members of the Illinois National Guard into federal service. The memorandum states that federal facilities in Illinois, particularly those supporting ICE and Federal Protective Services, have faced \"coordinated assault by violent groups\" seeking to obstruct federal law enforcement and impede deportations. Trump determined that regular U.S. forces are insufficient and that the situation warrants mobilization. The National Guard personnel are authorized to perform protective activities the Secretary of War deems necessary to ensure federal law execution, with a 60-day duration or at the Secretary's discretion.",
+      "why_relevant": "The memorandum asserts presidential authority to unilaterally federalize state National Guard units without gubernatorial consent, invoking 10 U.S.C. 12406, and deploys armed military personnel into a state to enforce federal immigration law and suppress civilian protest, raising constitutional questions about the Insurrection Act, federalism, and the scope of executive power over state militias.",
+      "jurisdiction": "federal",
+      "federal_nexus": "",
+      "confidence": "high",
+      "basis": "I hereby call into Federal service at least 300 members of the Illinois National Guard, until the Governor of Illinois consents to a federally-funded mobilization, under Title 32 of the United States Code, of the Illinois National Guard under State control.",
+      "actor": "The White House",
+      "action": "announced a presidential memorandum titled \"Department of War Security for the Protection of Federal Personnel and Property in Illinois\"",
+      "act_key": "white house|announced a presidential memorandum titled department of war security for the protection of federal personnel and property in illinois|2025-10-04",
+      "attacks": [
+        "separation_of_powers",
+        "civil_service",
+        "military",
+        "rule_of_law",
+        "union"
+      ],
+      "source_meta": {
+        "headline": "Department of War Security for the Protection of Federal Personnel and Property in Illinois",
+        "published_on": "2025-10-04",
+        "byline": null,
+        "outlet": "The White House",
+        "accessed_on": "2026-08-27T01:48:11Z",
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
+      "_origin_index": 1051
+    },
+    {
       "source_key": "zeteo",
       "date": "2025-10-04",
       "occurred_on": "2025-10-04",
@@ -1982,9 +1988,9 @@
       "action": "deployed california national guard",
       "act_key": "trump|deployed california national guard|2025-10-05",
       "attacks": [
-        "20",
-        "42",
-        "48"
+        "courts",
+        "separation_of_powers",
+        "peaceful_transfer"
       ],
       "source_meta": {
         "headline": null,
@@ -2507,8 +2513,8 @@
       "action": "attacked news outlet for coverage",
       "act_key": "trump|attacked news outlet for coverage|2025-10-05",
       "attacks": [
-        "29",
-        "34"
+        "press",
+        "reality"
       ],
       "source_meta": {
         "headline": "October 6, 2025",
@@ -3100,7 +3106,7 @@
       "action": "addressed military personnel",
       "act_key": "trump|addressed military personnel|2025-10-05",
       "attacks": [
-        "25"
+        "military"
       ],
       "source_meta": {
         "headline": null,
@@ -3309,8 +3315,8 @@
       "action": "directed caribbean strikes",
       "act_key": "trump|directed caribbean strikes|2025-10-06",
       "attacks": [
-        "38",
-        "42"
+        "peace",
+        "separation_of_powers"
       ],
       "source_meta": {
         "headline": null,
@@ -3433,29 +3439,101 @@
       "reported_on": "2025-10-06",
       "dated_by": "occurred",
       "category": "Executive Actions & Orders",
-      "title": "Decision of the President and Statement of Reasons on 2025 Ambler Road Appeal",
+      "title": "President approves Ambler Road Project appeal and directs federal agency authorizations",
       "url": "https://www.whitehouse.gov/presidential-actions/2025/10/decision-of-the-president-and-statement-of-reasons-on-2025-ambler-road-appeal/",
-      "summary": "The White House published this memorandum on 2025-10-06 through its presidential-memoranda channel.",
-      "why_relevant": "",
+      "summary": "President Trump issued a presidential memorandum on October 6, 2025, approving an appeal by the Alaska Industrial Development and Export Authority (AIDEA) under section 1106(a) of the Alaska National Interest Lands Conservation Act (ANILCA). The memorandum approves AIDEA's 2016 revised consolidated application for the Ambler Road Project, a transportation system in Alaska. Trump directed all relevant federal agencies to promptly issue necessary authorizations for the project's establishment.",
+      "why_relevant": "The decision overrides or reverses prior administrative determinations regarding a major infrastructure project in a protected federal lands area, asserting executive authority to direct agency action on a matter previously subject to environmental and statutory review under ANILCA.",
       "jurisdiction": "federal",
-      "federal_nexus": "Official White House channel; documents the act of publication only.",
+      "federal_nexus": "",
       "confidence": "high",
-      "basis": "official_actor_record",
+      "basis": "I approve the appeal made by the applicant Alaska Industrial Development and Export Authority (AIDEA) on June 6, 2025, under section 1106(a) of the Alaska National Interest Lands Conservation Act (ANILCA)",
       "actor": "The White House",
       "action": "announced a presidential memorandum titled \"Decision of the President and Statement of Reasons on 2025 Ambler Road Appeal\"",
       "act_key": "white house|announced a presidential memorandum titled decision of the president and statement of reasons on 2025 ambler road appeal|2025-10-06",
-      "attacks": [],
+      "attacks": [
+        "environment",
+        "rule_of_law"
+      ],
       "source_meta": {
-        "headline": null,
-        "published_on": null,
+        "headline": "Decision of the President and Statement of Reasons on 2025 Ambler Road Appeal",
+        "published_on": "2025-10-06",
         "byline": null,
-        "outlet": null,
-        "accessed_on": null,
+        "outlet": "The White House",
+        "accessed_on": "2026-08-27T01:48:00Z",
         "snapshot_url": null,
         "durable_keys": {}
       },
       "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
-      "_origin_index": 1108
+      "_origin_index": 1050
+    },
+    {
+      "source_key": "whitehouse",
+      "date": "2025-10-06",
+      "occurred_on": "2025-10-06",
+      "reported_on": "2025-10-06",
+      "dated_by": "occurred",
+      "category": "Executive Actions & Orders",
+      "title": "President Trump approves Ambler Road Project and directs federal agencies to issue permits",
+      "url": "https://www.whitehouse.gov/fact-sheets/2025/10/fact-sheet-president-donald-j-trump-approves-ambler-road-project-to-unlock-alaskas-mineral-potential/",
+      "summary": "The White House issued a fact sheet stating that President Trump approved the Alaska Industrial Development and Export Authority's appeal and directed the Bureau of Land Management, National Park Service, and U.S. Army Corps of Engineers to reissue permits for the 211-mile Ambler Road Project connecting the Dalton Highway to Alaska's Ambler Mining District. The fact sheet claims the project will enable access to copper, cobalt, and other critical minerals, support 2,730 jobs, and generate over $1.1 billion in state revenues. The U.S. government announced a $35.6 million investment in Trilogy Metals, acquiring a 10% stake and warrants for an additional 7.5%.",
+      "why_relevant": "The act directs federal agencies to override prior environmental and permitting decisions, asserting executive authority to fast-track resource extraction on federal lands and waters, and commits public funds to private mining ventures, raising questions about separation of powers, environmental stewardship, and the use of public resources for private gain.",
+      "jurisdiction": "federal",
+      "federal_nexus": "",
+      "confidence": "high",
+      "basis": "Today, President Donald J. Trump approved the appeal of the Alaska Industrial Development and Export Authority (AIDEA), directing his Administration to promptly issue authorizations necessary for the establishment of the Ambler Road Project.",
+      "actor": "The White House",
+      "action": "issued a fact sheet titled \"Fact Sheet: President Donald J. Trump Approves Ambler Road Project to Unlock Alaska’s Mineral Potential\"",
+      "act_key": "white house|issued a fact sheet titled fact sheet president donald j trump approves ambler road project to unlock alaska s mineral potential|2025-10-06",
+      "attacks": [
+        "environment",
+        "rule_of_law",
+        "emoluments"
+      ],
+      "source_meta": {
+        "headline": "Fact Sheet: President Donald J. Trump Approves Ambler Road Project to Unlock Alaska’s Mineral Potential",
+        "published_on": "2025-10-06",
+        "byline": null,
+        "outlet": "The White House",
+        "accessed_on": "2026-08-26T23:54:41Z",
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
+      "_origin_index": 457
+    },
+    {
+      "source_key": "whitehouse",
+      "date": "2025-10-06",
+      "occurred_on": "2025-10-06",
+      "reported_on": "2025-10-07",
+      "dated_by": "occurred",
+      "category": "Executive Actions & Orders",
+      "title": "President Trump approves Ambler Road Project appeal, reversing Biden-era rejection",
+      "url": "https://www.whitehouse.gov/releases/2025/10/president-trump-revives-ambler-road-project-to-unlock-alaskas-critical-minerals-boost-economy/",
+      "summary": "President Trump approved an appeal for Alaska's Ambler Road Project, a 211-mile industrial road connecting the Dalton Highway to critical mineral deposits in northwest Alaska. The decision reverses a Biden administration rejection and was issued under Section 1106 of the Alaska National Interest Land Claims Act (ANILCA). The White House states the move advances American energy dominance, reduces reliance on foreign mineral sources, and supports job creation and domestic supply chains. Alaska state and federal officials, mining companies, and industry groups issued statements of support.",
+      "why_relevant": "The decision reverses a prior administrative determination and reasserts executive authority over federal land-use and resource-extraction policy in Alaska, affecting environmental review processes, Native Alaskan consultation obligations, and the balance between resource development and conservation mandates embedded in federal law.",
+      "jurisdiction": "federal",
+      "federal_nexus": "",
+      "confidence": "high",
+      "basis": "President Donald J. Trump approved the appeal for Alaska's Ambler Road Project, a pivotal 211-mile industrial road connecting the Dalton Highway to northwest Alaska's vast deposits of critical minerals.",
+      "actor": "The White House",
+      "action": "published a release titled \"President Trump Revives Ambler Road Project to Unlock Alaska’s Critical Minerals, Boost Economy\"",
+      "act_key": "white house|published a release titled president trump revives ambler road project to unlock alaska s critical minerals boost economy|2025-10-06",
+      "attacks": [
+        "environment",
+        "rule_of_law"
+      ],
+      "source_meta": {
+        "headline": "President Trump Revives Ambler Road Project to Unlock Alaska’s Critical Minerals, Boost Economy",
+        "published_on": "2025-10-07",
+        "byline": null,
+        "outlet": "The White House",
+        "accessed_on": "2026-08-26T23:01:33Z",
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
+      "_origin_index": 189
     },
     {
       "source_key": "zeteo",
@@ -3615,8 +3693,8 @@
       "action": "made misleading healthcare statement",
       "act_key": "mike johnson|made misleading healthcare statement|2025-10-06",
       "attacks": [
-        "11",
-        "21"
+        "truth",
+        "congress"
       ],
       "source_meta": {
         "headline": "October 6, 2025",
@@ -4423,8 +4501,7 @@
       "act_key": "elizabeth yusi|resisted pressure to file charges|2025-10-06",
       "attacks": [
         "justice_dept",
-        "rule_of_law",
-        "43"
+        "rule_of_law"
       ],
       "source_meta": {
         "headline": "Federal prosecutor resists pressure from Trump to charge Letitia James",
@@ -4529,9 +4606,7 @@
       "act_key": "lindsey halligan|fired prosecutor maya song|2025-10-06",
       "attacks": [
         "justice_dept",
-        "rule_of_law",
-        "23",
-        "43"
+        "rule_of_law"
       ],
       "source_meta": {
         "headline": "Federal prosecutor resists pressure from Trump to charge Letitia James",
@@ -4566,9 +4641,7 @@
       "attacks": [
         "justice_dept",
         "rule_of_law",
-        "23",
-        "43",
-        "31"
+        "whistleblowers"
       ],
       "source_meta": {
         "headline": "Federal prosecutor resists pressure from Trump to charge Letitia James",
@@ -4638,9 +4711,7 @@
       "act_key": "trump|requested prosecution of political opponent|2025-10-06",
       "attacks": [
         "justice_dept",
-        "rule_of_law",
-        "23",
-        "43"
+        "rule_of_law"
       ],
       "source_meta": {
         "headline": "Federal prosecutor resists pressure from Trump to charge Letitia James",
@@ -4814,9 +4885,9 @@
       "action": "deployed tear gas against protesters",
       "act_key": "ice|deployed tear gas against protesters|2025-10-06",
       "attacks": [
-        "6",
-        "29",
-        "31"
+        "workers",
+        "press",
+        "whistleblowers"
       ],
       "source_meta": {
         "headline": "Democracy Out Loud #453:\"A very difficult situation\"",
@@ -5415,91 +5486,33 @@
       "reported_on": "2025-10-06",
       "dated_by": "occurred",
       "category": "Information & Media Control",
-      "title": "Chicago Mayor’s “ICE-Free Zones” Shield Violent Criminal Illegals, Abandon Citizens",
-      "url": "https://www.whitehouse.gov/releases/2025/10/chicago-mayors-ice-free-zones-shield-violent-criminal-illegals-abandon-citizens/",
-      "summary": "The White House published this release on 2025-10-06 through its releases channel.",
-      "why_relevant": "",
-      "jurisdiction": "federal",
-      "federal_nexus": "Official White House channel; documents the act of publication only.",
-      "confidence": "high",
-      "basis": "official_actor_record",
-      "actor": "The White House",
-      "action": "published a release titled \"Chicago Mayor’s “ICE-Free Zones” Shield Violent Criminal Illegals, Abandon Citizens\"",
-      "act_key": "white house|published a release titled chicago mayor s ice free zones shield violent criminal illegals abandon citizens|2025-10-06",
-      "attacks": [],
-      "source_meta": {
-        "headline": null,
-        "published_on": null,
-        "byline": null,
-        "outlet": null,
-        "accessed_on": null,
-        "snapshot_url": null,
-        "durable_keys": {}
-      },
-      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
-      "_origin_index": 229
-    },
-    {
-      "source_key": "whitehouse",
-      "date": "2025-10-06",
-      "occurred_on": "2025-10-06",
-      "reported_on": "2025-10-06",
-      "dated_by": "occurred",
-      "category": "Information & Media Control",
-      "title": "Fact Sheet: President Donald J. Trump Approves Ambler Road Project to Unlock Alaska’s Mineral Potential",
-      "url": "https://www.whitehouse.gov/fact-sheets/2025/10/fact-sheet-president-donald-j-trump-approves-ambler-road-project-to-unlock-alaskas-mineral-potential/",
-      "summary": "The White House published this fact sheet on 2025-10-06 through its fact-sheets channel.",
-      "why_relevant": "",
-      "jurisdiction": "federal",
-      "federal_nexus": "Official White House channel; documents the act of publication only.",
-      "confidence": "high",
-      "basis": "official_actor_record",
-      "actor": "The White House",
-      "action": "issued a fact sheet titled \"Fact Sheet: President Donald J. Trump Approves Ambler Road Project to Unlock Alaska’s Mineral Potential\"",
-      "act_key": "white house|issued a fact sheet titled fact sheet president donald j trump approves ambler road project to unlock alaska s mineral potential|2025-10-06",
-      "attacks": [],
-      "source_meta": {
-        "headline": null,
-        "published_on": null,
-        "byline": null,
-        "outlet": null,
-        "accessed_on": null,
-        "snapshot_url": null,
-        "durable_keys": {}
-      },
-      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
-      "_origin_index": 513
-    },
-    {
-      "source_key": "whitehouse",
-      "date": "2025-10-06",
-      "occurred_on": "2025-10-06",
-      "reported_on": "2025-10-06",
-      "dated_by": "occurred",
-      "category": "Information & Media Control",
-      "title": "POLL: Americans Want Democrats to END Their Shutdown",
+      "title": "White House issues fact sheet on government shutdown polling",
       "url": "https://www.whitehouse.gov/releases/2025/10/poll-americans-want-democrats-to-end-their-shutdown/",
-      "summary": "The White House published this release on 2025-10-06 through its releases channel.",
-      "why_relevant": "",
+      "summary": "The White House published a fact sheet citing a Harvard CAPS/Harris poll on public opinion regarding a government shutdown. The document states that 70% of Americans oppose the shutdown, 65% say Democrats should accept a Republican continuing resolution, and 62% say Republicans \"will win\" the shutdown. The fact sheet attributes the shutdown to Democrats' \"sick push to give illegal aliens free health care\" and warns of impacts on service members, federal employees, food assistance, and state economies.",
+      "why_relevant": "The White House used its official platform to frame a partisan political dispute (a government shutdown) through selective polling data and inflammatory language, exemplifying the use of executive communications infrastructure for partisan messaging rather than neutral governance.",
       "jurisdiction": "federal",
-      "federal_nexus": "Official White House channel; documents the act of publication only.",
+      "federal_nexus": "",
       "confidence": "high",
-      "basis": "official_actor_record",
+      "basis": "Most Americans want Democrats to end their disastrous government shutdown, according to a new Harvard CAPS/Harris poll.",
       "actor": "The White House",
       "action": "published a release titled \"POLL: Americans Want Democrats to END Their Shutdown\"",
       "act_key": "white house|published a release titled poll americans want democrats to end their shutdown|2025-10-06",
-      "attacks": [],
+      "attacks": [
+        "truth",
+        "information",
+        "rule_of_law"
+      ],
       "source_meta": {
-        "headline": null,
-        "published_on": null,
+        "headline": "POLL: Americans Want Democrats to END Their Shutdown",
+        "published_on": "2025-10-06",
         "byline": null,
-        "outlet": null,
-        "accessed_on": null,
+        "outlet": "The White House",
+        "accessed_on": "2026-08-26T23:01:56Z",
         "snapshot_url": null,
         "durable_keys": {}
       },
       "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
-      "_origin_index": 228
+      "_origin_index": 191
     },
     {
       "source_key": "federalregister",
@@ -5511,14 +5524,14 @@
       "title": "DEA publishes notice of bulk manufacturer application by Irvine Labs, Inc. for controlled substances",
       "url": "https://www.federalregister.gov/documents/2025/11/26/2025-21174/bulk-manufacturer-of-controlled-substances-application-irvine-labs-inc",
       "summary": "The Drug Enforcement Administration published a notice that Irvine Labs, Inc. applied on October 6, 2025, to be registered as a bulk manufacturer of cannabis-derived controlled substances, including marihuana extract, marihuana, and tetrahydrocannabinols (Schedule I). The applicant plans to manufacture bulk active pharmaceutical ingredients for product development and distribution to DEA-registered researchers. Registered bulk manufacturers and other applicants may submit comments or objections and request a hearing by January 26, 2026.",
-      "why_relevant": "The notice establishes a formal regulatory pathway for private manufacture of federally controlled substances, affecting drug policy implementation and pharmaceutical research access.",
+      "why_relevant": "The notice initiates a formal regulatory process for licensing a bulk manufacturer of Schedule I controlled substances, affecting pharmaceutical research infrastructure and drug policy implementation.",
       "jurisdiction": "federal",
       "federal_nexus": "",
       "confidence": "high",
       "basis": "Irvine Labs, Inc. has applied to be registered as a bulk manufacturer of basic class(es) of controlled substance(s).",
       "actor": "Drug Enforcement Administration",
-      "action": "published bulk manufacturer application notice",
-      "act_key": "drug enforcement administration|published bulk manufacturer application notice|2025-10-06",
+      "action": "published manufacturer application notice",
+      "act_key": "drug enforcement administration|published manufacturer application notice|2025-10-06",
       "attacks": [],
       "source_meta": {
         "headline": "Bulk Manufacturer of Controlled Substances Application: Irvine Labs, Inc.",
@@ -5531,8 +5544,8 @@
           "federal_register_doc": "2025-21174"
         }
       },
-      "_origin_file": "federalregister_events_2025-11-22_2025-11-28.json",
-      "_origin_index": 16
+      "_origin_file": "federalregister_events_2025-09-06_2025-12-12.json",
+      "_origin_index": 26
     },
     {
       "source_key": "federalregister",
@@ -5541,17 +5554,17 @@
       "reported_on": "2025-11-26",
       "dated_by": "occurred",
       "category": "Economic & Regulatory Power",
-      "title": "DEA publishes notice of Irvine Labs, Inc. application to import controlled substances",
+      "title": "DEA publishes notice of Irvine Labs, Inc. application to import controlled substances including LSD, psilocybin, and cannabis",
       "url": "https://www.federalregister.gov/documents/2025/11/26/2025-21175/importer-of-controlled-substances-application-irvine-labs-inc",
-      "summary": "The Drug Enforcement Administration published a notice that Irvine Labs, Inc., based in Huntington Beach, California, applied on October 6, 2025, to be registered as an importer of controlled substances including LSD, psilocybin, DMT, mescaline, peyote, and cannabis-derived compounds. The company stated it plans to import bulk substances for internal research, clinical trials, analytical purposes, and customer distribution. Registered bulk manufacturers and applicants may submit comments or objections by December 26, 2025, or request a hearing.",
-      "why_relevant": "The notice initiates a formal regulatory process for licensing a private entity to import Schedule I controlled substances, affecting drug policy enforcement and the legal framework for research access to restricted compounds.",
+      "summary": "The Drug Enforcement Administration published a notice that Irvine Labs, Inc., based in Huntington Beach, California, applied on October 6, 2025, to be registered as an importer of Schedule I controlled substances including lysergic acid diethylamide (LSD), psilocybin, psilocyn, dimethyltryptamine, diethyltryptamine, mescaline, peyote, marihuana, marihuana extract, and tetrahydrocannabinols. The company states it will import bulk substances for internal research, clinical trials, analytical purposes, and distribution to customers. The DEA opened a 30-day public comment period ending December 26, 2025, and invited registered bulk manufacturers and applicants to submit objections or requests for hearing.",
+      "why_relevant": "The notice establishes a formal regulatory pathway for private importation of Schedule I controlled substances, signaling potential shifts in federal drug policy enforcement and access to substances historically restricted from commercial research and distribution.",
       "jurisdiction": "federal",
       "federal_nexus": "",
       "confidence": "high",
       "basis": "Irvine Labs, Inc., 7305 Murdy Circle, Huntington Beach, California 92647-3533, applied to be registered as an importer of the following basic class(es) of controlled substance(s).",
       "actor": "Drug Enforcement Administration",
-      "action": "published import application notice",
-      "act_key": "drug enforcement administration|published import application notice|2025-10-06",
+      "action": "published importer application notice",
+      "act_key": "drug enforcement administration|published importer application notice|2025-10-06",
       "attacks": [],
       "source_meta": {
         "headline": "Importer of Controlled Substances Application: Irvine Labs, Inc.",
@@ -5564,8 +5577,8 @@
           "federal_register_doc": "2025-21175"
         }
       },
-      "_origin_file": "federalregister_events_2025-11-22_2025-11-28.json",
-      "_origin_index": 15
+      "_origin_file": "federalregister_events_2025-09-06_2025-12-12.json",
+      "_origin_index": 25
     },
     {
       "source_key": "guardian",
@@ -5722,9 +5735,7 @@
       "act_key": "trump|appointed lindsey halligan as us attorney|2025-10-06",
       "attacks": [
         "justice_dept",
-        "rule_of_law",
-        "23",
-        "43"
+        "rule_of_law"
       ],
       "source_meta": {
         "headline": "Federal prosecutor resists pressure from Trump to charge Letitia James",
@@ -5967,8 +5978,8 @@
       "action": "blocked release of records",
       "act_key": "republican controlled congress|blocked release of records|2025-10-06",
       "attacks": [
-        "30",
-        "33"
+        "information",
+        "knowledge"
       ],
       "source_meta": {
         "headline": "Democracy Out Loud #453:\"A very difficult situation\"",
@@ -6207,8 +6218,8 @@
       "action": "discussed military deployment plan",
       "act_key": "patrick weaver|discussed military deployment plan|2025-10-06",
       "attacks": [
-        "42",
-        "25"
+        "separation_of_powers",
+        "military"
       ],
       "source_meta": {
         "headline": null,
@@ -6753,9 +6764,9 @@
       "action": "overhauled disability benefits evaluation",
       "act_key": "trump administration|overhauled disability benefits evaluation|2025-10-07",
       "attacks": [
-        "9",
-        "43",
-        "54"
+        "disabled",
+        "rule_of_law",
+        "future"
       ],
       "source_meta": {
         "headline": "October 6, 2025",
@@ -6844,60 +6855,29 @@
       "reported_on": "2025-10-07",
       "dated_by": "occurred",
       "category": "Executive Actions & Orders",
-      "title": "Fire Prevention Week, 2025",
+      "title": "President Trump issued Fire Prevention Week proclamation",
       "url": "https://www.whitehouse.gov/presidential-actions/2025/10/fire-prevention-week-2025/",
-      "summary": "The White House published this proclamation on 2025-10-07 through its proclamations channel.",
-      "why_relevant": "",
+      "summary": "President Trump issued a proclamation designating October 5–11, 2025, as Fire Prevention Week. The proclamation honors firefighters and first responders, calls on households and communities to adopt fire prevention measures, and references prior executive orders on wildfire prevention signed in June 2025, including directives to consolidate federal wildland fire programs, encourage local preparedness, deploy artificial intelligence and data sharing, and establish a task force to assess FEMA's disaster response capacity. The proclamation also references a bill signed into law providing permanent pay increases for federal wildland firefighters.",
+      "why_relevant": "A proclamation is a formal presidential act that establishes official observance and frames executive priorities; this one reiterates the administration's wildfire and disaster-response agenda and asserts executive authority over federal emergency management.",
       "jurisdiction": "federal",
-      "federal_nexus": "Official White House channel; documents the act of publication only.",
+      "federal_nexus": "",
       "confidence": "high",
-      "basis": "official_actor_record",
+      "basis": "I, Donald J. Trump, President of the United States of America, by virtue of the authority vested in me by the Constitution and the laws of the United States, do hereby proclaim October 5 through October 11, 2025, as Fire Prevention Week.",
       "actor": "The White House",
       "action": "announced a proclamation titled \"Fire Prevention Week, 2025\"",
       "act_key": "white house|announced a proclamation titled fire prevention week 2025|2025-10-07",
       "attacks": [],
       "source_meta": {
-        "headline": null,
-        "published_on": null,
+        "headline": "Fire Prevention Week, 2025",
+        "published_on": "2025-10-07",
         "byline": null,
-        "outlet": null,
-        "accessed_on": null,
+        "outlet": "The White House",
+        "accessed_on": "2026-08-27T01:27:53Z",
         "snapshot_url": null,
         "durable_keys": {}
       },
       "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
-      "_origin_index": 1000
-    },
-    {
-      "source_key": "whitehouse",
-      "date": "2025-10-07",
-      "occurred_on": "2025-10-07",
-      "reported_on": "2025-10-07",
-      "dated_by": "occurred",
-      "category": "Executive Actions & Orders",
-      "title": "National Manufacturing Day, 2025",
-      "url": "https://www.whitehouse.gov/presidential-actions/2025/10/national-manufacturing-day-2025/",
-      "summary": "The White House published this proclamation on 2025-10-07 through its proclamations channel.",
-      "why_relevant": "",
-      "jurisdiction": "federal",
-      "federal_nexus": "Official White House channel; documents the act of publication only.",
-      "confidence": "high",
-      "basis": "official_actor_record",
-      "actor": "The White House",
-      "action": "announced a proclamation titled \"National Manufacturing Day, 2025\"",
-      "act_key": "white house|announced a proclamation titled national manufacturing day 2025|2025-10-07",
-      "attacks": [],
-      "source_meta": {
-        "headline": null,
-        "published_on": null,
-        "byline": null,
-        "outlet": null,
-        "accessed_on": null,
-        "snapshot_url": null,
-        "durable_keys": {}
-      },
-      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
-      "_origin_index": 1001
+      "_origin_index": 942
     },
     {
       "source_key": "zeteo",
@@ -7911,22 +7891,22 @@
       "category": "Law Enforcement & Surveillance",
       "title": "Muslim photojournalist detained by ICE for social media posts",
       "url": "https://www.theguardian.com/us-news/2025/dec/12/photojournalist-detained-ice-social-media",
-      "summary": "Ya'akub Vijandre, a 38-year-old Muslim photojournalist and first responder, was detained by ICE on October 7, 2025, in Arlington, Texas, based on social media posts the federal government alleges glorify terrorism. His DACA status was revoked on December 2. An immigration judge on November 3 denied bond, citing posts about controversial terrorism cases and Islamic religious content. Vijandre's legal team filed a habeas corpus petition challenging the detention as unconstitutional targeting of protected speech based on his Muslim faith.",
-      "why_relevant": "The detention and revocation of DACA status based on constitutionally protected social media speech raises fundamental questions about religious discrimination, free speech, and the scope of executive power to detain citizens and lawful residents.",
+      "summary": "Ya'akub Vijandre, a 38-year-old Muslim photojournalist and first responder, was detained by ICE on October 7, 2025, in Arlington, Texas, based on social media posts the federal government alleges glorify terrorism. His DACA status was revoked on December 2. An immigration judge on November 3 denied bond, citing posts about controversial terrorism cases and Islamic religious content. Vijandre's legal team filed a habeas corpus petition challenging the detention as unconstitutional speech suppression targeting his Muslim faith.",
+      "why_relevant": "The detention and revocation of lawful status based on constitutionally protected speech, combined with targeting of religious expression, represents a direct attack on First Amendment rights and equal protection under law.",
       "jurisdiction": "federal",
       "federal_nexus": "",
       "confidence": "high",
       "basis": "Ya'akub Vijandre, a Muslim photojournalist, martial arts teacher and first responder who ICE detained in October for posting on social media, told the Guardian that the government is 'attacking my faith'.",
       "actor": "ICE",
-      "action": "detained photojournalist for social media posts",
-      "act_key": "ice|detained photojournalist for social media posts|2025-10-07",
+      "action": "detained individual for social media posts",
+      "act_key": "ice|detained individual for social media posts|2025-10-07",
       "attacks": [
-        "immigrants_refugees",
         "lgbtq",
-        "faith",
+        "truth",
         "press",
-        "rule_of_law",
-        "amendment_25"
+        "faith",
+        "justice_dept",
+        "rule_of_law"
       ],
       "source_meta": {
         "headline": "‘They attacked my religion, my faith’: Muslim photojournalist detained by ICE speaks out",
@@ -7937,8 +7917,8 @@
         "snapshot_url": null,
         "durable_keys": {}
       },
-      "_origin_file": "guardian_events_2025-11-29_2026-03-06.json",
-      "_origin_index": 1478
+      "_origin_file": "guardian_events_2025-09-06_2025-12-12.json",
+      "_origin_index": 7
     },
     {
       "source_key": "hcr",
@@ -7959,9 +7939,9 @@
       "action": "issued warning letter about doj destruction",
       "act_key": "282 former doj career officials|issued warning letter about doj destruction|2025-10-07",
       "attacks": [
-        "20",
-        "23",
-        "43"
+        "courts",
+        "justice_dept",
+        "rule_of_law"
       ],
       "source_meta": {
         "headline": "October 6, 2025",
@@ -8606,60 +8586,29 @@
       "reported_on": "2025-10-07",
       "dated_by": "occurred",
       "category": "Information & Media Control",
-      "title": "ICYMI: “Illegal crossings along U.S.-Mexico border plummet to lowest annual level since 1970”",
+      "title": "White House issues fact sheet claiming border apprehensions at lowest level since 1970",
       "url": "https://www.whitehouse.gov/releases/2025/10/icymi-illegal-crossings-along-u-s-mexico-border-plummet-to-lowest-annual-level-since-1970/",
-      "summary": "The White House published this release on 2025-10-07 through its releases channel.",
-      "why_relevant": "",
+      "summary": "The White House published a fact sheet on October 7, 2025, asserting that illegal crossings along the U.S.-Mexico border have reached their lowest annual level since the early 1970s. The document cites internal federal statistics obtained by CBS News, reporting nearly 238,000 apprehensions in fiscal year 2025, compared to 2.2 million in fiscal year 2022 under the Biden administration. The fact sheet attributes the reduction to \"President Trump's relentless commitment to securing our homeland\" and characterizes the change as a \"historic victory.\"",
+      "why_relevant": "The White House's issuance of promotional framing around border statistics is relevant to democratic governance insofar as it demonstrates how administrations shape and disseminate data narratives to the public; the document's language (\"crushed,\" \"invasion,\" \"chaos\") reflects the administration's rhetorical framing of immigration policy and border enforcement.",
       "jurisdiction": "federal",
-      "federal_nexus": "Official White House channel; documents the act of publication only.",
+      "federal_nexus": "",
       "confidence": "high",
-      "basis": "official_actor_record",
+      "basis": "President Donald J. Trump's relentless commitment to securing our homeland has crushed illegal crossings at the southern border to the lowest level in over 50 years — another historic victory for American sovereignty and safety under President Trump's leadership.",
       "actor": "The White House",
       "action": "published a release titled \"ICYMI: “Illegal crossings along U.S.-Mexico border plummet to lowest annual level since 1970”\"",
       "act_key": "white house|published a release titled icymi illegal crossings along u s mexico border plummet to lowest annual level since 1970|2025-10-07",
       "attacks": [],
       "source_meta": {
-        "headline": null,
-        "published_on": null,
+        "headline": "ICYMI: “Illegal crossings along U.S.-Mexico border plummet to lowest annual level since 1970”",
+        "published_on": "2025-10-07",
         "byline": null,
-        "outlet": null,
-        "accessed_on": null,
+        "outlet": "The White House",
+        "accessed_on": "2026-08-26T23:01:44Z",
         "snapshot_url": null,
         "durable_keys": {}
       },
       "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
-      "_origin_index": 227
-    },
-    {
-      "source_key": "whitehouse",
-      "date": "2025-10-07",
-      "occurred_on": "2025-10-07",
-      "reported_on": "2025-10-07",
-      "dated_by": "occurred",
-      "category": "Information & Media Control",
-      "title": "President Trump Revives Ambler Road Project to Unlock Alaska’s Critical Minerals, Boost Economy",
-      "url": "https://www.whitehouse.gov/releases/2025/10/president-trump-revives-ambler-road-project-to-unlock-alaskas-critical-minerals-boost-economy/",
-      "summary": "The White House published this release on 2025-10-07 through its releases channel.",
-      "why_relevant": "",
-      "jurisdiction": "federal",
-      "federal_nexus": "Official White House channel; documents the act of publication only.",
-      "confidence": "high",
-      "basis": "official_actor_record",
-      "actor": "The White House",
-      "action": "published a release titled \"President Trump Revives Ambler Road Project to Unlock Alaska’s Critical Minerals, Boost Economy\"",
-      "act_key": "white house|published a release titled president trump revives ambler road project to unlock alaska s critical minerals boost economy|2025-10-07",
-      "attacks": [],
-      "source_meta": {
-        "headline": null,
-        "published_on": null,
-        "byline": null,
-        "outlet": null,
-        "accessed_on": null,
-        "snapshot_url": null,
-        "durable_keys": {}
-      },
-      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
-      "_origin_index": 226
+      "_origin_index": 190
     },
     {
       "source_key": "zeteo",
@@ -9265,10 +9214,10 @@
       "action": "warned about unlawful military attacks",
       "act_key": "new york city bar association|warned about unlawful military attacks|2025-10-07",
       "attacks": [
-        "26",
-        "38",
-        "41",
-        "43"
+        "diplomacy",
+        "peace",
+        "constitution",
+        "rule_of_law"
       ],
       "source_meta": {
         "headline": "October 6, 2025",
@@ -9535,29 +9484,29 @@
       "reported_on": "2025-10-08",
       "dated_by": "occurred",
       "category": "Executive Actions & Orders",
-      "title": "Construction of Arctic Security Cutters",
+      "title": "White House issues presidential memorandum authorizing construction of Arctic Security Cutters abroad",
       "url": "https://www.whitehouse.gov/presidential-actions/2025/10/construction-of-arctic-security-cutters/",
-      "summary": "The White House published this memorandum on 2025-10-08 through its presidential-memoranda channel.",
-      "why_relevant": "",
+      "summary": "President Trump signed a presidential memorandum directing the Secretary of Homeland Security to develop a plan for constructing up to four Arctic Security Cutters (ASCs) in foreign shipyards, citing national security gaps in U.S. Coast Guard icebreaker capacity and Arctic strategic competition. The memorandum invokes national security authority under 14 U.S.C. 1151(b) and 10 U.S.C. 8679(b) to waive domestic construction requirements, requires submission of a phased on-shoring plan within 60 days, and includes a 4-year sunset clause.",
+      "why_relevant": "The memorandum asserts executive authority to override statutory domestic shipbuilding mandates on national security grounds, establishing a precedent for waiving domestic-content requirements in defense procurement.",
       "jurisdiction": "federal",
-      "federal_nexus": "Official White House channel; documents the act of publication only.",
+      "federal_nexus": "",
       "confidence": "high",
-      "basis": "official_actor_record",
+      "basis": "I hereby direct: Section 1. Purpose. The United States faces an urgent and growing threat in the Arctic region posed by strategic competition, aggressive military posturing, and economic encroachment by foreign adversaries.",
       "actor": "The White House",
       "action": "announced a presidential memorandum titled \"Construction of Arctic Security Cutters\"",
       "act_key": "white house|announced a presidential memorandum titled construction of arctic security cutters|2025-10-08",
       "attacks": [],
       "source_meta": {
-        "headline": null,
-        "published_on": null,
+        "headline": "Construction of Arctic Security Cutters",
+        "published_on": "2025-10-08",
         "byline": null,
-        "outlet": null,
-        "accessed_on": null,
+        "outlet": "The White House",
+        "accessed_on": "2026-08-27T01:47:49Z",
         "snapshot_url": null,
         "durable_keys": {}
       },
       "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
-      "_origin_index": 1107
+      "_origin_index": 1049
     },
     {
       "source_key": "zeteo",
@@ -10988,29 +10937,34 @@
       "reported_on": "2025-10-08",
       "dated_by": "occurred",
       "category": "Information & Media Control",
-      "title": "PORTLAND: Fake News Ignores Antifa Violence, Residents’ Pleas for Help",
+      "title": "White House issues release characterizing Portland protests as \"Antifa-led\" terrorism and promoting federal deployment",
       "url": "https://www.whitehouse.gov/releases/2025/10/portland-fake-news-ignores-antifa-violence-residents-pleas-for-help/",
-      "summary": "The White House published this release on 2025-10-08 through its releases channel.",
-      "why_relevant": "",
+      "summary": "The White House published a release titled \"PORTLAND: Fake News Ignores Antifa Violence, Residents' Pleas for Help\" on October 8, 2025. The document characterizes years of Portland protests as an \"Antifa-led hellfire\" involving \"firebombs, beatings, and brazen attacks,\" accuses news media of denial about \"Radical Left's reign of terror,\" and frames federal resource mobilization as necessary to \"safeguard lives and property.\" The release includes resident testimonies supporting National Guard deployment and a chronology of Portland incidents dating to 2016, attributing violence to \"Antifa terrorists\" and \"Antifa militants.\"",
+      "why_relevant": "The release uses official White House channels to delegitimize news media as \"Fake News,\" frame political protest as terrorism, and build public support for federal military deployment in a U.S. city by selectively curating and characterizing civil unrest.",
       "jurisdiction": "federal",
-      "federal_nexus": "Official White House channel; documents the act of publication only.",
+      "federal_nexus": "",
       "confidence": "high",
-      "basis": "official_actor_record",
+      "basis": "the White House is hosting today the fearless independent journalists who have long risked their own safety to shine a light on Portland's descent into chaos\" and \"Antifa-led hellfire has turned Portland into a wasteland of firebombs, beatings, and brazen attacks on federal officers and property — yet the Fake News remains in shameful denial.",
       "actor": "The White House",
       "action": "published a release titled \"PORTLAND: Fake News Ignores Antifa Violence, Residents’ Pleas for Help\"",
       "act_key": "white house|published a release titled portland fake news ignores antifa violence residents pleas for help|2025-10-08",
-      "attacks": [],
+      "attacks": [
+        "press",
+        "information",
+        "civil_society_protest",
+        "truth"
+      ],
       "source_meta": {
-        "headline": null,
-        "published_on": null,
+        "headline": "PORTLAND: Fake News Ignores Antifa Violence, Residents’ Pleas for Help",
+        "published_on": "2025-10-08",
         "byline": null,
-        "outlet": null,
-        "accessed_on": null,
+        "outlet": "The White House",
+        "accessed_on": "2026-08-26T23:01:19Z",
         "snapshot_url": null,
         "durable_keys": {}
       },
       "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
-      "_origin_index": 225
+      "_origin_index": 188
     },
     {
       "source_key": "zeteo",
@@ -11221,29 +11175,29 @@
       "reported_on": "2025-10-08",
       "dated_by": "occurred",
       "category": "Appointments & Patronage",
-      "title": "Nominations Sent to the Senate",
+      "title": "White House sent nomination to Senate for U.S. Ambassador to the Philippines",
       "url": "https://www.whitehouse.gov/presidential-actions/2025/10/nominations-sent-to-the-senate-85f4/",
-      "summary": "The White House published this nominations on 2025-10-08 through its nominations-and-appointments channel.",
-      "why_relevant": "",
+      "summary": "The White House sent a nomination to the Senate on October 8, 2025, for Lee Lipton of Florida to serve as Ambassador Extraordinary and Plenipotentiary of the United States of America to the Republic of the Philippines. The nomination was published on the White House presidential actions page under the Nominations & Appointments category.",
+      "why_relevant": "Ambassadorial nominations are subject to Senate confirmation and represent the executive's exercise of appointment power in foreign service, a core constitutional function requiring legislative oversight.",
       "jurisdiction": "federal",
-      "federal_nexus": "Official White House channel; documents the act of publication only.",
+      "federal_nexus": "",
       "confidence": "high",
-      "basis": "official_actor_record",
+      "basis": "Lee Lipton, of Florida, to be Ambassador Extraordinary and Plenipotentiary of the United States of America to the Republic of the Philippines.",
       "actor": "The White House",
       "action": "published a nominations announcement titled \"Nominations Sent to the Senate\"",
       "act_key": "white house|published a nominations announcement titled nominations sent to the senate|2025-10-08",
       "attacks": [],
       "source_meta": {
-        "headline": null,
-        "published_on": null,
+        "headline": "Nominations Sent to the Senate",
+        "published_on": "2025-10-08",
         "byline": null,
-        "outlet": null,
-        "accessed_on": null,
+        "outlet": "The White House",
+        "accessed_on": "2026-08-27T02:01:31Z",
         "snapshot_url": null,
         "durable_keys": {}
       },
       "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
-      "_origin_index": 1182
+      "_origin_index": 1124
     },
     {
       "source_key": "meidas",
@@ -12052,29 +12006,29 @@
       "reported_on": "2025-10-09",
       "dated_by": "occurred",
       "category": "Executive Actions & Orders",
-      "title": "Columbus Day, 2025",
-      "url": "https://www.whitehouse.gov/presidential-actions/2025/10/columbus-day-2025/",
-      "summary": "The White House published this proclamation on 2025-10-09 through its proclamations channel.",
-      "why_relevant": "",
+      "title": "President Trump issued Leif Erikson Day proclamation",
+      "url": "https://www.whitehouse.gov/presidential-actions/2025/10/leif-erikson-day-2025/",
+      "summary": "The White House issued a proclamation on October 9, 2025, designating that day as Leif Erikson Day. The proclamation honors the Norse explorer Leif Erikson, recounts his voyage to North America around 1000 AD, and celebrates Nordic-American heritage. The proclamation states that Erikson's \"triumphant spirit of exploration has continued to define the American story\" and notes the administration's commitment to strengthening bonds with Nordic nations including Norway, Sweden, Denmark, Iceland, and Finland through \"fair trade and promoting peace through strength.\"",
+      "why_relevant": "While a routine annual proclamation, it is an official act of the presidency and reflects the administration's framing of national identity and historical narrative.",
       "jurisdiction": "federal",
-      "federal_nexus": "Official White House channel; documents the act of publication only.",
+      "federal_nexus": "",
       "confidence": "high",
-      "basis": "official_actor_record",
+      "basis": "NOW, THEREFORE, I, DONALD J. TRUMP, President of the United States of America, by virtue of the authority vested in me by the Constitution and the laws of the United States, do hereby proclaim October 9, 2025, as Leif Erikson Day.",
       "actor": "The White House",
-      "action": "announced a proclamation titled \"Columbus Day, 2025\"",
-      "act_key": "white house|announced a proclamation titled columbus day 2025|2025-10-09",
+      "action": "announced a proclamation titled \"Leif Erikson Day, 2025\"",
+      "act_key": "white house|announced a proclamation titled leif erikson day 2025|2025-10-09",
       "attacks": [],
       "source_meta": {
-        "headline": null,
-        "published_on": null,
+        "headline": "Leif Erikson Day, 2025",
+        "published_on": "2025-10-09",
         "byline": null,
-        "outlet": null,
-        "accessed_on": null,
+        "outlet": "The White House",
+        "accessed_on": "2026-08-27T01:27:33Z",
         "snapshot_url": null,
         "durable_keys": {}
       },
       "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
-      "_origin_index": 999
+      "_origin_index": 940
     },
     {
       "source_key": "whitehouse",
@@ -12083,29 +12037,29 @@
       "reported_on": "2025-10-09",
       "dated_by": "occurred",
       "category": "Executive Actions & Orders",
-      "title": "Leif Erikson Day, 2025",
-      "url": "https://www.whitehouse.gov/presidential-actions/2025/10/leif-erikson-day-2025/",
-      "summary": "The White House published this proclamation on 2025-10-09 through its proclamations channel.",
-      "why_relevant": "",
+      "title": "White House issues fact sheet on Arctic Security Cutters memoranda",
+      "url": "https://www.whitehouse.gov/fact-sheets/2025/10/fact-sheet-president-donald-j-trump-authorizes-construction-of-arctic-security-cutters/",
+      "summary": "The White House issued a fact sheet on October 9, 2025, announcing that President Trump signed a Presidential Memorandum authorizing construction of up to four Arctic Security Cutters (ASCs) in Finnish shipyards, followed by construction of up to seven additional ASCs in U.S. shipyards. The memorandum invokes statutory authority under 14 U.S.C. 1151(b) and 10 U.S.C. 8679(b) to permit foreign construction as a national security necessity. The fact sheet states the Coast Guard currently operates only two ASCs and assesses that at least nine are needed for year-round Arctic operations.",
+      "why_relevant": "The memorandum asserts executive authority to authorize foreign military vessel construction on national security grounds, invoking statutory provisions to bypass domestic shipbuilding requirements and establish a foreign-domestic production partnership.",
       "jurisdiction": "federal",
-      "federal_nexus": "Official White House channel; documents the act of publication only.",
+      "federal_nexus": "",
       "confidence": "high",
-      "basis": "official_actor_record",
+      "basis": "President Donald J. Trump has signed a Presidential Memorandum to authorize the construction of up to four Arctic Security Cutters (ASCs) abroad to address urgent national security needs in the Arctic region.",
       "actor": "The White House",
-      "action": "announced a proclamation titled \"Leif Erikson Day, 2025\"",
-      "act_key": "white house|announced a proclamation titled leif erikson day 2025|2025-10-09",
+      "action": "issued a fact sheet titled \"Fact Sheet: President Donald J. Trump Authorizes Construction of Arctic Security Cutters\"",
+      "act_key": "white house|issued a fact sheet titled fact sheet president donald j trump authorizes construction of arctic security cutters|2025-10-09",
       "attacks": [],
       "source_meta": {
-        "headline": null,
-        "published_on": null,
+        "headline": "Fact Sheet: President Donald J. Trump Authorizes Construction of Arctic Security Cutters",
+        "published_on": "2025-10-09",
         "byline": null,
-        "outlet": null,
-        "accessed_on": null,
+        "outlet": "The White House",
+        "accessed_on": "2026-08-26T23:54:30Z",
         "snapshot_url": null,
         "durable_keys": {}
       },
       "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
-      "_origin_index": 998
+      "_origin_index": 456
     },
     {
       "source_key": "50501",
@@ -13576,11 +13530,11 @@
         "reality_itself"
       ],
       "source_meta": {
-        "headline": null,
-        "published_on": null,
+        "headline": "Columbus Day, 2025",
+        "published_on": "2025-10-09",
         "byline": null,
-        "outlet": null,
-        "accessed_on": null,
+        "outlet": "The White House",
+        "accessed_on": "2026-08-27T01:27:42Z",
         "snapshot_url": null,
         "durable_keys": {}
       },
@@ -13837,60 +13791,32 @@
       "reported_on": "2025-10-09",
       "dated_by": "occurred",
       "category": "Information & Media Control",
-      "title": "Fact Sheet: President Donald J. Trump Authorizes Construction of Arctic Security Cutters",
-      "url": "https://www.whitehouse.gov/fact-sheets/2025/10/fact-sheet-president-donald-j-trump-authorizes-construction-of-arctic-security-cutters/",
-      "summary": "The White House published this fact sheet on 2025-10-09 through its fact-sheets channel.",
-      "why_relevant": "",
+      "title": "White House issued Columbus Day proclamation",
+      "url": "https://www.whitehouse.gov/presidential-actions/2025/10/columbus-day-2025/",
+      "summary": "The White House issued a proclamation on October 9, 2025, designating October 13, 2025, as Columbus Day. The proclamation characterizes Columbus as \"the original American hero\" and \"a giant of Western civilization,\" frames recent efforts to remove Columbus statues and monuments as a \"vicious and merciless campaign to erase our history,\" and states that \"under my leadership, those days are finally over.\" The proclamation directs that the U.S. flag be displayed on all public buildings on Columbus Day.",
+      "why_relevant": "The proclamation uses executive authority to reframe historical narrative and characterize criticism of Columbus as a \"left-wing\" attack on heritage, asserting state power over public memory and the interpretation of national symbols.",
       "jurisdiction": "federal",
-      "federal_nexus": "Official White House channel; documents the act of publication only.",
+      "federal_nexus": "",
       "confidence": "high",
-      "basis": "official_actor_record",
+      "basis": "Christopher Columbus was a true American hero, and every citizen is eternally indebted to his relentless determination. As we celebrate his legacy... Under my leadership, those days are finally over.",
       "actor": "The White House",
-      "action": "issued a fact sheet titled \"Fact Sheet: President Donald J. Trump Authorizes Construction of Arctic Security Cutters\"",
-      "act_key": "white house|issued a fact sheet titled fact sheet president donald j trump authorizes construction of arctic security cutters|2025-10-09",
-      "attacks": [],
+      "action": "announced a proclamation titled \"Columbus Day, 2025\"",
+      "act_key": "white house|announced a proclamation titled columbus day 2025|2025-10-09",
+      "attacks": [
+        "public_memory",
+        "culture_art"
+      ],
       "source_meta": {
-        "headline": null,
-        "published_on": null,
+        "headline": "Columbus Day, 2025",
+        "published_on": "2025-10-09",
         "byline": null,
-        "outlet": null,
-        "accessed_on": null,
+        "outlet": "The White House",
+        "accessed_on": "2026-08-27T01:27:42Z",
         "snapshot_url": null,
         "durable_keys": {}
       },
       "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
-      "_origin_index": 512
-    },
-    {
-      "source_key": "whitehouse",
-      "date": "2025-10-09",
-      "occurred_on": "2025-10-09",
-      "reported_on": "2025-10-09",
-      "dated_by": "occurred",
-      "category": "Information & Media Control",
-      "title": "Schumer Taunts Americans as Democrat Shutdown Crushes Them",
-      "url": "https://www.whitehouse.gov/releases/2025/10/schumer-taunts-americans-as-democrat-shutdown-crushes-them/",
-      "summary": "The White House published this release on 2025-10-09 through its releases channel.",
-      "why_relevant": "",
-      "jurisdiction": "federal",
-      "federal_nexus": "Official White House channel; documents the act of publication only.",
-      "confidence": "high",
-      "basis": "official_actor_record",
-      "actor": "The White House",
-      "action": "published a release titled \"Schumer Taunts Americans as Democrat Shutdown Crushes Them\"",
-      "act_key": "white house|published a release titled schumer taunts americans as democrat shutdown crushes them|2025-10-09",
-      "attacks": [],
-      "source_meta": {
-        "headline": null,
-        "published_on": null,
-        "byline": null,
-        "outlet": null,
-        "accessed_on": null,
-        "snapshot_url": null,
-        "durable_keys": {}
-      },
-      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
-      "_origin_index": 224
+      "_origin_index": 941
     },
     {
       "source_key": "guardian",
@@ -14787,29 +14713,29 @@
       "reported_on": "2025-10-10",
       "dated_by": "occurred",
       "category": "Executive Actions & Orders",
-      "title": "250th Anniversary of the Founding of the United States Navy",
+      "title": "President Trump issued proclamation commemorating the 250th anniversary of the founding of the United States Navy",
       "url": "https://www.whitehouse.gov/presidential-actions/2025/10/250th-anniversary-of-the-founding-of-the-united-states-navy/",
-      "summary": "The White House published this proclamation on 2025-10-10 through its proclamations channel.",
-      "why_relevant": "",
+      "summary": "President Trump signed a proclamation on October 10, 2025, designating October 13, 2025, as a day to commemorate the 250th anniversary of the founding of the United States Navy. The proclamation recounts the Continental Congress's establishment of the Continental Navy on October 13, 1775, and honors the Navy's role throughout American history. It calls upon all Americans to honor the Navy's heritage and the patriotism of those who have served.",
+      "why_relevant": "While primarily ceremonial, the proclamation represents an official executive act designating a national commemoration and affirming the role of military institutions in national identity.",
       "jurisdiction": "federal",
-      "federal_nexus": "Official White House channel; documents the act of publication only.",
+      "federal_nexus": "",
       "confidence": "high",
-      "basis": "official_actor_record",
+      "basis": "I, DONALD J. TRUMP, President of the United States of America, by virtue of the authority vested in me by the Constitution and the laws of the United States, do hereby proclaim October 13, 2025, as a day to commemorate the founding of the United States Navy.",
       "actor": "The White House",
       "action": "announced a proclamation titled \"250th Anniversary of the Founding of the United States Navy\"",
       "act_key": "white house|announced a proclamation titled 250th anniversary of the founding of the united states navy|2025-10-10",
       "attacks": [],
       "source_meta": {
-        "headline": null,
-        "published_on": null,
+        "headline": "250th Anniversary of the Founding of the United States Navy",
+        "published_on": "2025-10-11",
         "byline": null,
-        "outlet": null,
-        "accessed_on": null,
+        "outlet": "The White House",
+        "accessed_on": "2026-08-27T01:27:07Z",
         "snapshot_url": null,
         "durable_keys": {}
       },
       "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
-      "_origin_index": 995
+      "_origin_index": 938
     },
     {
       "source_key": "whitehouse",
@@ -14818,60 +14744,29 @@
       "reported_on": "2025-10-10",
       "dated_by": "occurred",
       "category": "Executive Actions & Orders",
-      "title": "General Pulaski Memorial Day, 2025",
+      "title": "President Trump issued proclamation designating October 11, 2025, as General Pulaski Memorial Day",
       "url": "https://www.whitehouse.gov/presidential-actions/2025/10/general-pulaski-memorial-day-2025/",
-      "summary": "The White House published this proclamation on 2025-10-10 through its proclamations channel.",
-      "why_relevant": "",
+      "summary": "The White House issued a proclamation on October 10, 2025, designating October 11, 2025, as General Pulaski Memorial Day. The proclamation honors Brigadier General Casimir Pulaski, an 18th-century Polish nobleman who fought in the American Revolutionary War, served as commander of the Continental Army's cavalry, and died from wounds sustained at the Siege of Savannah in 1779. The text recounts Pulaski's military service and sacrifice, and encourages Americans to commemorate those who have contributed to the nation.",
+      "why_relevant": "Proclamations are formal executive instruments that establish official observances and shape national commemoration; this one affirms a historical narrative and directs public recognition of a Revolutionary War figure.",
       "jurisdiction": "federal",
-      "federal_nexus": "Official White House channel; documents the act of publication only.",
+      "federal_nexus": "",
       "confidence": "high",
-      "basis": "official_actor_record",
+      "basis": "I, DONALD J. TRUMP, President of the United States of America, by virtue of the authority vested in me by the Constitution and the laws of the United States, do hereby proclaim October 11, 2025, as General Pulaski Memorial Day.",
       "actor": "The White House",
       "action": "announced a proclamation titled \"General Pulaski Memorial Day, 2025\"",
       "act_key": "white house|announced a proclamation titled general pulaski memorial day 2025|2025-10-10",
       "attacks": [],
       "source_meta": {
-        "headline": null,
-        "published_on": null,
+        "headline": "General Pulaski Memorial Day, 2025",
+        "published_on": "2025-10-11",
         "byline": null,
-        "outlet": null,
-        "accessed_on": null,
+        "outlet": "The White House",
+        "accessed_on": "2026-08-27T01:27:15Z",
         "snapshot_url": null,
         "durable_keys": {}
       },
       "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
-      "_origin_index": 996
-    },
-    {
-      "source_key": "whitehouse",
-      "date": "2025-10-10",
-      "occurred_on": "2025-10-10",
-      "reported_on": "2025-10-10",
-      "dated_by": "occurred",
-      "category": "Executive Actions & Orders",
-      "title": "Presidential Message on National Breast Cancer Awareness Month",
-      "url": "https://www.whitehouse.gov/presidential-actions/2025/10/presidential-message-on-national-breast-cancer-awareness-month/",
-      "summary": "The White House published this proclamation on 2025-10-10 through its proclamations channel.",
-      "why_relevant": "",
-      "jurisdiction": "federal",
-      "federal_nexus": "Official White House channel; documents the act of publication only.",
-      "confidence": "high",
-      "basis": "official_actor_record",
-      "actor": "The White House",
-      "action": "announced a proclamation titled \"Presidential Message on National Breast Cancer Awareness Month\"",
-      "act_key": "white house|announced a proclamation titled presidential message on national breast cancer awareness month|2025-10-10",
-      "attacks": [],
-      "source_meta": {
-        "headline": null,
-        "published_on": null,
-        "byline": null,
-        "outlet": null,
-        "accessed_on": null,
-        "snapshot_url": null,
-        "durable_keys": {}
-      },
-      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
-      "_origin_index": 997
+      "_origin_index": 939
     },
     {
       "source_key": "hcr",
@@ -16028,37 +15923,6 @@
       "_origin_index": 416
     },
     {
-      "source_key": "whitehouse",
-      "date": "2025-10-10",
-      "occurred_on": "2025-10-10",
-      "reported_on": "2025-10-10",
-      "dated_by": "occurred",
-      "category": "Information & Media Control",
-      "title": "Fact Sheet: President Donald J. Trump Announces Second Deal to Bring Most-Favored-Nation Pricing to American Patients",
-      "url": "https://www.whitehouse.gov/fact-sheets/2025/10/fact-sheet-president-donald-j-trump-announces-second-deal-to-bring-most-favored-nation-pricing-to-american-patients/",
-      "summary": "The White House published this fact sheet on 2025-10-10 through its fact-sheets channel.",
-      "why_relevant": "",
-      "jurisdiction": "federal",
-      "federal_nexus": "Official White House channel; documents the act of publication only.",
-      "confidence": "high",
-      "basis": "official_actor_record",
-      "actor": "The White House",
-      "action": "issued a fact sheet titled \"Fact Sheet: President Donald J. Trump Announces Second Deal to Bring Most-Favored-Nation Pricing to American Patients\"",
-      "act_key": "white house|issued a fact sheet titled fact sheet president donald j trump announces second deal to bring most favored nation pricing to american patients|2025-10-10",
-      "attacks": [],
-      "source_meta": {
-        "headline": null,
-        "published_on": null,
-        "byline": null,
-        "outlet": null,
-        "accessed_on": null,
-        "snapshot_url": null,
-        "durable_keys": {}
-      },
-      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
-      "_origin_index": 511
-    },
-    {
       "source_key": "guardian",
       "date": "2025-10-10",
       "occurred_on": "2025-10-10",
@@ -16234,6 +16098,37 @@
       "_origin_index": 69
     },
     {
+      "source_key": "whitehouse",
+      "date": "2025-10-10",
+      "occurred_on": "2025-10-10",
+      "reported_on": "2025-10-10",
+      "dated_by": "occurred",
+      "category": "Economic & Regulatory Power",
+      "title": "White House issues fact sheet announcing pharmaceutical pricing agreement with AstraZeneca",
+      "url": "https://www.whitehouse.gov/fact-sheets/2025/10/fact-sheet-president-donald-j-trump-announces-second-deal-to-bring-most-favored-nation-pricing-to-american-patients/",
+      "summary": "The White House issued a fact sheet on October 10, 2025, announcing a second most-favored-nation (MFN) pricing agreement, this time with AstraZeneca. The agreement states it will provide Medicaid programs access to MFN drug prices on AstraZeneca products, claims to result in \"hundreds of millions of dollars in savings,\" and requires the company to invest $50 billion in U.S. manufacturing and R&D by 2030, including a new Virginia facility projected to create 3,600 jobs. The fact sheet frames the deal as addressing higher U.S. drug prices relative to other developed nations.",
+      "why_relevant": "The announcement represents executive action to reshape pharmaceutical pricing through negotiated agreements rather than legislation, asserting executive authority over drug-pricing policy and the structure of pharmaceutical markets.",
+      "jurisdiction": "federal",
+      "federal_nexus": "",
+      "confidence": "high",
+      "basis": "Today, President Donald J. Trump announced the second agreement with a major pharmaceutical company, AstraZeneca, to bring American drug prices in line with the lowest paid by other developed nations.",
+      "actor": "The White House",
+      "action": "issued a fact sheet titled \"Fact Sheet: President Donald J. Trump Announces Second Deal to Bring Most-Favored-Nation Pricing to American Patients\"",
+      "act_key": "white house|issued a fact sheet titled fact sheet president donald j trump announces second deal to bring most favored nation pricing to american patients|2025-10-10",
+      "attacks": [],
+      "source_meta": {
+        "headline": "Fact Sheet: President Donald J. Trump Announces Second Deal to Bring Most-Favored-Nation Pricing to American Patients",
+        "published_on": "2025-10-10",
+        "byline": null,
+        "outlet": "The White House",
+        "accessed_on": "2026-08-26T23:54:19Z",
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
+      "_origin_index": 455
+    },
+    {
       "source_key": "guardian",
       "date": "2025-10-10",
       "occurred_on": "",
@@ -16405,6 +16300,40 @@
       },
       "_origin_file": "guardian_events_2025-09-06_2025-12-12.json",
       "_origin_index": 847
+    },
+    {
+      "source_key": "guardian",
+      "date": "2025-10-10",
+      "occurred_on": "2025-10-10",
+      "reported_on": "2025-12-02",
+      "dated_by": "occurred",
+      "category": "Transparency & Records",
+      "title": "White House releases physician's memo on Trump's October physical exam",
+      "url": "https://www.theguardian.com/us-news/2025/dec/01/trump-mri-results",
+      "summary": "The White House released a memorandum from Sean Barbabella, the president's physician, detailing results of Donald Trump's October 10 comprehensive physical at Walter Reed. The memo stated Trump's cardiovascular and abdominal imaging showed \"perfectly normal\" results with no arterial narrowing, heart abnormalities, or acute concerns. The report did not clarify what body part was scanned via MRI, following Trump's admission he had \"no idea\" what the scan targeted, amid ongoing public questions about his cognitive fitness at age 79.",
+      "why_relevant": "The vague and incomplete disclosure of presidential health information, combined with Trump's own confusion about medical procedures, raises questions about transparency and the public's right to accurate information about the sitting president's fitness for office.",
+      "jurisdiction": "federal",
+      "federal_nexus": "",
+      "confidence": "high",
+      "basis": "The White House on Monday released details of Donald Trump's recent 'comprehensive executive physical' after the president admitted on Sunday night he had 'no idea' what part of his body had been the subject of a magnetic resonance imaging (MRI) scan.",
+      "actor": "White House",
+      "action": "released physician's health memo",
+      "act_key": "white house|released physician s health memo|2025-10-10",
+      "attacks": [
+        "amendment_25",
+        "reality"
+      ],
+      "source_meta": {
+        "headline": "White House insists Trump’s recent physical shows ‘perfectly normal’ health",
+        "published_on": "2025-12-01",
+        "byline": "Richard Luscombe",
+        "outlet": "the Guardian",
+        "accessed_on": "2026-08-11T17:42:45Z",
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "guardian_events_2025-09-06_2025-12-12.json",
+      "_origin_index": 182
     },
     {
       "source_key": "hcr",

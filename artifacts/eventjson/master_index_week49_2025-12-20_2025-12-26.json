@@ -5,20 +5,20 @@
   },
   "week_number": 49,
   "sources": [
-    "shadow",
-    "hcr",
-    "congress",
-    "justsecurity",
     "50501",
-    "justice",
-    "guardian",
-    "meidas",
-    "federalregister",
-    "defense",
-    "noah",
     "popinfo",
     "zeteo",
-    "scotusorders"
+    "justsecurity",
+    "shadow",
+    "federalregister",
+    "guardian",
+    "justice",
+    "congress",
+    "defense",
+    "scotusorders",
+    "noah",
+    "hcr",
+    "meidas"
   ],
   "counts": {
     "total": 331,
@@ -48,17 +48,17 @@
       "congress": 6
     },
     "by_category": {
-      "Executive Actions & Orders": 25,
+      "Executive Actions & Orders": 26,
       "Legislative & Oversight Activity": 23,
       "Judicial Developments": 53,
       "Elections & Representation": 15,
-      "Civil Society & Protest": 19,
+      "Civil Society & Protest": 17,
       "Information & Media Control": 38,
       "Economic & Regulatory Power": 38,
       "Transparency & Records": 45,
       "International Relations": 22,
       "Civil–Military Relations & State Violence": 17,
-      "Law Enforcement & Surveillance": 23,
+      "Law Enforcement & Surveillance": 24,
       "Appointments & Patronage": 11,
       "Intelligence": 1,
       "Courts / Supreme Court / Orders": 1
@@ -155,8 +155,8 @@
       "action": "voted to rename center",
       "act_key": "kennedy center board|voted to rename center|2025-12-20",
       "attacks": [
-        "42",
-        "19"
+        "separation_of_powers",
+        "presidency"
       ],
       "source_meta": {
         "headline": "December 19, 2025",
@@ -189,8 +189,8 @@
       "action": "altered kennedy center signage",
       "act_key": "trump administration|altered kennedy center signage|2025-12-20",
       "attacks": [
-        "42",
-        "19"
+        "separation_of_powers",
+        "presidency"
       ],
       "source_meta": {
         "headline": "December 19, 2025",
@@ -504,33 +504,36 @@
     {
       "source_key": "justice",
       "date": "2025-12-20",
-      "occurred_on": "2025-12-20",
+      "occurred_on": "",
       "reported_on": "2025-12-20",
-      "dated_by": "occurred",
+      "dated_by": "reported",
       "category": "Judicial Developments",
-      "title": "Court Sides with Justice Department by Stopping Michigan from Shutting Down Critical International Pipeline",
+      "title": "Court granted summary judgment for Enbridge, blocking Michigan's shutdown of Line 5 pipeline",
       "url": "https://www.justice.gov/opa/pr/court-sides-justice-department-stopping-michigan-shutting-down-critical-international",
-      "summary": "The Department of Justice announced this on 2025-12-20 through Energy and Natural Resources Division. The recorded stage is a judgment entered. The department's own account of it reads: \"The U.S. District Court for the Western District of Michigan granted Enbridge Energy Limited Partnership (Enbridge)’s motion for summary judgment and stopped the State of Michigan from shutting down a critical international pipeline called Line 5. In September, the Justice Department’s Environment and Natural Resources Division (ENRD) and Civil Division filed a statement of interest in the case.\"",
-      "why_relevant": "",
+      "summary": "The U.S. District Court for the Western District of Michigan granted Enbridge Energy's motion for summary judgment, blocking Michigan's effort to shut down the Line 5 international pipeline. The Justice Department's Environment and Natural Resources Division and Civil Division had filed a statement of interest in September. The court held that federal law preempts Michigan's action on two grounds: the Pipeline Safety Act grants exclusive authority to the U.S. Department of Transportation, and the pipeline is subject to a U.S.-Canada treaty with express federal policy favoring uninterrupted oil flow.",
+      "why_relevant": "The decision establishes federal preemption over state environmental and safety authority regarding interstate and international energy infrastructure, narrowing state regulatory power over critical infrastructure and treaty-governed resources.",
       "jurisdiction": "federal",
-      "federal_nexus": "Official DOJ channel; documents the act of announcement only.",
+      "federal_nexus": "",
       "confidence": "high",
-      "basis": "official_actor_record",
+      "basis": "The U.S. District Court for the Western District of Michigan this week granted Enbridge Energy Limited Partnership (Enbridge)'s motion for summary judgment and stopped the State of Michigan from shutting down a critical international pipeline called Line 5.",
       "actor": "The Department of Justice",
       "action": "announced \"Court Sides with Justice Department by Stopping Michigan from Shutting Down Critical International Pipeline\"",
       "act_key": "department|announced court sides with justice department by stopping michigan from shutting down critical international pipeline|2025-12-20",
-      "attacks": [],
+      "attacks": [
+        "separation_of_powers",
+        "environment"
+      ],
       "source_meta": {
-        "headline": null,
-        "published_on": null,
+        "headline": "Court Sides with Justice Department by Stopping Michigan from Shutting Down Critical International Pipeline",
+        "published_on": "2025-12-20",
         "byline": null,
-        "outlet": null,
-        "accessed_on": null,
+        "outlet": "justice.gov",
+        "accessed_on": "2026-08-27T05:07:13Z",
         "snapshot_url": null,
         "durable_keys": {}
       },
       "_origin_file": "justice_events_2025-01-20_2026-08-14.json",
-      "_origin_index": 249
+      "_origin_index": 248
     },
     {
       "source_key": "guardian",
@@ -814,8 +817,7 @@
       "action": "delivered false economic speech",
       "act_key": "trump|delivered false economic speech|2025-12-20",
       "attacks": [
-        "truth",
-        "11"
+        "truth"
       ],
       "source_meta": {
         "headline": null,
@@ -849,8 +851,7 @@
       "act_key": "trump|posted inflammatory social media claim|2025-12-20",
       "attacks": [
         "truth",
-        "decency",
-        "11"
+        "decency"
       ],
       "source_meta": {
         "headline": "December 19, 2025",
@@ -1082,8 +1083,8 @@
       "action": "released redacted epstein documents",
       "act_key": "department|released redacted epstein documents|2025-12-20",
       "attacks": [
-        "30",
-        "33"
+        "information",
+        "knowledge"
       ],
       "source_meta": {
         "headline": "FBI notes detail grim demands Epstein made for procurement of underage girls",
@@ -1328,8 +1329,8 @@
       "act_key": "department|failed to comply with transparency law|2025-12-20",
       "attacks": [
         "rule_of_law",
-        "30",
-        "42"
+        "information",
+        "separation_of_powers"
       ],
       "source_meta": {
         "headline": "December 19, 2025",
@@ -1746,7 +1747,7 @@
       "act_key": "trump administration|attacked foreign vessels|2025-12-20",
       "attacks": [
         "rule_of_law",
-        "42"
+        "separation_of_powers"
       ],
       "source_meta": {
         "headline": null,
@@ -3262,6 +3263,37 @@
       "_origin_index": 668
     },
     {
+      "source_key": "justice",
+      "date": "2025-12-22",
+      "occurred_on": "2025-12-22",
+      "reported_on": "2025-12-22",
+      "dated_by": "occurred",
+      "category": "Executive Actions & Orders",
+      "title": "Justice Department issues guidance on professional license portability for servicemembers and spouses",
+      "url": "https://www.justice.gov/opa/pr/justice-department-issues-updated-letters-and-fact-sheet-about-professional-license",
+      "summary": "The Department of Justice announced updated materials explaining changes to the Servicemembers Civil Relief Act (SCRA) governing professional license portability. The Civil Rights Division issued letters to state licensing authorities and state bar associations, and a fact sheet, clarifying that servicemembers and their spouses may now use professional licenses in new states when relocating due to military orders. A December 2024 amendment removed restrictions on law license portability, bringing attorney licenses within the provision's scope.",
+      "why_relevant": "The announcement clarifies federal protections for military families' economic mobility and career continuity, reducing barriers to professional practice across state lines during military relocation.",
+      "jurisdiction": "federal",
+      "federal_nexus": "",
+      "confidence": "high",
+      "basis": "The Justice Department announced today that it has issued updated materials explaining recent changes to the law that governs the portability of professional licenses for servicemembers and their spouses.",
+      "actor": "The Department of Justice",
+      "action": "announced \"Justice Department Issues Updated Letters and Fact Sheet About Professional License Portability for Servicemembers and their Spouses\"",
+      "act_key": "department|announced justice department issues updated letters and fact sheet about professional license portability for servicemembers and their spouses|2025-12-22",
+      "attacks": [],
+      "source_meta": {
+        "headline": "Justice Department Issues Updated Letters and Fact Sheet About Professional License Portability for Servicemembers and their Spouses",
+        "published_on": "2025-12-22",
+        "byline": null,
+        "outlet": "justice.gov",
+        "accessed_on": "2026-08-27T05:07:23Z",
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "justice_events_2025-01-20_2026-08-14.json",
+      "_origin_index": 249
+    },
+    {
       "source_key": "meidas",
       "date": "2025-12-22",
       "occurred_on": "",
@@ -3508,60 +3540,29 @@
       "reported_on": "2025-12-22",
       "dated_by": "occurred",
       "category": "Judicial Developments",
-      "title": "Justice Department Sues the District of Columbia for the Unconstitutional Ban of Semi-Automatic Firearms",
+      "title": "Justice Department sues District of Columbia over semi-automatic firearm registration ban",
       "url": "https://www.justice.gov/opa/pr/justice-department-sues-district-columbia-unconstitutional-ban-semi-automatic-firearms",
-      "summary": "The Department of Justice announced this on 2025-12-22 through Civil Rights Division. The recorded stage is a complaint filed. The allegations are unadjudicated; this documents the announcement, not the truth of any allegation. The department's own account of it reads: \"Today, the Justice Department sued the District of Columbia’s Metropolitan Police Department (MPD), alleging that the District government and MPD unconstitutionally ban the AR-15 and many other firearms protected under the Second Amendment.\"",
-      "why_relevant": "",
+      "summary": "The Department of Justice, through its Civil Rights Division and newly established Second Amendment Section, filed a lawsuit against the District of Columbia and its Metropolitan Police Department, alleging that D.C.'s ban on AR-15 and other semi-automatic firearms violates the Second Amendment. The suit challenges the District's registration requirement and pattern of refusing to register protected firearms, claiming the policy unconstitutionally restricts law-abiding citizens' rights to own commonly used weapons for lawful purposes including self-defense.",
+      "why_relevant": "This lawsuit represents a significant shift in federal enforcement priorities, with the newly created Second Amendment Section of the Civil Rights Division using DOJ resources to challenge a local gun regulation, signaling a change in how the department interprets and enforces Second Amendment doctrine.",
       "jurisdiction": "federal",
-      "federal_nexus": "Official DOJ channel; documents the act of announcement only.",
+      "federal_nexus": "",
       "confidence": "high",
-      "basis": "official_actor_record",
+      "basis": "Today, the Justice Department sued the District of Columbia's Metropolitan Police Department (MPD), alleging that the District government and MPD unconstitutionally ban the AR-15 and many other firearms protected under the Second Amendment.",
       "actor": "The Department of Justice",
       "action": "announced \"Justice Department Sues the District of Columbia for the Unconstitutional Ban of Semi-Automatic Firearms\"",
       "act_key": "department|announced justice department sues the district of columbia for the unconstitutional ban of semi automatic firearms|2025-12-22",
       "attacks": [],
       "source_meta": {
-        "headline": null,
-        "published_on": null,
+        "headline": "Justice Department Sues the District of Columbia for the Unconstitutional Ban of Semi-Automatic Firearms",
+        "published_on": "2025-12-22",
         "byline": null,
-        "outlet": null,
-        "accessed_on": null,
+        "outlet": "justice.gov",
+        "accessed_on": "2026-08-27T05:07:34Z",
         "snapshot_url": null,
         "durable_keys": {}
       },
       "_origin_file": "justice_events_2025-01-20_2026-08-14.json",
-      "_origin_index": 251
-    },
-    {
-      "source_key": "justice",
-      "date": "2025-12-22",
-      "occurred_on": "2025-12-22",
-      "reported_on": "2025-12-22",
-      "dated_by": "occurred",
-      "category": "Judicial Developments",
-      "title": "United States Files Complaint Against Stanley Black & Decker, Inc. Alleging Delay in Reporting Hazardous Utility Bars and Miter Saws",
-      "url": "https://www.justice.gov/opa/pr/united-states-files-complaint-against-stanley-black-decker-inc-alleging-delay-reporting",
-      "summary": "The Department of Justice announced this on 2025-12-22 through Civil Rights Division. The recorded stage is a complaint filed. The allegations are unadjudicated; this documents the announcement, not the truth of any allegation. The department's own account of it reads: \"The Justice Department, together with the Consumer Product Safety Commission (CPSC), today announced the filing of a civil enforcement action against Stanley Black & Decker, Inc. (Black & Decker) for alleged violations of the Consumer Product Safety Act (CPSA).\"",
-      "why_relevant": "",
-      "jurisdiction": "federal",
-      "federal_nexus": "Official DOJ channel; documents the act of announcement only.",
-      "confidence": "high",
-      "basis": "official_actor_record",
-      "actor": "The Department of Justice",
-      "action": "announced \"United States Files Complaint Against Stanley Black & Decker, Inc. Alleging Delay in Reporting Hazardous Utility Bars and Miter Saws\"",
-      "act_key": "department|announced united states files complaint against stanley black decker inc alleging delay in reporting hazardous utility bars and miter saws|2025-12-22",
-      "attacks": [],
-      "source_meta": {
-        "headline": null,
-        "published_on": null,
-        "byline": null,
-        "outlet": null,
-        "accessed_on": null,
-        "snapshot_url": null,
-        "durable_keys": {}
-      },
-      "_origin_file": "justice_events_2025-01-20_2026-08-14.json",
-      "_origin_index": 252
+      "_origin_index": 250
     },
     {
       "source_key": "justsecurity",
@@ -4173,6 +4174,37 @@
       "_origin_index": 1345
     },
     {
+      "source_key": "justice",
+      "date": "2025-12-22",
+      "occurred_on": "2025-12-22",
+      "reported_on": "2025-12-22",
+      "dated_by": "occurred",
+      "category": "Law Enforcement & Surveillance",
+      "title": "Department of Justice files civil complaint against Stanley Black & Decker for delayed product-safety reporting",
+      "url": "https://www.justice.gov/opa/pr/united-states-files-complaint-against-stanley-black-decker-inc-alleging-delay-reporting",
+      "summary": "The Department of Justice, together with the Consumer Product Safety Commission, announced a civil enforcement action against Stanley Black & Decker, Inc. in U.S. District Court for the District of Maryland, alleging the company knowingly failed to immediately report to CPSC information about hazardous defects in utility bars and miter saws. The complaint alleges Black & Decker received reports of broken utility bars causing injuries beginning in December 2015 but did not report to CPSC until May 2019, and received hundreds of reports of defective miter saw guards between 2019 and 2022 but did not report until June 2022. The Justice Department seeks monetary civil penalties and injunctive relief.",
+      "why_relevant": "This is routine federal consumer-protection enforcement with no bearing on democratic structure or the independence of prosecution.",
+      "jurisdiction": "federal",
+      "federal_nexus": "",
+      "confidence": "high",
+      "basis": "The Justice Department, together with the Consumer Product Safety Commission (CPSC), today announced the filing of a civil enforcement action against Stanley Black & Decker, Inc.",
+      "actor": "The Department of Justice",
+      "action": "announced \"United States Files Complaint Against Stanley Black & Decker, Inc. Alleging Delay in Reporting Hazardous Utility Bars and Miter Saws\"",
+      "act_key": "department|announced united states files complaint against stanley black decker inc alleging delay in reporting hazardous utility bars and miter saws|2025-12-22",
+      "attacks": [],
+      "source_meta": {
+        "headline": "United States Files Complaint Against Stanley Black & Decker, Inc. Alleging Delay in Reporting Hazardous Utility Bars and Miter Saws",
+        "published_on": "2025-12-22",
+        "byline": null,
+        "outlet": "justice.gov",
+        "accessed_on": "2026-08-27T05:07:45Z",
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "justice_events_2025-01-20_2026-08-14.json",
+      "_origin_index": 251
+    },
+    {
       "source_key": "meidas",
       "date": "2025-12-22",
       "occurred_on": "",
@@ -4408,37 +4440,6 @@
       },
       "_origin_file": "guardian_events_2025-11-29_2026-03-06.json",
       "_origin_index": 1351
-    },
-    {
-      "source_key": "justice",
-      "date": "2025-12-22",
-      "occurred_on": "2025-12-22",
-      "reported_on": "2025-12-22",
-      "dated_by": "occurred",
-      "category": "Civil Society & Protest",
-      "title": "Justice Department Issues Updated Letters and Fact Sheet About Professional License Portability for Servicemembers and their Spouses",
-      "url": "https://www.justice.gov/opa/pr/justice-department-issues-updated-letters-and-fact-sheet-about-professional-license",
-      "summary": "The Department of Justice announced this on 2025-12-22 through Civil Rights Division. The department's own account of it reads: \"The Justice Department announced today that it has issued updated materials explaining recent changes to the law that governs the portability of professional licenses for servicemembers and their spouses.\"",
-      "why_relevant": "",
-      "jurisdiction": "federal",
-      "federal_nexus": "Official DOJ channel; documents the act of announcement only.",
-      "confidence": "high",
-      "basis": "official_actor_record",
-      "actor": "The Department of Justice",
-      "action": "announced \"Justice Department Issues Updated Letters and Fact Sheet About Professional License Portability for Servicemembers and their Spouses\"",
-      "act_key": "department|announced justice department issues updated letters and fact sheet about professional license portability for servicemembers and their spouses|2025-12-22",
-      "attacks": [],
-      "source_meta": {
-        "headline": null,
-        "published_on": null,
-        "byline": null,
-        "outlet": null,
-        "accessed_on": null,
-        "snapshot_url": null,
-        "durable_keys": {}
-      },
-      "_origin_file": "justice_events_2025-01-20_2026-08-14.json",
-      "_origin_index": 250
     },
     {
       "source_key": "hcr",
@@ -6248,9 +6249,9 @@
       "action": "introduced senate resolution",
       "act_key": "chuck schumer|introduced senate resolution|2025-12-23",
       "attacks": [
-        "30",
-        "33",
-        "42"
+        "information",
+        "knowledge",
+        "separation_of_powers"
       ],
       "source_meta": {
         "headline": "Schumer to ask Senate to back legal action over partial Epstein files release",
@@ -6283,9 +6284,9 @@
       "action": "drafted subpoenas and contempt resolution",
       "act_key": "house oversight committee|drafted subpoenas and contempt resolution|2025-12-23",
       "attacks": [
-        "21",
-        "23",
-        "10"
+        "congress",
+        "justice_dept",
+        "sick_vulnerable"
       ],
       "source_meta": {
         "headline": null,
@@ -6591,8 +6592,8 @@
       "action": "issued concurring opinion",
       "act_key": "brett kavanaugh|issued concurring opinion|2025-12-23",
       "attacks": [
-        "3",
-        "43"
+        "minorities",
+        "rule_of_law"
       ],
       "source_meta": {
         "headline": null,
@@ -6625,7 +6626,7 @@
       "action": "rejected military deployment authority",
       "act_key": "scotus|rejected military deployment authority|2025-12-23",
       "attacks": [
-        "42"
+        "separation_of_powers"
       ],
       "source_meta": {
         "headline": null,
@@ -6658,8 +6659,8 @@
       "action": "rejected executive authority claim",
       "act_key": "supreme court united states|rejected executive authority claim|2025-12-23",
       "attacks": [
-        "42",
-        "49"
+        "separation_of_powers",
+        "union"
       ],
       "source_meta": {
         "headline": null,
@@ -6692,8 +6693,8 @@
       "action": "rejected military deployment order",
       "act_key": "supreme court|rejected military deployment order|2025-12-23",
       "attacks": [
-        "42",
-        "41"
+        "separation_of_powers",
+        "constitution"
       ],
       "source_meta": {
         "headline": null,
@@ -6714,29 +6715,63 @@
       "reported_on": "2025-12-23",
       "dated_by": "occurred",
       "category": "Judicial Developments",
-      "title": "Justice Department Reaches Proposed Consent Decree with LivCor, One of America’s Largest Landlords, to Resolve Information Sharing and Algorithmic Coordination Claims",
-      "url": "https://www.justice.gov/opa/pr/justice-department-reaches-proposed-consent-decree-livcor-one-americas-largest-landlords",
-      "summary": "The Department of Justice announced this on 2025-12-23 through Antitrust Division. The recorded stage is a consent decree proposed. The department's own account of it reads: \"WASHINGTON – The Justice Department’s Antitrust Division filed a proposed consent decree today to resolve the United States’ claims against LivCor, LLC, a Blackstone portfolio company, as part of its ongoing enforcement action in the Middle District of North Carolina against algorithmic coordination and other anticompetitive practices in rental markets across the country.\"",
-      "why_relevant": "",
-      "jurisdiction": "federal",
-      "federal_nexus": "Official DOJ channel; documents the act of announcement only.",
+      "title": "Justice Department announces completion of civil rights reform agreement with Orange County District Attorney",
+      "url": "https://www.justice.gov/opa/pr/justice-department-announces-completion-civil-rights-reform-agreement-orange-county-district",
+      "summary": "The Department of Justice announced on December 23, 2025, that the Orange County District Attorney's Office (OCDA) in California has completed implementation of a reform agreement addressing violations of the Sixth and Fourteenth Amendments. The agreement, originally signed January 14, 2025, required OCDA to reform policies, training, information systems, and auditing procedures regarding the use of custodial informants. DOJ had found that OCDA had used custodial informants to elicit incriminating statements from arrested defendants without disclosing evidence about those informants to defense counsel.",
+      "why_relevant": "The announcement documents a completed enforcement action by the Civil Rights Division against a state prosecutor's office for constitutional violations, demonstrating federal oversight of state criminal justice practices and remediation of Sixth and Fourteenth Amendment breaches.",
+      "jurisdiction": "state",
+      "federal_nexus": "The Department of Justice Civil Rights Division enforced federal constitutional protections against a California state prosecutor's office.",
       "confidence": "high",
-      "basis": "official_actor_record",
+      "basis": "OCDA sustained reforms to its policies, training, information systems, and auditing procedures regarding the use of confidential informants\" and \"OCDA had used custodial informants to elicit incriminating statements from people who had been arrested and charged with a crime, in violation of the Sixth Amendment.",
       "actor": "The Department of Justice",
-      "action": "announced \"Justice Department Reaches Proposed Consent Decree with LivCor, One of America’s Largest Landlords, to Resolve Information Sharing and Algorithmic Coordination Claims\"",
-      "act_key": "department|announced justice department reaches proposed consent decree with livcor one of america s largest landlords to resolve information sharing and algorithmic coordination claims|2025-12-23",
+      "action": "announced \"Justice Department Announces Completion of Civil Rights Reform Agreement with Orange County District Attorney\"",
+      "act_key": "department|announced justice department announces completion of civil rights reform agreement with orange county district attorney|2025-12-23",
       "attacks": [],
       "source_meta": {
-        "headline": null,
-        "published_on": null,
+        "headline": "Justice Department Announces Completion of Civil Rights Reform Agreement with Orange County District Attorney",
+        "published_on": "2025-12-23",
         "byline": null,
-        "outlet": null,
-        "accessed_on": null,
+        "outlet": "justice.gov",
+        "accessed_on": "2026-08-27T05:07:56Z",
         "snapshot_url": null,
         "durable_keys": {}
       },
       "_origin_file": "justice_events_2025-01-20_2026-08-14.json",
-      "_origin_index": 254
+      "_origin_index": 252
+    },
+    {
+      "source_key": "justice",
+      "date": "2025-12-23",
+      "occurred_on": "2025-12-23",
+      "reported_on": "2025-12-23",
+      "dated_by": "occurred",
+      "category": "Judicial Developments",
+      "title": "Justice Department files proposed consent decree against LivCor for algorithmic rent coordination",
+      "url": "https://www.justice.gov/opa/pr/justice-department-reaches-proposed-consent-decree-livcor-one-americas-largest-landlords",
+      "summary": "The Department of Justice's Antitrust Division filed a proposed consent decree on December 23, 2025, against LivCor LLC, a Blackstone portfolio company and major U.S. landlord, to resolve allegations of algorithmic coordination and anticompetitive information sharing in rental markets. The decree, filed in the Middle District of North Carolina, follows similar settlements with RealPage, Cortland Management, and Greystar Management Services. If approved, it would prohibit LivCor from using algorithms that incorporate competitors' pricing data, sharing competitively sensitive information, and attending RealPage-hosted landlord meetings.",
+      "why_relevant": "The decree represents federal enforcement against alleged collusive pricing practices that directly affect housing affordability and market competition, a core economic right affecting millions of renters.",
+      "jurisdiction": "federal",
+      "federal_nexus": "",
+      "confidence": "high",
+      "basis": "The Justice Department's Antitrust Division filed a proposed consent decree today to resolve the United States' claims against LivCor, LLC.",
+      "actor": "The Department of Justice",
+      "action": "announced \"Justice Department Reaches Proposed Consent Decree with LivCor, One of America’s Largest Landlords, to Resolve Information Sharing and Algorithmic Coordination Claims\"",
+      "act_key": "department|announced justice department reaches proposed consent decree with livcor one of america s largest landlords to resolve information sharing and algorithmic coordination claims|2025-12-23",
+      "attacks": [
+        "poor",
+        "rule_of_law"
+      ],
+      "source_meta": {
+        "headline": "Justice Department Reaches Proposed Consent Decree with LivCor, One of America’s Largest Landlords, to Resolve Information Sharing and Algorithmic Coordination Claims",
+        "published_on": "2025-12-23",
+        "byline": null,
+        "outlet": "justice.gov",
+        "accessed_on": "2026-08-27T05:08:05Z",
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "justice_events_2025-01-20_2026-08-14.json",
+      "_origin_index": 253
     },
     {
       "source_key": "justsecurity",
@@ -7450,37 +7485,6 @@
       "_origin_index": 3
     },
     {
-      "source_key": "justice",
-      "date": "2025-12-23",
-      "occurred_on": "2025-12-23",
-      "reported_on": "2025-12-23",
-      "dated_by": "occurred",
-      "category": "Civil Society & Protest",
-      "title": "Justice Department Announces Completion of Civil Rights Reform Agreement with Orange County District Attorney",
-      "url": "https://www.justice.gov/opa/pr/justice-department-announces-completion-civil-rights-reform-agreement-orange-county-district",
-      "summary": "The Department of Justice announced this on 2025-12-23 through Civil Rights Division. The department's own account of it reads: \"WASHINGTON – Today, the Justice Department announced the successful completion of the Justice Department’s January 14, 2025 Agreement for the Sustainability of Custodial Informant Reforms with the Orange County District Attorney’s Office (OCDA) in California.\"",
-      "why_relevant": "",
-      "jurisdiction": "federal",
-      "federal_nexus": "Official DOJ channel; documents the act of announcement only.",
-      "confidence": "high",
-      "basis": "official_actor_record",
-      "actor": "The Department of Justice",
-      "action": "announced \"Justice Department Announces Completion of Civil Rights Reform Agreement with Orange County District Attorney\"",
-      "act_key": "department|announced justice department announces completion of civil rights reform agreement with orange county district attorney|2025-12-23",
-      "attacks": [],
-      "source_meta": {
-        "headline": null,
-        "published_on": null,
-        "byline": null,
-        "outlet": null,
-        "accessed_on": null,
-        "snapshot_url": null,
-        "durable_keys": {}
-      },
-      "_origin_file": "justice_events_2025-01-20_2026-08-14.json",
-      "_origin_index": 253
-    },
-    {
       "source_key": "meidas",
       "date": "2025-12-23",
       "occurred_on": "",
@@ -7669,10 +7673,10 @@
       "action": "took control of agency account",
       "act_key": "white house|took control of agency account|2025-12-23",
       "attacks": [
-        "23",
-        "29",
-        "30",
-        "34"
+        "justice_dept",
+        "press",
+        "information",
+        "reality"
       ],
       "source_meta": {
         "headline": null,
@@ -8073,9 +8077,9 @@
       "action": "expressed sympathy for epstein files subjects",
       "act_key": "trump|expressed sympathy for epstein files subjects|2025-12-23",
       "attacks": [
-        "30",
-        "33",
-        "42"
+        "information",
+        "knowledge",
+        "separation_of_powers"
       ],
       "source_meta": {
         "headline": "Trump complains Epstein files are damaging people who ‘innocently met’ him",
@@ -8583,8 +8587,8 @@
       "action": "demanded file release",
       "act_key": "chuck schumer|demanded file release|2025-12-24",
       "attacks": [
-        "30",
-        "10"
+        "information",
+        "sick_vulnerable"
       ],
       "source_meta": {
         "headline": null,
@@ -9701,8 +9705,8 @@
       "action": "announced document release delay",
       "act_key": "doj|announced document release delay|2025-12-24",
       "attacks": [
-        "30",
-        "33"
+        "information",
+        "knowledge"
       ],
       "source_meta": {
         "headline": "US justice department says it may need ‘a few more weeks’ to process 1m more Epstein documents for release",
@@ -9770,9 +9774,9 @@
       "action": "delayed document release",
       "act_key": "department|delayed document release|2025-12-24",
       "attacks": [
-        "30",
-        "33",
-        "10"
+        "information",
+        "knowledge",
+        "sick_vulnerable"
       ],
       "source_meta": {
         "headline": null,
@@ -10075,9 +10079,9 @@
       "action": "posted social media message",
       "act_key": "trump|posted social media message|2025-12-25",
       "attacks": [
-        "11",
-        "34",
-        "19"
+        "truth",
+        "reality",
+        "presidency"
       ],
       "source_meta": {
         "headline": null,
@@ -10110,10 +10114,10 @@
       "action": "posted social media message",
       "act_key": "trump|posted social media message|2025-12-25",
       "attacks": [
-        "11",
-        "23",
-        "34",
-        "19"
+        "truth",
+        "justice_dept",
+        "reality",
+        "presidency"
       ],
       "source_meta": {
         "headline": null,

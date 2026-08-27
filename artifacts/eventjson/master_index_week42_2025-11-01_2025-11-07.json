@@ -5,45 +5,45 @@
   },
   "week_number": 42,
   "sources": [
-    "shadow",
-    "hcr",
-    "whitehouse",
-    "justsecurity",
-    "50501",
-    "justice",
-    "guardian",
-    "meidas",
-    "democracydocket",
-    "federalregister",
     "outloud",
-    "defense",
-    "orders",
-    "noah",
+    "50501",
     "popinfo",
+    "orders",
     "zeteo",
-    "scotusorders"
+    "justsecurity",
+    "shadow",
+    "federalregister",
+    "guardian",
+    "justice",
+    "whitehouse",
+    "defense",
+    "noah",
+    "scotusorders",
+    "hcr",
+    "meidas",
+    "democracydocket"
   ],
   "counts": {
-    "total": 475,
+    "total": 472,
     "by_date": {
-      "2025-11-01": 58,
+      "2025-11-01": 57,
       "2025-11-02": 47,
-      "2025-11-03": 54,
+      "2025-11-03": 53,
       "2025-11-04": 113,
       "2025-11-05": 65,
       "2025-11-06": 79,
-      "2025-11-07": 59
+      "2025-11-07": 58
     },
     "by_source": {
       "50501": 32,
       "hcr": 82,
-      "guardian": 109,
+      "guardian": 108,
       "popinfo": 18,
       "zeteo": 47,
       "justsecurity": 16,
       "noah": 4,
       "meidas": 110,
-      "whitehouse": 14,
+      "whitehouse": 12,
       "defense": 4,
       "democracydocket": 11,
       "federalregister": 16,
@@ -54,14 +54,14 @@
       "justice": 2
     },
     "by_category": {
-      "Executive Actions & Orders": 39,
+      "Executive Actions & Orders": 38,
       "Legislative & Oversight Activity": 49,
       "Judicial Developments": 76,
-      "Law Enforcement & Surveillance": 45,
+      "Law Enforcement & Surveillance": 44,
       "Elections & Representation": 85,
-      "Civil Society & Protest": 29,
-      "Information & Media Control": 47,
-      "Economic & Regulatory Power": 51,
+      "Civil Society & Protest": 28,
+      "Information & Media Control": 42,
+      "Economic & Regulatory Power": 56,
       "Appointments & Patronage": 18,
       "Transparency & Records": 7,
       "Civil–Military Relations & State Violence": 13,
@@ -709,51 +709,17 @@
       "source_key": "guardian",
       "date": "2025-11-01",
       "occurred_on": "2025-11-01",
-      "reported_on": "2025-12-06",
-      "dated_by": "occurred",
-      "category": "Law Enforcement & Surveillance",
-      "title": "ICE agent deployed dog against unresisting detainee, causing severe injuries",
-      "url": "https://www.theguardian.com/us-news/2025/dec/06/us-senator-ice-attack-dog-horrific-injuries",
-      "summary": "Senator Patty Murray reported that ICE agents detained her constituent Wilmer Toledo-Martinez in November using deceptive tactics—an agent posed as a construction worker to lure him outside, then a second agent released a dog on him without resistance or flight attempt. Toledo-Martinez suffered deep lacerations requiring hospitalization and stitches. Murray stated he was denied medical care for hours and prescribed antibiotics that were not provided. She called for his immediate release and condemned the use of force against a peaceful resident.",
-      "why_relevant": "The incident exemplifies potential abuse of enforcement power against an undocumented immigrant, raising questions about ICE operational standards, use-of-force protocols, and accountability in immigration detention.",
-      "jurisdiction": "federal",
-      "federal_nexus": "",
-      "confidence": "high",
-      "basis": "An ICE agent lured Wilmer out of his home under false pretenses...Another agent, accompanied by a dog, was hiding nearby and released the dog on Wilmer shortly after he stepped outside.",
-      "actor": "ICE",
-      "action": "deployed dog against detainee",
-      "act_key": "ice|deployed dog against detainee|2025-11-01",
-      "attacks": [
-        "immigrants_refugees",
-        "justice_dept"
-      ],
-      "source_meta": {
-        "headline": "Senator says ICE ‘attack dog’ caused ‘horrific’ injuries to unresisting man as he was detained",
-        "published_on": "2025-12-06",
-        "byline": "Adam Gabbatt",
-        "outlet": "the Guardian",
-        "accessed_on": "2026-08-11T17:24:28Z",
-        "snapshot_url": null,
-        "durable_keys": {}
-      },
-      "_origin_file": "guardian_events_2025-11-29_2026-03-06.json",
-      "_origin_index": 1545
-    },
-    {
-      "source_key": "guardian",
-      "date": "2025-11-01",
-      "occurred_on": "2025-11-01",
       "reported_on": "2025-12-08",
       "dated_by": "occurred",
       "category": "Law Enforcement & Surveillance",
       "title": "ICE detention and release of Bruna Ferreira, mother of White House press secretary's nephew",
       "url": "https://www.theguardian.com/us-news/2025/dec/08/karoline-leavitt-nephew-ice-arrest",
-      "summary": "Bruna Ferreira, a 33-year-old Brazilian-born woman and mother of White House press secretary Karoline Leavitt's nephew, was detained by U.S. Immigration and Customs Enforcement (ICE) in November 2025 during a traffic stop in Massachusetts and held at a Louisiana detention center. She was released on a $1,500 bond on December 8 after an immigration judge ordered her release on the lowest-dollar bail possible. Ferreira disputed White House characterizations of her as an absentee parent, stating she actively participates in her son's life. The DHS did not object to her release.",
-      "why_relevant": "The detention of a family member of a sitting White House official raises questions about potential political motivation, selective enforcement, and the use of immigration enforcement against individuals with government connections.",
+      "summary": "Bruna Ferreira, a 33-year-old Brazilian-born woman and mother of White House press secretary Karoline Leavitt's nephew, was detained by U.S. Immigration and Customs Enforcement (ICE) in November 2025 during a traffic stop in Massachusetts and held at a Louisiana detention center. An immigration judge ordered her release on a $1,500 bond in early December. Ferreira disputed White House characterizations of her as an absentee parent, stating she actively participates in her son's life. The DHS did not object to her release.",
+      "why_relevant": "The detention of a family member of a senior White House official raises questions about potential political motivation, selective enforcement, and the use of immigration enforcement against individuals with connections to government figures.",
       "jurisdiction": "federal",
       "federal_nexus": "",
       "confidence": "high",
-      "basis": "Bruna Ferreira, who was detained by US Immigration and Customs Enforcement (ICE) in November during a traffic stop in Massachusetts and was being held at a Louisiana detention center, said in an interview with the Washington Post that the White House's statements that she had never lived with her son or spoken with Leavitt 'in many years' were incorrect.",
+      "basis": "Bruna Ferreira, who was detained by US Immigration and Customs Enforcement (ICE) in November during a traffic stop in Massachusetts and was being held at a Louisiana detention center",
       "actor": "ICE",
       "action": "detained and released immigrant on bond",
       "act_key": "ice|detained and released immigrant on bond|2025-11-01",
@@ -770,8 +736,8 @@
         "snapshot_url": null,
         "durable_keys": {}
       },
-      "_origin_file": "guardian_events_2025-11-29_2026-03-06.json",
-      "_origin_index": 1527
+      "_origin_file": "guardian_events_2025-09-06_2025-12-12.json",
+      "_origin_index": 59
     },
     {
       "source_key": "guardian",
@@ -1458,37 +1424,6 @@
       "_origin_index": 1326
     },
     {
-      "source_key": "whitehouse",
-      "date": "2025-11-01",
-      "occurred_on": "2025-11-01",
-      "reported_on": "2025-11-01",
-      "dated_by": "occurred",
-      "category": "Information & Media Control",
-      "title": "Fact Sheet: President Donald J. Trump Strikes Deal on Economic and Trade Relations with China",
-      "url": "https://www.whitehouse.gov/fact-sheets/2025/11/fact-sheet-president-donald-j-trump-strikes-deal-on-economic-and-trade-relations-with-china/",
-      "summary": "The White House published this fact sheet on 2025-11-01 through its fact-sheets channel.",
-      "why_relevant": "",
-      "jurisdiction": "federal",
-      "federal_nexus": "Official White House channel; documents the act of publication only.",
-      "confidence": "high",
-      "basis": "official_actor_record",
-      "actor": "The White House",
-      "action": "issued a fact sheet titled \"Fact Sheet: President Donald J. Trump Strikes Deal on Economic and Trade Relations with China\"",
-      "act_key": "white house|issued a fact sheet titled fact sheet president donald j trump strikes deal on economic and trade relations with china|2025-11-01",
-      "attacks": [],
-      "source_meta": {
-        "headline": null,
-        "published_on": null,
-        "byline": null,
-        "outlet": null,
-        "accessed_on": null,
-        "snapshot_url": null,
-        "durable_keys": {}
-      },
-      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
-      "_origin_index": 502
-    },
-    {
       "source_key": "50501",
       "date": "2025-11-01",
       "occurred_on": "2025-11-01",
@@ -1797,6 +1732,39 @@
       },
       "_origin_file": "popinfo_events_2026-03-07_2026-05-15.json",
       "_origin_index": 74
+    },
+    {
+      "source_key": "whitehouse",
+      "date": "2025-11-01",
+      "occurred_on": "2025-11-01",
+      "reported_on": "2025-11-01",
+      "dated_by": "occurred",
+      "category": "Economic & Regulatory Power",
+      "title": "White House issues fact sheet on U.S.-China trade and economic agreement",
+      "url": "https://www.whitehouse.gov/fact-sheets/2025/11/fact-sheet-president-donald-j-trump-strikes-deal-on-economic-and-trade-relations-with-china/",
+      "summary": "The White House published a fact sheet announcing a trade and economic deal between President Trump and Chinese President Xi Jinping, reached during Trump's visit to South Korea. The agreement states that China will halt fentanyl precursor shipments, suspend export controls on rare earth elements and critical minerals, end retaliatory tariffs on U.S. agricultural products, purchase specified quantities of U.S. soybeans, and suspend investigations targeting U.S. semiconductor companies. In return, the United States will reduce tariffs on Chinese imports by 10 percentage points, extend tariff exclusions, and suspend certain end-user control rules and maritime-sector investigations for one year.",
+      "why_relevant": "The agreement materially alters U.S.-China trade relations and tariff policy, affecting domestic economic conditions, supply chains, and the executive's unilateral authority over trade enforcement and tariff implementation.",
+      "jurisdiction": "federal",
+      "federal_nexus": "",
+      "confidence": "high",
+      "basis": "President Donald J. Trump reached a trade and economic deal with President Xi Jinping of China—a massive victory that safeguards U.S. economic strength and national security while putting American workers, farmers, and families first.",
+      "actor": "The White House",
+      "action": "issued a fact sheet titled \"Fact Sheet: President Donald J. Trump Strikes Deal on Economic and Trade Relations with China\"",
+      "act_key": "white house|issued a fact sheet titled fact sheet president donald j trump strikes deal on economic and trade relations with china|2025-11-01",
+      "attacks": [
+        "trade"
+      ],
+      "source_meta": {
+        "headline": "Fact Sheet: President Donald J. Trump Strikes Deal on Economic and Trade Relations with China",
+        "published_on": "2025-11-01",
+        "byline": null,
+        "outlet": "The White House",
+        "accessed_on": "2026-08-26T23:52:33Z",
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
+      "_origin_index": 446
     },
     {
       "source_key": "zeteo",
@@ -3802,20 +3770,20 @@
       "category": "Judicial Developments",
       "title": "Immigration judge denies bond for detained photojournalist",
       "url": "https://www.theguardian.com/us-news/2025/dec/12/photojournalist-detained-ice-social-media",
-      "summary": "On November 3, 2025, an immigration judge denied bond for Ya'akub Vijandre, ruling she could not release him pending resolution of his immigration case. The judge cited federal immigration law prohibiting endorsement or espousal of terroristic activity, based on Vijandre's social media posts about controversial terrorism cases and Islamic religious content. Vijandre's legal team filed an amended habeas corpus petition on November 10 challenging the detention.",
-      "why_relevant": "The denial of bond based on interpretation of social media posts as terrorism-related speech sets a precedent for detention without bail based on constitutionally protected expression, particularly when that expression involves religious content or criticism of government actions.",
+      "summary": "On November 3, 2025, an immigration judge denied bond for Ya'akub Vijandre, ruling she could not release him while his immigration case proceeds. The judge cited federal immigration law against \"endorsing or espousing terroristic activity,\" finding that Vijandre's social media posts—including religious content and commentary on controversial terrorism cases—appeared to violate that statute. The ruling kept Vijandre in Folkston detention center in Georgia.",
+      "why_relevant": "A judicial ruling that treats religious expression and commentary on due-process violations as terrorism-related conduct undermines First Amendment protections and fair application of law.",
       "jurisdiction": "federal",
       "federal_nexus": "",
       "confidence": "high",
       "basis": "an immigration judge ruled on 3 November that she could not release him on bond.",
-      "actor": "immigration judge",
-      "action": "denied bond for detainee",
-      "act_key": "immigration|denied bond for detainee|2025-11-03",
+      "actor": "Immigration Judge",
+      "action": "denied bond in immigration proceeding",
+      "act_key": "immigration|denied bond in immigration proceeding|2025-11-03",
       "attacks": [
         "faith",
+        "truth",
         "press",
-        "rule_of_law",
-        "justice_dept"
+        "rule_of_law"
       ],
       "source_meta": {
         "headline": "‘They attacked my religion, my faith’: Muslim photojournalist detained by ICE speaks out",
@@ -3826,8 +3794,8 @@
         "snapshot_url": null,
         "durable_keys": {}
       },
-      "_origin_file": "guardian_events_2025-11-29_2026-03-06.json",
-      "_origin_index": 1480
+      "_origin_file": "guardian_events_2025-09-06_2025-12-12.json",
+      "_origin_index": 9
     },
     {
       "source_key": "justsecurity",
@@ -4767,60 +4735,33 @@
       "reported_on": "2025-11-03",
       "dated_by": "occurred",
       "category": "Information & Media Control",
-      "title": "President Trump on 60 Minutes: “Greatest Nine Months in the History of the Presidency”",
-      "url": "https://www.whitehouse.gov/releases/2025/11/president-trump-60-minutes-greatest-nine-months-in-the-history-of-the-presidency/",
-      "summary": "The White House published this release on 2025-11-03 through its releases channel.",
-      "why_relevant": "",
-      "jurisdiction": "federal",
-      "federal_nexus": "Official White House channel; documents the act of publication only.",
-      "confidence": "high",
-      "basis": "official_actor_record",
-      "actor": "The White House",
-      "action": "published a release titled \"President Trump on 60 Minutes: “Greatest Nine Months in the History of the Presidency”\"",
-      "act_key": "white house|published a release titled president trump on 60 minutes greatest nine months in the history of the presidency|2025-11-03",
-      "attacks": [],
-      "source_meta": {
-        "headline": null,
-        "published_on": null,
-        "byline": null,
-        "outlet": null,
-        "accessed_on": null,
-        "snapshot_url": null,
-        "durable_keys": {}
-      },
-      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
-      "_origin_index": 209
-    },
-    {
-      "source_key": "whitehouse",
-      "date": "2025-11-03",
-      "occurred_on": "2025-11-03",
-      "reported_on": "2025-11-03",
-      "dated_by": "occurred",
-      "category": "Information & Media Control",
-      "title": "Thank a Democrat for Five-Hour TSA Lines, Mass Flight Delays",
+      "title": "White House issues fact sheet attributing TSA delays and flight disruptions to Democratic shutdown",
       "url": "https://www.whitehouse.gov/releases/2025/11/thank-a-democrat-for-five-hour-tsa-lines-mass-flight-delays/",
-      "summary": "The White House published this release on 2025-11-03 through its releases channel.",
-      "why_relevant": "",
+      "summary": "The White House published a fact sheet blaming Democrats for TSA checkpoint delays and flight disruptions during a government shutdown. The document claims TSA wait times exceeded three to five hours at Houston airports, staffing shortages at half the nation's busiest airports, and four times as many air traffic control facility shortages compared to the prior year. It states $1+ billion in weekly travel-related spending is lost and calls on Democrats to pass a continuing resolution.",
+      "why_relevant": "The document is a partisan attack framed as factual reporting, using government communications infrastructure to assign blame for operational failures to a political opponent rather than to present neutral information about the shutdown's effects.",
       "jurisdiction": "federal",
-      "federal_nexus": "Official White House channel; documents the act of publication only.",
+      "federal_nexus": "",
       "confidence": "high",
-      "basis": "official_actor_record",
+      "basis": "Americans are paying the price for Democrats' sick political games as air travel grinds to a halt amid the Democrat-driven chaos.",
       "actor": "The White House",
       "action": "published a release titled \"Thank a Democrat for Five-Hour TSA Lines, Mass Flight Delays\"",
       "act_key": "white house|published a release titled thank a democrat for five hour tsa lines mass flight delays|2025-11-03",
-      "attacks": [],
+      "attacks": [
+        "truth",
+        "information",
+        "decency"
+      ],
       "source_meta": {
-        "headline": null,
-        "published_on": null,
+        "headline": "Thank a Democrat for Five-Hour TSA Lines, Mass Flight Delays",
+        "published_on": "2025-11-03",
         "byline": null,
-        "outlet": null,
-        "accessed_on": null,
+        "outlet": "The White House",
+        "accessed_on": "2026-08-26T22:58:06Z",
         "snapshot_url": null,
         "durable_keys": {}
       },
       "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
-      "_origin_index": 208
+      "_origin_index": 177
     },
     {
       "source_key": "zeteo",
@@ -5680,68 +5621,6 @@
       },
       "_origin_file": "meidas_events_2025-09-06_2025-12-12.json",
       "_origin_index": 562
-    },
-    {
-      "source_key": "whitehouse",
-      "date": "2025-11-04",
-      "occurred_on": "2025-11-04",
-      "reported_on": "2025-11-04",
-      "dated_by": "occurred",
-      "category": "Executive Actions & Orders",
-      "title": "Modifying Duties Addressing the Synthetic Opioid Supply Chain in the People’s Republic of China",
-      "url": "https://www.whitehouse.gov/presidential-actions/2025/11/modifying-duties-addressing-the-synthetic-opioid-supply-chain-in-the-peoples-republic-of-china/",
-      "summary": "The White House published this executive order on 2025-11-04 through its executive-orders channel.",
-      "why_relevant": "",
-      "jurisdiction": "federal",
-      "federal_nexus": "Official White House channel; documents the act of publication only.",
-      "confidence": "high",
-      "basis": "official_actor_record",
-      "actor": "The White House",
-      "action": "announced an executive order titled \"Modifying Duties Addressing the Synthetic Opioid Supply Chain in the People’s Republic of China\"",
-      "act_key": "white house|announced an executive order titled modifying duties addressing the synthetic opioid supply chain in the people s republic of china|2025-11-04",
-      "attacks": [],
-      "source_meta": {
-        "headline": null,
-        "published_on": null,
-        "byline": null,
-        "outlet": null,
-        "accessed_on": null,
-        "snapshot_url": null,
-        "durable_keys": {}
-      },
-      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
-      "_origin_index": 801
-    },
-    {
-      "source_key": "whitehouse",
-      "date": "2025-11-04",
-      "occurred_on": "2025-11-04",
-      "reported_on": "2025-11-04",
-      "dated_by": "occurred",
-      "category": "Executive Actions & Orders",
-      "title": "Modifying Reciprocal Tariff Rates Consistent with the Economic and Trade Arrangement Between the United States and the People’s Republic of China",
-      "url": "https://www.whitehouse.gov/presidential-actions/2025/11/modifying-reciprocal-tariff-rates-consistent-with-the-economic-and-trade-arrangement-between-the-united-states-and-the-peoples-republic-of-china/",
-      "summary": "The White House published this executive order on 2025-11-04 through its executive-orders channel.",
-      "why_relevant": "",
-      "jurisdiction": "federal",
-      "federal_nexus": "Official White House channel; documents the act of publication only.",
-      "confidence": "high",
-      "basis": "official_actor_record",
-      "actor": "The White House",
-      "action": "announced an executive order titled \"Modifying Reciprocal Tariff Rates Consistent with the Economic and Trade Arrangement Between the United States and the People’s Republic of China\"",
-      "act_key": "white house|announced an executive order titled modifying reciprocal tariff rates consistent with the economic and trade arrangement between the united states and the people s republic of china|2025-11-04",
-      "attacks": [],
-      "source_meta": {
-        "headline": null,
-        "published_on": null,
-        "byline": null,
-        "outlet": null,
-        "accessed_on": null,
-        "snapshot_url": null,
-        "durable_keys": {}
-      },
-      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
-      "_origin_index": 800
     },
     {
       "source_key": "zeteo",
@@ -7388,15 +7267,15 @@
       "category": "Elections & Representation",
       "title": "Katie Wilson elected mayor of Seattle",
       "url": "https://www.theguardian.com/us-news/2025/nov/26/katie-wilson-seattle-mayor",
-      "summary": "Katie Wilson, a community organizer and progressive challenger, won Seattle's mayoral race on November 4, 2025, defeating incumbent Bruce Harrell after eight days of mail-ballot counting. Wilson, who co-founded the Transit Riders Union in 2011 and spent 14 years building grassroots power on transit access, housing, and wages, ran a decentralized volunteer-driven campaign with minimal paid staff. Despite being outspent two-to-one by Harrell's big-money campaign, Wilson secured just over 50% of the vote in what observers described as the tightest mayoral race in Seattle's recent history.",
-      "why_relevant": "Wilson's victory demonstrates that grassroots organizing and volunteer mobilization can overcome institutional money and incumbency in municipal elections, signaling a shift in how progressive candidates can build power outside traditional political structures.",
+      "summary": "Katie Wilson, a community organizer and progressive challenger, won Seattle's mayoral race on November 4, 2025, defeating incumbent Bruce Harrell. Wilson, who co-founded the Transit Riders Union in 2011 and spent 14 years organizing campaigns for transit access, minimum wage increases, and housing, built her campaign on a decentralized volunteer network of 2,000 supporters rather than big-money fundraising. She won with just over 50% of the vote in the tightest mayoral race in Seattle's recent history, despite being outspent two-to-one by Harrell's campaign.",
+      "why_relevant": "Wilson's victory demonstrates that grassroots organizing and volunteer mobilization can overcome institutional money and incumbency in municipal elections, signaling a shift in how progressive candidates can build power at the local level.",
       "jurisdiction": "local",
       "federal_nexus": "",
       "confidence": "high",
       "basis": "Eight days after the election, Seattle declared that Wilson would be the next mayor of Seattle.",
       "actor": "Katie Wilson",
-      "action": "elected mayor",
-      "act_key": "katie wilson|elected mayor|2025-11-04",
+      "action": "elected mayor of seattle",
+      "act_key": "katie wilson|elected mayor of seattle|2025-11-04",
       "attacks": [],
       "source_meta": {
         "headline": "How an ‘unknown’ organizer became Seattle’s next mayor: ‘People want to see themselves reflected in office’",
@@ -7407,8 +7286,8 @@
         "snapshot_url": null,
         "durable_keys": {}
       },
-      "_origin_file": "guardian_events_2025-11-22_2025-11-28.json",
-      "_origin_index": 26
+      "_origin_file": "guardian_events_2025-09-06_2025-12-12.json",
+      "_origin_index": 224
     },
     {
       "source_key": "hcr",
@@ -8137,8 +8016,7 @@
       "act_key": "washington post|published investigative series|2025-11-04",
       "attacks": [
         "veterans",
-        "truth",
-        "11"
+        "truth"
       ],
       "source_meta": {
         "headline": "The trouble with US veterans benefits isn’t ‘rampant’ fraud – it’s bureaucratic roadblocks, advocates say",
@@ -8728,6 +8606,70 @@
       },
       "_origin_file": "popinfo_events_2025-09-06_2025-12-12.json",
       "_origin_index": 73
+    },
+    {
+      "source_key": "whitehouse",
+      "date": "2025-11-04",
+      "occurred_on": "2025-11-04",
+      "reported_on": "2025-11-04",
+      "dated_by": "occurred",
+      "category": "Economic & Regulatory Power",
+      "title": "Trump signed Executive Order 14358 suspending heightened reciprocal tariffs on Chinese imports through November 10, 2026, implementing a trade arrangement reached with President Xi Jinping.",
+      "url": "https://www.whitehouse.gov/presidential-actions/2025/11/modifying-reciprocal-tariff-rates-consistent-with-the-economic-and-trade-arrangement-between-the-united-states-and-the-peoples-republic-of-china/",
+      "summary": "President Trump signed Executive Order 14358 on November 4, 2025, continuing the suspension of heightened reciprocal tariffs on People's Republic of China imports until November 10, 2026. The order implements a trade arrangement (the \"Kuala Lumpur Joint Arrangement\") reached following Trump's October 30, 2025 meeting with President Xi Jinping. Under the arrangement, the PRC committed to suspend rare earth export controls, address retaliation against U.S. semiconductor manufacturers, purchase U.S. agricultural exports, and suspend retaliatory tariffs on U.S. agricultural products until December 31, 2026. The U.S. committed to maintain the tariff suspension. The order directs Treasury, Commerce, and the U.S. Trade Representative to monitor PRC compliance and report to the President.",
+      "why_relevant": "The order exercises executive authority over trade policy and tariff rates, suspending duties imposed under prior emergency declarations and conditioning their reinstatement on foreign government compliance with bilateral commitments, raising questions about the scope of emergency powers and executive discretion over commerce.",
+      "jurisdiction": "federal",
+      "federal_nexus": "",
+      "confidence": "high",
+      "basis": "I determine that it is necessary and appropriate to continue the suspension of the heightened reciprocal tariffs on imports of the PRC until 12:01 a.m. eastern standard time on November 10, 2026.",
+      "actor": "The White House",
+      "action": "announced an executive order titled \"Modifying Reciprocal Tariff Rates Consistent with the Economic and Trade Arrangement Between the United States and the People’s Republic of China\"",
+      "act_key": "white house|announced an executive order titled modifying reciprocal tariff rates consistent with the economic and trade arrangement between the united states and the people s republic of china|2025-11-04",
+      "attacks": [
+        "trade"
+      ],
+      "source_meta": {
+        "headline": "Modifying Reciprocal Tariff Rates Consistent with the Economic and Trade Arrangement Between the United States and the People's Republic of China",
+        "published_on": "2025-11-04",
+        "byline": null,
+        "outlet": "The White House",
+        "accessed_on": "2026-08-27T00:49:31Z",
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
+      "_origin_index": 744
+    },
+    {
+      "source_key": "whitehouse",
+      "date": "2025-11-04",
+      "occurred_on": "2025-11-04",
+      "reported_on": "2025-11-04",
+      "dated_by": "occurred",
+      "category": "Economic & Regulatory Power",
+      "title": "Trump signed executive order reducing tariffs on Chinese goods from 20% to 10% in exchange for PRC commitments on fentanyl precursor controls",
+      "url": "https://www.whitehouse.gov/presidential-actions/2025/11/modifying-duties-addressing-the-synthetic-opioid-supply-chain-in-the-peoples-republic-of-china/",
+      "summary": "President Trump signed Executive Order 14357 on November 4, 2025, reducing additional tariffs on products of the People's Republic of China from 20 percent to 10 percent, effective November 10, 2025. The order states the reduction follows discussions with the PRC and its commitment to take measures to end fentanyl flows to the United States, including stopping shipment of designated chemicals to North America and strictly controlling exports of other chemicals globally. The order directs the Secretary of Homeland Security to monitor PRC implementation and authorizes modification if commitments are not met.",
+      "why_relevant": "The order exercises emergency economic powers under IEEPA to modulate trade policy based on a foreign government's stated commitments, establishing a conditional tariff regime that ties U.S. trade leverage to compliance with drug-control measures.",
+      "jurisdiction": "federal",
+      "federal_nexus": "",
+      "confidence": "high",
+      "basis": "the United States committed to, among other things, reduce the additional ad valorem rate of duty applicable under Executive Order 14195, as amended, from 20 percent to 10 percent, effective November 10, 2025.",
+      "actor": "The White House",
+      "action": "announced an executive order titled \"Modifying Duties Addressing the Synthetic Opioid Supply Chain in the People’s Republic of China\"",
+      "act_key": "white house|announced an executive order titled modifying duties addressing the synthetic opioid supply chain in the people s republic of china|2025-11-04",
+      "attacks": [],
+      "source_meta": {
+        "headline": "Modifying Duties Addressing the Synthetic Opioid Supply Chain in the People's Republic of China",
+        "published_on": "2025-11-04",
+        "byline": null,
+        "outlet": "The White House",
+        "accessed_on": "2026-08-27T00:49:43Z",
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
+      "_origin_index": 745
     },
     {
       "source_key": "guardian",
@@ -11008,29 +10950,40 @@
       "reported_on": "2025-11-05",
       "dated_by": "occurred",
       "category": "Information & Media Control",
-      "title": "✅ Promises Made, Promises Kept — One Year Later",
+      "title": "White House issues promotional fact sheet claiming one year of promise fulfillment",
       "url": "https://www.whitehouse.gov/releases/2025/11/promises-made-promises-kept-one-year-later/",
-      "summary": "The White House published this release on 2025-11-05 through its releases channel.",
-      "why_relevant": "",
+      "summary": "The White House published a comprehensive fact sheet titled \"Promises Made, Promises Kept — One Year Later\" on November 5, 2025, marking the one-year anniversary of the 2024 election. The document presents a curated list of claimed policy achievements across immigration enforcement, economic policy, energy production, trade, military modernization, education, and social policy. The fact sheet attributes specific outcomes to executive actions, legislative victories, and administrative directives, framing them as fulfilled campaign commitments.",
+      "why_relevant": "This document represents an official self-assessment of executive power and its exercise, framing administrative actions as achievements and establishing a public record of claimed outcomes that may inform public perception of governance and electoral accountability.",
       "jurisdiction": "federal",
-      "federal_nexus": "Official White House channel; documents the act of publication only.",
+      "federal_nexus": "",
       "confidence": "high",
-      "basis": "official_actor_record",
+      "basis": "One year ago today, the American people delivered a resounding mandate to President Donald J. Trump when they overwhelmingly re-elected him to an historic second term. In just ten months since his inauguration as the 47th President of the United States, he has moved with unprecedented speed and resolve to secure the border, drive down costs, restore public safety, and unleash American energy and prosperity.",
       "actor": "The White House",
       "action": "published a release titled \"✅ Promises Made, Promises Kept — One Year Later\"",
       "act_key": "white house|published a release titled promises made promises kept one year later|2025-11-05",
-      "attacks": [],
+      "attacks": [
+        "truth",
+        "rule_of_law",
+        "immigrants_refugees",
+        "women",
+        "lgbtq",
+        "education",
+        "science",
+        "environment",
+        "press",
+        "information"
+      ],
       "source_meta": {
-        "headline": null,
-        "published_on": null,
+        "headline": "✅ Promises Made, Promises Kept — One Year Later",
+        "published_on": "2025-11-05",
         "byline": null,
-        "outlet": null,
-        "accessed_on": null,
+        "outlet": "The White House",
+        "accessed_on": "2026-08-26T22:57:51Z",
         "snapshot_url": null,
         "durable_keys": {}
       },
       "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
-      "_origin_index": 207
+      "_origin_index": 176
     },
     {
       "source_key": "zeteo",
@@ -11173,29 +11126,29 @@
       "reported_on": "2025-11-05",
       "dated_by": "occurred",
       "category": "Appointments & Patronage",
-      "title": "Nominations Sent to the Senate",
+      "title": "White House sent three nominations to the Senate",
       "url": "https://www.whitehouse.gov/presidential-actions/2025/11/nominations-sent-to-the-senate-099e/",
-      "summary": "The White House published this nominations on 2025-11-05 through its nominations-and-appointments channel.",
-      "why_relevant": "",
+      "summary": "The White House sent nominations to the Senate on November 5, 2025, for three positions: Daniel E. Burrows of Colorado as Assistant Attorney General (replacing Aaron Reitz); Stevan Pearce of New Mexico as Director of the Bureau of Land Management (replacing Tracy Stone-Manning); and Douglas Weaver of Maryland as a member of the Nuclear Regulatory Commission for the remainder of a term expiring June 30, 2026 (replacing Annie Caputo).",
+      "why_relevant": "Nominations to executive and independent agency positions shape the personnel who implement policy and exercise delegated authority; Senate confirmation of these nominees determines whether they assume office.",
       "jurisdiction": "federal",
-      "federal_nexus": "Official White House channel; documents the act of publication only.",
+      "federal_nexus": "",
       "confidence": "high",
-      "basis": "official_actor_record",
+      "basis": "Daniel E. Burrows, of Colorado, to be an Assistant Attorney General, vice Aaron Reitz, resigned. Stevan Pearce, of New Mexico, to be Director of the Bureau of Land Management, vice Tracy Stone-Manning, resigned. Douglas Weaver, of Maryland, to be a Member of the Nuclear Regulatory Commission for the remainder of the term expiring June 30, 2026, vice Annie Caputo.",
       "actor": "The White House",
       "action": "published a nominations announcement titled \"Nominations Sent to the Senate\"",
       "act_key": "white house|published a nominations announcement titled nominations sent to the senate|2025-11-05",
       "attacks": [],
       "source_meta": {
-        "headline": null,
-        "published_on": null,
+        "headline": "Nominations Sent to the Senate",
+        "published_on": "2025-11-05",
         "byline": null,
-        "outlet": null,
-        "accessed_on": null,
+        "outlet": "The White House",
+        "accessed_on": "2026-08-27T02:00:52Z",
         "snapshot_url": null,
         "durable_keys": {}
       },
       "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
-      "_origin_index": 1178
+      "_origin_index": 1120
     },
     {
       "source_key": "federalregister",
@@ -11423,7 +11376,7 @@
       "action": "announced flight reductions at major airports",
       "act_key": "sean duffy|announced flight reductions at major airports|2025-11-06",
       "attacks": [
-        "54"
+        "future"
       ],
       "source_meta": {
         "headline": "November 6, 2025",
@@ -11518,7 +11471,7 @@
       "action": "demanded bipartisan meeting on shutdown",
       "act_key": "chuck schumer hakeem jeffries|demanded bipartisan meeting on shutdown|2025-11-06",
       "attacks": [
-        "21"
+        "congress"
       ],
       "source_meta": {
         "headline": "November 6, 2025",
@@ -11551,9 +11504,9 @@
       "action": "demanded filibuster elimination and voting restrictions",
       "act_key": "trump|demanded filibuster elimination and voting restrictions|2025-11-06",
       "attacks": [
-        "42",
-        "48",
-        "5"
+        "separation_of_powers",
+        "peaceful_transfer",
+        "lgbtq"
       ],
       "source_meta": {
         "headline": "November 6, 2025",
@@ -12075,8 +12028,8 @@
       "action": "issued injunction against crowd control force",
       "act_key": "sara ellis|issued injunction against crowd control force|2025-11-06",
       "attacks": [
-        "29",
-        "6"
+        "press",
+        "workers"
       ],
       "source_meta": {
         "headline": "November 6, 2025",
@@ -12109,9 +12062,9 @@
       "action": "ordered restoration of snap benefits",
       "act_key": "john mcconnell|ordered restoration of snap benefits|2025-11-06",
       "attacks": [
-        "43",
-        "7",
-        "1"
+        "rule_of_law",
+        "poor",
+        "children"
       ],
       "source_meta": {
         "headline": "November 6, 2025",
@@ -12177,7 +12130,7 @@
       "action": "heard tariff constitutionality arguments",
       "act_key": "scotus|heard tariff constitutionality arguments|2025-11-06",
       "attacks": [
-        "42"
+        "separation_of_powers"
       ],
       "source_meta": {
         "headline": "November 6, 2025",
@@ -12246,8 +12199,8 @@
       "action": "appealed snap benefits ruling",
       "act_key": "trump administration|appealed snap benefits ruling|2025-11-06",
       "attacks": [
-        "20",
-        "43"
+        "courts",
+        "rule_of_law"
       ],
       "source_meta": {
         "headline": "November 6, 2025",
@@ -13341,64 +13294,33 @@
     {
       "source_key": "whitehouse",
       "date": "2025-11-06",
-      "occurred_on": "2025-11-06",
+      "occurred_on": "",
       "reported_on": "2025-11-06",
-      "dated_by": "occurred",
+      "dated_by": "reported",
       "category": "Information & Media Control",
-      "title": "Americans Are Paying Less This Thanksgiving 🦃",
+      "title": "White House issued fact sheet claiming Thanksgiving food prices down 3% year-over-year",
       "url": "https://www.whitehouse.gov/releases/2025/11/americans-are-paying-less-this-thanksgiving/",
-      "summary": "The White House published this release on 2025-11-06 through its releases channel.",
-      "why_relevant": "",
+      "summary": "The White House published a fact sheet asserting that Americans are paying approximately 3% less for Thanksgiving meals compared to the prior year, citing price declines for specific items (dinner rolls down 22%, frozen vegetables down 15%) and claiming retailers are offering their cheapest Thanksgiving meals in years. The document attributes these claimed price reductions to President Trump's economic leadership and contrasts them with Democratic governance.",
+      "why_relevant": "The fact sheet is a promotional instrument making specific economic claims about inflation and price trends; it represents the administration's framing of economic conditions rather than an independent assessment, and its issuance is an act of official communication shaping public perception of economic performance.",
       "jurisdiction": "federal",
-      "federal_nexus": "Official White House channel; documents the act of publication only.",
+      "federal_nexus": "",
       "confidence": "high",
-      "basis": "official_actor_record",
+      "basis": "President Donald J. Trump promised to crush inflation and lower prices — and he's delivering this Thanksgiving, with the classic holiday feast about 3% cheaper than last year, according to a brand new report.",
       "actor": "The White House",
       "action": "published a release titled \"Americans Are Paying Less This Thanksgiving 🦃\"",
       "act_key": "white house|published a release titled americans are paying less this thanksgiving|2025-11-06",
       "attacks": [],
       "source_meta": {
-        "headline": null,
-        "published_on": null,
+        "headline": "Americans Are Paying Less This Thanksgiving 🦃",
+        "published_on": "2025-11-06",
         "byline": null,
-        "outlet": null,
-        "accessed_on": null,
+        "outlet": "The White House",
+        "accessed_on": "2026-08-26T22:57:40Z",
         "snapshot_url": null,
         "durable_keys": {}
       },
       "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
-      "_origin_index": 206
-    },
-    {
-      "source_key": "whitehouse",
-      "date": "2025-11-06",
-      "occurred_on": "2025-11-06",
-      "reported_on": "2025-11-06",
-      "dated_by": "occurred",
-      "category": "Information & Media Control",
-      "title": "Fact Sheet: President Donald J. Trump Announces Major Developments in Bringing Most-Favored-Nation Pricing to American Patients",
-      "url": "https://www.whitehouse.gov/fact-sheets/2025/11/fact-sheet-president-donald-j-trump-announces-major-developments-in-bringing-most-favored-nation-pricing-to-american-patients/",
-      "summary": "The White House published this fact sheet on 2025-11-06 through its fact-sheets channel.",
-      "why_relevant": "",
-      "jurisdiction": "federal",
-      "federal_nexus": "Official White House channel; documents the act of publication only.",
-      "confidence": "high",
-      "basis": "official_actor_record",
-      "actor": "The White House",
-      "action": "issued a fact sheet titled \"Fact Sheet: President Donald J. Trump Announces Major Developments in Bringing Most-Favored-Nation Pricing to American Patients\"",
-      "act_key": "white house|issued a fact sheet titled fact sheet president donald j trump announces major developments in bringing most favored nation pricing to american patients|2025-11-06",
-      "attacks": [],
-      "source_meta": {
-        "headline": null,
-        "published_on": null,
-        "byline": null,
-        "outlet": null,
-        "accessed_on": null,
-        "snapshot_url": null,
-        "durable_keys": {}
-      },
-      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
-      "_origin_index": 501
+      "_origin_index": 175
     },
     {
       "source_key": "federalregister",
@@ -13519,8 +13441,8 @@
       "action": "reported record layoff announcements",
       "act_key": "challenger gray christmas|reported record layoff announcements|2025-11-06",
       "attacks": [
-        "6",
-        "54"
+        "workers",
+        "future"
       ],
       "source_meta": {
         "headline": "November 6, 2025",
@@ -13768,6 +13690,37 @@
       "_origin_index": 70
     },
     {
+      "source_key": "whitehouse",
+      "date": "2025-11-06",
+      "occurred_on": "2025-11-06",
+      "reported_on": "2025-11-06",
+      "dated_by": "occurred",
+      "category": "Economic & Regulatory Power",
+      "title": "White House issues fact sheet announcing pharmaceutical pricing agreements with Eli Lilly and Novo Nordisk",
+      "url": "https://www.whitehouse.gov/fact-sheets/2025/11/fact-sheet-president-donald-j-trump-announces-major-developments-in-bringing-most-favored-nation-pricing-to-american-patients/",
+      "summary": "The White House issued a fact sheet announcing agreements with pharmaceutical manufacturers Eli Lilly and Novo Nordisk to reduce prices on diabetes and obesity medications. The fact sheet states that Ozempic and Wegovy prices will fall to $350 per month through TrumpRx, Zepbound and Orforglipron to $346 per month, and Medicare prices for obesity drugs to $245 per month. The announcement claims these represent reductions compared to Biden Administration proposals and that manufacturers will invest $10 billion (Novo Nordisk) and $27 billion (Eli Lilly) in U.S. manufacturing capacity.",
+      "why_relevant": "The act asserts executive authority to negotiate pharmaceutical pricing through private agreements and claims to reshape drug-cost structures affecting millions of Americans and federal healthcare spending, raising questions about the scope of executive power over market pricing and the sustainability of negotiated price commitments.",
+      "jurisdiction": "federal",
+      "federal_nexus": "",
+      "confidence": "high",
+      "basis": "Today, President Donald J. Trump announced the latest in a series of the most significant actions ever taken by our Federal government to lower prescription drug prices, unveiling agreements with pharmaceutical manufacturers Eli Lilly and Company and Novo Nordisk.",
+      "actor": "The White House",
+      "action": "issued a fact sheet titled \"Fact Sheet: President Donald J. Trump Announces Major Developments in Bringing Most-Favored-Nation Pricing to American Patients\"",
+      "act_key": "white house|issued a fact sheet titled fact sheet president donald j trump announces major developments in bringing most favored nation pricing to american patients|2025-11-06",
+      "attacks": [],
+      "source_meta": {
+        "headline": "Fact Sheet: President Donald J. Trump Announces Major Developments in Bringing Most-Favored-Nation Pricing to American Patients",
+        "published_on": "2025-11-06",
+        "byline": null,
+        "outlet": "The White House",
+        "accessed_on": "2026-08-26T23:52:21Z",
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
+      "_origin_index": 445
+    },
+    {
       "source_key": "guardian",
       "date": "2025-11-06",
       "occurred_on": "",
@@ -13843,29 +13796,29 @@
       "reported_on": "2025-11-06",
       "dated_by": "occurred",
       "category": "Appointments & Patronage",
-      "title": "Nomination Sent to the Senate",
+      "title": "White House sends NASA administrator nomination to Senate",
       "url": "https://www.whitehouse.gov/presidential-actions/2025/11/nomination-sent-to-the-senate-7385/",
-      "summary": "The White House published this nominations on 2025-11-06 through its nominations-and-appointments channel.",
-      "why_relevant": "",
+      "summary": "The White House issued a nomination announcement on November 6, 2025, naming Jared Isaacman of Pennsylvania as the nominee for Administrator of the National Aeronautics and Space Administration, to succeed Bill Nelson, who resigned. The nomination was sent to the Senate for confirmation.",
+      "why_relevant": "NASA administrator is a cabinet-level position requiring Senate confirmation; the nomination initiates the formal process of executive appointment subject to legislative oversight.",
       "jurisdiction": "federal",
-      "federal_nexus": "Official White House channel; documents the act of publication only.",
+      "federal_nexus": "",
       "confidence": "high",
-      "basis": "official_actor_record",
+      "basis": "Jared Isaacman, of Pennsylvania, to be Administrator of the National Aeronautics and Space Administration, vice Bill Nelson, resigned.",
       "actor": "The White House",
       "action": "published a nominations announcement titled \"Nomination Sent to the Senate\"",
       "act_key": "white house|published a nominations announcement titled nomination sent to the senate|2025-11-06",
       "attacks": [],
       "source_meta": {
-        "headline": null,
-        "published_on": null,
+        "headline": "Nomination Sent to the Senate",
+        "published_on": "2025-11-06",
         "byline": null,
-        "outlet": null,
-        "accessed_on": null,
+        "outlet": "The White House",
+        "accessed_on": "2026-08-27T02:00:44Z",
         "snapshot_url": null,
         "durable_keys": {}
       },
       "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
-      "_origin_index": 1177
+      "_origin_index": 1119
     },
     {
       "source_key": "defense",
@@ -14084,8 +14037,8 @@
       "category": "Executive Actions & Orders",
       "title": "Trump issues broad pardon for 2020 election-related conduct, potentially covering voter fraud cases",
       "url": "https://www.theguardian.com/us-news/2025/nov/25/trump-voter-fraud-pardon",
-      "summary": "On November 7, 2025, President Trump issued a pardon for Rudy Giuliani and others involved in the fake elector scheme. The pardon's language is sweeping, covering \"any US citizen\" for conduct relating to \"advice, creation, organization, execution, submission, support, voting, activities, participation in, or advocacy for or of any slate or proposed slate of presidential electors\" in connection with the 2020 election. Legal experts argue the pardon's broad wording may unintentionally cover citizens who committed voter fraud in 2020, such as Matthew Alan Laiss, accused of voting in both Pennsylvania and Florida. Courts will now determine the pardon's actual scope.",
-      "why_relevant": "A sweeping pardon that may inadvertently shield voter fraud perpetrators from federal prosecution undermines the rule of law and equal application of criminal justice, while contradicting Trump's stated commitment to election integrity.",
+      "summary": "On November 7, 2025, President Trump issued a pardon for Rudy Giuliani and others involved in the fake elector scheme. The pardon's language is sweeping, covering \"any US citizen\" for conduct relating to \"advice, creation, organization, execution, submission, support, voting, activities, participation in, or advocacy for or of any slate or proposed slate of presidential electors\" in connection with the 2020 election. Legal experts argue the pardon's broad wording may unintentionally cover citizens who committed voter fraud in 2020, such as Matthew Alan Laiss, accused of voting in both Pennsylvania and Florida. Courts must now determine the pardon's actual scope.",
+      "why_relevant": "A sweeping pardon that may inadvertently shield voter fraud perpetrators from federal prosecution undermines the rule of law and equal application of criminal justice, while creating legal ambiguity that courts must resolve.",
       "jurisdiction": "federal",
       "federal_nexus": "",
       "confidence": "high",
@@ -14106,8 +14059,8 @@
         "snapshot_url": null,
         "durable_keys": {}
       },
-      "_origin_file": "guardian_events_2025-11-22_2025-11-28.json",
-      "_origin_index": 38
+      "_origin_file": "guardian_events_2025-09-06_2025-12-12.json",
+      "_origin_index": 236
     },
     {
       "source_key": "hcr",
@@ -14162,7 +14115,7 @@
       "action": "shifted tariff justification to national security",
       "act_key": "trump|shifted tariff justification to national security|2025-11-07",
       "attacks": [
-        "42"
+        "separation_of_powers"
       ],
       "source_meta": {
         "headline": "November 6, 2025",
@@ -14175,6 +14128,40 @@
       },
       "_origin_file": "hcr_events_2025-09-06_2025-12-12.json",
       "_origin_index": 228
+    },
+    {
+      "source_key": "justice",
+      "date": "2025-11-07",
+      "occurred_on": "2025-11-07",
+      "reported_on": "2025-11-07",
+      "dated_by": "occurred",
+      "category": "Executive Actions & Orders",
+      "title": "Department of Justice announces settlement agreement with Cornell University on civil rights compliance and agricultural research funding",
+      "url": "https://www.justice.gov/opa/pr/united-states-announces-agreement-cornell-university",
+      "summary": "The Department of Justice, Department of Education, and Department of Health and Human Services announced a settlement with Cornell University requiring the university to invest $30 million in agricultural research through 2028, pay $30 million to the federal government over three years, adopt DOJ civil rights training guidance, provide admissions data for statistical analysis, and comply with requests regarding foreign funding sources. In exchange, the federal government will close pending investigations into Cornell's admissions policies and civil rights concerns, restore terminated grants, and treat Cornell as eligible for future federal funding.",
+      "why_relevant": "The settlement represents a federal enforcement action targeting university admissions and diversity policies, with explicit framing by administration officials as dismantling \"DEI policies\" and \"divisive\" practices, raising questions about the direction and scope of civil rights enforcement under this administration.",
+      "jurisdiction": "federal",
+      "federal_nexus": "",
+      "confidence": "high",
+      "basis": "The U.S. Department of Justice, U.S. Department of Education, and the U.S. Department of Health and Human Services announced an agreement with Cornell University that will protect Cornell's students from violations of federal civil rights laws.",
+      "actor": "The Department of Justice",
+      "action": "announced \"The United States Announces Agreement with Cornell University\"",
+      "act_key": "department|announced the united states announces agreement with cornell university|2025-11-07",
+      "attacks": [
+        "rule_of_law",
+        "education"
+      ],
+      "source_meta": {
+        "headline": "The United States Announces Agreement with Cornell University",
+        "published_on": "2025-11-07",
+        "byline": null,
+        "outlet": "justice.gov",
+        "accessed_on": "2026-08-27T04:59:55Z",
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "justice_events_2025-01-20_2026-08-14.json",
+      "_origin_index": 207
     },
     {
       "source_key": "meidas",
@@ -14217,29 +14204,33 @@
       "reported_on": "2025-11-07",
       "dated_by": "occurred",
       "category": "Executive Actions & Orders",
-      "title": "Anti-Communism Week, 2025",
+      "title": "President Trump issued proclamation designating Anti-Communism Week",
       "url": "https://www.whitehouse.gov/presidential-actions/2025/11/anti-communism-week-2025/",
-      "summary": "The White House published this proclamation on 2025-11-07 through its proclamations channel.",
-      "why_relevant": "",
+      "summary": "President Trump signed a proclamation on November 7, 2025, designating the week of November 2–8, 2025, as Anti-Communism Week. The proclamation characterizes communism as a destructive ideology responsible for over 100 million deaths and frames contemporary progressive movements as disguised communism. It calls for national unity against communism and reaffirms commitment to liberty and individual rights as foundational American values.",
+      "why_relevant": "The proclamation uses executive authority to frame a political and ideological opposition as a national observance, potentially signaling the administration's intent to treat progressive and socialist movements as equivalent threats to Cold War communism.",
       "jurisdiction": "federal",
-      "federal_nexus": "Official White House channel; documents the act of publication only.",
+      "federal_nexus": "",
       "confidence": "high",
-      "basis": "official_actor_record",
+      "basis": "I, DONALD J. TRUMP, President of the United States of America, by virtue of the authority vested in me by the Constitution and the laws of the United States, do hereby proclaim the week of November 2 through November 8, 2025, as Anti-Communism Week.",
       "actor": "The White House",
       "action": "announced a proclamation titled \"Anti-Communism Week, 2025\"",
       "act_key": "white house|announced a proclamation titled anti communism week 2025|2025-11-07",
-      "attacks": [],
+      "attacks": [
+        "public_memory",
+        "culture_art",
+        "decency"
+      ],
       "source_meta": {
-        "headline": null,
-        "published_on": null,
+        "headline": "Anti-Communism Week, 2025",
+        "published_on": "2025-11-07",
         "byline": null,
-        "outlet": null,
-        "accessed_on": null,
+        "outlet": "The White House",
+        "accessed_on": "2026-08-27T01:25:59Z",
         "snapshot_url": null,
         "durable_keys": {}
       },
       "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
-      "_origin_index": 989
+      "_origin_index": 933
     },
     {
       "source_key": "guardian",
@@ -14722,29 +14713,29 @@
       "reported_on": "2025-11-07",
       "dated_by": "occurred",
       "category": "Judicial Developments",
-      "title": "Mexican National Sentenced to 10 Years in Prison for Transporting Woman to Engage in Commercial Sex",
+      "title": "Mexican national sentenced to 10 years for sex trafficking",
       "url": "https://www.justice.gov/opa/pr/mexican-national-sentenced-10-years-prison-transporting-woman-engage-commercial-sex",
-      "summary": "The Department of Justice announced this on 2025-11-07 through Civil Rights Division. The recorded stage is a sentence imposed. The department's own account of it reads: \"A 42-year-old citizen of Mexico has been ordered to prison after recruiting an 18-year-old victim from Mexico, abusing her and forcing her to engage in commercial sex acts in Houston, Texas.\"",
-      "why_relevant": "",
+      "summary": "Clemente Melendez Gutierrez, a 42-year-old Mexican citizen, was sentenced to 120 months in prison after pleading guilty in August 2025 to transportation for purposes of prostitution. The DOJ alleged that between 2005 and 2021, Melendez recruited an 18-year-old victim in Mexico using false romantic pretenses, physically abused her, forced her into commercial sex in Mexico, then smuggled her across the U.S. border to Houston, Texas, where he coerced her into sex work at cantinas to repay fabricated transportation debts. The FBI, Homeland Security Investigations, and Texas Alcoholic Beverage Commission investigated; the Civil Rights Division prosecuted.",
+      "why_relevant": "This is routine federal prosecution of human trafficking—a core law-enforcement function with no bearing on democratic structure or the independence of prosecution.",
       "jurisdiction": "federal",
-      "federal_nexus": "Official DOJ channel; documents the act of announcement only.",
+      "federal_nexus": "",
       "confidence": "high",
-      "basis": "official_actor_record",
+      "basis": "Clemente Melendez Gutierrez was sentenced today to 120 months in prison after pleading guilty in August to one count of transportation for the purposes of prostitution.",
       "actor": "The Department of Justice",
       "action": "announced \"Mexican National Sentenced to 10 Years in Prison for Transporting Woman to Engage in Commercial Sex\"",
       "act_key": "department|announced mexican national sentenced to 10 years in prison for transporting woman to engage in commercial sex|2025-11-07",
       "attacks": [],
       "source_meta": {
-        "headline": null,
-        "published_on": null,
+        "headline": "Mexican National Sentenced to 10 Years in Prison for Transporting Woman to Engage in Commercial Sex",
+        "published_on": "2025-11-07",
         "byline": null,
-        "outlet": null,
-        "accessed_on": null,
+        "outlet": "justice.gov",
+        "accessed_on": "2026-08-27T05:00:06Z",
         "snapshot_url": null,
         "durable_keys": {}
       },
       "_origin_file": "justice_events_2025-01-20_2026-08-14.json",
-      "_origin_index": 209
+      "_origin_index": 208
     },
     {
       "source_key": "justsecurity",
@@ -15355,37 +15346,6 @@
       "_origin_index": 478
     },
     {
-      "source_key": "justice",
-      "date": "2025-11-07",
-      "occurred_on": "2025-11-07",
-      "reported_on": "2025-11-07",
-      "dated_by": "occurred",
-      "category": "Civil Society & Protest",
-      "title": "The United States Announces Agreement with Cornell University",
-      "url": "https://www.justice.gov/opa/pr/united-states-announces-agreement-cornell-university",
-      "summary": "The Department of Justice announced this on 2025-11-07 through Office of the Attorney General. The department's own account of it reads: \"WASHINGTON – Today, the U.S. Department of Justice, U.S. Department of Education, and the U.S. Department of Health and Human Services announced an agreement with Cornell University ('Cornell') that will protect Cornell’s students from violations of federal civil rights laws, including from discrimination based on race, sex, or national origin, and promote America’s hardworking farming and rural communities.\"",
-      "why_relevant": "",
-      "jurisdiction": "federal",
-      "federal_nexus": "Official DOJ channel; documents the act of announcement only.",
-      "confidence": "high",
-      "basis": "official_actor_record",
-      "actor": "The Department of Justice",
-      "action": "announced \"The United States Announces Agreement with Cornell University\"",
-      "act_key": "department|announced the united states announces agreement with cornell university|2025-11-07",
-      "attacks": [],
-      "source_meta": {
-        "headline": null,
-        "published_on": null,
-        "byline": null,
-        "outlet": null,
-        "accessed_on": null,
-        "snapshot_url": null,
-        "durable_keys": {}
-      },
-      "_origin_file": "justice_events_2025-01-20_2026-08-14.json",
-      "_origin_index": 208
-    },
-    {
       "source_key": "meidas",
       "date": "2025-11-07",
       "occurred_on": "2025-11-07",
@@ -15525,95 +15485,36 @@
     {
       "source_key": "whitehouse",
       "date": "2025-11-07",
-      "occurred_on": "2025-11-07",
+      "occurred_on": "",
       "reported_on": "2025-11-07",
-      "dated_by": "occurred",
+      "dated_by": "reported",
       "category": "Information & Media Control",
-      "title": "Democrats Are to Blame for Airport Chaos",
-      "url": "https://www.whitehouse.gov/releases/2025/11/democrats-are-to-blame-for-airport-chaos/",
-      "summary": "The White House published this release on 2025-11-07 through its releases channel.",
-      "why_relevant": "",
-      "jurisdiction": "federal",
-      "federal_nexus": "Official White House channel; documents the act of publication only.",
-      "confidence": "high",
-      "basis": "official_actor_record",
-      "actor": "The White House",
-      "action": "published a release titled \"Democrats Are to Blame for Airport Chaos\"",
-      "act_key": "white house|published a release titled democrats are to blame for airport chaos|2025-11-07",
-      "attacks": [],
-      "source_meta": {
-        "headline": null,
-        "published_on": null,
-        "byline": null,
-        "outlet": null,
-        "accessed_on": null,
-        "snapshot_url": null,
-        "durable_keys": {}
-      },
-      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
-      "_origin_index": 205
-    },
-    {
-      "source_key": "whitehouse",
-      "date": "2025-11-07",
-      "occurred_on": "2025-11-07",
-      "reported_on": "2025-11-07",
-      "dated_by": "occurred",
-      "category": "Information & Media Control",
-      "title": "Fact Sheet: President Donald J. Trump Secures Major Settlement with Cornell University",
+      "title": "White House issues fact sheet on Cornell University settlement",
       "url": "https://www.whitehouse.gov/fact-sheets/2025/11/fact-sheet-president-donald-j-trump-secures-major-settlement-with-cornell-university/",
-      "summary": "The White House published this fact sheet on 2025-11-07 through its fact-sheets channel.",
-      "why_relevant": "",
+      "summary": "The White House issued a fact sheet on November 7, 2025, announcing a settlement between the Trump Administration and Cornell University. According to the document, Cornell will pay a $30 million penalty to the United States over three years, invest $30 million in agricultural research over three years, conduct annual campus climate surveys regarding Jewish student safety, and comply with federal civil rights laws. The fact sheet states the agreement addresses alleged racial discrimination in admissions, DEI practices in hiring, and anti-Semitic incidents on campus.",
+      "why_relevant": "The issuance of promotional framing around a settlement claim bears on democratic accountability insofar as it asserts executive enforcement of civil rights law and federal funding conditions, but the fact sheet itself is a communications instrument whose substantive claims (the settlement terms, their legal basis, and their effects) cannot be independently verified from this document alone.",
       "jurisdiction": "federal",
-      "federal_nexus": "Official White House channel; documents the act of publication only.",
-      "confidence": "high",
-      "basis": "official_actor_record",
+      "federal_nexus": "",
+      "confidence": "medium",
+      "basis": "Today, President Donald J. Trump secured a historic settlement with Cornell University to restore accountability and fairness in higher education.",
       "actor": "The White House",
       "action": "issued a fact sheet titled \"Fact Sheet: President Donald J. Trump Secures Major Settlement with Cornell University\"",
       "act_key": "white house|issued a fact sheet titled fact sheet president donald j trump secures major settlement with cornell university|2025-11-07",
-      "attacks": [],
+      "attacks": [
+        "education",
+        "civil_service"
+      ],
       "source_meta": {
-        "headline": null,
-        "published_on": null,
+        "headline": "Fact Sheet: President Donald J. Trump Secures Major Settlement with Cornell University",
+        "published_on": "2025-11-07",
         "byline": null,
-        "outlet": null,
-        "accessed_on": null,
+        "outlet": "The White House",
+        "accessed_on": "2026-08-26T23:52:09Z",
         "snapshot_url": null,
         "durable_keys": {}
       },
       "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
-      "_origin_index": 500
-    },
-    {
-      "source_key": "whitehouse",
-      "date": "2025-11-07",
-      "occurred_on": "2025-11-07",
-      "reported_on": "2025-11-07",
-      "dated_by": "occurred",
-      "category": "Information & Media Control",
-      "title": "Trump Administration Cracks Down on Foreign-Owned Meat Packing Cartels",
-      "url": "https://www.whitehouse.gov/releases/2025/11/trump-administration-cracks-down-on-foreign-owned-meat-packing-cartels/",
-      "summary": "The White House published this release on 2025-11-07 through its releases channel.",
-      "why_relevant": "",
-      "jurisdiction": "federal",
-      "federal_nexus": "Official White House channel; documents the act of publication only.",
-      "confidence": "high",
-      "basis": "official_actor_record",
-      "actor": "The White House",
-      "action": "published a release titled \"Trump Administration Cracks Down on Foreign-Owned Meat Packing Cartels\"",
-      "act_key": "white house|published a release titled trump administration cracks down on foreign owned meat packing cartels|2025-11-07",
-      "attacks": [],
-      "source_meta": {
-        "headline": null,
-        "published_on": null,
-        "byline": null,
-        "outlet": null,
-        "accessed_on": null,
-        "snapshot_url": null,
-        "durable_keys": {}
-      },
-      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
-      "_origin_index": 204
+      "_origin_index": 444
     },
     {
       "source_key": "federalregister",
@@ -15779,6 +15680,37 @@
       },
       "_origin_file": "meidas_events_2025-09-06_2025-12-12.json",
       "_origin_index": 519
+    },
+    {
+      "source_key": "whitehouse",
+      "date": "2025-11-07",
+      "occurred_on": "2025-11-07",
+      "reported_on": "2025-11-07",
+      "dated_by": "occurred",
+      "category": "Economic & Regulatory Power",
+      "title": "White House directs DOJ investigation into meat packing companies for antitrust violations",
+      "url": "https://www.whitehouse.gov/releases/2025/11/trump-administration-cracks-down-on-foreign-owned-meat-packing-cartels/",
+      "summary": "The White House issued a release stating that President Trump directed the Department of Justice to investigate the nation's largest meat packing companies for potential collusion, price fixing, and price manipulation. The release claims the \"Big Four\" packers (JBS, Cargill, Tyson Foods, National Beef) control 85% of the U.S. beef processing market, up from 36% in 1980, and that two are foreign-owned or controlled. The release asserts this consolidation has reduced payments to ranchers, driven up consumer prices, and threatened food security.",
+      "why_relevant": "The directive initiates a federal antitrust investigation that may reshape market structure and regulatory enforcement in a major food industry, affecting both corporate power and consumer/producer welfare.",
+      "jurisdiction": "federal",
+      "federal_nexus": "",
+      "confidence": "high",
+      "basis": "President Donald J. Trump directed the Department of Justice to launch an investigation into the nation's largest meat packing companies for potential collusion, price fixing, and price manipulation.",
+      "actor": "The White House",
+      "action": "published a release titled \"Trump Administration Cracks Down on Foreign-Owned Meat Packing Cartels\"",
+      "act_key": "white house|published a release titled trump administration cracks down on foreign owned meat packing cartels|2025-11-07",
+      "attacks": [],
+      "source_meta": {
+        "headline": "Trump Administration Cracks Down on Foreign-Owned Meat Packing Cartels",
+        "published_on": "2025-11-07",
+        "byline": null,
+        "outlet": "The White House",
+        "accessed_on": "2026-08-26T22:57:16Z",
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
+      "_origin_index": 174
     },
     {
       "source_key": "hcr",

@@ -5,29 +5,29 @@
   },
   "week_number": 5,
   "sources": [
-    "scotusopinions",
-    "whitehouse",
-    "hcr",
-    "justsecurity",
-    "justice",
-    "guardian",
-    "meidas",
-    "democracydocket",
-    "federalregister",
     "outloud",
-    "defense",
-    "orders",
-    "noah",
     "popinfo",
+    "orders",
+    "scotusopinions",
     "zeteo",
-    "scotusorders"
+    "justsecurity",
+    "federalregister",
+    "guardian",
+    "justice",
+    "whitehouse",
+    "defense",
+    "noah",
+    "scotusorders",
+    "hcr",
+    "meidas",
+    "democracydocket"
   ],
   "counts": {
-    "total": 341,
+    "total": 340,
     "by_date": {
       "2025-02-15": 46,
       "2025-02-16": 32,
-      "2025-02-17": 21,
+      "2025-02-17": 20,
       "2025-02-18": 45,
       "2025-02-19": 75,
       "2025-02-20": 65,
@@ -37,7 +37,7 @@
       "guardian": 91,
       "meidas": 31,
       "orders": 6,
-      "whitehouse": 27,
+      "whitehouse": 26,
       "hcr": 52,
       "democracydocket": 14,
       "justsecurity": 40,
@@ -58,7 +58,7 @@
       "Law Enforcement & Surveillance": 18,
       "Elections & Representation": 5,
       "Civil Society & Protest": 6,
-      "Information & Media Control": 16,
+      "Information & Media Control": 15,
       "Economic & Regulatory Power": 32,
       "Appointments & Patronage": 15,
       "International Relations": 36,
@@ -270,8 +270,8 @@
         "snapshot_url": null,
         "durable_keys": {}
       },
-      "_origin_file": "whitehouse_events_2025-02-15_2025-02-21.json",
-      "_origin_index": 13
+      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
+      "_origin_index": 1458
     },
     {
       "source_key": "guardian",
@@ -1282,8 +1282,8 @@
       "action": "sent aircraft for presidential inspection",
       "act_key": "qatar|sent aircraft for presidential inspection|2025-02-15",
       "attacks": [
-        "41",
-        "44"
+        "constitution",
+        "emoluments"
       ],
       "source_meta": {
         "headline": null,
@@ -1782,8 +1782,8 @@
         "snapshot_url": null,
         "durable_keys": {}
       },
-      "_origin_file": "whitehouse_events_2025-02-15_2025-02-21.json",
-      "_origin_index": 14
+      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
+      "_origin_index": 1459
     },
     {
       "source_key": "guardian",
@@ -2747,8 +2747,8 @@
         "snapshot_url": null,
         "durable_keys": {}
       },
-      "_origin_file": "whitehouse_events_2025-02-15_2025-02-21.json",
-      "_origin_index": 25
+      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
+      "_origin_index": 1499
     },
     {
       "source_key": "meidas",
@@ -3049,37 +3049,6 @@
       },
       "_origin_file": "meidas_events_2025-01-20_2025-03-30.json",
       "_origin_index": 170
-    },
-    {
-      "source_key": "whitehouse",
-      "date": "2025-02-17",
-      "occurred_on": "2025-02-17",
-      "reported_on": "2025-02-17",
-      "dated_by": "occurred",
-      "category": "Information & Media Control",
-      "title": "Trump Effect Shows No Slowdown",
-      "url": "https://www.whitehouse.gov/releases/2025/02/trump-effect-shows-no-slowdown/",
-      "summary": "The White House published this release on 2025-02-17 through its releases channel.",
-      "why_relevant": "",
-      "jurisdiction": "federal",
-      "federal_nexus": "Official White House channel; documents the act of publication only.",
-      "confidence": "high",
-      "basis": "official_actor_record",
-      "actor": "The White House",
-      "action": "published a release titled \"Trump Effect Shows No Slowdown\"",
-      "act_key": "white house|published a release titled trump effect shows no slowdown|2025-02-17",
-      "attacks": [],
-      "source_meta": {
-        "headline": "Trump Effect Shows No Slowdown",
-        "published_on": "2025-02-17",
-        "byline": null,
-        "outlet": "The White House",
-        "accessed_on": "2026-08-26T19:31:09Z",
-        "snapshot_url": null,
-        "durable_keys": {}
-      },
-      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
-      "_origin_index": 1207
     },
     {
       "source_key": "federalregister",
@@ -3708,8 +3677,8 @@
         "snapshot_url": null,
         "durable_keys": {}
       },
-      "_origin_file": "whitehouse_events_2025-02-15_2025-02-21.json",
-      "_origin_index": 16
+      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
+      "_origin_index": 1462
     },
     {
       "source_key": "whitehouse",
@@ -3743,8 +3712,8 @@
         "snapshot_url": null,
         "durable_keys": {}
       },
-      "_origin_file": "whitehouse_events_2025-02-15_2025-02-21.json",
-      "_origin_index": 5
+      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
+      "_origin_index": 641
     },
     {
       "source_key": "whitehouse",
@@ -3777,8 +3746,8 @@
         "snapshot_url": null,
         "durable_keys": {}
       },
-      "_origin_file": "whitehouse_events_2025-02-15_2025-02-21.json",
-      "_origin_index": 7
+      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
+      "_origin_index": 643
     },
     {
       "source_key": "whitehouse",
@@ -3787,10 +3756,10 @@
       "reported_on": "2025-02-18",
       "dated_by": "occurred",
       "category": "Executive Actions & Orders",
-      "title": "White House issues fact sheet on Trump executive order expanding IVF access",
+      "title": "White House issues fact sheet on executive order expanding IVF access",
       "url": "https://www.whitehouse.gov/fact-sheets/2025/02/fact-sheet-president-donald-j-trump-expands-access-to-in-vitro-fertilization-ivf/",
       "summary": "The White House published a fact sheet on February 18, 2025, describing an executive order signed by President Trump directing policy recommendations to expand access to in vitro fertilization and reduce out-of-pocket costs. The order directs the administration to identify barriers to IVF access, including policies requiring legislative change, and to develop recommendations for ensuring reliable access and affordability. The fact sheet cites fertility rate declines and notes that IVF costs range from $12,000 to $25,000 per cycle with limited insurance coverage.",
-      "why_relevant": "The order directs executive action on reproductive healthcare access and cost, a domain historically contested between federal and state authority and subject to ongoing litigation over state IVF restrictions.",
+      "why_relevant": "The order directs executive action on a healthcare access and family policy matter, asserting executive authority to shape federal policy on fertility treatment coverage and cost reduction across federal programs and potentially private insurance markets.",
       "jurisdiction": "federal",
       "federal_nexus": "",
       "confidence": "high",
@@ -3808,8 +3777,8 @@
         "snapshot_url": null,
         "durable_keys": {}
       },
-      "_origin_file": "whitehouse_events_2025-02-15_2025-02-21.json",
-      "_origin_index": 6
+      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
+      "_origin_index": 642
     },
     {
       "source_key": "whitehouse",
@@ -3839,8 +3808,8 @@
         "snapshot_url": null,
         "durable_keys": {}
       },
-      "_origin_file": "whitehouse_events_2025-02-15_2025-02-21.json",
-      "_origin_index": 15
+      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
+      "_origin_index": 1461
     },
     {
       "source_key": "zeteo",
@@ -4600,8 +4569,8 @@
         "snapshot_url": null,
         "durable_keys": {}
       },
-      "_origin_file": "whitehouse_events_2025-02-15_2025-02-21.json",
-      "_origin_index": 8
+      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
+      "_origin_index": 1149
     },
     {
       "source_key": "federalregister",
@@ -4781,7 +4750,7 @@
       "title": "White House issued memorandum directing agencies to publish details of terminated programs, cancelled contracts, and discontinued federal obligations.",
       "url": "https://www.whitehouse.gov/presidential-actions/2025/02/radical-transparency-about-wasteful-spending/",
       "summary": "The White House issued a presidential memorandum directing heads of executive departments and agencies to make public, to the maximum extent permitted by law, complete details of every terminated program, cancelled contract, terminated grant, or discontinued federal obligation. The memorandum states that agencies shall ensure publication occurs in accordance with applicable laws, regulations, and contract terms. The stated rationale is that taxpayers have a right to see how federal funds have been spent and that the government has wasted money on programs not promoting American interests.",
-      "why_relevant": "The memorandum directs disclosure of terminated federal spending, which bears on public accountability and the right of citizens to know how government funds are deployed, though the framing and selective disclosure criteria (\"as the heads of agencies deem appropriate to promote the policies of my Administration\") may create discretion to withhold information.",
+      "why_relevant": "The memorandum directs disclosure of terminated federal spending, which bears on public accountability and the right of citizens to know how government funds are deployed, though the framing and selective disclosure criteria (\"as the heads of agencies deem appropriate to promote the policies of my Administration\") may create discretion over what is actually published.",
       "jurisdiction": "federal",
       "federal_nexus": "",
       "confidence": "high",
@@ -4801,8 +4770,8 @@
         "snapshot_url": null,
         "durable_keys": {}
       },
-      "_origin_file": "whitehouse_events_2025-02-15_2025-02-21.json",
-      "_origin_index": 21
+      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
+      "_origin_index": 1467
     },
     {
       "source_key": "hcr",
@@ -5313,9 +5282,9 @@
       "action": "created doge by executive order",
       "act_key": "trump|created doge by executive order|2025-02-19",
       "attacks": [
-        "42",
-        "19",
-        "28"
+        "separation_of_powers",
+        "presidency",
+        "public_service"
       ],
       "source_meta": {
         "headline": null,
@@ -5525,8 +5494,8 @@
         "snapshot_url": null,
         "durable_keys": {}
       },
-      "_origin_file": "whitehouse_events_2025-02-15_2025-02-21.json",
-      "_origin_index": 24
+      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
+      "_origin_index": 1497
     },
     {
       "source_key": "whitehouse",
@@ -5560,8 +5529,8 @@
         "snapshot_url": null,
         "durable_keys": {}
       },
-      "_origin_file": "whitehouse_events_2025-02-15_2025-02-21.json",
-      "_origin_index": 3
+      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
+      "_origin_index": 639
     },
     {
       "source_key": "whitehouse",
@@ -5595,8 +5564,8 @@
         "snapshot_url": null,
         "durable_keys": {}
       },
-      "_origin_file": "whitehouse_events_2025-02-15_2025-02-21.json",
-      "_origin_index": 2
+      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
+      "_origin_index": 638
     },
     {
       "source_key": "whitehouse",
@@ -5631,8 +5600,8 @@
         "snapshot_url": null,
         "durable_keys": {}
       },
-      "_origin_file": "whitehouse_events_2025-02-15_2025-02-21.json",
-      "_origin_index": 4
+      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
+      "_origin_index": 640
     },
     {
       "source_key": "whitehouse",
@@ -5665,8 +5634,8 @@
         "snapshot_url": null,
         "durable_keys": {}
       },
-      "_origin_file": "whitehouse_events_2025-02-15_2025-02-21.json",
-      "_origin_index": 9
+      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
+      "_origin_index": 1150
     },
     {
       "source_key": "whitehouse",
@@ -5675,10 +5644,10 @@
       "reported_on": "2025-02-19",
       "dated_by": "occurred",
       "category": "Executive Actions & Orders",
-      "title": "White House signed executive order directing agencies to prevent taxpayer-funded benefits for undocumented immigrants",
+      "title": "White House signed executive order directing agencies to prevent federal benefits from reaching undocumented immigrants",
       "url": "https://www.whitehouse.gov/presidential-actions/2025/02/ending-taxpayer-subsidization-of-open-borders/",
-      "summary": "The White House signed an executive order titled \"Ending Taxpayer Subsidization of Open Borders\" on February 19, 2025. The order directs all executive departments and agencies to identify federally funded programs that permit undocumented immigrants to obtain cash or non-cash benefits, and to take actions to align such programs with the Personal Responsibility and Work Opportunity Reconciliation Act of 1996. It requires agencies to enhance eligibility verification systems and ensure federal payments to states do not facilitate \"sanctuary\" policies. Within 30 days, the Office of Management and Budget and the DOGE Service must identify additional federal funding sources for undocumented immigrants and recommend further agency actions.",
-      "why_relevant": "The order asserts executive power to reinterpret and enforce existing statutory restrictions on benefits for undocumented immigrants, directing a government-wide audit and enforcement posture that may narrow access to federal assistance and expand immigration enforcement authority.",
+      "summary": "The White House issued an executive order titled \"Ending Taxpayer Subsidization of Open Borders\" on February 19, 2025. The order directs all executive departments and agencies to identify federally funded programs that permit undocumented immigrants to obtain cash or non-cash benefits, and to take actions to align such programs with the Personal Responsibility and Work Opportunity Reconciliation Act of 1996. It requires agencies to enhance eligibility verification systems and ensure federal payments to states do not facilitate or promote undocumented immigration or \"sanctuary\" policies. The order mandates the Office of Management and Budget and the DOGE Service to identify additional federal funding sources for undocumented immigrants within 30 days and recommend further agency actions.",
+      "why_relevant": "The order asserts executive power to redirect federal benefit administration and enforce immigration-related eligibility restrictions, potentially affecting access to federally funded programs and the relationship between federal and state enforcement of immigration law.",
       "jurisdiction": "federal",
       "federal_nexus": "",
       "confidence": "high",
@@ -5689,7 +5658,8 @@
       "attacks": [
         "immigrants_refugees",
         "poor",
-        "rule_of_law"
+        "rule_of_law",
+        "separation_of_powers"
       ],
       "source_meta": {
         "headline": "Ending Taxpayer Subsidization of Open Borders",
@@ -5700,8 +5670,8 @@
         "snapshot_url": null,
         "durable_keys": {}
       },
-      "_origin_file": "whitehouse_events_2025-02-15_2025-02-21.json",
-      "_origin_index": 20
+      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
+      "_origin_index": 1466
     },
     {
       "source_key": "whitehouse",
@@ -5735,8 +5705,8 @@
         "snapshot_url": null,
         "durable_keys": {}
       },
-      "_origin_file": "whitehouse_events_2025-02-15_2025-02-21.json",
-      "_origin_index": 19
+      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
+      "_origin_index": 1465
     },
     {
       "source_key": "whitehouse",
@@ -5769,8 +5739,8 @@
         "snapshot_url": null,
         "durable_keys": {}
       },
-      "_origin_file": "whitehouse_events_2025-02-15_2025-02-21.json",
-      "_origin_index": 18
+      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
+      "_origin_index": 1464
     },
     {
       "source_key": "guardian",
@@ -6950,8 +6920,8 @@
       "category": "Appointments & Patronage",
       "title": "Trump announces intent to nominate three Assistant Attorneys General",
       "url": "https://www.justice.gov/opa/pr/president-donald-j-trump-intends-nominate-individuals-key-posts-department-justice",
-      "summary": "The Department of Justice announced President Trump's intent to nominate John Eisenberg as Assistant Attorney General for National Security, Brett Shumate as Assistant Attorney General for the Civil Division, and Patrick Davis as Assistant Attorney General for the Office of Legislative Affairs. All three have prior DOJ experience and private-sector backgrounds. Eisenberg previously served as Legal Advisor to the National Security Council; Shumate is currently Acting AAG for the Civil Division; Davis previously served as Deputy Associate Attorney General and led the Senate Judiciary Committee's \"Russiagate\" investigation.",
-      "why_relevant": "These nominations determine who will lead major DOJ divisions responsible for national security law, civil litigation, and congressional relations, affecting the department's independence and policy direction.",
+      "summary": "The Department of Justice announced President Trump's intent to nominate John Eisenberg as Assistant Attorney General for National Security, Brett Shumate as Assistant Attorney General for the Civil Division, and Patrick Davis as Assistant Attorney General for the Office of Legislative Affairs. All three have prior DOJ experience and private-sector backgrounds. Eisenberg previously served as Legal Advisor to the National Security Council; Shumate is currently Acting AAG for the Civil Division; Davis previously led the Senate Judiciary Committee's \"Russiagate\" investigation and served as Deputy Associate Attorney General.",
+      "why_relevant": "These nominations determine who will lead three major DOJ divisions—National Security, Civil, and Legislative Affairs—and thus shape the department's enforcement priorities and legal positions.",
       "jurisdiction": "federal",
       "federal_nexus": "",
       "confidence": "high",
@@ -6969,8 +6939,8 @@
         "snapshot_url": null,
         "durable_keys": {}
       },
-      "_origin_file": "justice_events_2025-02-15_2025-02-21.json",
-      "_origin_index": 0
+      "_origin_file": "justice_events_2025-01-20_2026-08-14.json",
+      "_origin_index": 7
     },
     {
       "source_key": "whitehouse",
@@ -7000,8 +6970,8 @@
         "snapshot_url": null,
         "durable_keys": {}
       },
-      "_origin_file": "whitehouse_events_2025-02-15_2025-02-21.json",
-      "_origin_index": 17
+      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
+      "_origin_index": 1463
     },
     {
       "source_key": "defense",
@@ -7706,25 +7676,25 @@
     {
       "source_key": "justice",
       "date": "2025-02-20",
-      "occurred_on": "",
+      "occurred_on": "2025-02-20",
       "reported_on": "2025-02-20",
-      "dated_by": "reported",
+      "dated_by": "occurred",
       "category": "Executive Actions & Orders",
       "title": "Department of Justice announces removal of constitutional protections for administrative law judges",
       "url": "https://www.justice.gov/opa/pr/statement-justice-department-chief-staff-chad-mizelle",
-      "summary": "The Department of Justice, through Chief of Staff Chad Mizelle, announced on February 20, 2025, that it has determined multiple layers of removal restrictions protecting administrative law judges (ALJs) are unconstitutional. The department stated it is \"restoring constitutional accountability\" to make Executive Branch officials answer to the President. The statement invokes Supreme Court precedent but does not specify which ruling or identify the mechanism by which the determination will be implemented.",
-      "why_relevant": "Removal of statutory protections for ALJs directly affects the independence of administrative adjudication and the separation of powers between the executive and the civil service, potentially concentrating prosecutorial and regulatory power in the presidency.",
+      "summary": "The Department of Justice, through Chief of Staff Chad Mizelle, announced on February 20, 2025, that it has determined multiple layers of removal restrictions protecting administrative law judges (ALJs) are unconstitutional. The department stated it is removing these protections to restore \"constitutional accountability\" and ensure Executive Branch officials answer to the President. The announcement invokes Supreme Court precedent but does not specify which case or provide legal analysis.",
+      "why_relevant": "Removal of statutory protections for ALJs materially shifts the balance of power within the Executive Branch, subordinating independent adjudicators to direct presidential control and potentially affecting the impartiality of administrative proceedings across federal agencies.",
       "jurisdiction": "federal",
       "federal_nexus": "",
-      "confidence": "medium",
-      "basis": "the Department of Justice determined that multiple layers of removal restrictions shielding administrative law judges (ALJs) are unconstitutional",
+      "confidence": "high",
+      "basis": "the Department of Justice determined that multiple layers of removal restrictions shielding administrative law judges (ALJs) are unconstitutional.",
       "actor": "The Department of Justice",
       "action": "announced \"Statement from Justice Department Chief of Staff Chad Mizelle\"",
       "act_key": "department|announced statement from justice department chief of staff chad mizelle|2025-02-20",
       "attacks": [
         "separation_of_powers",
-        "civil_service",
-        "rule_of_law"
+        "rule_of_law",
+        "civil_service"
       ],
       "source_meta": {
         "headline": "Statement from Justice Department Chief of Staff Chad Mizelle",
@@ -7735,8 +7705,8 @@
         "snapshot_url": null,
         "durable_keys": {}
       },
-      "_origin_file": "justice_events_2025-02-15_2025-02-21.json",
-      "_origin_index": 1
+      "_origin_file": "justice_events_2025-01-20_2026-08-14.json",
+      "_origin_index": 8
     },
     {
       "source_key": "meidas",
@@ -7865,8 +7835,8 @@
         "snapshot_url": null,
         "durable_keys": {}
       },
-      "_origin_file": "whitehouse_events_2025-02-15_2025-02-21.json",
-      "_origin_index": 10
+      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
+      "_origin_index": 1151
     },
     {
       "source_key": "hcr",
@@ -10735,8 +10705,8 @@
         "snapshot_url": null,
         "durable_keys": {}
       },
-      "_origin_file": "whitehouse_events_2025-02-15_2025-02-21.json",
-      "_origin_index": 11
+      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
+      "_origin_index": 1154
     },
     {
       "source_key": "whitehouse",
@@ -10770,8 +10740,8 @@
         "snapshot_url": null,
         "durable_keys": {}
       },
-      "_origin_file": "whitehouse_events_2025-02-15_2025-02-21.json",
-      "_origin_index": 12
+      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
+      "_origin_index": 1155
     },
     {
       "source_key": "federalregister",
@@ -11000,8 +10970,8 @@
         "snapshot_url": null,
         "durable_keys": {}
       },
-      "_origin_file": "whitehouse_events_2025-02-15_2025-02-21.json",
-      "_origin_index": 0
+      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
+      "_origin_index": 636
     },
     {
       "source_key": "whitehouse",
@@ -11034,8 +11004,8 @@
         "snapshot_url": null,
         "durable_keys": {}
       },
-      "_origin_file": "whitehouse_events_2025-02-15_2025-02-21.json",
-      "_origin_index": 22
+      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
+      "_origin_index": 1468
     },
     {
       "source_key": "whitehouse",
@@ -11047,17 +11017,16 @@
       "title": "White House issues fact sheet on presidential memorandum directing trade investigation of foreign digital service taxes",
       "url": "https://www.whitehouse.gov/fact-sheets/2025/02/fact-sheet-president-donald-j-trump-issues-directive-to-prevent-the-unfair-exploitation-of-american-innovation/",
       "summary": "The White House published a fact sheet on February 21, 2025, describing a presidential memorandum signed by President Trump. The memorandum directs the United States Trade Representative to renew Section 301 investigations into digital service taxes (DSTs) imposed by foreign governments on American companies and to investigate additional countries using DSTs. The fact sheet states the Administration will consider \"responsive actions like tariffs\" and will scrutinize EU regulations including the Digital Markets Act and Digital Services Act. The memorandum also directs review of whether foreign policies incentivize U.S. companies to develop technology in ways that undermine free speech or foster censorship.",
-      "why_relevant": "The memorandum asserts executive authority to unilaterally initiate trade investigations and impose tariffs in response to foreign tax policies, concentrating trade power in the presidency and potentially escalating trade conflict without congressional authorization.",
+      "why_relevant": "The memorandum asserts executive authority to unilaterally initiate trade investigations and threaten tariffs against foreign governments, concentrating trade policy power in the presidency and potentially escalating trade tensions without congressional authorization.",
       "jurisdiction": "federal",
       "federal_nexus": "",
       "confidence": "high",
-      "basis": "President Donald J. Trump signed a memorandum to defend American companies and innovators from overseas extortion. This Administration will consider responsive actions like tariffs to combat the digital service taxes (DSTs).",
+      "basis": "Today, President Donald J. Trump signed a memorandum to defend American companies and innovators from overseas extortion. This Administration will consider responsive actions like tariffs to combat the digital service taxes (DSTs).",
       "actor": "The White House",
       "action": "issued a fact sheet titled \"Fact Sheet: President Donald J. Trump Issues Directive to Prevent the Unfair Exploitation of American Innovation\"",
       "act_key": "white house|issued a fact sheet titled fact sheet president donald j trump issues directive to prevent the unfair exploitation of american innovation|2025-02-21",
       "attacks": [
-        "trade",
-        "separation_of_powers"
+        "trade"
       ],
       "source_meta": {
         "headline": "Fact Sheet: President Donald J. Trump Issues Directive to Prevent the Unfair Exploitation of American Innovation",
@@ -11068,8 +11037,8 @@
         "snapshot_url": null,
         "durable_keys": {}
       },
-      "_origin_file": "whitehouse_events_2025-02-15_2025-02-21.json",
-      "_origin_index": 1
+      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
+      "_origin_index": 637
     },
     {
       "source_key": "whitehouse",
@@ -11080,8 +11049,8 @@
       "category": "Economic & Regulatory Power",
       "title": "White House issues presidential memorandum on America First Investment Policy",
       "url": "https://www.whitehouse.gov/presidential-actions/2025/02/america-first-investment-policy/",
-      "summary": "The White House issued a presidential memorandum directing federal agencies to implement an \"America First Investment Policy\" that restricts foreign investment in U.S. critical technology, infrastructure, and strategic sectors, particularly from China and other designated adversaries. The memorandum establishes a \"fast-track\" process for allied investment, expedites environmental reviews for investments over $1 billion, directs CFIUS to restrict Chinese-affiliated investment, and instructs agencies to deter U.S. persons from investing in China's military-industrial sector through sanctions and other legal instruments. The policy also directs review of the U.S.-China income tax treaty and fiduciary standards for pension fund investments in foreign adversary companies.",
-      "why_relevant": "The memorandum asserts executive authority to reshape foreign investment policy, restrict capital flows to designated adversaries, and direct multiple federal agencies to implement new screening and enforcement mechanisms, concentrating investment-policy power in the executive branch and potentially affecting international economic relations and domestic capital markets.",
+      "summary": "The White House issued a presidential memorandum directing federal agencies to implement an \"America First Investment Policy\" that restricts foreign investment in U.S. critical technology, infrastructure, and strategic sectors, particularly from China and other designated adversaries. The memorandum establishes a \"fast-track\" process for allied investment, expedites environmental reviews for investments over $1 billion, directs CFIUS to restrict Chinese-affiliated investors, and instructs agencies to deter U.S. persons from investing in China's military-industrial sector through sanctions and other legal instruments. The policy also directs review of the U.S.-China income tax treaty and fiduciary standards for pension fund investments in foreign adversary companies.",
+      "why_relevant": "The memorandum asserts executive authority to reshape foreign investment policy, restrict capital flows to designated adversaries, and direct multiple agencies to implement new screening and enforcement mechanisms, concentrating investment-policy power in the executive branch and potentially affecting international economic relations and domestic capital markets.",
       "jurisdiction": "federal",
       "federal_nexus": "",
       "confidence": "high",
@@ -11102,8 +11071,8 @@
         "snapshot_url": null,
         "durable_keys": {}
       },
-      "_origin_file": "whitehouse_events_2025-02-15_2025-02-21.json",
-      "_origin_index": 23
+      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
+      "_origin_index": 1469
     },
     {
       "source_key": "guardian",

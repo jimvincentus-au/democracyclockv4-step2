@@ -5,47 +5,47 @@
   },
   "week_number": 33,
   "sources": [
-    "congress",
-    "hcr",
-    "whitehouse",
-    "justsecurity",
-    "50501",
-    "justice",
-    "guardian",
-    "meidas",
-    "democracydocket",
-    "federalregister",
     "outloud",
-    "defense",
-    "orders",
-    "noah",
     "popinfo",
+    "50501",
+    "orders",
     "zeteo",
-    "scotusorders"
+    "justsecurity",
+    "federalregister",
+    "guardian",
+    "justice",
+    "whitehouse",
+    "congress",
+    "defense",
+    "noah",
+    "scotusorders",
+    "hcr",
+    "meidas",
+    "democracydocket"
   ],
   "counts": {
-    "total": 468,
+    "total": 466,
     "by_date": {
       "2025-08-30": 25,
       "2025-08-31": 62,
-      "2025-09-01": 86,
-      "2025-09-02": 77,
-      "2025-09-03": 66,
-      "2025-09-04": 63,
-      "2025-09-05": 89
+      "2025-09-01": 84,
+      "2025-09-02": 79,
+      "2025-09-03": 63,
+      "2025-09-04": 66,
+      "2025-09-05": 87
     },
     "by_source": {
-      "guardian": 138,
-      "hcr": 77,
-      "zeteo": 15,
+      "guardian": 137,
+      "hcr": 81,
+      "zeteo": 14,
       "meidas": 81,
       "noah": 5,
       "justsecurity": 4,
       "popinfo": 27,
       "50501": 8,
       "democracydocket": 16,
-      "whitehouse": 18,
-      "federalregister": 44,
+      "federalregister": 43,
+      "whitehouse": 15,
       "justice": 9,
       "defense": 4,
       "outloud": 3,
@@ -54,19 +54,19 @@
       "congress": 1
     },
     "by_category": {
-      "Executive Actions & Orders": 60,
+      "Executive Actions & Orders": 58,
       "Legislative & Oversight Activity": 27,
       "Judicial Developments": 55,
-      "Law Enforcement & Surveillance": 54,
+      "Law Enforcement & Surveillance": 56,
       "Elections & Representation": 20,
-      "Civil Society & Protest": 16,
-      "Economic & Regulatory Power": 77,
-      "Appointments & Patronage": 31,
-      "Transparency & Records": 17,
+      "Civil Society & Protest": 15,
+      "Economic & Regulatory Power": 81,
+      "Appointments & Patronage": 32,
+      "Transparency & Records": 18,
       "Civil–Military Relations & State Violence": 48,
       "": 1,
-      "Information & Media Control": 30,
-      "International Relations": 16,
+      "Information & Media Control": 18,
+      "International Relations": 21,
       "Courts / Supreme Court / Orders": 14,
       "Public Health & Science": 1,
       "Culture & Arts": 1
@@ -1064,41 +1064,6 @@
       },
       "_origin_file": "guardian_events_2025-08-23_2025-09-05.json",
       "_origin_index": 76
-    },
-    {
-      "source_key": "guardian",
-      "date": "2025-08-31",
-      "occurred_on": "2025-08-31",
-      "reported_on": "2025-08-31",
-      "dated_by": "occurred",
-      "category": "Executive Actions & Orders",
-      "title": "Trump announces pocket rescission of $4.9bn in foreign aid",
-      "url": "https://www.theguardian.com/us-news/2025/sep/09/trump-supreme-court-foreign-aid",
-      "summary": "Trump informed House Speaker Mike Johnson that he would not spend $4.9 billion in congressionally appropriated foreign aid, characterizing it as \"woke, weaponized and wasteful spending.\" The funds were designated for UN organizations, peacekeeping operations, development assistance, and democracy-promotion projects. This \"pocket rescission\"—announced shortly before the 30 September fiscal year end—prevented Congress from acting within the required 45-day timeframe, marking the first such rescission in 50 years.",
-      "why_relevant": "The action unilaterally overrides congressional appropriations and defunds democratically-approved foreign aid without legislative consent, asserting executive power to nullify spending Congress mandated.",
-      "jurisdiction": "federal",
-      "federal_nexus": "",
-      "confidence": "high",
-      "basis": "Late last month, Trump informed the Republican House speaker, Mike Johnson, that he would not spend $4.9bn in foreign aid that Congress had previously approved, decrying it as 'woke, weaponized and wasteful spending'.",
-      "actor": "Trump",
-      "action": "announced pocket rescission of foreign aid",
-      "act_key": "trump|announced pocket rescission of foreign aid|2025-08-31",
-      "attacks": [
-        "separation_of_powers",
-        "congress",
-        "rule_of_law"
-      ],
-      "source_meta": {
-        "headline": "US supreme court clears way for Trump to withhold $5bn in foreign aid",
-        "published_on": "2025-09-09",
-        "byline": "Chris Stein",
-        "outlet": "the Guardian",
-        "accessed_on": "2026-08-11T20:53:45Z",
-        "snapshot_url": null,
-        "durable_keys": {}
-      },
-      "_origin_file": "guardian_events_2025-09-06_2025-09-12.json",
-      "_origin_index": 26
     },
     {
       "source_key": "guardian",
@@ -2155,6 +2120,41 @@
       },
       "_origin_file": "hcr_events_2025-08-16_2025-10-24.json",
       "_origin_index": 219
+    },
+    {
+      "source_key": "hcr",
+      "date": "2025-08-31",
+      "occurred_on": "2025-08-31",
+      "reported_on": "2025-09-06",
+      "dated_by": "occurred",
+      "category": "Economic & Regulatory Power",
+      "title": "U.S. manufacturing contracted for sixth consecutive month",
+      "url": "https://finance.yahoo.com/news/us-manufacturing-activity-contracts-for-sixth-straight-month-in-august-its-survival-151934968.html",
+      "summary": "Data released Tuesday showed that U.S. manufacturing contracted for six straight months. The country has fewer manufacturing jobs today than before the coronavirus pandemic began in 2020, with 78,000 manufacturing jobs lost this year. Seventy-two percent of Texas manufacturers reported tariffs are hurting their businesses, while only 3.7% believe tariffs are helping.",
+      "why_relevant": "Sustained manufacturing contraction and job losses contradict administration claims that tariffs would restore manufacturing and improve economic conditions, indicating policy failure affecting workers and the broader economy.",
+      "jurisdiction": "federal",
+      "federal_nexus": "",
+      "confidence": "high",
+      "basis": "Data released Tuesday show that U.S. manufacturing has contracted for six straight months. The country has lost 78,000 manufacturing jobs this year.",
+      "actor": "U.S. economy",
+      "action": "manufacturing contracted six months",
+      "act_key": "u s economy|manufacturing contracted six months|2025-08-31",
+      "attacks": [
+        "workers",
+        "economy",
+        "future"
+      ],
+      "source_meta": {
+        "headline": null,
+        "published_on": null,
+        "byline": null,
+        "outlet": null,
+        "accessed_on": null,
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "hcr_events_2025-09-06_2025-12-12.json",
+      "_origin_index": 687
     },
     {
       "source_key": "meidas",
@@ -3307,21 +3307,22 @@
       "reported_on": "2025-12-02",
       "dated_by": "occurred",
       "category": "Executive Actions & Orders",
-      "title": "Hegseth told military leaders to ignore \"stupid rules of engagement\" in September speech",
+      "title": "Hegseth told military leaders to ignore \"stupid rules of engagement\"",
       "url": "https://popular.info/p/department-of-war-crimes",
-      "summary": "In a September 2025 speech to senior military leaders, Defense Secretary Pete Hegseth instructed them to disregard \"stupid rules of engagement,\" which he called \"overbearing.\" Hegseth stated the military would \"unleash overwhelming and punishing violence on the enemy\" and \"untie the hands of our warfighters to intimidate, demoralize, hunt and kill the enemies of our country,\" rejecting \"politically correct and overbearing rules of engagement\" in favor of \"maximum lethality.\"",
-      "why_relevant": "A Cabinet officer's direct order to military leadership to disregard legal rules of engagement undermines the rule of law and chain of command accountability.",
+      "summary": "In a September 2025 speech to senior military leaders, Defense Secretary Pete Hegseth instructed them to disregard \"stupid rules of engagement,\" calling them \"overbearing.\" Hegseth stated the military would \"untie the hands of our warfighters to intimidate, demoralize, hunt and kill the enemies of our country\" and abandon \"politically correct and overbearing rules of engagement\" in favor of \"maximum lethality.\"",
+      "why_relevant": "A cabinet officer's directive to military leadership to disregard legal rules of engagement undermines the chain of command's obligation to enforce lawful conduct and invites violations of international humanitarian law.",
       "jurisdiction": "federal",
       "federal_nexus": "",
       "confidence": "high",
       "basis": "Hegseth told a group of senior military leaders to ignore 'stupid rules of engagement,' which he called 'overbearing.",
       "actor": "Pete Hegseth",
-      "action": "ordered disregard of rules of engagement",
-      "act_key": "pete hegseth|ordered disregard of rules of engagement|2025-09-01",
+      "action": "directed military to ignore rules of engagement",
+      "act_key": "pete hegseth|directed military to ignore rules of engagement|2025-09-01",
       "attacks": [
         "rule_of_law",
         "military",
-        "decency"
+        "constitution",
+        "separation_of_powers"
       ],
       "source_meta": {
         "headline": "Department of War Crimes",
@@ -3332,8 +3333,8 @@
         "snapshot_url": null,
         "durable_keys": {}
       },
-      "_origin_file": "popinfo_events_2025-11-29_2026-03-06.json",
-      "_origin_index": 229
+      "_origin_file": "popinfo_events_2025-09-06_2025-12-12.json",
+      "_origin_index": 29
     },
     {
       "source_key": "popinfo",
@@ -3379,20 +3380,20 @@
       "category": "Executive Actions & Orders",
       "title": "Trump signed executive order renaming Department of Defense to Department of War",
       "url": "https://popular.info/p/department-of-war-crimes",
-      "summary": "In September 2025, President Trump signed an executive order changing the name of the Department of Defense to the Department of War. At the signing ceremony, Defense Secretary Pete Hegseth stated the department would focus on \"maximum lethality, not tepid legality,\" emphasizing \"violent effect, not politically correct\" operations and raising \"warriors, not just defenders.\"",
-      "why_relevant": "The renaming and accompanying rhetoric signal a deliberate shift away from legal constraints on military conduct and toward unrestricted use of force.",
+      "summary": "In September 2025, President Trump signed an executive order changing the name of the Department of Defense to the Department of War. At the signing ceremony, Defense Secretary Pete Hegseth stated the department would focus on \"maximum lethality, not tepid legality\" and would pursue \"violent effect, not politically correct\" operations, emphasizing \"restoring the warrior ethos\" and \"raising up warriors, not just defenders.\"",
+      "why_relevant": "A symbolic and rhetorical reorientation of the military toward \"maximum lethality\" over legality signals institutional abandonment of legal constraints on the use of force and international humanitarian law compliance.",
       "jurisdiction": "federal",
       "federal_nexus": "",
       "confidence": "high",
-      "basis": "In September, Trump signed an executive order changing the name of the DOD to the Department of War.",
+      "basis": "In September, Trump signed an executive order changing the name of the DOD to the Department of War. At the signing, Hegseth said that the department would focus on 'maximum lethality, not tepid legality.",
       "actor": "Donald Trump",
-      "action": "renamed department of defense",
-      "act_key": "donald trump|renamed department of defense|2025-09-01",
+      "action": "signed executive order renaming dod",
+      "act_key": "donald trump|signed executive order renaming dod|2025-09-01",
       "attacks": [
         "rule_of_law",
         "constitution",
-        "decency",
-        "military"
+        "separation_of_powers",
+        "decency"
       ],
       "source_meta": {
         "headline": "Department of War Crimes",
@@ -3403,8 +3404,8 @@
         "snapshot_url": null,
         "durable_keys": {}
       },
-      "_origin_file": "popinfo_events_2025-11-29_2026-03-06.json",
-      "_origin_index": 230
+      "_origin_file": "popinfo_events_2025-09-06_2025-12-12.json",
+      "_origin_index": 30
     },
     {
       "source_key": "50501",
@@ -4097,8 +4098,8 @@
       "category": "Law Enforcement & Surveillance",
       "title": "ICE detention of Jamaican-born US Army veteran Godfrey Wade for deportation",
       "url": "https://www.theguardian.com/us-news/2025/dec/07/georgia-veteran-detained-ice",
-      "summary": "Godfrey Wade, a 65-year-old Jamaican-born decorated US Army veteran with multiple commendations and college degrees, was arrested for driving without a license in September 2025 and subsequently taken into ICE custody. He remains detained at Stewart detention center in Georgia under the Trump administration's mass deportation program. The Biden-era ICE directive protecting non-citizen veterans was rescinded by the Trump administration in January 2025, exposing Wade and tens of thousands of other non-citizen military members to deportation proceedings.",
-      "why_relevant": "The detention and threatened deportation of a decorated military veteran exemplifies the Trump administration's mass deportation enforcement targeting non-citizen service members, undermining protections previously extended to those who served the country and raising questions about the treatment of vulnerable populations in immigration custody.",
+      "summary": "Godfrey Wade, a 65-year-old Jamaican-born decorated US Army veteran with multiple commendations and college degrees, was arrested for driving without a license in September 2025 and subsequently taken into ICE custody. He remains detained at Stewart detention center in Georgia under the Trump administration's \"mass deportation\" program. The Trump administration rescinded the Biden-era ICE directive that had protected non-citizen veterans, exposing Wade and tens of thousands of other non-citizen military members to deportation proceedings.",
+      "why_relevant": "The detention and threatened deportation of a decorated military veteran exemplifies the Trump administration's rescission of protections for non-citizen service members, raising constitutional and moral questions about the treatment of those who served the nation.",
       "jurisdiction": "federal",
       "federal_nexus": "",
       "confidence": "high",
@@ -4120,8 +4121,8 @@
         "snapshot_url": null,
         "durable_keys": {}
       },
-      "_origin_file": "guardian_events_2025-11-29_2026-03-06.json",
-      "_origin_index": 1535
+      "_origin_file": "guardian_events_2025-09-06_2025-12-12.json",
+      "_origin_index": 68
     },
     {
       "source_key": "guardian",
@@ -4867,41 +4868,6 @@
       "source_key": "popinfo",
       "date": "2025-09-01",
       "occurred_on": "2025-09-01",
-      "reported_on": "2025-12-09",
-      "dated_by": "occurred",
-      "category": "Information & Media Control",
-      "title": "Paramount hires Trump loyalist as CBS News ombudsman to satisfy merger conditions",
-      "url": "https://popular.info/p/kushner-and-saudis-back-hostile-takeover",
-      "summary": "In September 2025, CBS News (owned by Paramount) announced the hiring of Kenneth R. Weinstein as ombudsman to \"receive and evaluate any complaints of bias or other concerns involving CBS.\" Paramount had committed to creating this position to secure regulatory approval for its merger with Skydance. Weinstein, who had no experience in news production or oversight, previously served as president of the Hudson Institute, a right-wing think tank. He has an extensive record of praising Trump and donated $20,000 to a Trump campaign committee in July 2024. The hiring represents Paramount's willingness to place a Trump-aligned figure in a position overseeing news bias complaints.",
-      "why_relevant": "Placing a Trump loyalist with no journalism experience in a position to evaluate news bias complaints at a major broadcast network signals potential politicization of editorial oversight and raises concerns about editorial independence at a company seeking regulatory approval from the Trump administration.",
-      "jurisdiction": "private",
-      "federal_nexus": "The hiring was made as a condition of federal regulatory approval for Paramount's merger with Skydance, linking private editorial decisions to federal merger conditions.",
-      "confidence": "high",
-      "basis": "CBS News announced that it hired a Trump loyalist, Kenneth R. Weinstein, to 'receive and evaluate any complaints of bias or other concerns involving CBS'... Weinstein had no experience with producing or overseeing news coverage.",
-      "actor": "Paramount",
-      "action": "hired trump loyalist as ombudsman",
-      "act_key": "paramount|hired trump loyalist as ombudsman|2025-09-01",
-      "attacks": [
-        "press",
-        "truth",
-        "rule_of_law"
-      ],
-      "source_meta": {
-        "headline": "Kushner and Saudis back hostile takeover of Hollywood giant",
-        "published_on": "2025-12-09",
-        "byline": "Judd Legum",
-        "outlet": "Popular Information",
-        "accessed_on": "2026-08-11T14:03:02Z",
-        "snapshot_url": null,
-        "durable_keys": {}
-      },
-      "_origin_file": "popinfo_events_2025-11-29_2026-03-06.json",
-      "_origin_index": 208
-    },
-    {
-      "source_key": "popinfo",
-      "date": "2025-09-01",
-      "occurred_on": "2025-09-01",
       "reported_on": "2025-10-21",
       "dated_by": "occurred",
       "category": "Information & Media Control",
@@ -4936,37 +4902,6 @@
       },
       "_origin_file": "popinfo_events_2025-09-06_2025-12-12.json",
       "_origin_index": 109
-    },
-    {
-      "source_key": "whitehouse",
-      "date": "2025-09-01",
-      "occurred_on": "2025-09-01",
-      "reported_on": "2025-09-01",
-      "dated_by": "occurred",
-      "category": "Information & Media Control",
-      "title": "President Trump Is Delivering for American Workers",
-      "url": "https://www.whitehouse.gov/releases/2025/09/president-trump-is-delivering-for-american-workers/",
-      "summary": "The White House published this release on 2025-09-01 through its releases channel.",
-      "why_relevant": "",
-      "jurisdiction": "federal",
-      "federal_nexus": "Official White House channel; documents the act of publication only.",
-      "confidence": "high",
-      "basis": "official_actor_record",
-      "actor": "The White House",
-      "action": "published a release titled \"President Trump Is Delivering for American Workers\"",
-      "act_key": "white house|published a release titled president trump is delivering for american workers|2025-09-01",
-      "attacks": [],
-      "source_meta": {
-        "headline": null,
-        "published_on": null,
-        "byline": null,
-        "outlet": null,
-        "accessed_on": null,
-        "snapshot_url": null,
-        "durable_keys": {}
-      },
-      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
-      "_origin_index": 275
     },
     {
       "source_key": "50501",
@@ -5032,8 +4967,8 @@
           "federal_register_doc": "2025-21185"
         }
       },
-      "_origin_file": "federalregister_events_2025-11-22_2025-11-28.json",
-      "_origin_index": 7
+      "_origin_file": "federalregister_events_2025-09-06_2025-12-12.json",
+      "_origin_index": 15
     },
     {
       "source_key": "federalregister",
@@ -5045,11 +4980,11 @@
       "title": "DEA publishes notice of controlled substances importer application by Siegfried Grafton, Inc.",
       "url": "https://www.federalregister.gov/documents/2025/11/26/2025-21178/importer-of-controlled-substances-application-siegfried-grafton-inc",
       "summary": "The Drug Enforcement Administration published a notice that Siegfried Grafton, Inc., based in Grafton, Wisconsin, applied on September 1, 2025, to be registered as an importer of controlled substances including gamma hydroxybutyric acid, marijuana extract, marijuana, 3,4-methylenedioxymethamphetamine, and dimethyltryptamine. The company intends to import these Schedule I substances for analytical testing or distribution. Registered bulk manufacturers and applicants may submit electronic comments or objections, or request a hearing, by December 26, 2025.",
-      "why_relevant": "The notice initiates a formal regulatory process for controlled substances importation, establishing a public comment period that affects drug policy enforcement and licensing authority.",
+      "why_relevant": "The notice establishes a formal administrative process for licensing controlled substance importation, affecting regulatory oversight of drug commerce and public health safeguards.",
       "jurisdiction": "federal",
       "federal_nexus": "",
       "confidence": "high",
-      "basis": "Siegfried Grafton, Inc. has applied to be registered as an importer of basic class(es) of controlled substance(s).",
+      "basis": "Siegfried Grafton, Inc., 870 Badger Circle, Grafton, Wisconsin 53024-9436, applied to be registered as an importer of the following basic class(es) of controlled substance(s).",
       "actor": "Drug Enforcement Administration",
       "action": "published importer application notice",
       "act_key": "drug enforcement administration|published importer application notice|2025-09-01",
@@ -5065,41 +5000,8 @@
           "federal_register_doc": "2025-21178"
         }
       },
-      "_origin_file": "federalregister_events_2025-11-22_2025-11-28.json",
-      "_origin_index": 14
-    },
-    {
-      "source_key": "federalregister",
-      "date": "2025-09-01",
-      "occurred_on": "2025-09-01",
-      "reported_on": "2025-12-01",
-      "dated_by": "occurred",
-      "category": "Economic & Regulatory Power",
-      "title": "EPA publishes receipt and status information for new chemical submissions under TSCA for August-September 2025",
-      "url": "https://www.federalregister.gov/documents/2025/12/01/2025-21673/certain-new-chemicals-receipt-and-status-information-for-august-september-2025",
-      "summary": "The Environmental Protection Agency published a notice announcing receipt of new chemical submissions under the Toxic Substances Control Act (TSCA) for the period September 1–30, 2025. The notice includes premanufacture notices (PMNs), significant new use notices (SNUNs), microbial commercial activity notices (MCANs), test information, biotechnology exemption applications, test marketing exemption applications, and notices of commencement for new chemical substances. EPA invites public comment by December 31, 2025, and provides status reports on chemicals under review or recently concluded.",
-      "why_relevant": "This routine regulatory notice establishes public transparency and comment opportunity on new chemical substance approvals, a core function of environmental and consumer protection oversight under federal law.",
-      "jurisdiction": "federal",
-      "federal_nexus": "",
-      "confidence": "high",
-      "basis": "This document announces the Agency's receipt of new chemical submissions under the Toxic Substances Control Act (TSCA), including information about the receipt of a Premanufacture Notice (PMN), Significant New Use Notice (SNUN), Microbial Commercial Activity Notice (MCAN).",
-      "actor": "EPA",
-      "action": "published chemical receipt notice",
-      "act_key": "epa|published chemical receipt notice|2025-09-01",
-      "attacks": [],
-      "source_meta": {
-        "headline": "Certain New Chemicals; Receipt and Status Information for August-September 2025",
-        "published_on": "2025-12-01",
-        "byline": null,
-        "outlet": "Federal Register",
-        "accessed_on": "2026-08-11T16:02:13Z",
-        "snapshot_url": null,
-        "durable_keys": {
-          "federal_register_doc": "2025-21673"
-        }
-      },
-      "_origin_file": "federalregister_events_2025-11-29_2026-03-06.json",
-      "_origin_index": 447
+      "_origin_file": "federalregister_events_2025-09-06_2025-12-12.json",
+      "_origin_index": 22
     },
     {
       "source_key": "hcr",
@@ -5448,6 +5350,39 @@
       "_origin_index": 7
     },
     {
+      "source_key": "whitehouse",
+      "date": "2025-09-01",
+      "occurred_on": "2025-09-01",
+      "reported_on": "2025-09-01",
+      "dated_by": "occurred",
+      "category": "Economic & Regulatory Power",
+      "title": "White House issues fact sheet claiming labor market gains and worker-focused policies",
+      "url": "https://www.whitehouse.gov/releases/2025/09/president-trump-is-delivering-for-american-workers/",
+      "summary": "The White House published a fact sheet on Labor Day asserting that President Trump has created over half a million private-sector jobs, driven native-born employment gains of 2.4+ million, reduced regulations, achieved trade deals covering over half global GDP, issued guidance restricting illegal immigrants' access to federal workforce development resources, signed an executive order modernizing workforce programs, and enacted tax legislation the administration characterizes as delivering over $10,000 in annual take-home pay increases for typical families and creating nearly one million jobs.",
+      "why_relevant": "The fact sheet articulates the administration's claimed economic record and policy direction on labor, trade, taxation, and immigration—domains that directly shape workers' material conditions and the executive's regulatory authority over workforce development and immigration enforcement.",
+      "jurisdiction": "federal",
+      "federal_nexus": "",
+      "confidence": "high",
+      "basis": "President Trump has created over half a million new jobs since he took office — all of them coming in the private sector. Employment for native-born Americans has grown by 2.4+ million since January.",
+      "actor": "The White House",
+      "action": "published a release titled \"President Trump Is Delivering for American Workers\"",
+      "act_key": "white house|published a release titled president trump is delivering for american workers|2025-09-01",
+      "attacks": [
+        "immigrants_refugees"
+      ],
+      "source_meta": {
+        "headline": "President Trump Is Delivering for American Workers",
+        "published_on": "2025-09-01",
+        "byline": null,
+        "outlet": "The White House",
+        "accessed_on": "2026-08-26T23:10:32Z",
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
+      "_origin_index": 221
+    },
+    {
       "source_key": "guardian",
       "date": "2025-09-01",
       "occurred_on": "",
@@ -5466,8 +5401,8 @@
       "action": "redecorated oval office with gold finishes",
       "act_key": "trump|redecorated oval office with gold finishes|2025-09-01",
       "attacks": [
-        "19",
-        "44"
+        "presidency",
+        "emoluments"
       ],
       "source_meta": {
         "headline": "Before and after: Trump’s extreme goldening of the Oval Office",
@@ -5480,6 +5415,41 @@
       },
       "_origin_file": "guardian_events_2025-08-23_2025-09-05.json",
       "_origin_index": 73
+    },
+    {
+      "source_key": "popinfo",
+      "date": "2025-09-01",
+      "occurred_on": "2025-09-01",
+      "reported_on": "2025-12-09",
+      "dated_by": "occurred",
+      "category": "Appointments & Patronage",
+      "title": "Paramount hires Trump loyalist Kenneth Weinstein as CBS News ombudsman",
+      "url": "https://popular.info/p/kushner-and-saudis-back-hostile-takeover",
+      "summary": "In September 2025, Paramount announced the hiring of Kenneth R. Weinstein as ombudsman for CBS News to \"receive and evaluate any complaints of bias or other concerns involving CBS.\" Weinstein, who had no experience in news production or oversight, previously served as president of the Hudson Institute, a right-wing think tank, and has an extensive record of praising Trump. In July 2024, Weinstein donated $20,000 to a committee supporting Trump's campaign. The hire was made to secure regulatory approval for Paramount's merger with Skydance.",
+      "why_relevant": "The appointment of a Trump loyalist with no relevant experience to oversee news bias complaints at a major broadcast network demonstrates editorial capture and the use of regulatory approval as leverage to install partisan oversight of journalism.",
+      "jurisdiction": "federal",
+      "federal_nexus": "Paramount is subject to FCC broadcast licensing and merger review.",
+      "confidence": "high",
+      "basis": "CBS News announced that it hired a Trump loyalist, Kenneth R. Weinstein, to 'receive and evaluate any complaints of bias or other concerns involving CBS' as the company's new ombudsman.",
+      "actor": "Paramount",
+      "action": "appointed trump loyalist as news ombudsman",
+      "act_key": "paramount|appointed trump loyalist as news ombudsman|2025-09-01",
+      "attacks": [
+        "press",
+        "culture_art",
+        "rule_of_law"
+      ],
+      "source_meta": {
+        "headline": "Kushner and Saudis back hostile takeover of Hollywood giant",
+        "published_on": "2025-12-09",
+        "byline": "Judd Legum",
+        "outlet": "Popular Information",
+        "accessed_on": "2026-08-11T14:03:02Z",
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "popinfo_events_2025-09-06_2025-12-12.json",
+      "_origin_index": 8
     },
     {
       "source_key": "popinfo",
@@ -5514,41 +5484,6 @@
       },
       "_origin_file": "popinfo_events_2025-11-29_2026-03-06.json",
       "_origin_index": 52
-    },
-    {
-      "source_key": "zeteo",
-      "date": "2025-09-01",
-      "occurred_on": "2025-09-01",
-      "reported_on": "2025-08-23",
-      "dated_by": "occurred",
-      "category": "Appointments & Patronage",
-      "title": "Jeanine Pirro's 2020 texts reveal partisan involvement while Fox host",
-      "url": "https://zeteo.com/p/this-week-in-democracy-week-31-donald",
-      "summary": "The Washington Post reported that in September 2020, US Attorney for DC Jeanine Pirro, who was then a weekend host on Fox, told then-Republican National Committee chair Ronna McDaniel in a text message that she was determined to help Trump and the Republican Party, saying, \"I work so hard for the President and party,\" despite network rules preventing political involvement from on-air personalities. Additionally, in a text message to Sean Hannity after the post-election edition of her show didn't air, she noted that \"I'M TIRED OF THE CENSORSHIP AND I'M EMBARRASSED BY HOW THEY CALLED THIS ELECTION.\"",
-      "why_relevant": "A current US Attorney's documented partisan involvement while serving as a media personality reveals the politicization of law enforcement and conflicts of interest in prosecutorial authority.",
-      "jurisdiction": "federal",
-      "federal_nexus": "",
-      "confidence": "high",
-      "basis": "In September 2020, US Attorney for DC Jeanine Pirro, who was then a weekend host on Fox, told then-Republican National Committee chair Ronna McDaniel in a text message that she was determined to help Trump and the Republican Party",
-      "actor": "Jeanine Pirro",
-      "action": "engaged in partisan political activity",
-      "act_key": "jeanine pirro|engaged in partisan political activity|2025-09-01",
-      "attacks": [
-        "justice_dept",
-        "rule_of_law",
-        "civil_service"
-      ],
-      "source_meta": {
-        "headline": "This Week in Democracy – Week 31: Donald Trump Sends Kash Patel After His Enemies",
-        "published_on": "2025-08-23",
-        "byline": "Team Zeteo",
-        "outlet": "Zeteo",
-        "accessed_on": "2026-08-14T02:00:21Z",
-        "snapshot_url": null,
-        "durable_keys": {}
-      },
-      "_origin_file": "zeteo_events_2025-08-23_2025-09-05.json",
-      "_origin_index": 70
     },
     {
       "source_key": "zeteo",
@@ -5637,8 +5572,8 @@
       "action": "refused to release files",
       "act_key": "doj|refused to release files|2025-09-01",
       "attacks": [
-        "30",
-        "41"
+        "information",
+        "constitution"
       ],
       "source_meta": {
         "headline": "‘Please release the records’: Epstein survivors urge Congress over DoJ files",
@@ -5757,6 +5692,42 @@
       "_origin_index": 313
     },
     {
+      "source_key": "guardian",
+      "date": "2025-09-01",
+      "occurred_on": "2025-09-01",
+      "reported_on": "2025-11-24",
+      "dated_by": "occurred",
+      "category": "International Relations",
+      "title": "US military buildup and airstrikes campaign against Venezuela under Trump administration",
+      "url": "https://www.theguardian.com/us-news/2025/nov/24/visual-guide-us-military-presence-caribbean",
+      "summary": "The Trump administration has assembled its largest Caribbean military presence since 1989, including the USS Gerald R Ford carrier strike group and amphibious forces, while conducting a series of airstrikes justified as counter-narcotics operations. Since September 2025, at least 22 vessels have been struck, killing 83 people, which the UN has characterized as extrajudicial executions. The US designated Venezuela's alleged \"Cartel de los Soles\" as a terrorist organization and placed a $50 million bounty on President Nicolás Maduro's head. US officials have signaled a \"new phase\" in operations is imminent.",
+      "why_relevant": "The campaign represents a major escalation in US military pressure on a sovereign nation, with documented civilian casualties characterized as extrajudicial killings, raising questions about international law, democratic accountability, and the scope of executive war-making authority.",
+      "jurisdiction": "federal",
+      "federal_nexus": "",
+      "confidence": "high",
+      "basis": "Trump's campaign began in September, when the US military struck a small open boat allegedly carrying drugs, killing 11 people. Since then, at least 21 more vessels in the Caribbean and Pacific have been hit, killing 83 people – attacks the United Nations and other humanitarian organisations have described as extrajudicial executions.",
+      "actor": "Trump administration",
+      "action": "conducted airstrikes and military operations",
+      "act_key": "trump administration|conducted airstrikes and military operations|2025-09-01",
+      "attacks": [
+        "peace",
+        "rule_of_law",
+        "diplomacy",
+        "international_order"
+      ],
+      "source_meta": {
+        "headline": "Deadly airstrikes and a military buildup: how the US pressure campaign against Venezuela has unfolded in the Caribbean",
+        "published_on": "2025-11-24",
+        "byline": "Tiago Rogero",
+        "outlet": "the Guardian",
+        "accessed_on": "2026-08-11T17:54:28Z",
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "guardian_events_2025-09-06_2025-12-12.json",
+      "_origin_index": 250
+    },
+    {
       "source_key": "meidas",
       "date": "2025-09-01",
       "occurred_on": "",
@@ -5860,42 +5831,6 @@
       },
       "_origin_file": "50501_events_2025-11-22_2025-11-28.json",
       "_origin_index": 4
-    },
-    {
-      "source_key": "guardian",
-      "date": "2025-09-01",
-      "occurred_on": "2025-09-01",
-      "reported_on": "2025-11-24",
-      "dated_by": "occurred",
-      "category": "Civil–Military Relations & State Violence",
-      "title": "US military buildup and airstrikes campaign against Venezuela under \"war on drugs\" pretext",
-      "url": "https://www.theguardian.com/us-news/2025/nov/24/visual-guide-us-military-presence-caribbean",
-      "summary": "The Trump administration has deployed its largest Caribbean military presence since 1989, including the USS Gerald R Ford carrier strike group and amphibious forces, totaling approximately 12,700 troops. Since September, US military operations have conducted at least 22 airstrikes on vessels, killing 83 people, which the UN has characterized as extrajudicial executions. The US has placed a $50 million bounty on Venezuelan President Nicolás Maduro, designated his alleged \"Cartel de los Soles\" as a terrorist organization, and signaled a \"new phase\" of operations while providing no evidence that targeted vessels carried drugs or posed immediate threats.",
-      "why_relevant": "The campaign represents an escalating extrajudicial military operation against a sovereign nation justified by unsubstantiated drug-trafficking claims, undermining international law, the rule of law, and democratic norms of accountability and evidence-based action.",
-      "jurisdiction": "foreign",
-      "federal_nexus": "",
-      "confidence": "high",
-      "basis": "Trump's campaign began in September, when the US military struck a small open boat allegedly carrying drugs, killing 11 people. Since then, at least 21 more vessels in the Caribbean and Pacific have been hit, killing 83 people – attacks the United Nations and other humanitarian organisations have described as extrajudicial executions.",
-      "actor": "Trump administration",
-      "action": "conducted airstrikes on vessels",
-      "act_key": "trump administration|conducted airstrikes on vessels|2025-09-01",
-      "attacks": [
-        "peace",
-        "rule_of_law",
-        "diplomacy",
-        "international_order"
-      ],
-      "source_meta": {
-        "headline": "Deadly airstrikes and a military buildup: how the US pressure campaign against Venezuela has unfolded in the Caribbean",
-        "published_on": "2025-11-24",
-        "byline": "Tiago Rogero",
-        "outlet": "the Guardian",
-        "accessed_on": "2026-08-11T17:54:28Z",
-        "snapshot_url": null,
-        "durable_keys": {}
-      },
-      "_origin_file": "guardian_events_2025-11-22_2025-11-28.json",
-      "_origin_index": 54
     },
     {
       "source_key": "hcr",
@@ -6038,32 +5973,36 @@
       "source_key": "justice",
       "date": "2025-09-02",
       "occurred_on": "2025-09-02",
-      "reported_on": "2025-09-02",
+      "reported_on": "2025-09-03",
       "dated_by": "occurred",
       "category": "Executive Actions & Orders",
-      "title": "Department of Justice Wins Significant Remedies Against Google",
-      "url": "https://www.justice.gov/opa/pr/department-justice-wins-significant-remedies-against-google",
-      "summary": "The Department of Justice announced this on 2025-09-02 through Office of the Attorney General. The department's own account of it reads: \"Today, the Justice Department’s Antitrust Division won significant remedies in its monopolization case against Google in online search. In United States et al. v. Google , the U.S. District Court for the District of Columbia prohibited Google from entering or maintaining exclusive contracts relating to the distribution of Google Search, Chrome, Google Assistant, and the Gemini app; ordered Google to make certain …\"",
-      "why_relevant": "",
+      "title": "Department of Justice proposes legislation restricting gender-affirming medical care for minors",
+      "url": "https://www.justice.gov/opa/pr/department-justice-proposes-legislation-protect-children-gender-mutilation",
+      "summary": "The Department of Justice transmitted a legislative proposal to Congress on September 2, 2025, titled the Victims of Chemical or Surgical Mutilation Act (VCSMA). The bill, led by Representative Bob Onder (R, MO-03) and Senator Marsha Blackburn (R-TN), would prohibit healthcare professionals from providing what the department characterizes as \"chemical or surgical mutilation\" of children and would create a private right of action for children and parents. Attorney General Pamela Bondi stated the department is responding to families' concerns about \"mutilative medical procedures.\"",
+      "why_relevant": "The DOJ's proposal to restrict medical care for transgender minors represents a significant federal intervention in medical practice and parental authority, raising questions about the scope of executive power to direct legislative proposals and the department's role in defining medical standards.",
       "jurisdiction": "federal",
-      "federal_nexus": "Official DOJ channel; documents the act of announcement only.",
+      "federal_nexus": "",
       "confidence": "high",
-      "basis": "official_actor_record",
+      "basis": "Yesterday the U.S. Department of Justice transmitted a legislative proposal to Congress that protects and defends children from chemical and surgical mutilation under the guise of 'gender-affirming care.",
       "actor": "The Department of Justice",
-      "action": "announced \"Department of Justice Wins Significant Remedies Against Google\"",
-      "act_key": "department|announced department of justice wins significant remedies against google|2025-09-02",
-      "attacks": [],
+      "action": "announced \"The Department of Justice Proposes Legislation to Protect Children from Gender Mutilation\"",
+      "act_key": "department|announced the department of justice proposes legislation to protect children from gender mutilation|2025-09-02",
+      "attacks": [
+        "lgbtq",
+        "children",
+        "rule_of_law"
+      ],
       "source_meta": {
-        "headline": null,
-        "published_on": null,
+        "headline": "The Department of Justice Proposes Legislation to Protect Children from Gender Mutilation",
+        "published_on": "2025-09-03",
         "byline": null,
-        "outlet": null,
-        "accessed_on": null,
+        "outlet": "justice.gov",
+        "accessed_on": "2026-08-27T04:52:52Z",
         "snapshot_url": null,
         "durable_keys": {}
       },
       "_origin_file": "justice_events_2025-01-20_2026-08-14.json",
-      "_origin_index": 166
+      "_origin_index": 167
     },
     {
       "source_key": "meidas",
@@ -6098,6 +6037,37 @@
       },
       "_origin_file": "meidas_events_2025-08-23_2025-09-05.json",
       "_origin_index": 18
+    },
+    {
+      "source_key": "whitehouse",
+      "date": "2025-09-02",
+      "occurred_on": "",
+      "reported_on": "2025-09-02",
+      "dated_by": "reported",
+      "category": "Executive Actions & Orders",
+      "title": "White House issues release claiming border wall funding and construction progress",
+      "url": "https://www.whitehouse.gov/releases/2025/09/icymi-trump-seizes-victory-in-border-wall-fight-with-new-funding/",
+      "summary": "The White House published a release titled \"Trump seizes victory in border wall fight with new funding,\" stating that the Trump Administration is using previously halted Biden-era funding and new appropriations from the \"One Big Beautiful Bill\" to construct border barriers. The release cites reporting that 100 miles of barrier are \"in the works,\" with 83 miles of traditional wall and 17 miles of waterborne barriers under construction or in planning using prior-year funds, and that Congress approved an additional $46.5 billion for further construction.",
+      "why_relevant": "The release documents the executive's assertion of control over appropriated funds and its framing of border construction as a central policy achievement, bearing on the allocation of federal resources and the administration's immigration enforcement posture.",
+      "jurisdiction": "federal",
+      "federal_nexus": "",
+      "confidence": "high",
+      "basis": "Using existing funding halted by the Biden Administration and new funding from the One Big Beautiful Bill, the Trump Administration is swiftly moving forward to build hundreds of miles of new border wall.",
+      "actor": "The White House",
+      "action": "published a release titled \"ICYMI: “Trump seizes victory in border wall fight with new funding”\"",
+      "act_key": "white house|published a release titled icymi trump seizes victory in border wall fight with new funding|2025-09-02",
+      "attacks": [],
+      "source_meta": {
+        "headline": "ICYMI: “Trump seizes victory in border wall fight with new funding”",
+        "published_on": "2025-09-02",
+        "byline": null,
+        "outlet": "The White House",
+        "accessed_on": "2026-08-26T23:10:21Z",
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
+      "_origin_index": 220
     },
     {
       "source_key": "guardian",
@@ -6405,6 +6375,68 @@
       "_origin_index": 29
     },
     {
+      "source_key": "justice",
+      "date": "2025-09-02",
+      "occurred_on": "2025-09-02",
+      "reported_on": "2025-09-03",
+      "dated_by": "occurred",
+      "category": "Judicial Developments",
+      "title": "Justice Department files denaturalization action against Bosnian war criminal",
+      "url": "https://www.justice.gov/opa/pr/justice-department-seeks-denaturalize-war-criminal-who-beat-tortured-and-sexually-assaulted",
+      "summary": "The Department of Justice filed a civil denaturalization action in the Western District of Virginia against Slobodan Letic, a Croatian national, alleging he concealed his involvement in war crimes during the Bosnian War in 1992—including beating, torture, and sexual assault of civilians—when applying for U.S. refugee status and naturalization. Letic naturalized as a U.S. citizen on September 22, 2006. The complaint alleges he misrepresented his background throughout immigration proceedings and concealed prior Bosnian criminal convictions. The department seeks to revoke his citizenship and cancel his naturalization certificate.",
+      "why_relevant": "The action demonstrates enforcement of the integrity of the naturalization process and the legal principle that citizenship obtained through material misrepresentation may be revoked, a core mechanism for maintaining the legitimacy of citizenship and immigration law.",
+      "jurisdiction": "federal",
+      "federal_nexus": "",
+      "confidence": "high",
+      "basis": "The United States filed a denaturalization action in the Western District of Virginia yesterday against Slobodan Letic, a native of Croatia, who, according to the Department of Justice's complaint, concealed and misrepresented his involvement in the beating, torture, and sexual assault of civilians in the Bosnian War in 1992.",
+      "actor": "The Department of Justice",
+      "action": "announced \"Justice Department Seeks to Denaturalize War Criminal Who Beat, Tortured, and Sexually Assaulted Civilians in the Bosnian War in 1992\"",
+      "act_key": "department|announced justice department seeks to denaturalize war criminal who beat tortured and sexually assaulted civilians in the bosnian war in 1992|2025-09-02",
+      "attacks": [],
+      "source_meta": {
+        "headline": "Justice Department Seeks to Denaturalize War Criminal Who Beat, Tortured, and Sexually Assaulted Civilians in the Bosnian War in 1992",
+        "published_on": "2025-09-03",
+        "byline": null,
+        "outlet": "justice.gov",
+        "accessed_on": "2026-08-27T04:53:02Z",
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "justice_events_2025-01-20_2026-08-14.json",
+      "_origin_index": 168
+    },
+    {
+      "source_key": "justice",
+      "date": "2025-09-02",
+      "occurred_on": "2025-09-02",
+      "reported_on": "2025-09-02",
+      "dated_by": "occurred",
+      "category": "Judicial Developments",
+      "title": "U.S. District Court orders remedies against Google for search monopolization",
+      "url": "https://www.justice.gov/opa/pr/department-justice-wins-significant-remedies-against-google",
+      "summary": "The U.S. District Court for the District of Columbia issued a final remedies order in United States v. Google, prohibiting Google from entering or maintaining exclusive distribution contracts for Search, Chrome, Google Assistant, and Gemini; requiring Google to share search index and user-interaction data with competitors; and mandating Google offer search and search text ads syndication services. The court found Google violated Section 2 of the Sherman Act. The case, filed in October 2020 and joined by 49 states, two territories, and D.C., followed a bench trial and a separate 15-day remedies trial in May 2025.",
+      "why_relevant": "A federal court's final remedies order in a major antitrust case affects the structure of digital markets and the government's capacity to enforce competition law against dominant platforms.",
+      "jurisdiction": "federal",
+      "federal_nexus": "",
+      "confidence": "high",
+      "basis": "the U.S. District Court for the District of Columbia prohibited Google from entering or maintaining exclusive contracts relating to the distribution of Google Search, Chrome, Google Assistant, and the Gemini app",
+      "actor": "The Department of Justice",
+      "action": "announced \"Department of Justice Wins Significant Remedies Against Google\"",
+      "act_key": "department|announced department of justice wins significant remedies against google|2025-09-02",
+      "attacks": [],
+      "source_meta": {
+        "headline": "Department of Justice Wins Significant Remedies Against Google",
+        "published_on": "2025-09-02",
+        "byline": null,
+        "outlet": "justice.gov",
+        "accessed_on": "2026-08-27T04:52:41Z",
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "justice_events_2025-01-20_2026-08-14.json",
+      "_origin_index": 166
+    },
+    {
       "source_key": "meidas",
       "date": "2025-09-02",
       "occurred_on": "",
@@ -6579,8 +6611,8 @@
       "category": "Law Enforcement & Surveillance",
       "title": "Pete Hegseth denies ordering killings in Caribbean boat strikes; Senate Armed Services Committee launches investigation",
       "url": "https://www.theguardian.com/us-news/2025/nov/29/pete-hegseth-denies-ordering-deaths-narco-boat",
-      "summary": "Defense Secretary Pete Hegseth denied allegations that he ordered military personnel to \"kill everybody\" on a boat surveilled on September 2, 2025, calling reports \"fake news.\" A Washington Post investigation alleged Hegseth directed the killing of all occupants; Admiral Frank Bradley reportedly ordered a second strike to kill two survivors to comply. The Trump administration claims the boats carried drug traffickers affiliated with designated terrorist organizations. Senators Roger Wicker and Jack Reed announced the Senate Armed Services Committee would investigate the strikes, which have killed over 80 people across at least 22 boats in the Caribbean.",
-      "why_relevant": "Allegations of unlawful extrajudicial killings by a senior U.S. defense official strike at rule of law, due process, and international legal obligations; congressional oversight is now formally engaged.",
+      "summary": "Defense Secretary Pete Hegseth denied allegations that he ordered military personnel to \"kill everybody\" on a boat surveilled on September 2, 2025, calling reports \"fake news.\" A Washington Post investigation alleged Hegseth directed the killing of all occupants; Admiral Frank Bradley reportedly ordered a second strike to kill two survivors to comply. The Trump administration claims the boats carried drug traffickers affiliated with designated terrorist organizations. The Senate Armed Services Committee announced it would investigate the strikes, which have killed over 80 people across at least 22 boats in the Caribbean.",
+      "why_relevant": "Allegations of unlawful extrajudicial killings by a senior U.S. defense official, combined with Senate oversight response, directly implicate rule of law, due process, and constitutional constraints on executive military power.",
       "jurisdiction": "federal",
       "federal_nexus": "",
       "confidence": "high",
@@ -6590,8 +6622,9 @@
       "act_key": "pete hegseth|allegedly ordered extrajudicial killings|2025-09-02",
       "attacks": [
         "rule_of_law",
-        "peace",
-        "international_order"
+        "military",
+        "constitution",
+        "separation_of_powers"
       ],
       "source_meta": {
         "headline": "Pete Hegseth denies he gave orders to ‘kill everybody’ on alleged ‘narco-boat’",
@@ -6602,8 +6635,8 @@
         "snapshot_url": null,
         "durable_keys": {}
       },
-      "_origin_file": "guardian_events_2025-11-29_2026-03-06.json",
-      "_origin_index": 1660
+      "_origin_file": "guardian_events_2025-09-06_2025-12-12.json",
+      "_origin_index": 197
     },
     {
       "source_key": "meidas",
@@ -6677,22 +6710,22 @@
       "reported_on": "2025-12-02",
       "dated_by": "occurred",
       "category": "Law Enforcement & Surveillance",
-      "title": "Defense Secretary Hegseth ordered \"leave no survivors\" strike on September 2 boat operation",
+      "title": "Defense Secretary Hegseth ordered \"leave no survivors\" strike killing people clinging to boat wreckage",
       "url": "https://popular.info/p/department-of-war-crimes",
-      "summary": "According to a Washington Post report, Defense Secretary Pete Hegseth gave a verbal order to leave no survivors in the first DOD drone strike against a drug smuggling boat on September 2, 2025, in the Caribbean. Minutes after the initial strike, a Special Operations commander ordered a second strike to kill two men clinging to the burning wreckage to comply with Hegseth's order. The two individuals, whose identities and roles in drug trafficking are unknown, would be classified as \"hors de combat\" under the Geneva Conventions, making their killing a potential war crime under international law and the 1996 War Crimes Act.",
-      "why_relevant": "An order to execute survivors of an attack violates the Geneva Conventions and U.S. law, and represents a direct command to commit a war crime by a sitting Cabinet officer.",
+      "summary": "According to a Washington Post report, Defense Secretary Pete Hegseth gave a verbal order to \"leave no survivors\" in the first DOD drone strike on September 2, 2025, against a drug-smuggling boat in the Caribbean. Minutes after the initial strike, a Special Operations commander ordered a second strike to kill two men clinging to burning wreckage to comply with Hegseth's order. Legal experts and lawmakers, including Senator Tim Kaine and Representative Mike Turner, have characterized this as a likely violation of the Geneva Conventions and the 1996 War Crimes Act, as the men would be \"hors de combat\" and thus protected from attack.",
+      "why_relevant": "An order to execute survivors of an attack violates international humanitarian law and domestic war crimes statutes, establishing potential criminal liability for a cabinet officer.",
       "jurisdiction": "federal",
       "federal_nexus": "",
       "confidence": "high",
       "basis": "Hegseth gave a verbal order to leave no survivors in the first strike of the DOD's campaign against drug smuggling boats, which took place in the Caribbean on September 2.",
       "actor": "Pete Hegseth",
-      "action": "ordered execution of survivors",
-      "act_key": "pete hegseth|ordered execution of survivors|2025-09-02",
+      "action": "ordered second strike on survivors",
+      "act_key": "pete hegseth|ordered second strike on survivors|2025-09-02",
       "attacks": [
         "rule_of_law",
         "constitution",
-        "decency",
-        "sick_vulnerable"
+        "separation_of_powers",
+        "decency"
       ],
       "source_meta": {
         "headline": "Department of War Crimes",
@@ -6703,8 +6736,8 @@
         "snapshot_url": null,
         "durable_keys": {}
       },
-      "_origin_file": "popinfo_events_2025-11-29_2026-03-06.json",
-      "_origin_index": 225
+      "_origin_file": "popinfo_events_2025-09-06_2025-12-12.json",
+      "_origin_index": 25
     },
     {
       "source_key": "popinfo",
@@ -6722,8 +6755,8 @@
       "confidence": "high",
       "basis": "Since September 2, the Department of Defense (DOD) has used drones to kill more than 80 people traveling by boat in the Caribbean and Eastern Pacific.",
       "actor": "Department of Defense",
-      "action": "conducted drone strikes killing civilians",
-      "act_key": "department defense|conducted drone strikes killing civilians|2025-09-02",
+      "action": "conducted drone strikes",
+      "act_key": "department defense|conducted drone strikes|2025-09-02",
       "attacks": [
         "rule_of_law",
         "constitution",
@@ -6739,8 +6772,8 @@
         "snapshot_url": null,
         "durable_keys": {}
       },
-      "_origin_file": "popinfo_events_2025-11-29_2026-03-06.json",
-      "_origin_index": 224
+      "_origin_file": "popinfo_events_2025-09-06_2025-12-12.json",
+      "_origin_index": 24
     },
     {
       "source_key": "popinfo",
@@ -7211,68 +7244,6 @@
       "_origin_index": 19
     },
     {
-      "source_key": "whitehouse",
-      "date": "2025-09-02",
-      "occurred_on": "2025-09-02",
-      "reported_on": "2025-09-02",
-      "dated_by": "occurred",
-      "category": "Information & Media Control",
-      "title": "For J.B. Pritzker, When Will Enough Be Enough?",
-      "url": "https://www.whitehouse.gov/releases/2025/09/for-j-b-pritzker-when-will-enough-be-enough/",
-      "summary": "The White House published this release on 2025-09-02 through its releases channel.",
-      "why_relevant": "",
-      "jurisdiction": "federal",
-      "federal_nexus": "Official White House channel; documents the act of publication only.",
-      "confidence": "high",
-      "basis": "official_actor_record",
-      "actor": "The White House",
-      "action": "published a release titled \"For J.B. Pritzker, When Will Enough Be Enough?\"",
-      "act_key": "white house|published a release titled for j b pritzker when will enough be enough|2025-09-02",
-      "attacks": [],
-      "source_meta": {
-        "headline": null,
-        "published_on": null,
-        "byline": null,
-        "outlet": null,
-        "accessed_on": null,
-        "snapshot_url": null,
-        "durable_keys": {}
-      },
-      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
-      "_origin_index": 273
-    },
-    {
-      "source_key": "whitehouse",
-      "date": "2025-09-02",
-      "occurred_on": "2025-09-02",
-      "reported_on": "2025-09-02",
-      "dated_by": "occurred",
-      "category": "Information & Media Control",
-      "title": "ICYMI: “Trump seizes victory in border wall fight with new funding”",
-      "url": "https://www.whitehouse.gov/releases/2025/09/icymi-trump-seizes-victory-in-border-wall-fight-with-new-funding/",
-      "summary": "The White House published this release on 2025-09-02 through its releases channel.",
-      "why_relevant": "",
-      "jurisdiction": "federal",
-      "federal_nexus": "Official White House channel; documents the act of publication only.",
-      "confidence": "high",
-      "basis": "official_actor_record",
-      "actor": "The White House",
-      "action": "published a release titled \"ICYMI: “Trump seizes victory in border wall fight with new funding”\"",
-      "act_key": "white house|published a release titled icymi trump seizes victory in border wall fight with new funding|2025-09-02",
-      "attacks": [],
-      "source_meta": {
-        "headline": null,
-        "published_on": null,
-        "byline": null,
-        "outlet": null,
-        "accessed_on": null,
-        "snapshot_url": null,
-        "durable_keys": {}
-      },
-      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
-      "_origin_index": 274
-    },
-    {
       "source_key": "federalregister",
       "date": "2025-09-02",
       "occurred_on": "",
@@ -7647,29 +7618,29 @@
       "reported_on": "2025-09-02",
       "dated_by": "occurred",
       "category": "Appointments & Patronage",
-      "title": "Nominations Sent to the Senate",
+      "title": "White House sent 16 nominations to the Senate",
       "url": "https://www.whitehouse.gov/presidential-actions/2025/09/nominations-sent-to-the-senate-8a96/",
-      "summary": "The White House published this nominations on 2025-09-02 through its nominations-and-appointments channel.",
-      "why_relevant": "",
+      "summary": "The White House sent nominations to the Senate on September 2, 2025, for 16 positions: five ambassadors (to Bangladesh, India, Bahrain, Jordan, and Iceland), one deputy UN representative, one Federal Reserve Board member, seven federal judges (five district judges, one circuit judge), and three Superior Court judges for the District of Columbia. The nominations are now pending Senate confirmation.",
+      "why_relevant": "Judicial and diplomatic nominations are core executive powers subject to Senate confirmation; they shape the composition of courts and foreign service for years or decades.",
       "jurisdiction": "federal",
-      "federal_nexus": "Official White House channel; documents the act of publication only.",
+      "federal_nexus": "",
       "confidence": "high",
-      "basis": "official_actor_record",
+      "basis": "Tammy Bruce, of California, to be the Deputy Representative of the United States of America to the United Nations… Robert P. Chamberlin, of Mississippi, to be United States District Judge for the Northern District of Mississippi.",
       "actor": "The White House",
       "action": "published a nominations announcement titled \"Nominations Sent to the Senate\"",
       "act_key": "white house|published a nominations announcement titled nominations sent to the senate|2025-09-02",
       "attacks": [],
       "source_meta": {
-        "headline": null,
-        "published_on": null,
+        "headline": "Nominations Sent to the Senate",
+        "published_on": "2025-09-02",
         "byline": null,
-        "outlet": null,
-        "accessed_on": null,
+        "outlet": "The White House",
+        "accessed_on": "2026-08-27T02:02:31Z",
         "snapshot_url": null,
         "durable_keys": {}
       },
       "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
-      "_origin_index": 1188
+      "_origin_index": 1130
     },
     {
       "source_key": "guardian",
@@ -7823,14 +7794,14 @@
       "title": "Caribbean military strikes kill survivors in \"double-tap\" attack; Hegseth acknowledges incident",
       "url": "https://www.theguardian.com/us-news/2025/dec/06/pete-hegseth-pentagon-trump",
       "summary": "Survivors clinging to wreckage from a 2 September boat strike in the Caribbean were deliberately killed in a follow-up \"double-tap\" attack. The Trump administration's Caribbean campaign has killed at least 87 people across 22 attacks since September, targeting suspected drug smugglers. Hegseth initially dismissed reporting of the incident as fabricated but later confirmed the basic facts during a cabinet meeting, claiming he acted in the \"fog of war\" but \"didn't stick around\" to observe the rest of the mission.",
-      "why_relevant": "Extrajudicial military strikes killing civilians, including deliberate targeting of survivors, raise serious questions about war crimes, command accountability, and the legality of military operations conducted without congressional authorization.",
+      "why_relevant": "Extrajudicial military strikes killing civilians, including deliberate targeting of survivors, raise grave questions about war crimes, command accountability, and the legality of military operations conducted without congressional authorization.",
       "jurisdiction": "federal",
       "federal_nexus": "",
       "confidence": "high",
-      "basis": "Two men who survived the initial 2 September attack could been seen amid the wreckage when a lethal follow-up strike was ordered. While Hegseth initially dismissed the reporting as fabricated, he later confirmed the basic facts during a cabinet meeting this week.",
-      "actor": "Trump administration / Pete Hegseth",
-      "action": "authorized follow-up strike on survivors",
-      "act_key": "trump administration pete hegseth|authorized follow up strike on survivors|2025-09-02",
+      "basis": "survivors clinging to wreckage from a September boat strike were deliberately killed in a 'double-tap' attack",
+      "actor": "Trump administration",
+      "action": "conducted extrajudicial military strikes in caribbean",
+      "act_key": "trump administration|conducted extrajudicial military strikes in caribbean|2025-09-02",
       "attacks": [
         "peace",
         "rule_of_law",
@@ -7846,8 +7817,8 @@
         "snapshot_url": null,
         "durable_keys": {}
       },
-      "_origin_file": "guardian_events_2025-11-29_2026-03-06.json",
-      "_origin_index": 1555
+      "_origin_file": "guardian_events_2025-09-06_2025-12-12.json",
+      "_origin_index": 97
     },
     {
       "source_key": "guardian",
@@ -7895,7 +7866,7 @@
       "title": "Republican lawmakers demand classified briefing on Trump administration's double strike on Venezuelan drug boats",
       "url": "https://www.theguardian.com/us-news/2025/dec/03/republicans-trump-administration-boat-strikes",
       "summary": "Following reports that Defense Secretary Pete Hegseth ordered a second strike on a suspected drug-trafficking boat from Venezuela in early September to kill survivors, Republican and Democratic lawmakers are demanding accountability. Admiral Frank Bradley is scheduled for a classified briefing before House and Senate armed services committees on Thursday. Multiple GOP senators, including Rand Paul and Thom Tillis, have expressed concern about the legality and ethics of the second strike, while the White House and Hegseth deny ordering it, citing Bradley's authority.",
-      "why_relevant": "The incident raises questions about civilian control of the military, the legality of lethal force decisions, and whether administration officials are being held accountable for potentially unlawful orders.",
+      "why_relevant": "The incident raises questions about executive accountability, military command authority, and potential violations of law and ethics in military operations, triggering congressional oversight.",
       "jurisdiction": "federal",
       "federal_nexus": "",
       "confidence": "high",
@@ -7917,8 +7888,8 @@
         "snapshot_url": null,
         "durable_keys": {}
       },
-      "_origin_file": "guardian_events_2025-11-29_2026-03-06.json",
-      "_origin_index": 1619
+      "_origin_file": "guardian_events_2025-09-06_2025-12-12.json",
+      "_origin_index": 157
     },
     {
       "source_key": "guardian",
@@ -7942,7 +7913,7 @@
         "truth",
         "rule_of_law",
         "separation_of_powers",
-        "union"
+        "military"
       ],
       "source_meta": {
         "headline": "Trump claims Chicago is ‘world’s most dangerous city’. The four most violent ones are all in red states",
@@ -7953,8 +7924,8 @@
         "snapshot_url": null,
         "durable_keys": {}
       },
-      "_origin_file": "guardian_events_2025-09-06_2025-09-12.json",
-      "_origin_index": 64
+      "_origin_file": "guardian_events_2025-09-06_2025-12-12.json",
+      "_origin_index": 1434
     },
     {
       "source_key": "guardian",
@@ -7965,8 +7936,8 @@
       "category": "Civil–Military Relations & State Violence",
       "title": "US military conducted second airstrike on boat survivors in Caribbean, killing two men clinging to wreckage",
       "url": "https://www.theguardian.com/us-news/2025/dec/05/us-airstrike-survivors-clung-to-boat-wreckage-for-an-hour-before-second-deadly-attack-video-shows",
-      "summary": "On 2 September, the US military conducted an initial airstrike on a suspected drug smuggling boat in the Caribbean, killing nine crew members. Two survivors clung to boat wreckage for approximately one hour before being killed in a second strike. Video of the incident, shown to senators on 4 December, depicts the two unarmed, shirtless men struggling to stay afloat before additional munitions were fired at the damaged vessel. The Pentagon announced a 22nd similar strike on 5 December, killing four men in the eastern Pacific. Legal experts and lawmakers have raised concerns about whether the strikes constitute war crimes under international law.",
-      "why_relevant": "The strikes raise fundamental questions about the lawfulness of military operations against civilians, the scope of executive war-making authority without congressional authorization, and potential violations of the laws of war and international humanitarian law.",
+      "summary": "On 2 September, the US military conducted an initial airstrike on a suspected drug smuggling boat in the Caribbean, killing nine crew members. Two survivors clung to boat wreckage for approximately one hour before being killed in a second strike. Video of the incident, shown to senators on 4 December behind closed doors, depicts two unarmed, shirtless men struggling to stay afloat before additional munitions were fired at the damaged vessel. The Pentagon and Trump administration have defended the strikes as lawful under rules of war, but legal experts and Democratic lawmakers have raised concerns about potential war crimes and violations of the Law of War manual, which forbids attacks on shipwrecked combatants.",
+      "why_relevant": "The incident raises fundamental questions about the lawfulness of military strikes against civilians and the constitutional limits on executive war-making authority without congressional authorization or judicial oversight.",
       "jurisdiction": "federal",
       "federal_nexus": "",
       "confidence": "high",
@@ -7976,9 +7947,9 @@
       "act_key": "military|conducted second airstrike on boat survivors|2025-09-02",
       "attacks": [
         "rule_of_law",
-        "peace",
+        "military",
         "constitution",
-        "separation_of_powers"
+        "peace"
       ],
       "source_meta": {
         "headline": "US airstrike survivors clung to boat wreckage for an hour before second deadly attack, video shows",
@@ -7989,8 +7960,8 @@
         "snapshot_url": null,
         "durable_keys": {}
       },
-      "_origin_file": "guardian_events_2025-11-29_2026-03-06.json",
-      "_origin_index": 1577
+      "_origin_file": "guardian_events_2025-09-06_2025-12-12.json",
+      "_origin_index": 117
     },
     {
       "source_key": "guardian",
@@ -7999,10 +7970,10 @@
       "reported_on": "2025-12-05",
       "dated_by": "occurred",
       "category": "Civil–Military Relations & State Violence",
-      "title": "US military conducted second airstrike on Caribbean drug boat, killing two survivors",
+      "title": "US military conducted second airstrike on Caribbean boat, killing two survivors",
       "url": "https://www.theguardian.com/us-news/2025/dec/04/video-second-boat-strike-military-caribbean",
-      "summary": "On September 2, 2025, the US military conducted a follow-up airstrike on a boat alleged to carry drugs off Trinidad, killing two survivors of an initial strike. The operation resulted in 11 total deaths. Defense Secretary Pete Hegseth faced allegations of ordering the killing of survivors, though Admiral Frank Bradley denied receiving a \"kill them all\" order in a closed congressional briefing on December 4. The incident sparked bipartisan concern about potential war crimes and calls for video release.",
-      "why_relevant": "The strike raises fundamental questions about extrajudicial killing, adherence to laws of war, civilian oversight of military operations, and whether the administration has authority to conduct lethal operations without congressional declaration of war or due process.",
+      "summary": "On September 2, 2025, the US military conducted a second airstrike on a boat alleged to carry drugs off Trinidad's coast, killing two survivors of an initial strike. The first strike killed nine people; the second killed two more, for a total of 11 deaths. Defense Secretary Pete Hegseth allegedly ordered the killing of survivors, though Admiral Frank Bradley denied receiving a \"kill them all\" order in a closed congressional briefing on December 4. Trump posted video of the first strike but the Pentagon has not released footage of the second strike despite Trump's pledge to do so.",
+      "why_relevant": "The incident raises questions about potential war crimes, extrajudicial killing, and the legality of military operations conducted without congressional declaration of war or due process protections.",
       "jurisdiction": "federal",
       "federal_nexus": "",
       "confidence": "high",
@@ -8013,8 +7984,8 @@
       "attacks": [
         "rule_of_law",
         "military",
-        "constitution",
-        "separation_of_powers"
+        "peace",
+        "constitution"
       ],
       "source_meta": {
         "headline": "Experts urge release of boat strike video as US admiral denies ‘kill them all’ order",
@@ -8025,8 +7996,8 @@
         "snapshot_url": null,
         "durable_keys": {}
       },
-      "_origin_file": "guardian_events_2025-11-29_2026-03-06.json",
-      "_origin_index": 1590
+      "_origin_file": "guardian_events_2025-09-06_2025-12-12.json",
+      "_origin_index": 129
     },
     {
       "source_key": "guardian",
@@ -8083,8 +8054,8 @@
       "attacks": [
         "rule_of_law",
         "military",
-        "constitution",
-        "justice_dept"
+        "peace",
+        "constitution"
       ],
       "source_meta": {
         "headline": "Killing of survivors sparks outrage – but entire US ‘drug boat’ war is legally shaky",
@@ -8095,8 +8066,8 @@
         "snapshot_url": null,
         "durable_keys": {}
       },
-      "_origin_file": "guardian_events_2025-11-29_2026-03-06.json",
-      "_origin_index": 1604
+      "_origin_file": "guardian_events_2025-09-06_2025-12-12.json",
+      "_origin_index": 143
     },
     {
       "source_key": "hcr",
@@ -8139,21 +8110,21 @@
       "reported_on": "2025-11-29",
       "dated_by": "occurred",
       "category": "Civil–Military Relations & State Violence",
-      "title": "Defense Secretary Hegseth ordered \"kill everybody\" in strike on small vessel; second strike killed survivors",
+      "title": "Defense Secretary Hegseth ordered \"kill everybody\" in strike on vessel carrying 11 people",
       "url": "https://www.washingtonpost.com/national-security/2025/11/28/hegseth-kill-them-all-survivors-boat-strike/",
-      "summary": "Defense Secretary Pete Hegseth told a Joint Special Operations commander overseeing an attack on a small vessel carrying 11 people on September 2 to \"kill everybody.\" A missile strike shattered the boat and set it afire; two men survived. A second strike fulfilled Hegseth's order. Admiral Frank \"Mitch\" Bradley said survivors were legitimate targets because they could theoretically call other traffickers. The Joint Special Operations Command claimed the second strike was to remove a navigation hazard. Former military lawyer Todd Huntley stated the strikes against civilians amount to murder because the U.S. is not at war, and even in wartime, killing those unable to fight is a war crime.",
-      "why_relevant": "An order to kill all occupants of a vessel and execution of survivors outside a war zone constitutes potential war crimes and represents executive command of military forces without legal authorization or oversight.",
+      "summary": "Defense Secretary Pete Hegseth told a Joint Special Operations commander overseeing an attack on a small vessel carrying 11 people on September 2 to \"kill everybody.\" A missile strike shattered the boat and set it afire, but two men survived. A second strike fulfilled Hegseth's order. The commander, Admiral Frank \"Mitch\" Bradley, justified the survivors as legitimate targets because they could theoretically call other traffickers. The Joint Special Operations Command claimed the second strike was to remove a navigation hazard, not to kill survivors. Former military lawyer Todd Huntley stated the strikes against civilians amount to murder because the U.S. is not at war, and even in wartime, killing those who cannot fight back is a war crime.",
+      "why_relevant": "A Defense Secretary ordering the killing of all occupants of a civilian vessel and the execution of survivors raises grave questions about war crimes, command authority, and accountability for unlawful orders.",
       "jurisdiction": "federal",
       "federal_nexus": "",
       "confidence": "high",
       "basis": "Defense Secretary Hegseth told a Joint Special Operations commander overseeing an attack on a small vessel carrying 11 people on September 2 to 'kill everybody.' A missile strike shattered the boat and set it afire, but two men survived. A second strike fulfilled Hegseth's order.",
-      "actor": "Hegseth",
+      "actor": "Pete Hegseth",
       "action": "ordered killing of vessel occupants",
-      "act_key": "hegseth|ordered killing of vessel occupants|2025-09-02",
+      "act_key": "pete hegseth|ordered killing of vessel occupants|2025-09-02",
       "attacks": [
-        "civil_military",
+        "military",
         "rule_of_law",
-        "international_law"
+        "sick_vulnerable"
       ],
       "source_meta": {
         "headline": null,
@@ -8164,8 +8135,8 @@
         "snapshot_url": null,
         "durable_keys": {}
       },
-      "_origin_file": "hcr_events_2025-11-29_2026-03-06.json",
-      "_origin_index": 854
+      "_origin_file": "hcr_events_2025-09-06_2025-12-12.json",
+      "_origin_index": 112
     },
     {
       "source_key": "hcr",
@@ -8174,20 +8145,21 @@
       "reported_on": "2025-12-03",
       "dated_by": "occurred",
       "category": "Civil–Military Relations & State Violence",
-      "title": "Defense Secretary Hegseth ordered killing of boat survivors in September 2 strike",
+      "title": "Defense Secretary Hegseth ordered killing of boat survivors in September strike",
       "url": "https://www.washingtonpost.com/national-security/2025/11/28/hegseth-kill-them-all-survivors-boat-strike/",
-      "summary": "On September 2, 2025, a U.S. military vessel carrying 11 people was struck by missile fire. Two survivors remained after the first strike. Defense Secretary Pete Hegseth ordered a Joint Special Operations commander, Admiral Frank \"Mitch\" Bradley, to \"kill everybody,\" resulting in a second strike that killed the survivors. Legal experts characterize the double-tap strike as unlawful and a war crime. The incident became public on November 28, 2025, triggering bipartisan congressional pushback and investigations announced by Republican chairs of the House and Senate Armed Services committees.",
-      "why_relevant": "The order to execute survivors of a military strike, if confirmed, constitutes a potential war crime and raises fundamental questions about command accountability, the rule of law, and civilian control of the military.",
+      "summary": "On September 2, 2025, Defense Secretary Pete Hegseth ordered a Joint Special Operations commander to \"kill everybody\" aboard a small vessel carrying 11 people. A missile strike damaged the boat; two men survived. Hegseth's order was carried out in a second strike. Admiral Frank Bradley justified targeting survivors as legitimate threats. Legal experts characterize both the initial strikes and the follow-up \"double tap\" as unlawful and a war crime. The incident became public on November 28, 2025.",
+      "why_relevant": "A Defense Secretary's alleged order to execute survivors of a military strike, if confirmed, constitutes a potential war crime and represents a breakdown of lawful command authority and adherence to international humanitarian law.",
       "jurisdiction": "federal",
       "federal_nexus": "",
       "confidence": "high",
       "basis": "Defense Secretary Pete Hegseth told a Joint Special Operations commander overseeing an attack on a small vessel carrying 11 people on September 2 to 'kill everybody",
       "actor": "Pete Hegseth",
-      "action": "ordered killing of survivors",
-      "act_key": "pete hegseth|ordered killing of survivors|2025-09-02",
+      "action": "ordered killing of boat survivors",
+      "act_key": "pete hegseth|ordered killing of boat survivors|2025-09-02",
       "attacks": [
         "rule_of_law",
-        "military"
+        "military",
+        "peace"
       ],
       "source_meta": {
         "headline": null,
@@ -8198,8 +8170,8 @@
         "snapshot_url": null,
         "durable_keys": {}
       },
-      "_origin_file": "hcr_events_2025-11-29_2026-03-06.json",
-      "_origin_index": 801
+      "_origin_file": "hcr_events_2025-09-06_2025-12-12.json",
+      "_origin_index": 58
     },
     {
       "source_key": "hcr",
@@ -8233,8 +8205,8 @@
         "snapshot_url": null,
         "durable_keys": {}
       },
-      "_origin_file": "hcr_events_2025-11-29_2026-03-06.json",
-      "_origin_index": 837
+      "_origin_file": "hcr_events_2025-09-06_2025-12-12.json",
+      "_origin_index": 94
     },
     {
       "source_key": "hcr",
@@ -8406,6 +8378,40 @@
       },
       "_origin_file": "hcr_events_2025-09-06_2025-12-12.json",
       "_origin_index": 27
+    },
+    {
+      "source_key": "hcr",
+      "date": "2025-09-02",
+      "occurred_on": "2025-09-02",
+      "reported_on": "2025-11-28",
+      "dated_by": "occurred",
+      "category": "Civil–Military Relations & State Violence",
+      "title": "Washington Post reported Defense Secretary ordered killing of boat survivors",
+      "url": "https://www.washingtonpost.com/national-security/2025/11/28/hegseth-kill-them-all-survivors-boat-strike/",
+      "summary": "The Washington Post reported that Defense Secretary Pete Hegseth ordered Special Operations commander Admiral Frank \"Mitch\" Bradley to \"kill everyone\" in a small boat off the coast of Venezuela on September 2. After an initial strike left two survivors clinging to burning wreckage, Bradley ordered a second strike that killed the survivors. Legal experts and lawmakers have characterized this \"double tap\" as potentially unlawful and a war crime.",
+      "why_relevant": "The reported order to kill survivors of a military strike raises fundamental questions about adherence to the laws of war, rules of engagement, and civilian protection under international humanitarian law.",
+      "jurisdiction": "federal",
+      "federal_nexus": "",
+      "confidence": "high",
+      "basis": "Defense Secretary Pete Hegseth ordered Special Operations commander Admiral Frank 'Mitch' Bradley to 'kill everyone' in a small boat off the coast of Venezuela on September 2",
+      "actor": "Pete Hegseth",
+      "action": "ordered killing of boat survivors",
+      "act_key": "pete hegseth|ordered killing of boat survivors|2025-09-02",
+      "attacks": [
+        "rule_of_law",
+        "civil_military_relations"
+      ],
+      "source_meta": {
+        "headline": null,
+        "published_on": null,
+        "byline": null,
+        "outlet": null,
+        "accessed_on": null,
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "hcr_events_2025-09-06_2025-12-12.json",
+      "_origin_index": 70
     },
     {
       "source_key": "meidas",
@@ -8760,8 +8766,8 @@
         "snapshot_url": null,
         "durable_keys": {}
       },
-      "_origin_file": "guardian_events_2025-09-06_2025-09-12.json",
-      "_origin_index": 53
+      "_origin_file": "guardian_events_2025-09-06_2025-12-12.json",
+      "_origin_index": 1421
     },
     {
       "source_key": "hcr",
@@ -8858,37 +8864,6 @@
       },
       "_origin_file": "hcr_events_2025-01-20_2025-11-30.json",
       "_origin_index": 315
-    },
-    {
-      "source_key": "justice",
-      "date": "2025-09-03",
-      "occurred_on": "2025-09-03",
-      "reported_on": "2025-09-03",
-      "dated_by": "occurred",
-      "category": "Executive Actions & Orders",
-      "title": "The Department of Justice Proposes Legislation to Protect Children from Gender Mutilation",
-      "url": "https://www.justice.gov/opa/pr/department-justice-proposes-legislation-protect-children-gender-mutilation",
-      "summary": "The Department of Justice announced this on 2025-09-03 through Office of the Attorney General. The department's own account of it reads: \"Yesterday the U.S. Department of Justice transmitted a legislative proposal to Congress that protects and defends children from chemical and surgical mutilation under the guise of 'gender-affirming care,' in line with Executive Order 14187 .\"",
-      "why_relevant": "",
-      "jurisdiction": "federal",
-      "federal_nexus": "Official DOJ channel; documents the act of announcement only.",
-      "confidence": "high",
-      "basis": "official_actor_record",
-      "actor": "The Department of Justice",
-      "action": "announced \"The Department of Justice Proposes Legislation to Protect Children from Gender Mutilation\"",
-      "act_key": "department|announced the department of justice proposes legislation to protect children from gender mutilation|2025-09-03",
-      "attacks": [],
-      "source_meta": {
-        "headline": null,
-        "published_on": null,
-        "byline": null,
-        "outlet": null,
-        "accessed_on": null,
-        "snapshot_url": null,
-        "durable_keys": {}
-      },
-      "_origin_file": "justice_events_2025-01-20_2026-08-14.json",
-      "_origin_index": 167
     },
     {
       "source_key": "guardian",
@@ -9151,68 +9126,6 @@
       "_origin_index": 38
     },
     {
-      "source_key": "justice",
-      "date": "2025-09-03",
-      "occurred_on": "2025-09-03",
-      "reported_on": "2025-09-03",
-      "dated_by": "occurred",
-      "category": "Judicial Developments",
-      "title": "Grand Jury Indicts Three U.S. Citizens, 22 Chinese Nationals, Four Chinese Pharmaceutical Companies in International Drug Trafficking, Money Laundering Conspiracies",
-      "url": "https://www.justice.gov/opa/pr/grand-jury-indicts-three-us-citizens-22-chinese-nationals-four-chinese-pharmaceutical",
-      "summary": "The Department of Justice announced this on 2025-09-03 through Office of the Attorney General. The recorded stage is an indictment returned. The allegations are unadjudicated; this documents the announcement, not the truth of any allegation. The department's own account of it reads: \"The Justice Department announced today that a federal grand jury in Dayton, Ohio, returned charges against dozens of defendants, including Chinese nationals and companies, in narcotics and money laundering conspiracies involving illegal cutting agents.\"",
-      "why_relevant": "",
-      "jurisdiction": "federal",
-      "federal_nexus": "Official DOJ channel; documents the act of announcement only.",
-      "confidence": "high",
-      "basis": "official_actor_record",
-      "actor": "The Department of Justice",
-      "action": "announced \"Grand Jury Indicts Three U.S. Citizens, 22 Chinese Nationals, Four Chinese Pharmaceutical Companies in International Drug Trafficking, Money Laundering Conspiracies\"",
-      "act_key": "department|announced grand jury indicts three u s citizens 22 chinese nationals four chinese pharmaceutical companies in international drug trafficking money laundering conspiracies|2025-09-03",
-      "attacks": [],
-      "source_meta": {
-        "headline": null,
-        "published_on": null,
-        "byline": null,
-        "outlet": null,
-        "accessed_on": null,
-        "snapshot_url": null,
-        "durable_keys": {}
-      },
-      "_origin_file": "justice_events_2025-01-20_2026-08-14.json",
-      "_origin_index": 169
-    },
-    {
-      "source_key": "justice",
-      "date": "2025-09-03",
-      "occurred_on": "2025-09-03",
-      "reported_on": "2025-09-03",
-      "dated_by": "occurred",
-      "category": "Judicial Developments",
-      "title": "Justice Department Files Lawsuit for Mississippi Woman Terminated for Alleging Sexual Harassment",
-      "url": "https://www.justice.gov/opa/pr/justice-department-files-lawsuit-mississippi-woman-terminated-alleging-sexual-harassment",
-      "summary": "The Department of Justice announced this on 2025-09-03 through Civil Rights Division. The recorded stage is a complaint filed. The allegations are unadjudicated; this documents the announcement, not the truth of any allegation. The department's own account of it reads: \"The Justice Department announced today that it has filed a lawsuit against the city of Hattiesburg, Mississippi for violating Title VII of the Civil Rights Act of 1964 by terminating a former employee who opposed and complained about sexual harassment in the workplace.\"",
-      "why_relevant": "",
-      "jurisdiction": "federal",
-      "federal_nexus": "Official DOJ channel; documents the act of announcement only.",
-      "confidence": "high",
-      "basis": "official_actor_record",
-      "actor": "The Department of Justice",
-      "action": "announced \"Justice Department Files Lawsuit for Mississippi Woman Terminated for Alleging Sexual Harassment\"",
-      "act_key": "department|announced justice department files lawsuit for mississippi woman terminated for alleging sexual harassment|2025-09-03",
-      "attacks": [],
-      "source_meta": {
-        "headline": null,
-        "published_on": null,
-        "byline": null,
-        "outlet": null,
-        "accessed_on": null,
-        "snapshot_url": null,
-        "durable_keys": {}
-      },
-      "_origin_file": "justice_events_2025-01-20_2026-08-14.json",
-      "_origin_index": 170
-    },
-    {
       "source_key": "zeteo",
       "date": "2025-09-03",
       "occurred_on": "2025-09-03",
@@ -9421,33 +9334,64 @@
     {
       "source_key": "justice",
       "date": "2025-09-03",
-      "occurred_on": "2025-09-03",
+      "occurred_on": "",
       "reported_on": "2025-09-03",
-      "dated_by": "occurred",
+      "dated_by": "reported",
       "category": "Law Enforcement & Surveillance",
-      "title": "Justice Department Seeks to Denaturalize War Criminal Who Beat, Tortured, and Sexually Assaulted Civilians in the Bosnian War in 1992",
-      "url": "https://www.justice.gov/opa/pr/justice-department-seeks-denaturalize-war-criminal-who-beat-tortured-and-sexually-assaulted",
-      "summary": "The Department of Justice announced this on 2025-09-03 through Civil Division. The department's own account of it reads: \"The United States filed a denaturalization action in the Western District of Virginia yesterday against Slobodan Letic, a native of Croatia, who, according to the Department of Justice’s complaint, concealed and misrepresented his involvement in the beating, torture, and sexual assault of civilians in the Bosnian War in 1992, when he was an officer in the Bosnian Serb army.\"",
-      "why_relevant": "",
+      "title": "Grand jury indicts three U.S. citizens, 22 Chinese nationals, and four Chinese pharmaceutical companies in international fentanyl trafficking and money laundering conspiracy",
+      "url": "https://www.justice.gov/opa/pr/grand-jury-indicts-three-us-citizens-22-chinese-nationals-four-chinese-pharmaceutical",
+      "summary": "A federal grand jury in Dayton, Ohio, returned indictments against three U.S. citizens and 22 Chinese nationals affiliated with four Chinese pharmaceutical companies for conspiracy to distribute fentanyl cutting agents and launder money internationally. According to charging documents, Eric Michael Payne, 39, of Tipp City, Ohio, served as a main supplier of illegal cutting agents to fentanyl traffickers in southern Ohio, purchasing kilogram shipments from Chinese companies. Payne's associates Auriyon Tresan Rayford, 24, and Ciandrea Bryne Davis, 39, allegedly assisted in transferring over $60,000 in cryptocurrency to Chinese nationals. The Treasury Department simultaneously imposed sanctions on one Chinese company and two of its representatives.",
+      "why_relevant": "This announcement demonstrates federal law enforcement coordination across DOJ, FBI, and Treasury targeting international drug trafficking networks; it reflects prosecutorial capacity and the department's stated priority on fentanyl interdiction.",
       "jurisdiction": "federal",
-      "federal_nexus": "Official DOJ channel; documents the act of announcement only.",
+      "federal_nexus": "",
       "confidence": "high",
-      "basis": "official_actor_record",
+      "basis": "a federal grand jury in Dayton, Ohio, returned charges against dozens of defendants, including Chinese nationals and companies, in narcotics and money laundering conspiracies involving illegal cutting agents.",
       "actor": "The Department of Justice",
-      "action": "announced \"Justice Department Seeks to Denaturalize War Criminal Who Beat, Tortured, and Sexually Assaulted Civilians in the Bosnian War in 1992\"",
-      "act_key": "department|announced justice department seeks to denaturalize war criminal who beat tortured and sexually assaulted civilians in the bosnian war in 1992|2025-09-03",
+      "action": "announced \"Grand Jury Indicts Three U.S. Citizens, 22 Chinese Nationals, Four Chinese Pharmaceutical Companies in International Drug Trafficking, Money Laundering Conspiracies\"",
+      "act_key": "department|announced grand jury indicts three u s citizens 22 chinese nationals four chinese pharmaceutical companies in international drug trafficking money laundering conspiracies|2025-09-03",
       "attacks": [],
       "source_meta": {
-        "headline": null,
-        "published_on": null,
+        "headline": "Grand Jury Indicts Three U.S. Citizens, 22 Chinese Nationals, Four Chinese Pharmaceutical Companies in International Drug Trafficking, Money Laundering Conspiracies",
+        "published_on": "2025-09-03",
         "byline": null,
-        "outlet": null,
-        "accessed_on": null,
+        "outlet": "justice.gov",
+        "accessed_on": "2026-08-27T04:53:13Z",
         "snapshot_url": null,
         "durable_keys": {}
       },
       "_origin_file": "justice_events_2025-01-20_2026-08-14.json",
-      "_origin_index": 168
+      "_origin_index": 169
+    },
+    {
+      "source_key": "justice",
+      "date": "2025-09-03",
+      "occurred_on": "2025-09-03",
+      "reported_on": "2025-09-03",
+      "dated_by": "occurred",
+      "category": "Law Enforcement & Surveillance",
+      "title": "Justice Department filed lawsuit against Hattiesburg, Mississippi for retaliatory termination of employee who reported sexual harassment",
+      "url": "https://www.justice.gov/opa/pr/justice-department-files-lawsuit-mississippi-woman-terminated-alleging-sexual-harassment",
+      "summary": "The Department of Justice announced it filed a lawsuit in U.S. District Court for the Southern District of Mississippi against the city of Hattiesburg, alleging violation of Title VII of the Civil Rights Act of 1964. The complaint names former employee Hope Chatman, whom the city terminated after she reported sexual harassment and refused to sit near her alleged harasser. The Department seeks damages, back pay, and policy revisions. The case originated from an EEOC charge, investigation, and referral.",
+      "why_relevant": "The Department's enforcement of Title VII retaliation protections demonstrates the federal government's role in protecting workers from reprisal for reporting discrimination, a foundational civil-rights function.",
+      "jurisdiction": "federal",
+      "federal_nexus": "",
+      "confidence": "high",
+      "basis": "The Justice Department announced today that it has filed a lawsuit against the city of Hattiesburg, Mississippi for violating Title VII of the Civil Rights Act of 1964 by terminating a former employee who opposed and complained about sexual harassment in the workplace.",
+      "actor": "The Department of Justice",
+      "action": "announced \"Justice Department Files Lawsuit for Mississippi Woman Terminated for Alleging Sexual Harassment\"",
+      "act_key": "department|announced justice department files lawsuit for mississippi woman terminated for alleging sexual harassment|2025-09-03",
+      "attacks": [],
+      "source_meta": {
+        "headline": "Justice Department Files Lawsuit for Mississippi Woman Terminated for Alleging Sexual Harassment",
+        "published_on": "2025-09-03",
+        "byline": null,
+        "outlet": "justice.gov",
+        "accessed_on": "2026-08-27T04:53:26Z",
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "justice_events_2025-01-20_2026-08-14.json",
+      "_origin_index": 170
     },
     {
       "source_key": "popinfo",
@@ -9651,64 +9595,36 @@
     {
       "source_key": "whitehouse",
       "date": "2025-09-03",
-      "occurred_on": "2025-09-03",
+      "occurred_on": "",
       "reported_on": "2025-09-03",
-      "dated_by": "occurred",
+      "dated_by": "reported",
       "category": "Information & Media Control",
-      "title": "U.S. Goods Inflation Lower than Other Countries",
-      "url": "https://www.whitehouse.gov/releases/2025/09/u-s-goods-inflation-lower-than-other-countries/",
-      "summary": "The White House published this release on 2025-09-03 through its releases channel.",
-      "why_relevant": "",
-      "jurisdiction": "federal",
-      "federal_nexus": "Official White House channel; documents the act of publication only.",
-      "confidence": "high",
-      "basis": "official_actor_record",
-      "actor": "The White House",
-      "action": "published a release titled \"U.S. Goods Inflation Lower than Other Countries\"",
-      "act_key": "white house|published a release titled u s goods inflation lower than other countries|2025-09-03",
-      "attacks": [],
-      "source_meta": {
-        "headline": null,
-        "published_on": null,
-        "byline": null,
-        "outlet": null,
-        "accessed_on": null,
-        "snapshot_url": null,
-        "durable_keys": {}
-      },
-      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
-      "_origin_index": 272
-    },
-    {
-      "source_key": "whitehouse",
-      "date": "2025-09-03",
-      "occurred_on": "2025-09-03",
-      "reported_on": "2025-09-03",
-      "dated_by": "occurred",
-      "category": "Information & Media Control",
-      "title": "Winning Streak: Record-Breaking Tariffs, Border Security, and Safer Cities",
+      "title": "White House issued promotional release on tariffs, border enforcement, and federal workforce policy",
       "url": "https://www.whitehouse.gov/releases/2025/09/winning-streak-record-breaking-tariffs-border-security-and-safer-cities/",
-      "summary": "The White House published this release on 2025-09-03 through its releases channel.",
-      "why_relevant": "",
+      "summary": "The White House published a promotional release claiming record tariff revenues ($31 billion in August, $158 billion year-to-date), citing a Congressional Budget Office projection of $4 trillion deficit reduction over ten years. The release also claims a federal return-to-office order increased in-office work by 30 percentage points, reports a 97% decline in northward migration from Central America and 93% decline in unaccompanied migrant crossings, and announces a partnership between D.C. Mayor Muriel Bowser and the Trump Administration on crime reduction.",
+      "why_relevant": "The release is a promotional framing of executive actions and policy outcomes; it asserts factual claims about tariff revenue, migration patterns, and federal workforce behavior without providing underlying data or methodology, exemplifying how the administration characterizes its own acts.",
       "jurisdiction": "federal",
-      "federal_nexus": "Official White House channel; documents the act of publication only.",
+      "federal_nexus": "",
       "confidence": "high",
-      "basis": "official_actor_record",
+      "basis": "President Trump continues to deliver on his promise to make America wealthy again through tariffs. In August, tariff revenues topped $31 billion — bringing the total to $158 billion this calendar year.",
       "actor": "The White House",
       "action": "published a release titled \"Winning Streak: Record-Breaking Tariffs, Border Security, and Safer Cities\"",
       "act_key": "white house|published a release titled winning streak record breaking tariffs border security and safer cities|2025-09-03",
-      "attacks": [],
+      "attacks": [
+        "truth",
+        "information"
+      ],
       "source_meta": {
-        "headline": null,
-        "published_on": null,
+        "headline": "Winning Streak: Record-Breaking Tariffs, Border Security, and Safer Cities",
+        "published_on": "2025-09-03",
         "byline": null,
-        "outlet": null,
-        "accessed_on": null,
+        "outlet": "The White House",
+        "accessed_on": "2026-08-26T23:09:55Z",
         "snapshot_url": null,
         "durable_keys": {}
       },
       "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
-      "_origin_index": 271
+      "_origin_index": 219
     },
     {
       "source_key": "federalregister",
@@ -10364,29 +10280,29 @@
       "reported_on": "2025-09-03",
       "dated_by": "occurred",
       "category": "Appointments & Patronage",
-      "title": "Nominations Sent to the Senate",
+      "title": "White House sent 12 nominations and 3 withdrawal notices to the Senate",
       "url": "https://www.whitehouse.gov/presidential-actions/2025/09/nominations-sent-to-the-senate-f7c7/",
-      "summary": "The White House published this nominations on 2025-09-03 through its nominations-and-appointments channel.",
-      "why_relevant": "",
+      "summary": "The White House sent nominations for 12 positions to the Senate on September 3, 2025, including a Commissioner of Labor Statistics, Federal Maritime Commissioners, Assistant Secretaries at Commerce, Treasury, and State, an Under Secretary of Transportation, a U.S. Attorney, and other officials. The White House also withdrew three previously sent nominations: Terrence Gorman for Chairman of the Board of Veterans' Appeals, Penny Schwinn for Deputy Secretary of Education, and Christopher Gilbert for U.S. Attorney for the Western District of Virginia.",
+      "why_relevant": "Nominations and withdrawals are core executive power; the Senate's confirmation authority is a principal check on executive appointment power and a mechanism for vetting fitness for office.",
       "jurisdiction": "federal",
-      "federal_nexus": "Official White House channel; documents the act of publication only.",
+      "federal_nexus": "",
       "confidence": "high",
-      "basis": "official_actor_record",
+      "basis": "Erwin Antoni, of Pennsylvania, to be Commissioner of Labor Statistics, Department of Labor, for a term of four years, vice Erika L. McEntarfer\" and \"Terrence Gorman, of Florida, to be Chairman of the Board of Veterans' Appeals for a term of six years, vice Jaime Areizaga-Soto, resigned, which was sent to the Senate on August 1, 2025.",
       "actor": "The White House",
       "action": "published a nominations announcement titled \"Nominations Sent to the Senate\"",
       "act_key": "white house|published a nominations announcement titled nominations sent to the senate|2025-09-03",
       "attacks": [],
       "source_meta": {
-        "headline": null,
-        "published_on": null,
+        "headline": "Nominations Sent to the Senate",
+        "published_on": "2025-09-04",
         "byline": null,
-        "outlet": null,
-        "accessed_on": null,
+        "outlet": "The White House",
+        "accessed_on": "2026-08-27T02:02:20Z",
         "snapshot_url": null,
         "durable_keys": {}
       },
       "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
-      "_origin_index": 1187
+      "_origin_index": 1129
     },
     {
       "source_key": "federalregister",
@@ -10928,6 +10844,39 @@
       "_origin_index": 205
     },
     {
+      "source_key": "justice",
+      "date": "2025-09-04",
+      "occurred_on": "2025-09-04",
+      "reported_on": "2025-09-04",
+      "dated_by": "occurred",
+      "category": "Executive Actions & Orders",
+      "title": "EOIR announces record immigration court case completions and caseload reduction",
+      "url": "https://www.justice.gov/eoir/pr/eoir-announces-significant-immigration-court-milestones",
+      "summary": "The Executive Office for Immigration Review announced completion of over 722,000 cases in the first 11 months of fiscal year 2025, exceeding all of FY 2024 and marking the highest single-year total in agency history. EOIR reduced its pending caseload by over 447,000 cases since January 20, 2025, bringing pending cases from 4.18 million to under 3.75 million. The agency attributed the reduction to policy memoranda issued since January that restored adjudicator impartiality, expanded the Dedicated Docket, and rescinded over 20 policies deemed unfounded in law.",
+      "why_relevant": "The announcement reflects a significant operational and policy shift in immigration adjudication that affects the speed and character of case resolution for hundreds of thousands of individuals in removal proceedings.",
+      "jurisdiction": "federal",
+      "federal_nexus": "",
+      "confidence": "high",
+      "basis": "EOIR announced today its completion of more than 722,000 cases during the first 11 months of fiscal year (FY) 2025, exceeding all of FY 2024 case completions and constituting the highest single-FY completion total in the agency's history.",
+      "actor": "The Department of Justice",
+      "action": "announced \"EOIR Announces Significant Immigration Court Milestones\"",
+      "act_key": "department|announced eoir announces significant immigration court milestones|2025-09-04",
+      "attacks": [
+        "immigrants_refugees"
+      ],
+      "source_meta": {
+        "headline": "EOIR Announces Significant Immigration Court Milestones",
+        "published_on": "2025-09-04",
+        "byline": null,
+        "outlet": "justice.gov",
+        "accessed_on": "2026-08-27T04:53:46Z",
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "justice_events_2025-01-20_2026-08-14.json",
+      "_origin_index": 172
+    },
+    {
       "source_key": "meidas",
       "date": "2025-09-04",
       "occurred_on": "",
@@ -11095,37 +11044,6 @@
       },
       "_origin_file": "noah_events_2025-08-23_2025-09-05.json",
       "_origin_index": 3
-    },
-    {
-      "source_key": "whitehouse",
-      "date": "2025-09-04",
-      "occurred_on": "2025-09-04",
-      "reported_on": "2025-09-04",
-      "dated_by": "occurred",
-      "category": "Executive Actions & Orders",
-      "title": "Implementing The United States–Japan Agreement",
-      "url": "https://www.whitehouse.gov/presidential-actions/2025/09/implementing-the-united-states-japan-agreement/",
-      "summary": "The White House published this executive order on 2025-09-04 through its executive-orders channel.",
-      "why_relevant": "",
-      "jurisdiction": "federal",
-      "federal_nexus": "Official White House channel; documents the act of publication only.",
-      "confidence": "high",
-      "basis": "official_actor_record",
-      "actor": "The White House",
-      "action": "announced an executive order titled \"Implementing The United States–Japan Agreement\"",
-      "act_key": "white house|announced an executive order titled implementing the united states japan agreement|2025-09-04",
-      "attacks": [],
-      "source_meta": {
-        "headline": null,
-        "published_on": null,
-        "byline": null,
-        "outlet": null,
-        "accessed_on": null,
-        "snapshot_url": null,
-        "durable_keys": {}
-      },
-      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
-      "_origin_index": 814
     },
     {
       "source_key": "guardian",
@@ -11509,8 +11427,8 @@
         "snapshot_url": null,
         "durable_keys": {}
       },
-      "_origin_file": "guardian_events_2025-09-06_2025-09-12.json",
-      "_origin_index": 54
+      "_origin_file": "guardian_events_2025-09-06_2025-12-12.json",
+      "_origin_index": 1422
     },
     {
       "source_key": "guardian",
@@ -11590,60 +11508,32 @@
       "reported_on": "2025-09-04",
       "dated_by": "occurred",
       "category": "Judicial Developments",
-      "title": "Department of Justice Sues City of Boston, Mayor Michelle Wu Over Sanctuary City Laws",
+      "title": "Department of Justice sues Boston and Mayor Wu over sanctuary city policies",
       "url": "https://www.justice.gov/opa/pr/department-justice-sues-city-boston-mayor-michelle-wu-over-sanctuary-city-laws",
-      "summary": "The Department of Justice announced this on 2025-09-04 through Office of the Attorney General. The recorded stage is a complaint filed. The allegations are unadjudicated; this documents the announcement, not the truth of any allegation. The department's own account of it reads: \"Today, the Department of Justice filed a lawsuit against the City of Boston, Massachusetts, Boston Mayor Michelle Wu, and the Boston Police Department and Police Commissioner over Boston’s sanctuary city laws that interfere with the federal government’s enforcement of its immigration laws.\"",
-      "why_relevant": "",
+      "summary": "The Department of Justice, through its Civil Division, filed a lawsuit against the City of Boston, Mayor Michelle Wu, and the Boston Police Department, alleging that Boston's sanctuary city laws interfere with federal immigration enforcement. Attorney General Pamela Bondi stated that Boston's policies result in the release of individuals convicted of serious crimes who would otherwise face removal. The lawsuit is part of a broader DOJ initiative announced on Bondi's first day in office to identify and litigate against state and local sanctuary policies nationwide.",
+      "why_relevant": "This lawsuit represents a federal executive challenge to local sanctuary policies and raises questions about the proper allocation of immigration enforcement authority between federal and local governments, a constitutional separation-of-powers issue.",
       "jurisdiction": "federal",
-      "federal_nexus": "Official DOJ channel; documents the act of announcement only.",
+      "federal_nexus": "",
       "confidence": "high",
-      "basis": "official_actor_record",
+      "basis": "Today, the Department of Justice filed a lawsuit against the City of Boston, Massachusetts, Boston Mayor Michelle Wu, and the Boston Police Department and Police Commissioner over Boston's sanctuary city laws that interfere with the federal government's enforcement of its immigration laws.",
       "actor": "The Department of Justice",
       "action": "announced \"Department of Justice Sues City of Boston, Mayor Michelle Wu Over Sanctuary City Laws\"",
       "act_key": "department|announced department of justice sues city of boston mayor michelle wu over sanctuary city laws|2025-09-04",
-      "attacks": [],
+      "attacks": [
+        "separation_of_powers",
+        "rule_of_law"
+      ],
       "source_meta": {
-        "headline": null,
-        "published_on": null,
+        "headline": "Department of Justice Sues City of Boston, Mayor Michelle Wu Over Sanctuary City Laws",
+        "published_on": "2025-09-04",
         "byline": null,
-        "outlet": null,
-        "accessed_on": null,
+        "outlet": "justice.gov",
+        "accessed_on": "2026-08-27T04:53:56Z",
         "snapshot_url": null,
         "durable_keys": {}
       },
       "_origin_file": "justice_events_2025-01-20_2026-08-14.json",
       "_origin_index": 173
-    },
-    {
-      "source_key": "justice",
-      "date": "2025-09-04",
-      "occurred_on": "2025-09-04",
-      "reported_on": "2025-09-04",
-      "dated_by": "occurred",
-      "category": "Judicial Developments",
-      "title": "EOIR Announces Significant Immigration Court Milestones",
-      "url": "https://www.justice.gov/eoir/pr/eoir-announces-significant-immigration-court-milestones",
-      "summary": "The Department of Justice announced this on 2025-09-04 through Executive Office for Immigration Review.",
-      "why_relevant": "",
-      "jurisdiction": "federal",
-      "federal_nexus": "Official DOJ channel; documents the act of announcement only.",
-      "confidence": "high",
-      "basis": "official_actor_record",
-      "actor": "The Department of Justice",
-      "action": "announced \"EOIR Announces Significant Immigration Court Milestones\"",
-      "act_key": "department|announced eoir announces significant immigration court milestones|2025-09-04",
-      "attacks": [],
-      "source_meta": {
-        "headline": null,
-        "published_on": null,
-        "byline": null,
-        "outlet": null,
-        "accessed_on": null,
-        "snapshot_url": null,
-        "durable_keys": {}
-      },
-      "_origin_file": "justice_events_2025-01-20_2026-08-14.json",
-      "_origin_index": 172
     },
     {
       "source_key": "justsecurity",
@@ -11681,6 +11571,39 @@
       },
       "_origin_file": "justsecurity_events_2025-08-23_2025-09-05.json",
       "_origin_index": 25
+    },
+    {
+      "source_key": "federalregister",
+      "date": "2025-09-04",
+      "occurred_on": "2025-09-04",
+      "reported_on": "2025-11-26",
+      "dated_by": "occurred",
+      "category": "Law Enforcement & Surveillance",
+      "title": "DEA publishes notice of controlled substances importer application by NSI Lab Solutions, LLC",
+      "url": "https://www.federalregister.gov/documents/2025/11/26/2025-21180/importer-of-controlled-substances-application-nsi-lab-solutions-llc",
+      "summary": "The Drug Enforcement Administration published a notice on November 26, 2025, that NSI Lab Solutions, LLC, based in Raleigh, North Carolina, applied on September 4, 2025, to be registered as an importer of 127 controlled substances across Schedules I and II. The substances include synthetic cannabinoids, fentanyl analogs, cathinones, and opioids intended for sale to research facilities for drug testing and analysis. The DEA is accepting public comments and hearing requests through December 26, 2025.",
+      "why_relevant": "The notice establishes a formal administrative record of a controlled substances import application, triggering a 30-day public comment period and potential hearing rights under DEA regulatory authority.",
+      "jurisdiction": "federal",
+      "federal_nexus": "",
+      "confidence": "high",
+      "basis": "NSI Lab Solutions, LLC, 7212 ACC Boulevard, Raleigh, North Carolina 27617, applied to be registered as an importer of the following basic class(es) of controlled substance(s)",
+      "actor": "Drug Enforcement Administration",
+      "action": "published importer application notice",
+      "act_key": "drug enforcement administration|published importer application notice|2025-09-04",
+      "attacks": [],
+      "source_meta": {
+        "headline": "Importer of Controlled Substances Application: NSI Lab Solutions, LLC.",
+        "published_on": "2025-11-26",
+        "byline": null,
+        "outlet": "Federal Register",
+        "accessed_on": "2026-08-11T15:29:59Z",
+        "snapshot_url": null,
+        "durable_keys": {
+          "federal_register_doc": "2025-21180"
+        }
+      },
+      "_origin_file": "federalregister_events_2025-09-06_2025-12-12.json",
+      "_origin_index": 20
     },
     {
       "source_key": "guardian",
@@ -11798,7 +11721,7 @@
       "title": "ICE raid detains 475 workers at Hyundai-LG battery plant in Ellabell, Georgia",
       "url": "https://www.theguardian.com/us-news/2025/sep/12/immigration-georgia-hyundai-south-korea",
       "summary": "U.S. Immigration and Customs Enforcement, along with Homeland Security Investigations, conducted a workplace raid on the Hyundai-LG battery plant under construction in Ellabell, Georgia, detaining 475 people, including 320 Korean nationals holding B-1 visas or visa-waiver status. The raid occurred one week before the article's publication and followed a DHS investigation that began in March 2025, coinciding with workplace safety incidents at the site. The detentions created diplomatic tension between the U.S. and South Korea and raised questions about whether undocumented workers' fear of deportation may have suppressed safety complaints.",
-      "why_relevant": "The raid targeted workers at a major foreign investment project critical to U.S.-South Korea trade relations and state economic development, raising concerns about whether immigration enforcement was weaponized in a manner that threatens diplomatic relationships and chills foreign investment in the United States.",
+      "why_relevant": "The raid targeted workers at a major foreign investment project critical to U.S.-South Korea trade relations, detained both documented and undocumented workers, and may have been motivated by workplace safety failures rather than immigration enforcement alone, raising questions about the use of immigration enforcement as a tool affecting economic diplomacy and worker protections.",
       "jurisdiction": "federal",
       "federal_nexus": "",
       "confidence": "high",
@@ -11809,8 +11732,9 @@
       "attacks": [
         "immigrants_refugees",
         "workers",
+        "sick_vulnerable",
         "diplomacy",
-        "trade"
+        "rule_of_law"
       ],
       "source_meta": {
         "headline": "Workplace safety issues at Georgia’s Hyundai plant may have led to Ice raid",
@@ -11821,8 +11745,8 @@
         "snapshot_url": null,
         "durable_keys": {}
       },
-      "_origin_file": "guardian_events_2025-09-06_2025-09-12.json",
-      "_origin_index": 13
+      "_origin_file": "guardian_events_2025-09-06_2025-12-12.json",
+      "_origin_index": 1374
     },
     {
       "source_key": "guardian",
@@ -11900,24 +11824,24 @@
       "reported_on": "2025-09-04",
       "dated_by": "occurred",
       "category": "Law Enforcement & Surveillance",
-      "title": "Justice Department Opens Investigation into Rainsville, Alabama for Disability and Religious Liberty Discrimination",
+      "title": "Justice Department Opens Investigation into Rainsville, Alabama for Alleged Disability and Religious Liberty Discrimination",
       "url": "https://www.justice.gov/opa/pr/justice-department-opens-investigation-rainsville-alabama-disability-and-religious-liberty",
-      "summary": "The Department of Justice announced this on 2025-09-04 through Civil Rights Division. The recorded stage is an announced investigation. The allegations are unadjudicated; this documents the announcement, not the truth of any allegation. The department's own account of it reads: \"Today, the Justice Department’s Civil Rights Division launched an investigation into the City of Rainsville, Alabama, to determine whether the City violated Title II of the Americans with Disabilities Act (ADA), the Religious Land Use and Institutionalized Persons Act of 2000 (RLUIPA), and the Fair Housing Act (FHA) by denying a faith-based organization’s application to operate an addiction-recovery facility in the …\"",
-      "why_relevant": "",
+      "summary": "The Department of Justice's Civil Rights Division announced an investigation into the City of Rainsville, Alabama, alleging that the city violated the Americans with Disabilities Act, the Religious Land Use and Institutionalized Persons Act, and the Fair Housing Act by denying a Christian recovery organization's application to operate an addiction-recovery facility. The department received a complaint alleging the city rejected the faith-based organization's application motivated by a desire to exclude people with substance use disorders. The investigation will determine whether the city unlawfully discriminated against individuals in recovery and a religious institution.",
+      "why_relevant": "The investigation concerns whether a municipality unlawfully excluded a protected class (people in recovery from substance use disorders) and a religious institution from equal access to land use and housing, raising questions about equal application of law and protection of vulnerable populations.",
       "jurisdiction": "federal",
-      "federal_nexus": "Official DOJ channel; documents the act of announcement only.",
+      "federal_nexus": "",
       "confidence": "high",
-      "basis": "official_actor_record",
+      "basis": "the Justice Department's Civil Rights Division launched an investigation into the City of Rainsville, Alabama, to determine whether the City violated Title II of the Americans with Disabilities Act (ADA), the Religious Land Use and Institutionalized Persons Act of 2000 (RLUIPA), and the Fair Housing Act (FHA)",
       "actor": "The Department of Justice",
       "action": "announced \"Justice Department Opens Investigation into Rainsville, Alabama for Disability and Religious Liberty Discrimination\"",
       "act_key": "department|announced justice department opens investigation into rainsville alabama for disability and religious liberty discrimination|2025-09-04",
       "attacks": [],
       "source_meta": {
-        "headline": null,
-        "published_on": null,
+        "headline": "Justice Department Opens Investigation into Rainsville, Alabama for Disability and Religious Liberty Discrimination",
+        "published_on": "2025-09-04",
         "byline": null,
-        "outlet": null,
-        "accessed_on": null,
+        "outlet": "justice.gov",
+        "accessed_on": "2026-08-27T04:53:36Z",
         "snapshot_url": null,
         "durable_keys": {}
       },
@@ -12224,70 +12148,6 @@
       },
       "_origin_file": "hcr_events_2025-08-23_2025-09-05.json",
       "_origin_index": 6
-    },
-    {
-      "source_key": "whitehouse",
-      "date": "2025-09-04",
-      "occurred_on": "2025-09-04",
-      "reported_on": "2025-09-04",
-      "dated_by": "occurred",
-      "category": "Information & Media Control",
-      "title": "President Trump’s AI, Energy Dominance Agenda Fuels $1B Investment",
-      "url": "https://www.whitehouse.gov/releases/2025/09/president-trumps-ai-energy-dominance-agenda-fuels-1b-investment/",
-      "summary": "The White House published this release on 2025-09-04 through its releases channel.",
-      "why_relevant": "",
-      "jurisdiction": "federal",
-      "federal_nexus": "Official White House channel; documents the act of publication only.",
-      "confidence": "high",
-      "basis": "official_actor_record",
-      "actor": "The White House",
-      "action": "published a release titled \"President Trump’s AI, Energy Dominance Agenda Fuels $1B Investment\"",
-      "act_key": "white house|published a release titled president trump s ai energy dominance agenda fuels 1b investment|2025-09-04",
-      "attacks": [],
-      "source_meta": {
-        "headline": null,
-        "published_on": null,
-        "byline": null,
-        "outlet": null,
-        "accessed_on": null,
-        "snapshot_url": null,
-        "durable_keys": {}
-      },
-      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
-      "_origin_index": 270
-    },
-    {
-      "source_key": "federalregister",
-      "date": "2025-09-04",
-      "occurred_on": "2025-09-04",
-      "reported_on": "2025-11-26",
-      "dated_by": "occurred",
-      "category": "Economic & Regulatory Power",
-      "title": "DEA publishes notice of NSI Lab Solutions LLC application to import controlled substances",
-      "url": "https://www.federalregister.gov/documents/2025/11/26/2025-21180/importer-of-controlled-substances-application-nsi-lab-solutions-llc",
-      "summary": "The Drug Enforcement Administration published a notice that NSI Lab Solutions, LLC, based in Raleigh, North Carolina, applied on September 4, 2025, to be registered as an importer of 127 controlled substances across Schedules I and II, including synthetic cannabinoids, fentanyl analogs, and other drugs for sale to research facilities for testing and analysis. The public comment period closes December 26, 2025, and interested parties may request a hearing.",
-      "why_relevant": "DEA registration decisions for controlled-substance importers affect the legal supply chain for research and testing, establishing regulatory precedent for commercial access to Schedule I and II drugs.",
-      "jurisdiction": "federal",
-      "federal_nexus": "",
-      "confidence": "high",
-      "basis": "NSI Lab Solutions, LLC, 7212 ACC Boulevard, Raleigh, North Carolina 27617, applied to be registered as an importer of the following basic class(es) of controlled substance(s)",
-      "actor": "DEA",
-      "action": "published importer application notice",
-      "act_key": "dea|published importer application notice|2025-09-04",
-      "attacks": [],
-      "source_meta": {
-        "headline": "Importer of Controlled Substances Application: NSI Lab Solutions, LLC.",
-        "published_on": "2025-11-26",
-        "byline": null,
-        "outlet": "Federal Register",
-        "accessed_on": "2026-08-11T15:29:59Z",
-        "snapshot_url": null,
-        "durable_keys": {
-          "federal_register_doc": "2025-21180"
-        }
-      },
-      "_origin_file": "federalregister_events_2025-11-22_2025-11-28.json",
-      "_origin_index": 12
     },
     {
       "source_key": "federalregister",
@@ -12692,6 +12552,72 @@
       "_origin_index": 1
     },
     {
+      "source_key": "whitehouse",
+      "date": "2025-09-04",
+      "occurred_on": "2025-09-04",
+      "reported_on": "2025-09-04",
+      "dated_by": "occurred",
+      "category": "Economic & Regulatory Power",
+      "title": "Trump signed executive order implementing U.S.–Japan trade agreement with reciprocal tariffs and Japanese investment commitments",
+      "url": "https://www.whitehouse.gov/presidential-actions/2025/09/implementing-the-united-states-japan-agreement/",
+      "summary": "President Trump signed an executive order on September 4, 2025, implementing a framework agreement with Japan announced July 22, 2025. The order establishes a baseline 15 percent tariff on nearly all Japanese imports, with sector-specific treatment for automobiles, aerospace, pharmaceuticals, and natural resources. Japan commits to $550 billion in U.S. investments (selected by the U.S. Government), increased agricultural purchases totaling $8 billion annually, and acceptance of U.S. vehicles and defense equipment. The order applies retroactively to products entered for consumption on or after August 7, 2025, and delegates implementation authority to the Secretaries of Commerce and Homeland Security.",
+      "why_relevant": "The order unilaterally imposes tariffs on a major ally using emergency economic powers (IEEPA, section 232), conditioning market access on foreign investment in the U.S. and linking trade to executive discretion over investment allocation—a significant assertion of executive authority over commerce and international relations.",
+      "jurisdiction": "federal",
+      "federal_nexus": "",
+      "confidence": "high",
+      "basis": "By the authority vested in me as President by the Constitution and the laws of the United States of America, including the International Emergency Economic Powers Act (50 U.S.C. 1701 et seq.) (IEEPA), the National Emergencies Act (50 U.S.C. 1601 et seq.), section 232 of the Trade Expansion Act of 1962, as amended (19 U.S.C. 1862) (section 232)…I hereby determine and order",
+      "actor": "The White House",
+      "action": "announced an executive order titled \"Implementing The United States–Japan Agreement\"",
+      "act_key": "white house|announced an executive order titled implementing the united states japan agreement|2025-09-04",
+      "attacks": [
+        "trade",
+        "allies",
+        "separation_of_powers"
+      ],
+      "source_meta": {
+        "headline": "Implementing The United States–Japan Agreement",
+        "published_on": "2025-09-04",
+        "byline": null,
+        "outlet": "The White House",
+        "accessed_on": "2026-08-27T00:52:09Z",
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
+      "_origin_index": 758
+    },
+    {
+      "source_key": "whitehouse",
+      "date": "2025-09-04",
+      "occurred_on": "",
+      "reported_on": "2025-09-04",
+      "dated_by": "reported",
+      "category": "Economic & Regulatory Power",
+      "title": "White House issues release on Hitachi Energy's $1 billion U.S. investment announcement",
+      "url": "https://www.whitehouse.gov/releases/2025/09/president-trumps-ai-energy-dominance-agenda-fuels-1b-investment/",
+      "summary": "The White House issued a release on September 4, 2025, announcing that Hitachi Energy had committed $1 billion to U.S. critical electrical grid infrastructure, including a $457 million Virginia-based power transformer facility. The release attributes the investment to the Trump Administration's AI Action Plan and frames it as advancing the administration's \"energy dominance agenda\" and AI infrastructure goals. The release cites this as part of a broader investment boom under Trump's trade policy.",
+      "why_relevant": "The release demonstrates executive use of promotional framing to claim credit for private investment decisions and to advance the administration's policy narrative around AI and energy infrastructure as central to national strategy.",
+      "jurisdiction": "federal",
+      "federal_nexus": "",
+      "confidence": "high",
+      "basis": "Today, Hitachi Energy announced a $1 billion investment in U.S. critical electrical grid infrastructure, including a $457 million investment in a new Virginia-based large power transformer facility.",
+      "actor": "The White House",
+      "action": "published a release titled \"President Trump’s AI, Energy Dominance Agenda Fuels $1B Investment\"",
+      "act_key": "white house|published a release titled president trump s ai energy dominance agenda fuels 1b investment|2025-09-04",
+      "attacks": [],
+      "source_meta": {
+        "headline": "President Trump’s AI, Energy Dominance Agenda Fuels $1B Investment",
+        "published_on": "2025-09-04",
+        "byline": null,
+        "outlet": "The White House",
+        "accessed_on": "2026-08-26T23:09:44Z",
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
+      "_origin_index": 218
+    },
+    {
       "source_key": "hcr",
       "date": "2025-09-04",
       "occurred_on": "",
@@ -12795,6 +12721,37 @@
       },
       "_origin_file": "noah_events_2025-08-23_2025-09-05.json",
       "_origin_index": 4
+    },
+    {
+      "source_key": "whitehouse",
+      "date": "2025-09-04",
+      "occurred_on": "2025-09-04",
+      "reported_on": "2025-09-05",
+      "dated_by": "occurred",
+      "category": "Appointments & Patronage",
+      "title": "White House issues release on Trump-tech leader AI meeting",
+      "url": "https://www.whitehouse.gov/releases/2025/09/president-trump-tech-leaders-unite-american-ai-dominance/",
+      "summary": "The White House issued a press release describing a meeting between President Trump, First Lady Melania Trump, and technology industry leaders (including CEOs from OpenAI, Google, Apple, Microsoft, Meta, Oracle, and AMD) held at the White House on September 4, 2025. The release frames the gathering as a \"public-private collaboration\" centered on artificial intelligence and includes quotations from tech leaders praising the administration's support for AI development and innovation. The release cites the administration's \"AI Action Plan\" and references major corporate investments in U.S. infrastructure.",
+      "why_relevant": "The event demonstrates executive cultivation of private-sector relationships and alignment with major technology firms, raising questions about the boundary between public policy and corporate interest in AI governance.",
+      "jurisdiction": "federal",
+      "federal_nexus": "",
+      "confidence": "high",
+      "basis": "Last night, President Donald J. Trump and the First Lady hosted an extraordinary gathering of technology industry leaders at the White House for discussions centered on harnessing artificial intelligence.",
+      "actor": "The White House",
+      "action": "published a release titled \"President Trump, Tech Leaders Unite to Power American AI Dominance\"",
+      "act_key": "white house|published a release titled president trump tech leaders unite to power american ai dominance|2025-09-04",
+      "attacks": [],
+      "source_meta": {
+        "headline": "President Trump, Tech Leaders Unite to Power American AI Dominance",
+        "published_on": "2025-09-05",
+        "byline": null,
+        "outlet": "The White House",
+        "accessed_on": "2026-08-26T23:09:33Z",
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
+      "_origin_index": 217
     },
     {
       "source_key": "federalregister",
@@ -12925,6 +12882,74 @@
       },
       "_origin_file": "hcr_events_2025-08-16_2025-10-24.json",
       "_origin_index": 207
+    },
+    {
+      "source_key": "hcr",
+      "date": "2025-09-04",
+      "occurred_on": "2025-09-04",
+      "reported_on": "2025-09-06",
+      "dated_by": "occurred",
+      "category": "International Relations",
+      "title": "Trump told EU leaders to pressure Russia on Ukraine without U.S. support",
+      "url": "https://www.axios.com/2025/09/04/trump-zelensky-call-ukraine-russia-peace-talks",
+      "summary": "In a conversation with European Union leaders, Trump backed away from his campaign promises to increase pressure on Russia to stop its war against Ukraine, instead telling EU leaders they must do it themselves. The shift represents a reversal of stated policy regarding U.S. support for Ukraine against Russian aggression.",
+      "why_relevant": "The reversal of commitment to Ukraine undermines NATO alliance cohesion and signals potential abandonment of a key U.S. security commitment, affecting the stability of the international order and European security.",
+      "jurisdiction": "federal",
+      "federal_nexus": "",
+      "confidence": "high",
+      "basis": "Trump backed away from his promises to increase pressure on Russia to stop its war against Ukraine and instead told the leaders they must do it themselves.",
+      "actor": "Trump",
+      "action": "withdrew support for ukraine pressure",
+      "act_key": "trump|withdrew support for ukraine pressure|2025-09-04",
+      "attacks": [
+        "allies",
+        "peace",
+        "idea_of_america"
+      ],
+      "source_meta": {
+        "headline": null,
+        "published_on": null,
+        "byline": null,
+        "outlet": null,
+        "accessed_on": null,
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "hcr_events_2025-09-06_2025-12-12.json",
+      "_origin_index": 679
+    },
+    {
+      "source_key": "whitehouse",
+      "date": "2025-09-04",
+      "occurred_on": "2025-09-04",
+      "reported_on": "2025-09-05",
+      "dated_by": "occurred",
+      "category": "International Relations",
+      "title": "White House issues fact sheet on U.S.-Japan trade and investment framework",
+      "url": "https://www.whitehouse.gov/fact-sheets/2025/09/fact-sheet-president-donald-j-trump-implements-a-historic-u-s-japan-framework-agreement/",
+      "summary": "The White House published a fact sheet on September 5, 2025, describing an executive order signed by President Trump implementing a U.S.-Japan framework agreement announced July 22, 2025. The fact sheet states the agreement provides American producers over $15 billion in market access to Japan, includes Japanese commitments to purchase $8 billion in agricultural goods and $7 billion annually in energy, and a 15% baseline tariff on Japanese imports. The fact sheet claims Japan committed $550 billion in investments in U.S. critical industries.",
+      "why_relevant": "The act asserts executive authority to implement major trade agreements unilaterally, reshape tariff structures, and direct foreign investment into U.S. industries, affecting the separation of powers over trade policy and the structure of international economic relations.",
+      "jurisdiction": "federal",
+      "federal_nexus": "",
+      "confidence": "high",
+      "basis": "Yesterday, President Donald J. Trump signed an Executive Order implementing the framework agreement between the United States and Japan that he announced on July 22, 2025.",
+      "actor": "The White House",
+      "action": "issued a fact sheet titled \"Fact Sheet: President Donald J. Trump Implements A Historic U.S.-Japan Framework Agreement\"",
+      "act_key": "white house|issued a fact sheet titled fact sheet president donald j trump implements a historic u s japan framework agreement|2025-09-04",
+      "attacks": [
+        "trade"
+      ],
+      "source_meta": {
+        "headline": "Fact Sheet: President Donald J. Trump Implements A Historic U.S.-Japan Framework Agreement",
+        "published_on": "2025-09-05",
+        "byline": null,
+        "outlet": "The White House",
+        "accessed_on": "2026-08-26T23:57:45Z",
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
+      "_origin_index": 473
     },
     {
       "source_key": "outloud",
@@ -13234,8 +13259,8 @@
         "snapshot_url": null,
         "durable_keys": {}
       },
-      "_origin_file": "hcr_events_2025-09-06_2025-09-12.json",
-      "_origin_index": 19
+      "_origin_file": "hcr_events_2025-09-06_2025-12-12.json",
+      "_origin_index": 655
     },
     {
       "source_key": "hcr",
@@ -13246,18 +13271,19 @@
       "category": "Executive Actions & Orders",
       "title": "Trump signed executive order to rename Department of Defense as Department of War",
       "url": "https://www.newsweek.com/trump-department-war-hegseth-defense-order-live-updates-2125101",
-      "summary": "President Trump signed an executive order renaming the Department of Defense as the Department of War, reversing a 1947 decision by Congress that had renamed the Department of War to emphasize deterrence and defense. Secretary of Defense Pete Hegseth stated the change reflects a shift toward \"maximum lethality\" and \"warrior ethos.\" The order proceeded despite Trump's acknowledgment that congressional approval is legally required. By evening, new signage and the department's website URL (war.gov) had been updated.",
-      "why_relevant": "The renaming reverses a foundational post-WWII institutional choice to emphasize deterrence over offensive military doctrine, signaling a shift in the constitutional framing of military purpose and civilian control.",
+      "summary": "President Trump signed an executive order renaming the Department of Defense as the Department of War, reversing a 1947 decision by Congress that had renamed the Department of War to emphasize deterrence and defense. Secretary of Defense Pete Hegseth stated the change reflects a shift toward \"maximum lethality\" and \"warrior ethos.\" By evening, new nameplates, signage, and the department's website URL (war.gov) had been updated. Congress must approve the change by law, though Trump suggested approval would be automatic.",
+      "why_relevant": "The renaming reverses a foundational post-WWII institutional commitment to deterrence and rules-based international order, signaling a shift toward offensive military doctrine and potentially altering the constitutional framework governing military force.",
       "jurisdiction": "federal",
       "federal_nexus": "",
       "confidence": "high",
-      "basis": "Today President Donald J. Trump signed an executive order to rename the Department of Defense as the Department of War",
+      "basis": "Today President Donald J. Trump signed an executive order to rename the Department of Defense as the Department of War.",
       "actor": "Trump",
       "action": "signed executive order renaming department",
       "act_key": "trump|signed executive order renaming department|2025-09-05",
       "attacks": [
-        "42",
-        "41"
+        "separation_of_powers",
+        "idea_of_america",
+        "peace"
       ],
       "source_meta": {
         "headline": null,
@@ -13268,8 +13294,8 @@
         "snapshot_url": null,
         "durable_keys": {}
       },
-      "_origin_file": "hcr_events_2025-09-06_2025-09-12.json",
-      "_origin_index": 40
+      "_origin_file": "hcr_events_2025-09-06_2025-12-12.json",
+      "_origin_index": 676
     },
     {
       "source_key": "orders",
@@ -13309,60 +13335,33 @@
       "reported_on": "2025-09-05",
       "dated_by": "occurred",
       "category": "Executive Actions & Orders",
-      "title": "Modifying The Scope of Reciprocal Tariffs and Establishing Procedures for Implementing Trade and Security Agreements",
-      "url": "https://www.whitehouse.gov/presidential-actions/2025/09/modifying-the-scope-of-reciprocal-tariffs-and-establishing-procedures-for-implementing-trade-and-security-agreements/",
-      "summary": "The White House published this executive order on 2025-09-05 through its executive-orders channel.",
-      "why_relevant": "",
-      "jurisdiction": "federal",
-      "federal_nexus": "Official White House channel; documents the act of publication only.",
-      "confidence": "high",
-      "basis": "official_actor_record",
-      "actor": "The White House",
-      "action": "announced an executive order titled \"Modifying The Scope of Reciprocal Tariffs and Establishing Procedures for Implementing Trade and Security Agreements\"",
-      "act_key": "white house|announced an executive order titled modifying the scope of reciprocal tariffs and establishing procedures for implementing trade and security agreements|2025-09-05",
-      "attacks": [],
-      "source_meta": {
-        "headline": null,
-        "published_on": null,
-        "byline": null,
-        "outlet": null,
-        "accessed_on": null,
-        "snapshot_url": null,
-        "durable_keys": {}
-      },
-      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
-      "_origin_index": 812
-    },
-    {
-      "source_key": "whitehouse",
-      "date": "2025-09-05",
-      "occurred_on": "2025-09-05",
-      "reported_on": "2025-09-05",
-      "dated_by": "occurred",
-      "category": "Executive Actions & Orders",
-      "title": "Restoring the United States Department of War",
+      "title": "White House issued executive order renaming Department of Defense to Department of War",
       "url": "https://www.whitehouse.gov/presidential-actions/2025/09/restoring-the-united-states-department-of-war/",
-      "summary": "The White House published this executive order on 2025-09-05 through its executive-orders channel.",
-      "why_relevant": "",
+      "summary": "The White House issued Executive Order 14347 on September 5, 2025, authorizing the Secretary of Defense to use the secondary title \"Secretary of War\" and permitting the Department of Defense to be referred to as the Department of War in official communications, ceremonial contexts, and non-statutory documents. The order directs the Secretary to submit recommendations within 60 days on permanent legislative and executive actions required to formally rename the department. Statutory references remain unchanged pending future law.",
+      "why_relevant": "The order asserts executive power to alter the institutional identity and public framing of a major defense agency through secondary titles and internal usage, signaling a shift in military posture and messaging while deferring formal statutory change to future action.",
       "jurisdiction": "federal",
-      "federal_nexus": "Official White House channel; documents the act of publication only.",
+      "federal_nexus": "",
       "confidence": "high",
-      "basis": "official_actor_record",
+      "basis": "The Secretary of Defense is authorized the use of this additional secondary title — the Secretary of War — and may be recognized by that title in official correspondence, public communications, ceremonial contexts, and non-statutory documents.",
       "actor": "The White House",
       "action": "announced an executive order titled \"Restoring the United States Department of War\"",
       "act_key": "white house|announced an executive order titled restoring the united states department of war|2025-09-05",
-      "attacks": [],
+      "attacks": [
+        "presidency",
+        "military",
+        "decency"
+      ],
       "source_meta": {
-        "headline": null,
-        "published_on": null,
+        "headline": "Restoring the United States Department of War",
+        "published_on": "2025-09-05",
         "byline": null,
-        "outlet": null,
-        "accessed_on": null,
+        "outlet": "The White House",
+        "accessed_on": "2026-08-27T00:51:35Z",
         "snapshot_url": null,
         "durable_keys": {}
       },
       "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
-      "_origin_index": 811
+      "_origin_index": 755
     },
     {
       "source_key": "whitehouse",
@@ -13371,29 +13370,29 @@
       "reported_on": "2025-09-05",
       "dated_by": "occurred",
       "category": "Executive Actions & Orders",
-      "title": "Strengthening Efforts to Protect U.S. Nationals from Wrongful Detention Abroad",
-      "url": "https://www.whitehouse.gov/presidential-actions/2025/09/strengthening-efforts-to-protect-u-s-nationals-from-wrongful-detention-abroad/",
-      "summary": "The White House published this executive order on 2025-09-05 through its executive-orders channel.",
-      "why_relevant": "",
+      "title": "White House issues fact sheet on executive order restoring \"Department of War\" as secondary title for Department of Defense",
+      "url": "https://www.whitehouse.gov/fact-sheets/2025/09/fact-sheet-president-donald-j-trump-restores-the-united-states-department-of-war/",
+      "summary": "The White House published a fact sheet on September 5, 2025, describing an executive order signed by President Trump authorizing the Secretary of Defense and subordinate officials to use secondary titles including \"Secretary of War\" and \"Department of War\" in official communications. The order directs all executive departments and agencies to recognize these titles and instructs the Secretary of War to recommend legislative and executive actions for a permanent rename of the Department of Defense to the Department of War. The fact sheet frames the change as projecting strength and deterrence.",
+      "why_relevant": "The act asserts executive power to alter the nomenclature and symbolic framing of the military establishment, signaling a shift in how the executive characterizes national defense posture and military purpose.",
       "jurisdiction": "federal",
-      "federal_nexus": "Official White House channel; documents the act of publication only.",
+      "federal_nexus": "",
       "confidence": "high",
-      "basis": "official_actor_record",
+      "basis": "Today, President Donald J. Trump signed an Executive Order to restore the historic name 'Department of War' as a secondary title for the Department of Defense.",
       "actor": "The White House",
-      "action": "announced an executive order titled \"Strengthening Efforts to Protect U.S. Nationals from Wrongful Detention Abroad\"",
-      "act_key": "white house|announced an executive order titled strengthening efforts to protect u s nationals from wrongful detention abroad|2025-09-05",
+      "action": "issued a fact sheet titled \"Fact Sheet: President Donald J. Trump Restores the United States Department of War\"",
+      "act_key": "white house|issued a fact sheet titled fact sheet president donald j trump restores the united states department of war|2025-09-05",
       "attacks": [],
       "source_meta": {
-        "headline": null,
-        "published_on": null,
+        "headline": "Fact Sheet: President Donald J. Trump Restores the United States Department of War",
+        "published_on": "2025-09-05",
         "byline": null,
-        "outlet": null,
-        "accessed_on": null,
+        "outlet": "The White House",
+        "accessed_on": "2026-08-26T23:57:35Z",
         "snapshot_url": null,
         "durable_keys": {}
       },
       "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
-      "_origin_index": 813
+      "_origin_index": 472
     },
     {
       "source_key": "hcr",
@@ -13871,6 +13870,37 @@
       },
       "_origin_file": "guardian_events_2025-08-23_2025-09-05.json",
       "_origin_index": 11
+    },
+    {
+      "source_key": "justice",
+      "date": "2025-09-05",
+      "occurred_on": "2025-09-05",
+      "reported_on": "2025-09-05",
+      "dated_by": "occurred",
+      "category": "Judicial Developments",
+      "title": "Justice Department secured settlement with Arkansas prison on disability access and medical care",
+      "url": "https://www.justice.gov/opa/pr/justice-department-secures-agreement-arkansas-division-correction-improve-medical-care-and",
+      "summary": "The Department of Justice announced an agreement with the Arkansas Division of Correction requiring the Ouachita River Unit prison facility to improve medical care and accessibility for disabled inmates, including removal of mobility barriers, provision of medical equipment, adequate wound and catheter care, and temperature-controlled shower water. The ADOC Board of Corrections approved the agreement on September 3, 2025, without objection. The settlement enforces Title II of the Americans with Disabilities Act.",
+      "why_relevant": "The agreement represents enforcement of disability rights protections in a state correctional facility, demonstrating the federal government's use of civil rights authority to remedy systemic failures in care for a vulnerable, confined population.",
+      "jurisdiction": "state",
+      "federal_nexus": "The Justice Department's Civil Rights Division enforced Title II of the Americans with Disabilities Act against a state agency.",
+      "confidence": "high",
+      "basis": "the Justice Department announced an agreement with the Arkansas Division of Correction (ADOC) to provide necessary medical care and mobility services to disabled inmates",
+      "actor": "The Department of Justice",
+      "action": "announced \"Justice Department Secures Agreement with Arkansas Division of Correction to Improve Medical Care and Mobility Services\"",
+      "act_key": "department|announced justice department secures agreement with arkansas division of correction to improve medical care and mobility services|2025-09-05",
+      "attacks": [],
+      "source_meta": {
+        "headline": "Justice Department Secures Agreement with Arkansas Division of Correction to Improve Medical Care and Mobility Services",
+        "published_on": "2025-09-05",
+        "byline": null,
+        "outlet": "justice.gov",
+        "accessed_on": "2026-08-27T04:54:07Z",
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "justice_events_2025-01-20_2026-08-14.json",
+      "_origin_index": 174
     },
     {
       "source_key": "scotusorders",
@@ -14386,18 +14416,18 @@
       "title": "ICE detained Korean worker with valid B1/B2 visa at Hyundai factory raid",
       "url": "https://www.theguardian.com/us-news/2025/sep/10/hyundai-factory-ice-raid-legal-visa",
       "summary": "ICE arrested approximately 475 people during a raid on a Hyundai battery factory under construction in Ellabell, Georgia on September 5, 2025. An internal federal document obtained by the Guardian reveals that at least one detainee held a valid B1/B2 business visa and had not violated its terms. Despite this, ICE officials \"mandated\" the man accept voluntary departure and removal proceedings. The detainee was among roughly 300 people expected to be deported to South Korea. DHS disputed the account, but an anonymous agency official confirmed that legal workers were swept up in the operation.",
-      "why_relevant": "The detention of a legally present immigrant without violation of visa terms, coupled with coerced \"voluntary\" departure, raises constitutional questions about due process, unlawful imprisonment, and the rule of law in immigration enforcement.",
+      "why_relevant": "The detention of a lawfully present immigrant without legal grounds undermines due process, rule of law, and the integrity of immigration enforcement, raising questions about whether ICE is using raids to inflate arrest numbers rather than target actual violations.",
       "jurisdiction": "federal",
       "federal_nexus": "",
       "confidence": "high",
       "basis": "immigration agents from Atlanta determined that [redacted] entered into the United States in [redacted], with a valid B1/B2 visa and [redacted] was employed at HL-GA Battery Company LLC as a contractor from the South Korean company SFA. From statements made and queries in law enforcement databases, [redacted] has not violated his visa; however, the Atlanta Field Office Director has mandated [redacted] be presented as a Voluntary Departure.",
       "actor": "ICE",
-      "action": "detained visa holder without violation",
-      "act_key": "ice|detained visa holder without violation|2025-09-05",
+      "action": "detained visa holder without legal grounds",
+      "act_key": "ice|detained visa holder without legal grounds|2025-09-05",
       "attacks": [
         "immigrants_refugees",
-        "rule_of_law",
-        "justice_dept"
+        "justice_dept",
+        "rule_of_law"
       ],
       "source_meta": {
         "headline": "Leaked Ice document shows worker detained in Hyundai raid had valid visa",
@@ -14408,8 +14438,8 @@
         "snapshot_url": null,
         "durable_keys": {}
       },
-      "_origin_file": "guardian_events_2025-09-06_2025-09-12.json",
-      "_origin_index": 23
+      "_origin_file": "guardian_events_2025-09-06_2025-12-12.json",
+      "_origin_index": 1387
     },
     {
       "source_key": "guardian",
@@ -14420,19 +14450,19 @@
       "category": "Law Enforcement & Surveillance",
       "title": "ICE raids Hyundai-LG battery plant in Georgia, detaining approximately 500 workers including 300+ South Koreans",
       "url": "https://www.theguardian.com/us-news/2025/sep/07/300-south-koreans-detained-at-hyundai-plant-in-us-to-be-released-says-seoul",
-      "summary": "US Immigration and Customs Enforcement conducted a raid on the Hyundai-LG battery manufacturing plant in Ellabell, Georgia on Thursday, detaining nearly 500 workers—at least 300 South Koreans, 23 Mexicans, and others. Footage released by US authorities showed detained workers restrained in handcuffs and ankle chains being loaded onto buses. The raid was the largest single-site sweep under Trump's anti-immigration campaign. South Korea's government announced negotiations for release and repatriation of its nationals, citing strain on diplomatic and economic relations between the two countries.",
-      "why_relevant": "The mass detention of foreign nationals at a major manufacturing facility strains US-South Korea diplomatic relations, undermines recent trade negotiations, and raises questions about proportionality and due process in immigration enforcement under the Trump administration.",
+      "summary": "US Immigration and Customs Enforcement conducted a raid on the Hyundai-LG battery manufacturing plant in Ellabell, Georgia on Thursday, detaining nearly 500 workers—at least 300 South Koreans, 23 Mexicans, and others. Footage released by US authorities showed detained workers in handcuffs and ankle chains being loaded onto buses. The raid was the largest single-site sweep under Trump's anti-immigration campaign. South Korea's government announced negotiations for release and repatriation of its nationals, citing strain on diplomatic and economic relations between the two countries.",
+      "why_relevant": "A mass immigration enforcement action targeting a major foreign-invested manufacturing facility strains US-South Korea diplomatic relations, undermines recent trade negotiations, and raises questions about the targeting and treatment of workers during enforcement operations.",
       "jurisdiction": "federal",
       "federal_nexus": "",
       "confidence": "high",
       "basis": "Nearly 500 workers, among them at least 300 South Koreans and at least 23 Mexicans, were arrested at the Hyundai-LG battery plant in the city of Ellabell on Thursday.",
       "actor": "ICE",
-      "action": "conducted immigration raid and detained workers",
-      "act_key": "ice|conducted immigration raid and detained workers|2025-09-05",
+      "action": "conducted immigration raid",
+      "act_key": "ice|conducted immigration raid|2025-09-05",
       "attacks": [
         "immigrants_refugees",
-        "rule_of_law",
-        "diplomacy"
+        "diplomacy",
+        "rule_of_law"
       ],
       "source_meta": {
         "headline": "300 South Koreans detained at Hyundai plant in US to be released, says Seoul",
@@ -14443,8 +14473,8 @@
         "snapshot_url": null,
         "durable_keys": {}
       },
-      "_origin_file": "guardian_events_2025-09-06_2025-09-12.json",
-      "_origin_index": 49
+      "_origin_file": "guardian_events_2025-09-06_2025-12-12.json",
+      "_origin_index": 1417
     },
     {
       "source_key": "meidas",
@@ -14551,37 +14581,6 @@
       "_origin_index": 0
     },
     {
-      "source_key": "justice",
-      "date": "2025-09-05",
-      "occurred_on": "2025-09-05",
-      "reported_on": "2025-09-05",
-      "dated_by": "occurred",
-      "category": "Civil Society & Protest",
-      "title": "Justice Department Secures Agreement with Arkansas Division of Correction to Improve Medical Care and Mobility Services",
-      "url": "https://www.justice.gov/opa/pr/justice-department-secures-agreement-arkansas-division-correction-improve-medical-care-and",
-      "summary": "The Department of Justice announced this on 2025-09-05 through Civil Rights - Disability Rights Section. The recorded stage is settlement executed. The department's own account of it reads: \"Today, the Justice Department announced an agreement with the Arkansas Division of Correction (ADOC) to provide necessary medical care and mobility services to disabled inmates of ADOC’s Ouachita River Unit prison facility, as required by Title II of the Americans with Disabilities Act of 1990 (ADA).\"",
-      "why_relevant": "",
-      "jurisdiction": "federal",
-      "federal_nexus": "Official DOJ channel; documents the act of announcement only.",
-      "confidence": "high",
-      "basis": "official_actor_record",
-      "actor": "The Department of Justice",
-      "action": "announced \"Justice Department Secures Agreement with Arkansas Division of Correction to Improve Medical Care and Mobility Services\"",
-      "act_key": "department|announced justice department secures agreement with arkansas division of correction to improve medical care and mobility services|2025-09-05",
-      "attacks": [],
-      "source_meta": {
-        "headline": null,
-        "published_on": null,
-        "byline": null,
-        "outlet": null,
-        "accessed_on": null,
-        "snapshot_url": null,
-        "durable_keys": {}
-      },
-      "_origin_file": "justice_events_2025-01-20_2026-08-14.json",
-      "_origin_index": 174
-    },
-    {
       "source_key": "hcr",
       "date": "2025-09-05",
       "occurred_on": "2025-09-05",
@@ -14649,192 +14648,6 @@
       },
       "_origin_file": "meidas_events_2025-08-23_2025-09-05.json",
       "_origin_index": 3
-    },
-    {
-      "source_key": "whitehouse",
-      "date": "2025-09-05",
-      "occurred_on": "2025-09-05",
-      "reported_on": "2025-09-05",
-      "dated_by": "occurred",
-      "category": "Information & Media Control",
-      "title": "Fact Sheet: President Donald J. Trump Implements A Historic U.S.-Japan Framework Agreement",
-      "url": "https://www.whitehouse.gov/fact-sheets/2025/09/fact-sheet-president-donald-j-trump-implements-a-historic-u-s-japan-framework-agreement/",
-      "summary": "The White House published this fact sheet on 2025-09-05 through its fact-sheets channel.",
-      "why_relevant": "",
-      "jurisdiction": "federal",
-      "federal_nexus": "Official White House channel; documents the act of publication only.",
-      "confidence": "high",
-      "basis": "official_actor_record",
-      "actor": "The White House",
-      "action": "issued a fact sheet titled \"Fact Sheet: President Donald J. Trump Implements A Historic U.S.-Japan Framework Agreement\"",
-      "act_key": "white house|issued a fact sheet titled fact sheet president donald j trump implements a historic u s japan framework agreement|2025-09-05",
-      "attacks": [],
-      "source_meta": {
-        "headline": null,
-        "published_on": null,
-        "byline": null,
-        "outlet": null,
-        "accessed_on": null,
-        "snapshot_url": null,
-        "durable_keys": {}
-      },
-      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
-      "_origin_index": 529
-    },
-    {
-      "source_key": "whitehouse",
-      "date": "2025-09-05",
-      "occurred_on": "2025-09-05",
-      "reported_on": "2025-09-05",
-      "dated_by": "occurred",
-      "category": "Information & Media Control",
-      "title": "Fact Sheet: President Donald J. Trump Modifies the Scope of Reciprocal Tariffs and Establishes Procedures for Implementing Trade Deals",
-      "url": "https://www.whitehouse.gov/fact-sheets/2025/09/fact-sheet-president-donald-j-trump-modifies-the-scope-of-reciprocal-tariffs-and-establishes-procedures-for-implementing-trade-deals/",
-      "summary": "The White House published this fact sheet on 2025-09-05 through its fact-sheets channel.",
-      "why_relevant": "",
-      "jurisdiction": "federal",
-      "federal_nexus": "Official White House channel; documents the act of publication only.",
-      "confidence": "high",
-      "basis": "official_actor_record",
-      "actor": "The White House",
-      "action": "issued a fact sheet titled \"Fact Sheet: President Donald J. Trump Modifies the Scope of Reciprocal Tariffs and Establishes Procedures for Implementing Trade Deals\"",
-      "act_key": "white house|issued a fact sheet titled fact sheet president donald j trump modifies the scope of reciprocal tariffs and establishes procedures for implementing trade deals|2025-09-05",
-      "attacks": [],
-      "source_meta": {
-        "headline": null,
-        "published_on": null,
-        "byline": null,
-        "outlet": null,
-        "accessed_on": null,
-        "snapshot_url": null,
-        "durable_keys": {}
-      },
-      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
-      "_origin_index": 526
-    },
-    {
-      "source_key": "whitehouse",
-      "date": "2025-09-05",
-      "occurred_on": "2025-09-05",
-      "reported_on": "2025-09-05",
-      "dated_by": "occurred",
-      "category": "Information & Media Control",
-      "title": "Fact Sheet: President Donald J. Trump Restores the United States Department of War",
-      "url": "https://www.whitehouse.gov/fact-sheets/2025/09/fact-sheet-president-donald-j-trump-restores-the-united-states-department-of-war/",
-      "summary": "The White House published this fact sheet on 2025-09-05 through its fact-sheets channel.",
-      "why_relevant": "",
-      "jurisdiction": "federal",
-      "federal_nexus": "Official White House channel; documents the act of publication only.",
-      "confidence": "high",
-      "basis": "official_actor_record",
-      "actor": "The White House",
-      "action": "issued a fact sheet titled \"Fact Sheet: President Donald J. Trump Restores the United States Department of War\"",
-      "act_key": "white house|issued a fact sheet titled fact sheet president donald j trump restores the united states department of war|2025-09-05",
-      "attacks": [],
-      "source_meta": {
-        "headline": null,
-        "published_on": null,
-        "byline": null,
-        "outlet": null,
-        "accessed_on": null,
-        "snapshot_url": null,
-        "durable_keys": {}
-      },
-      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
-      "_origin_index": 528
-    },
-    {
-      "source_key": "whitehouse",
-      "date": "2025-09-05",
-      "occurred_on": "2025-09-05",
-      "reported_on": "2025-09-05",
-      "dated_by": "occurred",
-      "category": "Information & Media Control",
-      "title": "Fact Sheet: President Donald J. Trump Strengthens Efforts to Protect U.S. Nationals from Wrongful Detention Abroad",
-      "url": "https://www.whitehouse.gov/fact-sheets/2025/09/fact-sheet-president-donald-j-trump-strengthens-efforts-to-protect-u-s-nationals-from-wrongful-detention-abroad/",
-      "summary": "The White House published this fact sheet on 2025-09-05 through its fact-sheets channel.",
-      "why_relevant": "",
-      "jurisdiction": "federal",
-      "federal_nexus": "Official White House channel; documents the act of publication only.",
-      "confidence": "high",
-      "basis": "official_actor_record",
-      "actor": "The White House",
-      "action": "issued a fact sheet titled \"Fact Sheet: President Donald J. Trump Strengthens Efforts to Protect U.S. Nationals from Wrongful Detention Abroad\"",
-      "act_key": "white house|issued a fact sheet titled fact sheet president donald j trump strengthens efforts to protect u s nationals from wrongful detention abroad|2025-09-05",
-      "attacks": [],
-      "source_meta": {
-        "headline": null,
-        "published_on": null,
-        "byline": null,
-        "outlet": null,
-        "accessed_on": null,
-        "snapshot_url": null,
-        "durable_keys": {}
-      },
-      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
-      "_origin_index": 527
-    },
-    {
-      "source_key": "whitehouse",
-      "date": "2025-09-05",
-      "occurred_on": "2025-09-05",
-      "reported_on": "2025-09-05",
-      "dated_by": "occurred",
-      "category": "Information & Media Control",
-      "title": "President Trump, Tech Leaders Unite to Power American AI Dominance",
-      "url": "https://www.whitehouse.gov/releases/2025/09/president-trump-tech-leaders-unite-american-ai-dominance/",
-      "summary": "The White House published this release on 2025-09-05 through its releases channel.",
-      "why_relevant": "",
-      "jurisdiction": "federal",
-      "federal_nexus": "Official White House channel; documents the act of publication only.",
-      "confidence": "high",
-      "basis": "official_actor_record",
-      "actor": "The White House",
-      "action": "published a release titled \"President Trump, Tech Leaders Unite to Power American AI Dominance\"",
-      "act_key": "white house|published a release titled president trump tech leaders unite to power american ai dominance|2025-09-05",
-      "attacks": [],
-      "source_meta": {
-        "headline": null,
-        "published_on": null,
-        "byline": null,
-        "outlet": null,
-        "accessed_on": null,
-        "snapshot_url": null,
-        "durable_keys": {}
-      },
-      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
-      "_origin_index": 269
-    },
-    {
-      "source_key": "whitehouse",
-      "date": "2025-09-05",
-      "occurred_on": "2025-09-05",
-      "reported_on": "2025-09-05",
-      "dated_by": "occurred",
-      "category": "Information & Media Control",
-      "title": "President Trump’s Approval Rating Hits New High 📈",
-      "url": "https://www.whitehouse.gov/releases/2025/09/president-trumps-approval-rating-hits-new-high/",
-      "summary": "The White House published this release on 2025-09-05 through its releases channel.",
-      "why_relevant": "",
-      "jurisdiction": "federal",
-      "federal_nexus": "Official White House channel; documents the act of publication only.",
-      "confidence": "high",
-      "basis": "official_actor_record",
-      "actor": "The White House",
-      "action": "published a release titled \"President Trump’s Approval Rating Hits New High 📈\"",
-      "act_key": "white house|published a release titled president trump s approval rating hits new high|2025-09-05",
-      "attacks": [],
-      "source_meta": {
-        "headline": null,
-        "published_on": null,
-        "byline": null,
-        "outlet": null,
-        "accessed_on": null,
-        "snapshot_url": null,
-        "durable_keys": {}
-      },
-      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
-      "_origin_index": 268
     },
     {
       "source_key": "congress",
@@ -15402,6 +15215,75 @@
       "_origin_index": 1
     },
     {
+      "source_key": "whitehouse",
+      "date": "2025-09-05",
+      "occurred_on": "2025-09-05",
+      "reported_on": "2025-09-05",
+      "dated_by": "occurred",
+      "category": "Economic & Regulatory Power",
+      "title": "President Trump signed Executive Order 14346 modifying reciprocal tariff scope and establishing procedures for trade and security agreements.",
+      "url": "https://www.whitehouse.gov/presidential-actions/2025/09/modifying-the-scope-of-reciprocal-tariffs-and-establishing-procedures-for-implementing-trade-and-security-agreements/",
+      "summary": "The White House issued Executive Order 14346 on September 5, 2025, modifying the scope of reciprocal tariffs imposed under prior executive orders and establishing procedures for implementing trade and security framework agreements. The order updates Annex II to Executive Order 14257 (which declared a national emergency based on U.S. trade deficits), delegates authority to the Secretary of Commerce and U.S. Trade Representative to implement framework and final trade agreements, and specifies that tariff modifications may be made upon conclusion of such agreements. The order references a recent framework agreement with the European Union and establishes criteria for potential zero-percent tariff rates on certain imports.",
+      "why_relevant": "The order asserts executive authority to unilaterally modify tariffs based on a declared national emergency, delegating broad discretion to executive officials to negotiate and implement trade agreements without explicit congressional authorization, raising questions about the scope of emergency powers and separation of powers in trade policy.",
+      "jurisdiction": "federal",
+      "federal_nexus": "",
+      "confidence": "high",
+      "basis": "By the authority vested in me as President by the Constitution and the laws of the United States of America, including the International Emergency Economic Powers Act (50 U.S.C. 1701 et seq.) (IEEPA), the National Emergencies Act (50 U.S.C. 1601 et seq.), section 232 of the Trade Expansion Act of 1962, as amended (19 U.S.C. 1862) (section 232), section 604 of the Trade Act of 1974, as amended (19 U.S.C. 2483), and section 301 of title 3, United States Code, it is hereby ordered",
+      "actor": "The White House",
+      "action": "announced an executive order titled \"Modifying The Scope of Reciprocal Tariffs and Establishing Procedures for Implementing Trade and Security Agreements\"",
+      "act_key": "white house|announced an executive order titled modifying the scope of reciprocal tariffs and establishing procedures for implementing trade and security agreements|2025-09-05",
+      "attacks": [
+        "separation_of_powers",
+        "rule_of_law",
+        "trade"
+      ],
+      "source_meta": {
+        "headline": "Modifying The Scope of Reciprocal Tariffs and Establishing Procedures for Implementing Trade and Security Agreements",
+        "published_on": "2025-09-05",
+        "byline": null,
+        "outlet": "The White House",
+        "accessed_on": "2026-08-27T00:51:45Z",
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
+      "_origin_index": 756
+    },
+    {
+      "source_key": "whitehouse",
+      "date": "2025-09-05",
+      "occurred_on": "2025-09-05",
+      "reported_on": "2025-09-05",
+      "dated_by": "occurred",
+      "category": "Economic & Regulatory Power",
+      "title": "White House issued fact sheet on reciprocal tariff modifications and trade deal implementation procedures",
+      "url": "https://www.whitehouse.gov/fact-sheets/2025/09/fact-sheet-president-donald-j-trump-modifies-the-scope-of-reciprocal-tariffs-and-establishes-procedures-for-implementing-trade-deals/",
+      "summary": "The White House issued a fact sheet on September 5, 2025, describing an executive order signed by President Trump that modifies the scope of reciprocal tariffs first announced April 2, 2025, and establishes procedures for implementing trade agreements. The order revises Annex II (exemptions list), adding bullion, critical minerals, and certain pharmaceuticals while removing aluminum hydroxide, resin, and silicone products from exemptions. It creates a \"Potential Tariff Adjustments for Aligned Partners\" framework allowing tariff reductions on aircraft, generic pharmaceuticals, unavailable natural resources, and certain agricultural products in exchange for reciprocal trade deals. The fact sheet claims the tariffs have generated investment and trade agreements with the EU, Japan, UK, and others.",
+      "why_relevant": "The order delegates tariff authority to executive officials and establishes unilateral mechanisms to modify trade policy without congressional approval, concentrating trade power in the presidency and potentially circumventing legislative oversight of commerce regulation.",
+      "jurisdiction": "federal",
+      "federal_nexus": "",
+      "confidence": "high",
+      "basis": "Today, President Donald J. Trump signed an Executive Order modifying the scope of the reciprocal tariffs that he first announced on April 2, 2025, and establishing a framework to implement agreements with our trading partners.",
+      "actor": "The White House",
+      "action": "issued a fact sheet titled \"Fact Sheet: President Donald J. Trump Modifies the Scope of Reciprocal Tariffs and Establishes Procedures for Implementing Trade Deals\"",
+      "act_key": "white house|issued a fact sheet titled fact sheet president donald j trump modifies the scope of reciprocal tariffs and establishes procedures for implementing trade deals|2025-09-05",
+      "attacks": [
+        "trade",
+        "separation_of_powers"
+      ],
+      "source_meta": {
+        "headline": "Fact Sheet: President Donald J. Trump Modifies the Scope of Reciprocal Tariffs and Establishes Procedures for Implementing Trade Deals",
+        "published_on": "2025-09-05",
+        "byline": null,
+        "outlet": "The White House",
+        "accessed_on": "2026-08-26T23:57:12Z",
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
+      "_origin_index": 470
+    },
+    {
       "source_key": "guardian",
       "date": "2025-09-05",
       "occurred_on": "",
@@ -15575,6 +15457,41 @@
       "_origin_index": 39
     },
     {
+      "source_key": "hcr",
+      "date": "2025-09-05",
+      "occurred_on": "2025-09-05",
+      "reported_on": "2025-09-06",
+      "dated_by": "occurred",
+      "category": "Transparency & Records",
+      "title": "Bureau of Labor Statistics website went down before jobs report release",
+      "url": "https://www.axios.com/2025/09/05/trump-jobs-report-august-bls-website-outage",
+      "summary": "The Bureau of Labor Statistics website went down just before the August jobs report was due to be released. The outage occurred amid turmoil at the bureau following the firing of its previous director and raised questions about the stability and reliability of the agency.",
+      "why_relevant": "The website outage before a major economic data release undermines public access to official statistics and raises concerns about the integrity and independence of federal statistical reporting.",
+      "jurisdiction": "federal",
+      "federal_nexus": "",
+      "confidence": "medium",
+      "basis": "Just before the report was due to be released, the BLS website went down, an unfortunate reminder that the bureau is in turmoil.",
+      "actor": "Bureau of Labor Statistics",
+      "action": "website went down before report release",
+      "act_key": "bureau labor statistics|website went down before report release|2025-09-05",
+      "attacks": [
+        "information",
+        "truth",
+        "civil_service"
+      ],
+      "source_meta": {
+        "headline": null,
+        "published_on": null,
+        "byline": null,
+        "outlet": null,
+        "accessed_on": null,
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "hcr_events_2025-09-06_2025-12-12.json",
+      "_origin_index": 685
+    },
+    {
       "source_key": "meidas",
       "date": "2025-09-05",
       "occurred_on": "2025-09-05",
@@ -15651,18 +15568,18 @@
       "category": "International Relations",
       "title": "Trump posted criticism of India and Russia aligning with China",
       "url": "https://www.reuters.com/world/china/trump-says-india-russia-appear-lost-deepest-darkest-china-2025-09-05/",
-      "summary": "Trump posted on social media stating \"Looks like we've lost India and Russia to deepest, darkest, China. May they have a long and prosperous future together!\" in response to India's Prime Minister Modi meeting with Xi Jinping as Beijing promoted itself as head of a new world order.",
-      "why_relevant": "The statement reflects concern about loss of U.S. diplomatic influence with major powers and signals potential realignment of the international order away from U.S. leadership.",
+      "summary": "Trump posted on social media stating \"Looks like we've lost India and Russia to deepest, darkest, China. May they have a long and prosperous future together!\" in response to India's Prime Minister Modi meeting with Xi Jinping as Beijing promoted itself as the head of a new world order.",
+      "why_relevant": "The rhetoric reflects a zero-sum view of international relations and signals potential abandonment of diplomatic engagement with key allies, undermining U.S. influence and alliance-building.",
       "jurisdiction": "federal",
       "federal_nexus": "",
       "confidence": "high",
       "basis": "Looks like we've lost India and Russia to deepest, darkest, China. May they have a long and prosperous future together!",
       "actor": "Trump",
-      "action": "posted criticism of geopolitical realignment",
-      "act_key": "trump|posted criticism of geopolitical realignment|2025-09-05",
+      "action": "posted criticism of allied nations",
+      "act_key": "trump|posted criticism of allied nations|2025-09-05",
       "attacks": [
-        "40",
-        "26"
+        "allies",
+        "idea_of_america"
       ],
       "source_meta": {
         "headline": null,
@@ -15673,8 +15590,8 @@
         "snapshot_url": null,
         "durable_keys": {}
       },
-      "_origin_file": "hcr_events_2025-09-06_2025-09-12.json",
-      "_origin_index": 46
+      "_origin_file": "hcr_events_2025-09-06_2025-12-12.json",
+      "_origin_index": 682
     },
     {
       "source_key": "hcr",
@@ -15683,20 +15600,20 @@
       "reported_on": "2025-09-06",
       "dated_by": "occurred",
       "category": "International Relations",
-      "title": "Trump posted criticism of Xi Jinping meeting with Putin and other authoritarian leaders",
+      "title": "Trump posted criticism of Xi Jinping and allied leaders",
       "url": "https://www.reuters.com/world/china/trump-says-india-russia-appear-lost-deepest-darkest-china-2025-09-05/",
-      "summary": "Trump posted on social media criticizing Xi Jinping's meeting with Putin, Kim Jong Un, and Lukashenko in Beijing, sarcastically reminding Xi of U.S. support during WWII and adding sarcastic regards to Putin and Kim Jong Un \"as you conspire against the United States.\" The post reflected Trump's concern about the alignment of authoritarian powers.",
-      "why_relevant": "The post reflects concern about realignment of major powers away from U.S. influence and signals potential isolation of the United States from traditional diplomatic channels.",
+      "summary": "Trump posted on social media criticizing Xi Jinping for meeting with Putin, Kim Jong Un, and Lukashenko in Beijing to celebrate the anniversary of Japan's WWII surrender. Trump reminded Xi of U.S. support for China and sarcastically told him to give regards to Putin and Kim Jong Un \"as you conspire against the United States of America.\"",
+      "why_relevant": "The inflammatory rhetoric and accusation of conspiracy against the U.S. escalates tensions with major powers and reflects a confrontational approach to diplomacy that may destabilize international relations.",
       "jurisdiction": "federal",
       "federal_nexus": "",
       "confidence": "high",
-      "basis": "Trump posted at Xi, reminding him of 'the massive amount of support and blood' that the United States of America gave to China...Please give my warmest regards to Vladimir Putin, and Kim Jong Un, as you conspire against the United States of America",
+      "basis": "Please give my warmest regards to Vladimir Putin, and Kim Jong Un, as you conspire against the United States of America.",
       "actor": "Trump",
-      "action": "posted criticism of authoritarian alignment",
-      "act_key": "trump|posted criticism of authoritarian alignment|2025-09-05",
+      "action": "posted inflammatory criticism of allied leaders",
+      "act_key": "trump|posted inflammatory criticism of allied leaders|2025-09-05",
       "attacks": [
-        "40",
-        "26"
+        "allies",
+        "idea_of_america"
       ],
       "source_meta": {
         "headline": null,
@@ -15707,8 +15624,8 @@
         "snapshot_url": null,
         "durable_keys": {}
       },
-      "_origin_file": "hcr_events_2025-09-06_2025-09-12.json",
-      "_origin_index": 45
+      "_origin_file": "hcr_events_2025-09-06_2025-12-12.json",
+      "_origin_index": 681
     },
     {
       "source_key": "orders",
@@ -15740,6 +15657,71 @@
       },
       "_origin_file": "orders_events_2025-08-23_2025-09-05.json",
       "_origin_index": 3
+    },
+    {
+      "source_key": "whitehouse",
+      "date": "2025-09-05",
+      "occurred_on": "2025-09-05",
+      "reported_on": "2025-09-05",
+      "dated_by": "occurred",
+      "category": "International Relations",
+      "title": "Trump signed Executive Order 14348 establishing \"State Sponsor of Wrongful Detention\" designation framework",
+      "url": "https://www.whitehouse.gov/presidential-actions/2025/09/strengthening-efforts-to-protect-u-s-nationals-from-wrongful-detention-abroad/",
+      "summary": "President Trump signed Executive Order 14348 on September 5, 2025, authorizing the Secretary of State to designate foreign countries as \"State Sponsors of Wrongful Detention\" based on criteria including direct engagement in or support for wrongful detention of U.S. nationals. The order directs the State Department to implement responses including sanctions, visa inadmissibility, passport travel restrictions, foreign aid restrictions, and arms export controls against designated countries. Designations may be terminated upon presidential discretion or if the designated country releases detainees and provides credible assurances against future wrongful detention.",
+      "why_relevant": "The order expands executive authority to unilaterally designate foreign governments and impose sanctions, travel restrictions, and aid cutoffs based on State Department determinations, concentrating diplomatic and coercive power in the executive branch with minimal procedural constraint or congressional involvement.",
+      "jurisdiction": "federal",
+      "federal_nexus": "",
+      "confidence": "high",
+      "basis": "By the authority vested in me as President by the Constitution and the laws of the United States of America...it is hereby ordered: The Secretary of State may designate any foreign country the government of which directly engages in or provides support for the wrongful detention of a U.S. national as a State Sponsor of Wrongful Detention.",
+      "actor": "The White House",
+      "action": "announced an executive order titled \"Strengthening Efforts to Protect U.S. Nationals from Wrongful Detention Abroad\"",
+      "act_key": "white house|announced an executive order titled strengthening efforts to protect u s nationals from wrongful detention abroad|2025-09-05",
+      "attacks": [
+        "separation_of_powers",
+        "rule_of_law"
+      ],
+      "source_meta": {
+        "headline": "Strengthening Efforts to Protect U.S. Nationals from Wrongful Detention Abroad",
+        "published_on": "2025-09-05",
+        "byline": null,
+        "outlet": "The White House",
+        "accessed_on": "2026-08-27T00:51:59Z",
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
+      "_origin_index": 757
+    },
+    {
+      "source_key": "whitehouse",
+      "date": "2025-09-05",
+      "occurred_on": "2025-09-05",
+      "reported_on": "2025-09-05",
+      "dated_by": "occurred",
+      "category": "International Relations",
+      "title": "White House issues fact sheet on executive order protecting U.S. nationals from wrongful detention abroad",
+      "url": "https://www.whitehouse.gov/fact-sheets/2025/09/fact-sheet-president-donald-j-trump-strengthens-efforts-to-protect-u-s-nationals-from-wrongful-detention-abroad/",
+      "summary": "The White House published a fact sheet on September 5, 2025, describing an executive order signed by President Trump to combat wrongful detention of U.S. nationals by foreign governments. The order authorizes the Secretary of State to designate countries as \"State Sponsors of Wrongful Detention\" and to impose sanctions, travel restrictions, export controls, and other measures against designated states. The fact sheet claims the administration has secured the release of 72 detained Americans since Trump returned to office, including cases in Russia, Afghanistan, and by Hamas.",
+      "why_relevant": "The order expands executive authority to unilaterally designate foreign states and impose sanctions based on detention practices, concentrating foreign-policy power in the executive branch and potentially affecting diplomatic relations and trade.",
+      "jurisdiction": "federal",
+      "federal_nexus": "",
+      "confidence": "high",
+      "basis": "Today, President Donald J. Trump signed an Executive Order to enhance efforts to protect U.S. nationals from wrongful detention abroad by authorizing robust responses against foreign governments engaging in such practices.",
+      "actor": "The White House",
+      "action": "issued a fact sheet titled \"Fact Sheet: President Donald J. Trump Strengthens Efforts to Protect U.S. Nationals from Wrongful Detention Abroad\"",
+      "act_key": "white house|issued a fact sheet titled fact sheet president donald j trump strengthens efforts to protect u s nationals from wrongful detention abroad|2025-09-05",
+      "attacks": [],
+      "source_meta": {
+        "headline": "Fact Sheet: President Donald J. Trump Strengthens Efforts to Protect U.S. Nationals from Wrongful Detention Abroad",
+        "published_on": "2025-09-05",
+        "byline": null,
+        "outlet": "The White House",
+        "accessed_on": "2026-08-26T23:57:25Z",
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
+      "_origin_index": 471
     },
     {
       "source_key": "defense",

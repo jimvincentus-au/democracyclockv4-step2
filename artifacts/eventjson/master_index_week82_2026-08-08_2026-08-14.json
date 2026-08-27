@@ -5,37 +5,37 @@
   },
   "week_number": 82,
   "sources": [
-    "hcr",
-    "whitehouse",
-    "justsecurity",
-    "50501",
-    "justice",
-    "guardian",
-    "meidas",
-    "democracydocket",
-    "federalregister",
     "outloud",
-    "defense",
-    "orders",
-    "noah",
     "popinfo",
+    "orders",
+    "50501",
     "zeteo",
-    "scotusorders"
+    "justsecurity",
+    "federalregister",
+    "guardian",
+    "justice",
+    "whitehouse",
+    "defense",
+    "noah",
+    "scotusorders",
+    "hcr",
+    "meidas",
+    "democracydocket"
   ],
   "counts": {
-    "total": 381,
+    "total": 379,
     "by_date": {
-      "2026-08-08": 25,
+      "2026-08-08": 24,
       "2026-08-09": 48,
       "2026-08-10": 58,
       "2026-08-11": 52,
       "2026-08-12": 60,
-      "2026-08-13": 53,
+      "2026-08-13": 52,
       "2026-08-14": 85
     },
     "by_source": {
       "guardian": 65,
-      "hcr": 54,
+      "hcr": 53,
       "meidas": 85,
       "noah": 35,
       "popinfo": 14,
@@ -44,7 +44,7 @@
       "defense": 11,
       "federalregister": 49,
       "orders": 1,
-      "whitehouse": 14,
+      "whitehouse": 13,
       "democracydocket": 7,
       "justice": 9,
       "justsecurity": 10,
@@ -52,17 +52,17 @@
       "scotusorders": 2
     },
     "by_category": {
-      "Executive Actions & Orders": 37,
+      "Executive Actions & Orders": 40,
       "Legislative & Oversight Activity": 17,
-      "Judicial Developments": 35,
-      "Law Enforcement & Surveillance": 52,
+      "Judicial Developments": 39,
+      "Law Enforcement & Surveillance": 48,
       "Elections & Representation": 37,
-      "Information & Media Control": 36,
-      "Economic & Regulatory Power": 71,
+      "Information & Media Control": 28,
+      "Economic & Regulatory Power": 75,
       "Appointments & Patronage": 17,
-      "Transparency & Records": 18,
-      "International Relations": 30,
-      "Civil Society & Protest": 7,
+      "International Relations": 31,
+      "Civil Society & Protest": 6,
+      "Transparency & Records": 17,
       "Civil–Military Relations & State Violence": 21,
       "Courts / Supreme Court / Orders": 2,
       "Public Health & Safety": 1
@@ -123,8 +123,8 @@
       "action": "confronted defense secretary",
       "act_key": "trump|confronted defense secretary|2026-08-08",
       "attacks": [
-        "23",
-        "54"
+        "justice_dept",
+        "future"
       ],
       "source_meta": {
         "headline": null,
@@ -188,11 +188,11 @@
       "action": "referred fauci for prosecution",
       "act_key": "rand paul|referred fauci for prosecution|2026-08-08",
       "attacks": [
-        "20",
-        "21",
-        "23",
-        "41",
-        "43"
+        "courts",
+        "congress",
+        "justice_dept",
+        "constitution",
+        "rule_of_law"
       ],
       "source_meta": {
         "headline": null,
@@ -225,9 +225,9 @@
       "action": "appealed ballroom ruling",
       "act_key": "trump|appealed ballroom ruling|2026-08-08",
       "attacks": [
-        "20",
-        "41",
-        "42"
+        "courts",
+        "constitution",
+        "separation_of_powers"
       ],
       "source_meta": {
         "headline": null,
@@ -322,8 +322,8 @@
       "action": "pressured u.s. attorney",
       "act_key": "trump|pressured u s attorney|2026-08-08",
       "attacks": [
-        "23",
-        "43"
+        "justice_dept",
+        "rule_of_law"
       ],
       "source_meta": {
         "headline": null,
@@ -356,8 +356,8 @@
       "action": "demanded prosecution of defendant",
       "act_key": "trump|demanded prosecution of defendant|2026-08-08",
       "attacks": [
-        "23",
-        "43"
+        "justice_dept",
+        "rule_of_law"
       ],
       "source_meta": {
         "headline": null,
@@ -390,9 +390,9 @@
       "action": "ordered leak investigations",
       "act_key": "trump|ordered leak investigations|2026-08-08",
       "attacks": [
-        "29",
-        "30",
-        "31"
+        "press",
+        "information",
+        "whistleblowers"
       ],
       "source_meta": {
         "headline": null,
@@ -520,9 +520,9 @@
       "action": "threatened prosecution of leakers",
       "act_key": "trump|threatened prosecution of leakers|2026-08-08",
       "attacks": [
-        "29",
-        "30",
-        "31"
+        "press",
+        "information",
+        "whistleblowers"
       ],
       "source_meta": {
         "headline": null,
@@ -555,10 +555,10 @@
       "action": "posted ai disinformation",
       "act_key": "trump|posted ai disinformation|2026-08-08",
       "attacks": [
-        "11",
-        "30",
-        "34",
-        "55"
+        "truth",
+        "information",
+        "reality",
+        "reality_itself"
       ],
       "source_meta": {
         "headline": null,
@@ -625,8 +625,8 @@
       "action": "released employment data",
       "act_key": "department labor|released employment data|2026-08-08",
       "attacks": [
-        "51",
-        "54"
+        "economy",
+        "future"
       ],
       "source_meta": {
         "headline": null,
@@ -659,9 +659,9 @@
       "action": "blamed deputy secretary for shortages",
       "act_key": "hegseth|blamed deputy secretary for shortages|2026-08-08",
       "attacks": [
-        "28",
-        "44",
-        "51"
+        "public_service",
+        "emoluments",
+        "economy"
       ],
       "source_meta": {
         "headline": null,
@@ -694,9 +694,9 @@
       "action": "withdrew from labor force",
       "act_key": "labor force participants|withdrew from labor force|2026-08-08",
       "attacks": [
-        "2",
-        "6",
-        "51"
+        "women",
+        "workers",
+        "economy"
       ],
       "source_meta": {
         "headline": null,
@@ -729,8 +729,8 @@
       "action": "released inflation polling",
       "act_key": "fifty plus one|released inflation polling|2026-08-08",
       "attacks": [
-        "51",
-        "54"
+        "economy",
+        "future"
       ],
       "source_meta": {
         "headline": null,
@@ -856,41 +856,6 @@
       "occurred_on": "",
       "reported_on": "2026-08-08",
       "dated_by": "reported",
-      "category": "Transparency & Records",
-      "title": "Trump claims ballroom is gift to nation with no taxpayer cost; contradicted by reporting",
-      "url": "https://www.washingtonpost.com/investigations/2026/06/16/records-reveal-600m-estimate-trumps-ballroom-project-with-half-taxpayers/",
-      "summary": "President Trump posted that the ballroom \"is a Gift from President Trump and Great Patriots of the United States of America. There will be no expense to the American Taxpayer.\" However, Washington Post reporting by Sarah Blaskey and Jonathan O'Connell from June 2026 documented that federal government officials have already committed taxpayer money for more than half the cost of the ballroom project.",
-      "why_relevant": "The president's false claim about taxpayer funding contradicts documented federal commitments, representing a deliberate misrepresentation of public expenditure and undermining transparency about use of government resources.",
-      "jurisdiction": "federal",
-      "federal_nexus": "",
-      "confidence": "high",
-      "basis": "There will be no expense to the American Taxpayer...officials from the federal government have already committed taxpayer money for more than half of the cost of the ballroom",
-      "actor": "Trump",
-      "action": "made false claim about costs",
-      "act_key": "trump|made false claim about costs|2026-08-08",
-      "attacks": [
-        "11",
-        "30",
-        "34"
-      ],
-      "source_meta": {
-        "headline": null,
-        "published_on": null,
-        "byline": null,
-        "outlet": null,
-        "accessed_on": null,
-        "snapshot_url": null,
-        "durable_keys": {}
-      },
-      "_origin_file": "hcr_events_2026-08-08_2026-08-14.json",
-      "_origin_index": 64
-    },
-    {
-      "source_key": "hcr",
-      "date": "2026-08-08",
-      "occurred_on": "",
-      "reported_on": "2026-08-08",
-      "dated_by": "reported",
       "category": "International Relations",
       "title": "U.S. intelligence assesses Russia will exploit NATO vulnerability from munitions depletion",
       "url": "https://www.wsj.com/world/europe/u-s-intel-finds-putin-could-test-natos-resolve-with-limited-incursion-e3b02e2c",
@@ -904,9 +869,9 @@
       "action": "assessed russia nato threat",
       "act_key": "u s intelligence community|assessed russia nato threat|2026-08-08",
       "attacks": [
-        "35",
-        "38",
-        "40"
+        "allies",
+        "peace",
+        "idea_of_america"
       ],
       "source_meta": {
         "headline": null,
@@ -2613,8 +2578,7 @@
         "science",
         "children",
         "public_health",
-        "truth",
-        "11"
+        "truth"
       ],
       "source_meta": {
         "headline": "Trump signs executive order with plan to reduce number of recommended childhood vaccines",
@@ -2809,29 +2773,104 @@
       "reported_on": "2026-08-10",
       "dated_by": "occurred",
       "category": "Executive Actions & Orders",
-      "title": "Delivering Gold Standard Childhood Vaccine Recommendations for Americans",
+      "title": "Trump signed Executive Order 14420 establishing \"Gold Standard Childhood Vaccine Recommendations\" and directing federal agencies to challenge state vaccine mandate laws.",
       "url": "https://www.whitehouse.gov/presidential-actions/2026/08/delivering-gold-standard-childhood-vaccine-recommendations-for-americans/",
-      "summary": "The White House published this executive order on 2026-08-10 through its executive-orders channel.",
-      "why_relevant": "",
+      "summary": "President Trump signed Executive Order 14420 on August 10, 2026, declaring a new set of \"Gold Standard Childhood Vaccine Recommendations\" based on a HHS scientific assessment. The order categorizes vaccines into three tiers: those recommended for all children (measles, mumps, rubella, diphtheria, tetanus, pertussis, polio, Haemophilus influenzae type B, pneumococcal disease, HPV, varicella); those for high-risk groups; and those based on shared clinical decision-making. The order directs the Attorney General to challenge state vaccine mandate laws and directs federal agencies to ensure contractors comply with parental choice and religious exemption obligations. It also establishes an HHS Task Force on Safer Childhood Vaccines to develop single-dose vaccine options and reassess vaccine schedules.",
+      "why_relevant": "The order asserts federal executive power to redefine public health vaccine policy, directs the Justice Department to litigate against state public health laws, and subordinates vaccine recommendations to parental choice and religious exemption frameworks, materially altering the federal-state balance in disease prevention and public health authority.",
       "jurisdiction": "federal",
-      "federal_nexus": "Official White House channel; documents the act of publication only.",
+      "federal_nexus": "",
       "confidence": "high",
-      "basis": "official_actor_record",
+      "basis": "it is hereby declared that the United States recognizes Gold Standard Childhood Vaccine Recommendations\" and \"The Attorney General shall take appropriate measures to further meritorious legal actions challenging State laws.",
       "actor": "The White House",
       "action": "announced an executive order titled \"Delivering Gold Standard Childhood Vaccine Recommendations for Americans\"",
       "act_key": "white house|announced an executive order titled delivering gold standard childhood vaccine recommendations for americans|2026-08-10",
-      "attacks": [],
+      "attacks": [
+        "science",
+        "public_health",
+        "separation_of_powers"
+      ],
       "source_meta": {
-        "headline": null,
-        "published_on": null,
+        "headline": "Delivering Gold Standard Childhood Vaccine Recommendations for Americans",
+        "published_on": "2026-08-10",
         "byline": null,
-        "outlet": null,
-        "accessed_on": null,
+        "outlet": "The White House",
+        "accessed_on": "2026-08-27T00:37:17Z",
         "snapshot_url": null,
         "durable_keys": {}
       },
       "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
-      "_origin_index": 737
+      "_origin_index": 681
+    },
+    {
+      "source_key": "whitehouse",
+      "date": "2026-08-10",
+      "occurred_on": "2026-08-10",
+      "reported_on": "2026-08-10",
+      "dated_by": "occurred",
+      "category": "Executive Actions & Orders",
+      "title": "White House issued fact sheet on executive order revising childhood vaccine recommendations",
+      "url": "https://www.whitehouse.gov/fact-sheets/2026/08/fact-sheet-president-donald-j-trump-delivers-gold-standard-childhood-vaccine-recommendations-for-americans/",
+      "summary": "The White House published a fact sheet on August 10, 2026, describing an executive order signed by President Trump that revises U.S. childhood vaccine recommendations. The order reduces recommended routine childhood vaccines from 18 diseases to 11, recommends separating the combined MMR vaccine into three single-disease shots, and advises spacing vaccines across separate medical visits. The order directs HHS to present plans for vaccine research and directs federal agencies to advance the new recommendations. States with school vaccine requirements are advised to consider updating their laws accordingly.",
+      "why_relevant": "The order materially alters federal public-health guidance on childhood immunization, reducing disease coverage and delegating enforcement to states, which affects the capacity of public-health institutions to maintain herd immunity and protect vulnerable populations.",
+      "jurisdiction": "federal",
+      "federal_nexus": "",
+      "confidence": "high",
+      "basis": "Today, President Donald J. Trump signed an Executive Order to recognize Gold Standard Childhood Vaccine Recommendations that maximize parental choices over vaccinations for their children.",
+      "actor": "The White House",
+      "action": "issued a fact sheet titled \"Fact Sheet: President Donald J. Trump Delivers Gold Standard Childhood Vaccine Recommendations for Americans\"",
+      "act_key": "white house|issued a fact sheet titled fact sheet president donald j trump delivers gold standard childhood vaccine recommendations for americans|2026-08-10",
+      "attacks": [
+        "public_health",
+        "science",
+        "children"
+      ],
+      "source_meta": {
+        "headline": "Fact Sheet: President Donald J. Trump Delivers Gold Standard Childhood Vaccine Recommendations for Americans",
+        "published_on": "2026-08-10",
+        "byline": null,
+        "outlet": "The White House",
+        "accessed_on": "2026-08-26T23:33:31Z",
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
+      "_origin_index": 345
+    },
+    {
+      "source_key": "whitehouse",
+      "date": "2026-08-10",
+      "occurred_on": "",
+      "reported_on": "2026-08-10",
+      "dated_by": "reported",
+      "category": "Executive Actions & Orders",
+      "title": "White House issues promotional release on D.C. crime enforcement one year after task force launch",
+      "url": "https://www.whitehouse.gov/releases/2026/08/one-year-later-president-trump-has-delivered-on-making-d-c-safe-again/",
+      "summary": "The White House published a promotional release claiming that the Make D.C. Safe and Beautiful Task Force, a partnership of more than 20 federal and local agencies backed by the National Guard, has achieved significant crime reductions in Washington, D.C. The release states the task force has made over 16,000 arrests, removed 35 homicide suspects, cleared homeless encampments, and seized nearly 2,000 illegal firearms. It attributes drops in homicides, carjackings, robberies, and overall crime to President Trump's leadership.",
+      "why_relevant": "The deployment of a multi-agency federal task force backed by the National Guard to conduct enforcement operations in a U.S. city raises questions about the scope of executive power, the militarization of domestic law enforcement, and the coordination of federal authority over local jurisdiction.",
+      "jurisdiction": "federal",
+      "federal_nexus": "",
+      "confidence": "high",
+      "basis": "The Task Force — an unprecedented partnership of more than 20 federal and local agencies, backed by the National Guard — has delivered unrelenting enforcement",
+      "actor": "The White House",
+      "action": "published a release titled \"One Year Later, President Trump Has Delivered on Making D.C. Safe Again\"",
+      "act_key": "white house|published a release titled one year later president trump has delivered on making d c safe again|2026-08-10",
+      "attacks": [
+        "poor",
+        "homeless",
+        "rule_of_law",
+        "civil_military_relations"
+      ],
+      "source_meta": {
+        "headline": "One Year Later, President Trump Has Delivered on Making D.C. Safe Again",
+        "published_on": "2026-08-10",
+        "byline": null,
+        "outlet": "The White House",
+        "accessed_on": "2026-08-26T22:20:28Z",
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
+      "_origin_index": 7
     },
     {
       "source_key": "democracydocket",
@@ -3205,29 +3244,32 @@
       "reported_on": "2026-08-10",
       "dated_by": "occurred",
       "category": "Judicial Developments",
-      "title": "Chinese National Pleads Guilty to Trying to Obtain U.S. Military Equipment",
-      "url": "https://www.justice.gov/opa/pr/chinese-national-pleads-guilty-trying-obtain-us-military-equipment",
-      "summary": "The Department of Justice announced this on 2026-08-10 through National Security Division (NSD). The recorded stage is a plea entered. The department's own account of it reads: \"Earlier today, Dingwei Chen, a 29-year-old citizen of the People’s Republic of China, pleaded guilty in federal court in Salt Lake City to violating the Arms Export Control Act.\"",
-      "why_relevant": "",
+      "title": "Department of Justice files complaints against New York, Connecticut, and Vermont over in-state tuition for undocumented immigrants",
+      "url": "https://www.justice.gov/opa/pr/department-justice-files-complaints-against-new-york-connecticut-and-vermont-challenging",
+      "summary": "The Department of Justice announced the filing of lawsuits against New York, Connecticut, and Vermont, challenging state laws that provide in-state tuition rates and financial assistance to undocumented immigrants. The DOJ alleges these laws discriminate against U.S. citizens, create incentives for illegal immigration, and conflict with federal law. The complaints seek to enjoin enforcement of the tuition and scholarship provisions. This marks the 17th such lawsuit; five prior cases in Texas, Kentucky, Oklahoma, Nebraska, and Illinois have resulted in favorable orders for the federal government.",
+      "why_relevant": "The DOJ's litigation strategy on immigration benefits directly affects state sovereignty, equal protection doctrine, and the scope of federal power over immigration and education policy—core constitutional questions about federalism and the distribution of rights.",
       "jurisdiction": "federal",
-      "federal_nexus": "Official DOJ channel; documents the act of announcement only.",
+      "federal_nexus": "",
       "confidence": "high",
-      "basis": "official_actor_record",
+      "basis": "The Department filed complaints against New York, Connecticut, and Vermont, challenging state laws that provide in-state tuition and financial assistance for illegal aliens.",
       "actor": "The Department of Justice",
-      "action": "announced \"Chinese National Pleads Guilty to Trying to Obtain U.S. Military Equipment\"",
-      "act_key": "department|announced chinese national pleads guilty to trying to obtain u s military equipment|2026-08-10",
-      "attacks": [],
+      "action": "announced \"The Department of Justice Files Complaints Against New York, Connecticut, and Vermont Challenging State Laws that Provide In-State Tuition to Illegal Aliens\"",
+      "act_key": "department|announced the department of justice files complaints against new york connecticut and vermont challenging state laws that provide in state tuition to illegal aliens|2026-08-10",
+      "attacks": [
+        "immigrants_refugees",
+        "rule_of_law"
+      ],
       "source_meta": {
-        "headline": null,
-        "published_on": null,
+        "headline": "The Department of Justice Files Complaints Against New York, Connecticut, and Vermont Challenging State Laws that Provide In-State Tuition to Illegal Aliens",
+        "published_on": "2026-08-10",
         "byline": null,
-        "outlet": null,
-        "accessed_on": null,
+        "outlet": "justice.gov",
+        "accessed_on": "2026-08-27T05:56:48Z",
         "snapshot_url": null,
         "durable_keys": {}
       },
       "_origin_file": "justice_events_2025-01-20_2026-08-14.json",
-      "_origin_index": 534
+      "_origin_index": 529
     },
     {
       "source_key": "justsecurity",
@@ -3385,7 +3427,7 @@
       "act_key": "ice|announced shock glove procurement|2026-08-10",
       "attacks": [
         "immigrants_refugees",
-        "12"
+        "science"
       ],
       "source_meta": {
         "headline": null,
@@ -3437,60 +3479,60 @@
       "reported_on": "2026-08-10",
       "dated_by": "occurred",
       "category": "Law Enforcement & Surveillance",
-      "title": "Judd Wire Inc. Agrees to Pay $1.014 Million to Settle False Claims Act Allegations for Failing to Test Wire and Cable Used By the United States",
-      "url": "https://www.justice.gov/opa/pr/judd-wire-inc-agrees-pay-1014-million-settle-false-claims-act-allegations-failing-test-wire",
-      "summary": "The Department of Justice announced this on 2026-08-10 through Civil Division. The recorded stage is settlement executed. The department's own account of it reads: \"Judd Wire Inc., of Turners Falls, Massachusetts, has agreed to pay $1,014,000 to resolve allegations that it violated the False Claims Act by failing to perform tests required by specifications for certain wire and cable products used by the U.S. Navy. In connection with the settlement, the United States acknowledged that Judd Wire took significant steps entitling it to credit for cooperating with the government.\"",
-      "why_relevant": "",
+      "title": "Chinese national pleads guilty to attempting illegal export of U.S. military communications equipment",
+      "url": "https://www.justice.gov/opa/pr/chinese-national-pleads-guilty-trying-obtain-us-military-equipment",
+      "summary": "Dingwei Chen, a 29-year-old Chinese citizen, pleaded guilty in federal court in Salt Lake City to violating the Arms Export Control Act. Chen attempted to purchase military-grade satellite modems and radios manufactured for the U.S. military without required State Department export licenses. Working with co-conspirators in China, Chen sought to acquire the equipment through black-market arms dealers and discussed smuggling routes through Switzerland, Saipan, and Mexico. Chen made down payments totaling over $40,000 in U.S. dollars and approximately $30,000 in cryptocurrency. Sentencing is scheduled for October 19, 2026; Chen faces a maximum penalty of 20 years in prison.",
+      "why_relevant": "The case demonstrates DOJ enforcement of export control laws against foreign nationals attempting to acquire sensitive U.S. military technology, a core national security function that bears on the protection of military advantage and the integrity of arms control regimes.",
       "jurisdiction": "federal",
-      "federal_nexus": "Official DOJ channel; documents the act of announcement only.",
+      "federal_nexus": "",
       "confidence": "high",
-      "basis": "official_actor_record",
+      "basis": "Dingwei Chen, a 29-year-old citizen of the People's Republic of China, pleaded guilty in federal court in Salt Lake City to violating the Arms Export Control Act.",
+      "actor": "The Department of Justice",
+      "action": "announced \"Chinese National Pleads Guilty to Trying to Obtain U.S. Military Equipment\"",
+      "act_key": "department|announced chinese national pleads guilty to trying to obtain u s military equipment|2026-08-10",
+      "attacks": [],
+      "source_meta": {
+        "headline": "Chinese National Pleads Guilty to Trying to Obtain U.S. Military Equipment",
+        "published_on": "2026-08-10",
+        "byline": null,
+        "outlet": "justice.gov",
+        "accessed_on": "2026-08-27T05:57:08Z",
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "justice_events_2025-01-20_2026-08-14.json",
+      "_origin_index": 531
+    },
+    {
+      "source_key": "justice",
+      "date": "2026-08-10",
+      "occurred_on": "",
+      "reported_on": "2026-08-10",
+      "dated_by": "reported",
+      "category": "Law Enforcement & Surveillance",
+      "title": "Judd Wire Inc. settles False Claims Act allegations for failing to test military wire and cable",
+      "url": "https://www.justice.gov/opa/pr/judd-wire-inc-agrees-pay-1014-million-settle-false-claims-act-allegations-failing-test-wire",
+      "summary": "The Department of Justice announced that Judd Wire Inc., a Massachusetts wire and cable manufacturer, agreed to pay $1,014,000 to settle allegations that it violated the False Claims Act by failing to perform required tests on wire and cable products supplied to the U.S. Navy between September 2011 and August 2021. The company voluntarily disclosed the testing lapses, cooperated with the investigation, and implemented remedial measures, which the government credited in the settlement.",
+      "why_relevant": "The settlement demonstrates DOJ enforcement of contractor compliance with military procurement specifications, a routine civil fraud recovery with no bearing on democratic structure or the independence of prosecution.",
+      "jurisdiction": "federal",
+      "federal_nexus": "",
+      "confidence": "high",
+      "basis": "Judd Wire Inc., of Turners Falls, Massachusetts, has agreed to pay $1,014,000 to resolve allegations that it violated the False Claims Act by failing to perform tests required by specifications for certain wire and cable products used by the U.S. Navy.",
       "actor": "The Department of Justice",
       "action": "announced \"Judd Wire Inc. Agrees to Pay $1.014 Million to Settle False Claims Act Allegations for Failing to Test Wire and Cable Used By the United States\"",
       "act_key": "department|announced judd wire inc agrees to pay 1 014 million to settle false claims act allegations for failing to test wire and cable used by the united states|2026-08-10",
       "attacks": [],
       "source_meta": {
-        "headline": null,
-        "published_on": null,
+        "headline": "Judd Wire Inc. Agrees to Pay $1.014 Million to Settle False Claims Act Allegations for Failing to Test Wire and Cable Used By the United States",
+        "published_on": "2026-08-10",
         "byline": null,
-        "outlet": null,
-        "accessed_on": null,
+        "outlet": "justice.gov",
+        "accessed_on": "2026-08-27T05:56:58Z",
         "snapshot_url": null,
         "durable_keys": {}
       },
       "_origin_file": "justice_events_2025-01-20_2026-08-14.json",
-      "_origin_index": 533
-    },
-    {
-      "source_key": "justice",
-      "date": "2026-08-10",
-      "occurred_on": "2026-08-10",
-      "reported_on": "2026-08-10",
-      "dated_by": "occurred",
-      "category": "Law Enforcement & Surveillance",
-      "title": "The Department of Justice Files Complaints Against New York, Connecticut, and Vermont Challenging State Laws that Provide In-State Tuition to Illegal Aliens",
-      "url": "https://www.justice.gov/opa/pr/department-justice-files-complaints-against-new-york-connecticut-and-vermont-challenging",
-      "summary": "The Department of Justice announced this on 2026-08-10 through Civil Division. The department's own account of it reads: \"Today, the Department of Justice filed lawsuits against three states that seek to undermine our Nation by placing aliens over citizens in clear defiance of Congress’s commands. The Department filed complaints against New York, Connecticut, and Vermont, challenging state laws that provide in-state tuition and financial assistance for illegal aliens. These laws unconstitutionally discriminate against U.S.\"",
-      "why_relevant": "",
-      "jurisdiction": "federal",
-      "federal_nexus": "Official DOJ channel; documents the act of announcement only.",
-      "confidence": "high",
-      "basis": "official_actor_record",
-      "actor": "The Department of Justice",
-      "action": "announced \"The Department of Justice Files Complaints Against New York, Connecticut, and Vermont Challenging State Laws that Provide In-State Tuition to Illegal Aliens\"",
-      "act_key": "department|announced the department of justice files complaints against new york connecticut and vermont challenging state laws that provide in state tuition to illegal aliens|2026-08-10",
-      "attacks": [],
-      "source_meta": {
-        "headline": null,
-        "published_on": null,
-        "byline": null,
-        "outlet": null,
-        "accessed_on": null,
-        "snapshot_url": null,
-        "durable_keys": {}
-      },
-      "_origin_file": "justice_events_2025-01-20_2026-08-14.json",
-      "_origin_index": 532
+      "_origin_index": 530
     },
     {
       "source_key": "meidas",
@@ -3813,68 +3855,6 @@
       "_origin_index": 5
     },
     {
-      "source_key": "whitehouse",
-      "date": "2026-08-10",
-      "occurred_on": "2026-08-10",
-      "reported_on": "2026-08-10",
-      "dated_by": "occurred",
-      "category": "Information & Media Control",
-      "title": "Fact Sheet: President Donald J. Trump Delivers Gold Standard Childhood Vaccine Recommendations for Americans",
-      "url": "https://www.whitehouse.gov/fact-sheets/2026/08/fact-sheet-president-donald-j-trump-delivers-gold-standard-childhood-vaccine-recommendations-for-americans/",
-      "summary": "The White House published this fact sheet on 2026-08-10 through its fact-sheets channel.",
-      "why_relevant": "",
-      "jurisdiction": "federal",
-      "federal_nexus": "Official White House channel; documents the act of publication only.",
-      "confidence": "high",
-      "basis": "official_actor_record",
-      "actor": "The White House",
-      "action": "issued a fact sheet titled \"Fact Sheet: President Donald J. Trump Delivers Gold Standard Childhood Vaccine Recommendations for Americans\"",
-      "act_key": "white house|issued a fact sheet titled fact sheet president donald j trump delivers gold standard childhood vaccine recommendations for americans|2026-08-10",
-      "attacks": [],
-      "source_meta": {
-        "headline": null,
-        "published_on": null,
-        "byline": null,
-        "outlet": null,
-        "accessed_on": null,
-        "snapshot_url": null,
-        "durable_keys": {}
-      },
-      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
-      "_origin_index": 401
-    },
-    {
-      "source_key": "whitehouse",
-      "date": "2026-08-10",
-      "occurred_on": "2026-08-10",
-      "reported_on": "2026-08-10",
-      "dated_by": "occurred",
-      "category": "Information & Media Control",
-      "title": "One Year Later, President Trump Has Delivered on Making D.C. Safe Again",
-      "url": "https://www.whitehouse.gov/releases/2026/08/one-year-later-president-trump-has-delivered-on-making-d-c-safe-again/",
-      "summary": "The White House published this release on 2026-08-10 through its releases channel.",
-      "why_relevant": "",
-      "jurisdiction": "federal",
-      "federal_nexus": "Official White House channel; documents the act of publication only.",
-      "confidence": "high",
-      "basis": "official_actor_record",
-      "actor": "The White House",
-      "action": "published a release titled \"One Year Later, President Trump Has Delivered on Making D.C. Safe Again\"",
-      "act_key": "white house|published a release titled one year later president trump has delivered on making d c safe again|2026-08-10",
-      "attacks": [],
-      "source_meta": {
-        "headline": null,
-        "published_on": null,
-        "byline": null,
-        "outlet": null,
-        "accessed_on": null,
-        "snapshot_url": null,
-        "durable_keys": {}
-      },
-      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
-      "_origin_index": 9
-    },
-    {
       "source_key": "federalregister",
       "date": "2026-08-10",
       "occurred_on": "2026-08-10",
@@ -4052,29 +4032,29 @@
       "reported_on": "2026-08-10",
       "dated_by": "occurred",
       "category": "Economic & Regulatory Power",
-      "title": "Justice Department Awards Nearly $290 Million to Improve Safety",
+      "title": "Justice Department awards $290 million in criminal justice grants to state, local, and tribal governments",
       "url": "https://www.justice.gov/opa/pr/justice-department-awards-nearly-290-million-improve-safety",
-      "summary": "The Department of Justice announced this on 2026-08-10 through Office of Justice Programs (OJP). The department's own account of it reads: \"The Bureau of Justice Assistance, a component under the Department of Justice’s Office of Justice Programs, awarded almost $290 million to support state, local, and tribal governments in criminal justice activities to keep American communities safe.\"",
-      "why_relevant": "",
+      "summary": "The Bureau of Justice Assistance, under DOJ's Office of Justice Programs, awarded nearly $290 million through the Edward Byrne Memorial Justice Assistance Grant (JAG) Program to support state, local, tribal governments, and U.S. territories in criminal justice activities. The awards—$199 million across 56 state grants and $90 million across 895 local grants—support law enforcement personnel, equipment, training, technology, and crime prevention programs. Fiscal Year 2025 emphasis areas included violent crime, immigration enforcement, safe communities, and protection of houses of worship.",
+      "why_relevant": "Federal grant distribution to state and local law enforcement is a routine exercise of DOJ's statutory authority and does not bear on democratic structure, independence of prosecution, or equal application of law.",
       "jurisdiction": "federal",
-      "federal_nexus": "Official DOJ channel; documents the act of announcement only.",
+      "federal_nexus": "",
       "confidence": "high",
-      "basis": "official_actor_record",
+      "basis": "The Bureau of Justice Assistance, a component under the Department of Justice's Office of Justice Programs, awarded almost $290 million to support state, local, and tribal governments in criminal justice activities.",
       "actor": "The Department of Justice",
       "action": "announced \"Justice Department Awards Nearly $290 Million to Improve Safety\"",
       "act_key": "department|announced justice department awards nearly 290 million to improve safety|2026-08-10",
       "attacks": [],
       "source_meta": {
-        "headline": null,
-        "published_on": null,
+        "headline": "Justice Department Awards Nearly $290 Million to Improve Safety",
+        "published_on": "2026-08-10",
         "byline": null,
-        "outlet": null,
-        "accessed_on": null,
+        "outlet": "justice.gov",
+        "accessed_on": "2026-08-27T05:57:18Z",
         "snapshot_url": null,
         "durable_keys": {}
       },
       "_origin_file": "justice_events_2025-01-20_2026-08-14.json",
-      "_origin_index": 535
+      "_origin_index": 532
     },
     {
       "source_key": "meidas",
@@ -5392,60 +5372,29 @@
       "reported_on": "2026-08-11",
       "dated_by": "occurred",
       "category": "Information & Media Control",
-      "title": "America First Means Ohio First: President Trump, Republicans Deliver for Ohio",
-      "url": "https://www.whitehouse.gov/releases/2026/08/america-first-means-ohio-first-president-trump-republicans-deliver-for-ohio/",
-      "summary": "The White House published this release on 2026-08-11 through its releases channel.",
-      "why_relevant": "",
-      "jurisdiction": "federal",
-      "federal_nexus": "Official White House channel; documents the act of publication only.",
-      "confidence": "high",
-      "basis": "official_actor_record",
-      "actor": "The White House",
-      "action": "published a release titled \"America First Means Ohio First: President Trump, Republicans Deliver for Ohio\"",
-      "act_key": "white house|published a release titled america first means ohio first president trump republicans deliver for ohio|2026-08-11",
-      "attacks": [],
-      "source_meta": {
-        "headline": null,
-        "published_on": null,
-        "byline": null,
-        "outlet": null,
-        "accessed_on": null,
-        "snapshot_url": null,
-        "durable_keys": {}
-      },
-      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
-      "_origin_index": 7
-    },
-    {
-      "source_key": "whitehouse",
-      "date": "2026-08-11",
-      "occurred_on": "2026-08-11",
-      "reported_on": "2026-08-11",
-      "dated_by": "occurred",
-      "category": "Information & Media Control",
-      "title": "ICYMI: “Violent crime keeps falling in biggest U.S. cities”",
+      "title": "White House issues fact sheet claiming violent crime decline under Trump administration",
       "url": "https://www.whitehouse.gov/releases/2026/08/icymi-violent-crime-keeps-falling-in-biggest-u-s-cities/",
-      "summary": "The White House published this release on 2026-08-11 through its releases channel.",
-      "why_relevant": "",
+      "summary": "The White House published a fact sheet titled \"Violent crime keeps falling in biggest U.S. cities\" on August 11, 2026. The document cites a Major Cities Chiefs Association mid-year crime report stating homicides in large U.S. cities are down 17.2% from the first half of the prior year, with declines also reported in robberies, rapes, and aggravated assaults. The fact sheet attributes these figures to President Trump's \"law-and-order agenda\" and claims the national murder rate is on pace to hit the lowest level in at least 126 years.",
+      "why_relevant": "The White House's selective promotion of crime statistics as evidence of policy success is a routine exercise of executive communication authority, though the framing (\"Trump Effect\") attributes causation to administration policy without establishing it.",
       "jurisdiction": "federal",
-      "federal_nexus": "Official White House channel; documents the act of publication only.",
+      "federal_nexus": "",
       "confidence": "high",
-      "basis": "official_actor_record",
+      "basis": "A new mid-year crime report delivers more clear proof: President Donald J. Trump's law-and-order agenda is crushing violent crime across America.",
       "actor": "The White House",
       "action": "published a release titled \"ICYMI: “Violent crime keeps falling in biggest U.S. cities”\"",
       "act_key": "white house|published a release titled icymi violent crime keeps falling in biggest u s cities|2026-08-11",
       "attacks": [],
       "source_meta": {
-        "headline": null,
-        "published_on": null,
+        "headline": "ICYMI: “Violent crime keeps falling in biggest U.S. cities”",
+        "published_on": "2026-08-11",
         "byline": null,
-        "outlet": null,
-        "accessed_on": null,
+        "outlet": "The White House",
+        "accessed_on": "2026-08-26T22:20:18Z",
         "snapshot_url": null,
         "durable_keys": {}
       },
       "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
-      "_origin_index": 8
+      "_origin_index": 6
     },
     {
       "source_key": "federalregister",
@@ -5684,6 +5633,37 @@
       },
       "_origin_file": "popinfo_events_2026-08-08_2026-08-14.json",
       "_origin_index": 18
+    },
+    {
+      "source_key": "whitehouse",
+      "date": "2026-08-11",
+      "occurred_on": "2026-08-11",
+      "reported_on": "2026-08-11",
+      "dated_by": "occurred",
+      "category": "Economic & Regulatory Power",
+      "title": "White House issues fact sheet promoting Ohio economic and public safety outcomes",
+      "url": "https://www.whitehouse.gov/releases/2026/08/america-first-means-ohio-first-president-trump-republicans-deliver-for-ohio/",
+      "summary": "The White House issued a fact sheet titled \"America First Means Ohio First: President Trump, Republicans Deliver for Ohio\" on August 11, 2026, coinciding with President Trump's visit to Ohio for the Patriot Games finals. The document claims credit for tax relief (citing 1.2 million workers claiming overtime deductions, 1.4 million seniors paying zero federal taxes on Social Security), crime reductions (statewide homicides down 16.1%, Columbus homicides at a 16-year low), and private investment announcements (Electra $850 million, Stellantis $400 million, Pratt Industries $5 billion U.S. investment). The fact sheet also describes a public-private partnership with SoftBank to build 10 gigawatts of power generation in southern Ohio.",
+      "why_relevant": "The document demonstrates the use of executive communications to frame and promote state-level economic and law-enforcement outcomes as administration achievements, a standard practice in executive messaging but relevant to how executive power shapes public narrative around governance results.",
+      "jurisdiction": "state",
+      "federal_nexus": "The White House issued the fact sheet as a federal executive communication promoting outcomes in Ohio, a state jurisdiction.",
+      "confidence": "high",
+      "basis": "Today, President Donald J. Trump returns to the Buckeye State for the Patriot Games finals — celebrating 250 years of American independence by honoring the excellence, grit, and competitive spirit of America's youth. As he visits Ohio, one thing is undeniable: under President Trump and Republican leadership, Ohio is thriving.",
+      "actor": "The White House",
+      "action": "published a release titled \"America First Means Ohio First: President Trump, Republicans Deliver for Ohio\"",
+      "act_key": "white house|published a release titled america first means ohio first president trump republicans deliver for ohio|2026-08-11",
+      "attacks": [],
+      "source_meta": {
+        "headline": "America First Means Ohio First: President Trump, Republicans Deliver for Ohio",
+        "published_on": "2026-08-11",
+        "byline": null,
+        "outlet": "The White House",
+        "accessed_on": "2026-08-26T22:20:05Z",
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
+      "_origin_index": 5
     },
     {
       "source_key": "guardian",
@@ -6368,29 +6348,29 @@
       "reported_on": "2026-08-12",
       "dated_by": "occurred",
       "category": "Executive Actions & Orders",
-      "title": "Expanding Capabilities to Combat Transnational Cyber-Enabled Crime",
-      "url": "https://www.whitehouse.gov/presidential-actions/2026/08/expanding-capabilities-to-combat-transnational-cyber-enabled-crime/",
-      "summary": "The White House published this memorandum on 2026-08-12 through its presidential-memoranda channel.",
-      "why_relevant": "",
+      "title": "President Trump issued proclamation designating August 2026 as National Substance Use Primary Prevention Month",
+      "url": "https://www.whitehouse.gov/presidential-actions/2026/08/national-substance-use-primary-prevention-month-2026/",
+      "summary": "President Trump signed a proclamation on August 12, 2026, designating August 2026 as National Substance Use Primary Prevention Month. The proclamation frames substance abuse as a national crisis and references the administration's policies, including the HALT Fentanyl Act, designation of cartels as foreign terrorist organizations, and border security measures. It claims student drug abstention rates have reached record levels and calls on families, schools, and communities to support prevention efforts centered on education and trusted voices.",
+      "why_relevant": "Proclamations are ceremonial instruments that do not alter law or policy; this one reiterates existing administration positions on drug policy and border security but creates no new binding authority or institutional change.",
       "jurisdiction": "federal",
-      "federal_nexus": "Official White House channel; documents the act of publication only.",
+      "federal_nexus": "",
       "confidence": "high",
-      "basis": "official_actor_record",
+      "basis": "I, DONALD J. TRUMP, President of the United States of America, by virtue of the authority vested in me by the Constitution and the laws of the United States, do hereby proclaim August 2026 as National Substance Use Primary Prevention Month.",
       "actor": "The White House",
-      "action": "announced a presidential memorandum titled \"Expanding Capabilities to Combat Transnational Cyber-Enabled Crime\"",
-      "act_key": "white house|announced a presidential memorandum titled expanding capabilities to combat transnational cyber enabled crime|2026-08-12",
+      "action": "announced a proclamation titled \"National Substance Use Primary Prevention Month, 2026\"",
+      "act_key": "white house|announced a proclamation titled national substance use primary prevention month 2026|2026-08-12",
       "attacks": [],
       "source_meta": {
-        "headline": null,
-        "published_on": null,
+        "headline": "National Substance Use Primary Prevention Month, 2026",
+        "published_on": "2026-08-12",
         "byline": null,
-        "outlet": null,
-        "accessed_on": null,
+        "outlet": "The White House",
+        "accessed_on": "2026-08-27T01:14:00Z",
         "snapshot_url": null,
         "durable_keys": {}
       },
       "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
-      "_origin_index": 1074
+      "_origin_index": 868
     },
     {
       "source_key": "whitehouse",
@@ -6399,29 +6379,66 @@
       "reported_on": "2026-08-12",
       "dated_by": "occurred",
       "category": "Executive Actions & Orders",
-      "title": "National Substance Use Primary Prevention Month, 2026",
-      "url": "https://www.whitehouse.gov/presidential-actions/2026/08/national-substance-use-primary-prevention-month-2026/",
-      "summary": "The White House published this proclamation on 2026-08-12 through its proclamations channel.",
-      "why_relevant": "",
+      "title": "White House issued presidential memorandum authorizing private companies to conduct cyber operations against foreign criminal organizations under federal oversight",
+      "url": "https://www.whitehouse.gov/presidential-actions/2026/08/expanding-capabilities-to-combat-transnational-cyber-enabled-crime/",
+      "summary": "The White House issued a presidential memorandum on August 12, 2026, establishing a program that authorizes vetted private U.S. companies to conduct cyber surveillance and cyber effects operations against foreign cyber-enabled transnational criminal organizations (CE-TCOs) under the direction and oversight of the Department of Justice and Department of Homeland Security. The memorandum creates the National Coordination Center to manage the program, requires participating companies to meet vetting standards and contractual obligations, and establishes operational procedures including approval workflows, reporting requirements, and safeguards against unintended targeting of U.S. persons or domestic systems.",
+      "why_relevant": "This memorandum delegates offensive cyber capabilities to private contractors under federal supervision, raising questions about the scope of executive authority to authorize non-state actors to conduct cyber operations, the adequacy of oversight mechanisms, and potential liability and constitutional constraints on such delegated authority.",
       "jurisdiction": "federal",
-      "federal_nexus": "Official White House channel; documents the act of publication only.",
+      "federal_nexus": "",
       "confidence": "high",
-      "basis": "official_actor_record",
+      "basis": "I hereby direct the following: Section 1. Purpose. Transnational Criminal Organizations (TCOs) pose a growing threat to American citizens, businesses, and national security.",
       "actor": "The White House",
-      "action": "announced a proclamation titled \"National Substance Use Primary Prevention Month, 2026\"",
-      "act_key": "white house|announced a proclamation titled national substance use primary prevention month 2026|2026-08-12",
-      "attacks": [],
+      "action": "announced a presidential memorandum titled \"Expanding Capabilities to Combat Transnational Cyber-Enabled Crime\"",
+      "act_key": "white house|announced a presidential memorandum titled expanding capabilities to combat transnational cyber enabled crime|2026-08-12",
+      "attacks": [
+        "intelligence",
+        "rule_of_law"
+      ],
       "source_meta": {
-        "headline": null,
-        "published_on": null,
+        "headline": "Expanding Capabilities to Combat Transnational Cyber-Enabled Crime",
+        "published_on": "2026-08-12",
         "byline": null,
-        "outlet": null,
-        "accessed_on": null,
+        "outlet": "The White House",
+        "accessed_on": "2026-08-27T01:41:14Z",
         "snapshot_url": null,
         "durable_keys": {}
       },
       "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
-      "_origin_index": 924
+      "_origin_index": 1016
+    },
+    {
+      "source_key": "whitehouse",
+      "date": "2026-08-12",
+      "occurred_on": "2026-08-12",
+      "reported_on": "2026-08-12",
+      "dated_by": "occurred",
+      "category": "Executive Actions & Orders",
+      "title": "White House issues fact sheet on National Security Presidential Memorandum authorizing cyber operations against transnational criminal organizations",
+      "url": "https://www.whitehouse.gov/fact-sheets/2026/08/fact-sheet-president-donald-j-trump-expands-capabilities-to-combat-transnational-cyber-enabled-crime/",
+      "summary": "The White House published a fact sheet on August 12, 2026, describing a National Security Presidential Memorandum (NSPM) signed by President Trump. The NSPM directs the Homeland Security Task Force's National Coordination Center to establish a program enabling U.S. federal law enforcement to conduct cyber operations against transnational criminal organizations (TCOs) operating in foreign jurisdictions. The memorandum authorizes private sector participation under government direction and establishes review procedures to ensure compliance with the Constitution, U.S. law, and international agreements.",
+      "why_relevant": "The memorandum expands executive authority to conduct offensive cyber operations in foreign jurisdictions and enlists private sector participation in government-directed cyber warfare, raising questions about constitutional limits on executive power, private-sector militarization, and compliance with international law.",
+      "jurisdiction": "federal",
+      "federal_nexus": "",
+      "confidence": "high",
+      "basis": "President Donald J. Trump signed a National Security Presidential Memorandum (NSPM) empowering U.S. Federal law enforcement to use cyber tools to disrupt transnational criminal organizations (TCOs) that operate in foreign jurisdictions to attack Americans.",
+      "actor": "The White House",
+      "action": "issued a fact sheet titled \"Fact Sheet: President Donald J. Trump Expands Capabilities to Combat Transnational Cyber-Enabled Crime\"",
+      "act_key": "white house|issued a fact sheet titled fact sheet president donald j trump expands capabilities to combat transnational cyber enabled crime|2026-08-12",
+      "attacks": [
+        "separation_of_powers",
+        "international_relations"
+      ],
+      "source_meta": {
+        "headline": "Fact Sheet: President Donald J. Trump Expands Capabilities to Combat Transnational Cyber-Enabled Crime",
+        "published_on": "2026-08-12",
+        "byline": null,
+        "outlet": "The White House",
+        "accessed_on": "2026-08-26T23:33:20Z",
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
+      "_origin_index": 344
     },
     {
       "source_key": "guardian",
@@ -6484,6 +6501,37 @@
       },
       "_origin_file": "guardian_events_2026-08-15_2026-08-21.json",
       "_origin_index": 38
+    },
+    {
+      "source_key": "justice",
+      "date": "2026-08-12",
+      "occurred_on": "2026-08-12",
+      "reported_on": "2026-08-12",
+      "dated_by": "occurred",
+      "category": "Judicial Developments",
+      "title": "DOJ announces $2.25M settlement and injunction against RentGrow Inc. for Fair Credit Reporting Act and FTC Act violations",
+      "url": "https://www.justice.gov/opa/pr/rentgrow-inc-agrees-225m-civil-penalty-and-injunction-alleged-violations-fair-credit",
+      "summary": "The Department of Justice announced that a federal court entered a stipulated order resolving allegations against RentGrow Inc., a consumer reporting company. The government alleged RentGrow failed to maintain accurate tenant screening reports, failed to disclose report contents and sources to consumers, failed to comply with dispute procedures, and misrepresented to applicants that disputed corrections were reported to landlords. The settlement imposes a $2.25 million civil penalty and injunction requiring compliance monitoring and recordkeeping.",
+      "why_relevant": "The settlement reflects DOJ enforcement of consumer protection law in the housing market, affecting the accuracy and transparency of information used in tenant screening decisions.",
+      "jurisdiction": "federal",
+      "federal_nexus": "",
+      "confidence": "high",
+      "basis": "a federal court has entered a stipulated order resolving a case against consumer reporting company, RentGrow Inc.",
+      "actor": "The Department of Justice",
+      "action": "announced \"RentGrow Inc. Agrees to $2.25M Civil Penalty and Injunction for Alleged Violations of Fair Credit Reporting Act and FTC Act\"",
+      "act_key": "department|announced rentgrow inc agrees to 2 25m civil penalty and injunction for alleged violations of fair credit reporting act and ftc act|2026-08-12",
+      "attacks": [],
+      "source_meta": {
+        "headline": "RentGrow Inc. Agrees to $2.25M Civil Penalty and Injunction for Alleged Violations of Fair Credit Reporting Act and FTC Act",
+        "published_on": "2026-08-12",
+        "byline": null,
+        "outlet": "justice.gov",
+        "accessed_on": "2026-08-27T05:57:29Z",
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "justice_events_2025-01-20_2026-08-14.json",
+      "_origin_index": 533
     },
     {
       "source_key": "justsecurity",
@@ -6659,37 +6707,6 @@
       },
       "_origin_file": "guardian_events_2026-08-08_2026-08-14.json",
       "_origin_index": 33
-    },
-    {
-      "source_key": "justice",
-      "date": "2026-08-12",
-      "occurred_on": "2026-08-12",
-      "reported_on": "2026-08-12",
-      "dated_by": "occurred",
-      "category": "Law Enforcement & Surveillance",
-      "title": "RentGrow Inc. Agrees to $2.25M Civil Penalty and Injunction for Alleged Violations of Fair Credit Reporting Act and FTC Act",
-      "url": "https://www.justice.gov/opa/pr/rentgrow-inc-agrees-225m-civil-penalty-and-injunction-alleged-violations-fair-credit",
-      "summary": "The Department of Justice announced this on 2026-08-12 through Civil Division. The recorded stage is settlement executed. The department's own account of it reads: \"The Justice Department announced today that a federal court has entered a stipulated order resolving a case against consumer reporting company, RentGrow Inc., in a case investigated and referred to the Department by the Federal Trade Commission (FTC).\"",
-      "why_relevant": "",
-      "jurisdiction": "federal",
-      "federal_nexus": "Official DOJ channel; documents the act of announcement only.",
-      "confidence": "high",
-      "basis": "official_actor_record",
-      "actor": "The Department of Justice",
-      "action": "announced \"RentGrow Inc. Agrees to $2.25M Civil Penalty and Injunction for Alleged Violations of Fair Credit Reporting Act and FTC Act\"",
-      "act_key": "department|announced rentgrow inc agrees to 2 25m civil penalty and injunction for alleged violations of fair credit reporting act and ftc act|2026-08-12",
-      "attacks": [],
-      "source_meta": {
-        "headline": null,
-        "published_on": null,
-        "byline": null,
-        "outlet": null,
-        "accessed_on": null,
-        "snapshot_url": null,
-        "durable_keys": {}
-      },
-      "_origin_file": "justice_events_2025-01-20_2026-08-14.json",
-      "_origin_index": 536
     },
     {
       "source_key": "meidas",
@@ -7505,68 +7522,6 @@
       "_origin_index": 10
     },
     {
-      "source_key": "whitehouse",
-      "date": "2026-08-12",
-      "occurred_on": "2026-08-12",
-      "reported_on": "2026-08-12",
-      "dated_by": "occurred",
-      "category": "Information & Media Control",
-      "title": "Fact Sheet: President Donald J. Trump Expands Capabilities to Combat Transnational Cyber-Enabled Crime",
-      "url": "https://www.whitehouse.gov/fact-sheets/2026/08/fact-sheet-president-donald-j-trump-expands-capabilities-to-combat-transnational-cyber-enabled-crime/",
-      "summary": "The White House published this fact sheet on 2026-08-12 through its fact-sheets channel.",
-      "why_relevant": "",
-      "jurisdiction": "federal",
-      "federal_nexus": "Official White House channel; documents the act of publication only.",
-      "confidence": "high",
-      "basis": "official_actor_record",
-      "actor": "The White House",
-      "action": "issued a fact sheet titled \"Fact Sheet: President Donald J. Trump Expands Capabilities to Combat Transnational Cyber-Enabled Crime\"",
-      "act_key": "white house|issued a fact sheet titled fact sheet president donald j trump expands capabilities to combat transnational cyber enabled crime|2026-08-12",
-      "attacks": [],
-      "source_meta": {
-        "headline": null,
-        "published_on": null,
-        "byline": null,
-        "outlet": null,
-        "accessed_on": null,
-        "snapshot_url": null,
-        "durable_keys": {}
-      },
-      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
-      "_origin_index": 400
-    },
-    {
-      "source_key": "whitehouse",
-      "date": "2026-08-12",
-      "occurred_on": "2026-08-12",
-      "reported_on": "2026-08-12",
-      "dated_by": "occurred",
-      "category": "Information & Media Control",
-      "title": "ONDCP, HHS, and HUD Launch First-Ever “Treatment First” Toolkit to Combat Homelessness and Addiction",
-      "url": "https://www.whitehouse.gov/releases/2026/08/ondcp-hhs-and-hud-launch-first-ever-treatment-first-toolkit-to-combat-homelessness-and-addiction/",
-      "summary": "The White House published this release on 2026-08-12 through its releases channel.",
-      "why_relevant": "",
-      "jurisdiction": "federal",
-      "federal_nexus": "Official White House channel; documents the act of publication only.",
-      "confidence": "high",
-      "basis": "official_actor_record",
-      "actor": "The White House",
-      "action": "published a release titled \"ONDCP, HHS, and HUD Launch First-Ever “Treatment First” Toolkit to Combat Homelessness and Addiction\"",
-      "act_key": "white house|published a release titled ondcp hhs and hud launch first ever treatment first toolkit to combat homelessness and addiction|2026-08-12",
-      "attacks": [],
-      "source_meta": {
-        "headline": null,
-        "published_on": null,
-        "byline": null,
-        "outlet": null,
-        "accessed_on": null,
-        "snapshot_url": null,
-        "durable_keys": {}
-      },
-      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
-      "_origin_index": 1429
-    },
-    {
       "source_key": "federalregister",
       "date": "2026-08-12",
       "occurred_on": "2026-08-12",
@@ -7766,6 +7721,37 @@
       },
       "_origin_file": "noah_events_2026-08-08_2026-08-14.json",
       "_origin_index": 23
+    },
+    {
+      "source_key": "whitehouse",
+      "date": "2026-08-12",
+      "occurred_on": "2026-08-12",
+      "reported_on": "2026-08-12",
+      "dated_by": "occurred",
+      "category": "Economic & Regulatory Power",
+      "title": "White House releases \"Treatment First\" toolkit on homelessness and addiction",
+      "url": "https://www.whitehouse.gov/releases/2026/08/ondcp-hhs-and-hud-launch-first-ever-treatment-first-toolkit-to-combat-homelessness-and-addiction/",
+      "summary": "The White House Office of National Drug Control Policy (ONDCP), Health and Human Services (HHS), and Housing and Urban Development (HUD) announced a \"Best Practices Toolkit: Addressing Homelessness and Addiction Through Treatment First\" at the San Diego Rescue Mission. The toolkit provides state and local leaders with evidence-based strategies to connect homeless individuals with treatment and recovery services. Officials stated the resource prioritizes coordinated, accountability-driven engagement in treatment to transition people from homelessness and addiction to recovery and self-sufficiency.",
+      "why_relevant": "The toolkit represents a coordinated federal policy intervention in homelessness and addiction treatment, establishing a \"Treatment First\" model that shapes how federal agencies and state/local partners allocate resources and structure services affecting vulnerable populations.",
+      "jurisdiction": "federal",
+      "federal_nexus": "",
+      "confidence": "high",
+      "basis": "White House Office of National Drug Control Policy (ONDCP) Director Sara Carter, Health and Human Services Secretary Robert F. Kennedy, Jr., and Housing and Urban Development Secretary Scott Turner, today announced the Best Practices Toolkit",
+      "actor": "The White House",
+      "action": "published a release titled \"ONDCP, HHS, and HUD Launch First-Ever “Treatment First” Toolkit to Combat Homelessness and Addiction\"",
+      "act_key": "white house|published a release titled ondcp hhs and hud launch first ever treatment first toolkit to combat homelessness and addiction|2026-08-12",
+      "attacks": [],
+      "source_meta": {
+        "headline": "ONDCP, HHS, and HUD Launch First-Ever “Treatment First” Toolkit to Combat Homelessness and Addiction",
+        "published_on": "2026-08-12",
+        "byline": null,
+        "outlet": "The White House",
+        "accessed_on": "2026-08-27T02:48:25Z",
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
+      "_origin_index": 1357
     },
     {
       "source_key": "guardian",
@@ -8289,29 +8275,32 @@
       "reported_on": "2026-08-13",
       "dated_by": "occurred",
       "category": "Executive Actions & Orders",
-      "title": "Adjusting Imports of Unmanned Aircraft Systems and Unmanned Aircraft Systems Components into the United States",
-      "url": "https://www.whitehouse.gov/presidential-actions/2026/08/adjusting-imports-of-unmanned-aircraft-systems-and-unmanned-aircraft-systems-components-into-the-united-states/",
-      "summary": "The White House published this proclamation on 2026-08-13 through its proclamations channel.",
-      "why_relevant": "",
+      "title": "Trump issued presidential memorandum directing rebuilding of U.S. Navy and shipbuilding industrial base",
+      "url": "https://www.whitehouse.gov/presidential-actions/2026/08/rebuilding-the-united-states-navy-and-americas-shipbuilding-industrial-base/",
+      "summary": "President Trump issued a presidential memorandum on August 13, 2026, directing the Secretary of War and related officials to rebuild the U.S. Navy and domestic shipbuilding capacity. The memorandum orders plans within 60–120 days for replacing advanced systems with steam and hydraulic technology on carriers, expanding foreign supplier competition under a \"Finland Model\" allowing foreign firms to build initial ships while establishing U.S. shipyards, establishing a fifth public Navy yard, creating a component repair center, and reforming Naval Sea Systems Command to reduce bureaucratic delays and design changes.",
+      "why_relevant": "The memorandum delegates significant national security procurement authority to the Secretary of War, authorizes waiver of domestic shipbuilding requirements to permit foreign construction, and restructures naval acquisition processes, affecting separation of powers, congressional oversight of defense spending, and the scope of executive discretion in military procurement.",
       "jurisdiction": "federal",
-      "federal_nexus": "Official White House channel; documents the act of publication only.",
+      "federal_nexus": "",
       "confidence": "high",
-      "basis": "official_actor_record",
+      "basis": "By the authority vested in me as President by the Constitution and the laws of the United States of America, including section 301 of title 3, United States Code, I hereby direct",
       "actor": "The White House",
-      "action": "announced a proclamation titled \"Adjusting Imports of Unmanned Aircraft Systems and Unmanned Aircraft Systems Components into the United States\"",
-      "act_key": "white house|announced a proclamation titled adjusting imports of unmanned aircraft systems and unmanned aircraft systems components into the united states|2026-08-13",
-      "attacks": [],
+      "action": "announced a presidential memorandum titled \"Rebuilding the United States Navy and America’s Shipbuilding Industrial Base\"",
+      "act_key": "white house|announced a presidential memorandum titled rebuilding the united states navy and america s shipbuilding industrial base|2026-08-13",
+      "attacks": [
+        "separation_of_powers",
+        "military"
+      ],
       "source_meta": {
-        "headline": null,
-        "published_on": null,
+        "headline": "Rebuilding the United States Navy and America's Shipbuilding Industrial Base",
+        "published_on": "2026-08-13",
         "byline": null,
-        "outlet": null,
-        "accessed_on": null,
+        "outlet": "The White House",
+        "accessed_on": "2026-08-27T01:41:02Z",
         "snapshot_url": null,
         "durable_keys": {}
       },
       "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
-      "_origin_index": 923
+      "_origin_index": 1015
     },
     {
       "source_key": "whitehouse",
@@ -8320,29 +8309,29 @@
       "reported_on": "2026-08-13",
       "dated_by": "occurred",
       "category": "Executive Actions & Orders",
-      "title": "Rebuilding the United States Navy and America’s Shipbuilding Industrial Base",
-      "url": "https://www.whitehouse.gov/presidential-actions/2026/08/rebuilding-the-united-states-navy-and-americas-shipbuilding-industrial-base/",
-      "summary": "The White House published this memorandum on 2026-08-13 through its presidential-memoranda channel.",
-      "why_relevant": "",
+      "title": "White House issues fact sheet on naval shipbuilding memorandum",
+      "url": "https://www.whitehouse.gov/fact-sheets/2026/08/fact-sheet-president-donald-j-trump-rebuilds-the-u-s-navy-and-americas-shipbuilding-industrial-base/",
+      "summary": "The White House published a fact sheet on August 13, 2026, describing a National Security Presidential Memorandum signed by President Trump directing the Secretary of War to reform Navy shipbuilding and ship repair programs. The memorandum directs replacement of advanced systems with traditional steam and hydraulic systems on CVN-81, pursuit of direct investments modeled on a \"Finland model,\" establishment of a fifth Naval shipyard (the first in over 80 years), creation of a Component Repair Center, and a full review of Naval Sea Systems Command. The fact sheet frames these as responses to chronic cost overruns, delays, and capacity constraints in U.S. naval shipbuilding.",
+      "why_relevant": "The memorandum asserts executive authority to reorganize military procurement, defense industrial policy, and naval command structures, concentrating decision-making over a critical national security sector within the executive branch.",
       "jurisdiction": "federal",
-      "federal_nexus": "Official White House channel; documents the act of publication only.",
+      "federal_nexus": "",
       "confidence": "high",
-      "basis": "official_actor_record",
+      "basis": "President Donald J. Trump signed a National Security Presidential Memorandum to fix critical long-term issues in Navy shipbuilding and ship repair programs and restore capacity and competition to the maritime industrial base.",
       "actor": "The White House",
-      "action": "announced a presidential memorandum titled \"Rebuilding the United States Navy and America’s Shipbuilding Industrial Base\"",
-      "act_key": "white house|announced a presidential memorandum titled rebuilding the united states navy and america s shipbuilding industrial base|2026-08-13",
+      "action": "issued a fact sheet titled \"Fact Sheet: President Donald J. Trump Rebuilds the U.S. Navy and America’s Shipbuilding Industrial Base\"",
+      "act_key": "white house|issued a fact sheet titled fact sheet president donald j trump rebuilds the u s navy and america s shipbuilding industrial base|2026-08-13",
       "attacks": [],
       "source_meta": {
-        "headline": null,
-        "published_on": null,
+        "headline": "Fact Sheet: President Donald J. Trump Rebuilds the U.S. Navy and America's Shipbuilding Industrial Base",
+        "published_on": "2026-08-13",
         "byline": null,
-        "outlet": null,
-        "accessed_on": null,
+        "outlet": "The White House",
+        "accessed_on": "2026-08-26T23:32:57Z",
         "snapshot_url": null,
         "durable_keys": {}
       },
       "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
-      "_origin_index": 1073
+      "_origin_index": 342
     },
     {
       "source_key": "meidas",
@@ -8548,6 +8537,68 @@
       },
       "_origin_file": "hcr_events_2026-08-08_2026-08-14.json",
       "_origin_index": 13
+    },
+    {
+      "source_key": "justice",
+      "date": "2026-08-13",
+      "occurred_on": "2026-08-13",
+      "reported_on": "2026-08-13",
+      "dated_by": "occurred",
+      "category": "Judicial Developments",
+      "title": "DOJ and EPA lodge consent decree against Old Dutch Mustard for Clean Water Act violations",
+      "url": "https://www.justice.gov/opa/pr/old-dutch-mustard-implement-comprehensive-compliance-program-stop-illegal-discharges",
+      "summary": "The Department of Justice, on behalf of the Environmental Protection Agency, filed a civil complaint and consent decree in U.S. District Court for the District of New Hampshire against Old Dutch Mustard, a mustard and vinegar manufacturer. The complaint alleges the company violated the Clean Water Act on more than 1,700 days between November 2019 and February 2026 by discharging acidic pollutants into a tributary of the Souhegan River at its Greenville, New Hampshire facility. The company also allegedly failed to comply with its stormwater discharge permit and failed to provide timely compliance information to the EPA. The consent decree requires the company to implement a comprehensive water pollution compliance program, including real-time monitoring and corrective measures. The company and its president were previously sentenced in April for separate criminal Clean Water Act violations.",
+      "why_relevant": "The consent decree represents a court-approved enforcement action resolving alleged systematic environmental violations and establishes binding compliance obligations, demonstrating the judicial system's role in enforcing environmental law and protecting public resources.",
+      "jurisdiction": "federal",
+      "federal_nexus": "",
+      "confidence": "high",
+      "basis": "Old Dutch Mustard has entered into a consent decree, lodged today with the U.S. District Court for the District of New Hampshire, requiring it to implement a comprehensive water pollution compliance program.",
+      "actor": "The Department of Justice",
+      "action": "announced \"Old Dutch Mustard to Implement Comprehensive Compliance Program to Stop Illegal Discharges into Souhegan River Streams in New Hampshire\"",
+      "act_key": "department|announced old dutch mustard to implement comprehensive compliance program to stop illegal discharges into souhegan river streams in new hampshire|2026-08-13",
+      "attacks": [],
+      "source_meta": {
+        "headline": "Old Dutch Mustard to Implement Comprehensive Compliance Program to Stop Illegal Discharges into Souhegan River Streams in New Hampshire",
+        "published_on": "2026-08-13",
+        "byline": null,
+        "outlet": "justice.gov",
+        "accessed_on": "2026-08-27T05:57:38Z",
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "justice_events_2025-01-20_2026-08-14.json",
+      "_origin_index": 534
+    },
+    {
+      "source_key": "justice",
+      "date": "2026-08-13",
+      "occurred_on": "2026-08-13",
+      "reported_on": "2026-08-13",
+      "dated_by": "occurred",
+      "category": "Judicial Developments",
+      "title": "Justice Department and LA County Sheriff's Department settle Second Amendment carry permit lawsuit",
+      "url": "https://www.justice.gov/opa/pr/justice-department-and-la-county-sheriffs-department-settle-lawsuit",
+      "summary": "The Department of Justice announced a settlement with the Los Angeles County Sheriff's Department resolving a lawsuit over firearm carry permit procedures. LCSD agreed to align its practices with the Supreme Court's Bruen decision by establishing objective standards and eliminating lengthy delays. The department stated that average wait times had exceeded nine months before the lawsuit; LCSD subsequently reduced processing times and achieved compliance with statutory deadlines through additional resources and software upgrades.",
+      "why_relevant": "The settlement reflects DOJ enforcement of Second Amendment rights and demonstrates the department's litigation posture on a constitutional question decided by the Supreme Court, affecting how a major county administers a core civil right.",
+      "jurisdiction": "state",
+      "federal_nexus": "The Department of Justice, a federal agency, filed and settled the lawsuit against a state law enforcement agency.",
+      "confidence": "high",
+      "basis": "Today, the U.S. Department of Justice agreed to a settlement with the Los Angeles County Sheriff's Department (LCSD) regarding its procedures for issuing firearm carry permits.",
+      "actor": "The Department of Justice",
+      "action": "announced \"Justice Department and LA County Sheriff’s Department Settle Lawsuit\"",
+      "act_key": "department|announced justice department and la county sheriff s department settle lawsuit|2026-08-13",
+      "attacks": [],
+      "source_meta": {
+        "headline": "Justice Department and LA County Sheriff’s Department Settle Lawsuit",
+        "published_on": "2026-08-13",
+        "byline": null,
+        "outlet": "justice.gov",
+        "accessed_on": "2026-08-27T05:57:48Z",
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "justice_events_2025-01-20_2026-08-14.json",
+      "_origin_index": 535
     },
     {
       "source_key": "justsecurity",
@@ -8926,37 +8977,6 @@
       "_origin_index": 36
     },
     {
-      "source_key": "justice",
-      "date": "2026-08-13",
-      "occurred_on": "2026-08-13",
-      "reported_on": "2026-08-13",
-      "dated_by": "occurred",
-      "category": "Law Enforcement & Surveillance",
-      "title": "Old Dutch Mustard to Implement Comprehensive Compliance Program to Stop Illegal Discharges into Souhegan River Streams in New Hampshire",
-      "url": "https://www.justice.gov/opa/pr/old-dutch-mustard-implement-comprehensive-compliance-program-stop-illegal-discharges",
-      "summary": "The Department of Justice announced this on 2026-08-13 through Energy and Natural Resources Division. The recorded stage is settlement executed. The department's own account of it reads: \"Old Dutch Mustard, a mustard and vinegar manufacturing company, has entered into a consent decree, lodged today with the U.S. District Court for the District of New Hampshire, requiring it to implement a comprehensive water pollution compliance program to resolve allegations that it violated the Clean Water Act at its facility in Greenville, New Hampshire.\"",
-      "why_relevant": "",
-      "jurisdiction": "federal",
-      "federal_nexus": "Official DOJ channel; documents the act of announcement only.",
-      "confidence": "high",
-      "basis": "official_actor_record",
-      "actor": "The Department of Justice",
-      "action": "announced \"Old Dutch Mustard to Implement Comprehensive Compliance Program to Stop Illegal Discharges into Souhegan River Streams in New Hampshire\"",
-      "act_key": "department|announced old dutch mustard to implement comprehensive compliance program to stop illegal discharges into souhegan river streams in new hampshire|2026-08-13",
-      "attacks": [],
-      "source_meta": {
-        "headline": null,
-        "published_on": null,
-        "byline": null,
-        "outlet": null,
-        "accessed_on": null,
-        "snapshot_url": null,
-        "durable_keys": {}
-      },
-      "_origin_file": "justice_events_2025-01-20_2026-08-14.json",
-      "_origin_index": 537
-    },
-    {
       "source_key": "meidas",
       "date": "2026-08-13",
       "occurred_on": "",
@@ -9026,130 +9046,6 @@
       },
       "_origin_file": "zeteo_events_2026-08-08_2026-08-14.json",
       "_origin_index": 8
-    },
-    {
-      "source_key": "justice",
-      "date": "2026-08-13",
-      "occurred_on": "2026-08-13",
-      "reported_on": "2026-08-13",
-      "dated_by": "occurred",
-      "category": "Civil Society & Protest",
-      "title": "Justice Department and LA County Sheriff’s Department Settle Lawsuit",
-      "url": "https://www.justice.gov/opa/pr/justice-department-and-la-county-sheriffs-department-settle-lawsuit",
-      "summary": "The Department of Justice announced this on 2026-08-13 through Civil Rights Division. The recorded stage is settlement executed. The department's own account of it reads: \"Today, the U.S. Department of Justice agreed to a settlement with the Los Angeles County Sheriff’s Department (LCSD) regarding its procedures for issuing firearm carry permits. LCSD has agreed to bring its procedures in line with the Supreme Court’s landmark Bruen decision. This is a huge win for the residents of Los Angeles County and for the Second Amendment.\"",
-      "why_relevant": "",
-      "jurisdiction": "federal",
-      "federal_nexus": "Official DOJ channel; documents the act of announcement only.",
-      "confidence": "high",
-      "basis": "official_actor_record",
-      "actor": "The Department of Justice",
-      "action": "announced \"Justice Department and LA County Sheriff’s Department Settle Lawsuit\"",
-      "act_key": "department|announced justice department and la county sheriff s department settle lawsuit|2026-08-13",
-      "attacks": [],
-      "source_meta": {
-        "headline": null,
-        "published_on": null,
-        "byline": null,
-        "outlet": null,
-        "accessed_on": null,
-        "snapshot_url": null,
-        "durable_keys": {}
-      },
-      "_origin_file": "justice_events_2025-01-20_2026-08-14.json",
-      "_origin_index": 538
-    },
-    {
-      "source_key": "whitehouse",
-      "date": "2026-08-13",
-      "occurred_on": "2026-08-13",
-      "reported_on": "2026-08-13",
-      "dated_by": "occurred",
-      "category": "Information & Media Control",
-      "title": "Fact Sheet: President Donald J. Trump Bolsters National Security and Strengthens U.S. Supply Chains by Imposing Tariffs on Drones and Their Parts and Components",
-      "url": "https://www.whitehouse.gov/fact-sheets/2026/08/fact-sheet-president-donald-j-trump-bolsters-national-security-and-strengthens-u-s-supply-chains-by-imposing-tariffs-on-drones-and-their-parts-and-components/",
-      "summary": "The White House published this fact sheet on 2026-08-13 through its fact-sheets channel.",
-      "why_relevant": "",
-      "jurisdiction": "federal",
-      "federal_nexus": "Official White House channel; documents the act of publication only.",
-      "confidence": "high",
-      "basis": "official_actor_record",
-      "actor": "The White House",
-      "action": "issued a fact sheet titled \"Fact Sheet: President Donald J. Trump Bolsters National Security and Strengthens U.S. Supply Chains by Imposing Tariffs on Drones and Their Parts and Components\"",
-      "act_key": "white house|issued a fact sheet titled fact sheet president donald j trump bolsters national security and strengthens u s supply chains by imposing tariffs on drones and their parts and components|2026-08-13",
-      "attacks": [],
-      "source_meta": {
-        "headline": null,
-        "published_on": null,
-        "byline": null,
-        "outlet": null,
-        "accessed_on": null,
-        "snapshot_url": null,
-        "durable_keys": {}
-      },
-      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
-      "_origin_index": 399
-    },
-    {
-      "source_key": "whitehouse",
-      "date": "2026-08-13",
-      "occurred_on": "2026-08-13",
-      "reported_on": "2026-08-13",
-      "dated_by": "occurred",
-      "category": "Information & Media Control",
-      "title": "Fact Sheet: President Donald J. Trump Rebuilds the U.S. Navy and America’s Shipbuilding Industrial Base",
-      "url": "https://www.whitehouse.gov/fact-sheets/2026/08/fact-sheet-president-donald-j-trump-rebuilds-the-u-s-navy-and-americas-shipbuilding-industrial-base/",
-      "summary": "The White House published this fact sheet on 2026-08-13 through its fact-sheets channel.",
-      "why_relevant": "",
-      "jurisdiction": "federal",
-      "federal_nexus": "Official White House channel; documents the act of publication only.",
-      "confidence": "high",
-      "basis": "official_actor_record",
-      "actor": "The White House",
-      "action": "issued a fact sheet titled \"Fact Sheet: President Donald J. Trump Rebuilds the U.S. Navy and America’s Shipbuilding Industrial Base\"",
-      "act_key": "white house|issued a fact sheet titled fact sheet president donald j trump rebuilds the u s navy and america s shipbuilding industrial base|2026-08-13",
-      "attacks": [],
-      "source_meta": {
-        "headline": null,
-        "published_on": null,
-        "byline": null,
-        "outlet": null,
-        "accessed_on": null,
-        "snapshot_url": null,
-        "durable_keys": {}
-      },
-      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
-      "_origin_index": 398
-    },
-    {
-      "source_key": "whitehouse",
-      "date": "2026-08-13",
-      "occurred_on": "2026-08-13",
-      "reported_on": "2026-08-13",
-      "dated_by": "occurred",
-      "category": "Information & Media Control",
-      "title": "The Great Transshipment Scam",
-      "url": "https://www.whitehouse.gov/releases/2026/08/the-great-transshipment-scam/",
-      "summary": "The White House published this release on 2026-08-13 through its releases channel.",
-      "why_relevant": "",
-      "jurisdiction": "federal",
-      "federal_nexus": "Official White House channel; documents the act of publication only.",
-      "confidence": "high",
-      "basis": "official_actor_record",
-      "actor": "The White House",
-      "action": "published a release titled \"The Great Transshipment Scam\"",
-      "act_key": "white house|published a release titled the great transshipment scam|2026-08-13",
-      "attacks": [],
-      "source_meta": {
-        "headline": null,
-        "published_on": null,
-        "byline": null,
-        "outlet": null,
-        "accessed_on": null,
-        "snapshot_url": null,
-        "durable_keys": {}
-      },
-      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
-      "_origin_index": 6
     },
     {
       "source_key": "federalregister",
@@ -9461,6 +9357,74 @@
       },
       "_origin_file": "guardian_events_2026-08-08_2026-08-14.json",
       "_origin_index": 17
+    },
+    {
+      "source_key": "whitehouse",
+      "date": "2026-08-13",
+      "occurred_on": "2026-08-13",
+      "reported_on": "2026-08-13",
+      "dated_by": "occurred",
+      "category": "Economic & Regulatory Power",
+      "title": "Trump issued proclamation imposing tariffs on unmanned aircraft systems and components under Section 232 national security authority",
+      "url": "https://www.whitehouse.gov/presidential-actions/2026/08/adjusting-imports-of-unmanned-aircraft-systems-and-unmanned-aircraft-systems-components-into-the-united-states/",
+      "summary": "President Trump signed a proclamation imposing tariffs on unmanned aircraft systems (UAS) and components, effective September 3, 2026. The order imposes 100 percent ad valorem duties on UAS over 25 kilograms, thermal-imaging UAS, docking stations, and specified components; 25 percent duties on smaller UAS; and 25 percent duties on certain components (effective February 9, 2027). Reduced rates apply to allied nations (Japan, South Korea, Taiwan, Switzerland, EU, UK) if components are certified as originating from those countries. The proclamation authorizes an onshoring incentive program allowing tariff-exempt imports for companies committing to new U.S. manufacturing facilities by January 20, 2029. The Secretary of Commerce may add components to the tariff schedule on a rolling basis.",
+      "why_relevant": "The proclamation asserts executive power to unilaterally impose substantial tariffs on a broad category of goods using national security authority, bypassing normal trade negotiation and congressional oversight mechanisms, and establishes discretionary authority for the Secretary to expand tariff scope without further presidential action.",
+      "jurisdiction": "federal",
+      "federal_nexus": "",
+      "confidence": "high",
+      "basis": "I determine that it is necessary and appropriate to impose a 100 percent ad valorem duty rate on the import of UAS with a maximum take-off weight of more than 25 kilograms, UAS that integrate thermal imagers, UAS docking stations, and certain UAS components.",
+      "actor": "The White House",
+      "action": "announced a proclamation titled \"Adjusting Imports of Unmanned Aircraft Systems and Unmanned Aircraft Systems Components into the United States\"",
+      "act_key": "white house|announced a proclamation titled adjusting imports of unmanned aircraft systems and unmanned aircraft systems components into the united states|2026-08-13",
+      "attacks": [
+        "trade",
+        "rule_of_law"
+      ],
+      "source_meta": {
+        "headline": "Adjusting Imports of Unmanned Aircraft Systems and Unmanned Aircraft Systems Components into the United States",
+        "published_on": "2026-08-13",
+        "byline": null,
+        "outlet": "The White House",
+        "accessed_on": "2026-08-27T01:13:46Z",
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
+      "_origin_index": 867
+    },
+    {
+      "source_key": "whitehouse",
+      "date": "2026-08-13",
+      "occurred_on": "2026-08-13",
+      "reported_on": "2026-08-13",
+      "dated_by": "occurred",
+      "category": "Economic & Regulatory Power",
+      "title": "White House issues fact sheet on drone tariff proclamation",
+      "url": "https://www.whitehouse.gov/fact-sheets/2026/08/fact-sheet-president-donald-j-trump-bolsters-national-security-and-strengthens-u-s-supply-chains-by-imposing-tariffs-on-drones-and-their-parts-and-components/",
+      "summary": "The White House issued a fact sheet on August 13, 2026, describing a proclamation signed by President Trump imposing tariffs on drones and drone components. The proclamation imposes a 100% tariff on drones over 25 kilograms or with thermal imaging, a 25% tariff on smaller drones lacking sensitive capabilities, and 15% or 10% tariffs on drones from allied nations, with implementation beginning 21 days after signing. The fact sheet states the tariffs aim to protect national security and strengthen domestic drone manufacturing.",
+      "why_relevant": "The proclamation asserts executive authority to impose substantial tariffs on a critical technology sector, reshaping trade policy and domestic industrial capacity through unilateral executive action without congressional authorization.",
+      "jurisdiction": "federal",
+      "federal_nexus": "",
+      "confidence": "high",
+      "basis": "Today, President Donald J. Trump signed a Proclamation to address the national security threat posed by imports of drones and their components, including by strengthening America's drone industry and supply chain.",
+      "actor": "The White House",
+      "action": "issued a fact sheet titled \"Fact Sheet: President Donald J. Trump Bolsters National Security and Strengthens U.S. Supply Chains by Imposing Tariffs on Drones and Their Parts and Components\"",
+      "act_key": "white house|issued a fact sheet titled fact sheet president donald j trump bolsters national security and strengthens u s supply chains by imposing tariffs on drones and their parts and components|2026-08-13",
+      "attacks": [
+        "trade",
+        "separation_of_powers"
+      ],
+      "source_meta": {
+        "headline": "Fact Sheet: President Donald J. Trump Bolsters National Security and Strengthens U.S. Supply Chains by Imposing Tariffs on Drones and Their Parts and Components",
+        "published_on": "2026-08-13",
+        "byline": null,
+        "outlet": "The White House",
+        "accessed_on": "2026-08-26T23:33:08Z",
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
+      "_origin_index": 343
     },
     {
       "source_key": "guardian",
@@ -10124,10 +10088,10 @@
       "action": "issued vaccine schedule executive order",
       "act_key": "trump|issued vaccine schedule executive order|2026-08-14",
       "attacks": [
-        "11",
-        "12",
-        "52",
-        "54"
+        "truth",
+        "science",
+        "public_health",
+        "future"
       ],
       "source_meta": {
         "headline": null,
@@ -10389,8 +10353,8 @@
       "action": "requested plane purchase information",
       "act_key": "senators murray and murphy|requested plane purchase information|2026-08-14",
       "attacks": [
-        "28",
-        "44"
+        "public_service",
+        "emoluments"
       ],
       "source_meta": {
         "headline": null,
@@ -10534,6 +10498,37 @@
       },
       "_origin_file": "hcr_events_2026-08-15_2026-08-21.json",
       "_origin_index": 40
+    },
+    {
+      "source_key": "justice",
+      "date": "2026-08-14",
+      "occurred_on": "2026-08-14",
+      "reported_on": "2026-08-14",
+      "dated_by": "occurred",
+      "category": "Judicial Developments",
+      "title": "Amazon settles Fair Credit Reporting Act violations with $2.25 million penalty and injunction",
+      "url": "https://www.justice.gov/opa/pr/amazon-agrees-225-million-settlement-and-injunction-resolve-alleged-violations-fair-credit",
+      "summary": "The Department of Justice announced that a federal court entered a stipulated order against Amazon.com Inc. resolving allegations that Amazon violated the Fair Credit Reporting Act by failing to provide identity theft victims with transaction records within 30 days of request. The settlement requires Amazon to pay $2.25 million, provide requested records free of charge within 30 days, and post notice on its website informing victims how to request records. The case was investigated and referred by the Federal Trade Commission.",
+      "why_relevant": "The settlement demonstrates enforcement of consumer protection law and the Fair Credit Reporting Act, protecting identity theft victims' access to records necessary to clear their names and recover from fraud.",
+      "jurisdiction": "federal",
+      "federal_nexus": "",
+      "confidence": "high",
+      "basis": "a federal court has entered a stipulated order against Amazon.com Inc., in a case investigated and referred to the Department by the Federal Trade Commission (FTC). The order resolves allegations that Amazon violated the Fair Credit Reporting Act (FCRA)",
+      "actor": "The Department of Justice",
+      "action": "announced \"Amazon Agrees to $2.25 Million Settlement and Injunction to Resolve Alleged Violations of the Fair Credit Reporting Act\"",
+      "act_key": "department|announced amazon agrees to 2 25 million settlement and injunction to resolve alleged violations of the fair credit reporting act|2026-08-14",
+      "attacks": [],
+      "source_meta": {
+        "headline": "Amazon Agrees to $2.25 Million Settlement and Injunction to Resolve Alleged Violations of the Fair Credit Reporting Act",
+        "published_on": "2026-08-14",
+        "byline": null,
+        "outlet": "justice.gov",
+        "accessed_on": "2026-08-27T05:57:57Z",
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "justice_events_2025-01-20_2026-08-14.json",
+      "_origin_index": 536
     },
     {
       "source_key": "meidas",
@@ -10728,7 +10723,7 @@
       "act_key": "dhs|ordered ankle monitor placement|2026-08-14",
       "attacks": [
         "immigrants_refugees",
-        "30"
+        "information"
       ],
       "source_meta": {
         "headline": "In Ohio, Haitians’ American dream shatters as ICE prepares to deport them",
@@ -10761,7 +10756,7 @@
       "action": "deprioritized sex trafficking investigations",
       "act_key": "doj|deprioritized sex trafficking investigations|2026-08-14",
       "attacks": [
-        "23"
+        "justice_dept"
       ],
       "source_meta": {
         "headline": null,
@@ -10795,7 +10790,7 @@
       "act_key": "ice|coordinated visa status arrests|2026-08-14",
       "attacks": [
         "immigrants_refugees",
-        "43"
+        "rule_of_law"
       ],
       "source_meta": {
         "headline": null,
@@ -10808,68 +10803,6 @@
       },
       "_origin_file": "hcr_events_2026-08-08_2026-08-14.json",
       "_origin_index": 1
-    },
-    {
-      "source_key": "justice",
-      "date": "2026-08-14",
-      "occurred_on": "2026-08-14",
-      "reported_on": "2026-08-14",
-      "dated_by": "occurred",
-      "category": "Law Enforcement & Surveillance",
-      "title": "Amazon Agrees to $2.25 Million Settlement and Injunction to Resolve Alleged Violations of the Fair Credit Reporting Act",
-      "url": "https://www.justice.gov/opa/pr/amazon-agrees-225-million-settlement-and-injunction-resolve-alleged-violations-fair-credit",
-      "summary": "The Department of Justice announced this on 2026-08-14 through Civil Division. The recorded stage is settlement executed. The department's own account of it reads: \"The Justice Department announced today that a federal court has entered a stipulated order against Amazon.com Inc., in a case investigated and referred to the Department by the Federal Trade Commission (FTC). The order resolves allegations that Amazon violated the Fair Credit Reporting Act (FCRA), and it requires Amazon to pay a $2.25 million civil penalty and follow practices that protect consumers whose identities …\"",
-      "why_relevant": "",
-      "jurisdiction": "federal",
-      "federal_nexus": "Official DOJ channel; documents the act of announcement only.",
-      "confidence": "high",
-      "basis": "official_actor_record",
-      "actor": "The Department of Justice",
-      "action": "announced \"Amazon Agrees to $2.25 Million Settlement and Injunction to Resolve Alleged Violations of the Fair Credit Reporting Act\"",
-      "act_key": "department|announced amazon agrees to 2 25 million settlement and injunction to resolve alleged violations of the fair credit reporting act|2026-08-14",
-      "attacks": [],
-      "source_meta": {
-        "headline": null,
-        "published_on": null,
-        "byline": null,
-        "outlet": null,
-        "accessed_on": null,
-        "snapshot_url": null,
-        "durable_keys": {}
-      },
-      "_origin_file": "justice_events_2025-01-20_2026-08-14.json",
-      "_origin_index": 539
-    },
-    {
-      "source_key": "justice",
-      "date": "2026-08-14",
-      "occurred_on": "2026-08-14",
-      "reported_on": "2026-08-14",
-      "dated_by": "occurred",
-      "category": "Law Enforcement & Surveillance",
-      "title": "ENRD Statement After Return from APEC Forestry Ministerial in China",
-      "url": "https://www.justice.gov/opa/pr/enrd-statement-after-return-apec-forestry-ministerial-china",
-      "summary": "The Department of Justice announced this on 2026-08-14 through Energy and Natural Resources Division.",
-      "why_relevant": "",
-      "jurisdiction": "federal",
-      "federal_nexus": "Official DOJ channel; documents the act of announcement only.",
-      "confidence": "high",
-      "basis": "official_actor_record",
-      "actor": "The Department of Justice",
-      "action": "announced \"ENRD Statement After Return from APEC Forestry Ministerial in China\"",
-      "act_key": "department|announced enrd statement after return from apec forestry ministerial in china|2026-08-14",
-      "attacks": [],
-      "source_meta": {
-        "headline": null,
-        "published_on": null,
-        "byline": null,
-        "outlet": null,
-        "accessed_on": null,
-        "snapshot_url": null,
-        "durable_keys": {}
-      },
-      "_origin_file": "justice_events_2025-01-20_2026-08-14.json",
-      "_origin_index": 540
     },
     {
       "source_key": "noah",
@@ -12494,8 +12427,8 @@
       "action": "renamed building after trump",
       "act_key": "kennedy center board|renamed building after trump|2026-08-14",
       "attacks": [
-        "19",
-        "28"
+        "presidency",
+        "public_service"
       ],
       "source_meta": {
         "headline": null,
@@ -12574,6 +12507,37 @@
       },
       "_origin_file": "federalregister_events_2026-08-08_2026-08-14.json",
       "_origin_index": 23
+    },
+    {
+      "source_key": "justice",
+      "date": "2026-08-14",
+      "occurred_on": "2026-08-14",
+      "reported_on": "2026-08-14",
+      "dated_by": "occurred",
+      "category": "International Relations",
+      "title": "ENRD official heads U.S. delegation to APEC Forestry Ministerial in China",
+      "url": "https://www.justice.gov/opa/pr/enrd-statement-after-return-apec-forestry-ministerial-china",
+      "summary": "Principal Deputy Assistant Attorney General Adam Gustafson of the Energy and Natural Resources Division (ENRD) led the U.S. delegation to an APEC Ministerial Meeting on Forestry in China on August 14, 2026. Gustafson announced that the delegation negotiated a joint ministerial statement reflecting U.S. priorities and highlighted prosecutions of a yacht builder and paper products manufacturer for profiting from illegal forest products. ENRD stated it co-chairs an interagency group on timber trafficking investigations and participates in a Trade Fraud Task Force to prosecute smugglers and tariff evaders.",
+      "why_relevant": "The statement documents DOJ's role in international trade enforcement and environmental crime prosecution, reflecting the department's participation in diplomatic negotiations and interagency coordination on timber trafficking and trade compliance.",
+      "jurisdiction": "federal",
+      "federal_nexus": "",
+      "confidence": "high",
+      "basis": "Principal Deputy Assistant Attorney General Adam Gustafson of the Energy and Natural Resources Division (ENRD) issued the following statement following his service as the head of the United States' delegation for a Ministerial Meeting on Forestry, part of a 2026 senior officials' meeting of the Asia-Pacific Economic Cooperation (APEC) in China.",
+      "actor": "The Department of Justice",
+      "action": "announced \"ENRD Statement After Return from APEC Forestry Ministerial in China\"",
+      "act_key": "department|announced enrd statement after return from apec forestry ministerial in china|2026-08-14",
+      "attacks": [],
+      "source_meta": {
+        "headline": "ENRD Statement After Return from APEC Forestry Ministerial in China",
+        "published_on": "2026-08-14",
+        "byline": null,
+        "outlet": "justice.gov",
+        "accessed_on": "2026-08-27T05:58:06Z",
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "justice_events_2025-01-20_2026-08-14.json",
+      "_origin_index": 537
     },
     {
       "source_key": "noah",

@@ -5,40 +5,40 @@
   },
   "week_number": 61,
   "sources": [
-    "scotusopinions",
-    "hcr",
-    "whitehouse",
-    "justsecurity",
-    "50501",
-    "justice",
-    "congress",
-    "guardian",
-    "meidas",
-    "democracydocket",
-    "federalregister",
     "outloud",
-    "defense",
-    "orders",
-    "noah",
     "popinfo",
+    "orders",
+    "50501",
+    "scotusopinions",
     "zeteo",
-    "scotusorders"
+    "justsecurity",
+    "federalregister",
+    "guardian",
+    "justice",
+    "whitehouse",
+    "congress",
+    "defense",
+    "noah",
+    "scotusorders",
+    "hcr",
+    "meidas",
+    "democracydocket"
   ],
   "counts": {
-    "total": 502,
+    "total": 499,
     "by_date": {
       "2026-03-14": 56,
       "2026-03-15": 50,
-      "2026-03-16": 81,
-      "2026-03-17": 85,
+      "2026-03-16": 82,
+      "2026-03-17": 84,
       "2026-03-18": 66,
-      "2026-03-19": 90,
-      "2026-03-20": 74
+      "2026-03-19": 88,
+      "2026-03-20": 73
     },
     "by_source": {
       "guardian": 108,
       "hcr": 85,
-      "meidas": 150,
+      "meidas": 151,
       "democracydocket": 29,
       "outloud": 5,
       "zeteo": 7,
@@ -48,7 +48,7 @@
       "federalregister": 35,
       "justice": 9,
       "orders": 2,
-      "whitehouse": 11,
+      "whitehouse": 7,
       "justsecurity": 27,
       "scotusorders": 3,
       "50501": 2,
@@ -56,18 +56,18 @@
       "congress": 1
     },
     "by_category": {
-      "Executive Actions & Orders": 44,
+      "Executive Actions & Orders": 47,
       "Legislative & Oversight Activity": 41,
       "Law Enforcement & Surveillance": 49,
       "Elections & Representation": 25,
-      "Civil Society & Protest": 19,
-      "Information & Media Control": 54,
-      "Economic & Regulatory Power": 52,
-      "Appointments & Patronage": 30,
-      "International Relations": 61,
-      "Civil–Military Relations & State Violence": 36,
+      "Civil Society & Protest": 18,
+      "Information & Media Control": 45,
+      "Economic & Regulatory Power": 54,
+      "Appointments & Patronage": 31,
+      "International Relations": 63,
+      "Civil–Military Relations & State Violence": 37,
       "Transparency & Records": 19,
-      "Judicial Developments": 66,
+      "Judicial Developments": 64,
       "Courts / Supreme Court / Orders": 3,
       "Voting rights / Courts / Democracy protection": 2,
       "Courts / Supreme Court / Opinions": 1
@@ -1032,10 +1032,10 @@
       "reported_on": "2026-03-14",
       "dated_by": "reported",
       "category": "Information & Media Control",
-      "title": "Hegseth criticized media coverage of Iran conflict",
+      "title": "Hegseth criticized media coverage of the Iran war",
       "url": "https://www.cnn.com/2026/03/12/politics/hormuz-trump-administration-underestimated-iran",
-      "summary": "Defense Secretary Pete Hegseth expressed frustration at media reports suggesting the war is widening and that the administration underestimated Iran's potential to close the Strait of Hormuz. He claimed the Strait is open and criticized CNN for its reporting.",
-      "why_relevant": "Hegseth's comments indicate a broader effort by the administration to control the narrative surrounding military actions and their implications.",
+      "summary": "Defense Secretary Pete Hegseth expressed frustration during a press briefing about media reports suggesting that the war with Iran is widening and that the administration underestimated the threat of Iran closing the Strait of Hormuz. He claimed that the Strait is open and criticized CNN for its reporting.",
+      "why_relevant": "Hegseth's comments reflect an attempt to control the narrative surrounding the U.S. military's actions and the situation in Iran, which could influence public opinion.",
       "jurisdiction": "",
       "federal_nexus": "",
       "confidence": "",
@@ -1055,8 +1055,8 @@
         "snapshot_url": null,
         "durable_keys": {}
       },
-      "_origin_file": "hcr_events_2026-03-14_2026-03-20.json",
-      "_origin_index": 36
+      "_origin_file": "hcr_events_2026-03-01_2026-03-20.json",
+      "_origin_index": 25
     },
     {
       "source_key": "hcr",
@@ -3780,29 +3780,33 @@
       "reported_on": "2026-03-16",
       "dated_by": "occurred",
       "category": "Executive Actions & Orders",
-      "title": "Religious Liberty Commission Hosts Sixth Hearing on Religious Liberty in Healthcare",
+      "title": "Religious Liberty Commission hosts sixth hearing on healthcare and religious freedom",
       "url": "https://www.justice.gov/opa/pr/religious-liberty-commission-hosts-sixth-hearing-religious-liberty-healthcare",
-      "summary": "The Department of Justice announced this on 2026-03-16 through Office of the Attorney General. The department's own account of it reads: \"Today, the Religious Liberty Commission (RLC) held a hearing to discuss religious freedom in healthcare. The hearing included panels with testimony from medical professionals, parents and students impacted by vaccine mandates, human trafficking survivors, and social services providers.\"",
-      "why_relevant": "",
+      "summary": "The Religious Liberty Commission, chaired by Dan Patrick, held a hearing on religious liberty in healthcare on March 16, 2026. The hearing featured testimony from medical professionals, parents, social services providers, and others alleging violations of religious freedom rights. Witnesses included Dr. Eithan Haim (whose HIPAA charges were dismissed in January 2025), counselor Kaley Chiles (subject to Colorado conversion therapy law), healthcare worker Valerie Kloosterman (who won a Sixth Circuit appeal in 2025 on religious discrimination), and others. The Commission stated it will deliver recommendations to President Trump later in 2026 to protect religious liberty in healthcare and other sectors.",
+      "why_relevant": "The Commission's framing of healthcare regulations, vaccine mandates, and anti-discrimination protections as violations of religious liberty, and its stated intent to recommend policy changes to the President, signals a potential shift in how federal law will balance religious exemptions against public health, civil rights, and equal access to services.",
       "jurisdiction": "federal",
-      "federal_nexus": "Official DOJ channel; documents the act of announcement only.",
+      "federal_nexus": "",
       "confidence": "high",
-      "basis": "official_actor_record",
+      "basis": "Today, the Religious Liberty Commission (RLC) held a hearing to discuss religious freedom in healthcare... Later this year, the Commission will deliver strong recommendations to President Trump to ensure believers never have their religious liberty rights violated again.",
       "actor": "The Department of Justice",
       "action": "announced \"Religious Liberty Commission Hosts Sixth Hearing on Religious Liberty in Healthcare\"",
       "act_key": "department|announced religious liberty commission hosts sixth hearing on religious liberty in healthcare|2026-03-16",
-      "attacks": [],
+      "attacks": [
+        "lgbtq",
+        "rule_of_law",
+        "civil_service"
+      ],
       "source_meta": {
-        "headline": null,
-        "published_on": null,
+        "headline": "Religious Liberty Commission Hosts Sixth Hearing on Religious Liberty in Healthcare",
+        "published_on": "2026-03-16",
         "byline": null,
-        "outlet": null,
-        "accessed_on": null,
+        "outlet": "justice.gov",
+        "accessed_on": "2026-08-27T05:21:55Z",
         "snapshot_url": null,
         "durable_keys": {}
       },
       "_origin_file": "justice_events_2025-01-20_2026-08-14.json",
-      "_origin_index": 332
+      "_origin_index": 331
     },
     {
       "source_key": "orders",
@@ -3847,29 +3851,70 @@
       "reported_on": "2026-03-16",
       "dated_by": "occurred",
       "category": "Executive Actions & Orders",
-      "title": "Establishing the Task Force to Eliminate Fraud",
-      "url": "https://www.whitehouse.gov/presidential-actions/2026/03/establishing-the-task-force-to-eliminate-fraud/",
-      "summary": "The White House published this executive order on 2026-03-16 through its executive-orders channel.",
-      "why_relevant": "",
+      "title": "White House issues fact sheet on Task Force to Eliminate Fraud executive order",
+      "url": "https://www.whitehouse.gov/fact-sheets/2026/03/fact-sheet-president-donald-j-trump-establishes-the-task-force-to-eliminate-fraud/",
+      "summary": "The White House published a fact sheet on March 16, 2026, describing an executive order signed by President Trump establishing the Task Force to Eliminate Fraud. The order creates a task force chaired by the Vice President to coordinate government-wide efforts to combat fraud, waste, and abuse in federal benefit programs including housing, food, medical care, and cash assistance. The fact sheet states the task force will improve eligibility verification, implement pre-payment controls, detect fraud trends, and develop minimum anti-fraud requirements including proof of identity and documentation standards.",
+      "why_relevant": "The order establishes a new executive task force with broad authority to reshape federal benefit administration through eligibility verification and documentation requirements, raising questions about access to safety-net programs and the scope of executive coordination over state-administered benefits.",
       "jurisdiction": "federal",
-      "federal_nexus": "Official White House channel; documents the act of publication only.",
+      "federal_nexus": "",
       "confidence": "high",
-      "basis": "official_actor_record",
+      "basis": "President Donald J. Trump signed an Executive Order creating the Task Force to Eliminate Fraud, which will advise the President and coordinate government-wide efforts to combat widespread fraud, waste, and abuse in Federal benefit programs.",
       "actor": "The White House",
-      "action": "announced an executive order titled \"Establishing the Task Force to Eliminate Fraud\"",
-      "act_key": "white house|announced an executive order titled establishing the task force to eliminate fraud|2026-03-16",
-      "attacks": [],
+      "action": "issued a fact sheet titled \"Fact Sheet: President Donald J. Trump Establishes the Task Force to Eliminate Fraud\"",
+      "act_key": "white house|issued a fact sheet titled fact sheet president donald j trump establishes the task force to eliminate fraud|2026-03-16",
+      "attacks": [
+        "poor",
+        "immigrants_refugees",
+        "rule_of_law",
+        "separation_of_powers"
+      ],
       "source_meta": {
-        "headline": null,
-        "published_on": null,
+        "headline": "Fact Sheet: President Donald J. Trump Establishes the Task Force to Eliminate Fraud",
+        "published_on": "2026-03-16",
         "byline": null,
-        "outlet": null,
-        "accessed_on": null,
+        "outlet": "The White House",
+        "accessed_on": "2026-08-26T23:42:37Z",
         "snapshot_url": null,
         "durable_keys": {}
       },
       "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
-      "_origin_index": 762
+      "_origin_index": 393
+    },
+    {
+      "source_key": "whitehouse",
+      "date": "2026-03-16",
+      "occurred_on": "2026-03-16",
+      "reported_on": "2026-03-16",
+      "dated_by": "occurred",
+      "category": "Executive Actions & Orders",
+      "title": "White House signed Executive Order 14395 establishing Task Force to Eliminate Fraud",
+      "url": "https://www.whitehouse.gov/presidential-actions/2026/03/establishing-the-task-force-to-eliminate-fraud/",
+      "summary": "President Trump signed Executive Order 14395 on March 16, 2026, establishing a Task Force to Eliminate Fraud within the Executive Office of the President. The order directs the Vice President to chair the task force, with the FTC Chairman as Vice Chairman. The task force is tasked with coordinating a national strategy to combat fraud, waste, and abuse in federal benefit programs, including Medicaid, food stamps, and childcare assistance. The order directs member agencies to identify fraud-susceptible transactions within 30 days, adopt minimum anti-fraud requirements within 60 days, and submit implementation plans within 90 days. The order also directs the Attorney General to promote private civil actions under the False Claims Act concerning benefits fraud.",
+      "why_relevant": "The order centralizes executive authority over federal benefit administration and enforcement, potentially expanding executive power to withhold federal funds from states and to impose eligibility verification and data-sharing requirements that may affect access to benefits and state autonomy.",
+      "jurisdiction": "federal",
+      "federal_nexus": "",
+      "confidence": "high",
+      "basis": "There is hereby established within the Executive Office of the President a Task Force to Eliminate Fraud (Task Force). The Vice President of the United States shall serve as the Chairman of the Task Force.",
+      "actor": "The White House",
+      "action": "announced an executive order titled \"Establishing the Task Force to Eliminate Fraud\"",
+      "act_key": "white house|announced an executive order titled establishing the task force to eliminate fraud|2026-03-16",
+      "attacks": [
+        "poor",
+        "immigrants_refugees",
+        "separation_of_powers",
+        "rule_of_law"
+      ],
+      "source_meta": {
+        "headline": "Establishing the Task Force to Eliminate Fraud",
+        "published_on": "2026-03-16",
+        "byline": null,
+        "outlet": "The White House",
+        "accessed_on": "2026-08-27T00:42:11Z",
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
+      "_origin_index": 706
     },
     {
       "source_key": "zeteo",
@@ -4504,29 +4549,29 @@
       "reported_on": "2026-03-16",
       "dated_by": "occurred",
       "category": "Judicial Developments",
-      "title": "Maryland Man Sentenced for Mailing Threatening Communications to Jewish Institutions and Civil Rights Violations",
+      "title": "Maryland man sentenced for mailing threatening communications to Jewish institutions",
       "url": "https://www.justice.gov/opa/pr/maryland-man-sentenced-mailing-threatening-communications-jewish-institutions-and-civil",
-      "summary": "The Department of Justice announced this on 2026-03-16 through Civil Rights Division. The recorded stage is a sentence imposed. The department's own account of it reads: \"The Justice Department announced that Clift Seferlis, 55, of Garrett Park, Maryland, was sentenced today by United States District Court Judge Mark A. Kearney to 37 months in prison, 3 years supervised release, $40,000 fine, and a $2,200 special assessment for mailing threatening communications targeting Jewish institutions and organizations.\"",
-      "why_relevant": "",
+      "summary": "The Department of Justice announced that Clift Seferlis, 55, of Garrett Park, Maryland, was sentenced by U.S. District Court Judge Mark A. Kearney to 37 months in prison, $40,000 fine, and supervised release. Seferlis pleaded guilty to 17 counts of mailing threatening communications and eight counts of obstructing free exercise of religious beliefs. From March 2024 through June 2025, he mailed at least 40 letters and two postcards to more than 25 Jewish institutions across multiple jurisdictions, many threatening to destroy buildings or injure individuals.",
+      "why_relevant": "The sentencing reflects federal enforcement of civil rights protections against religiously motivated threats and intimidation, a core function of law enforcement in a pluralist democracy.",
       "jurisdiction": "federal",
-      "federal_nexus": "Official DOJ channel; documents the act of announcement only.",
+      "federal_nexus": "",
       "confidence": "high",
-      "basis": "official_actor_record",
+      "basis": "Clift Seferlis, 55, of Garrett Park, Maryland, was sentenced today by United States District Court Judge Mark A. Kearney to 37 months in prison",
       "actor": "The Department of Justice",
       "action": "announced \"Maryland Man Sentenced for Mailing Threatening Communications to Jewish Institutions and Civil Rights Violations\"",
       "act_key": "department|announced maryland man sentenced for mailing threatening communications to jewish institutions and civil rights violations|2026-03-16",
       "attacks": [],
       "source_meta": {
-        "headline": null,
-        "published_on": null,
+        "headline": "Maryland Man Sentenced for Mailing Threatening Communications to Jewish Institutions and Civil Rights Violations",
+        "published_on": "2026-03-16",
         "byline": null,
-        "outlet": null,
-        "accessed_on": null,
+        "outlet": "justice.gov",
+        "accessed_on": "2026-08-27T05:21:46Z",
         "snapshot_url": null,
         "durable_keys": {}
       },
       "_origin_file": "justice_events_2025-01-20_2026-08-14.json",
-      "_origin_index": 331
+      "_origin_index": 330
     },
     {
       "source_key": "justsecurity",
@@ -5818,68 +5863,6 @@
       "_origin_index": 937
     },
     {
-      "source_key": "whitehouse",
-      "date": "2026-03-16",
-      "occurred_on": "2026-03-16",
-      "reported_on": "2026-03-16",
-      "dated_by": "occurred",
-      "category": "Information & Media Control",
-      "title": "Fact Sheet: President Donald J. Trump Establishes the Task Force to Eliminate Fraud",
-      "url": "https://www.whitehouse.gov/fact-sheets/2026/03/fact-sheet-president-donald-j-trump-establishes-the-task-force-to-eliminate-fraud/",
-      "summary": "The White House published this fact sheet on 2026-03-16 through its fact-sheets channel.",
-      "why_relevant": "",
-      "jurisdiction": "federal",
-      "federal_nexus": "Official White House channel; documents the act of publication only.",
-      "confidence": "high",
-      "basis": "official_actor_record",
-      "actor": "The White House",
-      "action": "issued a fact sheet titled \"Fact Sheet: President Donald J. Trump Establishes the Task Force to Eliminate Fraud\"",
-      "act_key": "white house|issued a fact sheet titled fact sheet president donald j trump establishes the task force to eliminate fraud|2026-03-16",
-      "attacks": [],
-      "source_meta": {
-        "headline": null,
-        "published_on": null,
-        "byline": null,
-        "outlet": null,
-        "accessed_on": null,
-        "snapshot_url": null,
-        "durable_keys": {}
-      },
-      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
-      "_origin_index": 449
-    },
-    {
-      "source_key": "whitehouse",
-      "date": "2026-03-16",
-      "occurred_on": "2026-03-16",
-      "reported_on": "2026-03-16",
-      "dated_by": "occurred",
-      "category": "Information & Media Control",
-      "title": "Sen. Markwayne Mullin’s Nomination for DHS Secretary Draws Bipartisan Acclaim",
-      "url": "https://www.whitehouse.gov/releases/2026/03/sen-markwayne-mullins-nomination-for-dhs-secretary-draws-bipartisan-acclaim/",
-      "summary": "The White House published this release on 2026-03-16 through its releases channel.",
-      "why_relevant": "",
-      "jurisdiction": "federal",
-      "federal_nexus": "Official White House channel; documents the act of publication only.",
-      "confidence": "high",
-      "basis": "official_actor_record",
-      "actor": "The White House",
-      "action": "published a release titled \"Sen. Markwayne Mullin’s Nomination for DHS Secretary Draws Bipartisan Acclaim\"",
-      "act_key": "white house|published a release titled sen markwayne mullin s nomination for dhs secretary draws bipartisan acclaim|2026-03-16",
-      "attacks": [],
-      "source_meta": {
-        "headline": null,
-        "published_on": null,
-        "byline": null,
-        "outlet": null,
-        "accessed_on": null,
-        "snapshot_url": null,
-        "durable_keys": {}
-      },
-      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
-      "_origin_index": 98
-    },
-    {
       "source_key": "federalregister",
       "date": "2026-03-16",
       "occurred_on": "2026-03-16",
@@ -6052,6 +6035,40 @@
       "_origin_index": 938
     },
     {
+      "source_key": "meidas",
+      "date": "2026-03-16",
+      "occurred_on": "",
+      "reported_on": "2026-03-16",
+      "dated_by": "reported",
+      "category": "Economic & Regulatory Power",
+      "title": "UAE and Kuwait oil production collapses",
+      "url": "https://www.bloomberg.com",
+      "summary": "Bloomberg reported that UAE oil production fell from 3.56 million barrels per day last month to approximately 2 million barrels per day, a decline of 1.56 million barrels per day. Kuwait's oil production dropped from 2.6 million barrels per day to approximately 1.3 million barrels per day, a decline of 1.3 million barrels per day. The declines resulted from the Iran conflict and regional instability.",
+      "why_relevant": "Collapse of allied Gulf state oil production directly caused by the U.S.-initiated Iran conflict has cascading effects on global energy supply and inflation, harming American consumers and the global economy.",
+      "jurisdiction": "foreign",
+      "federal_nexus": "The U.S. military conflict with Iran is a federal action that caused the regional instability.",
+      "confidence": "high",
+      "basis": "Bloomberg: 'UAE oil production has fallen to about 2 million barrels a day from 3.56 million barrels a day last month. Kuwait's oil production has dropped to about 1.3 million barrels a day from 2.6 million barrels a day last month.",
+      "actor": "Iran conflict",
+      "action": "caused oil production collapse",
+      "act_key": "iran conflict|caused oil production collapse|2026-03-16",
+      "attacks": [
+        "economy",
+        "allies"
+      ],
+      "source_meta": {
+        "headline": null,
+        "published_on": null,
+        "byline": null,
+        "outlet": null,
+        "accessed_on": null,
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "meidas_events_2026-03-07_2026-05-15.json",
+      "_origin_index": 941
+    },
+    {
       "source_key": "guardian",
       "date": "2026-03-16",
       "occurred_on": "2026-03-16",
@@ -6115,6 +6132,37 @@
       },
       "_origin_file": "guardian_events_2026-03-07_2026-05-15.json",
       "_origin_index": 855
+    },
+    {
+      "source_key": "whitehouse",
+      "date": "2026-03-16",
+      "occurred_on": "2026-03-16",
+      "reported_on": "2026-03-16",
+      "dated_by": "occurred",
+      "category": "Appointments & Patronage",
+      "title": "White House issues fact sheet on Sen. Markwayne Mullin's nomination as DHS Secretary",
+      "url": "https://www.whitehouse.gov/releases/2026/03/sen-markwayne-mullins-nomination-for-dhs-secretary-draws-bipartisan-acclaim/",
+      "summary": "The White House published a fact sheet on March 16, 2026, announcing President Trump's nomination of Sen. Markwayne Mullin (R-OK) to serve as Secretary of the Department of Homeland Security. The document compiles statements of support from Republican senators, House members, state officials, industry groups, law enforcement organizations, and tribal leaders. The fact sheet characterizes Mullin as a \"proven champion of border security\" and \"fierce defender of American sovereignty\" and presents the nomination as drawing \"strong, bipartisan praise.\"",
+      "why_relevant": "Cabinet-level nominations are core executive appointments that shape the administration's capacity to execute policy across a major federal agency responsible for border security, immigration enforcement, disaster response, and national security operations.",
+      "jurisdiction": "federal",
+      "federal_nexus": "",
+      "confidence": "high",
+      "basis": "President Donald J. Trump's nomination of Sen. Markwayne Mullin to serve as the next Secretary of the Department of Homeland Security is earning strong, bipartisan praise from lawmakers, tribal leaders, law enforcement organizations, industry groups, and other prominent voices.",
+      "actor": "The White House",
+      "action": "published a release titled \"Sen. Markwayne Mullin’s Nomination for DHS Secretary Draws Bipartisan Acclaim\"",
+      "act_key": "white house|published a release titled sen markwayne mullin s nomination for dhs secretary draws bipartisan acclaim|2026-03-16",
+      "attacks": [],
+      "source_meta": {
+        "headline": "Sen. Markwayne Mullin’s Nomination for DHS Secretary Draws Bipartisan Acclaim",
+        "published_on": "2026-03-16",
+        "byline": null,
+        "outlet": "The White House",
+        "accessed_on": "2026-08-26T22:37:14Z",
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
+      "_origin_index": 83
     },
     {
       "source_key": "guardian",
@@ -6407,8 +6455,8 @@
       "action": "defended iran war publicly",
       "act_key": "mike johnson|defended iran war publicly|2026-03-17",
       "attacks": [
-        "11",
-        "38"
+        "truth",
+        "peace"
       ],
       "source_meta": {
         "headline": "March 17, 2026",
@@ -6441,8 +6489,8 @@
       "action": "resigned from counterterrorism post",
       "act_key": "joe kent|resigned from counterterrorism post|2026-03-17",
       "attacks": [
-        "38",
-        "40"
+        "peace",
+        "idea_of_america"
       ],
       "source_meta": {
         "headline": null,
@@ -6455,6 +6503,40 @@
       },
       "_origin_file": "hcr_events_2026-03-07_2026-05-15.json",
       "_origin_index": 504
+    },
+    {
+      "source_key": "justice",
+      "date": "2026-03-17",
+      "occurred_on": "2026-03-17",
+      "reported_on": "2026-03-17",
+      "dated_by": "occurred",
+      "category": "Executive Actions & Orders",
+      "title": "Department of Justice proposes rule to accelerate federal habeas review in state capital cases",
+      "url": "https://www.justice.gov/opa/pr/department-justice-proposes-rule-more-quickly-achieve-justice-state-death-penalty-cases",
+      "summary": "Attorney General Pamela Bondi announced that the Department of Justice has proposed a rule to streamline federal habeas corpus review of state death penalty cases, reducing the period between conviction and execution by years. The rule would eliminate barriers to state certification under 28 U.S.C. § 154 and make certification decisions permanent rather than limited to five years, intended to encourage more states to apply. The proposal advances President Trump's January 20 executive order on the death penalty and AG Bondi's February memorandum on federal executions.",
+      "why_relevant": "The rule proposal represents a significant shift in federal policy toward accelerating capital punishment by removing procedural safeguards in habeas review, directly affecting the constitutional right to meaningful appellate and collateral review in death cases.",
+      "jurisdiction": "federal",
+      "federal_nexus": "",
+      "confidence": "high",
+      "basis": "The proposed rule, once finalized, will eliminate these obstacles to certification, enabling more prompt decision of States' requests for certification.",
+      "actor": "The Department of Justice",
+      "action": "announced \"Department of Justice Proposes Rule to More Quickly Achieve Justice in State Death Penalty Cases\"",
+      "act_key": "department|announced department of justice proposes rule to more quickly achieve justice in state death penalty cases|2026-03-17",
+      "attacks": [
+        "rule_of_law",
+        "constitution"
+      ],
+      "source_meta": {
+        "headline": "Department of Justice Proposes Rule to More Quickly Achieve Justice in State Death Penalty Cases",
+        "published_on": "2026-03-17",
+        "byline": null,
+        "outlet": "justice.gov",
+        "accessed_on": "2026-08-27T05:22:10Z",
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "justice_events_2025-01-20_2026-08-14.json",
+      "_origin_index": 332
     },
     {
       "source_key": "meidas",
@@ -7170,10 +7252,10 @@
       "action": "attacked supreme court publicly",
       "act_key": "trump|attacked supreme court publicly|2026-03-17",
       "attacks": [
-        "11",
-        "20",
-        "41",
-        "42"
+        "truth",
+        "courts",
+        "constitution",
+        "separation_of_powers"
       ],
       "source_meta": {
         "headline": "March 17, 2026",
@@ -7460,37 +7542,6 @@
       "_origin_index": 832
     },
     {
-      "source_key": "justice",
-      "date": "2026-03-17",
-      "occurred_on": "2026-03-17",
-      "reported_on": "2026-03-17",
-      "dated_by": "occurred",
-      "category": "Law Enforcement & Surveillance",
-      "title": "Department of Justice Proposes Rule to More Quickly Achieve Justice in State Death Penalty Cases",
-      "url": "https://www.justice.gov/opa/pr/department-justice-proposes-rule-more-quickly-achieve-justice-state-death-penalty-cases",
-      "summary": "The Department of Justice announced this on 2026-03-17 through Office of the Attorney General. The recorded stage is an announced investigation. The allegations are unadjudicated; this documents the announcement, not the truth of any allegation. The department's own account of it reads: \"Attorney General Pamela Bondi today announced that the Justice Department has proposed a rule that will empower states to streamline federal habeas review of capital cases. These reforms will reduce by years the period between conviction and execution in state capital cases.\"",
-      "why_relevant": "",
-      "jurisdiction": "federal",
-      "federal_nexus": "Official DOJ channel; documents the act of announcement only.",
-      "confidence": "high",
-      "basis": "official_actor_record",
-      "actor": "The Department of Justice",
-      "action": "announced \"Department of Justice Proposes Rule to More Quickly Achieve Justice in State Death Penalty Cases\"",
-      "act_key": "department|announced department of justice proposes rule to more quickly achieve justice in state death penalty cases|2026-03-17",
-      "attacks": [],
-      "source_meta": {
-        "headline": null,
-        "published_on": null,
-        "byline": null,
-        "outlet": null,
-        "accessed_on": null,
-        "snapshot_url": null,
-        "durable_keys": {}
-      },
-      "_origin_file": "justice_events_2025-01-20_2026-08-14.json",
-      "_origin_index": 333
-    },
-    {
       "source_key": "meidas",
       "date": "2026-03-17",
       "occurred_on": "2026-03-17",
@@ -7672,10 +7723,10 @@
       "action": "voted to take up voter suppression bill",
       "act_key": "senate|voted to take up voter suppression bill|2026-03-17",
       "attacks": [
-        "5",
-        "41",
-        "43",
-        "48"
+        "lgbtq",
+        "constitution",
+        "rule_of_law",
+        "peaceful_transfer"
       ],
       "source_meta": {
         "headline": null,
@@ -7688,37 +7739,6 @@
       },
       "_origin_file": "hcr_events_2026-03-07_2026-05-15.json",
       "_origin_index": 511
-    },
-    {
-      "source_key": "hcr",
-      "date": "2026-03-17",
-      "occurred_on": "",
-      "reported_on": "2026-03-17",
-      "dated_by": "reported",
-      "category": "Civil Society & Protest",
-      "title": "British evacuation from Boston Harbor",
-      "url": "https://heathercoxrichardson.substack.com/p/march-16-2026",
-      "summary": "On March 17, 1776, British forces evacuated Boston, departing with over 10,000 soldiers and more than 1,000 loyalists aboard 120 ships. This marked a significant victory for General George Washington and the Continental Army, demonstrating that the Patriots could successfully challenge British military power. The evacuation allowed the Patriots to strengthen their community and spread their principles of independence, setting the stage for further revolutionary actions across the colonies.",
-      "why_relevant": "The event exemplifies a pivotal moment in the American Revolution, showcasing the effectiveness of collective action against oppressive forces and reinforcing the commitment to independence among the colonies.",
-      "jurisdiction": "",
-      "federal_nexus": "",
-      "confidence": "",
-      "basis": "",
-      "actor": "",
-      "action": "",
-      "act_key": "",
-      "attacks": [],
-      "source_meta": {
-        "headline": "March 16, 2026",
-        "published_on": "2026-03-17",
-        "byline": "Heather Cox Richardson",
-        "outlet": "Letters from an American",
-        "accessed_on": "2026-08-14T22:54:48Z",
-        "snapshot_url": null,
-        "durable_keys": {}
-      },
-      "_origin_file": "hcr_events_2026-03-14_2026-03-20.json",
-      "_origin_index": 19
     },
     {
       "source_key": "noah",
@@ -7770,8 +7790,8 @@
       "action": "made false claim about former president",
       "act_key": "trump|made false claim about former president|2026-03-17",
       "attacks": [
-        "11",
-        "34"
+        "truth",
+        "reality"
       ],
       "source_meta": {
         "headline": null,
@@ -7917,37 +7937,6 @@
       },
       "_origin_file": "meidas_events_2026-03-07_2026-05-15.json",
       "_origin_index": 925
-    },
-    {
-      "source_key": "whitehouse",
-      "date": "2026-03-17",
-      "occurred_on": "2026-03-17",
-      "reported_on": "2026-03-17",
-      "dated_by": "occurred",
-      "category": "Information & Media Control",
-      "title": "Airline CEOs Demand “Immediate” Action as Democrats’ DHS Shutdown Pushes Air Travel to the Brink",
-      "url": "https://www.whitehouse.gov/releases/2026/03/airline-ceos-demand-immediate-action-as-democrats-dhs-shutdown-pushes-air-travel-to-the-brink/",
-      "summary": "The White House published this release on 2026-03-17 through its releases channel.",
-      "why_relevant": "",
-      "jurisdiction": "federal",
-      "federal_nexus": "Official White House channel; documents the act of publication only.",
-      "confidence": "high",
-      "basis": "official_actor_record",
-      "actor": "The White House",
-      "action": "published a release titled \"Airline CEOs Demand “Immediate” Action as Democrats’ DHS Shutdown Pushes Air Travel to the Brink\"",
-      "act_key": "white house|published a release titled airline ceos demand immediate action as democrats dhs shutdown pushes air travel to the brink|2026-03-17",
-      "attacks": [],
-      "source_meta": {
-        "headline": null,
-        "published_on": null,
-        "byline": null,
-        "outlet": null,
-        "accessed_on": null,
-        "snapshot_url": null,
-        "durable_keys": {}
-      },
-      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
-      "_origin_index": 97
     },
     {
       "source_key": "federalregister",
@@ -8757,9 +8746,9 @@
       "action": "threatened nato withdrawal",
       "act_key": "trump|threatened nato withdrawal|2026-03-17",
       "attacks": [
-        "35",
-        "38",
-        "42"
+        "allies",
+        "peace",
+        "separation_of_powers"
       ],
       "source_meta": {
         "headline": "March 17, 2026",
@@ -9151,6 +9140,37 @@
       "_origin_index": 837
     },
     {
+      "source_key": "hcr",
+      "date": "2026-03-17",
+      "occurred_on": "",
+      "reported_on": "2026-03-17",
+      "dated_by": "reported",
+      "category": "Civil–Military Relations & State Violence",
+      "title": "British Evacuation from Boston",
+      "url": "https://heathercoxrichardson.substack.com/p/march-16-2026",
+      "summary": "On March 17, 1776, British forces evacuated Boston, departing with over 10,000 soldiers and more than 1,000 loyalists aboard 120 ships. This retreat followed a successful siege by the Continental Army, led by General George Washington, who had positioned cannons captured from Fort Ticonderoga on Dorchester Heights. The evacuation marked a significant victory for the Patriots, boosting their morale and demonstrating their ability to challenge British military power.",
+      "why_relevant": "The event exemplifies a pivotal moment in the American Revolution, showcasing the effectiveness of the Continental Army and the resolve of the Patriots in their fight for independence.",
+      "jurisdiction": "",
+      "federal_nexus": "",
+      "confidence": "",
+      "basis": "",
+      "actor": "",
+      "action": "",
+      "act_key": "",
+      "attacks": [],
+      "source_meta": {
+        "headline": "March 16, 2026",
+        "published_on": "2026-03-17",
+        "byline": "Heather Cox Richardson",
+        "outlet": "Letters from an American",
+        "accessed_on": "2026-08-14T22:54:48Z",
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "hcr_events_2026-03-01_2026-03-20.json",
+      "_origin_index": 14
+    },
+    {
       "source_key": "meidas",
       "date": "2026-03-17",
       "occurred_on": "2026-03-17",
@@ -9339,8 +9359,8 @@
       "action": "requested war funding",
       "act_key": "pete hegseth|requested war funding|2026-03-18",
       "attacks": [
-        "38",
-        "42"
+        "peace",
+        "separation_of_powers"
       ],
       "source_meta": {
         "headline": null,
@@ -9477,8 +9497,8 @@
       "action": "refused to commit to sworn testimony",
       "act_key": "pam bondi|refused to commit to sworn testimony|2026-03-18",
       "attacks": [
-        "21",
-        "43"
+        "congress",
+        "rule_of_law"
       ],
       "source_meta": {
         "headline": null,
@@ -9511,7 +9531,7 @@
       "action": "walked out of briefing",
       "act_key": "house democrats|walked out of briefing|2026-03-18",
       "attacks": [
-        "21"
+        "congress"
       ],
       "source_meta": {
         "headline": null,
@@ -9544,11 +9564,11 @@
       "action": "demanded filibuster elimination",
       "act_key": "trump|demanded filibuster elimination|2026-03-18",
       "attacks": [
-        "2",
-        "5",
-        "41",
-        "42",
-        "43"
+        "women",
+        "lgbtq",
+        "constitution",
+        "separation_of_powers",
+        "rule_of_law"
       ],
       "source_meta": {
         "headline": "March 17, 2026",
@@ -9775,29 +9795,29 @@
       "reported_on": "2026-03-18",
       "dated_by": "occurred",
       "category": "Judicial Developments",
-      "title": "Justice Department Files Case to Revoke U.S. Citizenship of Mastermind Behind Multimillion-Dollar Tax Fraud Scheme",
+      "title": "Justice Department files denaturalization complaint against convicted tax fraudster",
       "url": "https://www.justice.gov/opa/pr/justice-department-files-case-revoke-us-citizenship-mastermind-behind-multimillion-dollar",
-      "summary": "The Department of Justice announced this on 2026-03-18 through Civil Division. The recorded stage is a sentence imposed. The department's own account of it reads: \"The U.S. Department of Justice announced that it has filed and served a civil denaturalization complaint in the U.S. District Court in Baltimore, Maryland, against Emmanuel Oluwatosin Kazeem, a native of Nigeria who organized a vast conspiracy to steal identities and file fraudulent tax returns.\"",
-      "why_relevant": "",
+      "summary": "The Department of Justice announced it filed a civil denaturalization complaint in U.S. District Court in Baltimore against Emmanuel Oluwatosin Kazeem, a Nigerian national convicted in 2017 of 19 counts of mail and wire fraud, aggravated identity theft, and conspiracy. Kazeem led a scheme involving over 259,000 stolen identities, filed 10,139 fraudulent federal tax returns seeking $91 million in refunds, and successfully obtained $11.6 million. He was sentenced to 15 years in prison in 2018 but had his sentence commuted by President Biden in December 2024 after six years served. The DOJ alleges his naturalization was unlawful due to fraud and a prior sham marriage.",
+      "why_relevant": "The filing represents a prosecutorial action targeting a private individual convicted of serious federal crimes; it does not bear on democratic structure or the independence of law enforcement.",
       "jurisdiction": "federal",
-      "federal_nexus": "Official DOJ channel; documents the act of announcement only.",
+      "federal_nexus": "",
       "confidence": "high",
-      "basis": "official_actor_record",
+      "basis": "the U.S. Department of Justice announced that it has filed and served a civil denaturalization complaint in the U.S. District Court in Baltimore, Maryland, against Emmanuel Oluwatosin Kazeem",
       "actor": "The Department of Justice",
       "action": "announced \"Justice Department Files Case to Revoke U.S. Citizenship of Mastermind Behind Multimillion-Dollar Tax Fraud Scheme\"",
       "act_key": "department|announced justice department files case to revoke u s citizenship of mastermind behind multimillion dollar tax fraud scheme|2026-03-18",
       "attacks": [],
       "source_meta": {
-        "headline": null,
-        "published_on": null,
+        "headline": "Justice Department Files Case to Revoke U.S. Citizenship of Mastermind Behind Multimillion-Dollar Tax Fraud Scheme",
+        "published_on": "2026-03-18",
         "byline": null,
-        "outlet": null,
-        "accessed_on": null,
+        "outlet": "justice.gov",
+        "accessed_on": "2026-08-27T05:22:20Z",
         "snapshot_url": null,
         "durable_keys": {}
       },
       "_origin_file": "justice_events_2025-01-20_2026-08-14.json",
-      "_origin_index": 334
+      "_origin_index": 333
     },
     {
       "source_key": "justsecurity",
@@ -10125,10 +10145,10 @@
       "action": "pressured court over election claims",
       "act_key": "trump|pressured court over election claims|2026-03-18",
       "attacks": [
-        "20",
-        "41",
-        "42",
-        "48"
+        "courts",
+        "constitution",
+        "separation_of_powers",
+        "peaceful_transfer"
       ],
       "source_meta": {
         "headline": "March 17, 2026",
@@ -10874,9 +10894,9 @@
       "action": "eliminated state department energy diplomacy staff",
       "act_key": "trump administration|eliminated state department energy diplomacy staff|2026-03-18",
       "attacks": [
-        "26",
-        "28",
-        "54"
+        "diplomacy",
+        "public_service",
+        "future"
       ],
       "source_meta": {
         "headline": null,
@@ -11211,8 +11231,8 @@
       "action": "expanded military support to iran",
       "act_key": "russia|expanded military support to iran|2026-03-18",
       "attacks": [
-        "35",
-        "38"
+        "allies",
+        "peace"
       ],
       "source_meta": {
         "headline": null,
@@ -11245,9 +11265,9 @@
       "action": "cut off oil to cuba",
       "act_key": "trump administration|cut off oil to cuba|2026-03-18",
       "attacks": [
-        "35",
-        "40",
-        "42"
+        "allies",
+        "idea_of_america",
+        "separation_of_powers"
       ],
       "source_meta": {
         "headline": null,
@@ -11280,9 +11300,9 @@
       "action": "declared u.s. independence from alliances",
       "act_key": "trump|declared u s independence from alliances|2026-03-18",
       "attacks": [
-        "35",
-        "40",
-        "42"
+        "allies",
+        "idea_of_america",
+        "separation_of_powers"
       ],
       "source_meta": {
         "headline": "March 17, 2026",
@@ -11415,8 +11435,8 @@
       "action": "launched military operations in lebanon",
       "act_key": "israel|launched military operations in lebanon|2026-03-18",
       "attacks": [
-        "38",
-        "40"
+        "peace",
+        "idea_of_america"
       ],
       "source_meta": {
         "headline": "March 17, 2026",
@@ -11449,8 +11469,8 @@
       "action": "decommissioned minesweeper ships",
       "act_key": "trump administration|decommissioned minesweeper ships|2026-03-18",
       "attacks": [
-        "38",
-        "54"
+        "peace",
+        "future"
       ],
       "source_meta": {
         "headline": "March 17, 2026",
@@ -11753,9 +11773,9 @@
       "action": "omitted material from testimony",
       "act_key": "tulsi gabbard|omitted material from testimony|2026-03-19",
       "attacks": [
-        "11",
-        "21",
-        "30"
+        "truth",
+        "congress",
+        "information"
       ],
       "source_meta": {
         "headline": null,
@@ -11788,9 +11808,9 @@
       "action": "evaded question on threat assessment",
       "act_key": "tulsi gabbard|evaded question on threat assessment|2026-03-19",
       "attacks": [
-        "11",
-        "21",
-        "24"
+        "truth",
+        "congress",
+        "intelligence"
       ],
       "source_meta": {
         "headline": null,
@@ -11983,86 +12003,24 @@
       "reported_on": "2026-03-19",
       "dated_by": "occurred",
       "category": "Judicial Developments",
-      "title": "Illegal Aliens from Mexico Indicted for Conspiracy to Manufacture and Distribute Methamphetamine Related to a Clandestine Lab in Calaveras County, California",
-      "url": "https://www.justice.gov/opa/pr/illegal-aliens-mexico-indicted-conspiracy-manufacture-and-distribute-methamphetamine-related",
-      "summary": "The Department of Justice announced this on 2026-03-19 through Office of the Attorney General. The recorded stage is an indictment returned. The allegations are unadjudicated; this documents the announcement, not the truth of any allegation. The department's own account of it reads: \"A federal grand jury returned a 10-count indictment today against five illegal aliens from Mexico, charging them with conspiracy to manufacture and distribute methamphetamine, as well as various other drug trafficking and firearms offenses, Attorney General Pamela Bondi and U.S. Attorney Eric Grant announced.\"",
-      "why_relevant": "",
-      "jurisdiction": "federal",
-      "federal_nexus": "Official DOJ channel; documents the act of announcement only.",
-      "confidence": "high",
-      "basis": "official_actor_record",
-      "actor": "The Department of Justice",
-      "action": "announced \"Illegal Aliens from Mexico Indicted for Conspiracy to Manufacture and Distribute Methamphetamine Related to a Clandestine Lab in Calaveras County, California\"",
-      "act_key": "department|announced illegal aliens from mexico indicted for conspiracy to manufacture and distribute methamphetamine related to a clandestine lab in calaveras county california|2026-03-19",
-      "attacks": [],
-      "source_meta": {
-        "headline": null,
-        "published_on": null,
-        "byline": null,
-        "outlet": null,
-        "accessed_on": null,
-        "snapshot_url": null,
-        "durable_keys": {}
-      },
-      "_origin_file": "justice_events_2025-01-20_2026-08-14.json",
-      "_origin_index": 336
-    },
-    {
-      "source_key": "justice",
-      "date": "2026-03-19",
-      "occurred_on": "2026-03-19",
-      "reported_on": "2026-03-19",
-      "dated_by": "occurred",
-      "category": "Judicial Developments",
-      "title": "South Carolina Man Pleads Guilty to Federal Civil Rights Crime for Racially Motivated Shooting",
+      "title": "South Carolina man pleads guilty to federal civil rights crime for racially motivated shooting",
       "url": "https://www.justice.gov/opa/pr/south-carolina-man-pleads-guilty-federal-civil-rights-crime-racially-motivated-shooting",
-      "summary": "The Department of Justice announced this on 2026-03-19 through Civil Rights Division. The recorded stage is a plea entered. The department's own account of it reads: \"The Department of Justice announced that Jonathan Andrew Felkel, 34, entered a plea of guilty today before United States District Judge Mary Geiger Lewis for violating the housing rights of his Black neighbor, J.M., in violation of 42 U.S.C. §. 3631.\"",
-      "why_relevant": "",
+      "summary": "Jonathan Andrew Felkel, 34, pleaded guilty before U.S. District Judge Mary Geiger Lewis to violating the housing rights of his Black neighbor under 42 U.S.C. § 3631. On July 17, 2025, Felkel fired a gun and shouted a racial slur at the neighbor while the neighbor stood at a community gate. Felkel admitted to law enforcement that he believed Black people were committing crimes in the neighborhood, had assumed the neighbor was a criminal based on race, and intended to force the neighbor to leave the area. Sentencing is pending; the maximum penalty is 10 years in prison.",
+      "why_relevant": "This plea represents the Department of Justice's enforcement of federal civil rights protections against racially motivated violence and housing discrimination, demonstrating the use of federal prosecutorial power to protect citizens from race-based intimidation and threats.",
       "jurisdiction": "federal",
-      "federal_nexus": "Official DOJ channel; documents the act of announcement only.",
+      "federal_nexus": "",
       "confidence": "high",
-      "basis": "official_actor_record",
+      "basis": "Jonathan Andrew Felkel, 34, entered a plea of guilty today before United States District Judge Mary Geiger Lewis for violating the housing rights of his Black neighbor, J.M., in violation of 42 U.S.C. § 3631.",
       "actor": "The Department of Justice",
       "action": "announced \"South Carolina Man Pleads Guilty to Federal Civil Rights Crime for Racially Motivated Shooting\"",
       "act_key": "department|announced south carolina man pleads guilty to federal civil rights crime for racially motivated shooting|2026-03-19",
       "attacks": [],
       "source_meta": {
-        "headline": null,
-        "published_on": null,
+        "headline": "South Carolina Man Pleads Guilty to Federal Civil Rights Crime for Racially Motivated Shooting",
+        "published_on": "2026-03-19",
         "byline": null,
-        "outlet": null,
-        "accessed_on": null,
-        "snapshot_url": null,
-        "durable_keys": {}
-      },
-      "_origin_file": "justice_events_2025-01-20_2026-08-14.json",
-      "_origin_index": 338
-    },
-    {
-      "source_key": "justice",
-      "date": "2026-03-19",
-      "occurred_on": "2026-03-19",
-      "reported_on": "2026-03-19",
-      "dated_by": "occurred",
-      "category": "Judicial Developments",
-      "title": "Three Charged with Conspiring to Unlawfully Divert Cutting Edge U.S. Artificial Intelligence Technology to China",
-      "url": "https://www.justice.gov/opa/pr/three-charged-conspiring-unlawfully-divert-cutting-edge-us-artificial-intelligence",
-      "summary": "The Department of Justice announced this on 2026-03-19 through Office of the Attorney General. The recorded stage is an indictment returned. The allegations are unadjudicated; this documents the announcement, not the truth of any allegation. The department's own account of it reads: \"Today, an indictment was unsealed charging Yih-Shyan 'Wally' Liaw, Ruei-Tsang 'Steven' Chang, and Ting-Wei 'Willy' Sun, for allegedly conspiring to divert high-performance computer servers assembled in the United States and integrating sophisticated U.S. artificial intelligence technology to China, in violation of U.S. export controls laws. Liaw, a U.S.\"",
-      "why_relevant": "",
-      "jurisdiction": "federal",
-      "federal_nexus": "Official DOJ channel; documents the act of announcement only.",
-      "confidence": "high",
-      "basis": "official_actor_record",
-      "actor": "The Department of Justice",
-      "action": "announced \"Three Charged with Conspiring to Unlawfully Divert Cutting Edge U.S. Artificial Intelligence Technology to China\"",
-      "act_key": "department|announced three charged with conspiring to unlawfully divert cutting edge u s artificial intelligence technology to china|2026-03-19",
-      "attacks": [],
-      "source_meta": {
-        "headline": null,
-        "published_on": null,
-        "byline": null,
-        "outlet": null,
-        "accessed_on": null,
+        "outlet": "justice.gov",
+        "accessed_on": "2026-08-27T05:23:10Z",
         "snapshot_url": null,
         "durable_keys": {}
       },
@@ -12653,8 +12611,8 @@
       "action": "admitted purchasing location data",
       "act_key": "kash patel|admitted purchasing location data|2026-03-19",
       "attacks": [
-        "43",
-        "50"
+        "rule_of_law",
+        "environment"
       ],
       "source_meta": {
         "headline": "Kash Patel admits under oath FBI is buying location data on Americans",
@@ -12675,24 +12633,55 @@
       "reported_on": "2026-03-19",
       "dated_by": "occurred",
       "category": "Law Enforcement & Surveillance",
-      "title": "Ford Motor Company and Borough of Ringwood to Perform Final Cleanup Targeting Groundwater at Ringwood Mines/Landfill Site in New Jersey",
-      "url": "https://www.justice.gov/opa/pr/ford-motor-company-and-borough-ringwood-perform-final-cleanup-targeting-groundwater-ringwood",
-      "summary": "The Department of Justice announced this on 2026-03-19 through Energy and Natural Resources Division. The department's own account of it reads: \"Ford Motor Company (Ford) and the Borough of Ringwood, New Jersey, have agreed to a consent decree with the United States under the federal Comprehensive Environmental Response, Compensation, and Liability Act (CERCLA), also known as the Superfund law.\"",
-      "why_relevant": "",
+      "title": "DOJ announces indictment of three for alleged conspiracy to divert U.S. AI technology to China",
+      "url": "https://www.justice.gov/opa/pr/three-charged-conspiring-unlawfully-divert-cutting-edge-us-artificial-intelligence",
+      "summary": "The Department of Justice announced an indictment unsealing charges against Yih-Shyan \"Wally\" Liaw (U.S. citizen), Ruei-Tsang \"Steven\" Chang (Taiwan citizen), and Ting-Wei \"Willy\" Sun (Taiwan citizen) for allegedly conspiring to divert high-performance computer servers with advanced AI technology to China in violation of U.S. export control laws. Liaw and Sun were arrested; Chang remains a fugitive. The alleged scheme involved false documentation, staged dummy servers to deceive inspectors, and transshipment through Southeast Asia, with approximately $2.5 billion in servers diverted between 2024 and 2025. Each defendant faces charges of conspiracy to violate export controls, conspiracy to smuggle goods, and conspiracy to defraud the United States, each carrying maximum sentences of 5–20 years.",
+      "why_relevant": "The indictment reflects DOJ enforcement of export control law against alleged diversion of strategic U.S. technology to a foreign adversary, a core national security function; the scale ($2.5 billion) and sophistication of the alleged scheme illustrate enforcement priorities and capacity.",
       "jurisdiction": "federal",
-      "federal_nexus": "Official DOJ channel; documents the act of announcement only.",
+      "federal_nexus": "",
       "confidence": "high",
-      "basis": "official_actor_record",
+      "basis": "Today, an indictment was unsealed charging Yih-Shyan 'Wally' Liaw, Ruei-Tsang 'Steven' Chang, and Ting-Wei 'Willy' Sun, for allegedly conspiring to divert high-performance computer servers assembled in the United States and integrating sophisticated U.S. artificial intelligence technology to China, in violation of U.S. export controls laws.",
       "actor": "The Department of Justice",
-      "action": "announced \"Ford Motor Company and Borough of Ringwood to Perform Final Cleanup Targeting Groundwater at Ringwood Mines/Landfill Site in New Jersey\"",
-      "act_key": "department|announced ford motor company and borough of ringwood to perform final cleanup targeting groundwater at ringwood mines landfill site in new jersey|2026-03-19",
+      "action": "announced \"Three Charged with Conspiring to Unlawfully Divert Cutting Edge U.S. Artificial Intelligence Technology to China\"",
+      "act_key": "department|announced three charged with conspiring to unlawfully divert cutting edge u s artificial intelligence technology to china|2026-03-19",
       "attacks": [],
       "source_meta": {
-        "headline": null,
-        "published_on": null,
+        "headline": "Three Charged with Conspiring to Unlawfully Divert Cutting Edge U.S. Artificial Intelligence Technology to China",
+        "published_on": "2026-03-19",
         "byline": null,
-        "outlet": null,
-        "accessed_on": null,
+        "outlet": "justice.gov",
+        "accessed_on": "2026-08-27T05:22:55Z",
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "justice_events_2025-01-20_2026-08-14.json",
+      "_origin_index": 336
+    },
+    {
+      "source_key": "justice",
+      "date": "2026-03-19",
+      "occurred_on": "2026-03-19",
+      "reported_on": "2026-03-19",
+      "dated_by": "occurred",
+      "category": "Law Enforcement & Surveillance",
+      "title": "Federal grand jury indicts five individuals alleged to have operated clandestine methamphetamine laboratory in California",
+      "url": "https://www.justice.gov/opa/pr/illegal-aliens-mexico-indicted-conspiracy-manufacture-and-distribute-methamphetamine-related",
+      "summary": "A federal grand jury returned a 10-count indictment against five individuals alleged to be citizens of Mexico, charging them with conspiracy to manufacture and distribute methamphetamine and related firearms offenses. The indictment followed a coordinated law enforcement operation in February 2026 that seized approximately 3,000 pounds of methamphetamine, 12 firearms, and related materials from locations in Calaveras, Stanislaus, and Sacramento counties, California. The case was prosecuted as part of the Homeland Security Task Force initiative. The defendants face minimum 10-year sentences if convicted on drug-trafficking charges.",
+      "why_relevant": "This is a routine federal drug-trafficking prosecution with no bearing on democratic structure, equal application of law, or the independence of the justice system.",
+      "jurisdiction": "federal",
+      "federal_nexus": "",
+      "confidence": "high",
+      "basis": "A federal grand jury returned a 10-count indictment today against five illegal aliens from Mexico, charging them with conspiracy to manufacture and distribute methamphetamine.",
+      "actor": "The Department of Justice",
+      "action": "announced \"Illegal Aliens from Mexico Indicted for Conspiracy to Manufacture and Distribute Methamphetamine Related to a Clandestine Lab in Calaveras County, California\"",
+      "act_key": "department|announced illegal aliens from mexico indicted for conspiracy to manufacture and distribute methamphetamine related to a clandestine lab in calaveras county california|2026-03-19",
+      "attacks": [],
+      "source_meta": {
+        "headline": "Illegal Aliens from Mexico Indicted for Conspiracy to Manufacture and Distribute Methamphetamine Related to a Clandestine Lab in Calaveras County, California",
+        "published_on": "2026-03-19",
+        "byline": null,
+        "outlet": "justice.gov",
+        "accessed_on": "2026-08-27T05:22:44Z",
         "snapshot_url": null,
         "durable_keys": {}
       },
@@ -13164,130 +13153,6 @@
       "_origin_index": 70
     },
     {
-      "source_key": "whitehouse",
-      "date": "2026-03-19",
-      "occurred_on": "2026-03-19",
-      "reported_on": "2026-03-19",
-      "dated_by": "occurred",
-      "category": "Information & Media Control",
-      "title": "Americans Agree that Operation Epic Fury Is an Overwhelming Success",
-      "url": "https://www.whitehouse.gov/releases/2026/03/americans-agree-that-operation-epic-fury-is-an-overwhelming-success/",
-      "summary": "The White House published this release on 2026-03-19 through its releases channel.",
-      "why_relevant": "",
-      "jurisdiction": "federal",
-      "federal_nexus": "Official White House channel; documents the act of publication only.",
-      "confidence": "high",
-      "basis": "official_actor_record",
-      "actor": "The White House",
-      "action": "published a release titled \"Americans Agree that Operation Epic Fury Is an Overwhelming Success\"",
-      "act_key": "white house|published a release titled americans agree that operation epic fury is an overwhelming success|2026-03-19",
-      "attacks": [],
-      "source_meta": {
-        "headline": null,
-        "published_on": null,
-        "byline": null,
-        "outlet": null,
-        "accessed_on": null,
-        "snapshot_url": null,
-        "durable_keys": {}
-      },
-      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
-      "_origin_index": 95
-    },
-    {
-      "source_key": "whitehouse",
-      "date": "2026-03-19",
-      "occurred_on": "2026-03-19",
-      "reported_on": "2026-03-19",
-      "dated_by": "occurred",
-      "category": "Information & Media Control",
-      "title": "Democrats admit their DHS shutdown is “making people hurt” as they stall negotiations with dangerous demands",
-      "url": "https://www.whitehouse.gov/releases/2026/03/democrats-admit-their-dhs-shutdown-is-making-people-hurt-as-they-stall-negotiations-with-dangerous-demands/",
-      "summary": "The White House published this release on 2026-03-19 through its releases channel.",
-      "why_relevant": "",
-      "jurisdiction": "federal",
-      "federal_nexus": "Official White House channel; documents the act of publication only.",
-      "confidence": "high",
-      "basis": "official_actor_record",
-      "actor": "The White House",
-      "action": "published a release titled \"Democrats admit their DHS shutdown is “making people hurt” as they stall negotiations with dangerous demands\"",
-      "act_key": "white house|published a release titled democrats admit their dhs shutdown is making people hurt as they stall negotiations with dangerous demands|2026-03-19",
-      "attacks": [],
-      "source_meta": {
-        "headline": null,
-        "published_on": null,
-        "byline": null,
-        "outlet": null,
-        "accessed_on": null,
-        "snapshot_url": null,
-        "durable_keys": {}
-      },
-      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
-      "_origin_index": 96
-    },
-    {
-      "source_key": "whitehouse",
-      "date": "2026-03-19",
-      "occurred_on": "2026-03-19",
-      "reported_on": "2026-03-19",
-      "dated_by": "occurred",
-      "category": "Information & Media Control",
-      "title": "Fact Sheet: President Donald J. Trump Strengthens U.S.-Japan Alliance for the Benefit of All Americans",
-      "url": "https://www.whitehouse.gov/fact-sheets/2026/03/fact-sheet-president-donald-j-trump-strengthens-u-s-japan-alliance-for-the-benefit-of-all-americans/",
-      "summary": "The White House published this fact sheet on 2026-03-19 through its fact-sheets channel.",
-      "why_relevant": "",
-      "jurisdiction": "federal",
-      "federal_nexus": "Official White House channel; documents the act of publication only.",
-      "confidence": "high",
-      "basis": "official_actor_record",
-      "actor": "The White House",
-      "action": "issued a fact sheet titled \"Fact Sheet: President Donald J. Trump Strengthens U.S.-Japan Alliance for the Benefit of All Americans\"",
-      "act_key": "white house|issued a fact sheet titled fact sheet president donald j trump strengthens u s japan alliance for the benefit of all americans|2026-03-19",
-      "attacks": [],
-      "source_meta": {
-        "headline": null,
-        "published_on": null,
-        "byline": null,
-        "outlet": null,
-        "accessed_on": null,
-        "snapshot_url": null,
-        "durable_keys": {}
-      },
-      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
-      "_origin_index": 448
-    },
-    {
-      "source_key": "whitehouse",
-      "date": "2026-03-19",
-      "occurred_on": "2026-03-19",
-      "reported_on": "2026-03-19",
-      "dated_by": "occurred",
-      "category": "Information & Media Control",
-      "title": "The United States Advances America-First Drug Control Agenda at the 69th Commission on Narcotic Drugs",
-      "url": "https://www.whitehouse.gov/releases/2026/03/the-united-states-advances-america-first-drug-control-agenda-at-the-69th-commission-on-narcotic-drugs/",
-      "summary": "The White House published this release on 2026-03-19 through its releases channel.",
-      "why_relevant": "",
-      "jurisdiction": "federal",
-      "federal_nexus": "Official White House channel; documents the act of publication only.",
-      "confidence": "high",
-      "basis": "official_actor_record",
-      "actor": "The White House",
-      "action": "published a release titled \"The United States Advances America-First Drug Control Agenda at the 69th Commission on Narcotic Drugs\"",
-      "act_key": "white house|published a release titled the united states advances america first drug control agenda at the 69th commission on narcotic drugs|2026-03-19",
-      "attacks": [],
-      "source_meta": {
-        "headline": null,
-        "published_on": null,
-        "byline": null,
-        "outlet": null,
-        "accessed_on": null,
-        "snapshot_url": null,
-        "durable_keys": {}
-      },
-      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
-      "_origin_index": 1414
-    },
-    {
       "source_key": "federalregister",
       "date": "2026-03-19",
       "occurred_on": "2026-03-19",
@@ -13556,6 +13421,37 @@
       },
       "_origin_file": "guardian_events_2026-03-07_2026-05-15.json",
       "_origin_index": 765
+    },
+    {
+      "source_key": "justice",
+      "date": "2026-03-19",
+      "occurred_on": "2026-03-19",
+      "reported_on": "2026-03-19",
+      "dated_by": "occurred",
+      "category": "Economic & Regulatory Power",
+      "title": "DOJ announces consent decree requiring Ford Motor Company and Borough of Ringwood to perform final groundwater cleanup at Superfund site",
+      "url": "https://www.justice.gov/opa/pr/ford-motor-company-and-borough-ringwood-perform-final-cleanup-targeting-groundwater-ringwood",
+      "summary": "The Department of Justice announced a consent decree under CERCLA requiring Ford Motor Company and the Borough of Ringwood, New Jersey, to perform the final cleanup phase (Operable Unit 3) at the Ringwood Mines/Landfill Superfund Site. The $3.4 million cleanup addresses benzene, 1,4-dioxane, and lead contamination in groundwater resulting from Ford's disposal of paint sludge and industrial waste from its Mahwah automobile assembly plant from the late 1960s through early 1970s. The New Jersey Department of Environmental Protection and the Spill Compensation Fund are co-plaintiffs. The site drains to the Wanaque Reservoir, a drinking water source for over two million residents.",
+      "why_relevant": "The settlement demonstrates enforcement of environmental liability and remediation obligations under federal Superfund law, holding a major corporation accountable for contamination that threatens public drinking water supplies.",
+      "jurisdiction": "federal",
+      "federal_nexus": "",
+      "confidence": "high",
+      "basis": "Ford Motor Company (Ford) and the Borough of Ringwood, New Jersey, have agreed to a consent decree with the United States under the federal Comprehensive Environmental Response, Compensation, and Liability Act (CERCLA).",
+      "actor": "The Department of Justice",
+      "action": "announced \"Ford Motor Company and Borough of Ringwood to Perform Final Cleanup Targeting Groundwater at Ringwood Mines/Landfill Site in New Jersey\"",
+      "act_key": "department|announced ford motor company and borough of ringwood to perform final cleanup targeting groundwater at ringwood mines landfill site in new jersey|2026-03-19",
+      "attacks": [],
+      "source_meta": {
+        "headline": "Ford Motor Company and Borough of Ringwood to Perform Final Cleanup Targeting Groundwater at Ringwood Mines/Landfill Site in New Jersey",
+        "published_on": "2026-03-19",
+        "byline": null,
+        "outlet": "justice.gov",
+        "accessed_on": "2026-08-27T05:22:32Z",
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "justice_events_2025-01-20_2026-08-14.json",
+      "_origin_index": 334
     },
     {
       "source_key": "meidas",
@@ -14347,6 +14243,72 @@
       "_origin_index": 17
     },
     {
+      "source_key": "whitehouse",
+      "date": "2026-03-19",
+      "occurred_on": "2026-03-19",
+      "reported_on": "2026-03-19",
+      "dated_by": "occurred",
+      "category": "International Relations",
+      "title": "White House issues fact sheet on U.S.-Japan alliance strengthening",
+      "url": "https://www.whitehouse.gov/fact-sheets/2026/03/fact-sheet-president-donald-j-trump-strengthens-u-s-japan-alliance-for-the-benefit-of-all-americans/",
+      "summary": "The White House issued a fact sheet on March 19, 2026, describing announcements made during a meeting between President Trump and Japanese Prime Minister Sanae Takaichi. The document claims the two leaders announced initiatives to strengthen the U.S.-Japan alliance, enhance economic security, and bolster deterrence in the Indo-Pacific. It states the announcement includes a second tranche of Japanese investments worth up to $73 billion in energy infrastructure, expanded agricultural market access, joint research on critical minerals and advanced technologies, expanded space cooperation including lunar missions, and enhanced defense cooperation including missile production and deployment.",
+      "why_relevant": "The fact sheet documents executive announcements affecting U.S. foreign policy, alliance structure, defense posture in the Indo-Pacific, and strategic competition with China and other powers, all matters of constitutional executive authority and democratic oversight.",
+      "jurisdiction": "federal",
+      "federal_nexus": "",
+      "confidence": "high",
+      "basis": "President Donald J. Trump and Prime Minister Sanae Takaichi met at the White House and announced new initiatives to strengthen the U.S.-Japan Alliance, enhance economic security, and bolster deterrence to advance a free and open Indo-Pacific.",
+      "actor": "The White House",
+      "action": "issued a fact sheet titled \"Fact Sheet: President Donald J. Trump Strengthens U.S.-Japan Alliance for the Benefit of All Americans\"",
+      "act_key": "white house|issued a fact sheet titled fact sheet president donald j trump strengthens u s japan alliance for the benefit of all americans|2026-03-19",
+      "attacks": [],
+      "source_meta": {
+        "headline": "Fact Sheet: President Donald J. Trump Strengthens U.S.-Japan Alliance for the Benefit of All Americans",
+        "published_on": "2026-03-20",
+        "byline": null,
+        "outlet": "The White House",
+        "accessed_on": "2026-08-26T23:42:26Z",
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
+      "_origin_index": 392
+    },
+    {
+      "source_key": "whitehouse",
+      "date": "2026-03-19",
+      "occurred_on": "",
+      "reported_on": "2026-03-19",
+      "dated_by": "reported",
+      "category": "International Relations",
+      "title": "White House issues fact sheet promoting Operation Epic Fury as successful military campaign against Iran",
+      "url": "https://www.whitehouse.gov/releases/2026/03/americans-agree-that-operation-epic-fury-is-an-overwhelming-success/",
+      "summary": "The White House published a fact sheet claiming that Operation Epic Fury, a military campaign against Iran lasting three weeks, has achieved overwhelming success. The document states the campaign has destroyed Iranian air and naval capabilities, ballistic missile arsenals, and over 7,000 targets, and crippled Iran's ability to fund terrorist proxies. The fact sheet cites polling data showing support ranging from 61% to 94% among various American and Republican subgroups, and characterizes media criticism as \"Fake News\" and \"rooting against America's success.\"",
+      "why_relevant": "The issuance asserts executive authority to conduct sustained military operations against a foreign state and frames domestic political opposition to the campaign as illegitimate, raising questions about executive war powers, congressional oversight, and the separation of powers in military decision-making.",
+      "jurisdiction": "federal",
+      "federal_nexus": "",
+      "confidence": "high",
+      "basis": "Operation Epic Fury is delivering overwhelming, devastating success against the world's leading state sponsor of terrorism. In just three weeks, America's unmatched military has obliterated the Iranian regime's air and naval capabilities, demolished its ballistic missile arsenal and production facilities, annihilated more than 7,000 targets.",
+      "actor": "The White House",
+      "action": "published a release titled \"Americans Agree that Operation Epic Fury Is an Overwhelming Success\"",
+      "act_key": "white house|published a release titled americans agree that operation epic fury is an overwhelming success|2026-03-19",
+      "attacks": [
+        "peace",
+        "separation_of_powers",
+        "rule_of_law"
+      ],
+      "source_meta": {
+        "headline": "Americans Agree that Operation Epic Fury Is an Overwhelming Success",
+        "published_on": "2026-03-19",
+        "byline": null,
+        "outlet": "The White House",
+        "accessed_on": "2026-08-26T22:36:40Z",
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
+      "_origin_index": 82
+    },
+    {
       "source_key": "defense",
       "date": "2026-03-19",
       "occurred_on": "2026-03-19",
@@ -14687,29 +14649,63 @@
       "reported_on": "2026-03-20",
       "dated_by": "occurred",
       "category": "Executive Actions & Orders",
-      "title": "Preserving America’s Game",
-      "url": "https://www.whitehouse.gov/presidential-actions/2026/03/preserving-americas-game/",
-      "summary": "The White House published this executive order on 2026-03-20 through its executive-orders channel.",
-      "why_relevant": "",
+      "title": "White House issues national AI legislative framework proposal",
+      "url": "https://www.whitehouse.gov/releases/2026/03/president-donald-j-trump-unveils-national-ai-legislative-framework/",
+      "summary": "The White House issued a comprehensive legislative framework addressing six key AI policy objectives: protecting children and empowering parents through account controls and safety features; safeguarding communities by streamlining data center permitting and combating AI-enabled scams; respecting intellectual property while enabling fair use; preventing censorship and protecting free speech from AI systems; removing innovation barriers to ensure American AI dominance; and developing an AI-ready workforce. The administration states the framework requires uniform federal application to prevent conflicting state laws from undermining innovation.",
+      "why_relevant": "The framework asserts federal authority over AI policy across multiple domains (speech, innovation, data infrastructure, child safety) and explicitly rejects state-level regulation, centralizing control over a transformative technology with direct bearing on democratic speech, information systems, and economic competition.",
       "jurisdiction": "federal",
-      "federal_nexus": "Official White House channel; documents the act of publication only.",
+      "federal_nexus": "",
       "confidence": "high",
-      "basis": "official_actor_record",
+      "basis": "The Trump Administration is demonstrating that leadership by issuing a comprehensive national legislative framework that addresses the most pressing policy topics that AI presents.",
+      "actor": "The White House",
+      "action": "published a release titled \"President Donald J. Trump Unveils National AI Legislative Framework\"",
+      "act_key": "white house|published a release titled president donald j trump unveils national ai legislative framework|2026-03-20",
+      "attacks": [
+        "separation_of_powers",
+        "press"
+      ],
+      "source_meta": {
+        "headline": "President Donald J. Trump Unveils National AI Legislative Framework",
+        "published_on": "2026-03-20",
+        "byline": null,
+        "outlet": "The White House",
+        "accessed_on": "2026-08-26T22:36:28Z",
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
+      "_origin_index": 81
+    },
+    {
+      "source_key": "whitehouse",
+      "date": "2026-03-20",
+      "occurred_on": "2026-03-20",
+      "reported_on": "2026-03-20",
+      "dated_by": "occurred",
+      "category": "Executive Actions & Orders",
+      "title": "White House signed executive order directing federal coordination to protect Army-Navy Game scheduling",
+      "url": "https://www.whitehouse.gov/presidential-actions/2026/03/preserving-americas-game/",
+      "summary": "The White House issued Executive Order 14396 on March 20, 2026, directing the Secretary of Commerce and FCC Chairman to coordinate with the College Football Playoff Committee, NCAA, and broadcast partners to establish an exclusive broadcast window for the Army-Navy Game on the second Saturday in December, preventing scheduling conflicts with postseason college football games. The order states the CFP expansion \"threatens to encroach\" on this traditional date and directs the FCC to review whether broadcast licensees' public interest obligations require the game remain a national service event.",
+      "why_relevant": "The order asserts executive authority over private sports scheduling and broadcast licensing, using federal agencies to enforce a preference for a military institution's event over commercial college sports competition.",
+      "jurisdiction": "federal",
+      "federal_nexus": "",
+      "confidence": "high",
+      "basis": "it is the policy of the United States that no college football game, specifically college football's CFP or other postseason games, be broadcast in a manner that directly conflicts with the Army‑Navy Game.",
       "actor": "The White House",
       "action": "announced an executive order titled \"Preserving America’s Game\"",
       "act_key": "white house|announced an executive order titled preserving america s game|2026-03-20",
       "attacks": [],
       "source_meta": {
-        "headline": null,
-        "published_on": null,
+        "headline": "Preserving America's Game",
+        "published_on": "2026-03-20",
         "byline": null,
-        "outlet": null,
-        "accessed_on": null,
+        "outlet": "The White House",
+        "accessed_on": "2026-08-27T00:42:00Z",
         "snapshot_url": null,
         "durable_keys": {}
       },
       "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
-      "_origin_index": 761
+      "_origin_index": 705
     },
     {
       "source_key": "guardian",
@@ -14954,29 +14950,29 @@
       "reported_on": "2026-03-20",
       "dated_by": "occurred",
       "category": "Judicial Developments",
-      "title": "Justice Department Sues Harvard University for Antisemitism",
+      "title": "Justice Department files Title VI lawsuit against Harvard University for alleged antisemitism and discrimination against Jewish and Israeli students",
       "url": "https://www.justice.gov/opa/pr/justice-department-sues-harvard-university-antisemitism",
-      "summary": "The Department of Justice announced this on 2026-03-20 through Office of the Attorney General. The recorded stage is a complaint filed. The allegations are unadjudicated; this documents the announcement, not the truth of any allegation. The department's own account of it reads: \"Today, the Justice Department’s Civil Rights Division filed a lawsuit against Harvard University for race and national origin discrimination against Jewish and Israeli students, in violation of Title VI of the Civil Rights Act of 1964.\"",
-      "why_relevant": "",
+      "summary": "The Department of Justice's Civil Rights Division filed a lawsuit in U.S. District Court for the District of Massachusetts against Harvard University, alleging violations of Title VI of the Civil Rights Act of 1964. The complaint alleges that since October 7, 2023, Harvard tolerated antisemitic harassment, assault, and intimidation of Jewish and Israeli students by mobs of students, faculty, and visitors, and selectively enforced campus rules to permit such conduct to continue. The department seeks to compel Harvard's compliance with Title VI and recover over $2.6 billion in federal taxpayer funds that Harvard accepted while allegedly in violation of the statute.",
+      "why_relevant": "The lawsuit represents a federal enforcement action targeting alleged discrimination at a major educational institution and signals the department's enforcement priorities regarding civil rights protections for a specific student population on campus.",
       "jurisdiction": "federal",
-      "federal_nexus": "Official DOJ channel; documents the act of announcement only.",
+      "federal_nexus": "",
       "confidence": "high",
-      "basis": "official_actor_record",
+      "basis": "Today, the Justice Department's Civil Rights Division filed a lawsuit against Harvard University for race and national origin discrimination against Jewish and Israeli students, in violation of Title VI of the Civil Rights Act of 1964.",
       "actor": "The Department of Justice",
       "action": "announced \"Justice Department Sues Harvard University for Antisemitism\"",
       "act_key": "department|announced justice department sues harvard university for antisemitism|2026-03-20",
       "attacks": [],
       "source_meta": {
-        "headline": null,
-        "published_on": null,
+        "headline": "Justice Department Sues Harvard University for Antisemitism",
+        "published_on": "2026-03-20",
         "byline": null,
-        "outlet": null,
-        "accessed_on": null,
+        "outlet": "justice.gov",
+        "accessed_on": "2026-08-27T05:23:19Z",
         "snapshot_url": null,
         "durable_keys": {}
       },
       "_origin_file": "justice_events_2025-01-20_2026-08-14.json",
-      "_origin_index": 339
+      "_origin_index": 338
     },
     {
       "source_key": "justsecurity",
@@ -15654,68 +15650,6 @@
       "_origin_index": 10
     },
     {
-      "source_key": "whitehouse",
-      "date": "2026-03-20",
-      "occurred_on": "2026-03-20",
-      "reported_on": "2026-03-20",
-      "dated_by": "occurred",
-      "category": "Information & Media Control",
-      "title": "Democrats’ DHS Shutdown Enters 35th Day as Airports Plunge into Chaos, Frontline Workers Suffer",
-      "url": "https://www.whitehouse.gov/releases/2026/03/democrats-dhs-shutdown-enters-35th-day-as-airports-plunge-into-chaos-frontline-workers-suffer/",
-      "summary": "The White House published this release on 2026-03-20 through its releases channel.",
-      "why_relevant": "",
-      "jurisdiction": "federal",
-      "federal_nexus": "Official White House channel; documents the act of publication only.",
-      "confidence": "high",
-      "basis": "official_actor_record",
-      "actor": "The White House",
-      "action": "published a release titled \"Democrats’ DHS Shutdown Enters 35th Day as Airports Plunge into Chaos, Frontline Workers Suffer\"",
-      "act_key": "white house|published a release titled democrats dhs shutdown enters 35th day as airports plunge into chaos frontline workers suffer|2026-03-20",
-      "attacks": [],
-      "source_meta": {
-        "headline": null,
-        "published_on": null,
-        "byline": null,
-        "outlet": null,
-        "accessed_on": null,
-        "snapshot_url": null,
-        "durable_keys": {}
-      },
-      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
-      "_origin_index": 93
-    },
-    {
-      "source_key": "whitehouse",
-      "date": "2026-03-20",
-      "occurred_on": "2026-03-20",
-      "reported_on": "2026-03-20",
-      "dated_by": "occurred",
-      "category": "Information & Media Control",
-      "title": "President Donald J. Trump Unveils National AI Legislative Framework",
-      "url": "https://www.whitehouse.gov/releases/2026/03/president-donald-j-trump-unveils-national-ai-legislative-framework/",
-      "summary": "The White House published this release on 2026-03-20 through its releases channel.",
-      "why_relevant": "",
-      "jurisdiction": "federal",
-      "federal_nexus": "Official White House channel; documents the act of publication only.",
-      "confidence": "high",
-      "basis": "official_actor_record",
-      "actor": "The White House",
-      "action": "published a release titled \"President Donald J. Trump Unveils National AI Legislative Framework\"",
-      "act_key": "white house|published a release titled president donald j trump unveils national ai legislative framework|2026-03-20",
-      "attacks": [],
-      "source_meta": {
-        "headline": null,
-        "published_on": null,
-        "byline": null,
-        "outlet": null,
-        "accessed_on": null,
-        "snapshot_url": null,
-        "durable_keys": {}
-      },
-      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
-      "_origin_index": 94
-    },
-    {
       "source_key": "federalregister",
       "date": "2026-03-20",
       "occurred_on": "2026-03-20",
@@ -16347,9 +16281,9 @@
       "action": "blocked document release",
       "act_key": "doj|blocked document release|2026-03-20",
       "attacks": [
-        "21",
-        "30",
-        "43"
+        "congress",
+        "information",
+        "rule_of_law"
       ],
       "source_meta": {
         "headline": null,

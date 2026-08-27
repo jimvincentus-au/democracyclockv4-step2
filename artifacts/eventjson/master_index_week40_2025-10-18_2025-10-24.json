@@ -5,30 +5,30 @@
   },
   "week_number": 40,
   "sources": [
-    "hcr",
-    "whitehouse",
-    "justsecurity",
-    "50501",
-    "justice",
-    "guardian",
-    "meidas",
-    "democracydocket",
-    "federalregister",
     "outloud",
+    "popinfo",
+    "50501",
+    "zeteo",
+    "justsecurity",
+    "federalregister",
+    "guardian",
+    "justice",
+    "whitehouse",
     "defense",
     "noah",
-    "popinfo",
-    "zeteo",
-    "scotusorders"
+    "scotusorders",
+    "hcr",
+    "meidas",
+    "democracydocket"
   ],
   "counts": {
-    "total": 392,
+    "total": 389,
     "by_date": {
       "2025-10-18": 53,
       "2025-10-19": 17,
       "2025-10-20": 71,
-      "2025-10-21": 89,
-      "2025-10-22": 37,
+      "2025-10-21": 88,
+      "2025-10-22": 35,
       "2025-10-23": 54,
       "2025-10-24": 71
     },
@@ -44,25 +44,25 @@
       "justsecurity": 13,
       "scotusorders": 10,
       "outloud": 5,
-      "whitehouse": 11,
       "federalregister": 7,
-      "justice": 3,
+      "whitehouse": 9,
+      "justice": 2,
       "defense": 1
     },
     "by_category": {
       "Executive Actions & Orders": 50,
-      "Judicial Developments": 48,
+      "Judicial Developments": 47,
       "Law Enforcement & Surveillance": 49,
       "Elections & Representation": 21,
-      "Civil Society & Protest": 33,
-      "Information & Media Control": 33,
-      "Economic & Regulatory Power": 48,
+      "Civil Society & Protest": 32,
+      "Information & Media Control": 26,
+      "Economic & Regulatory Power": 52,
       "Appointments & Patronage": 18,
-      "International Relations": 24,
+      "International Relations": 25,
       "Civil–Military Relations & State Violence": 19,
       "Justice Dept & Law Enforcement": 1,
       "": 1,
-      "Legislative & Oversight Activity": 28,
+      "Legislative & Oversight Activity": 29,
       "Courts / Supreme Court / Orders": 10,
       "Education & Regulatory Power": 1,
       "Transparency & Records": 8
@@ -4011,68 +4011,6 @@
       "_origin_index": 112
     },
     {
-      "source_key": "whitehouse",
-      "date": "2025-10-20",
-      "occurred_on": "2025-10-20",
-      "reported_on": "2025-10-20",
-      "dated_by": "occurred",
-      "category": "Information & Media Control",
-      "title": "Fact Sheet: President Donald J. Trump Closes Billion-Dollar Deals with Australia",
-      "url": "https://www.whitehouse.gov/fact-sheets/2025/10/fact-sheet-president-donald-j-trump-closes-billion-dollar-deals-with-australia/",
-      "summary": "The White House published this fact sheet on 2025-10-20 through its fact-sheets channel.",
-      "why_relevant": "",
-      "jurisdiction": "federal",
-      "federal_nexus": "Official White House channel; documents the act of publication only.",
-      "confidence": "high",
-      "basis": "official_actor_record",
-      "actor": "The White House",
-      "action": "issued a fact sheet titled \"Fact Sheet: President Donald J. Trump Closes Billion-Dollar Deals with Australia\"",
-      "act_key": "white house|issued a fact sheet titled fact sheet president donald j trump closes billion dollar deals with australia|2025-10-20",
-      "attacks": [],
-      "source_meta": {
-        "headline": null,
-        "published_on": null,
-        "byline": null,
-        "outlet": null,
-        "accessed_on": null,
-        "snapshot_url": null,
-        "durable_keys": {}
-      },
-      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
-      "_origin_index": 507
-    },
-    {
-      "source_key": "whitehouse",
-      "date": "2025-10-20",
-      "occurred_on": "2025-10-20",
-      "reported_on": "2025-10-20",
-      "dated_by": "occurred",
-      "category": "Information & Media Control",
-      "title": "Gas Prices Hit Four-Year Low Under President Trump ⛽",
-      "url": "https://www.whitehouse.gov/releases/2025/10/gas-prices-hit-four-year-low-under-trump/",
-      "summary": "The White House published this release on 2025-10-20 through its releases channel.",
-      "why_relevant": "",
-      "jurisdiction": "federal",
-      "federal_nexus": "Official White House channel; documents the act of publication only.",
-      "confidence": "high",
-      "basis": "official_actor_record",
-      "actor": "The White House",
-      "action": "published a release titled \"Gas Prices Hit Four-Year Low Under President Trump ⛽\"",
-      "act_key": "white house|published a release titled gas prices hit four year low under president trump|2025-10-20",
-      "attacks": [],
-      "source_meta": {
-        "headline": null,
-        "published_on": null,
-        "byline": null,
-        "outlet": null,
-        "accessed_on": null,
-        "snapshot_url": null,
-        "durable_keys": {}
-      },
-      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
-      "_origin_index": 219
-    },
-    {
       "source_key": "zeteo",
       "date": "2025-10-20",
       "occurred_on": "2025-10-20",
@@ -4184,8 +4122,8 @@
       "category": "Economic & Regulatory Power",
       "title": "DEA publishes notice of bulk manufacturer application by Organix Chemistry Solutions, LLC",
       "url": "https://www.federalregister.gov/documents/2025/11/26/2025-21186/bulk-manufacturer-of-controlled-substances-application-organix-chemistry-solutions-llc",
-      "summary": "The Drug Enforcement Administration published a notice on November 26, 2025, that Organix Chemistry Solutions, LLC applied on October 20, 2025, to be registered as a bulk manufacturer of controlled substances including Schedule I drugs (gamma hydroxybutyric acid, LSD, psilocybin, heroin, MDMA, DMT, and others) and Schedule II morphine. The company, located in Woburn, Massachusetts, plans to synthesize these substances for distribution to customers. Registered bulk manufacturers and other applicants may submit comments or objections by January 26, 2026, or request a hearing.",
-      "why_relevant": "The DEA's authorization of bulk manufacturing of Schedule I controlled substances represents a significant regulatory decision affecting drug policy, public health oversight, and the lawful production of highly restricted narcotics.",
+      "summary": "The Drug Enforcement Administration published a notice on November 26, 2025, that Organix Chemistry Solutions, LLC applied on October 20, 2025, to be registered as a bulk manufacturer of controlled substances including Schedule I drugs (gamma hydroxybutyric acid, LSD, psilocybin, heroin, MDMA, and others) and Schedule II morphine. The company, located in Woburn, Massachusetts, plans to synthesize these substances for distribution to customers. Registered bulk manufacturers and other applicants may submit comments or objections by January 26, 2026, and may request a hearing on the application.",
+      "why_relevant": "DEA licensing decisions for bulk manufacture of controlled substances affect the legal supply chain for pharmaceutical and research use, and represent a significant regulatory determination with public-health implications.",
       "jurisdiction": "federal",
       "federal_nexus": "",
       "confidence": "high",
@@ -4205,8 +4143,8 @@
           "federal_register_doc": "2025-21186"
         }
       },
-      "_origin_file": "federalregister_events_2025-11-22_2025-11-28.json",
-      "_origin_index": 6
+      "_origin_file": "federalregister_events_2025-09-06_2025-12-12.json",
+      "_origin_index": 14
     },
     {
       "source_key": "federalregister",
@@ -4344,6 +4282,37 @@
       },
       "_origin_file": "popinfo_events_2025-09-06_2025-12-12.json",
       "_origin_index": 39
+    },
+    {
+      "source_key": "whitehouse",
+      "date": "2025-10-20",
+      "occurred_on": "2025-10-20",
+      "reported_on": "2025-10-20",
+      "dated_by": "occurred",
+      "category": "Economic & Regulatory Power",
+      "title": "White House issues fact sheet claiming gas prices hit four-year low",
+      "url": "https://www.whitehouse.gov/releases/2025/10/gas-prices-hit-four-year-low-under-trump/",
+      "summary": "The White House published a fact sheet stating that the nationwide average gasoline price has dropped to $2.98 per gallon, described as the lowest intra-day average in four years, citing GasBuddy data. The document attributes the price decline to President Trump's energy policies and contrasts current prices with those during the Biden administration, when prices remained above $3 per gallon for most of his presidency. The fact sheet includes regional reporting from news outlets across multiple states documenting local price declines.",
+      "why_relevant": "The document demonstrates the executive's use of promotional communications to frame economic conditions as a direct result of its policies, establishing a pattern of attributing market outcomes to presidential action.",
+      "jurisdiction": "federal",
+      "federal_nexus": "",
+      "confidence": "high",
+      "basis": "Americans are seeing some of the lowest prices at the gas pump in more than four years as President Donald J. Trump's relentless commitment to American energy production pays off.",
+      "actor": "The White House",
+      "action": "published a release titled \"Gas Prices Hit Four-Year Low Under President Trump ⛽\"",
+      "act_key": "white house|published a release titled gas prices hit four year low under president trump|2025-10-20",
+      "attacks": [],
+      "source_meta": {
+        "headline": "Gas Prices Hit Four-Year Low Under President Trump ⛽",
+        "published_on": "2025-10-20",
+        "byline": null,
+        "outlet": "The White House",
+        "accessed_on": "2026-08-26T23:00:15Z",
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
+      "_origin_index": 185
     },
     {
       "source_key": "zeteo",
@@ -4487,29 +4456,29 @@
       "reported_on": "2025-10-20",
       "dated_by": "occurred",
       "category": "Appointments & Patronage",
-      "title": "Nomination Sent to the Senate",
+      "title": "White House sent nomination of Jennifer Wicks McNamara to Senate for U.S. Ambassador to Vietnam",
       "url": "https://www.whitehouse.gov/presidential-actions/2025/10/nomination-sent-to-the-senate/",
-      "summary": "The White House published this nominations on 2025-10-20 through its nominations-and-appointments channel.",
-      "why_relevant": "",
+      "summary": "The White House issued a nomination on October 20, 2025, sending Jennifer Wicks McNamara of Virginia to the Senate for confirmation as Ambassador Extraordinary and Plenipotentiary of the United States of America to the Socialist Republic of Vietnam. The document is a formal nominations announcement published on the White House presidential actions page.",
+      "why_relevant": "Ambassadorial nominations are executive appointments requiring Senate confirmation and represent the President's authority to staff the diplomatic corps and shape foreign relations.",
       "jurisdiction": "federal",
-      "federal_nexus": "Official White House channel; documents the act of publication only.",
+      "federal_nexus": "",
       "confidence": "high",
-      "basis": "official_actor_record",
+      "basis": "Jennifer Wicks McNamara, of Virginia, to be Ambassador Extraordinary and Plenipotentiary of the United States of America to the Socialist Republic of Vietnam.",
       "actor": "The White House",
       "action": "published a nominations announcement titled \"Nomination Sent to the Senate\"",
       "act_key": "white house|published a nominations announcement titled nomination sent to the senate|2025-10-20",
       "attacks": [],
       "source_meta": {
-        "headline": null,
-        "published_on": null,
+        "headline": "Nomination Sent to the Senate",
+        "published_on": "2025-10-20",
         "byline": null,
-        "outlet": null,
-        "accessed_on": null,
+        "outlet": "The White House",
+        "accessed_on": "2026-08-27T02:01:22Z",
         "snapshot_url": null,
         "durable_keys": {}
       },
       "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
-      "_origin_index": 1181
+      "_origin_index": 1123
     },
     {
       "source_key": "zeteo",
@@ -4720,6 +4689,37 @@
       },
       "_origin_file": "popinfo_events_2025-09-06_2025-12-12.json",
       "_origin_index": 35
+    },
+    {
+      "source_key": "whitehouse",
+      "date": "2025-10-20",
+      "occurred_on": "2025-10-20",
+      "reported_on": "2025-10-20",
+      "dated_by": "occurred",
+      "category": "International Relations",
+      "title": "White House issues fact sheet on U.S.-Australia trade and defense agreements",
+      "url": "https://www.whitehouse.gov/fact-sheets/2025/10/fact-sheet-president-donald-j-trump-closes-billion-dollar-deals-with-australia/",
+      "summary": "The White House published a fact sheet stating that President Trump and Australian Prime Minister Anthony Albanese signed a Critical Minerals Framework and related agreements. The document claims the U.S. and Australian governments intend to invest more than $3 billion in critical mineral projects within six months, with recoverable resources estimated at $53 billion. It states the Export-Import Bank is issuing Letters of Interest for $2.2 billion in financing, the Department of War will invest in a gallium refinery in Western Australia, and Australia agreed to purchase $1.2 billion in unmanned underwater vehicles and $2.6 billion in Apache helicopters. The fact sheet also claims Australian superannuation funds will increase U.S. investments to $1.44 trillion by 2035 and describes space and technology cooperation initiatives.",
+      "why_relevant": "The act asserts executive authority to negotiate and publicize major bilateral trade, defense, and investment agreements with a key ally, demonstrating the administration's use of executive power to shape international economic and security partnerships.",
+      "jurisdiction": "federal",
+      "federal_nexus": "",
+      "confidence": "high",
+      "basis": "Today, President Donald J. Trump and Australian Prime Minister Anthony Albanese signed a landmark Critical Minerals Framework to unleash the potential of our abundant natural resources.",
+      "actor": "The White House",
+      "action": "issued a fact sheet titled \"Fact Sheet: President Donald J. Trump Closes Billion-Dollar Deals with Australia\"",
+      "act_key": "white house|issued a fact sheet titled fact sheet president donald j trump closes billion dollar deals with australia|2025-10-20",
+      "attacks": [],
+      "source_meta": {
+        "headline": "Fact Sheet: President Donald J. Trump Closes Billion-Dollar Deals with Australia",
+        "published_on": "2025-10-20",
+        "byline": null,
+        "outlet": "The White House",
+        "accessed_on": "2026-08-26T23:53:31Z",
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
+      "_origin_index": 451
     },
     {
       "source_key": "meidas",
@@ -5289,8 +5289,8 @@
       "action": "stated position on discharge petition",
       "act_key": "mike johnson|stated position on discharge petition|2025-10-21",
       "attacks": [
-        "30",
-        "33"
+        "information",
+        "knowledge"
       ],
       "source_meta": {
         "headline": "Speaker Mike Johnson says he won’t block House vote to release Epstein files",
@@ -5594,9 +5594,9 @@
       "action": "issued temporary restraining order",
       "act_key": "karin immergut|issued temporary restraining order|2025-10-21",
       "attacks": [
-        "42",
-        "20",
-        "25"
+        "separation_of_powers",
+        "courts",
+        "military"
       ],
       "source_meta": {
         "headline": "‘Rogue president’: growing number of US judges push back against Trump",
@@ -5629,9 +5629,9 @@
       "action": "issued temporary restraining order",
       "act_key": "april perry|issued temporary restraining order|2025-10-21",
       "attacks": [
-        "20",
-        "25",
-        "42"
+        "courts",
+        "military",
+        "separation_of_powers"
       ],
       "source_meta": {
         "headline": "‘Rogue president’: growing number of US judges push back against Trump",
@@ -5664,10 +5664,10 @@
       "action": "issued ruling blocking deportations",
       "act_key": "william young|issued ruling blocking deportations|2025-10-21",
       "attacks": [
-        "20",
-        "31",
-        "41",
-        "42"
+        "courts",
+        "whistleblowers",
+        "constitution",
+        "separation_of_powers"
       ],
       "source_meta": {
         "headline": "‘Rogue president’: growing number of US judges push back against Trump",
@@ -5734,8 +5734,8 @@
       "action": "denounced judicial ruling",
       "act_key": "stephen miller|denounced judicial ruling|2025-10-21",
       "attacks": [
-        "20",
-        "29"
+        "courts",
+        "press"
       ],
       "source_meta": {
         "headline": "‘Rogue president’: growing number of US judges push back against Trump",
@@ -5834,9 +5834,9 @@
       "action": "petitioned supreme court",
       "act_key": "trump administration|petitioned supreme court|2025-10-21",
       "attacks": [
-        "20",
-        "25",
-        "42"
+        "courts",
+        "military",
+        "separation_of_powers"
       ],
       "source_meta": {
         "headline": "‘Rogue president’: growing number of US judges push back against Trump",
@@ -5869,9 +5869,9 @@
       "action": "publicly attacked judge",
       "act_key": "trump|publicly attacked judge|2025-10-21",
       "attacks": [
-        "20",
-        "11",
-        "29"
+        "courts",
+        "truth",
+        "press"
       ],
       "source_meta": {
         "headline": "‘Rogue president’: growing number of US judges push back against Trump",
@@ -6742,16 +6742,20 @@
       "category": "Civil Society & Protest",
       "title": "Students for a Democratic Society protest Kirk memorial plans at Utah Valley University",
       "url": "https://www.theguardian.com/us-news/2025/nov/28/utah-valley-university-charlie-kirk",
-      "summary": "On October 21, 2025, students led by the Students for a Democratic Society held a protest against Utah Valley University's plans for a Charlie Kirk memorial. Protesters cited Kirk's \"divisive rhetoric\" and comments they characterized as hostile toward minorities, LGBTQ+ students, and immigrants, arguing that such a memorial would not represent the spirit of the university or its diverse student body.",
-      "why_relevant": "Student-led resistance to memorializing a polarizing figure demonstrates ongoing campus contestation over institutional values and whose legacy deserves public honor in shared spaces.",
+      "summary": "On October 21, 2025, students led by the Students for a Democratic Society held a protest against Utah Valley University's plans for a Charlie Kirk memorial. Protesters cited Kirk's \"divisive rhetoric\" and comments they characterized as hostile toward minorities, LGBTQ+ students, and immigrants, arguing that such a memorial would not represent the spirit of the university. The protest reflected campus division over how to memorialize Kirk.",
+      "why_relevant": "Student-led protest against a proposed memorial demonstrates grassroots resistance to institutional memorialization of a polarizing figure and reflects broader campus contestation over institutional values and belonging in the aftermath of political violence.",
       "jurisdiction": "state",
       "federal_nexus": "",
       "confidence": "high",
       "basis": "On 21 October, students led by the Students for a Democratic Society held a protest against the university's plans for a Kirk memorial, citing what they described as his 'divisive rhetoric' and comments they believe were hostile toward 'minorities, LGBTQ+ students, and immigrants'.",
       "actor": "Students for a Democratic Society",
-      "action": "protested memorial plans",
-      "act_key": "students for a democratic society|protested memorial plans|2025-10-21",
-      "attacks": [],
+      "action": "held protest against memorial",
+      "act_key": "students for a democratic society|held protest against memorial|2025-10-21",
+      "attacks": [
+        "minorities",
+        "lgbtq",
+        "immigrants_refugees"
+      ],
       "source_meta": {
         "headline": "Before Charlie Kirk was killed on their campus, students felt happy there. They want that again",
         "published_on": "2025-11-28",
@@ -6761,8 +6765,8 @@
         "snapshot_url": null,
         "durable_keys": {}
       },
-      "_origin_file": "guardian_events_2025-11-22_2025-11-28.json",
-      "_origin_index": 10
+      "_origin_file": "guardian_events_2025-09-06_2025-12-12.json",
+      "_origin_index": 212
     },
     {
       "source_key": "outloud",
@@ -6968,37 +6972,6 @@
       },
       "_origin_file": "meidas_events_2025-09-06_2025-12-12.json",
       "_origin_index": 748
-    },
-    {
-      "source_key": "whitehouse",
-      "date": "2025-10-21",
-      "occurred_on": "2025-10-21",
-      "reported_on": "2025-10-21",
-      "dated_by": "occurred",
-      "category": "Information & Media Control",
-      "title": "White House Ballroom Continues Proud Presidential Legacy",
-      "url": "https://www.whitehouse.gov/releases/2025/10/white-house-ballroom-proud-presidential-legacy/",
-      "summary": "The White House published this release on 2025-10-21 through its releases channel.",
-      "why_relevant": "",
-      "jurisdiction": "federal",
-      "federal_nexus": "Official White House channel; documents the act of publication only.",
-      "confidence": "high",
-      "basis": "official_actor_record",
-      "actor": "The White House",
-      "action": "published a release titled \"White House Ballroom Continues Proud Presidential Legacy\"",
-      "act_key": "white house|published a release titled white house ballroom continues proud presidential legacy|2025-10-21",
-      "attacks": [],
-      "source_meta": {
-        "headline": null,
-        "published_on": null,
-        "byline": null,
-        "outlet": null,
-        "accessed_on": null,
-        "snapshot_url": null,
-        "durable_keys": {}
-      },
-      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
-      "_origin_index": 218
     },
     {
       "source_key": "guardian",
@@ -7321,8 +7294,8 @@
       "action": "withdrew nomination",
       "act_key": "paul ingrassia|withdrew nomination|2025-10-21",
       "attacks": [
-        "31",
-        "43"
+        "whistleblowers",
+        "rule_of_law"
       ],
       "source_meta": {
         "headline": "Trump nominee to lead whistleblower office drops out after racist texts surface",
@@ -7481,29 +7454,29 @@
       "reported_on": "2025-10-21",
       "dated_by": "occurred",
       "category": "Appointments & Patronage",
-      "title": "Nomination Sent to the Senate",
+      "title": "White House sent nominations to Senate for 15 positions and withdrew 2 prior nominations",
       "url": "https://www.whitehouse.gov/presidential-actions/2025/10/nomination-sent-to-the-senate-f090/",
-      "summary": "The White House published this nominations on 2025-10-21 through its nominations-and-appointments channel.",
-      "why_relevant": "",
+      "summary": "The White House sent nominations to the Senate on October 21, 2025, for 15 positions across the federal government, including two federal district judges for Louisiana, three U.S. Marshals, four U.S. Attorneys, one Assistant Secretary of Defense, one Ambassador to Cyprus, one Assistant Secretary of State, one Department of Transportation CFO, and one Coordinator for Counterterrorism. The announcement also noted the withdrawal of two prior nominations sent in February and May 2025.",
+      "why_relevant": "Judicial and prosecutorial nominations directly affect the administration of law and the independence of the judiciary and law enforcement; ambassadorial and cabinet-level appointments shape foreign policy and executive capacity.",
       "jurisdiction": "federal",
-      "federal_nexus": "Official White House channel; documents the act of publication only.",
+      "federal_nexus": "",
       "confidence": "high",
-      "basis": "official_actor_record",
+      "basis": "William J. Crain, of Louisiana, to be United States District Judge for the Eastern District of Louisiana\" and 14 additional named positions sent to Senate on October 21, 2025.",
       "actor": "The White House",
       "action": "published a nominations announcement titled \"Nomination Sent to the Senate\"",
       "act_key": "white house|published a nominations announcement titled nomination sent to the senate|2025-10-21",
       "attacks": [],
       "source_meta": {
-        "headline": null,
-        "published_on": null,
+        "headline": "Nomination Sent to the Senate",
+        "published_on": "2025-10-21",
         "byline": null,
-        "outlet": null,
-        "accessed_on": null,
+        "outlet": "The White House",
+        "accessed_on": "2026-08-27T02:01:10Z",
         "snapshot_url": null,
         "durable_keys": {}
       },
       "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
-      "_origin_index": 1180
+      "_origin_index": 1122
     },
     {
       "source_key": "zeteo",
@@ -7945,6 +7918,40 @@
       "_origin_index": 697
     },
     {
+      "source_key": "justice",
+      "date": "2025-10-22",
+      "occurred_on": "2025-10-22",
+      "reported_on": "2025-10-22",
+      "dated_by": "occurred",
+      "category": "Executive Actions & Orders",
+      "title": "Department of Justice announces civil rights agreement with University of Virginia",
+      "url": "https://www.justice.gov/opa/pr/justice-department-announces-agreement-university-virginia-0",
+      "summary": "The Department of Justice announced an agreement with the University of Virginia on October 22, 2025, under which UVA commits to comply with DOJ guidance on federal civil rights law and to prohibit unlawful discrimination based on race, sex, or national origin in admissions, hiring, and programming. UVA will provide quarterly compliance data through 2028 and the university president will certify quarterly compliance. DOJ will pause pending investigations into UVA's admissions policies and other civil rights concerns; investigations will close if UVA completes planned reforms prohibiting diversity, equity, and inclusion (DEI) programs.",
+      "why_relevant": "The agreement conditions closure of federal civil rights investigations on a university's elimination of DEI programs, linking enforcement of civil rights law to a specific ideological outcome and raising questions about the independence and direction of federal civil rights enforcement.",
+      "jurisdiction": "federal",
+      "federal_nexus": "",
+      "confidence": "high",
+      "basis": "the Department of Justice announced an agreement with the University of Virginia that will protect UVA's students, faculty, and employees from violations of federal civil rights laws",
+      "actor": "The Department of Justice",
+      "action": "announced \"The Justice Department Announces Agreement with University of Virginia\"",
+      "act_key": "department|announced the justice department announces agreement with university of virginia|2025-10-22",
+      "attacks": [
+        "rule_of_law",
+        "justice_dept"
+      ],
+      "source_meta": {
+        "headline": "The Justice Department Announces Agreement with University of Virginia",
+        "published_on": "2025-10-22",
+        "byline": null,
+        "outlet": "justice.gov",
+        "accessed_on": "2026-08-27T04:59:01Z",
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "justice_events_2025-01-20_2026-08-14.json",
+      "_origin_index": 202
+    },
+    {
       "source_key": "meidas",
       "date": "2025-10-22",
       "occurred_on": "",
@@ -8151,37 +8158,6 @@
       },
       "_origin_file": "guardian_events_2025-09-06_2025-12-12.json",
       "_origin_index": 686
-    },
-    {
-      "source_key": "justice",
-      "date": "2025-10-22",
-      "occurred_on": "2025-10-22",
-      "reported_on": "2025-10-22",
-      "dated_by": "occurred",
-      "category": "Judicial Developments",
-      "title": "Mother and Daughter Charged with Forced Labor",
-      "url": "https://www.justice.gov/usao-pr/pr/mother-and-daughter-charged-forced-labor",
-      "summary": "The Department of Justice announced this on 2025-10-22 through Civil Rights Division. The recorded stage is an indictment returned. The allegations are unadjudicated; this documents the announcement, not the truth of any allegation. The department's own account of it reads: \"SAN JUAN, Puerto Rico – A federal grand jury in the District of Puerto Rico returned an indictment charging Luz Maria Peña Lopez, 55, and her daughter, Tatiana Correa Peña, 36, of Carolina, Puerto Rico, with forced labor and conspiracy to commit forced labor, announced Assistant Attorney General Harmeet Dhillon of the Justice Department’s Civil Rights Division and United States Attorney for the District of Puerto …\"",
-      "why_relevant": "",
-      "jurisdiction": "federal",
-      "federal_nexus": "Official DOJ channel; documents the act of announcement only.",
-      "confidence": "high",
-      "basis": "official_actor_record",
-      "actor": "The Department of Justice",
-      "action": "announced \"Mother and Daughter Charged with Forced Labor\"",
-      "act_key": "department|announced mother and daughter charged with forced labor|2025-10-22",
-      "attacks": [],
-      "source_meta": {
-        "headline": null,
-        "published_on": null,
-        "byline": null,
-        "outlet": null,
-        "accessed_on": null,
-        "snapshot_url": null,
-        "durable_keys": {}
-      },
-      "_origin_file": "justice_events_2025-01-20_2026-08-14.json",
-      "_origin_index": 202
     },
     {
       "source_key": "justsecurity",
@@ -8462,37 +8438,6 @@
       "_origin_index": 300
     },
     {
-      "source_key": "justice",
-      "date": "2025-10-22",
-      "occurred_on": "2025-10-22",
-      "reported_on": "2025-10-22",
-      "dated_by": "occurred",
-      "category": "Civil Society & Protest",
-      "title": "The Justice Department Announces Agreement with University of Virginia",
-      "url": "https://www.justice.gov/opa/pr/justice-department-announces-agreement-university-virginia-0",
-      "summary": "The Department of Justice announced this on 2025-10-22 through Civil Rights Division. The department's own account of it reads: \"WASHINGTON – Today, the U.S. Department of Justice announced an agreement with the University of Virginia ('UVA') that will protect UVA’s students, faculty, and employees from violations of federal civil rights laws, including from discrimination based on race, sex, or national origin.\"",
-      "why_relevant": "",
-      "jurisdiction": "federal",
-      "federal_nexus": "Official DOJ channel; documents the act of announcement only.",
-      "confidence": "high",
-      "basis": "official_actor_record",
-      "actor": "The Department of Justice",
-      "action": "announced \"The Justice Department Announces Agreement with University of Virginia\"",
-      "act_key": "department|announced the justice department announces agreement with university of virginia|2025-10-22",
-      "attacks": [],
-      "source_meta": {
-        "headline": null,
-        "published_on": null,
-        "byline": null,
-        "outlet": null,
-        "accessed_on": null,
-        "snapshot_url": null,
-        "durable_keys": {}
-      },
-      "_origin_file": "justice_events_2025-01-20_2026-08-14.json",
-      "_origin_index": 203
-    },
-    {
       "source_key": "meidas",
       "date": "2025-10-22",
       "occurred_on": "",
@@ -8594,37 +8539,6 @@
       },
       "_origin_file": "meidas_events_2025-09-06_2025-12-12.json",
       "_origin_index": 744
-    },
-    {
-      "source_key": "whitehouse",
-      "date": "2025-10-22",
-      "occurred_on": "2025-10-22",
-      "reported_on": "2025-10-22",
-      "dated_by": "occurred",
-      "category": "Information & Media Control",
-      "title": "Top Democrat Cheers Americans’ Suffering as “Leverage” in Their Sick Political Game",
-      "url": "https://www.whitehouse.gov/releases/2025/10/top-democrat-cheers-americans-suffering-as-leverage-in-their-sick-political-game/",
-      "summary": "The White House published this release on 2025-10-22 through its releases channel.",
-      "why_relevant": "",
-      "jurisdiction": "federal",
-      "federal_nexus": "Official White House channel; documents the act of publication only.",
-      "confidence": "high",
-      "basis": "official_actor_record",
-      "actor": "The White House",
-      "action": "published a release titled \"Top Democrat Cheers Americans’ Suffering as “Leverage” in Their Sick Political Game\"",
-      "act_key": "white house|published a release titled top democrat cheers americans suffering as leverage in their sick political game|2025-10-22",
-      "attacks": [],
-      "source_meta": {
-        "headline": null,
-        "published_on": null,
-        "byline": null,
-        "outlet": null,
-        "accessed_on": null,
-        "snapshot_url": null,
-        "durable_keys": {}
-      },
-      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
-      "_origin_index": 217
     },
     {
       "source_key": "zeteo",
@@ -9456,8 +9370,8 @@
       "action": "demanded document release; cited subpoena non-compliance",
       "act_key": "robert garcia|demanded document release cited subpoena non compliance|2025-10-23",
       "attacks": [
-        "21",
-        "30"
+        "congress",
+        "information"
       ],
       "source_meta": {
         "headline": "Top Democrat on House oversight panel demands Pam Bondi release Epstein files",
@@ -9635,6 +9549,39 @@
       },
       "_origin_file": "meidas_events_2025-09-06_2025-12-12.json",
       "_origin_index": 732
+    },
+    {
+      "source_key": "whitehouse",
+      "date": "2025-10-23",
+      "occurred_on": "",
+      "reported_on": "2025-10-23",
+      "dated_by": "reported",
+      "category": "Legislative & Oversight Activity",
+      "title": "White House issues fact sheet attributing government shutdown to Democrats and describing impacts on air traffic control",
+      "url": "https://www.whitehouse.gov/releases/2025/10/democrat-shutdown-jeopardizes-americas-skies/",
+      "summary": "The White House published a fact sheet titled \"Democrat Shutdown Jeopardizes America's Skies\" on October 23, 2025. The document attributes a government shutdown entering its third week to Democratic actions and describes consequences including unpaid air traffic controllers, flight disruptions, and recruitment challenges. Transportation Secretary Sean Duffy is quoted describing controller anger over delayed paychecks and concerns about holiday travel disruptions. The fact sheet frames the shutdown as a Democratic political tactic and asserts controllers may leave the profession or take second jobs.",
+      "why_relevant": "A government shutdown represents a breakdown in the legislative process and executive-legislative coordination; this fact sheet is the administration's public framing of responsibility for that breakdown and its consequences for federal operations and workers.",
+      "jurisdiction": "federal",
+      "federal_nexus": "",
+      "confidence": "high",
+      "basis": "Democrats' reckless government shutdown — now dragging into its third week — has plunged America's air traffic control system towards a tailspin.",
+      "actor": "The White House",
+      "action": "published a release titled \"Democrat Shutdown Jeopardizes America’s Skies\"",
+      "act_key": "white house|published a release titled democrat shutdown jeopardizes america s skies|2025-10-23",
+      "attacks": [
+        "workers"
+      ],
+      "source_meta": {
+        "headline": "Democrat Shutdown Jeopardizes America’s Skies",
+        "published_on": "2025-10-23",
+        "byline": null,
+        "outlet": "The White House",
+        "accessed_on": "2026-08-26T22:59:38Z",
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
+      "_origin_index": 184
     },
     {
       "source_key": "guardian",
@@ -10342,8 +10289,8 @@
       "action": "released research on ai news accuracy",
       "act_key": "european broadcasting union and bbc|released research on ai news accuracy|2025-10-23",
       "attacks": [
-        "11",
-        "34"
+        "truth",
+        "reality"
       ],
       "source_meta": {
         "headline": "What happens when you trust AI for news",
@@ -10376,10 +10323,10 @@
       "action": "released browser restricting information access",
       "act_key": "openai|released browser restricting information access|2025-10-23",
       "attacks": [
-        "11",
-        "29",
-        "30",
-        "34"
+        "truth",
+        "press",
+        "information",
+        "reality"
       ],
       "source_meta": {
         "headline": null,
@@ -10392,37 +10339,6 @@
       },
       "_origin_file": "popinfo_events_2025-09-06_2025-12-12.json",
       "_origin_index": 106
-    },
-    {
-      "source_key": "whitehouse",
-      "date": "2025-10-23",
-      "occurred_on": "2025-10-23",
-      "reported_on": "2025-10-23",
-      "dated_by": "occurred",
-      "category": "Information & Media Control",
-      "title": "Democrat Shutdown Jeopardizes America’s Skies",
-      "url": "https://www.whitehouse.gov/releases/2025/10/democrat-shutdown-jeopardizes-americas-skies/",
-      "summary": "The White House published this release on 2025-10-23 through its releases channel.",
-      "why_relevant": "",
-      "jurisdiction": "federal",
-      "federal_nexus": "Official White House channel; documents the act of publication only.",
-      "confidence": "high",
-      "basis": "official_actor_record",
-      "actor": "The White House",
-      "action": "published a release titled \"Democrat Shutdown Jeopardizes America’s Skies\"",
-      "act_key": "white house|published a release titled democrat shutdown jeopardizes america s skies|2025-10-23",
-      "attacks": [],
-      "source_meta": {
-        "headline": null,
-        "published_on": null,
-        "byline": null,
-        "outlet": null,
-        "accessed_on": null,
-        "snapshot_url": null,
-        "durable_keys": {}
-      },
-      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
-      "_origin_index": 216
     },
     {
       "source_key": "meidas",
@@ -10714,9 +10630,9 @@
       "action": "used auto-delete messaging application",
       "act_key": "lindsey halligan|used auto delete messaging application|2025-10-23",
       "attacks": [
-        "30",
-        "33",
-        "43"
+        "information",
+        "knowledge",
+        "rule_of_law"
       ],
       "source_meta": {
         "headline": "Top US prosecutor’s use of text message auto-delete could be illegal, watchdog groups warn",
@@ -11255,37 +11171,6 @@
       },
       "_origin_file": "meidas_events_2025-09-06_2025-12-12.json",
       "_origin_index": 726
-    },
-    {
-      "source_key": "whitehouse",
-      "date": "2025-10-24",
-      "occurred_on": "2025-10-24",
-      "reported_on": "2025-10-24",
-      "dated_by": "occurred",
-      "category": "Executive Actions & Orders",
-      "title": "Regulatory Relief for Certain Stationary Sources to Promote American Mineral Security",
-      "url": "https://www.whitehouse.gov/presidential-actions/2025/10/regulatory-relief-for-certain-stationary-sources-to-promote-american-mineral-security/",
-      "summary": "The White House published this proclamation on 2025-10-24 through its proclamations channel.",
-      "why_relevant": "",
-      "jurisdiction": "federal",
-      "federal_nexus": "Official White House channel; documents the act of publication only.",
-      "confidence": "high",
-      "basis": "official_actor_record",
-      "actor": "The White House",
-      "action": "announced a proclamation titled \"Regulatory Relief for Certain Stationary Sources to Promote American Mineral Security\"",
-      "act_key": "white house|announced a proclamation titled regulatory relief for certain stationary sources to promote american mineral security|2025-10-24",
-      "attacks": [],
-      "source_meta": {
-        "headline": null,
-        "published_on": null,
-        "byline": null,
-        "outlet": null,
-        "accessed_on": null,
-        "snapshot_url": null,
-        "durable_keys": {}
-      },
-      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
-      "_origin_index": 990
     },
     {
       "source_key": "guardian",
@@ -12158,11 +12043,11 @@
         "voting"
       ],
       "source_meta": {
-        "headline": null,
-        "published_on": null,
+        "headline": "Justice Department to Monitor Polling Sites in California, New Jersey",
+        "published_on": "2025-10-24",
         "byline": null,
-        "outlet": null,
-        "accessed_on": null,
+        "outlet": "justice.gov",
+        "accessed_on": "2026-08-27T04:59:10Z",
         "snapshot_url": null,
         "durable_keys": {}
       },
@@ -12207,29 +12092,29 @@
       "reported_on": "2025-10-24",
       "dated_by": "occurred",
       "category": "Elections & Representation",
-      "title": "Justice Department to Monitor Polling Sites in California, New Jersey",
+      "title": "Department of Justice announces polling site monitoring in six jurisdictions for November 4, 2025 election",
       "url": "https://www.justice.gov/opa/pr/justice-department-monitor-polling-sites-california-new-jersey",
-      "summary": "The Department of Justice announced this on 2025-10-24 through Office of the Attorney General. The department's own account of it reads: \"WASHINGTON – Today, the Department of Justice announced that it will monitor polling sites in six jurisdictions ahead of the upcoming November 4, 2025, general election to ensure transparency, ballot security, and compliance with federal law.\"",
-      "why_relevant": "",
+      "summary": "The Department of Justice announced it will deploy Civil Rights Division personnel to monitor polling sites in six jurisdictions—Passaic County, New Jersey; Kern, Riverside, Fresno, Orange, and Los Angeles Counties, California—ahead of the November 4, 2025 general election. Attorney General Pamela Bondi stated the effort aims to ensure transparency, ballot security, and compliance with federal voting rights law. The Civil Rights Division will coordinate with U.S. Attorneys' Offices and receive public complaints about alleged violations of federal voting rights statutes.",
+      "why_relevant": "Federal election monitoring by DOJ is a core function of voting rights enforcement; the choice of jurisdictions and the stated rationale bear on whether monitoring serves equal protection or becomes a tool of partisan advantage.",
       "jurisdiction": "federal",
-      "federal_nexus": "Official DOJ channel; documents the act of announcement only.",
+      "federal_nexus": "",
       "confidence": "high",
-      "basis": "official_actor_record",
+      "basis": "The Department of Justice announced that it will monitor polling sites in six jurisdictions ahead of the upcoming November 4, 2025, general election to ensure transparency, ballot security, and compliance with federal law.",
       "actor": "The Department of Justice",
       "action": "announced \"Justice Department to Monitor Polling Sites in California, New Jersey\"",
       "act_key": "department|announced justice department to monitor polling sites in california new jersey|2025-10-24",
       "attacks": [],
       "source_meta": {
-        "headline": null,
-        "published_on": null,
+        "headline": "Justice Department to Monitor Polling Sites in California, New Jersey",
+        "published_on": "2025-10-24",
         "byline": null,
-        "outlet": null,
-        "accessed_on": null,
+        "outlet": "justice.gov",
+        "accessed_on": "2026-08-27T04:59:10Z",
         "snapshot_url": null,
         "durable_keys": {}
       },
       "_origin_file": "justice_events_2025-01-20_2026-08-14.json",
-      "_origin_index": 204
+      "_origin_index": 203
     },
     {
       "source_key": "meidas",
@@ -12442,91 +12327,31 @@
       "reported_on": "2025-10-24",
       "dated_by": "occurred",
       "category": "Information & Media Control",
-      "title": "Airlines, Pilots Demand Action as Democrat Shutdown Pushes Air Travel to the Edge",
+      "title": "White House issues release attributing government shutdown to Democrats and citing aviation industry demands for resolution",
       "url": "https://www.whitehouse.gov/releases/2025/10/airlines-pilots-demand-action-as-democrat-shutdown-pushes-air-travel-to-the-edge/",
-      "summary": "The White House published this release on 2025-10-24 through its releases channel.",
-      "why_relevant": "",
+      "summary": "The White House published a release on October 24, 2025, framing an ongoing government shutdown as a \"Democrat Shutdown\" and featuring statements from airline CEOs, pilot unions, and air traffic controllers calling for Congress to pass a clean continuing resolution. The release states that air traffic controllers and TSA agents are working without paychecks, that $1 billion in travel-related spending is lost weekly, and that 13,000 air traffic controllers are preparing to miss their first full paycheck. The document attributes the shutdown to Democrats' \"refusal to end their destructive government shutdown\" and their use of \"the crisis as leverage\" in political negotiations.",
+      "why_relevant": "The release uses partisan framing and industry statements to advance a specific narrative about shutdown responsibility, exemplifying how executive communications shape public attribution of institutional failure during fiscal crises.",
       "jurisdiction": "federal",
-      "federal_nexus": "Official White House channel; documents the act of publication only.",
+      "federal_nexus": "",
       "confidence": "high",
-      "basis": "official_actor_record",
+      "basis": "As air traffic controllers and TSA agents work without paychecks and widespread flight disruptions threaten to upend holiday travel, Democrats' shameful refusal to end their destructive government shutdown is plunging the U.S. aviation system into chaos.",
       "actor": "The White House",
       "action": "published a release titled \"Airlines, Pilots Demand Action as Democrat Shutdown Pushes Air Travel to the Edge\"",
       "act_key": "white house|published a release titled airlines pilots demand action as democrat shutdown pushes air travel to the edge|2025-10-24",
-      "attacks": [],
+      "attacks": [
+        "information"
+      ],
       "source_meta": {
-        "headline": null,
-        "published_on": null,
+        "headline": "Airlines, Pilots Demand Action as Democrat Shutdown Pushes Air Travel to the Edge",
+        "published_on": "2025-10-24",
         "byline": null,
-        "outlet": null,
-        "accessed_on": null,
+        "outlet": "The White House",
+        "accessed_on": "2026-08-26T22:59:16Z",
         "snapshot_url": null,
         "durable_keys": {}
       },
       "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
-      "_origin_index": 214
-    },
-    {
-      "source_key": "whitehouse",
-      "date": "2025-10-24",
-      "occurred_on": "2025-10-24",
-      "reported_on": "2025-10-24",
-      "dated_by": "occurred",
-      "category": "Information & Media Control",
-      "title": "Fact Sheet: President Donald J. Trump Grants Regulatory Relief from Burdensome EPA Restrictions to Promote American Copper Security",
-      "url": "https://www.whitehouse.gov/fact-sheets/2025/10/fact-sheet-president-donald-j-trump-grants-regulatory-relief-from-burdensome-epa-restrictions-to-promote-american-copper-security/",
-      "summary": "The White House published this fact sheet on 2025-10-24 through its fact-sheets channel.",
-      "why_relevant": "",
-      "jurisdiction": "federal",
-      "federal_nexus": "Official White House channel; documents the act of publication only.",
-      "confidence": "high",
-      "basis": "official_actor_record",
-      "actor": "The White House",
-      "action": "issued a fact sheet titled \"Fact Sheet: President Donald J. Trump Grants Regulatory Relief from Burdensome EPA Restrictions to Promote American Copper Security\"",
-      "act_key": "white house|issued a fact sheet titled fact sheet president donald j trump grants regulatory relief from burdensome epa restrictions to promote american copper security|2025-10-24",
-      "attacks": [],
-      "source_meta": {
-        "headline": null,
-        "published_on": null,
-        "byline": null,
-        "outlet": null,
-        "accessed_on": null,
-        "snapshot_url": null,
-        "durable_keys": {}
-      },
-      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
-      "_origin_index": 506
-    },
-    {
-      "source_key": "whitehouse",
-      "date": "2025-10-24",
-      "occurred_on": "2025-10-24",
-      "reported_on": "2025-10-24",
-      "dated_by": "occurred",
-      "category": "Information & Media Control",
-      "title": "Inflation Remains Low as Democrat Shutdown Threatens Progress",
-      "url": "https://www.whitehouse.gov/releases/2025/10/inflation-remains-low-as-democrat-shutdown-threatens-progress/",
-      "summary": "The White House published this release on 2025-10-24 through its releases channel.",
-      "why_relevant": "",
-      "jurisdiction": "federal",
-      "federal_nexus": "Official White House channel; documents the act of publication only.",
-      "confidence": "high",
-      "basis": "official_actor_record",
-      "actor": "The White House",
-      "action": "published a release titled \"Inflation Remains Low as Democrat Shutdown Threatens Progress\"",
-      "act_key": "white house|published a release titled inflation remains low as democrat shutdown threatens progress|2025-10-24",
-      "attacks": [],
-      "source_meta": {
-        "headline": null,
-        "published_on": null,
-        "byline": null,
-        "outlet": null,
-        "accessed_on": null,
-        "snapshot_url": null,
-        "durable_keys": {}
-      },
-      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
-      "_origin_index": 215
+      "_origin_index": 182
     },
     {
       "source_key": "federalregister",
@@ -12839,6 +12664,109 @@
       },
       "_origin_file": "popinfo_events_2025-09-06_2025-12-12.json",
       "_origin_index": 100
+    },
+    {
+      "source_key": "whitehouse",
+      "date": "2025-10-24",
+      "occurred_on": "2025-10-24",
+      "reported_on": "2025-10-24",
+      "dated_by": "occurred",
+      "category": "Economic & Regulatory Power",
+      "title": "Trump issued proclamation exempting Miami copper smelter from EPA emissions standards for two years",
+      "url": "https://www.whitehouse.gov/presidential-actions/2025/10/regulatory-relief-for-certain-stationary-sources-to-promote-american-mineral-security/",
+      "summary": "President Trump issued a proclamation on October 24, 2025, exempting the Miami Smelter in Arizona (operated by Freeport-McMoRan Miami Inc.) from compliance with the EPA's May 2024 Copper Rule for two years beyond the rule's original compliance deadlines. The proclamation states the exemption applies because the required emissions-control technology does not exist in commercially viable form and asserts the exemption serves national security interests in domestic mineral production. The effect is that the facility will revert to pre-Copper Rule emissions obligations during the exemption period.",
+      "why_relevant": "The act suspends environmental protection standards by executive proclamation, asserting national security authority to override EPA rule-making and extending compliance deadlines for a major industrial polluter, raising questions about the balance between regulatory authority and executive override.",
+      "jurisdiction": "federal",
+      "federal_nexus": "",
+      "confidence": "high",
+      "basis": "I, DONALD J. TRUMP, President of the United States of America, by the authority vested in me by the Constitution and the laws of the United States, including section 112(i)(4) of the Clean Air Act, do hereby proclaim that certain stationary sources subject to the Copper Rule, as identified in Annex I of this proclamation, are exempt from compliance with the Copper Rule for a period of 2 years.",
+      "actor": "The White House",
+      "action": "announced a proclamation titled \"Regulatory Relief for Certain Stationary Sources to Promote American Mineral Security\"",
+      "act_key": "white house|announced a proclamation titled regulatory relief for certain stationary sources to promote american mineral security|2025-10-24",
+      "attacks": [
+        "environment",
+        "rule_of_law"
+      ],
+      "source_meta": {
+        "headline": "Regulatory Relief for Certain Stationary Sources to Promote American Mineral Security",
+        "published_on": "2025-10-24",
+        "byline": null,
+        "outlet": "The White House",
+        "accessed_on": "2026-08-27T01:26:09Z",
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
+      "_origin_index": 934
+    },
+    {
+      "source_key": "whitehouse",
+      "date": "2025-10-24",
+      "occurred_on": "2025-10-24",
+      "reported_on": "2025-10-24",
+      "dated_by": "occurred",
+      "category": "Economic & Regulatory Power",
+      "title": "White House issues fact sheet on EPA regulatory relief for copper smelting",
+      "url": "https://www.whitehouse.gov/fact-sheets/2025/10/fact-sheet-president-donald-j-trump-grants-regulatory-relief-from-burdensome-epa-restrictions-to-promote-american-copper-security/",
+      "summary": "The White House published a fact sheet on October 24, 2025, describing a proclamation signed by President Trump granting two years of regulatory relief from Biden-era EPA emissions standards for primary copper smelting. The fact sheet states the exemption allows a copper smelting facility to comply with pre-Biden EPA standards instead of current rules, claims the Biden standard imposes \"unattainable compliance requirements,\" and asserts that relief is necessary to prevent facility closures and maintain domestic copper supply for national security and semiconductor production.",
+      "why_relevant": "The act removes environmental compliance obligations from a critical industrial facility, subordinating EPA emissions standards to claimed national security and economic interests, and exemplifies executive use of proclamation authority to override or suspend regulatory requirements.",
+      "jurisdiction": "federal",
+      "federal_nexus": "",
+      "confidence": "high",
+      "basis": "Today, President Donald J. Trump signed a Proclamation granting two years of regulatory relief from a stringent Biden-Era EPA rule on primary copper smelting.",
+      "actor": "The White House",
+      "action": "issued a fact sheet titled \"Fact Sheet: President Donald J. Trump Grants Regulatory Relief from Burdensome EPA Restrictions to Promote American Copper Security\"",
+      "act_key": "white house|issued a fact sheet titled fact sheet president donald j trump grants regulatory relief from burdensome epa restrictions to promote american copper security|2025-10-24",
+      "attacks": [
+        "environment",
+        "rule_of_law",
+        "science"
+      ],
+      "source_meta": {
+        "headline": "Fact Sheet: President Donald J. Trump Grants Regulatory Relief from Burdensome EPA Restrictions to Promote American Copper Security",
+        "published_on": "2025-10-24",
+        "byline": null,
+        "outlet": "The White House",
+        "accessed_on": "2026-08-26T23:53:20Z",
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
+      "_origin_index": 450
+    },
+    {
+      "source_key": "whitehouse",
+      "date": "2025-10-24",
+      "occurred_on": "2025-10-24",
+      "reported_on": "2025-10-24",
+      "dated_by": "occurred",
+      "category": "Economic & Regulatory Power",
+      "title": "White House issues fact sheet on inflation data and government shutdown",
+      "url": "https://www.whitehouse.gov/releases/2025/10/inflation-remains-low-as-democrat-shutdown-threatens-progress/",
+      "summary": "The White House published a fact sheet claiming that September inflation data came in below market expectations and that real wages are rising under President Trump's economic agenda. The document attributes inflation averaging 2.5% since Trump took office (compared to 5% under Biden) and states that a Democrat-caused government shutdown will prevent the October inflation report from being released, which the White House characterizes as risking economic disruption. The fact sheet frames the shutdown as Democrats using families as \"leverage\" to fund healthcare for undocumented immigrants.",
+      "why_relevant": "The document uses official White House communications to frame partisan responsibility for a government shutdown and to make claims about economic performance that bear on public understanding of fiscal conditions and policy efficacy.",
+      "jurisdiction": "federal",
+      "federal_nexus": "",
+      "confidence": "high",
+      "basis": "Inflation came in below market expectations in September thanks to President Trump's economic agenda... Democrats choosing to keep the government closed will likely result in no October inflation report.",
+      "actor": "The White House",
+      "action": "published a release titled \"Inflation Remains Low as Democrat Shutdown Threatens Progress\"",
+      "act_key": "white house|published a release titled inflation remains low as democrat shutdown threatens progress|2025-10-24",
+      "attacks": [
+        "truth",
+        "information"
+      ],
+      "source_meta": {
+        "headline": "Inflation Remains Low as Democrat Shutdown Threatens Progress",
+        "published_on": "2025-10-24",
+        "byline": null,
+        "outlet": "The White House",
+        "accessed_on": "2026-08-26T22:59:27Z",
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
+      "_origin_index": 183
     },
     {
       "source_key": "hcr",

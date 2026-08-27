@@ -5,20 +5,20 @@
   },
   "week_number": 30,
   "sources": [
-    "congress",
-    "hcr",
-    "whitehouse",
-    "justsecurity",
-    "justice",
-    "guardian",
-    "democracydocket",
-    "federalregister",
-    "outloud",
-    "defense",
-    "orders",
-    "noah",
     "popinfo",
-    "zeteo"
+    "orders",
+    "zeteo",
+    "justsecurity",
+    "federalregister",
+    "guardian",
+    "justice",
+    "whitehouse",
+    "congress",
+    "defense",
+    "noah",
+    "hcr",
+    "outloud",
+    "democracydocket"
   ],
   "counts": {
     "total": 336,
@@ -48,19 +48,19 @@
       "congress": 2
     },
     "by_category": {
-      "Executive Actions & Orders": 51,
-      "Judicial Developments": 44,
+      "Executive Actions & Orders": 54,
+      "Judicial Developments": 46,
       "Law Enforcement & Surveillance": 42,
-      "Information & Media Control": 42,
-      "Appointments & Patronage": 16,
+      "Information & Media Control": 29,
+      "Appointments & Patronage": 17,
       "Transparency & Records": 10,
       "International Relations": 12,
       "": 1,
-      "Legislative & Oversight Activity": 11,
+      "Legislative & Oversight Activity": 12,
       "Elections & Representation": 20,
-      "Civil Society & Protest": 15,
-      "Economic & Regulatory Power": 46,
-      "Civil–Military Relations & State Violence": 26
+      "Civil Society & Protest": 12,
+      "Economic & Regulatory Power": 53,
+      "Civil–Military Relations & State Violence": 28
     }
   },
   "events": [
@@ -192,9 +192,9 @@
       "action": "announced federal takeover plan",
       "act_key": "trump|announced federal takeover plan|2025-08-09",
       "attacks": [
-        "11",
-        "42",
-        "49"
+        "truth",
+        "separation_of_powers",
+        "union"
       ],
       "source_meta": {
         "headline": null,
@@ -666,8 +666,8 @@
       "action": "posted attack on social media",
       "act_key": "trump|posted attack on social media|2025-08-09",
       "attacks": [
-        "17",
-        "29"
+        "decency",
+        "press"
       ],
       "source_meta": {
         "headline": null,
@@ -690,8 +690,8 @@
       "category": "Information & Media Control",
       "title": "Trump supports release of classified report on Russian interference",
       "url": "https://heathercoxrichardson.substack.com/p/august-8-2025-friday",
-      "summary": "Director of National Intelligence Tulsi Gabbard declassified and released a highly classified report on Russia's interference in the 2016 U.S. presidential election, which Trump supported despite its sensitive content. This action appears to be part of a broader effort to reshape the narrative around Russian involvement in the election.",
-      "why_relevant": "The release of this report may serve to distract from ongoing investigations into Trump's past associations and could manipulate public perception of Russian interference.",
+      "summary": "Director of National Intelligence Tulsi Gabbard declassified and released a highly classified report on Russia's interference in the 2016 U.S. presidential election, which Trump supported despite its reference to sensitive sources and methods. This action appears to be part of a broader effort to reshape the narrative around Russian involvement in the election.",
+      "why_relevant": "The release of this report may serve to distract from ongoing investigations into Trump's connections to Russia and other controversies.",
       "jurisdiction": "",
       "federal_nexus": "",
       "confidence": "",
@@ -711,8 +711,8 @@
         "snapshot_url": null,
         "durable_keys": {}
       },
-      "_origin_file": "hcr_events_2025-01-20_2025-11-30.json",
-      "_origin_index": 423
+      "_origin_file": "hcr_events_2025-06-07_2025-08-15.json",
+      "_origin_index": 25
     },
     {
       "source_key": "zeteo",
@@ -1029,8 +1029,8 @@
       "category": "International Relations",
       "title": "Putin awards Order of Lenin to American's mother",
       "url": "https://heathercoxrichardson.substack.com/p/august-8-2025-friday",
-      "summary": "Russian President Vladimir Putin awarded the Order of Lenin to the mother of Michael Gloss, an American who died fighting for Russia in Ukraine. This gesture, particularly given the mother's connection to the CIA, is seen as a provocative statement by Putin, suggesting a symbolic victory over the U.S. in the Cold War context.",
-      "why_relevant": "This award serves to undermine U.S. credibility and highlights the complex dynamics of American involvement in the Ukraine conflict.",
+      "summary": "Russian President Vladimir Putin awarded the Order of Lenin to the mother of Michael Gloss, an American who died fighting for Russia in Ukraine. This gesture, which was passed on through Putin's special envoy, is seen as a provocative move, especially given that Gloss's mother works for the CIA.",
+      "why_relevant": "This award symbolizes a complex interplay of U.S.-Russia relations and highlights the risks associated with American citizens engaging in foreign conflicts.",
       "jurisdiction": "",
       "federal_nexus": "",
       "confidence": "",
@@ -1038,9 +1038,7 @@
       "actor": "",
       "action": "",
       "act_key": "",
-      "attacks": [
-        "truth"
-      ],
+      "attacks": [],
       "source_meta": {
         "headline": "August 8, 2025 (Friday)",
         "published_on": "2025-08-09",
@@ -1050,8 +1048,8 @@
         "snapshot_url": null,
         "durable_keys": {}
       },
-      "_origin_file": "hcr_events_2025-01-20_2025-11-30.json",
-      "_origin_index": 424
+      "_origin_file": "hcr_events_2025-06-07_2025-08-15.json",
+      "_origin_index": 26
     },
     {
       "source_key": "hcr",
@@ -1097,8 +1095,8 @@
       "category": "International Relations",
       "title": "Trump announces meeting with Putin in Alaska",
       "url": "https://heathercoxrichardson.substack.com/p/august-8-2025-friday",
-      "summary": "President Donald Trump announced his intention to meet with Russian President Vladimir Putin on August 15 in Alaska, following a deadline he set for Putin to agree to a ceasefire in the ongoing war in Ukraine. This meeting is controversial as Putin has been indicted for war crimes and is generally unable to travel outside Russia. The meeting is seen as a significant diplomatic gesture that could undermine U.S. policy regarding Ukraine.",
-      "why_relevant": "This meeting could legitimize Putin's actions in Ukraine and alter the U.S. stance on international norms against territorial aggression.",
+      "summary": "President Donald Trump announced his intention to meet with Russian President Vladimir Putin on August 15 in Alaska, following a deadline he set for Putin to agree to a ceasefire in the ongoing war in Ukraine. This meeting comes amid reports that Russian attacks on Ukraine have doubled since Trump took office. The planned summit is seen as a significant diplomatic move, potentially undermining U.S. commitments to Ukraine's territorial integrity.",
+      "why_relevant": "This meeting could legitimize Putin's actions in Ukraine and weaken U.S. support for Ukraine's sovereignty.",
       "jurisdiction": "",
       "federal_nexus": "",
       "confidence": "",
@@ -1118,8 +1116,8 @@
         "snapshot_url": null,
         "durable_keys": {}
       },
-      "_origin_file": "hcr_events_2025-01-20_2025-11-30.json",
-      "_origin_index": 421
+      "_origin_file": "hcr_events_2025-06-07_2025-08-15.json",
+      "_origin_index": 23
     },
     {
       "source_key": "hcr",
@@ -1130,8 +1128,8 @@
       "category": "International Relations",
       "title": "U.S. and Russia plan summit to discuss Ukraine territory",
       "url": "https://heathercoxrichardson.substack.com/p/august-8-2025-friday",
-      "summary": "U.S. and Russian officials are reportedly planning a summit to negotiate an agreement that would require Ukraine to cede territory currently occupied by Russian forces, including Crimea. This plan is reminiscent of previous proposals that sought to undermine Ukraine's sovereignty and could set a dangerous precedent for territorial acquisition through force.",
-      "why_relevant": "The proposed agreement threatens the principle of territorial integrity and could embolden further aggression by Russia.",
+      "summary": "U.S. and Russian officials are reportedly planning a summit to negotiate an agreement that would require Ukraine to cede territory currently occupied by Russian troops, including Crimea. This plan, which excludes Ukrainian President Volodymyr Zelensky and European allies, is reminiscent of previous proposals made by Russian operatives during the 2016 U.S. presidential campaign.",
+      "why_relevant": "The proposed agreement undermines Ukraine's sovereignty and sets a dangerous precedent for territorial acquisition through force.",
       "jurisdiction": "",
       "federal_nexus": "",
       "confidence": "",
@@ -1151,8 +1149,8 @@
         "snapshot_url": null,
         "durable_keys": {}
       },
-      "_origin_file": "hcr_events_2025-01-20_2025-11-30.json",
-      "_origin_index": 422
+      "_origin_file": "hcr_events_2025-06-07_2025-08-15.json",
+      "_origin_index": 24
     },
     {
       "source_key": "hcr",
@@ -1312,7 +1310,7 @@
       "action": "attacked federal reserve chair",
       "act_key": "trump|attacked federal reserve chair|2025-08-10",
       "attacks": [
-        "42"
+        "separation_of_powers"
       ],
       "source_meta": {
         "headline": null,
@@ -1576,9 +1574,9 @@
       "action": "made public statement on epstein files",
       "act_key": "j d vance|made public statement on epstein files|2025-08-10",
       "attacks": [
-        "11",
-        "29",
-        "30"
+        "truth",
+        "press",
+        "information"
       ],
       "source_meta": {
         "headline": null,
@@ -1940,8 +1938,8 @@
       "category": "Executive Actions & Orders",
       "title": "Trump announces press conference to address crime in D.C.",
       "url": "https://www.washingtonpost.com/dc-md-va/2025/08/10/trump-crime-data-federal-takeover/",
-      "summary": "On August 10, 2025, Trump announced a press conference scheduled for August 11, 2025, to discuss his plans to make Washington, D.C., \"safer\" and \"more beautiful.\" He stated that the homeless would be moved out of the city and that criminals would be jailed, despite the city experiencing a significant drop in violent crime.",
-      "why_relevant": "The announcement reflects Trump's approach to governance, which may involve using federal power to impose his vision on local jurisdictions, potentially undermining local governance.",
+      "summary": "On August 10, 2025, Trump announced a press conference scheduled for August 11, 2025, to discuss his plans to combat crime in Washington, D.C. He claimed that the city has become one of the most dangerous in the world and promised to make it \"one of the safest.\" His statements included plans to remove the homeless from the capital and to increase incarceration for criminals.",
+      "why_relevant": "The announcement reflects Trump's approach to governance and law enforcement, potentially impacting local policies and civil rights.",
       "jurisdiction": "",
       "federal_nexus": "",
       "confidence": "",
@@ -1950,7 +1948,7 @@
       "action": "",
       "act_key": "",
       "attacks": [
-        "separation_of_powers"
+        "civil_service"
       ],
       "source_meta": {
         "headline": null,
@@ -1961,42 +1959,8 @@
         "snapshot_url": null,
         "durable_keys": {}
       },
-      "_origin_file": "hcr_events_2025-01-20_2025-11-30.json",
-      "_origin_index": 417
-    },
-    {
-      "source_key": "hcr",
-      "date": "2025-08-11",
-      "occurred_on": "",
-      "reported_on": "2025-08-11",
-      "dated_by": "reported",
-      "category": "Executive Actions & Orders",
-      "title": "Trump criticizes D.C. Mayor and Federal Reserve Chair",
-      "url": "https://www.washingtonpost.com/dc-md-va/2025/08/10/trump-crime-data-federal-takeover/",
-      "summary": "On August 10, 2025, Trump publicly criticized D.C. Mayor Muriel Bowser for the city's crime rates and expressed dissatisfaction with Federal Reserve Chair Jerome Powell regarding the cost of renovations at the Fed. He suggested that Bowser had failed to improve the city and indicated a desire to take control of the situation.",
-      "why_relevant": "Trump's comments reflect a pattern of undermining local leadership and institutions, which can erode public confidence in democratic governance.",
-      "jurisdiction": "",
-      "federal_nexus": "",
-      "confidence": "",
-      "basis": "",
-      "actor": "",
-      "action": "",
-      "act_key": "",
-      "attacks": [
-        "courts",
-        "congress"
-      ],
-      "source_meta": {
-        "headline": null,
-        "published_on": null,
-        "byline": null,
-        "outlet": null,
-        "accessed_on": null,
-        "snapshot_url": null,
-        "durable_keys": {}
-      },
-      "_origin_file": "hcr_events_2025-01-20_2025-11-30.json",
-      "_origin_index": 418
+      "_origin_file": "hcr_events_2025-06-07_2025-08-15.json",
+      "_origin_index": 19
     },
     {
       "source_key": "hcr",
@@ -2008,7 +1972,7 @@
       "title": "Trump declared crime emergency in Washington, D.C., to take control of police",
       "url": "https://www.washingtonpost.com/dc-md-va/2025/08/23/dc-federal-takeover-police-extend/",
       "summary": "On August 11, 2025, President Trump declared a crime emergency in Washington, D.C., under the 1973 Home Rule Act to assume control of the city's police department. The Department of Justice had reported that crime in the District was at a 30-year low. The Home Rule Act permits such a takeover only if \"special conditions of an emergency nature exist\" and limits the takeover to 30 days unless Congress passes a joint resolution to extend it.",
-      "why_relevant": "The declaration invokes emergency powers to seize control of local law enforcement despite objective crime data showing no emergency, establishing a precedent for federal takeover of municipal police forces.",
+      "why_relevant": "The declaration invokes emergency powers to seize control of local law enforcement despite objective crime data contradicting the emergency claim, raising questions about the lawful use of federal authority over municipal institutions.",
       "jurisdiction": "federal",
       "federal_nexus": "",
       "confidence": "high",
@@ -2018,8 +1982,7 @@
       "act_key": "trump|declared crime emergency|2025-08-11",
       "attacks": [
         "separation_of_powers",
-        "rule_of_law",
-        "union"
+        "rule_of_law"
       ],
       "source_meta": {
         "headline": null,
@@ -2030,8 +1993,8 @@
         "snapshot_url": null,
         "durable_keys": {}
       },
-      "_origin_file": "hcr_events_2025-08-23_2025-09-05.json",
-      "_origin_index": 82
+      "_origin_file": "hcr_events_2025-07-26_2025-08-29.json",
+      "_origin_index": 36
     },
     {
       "source_key": "orders",
@@ -2145,29 +2108,31 @@
       "reported_on": "2025-08-11",
       "dated_by": "occurred",
       "category": "Executive Actions & Orders",
-      "title": "Declaring a Crime Emergency in the District of Columbia",
+      "title": "President Trump signed Executive Order 14333 declaring a crime emergency in the District of Columbia and delegating operational control of the Metropolitan Police Department to the Attorney General.",
       "url": "https://www.whitehouse.gov/presidential-actions/2025/08/declaring-a-crime-emergency-in-the-district-of-columbia/",
-      "summary": "The White House published this executive order on 2025-08-11 through its executive-orders channel.",
-      "why_relevant": "",
+      "summary": "On August 11, 2025, President Trump signed Executive Order 14333, invoking section 740 of the District of Columbia Home Rule Act to declare special conditions of emergency requiring the use of the Metropolitan Police Department for federal purposes. The order directs the Mayor to provide Metropolitan Police services for the maximum period permitted under law and delegates presidential authority to direct the Mayor to the Attorney General. The order cites 2024 crime statistics (27.54 homicides per 100,000 residents, 842.4 vehicle thefts per 100,000 residents) and asserts that D.C. has higher violent crime rates than all 50 states. The Attorney General is tasked with monitoring conditions and updating the President on whether further action is needed.",
+      "why_relevant": "The order asserts emergency executive power over a local police force in the nation's capital, concentrating operational control in the Attorney General and potentially expanding federal authority over municipal law enforcement in ways that test federalism and Home Rule Act limits.",
       "jurisdiction": "federal",
-      "federal_nexus": "Official White House channel; documents the act of publication only.",
+      "federal_nexus": "",
       "confidence": "high",
-      "basis": "official_actor_record",
+      "basis": "By the authority vested in me as President by the Constitution and the laws of the United States of America, including section 740 of the District of Columbia Self-Government and Governmental Reorganization Act (Public Law 93-198), as amended (section 740 of the Home Rule Act)... the Mayor shall provide the services of the Metropolitan Police force as the Attorney General may deem necessary and appropriate.",
       "actor": "The White House",
       "action": "announced an executive order titled \"Declaring a Crime Emergency in the District of Columbia\"",
       "act_key": "white house|announced an executive order titled declaring a crime emergency in the district of columbia|2025-08-11",
-      "attacks": [],
+      "attacks": [
+        "separation_of_powers"
+      ],
       "source_meta": {
-        "headline": null,
-        "published_on": null,
+        "headline": "Declaring a Crime Emergency in the District of Columbia",
+        "published_on": "2025-08-11",
         "byline": null,
-        "outlet": null,
-        "accessed_on": null,
+        "outlet": "The White House",
+        "accessed_on": "2026-08-27T00:54:28Z",
         "snapshot_url": null,
         "durable_keys": {}
       },
       "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
-      "_origin_index": 826
+      "_origin_index": 770
     },
     {
       "source_key": "whitehouse",
@@ -2176,60 +2141,32 @@
       "reported_on": "2025-08-11",
       "dated_by": "occurred",
       "category": "Executive Actions & Orders",
-      "title": "Further Modifying Reciprocal Tariff Rates to Reflect Ongoing Discussions with The People’s Republic of China",
-      "url": "https://www.whitehouse.gov/presidential-actions/2025/08/further-modifying-reciprocal-tariff-rates-to-reflect-ongoing-discussions-with-the-peoples-republic-of-china/",
-      "summary": "The White House published this executive order on 2025-08-11 through its executive-orders channel.",
-      "why_relevant": "",
+      "title": "President Trump signs executive order declaring crime emergency in District of Columbia",
+      "url": "https://www.whitehouse.gov/fact-sheets/2025/08/fact-sheet-president-donald-j-trump-declares-a-crime-emergency-to-restore-safety-in-the-district-of-columbia/",
+      "summary": "President Trump signed an executive order on August 11, 2025, declaring a crime emergency in Washington, D.C. The order invokes the President's authority under the District of Columbia Self-Government and Governmental Reorganization Act to require the Mayor to make Metropolitan Police Department services available to the President. The Attorney General is delegated authority to monitor the emergency and recommend further actions or termination. The fact sheet cites D.C. crime statistics (27 homicides per 100,000 residents in 2024; vehicle theft at 842.4 per 100,000) and frames the order as necessary to restore federal operations and public safety.",
+      "why_relevant": "The order asserts direct presidential control over a municipal police force in the nation's capital, bypassing local elected authority and concentrating law-enforcement power in the executive branch, raising questions about federalism, separation of powers, and the scope of emergency authority.",
       "jurisdiction": "federal",
-      "federal_nexus": "Official White House channel; documents the act of publication only.",
+      "federal_nexus": "",
       "confidence": "high",
-      "basis": "official_actor_record",
+      "basis": "Today, President Donald J. Trump signed an Executive Order declaring a crime emergency in the District of Columbia to protect public servants, citizens, and tourists, and ensure the safe functioning of the Federal government.",
       "actor": "The White House",
-      "action": "announced an executive order titled \"Further Modifying Reciprocal Tariff Rates to Reflect Ongoing Discussions with The People’s Republic of China\"",
-      "act_key": "white house|announced an executive order titled further modifying reciprocal tariff rates to reflect ongoing discussions with the people s republic of china|2025-08-11",
-      "attacks": [],
+      "action": "issued a fact sheet titled \"Fact Sheet: President Donald J. Trump Declares a Crime Emergency to Restore Safety in the District of Columbia\"",
+      "act_key": "white house|issued a fact sheet titled fact sheet president donald j trump declares a crime emergency to restore safety in the district of columbia|2025-08-11",
+      "attacks": [
+        "separation_of_powers",
+        "union"
+      ],
       "source_meta": {
-        "headline": null,
-        "published_on": null,
+        "headline": "Fact Sheet: President Donald J. Trump Declares a Crime Emergency to Restore Safety in the District of Columbia",
+        "published_on": "2025-08-11",
         "byline": null,
-        "outlet": null,
-        "accessed_on": null,
+        "outlet": "The White House",
+        "accessed_on": "2026-08-27T00:00:12Z",
         "snapshot_url": null,
         "durable_keys": {}
       },
       "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
-      "_origin_index": 825
-    },
-    {
-      "source_key": "whitehouse",
-      "date": "2025-08-11",
-      "occurred_on": "2025-08-11",
-      "reported_on": "2025-08-11",
-      "dated_by": "occurred",
-      "category": "Executive Actions & Orders",
-      "title": "Restoring Law and Order in the District of Columbia",
-      "url": "https://www.whitehouse.gov/presidential-actions/2025/08/restoring-law-and-order-in-the-district-of-columbia/",
-      "summary": "The White House published this memorandum on 2025-08-11 through its presidential-memoranda channel.",
-      "why_relevant": "",
-      "jurisdiction": "federal",
-      "federal_nexus": "Official White House channel; documents the act of publication only.",
-      "confidence": "high",
-      "basis": "official_actor_record",
-      "actor": "The White House",
-      "action": "announced a presidential memorandum titled \"Restoring Law and Order in the District of Columbia\"",
-      "act_key": "white house|announced a presidential memorandum titled restoring law and order in the district of columbia|2025-08-11",
-      "attacks": [],
-      "source_meta": {
-        "headline": null,
-        "published_on": null,
-        "byline": null,
-        "outlet": null,
-        "accessed_on": null,
-        "snapshot_url": null,
-        "durable_keys": {}
-      },
-      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
-      "_origin_index": 1117
+      "_origin_index": 486
     },
     {
       "source_key": "zeteo",
@@ -2264,6 +2201,39 @@
       },
       "_origin_file": "zeteo_events_2025-07-26_2025-08-29.json",
       "_origin_index": 52
+    },
+    {
+      "source_key": "hcr",
+      "date": "2025-08-11",
+      "occurred_on": "",
+      "reported_on": "2025-08-11",
+      "dated_by": "reported",
+      "category": "Legislative & Oversight Activity",
+      "title": "Trump criticizes D.C. Mayor and Federal Reserve Chair",
+      "url": "https://www.washingtonpost.com/dc-md-va/2025/08/10/trump-crime-data-federal-takeover/",
+      "summary": "On August 10, 2025, Trump publicly criticized D.C. Mayor Muriel Bowser for the city's crime rates and expressed dissatisfaction with Federal Reserve Chair Jerome Powell regarding the costs of renovating Federal Reserve buildings. He suggested that Bowser has failed to improve the situation in D.C. and implied that Powell should be removed from office.",
+      "why_relevant": "Trump's criticisms of local and federal officials highlight his attempts to exert influence over governance and policy decisions.",
+      "jurisdiction": "",
+      "federal_nexus": "",
+      "confidence": "",
+      "basis": "",
+      "actor": "",
+      "action": "",
+      "act_key": "",
+      "attacks": [
+        "congress"
+      ],
+      "source_meta": {
+        "headline": null,
+        "published_on": null,
+        "byline": null,
+        "outlet": null,
+        "accessed_on": null,
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "hcr_events_2025-06-07_2025-08-15.json",
+      "_origin_index": 20
     },
     {
       "source_key": "guardian",
@@ -2573,22 +2543,23 @@
       "reported_on": "2025-08-29",
       "dated_by": "occurred",
       "category": "Law Enforcement & Surveillance",
-      "title": "Mother files $1 million damages claim against DHS over detention of 15-year-old US citizen at gunpoint",
+      "title": "Mother files $1 million damages claim against DHS/ICE for detention of 15-year-old US citizen at gunpoint",
       "url": "https://www.theguardian.com/us-news/2025/aug/29/immigration-agents-los-angeles-detention-damages-claim",
-      "summary": "The mother of a 15-year-old US citizen with disabilities filed a $1 million damages claim against the Department of Homeland Security, US Customs and Border Protection, and US Immigration and Customs Enforcement on August 29, 2025. On August 11, federal immigration agents surrounded a vehicle outside Arleta High School in Los Angeles, pulled the teenager from the car at gunpoint, handcuffed him, and detained him for several minutes before realizing they had mistaken his identity. The claim alleges false imprisonment, unconstitutional racial profiling, physical injury, emotional distress, and negligent discharge of live ammunition at the scene. The boy's mother reported he is now traumatized and depressed.",
-      "why_relevant": "The incident and resulting claim raise constitutional concerns about unlawful detention, racial profiling, and the use of force against a US citizen minor, and reflect broader patterns of immigration enforcement near schools that disrupt educational access and create systemic fear.",
+      "summary": "The mother of a 15-year-old US citizen with disabilities filed a $1 million damages claim against the Department of Homeland Security, US Customs and Border Protection, and ICE on August 29, 2025, alleging false imprisonment and unconstitutional racial profiling. On August 11, masked federal immigration agents surrounded a vehicle outside Arleta High School in Los Angeles, pulled the teenager from the car at gunpoint, handcuffed him for several minutes, then released him after realizing they had detained the wrong person. The claim alleges agents had no reasonable suspicion or probable cause, caused physical injury and emotional distress, and left live ammunition at the scene.",
+      "why_relevant": "The incident and resulting claim expose potential constitutional violations (false imprisonment, racial profiling, excessive force) by federal immigration enforcement against a US citizen minor, raising systemic concerns about immigration enforcement practices near schools and their chilling effect on education and civil liberties.",
       "jurisdiction": "federal",
       "federal_nexus": "",
       "confidence": "high",
       "basis": "The teenager, a US citizen with disabilities, was in a vehicle with his mother outside Arleta high school in Los Angeles on 11 August when masked immigration agents surrounded them and pulled them from the vehicle.",
-      "actor": "US Immigration and Customs Enforcement",
+      "actor": "ICE",
       "action": "detained minor at gunpoint without cause",
-      "act_key": "immigration and customs enforcement|detained minor at gunpoint without cause|2025-08-11",
+      "act_key": "ice|detained minor at gunpoint without cause|2025-08-11",
       "attacks": [
         "immigrants_refugees",
         "children",
+        "minorities",
         "rule_of_law",
-        "justice_dept"
+        "constitution"
       ],
       "source_meta": {
         "headline": "Mother of boy, 15, held at gunpoint by US immigration agents files $1m claim",
@@ -2599,8 +2570,8 @@
         "snapshot_url": null,
         "durable_keys": {}
       },
-      "_origin_file": "guardian_events_2025-08-23_2025-09-05.json",
-      "_origin_index": 98
+      "_origin_file": "guardian_events_2025-07-26_2025-08-29.json",
+      "_origin_index": 1
     },
     {
       "source_key": "guardian",
@@ -2611,12 +2582,12 @@
       "category": "Law Enforcement & Surveillance",
       "title": "Trump administration deploys National Guard to DC and escalates ICE enforcement, causing restaurant closures and worker flight",
       "url": "https://www.theguardian.com/us-news/2025/aug/29/trump-ice-washington-dc-restaurants",
-      "summary": "Following President Trump's deployment of the National Guard to Washington DC and intensified Immigration and Customs Enforcement (ICE) operations, multiple restaurants have closed or severely reduced operations due to immigrant workers—who comprise 36% of DC's restaurant workforce—staying home out of fear of deportation and racial profiling. ICE has been reported targeting delivery drivers on mopeds. Restaurant owners report staff shortages, plummeting revenue, and inability to pay workers, with some establishments temporarily shuttered and others operating at drastically reduced capacity.",
-      "why_relevant": "The deployment and enforcement actions have created a climate of fear that is materially disrupting economic activity, worker mobility, and civic participation in the nation's capital, while disproportionately targeting immigrant communities.",
+      "summary": "Following President Trump's deployment of the National Guard to Washington DC and intensified Immigration and Customs Enforcement (ICE) operations, multiple restaurants have closed or severely reduced operations due to immigrant workers and customers fearing deportation and detention. ICE has been reported targeting delivery drivers on mopeds and conducting traffic stops with DC police to check immigration status. Restaurant owners report staff shortages, plummeting revenue, and inability to pay workers. Immigrants comprise 36% of DC's restaurant and hospitality workforce, including 42,000 self-employed entrepreneurs.",
+      "why_relevant": "The coordinated deployment of military and federal immigration enforcement in a civilian urban center, combined with reported targeting of workers based on immigration status, creates a chilling effect on lawful economic activity and freedom of movement, undermining democratic norms of proportionality and equal protection.",
       "jurisdiction": "federal",
       "federal_nexus": "",
       "confidence": "high",
-      "basis": "Literally after President Trump brought the national guard on DC, everything stopped. Everything disappeared because the bike delivery guys, they're scared.",
+      "basis": "President Trump brought the national guard on DC, everything stopped… Ice is accompanying officers with DC's Metropolitan police department to conduct traffic stops of moped drivers to check their immigration status.",
       "actor": "Trump administration",
       "action": "deployed national guard and escalated ice enforcement",
       "act_key": "trump administration|deployed national guard and escalated ice enforcement|2025-08-11",
@@ -2624,8 +2595,8 @@
         "immigrants_refugees",
         "workers",
         "poor",
-        "decency",
-        "hope"
+        "rule_of_law",
+        "decency"
       ],
       "source_meta": {
         "headline": "DC eateries suffer as workers terrified of Ice stay home: ‘You don’t want to go outside’",
@@ -2636,8 +2607,8 @@
         "snapshot_url": null,
         "durable_keys": {}
       },
-      "_origin_file": "guardian_events_2025-08-23_2025-09-05.json",
-      "_origin_index": 107
+      "_origin_file": "guardian_events_2025-07-26_2025-08-29.json",
+      "_origin_index": 12
     },
     {
       "source_key": "guardian",
@@ -2711,35 +2682,38 @@
       "_origin_index": 244
     },
     {
-      "source_key": "justice",
+      "source_key": "whitehouse",
       "date": "2025-08-11",
       "occurred_on": "2025-08-11",
       "reported_on": "2025-08-11",
       "dated_by": "occurred",
       "category": "Law Enforcement & Surveillance",
-      "title": "United Nuclear Corporation and General Electric to Perform $63M Cleanup of Uranium Mine Waste at Northeast Church Rock Mine and UNC Mill Sites in New Mexico and Navajo Nation",
-      "url": "https://www.justice.gov/opa/pr/united-nuclear-corporation-and-general-electric-perform-63m-cleanup-uranium-mine-waste",
-      "summary": "The Department of Justice announced this on 2025-08-11 through Energy and Natural Resources Division. The department's own account of it reads: \"The United Nuclear Corporation (UNC) and General Electric Company (GE) have agreed to a consent decree with the United States, Navajo Nation, and the State of New Mexico under the federal Comprehensive Environmental Response, Compensation, and Liability Act, also known as the Superfund law.\"",
-      "why_relevant": "",
+      "title": "White House issues release on \"Liberation Day\" declaring public safety emergency in Washington, D.C.",
+      "url": "https://www.whitehouse.gov/releases/2025/08/its-liberation-day-in-washington-d-c/",
+      "summary": "The White House issued a release on August 11, 2025, announcing that President Trump declared a public safety emergency in Washington, D.C., and placed Attorney General Pam Bondi in command of the Metropolitan Police Department. The release states the action targets \"known gangs, drug dealers and criminal networks\" and attributes the city's crime crisis to \"abject failures of the city's local leadership.\" The document includes testimonials from D.C. residents supporting the measure.",
+      "why_relevant": "The act asserts federal executive authority over a municipal police force and declares an emergency in the nation's capital, raising questions about federalism, the scope of executive power over local law enforcement, and the constitutional limits of emergency declarations.",
       "jurisdiction": "federal",
-      "federal_nexus": "Official DOJ channel; documents the act of announcement only.",
+      "federal_nexus": "",
       "confidence": "high",
-      "basis": "official_actor_record",
-      "actor": "The Department of Justice",
-      "action": "announced \"United Nuclear Corporation and General Electric to Perform $63M Cleanup of Uranium Mine Waste at Northeast Church Rock Mine and UNC Mill Sites in New Mexico and Navajo Nation\"",
-      "act_key": "department|announced united nuclear corporation and general electric to perform 63m cleanup of uranium mine waste at northeast church rock mine and unc mill sites in new mexico and navajo nation|2025-08-11",
-      "attacks": [],
+      "basis": "We're declaring a public safety emergency in the District of Columbia — and Attorney General Pam Bondi is taking command of the Metropolitan Police Department as of this moment.",
+      "actor": "The White House",
+      "action": "published a release titled \"It’s “Liberation Day” in Washington, D.C.\"",
+      "act_key": "white house|published a release titled it s liberation day in washington d c|2025-08-11",
+      "attacks": [
+        "separation_of_powers",
+        "rule_of_law"
+      ],
       "source_meta": {
-        "headline": null,
-        "published_on": null,
+        "headline": "It’s “Liberation Day” in Washington, D.C.",
+        "published_on": "2025-08-11",
         "byline": null,
-        "outlet": null,
-        "accessed_on": null,
+        "outlet": "The White House",
+        "accessed_on": "2026-08-26T23:15:10Z",
         "snapshot_url": null,
         "durable_keys": {}
       },
-      "_origin_file": "justice_events_2025-01-20_2026-08-14.json",
-      "_origin_index": 155
+      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
+      "_origin_index": 246
     },
     {
       "source_key": "hcr",
@@ -2882,153 +2856,32 @@
       "reported_on": "2025-08-11",
       "dated_by": "occurred",
       "category": "Information & Media Control",
-      "title": "Fact Sheet: President Donald J. Trump Continues the Suspension of the Heightened Tariffs on China",
-      "url": "https://www.whitehouse.gov/fact-sheets/2025/08/fact-sheet-president-donald-j-trump-continues-the-suspension-of-the-heightened-tariffs-on-china/",
-      "summary": "The White House published this fact sheet on 2025-08-11 through its fact-sheets channel.",
-      "why_relevant": "",
-      "jurisdiction": "federal",
-      "federal_nexus": "Official White House channel; documents the act of publication only.",
-      "confidence": "high",
-      "basis": "official_actor_record",
-      "actor": "The White House",
-      "action": "issued a fact sheet titled \"Fact Sheet: President Donald J. Trump Continues the Suspension of the Heightened Tariffs on China\"",
-      "act_key": "white house|issued a fact sheet titled fact sheet president donald j trump continues the suspension of the heightened tariffs on china|2025-08-11",
-      "attacks": [],
-      "source_meta": {
-        "headline": null,
-        "published_on": null,
-        "byline": null,
-        "outlet": null,
-        "accessed_on": null,
-        "snapshot_url": null,
-        "durable_keys": {}
-      },
-      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
-      "_origin_index": 540
-    },
-    {
-      "source_key": "whitehouse",
-      "date": "2025-08-11",
-      "occurred_on": "2025-08-11",
-      "reported_on": "2025-08-11",
-      "dated_by": "occurred",
-      "category": "Information & Media Control",
-      "title": "Fact Sheet: President Donald J. Trump Declares a Crime Emergency to Restore Safety in the District of Columbia",
-      "url": "https://www.whitehouse.gov/fact-sheets/2025/08/fact-sheet-president-donald-j-trump-declares-a-crime-emergency-to-restore-safety-in-the-district-of-columbia/",
-      "summary": "The White House published this fact sheet on 2025-08-11 through its fact-sheets channel.",
-      "why_relevant": "",
-      "jurisdiction": "federal",
-      "federal_nexus": "Official White House channel; documents the act of publication only.",
-      "confidence": "high",
-      "basis": "official_actor_record",
-      "actor": "The White House",
-      "action": "issued a fact sheet titled \"Fact Sheet: President Donald J. Trump Declares a Crime Emergency to Restore Safety in the District of Columbia\"",
-      "act_key": "white house|issued a fact sheet titled fact sheet president donald j trump declares a crime emergency to restore safety in the district of columbia|2025-08-11",
-      "attacks": [],
-      "source_meta": {
-        "headline": null,
-        "published_on": null,
-        "byline": null,
-        "outlet": null,
-        "accessed_on": null,
-        "snapshot_url": null,
-        "durable_keys": {}
-      },
-      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
-      "_origin_index": 542
-    },
-    {
-      "source_key": "whitehouse",
-      "date": "2025-08-11",
-      "occurred_on": "2025-08-11",
-      "reported_on": "2025-08-11",
-      "dated_by": "occurred",
-      "category": "Information & Media Control",
-      "title": "Fact Sheet: President Donald J. Trump Restores Law and Order in the District of Columbia",
-      "url": "https://www.whitehouse.gov/fact-sheets/2025/08/fact-sheet-president-donald-j-trump-restores-law-and-order-in-the-district-of-columbia/",
-      "summary": "The White House published this fact sheet on 2025-08-11 through its fact-sheets channel.",
-      "why_relevant": "",
-      "jurisdiction": "federal",
-      "federal_nexus": "Official White House channel; documents the act of publication only.",
-      "confidence": "high",
-      "basis": "official_actor_record",
-      "actor": "The White House",
-      "action": "issued a fact sheet titled \"Fact Sheet: President Donald J. Trump Restores Law and Order in the District of Columbia\"",
-      "act_key": "white house|issued a fact sheet titled fact sheet president donald j trump restores law and order in the district of columbia|2025-08-11",
-      "attacks": [],
-      "source_meta": {
-        "headline": null,
-        "published_on": null,
-        "byline": null,
-        "outlet": null,
-        "accessed_on": null,
-        "snapshot_url": null,
-        "durable_keys": {}
-      },
-      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
-      "_origin_index": 541
-    },
-    {
-      "source_key": "whitehouse",
-      "date": "2025-08-11",
-      "occurred_on": "2025-08-11",
-      "reported_on": "2025-08-11",
-      "dated_by": "occurred",
-      "category": "Information & Media Control",
-      "title": "FACT: Yes, D.C. Crime Is Out of Control",
+      "title": "White House issues fact sheet on Washington, D.C. crime statistics",
       "url": "https://www.whitehouse.gov/releases/2025/08/fact-yes-d-c-crime-is-out-of-control/",
-      "summary": "The White House published this release on 2025-08-11 through its releases channel.",
-      "why_relevant": "",
+      "summary": "The White House published a fact sheet asserting that Washington, D.C. crime is \"out of control,\" citing 2024 homicide rates of 27.3 per 100,000 residents (claimed as the fourth-highest in the nation), year-to-date 2025 figures of nearly 1,600 violent crimes and nearly 16,000 total crimes, and specific incidents including the deaths of a three-year-old and a Capitol Hill intern. The document claims Metro Police Department leadership are \"cooking the books\" to understate crime and that many residents do not report crimes.",
+      "why_relevant": "The White House issued a promotional fact sheet making specific crime claims about the nation's capital; the framing and selective presentation of statistics constitute a use of official communications infrastructure to shape public perception of a jurisdiction's safety and governance.",
       "jurisdiction": "federal",
-      "federal_nexus": "Official White House channel; documents the act of publication only.",
+      "federal_nexus": "",
       "confidence": "high",
-      "basis": "official_actor_record",
+      "basis": "Washington, D.C. should be a symbol of pride and patriotism for the American people — and a safe location for tourists, residents, and public servants. Unfortunately, while Fake News journalists and politicians go out of their way to claim otherwise, the reality is that our nation's capital is anything but safe.",
       "actor": "The White House",
       "action": "published a release titled \"FACT: Yes, D.C. Crime Is Out of Control\"",
       "act_key": "white house|published a release titled fact yes d c crime is out of control|2025-08-11",
-      "attacks": [],
+      "attacks": [
+        "information",
+        "truth"
+      ],
       "source_meta": {
-        "headline": null,
-        "published_on": null,
+        "headline": "FACT: Yes, D.C. Crime Is Out of Control",
+        "published_on": "2025-08-11",
         "byline": null,
-        "outlet": null,
-        "accessed_on": null,
+        "outlet": "The White House",
+        "accessed_on": "2026-08-26T23:14:57Z",
         "snapshot_url": null,
         "durable_keys": {}
       },
       "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
-      "_origin_index": 299
-    },
-    {
-      "source_key": "whitehouse",
-      "date": "2025-08-11",
-      "occurred_on": "2025-08-11",
-      "reported_on": "2025-08-11",
-      "dated_by": "occurred",
-      "category": "Information & Media Control",
-      "title": "It’s “Liberation Day” in Washington, D.C.",
-      "url": "https://www.whitehouse.gov/releases/2025/08/its-liberation-day-in-washington-d-c/",
-      "summary": "The White House published this release on 2025-08-11 through its releases channel.",
-      "why_relevant": "",
-      "jurisdiction": "federal",
-      "federal_nexus": "Official White House channel; documents the act of publication only.",
-      "confidence": "high",
-      "basis": "official_actor_record",
-      "actor": "The White House",
-      "action": "published a release titled \"It’s “Liberation Day” in Washington, D.C.\"",
-      "act_key": "white house|published a release titled it s liberation day in washington d c|2025-08-11",
-      "attacks": [],
-      "source_meta": {
-        "headline": null,
-        "published_on": null,
-        "byline": null,
-        "outlet": null,
-        "accessed_on": null,
-        "snapshot_url": null,
-        "durable_keys": {}
-      },
-      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
-      "_origin_index": 300
+      "_origin_index": 245
     },
     {
       "source_key": "federalregister",
@@ -3132,6 +2985,37 @@
       "_origin_index": 286
     },
     {
+      "source_key": "justice",
+      "date": "2025-08-11",
+      "occurred_on": "2025-08-11",
+      "reported_on": "2025-08-11",
+      "dated_by": "occurred",
+      "category": "Economic & Regulatory Power",
+      "title": "DOJ announces $63M consent decree requiring UNC and GE to remediate uranium mine waste on Navajo Nation",
+      "url": "https://www.justice.gov/opa/pr/united-nuclear-corporation-and-general-electric-perform-63m-cleanup-uranium-mine-waste",
+      "summary": "The Department of Justice announced a consent decree under the Comprehensive Environmental Response, Compensation, and Liability Act (Superfund) requiring United Nuclear Corporation and General Electric to excavate and remove approximately one million cubic yards of uranium mine waste from the Northeast Church Rock Superfund Site on the Navajo Nation and transfer it to the UNC Mill Site in New Mexico. The cleanup is expected to cost nearly $63 million and take more than a decade. The agreement was negotiated with the United States, Navajo Nation, and the State of New Mexico as co-plaintiffs.",
+      "why_relevant": "The settlement demonstrates federal enforcement of environmental law against corporate defendants and allocation of remediation costs to responsible parties rather than taxpayers, affecting public health protections and tribal sovereignty in uranium contamination remediation.",
+      "jurisdiction": "federal",
+      "federal_nexus": "",
+      "confidence": "high",
+      "basis": "UNC and GE have agreed to a consent decree with the United States, Navajo Nation, and the State of New Mexico under the federal Comprehensive Environmental Response, Compensation, and Liability Act.",
+      "actor": "The Department of Justice",
+      "action": "announced \"United Nuclear Corporation and General Electric to Perform $63M Cleanup of Uranium Mine Waste at Northeast Church Rock Mine and UNC Mill Sites in New Mexico and Navajo Nation\"",
+      "act_key": "department|announced united nuclear corporation and general electric to perform 63m cleanup of uranium mine waste at northeast church rock mine and unc mill sites in new mexico and navajo nation|2025-08-11",
+      "attacks": [],
+      "source_meta": {
+        "headline": "United Nuclear Corporation and General Electric to Perform $63M Cleanup of Uranium Mine Waste at Northeast Church Rock Mine and UNC Mill Sites in New Mexico and Navajo Nation",
+        "published_on": "2025-08-11",
+        "byline": null,
+        "outlet": "justice.gov",
+        "accessed_on": "2026-08-27T04:50:43Z",
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "justice_events_2025-01-20_2026-08-14.json",
+      "_origin_index": 155
+    },
+    {
       "source_key": "orders",
       "date": "2025-08-11",
       "occurred_on": "2025-08-11",
@@ -3198,6 +3082,72 @@
       },
       "_origin_file": "popinfo_events_2025-08-23_2025-09-05.json",
       "_origin_index": 13
+    },
+    {
+      "source_key": "whitehouse",
+      "date": "2025-08-11",
+      "occurred_on": "2025-08-11",
+      "reported_on": "2025-08-11",
+      "dated_by": "occurred",
+      "category": "Economic & Regulatory Power",
+      "title": "President Trump signed executive order continuing suspension of heightened tariffs on China through November 10, 2025",
+      "url": "https://www.whitehouse.gov/fact-sheets/2025/08/fact-sheet-president-donald-j-trump-continues-the-suspension-of-the-heightened-tariffs-on-china/",
+      "summary": "The White House issued a fact sheet on August 11, 2025, announcing that President Trump signed an executive order continuing the suspension of heightened tariffs on China. The order maintains the suspension until November 10, 2025, while a 10% reciprocal tariff remains in effect. The fact sheet states the action is intended to facilitate ongoing negotiations with China on trade imbalances, market access, and national security alignment, and claims the U.S. goods trade deficit with China was $295.4 billion in 2024.",
+      "why_relevant": "The executive order directs trade policy unilaterally, asserting presidential authority over tariff suspension and reciprocal tariff rates without legislative approval, affecting major trading relationships and domestic economic conditions.",
+      "jurisdiction": "federal",
+      "federal_nexus": "",
+      "confidence": "high",
+      "basis": "Today, President Donald J. Trump signed an Executive Order continuing the suspension of heightened tariffs on China.",
+      "actor": "The White House",
+      "action": "issued a fact sheet titled \"Fact Sheet: President Donald J. Trump Continues the Suspension of the Heightened Tariffs on China\"",
+      "act_key": "white house|issued a fact sheet titled fact sheet president donald j trump continues the suspension of the heightened tariffs on china|2025-08-11",
+      "attacks": [
+        "trade"
+      ],
+      "source_meta": {
+        "headline": "Fact Sheet: President Donald J. Trump Continues the Suspension of the Heightened Tariffs on China",
+        "published_on": "2025-08-12",
+        "byline": null,
+        "outlet": "The White House",
+        "accessed_on": "2026-08-26T23:59:49Z",
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
+      "_origin_index": 484
+    },
+    {
+      "source_key": "whitehouse",
+      "date": "2025-08-11",
+      "occurred_on": "2025-08-11",
+      "reported_on": "2025-08-11",
+      "dated_by": "occurred",
+      "category": "Economic & Regulatory Power",
+      "title": "White House signed executive order extending suspension of reciprocal tariffs on Chinese imports",
+      "url": "https://www.whitehouse.gov/presidential-actions/2025/08/further-modifying-reciprocal-tariff-rates-to-reflect-ongoing-discussions-with-the-peoples-republic-of-china/",
+      "summary": "President Trump signed Executive Order 14334 on August 11, 2025, extending a suspension of additional tariffs on imports from the People's Republic of China. The order continues the 90-day suspension that was set to expire on August 12, 2025, and extends it until November 10, 2025. The order states the suspension reflects \"ongoing discussions with the PRC to address the lack of trade reciprocity\" and claims the PRC is \"taking significant steps toward remedying non-reciprocal trade arrangements.\"",
+      "why_relevant": "The order exercises executive authority over trade policy and tariff rates under emergency powers, directly affecting U.S.–China economic relations and the scope of presidential authority to impose duties without congressional approval.",
+      "jurisdiction": "federal",
+      "federal_nexus": "",
+      "confidence": "high",
+      "basis": "I have determined that it is necessary and appropriate to continue the suspension effectuated by Executive Order 14298 until 12:01 a.m. eastern standard time on November 10, 2025.",
+      "actor": "The White House",
+      "action": "announced an executive order titled \"Further Modifying Reciprocal Tariff Rates to Reflect Ongoing Discussions with The People’s Republic of China\"",
+      "act_key": "white house|announced an executive order titled further modifying reciprocal tariff rates to reflect ongoing discussions with the people s republic of china|2025-08-11",
+      "attacks": [
+        "trade"
+      ],
+      "source_meta": {
+        "headline": "Further Modifying Reciprocal Tariff Rates to Reflect Ongoing Discussions with The People's Republic of China",
+        "published_on": "2025-08-12",
+        "byline": null,
+        "outlet": "The White House",
+        "accessed_on": "2026-08-27T00:54:17Z",
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
+      "_origin_index": 769
     },
     {
       "source_key": "guardian",
@@ -3496,9 +3446,9 @@
       "action": "misrepresented ceasefire terms",
       "act_key": "steve witkoff|misrepresented ceasefire terms|2025-08-11",
       "attacks": [
-        "26",
-        "35",
-        "38"
+        "diplomacy",
+        "allies",
+        "peace"
       ],
       "source_meta": {
         "headline": null,
@@ -3805,8 +3755,8 @@
       "category": "Civil–Military Relations & State Violence",
       "title": "Trump threatens federal control over Washington, D.C.",
       "url": "https://www.washingtonpost.com/dc-md-va/2025/08/10/trump-crime-data-federal-takeover/",
-      "summary": "On August 10, 2025, former President Donald Trump threatened to \"federalize\" Washington, D.C., following an alleged carjacking incident involving two teenagers. He claimed that crime in the city is \"totally out of control\" and announced plans for a press conference to address the issue, despite crime rates being at a 30-year low.",
-      "why_relevant": "Trump's threat to federalize the capital raises concerns about the potential overreach of executive power and undermines the established governance structure of Washington, D.C.",
+      "summary": "On August 10, 2025, former President Donald Trump threatened to \"federalize\" Washington, D.C., following an alleged carjacking attempt involving two teenagers. He claimed that crime in the city is \"totally out of control\" and announced plans for a press conference to address the issue. Trump also made statements about relocating the homeless and increasing law enforcement presence in the capital.",
+      "why_relevant": "Trump's threats to federalize D.C. raise concerns about the potential undermining of local governance and the constitutional authority of Congress over the federal district.",
       "jurisdiction": "",
       "federal_nexus": "",
       "confidence": "",
@@ -3826,8 +3776,78 @@
         "snapshot_url": null,
         "durable_keys": {}
       },
-      "_origin_file": "hcr_events_2025-01-20_2025-11-30.json",
-      "_origin_index": 416
+      "_origin_file": "hcr_events_2025-06-07_2025-08-15.json",
+      "_origin_index": 18
+    },
+    {
+      "source_key": "whitehouse",
+      "date": "2025-08-11",
+      "occurred_on": "2025-08-11",
+      "reported_on": "2025-08-11",
+      "dated_by": "occurred",
+      "category": "Civil–Military Relations & State Violence",
+      "title": "White House issued presidential memorandum mobilizing D.C. National Guard",
+      "url": "https://www.whitehouse.gov/presidential-actions/2025/08/restoring-law-and-order-in-the-district-of-columbia/",
+      "summary": "The White House issued a presidential memorandum directing the Secretary of Defense to mobilize the District of Columbia National Guard and order members to active service in numbers deemed necessary to address crime in the nation's capital. The memorandum cites recent violent crimes, including two murdered embassy staffers, a fatally shot Congressional intern, and a beaten administration staffer. The mobilization shall remain in effect until the President determines law and order have been restored, and authorizes coordination with state governors for additional National Guard augmentation.",
+      "why_relevant": "The memorandum asserts direct presidential command over the D.C. National Guard and deploys military force within the capital, raising constitutional questions about the scope of emergency authority, the Posse Comitatus Act, and the conditions under which domestic military deployment may occur.",
+      "jurisdiction": "federal",
+      "federal_nexus": "",
+      "confidence": "high",
+      "basis": "I direct the Secretary of Defense to mobilize the District of Columbia National Guard and order members to active service, in such numbers as he deems necessary, to address the epidemic of crime in our Nation's capital.",
+      "actor": "The White House",
+      "action": "announced a presidential memorandum titled \"Restoring Law and Order in the District of Columbia\"",
+      "act_key": "white house|announced a presidential memorandum titled restoring law and order in the district of columbia|2025-08-11",
+      "attacks": [
+        "rule_of_law",
+        "separation_of_powers",
+        "civil_service"
+      ],
+      "source_meta": {
+        "headline": "Restoring Law and Order in the District of Columbia",
+        "published_on": "2025-08-11",
+        "byline": null,
+        "outlet": "The White House",
+        "accessed_on": "2026-08-27T01:49:47Z",
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
+      "_origin_index": 1059
+    },
+    {
+      "source_key": "whitehouse",
+      "date": "2025-08-11",
+      "occurred_on": "2025-08-11",
+      "reported_on": "2025-08-11",
+      "dated_by": "occurred",
+      "category": "Civil–Military Relations & State Violence",
+      "title": "White House issues fact sheet on presidential memorandum mobilizing D.C. National Guard",
+      "url": "https://www.whitehouse.gov/fact-sheets/2025/08/fact-sheet-president-donald-j-trump-restores-law-and-order-in-the-district-of-columbia/",
+      "summary": "The White House published a fact sheet on August 11, 2025, describing a Presidential Memorandum signed by President Trump directing the Secretary of Defense to mobilize the District of Columbia National Guard to address crime in the capital. The memorandum authorizes coordination with state governors and deployment of additional National Guard units as needed, with mobilization to continue until \"law and order is restored.\" The fact sheet characterizes D.C. crime rates and frames federal intervention as necessary to restore safety and functioning of government.",
+      "why_relevant": "Deployment of National Guard units within a U.S. city under executive direction raises questions about the scope of emergency authority, the militarization of domestic law enforcement, and the constitutional limits on executive power to deploy armed forces within the territory without explicit congressional authorization or declaration of emergency.",
+      "jurisdiction": "federal",
+      "federal_nexus": "",
+      "confidence": "high",
+      "basis": "President Donald J. Trump signed a Presidential Memorandum to restore law and order in the District of Columbia. The Memorandum directs the Secretary of Defense to mobilize the District of Columbia National Guard.",
+      "actor": "The White House",
+      "action": "issued a fact sheet titled \"Fact Sheet: President Donald J. Trump Restores Law and Order in the District of Columbia\"",
+      "act_key": "white house|issued a fact sheet titled fact sheet president donald j trump restores law and order in the district of columbia|2025-08-11",
+      "attacks": [
+        "separation_of_powers",
+        "constitution",
+        "rule_of_law"
+      ],
+      "source_meta": {
+        "headline": "Fact Sheet: President Donald J. Trump Restores Law and Order in the District of Columbia",
+        "published_on": "2025-08-11",
+        "byline": null,
+        "outlet": "The White House",
+        "accessed_on": "2026-08-27T00:00:00Z",
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
+      "_origin_index": 485
     },
     {
       "source_key": "zeteo",
@@ -3906,9 +3926,9 @@
       "reported_on": "2025-08-12",
       "dated_by": "reported",
       "category": "Executive Actions & Orders",
-      "title": "Trump Assumes Control Over D.C. Police and Deploys Federal Agents",
+      "title": "Trump Assumes Control Over D.C. Metropolitan Police Department",
       "url": "https://www.washingtonpost.com/politics/2025/08/11/trump-national-guard-dc-crime-crackdown/",
-      "summary": "President Donald J. Trump announced at a press conference that he is taking control of the Washington, D.C., Metropolitan Police Department and deploying over 100 FBI agents, 40 agents from the Bureau of Alcohol, Tobacco, Firearms, and Explosives, along with other federal officers and National Guard members to address crime in the capital. He stated that officers would clear homeless encampments from the city, despite statistics showing a significant decrease in violent crime.",
+      "summary": "President Donald J. Trump announced at a press conference that he is taking control of the Washington, D.C., Metropolitan Police Department and deploying over 100 FBI agents, 40 agents from the Bureau of Alcohol, Tobacco, Firearms, and Explosives, along with other federal officers and National Guard members to address crime in the capital. He stated that officers would clear homeless encampments from the city. This move comes despite statistics showing a significant decrease in violent crime in D.C.",
       "why_relevant": "This action represents a significant federal intervention in local law enforcement, raising concerns about the potential for authoritarian control over policing.",
       "jurisdiction": "",
       "federal_nexus": "",
@@ -3929,8 +3949,8 @@
         "snapshot_url": null,
         "durable_keys": {}
       },
-      "_origin_file": "hcr_events_2025-01-20_2025-11-30.json",
-      "_origin_index": 411
+      "_origin_file": "hcr_events_2025-06-07_2025-08-15.json",
+      "_origin_index": 12
     },
     {
       "source_key": "hcr",
@@ -3939,10 +3959,10 @@
       "reported_on": "2025-08-12",
       "dated_by": "reported",
       "category": "Executive Actions & Orders",
-      "title": "Trump Mobilizes National Guard Under Pretext of Crime Control",
+      "title": "Trump Mobilizes National Guard Amid Claims of Crime Crisis",
       "url": "https://www.washingtonpost.com/politics/2025/08/11/trump-national-guard-dc-crime-crackdown/",
-      "summary": "President Trump mobilized the National Guard in Washington, D.C., citing a need to combat crime, despite evidence showing a decrease in violent crime rates. This move has drawn parallels to past authoritarian actions where governments used crime as a pretext to exert control over local law enforcement.",
-      "why_relevant": "The mobilization of the National Guard under such pretexts raises alarms about the potential for government overreach and the erosion of democratic norms.",
+      "summary": "President Trump mobilized the National Guard in Washington, D.C., claiming it was necessary to address a crime crisis, despite evidence showing that violent crime rates are at a historic low. This action is seen as a pretext for consolidating federal control over local law enforcement.",
+      "why_relevant": "This mobilization reflects an alarming trend of federal overreach into local governance and law enforcement, which can threaten democratic norms.",
       "jurisdiction": "",
       "federal_nexus": "",
       "confidence": "",
@@ -3962,39 +3982,8 @@
         "snapshot_url": null,
         "durable_keys": {}
       },
-      "_origin_file": "hcr_events_2025-01-20_2025-11-30.json",
-      "_origin_index": 413
-    },
-    {
-      "source_key": "justice",
-      "date": "2025-08-12",
-      "occurred_on": "2025-08-12",
-      "reported_on": "2025-08-12",
-      "dated_by": "occurred",
-      "category": "Executive Actions & Orders",
-      "title": "Justice Department Settles Lawsuits Challenging Race-Based Admissions at West Point and Air Force Academy",
-      "url": "https://www.justice.gov/opa/pr/justice-department-settles-lawsuits-challenging-race-based-admissions-west-point-and-air",
-      "summary": "The Department of Justice announced this on 2025-08-12 through Office of the Attorney General. The recorded stage is settlement executed. The department's own account of it reads: \"The Justice Department today announced the settlement of litigation challenging former race-based admissions practices at the U.S. Military Academy at West Point and the U.S. Air Force Academy. The settlement results in dismissal of two lawsuits brought by plaintiff Students for Fair Admissions Inc.\"",
-      "why_relevant": "",
-      "jurisdiction": "federal",
-      "federal_nexus": "Official DOJ channel; documents the act of announcement only.",
-      "confidence": "high",
-      "basis": "official_actor_record",
-      "actor": "The Department of Justice",
-      "action": "announced \"Justice Department Settles Lawsuits Challenging Race-Based Admissions at West Point and Air Force Academy\"",
-      "act_key": "department|announced justice department settles lawsuits challenging race based admissions at west point and air force academy|2025-08-12",
-      "attacks": [],
-      "source_meta": {
-        "headline": null,
-        "published_on": null,
-        "byline": null,
-        "outlet": null,
-        "accessed_on": null,
-        "snapshot_url": null,
-        "durable_keys": {}
-      },
-      "_origin_file": "justice_events_2025-01-20_2026-08-14.json",
-      "_origin_index": 157
+      "_origin_file": "hcr_events_2025-06-07_2025-08-15.json",
+      "_origin_index": 15
     },
     {
       "source_key": "popinfo",
@@ -4031,6 +4020,40 @@
       },
       "_origin_file": "popinfo_events_2025-07-26_2025-08-29.json",
       "_origin_index": 25
+    },
+    {
+      "source_key": "whitehouse",
+      "date": "2025-08-12",
+      "occurred_on": "2025-08-12",
+      "reported_on": "2025-08-12",
+      "dated_by": "occurred",
+      "category": "Executive Actions & Orders",
+      "title": "White House issues release promoting executive action on D.C. public safety",
+      "url": "https://www.whitehouse.gov/releases/2025/08/president-trump-is-delivering-on-his-campaign-promise-to-make-d-c-safe-again/",
+      "summary": "The White House published a release on August 12, 2025, titled \"President Trump Is Delivering on His Campaign Promise to Make D.C. Safe Again.\" The document states that President Trump signed an executive action to restore law and order to Washington, D.C., and frames it as fulfilling a campaign pledge to address crime. The release compiles 20 campaign statements from Trump (dating 2023–2025) in which he promised to \"federalize\" D.C., deploy federal law enforcement, and transform the capital into \"the safest capital in the world.\" The release does not specify the operative details of the executive action itself.",
+      "why_relevant": "The release announces a federal executive action asserting direct federal control over a U.S. capital city, a move that concentrates executive power over a jurisdiction with its own elected government and raises questions about federalism, separation of powers, and the scope of presidential authority over municipal law enforcement.",
+      "jurisdiction": "federal",
+      "federal_nexus": "",
+      "confidence": "high",
+      "basis": "President Donald J. Trump's executive action to restore law and order to Washington, D.C. makes good on his campaign pledge to dismantle the rampant crime crisis.",
+      "actor": "The White House",
+      "action": "published a release titled \"President Trump Is Delivering on His Campaign Promise to Make D.C. Safe Again\"",
+      "act_key": "white house|published a release titled president trump is delivering on his campaign promise to make d c safe again|2025-08-12",
+      "attacks": [
+        "separation_of_powers",
+        "rule_of_law"
+      ],
+      "source_meta": {
+        "headline": "President Trump Is Delivering on His Campaign Promise to Make D.C. Safe Again",
+        "published_on": "2025-08-12",
+        "byline": null,
+        "outlet": "The White House",
+        "accessed_on": "2026-08-26T23:14:36Z",
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
+      "_origin_index": 243
     },
     {
       "source_key": "zeteo",
@@ -4163,6 +4186,37 @@
       },
       "_origin_file": "hcr_events_2025-06-07_2025-08-15.json",
       "_origin_index": 13
+    },
+    {
+      "source_key": "justice",
+      "date": "2025-08-12",
+      "occurred_on": "2025-08-12",
+      "reported_on": "2025-08-12",
+      "dated_by": "occurred",
+      "category": "Judicial Developments",
+      "title": "Justice Department settles lawsuits challenging race-based admissions at military academies",
+      "url": "https://www.justice.gov/opa/pr/justice-department-settles-lawsuits-challenging-race-based-admissions-west-point-and-air",
+      "summary": "The Department of Justice announced settlement of litigation brought by Students for Fair Admissions Inc. challenging race-based admissions practices at West Point and the Air Force Academy. The settlement dismisses two lawsuits alleging unconstitutional Fifth Amendment violations. Attorney General Pamela Bondi stated the department is committed to eliminating DEI practices and ensuring admission is based exclusively on merit. The settlement includes agreed-upon terms to end race-based admissions at both institutions.",
+      "why_relevant": "The settlement represents a significant shift in federal policy on race-conscious admissions at military institutions, reflecting a change in DOJ enforcement priorities and the administration's legal position on affirmative action.",
+      "jurisdiction": "federal",
+      "federal_nexus": "",
+      "confidence": "high",
+      "basis": "The Justice Department today announced the settlement of litigation challenging former race-based admissions practices at the U.S. Military Academy at West Point and the U.S. Air Force Academy.",
+      "actor": "The Department of Justice",
+      "action": "announced \"Justice Department Settles Lawsuits Challenging Race-Based Admissions at West Point and Air Force Academy\"",
+      "act_key": "department|announced justice department settles lawsuits challenging race based admissions at west point and air force academy|2025-08-12",
+      "attacks": [],
+      "source_meta": {
+        "headline": "Justice Department Settles Lawsuits Challenging Race-Based Admissions at West Point and Air Force Academy",
+        "published_on": "2025-08-12",
+        "byline": null,
+        "outlet": "justice.gov",
+        "accessed_on": "2026-08-27T04:51:03Z",
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "justice_events_2025-01-20_2026-08-14.json",
+      "_origin_index": 157
     },
     {
       "source_key": "justsecurity",
@@ -4497,6 +4551,37 @@
       "_origin_index": 14
     },
     {
+      "source_key": "justice",
+      "date": "2025-08-12",
+      "occurred_on": "",
+      "reported_on": "2025-08-12",
+      "dated_by": "reported",
+      "category": "Law Enforcement & Surveillance",
+      "title": "Department of Justice finds George Washington University in violation of Title VI for deliberate indifference to antisemitic discrimination",
+      "url": "https://www.justice.gov/opa/pr/justice-department-finds-george-washington-university-deliberately-indifferent-antisemitic",
+      "summary": "The Department of Justice's Civil Rights Division announced on August 12, 2025, that it has found George Washington University in violation of Title VI of the Civil Rights Act of 1964 for acting with deliberate indifference to a hostile educational environment targeting Jewish, American-Israeli, and Israeli students and faculty. The department stated that GWU took no meaningful action in response to complaints and misconduct. The DOJ announced it will seek immediate remediation for the civil rights violations.",
+      "why_relevant": "The announcement represents a federal civil rights enforcement action against a major private university, establishing a precedent for Title VI enforcement in cases of institutional indifference to discrimination based on national origin and religion.",
+      "jurisdiction": "federal",
+      "federal_nexus": "",
+      "confidence": "high",
+      "basis": "The Division finds that GWU took no meaningful action and was instead deliberately indifferent to the complaints it received, the misconduct that occurred, and the harms that were suffered by its Jewish and Israeli students and faculty.",
+      "actor": "The Department of Justice",
+      "action": "announced \"Justice Department Finds George Washington University Deliberately Indifferent to Antisemitic Discrimination\"",
+      "act_key": "department|announced justice department finds george washington university deliberately indifferent to antisemitic discrimination|2025-08-12",
+      "attacks": [],
+      "source_meta": {
+        "headline": "Justice Department Finds George Washington University Deliberately Indifferent to Antisemitic Discrimination",
+        "published_on": "2025-08-12",
+        "byline": null,
+        "outlet": "justice.gov",
+        "accessed_on": "2026-08-27T04:50:54Z",
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "justice_events_2025-01-20_2026-08-14.json",
+      "_origin_index": 156
+    },
+    {
       "source_key": "zeteo",
       "date": "2025-08-12",
       "occurred_on": "2025-08-12",
@@ -4627,37 +4712,6 @@
       },
       "_origin_file": "zeteo_events_2025-07-26_2025-08-29.json",
       "_origin_index": 69
-    },
-    {
-      "source_key": "justice",
-      "date": "2025-08-12",
-      "occurred_on": "2025-08-12",
-      "reported_on": "2025-08-12",
-      "dated_by": "occurred",
-      "category": "Civil Society & Protest",
-      "title": "Justice Department Finds George Washington University Deliberately Indifferent to Antisemitic Discrimination",
-      "url": "https://www.justice.gov/opa/pr/justice-department-finds-george-washington-university-deliberately-indifferent-antisemitic",
-      "summary": "The Department of Justice announced this on 2025-08-12 through Civil Rights Division. The department's own account of it reads: \"Today, the Department of Justice finds George Washington University (GWU) in violation of federal civil rights law by acting deliberately indifferent to the hostile educational environment for Jewish, American-Israeli, and Israeli students and faculty.\"",
-      "why_relevant": "",
-      "jurisdiction": "federal",
-      "federal_nexus": "Official DOJ channel; documents the act of announcement only.",
-      "confidence": "high",
-      "basis": "official_actor_record",
-      "actor": "The Department of Justice",
-      "action": "announced \"Justice Department Finds George Washington University Deliberately Indifferent to Antisemitic Discrimination\"",
-      "act_key": "department|announced justice department finds george washington university deliberately indifferent to antisemitic discrimination|2025-08-12",
-      "attacks": [],
-      "source_meta": {
-        "headline": null,
-        "published_on": null,
-        "byline": null,
-        "outlet": null,
-        "accessed_on": null,
-        "snapshot_url": null,
-        "durable_keys": {}
-      },
-      "_origin_file": "justice_events_2025-01-20_2026-08-14.json",
-      "_origin_index": 156
     },
     {
       "source_key": "hcr",
@@ -4899,68 +4953,6 @@
       "_origin_index": 28
     },
     {
-      "source_key": "whitehouse",
-      "date": "2025-08-12",
-      "occurred_on": "2025-08-12",
-      "reported_on": "2025-08-12",
-      "dated_by": "occurred",
-      "category": "Information & Media Control",
-      "title": "President Trump Is Delivering on His Campaign Promise to Make D.C. Safe Again",
-      "url": "https://www.whitehouse.gov/releases/2025/08/president-trump-is-delivering-on-his-campaign-promise-to-make-d-c-safe-again/",
-      "summary": "The White House published this release on 2025-08-12 through its releases channel.",
-      "why_relevant": "",
-      "jurisdiction": "federal",
-      "federal_nexus": "Official White House channel; documents the act of publication only.",
-      "confidence": "high",
-      "basis": "official_actor_record",
-      "actor": "The White House",
-      "action": "published a release titled \"President Trump Is Delivering on His Campaign Promise to Make D.C. Safe Again\"",
-      "act_key": "white house|published a release titled president trump is delivering on his campaign promise to make d c safe again|2025-08-12",
-      "attacks": [],
-      "source_meta": {
-        "headline": null,
-        "published_on": null,
-        "byline": null,
-        "outlet": null,
-        "accessed_on": null,
-        "snapshot_url": null,
-        "durable_keys": {}
-      },
-      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
-      "_origin_index": 297
-    },
-    {
-      "source_key": "whitehouse",
-      "date": "2025-08-12",
-      "occurred_on": "2025-08-12",
-      "reported_on": "2025-08-12",
-      "dated_by": "occurred",
-      "category": "Information & Media Control",
-      "title": "Wages Grow as Inflation Remains Low and Stable",
-      "url": "https://www.whitehouse.gov/releases/2025/08/wages-grow-as-inflation-remains-low-and-stable/",
-      "summary": "The White House published this release on 2025-08-12 through its releases channel.",
-      "why_relevant": "",
-      "jurisdiction": "federal",
-      "federal_nexus": "Official White House channel; documents the act of publication only.",
-      "confidence": "high",
-      "basis": "official_actor_record",
-      "actor": "The White House",
-      "action": "published a release titled \"Wages Grow as Inflation Remains Low and Stable\"",
-      "act_key": "white house|published a release titled wages grow as inflation remains low and stable|2025-08-12",
-      "attacks": [],
-      "source_meta": {
-        "headline": null,
-        "published_on": null,
-        "byline": null,
-        "outlet": null,
-        "accessed_on": null,
-        "snapshot_url": null,
-        "durable_keys": {}
-      },
-      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
-      "_origin_index": 298
-    },
-    {
       "source_key": "zeteo",
       "date": "2025-08-12",
       "occurred_on": "",
@@ -5172,10 +5164,10 @@
       "reported_on": "2025-08-12",
       "dated_by": "reported",
       "category": "Economic & Regulatory Power",
-      "title": "Trump’s Economic Control Mirrors State Capitalism",
+      "title": "Trump’s Economic Control Compared to State Capitalism",
       "url": "https://www.wsj.com/economy/the-u-s-marches-toward-state-capitalism-with-american-characteristics-f75cafa8",
-      "summary": "Economic analyst Greg Ip noted that the U.S. is moving towards a form of state capitalism under Trump, where the government exerts control over private enterprises, reminiscent of the Chinese Communist Party. This includes the government's partial control over U.S. Steel and the direction of significant investments from trading partners.",
-      "why_relevant": "This shift towards state capitalism represents a significant change in the relationship between the government and the economy, potentially undermining free market principles and democratic accountability.",
+      "summary": "Greg Ip of the Wall Street Journal noted that the U.S. is moving towards a form of state capitalism under Trump, where the government exerts significant control over private enterprises, contrasting sharply with traditional free market principles. This includes the government's involvement in U.S. Steel and directing investments from trading partners.",
+      "why_relevant": "The shift towards state capitalism raises concerns about the erosion of free market principles and the potential for government overreach into the private sector.",
       "jurisdiction": "",
       "federal_nexus": "",
       "confidence": "",
@@ -5184,7 +5176,7 @@
       "action": "",
       "act_key": "",
       "attacks": [
-        "rule_of_law"
+        "economy"
       ],
       "source_meta": {
         "headline": null,
@@ -5195,8 +5187,8 @@
         "snapshot_url": null,
         "durable_keys": {}
       },
-      "_origin_file": "hcr_events_2025-01-20_2025-11-30.json",
-      "_origin_index": 414
+      "_origin_file": "hcr_events_2025-06-07_2025-08-15.json",
+      "_origin_index": 16
     },
     {
       "source_key": "noah",
@@ -5325,6 +5317,37 @@
       },
       "_origin_file": "noah_events_2025-07-26_2025-08-29.json",
       "_origin_index": 18
+    },
+    {
+      "source_key": "whitehouse",
+      "date": "2025-08-12",
+      "occurred_on": "2025-08-12",
+      "reported_on": "2025-08-12",
+      "dated_by": "occurred",
+      "category": "Economic & Regulatory Power",
+      "title": "White House issues fact sheet on inflation and wage growth",
+      "url": "https://www.whitehouse.gov/releases/2025/08/wages-grow-as-inflation-remains-low-and-stable/",
+      "summary": "The White House published a fact sheet claiming that inflation remains low and stable at 1.9% since President Trump took office, and that real average weekly earnings increased in July with real wages up 1.3% year-over-year. The release attributes wage growth outpacing inflation to Trump's policies, cites declining prices for energy, food, and consumer goods, and notes small business optimism reached a five-month high. Press Secretary Karoline Leavitt is quoted characterizing the data as vindication of the administration's economic agenda.",
+      "why_relevant": "The fact sheet represents the administration's official framing of economic conditions and its claim of policy success, shaping public perception of inflation and wage dynamics ahead of potential electoral or legislative contests.",
+      "jurisdiction": "federal",
+      "federal_nexus": "",
+      "confidence": "high",
+      "basis": "Today's CPI report revealed that inflation beat market expectations once again and remains stable, underscoring President Trump's commitment to lower costs for American families and businesses.",
+      "actor": "The White House",
+      "action": "published a release titled \"Wages Grow as Inflation Remains Low and Stable\"",
+      "act_key": "white house|published a release titled wages grow as inflation remains low and stable|2025-08-12",
+      "attacks": [],
+      "source_meta": {
+        "headline": "Wages Grow as Inflation Remains Low and Stable",
+        "published_on": "2025-08-12",
+        "byline": null,
+        "outlet": "The White House",
+        "accessed_on": "2026-08-26T23:14:48Z",
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
+      "_origin_index": 244
     },
     {
       "source_key": "hcr",
@@ -5859,6 +5882,40 @@
       "_origin_index": 203
     },
     {
+      "source_key": "justice",
+      "date": "2025-08-13",
+      "occurred_on": "2025-08-13",
+      "reported_on": "2025-08-13",
+      "dated_by": "occurred",
+      "category": "Executive Actions & Orders",
+      "title": "DOJ Antitrust Division announces revocation of Biden-Harris competition executive order",
+      "url": "https://www.justice.gov/opa/pr/statement-revocation-biden-harris-executive-order-competition",
+      "summary": "The Department of Justice's Antitrust Division announced on August 13, 2025, that it salutes the President's decision to revoke Executive Order 14036 on competition. Assistant Attorney General Abigail Slater stated the Division will pursue \"America First Antitrust\" focused on empowering free markets rather than regulatory prescription. The Division cited streamlining merger review processes, reinstating early termination practices, and settling reviews with targeted consent decrees as priorities under the new approach.",
+      "why_relevant": "The revocation of a prior administration's competition policy and the DOJ's stated reorientation toward reduced regulatory scrutiny of mergers and deals represents a material shift in how federal antitrust power will be deployed, affecting market concentration, innovation barriers, and the balance between enforcement and deal facilitation.",
+      "jurisdiction": "federal",
+      "federal_nexus": "",
+      "confidence": "high",
+      "basis": "Today, the Department of Justice's Antitrust Division salutes the President's decision to revoke Executive Order 14036.",
+      "actor": "The Department of Justice",
+      "action": "announced \"Statement on Revocation of Biden-Harris Executive Order on Competition\"",
+      "act_key": "department|announced statement on revocation of biden harris executive order on competition|2025-08-13",
+      "attacks": [
+        "rule_of_law",
+        "economy"
+      ],
+      "source_meta": {
+        "headline": "Statement on Revocation of Biden-Harris Executive Order on Competition",
+        "published_on": "2025-08-13",
+        "byline": null,
+        "outlet": "justice.gov",
+        "accessed_on": "2026-08-27T04:51:23Z",
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "justice_events_2025-01-20_2026-08-14.json",
+      "_origin_index": 159
+    },
+    {
       "source_key": "orders",
       "date": "2025-08-13",
       "occurred_on": "2025-08-13",
@@ -5896,29 +5953,33 @@
       "reported_on": "2025-08-13",
       "dated_by": "occurred",
       "category": "Executive Actions & Orders",
-      "title": "Enabling Competition in the Commercial Space Industry",
+      "title": "Trump signed Executive Order 14335 to streamline commercial space industry regulation",
       "url": "https://www.whitehouse.gov/presidential-actions/2025/08/enabling-competition-in-the-commercial-space-industry/",
-      "summary": "The White House published this executive order on 2025-08-13 through its executive-orders channel.",
-      "why_relevant": "",
+      "summary": "President Trump signed Executive Order 14335 on August 13, 2025, directing federal agencies to eliminate or expedite environmental reviews and licensing barriers for commercial space launch, reentry, and spaceport development. The order instructs the Secretary of Transportation to reform Part 450 regulations, the Secretary of Commerce to evaluate state coastal zone compliance and propose novel activity authorizations, and multiple agencies to align review processes and establish categorical exclusions under the National Environmental Policy Act. The order establishes new leadership positions within the Transportation and Commerce departments focused on commercial space innovation.",
+      "why_relevant": "The order uses executive authority to bypass or reduce environmental and safety review processes that normally constrain federal licensing decisions, concentrating discretion in the executive branch and potentially limiting public participation in decisions affecting coastal and environmental resources.",
       "jurisdiction": "federal",
-      "federal_nexus": "Official White House channel; documents the act of publication only.",
+      "federal_nexus": "",
       "confidence": "high",
-      "basis": "official_actor_record",
+      "basis": "The Secretary of Transportation, in consultation with the Chair of the Council on Environmental Quality, shall, consistent with applicable law, use all available authorities to eliminate or expedite the Department of Transportation's environmental reviews for, and other obstacles to the granting of, launch and reentry licenses and permits.",
       "actor": "The White House",
       "action": "announced an executive order titled \"Enabling Competition in the Commercial Space Industry\"",
       "act_key": "white house|announced an executive order titled enabling competition in the commercial space industry|2025-08-13",
-      "attacks": [],
+      "attacks": [
+        "separation_of_powers",
+        "environment",
+        "rule_of_law"
+      ],
       "source_meta": {
-        "headline": null,
-        "published_on": null,
+        "headline": "Enabling Competition in the Commercial Space Industry",
+        "published_on": "2025-08-13",
         "byline": null,
-        "outlet": null,
-        "accessed_on": null,
+        "outlet": "The White House",
+        "accessed_on": "2026-08-27T00:53:54Z",
         "snapshot_url": null,
         "durable_keys": {}
       },
       "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
-      "_origin_index": 823
+      "_origin_index": 767
     },
     {
       "source_key": "whitehouse",
@@ -5927,60 +5988,127 @@
       "reported_on": "2025-08-13",
       "dated_by": "occurred",
       "category": "Executive Actions & Orders",
-      "title": "Ensuring American Pharmaceutical Supply Chain Resilience by Filling the Strategic Active Pharmaceutical Ingredients Reserve",
-      "url": "https://www.whitehouse.gov/presidential-actions/2025/08/ensuring-american-pharmaceutical-supply-chain-resilience-by-filling-the-strategic-active-pharmaceutical-ingredients-reserve/",
-      "summary": "The White House published this executive order on 2025-08-13 through its executive-orders channel.",
-      "why_relevant": "",
+      "title": "Trump signed executive order revoking Biden's 2021 competition order",
+      "url": "https://www.whitehouse.gov/presidential-actions/2025/08/revocation-of-executive-order-on-competition/",
+      "summary": "President Trump signed Executive Order 14337 on August 13, 2025, revoking Executive Order 14036 (Promoting Competition in the American Economy), issued by President Biden on July 9, 2021. The revocation order contains standard boilerplate provisions regarding implementation, legal effect, and cost allocation. No substantive policy direction or replacement framework is stated in the instrument.",
+      "why_relevant": "Revocation of a competition order affects the executive's posture toward antitrust enforcement, merger review, and market concentration — core regulatory powers that shape economic structure and corporate accountability.",
       "jurisdiction": "federal",
-      "federal_nexus": "Official White House channel; documents the act of publication only.",
+      "federal_nexus": "",
       "confidence": "high",
-      "basis": "official_actor_record",
+      "basis": "Executive Order 14036 of July 9, 2021 (Promoting Competition in the American Economy), is hereby revoked.",
+      "actor": "The White House",
+      "action": "announced an executive order titled \"Revocation of Executive Order on Competition\"",
+      "act_key": "white house|announced an executive order titled revocation of executive order on competition|2025-08-13",
+      "attacks": [
+        "rule_of_law",
+        "economy"
+      ],
+      "source_meta": {
+        "headline": "Revocation of Executive Order on Competition",
+        "published_on": "2025-08-13",
+        "byline": null,
+        "outlet": "The White House",
+        "accessed_on": "2026-08-27T00:53:45Z",
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
+      "_origin_index": 766
+    },
+    {
+      "source_key": "whitehouse",
+      "date": "2025-08-13",
+      "occurred_on": "2025-08-13",
+      "reported_on": "2025-08-13",
+      "dated_by": "occurred",
+      "category": "Executive Actions & Orders",
+      "title": "White House issues fact sheet on executive order streamlining commercial space regulations",
+      "url": "https://www.whitehouse.gov/fact-sheets/2025/08/fact-sheet-president-donald-j-trump-enables-competition-in-the-commercial-space-industry/",
+      "summary": "The White House published a fact sheet on August 13, 2025, describing an executive order signed by President Trump to streamline regulations for the commercial space industry. The order directs the Secretary of Transportation to eliminate or expedite environmental reviews for launch and reentry licenses, review and eliminate outdated regulatory requirements, and establish a streamlined process for novel space activities. It also directs the Secretary of Commerce to evaluate state compliance with the Coastal Zone Management Act and whether states are hindering spaceport development, and mandates alignment of review processes across Defense, Transportation, and NASA to eliminate duplicative regulations.",
+      "why_relevant": "The order asserts executive power to override or streamline environmental review processes and state regulatory authority over coastal zone management, raising questions about the balance between federal deregulation and environmental oversight, and between federal and state jurisdiction over infrastructure development.",
+      "jurisdiction": "federal",
+      "federal_nexus": "",
+      "confidence": "high",
+      "basis": "President Donald J. Trump signed an Executive Order to streamline regulations and foster a competitive commercial space industry\" and \"directs the Secretary of Transportation, in consultation with the Chair of the Council on Environmental Quality, to eliminate or expedite environmental reviews for launch and reentry licenses and permits.",
+      "actor": "The White House",
+      "action": "issued a fact sheet titled \"Fact Sheet: President Donald J. Trump Enables Competition in the Commercial Space Industry\"",
+      "act_key": "white house|issued a fact sheet titled fact sheet president donald j trump enables competition in the commercial space industry|2025-08-13",
+      "attacks": [
+        "environment"
+      ],
+      "source_meta": {
+        "headline": "Fact Sheet: President Donald J. Trump Enables Competition in the Commercial Space Industry",
+        "published_on": "2025-08-13",
+        "byline": null,
+        "outlet": "The White House",
+        "accessed_on": "2026-08-26T23:59:27Z",
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
+      "_origin_index": 482
+    },
+    {
+      "source_key": "whitehouse",
+      "date": "2025-08-13",
+      "occurred_on": "",
+      "reported_on": "2025-08-13",
+      "dated_by": "reported",
+      "category": "Executive Actions & Orders",
+      "title": "White House issues Kennedy Center Honors announcement",
+      "url": "https://www.whitehouse.gov/releases/2025/08/president-trump-spotlights-2025-kennedy-center-honorees/",
+      "summary": "The White House issued a release announcing the 2025 Kennedy Center Honors honorees: George Strait, Michael Crawford, Sylvester Stallone, Gloria Gaynor, and KISS. The announcement describes each honoree's career achievements and cultural impact. The gala is scheduled for December 2025. This is a ceremonial announcement with no policy directives or institutional changes.",
+      "why_relevant": "The Kennedy Center Honors is a ceremonial function of the presidency; the announcement itself carries no bearing on democratic structure, rights, or institutional power.",
+      "jurisdiction": "federal",
+      "federal_nexus": "",
+      "confidence": "high",
+      "basis": "Today, President Donald J. Trump proudly unveiled the honorees of the 48th Kennedy Center Honors, recognizing an extraordinary group of artists whose talents have shaped American culture and entertained generations.",
+      "actor": "The White House",
+      "action": "published a release titled \"President Trump Spotlights 2025 Kennedy Center Honorees: American Icons in Performing Arts\"",
+      "act_key": "white house|published a release titled president trump spotlights 2025 kennedy center honorees american icons in performing arts|2025-08-13",
+      "attacks": [],
+      "source_meta": {
+        "headline": "President Trump Spotlights 2025 Kennedy Center Honorees: American Icons in Performing Arts",
+        "published_on": "2025-08-13",
+        "byline": null,
+        "outlet": "The White House",
+        "accessed_on": "2026-08-26T23:14:14Z",
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
+      "_origin_index": 241
+    },
+    {
+      "source_key": "whitehouse",
+      "date": "2025-08-13",
+      "occurred_on": "2025-08-13",
+      "reported_on": "2025-08-13",
+      "dated_by": "occurred",
+      "category": "Executive Actions & Orders",
+      "title": "White House signed Executive Order 14336 establishing Strategic Active Pharmaceutical Ingredients Reserve",
+      "url": "https://www.whitehouse.gov/presidential-actions/2025/08/ensuring-american-pharmaceutical-supply-chain-resilience-by-filling-the-strategic-active-pharmaceutical-ingredients-reserve/",
+      "summary": "The White House signed Executive Order 14336 on August 13, 2025, directing the Office of the Assistant Secretary for Preparedness and Response (ASPR) to fill the Strategic Active Pharmaceutical Ingredients Reserve (SAPIR) with a 6-month supply of APIs for approximately 26 critical drugs within 120 days. The order states that only about 10 percent of APIs used in U.S. finished drug products are currently manufactured domestically, and directs ASPR to identify existing funds, ready an existing SAPIR repository, and develop a plan to expand the reserve to include 86 essential medicines and open a second repository within one year.",
+      "why_relevant": "The order asserts executive authority to redirect existing federal funds toward domestic pharmaceutical supply resilience without new appropriations, establishing a precedent for unilateral executive control over health security procurement and supply chain policy.",
+      "jurisdiction": "federal",
+      "federal_nexus": "",
+      "confidence": "high",
+      "basis": "By the authority vested in me as President by the Constitution and the laws of the United States of America, it is hereby ordered: Section 1. Purpose.",
       "actor": "The White House",
       "action": "announced an executive order titled \"Ensuring American Pharmaceutical Supply Chain Resilience by Filling the Strategic Active Pharmaceutical Ingredients Reserve\"",
       "act_key": "white house|announced an executive order titled ensuring american pharmaceutical supply chain resilience by filling the strategic active pharmaceutical ingredients reserve|2025-08-13",
       "attacks": [],
       "source_meta": {
-        "headline": null,
-        "published_on": null,
+        "headline": "Ensuring American Pharmaceutical Supply Chain Resilience by Filling the Strategic Active Pharmaceutical Ingredients Reserve",
+        "published_on": "2025-08-13",
         "byline": null,
-        "outlet": null,
-        "accessed_on": null,
+        "outlet": "The White House",
+        "accessed_on": "2026-08-27T00:54:06Z",
         "snapshot_url": null,
         "durable_keys": {}
       },
       "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
-      "_origin_index": 824
-    },
-    {
-      "source_key": "whitehouse",
-      "date": "2025-08-13",
-      "occurred_on": "2025-08-13",
-      "reported_on": "2025-08-13",
-      "dated_by": "occurred",
-      "category": "Executive Actions & Orders",
-      "title": "Revocation of Executive Order on Competition",
-      "url": "https://www.whitehouse.gov/presidential-actions/2025/08/revocation-of-executive-order-on-competition/",
-      "summary": "The White House published this executive order on 2025-08-13 through its executive-orders channel.",
-      "why_relevant": "",
-      "jurisdiction": "federal",
-      "federal_nexus": "Official White House channel; documents the act of publication only.",
-      "confidence": "high",
-      "basis": "official_actor_record",
-      "actor": "The White House",
-      "action": "announced an executive order titled \"Revocation of Executive Order on Competition\"",
-      "act_key": "white house|announced an executive order titled revocation of executive order on competition|2025-08-13",
-      "attacks": [],
-      "source_meta": {
-        "headline": null,
-        "published_on": null,
-        "byline": null,
-        "outlet": null,
-        "accessed_on": null,
-        "snapshot_url": null,
-        "durable_keys": {}
-      },
-      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
-      "_origin_index": 822
+      "_origin_index": 768
     },
     {
       "source_key": "zeteo",
@@ -6217,6 +6345,40 @@
       },
       "_origin_file": "hcr_events_2025-07-26_2025-08-29.json",
       "_origin_index": 131
+    },
+    {
+      "source_key": "justice",
+      "date": "2025-08-13",
+      "occurred_on": "2025-08-13",
+      "reported_on": "2025-08-13",
+      "dated_by": "occurred",
+      "category": "Judicial Developments",
+      "title": "Justice Department obtained termination of 47-year consent decree governing Norfolk police and fire employment discrimination remedies",
+      "url": "https://www.justice.gov/opa/pr/federal-court-grants-justice-departments-motion-terminate-47-year-old-consent-decree",
+      "summary": "The U.S. District Court for the Eastern District of Virginia granted the Department of Justice's motion to terminate a 1978 consent decree that had governed employment discrimination remedies in Norfolk's Police and Fire Departments. The decree had settled DOJ's lawsuit alleging unlawful discrimination against Black employees and women under Title VII of the Civil Rights Act. The City did not oppose the motion. Attorney General Bondi characterized the termination as freeing local hiring from \"federal micromanagement\" and \"DEI quotas.\"",
+      "why_relevant": "The termination of a long-standing civil rights consent decree signals a shift in DOJ enforcement posture away from remedying systemic employment discrimination and toward narrowing federal oversight of local hiring practices in public safety.",
+      "jurisdiction": "federal",
+      "federal_nexus": "",
+      "confidence": "high",
+      "basis": "the U.S. District Court for the Eastern District of Virginia granted its motion to terminate a 1978 consent decree governing police and firefighter employment in Norfolk, Virginia.",
+      "actor": "The Department of Justice",
+      "action": "announced \"Federal Court Grants Justice Department’s Motion to Terminate 47-Year-Old Consent Decree Governing Employment by City of Norfolk’s Police and Fire Departments\"",
+      "act_key": "department|announced federal court grants justice department s motion to terminate 47 year old consent decree governing employment by city of norfolk s police and fire departments|2025-08-13",
+      "attacks": [
+        "rule_of_law",
+        "minorities"
+      ],
+      "source_meta": {
+        "headline": "Federal Court Grants Justice Department’s Motion to Terminate 47-Year-Old Consent Decree Governing Employment by City of Norfolk’s Police and Fire Departments",
+        "published_on": "2025-08-13",
+        "byline": null,
+        "outlet": "justice.gov",
+        "accessed_on": "2026-08-27T04:51:13Z",
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "justice_events_2025-01-20_2026-08-14.json",
+      "_origin_index": 158
     },
     {
       "source_key": "justsecurity",
@@ -6523,8 +6685,8 @@
         "snapshot_url": null,
         "durable_keys": {}
       },
-      "_origin_file": "guardian_events_2025-08-23_2025-09-05.json",
-      "_origin_index": 131
+      "_origin_file": "guardian_events_2025-07-26_2025-08-29.json",
+      "_origin_index": 33
     },
     {
       "source_key": "guardian",
@@ -6733,37 +6895,6 @@
       "_origin_index": 220
     },
     {
-      "source_key": "justice",
-      "date": "2025-08-13",
-      "occurred_on": "2025-08-13",
-      "reported_on": "2025-08-13",
-      "dated_by": "occurred",
-      "category": "Civil Society & Protest",
-      "title": "Federal Court Grants Justice Department’s Motion to Terminate 47-Year-Old Consent Decree Governing Employment by City of Norfolk’s Police and Fire Departments",
-      "url": "https://www.justice.gov/opa/pr/federal-court-grants-justice-departments-motion-terminate-47-year-old-consent-decree",
-      "summary": "The Department of Justice announced this on 2025-08-13 through Office of the Attorney General. The department's own account of it reads: \"This week, the Justice Department announced that the U.S. District Court for the Eastern District of Virginia granted its motion to terminate a 1978 consent decree governing police and firefighter employment in Norfolk, Virginia.\"",
-      "why_relevant": "",
-      "jurisdiction": "federal",
-      "federal_nexus": "Official DOJ channel; documents the act of announcement only.",
-      "confidence": "high",
-      "basis": "official_actor_record",
-      "actor": "The Department of Justice",
-      "action": "announced \"Federal Court Grants Justice Department’s Motion to Terminate 47-Year-Old Consent Decree Governing Employment by City of Norfolk’s Police and Fire Departments\"",
-      "act_key": "department|announced federal court grants justice department s motion to terminate 47 year old consent decree governing employment by city of norfolk s police and fire departments|2025-08-13",
-      "attacks": [],
-      "source_meta": {
-        "headline": null,
-        "published_on": null,
-        "byline": null,
-        "outlet": null,
-        "accessed_on": null,
-        "snapshot_url": null,
-        "durable_keys": {}
-      },
-      "_origin_file": "justice_events_2025-01-20_2026-08-14.json",
-      "_origin_index": 158
-    },
-    {
       "source_key": "guardian",
       "date": "2025-08-13",
       "occurred_on": "",
@@ -6875,184 +7006,32 @@
       "reported_on": "2025-08-13",
       "dated_by": "occurred",
       "category": "Information & Media Control",
-      "title": "America First in Action: Deportations Surge, Jobs Return, D.C. Gets Tough",
+      "title": "White House issues promotional release on deportations, manufacturing investment, and D.C. crime enforcement",
       "url": "https://www.whitehouse.gov/releases/2025/08/america-first-in-action-deportations-surge-jobs-return-dc-gets-tough/",
-      "summary": "The White House published this release on 2025-08-13 through its releases channel.",
-      "why_relevant": "",
+      "summary": "The White House published a promotional release on August 13, 2025, highlighting three policy areas: increased deportation flights (the release states \"more than 1,000 deportation flights to other countries\" since Trump's inauguration, up 15% over the prior year period); a $3 billion GE Appliances investment in U.S. manufacturing onshoring 1,000 jobs; and enforcement actions in Washington, D.C., with U.S. Attorney Jeanine Pirro stating the office will \"identify, prosecute and convict\" offenders and push to change laws allowing juvenile offenders to be prosecuted in adult court.",
+      "why_relevant": "The release frames and amplifies executive enforcement priorities (deportation, manufacturing, criminal prosecution) through curated headlines and attributed quotes, shaping public perception of administration policy outcomes.",
       "jurisdiction": "federal",
-      "federal_nexus": "Official White House channel; documents the act of publication only.",
+      "federal_nexus": "",
       "confidence": "high",
-      "basis": "official_actor_record",
+      "basis": "The White House\" published \"America First in Action: Deportations Surge, Jobs Return, D.C. Gets Tough\" on August 13, 2025, highlighting deportation flights, manufacturing investment, and D.C. crime enforcement.",
       "actor": "The White House",
       "action": "published a release titled \"America First in Action: Deportations Surge, Jobs Return, D.C. Gets Tough\"",
       "act_key": "white house|published a release titled america first in action deportations surge jobs return d c gets tough|2025-08-13",
-      "attacks": [],
+      "attacks": [
+        "immigrants_refugees",
+        "rule_of_law"
+      ],
       "source_meta": {
-        "headline": null,
-        "published_on": null,
+        "headline": "America First in Action: Deportations Surge, Jobs Return, D.C. Gets Tough",
+        "published_on": "2025-08-13",
         "byline": null,
-        "outlet": null,
-        "accessed_on": null,
+        "outlet": "The White House",
+        "accessed_on": "2026-08-26T23:14:24Z",
         "snapshot_url": null,
         "durable_keys": {}
       },
       "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
-      "_origin_index": 296
-    },
-    {
-      "source_key": "whitehouse",
-      "date": "2025-08-13",
-      "occurred_on": "2025-08-13",
-      "reported_on": "2025-08-13",
-      "dated_by": "occurred",
-      "category": "Information & Media Control",
-      "title": "Fact Sheet: President Donald J. Trump Enables Competition in the Commercial Space Industry",
-      "url": "https://www.whitehouse.gov/fact-sheets/2025/08/fact-sheet-president-donald-j-trump-enables-competition-in-the-commercial-space-industry/",
-      "summary": "The White House published this fact sheet on 2025-08-13 through its fact-sheets channel.",
-      "why_relevant": "",
-      "jurisdiction": "federal",
-      "federal_nexus": "Official White House channel; documents the act of publication only.",
-      "confidence": "high",
-      "basis": "official_actor_record",
-      "actor": "The White House",
-      "action": "issued a fact sheet titled \"Fact Sheet: President Donald J. Trump Enables Competition in the Commercial Space Industry\"",
-      "act_key": "white house|issued a fact sheet titled fact sheet president donald j trump enables competition in the commercial space industry|2025-08-13",
-      "attacks": [],
-      "source_meta": {
-        "headline": null,
-        "published_on": null,
-        "byline": null,
-        "outlet": null,
-        "accessed_on": null,
-        "snapshot_url": null,
-        "durable_keys": {}
-      },
-      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
-      "_origin_index": 538
-    },
-    {
-      "source_key": "whitehouse",
-      "date": "2025-08-13",
-      "occurred_on": "2025-08-13",
-      "reported_on": "2025-08-13",
-      "dated_by": "occurred",
-      "category": "Information & Media Control",
-      "title": "Fact Sheet: President Donald J. Trump Ensures American Pharmaceutical Supply Chain Resilience by Filling the Strategic Active Pharmaceutical Ingredients Reserve",
-      "url": "https://www.whitehouse.gov/fact-sheets/2025/08/fact-sheet-president-donald-j-trump-ensures-american-pharmaceutical-supply-chain-resilience-by-filling-the-strategic-active-pharmaceutical-ingredients-reserve/",
-      "summary": "The White House published this fact sheet on 2025-08-13 through its fact-sheets channel.",
-      "why_relevant": "",
-      "jurisdiction": "federal",
-      "federal_nexus": "Official White House channel; documents the act of publication only.",
-      "confidence": "high",
-      "basis": "official_actor_record",
-      "actor": "The White House",
-      "action": "issued a fact sheet titled \"Fact Sheet: President Donald J. Trump Ensures American Pharmaceutical Supply Chain Resilience by Filling the Strategic Active Pharmaceutical Ingredients Reserve\"",
-      "act_key": "white house|issued a fact sheet titled fact sheet president donald j trump ensures american pharmaceutical supply chain resilience by filling the strategic active pharmaceutical ingredients reserve|2025-08-13",
-      "attacks": [],
-      "source_meta": {
-        "headline": null,
-        "published_on": null,
-        "byline": null,
-        "outlet": null,
-        "accessed_on": null,
-        "snapshot_url": null,
-        "durable_keys": {}
-      },
-      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
-      "_origin_index": 539
-    },
-    {
-      "source_key": "whitehouse",
-      "date": "2025-08-13",
-      "occurred_on": "2025-08-13",
-      "reported_on": "2025-08-13",
-      "dated_by": "occurred",
-      "category": "Information & Media Control",
-      "title": "ICYMI: “VA processes more claims in a single year than ever before”",
-      "url": "https://www.whitehouse.gov/releases/2025/08/icymi-va-processes-more-claims-in-a-single-year-than-ever-before/",
-      "summary": "The White House published this release on 2025-08-13 through its releases channel.",
-      "why_relevant": "",
-      "jurisdiction": "federal",
-      "federal_nexus": "Official White House channel; documents the act of publication only.",
-      "confidence": "high",
-      "basis": "official_actor_record",
-      "actor": "The White House",
-      "action": "published a release titled \"ICYMI: “VA processes more claims in a single year than ever before”\"",
-      "act_key": "white house|published a release titled icymi va processes more claims in a single year than ever before|2025-08-13",
-      "attacks": [],
-      "source_meta": {
-        "headline": null,
-        "published_on": null,
-        "byline": null,
-        "outlet": null,
-        "accessed_on": null,
-        "snapshot_url": null,
-        "durable_keys": {}
-      },
-      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
-      "_origin_index": 293
-    },
-    {
-      "source_key": "whitehouse",
-      "date": "2025-08-13",
-      "occurred_on": "2025-08-13",
-      "reported_on": "2025-08-13",
-      "dated_by": "occurred",
-      "category": "Information & Media Control",
-      "title": "Made in America Agenda Delivers Manufacturing Boom",
-      "url": "https://www.whitehouse.gov/releases/2025/08/made-in-america-agenda-delivers-manufacturing-boom/",
-      "summary": "The White House published this release on 2025-08-13 through its releases channel.",
-      "why_relevant": "",
-      "jurisdiction": "federal",
-      "federal_nexus": "Official White House channel; documents the act of publication only.",
-      "confidence": "high",
-      "basis": "official_actor_record",
-      "actor": "The White House",
-      "action": "published a release titled \"Made in America Agenda Delivers Manufacturing Boom\"",
-      "act_key": "white house|published a release titled made in america agenda delivers manufacturing boom|2025-08-13",
-      "attacks": [],
-      "source_meta": {
-        "headline": null,
-        "published_on": null,
-        "byline": null,
-        "outlet": null,
-        "accessed_on": null,
-        "snapshot_url": null,
-        "durable_keys": {}
-      },
-      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
-      "_origin_index": 294
-    },
-    {
-      "source_key": "whitehouse",
-      "date": "2025-08-13",
-      "occurred_on": "2025-08-13",
-      "reported_on": "2025-08-13",
-      "dated_by": "occurred",
-      "category": "Information & Media Control",
-      "title": "President Trump Spotlights 2025 Kennedy Center Honorees: American Icons in Performing Arts",
-      "url": "https://www.whitehouse.gov/releases/2025/08/president-trump-spotlights-2025-kennedy-center-honorees/",
-      "summary": "The White House published this release on 2025-08-13 through its releases channel.",
-      "why_relevant": "",
-      "jurisdiction": "federal",
-      "federal_nexus": "Official White House channel; documents the act of publication only.",
-      "confidence": "high",
-      "basis": "official_actor_record",
-      "actor": "The White House",
-      "action": "published a release titled \"President Trump Spotlights 2025 Kennedy Center Honorees: American Icons in Performing Arts\"",
-      "act_key": "white house|published a release titled president trump spotlights 2025 kennedy center honorees american icons in performing arts|2025-08-13",
-      "attacks": [],
-      "source_meta": {
-        "headline": null,
-        "published_on": null,
-        "byline": null,
-        "outlet": null,
-        "accessed_on": null,
-        "snapshot_url": null,
-        "durable_keys": {}
-      },
-      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
-      "_origin_index": 295
+      "_origin_index": 242
     },
     {
       "source_key": "federalregister",
@@ -7096,8 +7075,8 @@
       "category": "Economic & Regulatory Power",
       "title": "DEA publishes notice of Eli-Elsohly Laboratories' application for bulk manufacturer registration of controlled substances",
       "url": "https://www.federalregister.gov/documents/2025/11/26/2025-21184/bulk-manufacturer-of-controlled-substances-application-eli-elsohly-laboratories",
-      "summary": "The Drug Enforcement Administration published a notice that Eli-Elsohly Laboratories, based in Oxford, Mississippi, applied on August 13, 2025, to be registered as a bulk manufacturer of controlled substances including marijuana extract, marijuana, tetrahydrocannabinols, and various Schedule I and II opioids and stimulants. The company plans to manufacture these substances for product development and reference standards. Registered bulk manufacturers and other applicants may submit comments or objections by January 26, 2026, and may request a hearing on the application.",
-      "why_relevant": "DEA licensing decisions for controlled substance manufacturers affect the legal pharmaceutical supply chain, research capacity, and regulatory oversight of drug production.",
+      "summary": "The Drug Enforcement Administration published a notice on November 26, 2025, that Eli-Elsohly Laboratories, based in Oxford, Mississippi, applied on August 13, 2025, to be registered as a bulk manufacturer of controlled substances including marijuana extract, marijuana, tetrahydrocannabinols, and various Schedule II opioids and stimulants for product development and reference standards. The company plans to isolate marijuana and THC from procured marijuana extract and manufacture a thebaine derivative. Registered bulk manufacturers and other applicants may submit comments or objections and request a hearing by January 26, 2026.",
+      "why_relevant": "The notice initiates a formal regulatory process for licensing a private entity to manufacture controlled substances, affecting drug policy enforcement and the legal supply chain for pharmaceutical and research purposes.",
       "jurisdiction": "federal",
       "federal_nexus": "",
       "confidence": "high",
@@ -7117,8 +7096,8 @@
           "federal_register_doc": "2025-21184"
         }
       },
-      "_origin_file": "federalregister_events_2025-11-22_2025-11-28.json",
-      "_origin_index": 8
+      "_origin_file": "federalregister_events_2025-09-06_2025-12-12.json",
+      "_origin_index": 16
     },
     {
       "source_key": "federalregister",
@@ -7287,37 +7266,6 @@
       },
       "_origin_file": "federalregister_events_2025-07-26_2025-08-29.json",
       "_origin_index": 279
-    },
-    {
-      "source_key": "justice",
-      "date": "2025-08-13",
-      "occurred_on": "2025-08-13",
-      "reported_on": "2025-08-13",
-      "dated_by": "occurred",
-      "category": "Economic & Regulatory Power",
-      "title": "Statement on Revocation of Biden-Harris Executive Order on Competition",
-      "url": "https://www.justice.gov/opa/pr/statement-revocation-biden-harris-executive-order-competition",
-      "summary": "The Department of Justice announced this on 2025-08-13 through Antitrust Division. The department's own account of it reads: \"Today, the Department of Justice’s Antitrust Division salutes the President’s decision to revoke Executive Order 14036. The Division will use this opportunity to continue its work to recalibrate and modernize the Federal approach to competition policy to suit the needs of our dynamic and innovative economy.\"",
-      "why_relevant": "",
-      "jurisdiction": "federal",
-      "federal_nexus": "Official DOJ channel; documents the act of announcement only.",
-      "confidence": "high",
-      "basis": "official_actor_record",
-      "actor": "The Department of Justice",
-      "action": "announced \"Statement on Revocation of Biden-Harris Executive Order on Competition\"",
-      "act_key": "department|announced statement on revocation of biden harris executive order on competition|2025-08-13",
-      "attacks": [],
-      "source_meta": {
-        "headline": null,
-        "published_on": null,
-        "byline": null,
-        "outlet": null,
-        "accessed_on": null,
-        "snapshot_url": null,
-        "durable_keys": {}
-      },
-      "_origin_file": "justice_events_2025-01-20_2026-08-14.json",
-      "_origin_index": 159
     },
     {
       "source_key": "noah",
@@ -7619,6 +7567,68 @@
       "_origin_index": 9
     },
     {
+      "source_key": "whitehouse",
+      "date": "2025-08-13",
+      "occurred_on": "2025-08-13",
+      "reported_on": "2025-08-13",
+      "dated_by": "occurred",
+      "category": "Economic & Regulatory Power",
+      "title": "White House issues fact sheet on Strategic Active Pharmaceutical Ingredients Reserve executive order",
+      "url": "https://www.whitehouse.gov/fact-sheets/2025/08/fact-sheet-president-donald-j-trump-ensures-american-pharmaceutical-supply-chain-resilience-by-filling-the-strategic-active-pharmaceutical-ingredients-reserve/",
+      "summary": "The White House published a fact sheet on August 13, 2025, describing an executive order signed by President Trump directing the Office of the Assistant Secretary for Preparedness and Response (ASPR) to develop a list of approximately 26 critical drugs and obtain a 6-month supply of their active pharmaceutical ingredients (APIs) for the Strategic Active Pharmaceutical Ingredients Reserve (SAPIR). The order states that only about 10% of APIs for U.S. prescription drugs are manufactured domestically and directs ASPR to prioritize domestically-manufactured APIs where possible and propose a plan for a second SAPIR repository.",
+      "why_relevant": "The order asserts executive authority over pharmaceutical supply chain policy and domestic manufacturing priorities, directing a federal agency to stockpile critical drug components and reshape procurement practices.",
+      "jurisdiction": "federal",
+      "federal_nexus": "",
+      "confidence": "high",
+      "basis": "President Donald J. Trump signed an Executive Order to fill the Strategic Active Pharmaceutical Ingredients Reserve (SAPIR) with critical drug components, ensuring a resilient domestic supply chain for essential medicines.",
+      "actor": "The White House",
+      "action": "issued a fact sheet titled \"Fact Sheet: President Donald J. Trump Ensures American Pharmaceutical Supply Chain Resilience by Filling the Strategic Active Pharmaceutical Ingredients Reserve\"",
+      "act_key": "white house|issued a fact sheet titled fact sheet president donald j trump ensures american pharmaceutical supply chain resilience by filling the strategic active pharmaceutical ingredients reserve|2025-08-13",
+      "attacks": [],
+      "source_meta": {
+        "headline": "Fact Sheet: President Donald J. Trump Ensures American Pharmaceutical Supply Chain Resilience by Filling the Strategic Active Pharmaceutical Ingredients Reserve",
+        "published_on": "2025-08-13",
+        "byline": null,
+        "outlet": "The White House",
+        "accessed_on": "2026-08-26T23:59:38Z",
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
+      "_origin_index": 483
+    },
+    {
+      "source_key": "whitehouse",
+      "date": "2025-08-13",
+      "occurred_on": "2025-08-13",
+      "reported_on": "2025-08-13",
+      "dated_by": "occurred",
+      "category": "Economic & Regulatory Power",
+      "title": "White House issues fact sheet promoting manufacturing investment announcements",
+      "url": "https://www.whitehouse.gov/releases/2025/08/made-in-america-agenda-delivers-manufacturing-boom/",
+      "summary": "The White House issued a fact sheet on August 13, 2025, titled \"Made in America Agenda Delivers Manufacturing Boom,\" attributing a surge in manufacturing investments and job creation to President Trump's trade policies and pro-American initiatives. The document lists announcements from major corporations—AbbVie ($195 million), Apple ($600 billion over four years, claiming 20,000 direct jobs), Century Aluminum ($50 million), Ford ($5 billion), and GE Appliances ($3 billion)—as evidence of success. The fact sheet frames these as outcomes of \"historic trade victories\" and \"bold leadership.\"",
+      "why_relevant": "The document asserts executive credit for private investment decisions and uses corporate announcements to claim policy success, illustrating how the executive frames economic outcomes as direct results of its authority.",
+      "jurisdiction": "federal",
+      "federal_nexus": "",
+      "confidence": "high",
+      "basis": "Under President Donald J. Trump's bold leadership and unwavering commitment to putting America First, our nation is witnessing an unprecedented surge in manufacturing investments and job creation.",
+      "actor": "The White House",
+      "action": "published a release titled \"Made in America Agenda Delivers Manufacturing Boom\"",
+      "act_key": "white house|published a release titled made in america agenda delivers manufacturing boom|2025-08-13",
+      "attacks": [],
+      "source_meta": {
+        "headline": "Made in America Agenda Delivers Manufacturing Boom",
+        "published_on": "2025-08-13",
+        "byline": null,
+        "outlet": "The White House",
+        "accessed_on": "2026-08-26T23:14:03Z",
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
+      "_origin_index": 240
+    },
+    {
       "source_key": "hcr",
       "date": "2025-08-13",
       "occurred_on": "",
@@ -7688,6 +7698,37 @@
       },
       "_origin_file": "noah_events_2025-07-26_2025-08-29.json",
       "_origin_index": 11
+    },
+    {
+      "source_key": "whitehouse",
+      "date": "2025-08-13",
+      "occurred_on": "",
+      "reported_on": "2025-08-13",
+      "dated_by": "reported",
+      "category": "Appointments & Patronage",
+      "title": "White House issues fact sheet on VA claims processing",
+      "url": "https://www.whitehouse.gov/releases/2025/08/icymi-va-processes-more-claims-in-a-single-year-than-ever-before/",
+      "summary": "The White House issued a fact sheet stating that the Department of Veterans Affairs processed 2,524,115 ratings claims in fiscal year 2025 as of August 8, claiming this represents an all-time high and a 37% reduction in pending claims since Trump's inauguration on January 20, 2025. The statement attributes the prior backlog increase to the Biden Administration and asserts that VA is processing claims 17.8% faster in FY25 than FY24 despite 10% higher receipts.",
+      "why_relevant": "The fact sheet demonstrates executive use of agency performance metrics to claim administrative success and contrast with the prior administration, a routine form of political communication that does not itself alter democratic structure or institutional capacity.",
+      "jurisdiction": "federal",
+      "federal_nexus": "",
+      "confidence": "high",
+      "basis": "the Department of Veterans Affairs announced they have processed a record 2.5 million ratings claims so far in fiscal year 2025 — another milestone in eliminating the massive backlog inherited from the Biden Administration",
+      "actor": "The White House",
+      "action": "published a release titled \"ICYMI: “VA processes more claims in a single year than ever before”\"",
+      "act_key": "white house|published a release titled icymi va processes more claims in a single year than ever before|2025-08-13",
+      "attacks": [],
+      "source_meta": {
+        "headline": "ICYMI: “VA processes more claims in a single year than ever before”",
+        "published_on": "2025-08-13",
+        "byline": null,
+        "outlet": "The White House",
+        "accessed_on": "2026-08-26T23:13:52Z",
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
+      "_origin_index": 239
     },
     {
       "source_key": "guardian",
@@ -7944,29 +7985,31 @@
       "reported_on": "2025-08-14",
       "dated_by": "occurred",
       "category": "Executive Actions & Orders",
-      "title": "90th Anniversary of the Social Security Act",
+      "title": "Trump issued proclamation marking 90th anniversary of Social Security Act",
       "url": "https://www.whitehouse.gov/presidential-actions/2025/08/90th-anniversary-of-the-social-security-act/",
-      "summary": "The White House published this proclamation on 2025-08-14 through its proclamations channel.",
-      "why_relevant": "",
+      "summary": "President Trump signed a proclamation on August 14, 2025, commemorating the 90th anniversary of the Social Security Act. The proclamation states that the administration has strengthened Social Security, claims that seniors now pay zero tax on benefits following passage of the \"One Big Beautiful Bill,\" and announces measures to eliminate fraud and abuse, including stopping payments to the deceased and denying benefits to those deemed ineligible. The proclamation also states the administration is \"restoring strong border security policies to ensure that Medicare and Social Security are preserved for the citizens who paid into them — not abused by illegal aliens.\"",
+      "why_relevant": "A proclamation is a formal executive instrument; this one frames Social Security policy and immigration eligibility in terms that assert executive authority over benefit distribution and eligibility criteria.",
       "jurisdiction": "federal",
-      "federal_nexus": "Official White House channel; documents the act of publication only.",
+      "federal_nexus": "",
       "confidence": "high",
-      "basis": "official_actor_record",
+      "basis": "I, DONALD J. TRUMP, President of the United States of America, by virtue of the authority vested in me by the Constitution and the laws of the United States, do hereby proclaim August 14, 2025, as the 90th Anniversary of the Social Security Act.",
       "actor": "The White House",
       "action": "announced a proclamation titled \"90th Anniversary of the Social Security Act\"",
       "act_key": "white house|announced a proclamation titled 90th anniversary of the social security act|2025-08-14",
-      "attacks": [],
+      "attacks": [
+        "immigrants_refugees"
+      ],
       "source_meta": {
-        "headline": null,
-        "published_on": null,
+        "headline": "90th Anniversary of the Social Security Act",
+        "published_on": "2025-08-14",
         "byline": null,
-        "outlet": null,
-        "accessed_on": null,
+        "outlet": "The White House",
+        "accessed_on": "2026-08-27T01:30:22Z",
         "snapshot_url": null,
         "durable_keys": {}
       },
       "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
-      "_origin_index": 1014
+      "_origin_index": 956
     },
     {
       "source_key": "zeteo",
@@ -8442,22 +8485,23 @@
       "reported_on": "2025-08-14",
       "dated_by": "occurred",
       "category": "Law Enforcement & Surveillance",
-      "title": "ICE raids in southern California arrest US citizen Andrea Velez",
+      "title": "ICE raids in southern California neighborhoods",
       "url": "https://www.theguardian.com/us-news/2025/nov/25/los-angeles-congressional-hearing-ice-raids",
-      "summary": "US citizen Andrea Velez was arrested by masked ICE agents while traveling to work in summer 2025. She was charged with assaulting an officer and detained for two days in federal custody, where detainees were required to pay for water cups. The assault charges were dismissed due to lack of evidence. Her case exemplifies broader patterns of unlawful detention and civil rights violations documented at the November 2025 congressional hearing.",
-      "why_relevant": "Arrest and detention of a US citizen without probable cause, followed by dismissal of charges, demonstrates constitutional violations and due process failures in federal immigration enforcement operations.",
+      "summary": "ICE and Border Patrol agents conducted raids across southern California, including in the Little Tokyo neighborhood of Los Angeles on August 14, 2025. The operations swept up undocumented immigrants and US citizens, with documented cases of unlawful arrest, assault charges later dismissed, and detention without proper due process. Federal agents targeted car washes, Home Depot stores, schools, and workplaces, creating widespread fear in immigrant communities and leaving parks and churches empty.",
+      "why_relevant": "Mass immigration enforcement operations resulted in unlawful detention of US citizens, alleged racial profiling, civil rights violations, and systematic targeting of immigrant communities, undermining constitutional protections and rule of law.",
       "jurisdiction": "federal",
       "federal_nexus": "",
       "confidence": "high",
       "basis": "Andrea Velez, an American arrested by US immigration officials over the summer, described how she was accosted by masked agents while on her way to work. She said she was charged with assaulting an officer and held for two days in a federal detention center.",
-      "actor": "ICE (U.S. Immigration and Customs Enforcement)",
-      "action": "arrested and detained us citizen",
-      "act_key": "ice u s immigration and customs enforcement|arrested and detained us citizen|2025-08-14",
+      "actor": "ICE/Border Patrol",
+      "action": "conducted mass immigration raids",
+      "act_key": "ice border patrol|conducted mass immigration raids|2025-08-14",
       "attacks": [
         "immigrants_refugees",
         "rule_of_law",
-        "constitution",
-        "justice_dept"
+        "justice_dept",
+        "minorities",
+        "poor"
       ],
       "source_meta": {
         "headline": "‘Living an American nightmare’: LA hearing details lasting trauma of ICE raids",
@@ -8468,8 +8512,8 @@
         "snapshot_url": null,
         "durable_keys": {}
       },
-      "_origin_file": "guardian_events_2025-11-22_2025-11-28.json",
-      "_origin_index": 23
+      "_origin_file": "guardian_events_2025-09-06_2025-12-12.json",
+      "_origin_index": 221
     },
     {
       "source_key": "guardian",
@@ -8709,37 +8753,6 @@
       },
       "_origin_file": "guardian_events_2025-07-26_2025-08-29.json",
       "_origin_index": 193
-    },
-    {
-      "source_key": "whitehouse",
-      "date": "2025-08-14",
-      "occurred_on": "2025-08-14",
-      "reported_on": "2025-08-14",
-      "dated_by": "occurred",
-      "category": "Information & Media Control",
-      "title": "President Trump Delivers on Social Security Promise: Stronger, Faster, and More Secure for All Americans",
-      "url": "https://www.whitehouse.gov/releases/2025/08/president-trump-delivers-on-social-security-promise-stronger-faster-and-more-secure-for-all-americans/",
-      "summary": "The White House published this release on 2025-08-14 through its releases channel.",
-      "why_relevant": "",
-      "jurisdiction": "federal",
-      "federal_nexus": "Official White House channel; documents the act of publication only.",
-      "confidence": "high",
-      "basis": "official_actor_record",
-      "actor": "The White House",
-      "action": "published a release titled \"President Trump Delivers on Social Security Promise: Stronger, Faster, and More Secure for All Americans\"",
-      "act_key": "white house|published a release titled president trump delivers on social security promise stronger faster and more secure for all americans|2025-08-14",
-      "attacks": [],
-      "source_meta": {
-        "headline": null,
-        "published_on": null,
-        "byline": null,
-        "outlet": null,
-        "accessed_on": null,
-        "snapshot_url": null,
-        "durable_keys": {}
-      },
-      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
-      "_origin_index": 292
     },
     {
       "source_key": "federalregister",
@@ -9008,6 +9021,37 @@
       },
       "_origin_file": "popinfo_events_2025-07-26_2025-08-29.json",
       "_origin_index": 1
+    },
+    {
+      "source_key": "whitehouse",
+      "date": "2025-08-14",
+      "occurred_on": "",
+      "reported_on": "2025-08-14",
+      "dated_by": "reported",
+      "category": "Economic & Regulatory Power",
+      "title": "White House issues fact sheet on Social Security improvements and tax relief",
+      "url": "https://www.whitehouse.gov/releases/2025/08/president-trump-delivers-on-social-security-promise-stronger-faster-and-more-secure-for-all-americans/",
+      "summary": "The White House issued a fact sheet claiming that under President Trump's leadership, Social Security has improved customer service, reduced wait times, modernized technology, and reduced backlogs in disability claims processing. The document states that the \"One Big Beautiful Bill\" has made Social Security income tax-free for most seniors. It attributes specific metrics: 70% more calls handled with 80% faster answer times, 23% reduction in field office wait times, 26% reduction in disability claims backlog, and $1 billion in identified cost avoidance.",
+      "why_relevant": "The fact sheet announces claimed operational improvements to a major federal entitlement program and tax policy changes affecting 72 million beneficiaries, asserting executive delivery on a campaign promise regarding Social Security's fiscal and administrative structure.",
+      "jurisdiction": "federal",
+      "federal_nexus": "",
+      "confidence": "high",
+      "basis": "the Trump Administration's bold improvements to customer service, technology, and efficiency have positioned the agency to provide quicker access and greater value for the beneficiaries it serves.",
+      "actor": "The White House",
+      "action": "published a release titled \"President Trump Delivers on Social Security Promise: Stronger, Faster, and More Secure for All Americans\"",
+      "act_key": "white house|published a release titled president trump delivers on social security promise stronger faster and more secure for all americans|2025-08-14",
+      "attacks": [],
+      "source_meta": {
+        "headline": "President Trump Delivers on Social Security Promise: Stronger, Faster, and More Secure for All Americans",
+        "published_on": "2025-08-14",
+        "byline": null,
+        "outlet": "The White House",
+        "accessed_on": "2026-08-26T23:13:40Z",
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
+      "_origin_index": 238
     },
     {
       "source_key": "democracydocket",
@@ -9488,6 +9532,74 @@
       "_origin_index": 123
     },
     {
+      "source_key": "justice",
+      "date": "2025-08-15",
+      "occurred_on": "2025-08-15",
+      "reported_on": "2025-08-15",
+      "dated_by": "occurred",
+      "category": "Executive Actions & Orders",
+      "title": "Justice Department and National Economic Council solicit public comments on state laws with interstate economic effects",
+      "url": "https://www.justice.gov/opa/pr/justice-department-and-national-economic-council-partner-identify-state-laws-out-state",
+      "summary": "The Department of Justice and National Economic Council announced a joint effort to identify state laws that adversely affect interstate commerce and the national economy. The agencies invited public comments through September 15, 2025, on state regulations that burden commerce across state lines, asking whether such laws may be preempted by federal authority and what federal legislative or regulatory remedies might apply. The initiative frames state regulatory authority as a burden on national markets and economic growth.",
+      "why_relevant": "This action signals a federal effort to challenge state regulatory autonomy on grounds of interstate commerce, potentially expanding federal preemption doctrine and centralizing economic policy authority away from states.",
+      "jurisdiction": "federal",
+      "federal_nexus": "",
+      "confidence": "high",
+      "basis": "Justice Department and National Economic Council announce an effort to identify State laws that significantly and adversely affect the national economy or interstate economic activity and to solicit solutions to address such effects.",
+      "actor": "The Department of Justice",
+      "action": "announced \"Justice Department and National Economic Council Partner to Identify State Laws with Out-Of-State Economic Impacts\"",
+      "act_key": "department|announced justice department and national economic council partner to identify state laws with out of state economic impacts|2025-08-15",
+      "attacks": [
+        "separation_of_powers",
+        "rule_of_law"
+      ],
+      "source_meta": {
+        "headline": "Justice Department and National Economic Council Partner to Identify State Laws with Out-Of-State Economic Impacts",
+        "published_on": "2025-08-15",
+        "byline": null,
+        "outlet": "justice.gov",
+        "accessed_on": "2026-08-27T04:51:36Z",
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "justice_events_2025-01-20_2026-08-14.json",
+      "_origin_index": 160
+    },
+    {
+      "source_key": "justice",
+      "date": "2025-08-15",
+      "occurred_on": "2025-08-15",
+      "reported_on": "2025-08-15",
+      "dated_by": "occurred",
+      "category": "Executive Actions & Orders",
+      "title": "Justice Department sues California to block enforcement of emissions standards for heavy-duty trucks",
+      "url": "https://www.justice.gov/opa/pr/justice-department-sues-california-end-enforcement-unlawful-emissions-standards-trucks",
+      "summary": "The Department of Justice filed two federal complaints against the California Air Resources Board (CARB) challenging the state's enforcement of emissions standards for heavy-duty trucks through a \"Clean Truck Partnership\" with manufacturers. The DOJ argues that CARB's standards are preempted by federal Clean Air Act law after Congress invalidated EPA preemption waivers in June 2025 via Congressional Review Act resolutions. The DOJ seeks to enjoin CARB from enforcing the standards and filed motions to intervene in pending cases in the Eastern District of California and Northern District of Illinois.",
+      "why_relevant": "The action represents a federal executive reversal of prior EPA policy and a direct legal challenge to state regulatory authority, reflecting a shift in federal environmental enforcement priorities and the use of DOJ litigation to override state environmental standards.",
+      "jurisdiction": "federal",
+      "federal_nexus": "",
+      "confidence": "high",
+      "basis": "The Justice Department this week filed two complaints in federal courts against the California Air Resources Board (CARB) regarding the State's enforcement of preempted emissions standards.",
+      "actor": "The Department of Justice",
+      "action": "announced \"Justice Department Sues California to End Enforcement of Unlawful Emissions Standards for Trucks\"",
+      "act_key": "department|announced justice department sues california to end enforcement of unlawful emissions standards for trucks|2025-08-15",
+      "attacks": [
+        "environment",
+        "rule_of_law"
+      ],
+      "source_meta": {
+        "headline": "Justice Department Sues California to End Enforcement of Unlawful Emissions Standards for Trucks",
+        "published_on": "2025-08-15",
+        "byline": null,
+        "outlet": "justice.gov",
+        "accessed_on": "2026-08-27T04:51:48Z",
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "justice_events_2025-01-20_2026-08-14.json",
+      "_origin_index": 161
+    },
+    {
       "source_key": "guardian",
       "date": "2025-08-15",
       "occurred_on": "",
@@ -9766,29 +9878,32 @@
       "reported_on": "2025-08-15",
       "dated_by": "occurred",
       "category": "Judicial Developments",
-      "title": "Justice Department Sues California to End Enforcement of Unlawful Emissions Standards for Trucks",
-      "url": "https://www.justice.gov/opa/pr/justice-department-sues-california-end-enforcement-unlawful-emissions-standards-trucks",
-      "summary": "The Department of Justice announced this on 2025-08-15 through Energy and Natural Resources Division. The recorded stage is a complaint filed. The allegations are unadjudicated; this documents the announcement, not the truth of any allegation. The department's own account of it reads: \"The Justice Department this week filed two complaints in federal courts against the California Air Resources Board (CARB) regarding the State’s enforcement of preempted emissions standards through its so-called 'Clean Truck Partnership' with heavy-duty truck and engine manufacturers. A parallel filing in the court of appeals addresses CARB’s rules for light-duty vehicles, which are also preempted.\"",
-      "why_relevant": "",
+      "title": "Justice Department files statement of interest opposing ADA/Civil Rights Act coverage mandate for gender dysphoria treatment",
+      "url": "https://www.justice.gov/opa/pr/justice-department-files-statement-interest-new-hampshire-case-shielding-small-businesses",
+      "summary": "The Department of Justice, through its Civil Rights Division, filed a Statement of Interest in Bernier v. Turbocam (D.N.H.) arguing that the Civil Rights Act and Americans with Disabilities Act do not require employers to provide insurance coverage for gender dysphoria treatment, and that the Religious Freedom Restoration Act shields businesses and individuals from such mandates on religious grounds. The filing characterizes such coverage as \"elective procedures\" and \"cosmetic\" and positions religious liberty as a defense against coverage requirements.",
+      "why_relevant": "The filing represents a federal legal position that narrows the scope of civil rights and disability protections by reframing medical care for gender dysphoria as elective rather than therapeutic, and uses religious liberty doctrine to shield employers from coverage mandates—a shift in how DOJ interprets and enforces existing civil rights statutes.",
       "jurisdiction": "federal",
-      "federal_nexus": "Official DOJ channel; documents the act of announcement only.",
+      "federal_nexus": "",
       "confidence": "high",
-      "basis": "official_actor_record",
+      "basis": "the Civil Rights Act and the Americans with Disabilities Act do not require employers to provide insurance coverage for gender dysphoria, and that the Religious Freedom Restoration Act protects businesses and individuals from forced coverage when it would violate their religious beliefs.",
       "actor": "The Department of Justice",
-      "action": "announced \"Justice Department Sues California to End Enforcement of Unlawful Emissions Standards for Trucks\"",
-      "act_key": "department|announced justice department sues california to end enforcement of unlawful emissions standards for trucks|2025-08-15",
-      "attacks": [],
+      "action": "announced \"Justice Department Files Statement of Interest in New Hampshire Case Shielding Small Businesses from Being Forced to Provide Medical Coverage for Gender Dysphoria\"",
+      "act_key": "department|announced justice department files statement of interest in new hampshire case shielding small businesses from being forced to provide medical coverage for gender dysphoria|2025-08-15",
+      "attacks": [
+        "lgbtq",
+        "rule_of_law"
+      ],
       "source_meta": {
-        "headline": null,
-        "published_on": null,
+        "headline": "Justice Department Files Statement of Interest in New Hampshire Case Shielding Small Businesses from Being Forced to Provide Medical Coverage for Gender Dysphoria",
+        "published_on": "2025-08-15",
         "byline": null,
-        "outlet": null,
-        "accessed_on": null,
+        "outlet": "justice.gov",
+        "accessed_on": "2026-08-27T04:52:00Z",
         "snapshot_url": null,
         "durable_keys": {}
       },
       "_origin_file": "justice_events_2025-01-20_2026-08-14.json",
-      "_origin_index": 161
+      "_origin_index": 162
     },
     {
       "source_key": "justsecurity",
@@ -10165,37 +10280,6 @@
       },
       "_origin_file": "guardian_events_2025-07-26_2025-08-29.json",
       "_origin_index": 180
-    },
-    {
-      "source_key": "justice",
-      "date": "2025-08-15",
-      "occurred_on": "2025-08-15",
-      "reported_on": "2025-08-15",
-      "dated_by": "occurred",
-      "category": "Law Enforcement & Surveillance",
-      "title": "Justice Department and National Economic Council Partner to Identify State Laws with Out-Of-State Economic Impacts",
-      "url": "https://www.justice.gov/opa/pr/justice-department-and-national-economic-council-partner-identify-state-laws-out-state",
-      "summary": "The Department of Justice announced this on 2025-08-15 through Office of Legal Policy. The department's own account of it reads: \"Today, the Justice Department and the National Economic Council announce an effort to identify State laws that significantly and adversely affect the national economy or interstate economic activity and to solicit solutions to address such effects.\"",
-      "why_relevant": "",
-      "jurisdiction": "federal",
-      "federal_nexus": "Official DOJ channel; documents the act of announcement only.",
-      "confidence": "high",
-      "basis": "official_actor_record",
-      "actor": "The Department of Justice",
-      "action": "announced \"Justice Department and National Economic Council Partner to Identify State Laws with Out-Of-State Economic Impacts\"",
-      "act_key": "department|announced justice department and national economic council partner to identify state laws with out of state economic impacts|2025-08-15",
-      "attacks": [],
-      "source_meta": {
-        "headline": null,
-        "published_on": null,
-        "byline": null,
-        "outlet": null,
-        "accessed_on": null,
-        "snapshot_url": null,
-        "durable_keys": {}
-      },
-      "_origin_file": "justice_events_2025-01-20_2026-08-14.json",
-      "_origin_index": 160
     },
     {
       "source_key": "democracydocket",
@@ -10593,37 +10677,6 @@
       "_origin_index": 29
     },
     {
-      "source_key": "justice",
-      "date": "2025-08-15",
-      "occurred_on": "2025-08-15",
-      "reported_on": "2025-08-15",
-      "dated_by": "occurred",
-      "category": "Civil Society & Protest",
-      "title": "Justice Department Files Statement of Interest in New Hampshire Case Shielding Small Businesses from Being Forced to Provide Medical Coverage for Gender Dysphoria",
-      "url": "https://www.justice.gov/opa/pr/justice-department-files-statement-interest-new-hampshire-case-shielding-small-businesses",
-      "summary": "The Department of Justice announced this on 2025-08-15 through Civil Rights Division. The department's own account of it reads: \"Today, the Justice Department filed a Statement of Interest in Bernier v. Turbocam , et al. (D.N.H.), informing the court that the Civil Rights Act and the Americans with Disabilities Act do not require employers to provide insurance coverage for gender dysphoria, and that the Religious Freedom Restoration Act protects businesses and individuals from forced coverage when it would violate their religious beliefs.\"",
-      "why_relevant": "",
-      "jurisdiction": "federal",
-      "federal_nexus": "Official DOJ channel; documents the act of announcement only.",
-      "confidence": "high",
-      "basis": "official_actor_record",
-      "actor": "The Department of Justice",
-      "action": "announced \"Justice Department Files Statement of Interest in New Hampshire Case Shielding Small Businesses from Being Forced to Provide Medical Coverage for Gender Dysphoria\"",
-      "act_key": "department|announced justice department files statement of interest in new hampshire case shielding small businesses from being forced to provide medical coverage for gender dysphoria|2025-08-15",
-      "attacks": [],
-      "source_meta": {
-        "headline": null,
-        "published_on": null,
-        "byline": null,
-        "outlet": null,
-        "accessed_on": null,
-        "snapshot_url": null,
-        "durable_keys": {}
-      },
-      "_origin_file": "justice_events_2025-01-20_2026-08-14.json",
-      "_origin_index": 162
-    },
-    {
       "source_key": "outloud",
       "date": "2025-08-15",
       "occurred_on": "",
@@ -10855,37 +10908,6 @@
       "_origin_index": 0
     },
     {
-      "source_key": "whitehouse",
-      "date": "2025-08-15",
-      "occurred_on": "2025-08-15",
-      "reported_on": "2025-08-15",
-      "dated_by": "occurred",
-      "category": "Information & Media Control",
-      "title": "Americans in All 50 States Will See a Tax Cut with the One Big Beautiful Bill",
-      "url": "https://www.whitehouse.gov/releases/2025/08/americans-in-all-50-states-will-see-a-tax-cut-with-the-one-big-beautiful-bill/",
-      "summary": "The White House published this release on 2025-08-15 through its releases channel.",
-      "why_relevant": "",
-      "jurisdiction": "federal",
-      "federal_nexus": "Official White House channel; documents the act of publication only.",
-      "confidence": "high",
-      "basis": "official_actor_record",
-      "actor": "The White House",
-      "action": "published a release titled \"Americans in All 50 States Will See a Tax Cut with the One Big Beautiful Bill\"",
-      "act_key": "white house|published a release titled americans in all 50 states will see a tax cut with the one big beautiful bill|2025-08-15",
-      "attacks": [],
-      "source_meta": {
-        "headline": null,
-        "published_on": null,
-        "byline": null,
-        "outlet": null,
-        "accessed_on": null,
-        "snapshot_url": null,
-        "durable_keys": {}
-      },
-      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
-      "_origin_index": 291
-    },
-    {
       "source_key": "federalregister",
       "date": "2025-08-15",
       "occurred_on": "",
@@ -11049,6 +11071,37 @@
       "_origin_index": 10
     },
     {
+      "source_key": "whitehouse",
+      "date": "2025-08-15",
+      "occurred_on": "2025-08-15",
+      "reported_on": "2025-08-15",
+      "dated_by": "occurred",
+      "category": "Economic & Regulatory Power",
+      "title": "White House issues fact sheet promoting tax-cut claims from \"One Big Beautiful Bill\"",
+      "url": "https://www.whitehouse.gov/releases/2025/08/americans-in-all-50-states-will-see-a-tax-cut-with-the-one-big-beautiful-bill/",
+      "summary": "The White House issued a fact sheet on August 15, 2025, promoting President Trump's \"One Big Beautiful Bill,\" citing a Tax Foundation analysis claiming an average tax cut of $3,752 per taxpayer in 2026 and job creation of approximately 938,000 full-time equivalent positions. The document asserts the law includes provisions on tips, overtime, Social Security taxation, child tax credits, and small-business tax breaks, and claims the legislation is \"taming inflation\" and \"driving historic investments.\"",
+      "why_relevant": "The fact sheet represents an official executive claim about the economic effects of major tax legislation, asserting specific quantified outcomes that bear on public understanding of fiscal policy and the administration's economic record.",
+      "jurisdiction": "federal",
+      "federal_nexus": "",
+      "confidence": "high",
+      "basis": "The average American taxpayer will see a tax cut of $3,752 thanks to President Donald J. Trump's One Big Beautiful Bill, according to a new analysis — which finds the landmark legislation 'will reduce federal taxes on average for individual taxpayers in every state' and create nearly one million new jobs.",
+      "actor": "The White House",
+      "action": "published a release titled \"Americans in All 50 States Will See a Tax Cut with the One Big Beautiful Bill\"",
+      "act_key": "white house|published a release titled americans in all 50 states will see a tax cut with the one big beautiful bill|2025-08-15",
+      "attacks": [],
+      "source_meta": {
+        "headline": "Americans in All 50 States Will See a Tax Cut with the One Big Beautiful Bill",
+        "published_on": "2025-08-15",
+        "byline": null,
+        "outlet": "The White House",
+        "accessed_on": "2026-08-26T23:13:30Z",
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
+      "_origin_index": 237
+    },
+    {
       "source_key": "federalregister",
       "date": "2025-08-15",
       "occurred_on": "2025-08-15",
@@ -11149,8 +11202,8 @@
         "snapshot_url": null,
         "durable_keys": {}
       },
-      "_origin_file": "guardian_events_2025-08-23_2025-09-05.json",
-      "_origin_index": 165
+      "_origin_file": "guardian_events_2025-07-26_2025-08-29.json",
+      "_origin_index": 71
     },
     {
       "source_key": "hcr",

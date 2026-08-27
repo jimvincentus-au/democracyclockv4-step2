@@ -5,33 +5,33 @@
   },
   "week_number": 19,
   "sources": [
-    "scotusopinions",
-    "hcr",
-    "whitehouse",
-    "justsecurity",
-    "50501",
-    "justice",
-    "shadow",
-    "guardian",
-    "meidas",
-    "democracydocket",
-    "federalregister",
     "outloud",
-    "defense",
-    "orders",
-    "noah",
     "popinfo",
+    "50501",
+    "orders",
+    "scotusopinions",
     "zeteo",
-    "scotusorders"
+    "justsecurity",
+    "shadow",
+    "federalregister",
+    "guardian",
+    "justice",
+    "whitehouse",
+    "defense",
+    "noah",
+    "scotusorders",
+    "hcr",
+    "meidas",
+    "democracydocket"
   ],
   "counts": {
-    "total": 376,
+    "total": 374,
     "by_date": {
       "2025-05-24": 27,
       "2025-05-25": 34,
       "2025-05-26": 26,
-      "2025-05-27": 71,
-      "2025-05-28": 81,
+      "2025-05-27": 70,
+      "2025-05-28": 80,
       "2025-05-29": 70,
       "2025-05-30": 67
     },
@@ -39,7 +39,7 @@
       "federalregister": 55,
       "guardian": 78,
       "hcr": 53,
-      "whitehouse": 17,
+      "whitehouse": 15,
       "zeteo": 26,
       "meidas": 48,
       "noah": 16,
@@ -60,11 +60,11 @@
       "Judicial Developments": 87,
       "Law Enforcement & Surveillance": 37,
       "Civil Society & Protest": 15,
-      "Information & Media Control": 31,
-      "Economic & Regulatory Power": 76,
+      "Information & Media Control": 22,
+      "Economic & Regulatory Power": 80,
       "Appointments & Patronage": 15,
-      "International Relations": 24,
-      "Civil–Military Relations & State Violence": 14,
+      "International Relations": 25,
+      "Civil–Military Relations & State Violence": 16,
       "Legislative & Oversight Activity": 7,
       "Transparency & Records": 8,
       "Courts / Supreme Court / Orders": 3,
@@ -327,60 +327,29 @@
       "reported_on": "2025-05-24",
       "dated_by": "occurred",
       "category": "Executive Actions & Orders",
-      "title": "National Physical Fitness and Sports Month, 2025",
-      "url": "https://www.whitehouse.gov/presidential-actions/2025/05/national-physical-fitness-and-sports-month-2025/",
-      "summary": "The White House published this proclamation on 2025-05-24 through its proclamations channel.",
-      "why_relevant": "",
-      "jurisdiction": "federal",
-      "federal_nexus": "Official White House channel; documents the act of publication only.",
-      "confidence": "high",
-      "basis": "official_actor_record",
-      "actor": "The White House",
-      "action": "announced a proclamation titled \"National Physical Fitness and Sports Month, 2025\"",
-      "act_key": "white house|announced a proclamation titled national physical fitness and sports month 2025|2025-05-24",
-      "attacks": [],
-      "source_meta": {
-        "headline": null,
-        "published_on": null,
-        "byline": null,
-        "outlet": null,
-        "accessed_on": null,
-        "snapshot_url": null,
-        "durable_keys": {}
-      },
-      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
-      "_origin_index": 1034
-    },
-    {
-      "source_key": "whitehouse",
-      "date": "2025-05-24",
-      "occurred_on": "2025-05-24",
-      "reported_on": "2025-05-24",
-      "dated_by": "occurred",
-      "category": "Executive Actions & Orders",
-      "title": "Prayer for Peace, Memorial Day, 2025",
+      "title": "President Trump issued Memorial Day proclamation designating prayer observance and flag protocols",
       "url": "https://www.whitehouse.gov/presidential-actions/2025/05/prayer-for-peace-memorial-day-2025/",
-      "summary": "The White House published this proclamation on 2025-05-24 through its proclamations channel.",
-      "why_relevant": "",
+      "summary": "President Trump issued a proclamation on May 24, 2025, designating Memorial Day, May 26, 2025, as a day of prayer for permanent peace. The proclamation designates 11:00 a.m. local time as a period for prayer, requests observance of the National Moment of Remembrance at 3:00 p.m., and directs that flags be flown at half-staff until noon on all federal buildings, grounds, and naval vessels, and requests citizens display flags at half-staff from homes during the customary forenoon period.",
+      "why_relevant": "The proclamation exercises the President's constitutional authority to issue ceremonial directives and sets national observance protocols for a federal holiday honoring fallen service members.",
       "jurisdiction": "federal",
-      "federal_nexus": "Official White House channel; documents the act of publication only.",
+      "federal_nexus": "",
       "confidence": "high",
-      "basis": "official_actor_record",
+      "basis": "I, DONALD J. TRUMP, President of the United States of America, do hereby proclaim Memorial Day, May 26, 2025, as a day of prayer for permanent peace",
       "actor": "The White House",
       "action": "announced a proclamation titled \"Prayer for Peace, Memorial Day, 2025\"",
       "act_key": "white house|announced a proclamation titled prayer for peace memorial day 2025|2025-05-24",
       "attacks": [],
       "source_meta": {
-        "headline": null,
-        "published_on": null,
+        "headline": "Prayer for Peace, Memorial Day, 2025",
+        "published_on": "2025-05-24",
         "byline": null,
-        "outlet": null,
-        "accessed_on": null,
+        "outlet": "The White House",
+        "accessed_on": "2026-08-27T01:34:03Z",
         "snapshot_url": null,
         "durable_keys": {}
       },
       "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
-      "_origin_index": 1033
+      "_origin_index": 975
     },
     {
       "source_key": "whitehouse",
@@ -389,29 +358,32 @@
       "reported_on": "2025-05-24",
       "dated_by": "occurred",
       "category": "Executive Actions & Orders",
-      "title": "World Trade Week, 2025",
-      "url": "https://www.whitehouse.gov/presidential-actions/2025/05/world-trade-week-2025/",
-      "summary": "The White House published this proclamation on 2025-05-24 through its proclamations channel.",
-      "why_relevant": "",
+      "title": "President Trump issued proclamation designating May 2025 as National Physical Fitness and Sports Month",
+      "url": "https://www.whitehouse.gov/presidential-actions/2025/05/national-physical-fitness-and-sports-month-2025/",
+      "summary": "President Trump issued a proclamation on May 24, 2025, designating May 2025 as National Physical Fitness and Sports Month. The proclamation frames physical fitness and sports as foundational to health and community strength, references the appointment of Robert F. Kennedy Jr. as HHS Secretary and establishment of the Make America Healthy Again Commission, and states the administration has signed executive orders to expand children's sports participation and \"keep biological men out of women's sports.\"",
+      "why_relevant": "While a proclamation designating a month is ceremonial, the document's substantive claims reference executive orders on sex-based sports eligibility and youth sports participation, which bear on civil rights and regulatory authority over athletic competition.",
       "jurisdiction": "federal",
-      "federal_nexus": "Official White House channel; documents the act of publication only.",
+      "federal_nexus": "",
       "confidence": "high",
-      "basis": "official_actor_record",
+      "basis": "I do hereby proclaim May 2025 as National Physical Fitness and Sports Month. I call upon the people of the United States to incorporate physical fitness and sports participation into their everyday lives.",
       "actor": "The White House",
-      "action": "announced a proclamation titled \"World Trade Week, 2025\"",
-      "act_key": "white house|announced a proclamation titled world trade week 2025|2025-05-24",
-      "attacks": [],
+      "action": "announced a proclamation titled \"National Physical Fitness and Sports Month, 2025\"",
+      "act_key": "white house|announced a proclamation titled national physical fitness and sports month 2025|2025-05-24",
+      "attacks": [
+        "women",
+        "lgbtq"
+      ],
       "source_meta": {
-        "headline": null,
-        "published_on": null,
+        "headline": "National Physical Fitness and Sports Month, 2025",
+        "published_on": "2025-05-24",
         "byline": null,
-        "outlet": null,
-        "accessed_on": null,
+        "outlet": "The White House",
+        "accessed_on": "2026-08-27T01:34:12Z",
         "snapshot_url": null,
         "durable_keys": {}
       },
       "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
-      "_origin_index": 1032
+      "_origin_index": 976
     },
     {
       "source_key": "guardian",
@@ -963,6 +935,40 @@
       "_origin_index": 1958
     },
     {
+      "source_key": "whitehouse",
+      "date": "2025-05-24",
+      "occurred_on": "2025-05-24",
+      "reported_on": "2025-05-24",
+      "dated_by": "occurred",
+      "category": "International Relations",
+      "title": "Trump issued proclamation designating May 18–24, 2025, as World Trade Week",
+      "url": "https://www.whitehouse.gov/presidential-actions/2025/05/world-trade-week-2025/",
+      "summary": "President Trump issued a proclamation on May 24, 2025, designating May 18–24 as World Trade Week. The proclamation reaffirms commitment to \"balanced and reciprocal trade\" and frames the administration's trade policies—including reciprocal tariffs and fentanyl-related tariffs—as protecting American workers and manufacturing. It references recent trade agreements, including a U.S.–U.K. deal, and commits to combating \"unfair trade practices\" and bringing jobs back to America.",
+      "why_relevant": "The proclamation articulates the administration's trade doctrine—reciprocal tariffs, protectionism, and \"America First\" trade policy—which materially affects U.S. economic relations, tariff regimes, and international commerce.",
+      "jurisdiction": "federal",
+      "federal_nexus": "",
+      "confidence": "high",
+      "basis": "I have enacted reciprocal tariffs to stop the hollowing out of American manufacturing and to bring vital jobs back to America.",
+      "actor": "The White House",
+      "action": "announced a proclamation titled \"World Trade Week, 2025\"",
+      "act_key": "white house|announced a proclamation titled world trade week 2025|2025-05-24",
+      "attacks": [
+        "trade",
+        "allies"
+      ],
+      "source_meta": {
+        "headline": "World Trade Week, 2025",
+        "published_on": "2025-05-24",
+        "byline": null,
+        "outlet": "The White House",
+        "accessed_on": "2026-08-27T01:33:53Z",
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
+      "_origin_index": 974
+    },
+    {
       "source_key": "meidas",
       "date": "2025-05-24",
       "occurred_on": "2025-05-24",
@@ -1397,37 +1403,6 @@
       },
       "_origin_file": "meidas_events_2025-04-05_2025-07-25.json",
       "_origin_index": 643
-    },
-    {
-      "source_key": "whitehouse",
-      "date": "2025-05-25",
-      "occurred_on": "2025-05-25",
-      "reported_on": "2025-05-25",
-      "dated_by": "occurred",
-      "category": "Information & Media Control",
-      "title": "At West Point, President Trump Lauds the “Future Leaders of America’s Army”",
-      "url": "https://www.whitehouse.gov/releases/2025/05/at-west-point-president-trump-lauds-the-future-leaders-of-americas-army/",
-      "summary": "The White House published this release on 2025-05-25 through its releases channel.",
-      "why_relevant": "",
-      "jurisdiction": "federal",
-      "federal_nexus": "Official White House channel; documents the act of publication only.",
-      "confidence": "high",
-      "basis": "official_actor_record",
-      "actor": "The White House",
-      "action": "published a release titled \"At West Point, President Trump Lauds the “Future Leaders of America’s Army”\"",
-      "act_key": "white house|published a release titled at west point president trump lauds the future leaders of america s army|2025-05-25",
-      "attacks": [],
-      "source_meta": {
-        "headline": null,
-        "published_on": null,
-        "byline": null,
-        "outlet": null,
-        "accessed_on": null,
-        "snapshot_url": null,
-        "durable_keys": {}
-      },
-      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
-      "_origin_index": 1367
     },
     {
       "source_key": "noah",
@@ -2119,6 +2094,37 @@
       "_origin_index": 86
     },
     {
+      "source_key": "whitehouse",
+      "date": "2025-05-25",
+      "occurred_on": "2025-05-25",
+      "reported_on": "2025-05-25",
+      "dated_by": "occurred",
+      "category": "Civil–Military Relations & State Violence",
+      "title": "President Trump addresses West Point graduating class",
+      "url": "https://www.whitehouse.gov/releases/2025/05/at-west-point-president-trump-lauds-the-future-leaders-of-americas-army/",
+      "summary": "President Trump delivered a commencement address to more than 1,000 graduating cadets at the United States Military Academy at West Point on May 25, 2025. The White House released a statement highlighting remarks in which Trump emphasized military culture, sacrifice, and the armed forces' role in national defense. Trump stated the military's job is \"to dominate any foe and annihilate any threat to America\" and criticized what he characterized as non-military functions. The address also recognized individual cadets for achievement and sacrifice.",
+      "why_relevant": "The address articulates the administration's conception of military purpose and reflects on civil-military norms regarding the armed forces' domestic and international role.",
+      "jurisdiction": "federal",
+      "federal_nexus": "",
+      "confidence": "high",
+      "basis": "President Donald J. Trump addressed more than 1,000 graduating cadets of the United States Military Academy at West Point, where he delivered an inspiring message of service, sacrifice, and winning.",
+      "actor": "The White House",
+      "action": "published a release titled \"At West Point, President Trump Lauds the “Future Leaders of America’s Army”\"",
+      "act_key": "white house|published a release titled at west point president trump lauds the future leaders of america s army|2025-05-25",
+      "attacks": [],
+      "source_meta": {
+        "headline": "At West Point, President Trump Lauds the “Future Leaders of America’s Army”",
+        "published_on": "2025-05-25",
+        "byline": null,
+        "outlet": "The White House",
+        "accessed_on": "2026-08-27T02:37:06Z",
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
+      "_origin_index": 1298
+    },
+    {
       "source_key": "meidas",
       "date": "2025-05-26",
       "occurred_on": "2025-05-26",
@@ -2571,37 +2577,6 @@
       "_origin_index": 47
     },
     {
-      "source_key": "whitehouse",
-      "date": "2025-05-26",
-      "occurred_on": "2025-05-26",
-      "reported_on": "2025-05-26",
-      "dated_by": "occurred",
-      "category": "Information & Media Control",
-      "title": "President Trump Honors America’s Heroes on Memorial Day",
-      "url": "https://www.whitehouse.gov/releases/2025/05/president-trump-honors-americas-heroes-on-memorial-day/",
-      "summary": "The White House published this release on 2025-05-26 through its releases channel.",
-      "why_relevant": "",
-      "jurisdiction": "federal",
-      "federal_nexus": "Official White House channel; documents the act of publication only.",
-      "confidence": "high",
-      "basis": "official_actor_record",
-      "actor": "The White House",
-      "action": "published a release titled \"President Trump Honors America’s Heroes on Memorial Day\"",
-      "act_key": "white house|published a release titled president trump honors america s heroes on memorial day|2025-05-26",
-      "attacks": [],
-      "source_meta": {
-        "headline": null,
-        "published_on": null,
-        "byline": null,
-        "outlet": null,
-        "accessed_on": null,
-        "snapshot_url": null,
-        "durable_keys": {}
-      },
-      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
-      "_origin_index": 1368
-    },
-    {
       "source_key": "zeteo",
       "date": "2025-05-26",
       "occurred_on": "2025-05-26",
@@ -3012,6 +2987,37 @@
       "_origin_index": 637
     },
     {
+      "source_key": "whitehouse",
+      "date": "2025-05-26",
+      "occurred_on": "2025-05-26",
+      "reported_on": "2025-05-26",
+      "dated_by": "occurred",
+      "category": "Civil–Military Relations & State Violence",
+      "title": "President Trump delivers Memorial Day remarks at Arlington National Cemetery",
+      "url": "https://www.whitehouse.gov/releases/2025/05/president-trump-honors-americas-heroes-on-memorial-day/",
+      "summary": "President Trump joined Gold Star Families, servicemembers, and administration officials at Arlington National Cemetery on Memorial Day to deliver remarks honoring fallen service members. Trump's remarks emphasized the sacrifice of American warriors across U.S. military history, from the Revolutionary War through recent conflicts. Vice President Vance, Secretary of Defense Hegseth, and Chairman of the Joint Chiefs General Caine also delivered remarks. The White House published the event as a release with video excerpts of the speeches.",
+      "why_relevant": "The event demonstrates the President's ceremonial role as commander-in-chief and his public framing of military sacrifice and national purpose, which shapes how the executive branch and public understand the legitimacy and scope of military action.",
+      "jurisdiction": "federal",
+      "federal_nexus": "",
+      "confidence": "high",
+      "basis": "Today, on Memorial Day, President Donald J. Trump joined Gold Star Families, servicemembers, and members of his administration at Arlington National Cemetery to pay tribute to the fallen heroes whose sacrifice has kept our nation free.",
+      "actor": "The White House",
+      "action": "published a release titled \"President Trump Honors America’s Heroes on Memorial Day\"",
+      "act_key": "white house|published a release titled president trump honors america s heroes on memorial day|2025-05-26",
+      "attacks": [],
+      "source_meta": {
+        "headline": "President Trump Honors America’s Heroes on Memorial Day",
+        "published_on": "2025-05-26",
+        "byline": null,
+        "outlet": "The White House",
+        "accessed_on": "2026-08-27T02:37:17Z",
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
+      "_origin_index": 1299
+    },
+    {
       "source_key": "federalregister",
       "date": "2025-05-27",
       "occurred_on": "2025-05-27",
@@ -3369,29 +3375,33 @@
       "reported_on": "2025-05-27",
       "dated_by": "occurred",
       "category": "Executive Actions & Orders",
-      "title": "101st Anniversary of The United States Border Patrol",
+      "title": "White House issued proclamation commemorating 101st Anniversary of United States Border Patrol",
       "url": "https://www.whitehouse.gov/presidential-actions/2025/05/101st-anniversary-of-the-united-states-border-patrol/",
-      "summary": "The White House published this proclamation on 2025-05-27 through its proclamations channel.",
-      "why_relevant": "",
+      "summary": "The White House issued a proclamation on May 27, 2025, designating May 28, 2025, as a day celebrating the 101st Anniversary of the United States Border Patrol. The proclamation characterizes the previous administration's immigration policies as \"deception and betrayal,\" claims the current administration has reduced daily border encounters by 95 percent and migrant crossings by 99.99 percent within its first 100 days, states it arrested more than 150,000 and deported more than 135,000 individuals, and asserts implementation of emergency border measures including wall construction, deployment of military personnel, and designation of cartels as foreign terrorist organizations.",
+      "why_relevant": "The proclamation frames immigration enforcement as a national security emergency and asserts executive authority to deploy military resources, designate organizations as terrorist entities, and conduct mass deportations—actions that concentrate executive power over immigration policy and border security outside traditional legislative channels.",
       "jurisdiction": "federal",
-      "federal_nexus": "Official White House channel; documents the act of publication only.",
+      "federal_nexus": "",
       "confidence": "high",
-      "basis": "official_actor_record",
+      "basis": "I, DONALD J. TRUMP, President of the United States of America, by virtue of the authority vested in me by the Constitution and the laws of the United States, do hereby proclaim May 28, 2025, as a day in celebration of the 101st Anniversary of the United States Border Patrol.",
       "actor": "The White House",
       "action": "announced a proclamation titled \"101st Anniversary of The United States Border Patrol\"",
       "act_key": "white house|announced a proclamation titled 101st anniversary of the united states border patrol|2025-05-27",
-      "attacks": [],
+      "attacks": [
+        "immigrants_refugees",
+        "military",
+        "separation_of_powers"
+      ],
       "source_meta": {
-        "headline": null,
-        "published_on": null,
+        "headline": "101st Anniversary of The United States Border Patrol",
+        "published_on": "2025-05-27",
         "byline": null,
-        "outlet": null,
-        "accessed_on": null,
+        "outlet": "The White House",
+        "accessed_on": "2026-08-27T01:33:40Z",
         "snapshot_url": null,
         "durable_keys": {}
       },
       "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
-      "_origin_index": 1031
+      "_origin_index": 973
     },
     {
       "source_key": "zeteo",
@@ -3589,8 +3599,8 @@
       "action": "ruled states may proceed with lawsuit",
       "act_key": "tanya chutkan|ruled states may proceed with lawsuit|2025-05-27",
       "attacks": [
-        "42",
-        "21"
+        "separation_of_powers",
+        "congress"
       ],
       "source_meta": {
         "headline": null,
@@ -3611,24 +3621,24 @@
       "reported_on": "2025-05-27",
       "dated_by": "occurred",
       "category": "Judicial Developments",
-      "title": "Justice Department Files Help America Vote Act Lawsuit Against North Carolina for Inaccurate Voter List",
+      "title": "Justice Department files Help America Vote Act lawsuit against North Carolina over voter registration list accuracy",
       "url": "https://www.justice.gov/opa/pr/justice-department-files-help-america-vote-act-lawsuit-against-north-carolina-inaccurate",
-      "summary": "The Department of Justice announced this on 2025-05-27 through Civil Rights Division. The recorded stage is a complaint filed. The allegations are unadjudicated; this documents the announcement, not the truth of any allegation.",
-      "why_relevant": "",
+      "summary": "The Department of Justice announced a lawsuit against North Carolina and its State Board of Elections, alleging violation of the Help America Vote Act (HAVA) by maintaining voter registration rolls that lack required identifying information such as driver's license numbers or Social Security number digits. The suit claims voters were added to rolls without this mandated information and remain registered without it. The filing follows President Trump's March 25 Executive Order 14248 on election integrity.",
+      "why_relevant": "The lawsuit represents a federal enforcement action on voter registration accuracy under HAVA, a statute Congress charged the Attorney General to enforce; the framing and timing relative to the executive order signal a shift in DOJ voting enforcement priorities.",
       "jurisdiction": "federal",
-      "federal_nexus": "Official DOJ channel; documents the act of announcement only.",
+      "federal_nexus": "",
       "confidence": "high",
-      "basis": "official_actor_record",
+      "basis": "The Justice Department announced today that it has filed a lawsuit against the State of North Carolina and the North Carolina State Board of Elections for failure to maintain an accurate voter list in violation of the Help America Vote Act (HAVA).",
       "actor": "The Department of Justice",
       "action": "announced \"Justice Department Files Help America Vote Act Lawsuit Against North Carolina for Inaccurate Voter List\"",
       "act_key": "department|announced justice department files help america vote act lawsuit against north carolina for inaccurate voter list|2025-05-27",
       "attacks": [],
       "source_meta": {
-        "headline": null,
-        "published_on": null,
+        "headline": "Justice Department Files Help America Vote Act Lawsuit Against North Carolina for Inaccurate Voter List",
+        "published_on": "2025-05-27",
         "byline": null,
-        "outlet": null,
-        "accessed_on": null,
+        "outlet": "justice.gov",
+        "accessed_on": "2026-08-27T04:39:10Z",
         "snapshot_url": null,
         "durable_keys": {}
       },
@@ -4577,95 +4587,68 @@
     {
       "source_key": "whitehouse",
       "date": "2025-05-27",
+      "occurred_on": "",
+      "reported_on": "2025-05-27",
+      "dated_by": "reported",
+      "category": "Information & Media Control",
+      "title": "White House issues fact sheet on border crossings and immigration enforcement",
+      "url": "https://www.whitehouse.gov/releases/2025/05/illegal-crossings-plummet-in-san-diego-sector/",
+      "summary": "The White House issued a fact sheet claiming a 96%+ decline in illegal crossings in the San Diego Sector and announcing the dismantling of a migrant processing facility constructed under the Biden Administration. The release also lists seven individuals arrested for immigration violations and criminal charges, characterizing them as \"sick criminal illegal immigrants\" and framing their arrests as part of the Trump Administration's border enforcement efforts.",
+      "why_relevant": "The document uses inflammatory language and selective case presentation to frame immigration enforcement as a moral imperative, employing dehumanizing terminology and spectacle-based communication that shapes public perception of immigration policy and law enforcement priorities.",
+      "jurisdiction": "federal",
+      "federal_nexus": "",
+      "confidence": "high",
+      "basis": "As illegal border crossings plummet, U.S. Border Patrol announced a soft-sided 'migrant processing facility' in the San Diego Sector constructed under the Biden Administration has been dismantled after a 96%+ decline in illegal crossings along the sector.",
+      "actor": "The White House",
+      "action": "published a release titled \"Illegal Crossings Plummet in San Diego Sector\"",
+      "act_key": "white house|published a release titled illegal crossings plummet in san diego sector|2025-05-27",
+      "attacks": [
+        "immigrants_refugees",
+        "decency",
+        "information"
+      ],
+      "source_meta": {
+        "headline": "Illegal Crossings Plummet in San Diego Sector",
+        "published_on": "2025-05-27",
+        "byline": null,
+        "outlet": "The White House",
+        "accessed_on": "2026-08-27T02:37:28Z",
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
+      "_origin_index": 1300
+    },
+    {
+      "source_key": "whitehouse",
+      "date": "2025-05-27",
       "occurred_on": "2025-05-27",
       "reported_on": "2025-05-27",
       "dated_by": "occurred",
       "category": "Information & Media Control",
-      "title": "Consumer Confidence Surges, Majority Says We’re on “Right Track” 📈📈📈",
+      "title": "White House issues fact sheet on consumer confidence surge",
       "url": "https://www.whitehouse.gov/releases/2025/05/consumer-confidence-surges-majority-says-were-on-right-track/",
-      "summary": "The White House published this release on 2025-05-27 through its releases channel.",
-      "why_relevant": "",
+      "summary": "The White House published a fact sheet claiming that consumer confidence surged in May with the largest monthly jump in four years, citing the Consumer Confidence Index and Bloomberg reporting. The document attributes the improvement to President Trump's policies on inflation, gas prices, trade, and investment, and states that a majority of Americans now say the country is on the right track for the first time in decades, citing new polling and RealClearPolitics data.",
+      "why_relevant": "The White House issued promotional framing of economic data to shape public perception of administration performance, a routine but consequential use of executive communications infrastructure.",
       "jurisdiction": "federal",
-      "federal_nexus": "Official White House channel; documents the act of publication only.",
+      "federal_nexus": "",
       "confidence": "high",
-      "basis": "official_actor_record",
+      "basis": "Consumer confidence surged in May with the biggest monthly jump in four years, according to the Consumer Confidence Index — far surpassing economists' expectations.",
       "actor": "The White House",
       "action": "published a release titled \"Consumer Confidence Surges, Majority Says We’re on “Right Track” 📈📈📈\"",
       "act_key": "white house|published a release titled consumer confidence surges majority says we re on right track|2025-05-27",
       "attacks": [],
       "source_meta": {
-        "headline": null,
-        "published_on": null,
+        "headline": "Consumer Confidence Surges, Majority Says We’re on “Right Track” 📈📈📈",
+        "published_on": "2025-05-27",
         "byline": null,
-        "outlet": null,
-        "accessed_on": null,
+        "outlet": "The White House",
+        "accessed_on": "2026-08-27T02:37:39Z",
         "snapshot_url": null,
         "durable_keys": {}
       },
       "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
-      "_origin_index": 1370
-    },
-    {
-      "source_key": "whitehouse",
-      "date": "2025-05-27",
-      "occurred_on": "2025-05-27",
-      "reported_on": "2025-05-27",
-      "dated_by": "occurred",
-      "category": "Information & Media Control",
-      "title": "Illegal Crossings Plummet in San Diego Sector",
-      "url": "https://www.whitehouse.gov/releases/2025/05/illegal-crossings-plummet-in-san-diego-sector/",
-      "summary": "The White House published this release on 2025-05-27 through its releases channel.",
-      "why_relevant": "",
-      "jurisdiction": "federal",
-      "federal_nexus": "Official White House channel; documents the act of publication only.",
-      "confidence": "high",
-      "basis": "official_actor_record",
-      "actor": "The White House",
-      "action": "published a release titled \"Illegal Crossings Plummet in San Diego Sector\"",
-      "act_key": "white house|published a release titled illegal crossings plummet in san diego sector|2025-05-27",
-      "attacks": [],
-      "source_meta": {
-        "headline": null,
-        "published_on": null,
-        "byline": null,
-        "outlet": null,
-        "accessed_on": null,
-        "snapshot_url": null,
-        "durable_keys": {}
-      },
-      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
-      "_origin_index": 1369
-    },
-    {
-      "source_key": "whitehouse",
-      "date": "2025-05-27",
-      "occurred_on": "2025-05-27",
-      "reported_on": "2025-05-27",
-      "dated_by": "occurred",
-      "category": "Information & Media Control",
-      "title": "OPINION: Trump unleashes US nuclear renaissance with bold executive orders",
-      "url": "https://www.whitehouse.gov/releases/2025/05/opinion-trump-unleashes-us-nuclear-renaissance-with-bold-executive-orders/",
-      "summary": "The White House published this release on 2025-05-27 through its releases channel.",
-      "why_relevant": "",
-      "jurisdiction": "federal",
-      "federal_nexus": "Official White House channel; documents the act of publication only.",
-      "confidence": "high",
-      "basis": "official_actor_record",
-      "actor": "The White House",
-      "action": "published a release titled \"OPINION: Trump unleashes US nuclear renaissance with bold executive orders\"",
-      "act_key": "white house|published a release titled opinion trump unleashes us nuclear renaissance with bold executive orders|2025-05-27",
-      "attacks": [],
-      "source_meta": {
-        "headline": null,
-        "published_on": null,
-        "byline": null,
-        "outlet": null,
-        "accessed_on": null,
-        "snapshot_url": null,
-        "durable_keys": {}
-      },
-      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
-      "_origin_index": 1371
+      "_origin_index": 1301
     },
     {
       "source_key": "federalregister",
@@ -5553,8 +5536,8 @@
       "action": "commuted federal sentences",
       "act_key": "trump|commuted federal sentences|2025-05-28",
       "attacks": [
-        "43",
-        "17"
+        "rule_of_law",
+        "decency"
       ],
       "source_meta": {
         "headline": null,
@@ -5621,9 +5604,9 @@
       "action": "announced 3,000 daily arrest target",
       "act_key": "stephen miller|announced 3 000 daily arrest target|2025-05-28",
       "attacks": [
-        "43",
-        "4",
-        "21"
+        "rule_of_law",
+        "immigrants_refugees",
+        "congress"
       ],
       "source_meta": {
         "headline": null,
@@ -5831,8 +5814,8 @@
       "action": "ruled tariffs illegal",
       "act_key": "u s court international trade|ruled tariffs illegal|2025-05-28",
       "attacks": [
-        "42",
-        "41"
+        "separation_of_powers",
+        "constitution"
       ],
       "source_meta": {
         "headline": null,
@@ -5900,8 +5883,8 @@
       "action": "ruled tariffs unconstitutional",
       "act_key": "u s court international trade|ruled tariffs unconstitutional|2025-05-28",
       "attacks": [
-        "42",
-        "41"
+        "separation_of_powers",
+        "constitution"
       ],
       "source_meta": {
         "headline": null,
@@ -5972,11 +5955,11 @@
         "separation_of_powers"
       ],
       "source_meta": {
-        "headline": null,
-        "published_on": null,
+        "headline": "Addressing Risks From WilmerHale",
+        "published_on": "2025-03-27",
         "byline": null,
-        "outlet": null,
-        "accessed_on": null,
+        "outlet": "The White House",
+        "accessed_on": "2026-08-27T01:10:55Z",
         "snapshot_url": null,
         "durable_keys": {}
       },
@@ -6556,8 +6539,8 @@
       "action": "entered office without warrant, handcuffed aide",
       "act_key": "federal protective service|entered office without warrant handcuffed aide|2025-05-28",
       "attacks": [
-        "21",
-        "42"
+        "congress",
+        "separation_of_powers"
       ],
       "source_meta": {
         "headline": null,
@@ -6590,9 +6573,9 @@
       "action": "detained immigrants, threatened arrest of advocates",
       "act_key": "federal protective service|detained immigrants threatened arrest of advocates|2025-05-28",
       "attacks": [
-        "4",
-        "29",
-        "31"
+        "immigrants_refugees",
+        "press",
+        "whistleblowers"
       ],
       "source_meta": {
         "headline": null,
@@ -6945,10 +6928,10 @@
       "action": "attacked judges over tariff ruling",
       "act_key": "trump|attacked judges over tariff ruling|2025-05-28",
       "attacks": [
-        "20",
-        "29",
-        "11",
-        "42"
+        "courts",
+        "press",
+        "truth",
+        "separation_of_powers"
       ],
       "source_meta": {
         "headline": null,
@@ -6981,9 +6964,9 @@
       "action": "posted conspiracy-theory meme",
       "act_key": "trump|posted conspiracy theory meme|2025-05-28",
       "attacks": [
-        "34",
-        "24",
-        "29"
+        "reality",
+        "intelligence",
+        "press"
       ],
       "source_meta": {
         "headline": null,
@@ -6996,99 +6979,6 @@
       },
       "_origin_file": "hcr_events_2025-04-05_2025-07-25.json",
       "_origin_index": 443
-    },
-    {
-      "source_key": "whitehouse",
-      "date": "2025-05-28",
-      "occurred_on": "2025-05-28",
-      "reported_on": "2025-05-28",
-      "dated_by": "occurred",
-      "category": "Information & Media Control",
-      "title": "AOC Wants to END the Agency Arresting Killers, Rapists in New York",
-      "url": "https://www.whitehouse.gov/releases/2025/05/aoc-wants-to-end-the-agency-arresting-killers-rapists-in-new-york/",
-      "summary": "The White House published this release on 2025-05-28 through its releases channel.",
-      "why_relevant": "",
-      "jurisdiction": "federal",
-      "federal_nexus": "Official White House channel; documents the act of publication only.",
-      "confidence": "high",
-      "basis": "official_actor_record",
-      "actor": "The White House",
-      "action": "published a release titled \"AOC Wants to END the Agency Arresting Killers, Rapists in New York\"",
-      "act_key": "white house|published a release titled aoc wants to end the agency arresting killers rapists in new york|2025-05-28",
-      "attacks": [],
-      "source_meta": {
-        "headline": null,
-        "published_on": null,
-        "byline": null,
-        "outlet": null,
-        "accessed_on": null,
-        "snapshot_url": null,
-        "durable_keys": {}
-      },
-      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
-      "_origin_index": 1372
-    },
-    {
-      "source_key": "whitehouse",
-      "date": "2025-05-28",
-      "occurred_on": "2025-05-28",
-      "reported_on": "2025-05-28",
-      "dated_by": "occurred",
-      "category": "Information & Media Control",
-      "title": "FACT: One, Big, Beautiful Bill Cuts Spending, Fuels Growth",
-      "url": "https://www.whitehouse.gov/releases/2025/05/fact-one-big-beautiful-bill-cuts-spending-fuels-growth/",
-      "summary": "The White House published this release on 2025-05-28 through its releases channel.",
-      "why_relevant": "",
-      "jurisdiction": "federal",
-      "federal_nexus": "Official White House channel; documents the act of publication only.",
-      "confidence": "high",
-      "basis": "official_actor_record",
-      "actor": "The White House",
-      "action": "published a release titled \"FACT: One, Big, Beautiful Bill Cuts Spending, Fuels Growth\"",
-      "act_key": "white house|published a release titled fact one big beautiful bill cuts spending fuels growth|2025-05-28",
-      "attacks": [],
-      "source_meta": {
-        "headline": null,
-        "published_on": null,
-        "byline": null,
-        "outlet": null,
-        "accessed_on": null,
-        "snapshot_url": null,
-        "durable_keys": {}
-      },
-      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
-      "_origin_index": 1374
-    },
-    {
-      "source_key": "whitehouse",
-      "date": "2025-05-28",
-      "occurred_on": "2025-05-28",
-      "reported_on": "2025-05-28",
-      "dated_by": "occurred",
-      "category": "Information & Media Control",
-      "title": "ICYMI: Trump’s ‘One, Big, Beautiful Bill’ promises up to $11,600 wage boost, new jobs",
-      "url": "https://www.whitehouse.gov/releases/2025/05/icymi-trumps-one-big-beautiful-bill-promises-up-to-11600-wage-boost-new-jobs/",
-      "summary": "The White House published this release on 2025-05-28 through its releases channel.",
-      "why_relevant": "",
-      "jurisdiction": "federal",
-      "federal_nexus": "Official White House channel; documents the act of publication only.",
-      "confidence": "high",
-      "basis": "official_actor_record",
-      "actor": "The White House",
-      "action": "published a release titled \"ICYMI: Trump’s ‘One, Big, Beautiful Bill’ promises up to $11,600 wage boost, new jobs\"",
-      "act_key": "white house|published a release titled icymi trump s one big beautiful bill promises up to 11 600 wage boost new jobs|2025-05-28",
-      "attacks": [],
-      "source_meta": {
-        "headline": null,
-        "published_on": null,
-        "byline": null,
-        "outlet": null,
-        "accessed_on": null,
-        "snapshot_url": null,
-        "durable_keys": {}
-      },
-      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
-      "_origin_index": 1373
     },
     {
       "source_key": "federalregister",
@@ -7635,8 +7525,8 @@
       "action": "signed foreign real estate deal",
       "act_key": "trump organization|signed foreign real estate deal|2025-05-28",
       "attacks": [
-        "44",
-        "37"
+        "emoluments",
+        "trade"
       ],
       "source_meta": {
         "headline": null,
@@ -7684,6 +7574,68 @@
       },
       "_origin_file": "popinfo_events_2025-04-05_2025-07-25.json",
       "_origin_index": 179
+    },
+    {
+      "source_key": "whitehouse",
+      "date": "2025-05-28",
+      "occurred_on": "",
+      "reported_on": "2025-05-28",
+      "dated_by": "reported",
+      "category": "Economic & Regulatory Power",
+      "title": "White House issued fact sheet promoting proposed tax legislation (\"One, Big, Beautiful Bill\")",
+      "url": "https://www.whitehouse.gov/releases/2025/05/icymi-trumps-one-big-beautiful-bill-promises-up-to-11600-wage-boost-new-jobs/",
+      "summary": "The White House issued a fact sheet promoting proposed tax legislation titled the \"One, Big, Beautiful Bill,\" which the administration claims would provide wage increases up to $11,600, create over 1 million jobs through Opportunity Zone incentives, and extend provisions from the 2017 Tax Cuts and Jobs Act. The fact sheet asserts the bill would eliminate taxes on tips and overtime, provide full expensing for new factories, and lower tax rates on domestic manufacturing. It states that failure to pass the bill could result in a $4 trillion tax hike.",
+      "why_relevant": "The fact sheet represents the executive's framing of proposed tax legislation and its claimed economic effects, which bear on fiscal policy and the distribution of tax burden across income groups.",
+      "jurisdiction": "federal",
+      "federal_nexus": "",
+      "confidence": "high",
+      "basis": "President Trump's proposed tax cuts, encapsulated in the 'One, Big, Beautiful Bill,' aim to extend the pro-growth and pro-worker legacy of the 2017 Tax Cuts and Jobs Act",
+      "actor": "The White House",
+      "action": "published a release titled \"ICYMI: Trump’s ‘One, Big, Beautiful Bill’ promises up to $11,600 wage boost, new jobs\"",
+      "act_key": "white house|published a release titled icymi trump s one big beautiful bill promises up to 11 600 wage boost new jobs|2025-05-28",
+      "attacks": [],
+      "source_meta": {
+        "headline": "ICYMI: Trump’s ‘One, Big, Beautiful Bill’ promises up to $11,600 wage boost, new jobs",
+        "published_on": "2025-05-28",
+        "byline": null,
+        "outlet": "The White House",
+        "accessed_on": "2026-08-27T02:38:11Z",
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
+      "_origin_index": 1302
+    },
+    {
+      "source_key": "whitehouse",
+      "date": "2025-05-28",
+      "occurred_on": "2025-05-28",
+      "reported_on": "2025-05-28",
+      "dated_by": "occurred",
+      "category": "Economic & Regulatory Power",
+      "title": "White House issues fact sheet promoting \"One, Big, Beautiful Bill\" spending and tax legislation",
+      "url": "https://www.whitehouse.gov/releases/2025/05/fact-one-big-beautiful-bill-cuts-spending-fuels-growth/",
+      "summary": "The White House published a fact sheet on May 28, 2025, promoting legislation it characterizes as cutting spending, reducing the deficit, and fueling economic growth. The document features statements from Stephen Miller and Peter Navarro claiming the bill includes \"the largest welfare reform in American history,\" \"the largest tax cut and reform in American history,\" and \"the most aggressive energy exploration in American history.\" Miller states the bill saves over $1.6 trillion in mandatory spending and disputes Congressional Budget Office deficit projections as based on \"a CBO accounting gimmick.\" Navarro argues CBO projections fail to account for tariff revenues, claiming tariffs could generate $2.3–$3.3 trillion over ten years.",
+      "why_relevant": "The fact sheet asserts major fiscal and regulatory claims about pending legislation while disputing independent Congressional Budget Office analysis, raising questions about the transparency and accuracy of executive framing of budgetary impacts.",
+      "jurisdiction": "federal",
+      "federal_nexus": "",
+      "confidence": "high",
+      "basis": "President Donald J. Trump's One, Big, Beautiful Bill is a once-in-a-generation opportunity to cut spending, fuel growth, and level the fiscal footing of the American economy.",
+      "actor": "The White House",
+      "action": "published a release titled \"FACT: One, Big, Beautiful Bill Cuts Spending, Fuels Growth\"",
+      "act_key": "white house|published a release titled fact one big beautiful bill cuts spending fuels growth|2025-05-28",
+      "attacks": [],
+      "source_meta": {
+        "headline": "FACT: One, Big, Beautiful Bill Cuts Spending, Fuels Growth",
+        "published_on": "2025-05-28",
+        "byline": null,
+        "outlet": "The White House",
+        "accessed_on": "2026-08-27T02:38:22Z",
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
+      "_origin_index": 1303
     },
     {
       "source_key": "guardian",
@@ -8754,7 +8706,7 @@
       "action": "paused tariff ruling pending appeal",
       "act_key": "u s court appeals for federal circuit|paused tariff ruling pending appeal|2025-05-29",
       "attacks": [
-        "42"
+        "separation_of_powers"
       ],
       "source_meta": {
         "headline": null,
@@ -9385,9 +9337,9 @@
       "action": "diverted fbi from terror to immigration",
       "act_key": "trump administration|diverted fbi from terror to immigration|2025-05-29",
       "attacks": [
-        "21",
-        "25",
-        "54"
+        "congress",
+        "military",
+        "future"
       ],
       "source_meta": {
         "headline": null,
@@ -9420,10 +9372,10 @@
       "action": "arrested immigrants outside court",
       "act_key": "ice|arrested immigrants outside court|2025-05-29",
       "attacks": [
-        "43",
-        "4",
-        "21",
-        "1"
+        "rule_of_law",
+        "immigrants_refugees",
+        "congress",
+        "children"
       ],
       "source_meta": {
         "headline": null,
@@ -9694,11 +9646,11 @@
         "rule_of_law"
       ],
       "source_meta": {
-        "headline": null,
-        "published_on": null,
+        "headline": "Restoring Gold Standard Science",
+        "published_on": "2025-05-23",
         "byline": null,
-        "outlet": null,
-        "accessed_on": null,
+        "outlet": "The White House",
+        "accessed_on": "2026-08-27T01:01:20Z",
         "snapshot_url": null,
         "durable_keys": {}
       },
@@ -9743,33 +9695,33 @@
     {
       "source_key": "whitehouse",
       "date": "2025-05-29",
-      "occurred_on": "2025-05-29",
+      "occurred_on": "",
       "reported_on": "2025-05-29",
-      "dated_by": "occurred",
+      "dated_by": "reported",
       "category": "Information & Media Control",
-      "title": "Law Enforcement Backs the One, Big, Beautiful Bill",
+      "title": "White House issues fact sheet promoting House passage of \"One, Big, Beautiful Bill\" with endorsements from law enforcement and business groups",
       "url": "https://www.whitehouse.gov/releases/2025/05/law-enforcement-backs-the-one-big-beautiful-bill/",
-      "summary": "The White House published this release on 2025-05-29 through its releases channel.",
-      "why_relevant": "",
+      "summary": "The White House published a fact sheet on May 29, 2025, titled \"Law Enforcement Backs the One, Big, Beautiful Bill,\" compiling statements of support from the National Fraternal Order of Police, Cabinet officials, and dozens of business and industry organizations for a reconciliation bill the House had passed. The document presents endorsements from law enforcement, transportation, manufacturing, agriculture, energy, and small business sectors, each highlighting specific provisions they support—tax cuts, border security, air traffic control modernization, and energy policies. The fact sheet frames the bill as a \"generational opportunity\" and urges Senate passage.",
+      "why_relevant": "This is a promotional document issued by the executive to build political momentum for pending legislation by aggregating third-party endorsements; it is an act of political communication designed to influence legislative outcomes, not a statement of policy or law.",
       "jurisdiction": "federal",
-      "federal_nexus": "Official White House channel; documents the act of publication only.",
+      "federal_nexus": "",
       "confidence": "high",
-      "basis": "official_actor_record",
+      "basis": "Support continues to grow for President Donald J. Trump's One, Big, Beautiful Bill — a generational opportunity to secure historic tax cuts, deficit reduction, border security, and more.",
       "actor": "The White House",
       "action": "published a release titled \"Law Enforcement Backs the One, Big, Beautiful Bill\"",
       "act_key": "white house|published a release titled law enforcement backs the one big beautiful bill|2025-05-29",
       "attacks": [],
       "source_meta": {
-        "headline": null,
-        "published_on": null,
+        "headline": "Law Enforcement Backs the One, Big, Beautiful Bill",
+        "published_on": "2025-05-29",
         "byline": null,
-        "outlet": null,
-        "accessed_on": null,
+        "outlet": "The White House",
+        "accessed_on": "2026-08-27T02:38:34Z",
         "snapshot_url": null,
         "durable_keys": {}
       },
       "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
-      "_origin_index": 1375
+      "_origin_index": 1304
     },
     {
       "source_key": "federalregister",
@@ -10022,8 +9974,8 @@
       "action": "imposed tariffs costing $34 billion",
       "act_key": "trump administration|imposed tariffs costing 34 billion|2025-05-29",
       "attacks": [
-        "51",
-        "54"
+        "economy",
+        "future"
       ],
       "source_meta": {
         "headline": null,
@@ -10295,10 +10247,10 @@
       "action": "announced alliance with european far right",
       "act_key": "state department|announced alliance with european far right|2025-05-29",
       "attacks": [
-        "35",
-        "36",
-        "40",
-        "26"
+        "allies",
+        "global_democracy",
+        "idea_of_america",
+        "diplomacy"
       ],
       "source_meta": {
         "headline": "State department ramps up Trump anti-immigration agenda with new ‘remigration’ office",
@@ -10537,9 +10489,9 @@
       "action": "withheld congressionally approved funds",
       "act_key": "doge|withheld congressionally approved funds|2025-05-30",
       "attacks": [
-        "42",
-        "21",
-        "41"
+        "separation_of_powers",
+        "congress",
+        "constitution"
       ],
       "source_meta": {
         "headline": null,
@@ -10572,11 +10524,11 @@
       "action": "announced office of remigration",
       "act_key": "state department|announced office of remigration|2025-05-30",
       "attacks": [
-        "4",
-        "45",
-        "36",
-        "41",
-        "43"
+        "immigrants_refugees",
+        "birthright_citizenship",
+        "global_democracy",
+        "constitution",
+        "rule_of_law"
       ],
       "source_meta": {
         "headline": "State department ramps up Trump anti-immigration agenda with new ‘remigration’ office",
@@ -10609,8 +10561,8 @@
       "action": "doubled steel tariff",
       "act_key": "trump|doubled steel tariff|2025-05-30",
       "attacks": [
-        "42",
-        "41"
+        "separation_of_powers",
+        "constitution"
       ],
       "source_meta": {
         "headline": null,
@@ -10643,9 +10595,9 @@
       "action": "imposed tariffs under ieepa",
       "act_key": "trump|imposed tariffs under ieepa|2025-05-30",
       "attacks": [
-        "42",
-        "41",
-        "37"
+        "separation_of_powers",
+        "constitution",
+        "trade"
       ],
       "source_meta": {
         "headline": null,
@@ -10678,10 +10630,10 @@
       "action": "destroyed usaid funding",
       "act_key": "elon musk|destroyed usaid funding|2025-05-30",
       "attacks": [
-        "10",
-        "54",
-        "40",
-        "39"
+        "sick_vulnerable",
+        "future",
+        "idea_of_america",
+        "climate_cooperation"
       ],
       "source_meta": {
         "headline": null,
@@ -10702,29 +10654,64 @@
       "reported_on": "2025-05-30",
       "dated_by": "occurred",
       "category": "Executive Actions & Orders",
-      "title": "Sequestration Order for Fiscal Year 2026 Pursuant to Section 251A of the Balanced Budget and Emergency Deficit Control Act, As Amended",
+      "title": "White House issued sequestration order for fiscal year 2026 under Balanced Budget Act",
       "url": "https://www.whitehouse.gov/presidential-actions/2025/05/sequestration-order-for-fiscal-year-2026-pursuant-to-section-251a-of-the-balanced-budget-and-emergency-deficit-control-act-as-amended/",
-      "summary": "The White House published this memorandum on 2025-05-30 through its presidential-memoranda channel.",
-      "why_relevant": "",
+      "summary": "The White House issued a presidential memorandum on May 30, 2025, ordering sequestration of direct spending budgetary resources for fiscal year 2026, effective October 1, 2025. The order directs that non-exempt budget accounts be reduced by amounts calculated by the Office of Management and Budget in its May 30, 2025 report to Congress, in accordance with section 251A of the Balanced Budget and Emergency Deficit Control Act.",
+      "why_relevant": "Sequestration is a blunt fiscal instrument that automatically cuts spending across federal agencies and programs; it affects the executive's capacity to fund operations and the scope of federal services available to the public.",
       "jurisdiction": "federal",
-      "federal_nexus": "Official White House channel; documents the act of publication only.",
+      "federal_nexus": "",
       "confidence": "high",
-      "basis": "official_actor_record",
+      "basis": "I hereby order that, on October 1, 2025, direct spending budgetary resources for fiscal year 2026 in each non-exempt budget account be reduced by the amount calculated by the Office of Management and Budget.",
       "actor": "The White House",
       "action": "announced a presidential memorandum titled \"Sequestration Order for Fiscal Year 2026 Pursuant to Section 251A of the Balanced Budget and Emergency Deficit Control Act, As Amended\"",
       "act_key": "white house|announced a presidential memorandum titled sequestration order for fiscal year 2026 pursuant to section 251a of the balanced budget and emergency deficit control act as amended|2025-05-30",
-      "attacks": [],
+      "attacks": [
+        "poor",
+        "public_service",
+        "future"
+      ],
       "source_meta": {
-        "headline": null,
-        "published_on": null,
+        "headline": "Sequestration Order for Fiscal Year 2026 Pursuant to Section 251A of the Balanced Budget and Emergency Deficit Control Act, As Amended",
+        "published_on": "2025-05-30",
         "byline": null,
-        "outlet": null,
-        "accessed_on": null,
+        "outlet": "The White House",
+        "accessed_on": "2026-08-27T01:52:47Z",
         "snapshot_url": null,
         "durable_keys": {}
       },
       "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
-      "_origin_index": 1132
+      "_origin_index": 1074
+    },
+    {
+      "source_key": "whitehouse",
+      "date": "2025-05-30",
+      "occurred_on": "2025-05-30",
+      "reported_on": "2025-05-30",
+      "dated_by": "occurred",
+      "category": "Executive Actions & Orders",
+      "title": "White House issues Permitting Technology Action Plan",
+      "url": "https://www.whitehouse.gov/releases/2025/05/trump-administration-launches-permitting-technology-action-plan/",
+      "summary": "The Council on Environmental Quality, in consultation with the National Energy Dominance Council and permitting agencies, issued a Permitting Technology Action Plan to modernize federal environmental review and permitting processes for infrastructure projects. The plan establishes minimum functional requirements, data standards, implementation timelines, and governance structures. It implements a presidential memorandum issued April 15, 2025, and follows establishment of the Permitting Innovation Center.",
+      "why_relevant": "The action accelerates federal permitting timelines by replacing manual processes with technology systems, potentially reducing environmental review periods and administrative oversight of infrastructure projects.",
+      "jurisdiction": "federal",
+      "federal_nexus": "",
+      "confidence": "high",
+      "basis": "Council on Environmental Quality (CEQ), in consultation with the National Energy Dominance Council and relevant permitting agencies, issued a Permitting Technology Action Plan to modernize Federal environmental review and permitting processes.",
+      "actor": "The White House",
+      "action": "published a release titled \"Trump Administration Launches Permitting Technology Action Plan\"",
+      "act_key": "white house|published a release titled trump administration launches permitting technology action plan|2025-05-30",
+      "attacks": [],
+      "source_meta": {
+        "headline": "Trump Administration Launches Permitting Technology Action Plan",
+        "published_on": "2025-05-30",
+        "byline": null,
+        "outlet": "The White House",
+        "accessed_on": "2026-08-27T02:38:55Z",
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
+      "_origin_index": 1306
     },
     {
       "source_key": "guardian",
@@ -10884,11 +10871,11 @@
       "action": "allowed termination of immigration paroles",
       "act_key": "supreme court|allowed termination of immigration paroles|2025-05-30",
       "attacks": [
-        "43",
-        "45",
-        "48",
-        "2",
-        "4"
+        "rule_of_law",
+        "birthright_citizenship",
+        "peaceful_transfer",
+        "women",
+        "immigrants_refugees"
       ],
       "source_meta": {
         "headline": "State department ramps up Trump anti-immigration agenda with new ‘remigration’ office",
@@ -11382,9 +11369,9 @@
       "action": "arrested average of 660 people daily",
       "act_key": "ice|arrested average of 660 people daily|2025-05-30",
       "attacks": [
-        "43",
-        "4",
-        "21"
+        "rule_of_law",
+        "immigrants_refugees",
+        "congress"
       ],
       "source_meta": {
         "headline": null,
@@ -11417,9 +11404,9 @@
       "action": "raided restaurant, deployed flash-bang grenades",
       "act_key": "immigration and customs enforcement|raided restaurant deployed flash bang grenades|2025-05-30",
       "attacks": [
-        "4",
-        "6",
-        "12"
+        "immigrants_refugees",
+        "workers",
+        "science"
       ],
       "source_meta": {
         "headline": null,
@@ -11452,10 +11439,10 @@
       "action": "deported non-criminals as criminals",
       "act_key": "trump administration|deported non criminals as criminals|2025-05-30",
       "attacks": [
-        "43",
-        "4",
-        "11",
-        "34"
+        "rule_of_law",
+        "immigrants_refugees",
+        "truth",
+        "reality"
       ],
       "source_meta": {
         "headline": null,
@@ -11488,9 +11475,9 @@
       "action": "searched license plate cameras for abortion suspect",
       "act_key": "texas sheriff|searched license plate cameras for abortion suspect|2025-05-30",
       "attacks": [
-        "2",
-        "30",
-        "49"
+        "women",
+        "information",
+        "union"
       ],
       "source_meta": {
         "headline": null,
@@ -11621,11 +11608,11 @@
       "action": "created master database of americans",
       "act_key": "doge|created master database of americans|2025-05-30",
       "attacks": [
-        "30",
-        "32",
-        "34",
-        "7",
-        "22"
+        "information",
+        "internet",
+        "reality",
+        "poor",
+        "civil_service"
       ],
       "source_meta": {
         "headline": null,
@@ -11658,10 +11645,10 @@
       "action": "deployed palantir across government",
       "act_key": "elon musk|deployed palantir across government|2025-05-30",
       "attacks": [
-        "30",
-        "32",
-        "34",
-        "7"
+        "information",
+        "internet",
+        "reality",
+        "poor"
       ],
       "source_meta": {
         "headline": null,
@@ -11674,99 +11661,6 @@
       },
       "_origin_file": "hcr_events_2025-04-05_2025-07-25.json",
       "_origin_index": 425
-    },
-    {
-      "source_key": "whitehouse",
-      "date": "2025-05-30",
-      "occurred_on": "2025-05-30",
-      "reported_on": "2025-05-30",
-      "dated_by": "occurred",
-      "category": "Information & Media Control",
-      "title": "MADE IN THE USA: President Trump’s Vision is Revitalizing American Industry",
-      "url": "https://www.whitehouse.gov/releases/2025/05/made-in-the-usa-president-trumps-vision-is-revitalizing-american-industry/",
-      "summary": "The White House published this release on 2025-05-30 through its releases channel.",
-      "why_relevant": "",
-      "jurisdiction": "federal",
-      "federal_nexus": "Official White House channel; documents the act of publication only.",
-      "confidence": "high",
-      "basis": "official_actor_record",
-      "actor": "The White House",
-      "action": "published a release titled \"MADE IN THE USA: President Trump’s Vision is Revitalizing American Industry\"",
-      "act_key": "white house|published a release titled made in the usa president trump s vision is revitalizing american industry|2025-05-30",
-      "attacks": [],
-      "source_meta": {
-        "headline": null,
-        "published_on": null,
-        "byline": null,
-        "outlet": null,
-        "accessed_on": null,
-        "snapshot_url": null,
-        "durable_keys": {}
-      },
-      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
-      "_origin_index": 1378
-    },
-    {
-      "source_key": "whitehouse",
-      "date": "2025-05-30",
-      "occurred_on": "2025-05-30",
-      "reported_on": "2025-05-30",
-      "dated_by": "occurred",
-      "category": "Information & Media Control",
-      "title": "Trump Administration Launches Permitting Technology Action Plan",
-      "url": "https://www.whitehouse.gov/releases/2025/05/trump-administration-launches-permitting-technology-action-plan/",
-      "summary": "The White House published this release on 2025-05-30 through its releases channel.",
-      "why_relevant": "",
-      "jurisdiction": "federal",
-      "federal_nexus": "Official White House channel; documents the act of publication only.",
-      "confidence": "high",
-      "basis": "official_actor_record",
-      "actor": "The White House",
-      "action": "published a release titled \"Trump Administration Launches Permitting Technology Action Plan\"",
-      "act_key": "white house|published a release titled trump administration launches permitting technology action plan|2025-05-30",
-      "attacks": [],
-      "source_meta": {
-        "headline": null,
-        "published_on": null,
-        "byline": null,
-        "outlet": null,
-        "accessed_on": null,
-        "snapshot_url": null,
-        "durable_keys": {}
-      },
-      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
-      "_origin_index": 1377
-    },
-    {
-      "source_key": "whitehouse",
-      "date": "2025-05-30",
-      "occurred_on": "2025-05-30",
-      "reported_on": "2025-05-30",
-      "dated_by": "occurred",
-      "category": "Information & Media Control",
-      "title": "“WOW”: Inflation Eases, Incomes Rise, Trade Deficit Plummets",
-      "url": "https://www.whitehouse.gov/releases/2025/05/wow-inflation-eases-incomes-rise-trade-deficit-plummets/",
-      "summary": "The White House published this release on 2025-05-30 through its releases channel.",
-      "why_relevant": "",
-      "jurisdiction": "federal",
-      "federal_nexus": "Official White House channel; documents the act of publication only.",
-      "confidence": "high",
-      "basis": "official_actor_record",
-      "actor": "The White House",
-      "action": "published a release titled \"“WOW”: Inflation Eases, Incomes Rise, Trade Deficit Plummets\"",
-      "act_key": "white house|published a release titled wow inflation eases incomes rise trade deficit plummets|2025-05-30",
-      "attacks": [],
-      "source_meta": {
-        "headline": null,
-        "published_on": null,
-        "byline": null,
-        "outlet": null,
-        "accessed_on": null,
-        "snapshot_url": null,
-        "durable_keys": {}
-      },
-      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
-      "_origin_index": 1376
     },
     {
       "source_key": "federalregister",
@@ -12257,10 +12151,10 @@
       "action": "secured government contracts",
       "act_key": "elon musk|secured government contracts|2025-05-30",
       "attacks": [
-        "44",
-        "43",
-        "28",
-        "51"
+        "emoluments",
+        "rule_of_law",
+        "public_service",
+        "economy"
       ],
       "source_meta": {
         "headline": null,
@@ -12293,9 +12187,9 @@
       "action": "changed tariff policies 50 times",
       "act_key": "trump|changed tariff policies 50 times|2025-05-30",
       "attacks": [
-        "43",
-        "51",
-        "54"
+        "rule_of_law",
+        "economy",
+        "future"
       ],
       "source_meta": {
         "headline": null,
@@ -12339,6 +12233,68 @@
       },
       "_origin_file": "noah_events_2025-04-05_2025-07-25.json",
       "_origin_index": 78
+    },
+    {
+      "source_key": "whitehouse",
+      "date": "2025-05-30",
+      "occurred_on": "2025-05-30",
+      "reported_on": "2025-05-30",
+      "dated_by": "occurred",
+      "category": "Economic & Regulatory Power",
+      "title": "White House issues fact sheet claiming economic gains",
+      "url": "https://www.whitehouse.gov/releases/2025/05/wow-inflation-eases-incomes-rise-trade-deficit-plummets/",
+      "summary": "The White House published a fact sheet titled \"WOW\": Inflation Eases, Incomes Rise, Trade Deficit Plummets\" on May 30, 2025. The document cites economic indicators reported by CNBC: inflation at 2.1% in April (below expectations), personal income up 0.8% in April (described as \"almost triple expectations\"), and a record monthly decline in the trade deficit. The fact sheet attributes these figures to Trump administration policy, particularly tariff-related measures.",
+      "why_relevant": "The issuance of promotional economic claims by the executive is a routine assertion of administrative messaging power; the substantive accuracy of the underlying economic data is a separate question from the act of publication itself.",
+      "jurisdiction": "federal",
+      "federal_nexus": "",
+      "confidence": "high",
+      "basis": "Inflation rate slipped to 2.1% in April, lower than expected, Fed's preferred gauge shows,\" and \"Personal income increased 0.8% in April — 'almost TRIPLE the expectations.",
+      "actor": "The White House",
+      "action": "published a release titled \"“WOW”: Inflation Eases, Incomes Rise, Trade Deficit Plummets\"",
+      "act_key": "white house|published a release titled wow inflation eases incomes rise trade deficit plummets|2025-05-30",
+      "attacks": [],
+      "source_meta": {
+        "headline": "“WOW”: Inflation Eases, Incomes Rise, Trade Deficit Plummets",
+        "published_on": "2025-05-30",
+        "byline": null,
+        "outlet": "The White House",
+        "accessed_on": "2026-08-27T02:38:45Z",
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
+      "_origin_index": 1305
+    },
+    {
+      "source_key": "whitehouse",
+      "date": "2025-05-30",
+      "occurred_on": "",
+      "reported_on": "2025-05-30",
+      "dated_by": "reported",
+      "category": "Economic & Regulatory Power",
+      "title": "White House issues fact sheet promoting corporate investment announcements",
+      "url": "https://www.whitehouse.gov/releases/2025/05/made-in-the-usa-president-trumps-vision-is-revitalizing-american-industry/",
+      "summary": "The White House published a fact sheet titled \"Made in the USA: President Trump's Vision is Revitalizing American Industry\" listing corporate investment announcements across automotive, technology, pharmaceuticals, manufacturing, and energy sectors. The document claims these investments total trillions of dollars and attributes them to Trump's trade policies. It does not announce a new executive action or policy instrument, but rather aggregates and promotes previously announced corporate commitments.",
+      "why_relevant": "The document frames corporate investment decisions as evidence of executive economic policy success, using aggregated private-sector announcements to construct a narrative of presidential economic achievement and market confidence.",
+      "jurisdiction": "federal",
+      "federal_nexus": "",
+      "confidence": "high",
+      "basis": "President Donald J. Trump heads to Pennsylvania today, where he'll champion the partnership he brokered between U.S. Steel and Nippon Steel — a $14 billion investment that will create at least 70,000 jobs and ensure steel is made in America for decades to come.",
+      "actor": "The White House",
+      "action": "published a release titled \"MADE IN THE USA: President Trump’s Vision is Revitalizing American Industry\"",
+      "act_key": "white house|published a release titled made in the usa president trump s vision is revitalizing american industry|2025-05-30",
+      "attacks": [],
+      "source_meta": {
+        "headline": "MADE IN THE USA: President Trump’s Vision is Revitalizing American Industry",
+        "published_on": "2025-05-30",
+        "byline": null,
+        "outlet": "The White House",
+        "accessed_on": "2026-08-27T02:39:05Z",
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
+      "_origin_index": 1307
     },
     {
       "source_key": "guardian",
@@ -12394,10 +12350,10 @@
       "action": "ended investigations into his companies",
       "act_key": "elon musk|ended investigations into his companies|2025-05-30",
       "attacks": [
-        "44",
-        "43",
-        "23",
-        "19"
+        "emoluments",
+        "rule_of_law",
+        "justice_dept",
+        "presidency"
       ],
       "source_meta": {
         "headline": null,
@@ -12430,9 +12386,9 @@
       "action": "announced musk's departure from doge",
       "act_key": "trump|announced musk s departure from doge|2025-05-30",
       "attacks": [
-        "19",
-        "28",
-        "42"
+        "presidency",
+        "public_service",
+        "separation_of_powers"
       ],
       "source_meta": {
         "headline": null,
@@ -12500,9 +12456,9 @@
       "action": "gave advance warning of drug tests",
       "act_key": "federal government|gave advance warning of drug tests|2025-05-30",
       "attacks": [
-        "43",
-        "28",
-        "19"
+        "rule_of_law",
+        "public_service",
+        "presidency"
       ],
       "source_meta": {
         "headline": null,
@@ -12659,9 +12615,9 @@
       "action": "used tariffs to promote starlink",
       "act_key": "elon musk|used tariffs to promote starlink|2025-05-30",
       "attacks": [
-        "44",
-        "37",
-        "40"
+        "emoluments",
+        "trade",
+        "idea_of_america"
       ],
       "source_meta": {
         "headline": null,

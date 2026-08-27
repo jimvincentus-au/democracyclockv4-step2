@@ -5,33 +5,33 @@
   },
   "week_number": 68,
   "sources": [
-    "congress",
-    "hcr",
-    "whitehouse",
-    "justsecurity",
     "50501",
-    "justice",
-    "guardian",
-    "meidas",
-    "democracydocket",
-    "federalregister",
-    "outloud",
-    "defense",
-    "noah",
     "popinfo",
     "zeteo",
-    "scotusorders"
+    "meidas",
+    "justsecurity",
+    "federalregister",
+    "guardian",
+    "justice",
+    "whitehouse",
+    "congress",
+    "defense",
+    "noah",
+    "scotusorders",
+    "hcr",
+    "outloud",
+    "democracydocket"
   ],
   "counts": {
     "total": 421,
     "by_date": {
       "2026-05-02": 28,
       "2026-05-03": 53,
-      "2026-05-04": 73,
+      "2026-05-04": 74,
       "2026-05-05": 42,
       "2026-05-06": 46,
-      "2026-05-07": 112,
-      "2026-05-08": 67
+      "2026-05-07": 113,
+      "2026-05-08": 65
     },
     "by_source": {
       "democracydocket": 11,
@@ -52,14 +52,14 @@
       "defense": 5
     },
     "by_category": {
-      "Executive Actions & Orders": 32,
+      "Executive Actions & Orders": 31,
       "Legislative & Oversight Activity": 26,
-      "Judicial Developments": 65,
-      "Law Enforcement & Surveillance": 44,
+      "Judicial Developments": 66,
+      "Law Enforcement & Surveillance": 45,
       "Elections & Representation": 39,
       "Civil Society & Protest": 9,
-      "Information & Media Control": 43,
-      "Economic & Regulatory Power": 70,
+      "Information & Media Control": 39,
+      "Economic & Regulatory Power": 73,
       "Appointments & Patronage": 16,
       "Transparency & Records": 19,
       "International Relations": 32,
@@ -3049,29 +3049,60 @@
       "reported_on": "2026-05-04",
       "dated_by": "occurred",
       "category": "Executive Actions & Orders",
-      "title": "Jewish American Heritage Month, 2026",
+      "title": "President Trump issued proclamation designating May 2026 as Jewish American Heritage Month",
       "url": "https://www.whitehouse.gov/presidential-actions/2026/05/jewish-american-heritage-month-2026/",
-      "summary": "The White House published this proclamation on 2026-05-04 through its proclamations channel.",
-      "why_relevant": "",
+      "summary": "President Trump signed a proclamation on May 4, 2026, designating May 2026 as Jewish American Heritage Month. The proclamation honors Jewish American contributions to the nation, references President George Washington's 1790 letter to the Hebrew Congregation in Newport affirming religious freedom, and invokes the legacy of Haym Salomon. The proclamation states the administration is \"aggressively fighting the violence against Jewish Americans\" and working to \"end the scourge of anti-Semitism throughout our institutions, especially on college campuses.\" It calls for a national Sabbath observance from sundown May 15 to nightfall May 16 as part of the nation's 250th anniversary celebration.",
+      "why_relevant": "Heritage month proclamations are ceremonial acts that affirm the administration's recognition of a community's historical and ongoing contributions; this one carries implicit claims about the administration's stance on antisemitism and religious freedom protections.",
       "jurisdiction": "federal",
-      "federal_nexus": "Official White House channel; documents the act of publication only.",
+      "federal_nexus": "",
       "confidence": "high",
-      "basis": "official_actor_record",
+      "basis": "I, DONALD J. TRUMP, President of the United States of America, by virtue of the authority vested in me by the Constitution and the laws of the United States, do hereby proclaim May 2026 as Jewish American Heritage Month.",
       "actor": "The White House",
       "action": "announced a proclamation titled \"Jewish American Heritage Month, 2026\"",
       "act_key": "white house|announced a proclamation titled jewish american heritage month 2026|2026-05-04",
       "attacks": [],
       "source_meta": {
-        "headline": null,
-        "published_on": null,
+        "headline": "Jewish American Heritage Month, 2026",
+        "published_on": "2026-05-04",
         "byline": null,
-        "outlet": null,
-        "accessed_on": null,
+        "outlet": "The White House",
+        "accessed_on": "2026-08-27T01:19:14Z",
         "snapshot_url": null,
         "durable_keys": {}
       },
       "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
-      "_origin_index": 952
+      "_origin_index": 896
+    },
+    {
+      "source_key": "whitehouse",
+      "date": "2026-05-04",
+      "occurred_on": "2026-05-04",
+      "reported_on": "2026-05-04",
+      "dated_by": "occurred",
+      "category": "Executive Actions & Orders",
+      "title": "White House releases 2026 National Drug Control Strategy",
+      "url": "https://www.whitehouse.gov/releases/2026/05/2026-national-drug-control-strategy-released/",
+      "summary": "The Office of National Drug Control Policy released the 2026 National Drug Control Strategy on May 4, 2026. The document is described as a \"strategic roadmap\" for the administration to \"dismantle the drug supply and defeat the scourge of illicit drugs.\" ONDCP coordinates across 19 federal agencies and oversees a $44 billion budget for drug policy implementation, including the High Intensity Drug Trafficking Areas Program and Drug-Free Communities Program.",
+      "why_relevant": "The strategy document represents the administration's official drug policy framework and allocation of $44 billion across federal agencies, establishing priorities that shape law enforcement, public health, and community intervention efforts.",
+      "jurisdiction": "federal",
+      "federal_nexus": "",
+      "confidence": "high",
+      "basis": "The Office of National Drug Control Policy today released the 2026 National Drug Control Strategy.",
+      "actor": "The White House",
+      "action": "published a release titled \"2026 National Drug Control Strategy Released\"",
+      "act_key": "white house|published a release titled 2026 national drug control strategy released|2026-05-04",
+      "attacks": [],
+      "source_meta": {
+        "headline": "2026 National Drug Control Strategy Released",
+        "published_on": "2026-05-04",
+        "byline": null,
+        "outlet": "The White House",
+        "accessed_on": "2026-08-27T02:46:46Z",
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
+      "_origin_index": 1348
     },
     {
       "source_key": "50501",
@@ -3376,29 +3407,63 @@
       "reported_on": "2026-05-04",
       "dated_by": "occurred",
       "category": "Judicial Developments",
-      "title": "Justice Department Files Complaint Against Minnesota Over Its Attempt to Override Federal Law",
-      "url": "https://www.justice.gov/opa/pr/justice-department-files-complaint-against-minnesota-over-its-attempt-override-federal-law",
-      "summary": "The Department of Justice announced this on 2026-05-04 through Energy and Natural Resources Division. The recorded stage is a complaint filed. The allegations are unadjudicated; this documents the announcement, not the truth of any allegation. The department's own account of it reads: \"The Justice Department filed a complaint against the State of Minnesota over its attempt to regulate global greenhouse gas emissions, which are subject to exclusive federal authority, and override the policy choices of the United States and other states to make energy affordable and reliable. The filing advances President Donald J.\"",
-      "why_relevant": "",
-      "jurisdiction": "federal",
-      "federal_nexus": "Official DOJ channel; documents the act of announcement only.",
+      "title": "DOJ files statement of interest in California fire insurance antitrust case",
+      "url": "https://www.justice.gov/opa/pr/justice-department-files-statement-interest-california-fire-insurance-case",
+      "summary": "The Department of Justice announced that its Antitrust Division filed a Statement of Interest in Ferrier v. State Farm Fire and Casualty Company, a case pending in Los Angeles County Superior Court brought by 60 homeowners who lost homes in January 2025 wildfires. The homeowners allege 16 insurance companies jointly conspired to cancel their policies, forcing them into a state-run program with less coverage and higher costs. The DOJ argued that the Noerr-Pennington doctrine should not shield the alleged group boycott from antitrust liability and that the McCarran-Ferguson Act does not necessarily bar such claims.",
+      "why_relevant": "The DOJ's intervention in a state antitrust case signals the department's enforcement posture on insurance market conduct and the scope of federal antitrust exemptions, affecting how legal doctrines are applied to protect consumers in disaster recovery.",
+      "jurisdiction": "state",
+      "federal_nexus": "The DOJ Antitrust Division filed a Statement of Interest in a state court case to influence the interpretation and application of federal antitrust law doctrines.",
       "confidence": "high",
-      "basis": "official_actor_record",
+      "basis": "The Department of Justice announced that it has filed a Statement of Interest in the case of Ferrier v. State Farm Fire and Casualty Company, which is currently pending in the state Superior Court of Los Angeles County, California.",
       "actor": "The Department of Justice",
-      "action": "announced \"Justice Department Files Complaint Against Minnesota Over Its Attempt to Override Federal Law\"",
-      "act_key": "department|announced justice department files complaint against minnesota over its attempt to override federal law|2026-05-04",
+      "action": "announced \"Justice Department Files Statement of Interest in California Fire Insurance Case\"",
+      "act_key": "department|announced justice department files statement of interest in california fire insurance case|2026-05-04",
       "attacks": [],
       "source_meta": {
-        "headline": null,
-        "published_on": null,
+        "headline": "Justice Department Files Statement of Interest in California Fire Insurance Case",
+        "published_on": "2026-05-04",
         "byline": null,
-        "outlet": null,
-        "accessed_on": null,
+        "outlet": "justice.gov",
+        "accessed_on": "2026-08-27T05:34:00Z",
         "snapshot_url": null,
         "durable_keys": {}
       },
       "_origin_file": "justice_events_2025-01-20_2026-08-14.json",
       "_origin_index": 398
+    },
+    {
+      "source_key": "justice",
+      "date": "2026-05-04",
+      "occurred_on": "2026-05-04",
+      "reported_on": "2026-05-04",
+      "dated_by": "occurred",
+      "category": "Judicial Developments",
+      "title": "Justice Department filed complaint against Minnesota over state climate regulation",
+      "url": "https://www.justice.gov/opa/pr/justice-department-files-complaint-against-minnesota-over-its-attempt-override-federal-law",
+      "summary": "The Department of Justice announced filing a complaint in U.S. District Court for the District of Minnesota, seeking to block enforcement of Minnesota's state court lawsuit against energy companies for global greenhouse gas emissions. The DOJ alleged that Minnesota's regulation of global emissions exceeds state authority and is preempted by federal law and the Clean Air Act. The filing advances an executive order directing DOJ to protect American energy from state overreach. The complaint names the state as defendant and seeks to enjoin the state lawsuit.",
+      "why_relevant": "The filing represents a federal challenge to state environmental authority and reflects a shift in DOJ enforcement priorities toward limiting state climate regulation, raising questions about the allocation of environmental power between federal and state governments.",
+      "jurisdiction": "federal",
+      "federal_nexus": "",
+      "confidence": "high",
+      "basis": "The Justice Department today filed a complaint against the State of Minnesota over its attempt to regulate global greenhouse gas emissions, which are subject to exclusive federal authority.",
+      "actor": "The Department of Justice",
+      "action": "announced \"Justice Department Files Complaint Against Minnesota Over Its Attempt to Override Federal Law\"",
+      "act_key": "department|announced justice department files complaint against minnesota over its attempt to override federal law|2026-05-04",
+      "attacks": [
+        "environment",
+        "separation_of_powers"
+      ],
+      "source_meta": {
+        "headline": "Justice Department Files Complaint Against Minnesota Over Its Attempt to Override Federal Law",
+        "published_on": "2026-05-04",
+        "byline": null,
+        "outlet": "justice.gov",
+        "accessed_on": "2026-08-27T05:33:50Z",
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "justice_events_2025-01-20_2026-08-14.json",
+      "_origin_index": 397
     },
     {
       "source_key": "justsecurity",
@@ -4265,99 +4330,6 @@
       "_origin_index": 109
     },
     {
-      "source_key": "whitehouse",
-      "date": "2026-05-04",
-      "occurred_on": "2026-05-04",
-      "reported_on": "2026-05-04",
-      "dated_by": "occurred",
-      "category": "Information & Media Control",
-      "title": "2026 National Drug Control Strategy Released",
-      "url": "https://www.whitehouse.gov/releases/2026/05/2026-national-drug-control-strategy-released/",
-      "summary": "The White House published this release on 2026-05-04 through its releases channel.",
-      "why_relevant": "",
-      "jurisdiction": "federal",
-      "federal_nexus": "Official White House channel; documents the act of publication only.",
-      "confidence": "high",
-      "basis": "official_actor_record",
-      "actor": "The White House",
-      "action": "published a release titled \"2026 National Drug Control Strategy Released\"",
-      "act_key": "white house|published a release titled 2026 national drug control strategy released|2026-05-04",
-      "attacks": [],
-      "source_meta": {
-        "headline": null,
-        "published_on": null,
-        "byline": null,
-        "outlet": null,
-        "accessed_on": null,
-        "snapshot_url": null,
-        "durable_keys": {}
-      },
-      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
-      "_origin_index": 1420
-    },
-    {
-      "source_key": "whitehouse",
-      "date": "2026-05-04",
-      "occurred_on": "2026-05-04",
-      "reported_on": "2026-05-04",
-      "dated_by": "occurred",
-      "category": "Information & Media Control",
-      "title": "Fact Sheet: 2026 National Drug Control Strategy Fact Sheet",
-      "url": "https://www.whitehouse.gov/fact-sheets/2026/05/2026-national-drug-control-strategy-fact-sheet/",
-      "summary": "The White House published this fact sheet on 2026-05-04 through its fact-sheets channel.",
-      "why_relevant": "",
-      "jurisdiction": "federal",
-      "federal_nexus": "Official White House channel; documents the act of publication only.",
-      "confidence": "high",
-      "basis": "official_actor_record",
-      "actor": "The White House",
-      "action": "issued a fact sheet titled \"Fact Sheet: 2026 National Drug Control Strategy Fact Sheet\"",
-      "act_key": "white house|issued a fact sheet titled fact sheet 2026 national drug control strategy fact sheet|2026-05-04",
-      "attacks": [],
-      "source_meta": {
-        "headline": null,
-        "published_on": null,
-        "byline": null,
-        "outlet": null,
-        "accessed_on": null,
-        "snapshot_url": null,
-        "durable_keys": {}
-      },
-      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
-      "_origin_index": 1421
-    },
-    {
-      "source_key": "whitehouse",
-      "date": "2026-05-04",
-      "occurred_on": "2026-05-04",
-      "reported_on": "2026-05-04",
-      "dated_by": "occurred",
-      "category": "Information & Media Control",
-      "title": "President Trump Celebrates Small Business Revival During National Small Business Week",
-      "url": "https://www.whitehouse.gov/releases/2026/05/president-trump-celebrates-small-business-revival-during-national-small-business-week/",
-      "summary": "The White House published this release on 2026-05-04 through its releases channel.",
-      "why_relevant": "",
-      "jurisdiction": "federal",
-      "federal_nexus": "Official White House channel; documents the act of publication only.",
-      "confidence": "high",
-      "basis": "official_actor_record",
-      "actor": "The White House",
-      "action": "published a release titled \"President Trump Celebrates Small Business Revival During National Small Business Week\"",
-      "act_key": "white house|published a release titled president trump celebrates small business revival during national small business week|2026-05-04",
-      "attacks": [],
-      "source_meta": {
-        "headline": null,
-        "published_on": null,
-        "byline": null,
-        "outlet": null,
-        "accessed_on": null,
-        "snapshot_url": null,
-        "durable_keys": {}
-      },
-      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
-      "_origin_index": 59
-    },
-    {
       "source_key": "congress",
       "date": "2026-05-04",
       "occurred_on": "2026-05-04",
@@ -4655,35 +4627,100 @@
       "_origin_index": 48
     },
     {
-      "source_key": "justice",
+      "source_key": "whitehouse",
       "date": "2026-05-04",
       "occurred_on": "2026-05-04",
       "reported_on": "2026-05-04",
       "dated_by": "occurred",
       "category": "Economic & Regulatory Power",
-      "title": "Justice Department Files Statement of Interest in California Fire Insurance Case",
-      "url": "https://www.justice.gov/opa/pr/justice-department-files-statement-interest-california-fire-insurance-case",
-      "summary": "The Department of Justice announced this on 2026-05-04 through Antitrust Division. The department's own account of it reads: \"Today, the Department of Justice announced that it has filed a Statement of Interest in the case of Ferrier v. State Farm Fire and Casualty Company , which is currently pending in the state Superior Court of Los Angeles County, California. This case was brought by 60 homeowners who lost their homes in the devastating wildfires that occurred in southern California in January 2025.\"",
-      "why_relevant": "",
+      "title": "White House issues fact sheet on 2026 National Drug Control Strategy",
+      "url": "https://www.whitehouse.gov/fact-sheets/2026/05/2026-national-drug-control-strategy-fact-sheet/",
+      "summary": "The White House published a fact sheet on May 4, 2026, describing the Trump administration's National Drug Control Strategy, released by Drug Czar Sara Carter. The strategy outlines initiatives across border interdiction, transnational criminal organization disruption, international supply-chain defense, faith-based addiction recovery, treatment accessibility, data modernization, prevention, and overdose response. The fact sheet claims the strategy builds on border enforcement and \"kinetic strikes against narcoterrorists\" and emphasizes faith-based approaches to addiction treatment.",
+      "why_relevant": "The strategy document asserts executive authority over drug policy, international operations, and domestic law enforcement coordination, and frames faith-based recovery as a centerpiece of federal addiction policy.",
       "jurisdiction": "federal",
-      "federal_nexus": "Official DOJ channel; documents the act of announcement only.",
+      "federal_nexus": "",
       "confidence": "high",
-      "basis": "official_actor_record",
-      "actor": "The Department of Justice",
-      "action": "announced \"Justice Department Files Statement of Interest in California Fire Insurance Case\"",
-      "act_key": "department|announced justice department files statement of interest in california fire insurance case|2026-05-04",
+      "basis": "Today, President Trump's Drug Czar Sara Carter released the National Drug Control Strategy. The Strategy is a road map for the United States to defeat the scourge of illicit drugs and achieve a safe and healthy America.",
+      "actor": "The White House",
+      "action": "issued a fact sheet titled \"Fact Sheet: 2026 National Drug Control Strategy Fact Sheet\"",
+      "act_key": "white house|issued a fact sheet titled fact sheet 2026 national drug control strategy fact sheet|2026-05-04",
       "attacks": [],
       "source_meta": {
-        "headline": null,
-        "published_on": null,
+        "headline": "Fact Sheet: 2026 National Drug Control Strategy Fact Sheet",
+        "published_on": "2026-05-04",
         "byline": null,
-        "outlet": null,
-        "accessed_on": null,
+        "outlet": "The White House",
+        "accessed_on": "2026-08-27T02:46:55Z",
         "snapshot_url": null,
         "durable_keys": {}
       },
-      "_origin_file": "justice_events_2025-01-20_2026-08-14.json",
-      "_origin_index": 399
+      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
+      "_origin_index": 1349
+    },
+    {
+      "source_key": "whitehouse",
+      "date": "2026-05-04",
+      "occurred_on": "2026-05-04",
+      "reported_on": "2026-05-08",
+      "dated_by": "occurred",
+      "category": "Economic & Regulatory Power",
+      "title": "White House issues jobs report fact sheet claiming April employment gains",
+      "url": "https://www.whitehouse.gov/releases/2026/05/jobs-report-trump-economy-roars-ahead-with-big-private-sector-job-gains/",
+      "summary": "The White House issued a fact sheet on May 8, 2026, presenting April 2026 employment data. The document states the U.S. economy added 115,000 jobs in April, claims this exceeded economist expectations, and attributes manufacturing job growth (12,600 factory construction jobs) to \"trillions in investments.\" The fact sheet also claims the federal workforce has been reduced by 345,000 workers and characterizes prime-age labor force participation as \"exceptionally strong.\" The release includes curated quotations from media figures and economists.",
+      "why_relevant": "The issuance of official employment data and economic framing by the executive establishes the administration's public narrative on labor market conditions and federal workforce reduction, which bear on public understanding of economic policy and the scale of government.",
+      "jurisdiction": "federal",
+      "federal_nexus": "",
+      "confidence": "high",
+      "basis": "The economy added 115,000 jobs in April — crushing economists' expectations and delivering the second straight month of strong gains.",
+      "actor": "The White House",
+      "action": "published a release titled \"JOBS REPORT: Trump Economy Roars Ahead with Big Private Sector Job Gains\"",
+      "act_key": "white house|published a release titled jobs report trump economy roars ahead with big private sector job gains|2026-05-04",
+      "attacks": [],
+      "source_meta": {
+        "headline": "JOBS REPORT: Trump Economy Roars Ahead with Big Private Sector Job Gains",
+        "published_on": "2026-05-08",
+        "byline": null,
+        "outlet": "The White House",
+        "accessed_on": "2026-08-26T22:29:38Z",
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
+      "_origin_index": 51
+    },
+    {
+      "source_key": "whitehouse",
+      "date": "2026-05-04",
+      "occurred_on": "2026-05-04",
+      "reported_on": "2026-05-04",
+      "dated_by": "occurred",
+      "category": "Economic & Regulatory Power",
+      "title": "White House issues release celebrating small business policies during National Small Business Week",
+      "url": "https://www.whitehouse.gov/releases/2026/05/president-trump-celebrates-small-business-revival-during-national-small-business-week/",
+      "summary": "The White House issued a release on May 4, 2026, marking National Small Business Week and highlighting what it characterizes as a \"revival\" of small business under the Trump Administration. The release states the administration has signed tax relief legislation, launched a deregulation strike force claiming to eliminate $110 billion in regulatory costs, delivered record SBA lending ($45 billion in 7(a) and 504 loans to 85,000+ businesses), created a manufacturing loan program, suspended BOI reporting enforcement, implemented citizenship verification for SBA loan applicants, relocated SBA offices out of sanctuary cities, and terminated the \"Joint Employer Rule.\" The release attributes increased hiring, investment, and small business optimism to these actions.",
+      "why_relevant": "The release announces regulatory rollbacks, enforcement suspensions, and policy shifts that alter the scope of federal oversight and eligibility criteria for federal lending, affecting the distribution of public capital and the administrative state's reach.",
+      "jurisdiction": "federal",
+      "federal_nexus": "",
+      "confidence": "high",
+      "basis": "The Trump Administration has moved with urgency and results to empower small businesses\" through tax relief, deregulation, SBA lending, and policy changes including \"citizenship verification for loan applicants and relocating offices out of sanctuary cities.",
+      "actor": "The White House",
+      "action": "published a release titled \"President Trump Celebrates Small Business Revival During National Small Business Week\"",
+      "act_key": "white house|published a release titled president trump celebrates small business revival during national small business week|2026-05-04",
+      "attacks": [
+        "poor",
+        "rule_of_law"
+      ],
+      "source_meta": {
+        "headline": "President Trump Celebrates Small Business Revival During National Small Business Week",
+        "published_on": "2026-05-04",
+        "byline": null,
+        "outlet": "The White House",
+        "accessed_on": "2026-08-26T22:29:49Z",
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
+      "_origin_index": 52
     },
     {
       "source_key": "meidas",
@@ -5373,29 +5410,29 @@
       "reported_on": "2026-05-05",
       "dated_by": "occurred",
       "category": "Executive Actions & Orders",
-      "title": "National Physical Fitness and Sports Month, 2026",
+      "title": "White House issued proclamation designating May 2026 as National Physical Fitness and Sports Month",
       "url": "https://www.whitehouse.gov/presidential-actions/2026/05/national-physical-fitness-and-sports-month-2026/",
-      "summary": "The White House published this proclamation on 2026-05-05 through its proclamations channel.",
-      "why_relevant": "",
+      "summary": "The White House issued a proclamation on May 5, 2026, designating May 2026 as National Physical Fitness and Sports Month. The proclamation celebrates sports and fitness as central to American identity and states the administration's commitment to promoting healthy lifestyles and athletic opportunities. It references prior executive orders on the Presidential Fitness Test and women's sports eligibility, and announces plans to host the Patriot Games in fall 2026 to mark the nation's 250th anniversary.",
+      "why_relevant": "Proclamations are ceremonial instruments with no binding legal force; this one reiterates prior executive actions on sports policy (fitness testing, women's athletics eligibility) and announces a new national sporting event, but does not itself alter law or governance.",
       "jurisdiction": "federal",
-      "federal_nexus": "Official White House channel; documents the act of publication only.",
+      "federal_nexus": "",
       "confidence": "high",
-      "basis": "official_actor_record",
+      "basis": "I, DONALD J. TRUMP, President of the United States of America, by virtue of the authority vested in me by the Constitution and the laws of the United States, do hereby proclaim May 2026 as National Physical Fitness and Sports Month.",
       "actor": "The White House",
       "action": "announced a proclamation titled \"National Physical Fitness and Sports Month, 2026\"",
       "act_key": "white house|announced a proclamation titled national physical fitness and sports month 2026|2026-05-05",
       "attacks": [],
       "source_meta": {
-        "headline": null,
-        "published_on": null,
+        "headline": "National Physical Fitness and Sports Month, 2026",
+        "published_on": "2026-05-05",
         "byline": null,
-        "outlet": null,
-        "accessed_on": null,
+        "outlet": "The White House",
+        "accessed_on": "2026-08-27T01:19:04Z",
         "snapshot_url": null,
         "durable_keys": {}
       },
       "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
-      "_origin_index": 951
+      "_origin_index": 895
     },
     {
       "source_key": "50501",
@@ -5576,29 +5613,29 @@
       "reported_on": "2026-05-05",
       "dated_by": "occurred",
       "category": "Judicial Developments",
-      "title": "Justice Department Sues the City of Denver for Unconstitutional Weapons Bans",
+      "title": "Justice Department sued Denver over municipal weapons ordinance",
       "url": "https://www.justice.gov/opa/pr/justice-department-sues-city-denver-unconstitutional-weapons-bans",
-      "summary": "The Department of Justice announced this on 2026-05-05 through Office of the Attorney General. The recorded stage is a complaint filed. The allegations are unadjudicated; this documents the announcement, not the truth of any allegation. The department's own account of it reads: \"Today, the Justice Department filed suit against the City of Denver, Colorado alleging that the City unconstitutionally bans certain constitutionally protected semi-automatic rifles. These laws unconstitutionally infringe on the Second Amendment rights of law-abiding citizens to keep and bear arms in common use for lawful purposes.\"",
-      "why_relevant": "",
+      "summary": "The Department of Justice, through the Civil Rights Division, filed suit against the City of Denver alleging that Denver's ordinance banning certain semi-automatic rifles, including AR-15-style weapons, violates the Second Amendment. The complaint asserts that the banned rifles are in common use and that the ordinance unconstitutionally infringes on the rights of law-abiding citizens. Acting Attorney General Todd Blanche and Assistant Attorney General Harmeet K. Dhillon characterized the action as defending constitutional liberties.",
+      "why_relevant": "The DOJ's creation of a dedicated Second Amendment Section within the Civil Rights Division and its litigation posture represent a significant shift in how the federal government prioritizes and enforces constitutional claims, signaling a new institutional direction in civil rights enforcement.",
       "jurisdiction": "federal",
-      "federal_nexus": "Official DOJ channel; documents the act of announcement only.",
+      "federal_nexus": "",
       "confidence": "high",
-      "basis": "official_actor_record",
+      "basis": "Today, the Justice Department filed suit against the City of Denver, Colorado alleging that the City unconstitutionally bans certain constitutionally protected semi-automatic rifles.",
       "actor": "The Department of Justice",
       "action": "announced \"Justice Department Sues the City of Denver for Unconstitutional Weapons Bans\"",
       "act_key": "department|announced justice department sues the city of denver for unconstitutional weapons bans|2026-05-05",
       "attacks": [],
       "source_meta": {
-        "headline": null,
-        "published_on": null,
+        "headline": "Justice Department Sues the City of Denver for Unconstitutional Weapons Bans",
+        "published_on": "2026-05-05",
         "byline": null,
-        "outlet": null,
-        "accessed_on": null,
+        "outlet": "justice.gov",
+        "accessed_on": "2026-08-27T05:34:12Z",
         "snapshot_url": null,
         "durable_keys": {}
       },
       "_origin_file": "justice_events_2025-01-20_2026-08-14.json",
-      "_origin_index": 400
+      "_origin_index": 399
     },
     {
       "source_key": "justsecurity",
@@ -6648,8 +6685,7 @@
       "action": "threatened military escalation",
       "act_key": "trump|threatened military escalation|2026-05-06",
       "attacks": [
-        "peace",
-        "38"
+        "peace"
       ],
       "source_meta": {
         "headline": null,
@@ -6682,9 +6718,9 @@
       "action": "requested record military spending",
       "act_key": "trump administration|requested record military spending|2026-05-06",
       "attacks": [
-        "38",
-        "42",
-        "54"
+        "peace",
+        "separation_of_powers",
+        "future"
       ],
       "source_meta": {
         "headline": "The real cost of the Iran War: $72 billion for the first 60 days",
@@ -6751,8 +6787,8 @@
       "action": "conducted transcribed testimony hearing",
       "act_key": "house oversight and reform committee|conducted transcribed testimony hearing|2026-05-06",
       "attacks": [
-        "21",
-        "30"
+        "congress",
+        "information"
       ],
       "source_meta": {
         "headline": "Howard Lutnick answers questions from US House over Jeffrey Epstein ties",
@@ -6821,7 +6857,7 @@
       "act_key": "howard lutnick|testified before congress|2026-05-06",
       "attacks": [
         "decency",
-        "21"
+        "congress"
       ],
       "source_meta": {
         "headline": null,
@@ -6952,8 +6988,7 @@
       "act_key": "todd blanche|requested doj intervention|2026-05-06",
       "attacks": [
         "rule_of_law",
-        "23",
-        "43"
+        "justice_dept"
       ],
       "source_meta": {
         "headline": null,
@@ -6974,60 +7009,29 @@
       "reported_on": "2026-05-06",
       "dated_by": "occurred",
       "category": "Judicial Developments",
-      "title": "Justice Department Notifies Fairfax County, Virginia Commonwealth’s Attorney of Investigation into His Plea Bargaining, Charging Decisions, and Sentencing Policy",
-      "url": "https://www.justice.gov/opa/pr/justice-department-notifies-fairfax-county-virginia-commonwealths-attorney-investigation-his",
-      "summary": "The Department of Justice announced this on 2026-05-06 through Civil Rights Division. The recorded stage is a sentence imposed. The department's own account of it reads: \"Today, the Justice Department notified the Fairfax County, Virginia Commonwealth’s Attorney Steve Descano of the initiation of a federal investigation into the Commonwealth’s Attorney Plea Bargaining, Charging Decisions, and Sentencing Policy.\"",
-      "why_relevant": "",
-      "jurisdiction": "federal",
-      "federal_nexus": "Official DOJ channel; documents the act of announcement only.",
-      "confidence": "high",
-      "basis": "official_actor_record",
-      "actor": "The Department of Justice",
-      "action": "announced \"Justice Department Notifies Fairfax County, Virginia Commonwealth’s Attorney of Investigation into His Plea Bargaining, Charging Decisions, and Sentencing Policy\"",
-      "act_key": "department|announced justice department notifies fairfax county virginia commonwealth s attorney of investigation into his plea bargaining charging decisions and sentencing policy|2026-05-06",
-      "attacks": [],
-      "source_meta": {
-        "headline": null,
-        "published_on": null,
-        "byline": null,
-        "outlet": null,
-        "accessed_on": null,
-        "snapshot_url": null,
-        "durable_keys": {}
-      },
-      "_origin_file": "justice_events_2025-01-20_2026-08-14.json",
-      "_origin_index": 402
-    },
-    {
-      "source_key": "justice",
-      "date": "2026-05-06",
-      "occurred_on": "2026-05-06",
-      "reported_on": "2026-05-06",
-      "dated_by": "occurred",
-      "category": "Judicial Developments",
-      "title": "Justice Department Sues Colorado for Unconstitutional Weapons Ban of Standard-Capacity Firearms Magazines",
+      "title": "Justice Department sued Colorado over firearms magazine restrictions",
       "url": "https://www.justice.gov/opa/pr/justice-department-sues-state-colorado-unconstitutional-weapons-ban",
-      "summary": "The Department of Justice announced this on 2026-05-06 through Civil Rights Division. The recorded stage is a complaint filed. The allegations are unadjudicated; this documents the announcement, not the truth of any allegation. The department's own account of it reads: \"Today, the Justice Department filed suit against the State of Colorado alleging that the State unconstitutionally bans certain constitutionally protected standard capacity firearm magazines. This law unconstitutionally infringes on the Second Amendment rights of law-abiding citizens to keep and bear arms in common use for lawful purposes.\"",
-      "why_relevant": "",
+      "summary": "The Department of Justice, through its Civil Rights Division, filed suit against Colorado alleging that a state statute banning certain \"large-capacity magazines\" violates the Second Amendment. The complaint contends that the banned magazines are standard equipment on popular firearms including AR-15-style rifles and are owned by hundreds of millions of Americans. The department characterized the law as \"political virtue signaling\" infringing on constitutional rights to keep and bear arms in common use.",
+      "why_relevant": "The announcement reflects a shift in DOJ enforcement posture toward Second Amendment claims and represents federal litigation challenging state gun-regulation authority, a matter of constitutional and federalism significance.",
       "jurisdiction": "federal",
-      "federal_nexus": "Official DOJ channel; documents the act of announcement only.",
+      "federal_nexus": "",
       "confidence": "high",
-      "basis": "official_actor_record",
+      "basis": "Today, the Justice Department filed suit against the State of Colorado alleging that the State unconstitutionally bans certain constitutionally protected standard capacity firearm magazines.",
       "actor": "The Department of Justice",
       "action": "announced \"Justice Department Sues Colorado for Unconstitutional Weapons Ban of Standard-Capacity Firearms Magazines\"",
       "act_key": "department|announced justice department sues colorado for unconstitutional weapons ban of standard capacity firearms magazines|2026-05-06",
       "attacks": [],
       "source_meta": {
-        "headline": null,
-        "published_on": null,
+        "headline": "Justice Department Sues Colorado for Unconstitutional Weapons Ban of Standard-Capacity Firearms Magazines",
+        "published_on": "2026-05-06",
         "byline": null,
-        "outlet": null,
-        "accessed_on": null,
+        "outlet": "justice.gov",
+        "accessed_on": "2026-08-27T05:34:21Z",
         "snapshot_url": null,
         "durable_keys": {}
       },
       "_origin_file": "justice_events_2025-01-20_2026-08-14.json",
-      "_origin_index": 401
+      "_origin_index": 400
     },
     {
       "source_key": "justsecurity",
@@ -7280,9 +7284,7 @@
       "act_key": "fbi|launched leak investigation|2026-05-06",
       "attacks": [
         "press",
-        "whistleblowers",
-        "29",
-        "31"
+        "whistleblowers"
       ],
       "source_meta": {
         "headline": null,
@@ -7316,7 +7318,7 @@
       "act_key": "fbi|raided state legislator s offices|2026-05-06",
       "attacks": [
         "minorities",
-        "23"
+        "justice_dept"
       ],
       "source_meta": {
         "headline": null,
@@ -7384,8 +7386,7 @@
       "act_key": "kash patel|filed defamation lawsuit|2026-05-06",
       "attacks": [
         "press",
-        "29",
-        "31"
+        "whistleblowers"
       ],
       "source_meta": {
         "headline": null,
@@ -7398,6 +7399,40 @@
       },
       "_origin_file": "hcr_events_2026-03-07_2026-05-15.json",
       "_origin_index": 88
+    },
+    {
+      "source_key": "justice",
+      "date": "2026-05-06",
+      "occurred_on": "2026-05-06",
+      "reported_on": "2026-05-06",
+      "dated_by": "occurred",
+      "category": "Law Enforcement & Surveillance",
+      "title": "Justice Department announces investigation into Fairfax County Commonwealth's Attorney's prosecutorial decisions",
+      "url": "https://www.justice.gov/opa/pr/justice-department-notifies-fairfax-county-virginia-commonwealths-attorney-investigation-his",
+      "summary": "The Department of Justice's Civil Rights Division announced on May 6, 2026, that it has initiated a federal investigation into Fairfax County, Virginia Commonwealth's Attorney Steve Descano, examining his office's plea bargaining, charging decisions, and sentencing policies. The department alleges the investigation will determine whether the office discriminated against U.S. citizens by offering preferential treatment to noncitizen criminal defendants. The investigation will proceed under Title VI of the Civil Rights Act of 1964, the Safe Streets Act, and 34 U.S.C. § 12601. The department stated it has not reached conclusions and invited public submission of relevant information.",
+      "why_relevant": "A federal investigation into a local prosecutor's charging and sentencing decisions raises questions about the scope and direction of federal prosecutorial oversight and whether such investigations may be used to constrain prosecutorial discretion on immigration-related matters.",
+      "jurisdiction": "federal",
+      "federal_nexus": "",
+      "confidence": "high",
+      "basis": "the Justice Department notified the Fairfax County, Virginia Commonwealth's Attorney Steve Descano of the initiation of a federal investigation into the Commonwealth's Attorney Plea Bargaining, Charging Decisions, and Sentencing Policy.",
+      "actor": "The Department of Justice",
+      "action": "announced \"Justice Department Notifies Fairfax County, Virginia Commonwealth’s Attorney of Investigation into His Plea Bargaining, Charging Decisions, and Sentencing Policy\"",
+      "act_key": "department|announced justice department notifies fairfax county virginia commonwealth s attorney of investigation into his plea bargaining charging decisions and sentencing policy|2026-05-06",
+      "attacks": [
+        "justice_dept",
+        "rule_of_law"
+      ],
+      "source_meta": {
+        "headline": "Justice Department Notifies Fairfax County, Virginia Commonwealth’s Attorney of Investigation into His Plea Bargaining, Charging Decisions, and Sentencing Policy",
+        "published_on": "2026-05-06",
+        "byline": null,
+        "outlet": "justice.gov",
+        "accessed_on": "2026-08-27T05:34:30Z",
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "justice_events_2025-01-20_2026-08-14.json",
+      "_origin_index": 401
     },
     {
       "source_key": "zeteo",
@@ -7523,9 +7558,7 @@
       "act_key": "u s government|suppressed satellite imagery publication|2026-05-06",
       "attacks": [
         "truth",
-        "information",
-        "11",
-        "30"
+        "information"
       ],
       "source_meta": {
         "headline": null,
@@ -7797,10 +7830,10 @@
       "action": "applied flawed munition cost methodology",
       "act_key": "pentagon|applied flawed munition cost methodology|2026-05-06",
       "attacks": [
-        "21",
-        "30",
-        "43",
-        "54"
+        "congress",
+        "information",
+        "rule_of_law",
+        "future"
       ],
       "source_meta": {
         "headline": "The real cost of the Iran War: $72 billion for the first 60 days",
@@ -7834,8 +7867,8 @@
       "act_key": "kash patel|distributed branded merchandise|2026-05-06",
       "attacks": [
         "decency",
-        "19",
-        "28"
+        "presidency",
+        "public_service"
       ],
       "source_meta": {
         "headline": null,
@@ -7967,9 +8000,9 @@
       "action": "underestimated war costs internally",
       "act_key": "pentagon|underestimated war costs internally|2026-05-06",
       "attacks": [
-        "21",
-        "30",
-        "42"
+        "congress",
+        "information",
+        "separation_of_powers"
       ],
       "source_meta": {
         "headline": "The real cost of the Iran War: $72 billion for the first 60 days",
@@ -8002,8 +8035,7 @@
       "action": "launched military strikes",
       "act_key": "israel|launched military strikes|2026-05-06",
       "attacks": [
-        "peace",
-        "38"
+        "peace"
       ],
       "source_meta": {
         "headline": null,
@@ -8168,8 +8200,7 @@
       "action": "fired on oil tanker",
       "act_key": "u s military|fired on oil tanker|2026-05-06",
       "attacks": [
-        "peace",
-        "38"
+        "peace"
       ],
       "source_meta": {
         "headline": null,
@@ -8388,66 +8419,35 @@
       "_origin_index": 75
     },
     {
-      "source_key": "justice",
-      "date": "2026-05-07",
-      "occurred_on": "2026-05-07",
-      "reported_on": "2026-05-07",
-      "dated_by": "occurred",
-      "category": "Executive Actions & Orders",
-      "title": "Justice Department Requires Agri Stats to End Exchange of Competitively Sensitive Information Among Nation’s Largest Meat Processors that Suppressed Competition and Increased Prices for Decades",
-      "url": "https://www.justice.gov/opa/pr/justice-department-requires-agri-stats-end-exchange-competitively-sensitive-information",
-      "summary": "The Department of Justice announced this on 2026-05-07 through Office of the Attorney General. The recorded stage is settlement executed. The department's own account of it reads: \"The Justice Department’s Antitrust Division filed a proposed settlement today to resolve the United States’ claims against Agri Stats Inc. (Agri Stats) for unlawful information sharing of price, output, and costs among competing meat processors.\"",
-      "why_relevant": "",
-      "jurisdiction": "federal",
-      "federal_nexus": "Official DOJ channel; documents the act of announcement only.",
-      "confidence": "high",
-      "basis": "official_actor_record",
-      "actor": "The Department of Justice",
-      "action": "announced \"Justice Department Requires Agri Stats to End Exchange of Competitively Sensitive Information Among Nation’s Largest Meat Processors that Suppressed Competition and Increased Prices for Decades\"",
-      "act_key": "department|announced justice department requires agri stats to end exchange of competitively sensitive information among nation s largest meat processors that suppressed competition and increased prices for decades|2026-05-07",
-      "attacks": [],
-      "source_meta": {
-        "headline": null,
-        "published_on": null,
-        "byline": null,
-        "outlet": null,
-        "accessed_on": null,
-        "snapshot_url": null,
-        "durable_keys": {}
-      },
-      "_origin_file": "justice_events_2025-01-20_2026-08-14.json",
-      "_origin_index": 403
-    },
-    {
       "source_key": "whitehouse",
       "date": "2026-05-07",
       "occurred_on": "2026-05-07",
       "reported_on": "2026-05-07",
       "dated_by": "occurred",
       "category": "Executive Actions & Orders",
-      "title": "Military Spouse Day, 2026",
+      "title": "President Trump issued proclamation designating May 8, 2026, as Military Spouse Day",
       "url": "https://www.whitehouse.gov/presidential-actions/2026/05/military-spouse-day-2026/",
-      "summary": "The White House published this proclamation on 2026-05-07 through its proclamations channel.",
-      "why_relevant": "",
+      "summary": "President Trump signed a proclamation on May 7, 2026, designating May 8, 2026, as Military Spouse Day. The proclamation honors military spouses for their support during service members' deployments and family separations. It references prior administration efforts to improve employment policies, housing, childcare, healthcare, and education for military families, and commits to continued support for these initiatives.",
+      "why_relevant": "Proclamations are ceremonial instruments that do not alter law or policy; this one affirms executive commitment to military family support but creates no new binding directive or institutional change.",
       "jurisdiction": "federal",
-      "federal_nexus": "Official White House channel; documents the act of publication only.",
+      "federal_nexus": "",
       "confidence": "high",
-      "basis": "official_actor_record",
+      "basis": "NOW, THEREFORE, I, DONALD J. TRUMP, President of the United States of America, by virtue of the authority vested in me by the Constitution and the laws of the United States, do hereby proclaim May 8, 2026, as Military Spouse Day.",
       "actor": "The White House",
       "action": "announced a proclamation titled \"Military Spouse Day, 2026\"",
       "act_key": "white house|announced a proclamation titled military spouse day 2026|2026-05-07",
       "attacks": [],
       "source_meta": {
-        "headline": null,
-        "published_on": null,
+        "headline": "Military Spouse Day, 2026",
+        "published_on": "2026-05-07",
         "byline": null,
-        "outlet": null,
-        "accessed_on": null,
+        "outlet": "The White House",
+        "accessed_on": "2026-08-27T01:18:46Z",
         "snapshot_url": null,
         "durable_keys": {}
       },
       "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
-      "_origin_index": 949
+      "_origin_index": 893
     },
     {
       "source_key": "whitehouse",
@@ -8456,29 +8456,29 @@
       "reported_on": "2026-05-07",
       "dated_by": "occurred",
       "category": "Executive Actions & Orders",
-      "title": "Victory Day for World War II, 2026",
+      "title": "President Trump issued proclamation designating May 8, 2026, as Victory Day for World War II",
       "url": "https://www.whitehouse.gov/presidential-actions/2026/05/victory-day-for-world-war-ii-2026/",
-      "summary": "The White House published this proclamation on 2026-05-07 through its proclamations channel.",
-      "why_relevant": "",
+      "summary": "The White House issued a proclamation on May 7, 2026, designating May 8, 2026, as Victory Day for World War II. The proclamation commemorates the Allied victory over Nazi Germany on May 8, 1945, honors American military sacrifice (stating over 250,000 Americans died fighting the Nazi regime), and frames the commemoration within the context of America's 250th anniversary of independence and contemporary military strength.",
+      "why_relevant": "Proclamations are ceremonial instruments that do not alter law or policy; this one commemorates historical military victory and does not affect democratic structure or governance.",
       "jurisdiction": "federal",
-      "federal_nexus": "Official White House channel; documents the act of publication only.",
+      "federal_nexus": "",
       "confidence": "high",
-      "basis": "official_actor_record",
+      "basis": "I, DONALD J. TRUMP, President of the United States of America, by virtue of the authority vested in me by the Constitution and the laws of the United States, do hereby proclaim May 8, 2026, as a day in celebration of Victory Day for World War II.",
       "actor": "The White House",
       "action": "announced a proclamation titled \"Victory Day for World War II, 2026\"",
       "act_key": "white house|announced a proclamation titled victory day for world war ii 2026|2026-05-07",
       "attacks": [],
       "source_meta": {
-        "headline": null,
-        "published_on": null,
+        "headline": "Victory Day for World War II, 2026",
+        "published_on": "2026-05-07",
         "byline": null,
-        "outlet": null,
-        "accessed_on": null,
+        "outlet": "The White House",
+        "accessed_on": "2026-08-27T01:18:55Z",
         "snapshot_url": null,
         "durable_keys": {}
       },
       "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
-      "_origin_index": 950
+      "_origin_index": 894
     },
     {
       "source_key": "50501",
@@ -8838,6 +8838,37 @@
       },
       "_origin_file": "hcr_events_2026-03-07_2026-05-15.json",
       "_origin_index": 72
+    },
+    {
+      "source_key": "justice",
+      "date": "2026-05-07",
+      "occurred_on": "2026-05-07",
+      "reported_on": "2026-05-08",
+      "dated_by": "occurred",
+      "category": "Judicial Developments",
+      "title": "Justice Department files civil denaturalization complaint against convicted Cuban spy",
+      "url": "https://www.justice.gov/opa/pr/justice-department-sues-revoke-us-citizenship-convicted-cuban-spy",
+      "summary": "The Department of Justice filed a civil denaturalization complaint in U.S. District Court for the Southern District of Florida against Victor Manuel Rocha, a Colombian-born former U.S. Ambassador convicted in 2024 of serving as an unregistered agent for Cuba. Rocha admitted to spying for Cuba beginning in 1973, five years before his 1978 naturalization. The complaint alleges he obtained citizenship through false statements under penalty of perjury regarding Communist Party affiliation and support for communism. Rocha is currently serving a 15-year sentence. The DOJ seeks revocation of his naturalization on seven independent grounds.",
+      "why_relevant": "The action represents the government's use of denaturalization authority against a former senior official convicted of espionage, raising questions about the scope and application of citizenship revocation powers in cases involving foreign intelligence activity.",
+      "jurisdiction": "federal",
+      "federal_nexus": "",
+      "confidence": "high",
+      "basis": "The U.S. Department of Justice filed a civil denaturalization complaint yesterday against Victor Manuel Rocha in the United States District Court for the Southern District of Florida.",
+      "actor": "The Department of Justice",
+      "action": "announced \"Justice Department Sues to Revoke US Citizenship of Convicted Cuban Spy\"",
+      "act_key": "department|announced justice department sues to revoke us citizenship of convicted cuban spy|2026-05-07",
+      "attacks": [],
+      "source_meta": {
+        "headline": "Justice Department Sues to Revoke US Citizenship of Convicted Cuban Spy",
+        "published_on": "2026-05-07",
+        "byline": null,
+        "outlet": "justice.gov",
+        "accessed_on": "2026-08-27T05:34:52Z",
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "justice_events_2025-01-20_2026-08-14.json",
+      "_origin_index": 403
     },
     {
       "source_key": "justsecurity",
@@ -10167,9 +10198,9 @@
       "action": "investigated journalist",
       "act_key": "fbi|investigated journalist|2026-05-07",
       "attacks": [
-        "23",
-        "29",
-        "31"
+        "justice_dept",
+        "press",
+        "whistleblowers"
       ],
       "source_meta": {
         "headline": "FBI defends Kash Patel after report alleging he gifts custom whiskey bottles",
@@ -10202,8 +10233,8 @@
       "action": "filed defamation lawsuit",
       "act_key": "kash patel|filed defamation lawsuit|2026-05-07",
       "attacks": [
-        "29",
-        "31"
+        "press",
+        "whistleblowers"
       ],
       "source_meta": {
         "headline": "FBI defends Kash Patel after report alleging he gifts custom whiskey bottles",
@@ -10912,6 +10943,37 @@
       },
       "_origin_file": "hcr_events_2026-03-07_2026-05-15.json",
       "_origin_index": 77
+    },
+    {
+      "source_key": "justice",
+      "date": "2026-05-07",
+      "occurred_on": "2026-05-07",
+      "reported_on": "2026-05-07",
+      "dated_by": "occurred",
+      "category": "Economic & Regulatory Power",
+      "title": "Justice Department announces proposed settlement requiring Agri Stats to end anticompetitive information sharing among meat processors",
+      "url": "https://www.justice.gov/opa/pr/justice-department-requires-agri-stats-end-exchange-competitively-sensitive-information",
+      "summary": "The Department of Justice's Antitrust Division filed a proposed settlement in the District of Minnesota against Agri Stats Inc., alleging that the company facilitated unlawful information sharing of price, output, and cost data among competing meat processors in broiler chicken, pork, and turkey markets. The settlement requires Agri Stats to cease providing sales reports and non-public pricing information to processors, stop reporting production and cost data at company or facility level, make most distributed information available to all domestic purchasers on non-discriminatory terms, adhere to timeliness restrictions, submit to court-approved monitoring, and establish an antitrust compliance program. The department characterized the settlement as delivering relief to consumers by restoring competitive pricing.",
+      "why_relevant": "The settlement addresses alleged decades-long anticompetitive conduct that suppressed competition and inflated consumer food prices, demonstrating DOJ enforcement of antitrust law to restore market competition and protect consumers.",
+      "jurisdiction": "federal",
+      "federal_nexus": "",
+      "confidence": "high",
+      "basis": "The Justice Department's Antitrust Division filed a proposed settlement today to resolve the United States' claims against Agri Stats Inc. (Agri Stats) for unlawful information sharing of price, output, and costs among competing meat processors.",
+      "actor": "The Department of Justice",
+      "action": "announced \"Justice Department Requires Agri Stats to End Exchange of Competitively Sensitive Information Among Nation’s Largest Meat Processors that Suppressed Competition and Increased Prices for Decades\"",
+      "act_key": "department|announced justice department requires agri stats to end exchange of competitively sensitive information among nation s largest meat processors that suppressed competition and increased prices for decades|2026-05-07",
+      "attacks": [],
+      "source_meta": {
+        "headline": "Justice Department Requires Agri Stats to End Exchange of Competitively Sensitive Information Among Nation’s Largest Meat Processors that Suppressed Competition and Increased Prices for Decades",
+        "published_on": "2026-05-07",
+        "byline": null,
+        "outlet": "justice.gov",
+        "accessed_on": "2026-08-27T05:34:39Z",
+        "snapshot_url": null,
+        "durable_keys": {}
+      },
+      "_origin_file": "justice_events_2025-01-20_2026-08-14.json",
+      "_origin_index": 402
     },
     {
       "source_key": "meidas",
@@ -11957,37 +12019,6 @@
       "_origin_index": 33
     },
     {
-      "source_key": "justice",
-      "date": "2026-05-08",
-      "occurred_on": "2026-05-08",
-      "reported_on": "2026-05-08",
-      "dated_by": "occurred",
-      "category": "Executive Actions & Orders",
-      "title": "Justice Department Moves to Denaturalize 12 Individuals for Concealing Terrorist Support, War Crimes, Espionage, Sexual Abuse, and More",
-      "url": "https://www.justice.gov/opa/pr/justice-department-moves-denaturalize-12-individuals-concealing-terrorist-support-war-crimes",
-      "summary": "The Department of Justice announced this on 2026-05-08 through Office of the Attorney General. The department's own account of it reads: \"The Department of Justice announced today that it filed denaturalization actions in various U.S. district courts against 12 individuals accused of serious offenses—including providing material support to a terrorist group, committing war crimes, and sexually abusing a minor.\"",
-      "why_relevant": "",
-      "jurisdiction": "federal",
-      "federal_nexus": "Official DOJ channel; documents the act of announcement only.",
-      "confidence": "high",
-      "basis": "official_actor_record",
-      "actor": "The Department of Justice",
-      "action": "announced \"Justice Department Moves to Denaturalize 12 Individuals for Concealing Terrorist Support, War Crimes, Espionage, Sexual Abuse, and More\"",
-      "act_key": "department|announced justice department moves to denaturalize 12 individuals for concealing terrorist support war crimes espionage sexual abuse and more|2026-05-08",
-      "attacks": [],
-      "source_meta": {
-        "headline": null,
-        "published_on": null,
-        "byline": null,
-        "outlet": null,
-        "accessed_on": null,
-        "snapshot_url": null,
-        "durable_keys": {}
-      },
-      "_origin_file": "justice_events_2025-01-20_2026-08-14.json",
-      "_origin_index": 405
-    },
-    {
       "source_key": "noah",
       "date": "2026-05-08",
       "occurred_on": "",
@@ -12407,9 +12438,9 @@
       "action": "ruled tariffs illegal",
       "act_key": "court international trade|ruled tariffs illegal|2026-05-08",
       "attacks": [
-        "37",
-        "41",
-        "42"
+        "trade",
+        "constitution",
+        "separation_of_powers"
       ],
       "source_meta": {
         "headline": null,
@@ -12463,24 +12494,26 @@
       "reported_on": "2026-05-08",
       "dated_by": "occurred",
       "category": "Judicial Developments",
-      "title": "Justice Department Sues to Revoke US Citizenship of Convicted Cuban Spy",
-      "url": "https://www.justice.gov/opa/pr/justice-department-sues-revoke-us-citizenship-convicted-cuban-spy",
-      "summary": "The Department of Justice announced this on 2026-05-08 through Civil Division. The recorded stage is a conviction after trial. The department's own account of it reads: \"The U.S. Department of Justice filed a civil denaturalization complaint yesterday against Victor Manuel Rocha in the United States District Court for the Southern District of Florida. Rocha is a native of Colombia who was convicted of serving as an unregistered agent for the Republic of Cuba.\"",
-      "why_relevant": "",
+      "title": "Department of Justice announces denaturalization actions against 12 individuals",
+      "url": "https://www.justice.gov/opa/pr/justice-department-moves-denaturalize-12-individuals-concealing-terrorist-support-war-crimes",
+      "summary": "The Department of Justice announced it filed civil denaturalization complaints in various U.S. district courts against 12 naturalized citizens, alleging they obtained citizenship through fraud, concealment of material facts, or willful misrepresentation. The allegations include providing material support to terrorist organizations (Al-Qaeda, al-Shabaab), committing war crimes, sexually abusing minors, espionage for Cuba, firearms trafficking, immigration fraud, and identity fraud. Acting Attorney General Todd Blanche characterized the actions as correcting \"egregious violations\" of the immigration system. The complaints seek revocation of naturalization certificates under the Immigration and Nationality Act.",
+      "why_relevant": "Denaturalization is a rare and constitutionally significant power that strips citizenship; the scale (12 cases announced simultaneously) and the department's framing as corrective enforcement raise questions about the criteria, process, and consistency of citizenship revocation.",
       "jurisdiction": "federal",
-      "federal_nexus": "Official DOJ channel; documents the act of announcement only.",
+      "federal_nexus": "",
       "confidence": "high",
-      "basis": "official_actor_record",
+      "basis": "The Department of Justice announced today that it filed denaturalization actions in various U.S. district courts against 12 individuals accused of serious offenses—including providing material support to a terrorist group, committing war crimes, and sexually abusing a minor.",
       "actor": "The Department of Justice",
-      "action": "announced \"Justice Department Sues to Revoke US Citizenship of Convicted Cuban Spy\"",
-      "act_key": "department|announced justice department sues to revoke us citizenship of convicted cuban spy|2026-05-08",
-      "attacks": [],
+      "action": "announced \"Justice Department Moves to Denaturalize 12 Individuals for Concealing Terrorist Support, War Crimes, Espionage, Sexual Abuse, and More\"",
+      "act_key": "department|announced justice department moves to denaturalize 12 individuals for concealing terrorist support war crimes espionage sexual abuse and more|2026-05-08",
+      "attacks": [
+        "rule_of_law"
+      ],
       "source_meta": {
-        "headline": null,
-        "published_on": null,
+        "headline": "Justice Department Moves to Denaturalize 12 Individuals for Concealing Terrorist Support, War Crimes, Espionage, Sexual Abuse, and More",
+        "published_on": "2026-05-08",
         "byline": null,
-        "outlet": null,
-        "accessed_on": null,
+        "outlet": "justice.gov",
+        "accessed_on": "2026-08-27T05:35:02Z",
         "snapshot_url": null,
         "durable_keys": {}
       },
@@ -12935,12 +12968,12 @@
       "action": "invalidated voter referendum",
       "act_key": "virginia supreme court|invalidated voter referendum|2026-05-08",
       "attacks": [
-        "5",
-        "20",
-        "41",
-        "42",
-        "43",
-        "48"
+        "lgbtq",
+        "courts",
+        "constitution",
+        "separation_of_powers",
+        "rule_of_law",
+        "peaceful_transfer"
       ],
       "source_meta": {
         "headline": null,
@@ -12973,8 +13006,8 @@
       "action": "released classified files",
       "act_key": "trump|released classified files|2026-05-08",
       "attacks": [
-        "30",
-        "34"
+        "information",
+        "reality"
       ],
       "source_meta": {
         "headline": "May 8, 2026",
@@ -13089,37 +13122,6 @@
       },
       "_origin_file": "popinfo_events_2026-03-07_2026-05-15.json",
       "_origin_index": 28
-    },
-    {
-      "source_key": "whitehouse",
-      "date": "2026-05-08",
-      "occurred_on": "2026-05-08",
-      "reported_on": "2026-05-08",
-      "dated_by": "occurred",
-      "category": "Information & Media Control",
-      "title": "JOBS REPORT: Trump Economy Roars Ahead with Big Private Sector Job Gains",
-      "url": "https://www.whitehouse.gov/releases/2026/05/jobs-report-trump-economy-roars-ahead-with-big-private-sector-job-gains/",
-      "summary": "The White House published this release on 2026-05-08 through its releases channel.",
-      "why_relevant": "",
-      "jurisdiction": "federal",
-      "federal_nexus": "Official White House channel; documents the act of publication only.",
-      "confidence": "high",
-      "basis": "official_actor_record",
-      "actor": "The White House",
-      "action": "published a release titled \"JOBS REPORT: Trump Economy Roars Ahead with Big Private Sector Job Gains\"",
-      "act_key": "white house|published a release titled jobs report trump economy roars ahead with big private sector job gains|2026-05-08",
-      "attacks": [],
-      "source_meta": {
-        "headline": null,
-        "published_on": null,
-        "byline": null,
-        "outlet": null,
-        "accessed_on": null,
-        "snapshot_url": null,
-        "durable_keys": {}
-      },
-      "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
-      "_origin_index": 58
     },
     {
       "source_key": "zeteo",
@@ -13931,8 +13933,8 @@
       "action": "issued ethics defense statement",
       "act_key": "fbi|issued ethics defense statement|2026-05-08",
       "attacks": [
-        "19",
-        "28"
+        "presidency",
+        "public_service"
       ],
       "source_meta": {
         "headline": "FBI defends Kash Patel after report alleging he gifts custom whiskey bottles",
