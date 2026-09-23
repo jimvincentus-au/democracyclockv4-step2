@@ -365,6 +365,15 @@ def _norm_event(e: Dict[str, Any], source_key: str, origin_file: str, idx: int, 
     # Effective date: occurrence when known, else the reported date.
     if occurred_obj:
         eff_obj, dated_by = occurred_obj, "occurred"
+    elif occurred_month:
+        # MONTH PRECISION (2026-09-23). The source gave a month and no day, so
+        # neither `occurred` nor `reported` is true: the day was never stated, and
+        # the report date is a different fact that can sit months away — a thing
+        # reported in June can have happened in February. `date` is therefore the
+        # FIRST OF THE STATED MONTH as an explicit placeholder, which files the
+        # event in the right month, and `dated_by` says `month` so nothing
+        # downstream mistakes the placeholder for a claim.
+        eff_obj, dated_by = _safe_date(f"{occurred_month}-01"), "month"
     else:
         eff_obj, dated_by = reported_obj, ("reported" if reported_obj else "")
     date_iso = eff_obj.isoformat() if eff_obj else reported_iso
