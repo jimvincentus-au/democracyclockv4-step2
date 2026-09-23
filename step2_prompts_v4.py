@@ -21,7 +21,7 @@ from typing import Dict
 # ---------------------------------------------------------------------------
 
 CANONICAL_EXTRACTION_PROTOCOL = """
-Canonical Extraction Protocol (v1.1 — Final Hardened Version)
+Canonical Extraction Protocol (v1.2 — month precision is not a day)
 
 PURPOSE:
 Identify and record every democracy-affecting event described in the provided text.
@@ -60,9 +60,15 @@ SCOPE AND EXHAUSTIVENESS:
 DATING RULE (two DISTINCT dates — never copy one into the other):
 • Header date = the REPORTED date: the article/post `post_date` (YYYY-MM-DD). Always use
   post_date in the header line, even when the act itself happened earlier.
-• `Occurred:` = the date the act ACTUALLY happened (YYYY-MM-DD), and ONLY if the text
-  explicitly states it. If the text does not state when the act happened, write exactly
-  `Occurred: unknown`. Never default `Occurred` to post_date and never guess it.
+• `Occurred:` = when the act ACTUALLY happened, and ONLY if the text explicitly states
+  it. Match the PRECISION of the text — never invent precision it does not have:
+    – the text names a specific day  -> write YYYY-MM-DD
+    – the text names only a month ("in March", "early March", "last month")
+                                     -> write YYYY-MM, and do NOT pick a day
+    – the text does not say when     -> write exactly `Occurred: unknown`
+  Never default `Occurred` to post_date and never guess it. Writing the 1st of a month
+  because only the month was stated is a guess, and it is the specific error this rule
+  exists to prevent.
 • Skip events older than 14 days unless explicitly newly relevant.
 
 OUTPUT FORMAT — FOLLOW THIS EXACT SCHEMA FOR EACH EVENT:
@@ -75,7 +81,7 @@ OUTPUT FORMAT — FOLLOW THIS EXACT SCHEMA FOR EACH EVENT:
    Source: {one or more DIRECT URLs, space-separated, NO labels, NO punctuation, NO dashes}
    Category: {choose exactly one domain from the list below}
    Why Relevant: {one crisp sentence explaining the democratic significance}
-   Occurred: {YYYY-MM-DD if the source explicitly states when the act happened; otherwise the single word: unknown}
+   Occurred: {YYYY-MM-DD if the source states a specific day; YYYY-MM if it states only a month (never invent a day); otherwise the single word: unknown}
    Jurisdiction: {exactly one of: federal | state | local | private | foreign | multi}
    Federal nexus: {if Jurisdiction is not "federal", one sentence naming the federal connection; otherwise the single word: none}
    Confidence: {exactly one of: high | medium | low — your confidence this is a real, distinct, qualifying past-tense act}

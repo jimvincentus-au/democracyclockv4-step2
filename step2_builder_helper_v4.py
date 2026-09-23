@@ -28,6 +28,9 @@ _NEXUS_RE    = re.compile(r"^\s*Federal nexus:\s*(.+)$", re.IGNORECASE | re.MULT
 _ACTOR_RE    = re.compile(r"^\s*Actor:\s*(.+)$", re.IGNORECASE | re.MULTILINE)
 _ACTION_RE   = re.compile(r"^\s*Action:\s*(.+)$", re.IGNORECASE | re.MULTILINE)
 _ISO_RE      = re.compile(r"\d{4}-\d{2}-\d{2}")
+# Month precision, e.g. "2025-03". Tried ONLY after the full-date pattern fails,
+# so it can never match the leading 7 characters of a real YYYY-MM-DD.
+_ISO_MONTH_RE = re.compile(r"\b\d{4}-\d{2}(?!-\d)")
 _VALID_JURIS = {"federal", "state", "local", "private", "foreign", "multi"}
 _NULLISH     = {"", "unknown", "none", "n/a", "na", "null"}
 
@@ -44,12 +47,34 @@ def parse_supplemental_fields(block_text: str) -> Dict[str, Any]:
         m = rx.search(t)
         return m.group(1).strip() if m else ""
 
+    # MONTH PRECISION IS NOT A DAY (added 2026-09-23).
+    #
+    # The schema used to offer only {YYYY-MM-DD} or `unknown`. A source that says
+    # "in March" or "early March" states WHEN the act happened, so the model
+    # rightly treated it as stated — and then had no way to say "March". It wrote
+    # a day, and the natural choice is the 1st.
+    #
+    # Measured across all 23,520 occurred_on values in Step 2's output: day 01
+    # carried 1,599 against a uniform expectation of ~759 — 2.1x, and the only
+    # unexplained spike in the month. Roughly 840 records assert a day nobody
+    # stated. Downstream it is invisible: step2_writeweekevents sets
+    # dated_by="occurred", occurred_on agrees with it, and every consistency check
+    # passes on a false day-precision claim.
+    #
+    # So a month now parses AS a month. occurred_on stays None, which lets
+    # dated_by fall to "reported" — honest, because no day was established — and
+    # the month is preserved in occurred_month rather than thrown away.
     occurred_raw = _g(_OCCURRED_RE)
     occurred_on = None
+    occurred_month = None
     if occurred_raw.lower() not in _NULLISH:
         m = _ISO_RE.search(occurred_raw)
         if m:
             occurred_on = m.group(0)
+        else:
+            mm = _ISO_MONTH_RE.search(occurred_raw)
+            if mm:
+                occurred_month = mm.group(0)
 
     conf = _g(_CONF_RE).lower().strip().strip(".")
     confidence = conf if conf in ("high", "medium", "low") else None
@@ -68,6 +93,7 @@ def parse_supplemental_fields(block_text: str) -> Dict[str, Any]:
 
     return {
         "occurred_on": occurred_on,
+        "occurred_month": occurred_month,   # "YYYY-MM" when only a month was stated
         "confidence": confidence,
         "basis": basis,
         "jurisdiction": jurisdiction,

@@ -292,6 +292,10 @@ class EventRow:
     # #1 dates (added 2026-08-10): reported vs occurred — never guessed from each other
     reported_on: str    # publication/report date (may be "")
     occurred_on: str    # true event date; "" when the source did not state it (never defaulted)
+    occurred_month: str # "YYYY-MM" when the source stated only a month; "" otherwise.
+                        # Carried rather than dropped: `dated_by` was once discarded at
+                        # exactly this boundary and nearly half the corpus lost the
+                        # distinction between an act date and a report date.
     dated_by: str       # "occurred" | "reported" | "" — which date drove date_iso
     # #2 precision + #3 jurisdiction (added 2026-08-10)
     confidence: str     # high | medium | low | ""
@@ -350,6 +354,10 @@ def _norm_event(e: Dict[str, Any], source_key: str, origin_file: str, idx: int, 
     if reported_obj:
         reported_iso = reported_obj.isoformat()
 
+    # Month precision, preserved. A month is real evidence about when an act
+    # happened; it is simply not a day. It does NOT set dated_by="occurred",
+    # because that claims day precision the source never gave.
+    occurred_month = str(e.get("occurred_month") or "").strip()
     occurred_raw = str(e.get("occurred_on") or "").strip()
     occurred_obj = _safe_date(occurred_raw) if occurred_raw else None
     occurred_iso = occurred_obj.isoformat() if occurred_obj else ""
@@ -391,6 +399,7 @@ def _norm_event(e: Dict[str, Any], source_key: str, origin_file: str, idx: int, 
         attacks=attacks,
         reported_on=reported_iso,
         occurred_on=occurred_iso,
+        occurred_month=occurred_month,
         dated_by=dated_by,
         confidence=confidence,
         basis=basis,
@@ -881,6 +890,7 @@ def main() -> int:
                 "source_key": ev.source_key,
                 "date": ev.date_iso,
                 "occurred_on": ev.occurred_on,
+                "occurred_month": ev.occurred_month,
                 "reported_on": ev.reported_on,
                 "dated_by": ev.dated_by,
                 "category": ev.category,
@@ -969,6 +979,7 @@ def main() -> int:
                         "source_key": r.source_key,
                         "date": r.date_iso,
                         "occurred_on": r.occurred_on,
+                        "occurred_month": r.occurred_month,
                         "reported_on": r.reported_on,
                         "dated_by": r.dated_by,
                         "category": r.category,
