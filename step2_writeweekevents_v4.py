@@ -10,6 +10,7 @@ import json
 import re
 import sys
 from collections import Counter, defaultdict
+import dataclasses
 from dataclasses import dataclass
 from datetime import date, timedelta, datetime
 from pathlib import Path
@@ -309,6 +310,38 @@ class EventRow:
     # Provenance:
     origin_file: str
     origin_index: int
+    # ── Act identity, added 2026-10-06. ADDITIVE: `act_key` above is unchanged,
+    # because it drives the corroboration tier and the archive-authority join and
+    # must keep meaning what it meant. These are the fields a grouper should
+    # PREFER, in the order act_identity > act_key_dateless > act_key.
+    #
+    # WHY. `act_key` is normalize(actor)|normalize(action)|date, and all three
+    # components are properties of the ARTICLE, not of the ACT. Traced from the
+    # built corpus back to this function on 2026-10-06:
+    #
+    #  * The date is the article's date, so one act reported on three days gets
+    #    three keys and never deduplicates. EO 14201 sits in the corpus three
+    #    times: "...banning transgender athletes from women s sports
+    #    categories|2025-01-30", "...from competing in women s sports|2025-02-05",
+    #    "...and threatened funding cuts over compliance|2025-02-22". The dedupe
+    #    in steps 3-7 is working correctly on keys that cannot match.
+    #  * The action is the article's paraphrase, so one act worded two ways is
+    #    two acts.
+    #  * An OFFICIAL source has no paraphrase to borrow — whitehouse.gov and the
+    #    Federal Register supply a document TITLE — so the key comes out generic:
+    #    "executive office|signed executive order|2025-01-27". 100% of the 1,605
+    #    whitehouse.gov rows are generic, against 1% of Guardian rows. A generic
+    #    key names the FORM of an act, so it matches every act of that form in
+    #    the week. That is "The Iron Dome for America" attached to 15 unrelated
+    #    week-2 events, and "Gulf of America Day" to 12.
+    act_identity: str = ""        # durable identity out of the url —
+                                  # "fr:2025-02182", "cldocket:69334231",
+                                  # "bill:119-hr-1" — or "". Exact, and it cannot
+                                  # come out generic.
+    act_key_dateless: str = ""    # normalize(actor)|normalize(action), no date, so
+                                  # one act reported on several days collapses.
+    multi_act_source_count: int = 0     # events this url yielded in this window.
+    date_is_article_date: bool = False  # see _mark_multi_act_sources.
 
 def _norm_event(e: Dict[str, Any], source_key: str, origin_file: str, idx: int, strict: bool, logger) -> Optional[EventRow]:
     """
@@ -389,6 +422,11 @@ def _norm_event(e: Dict[str, Any], source_key: str, origin_file: str, idx: int, 
     actor = str(e.get("actor") or "").strip()
     action = str(e.get("action") or "").strip()
     act_key = _compute_act_key(actor, action, date_iso)
+    # Additive act identity; see EventRow. multi_act_source_count and
+    # date_is_article_date need the whole window and are set in
+    # _mark_multi_act_sources after all rows are parsed.
+    act_identity = _compute_act_identity(url)
+    act_key_dateless = _compute_act_key_dateless(actor, action)
 
     # Strict mode: must have title, summary, category, why
     if strict and (not title or not summary or not category or not why):
@@ -419,6 +457,8 @@ def _norm_event(e: Dict[str, Any], source_key: str, origin_file: str, idx: int, 
         act_key=act_key,
         origin_file=origin_file,
         origin_index=idx,
+        act_identity=act_identity,
+        act_key_dateless=act_key_dateless,
     )
 
 
@@ -625,6 +665,88 @@ def _actkey_norm(s: str, drop_titles: bool = False) -> str:
         toks = [t for t in toks if t not in _ACTKEY_TITLES]
     return " ".join(toks)
 
+MULTI_ACT_THRESHOLD = 3
+# A url yielding this many events in one window is describing several acts, so its
+# publication date is not evidence of any one of their dates. Chosen from the
+# measured distribution over 89 weeks, not picked: 19,441 urls yield exactly one
+# event, 1,517 yield two, and 2,326 yield three or more. The tail is explicit
+# roundups — "This Week in Democracy" newsletters reaching 54 events from a single
+# article. Two is left alone because a story legitimately reports an act and its
+# immediate consequence; three is where roundups begin.
+#
+# 18,060 of 40,535 master-index rows (44%) come from a url above this threshold.
+# 11,052 of those are dated_by="reported", which means the act's recorded date IS
+# the article's publication date, taken from an article describing many acts
+# across many days. That is 27% of the corpus and it is the single largest
+# date-corruption mechanism in the pipeline. The remaining 6,977 are
+# dated_by="occurred" — the extractor read a real day out of the text — and those
+# are fine and are not flagged.
+
+
+def _compute_act_identity(url: str) -> str:
+    """Durable identity for the ACT, from the document the url points at.
+
+    `_derive_durable_keys` has existed here since the Cowork items and its output
+    went into `source_meta` and was never used as identity. A Federal Register
+    document number names one instrument, exactly, forever; it cannot come out
+    generic the way "executive office|signed executive order" does.
+    """
+    k = _derive_durable_keys(url)
+    if k.get("federal_register_doc"):
+        return f"fr:{k['federal_register_doc']}"
+    if k.get("courtlistener_docket_id"):
+        return f"cldocket:{k['courtlistener_docket_id']}"
+    if k.get("congress_bill"):
+        return f"bill:{k['congress_bill']}"
+    return ""
+
+
+def _compute_act_key_dateless(actor: str, action: str) -> str:
+    """`act_key` without the date, so one act reported on several days collapses.
+
+    Returns "" on insufficient input, for the same reason `_compute_act_key`
+    does: an empty key is better than a false cluster.
+    """
+    na = _actkey_norm(actor, drop_titles=True)
+    nc = _actkey_norm(action)
+    if not na or not nc:
+        return ""
+    return f"{na}|{nc}"
+
+
+def _mark_multi_act_sources(rows: List["EventRow"], logger) -> List["EventRow"]:
+    """Count events per url and flag the rows whose date is the article's.
+
+    A second pass rather than per-event work, because the question — how many
+    acts did this one document describe? — cannot be answered while looking at a
+    single event. EventRow is frozen, so this replaces rather than mutates.
+    """
+    counts: Dict[str, int] = {}
+    for r in rows:
+        if r.url:
+            counts[r.url] = counts.get(r.url, 0) + 1
+    out: List["EventRow"] = []
+    flagged = 0
+    for r in rows:
+        n = counts.get(r.url, 0) if r.url else 0
+        # ONLY when the date came from the article. dated_by="occurred" means the
+        # extractor found a real day in the text, and a roundup that states the
+        # day of each act it lists is a good source, not a suspect one.
+        flag = n >= MULTI_ACT_THRESHOLD and r.dated_by == "reported"
+        if flag:
+            flagged += 1
+        out.append(dataclasses.replace(
+            r, multi_act_source_count=n, date_is_article_date=flag))
+    multi_urls = sum(1 for n in counts.values() if n >= MULTI_ACT_THRESHOLD)
+    logger.info(
+        "Act identity: %d/%d row(s) carry a durable act_identity; "
+        "%d url(s) yielded %d+ events; %d row(s) have date_is_article_date=true "
+        "(their date is a multi-act article's publication date, not the act's).",
+        sum(1 for r in out if r.act_identity), len(out),
+        multi_urls, MULTI_ACT_THRESHOLD, flagged)
+    return out
+
+
 def _compute_act_key(actor: str, action: str, date_iso: str) -> str:
     """Deterministic identity: normalize(actor) | normalize(action) | date. Used to
     (a) count distinct outlets sharing one act for the corroboration tier (#8) and
@@ -770,6 +892,8 @@ def main() -> int:
 
     # Collapse cross-extraction duplicates before counting / sorting / writing.
     all_rows = _dedupe_rows(all_rows, file_mtime, logger)
+    # After dedupe, so the per-url counts reflect the rows actually emitted.
+    all_rows = _mark_multi_act_sources(all_rows, logger)
 
     # ── CHRONICLE WINDOW ───────────────────────────────────────────────────────
     #
@@ -914,6 +1038,10 @@ def main() -> int:
                 "actor": ev.actor,
                 "action": ev.action,
                 "act_key": ev.act_key,
+                "act_identity": ev.act_identity,
+                "act_key_dateless": ev.act_key_dateless,
+                "multi_act_source_count": ev.multi_act_source_count,
+                "date_is_article_date": ev.date_is_article_date,
                 "attacks": ev.attacks,
                 "source_meta": url_meta_cache.get(ev.url) or _empty_meta,
                 "_origin_file": ev.origin_file,
@@ -1003,6 +1131,10 @@ def main() -> int:
                         "actor": r.actor,
                         "action": r.action,
                         "act_key": r.act_key,
+                        "act_identity": r.act_identity,
+                        "act_key_dateless": r.act_key_dateless,
+                        "multi_act_source_count": r.multi_act_source_count,
+                        "date_is_article_date": r.date_is_article_date,
                         "attacks": r.attacks,
                         "source_meta": url_meta_cache.get(r.url) or _empty_meta,
                         "_origin_file": r.origin_file,

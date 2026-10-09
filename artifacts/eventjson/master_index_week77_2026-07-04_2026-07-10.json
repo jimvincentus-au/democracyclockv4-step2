@@ -103,7 +103,11 @@
         "durable_keys": {}
       },
       "_origin_file": "guardian_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 227
+      "_origin_index": 227,
+      "act_identity": "",
+      "act_key_dateless": "trump|delivered campaign speech at anniversary event",
+      "multi_act_source_count": 1,
+      "date_is_article_date": false
     },
     {
       "source_key": "guardian",
@@ -139,7 +143,11 @@
         "durable_keys": {}
       },
       "_origin_file": "guardian_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 230
+      "_origin_index": 230,
+      "act_identity": "",
+      "act_key_dateless": "trump|issued 11 pardons",
+      "multi_act_source_count": 1,
+      "date_is_article_date": false
     },
     {
       "source_key": "hcr",
@@ -174,7 +182,11 @@
         "durable_keys": {}
       },
       "_origin_file": "hcr_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 131
+      "_origin_index": 131,
+      "act_identity": "",
+      "act_key_dateless": "trump|delivered anticommunist speech",
+      "multi_act_source_count": 3,
+      "date_is_article_date": false
     },
     {
       "source_key": "meidas",
@@ -209,7 +221,11 @@
         "durable_keys": {}
       },
       "_origin_file": "meidas_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 335
+      "_origin_index": 335,
+      "act_identity": "",
+      "act_key_dateless": "trump|referenced third term",
+      "multi_act_source_count": 14,
+      "date_is_article_date": false
     },
     {
       "source_key": "meidas",
@@ -243,7 +259,11 @@
         "durable_keys": {}
       },
       "_origin_file": "meidas_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 330
+      "_origin_index": 330,
+      "act_identity": "",
+      "act_key_dateless": "trump|refused to cancel speech",
+      "multi_act_source_count": 14,
+      "date_is_article_date": false
     },
     {
       "source_key": "meidas",
@@ -277,7 +297,11 @@
         "durable_keys": {}
       },
       "_origin_file": "meidas_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 327
+      "_origin_index": 327,
+      "act_identity": "",
+      "act_key_dateless": "trump|conducted aircraft flyover",
+      "multi_act_source_count": 14,
+      "date_is_article_date": false
     },
     {
       "source_key": "popinfo",
@@ -312,7 +336,11 @@
         "durable_keys": {}
       },
       "_origin_file": "popinfo_events_2025-07-26_2025-08-29.json",
-      "_origin_index": 0
+      "_origin_index": 0,
+      "act_identity": "",
+      "act_key_dateless": "trump|scheduled ufc event at white house",
+      "multi_act_source_count": 1,
+      "date_is_article_date": false
     },
     {
       "source_key": "hcr",
@@ -347,7 +375,11 @@
         "durable_keys": {}
       },
       "_origin_file": "hcr_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 135
+      "_origin_index": 135,
+      "act_identity": "",
+      "act_key_dateless": "trump|demanded passage of voter suppression act",
+      "multi_act_source_count": 3,
+      "date_is_article_date": false
     },
     {
       "source_key": "outloud",
@@ -381,7 +413,11 @@
         "durable_keys": {}
       },
       "_origin_file": "outloud_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 3
+      "_origin_index": 3,
+      "act_identity": "",
+      "act_key_dateless": "north carolina general assembly|overrode gubernatorial veto",
+      "multi_act_source_count": 4,
+      "date_is_article_date": true
     },
     {
       "source_key": "guardian",
@@ -415,7 +451,11 @@
         "durable_keys": {}
       },
       "_origin_file": "guardian_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 228
+      "_origin_index": 228,
+      "act_identity": "",
+      "act_key_dateless": "trump|filed motion to delay judgment payment",
+      "multi_act_source_count": 1,
+      "date_is_article_date": false
     },
     {
       "source_key": "outloud",
@@ -448,7 +488,11 @@
         "durable_keys": {}
       },
       "_origin_file": "outloud_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 4
+      "_origin_index": 4,
+      "act_identity": "",
+      "act_key_dateless": "scotus|ruled on transgender athlete eligibility",
+      "multi_act_source_count": 4,
+      "date_is_article_date": true
     },
     {
       "source_key": "50501",
@@ -482,7 +526,11 @@
         "durable_keys": {}
       },
       "_origin_file": "50501_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 41
+      "_origin_index": 41,
+      "act_identity": "",
+      "act_key_dateless": "d c government|issued air quality alert",
+      "multi_act_source_count": 5,
+      "date_is_article_date": false
     },
     {
       "source_key": "50501",
@@ -517,7 +565,11 @@
         "durable_keys": {}
       },
       "_origin_file": "50501_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 44
+      "_origin_index": 44,
+      "act_identity": "",
+      "act_key_dateless": "gun violence archive reporting entity|documented mass shooting statistics",
+      "multi_act_source_count": 5,
+      "date_is_article_date": false
     },
     {
       "source_key": "meidas",
@@ -551,7 +603,11 @@
         "durable_keys": {}
       },
       "_origin_file": "meidas_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 337
+      "_origin_index": 337,
+      "act_identity": "",
+      "act_key_dateless": "dc office of unified communications|reported emergency call volume",
+      "multi_act_source_count": 14,
+      "date_is_article_date": false
     },
     {
       "source_key": "outloud",
@@ -585,7 +641,11 @@
         "durable_keys": {}
       },
       "_origin_file": "outloud_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 5
+      "_origin_index": 5,
+      "act_identity": "",
+      "act_key_dateless": "ice|conducted mass arrest surge",
+      "multi_act_source_count": 4,
+      "date_is_article_date": true
     },
     {
       "source_key": "democracydocket",
@@ -616,7 +676,11 @@
         "durable_keys": {}
       },
       "_origin_file": "democracydocket_events_2026-07-04_2026-07-10.json",
-      "_origin_index": 1
+      "_origin_index": 1,
+      "act_identity": "",
+      "act_key_dateless": "",
+      "multi_act_source_count": 1,
+      "date_is_article_date": false
     },
     {
       "source_key": "meidas",
@@ -651,7 +715,11 @@
         "durable_keys": {}
       },
       "_origin_file": "meidas_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 333
+      "_origin_index": 333,
+      "act_identity": "",
+      "act_key_dateless": "trump|promoted voter id requirement",
+      "multi_act_source_count": 14,
+      "date_is_article_date": false
     },
     {
       "source_key": "50501",
@@ -682,7 +750,11 @@
         "durable_keys": {}
       },
       "_origin_file": "50501_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 43
+      "_origin_index": 43,
+      "act_identity": "",
+      "act_key_dateless": "women s march veterans against fascism|organized counter protests",
+      "multi_act_source_count": 5,
+      "date_is_article_date": false
     },
     {
       "source_key": "50501",
@@ -716,7 +788,11 @@
         "durable_keys": {}
       },
       "_origin_file": "50501_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 40
+      "_origin_index": 40,
+      "act_identity": "",
+      "act_key_dateless": "trump|delivered campaign speech at national event",
+      "multi_act_source_count": 5,
+      "date_is_article_date": false
     },
     {
       "source_key": "50501",
@@ -750,7 +826,11 @@
         "durable_keys": {}
       },
       "_origin_file": "50501_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 42
+      "_origin_index": 42,
+      "act_identity": "",
+      "act_key_dateless": "patriot front|conducted public march",
+      "multi_act_source_count": 5,
+      "date_is_article_date": false
     },
     {
       "source_key": "hcr",
@@ -785,7 +865,11 @@
         "durable_keys": {}
       },
       "_origin_file": "hcr_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 133
+      "_origin_index": 133,
+      "act_identity": "",
+      "act_key_dateless": "patriot front|marched in washington d c",
+      "multi_act_source_count": 1,
+      "date_is_article_date": false
     },
     {
       "source_key": "hcr",
@@ -820,7 +904,11 @@
         "durable_keys": {}
       },
       "_origin_file": "hcr_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 134
+      "_origin_index": 134,
+      "act_identity": "",
+      "act_key_dateless": "white house|declined to condemn white supremacist march",
+      "multi_act_source_count": 1,
+      "date_is_article_date": false
     },
     {
       "source_key": "meidas",
@@ -855,7 +943,11 @@
         "durable_keys": {}
       },
       "_origin_file": "meidas_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 326
+      "_origin_index": 326,
+      "act_identity": "",
+      "act_key_dateless": "jake lang|protested at supreme court",
+      "multi_act_source_count": 14,
+      "date_is_article_date": false
     },
     {
       "source_key": "meidas",
@@ -890,7 +982,11 @@
         "durable_keys": {}
       },
       "_origin_file": "meidas_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 325
+      "_origin_index": 325,
+      "act_identity": "",
+      "act_key_dateless": "patriot front|organized nationalist march",
+      "multi_act_source_count": 14,
+      "date_is_article_date": false
     },
     {
       "source_key": "zeteo",
@@ -924,7 +1020,11 @@
         "durable_keys": {}
       },
       "_origin_file": "zeteo_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 16
+      "_origin_index": 16,
+      "act_identity": "",
+      "act_key_dateless": "patriot front|organized white supremacist march",
+      "multi_act_source_count": 8,
+      "date_is_article_date": false
     },
     {
       "source_key": "meidas",
@@ -959,7 +1059,11 @@
         "durable_keys": {}
       },
       "_origin_file": "meidas_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 331
+      "_origin_index": 331,
+      "act_identity": "",
+      "act_key_dateless": "trump|made inflammatory comparison",
+      "multi_act_source_count": 14,
+      "date_is_article_date": false
     },
     {
       "source_key": "meidas",
@@ -994,7 +1098,11 @@
         "durable_keys": {}
       },
       "_origin_file": "meidas_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 332
+      "_origin_index": 332,
+      "act_identity": "",
+      "act_key_dateless": "trump|misquoted founding document",
+      "multi_act_source_count": 14,
+      "date_is_article_date": false
     },
     {
       "source_key": "meidas",
@@ -1029,7 +1137,11 @@
         "durable_keys": {}
       },
       "_origin_file": "meidas_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 334
+      "_origin_index": 334,
+      "act_identity": "",
+      "act_key_dateless": "trump|referenced personal legal cases",
+      "multi_act_source_count": 14,
+      "date_is_article_date": false
     },
     {
       "source_key": "popinfo",
@@ -1065,7 +1177,11 @@
         "durable_keys": {}
       },
       "_origin_file": "popinfo_events_2026-07-25_2026-08-07.json",
-      "_origin_index": 35
+      "_origin_index": 35,
+      "act_identity": "",
+      "act_key_dateless": "white house domestic policy council|released critical report",
+      "multi_act_source_count": 1,
+      "date_is_article_date": false
     },
     {
       "source_key": "meidas",
@@ -1100,7 +1216,11 @@
         "durable_keys": {}
       },
       "_origin_file": "meidas_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 328
+      "_origin_index": 328,
+      "act_identity": "",
+      "act_key_dateless": "trump administration|conducted toxic fireworks display",
+      "multi_act_source_count": 14,
+      "date_is_article_date": false
     },
     {
       "source_key": "outloud",
@@ -1134,7 +1254,11 @@
         "durable_keys": {}
       },
       "_origin_file": "outloud_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 6
+      "_origin_index": 6,
+      "act_identity": "",
+      "act_key_dateless": "trump|accumulated wealth in office",
+      "multi_act_source_count": 4,
+      "date_is_article_date": true
     },
     {
       "source_key": "guardian",
@@ -1169,7 +1293,11 @@
         "durable_keys": {}
       },
       "_origin_file": "guardian_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 85
+      "_origin_index": 85,
+      "act_identity": "",
+      "act_key_dateless": "fifa|arranged aircraft charter for team transport",
+      "multi_act_source_count": 1,
+      "date_is_article_date": false
     },
     {
       "source_key": "guardian",
@@ -1204,7 +1332,11 @@
         "durable_keys": {}
       },
       "_origin_file": "guardian_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 187
+      "_origin_index": 187,
+      "act_identity": "",
+      "act_key_dateless": "global crossing airlines|chartered flights to national team",
+      "multi_act_source_count": 1,
+      "date_is_article_date": false
     },
     {
       "source_key": "meidas",
@@ -1237,7 +1369,11 @@
         "durable_keys": {}
       },
       "_origin_file": "meidas_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 329
+      "_origin_index": 329,
+      "act_identity": "",
+      "act_key_dateless": "freedom 250 federal agencies|ordered emergency evacuation",
+      "multi_act_source_count": 14,
+      "date_is_article_date": false
     },
     {
       "source_key": "meidas",
@@ -1271,7 +1407,11 @@
         "durable_keys": {}
       },
       "_origin_file": "meidas_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 336
+      "_origin_index": 336,
+      "act_identity": "",
+      "act_key_dateless": "trump|dozed during event",
+      "multi_act_source_count": 14,
+      "date_is_article_date": false
     },
     {
       "source_key": "guardian",
@@ -1307,7 +1447,11 @@
         "durable_keys": {}
       },
       "_origin_file": "guardian_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 226
+      "_origin_index": 226,
+      "act_identity": "",
+      "act_key_dateless": "food and water watch center for biological diversity|issued public opposition statement",
+      "multi_act_source_count": 1,
+      "date_is_article_date": false
     },
     {
       "source_key": "guardian",
@@ -1338,7 +1482,11 @@
         "durable_keys": {}
       },
       "_origin_file": "guardian_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 223
+      "_origin_index": 223,
+      "act_identity": "",
+      "act_key_dateless": "u s justice department civil rights division|opened civil rights investigation",
+      "multi_act_source_count": 3,
+      "date_is_article_date": true
     },
     {
       "source_key": "guardian",
@@ -1372,7 +1520,11 @@
         "durable_keys": {}
       },
       "_origin_file": "guardian_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 208
+      "_origin_index": 208,
+      "act_identity": "",
+      "act_key_dateless": "newport beach police department|arrested 402 people deployed officers",
+      "multi_act_source_count": 1,
+      "date_is_article_date": false
     },
     {
       "source_key": "guardian",
@@ -1403,7 +1555,11 @@
         "durable_keys": {}
       },
       "_origin_file": "guardian_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 224
+      "_origin_index": 224,
+      "act_identity": "",
+      "act_key_dateless": "new york voters brooklyn and manhattan district|elected primary challenger",
+      "multi_act_source_count": 3,
+      "date_is_article_date": true
     },
     {
       "source_key": "guardian",
@@ -1434,7 +1590,11 @@
         "durable_keys": {}
       },
       "_origin_file": "guardian_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 219
+      "_origin_index": 219,
+      "act_identity": "",
+      "act_key_dateless": "mallory mcmorrow|withdrew from primary campaign",
+      "multi_act_source_count": 1,
+      "date_is_article_date": false
     },
     {
       "source_key": "guardian",
@@ -1465,7 +1625,11 @@
         "durable_keys": {}
       },
       "_origin_file": "guardian_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 229
+      "_origin_index": 229,
+      "act_identity": "",
+      "act_key_dateless": "mt olive pickle company|withdrew from state fair exhibit",
+      "multi_act_source_count": 1,
+      "date_is_article_date": false
     },
     {
       "source_key": "guardian",
@@ -1496,7 +1660,11 @@
         "durable_keys": {}
       },
       "_origin_file": "guardian_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 222
+      "_origin_index": 222,
+      "act_identity": "",
+      "act_key_dateless": "pro palestine protest group|confronted politician at public event",
+      "multi_act_source_count": 3,
+      "date_is_article_date": true
     },
     {
       "source_key": "hcr",
@@ -1527,7 +1695,11 @@
         "durable_keys": {}
       },
       "_origin_file": "hcr_events_2026-07-04_2026-07-10.json",
-      "_origin_index": 21
+      "_origin_index": 21,
+      "act_identity": "",
+      "act_key_dateless": "",
+      "multi_act_source_count": 13,
+      "date_is_article_date": true
     },
     {
       "source_key": "hcr",
@@ -1558,7 +1730,11 @@
         "durable_keys": {}
       },
       "_origin_file": "hcr_events_2026-07-04_2026-07-10.json",
-      "_origin_index": 30
+      "_origin_index": 30,
+      "act_identity": "",
+      "act_key_dateless": "",
+      "multi_act_source_count": 13,
+      "date_is_article_date": true
     },
     {
       "source_key": "hcr",
@@ -1589,7 +1765,11 @@
         "durable_keys": {}
       },
       "_origin_file": "hcr_events_2026-07-04_2026-07-10.json",
-      "_origin_index": 23
+      "_origin_index": 23,
+      "act_identity": "",
+      "act_key_dateless": "",
+      "multi_act_source_count": 13,
+      "date_is_article_date": true
     },
     {
       "source_key": "hcr",
@@ -1622,7 +1802,11 @@
         "durable_keys": {}
       },
       "_origin_file": "hcr_events_2026-07-04_2026-07-10.json",
-      "_origin_index": 24
+      "_origin_index": 24,
+      "act_identity": "",
+      "act_key_dateless": "",
+      "multi_act_source_count": 13,
+      "date_is_article_date": true
     },
     {
       "source_key": "hcr",
@@ -1653,7 +1837,11 @@
         "durable_keys": {}
       },
       "_origin_file": "hcr_events_2026-07-04_2026-07-10.json",
-      "_origin_index": 28
+      "_origin_index": 28,
+      "act_identity": "",
+      "act_key_dateless": "",
+      "multi_act_source_count": 13,
+      "date_is_article_date": true
     },
     {
       "source_key": "hcr",
@@ -1684,7 +1872,11 @@
         "durable_keys": {}
       },
       "_origin_file": "hcr_events_2026-07-04_2026-07-10.json",
-      "_origin_index": 25
+      "_origin_index": 25,
+      "act_identity": "",
+      "act_key_dateless": "",
+      "multi_act_source_count": 13,
+      "date_is_article_date": true
     },
     {
       "source_key": "hcr",
@@ -1717,7 +1909,11 @@
         "durable_keys": {}
       },
       "_origin_file": "hcr_events_2026-07-04_2026-07-10.json",
-      "_origin_index": 32
+      "_origin_index": 32,
+      "act_identity": "",
+      "act_key_dateless": "",
+      "multi_act_source_count": 13,
+      "date_is_article_date": true
     },
     {
       "source_key": "hcr",
@@ -1748,7 +1944,11 @@
         "durable_keys": {}
       },
       "_origin_file": "hcr_events_2026-07-04_2026-07-10.json",
-      "_origin_index": 26
+      "_origin_index": 26,
+      "act_identity": "",
+      "act_key_dateless": "",
+      "multi_act_source_count": 13,
+      "date_is_article_date": true
     },
     {
       "source_key": "hcr",
@@ -1781,7 +1981,11 @@
         "durable_keys": {}
       },
       "_origin_file": "hcr_events_2026-07-04_2026-07-10.json",
-      "_origin_index": 31
+      "_origin_index": 31,
+      "act_identity": "",
+      "act_key_dateless": "",
+      "multi_act_source_count": 13,
+      "date_is_article_date": true
     },
     {
       "source_key": "hcr",
@@ -1812,7 +2016,11 @@
         "durable_keys": {}
       },
       "_origin_file": "hcr_events_2026-07-04_2026-07-10.json",
-      "_origin_index": 22
+      "_origin_index": 22,
+      "act_identity": "",
+      "act_key_dateless": "",
+      "multi_act_source_count": 13,
+      "date_is_article_date": true
     },
     {
       "source_key": "hcr",
@@ -1843,7 +2051,11 @@
         "durable_keys": {}
       },
       "_origin_file": "hcr_events_2026-07-04_2026-07-10.json",
-      "_origin_index": 27
+      "_origin_index": 27,
+      "act_identity": "",
+      "act_key_dateless": "",
+      "multi_act_source_count": 13,
+      "date_is_article_date": true
     },
     {
       "source_key": "hcr",
@@ -1876,7 +2088,11 @@
         "durable_keys": {}
       },
       "_origin_file": "hcr_events_2026-07-04_2026-07-10.json",
-      "_origin_index": 29
+      "_origin_index": 29,
+      "act_identity": "",
+      "act_key_dateless": "",
+      "multi_act_source_count": 13,
+      "date_is_article_date": true
     },
     {
       "source_key": "guardian",
@@ -1907,7 +2123,11 @@
         "durable_keys": {}
       },
       "_origin_file": "guardian_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 220
+      "_origin_index": 220,
+      "act_identity": "",
+      "act_key_dateless": "the atlantic|republished historical essay",
+      "multi_act_source_count": 1,
+      "date_is_article_date": false
     },
     {
       "source_key": "hcr",
@@ -1942,7 +2162,11 @@
         "durable_keys": {}
       },
       "_origin_file": "hcr_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 137
+      "_origin_index": 137,
+      "act_identity": "",
+      "act_key_dateless": "doug burgum|claimed vandals damaged pool",
+      "multi_act_source_count": 2,
+      "date_is_article_date": false
     },
     {
       "source_key": "hcr",
@@ -1977,7 +2201,11 @@
         "durable_keys": {}
       },
       "_origin_file": "hcr_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 136
+      "_origin_index": 136,
+      "act_identity": "",
+      "act_key_dateless": "trump|posted 100 social media messages",
+      "multi_act_source_count": 1,
+      "date_is_article_date": false
     },
     {
       "source_key": "meidas",
@@ -2011,7 +2239,11 @@
         "durable_keys": {}
       },
       "_origin_file": "meidas_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 338
+      "_origin_index": 338,
+      "act_identity": "",
+      "act_key_dateless": "trump administration|left environmental contamination",
+      "multi_act_source_count": 14,
+      "date_is_article_date": false
     },
     {
       "source_key": "hcr",
@@ -2042,7 +2274,11 @@
         "durable_keys": {}
       },
       "_origin_file": "hcr_events_2026-07-04_2026-07-10.json",
-      "_origin_index": 33
+      "_origin_index": 33,
+      "act_identity": "",
+      "act_key_dateless": "",
+      "multi_act_source_count": 13,
+      "date_is_article_date": true
     },
     {
       "source_key": "meidas",
@@ -2076,7 +2312,11 @@
         "durable_keys": {}
       },
       "_origin_file": "meidas_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 324
+      "_origin_index": 324,
+      "act_identity": "",
+      "act_key_dateless": "trump|intervened to overturn world cup suspension",
+      "multi_act_source_count": 5,
+      "date_is_article_date": false
     },
     {
       "source_key": "zeteo",
@@ -2110,7 +2350,11 @@
         "durable_keys": {}
       },
       "_origin_file": "zeteo_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 17
+      "_origin_index": 17,
+      "act_identity": "",
+      "act_key_dateless": "trump|pressured fifa to reverse suspension",
+      "multi_act_source_count": 8,
+      "date_is_article_date": false
     },
     {
       "source_key": "meidas",
@@ -2144,7 +2388,11 @@
         "durable_keys": {}
       },
       "_origin_file": "meidas_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 339
+      "_origin_index": 339,
+      "act_identity": "",
+      "act_key_dateless": "metropolitan washington council of governments|issued air quality alert",
+      "multi_act_source_count": 1,
+      "date_is_article_date": false
     },
     {
       "source_key": "50501",
@@ -2178,7 +2426,11 @@
         "durable_keys": {}
       },
       "_origin_file": "50501_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 29
+      "_origin_index": 29,
+      "act_identity": "",
+      "act_key_dateless": "national park service|conducted fireworks display",
+      "multi_act_source_count": 12,
+      "date_is_article_date": false
     },
     {
       "source_key": "hcr",
@@ -2212,7 +2464,11 @@
         "durable_keys": {}
       },
       "_origin_file": "hcr_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 127
+      "_origin_index": 127,
+      "act_identity": "",
+      "act_key_dateless": "trump administration|renovated lincoln memorial reflecting pool",
+      "multi_act_source_count": 2,
+      "date_is_article_date": false
     },
     {
       "source_key": "hcr",
@@ -2247,7 +2503,11 @@
         "durable_keys": {}
       },
       "_origin_file": "hcr_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 118
+      "_origin_index": 118,
+      "act_identity": "",
+      "act_key_dateless": "trump|pressured fifa to overturn suspension",
+      "multi_act_source_count": 1,
+      "date_is_article_date": false
     },
     {
       "source_key": "hcr",
@@ -2282,7 +2542,11 @@
         "durable_keys": {}
       },
       "_origin_file": "hcr_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 125
+      "_origin_index": 125,
+      "act_identity": "",
+      "act_key_dateless": "house committee on natural resources|released fraud investigation report",
+      "multi_act_source_count": 2,
+      "date_is_article_date": false
     },
     {
       "source_key": "guardian",
@@ -2313,7 +2577,11 @@
         "durable_keys": {}
       },
       "_origin_file": "guardian_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 267
+      "_origin_index": 267,
+      "act_identity": "",
+      "act_key_dateless": "utah district court|conducted preliminary hearing",
+      "multi_act_source_count": 1,
+      "date_is_article_date": false
     },
     {
       "source_key": "guardian",
@@ -2346,7 +2614,11 @@
         "durable_keys": {}
       },
       "_origin_file": "guardian_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 200
+      "_origin_index": 200,
+      "act_identity": "",
+      "act_key_dateless": "trump|filed petition for reconsideration",
+      "multi_act_source_count": 2,
+      "date_is_article_date": false
     },
     {
       "source_key": "justsecurity",
@@ -2379,7 +2651,11 @@
         }
       },
       "_origin_file": "justsecurity_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 32
+      "_origin_index": 32,
+      "act_identity": "cldocket:17461792",
+      "act_key_dateless": "",
+      "multi_act_source_count": 1,
+      "date_is_article_date": false
     },
     {
       "source_key": "justsecurity",
@@ -2416,7 +2692,11 @@
         }
       },
       "_origin_file": "justsecurity_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 48
+      "_origin_index": 48,
+      "act_identity": "cldocket:73575925",
+      "act_key_dateless": "david streever|filed first amendment complaint",
+      "multi_act_source_count": 1,
+      "date_is_article_date": false
     },
     {
       "source_key": "justsecurity",
@@ -2452,7 +2732,11 @@
         }
       },
       "_origin_file": "justsecurity_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 185
+      "_origin_index": 185,
+      "act_identity": "cldocket:73578893",
+      "act_key_dateless": "angelica paola trilleras gomez and jonathan alan liao|filed complaint challenging waiver denial",
+      "multi_act_source_count": 1,
+      "date_is_article_date": false
     },
     {
       "source_key": "justsecurity",
@@ -2485,7 +2769,11 @@
         }
       },
       "_origin_file": "justsecurity_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 5
+      "_origin_index": 5,
+      "act_identity": "cldocket:73428721",
+      "act_key_dateless": "",
+      "multi_act_source_count": 2,
+      "date_is_article_date": false
     },
     {
       "source_key": "scotusblog",
@@ -2519,7 +2807,11 @@
         "durable_keys": {}
       },
       "_origin_file": "scotusblog_events_2026-07-04_2026-07-10.json",
-      "_origin_index": 0
+      "_origin_index": 0,
+      "act_identity": "",
+      "act_key_dateless": "",
+      "multi_act_source_count": 1,
+      "date_is_article_date": false
     },
     {
       "source_key": "scotusorders",
@@ -2550,7 +2842,11 @@
         "durable_keys": {}
       },
       "_origin_file": "scotusorders_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 2
+      "_origin_index": 2,
+      "act_identity": "",
+      "act_key_dateless": "scotus|denied stay vacation application",
+      "multi_act_source_count": 1,
+      "date_is_article_date": false
     },
     {
       "source_key": "scotusorders",
@@ -2581,7 +2877,11 @@
         "durable_keys": {}
       },
       "_origin_file": "scotusorders_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 3
+      "_origin_index": 3,
+      "act_identity": "",
+      "act_key_dateless": "scotus|denied application to vacate stay",
+      "multi_act_source_count": 1,
+      "date_is_article_date": false
     },
     {
       "source_key": "meidas",
@@ -2614,7 +2914,11 @@
         "durable_keys": {}
       },
       "_origin_file": "meidas_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 321
+      "_origin_index": 321,
+      "act_identity": "",
+      "act_key_dateless": "graham platner|faced sexual assault allegations",
+      "multi_act_source_count": 5,
+      "date_is_article_date": true
     },
     {
       "source_key": "meidas",
@@ -2645,7 +2949,11 @@
         "durable_keys": {}
       },
       "_origin_file": "meidas_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 320
+      "_origin_index": 320,
+      "act_identity": "",
+      "act_key_dateless": "mallory mcmorrow|withdrew from primary race",
+      "multi_act_source_count": 5,
+      "date_is_article_date": false
     },
     {
       "source_key": "federalregister",
@@ -2678,7 +2986,11 @@
         }
       },
       "_origin_file": "federalregister_events_2026-07-04_2026-07-10.json",
-      "_origin_index": 16
+      "_origin_index": 16,
+      "act_identity": "fr:2026-13593",
+      "act_key_dateless": "",
+      "multi_act_source_count": 1,
+      "date_is_article_date": false
     },
     {
       "source_key": "hcr",
@@ -2711,7 +3023,11 @@
         "durable_keys": {}
       },
       "_origin_file": "hcr_events_2026-07-04_2026-07-10.json",
-      "_origin_index": 20
+      "_origin_index": 20,
+      "act_identity": "",
+      "act_key_dateless": "",
+      "multi_act_source_count": 1,
+      "date_is_article_date": false
     },
     {
       "source_key": "hcr",
@@ -2746,7 +3062,11 @@
         "durable_keys": {}
       },
       "_origin_file": "hcr_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 132
+      "_origin_index": 132,
+      "act_identity": "",
+      "act_key_dateless": "trump|posted self promotional video",
+      "multi_act_source_count": 3,
+      "date_is_article_date": true
     },
     {
       "source_key": "hcr",
@@ -2781,7 +3101,11 @@
         "durable_keys": {}
       },
       "_origin_file": "hcr_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 128
+      "_origin_index": 128,
+      "act_identity": "",
+      "act_key_dateless": "white house officials|deleted unflattering images from social media",
+      "multi_act_source_count": 1,
+      "date_is_article_date": false
     },
     {
       "source_key": "meidas",
@@ -2815,7 +3139,11 @@
         "durable_keys": {}
       },
       "_origin_file": "meidas_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 323
+      "_origin_index": 323,
+      "act_identity": "",
+      "act_key_dateless": "michael cohen|secured radio broadcasting position",
+      "multi_act_source_count": 5,
+      "date_is_article_date": true
     },
     {
       "source_key": "popinfo",
@@ -2849,7 +3177,11 @@
         "durable_keys": {}
       },
       "_origin_file": "popinfo_events_2026-07-04_2026-07-10.json",
-      "_origin_index": 8
+      "_origin_index": 8,
+      "act_identity": "",
+      "act_key_dateless": "",
+      "multi_act_source_count": 3,
+      "date_is_article_date": true
     },
     {
       "source_key": "federalregister",
@@ -2888,7 +3220,11 @@
         }
       },
       "_origin_file": "federalregister_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 42
+      "_origin_index": 42,
+      "act_identity": "fr:2026-13637",
+      "act_key_dateless": "equal employment opportunity commission|rescinded affirmative action guidelines",
+      "multi_act_source_count": 1,
+      "date_is_article_date": false
     },
     {
       "source_key": "federalregister",
@@ -2921,7 +3257,11 @@
         }
       },
       "_origin_file": "federalregister_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 130
+      "_origin_index": 130,
+      "act_identity": "fr:2026-14330",
+      "act_key_dateless": "epa|approved state negative declaration",
+      "multi_act_source_count": 1,
+      "date_is_article_date": false
     },
     {
       "source_key": "federalregister",
@@ -2954,7 +3294,11 @@
         }
       },
       "_origin_file": "federalregister_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 143
+      "_origin_index": 143,
+      "act_identity": "fr:2026-13615",
+      "act_key_dateless": "epa|published draft guidance and opened public comment period",
+      "multi_act_source_count": 1,
+      "date_is_article_date": false
     },
     {
       "source_key": "federalregister",
@@ -2987,7 +3331,11 @@
         }
       },
       "_origin_file": "federalregister_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 146
+      "_origin_index": 146,
+      "act_identity": "fr:2026-13550",
+      "act_key_dateless": "epa|finalized emission standards",
+      "multi_act_source_count": 1,
+      "date_is_article_date": false
     },
     {
       "source_key": "federalregister",
@@ -3020,7 +3368,11 @@
         }
       },
       "_origin_file": "federalregister_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 144
+      "_origin_index": 144,
+      "act_identity": "fr:2026-13553",
+      "act_key_dateless": "epa|received pesticide registration applications",
+      "multi_act_source_count": 1,
+      "date_is_article_date": false
     },
     {
       "source_key": "federalregister",
@@ -3053,7 +3405,11 @@
         }
       },
       "_origin_file": "federalregister_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 81
+      "_origin_index": 81,
+      "act_identity": "fr:2026-13518",
+      "act_key_dateless": "fcc|prohibited importation and marketing of equipment",
+      "multi_act_source_count": 1,
+      "date_is_article_date": false
     },
     {
       "source_key": "federalregister",
@@ -3086,7 +3442,11 @@
         }
       },
       "_origin_file": "federalregister_events_2026-07-04_2026-07-10.json",
-      "_origin_index": 15
+      "_origin_index": 15,
+      "act_identity": "fr:2026-13601",
+      "act_key_dateless": "",
+      "multi_act_source_count": 1,
+      "date_is_article_date": false
     },
     {
       "source_key": "federalregister",
@@ -3119,7 +3479,11 @@
         }
       },
       "_origin_file": "federalregister_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 295
+      "_origin_index": 295,
+      "act_identity": "fr:2026-13592",
+      "act_key_dateless": "fda|corrected contact information",
+      "multi_act_source_count": 1,
+      "date_is_article_date": false
     },
     {
       "source_key": "federalregister",
@@ -3152,7 +3516,11 @@
         }
       },
       "_origin_file": "federalregister_events_2026-07-04_2026-07-10.json",
-      "_origin_index": 40
+      "_origin_index": 40,
+      "act_identity": "fr:2026-13492",
+      "act_key_dateless": "",
+      "multi_act_source_count": 1,
+      "date_is_article_date": false
     },
     {
       "source_key": "federalregister",
@@ -3185,7 +3553,11 @@
         }
       },
       "_origin_file": "federalregister_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 298
+      "_origin_index": 298,
+      "act_identity": "fr:2026-13519",
+      "act_key_dateless": "fda|submitted information collection to omb",
+      "multi_act_source_count": 1,
+      "date_is_article_date": false
     },
     {
       "source_key": "federalregister",
@@ -3218,7 +3590,11 @@
         }
       },
       "_origin_file": "federalregister_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 341
+      "_origin_index": 341,
+      "act_identity": "fr:2026-11062",
+      "act_key_dateless": "fda|withdrew drug application approvals",
+      "multi_act_source_count": 1,
+      "date_is_article_date": false
     },
     {
       "source_key": "hcr",
@@ -3249,7 +3625,11 @@
         "durable_keys": {}
       },
       "_origin_file": "hcr_events_2026-07-04_2026-07-10.json",
-      "_origin_index": 13
+      "_origin_index": 13,
+      "act_identity": "",
+      "act_key_dateless": "",
+      "multi_act_source_count": 1,
+      "date_is_article_date": false
     },
     {
       "source_key": "hcr",
@@ -3284,7 +3664,11 @@
         "durable_keys": {}
       },
       "_origin_file": "hcr_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 126
+      "_origin_index": 126,
+      "act_identity": "",
+      "act_key_dateless": "trump administration|diverted appropriations to contractors",
+      "multi_act_source_count": 2,
+      "date_is_article_date": false
     },
     {
       "source_key": "hcr",
@@ -3319,7 +3703,11 @@
         "durable_keys": {}
       },
       "_origin_file": "hcr_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 124
+      "_origin_index": 124,
+      "act_identity": "",
+      "act_key_dateless": "trump|profited from memecoin collapse",
+      "multi_act_source_count": 1,
+      "date_is_article_date": false
     },
     {
       "source_key": "justice",
@@ -3350,7 +3738,11 @@
         "durable_keys": {}
       },
       "_origin_file": "justice_events_2025-01-20_2026-08-14.json",
-      "_origin_index": 486
+      "_origin_index": 486,
+      "act_identity": "",
+      "act_key_dateless": "the department of justice|announced justice department reaches proposed settlement with willow bridge one of america s largest landlords to resolve information sharing and algorithmic coordination claims",
+      "multi_act_source_count": 1,
+      "date_is_article_date": false
     },
     {
       "source_key": "popinfo",
@@ -3384,7 +3776,11 @@
         "durable_keys": {}
       },
       "_origin_file": "popinfo_events_2026-07-04_2026-07-10.json",
-      "_origin_index": 9
+      "_origin_index": 9,
+      "act_identity": "",
+      "act_key_dateless": "",
+      "multi_act_source_count": 3,
+      "date_is_article_date": true
     },
     {
       "source_key": "whitehouse",
@@ -3418,7 +3814,11 @@
         "durable_keys": {}
       },
       "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
-      "_origin_index": 33
+      "_origin_index": 33,
+      "act_identity": "",
+      "act_key_dateless": "the white house|published a release titled president trump rings in trump accounts with historic opening bell ceremony from the oval office",
+      "multi_act_source_count": 1,
+      "date_is_article_date": false
     },
     {
       "source_key": "hcr",
@@ -3452,7 +3852,11 @@
         "durable_keys": {}
       },
       "_origin_file": "hcr_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 123
+      "_origin_index": 123,
+      "act_identity": "",
+      "act_key_dateless": "trump|disclosed cryptocurrency profits",
+      "multi_act_source_count": 1,
+      "date_is_article_date": false
     },
     {
       "source_key": "federalregister",
@@ -3485,7 +3889,11 @@
         }
       },
       "_origin_file": "federalregister_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 245
+      "_origin_index": 245,
+      "act_identity": "fr:2026-13561",
+      "act_key_dateless": "cdc|invited public comment on data collection",
+      "multi_act_source_count": 1,
+      "date_is_article_date": false
     },
     {
       "source_key": "federalregister",
@@ -3518,7 +3926,11 @@
         }
       },
       "_origin_file": "federalregister_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 246
+      "_origin_index": 246,
+      "act_identity": "fr:2026-13559",
+      "act_key_dateless": "cdc|submitted data collection for public comment",
+      "multi_act_source_count": 1,
+      "date_is_article_date": false
     },
     {
       "source_key": "federalregister",
@@ -3551,7 +3963,11 @@
         }
       },
       "_origin_file": "federalregister_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 297
+      "_origin_index": 297,
+      "act_identity": "fr:2026-13533",
+      "act_key_dateless": "fda|solicited public comment on information collection",
+      "multi_act_source_count": 1,
+      "date_is_article_date": false
     },
     {
       "source_key": "federalregister",
@@ -3584,7 +4000,11 @@
         }
       },
       "_origin_file": "federalregister_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 296
+      "_origin_index": 296,
+      "act_identity": "fr:2026-13534",
+      "act_key_dateless": "fda|submitted information collection notice",
+      "multi_act_source_count": 1,
+      "date_is_article_date": false
     },
     {
       "source_key": "meidas",
@@ -3617,7 +4037,11 @@
         "durable_keys": {}
       },
       "_origin_file": "meidas_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 322
+      "_origin_index": 322,
+      "act_identity": "",
+      "act_key_dateless": "mitch mcconnell|hospitalized with limited disclosure",
+      "multi_act_source_count": 5,
+      "date_is_article_date": true
     },
     {
       "source_key": "noah",
@@ -3651,7 +4075,11 @@
         "durable_keys": {}
       },
       "_origin_file": "noah_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 4
+      "_origin_index": 4,
+      "act_identity": "",
+      "act_key_dateless": "chinese national bureau of statistics|reported inflated growth figures",
+      "multi_act_source_count": 2,
+      "date_is_article_date": false
     },
     {
       "source_key": "noah",
@@ -3685,7 +4113,11 @@
         "durable_keys": {}
       },
       "_origin_file": "noah_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 3
+      "_origin_index": 3,
+      "act_identity": "",
+      "act_key_dateless": "chinese government|revised unemployment statistics",
+      "multi_act_source_count": 2,
+      "date_is_article_date": false
     },
     {
       "source_key": "popinfo",
@@ -3719,7 +4151,11 @@
         "durable_keys": {}
       },
       "_origin_file": "popinfo_events_2026-07-04_2026-07-10.json",
-      "_origin_index": 7
+      "_origin_index": 7,
+      "act_identity": "",
+      "act_key_dateless": "",
+      "multi_act_source_count": 3,
+      "date_is_article_date": true
     },
     {
       "source_key": "hcr",
@@ -3753,7 +4189,11 @@
         "durable_keys": {}
       },
       "_origin_file": "hcr_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 121
+      "_origin_index": 121,
+      "act_identity": "",
+      "act_key_dateless": "iran s military command|warned ships against unapproved routes",
+      "multi_act_source_count": 1,
+      "date_is_article_date": false
     },
     {
       "source_key": "hcr",
@@ -3787,7 +4227,11 @@
         "durable_keys": {}
       },
       "_origin_file": "hcr_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 116
+      "_origin_index": 116,
+      "act_identity": "",
+      "act_key_dateless": "trump administration|pledged earthquake aid to venezuela",
+      "multi_act_source_count": 1,
+      "date_is_article_date": false
     },
     {
       "source_key": "meidas",
@@ -3821,7 +4265,11 @@
         "durable_keys": {}
       },
       "_origin_file": "meidas_events_2026-07-04_2026-07-10.json",
-      "_origin_index": 38
+      "_origin_index": 38,
+      "act_identity": "",
+      "act_key_dateless": "",
+      "multi_act_source_count": 4,
+      "date_is_article_date": true
     },
     {
       "source_key": "meidas",
@@ -3854,7 +4302,11 @@
         "durable_keys": {}
       },
       "_origin_file": "meidas_events_2026-07-04_2026-07-10.json",
-      "_origin_index": 41
+      "_origin_index": 41,
+      "act_identity": "",
+      "act_key_dateless": "",
+      "multi_act_source_count": 4,
+      "date_is_article_date": true
     },
     {
       "source_key": "meidas",
@@ -3888,7 +4340,11 @@
         "durable_keys": {}
       },
       "_origin_file": "meidas_events_2026-07-04_2026-07-10.json",
-      "_origin_index": 39
+      "_origin_index": 39,
+      "act_identity": "",
+      "act_key_dateless": "",
+      "multi_act_source_count": 4,
+      "date_is_article_date": true
     },
     {
       "source_key": "meidas",
@@ -3922,7 +4378,11 @@
         "durable_keys": {}
       },
       "_origin_file": "meidas_events_2026-07-04_2026-07-10.json",
-      "_origin_index": 40
+      "_origin_index": 40,
+      "act_identity": "",
+      "act_key_dateless": "",
+      "multi_act_source_count": 4,
+      "date_is_article_date": true
     },
     {
       "source_key": "defense",
@@ -3953,7 +4413,11 @@
         "durable_keys": {}
       },
       "_origin_file": "defense_events_2025-01-20_2026-08-21.json",
-      "_origin_index": 44
+      "_origin_index": 44,
+      "act_identity": "",
+      "act_key_dateless": "the department of war|issued a press release titled launch your cyber career department of war cyber apprenticeship applications now live",
+      "multi_act_source_count": 1,
+      "date_is_article_date": false
     },
     {
       "source_key": "hcr",
@@ -3989,7 +4453,11 @@
         "durable_keys": {}
       },
       "_origin_file": "hcr_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 117
+      "_origin_index": 117,
+      "act_identity": "",
+      "act_key_dateless": "trump administration|extracted oil revenue from venezuela",
+      "multi_act_source_count": 1,
+      "date_is_article_date": false
     },
     {
       "source_key": "federalregister",
@@ -4022,7 +4490,11 @@
         }
       },
       "_origin_file": "federalregister_events_2026-07-04_2026-07-10.json",
-      "_origin_index": 29
+      "_origin_index": 29,
+      "act_identity": "fr:2026-13560",
+      "act_key_dateless": "",
+      "multi_act_source_count": 1,
+      "date_is_article_date": false
     },
     {
       "source_key": "federalregister",
@@ -4055,7 +4527,11 @@
         }
       },
       "_origin_file": "federalregister_events_2026-07-04_2026-07-10.json",
-      "_origin_index": 30
+      "_origin_index": 30,
+      "act_identity": "fr:2026-13558",
+      "act_key_dateless": "",
+      "multi_act_source_count": 1,
+      "date_is_article_date": false
     },
     {
       "source_key": "50501",
@@ -4089,7 +4565,11 @@
         "durable_keys": {}
       },
       "_origin_file": "50501_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 21
+      "_origin_index": 21,
+      "act_identity": "",
+      "act_key_dateless": "treasury department|abandoned tubman currency plan",
+      "multi_act_source_count": 12,
+      "date_is_article_date": false
     },
     {
       "source_key": "guardian",
@@ -4123,7 +4603,11 @@
         "durable_keys": {}
       },
       "_origin_file": "guardian_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 214
+      "_origin_index": 214,
+      "act_identity": "",
+      "act_key_dateless": "markwayne mullin|signaled intent to terminate tps protections",
+      "multi_act_source_count": 3,
+      "date_is_article_date": true
     },
     {
       "source_key": "justice",
@@ -4157,7 +4641,11 @@
         "durable_keys": {}
       },
       "_origin_file": "justice_events_2025-01-20_2026-08-14.json",
-      "_origin_index": 489
+      "_origin_index": 489,
+      "act_identity": "",
+      "act_key_dateless": "the department of justice|announced justice department dismisses alaska lawsuit conceding biden era oil and gas leasing program violated the law",
+      "multi_act_source_count": 1,
+      "date_is_article_date": false
     },
     {
       "source_key": "hcr",
@@ -4192,7 +4680,11 @@
         "durable_keys": {}
       },
       "_origin_file": "hcr_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 120
+      "_origin_index": 120,
+      "act_identity": "",
+      "act_key_dateless": "mike johnson|announced plan to pass voter suppression bill",
+      "multi_act_source_count": 1,
+      "date_is_article_date": false
     },
     {
       "source_key": "meidas",
@@ -4223,7 +4715,11 @@
         "durable_keys": {}
       },
       "_origin_file": "meidas_events_2026-07-04_2026-07-10.json",
-      "_origin_index": 30
+      "_origin_index": 30,
+      "act_identity": "",
+      "act_key_dateless": "",
+      "multi_act_source_count": 4,
+      "date_is_article_date": true
     },
     {
       "source_key": "guardian",
@@ -4259,7 +4755,11 @@
         "durable_keys": {}
       },
       "_origin_file": "guardian_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 210
+      "_origin_index": 210,
+      "act_identity": "",
+      "act_key_dateless": "11th circuit court of appeals|struck down law provision",
+      "multi_act_source_count": 1,
+      "date_is_article_date": false
     },
     {
       "source_key": "guardian",
@@ -4290,7 +4790,11 @@
         "durable_keys": {}
       },
       "_origin_file": "guardian_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 217
+      "_origin_index": 217,
+      "act_identity": "",
+      "act_key_dateless": "utah prosecutors|presented evidence at preliminary hearing",
+      "multi_act_source_count": 1,
+      "date_is_article_date": false
     },
     {
       "source_key": "guardian",
@@ -4324,7 +4828,11 @@
         "durable_keys": {}
       },
       "_origin_file": "guardian_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 216
+      "_origin_index": 216,
+      "act_identity": "",
+      "act_key_dateless": "scotus|approved asylum metering policy",
+      "multi_act_source_count": 3,
+      "date_is_article_date": true
     },
     {
       "source_key": "guardian",
@@ -4359,7 +4867,11 @@
         "durable_keys": {}
       },
       "_origin_file": "guardian_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 213
+      "_origin_index": 213,
+      "act_identity": "",
+      "act_key_dateless": "scotus|ruled tps determinations exempt from judicial review",
+      "multi_act_source_count": 3,
+      "date_is_article_date": false
     },
     {
       "source_key": "justice",
@@ -4393,7 +4905,11 @@
         "durable_keys": {}
       },
       "_origin_file": "justice_events_2025-01-20_2026-08-14.json",
-      "_origin_index": 490
+      "_origin_index": 490,
+      "act_identity": "",
+      "act_key_dateless": "the department of justice|announced court agrees with justice department that environmental groups lack standing to challenge deepwater port",
+      "multi_act_source_count": 1,
+      "date_is_article_date": false
     },
     {
       "source_key": "justice",
@@ -4424,7 +4940,11 @@
         "durable_keys": {}
       },
       "_origin_file": "justice_events_2025-01-20_2026-08-14.json",
-      "_origin_index": 488
+      "_origin_index": 488,
+      "act_identity": "",
+      "act_key_dateless": "the department of justice|announced united states to pay 180 million to municipality of anchorage alaska to resolve long running port litigation that began in 2014",
+      "multi_act_source_count": 1,
+      "date_is_article_date": false
     },
     {
       "source_key": "justsecurity",
@@ -4460,7 +4980,11 @@
         }
       },
       "_origin_file": "justsecurity_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 49
+      "_origin_index": 49,
+      "act_identity": "cldocket:73583020",
+      "act_key_dateless": "amanda mcgonigle|filed first amendment complaint",
+      "multi_act_source_count": 1,
+      "date_is_article_date": false
     },
     {
       "source_key": "justsecurity",
@@ -4497,7 +5021,11 @@
         }
       },
       "_origin_file": "justsecurity_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 216
+      "_origin_index": 216,
+      "act_identity": "cldocket:73581390",
+      "act_key_dateless": "iranian american legal defense fund|filed administrative law complaint",
+      "multi_act_source_count": 1,
+      "date_is_article_date": false
     },
     {
       "source_key": "justsecurity",
@@ -4530,7 +5058,11 @@
         }
       },
       "_origin_file": "justsecurity_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 29
+      "_origin_index": 29,
+      "act_identity": "cldocket:73141063",
+      "act_key_dateless": "",
+      "multi_act_source_count": 1,
+      "date_is_article_date": false
     },
     {
       "source_key": "meidas",
@@ -4563,7 +5095,11 @@
         "durable_keys": {}
       },
       "_origin_file": "meidas_events_2026-07-04_2026-07-10.json",
-      "_origin_index": 31
+      "_origin_index": 31,
+      "act_identity": "",
+      "act_key_dateless": "",
+      "multi_act_source_count": 4,
+      "date_is_article_date": true
     },
     {
       "source_key": "50501",
@@ -4598,7 +5134,11 @@
         "durable_keys": {}
       },
       "_origin_file": "50501_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 16
+      "_origin_index": 16,
+      "act_identity": "",
+      "act_key_dateless": "ice|shot and killed person",
+      "multi_act_source_count": 1,
+      "date_is_article_date": false
     },
     {
       "source_key": "50501",
@@ -4632,7 +5172,11 @@
         "durable_keys": {}
       },
       "_origin_file": "50501_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 8
+      "_origin_index": 8,
+      "act_identity": "",
+      "act_key_dateless": "ice|shot and killed civilian",
+      "multi_act_source_count": 2,
+      "date_is_article_date": false
     },
     {
       "source_key": "guardian",
@@ -4668,7 +5212,11 @@
         "durable_keys": {}
       },
       "_origin_file": "guardian_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 117
+      "_origin_index": 117,
+      "act_identity": "",
+      "act_key_dateless": "ice|fatally shot non targeted civilians",
+      "multi_act_source_count": 1,
+      "date_is_article_date": false
     },
     {
       "source_key": "guardian",
@@ -4703,7 +5251,11 @@
         "durable_keys": {}
       },
       "_origin_file": "guardian_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 181
+      "_origin_index": 181,
+      "act_identity": "",
+      "act_key_dateless": "ice|shot and killed civilian during traffic stop",
+      "multi_act_source_count": 1,
+      "date_is_article_date": false
     },
     {
       "source_key": "guardian",
@@ -4737,7 +5289,11 @@
         "durable_keys": {}
       },
       "_origin_file": "guardian_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 66
+      "_origin_index": 66,
+      "act_identity": "",
+      "act_key_dateless": "ice officer|fatally shot civilian during traffic stop",
+      "multi_act_source_count": 1,
+      "date_is_article_date": false
     },
     {
       "source_key": "hcr",
@@ -4772,7 +5328,11 @@
         "durable_keys": {}
       },
       "_origin_file": "hcr_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 31
+      "_origin_index": 31,
+      "act_identity": "",
+      "act_key_dateless": "ice|shot and killed immigrant",
+      "multi_act_source_count": 1,
+      "date_is_article_date": false
     },
     {
       "source_key": "justice",
@@ -4803,7 +5363,11 @@
         "durable_keys": {}
       },
       "_origin_file": "justice_events_2025-01-20_2026-08-14.json",
-      "_origin_index": 487
+      "_origin_index": 487,
+      "act_identity": "",
+      "act_key_dateless": "the department of justice|announced justice department announces completion of compliance review after minnesota repeals grant program based on unlawful dei criteria",
+      "multi_act_source_count": 1,
+      "date_is_article_date": false
     },
     {
       "source_key": "popinfo",
@@ -4838,7 +5402,11 @@
         "durable_keys": {}
       },
       "_origin_file": "popinfo_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 18
+      "_origin_index": 18,
+      "act_identity": "",
+      "act_key_dateless": "ice officer|fatally shot individual",
+      "multi_act_source_count": 1,
+      "date_is_article_date": false
     },
     {
       "source_key": "guardian",
@@ -4869,7 +5437,11 @@
         "durable_keys": {}
       },
       "_origin_file": "guardian_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 211
+      "_origin_index": 211,
+      "act_identity": "",
+      "act_key_dateless": "politico|reported sexual assault allegation",
+      "multi_act_source_count": 1,
+      "date_is_article_date": false
     },
     {
       "source_key": "meidas",
@@ -4900,7 +5472,11 @@
         "durable_keys": {}
       },
       "_origin_file": "meidas_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 319
+      "_origin_index": 319,
+      "act_identity": "",
+      "act_key_dateless": "graham platner|paused campaign fundraising and advertising",
+      "multi_act_source_count": 4,
+      "date_is_article_date": true
     },
     {
       "source_key": "guardian",
@@ -4931,7 +5507,11 @@
         "durable_keys": {}
       },
       "_origin_file": "guardian_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 72
+      "_origin_index": 72,
+      "act_identity": "",
+      "act_key_dateless": "magnolia park residents and community organizations|organized vigils and protests",
+      "multi_act_source_count": 2,
+      "date_is_article_date": false
     },
     {
       "source_key": "hcr",
@@ -4965,7 +5545,11 @@
         "durable_keys": {}
       },
       "_origin_file": "hcr_events_2026-07-04_2026-07-10.json",
-      "_origin_index": 10
+      "_origin_index": 10,
+      "act_identity": "",
+      "act_key_dateless": "",
+      "multi_act_source_count": 1,
+      "date_is_article_date": false
     },
     {
       "source_key": "defense",
@@ -4996,7 +5580,11 @@
         "durable_keys": {}
       },
       "_origin_file": "defense_events_2025-01-20_2026-08-21.json",
-      "_origin_index": 43
+      "_origin_index": 43,
+      "act_identity": "",
+      "act_key_dateless": "the department of war|issued a press release titled department of war invests 16m for 45nm silicon on insulator qualification",
+      "multi_act_source_count": 1,
+      "date_is_article_date": false
     },
     {
       "source_key": "federalregister",
@@ -5029,7 +5617,11 @@
         }
       },
       "_origin_file": "federalregister_events_2026-07-04_2026-07-10.json",
-      "_origin_index": 1
+      "_origin_index": 1,
+      "act_identity": "fr:2026-13705",
+      "act_key_dateless": "",
+      "multi_act_source_count": 1,
+      "date_is_article_date": false
     },
     {
       "source_key": "federalregister",
@@ -5062,7 +5654,11 @@
         }
       },
       "_origin_file": "federalregister_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 0
+      "_origin_index": 0,
+      "act_identity": "fr:2026-13886",
+      "act_key_dateless": "fbi|published corrective notice",
+      "multi_act_source_count": 1,
+      "date_is_article_date": false
     },
     {
       "source_key": "federalregister",
@@ -5095,7 +5691,11 @@
         }
       },
       "_origin_file": "federalregister_events_2026-07-04_2026-07-10.json",
-      "_origin_index": 34
+      "_origin_index": 34,
+      "act_identity": "fr:2026-13716",
+      "act_key_dateless": "",
+      "multi_act_source_count": 1,
+      "date_is_article_date": false
     },
     {
       "source_key": "federalregister",
@@ -5128,7 +5728,11 @@
         }
       },
       "_origin_file": "federalregister_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 340
+      "_origin_index": 340,
+      "act_identity": "fr:2026-11101",
+      "act_key_dateless": "fda|announced educational conference",
+      "multi_act_source_count": 1,
+      "date_is_article_date": false
     },
     {
       "source_key": "federalregister",
@@ -5161,7 +5765,11 @@
         }
       },
       "_origin_file": "federalregister_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 277
+      "_origin_index": 277,
+      "act_identity": "fr:2026-14986",
+      "act_key_dateless": "fda|classified medical device into class ii",
+      "multi_act_source_count": 1,
+      "date_is_article_date": false
     },
     {
       "source_key": "guardian",
@@ -5192,7 +5800,11 @@
         "durable_keys": {}
       },
       "_origin_file": "guardian_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 175
+      "_origin_index": 175,
+      "act_identity": "",
+      "act_key_dateless": "fetterman and mccormick|established joint fundraising committee",
+      "multi_act_source_count": 1,
+      "date_is_article_date": false
     },
     {
       "source_key": "federalregister",
@@ -5225,7 +5837,11 @@
         }
       },
       "_origin_file": "federalregister_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 37
+      "_origin_index": 37,
+      "act_identity": "fr:2026-13665",
+      "act_key_dateless": "census bureau|requested public comment on information collection",
+      "multi_act_source_count": 1,
+      "date_is_article_date": false
     },
     {
       "source_key": "justsecurity",
@@ -5261,7 +5877,11 @@
         }
       },
       "_origin_file": "justsecurity_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 314
+      "_origin_index": 314,
+      "act_identity": "cldocket:73581552",
+      "act_key_dateless": "center for biological diversity|filed foia complaint",
+      "multi_act_source_count": 1,
+      "date_is_article_date": false
     },
     {
       "source_key": "popinfo",
@@ -5295,7 +5915,11 @@
         "durable_keys": {}
       },
       "_origin_file": "popinfo_events_2026-07-04_2026-07-10.json",
-      "_origin_index": 6
+      "_origin_index": 6,
+      "act_identity": "",
+      "act_key_dateless": "",
+      "multi_act_source_count": 1,
+      "date_is_article_date": false
     },
     {
       "source_key": "hcr",
@@ -5329,7 +5953,11 @@
         "durable_keys": {}
       },
       "_origin_file": "hcr_events_2026-07-04_2026-07-10.json",
-      "_origin_index": 8
+      "_origin_index": 8,
+      "act_identity": "",
+      "act_key_dateless": "",
+      "multi_act_source_count": 1,
+      "date_is_article_date": false
     },
     {
       "source_key": "hcr",
@@ -5364,7 +5992,11 @@
         "durable_keys": {}
       },
       "_origin_file": "hcr_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 114
+      "_origin_index": 114,
+      "act_identity": "",
+      "act_key_dateless": "trump|criticized nato alliance at summit",
+      "multi_act_source_count": 2,
+      "date_is_article_date": false
     },
     {
       "source_key": "meidas",
@@ -5395,7 +6027,11 @@
         "durable_keys": {}
       },
       "_origin_file": "meidas_events_2026-07-04_2026-07-10.json",
-      "_origin_index": 32
+      "_origin_index": 32,
+      "act_identity": "",
+      "act_key_dateless": "",
+      "multi_act_source_count": 4,
+      "date_is_article_date": true
     },
     {
       "source_key": "meidas",
@@ -5430,7 +6066,11 @@
         "durable_keys": {}
       },
       "_origin_file": "meidas_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 318
+      "_origin_index": 318,
+      "act_identity": "",
+      "act_key_dateless": "trump|signaled intent to sell f 35s to turkey",
+      "multi_act_source_count": 4,
+      "date_is_article_date": true
     },
     {
       "source_key": "meidas",
@@ -5463,7 +6103,11 @@
         "durable_keys": {}
       },
       "_origin_file": "meidas_events_2026-07-04_2026-07-10.json",
-      "_origin_index": 29
+      "_origin_index": 29,
+      "act_identity": "",
+      "act_key_dateless": "",
+      "multi_act_source_count": 4,
+      "date_is_article_date": true
     },
     {
       "source_key": "meidas",
@@ -5498,7 +6142,11 @@
         "durable_keys": {}
       },
       "_origin_file": "meidas_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 317
+      "_origin_index": 317,
+      "act_identity": "",
+      "act_key_dateless": "trump|criticized nato allies and praised putin",
+      "multi_act_source_count": 4,
+      "date_is_article_date": true
     },
     {
       "source_key": "meidas",
@@ -5532,7 +6180,11 @@
         "durable_keys": {}
       },
       "_origin_file": "meidas_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 316
+      "_origin_index": 316,
+      "act_identity": "",
+      "act_key_dateless": "trump|meddled with fifa for player reinstatement",
+      "multi_act_source_count": 4,
+      "date_is_article_date": true
     },
     {
       "source_key": "guardian",
@@ -5567,7 +6219,11 @@
         "durable_keys": {}
       },
       "_origin_file": "guardian_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 142
+      "_origin_index": 142,
+      "act_identity": "",
+      "act_key_dateless": "ice|shot and killed civilian",
+      "multi_act_source_count": 1,
+      "date_is_article_date": false
     },
     {
       "source_key": "hcr",
@@ -5601,7 +6257,11 @@
         "durable_keys": {}
       },
       "_origin_file": "hcr_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 115
+      "_origin_index": 115,
+      "act_identity": "",
+      "act_key_dateless": "u s central command|launched military strikes against iran",
+      "multi_act_source_count": 2,
+      "date_is_article_date": false
     },
     {
       "source_key": "zeteo",
@@ -5636,7 +6296,11 @@
         "durable_keys": {}
       },
       "_origin_file": "zeteo_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 20
+      "_origin_index": 20,
+      "act_identity": "",
+      "act_key_dateless": "ice|shot and killed resident",
+      "multi_act_source_count": 8,
+      "date_is_article_date": false
     },
     {
       "source_key": "hcr",
@@ -5671,7 +6335,11 @@
         "durable_keys": {}
       },
       "_origin_file": "hcr_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 110
+      "_origin_index": 110,
+      "act_identity": "",
+      "act_key_dateless": "trump|made confused statements about world leaders",
+      "multi_act_source_count": 1,
+      "date_is_article_date": false
     },
     {
       "source_key": "meidas",
@@ -5706,7 +6374,11 @@
         "durable_keys": {}
       },
       "_origin_file": "meidas_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 287
+      "_origin_index": 287,
+      "act_identity": "",
+      "act_key_dateless": "trump|used alternative aircraft for security",
+      "multi_act_source_count": 12,
+      "date_is_article_date": false
     },
     {
       "source_key": "meidas",
@@ -5740,7 +6412,11 @@
         "durable_keys": {}
       },
       "_origin_file": "meidas_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 314
+      "_origin_index": 314,
+      "act_identity": "",
+      "act_key_dateless": "mitch mcconnell|subject of health and authenticity speculation",
+      "multi_act_source_count": 8,
+      "date_is_article_date": true
     },
     {
       "source_key": "guardian",
@@ -5771,7 +6447,11 @@
         "durable_keys": {}
       },
       "_origin_file": "guardian_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 191
+      "_origin_index": 191,
+      "act_identity": "",
+      "act_key_dateless": "lewis kaplan|ordered release of judgment funds",
+      "multi_act_source_count": 1,
+      "date_is_article_date": false
     },
     {
       "source_key": "justsecurity",
@@ -5804,7 +6484,11 @@
         }
       },
       "_origin_file": "justsecurity_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 12
+      "_origin_index": 12,
+      "act_identity": "cldocket:69050456",
+      "act_key_dateless": "",
+      "multi_act_source_count": 1,
+      "date_is_article_date": false
     },
     {
       "source_key": "justsecurity",
@@ -5840,7 +6524,11 @@
         }
       },
       "_origin_file": "justsecurity_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 103
+      "_origin_index": 103,
+      "act_identity": "cldocket:73588855",
+      "act_key_dateless": "city of salem|filed complaint challenging reservoir drawdown",
+      "multi_act_source_count": 1,
+      "date_is_article_date": false
     },
     {
       "source_key": "justsecurity",
@@ -5878,7 +6566,11 @@
         }
       },
       "_origin_file": "justsecurity_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 242
+      "_origin_index": 242,
+      "act_identity": "cldocket:73587222",
+      "act_key_dateless": "j doe|filed complaint challenging civil penalty",
+      "multi_act_source_count": 1,
+      "date_is_article_date": false
     },
     {
       "source_key": "justsecurity",
@@ -5911,7 +6603,11 @@
         }
       },
       "_origin_file": "justsecurity_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 262
+      "_origin_index": 262,
+      "act_identity": "cldocket:71499795",
+      "act_key_dateless": "",
+      "multi_act_source_count": 1,
+      "date_is_article_date": false
     },
     {
       "source_key": "justsecurity",
@@ -5944,7 +6640,11 @@
         }
       },
       "_origin_file": "justsecurity_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 281
+      "_origin_index": 281,
+      "act_identity": "cldocket:72069932",
+      "act_key_dateless": "",
+      "multi_act_source_count": 1,
+      "date_is_article_date": false
     },
     {
       "source_key": "meidas",
@@ -5975,7 +6675,11 @@
         "durable_keys": {}
       },
       "_origin_file": "meidas_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 311
+      "_origin_index": 311,
+      "act_identity": "",
+      "act_key_dateless": "kennedy center|issued ruling against trump",
+      "multi_act_source_count": 8,
+      "date_is_article_date": true
     },
     {
       "source_key": "meidas",
@@ -6009,7 +6713,11 @@
         "durable_keys": {}
       },
       "_origin_file": "meidas_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 312
+      "_origin_index": 312,
+      "act_identity": "",
+      "act_key_dateless": "trump s legal team|sought to delay judgment payment",
+      "multi_act_source_count": 8,
+      "date_is_article_date": true
     },
     {
       "source_key": "zeteo",
@@ -6044,7 +6752,11 @@
         "durable_keys": {}
       },
       "_origin_file": "zeteo_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 21
+      "_origin_index": 21,
+      "act_identity": "",
+      "act_key_dateless": "trump|demanded supreme court rehearing",
+      "multi_act_source_count": 8,
+      "date_is_article_date": false
     },
     {
       "source_key": "50501",
@@ -6078,7 +6790,11 @@
         "durable_keys": {}
       },
       "_origin_file": "50501_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 18
+      "_origin_index": 18,
+      "act_identity": "",
+      "act_key_dateless": "ice|shot and killed person",
+      "multi_act_source_count": 12,
+      "date_is_article_date": false
     },
     {
       "source_key": "50501",
@@ -6113,7 +6829,11 @@
         "durable_keys": {}
       },
       "_origin_file": "50501_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 32
+      "_origin_index": 32,
+      "act_identity": "",
+      "act_key_dateless": "ice|shot and killed driver during traffic stop",
+      "multi_act_source_count": 8,
+      "date_is_article_date": false
     },
     {
       "source_key": "50501",
@@ -6147,7 +6867,11 @@
         "durable_keys": {}
       },
       "_origin_file": "50501_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 19
+      "_origin_index": 19,
+      "act_identity": "",
+      "act_key_dateless": "doj|threatened election officials with prosecution",
+      "multi_act_source_count": 12,
+      "date_is_article_date": false
     },
     {
       "source_key": "50501",
@@ -6182,7 +6906,11 @@
         "durable_keys": {}
       },
       "_origin_file": "50501_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 34
+      "_origin_index": 34,
+      "act_identity": "",
+      "act_key_dateless": "ice|detained witnesses at undisclosed location",
+      "multi_act_source_count": 8,
+      "date_is_article_date": false
     },
     {
       "source_key": "federalregister",
@@ -6215,7 +6943,11 @@
         }
       },
       "_origin_file": "federalregister_events_2026-07-25_2026-08-07.json",
-      "_origin_index": 70
+      "_origin_index": 70,
+      "act_identity": "fr:2026-15152",
+      "act_key_dateless": "hhs|designated employee class for compensation",
+      "multi_act_source_count": 1,
+      "date_is_article_date": false
     },
     {
       "source_key": "guardian",
@@ -6251,7 +6983,11 @@
         "durable_keys": {}
       },
       "_origin_file": "guardian_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 202
+      "_origin_index": 202,
+      "act_identity": "",
+      "act_key_dateless": "doj|sent threatening letters to states",
+      "multi_act_source_count": 1,
+      "date_is_article_date": false
     },
     {
       "source_key": "guardian",
@@ -6282,7 +7018,11 @@
         "durable_keys": {}
       },
       "_origin_file": "guardian_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 212
+      "_origin_index": 212,
+      "act_identity": "",
+      "act_key_dateless": "chokwe antar lumumba|pleaded guilty to bribery and fraud",
+      "multi_act_source_count": 1,
+      "date_is_article_date": false
     },
     {
       "source_key": "guardian",
@@ -6318,7 +7058,11 @@
         "durable_keys": {}
       },
       "_origin_file": "guardian_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 197
+      "_origin_index": 197,
+      "act_identity": "",
+      "act_key_dateless": "ice|fatally shot immigrant",
+      "multi_act_source_count": 2,
+      "date_is_article_date": false
     },
     {
       "source_key": "guardian",
@@ -6353,7 +7097,11 @@
         "durable_keys": {}
       },
       "_origin_file": "guardian_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 207
+      "_origin_index": 207,
+      "act_identity": "",
+      "act_key_dateless": "ice|fatally shot motorist during traffic stop",
+      "multi_act_source_count": 1,
+      "date_is_article_date": false
     },
     {
       "source_key": "guardian",
@@ -6389,7 +7137,11 @@
         "durable_keys": {}
       },
       "_origin_file": "guardian_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 173
+      "_origin_index": 173,
+      "act_identity": "",
+      "act_key_dateless": "ice|shot and killed driver during enforcement operation",
+      "multi_act_source_count": 1,
+      "date_is_article_date": false
     },
     {
       "source_key": "guardian",
@@ -6424,7 +7176,11 @@
         "durable_keys": {}
       },
       "_origin_file": "guardian_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 148
+      "_origin_index": 148,
+      "act_identity": "",
+      "act_key_dateless": "ice|shot and killed man during vehicle stop",
+      "multi_act_source_count": 1,
+      "date_is_article_date": false
     },
     {
       "source_key": "guardian",
@@ -6460,7 +7216,11 @@
         "durable_keys": {}
       },
       "_origin_file": "guardian_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 155
+      "_origin_index": 155,
+      "act_identity": "",
+      "act_key_dateless": "pete hegseth|announced joint taskforce to prosecute leaks",
+      "multi_act_source_count": 1,
+      "date_is_article_date": false
     },
     {
       "source_key": "hcr",
@@ -6495,7 +7255,11 @@
         "durable_keys": {}
       },
       "_origin_file": "hcr_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 101
+      "_origin_index": 101,
+      "act_identity": "",
+      "act_key_dateless": "doj|sent intimidating letters to election officials",
+      "multi_act_source_count": 1,
+      "date_is_article_date": false
     },
     {
       "source_key": "meidas",
@@ -6530,7 +7294,11 @@
         "durable_keys": {}
       },
       "_origin_file": "meidas_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 281
+      "_origin_index": 281,
+      "act_identity": "",
+      "act_key_dateless": "ice|shot and killed motorist",
+      "multi_act_source_count": 5,
+      "date_is_article_date": false
     },
     {
       "source_key": "democracydocket",
@@ -6565,7 +7333,11 @@
         "durable_keys": {}
       },
       "_origin_file": "democracydocket_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 14
+      "_origin_index": 14,
+      "act_identity": "",
+      "act_key_dateless": "harmeet dhillon|announced election monitors deployment",
+      "multi_act_source_count": 2,
+      "date_is_article_date": false
     },
     {
       "source_key": "democracydocket",
@@ -6600,7 +7372,11 @@
         "durable_keys": {}
       },
       "_origin_file": "democracydocket_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 15
+      "_origin_index": 15,
+      "act_identity": "",
+      "act_key_dateless": "doj|demanded voter registration data",
+      "multi_act_source_count": 2,
+      "date_is_article_date": false
     },
     {
       "source_key": "guardian",
@@ -6631,7 +7407,11 @@
         "durable_keys": {}
       },
       "_origin_file": "guardian_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 209
+      "_origin_index": 209,
+      "act_identity": "",
+      "act_key_dateless": "bernie sanders|called for candidate withdrawal",
+      "multi_act_source_count": 1,
+      "date_is_article_date": false
     },
     {
       "source_key": "guardian",
@@ -6662,7 +7442,11 @@
         "durable_keys": {}
       },
       "_origin_file": "guardian_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 205
+      "_origin_index": 205,
+      "act_identity": "",
+      "act_key_dateless": "michigan democratic party|conducted primary election campaign",
+      "multi_act_source_count": 1,
+      "date_is_article_date": false
     },
     {
       "source_key": "meidas",
@@ -6693,7 +7477,11 @@
         "durable_keys": {}
       },
       "_origin_file": "meidas_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 313
+      "_origin_index": 313,
+      "act_identity": "",
+      "act_key_dateless": "maine democrats|moved to replace senate candidate",
+      "multi_act_source_count": 8,
+      "date_is_article_date": true
     },
     {
       "source_key": "meidas",
@@ -6724,7 +7512,11 @@
         "durable_keys": {}
       },
       "_origin_file": "meidas_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 284
+      "_origin_index": 284,
+      "act_identity": "",
+      "act_key_dateless": "maine democratic party|organized nominating convention",
+      "multi_act_source_count": 12,
+      "date_is_article_date": false
     },
     {
       "source_key": "50501",
@@ -6755,7 +7547,11 @@
         "durable_keys": {}
       },
       "_origin_file": "50501_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 38
+      "_origin_index": 38,
+      "act_identity": "",
+      "act_key_dateless": "magnolia park community members|held vigil and protest against ice",
+      "multi_act_source_count": 8,
+      "date_is_article_date": false
     },
     {
       "source_key": "50501",
@@ -6786,7 +7582,11 @@
         "durable_keys": {}
       },
       "_origin_file": "50501_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 14
+      "_origin_index": 14,
+      "act_identity": "",
+      "act_key_dateless": "houston community members and elected officials|organized protests and vigils",
+      "multi_act_source_count": 2,
+      "date_is_article_date": false
     },
     {
       "source_key": "hcr",
@@ -6821,7 +7621,11 @@
         "durable_keys": {}
       },
       "_origin_file": "hcr_events_2026-08-08_2026-08-14.json",
-      "_origin_index": 37
+      "_origin_index": 37,
+      "act_identity": "",
+      "act_key_dateless": "trump|dismissed press endangerment",
+      "multi_act_source_count": 2,
+      "date_is_article_date": false
     },
     {
       "source_key": "meidas",
@@ -6855,7 +7659,11 @@
         "durable_keys": {}
       },
       "_origin_file": "meidas_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 288
+      "_origin_index": 288,
+      "act_identity": "",
+      "act_key_dateless": "trump|made false peace claims",
+      "multi_act_source_count": 12,
+      "date_is_article_date": false
     },
     {
       "source_key": "meidas",
@@ -6889,7 +7697,11 @@
         "durable_keys": {}
       },
       "_origin_file": "meidas_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 289
+      "_origin_index": 289,
+      "act_identity": "",
+      "act_key_dateless": "trump|made incoherent statement",
+      "multi_act_source_count": 12,
+      "date_is_article_date": false
     },
     {
       "source_key": "meidas",
@@ -6924,7 +7736,11 @@
         "durable_keys": {}
       },
       "_origin_file": "meidas_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 296
+      "_origin_index": 296,
+      "act_identity": "",
+      "act_key_dateless": "white house|attacked journalist via social media",
+      "multi_act_source_count": 12,
+      "date_is_article_date": false
     },
     {
       "source_key": "popinfo",
@@ -6958,7 +7774,11 @@
         "durable_keys": {}
       },
       "_origin_file": "popinfo_events_2026-07-04_2026-07-10.json",
-      "_origin_index": 5
+      "_origin_index": 5,
+      "act_identity": "",
+      "act_key_dateless": "",
+      "multi_act_source_count": 3,
+      "date_is_article_date": true
     },
     {
       "source_key": "federalregister",
@@ -6991,7 +7811,11 @@
         }
       },
       "_origin_file": "federalregister_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 78
+      "_origin_index": 78,
+      "act_identity": "fr:2026-13765",
+      "act_key_dateless": "federal communications commission|announced effective date for submarine cable rules",
+      "multi_act_source_count": 1,
+      "date_is_article_date": false
     },
     {
       "source_key": "federalregister",
@@ -7024,7 +7848,11 @@
         }
       },
       "_origin_file": "federalregister_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 80
+      "_origin_index": 80,
+      "act_identity": "fr:2026-13724",
+      "act_key_dateless": "federal communications commission|submitted information collection request",
+      "multi_act_source_count": 1,
+      "date_is_article_date": false
     },
     {
       "source_key": "federalregister",
@@ -7057,7 +7885,11 @@
         }
       },
       "_origin_file": "federalregister_events_2026-07-04_2026-07-10.json",
-      "_origin_index": 32
+      "_origin_index": 32,
+      "act_identity": "fr:2026-13810",
+      "act_key_dateless": "",
+      "multi_act_source_count": 1,
+      "date_is_article_date": false
     },
     {
       "source_key": "federalregister",
@@ -7090,7 +7922,11 @@
         }
       },
       "_origin_file": "federalregister_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 293
+      "_origin_index": 293,
+      "act_identity": "fr:2026-13778",
+      "act_key_dateless": "fda|announced public meeting and requested comments",
+      "multi_act_source_count": 1,
+      "date_is_article_date": false
     },
     {
       "source_key": "hcr",
@@ -7125,7 +7961,11 @@
         "durable_keys": {}
       },
       "_origin_file": "hcr_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 109
+      "_origin_index": 109,
+      "act_identity": "",
+      "act_key_dateless": "trump|ordered trade cutoff with spain",
+      "multi_act_source_count": 1,
+      "date_is_article_date": false
     },
     {
       "source_key": "meidas",
@@ -7159,7 +7999,11 @@
         "durable_keys": {}
       },
       "_origin_file": "meidas_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 315
+      "_origin_index": 315,
+      "act_identity": "",
+      "act_key_dateless": "trump freedom 250 project|water contamination occurred",
+      "multi_act_source_count": 8,
+      "date_is_article_date": true
     },
     {
       "source_key": "noah",
@@ -7190,7 +8034,11 @@
         "durable_keys": {}
       },
       "_origin_file": "noah_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 2
+      "_origin_index": 2,
+      "act_identity": "",
+      "act_key_dateless": "noah smith|published economic policy critique",
+      "multi_act_source_count": 1,
+      "date_is_article_date": false
     },
     {
       "source_key": "popinfo",
@@ -7224,7 +8072,11 @@
         "durable_keys": {}
       },
       "_origin_file": "popinfo_events_2026-07-04_2026-07-10.json",
-      "_origin_index": 3
+      "_origin_index": 3,
+      "act_identity": "",
+      "act_key_dateless": "",
+      "multi_act_source_count": 3,
+      "date_is_article_date": true
     },
     {
       "source_key": "popinfo",
@@ -7258,7 +8110,11 @@
         "durable_keys": {}
       },
       "_origin_file": "popinfo_events_2026-07-04_2026-07-10.json",
-      "_origin_index": 4
+      "_origin_index": 4,
+      "act_identity": "",
+      "act_key_dateless": "",
+      "multi_act_source_count": 3,
+      "date_is_article_date": true
     },
     {
       "source_key": "federalregister",
@@ -7291,7 +8147,11 @@
         }
       },
       "_origin_file": "federalregister_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 79
+      "_origin_index": 79,
+      "act_identity": "fr:2026-13725",
+      "act_key_dateless": "fcc|submitted information collections for omb review",
+      "multi_act_source_count": 1,
+      "date_is_article_date": false
     },
     {
       "source_key": "guardian",
@@ -7328,7 +8188,11 @@
         "durable_keys": {}
       },
       "_origin_file": "guardian_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 146
+      "_origin_index": 146,
+      "act_identity": "",
+      "act_key_dateless": "marco rubio|launched campaign to dismantle icc",
+      "multi_act_source_count": 1,
+      "date_is_article_date": false
     },
     {
       "source_key": "hcr",
@@ -7362,7 +8226,11 @@
         "durable_keys": {}
       },
       "_origin_file": "hcr_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 112
+      "_origin_index": 112,
+      "act_identity": "",
+      "act_key_dateless": "european officials|expressed loss of confidence in u s",
+      "multi_act_source_count": 1,
+      "date_is_article_date": false
     },
     {
       "source_key": "hcr",
@@ -7393,7 +8261,11 @@
         "durable_keys": {}
       },
       "_origin_file": "hcr_events_2026-07-04_2026-07-10.json",
-      "_origin_index": 6
+      "_origin_index": 6,
+      "act_identity": "",
+      "act_key_dateless": "",
+      "multi_act_source_count": 2,
+      "date_is_article_date": false
     },
     {
       "source_key": "hcr",
@@ -7427,7 +8299,11 @@
         "durable_keys": {}
       },
       "_origin_file": "hcr_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 108
+      "_origin_index": 108,
+      "act_identity": "",
+      "act_key_dateless": "trump|made inflammatory statements about iran",
+      "multi_act_source_count": 1,
+      "date_is_article_date": false
     },
     {
       "source_key": "meidas",
@@ -7461,7 +8337,11 @@
         "durable_keys": {}
       },
       "_origin_file": "meidas_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 310
+      "_origin_index": 310,
+      "act_identity": "",
+      "act_key_dateless": "u s and iran|declared diplomatic agreements void",
+      "multi_act_source_count": 8,
+      "date_is_article_date": true
     },
     {
       "source_key": "meidas",
@@ -7497,7 +8377,11 @@
         "durable_keys": {}
       },
       "_origin_file": "meidas_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 308
+      "_origin_index": 308,
+      "act_identity": "",
+      "act_key_dateless": "trump|threatened war crimes and genocidal rhetoric",
+      "multi_act_source_count": 8,
+      "date_is_article_date": false
     },
     {
       "source_key": "whitehouse",
@@ -7528,7 +8412,11 @@
         "durable_keys": {}
       },
       "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
-      "_origin_index": 359
+      "_origin_index": 359,
+      "act_identity": "",
+      "act_key_dateless": "the white house|issued a fact sheet titled fact sheet president donald j trump secures historic defense investment from nato allies powering american industry",
+      "multi_act_source_count": 1,
+      "date_is_article_date": false
     },
     {
       "source_key": "50501",
@@ -7561,7 +8449,11 @@
         "durable_keys": {}
       },
       "_origin_file": "50501_events_2026-08-08_2026-08-14.json",
-      "_origin_index": 2
+      "_origin_index": 2,
+      "act_identity": "",
+      "act_key_dateless": "secret service|relocated president during security threat",
+      "multi_act_source_count": 1,
+      "date_is_article_date": false
     },
     {
       "source_key": "defense",
@@ -7592,7 +8484,11 @@
         "durable_keys": {}
       },
       "_origin_file": "defense_events_2025-01-20_2026-08-21.json",
-      "_origin_index": 596
+      "_origin_index": 596,
+      "act_identity": "",
+      "act_key_dateless": "the department of war|published remarks titled remarks by under secretary of war for policy elbridge colby at the conference of defense ministers of the americas in cusco peru as prepared",
+      "multi_act_source_count": 1,
+      "date_is_article_date": false
     },
     {
       "source_key": "defense",
@@ -7623,7 +8519,11 @@
         "durable_keys": {}
       },
       "_origin_file": "defense_events_2025-01-20_2026-08-21.json",
-      "_origin_index": 423
+      "_origin_index": 423,
+      "act_identity": "",
+      "act_key_dateless": "the department of war|issued a media advisory titled under secretary of war for policy elbridge colby travels to peru",
+      "multi_act_source_count": 1,
+      "date_is_article_date": false
     },
     {
       "source_key": "guardian",
@@ -7657,7 +8557,11 @@
         "durable_keys": {}
       },
       "_origin_file": "guardian_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 194
+      "_origin_index": 194,
+      "act_identity": "",
+      "act_key_dateless": "tennessee national guard|fatally shot suspect",
+      "multi_act_source_count": 2,
+      "date_is_article_date": false
     },
     {
       "source_key": "hcr",
@@ -7692,7 +8596,11 @@
         "durable_keys": {}
       },
       "_origin_file": "hcr_events_2026-08-08_2026-08-14.json",
-      "_origin_index": 36
+      "_origin_index": 36,
+      "act_identity": "",
+      "act_key_dateless": "trump administration|used staff and press as decoys",
+      "multi_act_source_count": 2,
+      "date_is_article_date": false
     },
     {
       "source_key": "hcr",
@@ -7723,7 +8631,11 @@
         "durable_keys": {}
       },
       "_origin_file": "hcr_events_2026-07-04_2026-07-10.json",
-      "_origin_index": 7
+      "_origin_index": 7,
+      "act_identity": "",
+      "act_key_dateless": "",
+      "multi_act_source_count": 2,
+      "date_is_article_date": false
     },
     {
       "source_key": "hcr",
@@ -7758,7 +8670,11 @@
         "durable_keys": {}
       },
       "_origin_file": "hcr_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 107
+      "_origin_index": 107,
+      "act_identity": "",
+      "act_key_dateless": "trump administration|resumed bombing campaign against iran",
+      "multi_act_source_count": 1,
+      "date_is_article_date": false
     },
     {
       "source_key": "meidas",
@@ -7793,7 +8709,11 @@
         "durable_keys": {}
       },
       "_origin_file": "meidas_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 309
+      "_origin_index": 309,
+      "act_identity": "",
+      "act_key_dateless": "u s military|conducted strikes on iranian targets",
+      "multi_act_source_count": 8,
+      "date_is_article_date": true
     },
     {
       "source_key": "50501",
@@ -7827,7 +8747,11 @@
         "durable_keys": {}
       },
       "_origin_file": "50501_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 20
+      "_origin_index": 20,
+      "act_identity": "",
+      "act_key_dateless": "trump|removed election commission commissioners",
+      "multi_act_source_count": 12,
+      "date_is_article_date": false
     },
     {
       "source_key": "meidas",
@@ -7862,7 +8786,11 @@
         "durable_keys": {}
       },
       "_origin_file": "meidas_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 299
+      "_origin_index": 299,
+      "act_identity": "",
+      "act_key_dateless": "trump|swapped aircraft and misrepresented reason",
+      "multi_act_source_count": 12,
+      "date_is_article_date": true
     },
     {
       "source_key": "whitehouse",
@@ -7893,7 +8821,11 @@
         "durable_keys": {}
       },
       "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
-      "_origin_index": 1355
+      "_origin_index": 1355,
+      "act_identity": "",
+      "act_key_dateless": "the white house|published a release titled white house ceq announces technology solutions selected to showcase at permitting innovators expo",
+      "multi_act_source_count": 1,
+      "date_is_article_date": false
     },
     {
       "source_key": "50501",
@@ -7927,7 +8859,11 @@
         "durable_keys": {}
       },
       "_origin_file": "50501_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 35
+      "_origin_index": 35,
+      "act_identity": "",
+      "act_key_dateless": "sylvia garcia|demanded independent investigation and evidence preservation",
+      "multi_act_source_count": 8,
+      "date_is_article_date": true
     },
     {
       "source_key": "guardian",
@@ -7962,7 +8898,11 @@
         "durable_keys": {}
       },
       "_origin_file": "guardian_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 182
+      "_origin_index": 182,
+      "act_identity": "",
+      "act_key_dateless": "u s congress bipartisan group|sent letter requesting monitoring rules",
+      "multi_act_source_count": 1,
+      "date_is_article_date": false
     },
     {
       "source_key": "meidas",
@@ -7996,7 +8936,11 @@
         "durable_keys": {}
       },
       "_origin_file": "meidas_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 302
+      "_origin_index": 302,
+      "act_identity": "",
+      "act_key_dateless": "lesley groff|provided false testimony to congress",
+      "multi_act_source_count": 12,
+      "date_is_article_date": true
     },
     {
       "source_key": "50501",
@@ -8030,7 +8974,11 @@
         "durable_keys": {}
       },
       "_origin_file": "50501_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 33
+      "_origin_index": 33,
+      "act_identity": "",
+      "act_key_dateless": "dhs office of inspector general|assigned to investigate shooting",
+      "multi_act_source_count": 8,
+      "date_is_article_date": true
     },
     {
       "source_key": "50501",
@@ -8061,7 +9009,11 @@
         "durable_keys": {}
       },
       "_origin_file": "50501_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 23
+      "_origin_index": 23,
+      "act_identity": "",
+      "act_key_dateless": "federal appeals court|ruled on kennedy center naming",
+      "multi_act_source_count": 12,
+      "date_is_article_date": false
     },
     {
       "source_key": "50501",
@@ -8092,7 +9044,11 @@
         "durable_keys": {}
       },
       "_origin_file": "50501_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 24
+      "_origin_index": 24,
+      "act_identity": "",
+      "act_key_dateless": "federal judge|ordered payment to carroll",
+      "multi_act_source_count": 12,
+      "date_is_article_date": false
     },
     {
       "source_key": "guardian",
@@ -8126,7 +9082,11 @@
         "durable_keys": {}
       },
       "_origin_file": "guardian_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 203
+      "_origin_index": 203,
+      "act_identity": "",
+      "act_key_dateless": "aclu of maine|filed lawsuit against jd vance",
+      "multi_act_source_count": 1,
+      "date_is_article_date": false
     },
     {
       "source_key": "guardian",
@@ -8157,7 +9117,11 @@
         "durable_keys": {}
       },
       "_origin_file": "guardian_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 132
+      "_origin_index": 132,
+      "act_identity": "",
+      "act_key_dateless": "lewis kaplan|ordered release of damages payment",
+      "multi_act_source_count": 1,
+      "date_is_article_date": false
     },
     {
       "source_key": "guardian",
@@ -8193,7 +9157,11 @@
         "durable_keys": {}
       },
       "_origin_file": "guardian_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 201
+      "_origin_index": 201,
+      "act_identity": "",
+      "act_key_dateless": "us court of appeals for the district of columbia circuit|rejected emergency stay request",
+      "multi_act_source_count": 1,
+      "date_is_article_date": false
     },
     {
       "source_key": "guardian",
@@ -8227,7 +9195,11 @@
         "durable_keys": {}
       },
       "_origin_file": "guardian_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 199
+      "_origin_index": 199,
+      "act_identity": "",
+      "act_key_dateless": "lewis kaplan|ordered disbursement of judgment funds",
+      "multi_act_source_count": 2,
+      "date_is_article_date": false
     },
     {
       "source_key": "guardian",
@@ -8258,7 +9230,11 @@
         "durable_keys": {}
       },
       "_origin_file": "guardian_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 190
+      "_origin_index": 190,
+      "act_identity": "",
+      "act_key_dateless": "tony graf|ruled on evidence disclosure",
+      "multi_act_source_count": 1,
+      "date_is_article_date": false
     },
     {
       "source_key": "guardian",
@@ -8293,7 +9269,11 @@
         "durable_keys": {}
       },
       "_origin_file": "guardian_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 189
+      "_origin_index": 189,
+      "act_identity": "",
+      "act_key_dateless": "trump|requested supreme court rehearing",
+      "multi_act_source_count": 1,
+      "date_is_article_date": false
     },
     {
       "source_key": "guardian",
@@ -8326,7 +9306,11 @@
         "durable_keys": {}
       },
       "_origin_file": "guardian_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 185
+      "_origin_index": 185,
+      "act_identity": "",
+      "act_key_dateless": "us court of appeals for the second circuit|rejected emergency stay request",
+      "multi_act_source_count": 1,
+      "date_is_article_date": false
     },
     {
       "source_key": "justice",
@@ -8361,7 +9345,11 @@
         "durable_keys": {}
       },
       "_origin_file": "justice_events_2025-01-20_2026-08-14.json",
-      "_origin_index": 492
+      "_origin_index": 492,
+      "act_identity": "",
+      "act_key_dateless": "the department of justice|announced justice department sues maryland over sanctuary policies",
+      "multi_act_source_count": 1,
+      "date_is_article_date": false
     },
     {
       "source_key": "justice",
@@ -8392,7 +9380,11 @@
         "durable_keys": {}
       },
       "_origin_file": "justice_events_2025-01-20_2026-08-14.json",
-      "_origin_index": 491
+      "_origin_index": 491,
+      "act_identity": "",
+      "act_key_dateless": "the department of justice|announced justice department announces end to illegal dei admissions practices at jersey city college prep school",
+      "multi_act_source_count": 1,
+      "date_is_article_date": false
     },
     {
       "source_key": "justsecurity",
@@ -8425,7 +9417,11 @@
         }
       },
       "_origin_file": "justsecurity_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 6
+      "_origin_index": 6,
+      "act_identity": "cldocket:73428721",
+      "act_key_dateless": "",
+      "multi_act_source_count": 2,
+      "date_is_article_date": false
     },
     {
       "source_key": "meidas",
@@ -8456,7 +9452,11 @@
         "durable_keys": {}
       },
       "_origin_file": "meidas_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 306
+      "_origin_index": 306,
+      "act_identity": "",
+      "act_key_dateless": "former olympian|entered not guilty plea",
+      "multi_act_source_count": 12,
+      "date_is_article_date": true
     },
     {
       "source_key": "meidas",
@@ -8487,7 +9487,11 @@
         "durable_keys": {}
       },
       "_origin_file": "meidas_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 300
+      "_origin_index": 300,
+      "act_identity": "",
+      "act_key_dateless": "lewis kaplan|ordered payment of judgment",
+      "multi_act_source_count": 12,
+      "date_is_article_date": true
     },
     {
       "source_key": "50501",
@@ -8523,7 +9527,11 @@
         "durable_keys": {}
       },
       "_origin_file": "50501_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 31
+      "_origin_index": 31,
+      "act_identity": "",
+      "act_key_dateless": "air force|imposed gag order and base restriction",
+      "multi_act_source_count": 1,
+      "date_is_article_date": false
     },
     {
       "source_key": "guardian",
@@ -8558,7 +9566,11 @@
         "durable_keys": {}
       },
       "_origin_file": "guardian_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 127
+      "_origin_index": 127,
+      "act_identity": "",
+      "act_key_dateless": "ice|fatally shot immigrant",
+      "multi_act_source_count": 1,
+      "date_is_article_date": false
     },
     {
       "source_key": "guardian",
@@ -8595,7 +9607,11 @@
         "durable_keys": {}
       },
       "_origin_file": "guardian_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 198
+      "_origin_index": 198,
+      "act_identity": "",
+      "act_key_dateless": "dhs|concealed death obstructed investigation",
+      "multi_act_source_count": 2,
+      "date_is_article_date": false
     },
     {
       "source_key": "guardian",
@@ -8626,7 +9642,11 @@
         "durable_keys": {}
       },
       "_origin_file": "guardian_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 184
+      "_origin_index": 184,
+      "act_identity": "",
+      "act_key_dateless": "seven consumers plaintiffs|filed class action lawsuit",
+      "multi_act_source_count": 1,
+      "date_is_article_date": false
     },
     {
       "source_key": "guardian",
@@ -8662,7 +9682,11 @@
         "durable_keys": {}
       },
       "_origin_file": "guardian_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 186
+      "_origin_index": 186,
+      "act_identity": "",
+      "act_key_dateless": "scotus|ruled on tps removal authority",
+      "multi_act_source_count": 1,
+      "date_is_article_date": false
     },
     {
       "source_key": "hcr",
@@ -8696,7 +9720,11 @@
         "durable_keys": {}
       },
       "_origin_file": "hcr_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 78
+      "_origin_index": 78,
+      "act_identity": "",
+      "act_key_dateless": "ice|shot and killed immigrant",
+      "multi_act_source_count": 2,
+      "date_is_article_date": false
     },
     {
       "source_key": "meidas",
@@ -8730,7 +9758,11 @@
         "durable_keys": {}
       },
       "_origin_file": "meidas_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 295
+      "_origin_index": 295,
+      "act_identity": "",
+      "act_key_dateless": "kash patel|demanded special perks",
+      "multi_act_source_count": 12,
+      "date_is_article_date": true
     },
     {
       "source_key": "meidas",
@@ -8766,7 +9798,11 @@
         "durable_keys": {}
       },
       "_origin_file": "meidas_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 301
+      "_origin_index": 301,
+      "act_identity": "",
+      "act_key_dateless": "ice|fatally shot person during enforcement",
+      "multi_act_source_count": 12,
+      "date_is_article_date": true
     },
     {
       "source_key": "outloud",
@@ -8801,7 +9837,11 @@
         "durable_keys": {}
       },
       "_origin_file": "outloud_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 0
+      "_origin_index": 0,
+      "act_identity": "",
+      "act_key_dateless": "ice|shooting resulting in death",
+      "multi_act_source_count": 3,
+      "date_is_article_date": true
     },
     {
       "source_key": "outloud",
@@ -8836,7 +9876,11 @@
         "durable_keys": {}
       },
       "_origin_file": "outloud_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 1
+      "_origin_index": 1,
+      "act_identity": "",
+      "act_key_dateless": "ice|opened detention facility",
+      "multi_act_source_count": 3,
+      "date_is_article_date": true
     },
     {
       "source_key": "guardian",
@@ -8867,7 +9911,11 @@
         "durable_keys": {}
       },
       "_origin_file": "guardian_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 188
+      "_origin_index": 188,
+      "act_identity": "",
+      "act_key_dateless": "graham platner|suspended senate campaign",
+      "multi_act_source_count": 1,
+      "date_is_article_date": false
     },
     {
       "source_key": "hcr",
@@ -8898,7 +9946,11 @@
         "durable_keys": {}
       },
       "_origin_file": "hcr_events_2026-07-04_2026-07-10.json",
-      "_origin_index": 1
+      "_origin_index": 1,
+      "act_identity": "",
+      "act_key_dateless": "",
+      "multi_act_source_count": 1,
+      "date_is_article_date": false
     },
     {
       "source_key": "meidas",
@@ -8929,7 +9981,11 @@
         "durable_keys": {}
       },
       "_origin_file": "meidas_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 283
+      "_origin_index": 283,
+      "act_identity": "",
+      "act_key_dateless": "graham platner|withdrew from senate race",
+      "multi_act_source_count": 5,
+      "date_is_article_date": false
     },
     {
       "source_key": "meidas",
@@ -8960,7 +10016,11 @@
         "durable_keys": {}
       },
       "_origin_file": "meidas_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 285
+      "_origin_index": 285,
+      "act_identity": "",
+      "act_key_dateless": "graham platner|delayed formal withdrawal filing",
+      "multi_act_source_count": 12,
+      "date_is_article_date": true
     },
     {
       "source_key": "meidas",
@@ -8991,7 +10051,11 @@
         "durable_keys": {}
       },
       "_origin_file": "meidas_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 305
+      "_origin_index": 305,
+      "act_identity": "",
+      "act_key_dateless": "james talarico|outraised opponent in fundraising",
+      "multi_act_source_count": 12,
+      "date_is_article_date": true
     },
     {
       "source_key": "zeteo",
@@ -9026,7 +10090,11 @@
         "durable_keys": {}
       },
       "_origin_file": "zeteo_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 22
+      "_origin_index": 22,
+      "act_identity": "",
+      "act_key_dateless": "trump|fired election commission members",
+      "multi_act_source_count": 8,
+      "date_is_article_date": false
     },
     {
       "source_key": "50501",
@@ -9057,7 +10125,11 @@
         "durable_keys": {}
       },
       "_origin_file": "50501_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 27
+      "_origin_index": 27,
+      "act_identity": "",
+      "act_key_dateless": "houston community|marched and memorialized victim",
+      "multi_act_source_count": 12,
+      "date_is_article_date": false
     },
     {
       "source_key": "50501",
@@ -9091,7 +10163,11 @@
         "durable_keys": {}
       },
       "_origin_file": "50501_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 36
+      "_origin_index": 36,
+      "act_identity": "",
+      "act_key_dateless": "lulac|offered reward for evidence and witness information",
+      "multi_act_source_count": 8,
+      "date_is_article_date": true
     },
     {
       "source_key": "50501",
@@ -9125,7 +10201,11 @@
         "durable_keys": {}
       },
       "_origin_file": "50501_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 39
+      "_origin_index": 39,
+      "act_identity": "",
+      "act_key_dateless": "lulac|launched petition for independent investigation",
+      "multi_act_source_count": 8,
+      "date_is_article_date": true
     },
     {
       "source_key": "hcr",
@@ -9158,7 +10238,11 @@
         "durable_keys": {}
       },
       "_origin_file": "hcr_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 111
+      "_origin_index": 111,
+      "act_identity": "",
+      "act_key_dateless": "j b pritzker|publicly declared president incapacitated",
+      "multi_act_source_count": 1,
+      "date_is_article_date": false
     },
     {
       "source_key": "meidas",
@@ -9192,7 +10276,11 @@
         "durable_keys": {}
       },
       "_origin_file": "meidas_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 273
+      "_origin_index": 273,
+      "act_identity": "",
+      "act_key_dateless": "israeli settlers and israeli military|blocked and intimidated congressman",
+      "multi_act_source_count": 1,
+      "date_is_article_date": false
     },
     {
       "source_key": "50501",
@@ -9226,7 +10314,11 @@
         "durable_keys": {}
       },
       "_origin_file": "50501_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 37
+      "_origin_index": 37,
+      "act_identity": "",
+      "act_key_dateless": "texas tribune|collecting evidence and witness tips",
+      "multi_act_source_count": 8,
+      "date_is_article_date": true
     },
     {
       "source_key": "meidas",
@@ -9260,7 +10352,11 @@
         "durable_keys": {}
       },
       "_origin_file": "meidas_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 293
+      "_origin_index": 293,
+      "act_identity": "",
+      "act_key_dateless": "rick crawford|made unsupported claim",
+      "multi_act_source_count": 12,
+      "date_is_article_date": true
     },
     {
       "source_key": "meidas",
@@ -9294,7 +10390,11 @@
         "durable_keys": {}
       },
       "_origin_file": "meidas_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 294
+      "_origin_index": 294,
+      "act_identity": "",
+      "act_key_dateless": "marsha blackburn|released campaign advertisement",
+      "multi_act_source_count": 12,
+      "date_is_article_date": true
     },
     {
       "source_key": "meidas",
@@ -9328,7 +10428,11 @@
         "durable_keys": {}
       },
       "_origin_file": "meidas_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 292
+      "_origin_index": 292,
+      "act_identity": "",
+      "act_key_dateless": "trump|claimed iran contact",
+      "multi_act_source_count": 12,
+      "date_is_article_date": true
     },
     {
       "source_key": "popinfo",
@@ -9363,7 +10467,11 @@
         "durable_keys": {}
       },
       "_origin_file": "popinfo_events_2026-07-04_2026-07-10.json",
-      "_origin_index": 2
+      "_origin_index": 2,
+      "act_identity": "",
+      "act_key_dateless": "",
+      "multi_act_source_count": 3,
+      "date_is_article_date": true
     },
     {
       "source_key": "defense",
@@ -9394,7 +10502,11 @@
         "durable_keys": {}
       },
       "_origin_file": "defense_events_2025-01-20_2026-08-21.json",
-      "_origin_index": 42
+      "_origin_index": 42,
+      "act_identity": "",
+      "act_key_dateless": "the department of war|issued a press release titled department of war announces awards 86 million joint laser weapon system agreements to scale directed energy capabilities",
+      "multi_act_source_count": 1,
+      "date_is_article_date": false
     },
     {
       "source_key": "federalregister",
@@ -9427,7 +10539,11 @@
         }
       },
       "_origin_file": "federalregister_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 142
+      "_origin_index": 142,
+      "act_identity": "fr:2026-13843",
+      "act_key_dateless": "epa|approved air quality redesignation",
+      "multi_act_source_count": 1,
+      "date_is_article_date": false
     },
     {
       "source_key": "federalregister",
@@ -9460,7 +10576,11 @@
         }
       },
       "_origin_file": "federalregister_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 77
+      "_origin_index": 77,
+      "act_identity": "fr:2026-13873",
+      "act_key_dateless": "federal communications commission|announced effective date for rules",
+      "multi_act_source_count": 1,
+      "date_is_article_date": false
     },
     {
       "source_key": "federalregister",
@@ -9493,7 +10613,11 @@
         }
       },
       "_origin_file": "federalregister_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 292
+      "_origin_index": 292,
+      "act_identity": "fr:2026-13820",
+      "act_key_dateless": "fda|determined drug withdrawal reason",
+      "multi_act_source_count": 1,
+      "date_is_article_date": false
     },
     {
       "source_key": "federalregister",
@@ -9526,7 +10650,11 @@
         }
       },
       "_origin_file": "federalregister_events_2026-07-25_2026-08-07.json",
-      "_origin_index": 72
+      "_origin_index": 72,
+      "act_identity": "fr:2026-15964",
+      "act_key_dateless": "fda|issued emergency use authorization",
+      "multi_act_source_count": 1,
+      "date_is_article_date": false
     },
     {
       "source_key": "federalregister",
@@ -9559,7 +10687,11 @@
         }
       },
       "_origin_file": "federalregister_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 58
+      "_origin_index": 58,
+      "act_identity": "fr:2026-13871",
+      "act_key_dateless": "gsa|issued notice of intent",
+      "multi_act_source_count": 1,
+      "date_is_article_date": false
     },
     {
       "source_key": "federalregister",
@@ -9596,7 +10728,11 @@
         }
       },
       "_origin_file": "federalregister_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 379
+      "_origin_index": 379,
+      "act_identity": "fr:2026-14452",
+      "act_key_dateless": "trump|issued environmental exemption proclamation",
+      "multi_act_source_count": 1,
+      "date_is_article_date": false
     },
     {
       "source_key": "federalregister",
@@ -9632,7 +10768,11 @@
         }
       },
       "_origin_file": "federalregister_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 380
+      "_origin_index": 380,
+      "act_identity": "fr:2026-14334",
+      "act_key_dateless": "trump|issued proclamation directing trade negotiations",
+      "multi_act_source_count": 1,
+      "date_is_article_date": false
     },
     {
       "source_key": "meidas",
@@ -9667,7 +10807,11 @@
         "durable_keys": {}
       },
       "_origin_file": "meidas_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 298
+      "_origin_index": 298,
+      "act_identity": "",
+      "act_key_dateless": "trump administration|depleted strategic petroleum reserve",
+      "multi_act_source_count": 12,
+      "date_is_article_date": true
     },
     {
       "source_key": "popinfo",
@@ -9702,7 +10846,11 @@
         "durable_keys": {}
       },
       "_origin_file": "popinfo_events_2026-07-04_2026-07-10.json",
-      "_origin_index": 0
+      "_origin_index": 0,
+      "act_identity": "",
+      "act_key_dateless": "",
+      "multi_act_source_count": 3,
+      "date_is_article_date": true
     },
     {
       "source_key": "whitehouse",
@@ -9736,7 +10884,11 @@
         "durable_keys": {}
       },
       "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
-      "_origin_index": 882
+      "_origin_index": 882,
+      "act_identity": "",
+      "act_key_dateless": "the white house|announced a proclamation titled adjusting imports of commercial aircraft jet engines and aircraft and engine parts into the united states",
+      "multi_act_source_count": 1,
+      "date_is_article_date": false
     },
     {
       "source_key": "whitehouse",
@@ -9771,7 +10923,11 @@
         "durable_keys": {}
       },
       "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
-      "_origin_index": 878
+      "_origin_index": 878,
+      "act_identity": "",
+      "act_key_dateless": "the white house|announced a proclamation titled regulatory relief for certain stationary sources to promote american chemical manufacturing security",
+      "multi_act_source_count": 1,
+      "date_is_article_date": false
     },
     {
       "source_key": "whitehouse",
@@ -9806,7 +10962,11 @@
         "durable_keys": {}
       },
       "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
-      "_origin_index": 358
+      "_origin_index": 358,
+      "act_identity": "",
+      "act_key_dateless": "the white house|issued a fact sheet titled fact sheet president donald j trump adjusts imports of commercial aircraft jet engines and aircraft and engine parts into the united states",
+      "multi_act_source_count": 1,
+      "date_is_article_date": false
     },
     {
       "source_key": "whitehouse",
@@ -9837,7 +10997,11 @@
         "durable_keys": {}
       },
       "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
-      "_origin_index": 1356
+      "_origin_index": 1356,
+      "act_identity": "",
+      "act_key_dateless": "the white house|published a release titled white house announces additional 277 million to fight cartels and drug traffickers",
+      "multi_act_source_count": 1,
+      "date_is_article_date": false
     },
     {
       "source_key": "federalregister",
@@ -9870,7 +11034,11 @@
         }
       },
       "_origin_file": "federalregister_events_2026-07-04_2026-07-10.json",
-      "_origin_index": 6
+      "_origin_index": 6,
+      "act_identity": "fr:2026-13879",
+      "act_key_dateless": "",
+      "multi_act_source_count": 1,
+      "date_is_article_date": false
     },
     {
       "source_key": "hcr",
@@ -9905,7 +11073,11 @@
         "durable_keys": {}
       },
       "_origin_file": "hcr_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 113
+      "_origin_index": 113,
+      "act_identity": "",
+      "act_key_dateless": "jared kushner|raised capital from foreign governments",
+      "multi_act_source_count": 1,
+      "date_is_article_date": false
     },
     {
       "source_key": "hcr",
@@ -9940,7 +11112,11 @@
         "durable_keys": {}
       },
       "_origin_file": "hcr_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 84
+      "_origin_index": 84,
+      "act_identity": "",
+      "act_key_dateless": "trump|nominated personal lawyer as attorney general",
+      "multi_act_source_count": 2,
+      "date_is_article_date": false
     },
     {
       "source_key": "hcr",
@@ -9975,7 +11151,11 @@
         "durable_keys": {}
       },
       "_origin_file": "hcr_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 102
+      "_origin_index": 102,
+      "act_identity": "",
+      "act_key_dateless": "trump|fired election commission members",
+      "multi_act_source_count": 1,
+      "date_is_article_date": false
     },
     {
       "source_key": "federalregister",
@@ -10008,7 +11188,11 @@
         }
       },
       "_origin_file": "federalregister_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 140
+      "_origin_index": 140,
+      "act_identity": "fr:2026-13902",
+      "act_key_dateless": "epa|solicited public comments on information collection",
+      "multi_act_source_count": 1,
+      "date_is_article_date": false
     },
     {
       "source_key": "federalregister",
@@ -10041,7 +11225,11 @@
         }
       },
       "_origin_file": "federalregister_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 141
+      "_origin_index": 141,
+      "act_identity": "fr:2026-13849",
+      "act_key_dateless": "epa|solicited public comments on information collection",
+      "multi_act_source_count": 1,
+      "date_is_article_date": false
     },
     {
       "source_key": "federalregister",
@@ -10077,7 +11265,11 @@
         }
       },
       "_origin_file": "federalregister_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 29
+      "_origin_index": 29,
+      "act_identity": "fr:2026-14074",
+      "act_key_dateless": "transportation security administration|submitted information collection request",
+      "multi_act_source_count": 1,
+      "date_is_article_date": false
     },
     {
       "source_key": "meidas",
@@ -10111,7 +11303,11 @@
         "durable_keys": {}
       },
       "_origin_file": "meidas_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 282
+      "_origin_index": 282,
+      "act_identity": "",
+      "act_key_dateless": "doj|withheld records from state investigation",
+      "multi_act_source_count": 5,
+      "date_is_article_date": true
     },
     {
       "source_key": "meidas",
@@ -10144,7 +11340,11 @@
         "durable_keys": {}
       },
       "_origin_file": "meidas_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 286
+      "_origin_index": 286,
+      "act_identity": "",
+      "act_key_dateless": "andy beshear|demanded health disclosure",
+      "multi_act_source_count": 12,
+      "date_is_article_date": true
     },
     {
       "source_key": "meidas",
@@ -10179,7 +11379,11 @@
         "durable_keys": {}
       },
       "_origin_file": "meidas_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 307
+      "_origin_index": 307,
+      "act_identity": "",
+      "act_key_dateless": "white house|wrapped columns and denied activity",
+      "multi_act_source_count": 12,
+      "date_is_article_date": true
     },
     {
       "source_key": "popinfo",
@@ -10213,7 +11417,11 @@
         "durable_keys": {}
       },
       "_origin_file": "popinfo_events_2026-07-04_2026-07-10.json",
-      "_origin_index": 1
+      "_origin_index": 1,
+      "act_identity": "",
+      "act_key_dateless": "",
+      "multi_act_source_count": 3,
+      "date_is_article_date": true
     },
     {
       "source_key": "50501",
@@ -10247,7 +11455,11 @@
         "durable_keys": {}
       },
       "_origin_file": "50501_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 22
+      "_origin_index": 22,
+      "act_identity": "",
+      "act_key_dateless": "trump|terminated ceasefire and launched strikes",
+      "multi_act_source_count": 12,
+      "date_is_article_date": false
     },
     {
       "source_key": "guardian",
@@ -10281,7 +11493,11 @@
         "durable_keys": {}
       },
       "_origin_file": "guardian_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 162
+      "_origin_index": 162,
+      "act_identity": "",
+      "act_key_dateless": "israeli settlers and israeli defense forces|detained us congressional delegation",
+      "multi_act_source_count": 1,
+      "date_is_article_date": false
     },
     {
       "source_key": "meidas",
@@ -10314,7 +11530,11 @@
         "durable_keys": {}
       },
       "_origin_file": "meidas_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 291
+      "_origin_index": 291,
+      "act_identity": "",
+      "act_key_dateless": "iran irgc|attacked u s military base",
+      "multi_act_source_count": 12,
+      "date_is_article_date": true
     },
     {
       "source_key": "meidas",
@@ -10348,7 +11568,11 @@
         "durable_keys": {}
       },
       "_origin_file": "meidas_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 297
+      "_origin_index": 297,
+      "act_identity": "",
+      "act_key_dateless": "iran|launched retaliatory military strikes",
+      "multi_act_source_count": 12,
+      "date_is_article_date": true
     },
     {
       "source_key": "meidas",
@@ -10381,7 +11605,11 @@
         "durable_keys": {}
       },
       "_origin_file": "meidas_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 303
+      "_origin_index": 303,
+      "act_identity": "",
+      "act_key_dateless": "netanyahu|declared war ongoing",
+      "multi_act_source_count": 12,
+      "date_is_article_date": true
     },
     {
       "source_key": "meidas",
@@ -10416,7 +11644,11 @@
         "durable_keys": {}
       },
       "_origin_file": "meidas_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 304
+      "_origin_index": 304,
+      "act_identity": "",
+      "act_key_dateless": "marco rubio|convened countries on terrorism threat",
+      "multi_act_source_count": 12,
+      "date_is_article_date": true
     },
     {
       "source_key": "meidas",
@@ -10450,7 +11682,11 @@
         "durable_keys": {}
       },
       "_origin_file": "meidas_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 290
+      "_origin_index": 290,
+      "act_identity": "",
+      "act_key_dateless": "u s military|conducted strikes on iran",
+      "multi_act_source_count": 12,
+      "date_is_article_date": true
     },
     {
       "source_key": "outloud",
@@ -10484,7 +11720,11 @@
         "durable_keys": {}
       },
       "_origin_file": "outloud_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 2
+      "_origin_index": 2,
+      "act_identity": "",
+      "act_key_dateless": "united nations|called for investigation",
+      "multi_act_source_count": 3,
+      "date_is_article_date": true
     },
     {
       "source_key": "guardian",
@@ -10519,7 +11759,11 @@
         "durable_keys": {}
       },
       "_origin_file": "guardian_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 192
+      "_origin_index": 192,
+      "act_identity": "",
+      "act_key_dateless": "memphis safe task force|shot and killed suspect",
+      "multi_act_source_count": 2,
+      "date_is_article_date": false
     },
     {
       "source_key": "hcr",
@@ -10553,7 +11797,11 @@
         "durable_keys": {}
       },
       "_origin_file": "hcr_events_2026-07-25_2026-08-07.json",
-      "_origin_index": 8
+      "_origin_index": 8,
+      "act_identity": "",
+      "act_key_dateless": "trump|notified congress of second iran engagement",
+      "multi_act_source_count": 1,
+      "date_is_article_date": false
     },
     {
       "source_key": "hcr",
@@ -10587,7 +11835,11 @@
         "durable_keys": {}
       },
       "_origin_file": "hcr_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 100
+      "_origin_index": 100,
+      "act_identity": "",
+      "act_key_dateless": "trump|refused to sign housing bill",
+      "multi_act_source_count": 1,
+      "date_is_article_date": false
     },
     {
       "source_key": "meidas",
@@ -10620,7 +11872,11 @@
         "durable_keys": {}
       },
       "_origin_file": "meidas_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 279
+      "_origin_index": 279,
+      "act_identity": "",
+      "act_key_dateless": "trump|declined to sign housing bill",
+      "multi_act_source_count": 5,
+      "date_is_article_date": false
     },
     {
       "source_key": "noah",
@@ -10654,7 +11910,11 @@
         "durable_keys": {}
       },
       "_origin_file": "noah_events_2026-07-04_2026-07-10.json",
-      "_origin_index": 0
+      "_origin_index": 0,
+      "act_identity": "",
+      "act_key_dateless": "",
+      "multi_act_source_count": 1,
+      "date_is_article_date": false
     },
     {
       "source_key": "hcr",
@@ -10685,7 +11945,11 @@
         "durable_keys": {}
       },
       "_origin_file": "hcr_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 105
+      "_origin_index": 105,
+      "act_identity": "",
+      "act_key_dateless": "congress|passed housing bill without signature",
+      "multi_act_source_count": 1,
+      "date_is_article_date": false
     },
     {
       "source_key": "guardian",
@@ -10721,7 +11985,11 @@
         "durable_keys": {}
       },
       "_origin_file": "guardian_events_2026-07-25_2026-08-07.json",
-      "_origin_index": 78
+      "_origin_index": 78,
+      "act_identity": "",
+      "act_key_dateless": "alanis family|filed wrongful death lawsuit",
+      "multi_act_source_count": 5,
+      "date_is_article_date": true
     },
     {
       "source_key": "guardian",
@@ -10752,7 +12020,11 @@
         "durable_keys": {}
       },
       "_origin_file": "guardian_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 180
+      "_origin_index": 180,
+      "act_identity": "",
+      "act_key_dateless": "tony graf|conducted preliminary hearing scheduled final arguments",
+      "multi_act_source_count": 1,
+      "date_is_article_date": false
     },
     {
       "source_key": "justsecurity",
@@ -10785,7 +12057,11 @@
         }
       },
       "_origin_file": "justsecurity_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 301
+      "_origin_index": 301,
+      "act_identity": "cldocket:71444462",
+      "act_key_dateless": "",
+      "multi_act_source_count": 1,
+      "date_is_article_date": false
     },
     {
       "source_key": "justsecurity",
@@ -10818,7 +12094,11 @@
         }
       },
       "_origin_file": "justsecurity_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 35
+      "_origin_index": 35,
+      "act_identity": "cldocket:72491415",
+      "act_key_dateless": "",
+      "multi_act_source_count": 1,
+      "date_is_article_date": false
     },
     {
       "source_key": "justsecurity",
@@ -10851,7 +12131,11 @@
         }
       },
       "_origin_file": "justsecurity_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 108
+      "_origin_index": 108,
+      "act_identity": "cldocket:73602164",
+      "act_key_dateless": "greenwich terminals llc|filed complaint",
+      "multi_act_source_count": 1,
+      "date_is_article_date": false
     },
     {
       "source_key": "justsecurity",
@@ -10884,7 +12168,11 @@
         }
       },
       "_origin_file": "justsecurity_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 91
+      "_origin_index": 91,
+      "act_identity": "cldocket:73438118",
+      "act_key_dateless": "",
+      "multi_act_source_count": 1,
+      "date_is_article_date": false
     },
     {
       "source_key": "justsecurity",
@@ -10917,7 +12205,11 @@
         }
       },
       "_origin_file": "justsecurity_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 222
+      "_origin_index": 222,
+      "act_identity": "cldocket:70990996",
+      "act_key_dateless": "",
+      "multi_act_source_count": 1,
+      "date_is_article_date": false
     },
     {
       "source_key": "justsecurity",
@@ -10954,7 +12246,11 @@
         }
       },
       "_origin_file": "justsecurity_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 68
+      "_origin_index": 68,
+      "act_identity": "cldocket:73296563",
+      "act_key_dateless": "the new york times company|filed answer and counterclaims",
+      "multi_act_source_count": 1,
+      "date_is_article_date": false
     },
     {
       "source_key": "scotusblog",
@@ -10985,7 +12281,11 @@
         "durable_keys": {}
       },
       "_origin_file": "scotusblog_events_2026-07-04_2026-07-10.json",
-      "_origin_index": 1
+      "_origin_index": 1,
+      "act_identity": "",
+      "act_key_dateless": "",
+      "multi_act_source_count": 1,
+      "date_is_article_date": false
     },
     {
       "source_key": "guardian",
@@ -11020,7 +12320,11 @@
         "durable_keys": {}
       },
       "_origin_file": "guardian_events_2025-11-29_2026-03-06.json",
-      "_origin_index": 275
+      "_origin_index": 275,
+      "act_identity": "",
+      "act_key_dateless": "ice|detained u s citizen without due process",
+      "multi_act_source_count": 1,
+      "date_is_article_date": false
     },
     {
       "source_key": "guardian",
@@ -11055,7 +12359,11 @@
         "durable_keys": {}
       },
       "_origin_file": "guardian_events_2026-07-25_2026-08-07.json",
-      "_origin_index": 85
+      "_origin_index": 85,
+      "act_identity": "",
+      "act_key_dateless": "border patrol|seized journalist cellphones without warrant",
+      "multi_act_source_count": 1,
+      "date_is_article_date": false
     },
     {
       "source_key": "guardian",
@@ -11089,7 +12397,11 @@
         "durable_keys": {}
       },
       "_origin_file": "guardian_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 183
+      "_origin_index": 183,
+      "act_identity": "",
+      "act_key_dateless": "us attorney for washington dc jeanine pirro|indicted and prosecuted for property destruction",
+      "multi_act_source_count": 1,
+      "date_is_article_date": false
     },
     {
       "source_key": "guardian",
@@ -11124,7 +12436,11 @@
         "durable_keys": {}
       },
       "_origin_file": "guardian_events_2026-07-25_2026-08-07.json",
-      "_origin_index": 71
+      "_origin_index": 71,
+      "act_identity": "",
+      "act_key_dateless": "ice|arrested and detained citizen",
+      "multi_act_source_count": 5,
+      "date_is_article_date": false
     },
     {
       "source_key": "guardian",
@@ -11160,7 +12476,11 @@
         "durable_keys": {}
       },
       "_origin_file": "guardian_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 71
+      "_origin_index": 71,
+      "act_identity": "",
+      "act_key_dateless": "ice|shot and killed unarmed immigrant",
+      "multi_act_source_count": 2,
+      "date_is_article_date": false
     },
     {
       "source_key": "guardian",
@@ -11198,7 +12518,11 @@
         "durable_keys": {}
       },
       "_origin_file": "guardian_events_2026-07-25_2026-08-07.json",
-      "_origin_index": 69
+      "_origin_index": 69,
+      "act_identity": "",
+      "act_key_dateless": "ice|conducted armed raid and deployed chemical munitions",
+      "multi_act_source_count": 5,
+      "date_is_article_date": false
     },
     {
       "source_key": "guardian",
@@ -11235,7 +12559,11 @@
         "durable_keys": {}
       },
       "_origin_file": "guardian_events_2026-07-25_2026-08-07.json",
-      "_origin_index": 75
+      "_origin_index": 75,
+      "act_identity": "",
+      "act_key_dateless": "ice|raid resulted in worker death",
+      "multi_act_source_count": 5,
+      "date_is_article_date": false
     },
     {
       "source_key": "guardian",
@@ -11273,7 +12601,11 @@
         "durable_keys": {}
       },
       "_origin_file": "guardian_events_2026-07-25_2026-08-07.json",
-      "_origin_index": 70
+      "_origin_index": 70,
+      "act_identity": "",
+      "act_key_dateless": "federal prosecutors|indicted and prosecuted protester",
+      "multi_act_source_count": 5,
+      "date_is_article_date": false
     },
     {
       "source_key": "guardian",
@@ -11307,7 +12639,11 @@
         "durable_keys": {}
       },
       "_origin_file": "guardian_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 179
+      "_origin_index": 179,
+      "act_identity": "",
+      "act_key_dateless": "marco rubio|revoked legal status and deported immigrant",
+      "multi_act_source_count": 1,
+      "date_is_article_date": false
     },
     {
       "source_key": "justice",
@@ -11338,7 +12674,11 @@
         "durable_keys": {}
       },
       "_origin_file": "justice_events_2025-01-20_2026-08-14.json",
-      "_origin_index": 494
+      "_origin_index": 494,
+      "act_identity": "",
+      "act_key_dateless": "the department of justice|announced former chief operating officer office of the director of national intelligence pays 20 000 for post employment restriction violation",
+      "multi_act_source_count": 1,
+      "date_is_article_date": false
     },
     {
       "source_key": "whitehouse",
@@ -11369,7 +12709,11 @@
         "durable_keys": {}
       },
       "_origin_file": "whitehouse_events_2025-01-20_2026-08-21.json",
-      "_origin_index": 32
+      "_origin_index": 32,
+      "act_identity": "",
+      "act_key_dateless": "the white house|published a release titled minnesota democrats pardoned a convicted child rapist president trump deported him",
+      "multi_act_source_count": 1,
+      "date_is_article_date": false
     },
     {
       "source_key": "zeteo",
@@ -11404,7 +12748,11 @@
         "durable_keys": {}
       },
       "_origin_file": "zeteo_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 18
+      "_origin_index": 18,
+      "act_identity": "",
+      "act_key_dateless": "ice|investigated citizens for criticism",
+      "multi_act_source_count": 8,
+      "date_is_article_date": true
     },
     {
       "source_key": "zeteo",
@@ -11438,7 +12786,11 @@
         "durable_keys": {}
       },
       "_origin_file": "zeteo_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 19
+      "_origin_index": 19,
+      "act_identity": "",
+      "act_key_dateless": "trump administration|announced detention facility expansion",
+      "multi_act_source_count": 8,
+      "date_is_article_date": true
     },
     {
       "source_key": "guardian",
@@ -11469,7 +12821,11 @@
         "durable_keys": {}
       },
       "_origin_file": "guardian_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 174
+      "_origin_index": 174,
+      "act_identity": "",
+      "act_key_dateless": "graham platner|withdrew senate candidacy",
+      "multi_act_source_count": 1,
+      "date_is_article_date": false
     },
     {
       "source_key": "50501",
@@ -11500,7 +12856,11 @@
         "durable_keys": {}
       },
       "_origin_file": "50501_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 28
+      "_origin_index": 28,
+      "act_identity": "",
+      "act_key_dateless": "olivia rodrigo|promoted voter registration",
+      "multi_act_source_count": 12,
+      "date_is_article_date": false
     },
     {
       "source_key": "hcr",
@@ -11534,7 +12894,11 @@
         "durable_keys": {}
       },
       "_origin_file": "hcr_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 104
+      "_origin_index": 104,
+      "act_identity": "",
+      "act_key_dateless": "trump administration|sought permanent fencing around public spaces",
+      "multi_act_source_count": 1,
+      "date_is_article_date": false
     },
     {
       "source_key": "hcr",
@@ -11565,7 +12929,11 @@
         "durable_keys": {}
       },
       "_origin_file": "hcr_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 106
+      "_origin_index": 106,
+      "act_identity": "",
+      "act_key_dateless": "heather cox richardson|published historical essay",
+      "multi_act_source_count": 1,
+      "date_is_article_date": false
     },
     {
       "source_key": "federalregister",
@@ -11598,7 +12966,11 @@
         }
       },
       "_origin_file": "federalregister_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 139
+      "_origin_index": 139,
+      "act_identity": "fr:2026-13961",
+      "act_key_dateless": "environmental protection agency|published environmental impact statement notice",
+      "multi_act_source_count": 1,
+      "date_is_article_date": false
     },
     {
       "source_key": "federalregister",
@@ -11631,7 +13003,11 @@
         }
       },
       "_origin_file": "federalregister_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 76
+      "_origin_index": 76,
+      "act_identity": "fr:2026-13995",
+      "act_key_dateless": "federal communications commission|submitted information collection for review",
+      "multi_act_source_count": 1,
+      "date_is_article_date": false
     },
     {
       "source_key": "federalregister",
@@ -11664,7 +13040,11 @@
         }
       },
       "_origin_file": "federalregister_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 109
+      "_origin_index": 109,
+      "act_identity": "fr:2026-13927",
+      "act_key_dateless": "osha|requested omb extension of information collection approval",
+      "multi_act_source_count": 1,
+      "date_is_article_date": false
     },
     {
       "source_key": "guardian",
@@ -11695,7 +13075,11 @@
         "durable_keys": {}
       },
       "_origin_file": "guardian_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 177
+      "_origin_index": 177,
+      "act_identity": "",
+      "act_key_dateless": "new york city consumer protection office|adopted deceptive subscription ban rule",
+      "multi_act_source_count": 2,
+      "date_is_article_date": false
     },
     {
       "source_key": "guardian",
@@ -11726,7 +13110,11 @@
         "durable_keys": {}
       },
       "_origin_file": "guardian_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 178
+      "_origin_index": 178,
+      "act_identity": "",
+      "act_key_dateless": "new york city consumer protection office|proposed junk fee disclosure rule",
+      "multi_act_source_count": 2,
+      "date_is_article_date": false
     },
     {
       "source_key": "zeteo",
@@ -11761,7 +13149,11 @@
         "durable_keys": {}
       },
       "_origin_file": "zeteo_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 23
+      "_origin_index": 23,
+      "act_identity": "",
+      "act_key_dateless": "trump administration|eliminated endangered species protections",
+      "multi_act_source_count": 8,
+      "date_is_article_date": false
     },
     {
       "source_key": "guardian",
@@ -11796,7 +13188,11 @@
         "durable_keys": {}
       },
       "_origin_file": "guardian_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 98
+      "_origin_index": 98,
+      "act_identity": "",
+      "act_key_dateless": "erica schwartz|testified at confirmation hearing",
+      "multi_act_source_count": 1,
+      "date_is_article_date": false
     },
     {
       "source_key": "guardian",
@@ -11834,7 +13230,11 @@
         "durable_keys": {}
       },
       "_origin_file": "guardian_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 176
+      "_origin_index": 176,
+      "act_identity": "",
+      "act_key_dateless": "trump administration|appointed climate denier to lead research program",
+      "multi_act_source_count": 1,
+      "date_is_article_date": false
     },
     {
       "source_key": "guardian",
@@ -11869,7 +13269,11 @@
         "durable_keys": {}
       },
       "_origin_file": "guardian_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 170
+      "_origin_index": 170,
+      "act_identity": "",
+      "act_key_dateless": "trump|fired election commissioners",
+      "multi_act_source_count": 1,
+      "date_is_article_date": false
     },
     {
       "source_key": "meidas",
@@ -11904,7 +13308,11 @@
         "durable_keys": {}
       },
       "_origin_file": "meidas_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 280
+      "_origin_index": 280,
+      "act_identity": "",
+      "act_key_dateless": "trump|terminated election commission members",
+      "multi_act_source_count": 5,
+      "date_is_article_date": true
     },
     {
       "source_key": "defense",
@@ -11935,7 +13343,11 @@
         "durable_keys": {}
       },
       "_origin_file": "defense_events_2025-01-20_2026-08-21.json",
-      "_origin_index": 41
+      "_origin_index": 41,
+      "act_identity": "",
+      "act_key_dateless": "the department of war|issued a press release titled department of war publishes fourth release of unidentified anomalous phenomena files on war gov ufo",
+      "multi_act_source_count": 1,
+      "date_is_article_date": false
     },
     {
       "source_key": "federalregister",
@@ -11968,7 +13380,11 @@
         }
       },
       "_origin_file": "federalregister_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 48
+      "_origin_index": 48,
+      "act_identity": "fr:2026-13912",
+      "act_key_dateless": "national archives and records administration|published records schedules for comment",
+      "multi_act_source_count": 1,
+      "date_is_article_date": false
     },
     {
       "source_key": "50501",
@@ -12002,7 +13418,11 @@
         "durable_keys": {}
       },
       "_origin_file": "50501_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 26
+      "_origin_index": 26,
+      "act_identity": "",
+      "act_key_dateless": "mexico|requested criminal charges for deaths",
+      "multi_act_source_count": 12,
+      "date_is_article_date": false
     },
     {
       "source_key": "50501",
@@ -12036,7 +13456,11 @@
         "durable_keys": {}
       },
       "_origin_file": "50501_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 25
+      "_origin_index": 25,
+      "act_identity": "",
+      "act_key_dateless": "air force|restricted officer to base with gag order",
+      "multi_act_source_count": 12,
+      "date_is_article_date": true
     },
     {
       "source_key": "defense",
@@ -12067,7 +13491,11 @@
         "durable_keys": {}
       },
       "_origin_file": "defense_events_2025-01-20_2026-08-21.json",
-      "_origin_index": 40
+      "_origin_index": 40,
+      "act_identity": "",
+      "act_key_dateless": "the department of war|issued a press release titled department of war establishes the directed energy bio effects cross functional team delivering first havana act payments",
+      "multi_act_source_count": 1,
+      "date_is_article_date": false
     },
     {
       "source_key": "defense",
@@ -12098,7 +13526,11 @@
         "durable_keys": {}
       },
       "_origin_file": "defense_events_2025-01-20_2026-08-21.json",
-      "_origin_index": 39
+      "_origin_index": 39,
+      "act_identity": "",
+      "act_key_dateless": "the department of war|issued a press release titled u s navy to christen future uss george m neal",
+      "multi_act_source_count": 1,
+      "date_is_article_date": false
     },
     {
       "source_key": "hcr",
@@ -12131,7 +13563,11 @@
         "durable_keys": {}
       },
       "_origin_file": "hcr_events_2026-05-16_2026-07-24.json",
-      "_origin_index": 103
+      "_origin_index": 103,
+      "act_identity": "",
+      "act_key_dateless": "white house|fortified white house entrance",
+      "multi_act_source_count": 1,
+      "date_is_article_date": false
     },
     {
       "source_key": "zeteo",
@@ -12166,7 +13602,16 @@
         "durable_keys": {}
       },
       "_origin_file": "zeteo_events_2026-08-08_2026-08-14.json",
-      "_origin_index": 5
+      "_origin_index": 5,
+      "act_identity": "",
+      "act_key_dateless": "trump|used officials as human shields",
+      "multi_act_source_count": 1,
+      "date_is_article_date": false
     }
-  ]
+  ],
+  "act_identity_backfill": {
+    "applied": "2026-10-06T08:29:52+00:00",
+    "multi_act_threshold": 3,
+    "note": "Four additive fields. `act_key` is unchanged and still means what it meant. A grouper should prefer act_identity > act_key_dateless > act_key."
+  }
 }
